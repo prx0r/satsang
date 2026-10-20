@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tantrafiles.xyz/schema/practice-v2.json",
+  "title": "Practice v2 (executable)",
+  "description": "Practice v1 (specs/schema/practice.json) plus PRACTICE-ENGINE.md §2 facets, safety, and an executable script that engine/compile.mjs turns into a timeline. Every v1 field keeps its meaning; v2 adds schema_version, facets, safety, script.",
+  "allOf": [{ "$ref": "practice.json" }],
+  "type": "object",
+  "required": ["schema_version", "script", "safety"],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "facets": {
+      "type": "object",
+      "properties": {
+        "method": { "type": "array", "items": { "type": "string" } },
+        "locus": { "type": "array", "items": { "type": "string" }, "description": "grammar.json loci/regions/paths ids" },
+        "aim": { "type": "array", "items": { "type": "string" } },
+        "level": { "enum": ["first-steps", "steady", "deep"] },
+        "intensity": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "needs_teacher": { "type": "boolean" },
+        "needs_teacher_note": { "type": "string" },
+        "initiation_required": { "type": "boolean" }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "properties": {
+        "max_hold_s": { "type": "number", "minimum": 0, "maximum": 30 },
+        "beginner_override": { "type": "object", "properties": { "params": { "type": "object" }, "rounds": { "type": "integer" } } },
+        "contraindications": { "type": "array", "items": { "type": "string" } },
+        "stop_if": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "script": {
+      "type": "object",
+      "required": ["round"],
+      "properties": {
+        "count_s": { "type": "number", "exclusiveMinimum": 0, "description": "seconds per count (Sivananda: one OM/matra ≈ 1 s)" },
+        "view": { "enum": ["full", "upper", "with_dvadasanta"] },
+        "params": { "type": "object", "description": "ratio [in, hold_in, out, hold_out] in counts; any named params referenced as 'param:<name>'" },
+        "rounds": { "type": "object", "properties": { "default": { "type": "integer" }, "min": { "type": "integer" }, "max": { "type": "integer" }, "unit": { "type": "string" } } },
+        "round_sound": { "type": ["string", "boolean"] },
+        "show": { "type": "object", "properties": { "channels": { "type": "array" }, "loci": { "type": "array" }, "labels": {}, "nostril_tags": { "type": "boolean" }, "cavern": { "type": "boolean" } } },
+        "intro": { "$ref": "#/$defs/blocks" },
+        "round": { "$ref": "#/$defs/blocks" },
+        "between": { "$ref": "#/$defs/blocks" },
+        "outro": { "$ref": "#/$defs/blocks" }
+      }
+    }
+  },
+  "$defs": {
+    "blocks": { "type": "array", "items": { "$ref": "#/$defs/block" } },
+    "block": {
+      "type": "object",
+      "oneOf": [
+        { "required": ["repeat", "blocks"] },
+        { "required": ["phase"] }
+      ],
+      "properties": {
+        "repeat": { "description": "integer, 'rounds', or 'param:<name>'" },
+        "blocks": { "$ref": "#/$defs/blocks" },
+        "phase": { "enum": ["in", "hold_in", "out", "hold_out", "natural", "rest"] },
+        "counts": { "description": "number, 'r0'..'r3' (ratio index) or 'param:<name>'" },
+        "seconds": { "type": "number", "description": "fixed duration instead of counts" },
+        "pace": { "type": "array", "items": { "type": "number" }, "description": "natural: suggested [in_s, out_s]" },
+        "nostril": { "enum": ["L", "R", "both"] },
+        "to": { "type": "number", "minimum": 0, "maximum": 1, "description": "lung volume at the end of in/out (orb)" },
+        "label": { "type": "string", "description": "orb phase word override, e.g. 'Hum'" },
+        "caption": { "type": "string", "maxLength": 140, "description": "our own words, shown and (unless say:false) spoken" },
+        "say": { "type": ["string", "boolean"] },
+        "say_once": { "type": "boolean" },
+        "only_first": { "type": "boolean" },
+        "attention": { "type": "object", "properties": { "target": { "type": "string" }, "size": { "enum": ["narrow", "medium", "wide", "whole"] } } },
+        "visual": { "type": "array", "items": { "$ref": "#/$defs/cue" } },
+        "do": { "type": "array", "items": { "type": "object", "required": ["verb"], "properties": { "verb": { "type": "string", "description": "grammar.json verbs" } } } },
+        "sound": { "type": "string" },
+        "haptic": { "type": "string" }
+      }
+    },
+    "cue": {
+      "type": "object",
+      "required": ["prim"],
+      "properties": {
+        "prim": { "enum": ["locus", "path", "field", "attention"] },
+        "locus": { "type": "string" }, "path": { "type": "string" }, "region": { "type": "string" }, "target": { "type": "string" },
+        "motion": { "enum": ["flow", "fill", "hold-glow", "dissipate", "expand", "contract", "rise", "pulse", "rotate", "vibrate", "steady"] },
+        "mode": { "enum": ["fill", "drain", "stream"] },
+        "dir": { "enum": ["forward", "reverse"] },
+        "colour": { "type": "string", "description": "grammar.json colours token" },
+        "from": { "type": "string" }, "exit": { "const": "air" },
+        "density": { "type": "number" }, "seconds": { "type": "number" }, "delay": { "type": "number" }, "size": { "type": "string" }
+      }
+    }
+  }
+}

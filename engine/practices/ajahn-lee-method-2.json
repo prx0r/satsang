@@ -1,0 +1,120 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "ajahn-lee-method-2",
+  "name": "Full-body breath · Ajahn Lee, Method 2",
+  "kind": "meditation",
+  "subkind": "breath",
+  "traditions": ["theravada-thai-forest"],
+  "summary": "Comfortable breathing with bud-dho, then letting the breath sensation spread from the head down the spine, legs and arms, finding a resting spot, and spreading awareness until breath energy fills the whole body.",
+  "steps": [
+    { "n": 1, "text": "Three long breaths: think 'bud' on the in-breath and 'dho' on the out-breath.", "cue": "breath" },
+    { "n": 2, "text": "Know each breath. If it isn't comfortable, adjust it until it is.", "cue": "breath" },
+    { "n": 3, "text": "Let the comfortable breath sensation flow from the base of the skull down the spine, down each leg and out past the toes; then over the shoulders and down the arms to the fingertips.", "cue": "breath", "visual": "path:spine,leg_*,arm_* flow stream" },
+    { "n": 4, "text": "Let the breath at the base of the throat run down the front of the body, and the breath at the middle of the chest down to the belly.", "cue": "breath" },
+    { "n": 5, "text": "Visit the resting spots: tip of the nose, middle of the head, palate, base of the throat, tip of the breastbone, just above the navel. Settle on whichever feels best.", "cue": "breath" },
+    { "n": 6, "text": "Spread your awareness through the entire body.", "cue": "breath", "visual": "field:whole_body expand from breastbone" },
+    { "n": 7, "text": "Let all the breath sensations connect and flow together; keep awareness broad.", "cue": "breath", "visual": "field:whole_body steady" }
+  ],
+  "level": "first-steps",
+  "posture": "seated",
+  "eyes": "closed",
+  "needsTeacher": false,
+  "contraindications": [
+    "Frequent headaches or nervous problems: don't settle on a spot above the base of the throat (Ajahn Lee's own caution); use the breastbone or navel.",
+    "Don't force the breath or push for a trance."
+  ],
+  "facets": {
+    "method": ["body-scan", "breath"],
+    "locus": ["nose_tip", "middle_of_head", "palate", "throat_base", "breastbone", "above_navel", "whole_body"],
+    "aim": ["calm", "embodiment", "insight"],
+    "level": "first-steps",
+    "intensity": 1,
+    "needs_teacher": false,
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 0,
+    "contraindications": ["headaches or nervous problems: rest below the throat"],
+    "stop_if": ["strain", "headache"]
+  },
+  "script": {
+    "count_s": 1,
+    "params": {},
+    "rounds": { "default": 3, "min": 1, "max": 12, "unit": "breaths in the final whole-body stage" },
+    "round_sound": false,
+    "show": { "channels": [], "loci": ["nose_tip", "middle_of_head", "palate", "throat_base", "breastbone", "above_navel"], "labels": "active" },
+    "intro": [
+      { "phase": "in", "seconds": 5, "caption": "Long breath in. Think “bud”.", "attention": { "target": "nose_tip", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "Long breath out. Think “dho”.",
+        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
+      { "phase": "in", "seconds": 5, "caption": "“bud”", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "“dho”", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
+      { "phase": "in", "seconds": 5, "caption": "Notice: is it comfortable? Adjust until it is.", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "Easy, unforced.", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
+
+      { "phase": "in", "seconds": 5, "caption": "Breathe in at the base of the skull…", "attention": { "target": "spine", "size": "wide" },
+        "visual": [ { "prim": "path", "path": "spine", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "…and let it flow all the way down the spine.",
+        "visual": [ { "prim": "path", "path": "spine", "motion": "flow", "mode": "stream", "colour": "breath" } ] },
+      { "phase": "in", "seconds": 5, "caption": "From the spine, down one leg…", "attention": { "target": "knee_L", "size": "wide" },
+        "visual": [ { "prim": "path", "path": "leg_L", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "…to the toes, and out into the air.",
+        "visual": [ { "prim": "path", "path": "leg_L", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
+      { "phase": "in", "seconds": 5, "caption": "Then down the other leg…", "attention": { "target": "knee_R", "size": "wide" },
+        "visual": [ { "prim": "path", "path": "leg_R", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "…and out past the toes.",
+        "visual": [ { "prim": "path", "path": "leg_R", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
+      { "phase": "in", "seconds": 5, "caption": "From the base of the skull, over both shoulders…", "attention": { "target": "chest", "size": "wide" },
+        "visual": [ { "prim": "path", "path": "arm_L", "motion": "flow", "mode": "fill", "colour": "breath" },
+                    { "prim": "path", "path": "arm_R", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "…past elbows and wrists, out through the fingertips.",
+        "visual": [ { "prim": "path", "path": "arm_L", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" },
+                    { "prim": "path", "path": "arm_R", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
+      { "phase": "in", "seconds": 5, "caption": "From the base of the throat, down the front of the body…", "attention": { "target": "front_line", "size": "wide" },
+        "visual": [ { "prim": "path", "path": "front_line", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "…and from the middle of the chest, down into the belly.",
+        "visual": [ { "prim": "path", "path": "chest_down", "motion": "flow", "mode": "fill", "colour": "breath" },
+                    { "prim": "path", "path": "front_line", "motion": "dissipate", "colour": "breath" } ] },
+
+      { "phase": "in", "seconds": 5, "caption": "Resting spots. The tip of the nose.", "attention": { "target": "nose_tip", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 5, "caption": "The middle of the head.", "attention": { "target": "middle_of_head", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "middle_of_head", "motion": "steady", "colour": "breath" } ] },
+      { "phase": "in", "seconds": 5, "caption": "The palate.", "attention": { "target": "palate", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "palate", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 5, "caption": "The base of the throat.", "attention": { "target": "throat_base", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "throat_base", "motion": "steady", "colour": "breath" } ] },
+      { "phase": "in", "seconds": 5, "caption": "The tip of the breastbone.", "attention": { "target": "breastbone", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "fill", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 5, "caption": "Just above the navel.", "attention": { "target": "above_navel", "size": "narrow" },
+        "visual": [ { "prim": "locus", "locus": "above_navel", "motion": "steady", "colour": "breath" } ] },
+      { "phase": "in", "seconds": 5, "caption": "Settle on the spot that feels best. Here, the breastbone.", "attention": { "target": "breastbone", "size": "medium" },
+        "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "hold-glow", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 6, "caption": "Headaches? Stay below the throat.", "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] },
+
+      { "phase": "in", "seconds": 6, "caption": "Now spread your awareness through the whole body…", "attention": { "target": "whole_body", "size": "whole" },
+        "do": [ { "verb": "spread", "from": "breastbone", "over": "whole_body" } ] },
+      { "phase": "out", "seconds": 7, "caption": "…every part, all at once.",
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" } ] }
+    ],
+    "round": [
+      { "phase": "in", "seconds": 6, "caption": "Breath sensations connect and flow together.",
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "fill", "colour": "breath", "from": "breastbone" },
+                    { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] },
+      { "phase": "out", "seconds": 7, "caption": "Keep awareness broad. Full, still, at ease.",
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" },
+                    { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] }
+    ],
+    "outro": [
+      { "phase": "natural", "seconds": 14, "caption": "Stay with the whole body breathing.",
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" } ] }
+    ]
+  },
+  "sources": [
+    { "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html", "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2, steps 1–7 (tr. Ṭhānissaro Bhikkhu)", "checked": "2026-10-20", "check": "work", "licence": "free distribution (dhammatalks.org)" }
+  ],
+  "teachers": ["ajahn-lee-dhammadharo", "thanissaro-bhikkhu"],
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Steps, resting-spot list, spreading routes and the headache caution are verified on the source page. Timings, the 'one leg then the other' neutral wording (the text gives a male/female starting side) and choosing the breastbone as the demo spot are ours.", "license": "CC-BY-4.0" }
+}

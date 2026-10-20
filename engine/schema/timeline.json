@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tantrafiles.xyz/schema/timeline.json",
+  "title": "Compiled practice timeline (PRACTICE-ENGINE.md §3 script, absolute seconds)",
+  "type": "object",
+  "required": ["script_version", "practice", "total_s", "tracks", "safety"],
+  "properties": {
+    "script_version": { "const": 1 },
+    "engine": { "type": "string" },
+    "practice": { "type": "string" },
+    "opts": { "type": "object", "properties": { "beginner": { "type": "boolean" }, "rounds": { "type": "integer" }, "count_s": { "type": "number" } } },
+    "params": { "type": "object" },
+    "loops": { "type": "integer" },
+    "total_s": { "type": "number" },
+    "tracks": {
+      "type": "object",
+      "properties": {
+        "breath": { "type": "array", "items": { "type": "object", "required": ["t", "dur", "phase"], "properties": { "t": {}, "dur": {}, "phase": {}, "sub": {}, "nostril": {}, "counts": {}, "round": {}, "stroke": {}, "strokes": {}, "vol0": {}, "vol1": {}, "label": {} } } },
+        "voice": { "type": "array", "items": { "type": "object", "required": ["t", "text"], "properties": { "t": {}, "dur": {}, "text": {}, "say": { "type": ["string", "null"] } } } },
+        "visual": { "type": "array", "items": { "type": "object", "required": ["t", "dur", "prim"] } },
+        "attention": { "type": "array", "items": { "type": "object", "required": ["t", "target", "size"] } },
+        "audio": { "type": "array", "items": { "type": "object", "required": ["t", "sound"] } },
+        "haptic": { "type": "array", "description": "inert until wearables (spec §3)" },
+        "markers": { "type": "array" }
+      }
+    },
+    "physiology": { "type": "object", "properties": { "ratio": {}, "retention_max_s": { "type": "number" }, "breaths_per_min": { "type": "number" } } },
+    "safety": { "type": "object", "properties": { "max_hold_s": {}, "beginner": {}, "applied": { "type": "array" }, "needs_teacher": {}, "contraindications": {}, "stop_if": {} } },
+    "warnings": { "type": "array" }
+  }
+}

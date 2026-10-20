@@ -1,0 +1,80 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "kapalabhati-sivananda",
+  "name": "Kapalabhati · skull-shining breath",
+  "kind": "meditation",
+  "subkind": "pranayama",
+  "traditions": ["hatha-sivananda"],
+  "summary": "Short, brisk exhales pumped from the navel with passive inhales, about one per second, no retention; then rest with attention between the eyebrows.",
+  "steps": [
+    { "n": 1, "text": "Sit erect, hands on knees, eyes closed. Head and trunk stay upright.", "cue": "voice" },
+    { "n": 2, "text": "Snap the belly in to push the breath out quickly; let the inhale happen by itself. About one stroke per second.", "cue": "breath", "visual": "locus:manipura pulse ember" },
+    { "n": 3, "text": "Start with 10 strokes a round; add 10 a week, cautiously.", "cue": "breath" },
+    { "n": 4, "text": "After each round, breathe naturally and rest attention between the eyebrows.", "seconds": 20, "cue": "silent", "visual": "field:kapala steady; attention:ajna narrow" }
+  ],
+  "level": "steady",
+  "posture": "seated",
+  "eyes": "closed",
+  "needsTeacher": true,
+  "contraindications": [
+    "Pregnancy or menstruation: avoid.",
+    "High blood pressure, heart disease, hernia, recent abdominal surgery, epilepsy: avoid.",
+    "Stop at once if dizzy or tingling; return to natural breath."
+  ],
+  "facets": {
+    "method": ["pranayama", "kriya"],
+    "locus": ["manipura", "ajna", "kapala"],
+    "aim": ["energise", "purification", "focus"],
+    "level": "steady",
+    "intensity": 3,
+    "needs_teacher": true,
+    "needs_teacher_note": "A shatkarma (cleansing practice); traditionally learned in person so the pumping action is checked.",
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 0,
+    "beginner_override": { "params": { "strokes": 10 }, "rounds": 2 },
+    "contraindications": ["pregnancy", "hypertension", "heart disease", "hernia", "recent abdominal surgery", "epilepsy"],
+    "stop_if": ["dizziness", "tingling hands or lips", "pain"]
+  },
+  "script": {
+    "count_s": 1,
+    "params": { "strokes": 20, "stroke_out": 0.32, "stroke_in": 0.68 },
+    "rounds": { "default": 3, "min": 1, "max": 6 },
+    "show": { "channels": [], "loci": ["manipura", "ajna"], "labels": "active" },
+    "intro": [
+      { "phase": "natural", "seconds": 8, "pace": [3.5, 4.5], "caption": "Sit erect, hands on knees. A few easy breaths.",
+        "attention": { "target": "belly", "size": "medium" },
+        "visual": [ { "prim": "locus", "locus": "manipura", "motion": "steady", "colour": "ember" } ] },
+      { "phase": "in", "seconds": 3, "caption": "Breathe in halfway.", "to": 0.65,
+        "visual": [ { "prim": "field", "region": "belly", "motion": "fill", "colour": "breath" } ] }
+    ],
+    "round": [
+      { "repeat": "param:strokes", "blocks": [
+        { "phase": "out", "seconds": 0.32, "to": 0.4, "label": "Out", "caption": "Snap the belly in. Out, out, out…", "say": false,
+          "visual": [ { "prim": "locus", "locus": "manipura", "motion": "pulse", "colour": "ember" },
+                      { "prim": "path", "path": "navel_to_nose", "motion": "flow", "mode": "fill", "colour": "ember", "exit": "air", "seconds": 0.5 } ] },
+        { "phase": "in", "seconds": 0.68, "to": 0.65, "label": "In", "say": false,
+          "visual": [ { "prim": "field", "region": "belly", "motion": "fill", "colour": "breath" } ] }
+      ] },
+      { "phase": "out", "seconds": 2, "to": 0.3, "caption": "Let the last breath go.",
+        "visual": [ { "prim": "field", "region": "belly", "motion": "dissipate", "colour": "release" } ] },
+      { "phase": "natural", "seconds": 20, "caption": "Breathe naturally. Rest between the eyebrows. The skull shines.",
+        "attention": { "target": "ajna", "size": "narrow" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "fill", "colour": "central", "seconds": 4 },
+                    { "prim": "field", "region": "kapala", "motion": "steady", "colour": "central", "delay": 4, "seconds": 16 },
+                    { "prim": "locus", "locus": "ajna", "motion": "steady", "colour": "central" } ] }
+    ],
+    "between": [
+      { "phase": "in", "seconds": 3, "to": 0.65, "caption": "Next round. Breathe in halfway.", "attention": { "target": "belly", "size": "medium" },
+        "visual": [ { "prim": "field", "region": "belly", "motion": "fill", "colour": "breath" } ] }
+    ],
+    "outro": []
+  },
+  "sources": [
+    { "url": "https://www.dlshq.org/download/the-science-of-pranayama", "cite": "Swami Sivananda, The Science of Pranayama (DLS), ch. 3 'Kapalabhati': no kumbhaka; forcible rechaka from the abdomen, mild puraka; one expulsion per second at first; start with 10 per round, add 10 a week up to 120; 'kapala' = skull, 'bhati' = to shine", "checked": "2026-10-20", "check": "work", "licence": "publisher-free" }
+  ],
+  "teachers": ["swami-sivananda"],
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Stroke rate, no-retention rule and progression are verified in the source. The rest with attention at the brow, the 20-stroke default and the contraindication list follow common modern teaching, not this chapter (medium).", "license": "CC-BY-4.0" }
+}

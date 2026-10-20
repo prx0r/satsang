@@ -1,0 +1,72 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "bhramari",
+  "name": "Bhramari · humming bee breath",
+  "kind": "meditation",
+  "subkind": "pranayama",
+  "traditions": ["hatha-yoga"],
+  "summary": "A soft in-breath, then a long, even hum on the out-breath, with the lips closed, so the vibration fills the skull. Then sit in the silence after the sound.",
+  "steps": [
+    { "n": 1, "text": "Sit upright, lips closed, teeth slightly apart, jaw soft. Optionally close the ears with the thumbs.", "cue": "voice" },
+    { "n": 2, "text": "Breathe in through the nose.", "cue": "breath", "visual": "path:nose_to_kapala flow fill" },
+    { "n": 3, "text": "Breathe out slowly with a steady, low hum. Feel it vibrate through the head.", "cue": "breath", "visual": "field:kapala vibrate nada" },
+    { "n": 4, "text": "Repeat 5–9 times, then sit in the silence and listen inward.", "seconds": 20, "cue": "silent" }
+  ],
+  "level": "first-steps",
+  "posture": "seated",
+  "eyes": "closed",
+  "needsTeacher": false,
+  "contraindications": [
+    "Ear infection: don't close the ears.",
+    "Don't practise lying down.",
+    "Keep it gentle; no breath holding in this version."
+  ],
+  "facets": {
+    "method": ["pranayama", "nada"],
+    "locus": ["kapala", "head", "throat_base"],
+    "aim": ["calm", "sleep", "anxiety", "focus"],
+    "level": "first-steps",
+    "intensity": 1,
+    "needs_teacher": false,
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 0,
+    "contraindications": ["ear infection (keep ears open)"],
+    "stop_if": ["dizziness", "ear pain"]
+  },
+  "script": {
+    "count_s": 1,
+    "view": "upper",
+    "params": { "ratio": [4, 0, 9, 0] },
+    "rounds": { "default": 7, "min": 3, "max": 15 },
+    "show": { "channels": [], "loci": ["kapala"], "labels": "active" },
+    "intro": [
+      { "phase": "rest", "seconds": 6, "caption": "Lips closed, teeth apart, jaw soft. Thumbs may close the ears.",
+        "attention": { "target": "head", "size": "medium" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "steady", "colour": "nada", "density": 0.5 } ] }
+    ],
+    "round": [
+      { "phase": "in", "counts": "r0", "caption": "Breathe in softly through the nose.", "say_once": true,
+        "visual": [ { "prim": "path", "path": "nose_to_kapala", "motion": "flow", "mode": "fill", "colour": "breath" },
+                    { "prim": "field", "region": "kapala", "motion": "fill", "colour": "breath" } ],
+        "attention": { "target": "head", "size": "medium" } },
+      { "phase": "out", "counts": "r2", "label": "Hum", "caption": "Hum… a steady, low “mmm”. Feel the skull vibrate.", "say_once": true,
+        "do": [ { "verb": "hum", "over": "kapala", "colour": "nada" } ],
+        "visual": [ { "prim": "field", "region": "chest", "motion": "vibrate", "colour": "nada", "density": 0.35 } ],
+        "attention": { "target": "kapala", "size": "medium" } }
+    ],
+    "outro": [
+      { "phase": "natural", "seconds": 20, "caption": "Hands down. Sit in the silence after the sound.",
+        "attention": { "target": "kapala", "size": "wide" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "dissipate", "colour": "nada", "seconds": 6 },
+                    { "prim": "field", "region": "head", "motion": "steady", "colour": "awareness", "delay": 4, "seconds": 16, "density": 0.5 } ] }
+    ]
+  },
+  "sources": [
+    { "url": "https://en.wikisource.org/wiki/Hatha_Yoga_Pradipika/2", "cite": "Haṭha Yoga Pradīpikā 2.68 (tr. Pancham Singh): breathe in briskly with a bee-like sound, breathe out slowly humming; bliss arises in the mind", "checked": "2026-10-20", "check": "cited", "licence": "public domain" },
+    { "url": "https://www.dlshq.org/download/the-science-of-pranayama", "cite": "Swami Sivananda, The Science of Pranayama, ch. 3 'Bhramari': a faster bee-sound variant ending in a comfortable kumbhaka (not used here)", "checked": "2026-10-20", "check": "work", "licence": "publisher-free" }
+  ],
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "medium", "confidence_note": "The engine uses the common modern form: a quiet inhale and a hum on the exhale only. HYP 2.68 sounds the bee on both breaths, and Sivananda's version is rapid and ends in a hold. Optional ear closing (shanmukhi) and the 4:9 pacing are ours.", "license": "CC-BY-4.0" }
+}

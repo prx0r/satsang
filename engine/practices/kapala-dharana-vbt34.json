@@ -1,0 +1,92 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "kapala-dharana-vbt34",
+  "name": "The cavern of the skull · VBT 34",
+  "kind": "meditation",
+  "subkind": "dharana",
+  "traditions": ["kashmir-shaivism-trika"],
+  "summary": "Eyes closed, attention gathered and placed inside the cranium, held there with steadily growing firmness. A Vijnana Bhairava dharana; the brahmarandhra at the top of the skull is the roof of the space.",
+  "steps": [
+    { "n": 1, "text": "Sit still, eyes closed. Let the breath be natural; feel the whole body.", "cue": "voice" },
+    { "n": 2, "text": "With each out-breath, let attention gather up through the throat into the head.", "cue": "breath", "visual": "path:heart_to_kapala rise" },
+    { "n": 3, "text": "Place attention inside the skull: the dark, quiet space within the cranium.", "cue": "voice", "visual": "attention:kapala narrow; field:kapala fill" },
+    { "n": 4, "text": "Stay. When attention wanders, return it to the inner space. Steadiness grows gradually.", "cue": "silent", "visual": "field:kapala steady" },
+    { "n": 5, "text": "Let the roof of the space, the brahmarandhra, be included; then widen to the whole body before opening the eyes.", "cue": "voice" }
+  ],
+  "level": "steady",
+  "posture": "seated",
+  "eyes": "closed",
+  "needsTeacher": false,
+  "contraindications": [
+    "Frequent headaches or nervous problems: skip head-centred practice; rest attention at the breastbone or navel instead.",
+    "History of psychosis, dissociation or trauma: keep sits short and eyes softly open; work with a teacher or clinician."
+  ],
+  "facets": {
+    "method": ["dharana-visualisation"],
+    "locus": ["kapala", "brahmarandhra"],
+    "aim": ["focus", "insight", "awakening-energy"],
+    "level": "steady",
+    "intensity": 2,
+    "needs_teacher": false,
+    "needs_teacher_note": "Published openly as one of the 112 dharanas; in Trika it sits inside a teacher-led path, so the engine shows it as attention training only.",
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 0,
+    "contraindications": ["headaches", "nervous problems", "psychosis or dissociation history"],
+    "stop_if": ["head pressure", "headache", "anxiety", "derealisation"]
+  },
+  "script": {
+    "count_s": 1,
+    "view": "upper",
+    "params": {},
+    "rounds": { "default": 4, "min": 1, "max": 30, "unit": "breaths resting in the skull" },
+    "round_sound": false,
+        "show": { "channels": [], "loci": ["kapala", "brahmarandhra"], "labels": "active", "cavern": true },
+    "intro": [
+      { "phase": "natural", "seconds": 11, "caption": "Eyes closed. Natural breath. Feel the whole body sitting.",
+        "attention": { "target": "whole_body", "size": "whole" },
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "awareness", "density": 0.5 } ] },
+      { "phase": "natural", "seconds": 11, "caption": "On each out-breath, attention gathers upward…",
+        "attention": { "target": "chest", "size": "wide" },
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "contract", "colour": "awareness", "from": "kapala" },
+                    { "prim": "path", "path": "heart_to_kapala", "motion": "rise", "mode": "fill", "colour": "awareness", "density": 0.45 } ] },
+      { "phase": "natural", "seconds": 11, "caption": "…through the throat, into the head.",
+        "attention": { "target": "head", "size": "medium" },
+        "visual": [ { "prim": "path", "path": "heart_to_kapala", "motion": "flow", "mode": "drain", "colour": "awareness", "density": 0.45 },
+                    { "prim": "field", "region": "kapala", "motion": "fill", "colour": "awareness" } ] },
+      { "phase": "natural", "seconds": 11, "caption": "Place attention inside the skull. A dark, quiet cavern.",
+        "attention": { "target": "kapala", "size": "narrow" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "steady", "colour": "awareness" } ] }
+    ],
+    "round": [
+      { "phase": "natural", "seconds": 11, "caption": "Rest inside the cranium. Nothing to do but stay.",
+        "only_first": false,
+        "attention": { "target": "kapala", "size": "narrow" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "steady", "colour": "awareness" } ] }
+    ],
+    "outro": [
+      { "phase": "natural", "seconds": 11, "caption": "If it wandered, simply return. Steadiness grows by itself.",
+        "attention": { "target": "kapala", "size": "narrow" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "steady", "colour": "awareness" } ] },
+      { "phase": "natural", "seconds": 11, "caption": "Let the roof of the space, the brahmarandhra, be included.",
+        "attention": { "target": "head", "size": "medium" },
+        "visual": [ { "prim": "field", "region": "kapala", "motion": "steady", "colour": "awareness" },
+                    { "prim": "locus", "locus": "brahmarandhra", "motion": "fill", "colour": "retention" } ] },
+      { "phase": "natural", "seconds": 11, "caption": "Widen to the whole body. Then open the eyes slowly.",
+        "attention": { "target": "whole_body", "size": "whole" },
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "expand", "colour": "awareness", "from": "kapala" },
+                    { "prim": "field", "region": "kapala", "motion": "dissipate", "colour": "awareness" } ] }
+    ]
+  },
+  "sources": [
+    { "url": "https://hareesh.org/blog/2024/3/29/vijana-bhairava-tantra-verse-34", "cite": "Vijñāna-bhairava-tantra v. 34 (yukti 8): kapālāntar mano nyasya tiṣṭhan mīlita-locanaḥ…; tr. and commentary Christopher Wallis (hareesh.org)", "checked": "2026-10-20", "check": "cited" },
+    { "url": "https://avalonlibrary.net/ebooks/Jaideva%20Singh%20-%20Vijnanabhairava%20or%20Divine%20Consciousness%20A%20Treasury%20of%20112%20Types%20of%20Yoga%20English%20and%20Sanskrit%20Edition.pdf", "cite": "Jaideva Singh, Vijñānabhairava or Divine Consciousness (Motilal Banarsidass), verse 34 = dhāraṇā 11: attention on the interior of the cranium, seated with eyes closed", "checked": "2026-10-20", "check": "cited", "licence": "all-rights-reserved (cited, not rehosted)" },
+    { "url": "https://www.dlshq.org/download/the-science-of-pranayama", "cite": "Swami Sivananda, The Science of Pranayama, glossary: 'Brahmarandhra: head fontanelle at the top of head'", "checked": "2026-10-20", "check": "work", "licence": "publisher-free" },
+    { "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html", "cite": "Ajaan Lee, Method 2 step 5: with headaches or nervous problems, don't focus above the base of the throat (borrowed caution)", "checked": "2026-10-20", "check": "work" }
+  ],
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "medium",
+    "confidence_note": "High for the verse: Sanskrit and translations agree across Singh, Wallis and other editions (inside the cranium, eyes closed, gradual steadiness). Some translations read 'at the crown of the head', so where exactly inside the skull is debated. The staging (gathering up from the heart, including the brahmarandhra as the roof, widening at the end) is ours. The 'cavern of Brahma' / ventricles reading is a later yogic and modern interpretation; the engine doesn't draw anatomy.",
+    "license": "CC-BY-4.0" }
+}

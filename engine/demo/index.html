@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0d14">
+<title>Satsang · Practice engine preview</title>
+<meta name="description" content="Practice instructions rendered as a real-time picture of what the breath and attention are doing in the body. Preview of the Satsang practice engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../player/player.css">
+<style>
+  html,body{margin:0;height:100%;background:#0a0d14}
+  #stage{position:fixed;inset:0;height:100dvh}
+  noscript{color:#efe9dd;font:16px system-ui;padding:24px;display:block}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<noscript>The practice engine needs JavaScript.</noscript>
+<script type="module">
+import { compile } from '../compile.mjs'
+import { createPlayer } from '../player/player.js'
+
+const PRACTICES = [
+  ['nadi-shodhana-sivananda', 'Nadi Shodhana'],
+  ['ajahn-lee-method-2', 'Ajahn Lee · full body'],
+  ['kapalabhati-sivananda', 'Kapalabhati'],
+  ['kapala-dharana-vbt34', 'Cavern of the skull'],
+  ['bhramari', 'Bhramari'],
+]
+const qs = new URLSearchParams(location.search)
+const base = new URL('../', import.meta.url)
+const getJSON = p => fetch(new URL(p, base)).then(r => { if (!r.ok) throw new Error(p + ' ' + r.status); return r.json() })
+const grammar = await getJSON('grammar.json')
+const cache = {}
+const loadP = id => cache[id] ||= getJSON(`practices/${id}.json`)
+
+const player = createPlayer(document.getElementById('stage'), {
+  grammar, compile,
+  options: { beginner: qs.get('beginner') === '1', voice: qs.get('voice') === '1', muted: qs.get('muted') === '1' },
+})
+// practice picker lives in the player's header slot
+const chips = PRACTICES.map(([id, label], i) => {
+  const b = document.createElement('button'); b.className = 'sp-chip'; b.textContent = label; b.dataset.id = id
+  b.title = `${label} (key ${i + 1})`
+  b.onclick = () => choose(id)
+  player.slot.appendChild(b); return b
+})
+async function choose(id, o = {}) {
+  const p = await loadP(id)
+  chips.forEach(c => c.setAttribute('aria-current', String(c.dataset.id === id)))
+  player.load(p, o)
+  const u = new URL(location.href); u.searchParams.set('p', id); u.searchParams.delete('t'); history.replaceState(null, '', u)
+}
+window.addEventListener('keydown', e => { const n = +e.key; if (n >= 1 && n <= PRACTICES.length && !e.metaKey && !e.ctrlKey) choose(PRACTICES[n - 1][0]) })
+
+const first = PRACTICES.some(([id]) => id === qs.get('p')) ? qs.get('p') : PRACTICES[0][0]
+await choose(first)
+if (qs.has('t')) {                       // deterministic frame for screenshots: ?p=…&t=12.5
+  await document.fonts.ready
+  player.hideGate()
+  player.renderAt(+qs.get('t'))
+  if (qs.get('still') !== '0') player.freeze()
+  window.__frameReady = true
+} else window.__frameReady = true
+window.satsangPlayer = player
+</script>
+</body>
+</html>

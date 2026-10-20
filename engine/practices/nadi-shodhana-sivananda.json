@@ -1,0 +1,91 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "nadi-shodhana-sivananda",
+  "name": "Nadi Shodhana · Anuloma Viloma",
+  "kind": "meditation",
+  "subkind": "pranayama",
+  "traditions": ["hatha-sivananda"],
+  "summary": "Alternate-nostril breathing in Sivananda's 1:4:2 ratio: in through one side, a held breath gathered at the base of the spine, out through the other side. Beginners drop the hold (1:0:2).",
+  "steps": [
+    { "n": 1, "text": "Sit upright. Right hand in Vishnu mudra: thumb for the right nostril, ring and little fingers for the left.", "cue": "voice" },
+    { "n": 2, "text": "Close the right nostril and breathe in slowly through the left for 4 counts.", "cue": "breath", "visual": "path:ida flow fill lunar" },
+    { "n": 3, "text": "Close both nostrils and hold for 16 counts, resting attention at the base of the spine.", "cue": "breath", "visual": "locus:muladhara hold-glow" },
+    { "n": 4, "text": "Open the right nostril and breathe out slowly for 8 counts.", "cue": "breath", "visual": "path:pingala flow fill solar exit-air" },
+    { "n": 5, "text": "Breathe in through the right for 4, hold for 16, breathe out through the left for 8. That is one round.", "cue": "breath" },
+    { "n": 6, "text": "After the last round, rest in natural breath with attention between the eyebrows.", "seconds": 20, "cue": "silent" }
+  ],
+  "level": "steady",
+  "posture": "seated",
+  "eyes": "closed",
+  "needsTeacher": true,
+  "contraindications": [
+    "Pregnancy: no breath retention; use the beginner (1:0:2) form.",
+    "High blood pressure, heart disease, glaucoma or a recent eye/ear operation: no retention.",
+    "Never strain. If the next inhale is gasping, the hold was too long."
+  ],
+  "facets": {
+    "method": ["pranayama"],
+    "locus": ["ida", "pingala", "sushumna", "muladhara", "ajna"],
+    "aim": ["calm", "focus", "purification"],
+    "level": "steady",
+    "intensity": 3,
+    "needs_teacher": true,
+    "needs_teacher_note": "The 1:4:2 retention form is traditionally learned under a teacher; the 1:0:2 beginner form (Sivananda's Exercise No. 3) is safe to learn alone.",
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 30,
+    "beginner_override": { "params": { "ratio": [4, 0, 8, 0] }, "rounds": 5 },
+    "contraindications": ["pregnancy (no retention)", "hypertension", "heart disease", "glaucoma"],
+    "stop_if": ["dizziness", "gasping on the next inhale", "headache", "anxiety rising"]
+  },
+  "script": {
+    "count_s": 1,
+    "params": { "ratio": [4, 16, 8, 0] },
+    "rounds": { "default": 5, "min": 1, "max": 20 },
+    "show": { "channels": ["ida", "pingala", "sushumna"], "loci": ["muladhara", "ajna", "nostril_L", "nostril_R"], "nostril_tags": true },
+    "intro": [
+      { "phase": "rest", "seconds": 6, "caption": "Sit tall. Right hand in Vishnu mudra. Let the breath settle.",
+        "attention": { "target": "sushumna", "size": "wide" },
+        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath", "density": 0.35 } ] }
+    ],
+    "round": [
+      { "phase": "in", "counts": "r0", "nostril": "L", "caption": "Close the right nostril. Breathe in through the left.", "say_once": true,
+        "do": [ { "verb": "draw", "along": "ida", "colour": "lunar" } ],
+        "attention": { "target": "ida", "size": "wide" } },
+      { "phase": "hold_in", "counts": "r1", "caption": "Close both. Hold gently, gathered at the base of the spine.", "say_once": true,
+        "visual": [ { "prim": "locus", "locus": "muladhara", "motion": "hold-glow", "colour": "retention" },
+                    { "prim": "path", "path": "sushumna", "motion": "hold-glow", "colour": "central", "mode": "fill" } ],
+        "attention": { "target": "muladhara", "size": "medium" } },
+      { "phase": "out", "counts": "r2", "nostril": "R", "caption": "Release the thumb. Breathe out slowly through the right.", "say_once": true,
+        "visual": [ { "prim": "path", "path": "pingala", "motion": "flow", "mode": "fill", "dir": "reverse", "colour": "solar", "exit": "air" },
+                    { "prim": "path", "path": "ida", "motion": "dissipate", "colour": "lunar" } ],
+        "attention": { "target": "pingala", "size": "wide" } },
+      { "phase": "in", "counts": "r0", "nostril": "R", "caption": "Breathe in through the right.", "say_once": true,
+        "do": [ { "verb": "draw", "along": "pingala", "colour": "solar" } ],
+        "attention": { "target": "pingala", "size": "wide" } },
+      { "phase": "hold_in", "counts": "r1", "caption": "Hold. Rest at the base.",
+        "visual": [ { "prim": "locus", "locus": "muladhara", "motion": "hold-glow", "colour": "retention" },
+                    { "prim": "path", "path": "sushumna", "motion": "hold-glow", "colour": "central", "mode": "fill" } ],
+        "attention": { "target": "muladhara", "size": "medium" } },
+      { "phase": "out", "counts": "r2", "nostril": "L", "caption": "Breathe out slowly through the left.", "say_once": true,
+        "visual": [ { "prim": "path", "path": "ida", "motion": "flow", "mode": "fill", "dir": "reverse", "colour": "lunar", "exit": "air" },
+                    { "prim": "path", "path": "pingala", "motion": "dissipate", "colour": "solar" } ],
+        "attention": { "target": "ida", "size": "wide" } }
+    ],
+    "outro": [
+      { "phase": "natural", "seconds": 22, "caption": "Hand down. Breathe naturally. Rest between the eyebrows.",
+        "visual": [ { "prim": "locus", "locus": "ajna", "motion": "rotate", "colour": "central" },
+                    { "prim": "path", "path": "sushumna", "motion": "steady", "colour": "central" } ],
+        "attention": { "target": "ajna", "size": "narrow" } }
+    ]
+  },
+  "sources": [
+    { "url": "https://www.dlshq.org/download/the-science-of-pranayama", "cite": "Swami Sivananda, The Science of Pranayama (DLS), ch. 3: 'Exercise No. 4' (left in 16 matras, hold 64, right out 32; begin with 1:4:2) and 'Exercise No. 3' (alternate nostril, no kumbhaka)", "checked": "2026-10-20", "check": "work", "licence": "publisher-free" },
+    { "url": "https://www.dlshq.org/download/the-science-of-pranayama", "cite": "Same book, 'Pranayama for Awakening Kundalini': during the hold, send the current down the spine to the Muladhara (source of the 'held at the base' imagery)", "checked": "2026-10-20", "check": "work", "licence": "publisher-free" },
+    { "url": "https://www.sivananda.eu/en/breathing/breathing-exercises-intermediate-level.html", "cite": "Sivananda Yoga Vedanta Centres: Anuloma Viloma, ratio 1:4:2", "checked": "2026-10-20", "check": "cited" }
+  ],
+  "teachers": ["swami-sivananda"],
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Ratio, nostril order and the no-kumbhaka beginner form are verified in the source. The visual of the hold gathering at the base comes from Sivananda's related Kundalini pranayama, not Sukha Purvaka itself (medium).", "license": "CC-BY-4.0" }
+}
