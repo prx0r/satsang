@@ -1,18 +1,19 @@
 #!/usr/bin/env node
 // Discovery files for agents, generated from data/wiser.json (no hard-coded counts):
 //   llms.txt (also mcp/llms.txt, copied to the site by deploy.sh), discovery/llms-full.txt, discovery/mcp.json
-//   (served at /.well-known/mcp.json and /.well-known/mcp/server-card.json), discovery/agents.html (tantrafiles.xyz/agents),
-//   discovery/resources.json (id -> page data for tantrafiles.xyz/resource/<id>).
+//   (served at /.well-known/mcp.json and /.well-known/mcp/server-card.json), discovery/agents.html (BASE/agents),
+//   discovery/resources.json (id -> page data for BASE/resource/<id>).
 // Usage: node build-discovery.mjs   (after build-data.mjs)
 import fs from 'node:fs'
 import { buildIndex, TOOLS, SERVER_INFO } from './src/core.mjs'
 import { canon, prov } from './src/agents.mjs'
+import { BASE, HOST, MCP_BASE } from '../domain.mjs'
 
 const dir = new URL('.', import.meta.url)
 const data = JSON.parse(fs.readFileSync(new URL('data/wiser.json', dir), 'utf8'))
 const ctx = buildIndex(data)
 const out = new URL('discovery/', dir); fs.mkdirSync(new URL('.well-known/mcp/', out), { recursive: true })
-const MCP = 'https://mcp.tantrafiles.xyz', SITE = 'https://tantrafiles.xyz'
+const MCP = MCP_BASE, SITE = BASE
 const C = data.meta.counts, built = ctx.built
 const nRes = Object.keys(ctx.resource).length, nFree = Object.values(ctx.resource).filter((r) => r.access === 'free').length
 const nPlaces = Object.keys(data.place).length, nContact = Object.values(data.place).filter((p) => p.contact?.checked).length
@@ -21,11 +22,11 @@ const pub = Object.values(data.topic).filter((t) => t.state === 'published' && !
 const fmt = (n) => n.toLocaleString('en-GB')
 const toolLine = (t) => `- \`${t.name}\`: ${t.description.split('. ')[0].replace(/\.$/, '')}.`
 
-const llms = `# Wiser
+const llms = `# Satsang
 
-> Wiser (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: ${fmt(C.tradition)} traditions and schools, ${fmt(C.person)} teachers, scholars and historical figures with ${fmt(C.edge)} documented lineage and influence links, ${fmt(nPlaces)} places to practise in ${countries} countries (contacts exactly as each place publishes them, ${fmt(nContact)} checked against the place's own site), ${fmt(nRes)} texts and books (${fmt(nFree)} free from their publishers), ${fmt(C.practice)} practices with cautions, ${fmt(C.topic)} topics compared across traditions and ${fmt(C.clip)} talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built ${built}.
+> Satsang (${HOST}) is an open, citable directory of the world's wisdom traditions: ${fmt(C.tradition)} traditions and schools, ${fmt(C.person)} teachers, scholars and historical figures with ${fmt(C.edge)} documented lineage and influence links, ${fmt(nPlaces)} places to practise in ${countries} countries (contacts exactly as each place publishes them, ${fmt(nContact)} checked against the place's own site), ${fmt(nRes)} texts and books (${fmt(nFree)} free from their publishers), ${fmt(C.practice)} practices with cautions, ${fmt(C.topic)} topics compared across traditions and ${fmt(C.clip)} talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built ${built}.
 
-Licence: Wiser's curation is CC BY 4.0 (credit "Wiser, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
+Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, ${HOST}"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
 ## Connect (no sign-in)
 - [MCP server, Streamable HTTP](${MCP}/mcp): add as a custom connector in ChatGPT (Settings > Connectors, developer mode) or Claude (Settings > Connectors > Add custom connector). Legacy SSE transport: ${MCP}/sse
@@ -51,15 +52,15 @@ ${TOOLS.map(toolLine).join('\n')}
 ## Rules for agents
 - Cite the \`url\` of every record you use; give \`source_url\` for contacts, dates and programmes.
 - Contacts are only those a place publishes on its own site; programme dates change, so send people to \`scheduleUrl\` and say when the record was verified.
-- Do not invent what a teacher said; quote talk titles. Wiser's one-line "takes" are its own summaries.
+- Do not invent what a teacher said; quote talk titles. Satsang's one-line "takes" are its own summaries.
 - Practices are summaries: respect \`contraindications\` and \`needsTeacher\`, and link the \`sources\`.
 - "likely-living" is an inference (teaches on video, no death year recorded); say so when it matters.
 `
 fs.writeFileSync(new URL('llms.txt', dir), llms)
 fs.writeFileSync(new URL('llms.txt', out), llms)
 
-// llms-full: llms.txt + Wiser-authored text (CC BY): topic intros/questions/takes, tradition blurbs, practice summaries
-const L = [llms, '\n# Topics (Wiser curation, CC BY 4.0)\n']
+// llms-full: llms.txt + Satsang-authored text (CC BY): topic intros/questions/takes, tradition blurbs, practice summaries
+const L = [llms, '\n# Topics (Satsang curation, CC BY 4.0)\n']
 for (const t of pub) {
   L.push(`## ${t.label} (${canon('topic', t.id)})`, t.intro || '')
   for (const q of t.questions || []) L.push(`- ${q.label}${q.blurb ? ': ' + q.blurb : ''}`)
@@ -80,7 +81,7 @@ fs.writeFileSync(new URL('llms-full.txt', out), L.join('\n') + '\n')
 // server card (/.well-known/mcp.json). Follows the MCP server.json shape (name/title/description/version/remotes) plus a tool list.
 const card = {
   $schema: 'https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json',
-  name: 'xyz.tantrafiles/wiser', title: SERVER_INFO.title, version: SERVER_INFO.version,
+  name: HOST.split('.').reverse().join('.') + '/satsang', title: SERVER_INFO.title, version: SERVER_INFO.version,
   description: 'Open, read-only directory of the world\u2019s wisdom traditions: traditions, teachers and lineages, places to practise with published contacts, free texts, practices and talks. Every record has a canonical URL, source_url, verified_on and confidence.',
   websiteUrl: `${SITE}/agents`,
   remotes: [{ type: 'streamable-http', url: `${MCP}/mcp` }, { type: 'sse', url: `${MCP}/sse` }],
@@ -88,7 +89,7 @@ const card = {
   capabilities: { tools: { listChanged: false }, resources: {} },
   tools: TOOLS.map((t) => ({ name: t.name, title: t.title, description: t.description, readOnly: true })),
   openapi: `${MCP}/openapi.json`, llms: `${SITE}/llms.txt`, data: `${SITE}/data/index.json`,
-  license: { data: 'CC-BY-4.0', code: 'MIT', attribution: 'Wiser (tantrafiles.xyz)' }, updated: built,
+  license: { data: 'CC-BY-4.0', code: 'MIT', attribution: `Satsang (${HOST})` }, updated: built,
 }
 fs.writeFileSync(new URL('mcp.json', out), JSON.stringify(card, null, 2))
 fs.writeFileSync(new URL('.well-known/mcp.json', out), JSON.stringify(card, null, 2))
@@ -98,8 +99,8 @@ fs.writeFileSync(new URL('.well-known/mcp/server-card.json', out), JSON.stringif
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const agents = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>For agents and developers · Wiser</title><meta name="theme-color" content="#0a0d14">
-<meta name="description" content="Connect ChatGPT, Claude or any agent to Wiser, an open directory of the wisdom traditions: MCP server, REST/OpenAPI, data dumps, CC BY 4.0.">
+<title>For agents and developers · Satsang</title><meta name="theme-color" content="#0a0d14">
+<meta name="description" content="Connect ChatGPT, Claude or any agent to Satsang, an open directory of the wisdom traditions: MCP server, REST/OpenAPI, data dumps, CC BY 4.0.">
 <link rel="canonical" href="${SITE}/agents"><link rel="alternate" type="text/plain" href="${SITE}/llms.txt" title="llms.txt">
 <style>
 body{margin:0;background:#0a0d14;color:#efe9dd;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -110,10 +111,10 @@ li{margin:4px 0} code,pre{font:13px/1.5 "JetBrains Mono",ui-monospace,monospace;
 code{padding:1px 5px} pre{padding:12px 14px;overflow:auto} .url{display:block;margin:8px 0;padding:10px 12px;font-size:15px;color:#e9b764}
 table{border-collapse:collapse;width:100%;font-size:14px} td{border-top:1px solid #1f2638;padding:6px 8px 6px 0;vertical-align:top} td:first-child{white-space:nowrap}
 </style>
-<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Dataset', name: 'Wiser open data', url: `${SITE}/agents`, description: card.description, license: 'https://creativecommons.org/licenses/by/4.0/', creator: { '@type': 'Organization', name: 'Wiser', url: SITE }, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${SITE}/data/index.json` }], dateModified: built }).replace(/</g, '\\u003c')}</script>
-</head><body><main><a class="brand" href="/">WISER</a>
+<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Dataset', name: 'Satsang open data', url: `${SITE}/agents`, description: card.description, license: 'https://creativecommons.org/licenses/by/4.0/', creator: { '@type': 'Organization', name: 'Satsang', url: SITE }, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${SITE}/data/index.json` }], dateModified: built }).replace(/</g, '\\u003c')}</script>
+</head><body><main><a class="brand" href="/">SATSANG</a>
 <h1>For agents and developers</h1>
-<p class="muted">Wiser is an open, citable directory of the wisdom traditions. Ask ChatGPT, Claude or your own agent about traditions, teachers, lineages, retreats and free texts, and get answers that link back to a page here and to the original source.</p>
+<p class="muted">Satsang is an open, citable directory of the wisdom traditions. Ask ChatGPT, Claude or your own agent about traditions, teachers, lineages, retreats and free texts, and get answers that link back to a page here and to the original source.</p>
 
 <h2>Connector URL</h2>
 <code class="url">${MCP}/mcp</code>
@@ -121,13 +122,13 @@ table{border-collapse:collapse;width:100%;font-size:14px} td{border-top:1px soli
 
 <h2>Add it to ChatGPT</h2>
 <ol><li>Settings &rarr; Apps &amp; Connectors &rarr; Advanced &rarr; turn on Developer mode (Plus, Pro, Business, Enterprise or Edu).</li>
-<li>Connectors &rarr; Create: name <b>Wiser</b>, URL <code>${MCP}/mcp</code>, Authentication <b>No authentication</b>.</li>
-<li>In a chat, open the tools menu, enable Wiser, and ask e.g. &ldquo;Find residential Theravada retreats in the UK with contact pages&rdquo;. Deep research can use its <code>search</code> and <code>fetch</code> tools.</li></ol>
+<li>Connectors &rarr; Create: name <b>Satsang</b>, URL <code>${MCP}/mcp</code>, Authentication <b>No authentication</b>.</li>
+<li>In a chat, open the tools menu, enable Satsang, and ask e.g. &ldquo;Find residential Theravada retreats in the UK with contact pages&rdquo;. Deep research can use its <code>search</code> and <code>fetch</code> tools.</li></ol>
 <p class="muted">Custom GPT instead: Configure &rarr; Actions &rarr; Import from URL <code>${MCP}/openapi.json</code>, authentication None.</p>
 
 <h2>Add it to Claude</h2>
 <ol><li>Claude.ai or Claude Desktop: Settings &rarr; Connectors &rarr; Add custom connector &rarr; URL <code>${MCP}/mcp</code>.</li>
-<li>Claude Code: <code>claude mcp add --transport http wiser ${MCP}/mcp</code></li>
+<li>Claude Code: <code>claude mcp add --transport http satsang ${MCP}/mcp</code></li>
 <li>Other clients (Cursor, VS Code, MCP Inspector): server type HTTP/streamable, same URL.</li></ol>
 
 <h2>Tools</h2>
@@ -143,8 +144,8 @@ table{border-collapse:collapse;width:100%;font-size:14px} td{border-top:1px soli
 <p class="muted">Every answer carries <code>url</code> (the page to cite), <code>source_url</code>, <code>verified_on</code> and <code>confidence</code>. Contacts are shown only as each place publishes them; please do not use them for bulk mail. Programme dates change: follow the place&rsquo;s schedule link.</p>
 
 <h2>Licence</h2>
-<p class="muted">Wiser&rsquo;s curation (topic intros, takes, practice summaries, tags, lineage edges, collections) is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: credit &ldquo;Wiser, tantrafiles.xyz&rdquo;. Third-party records are metadata pointing at their sources, under those sources&rsquo; terms. Code is MIT. Transcripts are never published.</p>
-<p class="muted"><a href="/">Back to Wiser</a> &middot; <a href="/credits">Credits</a> &middot; <a href="/privacy">Privacy</a></p>
+<p class="muted">Satsang&rsquo;s curation (topic intros, takes, practice summaries, tags, lineage edges, collections) is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: credit &ldquo;Satsang, ${HOST}&rdquo;. Third-party records are metadata pointing at their sources, under those sources&rsquo; terms. Code is MIT. Transcripts are never published.</p>
+<p class="muted"><a href="/">Back to Satsang</a> &middot; <a href="/credits">Credits</a> &middot; <a href="/privacy">Privacy</a></p>
 </main></body></html>
 `
 fs.writeFileSync(new URL('agents.html', out), agents)

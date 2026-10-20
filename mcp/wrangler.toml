@@ -1,4 +1,4 @@
-# Wiser MCP (read-only), live on mcp.tantrafiles.xyz. Deploy: sh ../app/deploy.sh mcp
+# Satsang MCP (read-only; worker name kept as wiser-mcp), live on the MCP host in ../domain.mjs. Deploy: sh ../app/deploy.sh mcp
 # (= build-data.mjs, slim-data.mjs, build-discovery.mjs, test.mjs, wrangler deploy)
 name = "wiser-mcp"
 main = "src/worker.mjs"

@@ -1,6 +1,7 @@
 // The practitioner profile (specs/PROFILE.md): device-first store (saves, practice log, journeys, flash signals) synced
 // anonymously through the API (who = d:<device>), and the #me page: "What resonates with you", saved, journeys in
 // progress, practice log, history, export and delete. Private by default; nothing here is public. Dark design classes only.
+import { BASE as SITE_BASE } from '../../domain.mjs'
 
 export function createProfile(d) {
   // d: { esc, LS, api(path, opts), apiOn(), device(), toast, taste(), tasteJSON(t), wise(), byId(id), thumb, clipTile, fmtDur,
@@ -65,7 +66,7 @@ export function createProfile(d) {
   // ---------- export / delete ----------
   function exportLocal() {
     const t = d.taste()
-    return { schema: 'https://tantrafiles.xyz/schema/profile.json', exported: now(), who: 'device', taste: t ? d.tasteJSON(t) : null, saves: saves(), practice: practiceLog(), journeys: journeys(),
+    return { schema: SITE_BASE + '/schema/profile.json', exported: now(), who: 'device', taste: t ? d.tasteJSON(t) : null, saves: saves(), practice: practiceLog(), journeys: journeys(),
       votes: d.votes().map((v) => ({ a: v.a, b: v.b, winner: v.winner, context: v.context || null, at: v.createdAt })), resonates: Object.entries(d.resonates()).map(([clip, x]) => ({ clip, ...x })),
       works: LS.get('works', {}), notForMe: obj('notForMe'), intentions: LS.get('intentions', null), feed: { less: arr('feedLess'), more: arr('feedMore'), seen: obj('feedSeen') }, visibility: { profile: 'private', taste: 'private', practice: 'private', curations: 'private' } }
   }
@@ -95,7 +96,7 @@ export function createProfile(d) {
     const P = practiceLog(), week = weekDots(P), mins = P.reduce((s, p) => s + (Number(p.minutes) || 0), 0), month = P.filter((p) => String(p.at).slice(0, 7) === now().slice(0, 7)).length
     const picks = d.votes().length
     el.innerHTML = `<div class="head"><h2>You</h2></div>
-      <p class="muted lede">What Wiser has learned from your picks, and what you keep. Private: only this device${d.signedIn() ? ' and your account' : ''} can see it.</p>
+      <p class="muted lede">What Satsang has learned from your picks, and what you keep. Private: only this device${d.signedIn() ? ' and your account' : ''} can see it.</p>
       <section class="wsec"><div class="wsech"><h3>What resonates with you</h3><span class="muted small">${picks ? picks + (picks === 1 ? ' pick' : ' picks') : ''}</span></div>
         ${trad.length || top.length ? `<p class="wsubs">${esc(sentence)}</p>
         <div class="wtopics">${trad.map(([id]) => chip('traditions', id, nm(id), `#tradition/${id}`)).join('')}${top.map(([id]) => chip('topics', id, d.label(id), `#topic/${id}`)).join('')}${tea.map(([id]) => chip('teachers', id, W.person(id)?.short || W.person(id)?.n, `#teacher/${id}`)).join('')}</div>
@@ -115,10 +116,10 @@ export function createProfile(d) {
         <p class="muted">Everything above lives on this device${d.apiOn() ? ' and is kept in sync anonymously (no account, no email) so it survives a cleared browser' : ''}. Download it whole, or delete it whole.</p>
         <p class="fl-acts" style="justify-content:flex-start"><button type="button" class="hbtn" data-dl="1">Download my data</button><button type="button" class="hbtn" data-del="1">Delete everything</button></p></section>`
     el.querySelectorAll('[data-nfm]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); const N = obj('notForMe'); N[b.dataset.nfm] = true; LS.set('notForMe', N); d.onTaste?.(); paint(el); d.toast('Noted. Less of that.') }))
-    el.querySelector('[data-reset]')?.addEventListener('click', () => { if (!confirm('Reset your taste? Your picks stay in your history; Wiser forgets what it learned from them.')) return; LS.set('tasteReset', now()); d.onTaste?.(); paint(el) })
+    el.querySelector('[data-reset]')?.addEventListener('click', () => { if (!confirm('Reset your taste? Your picks stay in your history; Satsang forgets what it learned from them.')) return; LS.set('tasteReset', now()); d.onTaste?.(); paint(el) })
     d.intentions?.().bind(el, () => paint(el))
     el.querySelector('[data-dl]')?.addEventListener('click', download)
-    el.querySelector('[data-del]')?.addEventListener('click', async () => { if (!confirm('Delete your taste, saves, practice log, journeys and history from this device' + (d.apiOn() ? ' and from Wiser\u2019s servers' : '') + '? This cannot be undone.')) return; await forget(); d.onTaste?.(); paint(el); d.toast('Deleted.') })
+    el.querySelector('[data-del]')?.addEventListener('click', async () => { if (!confirm('Delete your taste, saves, practice log, journeys and history from this device' + (d.apiOn() ? ' and from Satsang\u2019s servers' : '') + '? This cannot be undone.')) return; await forget(); d.onTaste?.(); paint(el); d.toast('Deleted.') })
   }
   const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus' }
   const chip = (f, id, label, href) => `<a class="wchip tp" href="${esc(href)}">${esc(label)}<button type="button" class="fl-nfm" data-nfm="${esc(f + ':' + id)}" aria-label="Not for me" title="Not for me">\u00d7</button></a>`

@@ -1,4 +1,4 @@
-const BrowserOAuthClient = null // Wiser: Bluesky publishing switched off (see initAuth)
+const BrowserOAuthClient = null // Satsang: Bluesky publishing switched off (see initAuth)
 import { renderAvatar, PALETTES } from 'mascot-avatars' // MIT, (c) 2026 s1dashu / Ato Augustine — see site/credits.html
 import { structSim } from './structsim.js' // shared with tally/tally.mjs (characters2 §4a)
 import { computeChart, chartSVG, tasteMatch, STY, dimLabel, dimShort, dimPhrase, shortName, CHART_COLORS } from './humour.js' // the humour chart
@@ -22,6 +22,7 @@ import { createIntentions } from './intentions.js' // FORYOU.md §2: goals, curr
 import { createTV } from './tv.js' // FORYOU.md §4 / LOOP.md §4: lean-back TV mode (#tv)
 import { createCollections } from './collections.js' // collections, practices, the timer
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
+import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
 
 // www.funnier.si/u/<username> (served by funnier-web with <base href="/">) -> the in-app route #u/<username>
 if (typeof location !== 'undefined' && typeof history !== 'undefined') { const m = location.pathname.match(/^(.*\/)u\/([A-Za-z0-9_]{3,20})\/?$/); if (m) history.replaceState(null, '', m[1] + '#u/' + m[2] + location.search)
@@ -54,7 +55,7 @@ function applyScreen(file) {
   FORMAT_PREFS.mobile.maxSec = SP.capMobileSec; FORMAT_PREFS.desktop.maxSec = SP.capDesktopSec
 }
 let CROWD_TASTE = null // data/engine-prior.json (tally): the crowd's taste weights = everyone's starting prior
-let SAME_OK = true // Wiser: while one teacher dominates the roster, two talks by the same teacher may meet (they must still share a topic)
+let SAME_OK = true // Satsang: while one teacher dominates the roster, two talks by the same teacher may meet (they must still share a topic)
 let CLIPS = [], BYID = {}, BOARD = null, PAIRS = [], COMICS = {}, PUBVOTES = [], DAILY = [], DAILYRES = null, THEORY = {}
 let LANE = LS.get('lane', 'human'), BOARDKIND = 'all'
 // funnygraph (github.com/prx0r/funnygraph) owns comic identity, region, tier and its own ranking boards. The deploy syncs its
@@ -123,7 +124,7 @@ function clipStart(c, liveDur) {
   const s = Number(c?.start) || 0
   if (c?.end != null && Number(c.end) > s) return s
   const d = clipDur(c, liveDur)
-  return s // Wiser: a talk plays from its start to its end (no closing-seconds window); full talks are profile-only
+  return s // Satsang: a talk plays from its start to its end (no closing-seconds window); full talks are profile-only
 }
 function clipWin(c, liveDur) {
   const s = Number(c?.start) || 0
@@ -172,7 +173,7 @@ async function loadData() {
   try { const cj = await (await fetch('teachers.json', { cache: 'no-cache' })).json(); COMICS = cj.teachers || cj.comics || {}; for (const P of Object.values(COMICS)) { if (P.family && !P.region) P.region = P.family; if (P.familyLabel) P.regionLabel = P.familyLabel; if (!P.fgId) P.fgId = P.slug } COMICSRC = cj.source || null } catch { COMICS = {} }
   try { PUBVOTES = (await (await fetch('data/votes.json', { cache: 'no-cache' })).json()).votes || [] } catch { PUBVOTES = [] }
   try { PAIRS = (await (await fetch('data/pairs.json', { cache: 'no-cache' })).json()).pairs || [] } catch { PAIRS = [] }
-  THEORY = {} // (no comedy theory base in Wiser)
+  THEORY = {} // (no comedy theory base in Satsang)
   try { const d = await (await fetch('daily.json', { cache: 'no-cache' })).json(); DAILY = Array.isArray(d) ? d : [] } catch { DAILY = [] }
   try { const r = await fetch('data/screening-params.json', { cache: 'no-cache' }); applyScreen(r && r.ok !== false ? await r.json() : null) } catch { applyScreen(null) }
   try { const r = await fetch('data/engine-prior.json', { cache: 'no-cache' }); const j = r && r.ok !== false ? await r.json() : null; CROWD_TASTE = j && j.weights && typeof j.weights === 'object' ? j : null } catch { CROWD_TASTE = null }
@@ -196,7 +197,7 @@ async function loadDailyResults() {
 
 // ---------- auth (AT Protocol OAuth) ----------
 async function initAuth() {
-  return // Wiser: no Bluesky publishing (the AT Protocol path stays in the code, switched off)
+  return // Satsang: no Bluesky publishing (the AT Protocol path stays in the code, switched off)
   try {
     client = await BrowserOAuthClient.load({
       clientId: IS_LOCAL ? undefined : BASE + 'client-metadata.json',
@@ -340,7 +341,7 @@ function paintSeenMarks() { if (!$('#v-comics')?.hidden) paintComics(); if (!$('
 const RESONANCE = true
 let SNAP_MS = 1500, SLOW_MS = 7000; const LS_WIN_W = 1.2, LS_LOSE_W = 0.6
 let SNAP_MULT = 1.25, SLOW_MULT = 0.85, STRONG_MULT = 1.4
-// Wiser (resonance, 2026-10-20): no clock and no timing multipliers. The listener takes their time; every pick weighs 1,
+// Satsang (resonance, 2026-10-20): no clock and no timing multipliers. The listener takes their time; every pick weighs 1,
 // halved when either talk had less than GATE_SEC (or its end). decisionMs is still logged, never used as a weight.
 function timingWeight(v) {
   if (RESONANCE) return 1
@@ -1495,7 +1496,7 @@ function startVote() {
   markDailyDone() // watched it through to the ballot
   armed = true; armedAt = now(); sharedDuringBallot = false // decision time runs from the moment the ballot appears (logged only)
   voteLeft = VOTE_MS; voteHeld = false
-  if (!RESONANCE) runCountdown() // Wiser: no clock, no auto-pass. The ballot waits for the listener.
+  if (!RESONANCE) runCountdown() // Satsang: no clock, no auto-pass. The ballot waits for the listener.
   paintLowNote()
 }
 // a quiet line under the ballot when a pick would count half (either talk heard under GATE_SEC and not to its end)
@@ -1802,7 +1803,7 @@ async function enterNative() {
 }
 function fsTip() {
   if (LS.get('fsTip', false) || (typeof navigator !== 'undefined' && navigator.standalone)) return
-  LS.set('fsTip', true); toast('Tip: Share → Add to Home Screen gives Wiser the whole screen.')
+  LS.set('fsTip', true); toast('Tip: Share → Add to Home Screen gives Satsang the whole screen.')
 }
 async function setFullscreen(on) {
   LS.set('fs', !!on)
@@ -2185,7 +2186,7 @@ function comicStats(name) {
   }
   return { crowd, mine, clips, rated, styles: Object.entries(styles).sort((a, b) => b[1] - a[1]).map((x) => x[0]), h2h }
 }
-// ---------- topics (Wiser): every topic heat, with how many talks carry it; tap = screen that heat ----------
+// ---------- topics (Satsang): every topic heat, with how many talks carry it; tap = screen that heat ----------
 function paintTopics() {
   const el = $('#topicsview'); if (!el) return
   const tm = location.hash.match(/^#topic\/(.+)$/)
@@ -2410,7 +2411,7 @@ function paintComics() {
   if (/^#traditions/.test(h)) TEACHSUB = 'traditions'; else if (/^#teachers/.test(h)) TEACHSUB = 'teachers'
   const seg = `<div class="wseg" role="tablist" aria-label="Teachers or traditions"><a role="tab" href="#teachers" class="${TEACHSUB === 'teachers' ? 'on' : ''}" aria-selected="${TEACHSUB === 'teachers'}">Teachers</a><a role="tab" href="#traditions" class="${TEACHSUB === 'traditions' ? 'on' : ''}" aria-selected="${TEACHSUB === 'traditions'}">Traditions</a></div>`
   if (TEACHSUB === 'traditions') {
-    el.innerHTML = `<div class="head"><h2>Traditions</h2>${seg}</div><p class="muted lede">Every tradition on Wiser, from its family down to its lineages, with the figures and talks in each.</p>${W.traditionsHTML()}`
+    el.innerHTML = `<div class="head"><h2>Traditions</h2>${seg}</div><p class="muted lede">Every tradition on Satsang, from its family down to its lineages, with the figures and talks in each.</p>${W.traditionsHTML()}`
     return
   }
   const ids = Object.keys(W.people())
@@ -2459,7 +2460,7 @@ function _oldPaintComics() {
     if (name) return paintProfile(el, name)
   }
   const shown = names.filter((n) => regionOK(placeOf(n)))
-  el.innerHTML = `<div class="head"><h2>Teachers</h2></div><p class="muted lede">The teachers on Wiser, and the talks to start with.</p>
+  el.innerHTML = `<div class="head"><h2>Teachers</h2></div><p class="muted lede">The teachers on Satsang, and the talks to start with.</p>
     <div class="chartbar">${regionBar(names.map((n) => placeOf(n)))}</div>
     <div class="grid">${shown.map((n) => { const st = comicStats(n), first = st.clips.find((k) => k.media === 'youtube')
       const ph = photoOf(COMICS[n]), fb = first ? thumb(first.id) : '', where = COMICS[n]?.traditionLabel || ''
@@ -2479,7 +2480,7 @@ function profileStats(P, st) {
   const out = []
   if (P.fg?.house) out.push([`#${P.fg.house}`, 'The Greatest'])
   if (P.fg?.peoples) out.push([`#${P.fg.peoples}`, 'Fan favourites'])
-  if (st.crowd?.bouts) out.push([Math.round((100 * (st.crowd.wins || 0)) / st.crowd.bouts) + '%', 'Chosen on Wiser'])
+  if (st.crowd?.bouts) out.push([Math.round((100 * (st.crowd.wins || 0)) / st.crowd.bouts) + '%', 'Chosen on Satsang'])
   const n = st.clips.filter((c) => servable(c)).length
   if (n) out.push([n, n === 1 ? 'Talk' : 'Talks'])
   return out.length ? `<div class="stats">${out.slice(0, 4).map(([v, l]) => `<div><b>${esc(String(v))}</b><span>${esc(l)}</span></div>`).join('')}</div>` : ''
@@ -2702,7 +2703,7 @@ async function publishPassportBsky(p) {
 function importPassport(text) {
   let j = null; try { j = JSON.parse(text) } catch {}
   const p = cleanPassport(j)
-  if (!p) { toast('That isn\u2019t a Wiser Taste Passport (' + PASSPORT_SCHEMA + ').'); return false }
+  if (!p) { toast('That isn\u2019t a Satsang Taste Passport (' + PASSPORT_SCHEMA + ').'); return false }
   LS.set('enginePrior', passportPrior(p))
   try { engineFit(8) } catch {} chartChanged()
   const log = LS.get('engineLog', []); log.push({ at: new Date().toISOString(), kind: 'import', d: [], why: `imported a passport (${p.n.votes} votes, ${p.type.full}) as your starting point` }); LS.set('engineLog', log.slice(-200))
@@ -2822,7 +2823,7 @@ function charRowHTML(c, own) {
   const t = c.type || (own ? (() => { try { const p = subjPassport(c.id); return p ? typeName(p).name : '' } catch { return '' } })() : '')
   return `<a class="up-char" href="#c/${esc(c.id)}"><span class="up-charav">${seedSVG(c.avatar_seed || c.id)}</span><span class="up-chart-t"><b>${esc(c.name)}</b><small>${esc(t || 'untrained')}${own ? ` · ${c.visibility === 'public' ? 'public' : 'private'}` : ''}</small></span></a>`
 }
-function charactersHTML(list, own) { return '' // characters are not part of Wiser
+function charactersHTML(list, own) { return '' // characters are not part of Satsang
 }
 function charactersHTML_unused(list, own) {
   if (!own && !arr(list).length) return ''
@@ -3003,7 +3004,7 @@ function bindChrome() {
 }
 
 // ---------- share a clash: #clash/<clipA>/<clipB>&pick=a|b, no backend ----------
-const SHARE_BASE = 'https://tantrafiles.xyz/' // fallback; site/config.json shareBase wins
+const SHARE_BASE = SITE_BASE + '/' // fallback; site/config.json shareBase wins
 let pendingClash = null, sharedRound = null, sharedDuringBallot = false
 function parseClash(h) {
   const w0 = String(h || '').match(/^#watch\/([^/&?]+)/), w1 = w0 ? (() => { try { return decodeURIComponent(w0[1]) } catch { return w0[1] } })() : '' // one clip, on the site's own player (never a YouTube link)
@@ -3086,7 +3087,7 @@ async function shareClash(a, b, pick) {
   if (!a || !b) return
   const url = await shareLink(a, b, pick), text = shareText(a, b, pick)
   if (navigator.share) {
-    try { await navigator.share({ title: 'Wiser: which talk resonates?', text, url }); return }
+    try { await navigator.share({ title: 'Satsang: which talk resonates?', text, url }); return }
     catch (e) { if (e && e.name === 'AbortError') return }
   }
   if (await copyText(url)) toast(pick ? 'Link copied. Your friend sees your pick only after they vote.' : 'Link copied. Send it to a friend.')
@@ -3414,7 +3415,7 @@ function exportData() {
 const HISTORY_KEYS = ['votes', 'partials', 'passes', 'skips', 'skipped', 'seen', 'shown', 'preds', 'dur', 'specials', 'dailyAuto', 'dailyDone', 'engine', 'engineLog', 'watches', 'wSyncedAt', 'wSyncedUser']
 function clearHistory() {
   let ok = false
-  try { ok = window.confirm('Clear your Wiser history on this device?\n\nThis removes your picks, passes, skips and specials log, and resets your taste model here. Picks already published to Bluesky stay published.') } catch { ok = false }
+  try { ok = window.confirm('Clear your Satsang history on this device?\n\nThis removes your picks, passes, skips and specials log, and resets your taste model here. Picks already published to Bluesky stay published.') } catch { ok = false }
   if (!ok) return
   for (const k of HISTORY_KEYS) { try { localStorage.removeItem('wiser.' + k) } catch {} }
   W_MEM = null
@@ -3530,7 +3531,7 @@ async function signOut() {
 }
 async function deleteAccount() {
   let ok = false
-  try { ok = window.confirm('Delete your Wiser account?\n\nThis permanently removes your profile, synced picks, friends and invites from our servers. Your history on this device stays until you clear it.') } catch {}
+  try { ok = window.confirm('Delete your Satsang account?\n\nThis permanently removes your profile, synced picks, friends and invites from our servers. Your history on this device stays until you clear it.') } catch {}
   if (!ok) return
   const r = await api('/me', { method: 'DELETE' }).catch(() => null)
   if (!r?.ok) return toast('Couldn\u2019t delete right now. Please try again.')
@@ -3703,11 +3704,11 @@ function openOnboarding() {
     try { r = await api('/me/profile', { method: 'PUT', body }) } catch (err) { console.warn('profile save', err) }
     if (!sh.contains(btn)) return // sheet closed meanwhile
     btn.disabled = false; btn.textContent = label
-    if (!r) return obFail('Couldn\u2019t reach Wiser. Check your connection and press Save again.')
+    if (!r) return obFail('Couldn\u2019t reach Satsang. Check your connection and press Save again.')
     if (r.j?.error === 'too_young') {
       await api('/me', { method: 'DELETE' }).catch(() => {})
       LS.set('session', null); USER = null; paintUser()
-      sh.querySelector('.sheetcard').innerHTML = `<h2>Sorry</h2><p>Wiser accounts are for people aged 13 and over, so we didn\u2019t keep this sign-in. You can keep watching and voting on this device without an account.</p><div class="obact"><button type="button" class="dhbtn" data-ob="close">OK</button></div>`
+      sh.querySelector('.sheetcard').innerHTML = `<h2>Sorry</h2><p>Satsang accounts are for people aged 13 and over, so we didn\u2019t keep this sign-in. You can keep watching and voting on this device without an account.</p><div class="obact"><button type="button" class="dhbtn" data-ob="close">OK</button></div>`
       sh.querySelector('[data-ob="close"]').onclick = close
       return
     }
@@ -3749,7 +3750,7 @@ function openAvatarSheet() {
   sh.querySelector('[data-ob="save"]').onclick = async (e) => {
     const btn = e.currentTarget; btn.disabled = true
     const r = await api('/me/profile', { method: 'PUT', body: { avatar_seed: roller.seed } }).catch(() => null); btn.disabled = false
-    if (!r?.ok) { sh.querySelector('[data-err=form]').textContent = !r ? 'Couldn\u2019t reach Wiser. Check your connection and try again.' : r.status === 401 ? 'Your sign-in has expired. Sign in with Google again from the account menu.' : `Couldn\u2019t save right now (error ${r.status}). Please try again.`; return }
+    if (!r?.ok) { sh.querySelector('[data-err=form]').textContent = !r ? 'Couldn\u2019t reach Satsang. Check your connection and try again.' : r.status === 401 ? 'Your sign-in has expired. Sign in with Google again from the account menu.' : `Couldn\u2019t save right now (error ${r.status}). Please try again.`; return }
     if (seedOf(r.j.user)) LS.set('avatarSeed', seedOf(r.j.user)) // this device keeps the mascot they chose
     USER = r.j.user; close(); paintUser(); paintProfilePage(); toast('New look saved.')
   }
@@ -3759,7 +3760,7 @@ function openAvatarSheet() {
 // Four Favourites, pinned clips, the humour chart, the specials diary and (later) AI sets. Everything lives on this device
 // first (funnier.favs / funnier.pins / funnier.specials) and publishes to the API once signed in
 // (PUT /me/profile-data, PUT /me/specials); public at www.funnier.si/u/<username> (#u/<username>).
-const PROFILE_HOST = 'tantrafiles.xyz/u/'
+const PROFILE_HOST = SITE_HOST + '/u/'
 const favsLocal = () => arr(LS.get('favs', [])).filter((n) => typeof n === 'string').slice(0, 4)
 const pinsLocal = () => arr(LS.get('pins', [])).filter((id) => typeof id === 'string').slice(0, 6)
 const visLocal = () => ({ profile: 'public', diary: 'friends', ...(LS.get('vis', null) || {}) })
@@ -4060,7 +4061,7 @@ async function paintPublic(el, name) {
   el.innerHTML = `<div class="up"><p class="muted up-loading">Loading ${esc(name)}\u2026</p></div>`
   const r = await fetchPublic(name)
   if (profRoute().name !== name) return
-  if (!r || r.status !== 200 || !r.j?.user) { el.innerHTML = `<div class="up"><section class="up-hero"><div class="up-id"><span class="eyebrow">Profile</span><h1>${esc(name)}</h1><p class="muted">${r?.status === 404 ? 'Nobody goes by that name on Wiser (yet).' : 'Couldn\u2019t load this profile. Check your connection.'}</p><div class="up-acts"><a class="dhbtn" href="#">Watch today\u2019s pair</a></div></div></section></div>`; return }
+  if (!r || r.status !== 200 || !r.j?.user) { el.innerHTML = `<div class="up"><section class="up-hero"><div class="up-id"><span class="eyebrow">Profile</span><h1>${esc(name)}</h1><p class="muted">${r?.status === 404 ? 'Nobody goes by that name on Satsang (yet).' : 'Couldn\u2019t load this profile. Check your connection.'}</p><div class="up-acts"><a class="dhbtn" href="#">Watch today\u2019s pair</a></div></div></section></div>`; return }
   const j = r.j
   const P = { own: false, user: j.user, favs: j.favs, pins: j.pins, chart: j.chart, specials: j.specials, sets: j.sets, hidden: j.hidden, vis_profile: j.vis_profile, passport: j.humour && j.humour.features ? j.humour : null, characters: j.characters || [],
     diaryNote: j.specials ? null : j.vis_diary === 'friends' ? 'Their diary is for friends only.' : j.vis_diary === 'private' ? 'Their diary is private.' : null }
@@ -4187,7 +4188,7 @@ function cardData(extra = {}) {
   const c = myChart(), name = signedIn() ? USER?.username : null
   let p = null; try { p = myPassport() } catch {}
   const tn = p ? typeName(p) : null, ty = p?.type || {}
-  return { username: name || 'me', avatarSVG: seedSVG(mySeed()), chart: c, mml: c.mml, url: name ? PROFILE_HOST + name : 'tantrafiles.xyz', favs: favsLocal().map(comicPic),
+  return { username: name || 'me', avatarSVG: seedSVG(mySeed()), chart: c, mml: c.mml, url: name ? PROFILE_HOST + name : SITE_HOST, favs: favsLocal().map(comicPic),
     glyphSVG: p ? glyphSVG(p, { size: 520, labels: true, animate: false, id: 'card' }) : '', typeName: tn?.name || 'The Open Book', typeWing: tn?.settled && ty.wing ? `${TYPES_SHORT[ty.k]} \u00b7 ${TYPES_SHORT[ty.wing]} wing` : '', typeLine: tn?.settled ? (TYPE_LINES[ty.k] || '') : 'Still learning what I find wise.', ...extra }
 }
 function openShareStudio(kind = 'chart', opts = {}) {

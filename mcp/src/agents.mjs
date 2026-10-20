@@ -1,15 +1,17 @@
-// Agent-facing layer of the Wiser MCP: canonical URLs, provenance (source_url + verified_on + confidence) on every answer,
+// Agent-facing layer of the Satsang MCP: canonical URLs, provenance (source_url + verified_on + confidence) on every answer,
 // the OpenAI-shaped `fetch` tool, and the "spiritual directory" tools: find_places, get_place, find_teachers, get_resources,
 // get_lineage_path, what_to_study. Pure functions over the index built by core.mjs (no I/O), so the same code runs in the
 // Worker, in Node tests and behind the REST mirror.
 import { buildResources, dateOf, slugify } from './resources.mjs'
+import { BASE, HOST, SITE_URL_RE } from '../../domain.mjs'
+const SITE_RE = new RegExp(SITE_URL_RE)
 
-export const SITE = 'https://tantrafiles.xyz'
+export const SITE = BASE
 export const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
-export const LICENSE = 'CC-BY-4.0 (Wiser curation); third-party records are metadata only, each under its source\u2019s terms'
+export const LICENSE = 'CC-BY-4.0 (Satsang curation); third-party records are metadata only, each under its source\u2019s terms'
 const KINDS = ['person', 'tradition', 'topic', 'practice', 'collection', 'place', 'resource', 'clip']
 
-// Canonical, citation-friendly URLs (all resolve on tantrafiles.xyz; clips redirect into the player).
+// Canonical, citation-friendly URLs (all resolve on BASE from ../../domain.mjs; clips redirect into the player).
 export const canon = (kind, id) => {
   if (kind === 'text') kind = 'resource'
   return `${SITE}/${kind}/${kind === 'clip' || kind === 'topic' ? String(id).split('/').map(encodeURIComponent).join('/') : encodeURIComponent(id)}`
@@ -79,7 +81,7 @@ function tradSet(ctx, q, exact) {
 
 // ---------- provenance ----------
 export function livingStatus(p) {
-  if (p.living === true) return { status: 'living', basis: 'marked living in Wiser' }
+  if (p.living === true) return { status: 'living', basis: 'marked living in Satsang' }
   if (p.years?.end != null) return { status: 'deceased', basis: `died ${p.years.end < 0 ? -p.years.end + ' BCE' : p.years.end}` }
   if (/[\u2013-]\s*\d{1,4}\s*(BCE|CE)?\s*$/.test(p.years?.label || '') || /\bBCE\b/.test(p.years?.label || '')) return { status: 'deceased', basis: `years ${p.years.label}` }
   if (p.onVideo && (p.years?.start == null || p.years.start >= 1930)) return { status: 'likely-living', basis: 'teaches on video, no death year recorded (inferred)' }
@@ -95,7 +97,7 @@ export function prov(ctx, kind, r) {
     }
     case 'place': return { url: canon('place', r.id), source_url: r.meta?.sources?.[0]?.url || r.contact?.page || r.url || wd(r.ids?.wikidata) || canon('place', r.id), verified_on: dateOf(r.contact?.checked) || dateOf(r.meta?.updated) || built, confidence: r.meta?.confidence || (r.url ? 'medium' : 'low') }
     case 'tradition': return { url: canon('tradition', r.id), source_url: wd(r.ids?.wikidata) || canon('tradition', r.id), verified_on: ctx.peopleDate, confidence: r.ids?.wikidata ? 'high' : 'medium' }
-    case 'practice': return { url: canon('practice', r.id), source_url: r.sources?.[0]?.url || canon('practice', r.id), verified_on: built, confidence: r.sources?.[0]?.url && !/tantrafiles\.xyz/.test(r.sources[0].url) ? 'medium' : 'low' }
+    case 'practice': return { url: canon('practice', r.id), source_url: r.sources?.[0]?.url || canon('practice', r.id), verified_on: built, confidence: r.sources?.[0]?.url && !SITE_RE.test(r.sources[0].url) ? 'medium' : 'low' }
     case 'topic': return { url: canon('topic', r.id), source_url: canon('topic', r.id), verified_on: built, confidence: r.state === 'published' ? 'medium' : 'low' }
     case 'collection': return { url: canon('collection', r.id), source_url: canon('collection', r.id), verified_on: built, confidence: 'medium' }
     case 'resource': return { url: canon('resource', r.id), source_url: r.sourceUrl || r.url || canon('resource', r.id), verified_on: r.verifiedOn || built, confidence: r.confidence || 'medium' }
@@ -109,7 +111,7 @@ export function prov(ctx, kind, r) {
 export function parseId(ctx, raw) {
   let s = String(raw || '').trim()
   if (!s) return null
-  s = s.replace(/^https?:\/\/(www\.)?tantrafiles\.xyz\/?/, '').replace(/^#/, '').replace(/^teacher\//, 'person/').replace(/^watch\//, 'clip/').replace(/^text\//, 'resource/').replace(/^wiser:\/\//, '')
+  s = s.replace(SITE_RE, '').replace(/^#/, '').replace(/^teacher\//, 'person/').replace(/^watch\//, 'clip/').replace(/^text\//, 'resource/').replace(/^wiser:\/\//, '')
   try { s = decodeURIComponent(s) } catch { /* keep */ }
   const m = s.match(/^([a-z]+)\/(.+)$/)
   if (m && (KINDS.includes(m[1]))) {
@@ -155,7 +157,7 @@ function textOf(ctx, k, r) {
       const ed = (ctx.adj.get('person/' + r.id) || []).slice(0, 20).map(({ e }) => `${gl(e.src)} ${e.rel.replace(/_/g, ' ')} ${gl(e.dst)} [${e.conf}]`)
       if (ed.length) L.push('Lineage: ' + ed.join('; ') + '.')
       const pl = (ctx.placesOf.get(r.id) || []).map((id) => ctx.place[id]?.name).filter(Boolean); if (pl.length) L.push('Places tied to them (founded or historically tied): ' + pl.join(', ') + '.')
-      if (r.depth?.clips) L.push(`Talks on Wiser: ${r.depth.clips} (plus ${r.depth.fullTalks || 0} full talks).`)
+      if (r.depth?.clips) L.push(`Talks on Satsang: ${r.depth.clips} (plus ${r.depth.fullTalks || 0} full talks).`)
       for (const l of r.links || []) L.push(`${l.label}: ${l.url}`)
       break
     }
@@ -202,8 +204,8 @@ function lineagePath(ctx, from, to, want, maxH) {
 const RO = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false }
 export const AGENT_TOOLS = [
   { name: 'fetch', title: 'Fetch a record', annotations: RO,
-    description: 'Fetch one Wiser record by the id returned from search (e.g. "person/ajahn-chah", "place/tassajara", "resource/the-truth-of-rebirth-...", "topic/rebirth") or its tantrafiles.xyz URL. Returns {id, title, text, url, metadata}; text is a readable summary, metadata carries kind, source_url, verified_on, confidence and licence.',
-    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Id from search results, or a tantrafiles.xyz URL.' } }, required: ['id'] } },
+    description: 'Fetch one Satsang record by the id returned from search (e.g. "person/ajahn-chah", "place/tassajara", "resource/the-truth-of-rebirth-...", "topic/rebirth") or its ' + HOST + ' URL. Returns {id, title, text, url, metadata}; text is a readable summary, metadata carries kind, source_url, verified_on, confidence and licence.',
+    inputSchema: { type: 'object', properties: { id: { type: 'string', description: `Id from search results, or a ${HOST} URL.` } }, required: ['id'] } },
   { name: 'find_places', title: 'Find places to practise', annotations: RO,
     description: 'Monasteries, retreat centres, ashrams, temples, study centres and sacred sites. Filter by tradition (includes its schools), school (exact), country (ISO code or name), region, type, status (active or heritage), living_teacher, and offers (e.g. "residential", "10-day", "ordination", "online", "sanskrit"; all must match). Every result carries source_url, verified_on and confidence.',
     inputSchema: { type: 'object', properties: {
@@ -221,7 +223,7 @@ export const AGENT_TOOLS = [
     description: 'One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.',
     inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Place id, e.g. "amaravati" or "place/amaravati".' } }, required: ['id'] } },
   { name: 'find_teachers', title: 'Find teachers, scholars and figures', annotations: RO,
-    description: 'People in Wiser filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Wiser.',
+    description: 'People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Satsang.',
     inputSchema: { type: 'object', properties: { tradition: { type: 'string' }, school: { type: 'string' }, living: { type: 'boolean' }, country: { type: 'string' }, region: { type: 'string' },
       role: { type: 'string', enum: ['teacher', 'scholar', 'figure', 'translator', 'founder', 'author'] }, on_video: { type: 'boolean' }, query: { type: 'string' }, limit: { type: 'integer', minimum: 1, maximum: 100, default: 20 } } } },
   { name: 'get_resources', title: 'Texts and books', annotations: RO,
@@ -278,7 +280,7 @@ export function callAgentTool(ctx, name, a = {}) {
       return { total: ps.length, filters: applied, results: ps.slice(0, lim(a.limit, 20, 100)).map((p) => placeCard(ctx, p)), license: LICENSE, note: 'Contacts and programmes are as each place publishes them; check the place\u2019s own page before travelling.' }
     }
     case 'get_place': {
-      const id = String(a.id || '').replace(/^https?:\/\/(www\.)?tantrafiles\.xyz\//, '').replace(/^#?place\//, ''); const p = ctx.place[id]
+      const id = String(a.id || '').replace(SITE_RE, '').replace(/^#?place\//, ''); const p = ctx.place[id]
       if (!p) throw err(`unknown place "${a.id}"; try find_places or search with kinds ["place"]`)
       const pv = prov(ctx, 'place', p), asOf = pv.verified_on
       return { ...placeCard(ctx, p), description: p.description, founded: p.founded?.label, geo: p.geo?.public ? { lat: p.geo.lat, lng: p.geo.lng, precision: p.geo.precision } : null, scheduleUrl: p.scheduleUrl,
@@ -316,7 +318,7 @@ export function callAgentTool(ctx, name, a = {}) {
       const order = { free: 0, 'paid-or-unknown': 1, paid: 1, 'no-link': 2 }
       rs.sort((x, y) => (order[x.access] ?? 3) - (order[y.access] ?? 3) || x.title.localeCompare(y.title))
       return { total: rs.length, free: rs.filter((r) => r.access === 'free').length, filters: applied, results: rs.slice(0, lim(a.limit, 25, 100)).map((r) => resourceCard(ctx, r)), license: LICENSE,
-        note: 'Free items link to the publisher\u2019s own free edition (Wiser never rehosts). paid-or-unknown = a published work not known to be free.' }
+        note: 'Free items link to the publisher\u2019s own free edition (Satsang never rehosts). paid-or-unknown = a published work not known to be free.' }
     }
     case 'get_lineage_path': {
       const from = nodeOf(ctx, a.from), to = nodeOf(ctx, a.to)

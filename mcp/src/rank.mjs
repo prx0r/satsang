@@ -1,4 +1,4 @@
-// Wiser ranking primitives (see ../../specs/RANKING.md). Pure functions, no I/O; shared by the MCP server and the sim spec.
+// Satsang ranking primitives (see ../../specs/RANKING.md). Pure functions, no I/O; shared by the MCP server and the sim spec.
 
 export const familyOf = (trads, id) => { let t = trads[id]; let last = id; while (t) { last = t.id; t = trads[t.parent] } return last }
 

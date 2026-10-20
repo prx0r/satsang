@@ -117,7 +117,7 @@ export function createForYou(d) {
     el.innerHTML = `<div class="head"><h2>For you</h2><div class="fy-head-acts"><a class="btn gold" href="#tv">TV mode \u25b8</a></div></div>
       <p class="muted lede">${d.taste()?.n >= 2 ? 'Ranked from what resonates with you, with room for the unexpected.' : 'A first mix from the talks listeners find most resonant, across the traditions. It learns from every heart and pick.'}</p>
       ${th ? `<p class="fy-today"><span class="eyebrow">${esc(th.kind === 'rotation' ? 'Today' : th.kind === 'anniversary' ? 'On this day' : th.kind === 'moon' ? 'Today' : 'Today')}</span> <b>${esc(th.label)}</b> <span class="muted">${esc(th.line)}</span></p>` : ''}
-      ${it.length ? `<p class="muted small fy-int">Leaning towards ${esc(it.map((x) => x.label).join(', '))} \u00b7 <a href="#me" data-goint="1">change</a></p>` : `<p class="muted small fy-int"><a href="#me" data-goint="1">Tell Wiser what is on your mind</a> (optional, private)</p>`}
+      ${it.length ? `<p class="muted small fy-int">Leaning towards ${esc(it.map((x) => x.label).join(', '))} \u00b7 <a href="#me" data-goint="1">change</a></p>` : `<p class="muted small fy-int"><a href="#me" data-goint="1">Tell Satsang what is on your mind</a> (optional, private)</p>`}
       ${tvSuggest()}
       <div class="fy-grid" id="fygrid"></div><div class="fy-more" id="fymore"><span class="muted small">More arriving as you scroll</span></div>`
     const grid = el.querySelector('#fygrid')

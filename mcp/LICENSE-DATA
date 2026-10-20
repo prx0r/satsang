@@ -1,19 +1,19 @@
-Wiser open data licence
+Satsang open data licence
 =======================
 
-1. Wiser's own curation: Creative Commons Attribution 4.0 International (CC BY 4.0)
+1. Satsang's own curation: Creative Commons Attribution 4.0 International (CC BY 4.0)
    https://creativecommons.org/licenses/by/4.0/legalcode
 
-   Covers everything Wiser authors or compiles: topic intros, sub-questions and one-line "takes"; practice summaries,
-   steps and cautions written by Wiser; tags and their confidences; lineage and influence edges as compiled by Wiser
-   (with their notes and confidence levels); tradition blurbs and the tradition tree; short bios written by Wiser;
+   Covers everything Satsang authors or compiles: topic intros, sub-questions and one-line "takes"; practice summaries,
+   steps and cautions written by Satsang; tags and their confidences; lineage and influence edges as compiled by Satsang
+   (with their notes and confidence levels); tradition blurbs and the tradition tree; short bios written by Satsang;
    editorial collections, journeys and syllabi; the selection and arrangement of the directory (which places,
    people, texts and talks are included and how they are linked); computed fields (depth, tiers, quality, status).
 
-   Attribution: "Wiser (tantrafiles.xyz), CC BY 4.0", with a link to the record's canonical URL
-   (https://tantrafiles.xyz/<kind>/<id>) where practical.
+   Attribution: "Satsang (satsang.digital), CC BY 4.0", with a link to the record's canonical URL
+   (https://satsang.digital/<kind>/<id>) where practical.
 
-2. Third-party material: metadata only, under each source's own terms. Wiser does not relicense it.
+2. Third-party material: metadata only, under each source's own terms. Satsang does not relicense it.
    - Identifiers and labels from Wikidata: CC0 1.0.
    - Coordinates derived from OpenStreetMap (Nominatim/Photon): ODbL 1.0, "(c) OpenStreetMap contributors".
    - Portraits: Wikimedia Commons files, each under the licence named in its image.license / licenseUrl fields
@@ -23,7 +23,7 @@ Wiser open data licence
      ever linked whole and unchanged.
    - Texts and books: links to the publisher's own edition with the terms stated there (public domain, CC,
      "for free distribution", or all rights reserved for paid works). Nothing is rehosted.
-   - Places: names, descriptions written by Wiser, and contact details exactly as each place publishes them on its
+   - Places: names, descriptions written by Satsang, and contact details exactly as each place publishes them on its
      own site, each with its source URL and check date. These contacts are facts published by the place; they are
      included so people can reach the place. Do not use them for bulk or unsolicited mail, and do not resell them.
    - Goenka Vipassana centre entries follow the public dhamma.org directory.

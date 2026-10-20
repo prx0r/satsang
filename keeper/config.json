@@ -1,0 +1,27 @@
+{
+  "base": "https://tantrafiles.xyz",
+  "api": "https://api.tantrafiles.xyz",
+  "mcp": "https://mcp.tantrafiles.xyz",
+  "repo": "prx0r/satsang",
+  "stateBranch": "keeper-state",
+  "stateRaw": "https://raw.githubusercontent.com/prx0r/satsang/keeper-state/keeper/state",
+  "userAgent": "SatsangKeeper/1.0 (+https://github.com/prx0r/satsang/tree/main/keeper)",
+  "hubPages": ["/topic/rebirth", "/tradition/buddhism", "/person/ajahn-chah"],
+  "keyPages": ["/", "/topic/rebirth", "/person/ajahn-chah", "/place/amaravati", "/agents"],
+  "mcpProbeTool": { "name": "search", "arguments": { "query": "Ajahn Chah" } },
+  "deadAfter": 3,
+  "staleDays": 90,
+  "uptimeDays": 30,
+  "limits": {
+    "sitemap": { "hourly": 120, "weekly": 5000 },
+    "links": { "pages": 40, "urls": 500, "weekly": 1500 },
+    "linkrot": 700,
+    "oembed": 1500,
+    "jsonld": 40,
+    "perfTtfbMs": 1500,
+    "perfWeightBytes": 3000000
+  },
+  "aiBots": ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "CCBot", "Bingbot", "Googlebot"],
+  "workerGzipLimit": 3000000,
+  "reverifyLimit": 500
+}

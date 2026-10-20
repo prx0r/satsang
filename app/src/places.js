@@ -1,4 +1,4 @@
-// Wiser Place layer: monasteries, retreat centres, ashrams, temples, pilgrimage and study sites (data/wisegraph/places.json).
+// Satsang Place layer: monasteries, retreat centres, ashrams, temples, pilgrimage and study sites (data/wisegraph/places.json).
 //   #places            map (Leaflet + OSM, attribution shown) + filters (family / type / country) + list; Goenka centres are a
 //                      clustered layer you switch on; places without a public point (e.g. Hillside Hermitage) are list-only
 //   #place/<id>        a place profile: tradition, founder + lineage, official site, directions, contact (as published, with
@@ -167,7 +167,7 @@ export function createPlaces(ctx) {
           ${p.lat == null ? `<p class="muted small">${p.id === 'hillside-hermitage' ? 'The hermitage does not publish its location, so it is not on the map.' : 'No verified map point yet, so this place is listed but not on the map.'}</p>` : ''}
         </div>
       </section>
-      ${p.retreats?.length ? `<section class="wsec"><div class="wsech"><h3>Retreats and programmes</h3></div><div class="pprog">${p.retreats.map((r) => `<article class="pprg"><b>${esc(r.name)}</b>${r.typical_length ? `<span>${esc(r.typical_length)}</span>` : ''}${r.format ? `<p>${esc(r.format)}</p>` : ''}${r.cost_model ? `<em>${esc(r.cost_model)}</em>` : ''}${r.schedule_url ? `<a class="btn ghost" href="${esc(r.schedule_url)}" target="_blank" rel="noopener">Official schedule \u2197</a>` : ''}</article>`).join('')}</div><p class="muted small">Dates and fees live on the official schedule; Wiser keeps only the link.</p></section>` : ''}
+      ${p.retreats?.length ? `<section class="wsec"><div class="wsech"><h3>Retreats and programmes</h3></div><div class="pprog">${p.retreats.map((r) => `<article class="pprg"><b>${esc(r.name)}</b>${r.typical_length ? `<span>${esc(r.typical_length)}</span>` : ''}${r.format ? `<p>${esc(r.format)}</p>` : ''}${r.cost_model ? `<em>${esc(r.cost_model)}</em>` : ''}${r.schedule_url ? `<a class="btn ghost" href="${esc(r.schedule_url)}" target="_blank" rel="noopener">Official schedule \u2197</a>` : ''}</article>`).join('')}</div><p class="muted small">Dates and fees live on the official schedule; Satsang keeps only the link.</p></section>` : ''}
       ${line.length > 1 ? `<section class="wsec"><div class="wsech"><h3>Lineage</h3></div>${chainHTML(line, t0)}</section>` : ''}
       ${p.teachers?.length ? `<section class="wsec"><div class="wsech"><h3>Founded by or taught here</h3></div><div class="wgrid">${p.teachers.map((t) => W().personTile(t)).join('')}</div></section>` : ''}
       ${talks.length ? `<section class="wsec"><div class="wsech"><h3>Talks by teachers of ${esc(p.name)}</h3></div><div class="rail">${talks.slice(0, 24).map((c) => clipTile(c, null, W().fmtDur(c))).join('')}</div></section>` : ''}

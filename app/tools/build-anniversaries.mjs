@@ -16,7 +16,7 @@ try {
   for (let i = 0; i < qs.length; i += 80) {
     const vals = qs.slice(i, i + 80).map((q) => 'wd:' + q).join(' ')
     const q = `SELECT ?p ?d ?prec WHERE { VALUES ?p { ${vals} } ?p p:P570/psv:P570 ?v . ?v wikibase:timeValue ?d ; wikibase:timePrecision ?prec . }`
-    const r = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: { 'user-agent': 'Wiser/1.0 (https://tantrafiles.xyz; hello@tantrafiles.xyz)', accept: 'application/sparql-results+json' }, signal: AbortSignal.timeout(30000) })
+    const r = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: { 'user-agent': 'Satsang/1.0 (https://tantrafiles.xyz; hello@tantrafiles.xyz)', accept: 'application/sparql-results+json' }, signal: AbortSignal.timeout(30000) })
     const j = await r.json()
     for (const b of j.results.bindings) {
       if (Number(b.prec.value) !== 11) continue

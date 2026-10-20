@@ -1,10 +1,10 @@
-# Wiser portraits: Wikidata P18 (image) -> Wikimedia Commons file + licence metadata. Commons only, no other source.
+# Satsang portraits: Wikidata P18 (image) -> Wikimedia Commons file + licence metadata. Commons only, no other source.
 # Keeps only public-domain / CC0 / CC BY / CC BY-SA files. Writes wisegraph/portraits.json (the credits record, also read by
 # tools/build-wise.py for profiles and the Credits page). Hotlinks Commons thumbnails (upload.wikimedia.org); nothing is downloaded.
 # usage: python3 tools/portraits.py   (re-run after adding people; existing entries are refreshed)
 import json, os, re, urllib.request, urllib.parse, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = {'User-Agent': 'WiserPortraits/1.0 (https://tantrafiles.xyz; hello@tantrafiles.xyz)'}
+UA = {'User-Agent': 'SatsangPortraits/1.0 (https://tantrafiles.xyz; hello@tantrafiles.xyz)'}
 def get(u): return json.load(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=40))
 people = json.load(open(os.path.join(ROOT, 'wisegraph/people.json')))['people']
 qids = [p['wikidata'] for p in people if p.get('wikidata')]

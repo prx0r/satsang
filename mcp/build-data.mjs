@@ -1,17 +1,18 @@
 #!/usr/bin/env node
-// Normalises Wiser's static site data (READ-ONLY: ../app/site/{clips.json,data/wisegraph/*} + ../app/schema/topics.json for
+// Normalises Satsang's static site data (READ-ONLY: ../app/site/{clips.json,data/wisegraph/*} + ../app/schema/topics.json for
 // topic labels/tree only; keyword regexes are internal and dropped) into one file of unified entities that match
 // ../specs/schema/*.json:  data/wiser.json  { meta, person, tradition, clip, text, practice, topic, collection, place, edge }
 // Usage: node build-data.mjs [--app ../app]   (never writes outside mcp/)
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { BASE } from '../domain.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const argApp = process.argv.indexOf('--app')
 const APP = path.resolve(HERE, argApp > 0 ? process.argv[argApp + 1] : '../app')
 const rd = (p) => JSON.parse(fs.readFileSync(path.join(APP, p), 'utf8'))
-const SITE = 'https://tantrafiles.xyz'
+const SITE = BASE
 
 const clipsRaw = rd('site/clips.json')
 const wise = rd('site/data/wisegraph/wise.json')
@@ -210,7 +211,7 @@ if (colData) {
     practice[id] = { id, type: 'practice', name: pr.name, kind: prev?.kind || kindOf(pr.name + ' ' + (pr.how || '')), traditions: [tr], traditionLabel: pr.tradLabel || prev?.traditionLabel,
       summary: String(pr.how || '').slice(0, 400), steps: st, duration: pr.minutes ? { min: Math.min(5, pr.minutes), max: 30, default: pr.minutes } : undefined,
       needsTeacher: !!pr.needsTeacher, contraindications: pr.cautions?.length ? pr.cautions : undefined,
-      sources: pr.source ? [{ url: pr.source, cite: pr.sourceLabel || undefined }] : prev?.sources || [{ url: `${SITE}/#practice/${id}`, cite: 'Wiser summary' }],
+      sources: pr.source ? [{ url: pr.source, cite: pr.sourceLabel || undefined }] : prev?.sources || [{ url: `${SITE}/#practice/${id}`, cite: 'Satsang summary' }],
       topics: [...new Set([...(prev?.topics || []), ...(pr.topics || []).filter((t) => topic[t])])], url: `${SITE}/#practice/${id}`, meta: { license: LIC } }
   }
   const refOf = (it, cid) => it.ref?.startsWith('clip:') ? { id: `clip/${it.ref.slice(5)}` } : it.ref?.startsWith('practice:') ? { id: `practice/${pidMap[it.ref.slice(9)] || it.ref.slice(9)}` }
@@ -273,7 +274,7 @@ try {
 // strip undefined
 const clean = (o) => JSON.parse(JSON.stringify(o, (k, v) => (v === null && !['parent', 'end', 'start', 'year'].includes(k) ? undefined : v)))
 const out = clean({
-  meta: { built: new Date().toISOString(), source: 'app/site (read-only)', license: 'Metadata CC BY 4.0 (Wiser curation). Media stays on its host (YouTube embeds). No transcripts.',
+  meta: { built: new Date().toISOString(), source: 'app/site (read-only)', license: 'Metadata CC BY 4.0 (Satsang curation). Media stays on its host (YouTube embeds). No transcripts.',
     counts: {}, sources: { people: wise.meta?.built, places: placesRaw.meta?.built, placeSources: placesRaw.meta?.sources } },
   person, tradition, clip, text, practice, topic, collection, place, edge, resourceExtra,
 })

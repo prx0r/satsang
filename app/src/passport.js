@@ -4,8 +4,9 @@
 // owner opts in. Pure (no DOM, no storage, no engine import): bundled into site/app.js, imported by the Worker
 // (api/src/index.js, cleanPassport) and the tests. Schema: lexicons/funnier.humour.v1.schema.json (JSON) and
 // lexicons/io.github.prx0r.funnier.humour.json (the AT Protocol record, integers only).
+import { BASE as SITE_BASE } from '../../domain.mjs'
 export const SCHEMA = 'funnier.humour/v1'
-export const PASSPORT_SCHEMA_URL = 'https://tantrafiles.xyz/schema/wiser.taste.v1.json'
+export const PASSPORT_SCHEMA_URL = SITE_BASE + '/schema/wiser.taste.v1.json'
 // the nine humour types, one per chart axis, in their order around the circle (the enneagram-style figure)
 export const TYPES = [
   { k: 'renounce', name: 'The Renunciant', short: 'Renunciant', line: 'Less, and then less again. You lean toward talks on letting go.', hue: 35 },

@@ -1,6 +1,7 @@
-// schema.org JSON-LD for each Wiser entity kind (see ../../specs/DATA-MODEL.md §6). Pure mapping; used by build-dump.mjs and,
+// schema.org JSON-LD for each Satsang entity kind (see ../../specs/DATA-MODEL.md §6). Pure mapping; used by build-dump.mjs and,
 // later, by the site to inject <script type="application/ld+json"> on each page.
-const SITE = 'https://tantrafiles.xyz'
+import { BASE } from '../../domain.mjs'
+const SITE = BASE
 export const idUrl = (kind, id) => `${SITE}/${kind === 'text' ? 'resource' : kind}/${kind === 'clip' ? encodeURIComponent(id) : id}`
 const sameAs = (ids) => ids?.wikidata ? [`https://www.wikidata.org/wiki/${ids.wikidata}`] : undefined
 const iso = (sec) => { if (!sec) return undefined; const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60; return `PT${h ? h + 'H' : ''}${m ? m + 'M' : ''}${s ? s + 'S' : ''}` || 'PT0S' }
@@ -36,7 +37,7 @@ export function toJsonLd(kind, r, data) {
       const items = r.units.flatMap((u) => u.items.map((it) => it.ref.id))
       const list = { '@type': 'ItemList', itemListOrder: r.ordered ? 'https://schema.org/ItemListOrderAscending' : 'https://schema.org/ItemListUnordered',
         itemListElement: items.map((g, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@id': `${SITE}/${g}` } })) }
-      if (r.kind === 'journey' || r.kind === 'syllabus') return { '@type': 'Course', ...base, name: r.title, description: r.intro, provider: { '@type': 'Organization', name: 'Wiser', url: SITE },
+      if (r.kind === 'journey' || r.kind === 'syllabus') return { '@type': 'Course', ...base, name: r.title, description: r.intro, provider: { '@type': 'Organization', name: 'Satsang', url: SITE },
         hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseSchedule: r.cadence ? { '@type': 'Schedule', repeatFrequency: 'P1D', repeatCount: r.cadence.days } : undefined },
         syllabusSections: r.units.map((u) => ({ '@type': 'Syllabus', name: u.title, description: u.intro })), hasPart: list, license: r.license && LICENSE }
       if (r.kind === 'meditation-series' || r.kind === 'visualisation-cycle') return { '@type': 'CreativeWorkSeries', ...base, name: r.title, description: r.intro, hasPart: list, license: LICENSE }

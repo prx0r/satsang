@@ -1,5 +1,5 @@
 {
- "_note": "Topic hubs (the #topic/<id> deep pages). Hand-curated, Wiser's own words. Essays and practices are LINKS ONLY to free, legitimate copies (publisher's own free offer or public domain); every url was checked 200 on 2026-10-20. Questions group a topic's talks by regex over title/segTitle/ytTitle (case-insensitive). tools/build-hubs.py adds the Atlas concept thread (atlas/merged, read-only) and writes site/data/wisegraph/hubs.json.",
+ "_note": "Topic hubs (the #topic/<id> deep pages). Hand-curated, Satsang's own words. Essays and practices are LINKS ONLY to free, legitimate copies (publisher's own free offer or public domain); every url was checked 200 on 2026-10-20. Questions group a topic's talks by regex over title/segTitle/ytTitle (case-insensitive). tools/build-hubs.py adds the Atlas concept thread (atlas/merged, read-only) and writes site/data/wisegraph/hubs.json.",
  "checked": "2026-10-20",
  "hubs": {
   "rebirth": {

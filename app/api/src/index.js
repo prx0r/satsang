@@ -7,12 +7,13 @@ import { cleanPolicy } from '../../src/policy.js' // logged screening policy (of
 import { getCookie, setCookie, deleteCookie } from 'hono/cookie'
 import { dailyTheme } from '../../src/themes.js' // For You daily theme (shared with the client)
 import { createRemoteJWKSet, jwtVerify, SignJWT } from 'jose'
+import { BASE, SITE_ORIGINS } from '../../../domain.mjs' // public hostnames (one place)
 
 // legacy preset ids (v1 profiles); each maps to a deterministic avatar seed 'preset-<id>'
 export const AVATARS = ['grin', 'deadpan', 'wink', 'shock', 'smirk', 'cool', 'nerd', 'tash', 'sleepy', 'tongue', 'monocle', 'clown']
 const SEED = /^[A-Za-z0-9_-]{1,40}$/ // avatar seed: the client renders a mascot from it (mascot-avatars)
 export const seedOf = (u) => (u?.avatar_seed && SEED.test(u.avatar_seed) ? u.avatar_seed : u?.avatar_id && AVATARS.includes(u.avatar_id) ? 'preset-' + u.avatar_id : null)
-const ORIGINS = ['https://tantrafiles.xyz', 'https://www.tantrafiles.xyz']
+const ORIGINS = SITE_ORIGINS // satsang.digital + tantrafiles.xyz (and www.), from ../../../domain.mjs
 const LOCAL = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/
 const COOKIE = 'wiser_session'
 const SESSION_DAYS = 60
@@ -20,7 +21,7 @@ const GOOGLE_JWKS = 'https://www.googleapis.com/oauth2/v3/certs'
 const CLIP = /^[A-Za-z0-9_.:@-]{1,64}$/ // '@': virtual clips (`${videoId}@${start}`)
 const DAY = /^\d{4}-\d{2}-\d{2}$/
 const USERNAME = /^[A-Za-z0-9_]{3,20}$/ // shown as typed, unique case-insensitively
-const SHARE_BASES = ['https://tantrafiles.xyz/']
+const SHARE_BASES = [BASE + '/'] // invite links point at the active site host
 const WHY_MAX = 40
 // watch signals (lexicon #signals): whole seconds, all optional; anything else is dropped
 const SIG_INT = { leftWatchedSec: 36000, rightWatchedSec: 36000, rightPct: 100, replays: 1000, leftSkippedAt: 36000, rightSkippedAt: 36000 }
@@ -133,7 +134,7 @@ app.put('/me/profile', auth, async (c) => {
   if ('birth_year' in b) {
     const y = Number(b.birth_year), max = new Date().getUTCFullYear() - 13
     if (!Number.isInteger(y) || y < 1900) errs.birth_year = 'enter a year between 1900 and ' + max
-    else if (y > max) return c.json({ error: 'too_young', message: 'Wiser profiles are for people aged 13 and over.' }, 400)
+    else if (y > max) return c.json({ error: 'too_young', message: 'Satsang profiles are for people aged 13 and over.' }, 400)
     else set.birth_year = y
   }
   if ('country' in b) { const v = String(b.country ?? '').toUpperCase(); if (!/^[A-Z]{2}$/.test(v)) errs.country = 'two-letter ISO country code'; else set.country = v }
@@ -210,7 +211,7 @@ app.get('/wisegraph/topic/:topic', async (c) => { // talks on one topic, with th
 })
 
 // ---------- votes ----------
-// Wiser: anonymous votes from day one. No session -> a random device id (DEVICE) stands in for the user ('d:<id>'),
+// Satsang: anonymous votes from day one. No session -> a random device id (DEVICE) stands in for the user ('d:<id>'),
 // at most ANON_BATCH votes per request, rate-limited per device and per hashed IP (rate_limits, hourly windows; the IP
 // hash uses EXPORT_SALT or SESSION_SECRET and is never stored beyond the window key). Anonymous votes are timestamped
 // by the server. Signed-in votes are unchanged.
@@ -226,7 +227,7 @@ async function ipKey(c) {
   const d = await crypto.subtle.digest('SHA-256', new TextEncoder().encode((c.env.EXPORT_SALT || c.env.SESSION_SECRET || 'wiser') + '|' + ip))
   return 'ip:' + [...new Uint8Array(d)].slice(0, 12).map((x) => x.toString(16).padStart(2, '0')).join('')
 }
-// ---------- "This resonates" (Wiser): a light single-talk save, separate from pairwise picks ----------
+// ---------- "This resonates" (Satsang): a light single-talk save, separate from pairwise picks ----------
 // anonymous with a device id, or the signed-in user. on=false removes it. Public aggregate: GET /resonate/counts.
 app.post('/resonate', async (c) => {
   const b = await body(c)
@@ -952,7 +953,7 @@ app.get('/me/export', async (c) => {
   const [v, r] = await DB.batch([DB.prepare('SELECT a, b, winner, signals, created_at FROM votes WHERE user_id = ? ORDER BY created_at').bind(vid), DB.prepare('SELECT clip, t, sec, created_at FROM resonates WHERE who = ?').bind(vid)])
   const vis = W.user ? await DB.prepare('SELECT visibility, handle, chips FROM profile_settings WHERE user_id = ?').bind(W.user.id).first() : null
   c.header('content-disposition', 'attachment; filename="wiser-profile.json"')
-  return c.json({ schema: 'https://tantrafiles.xyz/schema/profile.json', exported: now(), who: W.user ? 'account' : 'device', ...(await profileData(DB, W.who)),
+  return c.json({ schema: BASE + '/schema/profile.json', exported: now(), who: W.user ? 'account' : 'device', ...(await profileData(DB, W.who)),
     votes: (v.results || []).map((x) => ({ a: x.a, b: x.b, winner: x.winner, context: jparse(x.signals, {})?.context || null, at: x.created_at })), resonates: r.results || [],
     visibility: jparse(vis?.visibility, { profile: 'private', taste: 'private', practice: 'private', curations: 'private' }) })
 })
@@ -1036,7 +1037,7 @@ export async function nightly(env) {
     DB.prepare(`INSERT INTO clip_stats (clip, picks, wins, resonates, updated_at) VALUES ('_job', 0, 0, 0, ?) ON CONFLICT (clip) DO UPDATE SET updated_at = excluded.updated_at`).bind(at), // marks the run even with no votes yet
   ])
   let ann = {}
-  try { const r = await fetch('https://tantrafiles.xyz/data/wisegraph/anniversaries.json', { cf: { cacheTtl: 3600 } }); if (r.ok) ann = (await r.json()).people || {} } catch {}
+  try { const r = await fetch(BASE + '/data/wisegraph/anniversaries.json', { cf: { cacheTtl: 3600 } }); if (r.ok) ann = (await r.json()).people || {} } catch {}
   const st = []
   for (const k of [0, 1]) { const day = new Date(Date.now() + k * 86400000).toISOString().slice(0, 10); const t = dailyTheme(day, { anniversaries: ann }); if (t) st.push(DB.prepare('INSERT INTO daily_theme (day, theme, updated_at) VALUES (?, ?, ?) ON CONFLICT (day) DO UPDATE SET theme = excluded.theme, updated_at = excluded.updated_at').bind(day, JSON.stringify(t), at)); out[day] = t?.id }
   if (st.length) await DB.batch(st)

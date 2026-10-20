@@ -1,5 +1,5 @@
 {
- "_note": "Wiser controlled topic vocabulary v1 (dharma / contemplative). Ids are slash paths (root/leaf). `label` is the public name, `heat` the compare-takes title. `kw` are case-insensitive regex fragments matched on word boundaries against the clip title, the YouTube description snippet and (internally only, never published) a matched transcript. `pali` lists source-language terms folded in so cross-tradition clips meet on the same node. See TAGS.md. | v2 (2026-10-20): merged the sourcing groups' topics-additions (tools/merge-sources.py); rebirth stays the cross-tradition root with Western reincarnation as a leaf, karma likewise (kamma/western).",
+ "_note": "Satsang controlled topic vocabulary v1 (dharma / contemplative). Ids are slash paths (root/leaf). `label` is the public name, `heat` the compare-takes title. `kw` are case-insensitive regex fragments matched on word boundaries against the clip title, the YouTube description snippet and (internally only, never published) a matched transcript. `pali` lists source-language terms folded in so cross-tradition clips meet on the same node. See TAGS.md. | v2 (2026-10-20): merged the sourcing groups' topics-additions (tools/merge-sources.py); rebirth stays the cross-tradition root with Western reincarnation as a leaf, karma likewise (kamma/western).",
  "version": 2,
  "tree": {
   "rebirth": {

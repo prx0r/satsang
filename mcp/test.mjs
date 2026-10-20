@@ -10,7 +10,7 @@ const rdT = (p) => fs.readFileSync(new URL(p, import.meta.url), 'utf8')
 const llms = rdT('discovery/llms.txt')
 import { run as clientRun } from './test-client.mjs'
 const t0 = Date.now(); const ctx = buildIndex(data); const indexMs = Date.now() - t0
-const handler = makeFetch(ctx, { discovery: { llms, llmsFull: rdT('discovery/llms-full.txt'), mcpJson: JSON.parse(rdT('discovery/mcp.json')) }, allowOrigin: (o) => /tantrafiles\.xyz|openai\.com|localhost|127\.0\.0\.1/.test(o) })
+const handler = makeFetch(ctx, { discovery: { llms, llmsFull: rdT('discovery/llms-full.txt'), mcpJson: JSON.parse(rdT('discovery/mcp.json')) }, allowOrigin: (o) => /tantrafiles\.xyz|satsang\.digital|openai\.com|localhost|127\.0\.0\.1/.test(o) })
 const server = http.createServer(async (req, res) => {
   const chunks = []; for await (const c of req) chunks.push(c)
   const ac = new AbortController(); res.on('close', () => ac.abort())
@@ -31,7 +31,7 @@ const call = async (name, args) => { const t = Date.now(); const r = await rpc('
 const check = (label, cond, info = '') => { console.log(`${cond ? 'PASS' : 'FAIL'}  ${label}${info ? '  — ' + info : ''}`); if (!cond) fails++ }
 
 const init = await rpc('initialize', { protocolVersion: '2025-06-18', capabilities: {}, clientInfo: { name: 'wiser-test', version: '0' } })
-check('initialize', init.body.result?.serverInfo?.name === 'wiser' && init.body.result.protocolVersion === '2025-06-18', `index built in ${indexMs} ms`)
+check('initialize', init.body.result?.serverInfo?.name === 'satsang' && init.body.result.protocolVersion === '2025-06-18', `index built in ${indexMs} ms`)
 const note = await fetch(base + '/mcp', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) })
 check('notification -> 202', note.status === 202)
 const list = await rpc('tools/list', {})
@@ -88,7 +88,7 @@ check('foreign Origin -> 403', evil.status === 403)
 const g = await fetch(base + '/mcp')
 check('GET /mcp -> 405 (stateless; SSE lives at /sse)', g.status === 405)
 const lt = await fetch(base + '/llms.txt')
-check('/llms.txt served', lt.status === 200 && (await lt.text()).startsWith('# Wiser'))
+check('/llms.txt served', lt.status === 200 && (await lt.text()).startsWith('# Satsang'))
 console.log('--- client test (test-client.mjs) against the local server ---')
 fails += await clientRun(base)
 // no transcript leakage: payload never carries transcript fields

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "_note": "Editorial collections (Wiser's own words). Items: {select: {topic, trad, notTrad, speaker, rx}} resolves to a talk at build time (tools/build-collections.py), {practice: <id>} to a practice. Kinds: set | journey | meditation-series | visualisation-cycle | syllabus (DATA-MODEL §2.4).",
+ "_note": "Editorial collections (Satsang's own words). Items: {select: {topic, trad, notTrad, speaker, rx}} resolves to a talk at build time (tools/build-collections.py), {practice: <id>} to a practice. Kinds: set | journey | meditation-series | visualisation-cycle | syllabus (DATA-MODEL §2.4).",
  "collections": [
   {
    "id": "seven-days-with-death",
@@ -9,7 +9,7 @@
    "topic": "death",
    "intro": "One short talk and one practice a day for a week. The traditions agree on little, but they agree that remembering death changes how we live. Go gently; skip a day whenever you need to.",
    "cadence": "daily",
-   "author": "Wiser",
+   "author": "Satsang",
    "units": [
     {
      "n": 1,

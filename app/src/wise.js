@@ -1,4 +1,4 @@
-// Wiser profiles: teachers, figures, traditions and topic compare pages, drawn from the wisegraph (data/wisegraph/wise.json)
+// Satsang profiles: teachers, figures, traditions and topic compare pages, drawn from the wisegraph (data/wisegraph/wise.json)
 // plus the live clip list. Everything clip-related is computed here from clips.json, so a new clip lights up every page it
 // belongs to without rebuilding the graph:
 //   #teacher/<id>    a speaker (talks by) or a figure/text (talks about), same layout; empty sections are hidden
@@ -108,7 +108,7 @@ export function createWise(ctx) {
   // ---------- a teacher or figure ----------
   function paintPerson(el, id) {
     const p = P(id)
-    if (!p) { el.innerHTML = `<a class="back" href="#teachers">\u2190 All teachers</a><div class="wempty"><h2>Not on Wiser yet</h2><p class="muted">We couldn\u2019t find that teacher. Browse the teachers and traditions instead.</p></div>`; return }
+    if (!p) { el.innerHTML = `<a class="back" href="#teachers">\u2190 All teachers</a><div class="wempty"><h2>Not on Satsang yet</h2><p class="muted">We couldn\u2019t find that teacher. Browse the teachers and traditions instead.</p></div>`; return }
     const mine = best(by(id)), ab = best(about(id))
     const talks = viewable(mine), full = fullTalks(mine), abt = ab.filter((c) => servable(c))
     const im = portrait(id), still = !im ? firstStill(id) : ''
@@ -203,7 +203,7 @@ export function createWise(ctx) {
         <div class="wchips">${subtree(id).slice(1).map((k) => `<a class="wchip" href="#tradition/${esc(k)}">${esc(tLabel(k))}</a>`).join('')}</div></article>` }).join('')}</div>`
   }
 
-  // ---------- a topic hub: takes by tradition, then everything Wiser holds on it (questions, traditions, essays, practices,
+  // ---------- a topic hub: takes by tradition, then everything Satsang holds on it (questions, traditions, essays, practices,
   // the Atlas thread, teachers, places, related topics) and an endless "Keep going" that walks into neighbouring topics ----------
   const textOf = (c) => `${c.segTitle || ''} ${c.title || ''} ${c.ytTitle || ''} ${c.talk || ''}`
   const rxOf = (s) => { try { return s ? new RegExp(s, 'i') : null } catch { return null } }
@@ -271,7 +271,7 @@ export function createWise(ctx) {
       ${fams.length > 1 ? `<div id="tt"></div>${fams.map(([f, L]) => `<section class="wsec"><div class="wsech"><h3><a href="#tradition/${esc(f)}">${esc(label)} in ${esc(tLabel(f))}</a></h3><span class="muted small">${plural(L.length, 'talk')}</span></div><div class="rail">${L.slice(0, 30).map((c) => clipTile(c, null, fmtDur(c))).join('')}</div></section>`).join('')}` : ''}
       ${fullP.length ? rail('Full talks on ' + label, fullP, '<span class="muted small">Over 20 minutes: watch whole, outside the pairs</span>') : ''}
       ${essays.length ? `<section class="wsec" id="te"><div class="wsech"><h3>Essays and texts</h3><span class="muted small">${plural(essays.length, 'text')}</span></div><div class="pprog">${essays.map(essayCard).join('')}</div><p class="muted small">Links to free copies on the publisher\u2019s own site or public-domain editions. Nothing is copied here.</p></section>` : ''}
-      ${practices.length ? `<section class="wsec" id="tp"><div class="wsech"><h3>Practices</h3><span class="muted small">${plural(practices.length, 'practice')}</span></div><div class="pprog">${practices.map(practiceCard).join('')}</div><p class="muted small">Wiser\u2019s short summaries; each links to its source. Practices with an empowerment or a teacher in their tradition are marked so.</p></section>` : ''}
+      ${practices.length ? `<section class="wsec" id="tp"><div class="wsech"><h3>Practices</h3><span class="muted small">${plural(practices.length, 'practice')}</span></div><div class="pprog">${practices.map(practiceCard).join('')}</div><p class="muted small">Satsang\u2019s short summaries; each links to its source. Practices with an empowerment or a teacher in their tradition are marked so.</p></section>` : ''}
       ${thread.length ? `<section class="wsec" id="th"><div class="wsech"><h3>${esc(hub.threadLabel || label)} through time</h3><span class="muted small">${plural(thread.length, 'holder')} across the traditions, oldest first</span></div><div class="pprog">${thread.map(threadCard).join('')}</div></section>` : ''}
       ${deep.length ? `<section class="wsec" id="tw"><div class="wsech"><h3>Teachers to go deeper with</h3></div><div class="wgrid">${deep.slice(0, 12).map((id) => personTile(id, `${plural(nOn[id], 'talk')} on ${label} \u00b7 ${plural(by(id).length, 'talk')} in all`)).join('')}</div>
         ${thin.length ? `<p class="muted small" style="margin-top:14px">More voices</p><div class="wtopics">${thin.map((id) => `<a class="wchip" href="#teacher/${esc(id)}">${esc(P(id).n)}<small>${nOn[id]}</small></a>`).join('')}</div>` : ''}</section>` : ''}
@@ -286,7 +286,7 @@ export function createWise(ctx) {
     // own neighbours join the queue, so the walk never runs dry while the library has topics left
     const shown = new Set(poolV.map((c) => c.id)), queue = [...related], seen = new Set([topic])
     const nextT = () => { while (queue.length && seen.has(queue[0])) queue.shift(); return queue[0] || null }
-    const say = () => { const n = nextT(), p = el.querySelector('[data-next]'); if (p) p.textContent = n ? `Next: ${topicLabel(n)}` : 'You have walked every topic on Wiser.' }
+    const say = () => { const n = nextT(), p = el.querySelector('[data-next]'); if (p) p.textContent = n ? `Next: ${topicLabel(n)}` : 'You have walked every topic on Satsang.' }
     say()
     el.querySelector('[data-keepgoing]')?.addEventListener('click', () => {
       const t = nextT(); if (!t) return say()
@@ -301,7 +301,7 @@ export function createWise(ctx) {
     ctx.fillPlaces?.(el)
     scrollTo({ top: 0 })
   }
-  const line2 = (tk) => (tk.order?.length ? '<p class="muted small wnote">Each tradition\u2019s line is Wiser\u2019s own short summary of its classic position. The talks speak for themselves.</p>' : '')
+  const line2 = (tk) => (tk.order?.length ? '<p class="muted small wnote">Each tradition\u2019s line is Satsang\u2019s own short summary of its classic position. The talks speak for themselves.</p>' : '')
 
   return { labels: () => HL, traditions: () => W?.traditions || {}, isDeep, DEEP_MIN, hub: (t) => H[t] || null, talksBy: (id) => viewable(best(by(id))), talksAbout: (id) => best(about(id)).filter((c) => servable(c)), fmtDur, subtree, load, ready: () => !!W, people: () => W?.people || {}, paintPerson, paintTradition, paintTopic, traditionsHTML, person: P, tradition: T, chain, familyOf, face, personTile, topicCounts }
 }

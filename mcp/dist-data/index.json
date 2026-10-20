@@ -1,15 +1,15 @@
 {
- "name": "Wiser open data",
+ "name": "Satsang open data",
  "version": "2026-10-20",
- "publisher": "Wiser (tantrafiles.xyz)",
+ "publisher": "Satsang (tantrafiles.xyz)",
  "license": {
   "metadata": "CC-BY-4.0",
-  "attribution": "Wiser (tantrafiles.xyz)",
+  "attribution": "Satsang (tantrafiles.xyz)",
   "notes": [
-   "Wiser curation (topic intros, takes, practice summaries, tags, lineage edges, collections): CC BY 4.0.",
+   "Satsang curation (topic intros, takes, practice summaries, tags, lineage edges, collections): CC BY 4.0.",
    "Wikidata identifiers: CC0. Portrait files: Wikimedia Commons, each under the licence in its image.license field.",
    "Videos are not included; each clip points to the official upload on YouTube (YouTube Terms apply to playback).",
-   "Linked texts keep their publishers' terms; Wiser links and never rehosts. Dharma Seed audio (CC BY-NC-ND) is never cut or remixed.",
+   "Linked texts keep their publishers' terms; Satsang links and never rehosts. Dharma Seed audio (CC BY-NC-ND) is never cut or remixed.",
    "Place contact details are as published on each place's own site, with a source link; do not use them for bulk mail.",
    "Transcripts are never published."
   ]
@@ -101,8 +101,8 @@
    "kind": "jsonld",
    "count": 11217,
    "file": "wiser.jsonld",
-   "bytes": 6559556,
-   "sha256": "22d82c80f3193764c1c0d7ec77cd776a1757cb4f85a706d81bdbd1f0f83b5c60"
+   "bytes": 6559562,
+   "sha256": "0fd8e4f404b4b8acd21ea9d22ca948d8fa52b415781e5ba3f5c9f6152cac6bb9"
   },
   {
    "kind": "sitemap-topic",

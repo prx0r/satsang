@@ -1,17 +1,19 @@
-# wiser-mcp: the open, queryable Wiser directory for agents (LIVE at https://mcp.tantrafiles.xyz/mcp)
+# Satsang MCP (worker wiser-mcp): the open, queryable Satsang directory for agents (https://mcp.satsang.digital/mcp; today https://mcp.tantrafiles.xyz/mcp)
+
+> Home: **satsang.digital** (MCP `https://mcp.satsang.digital/mcp`). Until that domain is active the same paths serve on tantrafiles.xyz (`https://mcp.tantrafiles.xyz/mcp`), which then 301s / keeps answering. Hostnames live in `../domain.mjs`.
 
 ## For agents & developers
-- **Connector URL (no auth): `https://mcp.tantrafiles.xyz/mcp`** (Streamable HTTP; legacy SSE: `https://mcp.tantrafiles.xyz/sse`)
-- **ChatGPT**: Settings > Apps & Connectors > Advanced > Developer mode on; Connectors > Create > name Wiser, URL above,
+- **Connector URL (no auth): `https://mcp.satsang.digital/mcp`** (Streamable HTTP; legacy SSE: `https://mcp.satsang.digital/sse`)
+- **ChatGPT**: Settings > Apps & Connectors > Advanced > Developer mode on; Connectors > Create > name Satsang, URL above,
   "No authentication". Deep research uses `search` + `fetch` (OpenAI shapes). Custom GPT: Actions > Import from URL
-  `https://mcp.tantrafiles.xyz/openapi.json`, auth None.
-- **Claude**: Settings > Connectors > Add custom connector > URL above. Claude Code: `claude mcp add --transport http wiser https://mcp.tantrafiles.xyz/mcp`.
-- **REST / OpenAPI 3.1**: `https://mcp.tantrafiles.xyz/openapi.json`, endpoints under `/api/` (CORS `*`, 120 req/min/IP REST, 600 MCP).
-- **Discovery**: `/llms.txt`, `/llms-full.txt`, `/.well-known/mcp.json` (+ `/.well-known/mcp/server-card.json`) on both hosts; docs page https://tantrafiles.xyz/agents.
-- **Canonical URLs to cite**: `https://tantrafiles.xyz/{person,tradition,topic,practice,collection,place,resource,clip}/<id>` (all resolve;
+  `https://mcp.satsang.digital/openapi.json`, auth None.
+- **Claude**: Settings > Connectors > Add custom connector > URL above. Claude Code: `claude mcp add --transport http satsang https://mcp.satsang.digital/mcp`.
+- **REST / OpenAPI 3.1**: `https://mcp.satsang.digital/openapi.json`, endpoints under `/api/` (CORS `*`, 120 req/min/IP REST, 600 MCP).
+- **Discovery**: `/llms.txt`, `/llms-full.txt`, `/.well-known/mcp.json` (+ `/.well-known/mcp/server-card.json`) on both hosts; docs page https://satsang.digital/agents.
+- **Canonical URLs to cite**: `https://satsang.digital/{person,tradition,topic,practice,collection,place,resource,clip}/<id>` (all resolve;
   clip redirects into the player, /text/<id> 301s to /resource/<id>). Every record carries `url`, `source_url`, `verified_on`, `confidence`.
-- **Licences**: data CC BY 4.0 for Wiser curation, third-party = metadata under its own terms (`LICENSE-DATA`); code MIT (`LICENSE-CODE`).
-- **Test**: `node test-client.mjs https://mcp.tantrafiles.xyz` (black-box client: Streamable HTTP, SSE round trip, OpenAI shapes, REST, CORS, discovery).
+- **Licences**: data CC BY 4.0 for Satsang curation, third-party = metadata under its own terms (`LICENSE-DATA`); code MIT (`LICENSE-CODE`).
+- **Test**: `node test-client.mjs https://mcp.satsang.digital` (black-box client: Streamable HTTP, SSE round trip, OpenAI shapes, REST, CORS, discovery).
 
 
 Streamable-HTTP MCP server for a Cloudflare Worker, zero runtime dependencies. Reads only `data/wiser.json`, which
@@ -28,7 +30,7 @@ node serve-local.mjs    # http://127.0.0.1:8799/mcp for Claude Desktop / MCP Ins
 node build-dump.mjs     # -> dist-data/ (open-data dump, JSON-LD, sitemaps), see OPEN-DATA.md
 python3 ../specs/schema/validate.py   # schema check of data/wiser.json
 ```
-Deploy: `sh ../app/deploy.sh mcp` (= build-data, slim-data, build-discovery, test, wrangler deploy; custom domain mcp.tantrafiles.xyz).
+Deploy: `sh ../app/deploy.sh mcp` (= build-data, slim-data, build-discovery, test, wrangler deploy; custom domain mcp.satsang.digital).
 The site deploy (`sh ../app/deploy.sh`) copies llms.txt, llms-full.txt, agents.html and .well-known/* into the site and builds /resource pages.
 The Worker bundles `data/wiser.mcp.json` (slim-data.mjs: every ballot talk + 12 full talks per teacher; ≈ 840 KB gzip) and
 builds its index at startup (≈ 75 ms) so requests fit the free plan's CPU budget. The full set is the /data dump.
@@ -40,7 +42,7 @@ builds its index at startup (≈ 75 ms) so requests fit the free plan's CPU budg
   the stream. Each stream lives in a Durable Object (`SseSession`, SQLite class, Workers Free) so any isolate can push to it; 20 s pings.
 - Methods: `initialize` (2025-06-18, 2025-03-26, 2024-11-05), `ping`, `tools/list`, `tools/call` (`content[0].text` JSON +
   `structuredContent`), `resources/list|read` (`wiser://meta`). All tools carry `annotations.readOnlyHint: true`.
-- No auth. Origin allow-list (tantrafiles.xyz, satsang.digital, localhost, openai/chatgpt/claude/anthropic) for browser calls;
+- No auth. Origin allow-list (satsang.digital, tantrafiles.xyz, localhost, openai/chatgpt/claude/anthropic) for browser calls;
   server-side clients send no Origin. Rate limits: Workers Rate Limiting bindings `RL_API` 120/min, `RL_MCP` 600/min per IP
   (per-isolate bucket as fallback). CORS `*` everywhere.
 
@@ -48,7 +50,7 @@ builds its index at startup (≈ 75 ms) so requests fit the free plan's CPU budg
 | tool | input | returns |
 |---|---|---|
 | `search` | `query`, `kinds[]?`, `limit?` | **exactly** `{results:[{id,title,url}]}` (OpenAI connector/deep-research shape); `id` = `<kind>/<id>` |
-| `fetch` | `id` (search id or tantrafiles.xyz URL) | `{id,title,text,url,metadata}`; metadata: kind, source_url, verified_on, confidence, licence (+ kind fields) |
+| `fetch` | `id` (search id or satsang.digital URL) | `{id,title,text,url,metadata}`; metadata: kind, source_url, verified_on, confidence, licence (+ kind fields) |
 | `find_places` | `tradition` (incl. schools), `school`, `country`, `region`, `type`, `status active|heritage|any`, `living_teacher`, `offers[]`, `query`, `limit` | place cards with provenance |
 | `get_place` | `id` | contacts as published (value + source + checked), programmes with `as_of`, teachers, sisters, events, resources, geo |
 | `find_teachers` | `tradition`, `school`, `living`, `country`/`region` (via tied places), `role`, `on_video`, `query` | people with `living` = living / likely-living (inferred) / deceased / unknown + basis |

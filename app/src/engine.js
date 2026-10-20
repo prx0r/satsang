@@ -92,7 +92,7 @@ const fin = (x) => Number.isFinite(x)
 export function rawClip(c, T = {}, crowd = 0) {
   const x = new Float32Array(R.N)
   if (!c) return x
-  const st = [...arr(c.style), ...arr(c.topics)] // Wiser: axes read topic roots as well as format tags
+  const st = [...arr(c.style), ...arr(c.topics)] // Satsang: axes read topic roots as well as format tags
   TAGS.forEach((t, i) => { if (st.includes(t)) x[R.tags + i] = 1 })
   const C = T?.comics?.[c.comic], ai = ARCHS.indexOf(C?.archetype)
   if (ai >= 0) x[R.arch + ai] = 1

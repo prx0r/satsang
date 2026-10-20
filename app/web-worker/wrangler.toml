@@ -1,3 +1,4 @@
+# Satsang site (worker name kept: wiser-web). Hosts: ../../domain.mjs; tools/switch-domain.sh adds the satsang.digital routes.
 name = "wiser-web"
 main = "worker.js"
 compatibility_date = "2025-09-01"

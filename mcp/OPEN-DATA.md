@@ -1,4 +1,6 @@
-# Wiser open data: /data dump, llms.txt, sitemap (LIVE 2026-10-20: /data/* from KV namespace wiser-open-data, /schema/*, /llms.txt, /sitemap.xml, /robots.txt, path pages /person|topic|tradition|practice|collection|place/<id> with JSON-LD)
+# Satsang open data: /data dump, llms.txt, sitemap (LIVE 2026-10-20: /data/* from KV namespace wiser-open-data, /schema/*, /llms.txt, /sitemap.xml, /robots.txt, path pages /person|topic|tradition|practice|collection|place/<id> with JSON-LD)
+
+> Home: **satsang.digital** (MCP `https://mcp.satsang.digital/mcp`). Until that domain is active the same paths serve on tantrafiles.xyz (`https://mcp.tantrafiles.xyz/mcp`), which then 301s / keeps answering. Hostnames live in `../domain.mjs`.
 
 ## 1. What is published
 `node build-data.mjs && node build-dump.mjs` writes `mcp/dist-data/` (6 MB raw, built from `app/site` read-only):
@@ -10,14 +12,14 @@
 | `wiser.jsonld` | one schema.org `@graph` (2,800 nodes; edges folded into Person `knows`/`Role`) |
 | `sitemap.xml` + `sitemap-<kind>.xml` | sitemap index + per-kind sitemaps (topics passing the gate, people, traditions, practices, collections, curated places; Goenka directory entries and clips left out) |
 
-Serve at `https://tantrafiles.xyz/data/…` (static, from the site Worker's embed or R2), `https://tantrafiles.xyz/schema/<kind>.json`
-(copy of `specs/schema/`), `https://tantrafiles.xyz/llms.txt` (this folder's `llms.txt`), `https://tantrafiles.xyz/sitemap.xml`.
+Serve at `https://satsang.digital/data/…` (static, from the site Worker's embed or R2), `https://satsang.digital/schema/<kind>.json`
+(copy of `specs/schema/`), `https://satsang.digital/llms.txt` (this folder's `llms.txt`), `https://satsang.digital/sitemap.xml`.
 Rebuilt by `deploy.sh` on every site deploy; `index.json.version` = build date. Also attach a dated zip to a GitHub release /
 Zenodo later for a DOI (no account created here).
 
 ## 2. Licence notes (per field family)
-- **Wiser curation** (topic intros and questions, one-line takes, practice summaries/steps, tags and confidences, lineage edges,
-  tradition blurbs, bios, editorial collections): **CC BY 4.0**, attribution "Wiser (tantrafiles.xyz)".
+- **Satsang curation** (topic intros and questions, one-line takes, practice summaries/steps, tags and confidences, lineage edges,
+  tradition blurbs, bios, editorial collections): **CC BY 4.0**, attribution "Satsang (satsang.digital)".
 - **Identifiers**: Wikidata QIDs and labels used as ids are CC0. Wikipedia is cited, never copied.
 - **Portraits**: Wikimedia Commons files under their own licence; `image.license`, `artist`, `licenseUrl`, `page` travel
   with every record. Only PD, CC and Commons "Attribution" files are used (existing rule).
@@ -34,10 +36,10 @@ Zenodo later for a DOI (no account created here).
   curations exist; private material is never in a dump.
 
 ## 3. llms.txt
-`mcp/llms.txt`: what Wiser is, the licence in two lines, links to the MCP endpoint, the dump manifest and the schemas,
+`mcp/llms.txt`: what Satsang is, the licence in two lines, links to the MCP endpoint, the dump manifest and the schemas,
 the best entry pages, and four rules for agents (cite `url`, don't invent teacher quotes, send people to practice sources
 and respect cautions, contacts as published). Also serve `/llms-full.txt` later = llms.txt + every published topic's intro and
-questions (all Wiser-authored, CC BY).
+questions (all Satsang-authored, CC BY).
 
 ## 4. Sitemap and crawlable URLs
 The SPA uses hash routes (`#teacher/<id>`), which crawlers ignore. Plan:
@@ -45,18 +47,18 @@ The SPA uses hash routes (`#teacher/<id>`), which crawlers ignore. Plan:
    `/place/<id>`) with `index.html` plus a server-filled `<title>`, `<meta name="description">`, canonical link, Open Graph
    tags and the page's JSON-LD node (`mcp/src/jsonld.mjs`); the client router reads `location.pathname` first and maps it
    to the existing hash view. Hash links keep working (no redirects needed).
-2. `sitemap.xml` (index) → per-kind sitemaps from `build-dump.mjs`; `robots.txt`: `Sitemap: https://tantrafiles.xyz/sitemap.xml`,
+2. `sitemap.xml` (index) → per-kind sitemaps from `build-dump.mjs`; `robots.txt`: `Sitemap: https://satsang.digital/sitemap.xml`,
    disallow nothing public, disallow `/api/me*`.
 3. `lastmod` = record `meta.updated` once records carry it (today: build date).
 
 ## 5. MCP endpoint
-`https://mcp.tantrafiles.xyz/mcp` (Streamable HTTP, POST JSON-RPC, JSON responses, stateless, read-only, CORS open,
+`https://mcp.satsang.digital/mcp` (Streamable HTTP, POST JSON-RPC, JSON responses, stateless, read-only, CORS open,
 Origin allow-list for browsers). See README.md. Later tools from GATHER-SPEC and the Atlas report (`find_places`,
 `get_concept_thread`, `find_path`, `list_sessions`) slot into the same `TOOLS` array.
 
 ## 6. Agent access (2026-10-20, v0.2.0)
 MCP 14 tools incl. OpenAI-shaped `search`/`fetch` and the directory tools (find_places, get_place, find_teachers, get_resources,
-get_lineage_path, what_to_study); REST mirror + OpenAPI 3.1 at https://mcp.tantrafiles.xyz/openapi.json; legacy SSE at /sse.
+get_lineage_path, what_to_study); REST mirror + OpenAPI 3.1 at https://mcp.satsang.digital/openapi.json; legacy SSE at /sse.
 Every record carries `url` (canonical), `source_url`, `verified_on`, `confidence`. Canonical `/resource/<id>` pages (plain HTML,
 JSON-LD) for texts/books; `/place/<id>` now exists for every place (incl. directory entries) and every topic; `/clip/<id>` redirects
 to the player; `/text/<id>` 301s to `/resource/<id>`. `/llms-full.txt` is live. Licences: `LICENSE-DATA`, `LICENSE-CODE`.

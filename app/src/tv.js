@@ -32,7 +32,7 @@ export function createTV(d) {
     el.innerHTML = `<div class="tv" tabindex="-1" aria-label="TV mode">
       <div class="tv-stage"></div>
       <div class="tv-shade" aria-hidden="true"></div>
-      <div class="tv-top"><span class="eyebrow">Wiser \u00b7 TV</span><span class="tv-src marquee"></span></div>
+      <div class="tv-top"><span class="eyebrow">Satsang \u00b7 TV</span><span class="tv-src marquee"></span></div>
       <div class="tv-ov"><p class="tv-why"></p><h1 class="tv-title"></h1><p class="tv-who"><b class="tv-name"></b> <span class="tv-trad"></span></p></div>
       <div class="tv-keys" aria-hidden="true"><span><kbd>OK</kbd> resonates</span><span><kbd>\u2191</kbd> more like this</span><span><kbd>\u2193</kbd> less</span><span><kbd>\u2190</kbd><kbd>\u2192</kbd> previous / next</span><span><kbd>T</kbd> topics</span><span><kbd>Esc</kbd> exit</span></div>
       <div class="tv-prog" aria-hidden="true"><i></i></div>

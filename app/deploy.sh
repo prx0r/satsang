@@ -1,13 +1,14 @@
 #!/bin/sh
-# Build + deploy Wiser to Cloudflare. Needs CLOUDFLARE_API_TOKEN (or the Hark gateway) and CLOUDFLARE_ACCOUNT_ID.
-#   sh deploy.sh            -> site (wiser-web on tantrafiles.xyz + www)
-#   sh deploy.sh api        -> API (wiser-api on api.tantrafiles.xyz)
-#   sh deploy.sh mcp        -> MCP (wiser-mcp on mcp.tantrafiles.xyz, read-only)
+# Build + deploy Satsang (formerly Wiser) to Cloudflare. Public hostnames come from ../domain.mjs (tools/apply-domain.mjs). Needs CLOUDFLARE_API_TOKEN (or the Hark gateway) and CLOUDFLARE_ACCOUNT_ID.
+#   sh deploy.sh            -> site (worker wiser-web on BASE + www; old hosts 301 once BASE moves)
+#   sh deploy.sh api        -> API (worker wiser-api on API_BASE)
+#   sh deploy.sh mcp        -> MCP (worker wiser-mcp on MCP_BASE, read-only)
 #   SKIP_DATA=1 sh deploy.sh -> site without rebuilding/uploading the open data
 set -e
 cd "$(dirname "$0")"
 if [ "$1" = "api" ]; then cd api && npx wrangler deploy; exit; fi
-if [ "$1" = "mcp" ]; then cd ../mcp && node build-data.mjs && node slim-data.mjs && node build-discovery.mjs && node test.mjs | tail -1 && ../app/api/node_modules/.bin/wrangler deploy; exit; fi  # wiser-mcp on mcp.tantrafiles.xyz (+ test-client.mjs against live)
+if [ "$1" = "mcp" ]; then cd ../mcp && node build-data.mjs && node slim-data.mjs && node build-discovery.mjs && node test.mjs | tail -1 && ../app/api/node_modules/.bin/wrangler deploy; exit; fi  # wiser-mcp on MCP_BASE (+ test-client.mjs against live)
+SITE_BASE=$(node tools/apply-domain.mjs)  # site/config.json apiBase/shareBase <- ../domain.mjs
 node tools/build-anniversaries.mjs || true  # For You: teachers' death anniversaries (Wikidata P570, day precision) -> site/data/wisegraph/anniversaries.json
 node tools/build-stats.mjs || true  # crowd quality from D1 votes (public /stats/clips) -> site/data/stats.json
 npm run build
@@ -19,7 +20,7 @@ if [ -d ../mcp ] && [ "$SKIP_DATA" != "1" ]; then
   (cd ../mcp && node build-data.mjs >/dev/null && node build-dump.mjs >/dev/null && node slim-data.mjs >/dev/null && node build-discovery.mjs >/dev/null)
   if python3 -c "import jsonschema" 2>/dev/null; then (cd ../mcp && python3 ../specs/schema/validate.py | tail -1 | grep -q "failing: none") || { echo "open data fails specs/schema (python3 ../specs/schema/validate.py in mcp/)" >&2; exit 1; }; else echo "jsonschema missing: schema check skipped (pip install jsonschema)"; fi
   cp ../mcp/llms.txt dist/llms.txt; cp ../mcp/discovery/llms-full.txt ../mcp/discovery/agents.html dist/; mkdir -p dist/.well-known/mcp; cp ../mcp/discovery/.well-known/mcp.json dist/.well-known/; cp ../mcp/discovery/.well-known/mcp/server-card.json dist/.well-known/mcp/; cp ../mcp/dist-data/sitemap*.xml dist/; mkdir -p dist/schema; cp ../specs/schema/*.json dist/schema/
-  printf 'User-agent: *\nAllow: /\nSitemap: https://tantrafiles.xyz/sitemap.xml\n' > dist/robots.txt
+  printf 'User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' "$SITE_BASE" > dist/robots.txt
   (cd web-worker && node build-meta.mjs >/dev/null)
 fi
 M=$(sha256sum site/placemap.js | cut -c1-10)

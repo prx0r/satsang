@@ -54,7 +54,7 @@ export const scopeOK = (scope, facts) => !scope || scope === GLOBAL || facts.reg
 export const cleanScope = (s) => (s === GLOBAL || (typeof s === 'string' && /^[a-z][a-z-]{1,24}$/.test(s)) ? s : null)
 
 // ---------- prompt -> filters (no LLM: a vocabulary of named synonyms; what it matched is shown as chips) ----------
-const REGION_SYN = { // Wiser: the scope is a tradition family (wisegraph/traditions.json kind=family)
+const REGION_SYN = { // Satsang: the scope is a tradition family (wisegraph/traditions.json kind=family)
   buddhism: ['buddhist', 'buddhism', 'dharma', 'dhamma', 'theravada', 'zen', 'tibetan', 'forest', 'sutta', 'suttas'],
   hindu: ['hindu', 'vedanta', 'advaita', 'nondual', 'non-dual', 'yoga', 'shaivism', 'tantra', 'kriya'],
   christian: ['christian', 'christianity', 'gnostic', 'gnosticism', 'gospel', 'gospels', 'mystic', 'mystics'],
@@ -204,7 +204,7 @@ export function vibeSim(fa, fb, a, b) {
 
 // ---------- relatedness: the link that joins two clips (a required gate for every ranking feed) ----------
 // Topics come from clips.json `topics` plus a named title vocabulary (interpretable, no model).
-export const TITLE_TOPICS = {} // Wiser: topics come from clips.json (tools/build-clips.py tags each talk against schema/topics.json)
+export const TITLE_TOPICS = {} // Satsang: topics come from clips.json (tools/build-clips.py tags each talk against schema/topics.json)
 const TOPIC_MEMO = new WeakMap()
 export function topicsOf(c) {
   let t = TOPIC_MEMO.get(c); if (t) return t
@@ -377,7 +377,7 @@ export function trendingDoc(votes, events, watch, byId, { now = Date.now(), hour
 // Bradley-Terry over the votes cast inside one category (order-independent, same hierarchy as the main board, flat
 // prior): clips and comics, Elo scale, 95% interval from the Laplace sd.
 export function categoryBoard(votes, byId) {
-  const vs = votes.filter((v) => byId[v.a] && byId[v.b]) // Wiser: same-teacher heats count (one-teacher rosters)
+  const vs = votes.filter((v) => byId[v.a] && byId[v.b]) // Satsang: same-teacher heats count (one-teacher rosters)
   const used = [...new Set(vs.flatMap((v) => [v.a, v.b]))].map((id) => byId[id])
   const P = fitPosterior(used, vs, { sdComic: 1.5, sdClip: 0.5, iters: 60 })
   const E = (x) => Math.round(1500 + (400 / Math.LN10) * x), w = {}, n = {}, cw = {}, cn = {}

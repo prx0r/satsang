@@ -1,4 +1,4 @@
-// Wiser taste vector (specs/PROFILE.md §2). Built on the device from what the listener did: picks (pairwise and Topic
+// Satsang taste vector (specs/PROFILE.md §2). Built on the device from what the listener did: picks (pairwise and Topic
 // flash), "This resonates" hearts, skips before the 60 s gate, "None of these", saves, practice sessions and "Not for me".
 // Four facets (traditions = school + family nodes, topics = roots, teachers, styles), each value a Beta(a, b) posterior
 // from a neutral crowd prior (a0 = b0 = 2: crowdShare 0.5 until the tally publishes shares). weight = mean − prior mean,

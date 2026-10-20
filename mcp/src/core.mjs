@@ -1,12 +1,14 @@
-// Wiser MCP server core: read-only, stateless, dependency-free. Implements MCP over Streamable HTTP (POST /mcp, JSON responses)
+// Satsang MCP server core: read-only, stateless, dependency-free. Implements MCP over Streamable HTTP (POST /mcp, JSON responses)
 // for a Cloudflare Worker or Node (Web Fetch API Request/Response). Data = mcp/data/wiser.json (built by build-data.mjs).
 import { quality, mmr, tasteFrom, affinity, nextTopics, familyOf, uncertainty } from './rank.mjs'
 import { AGENT_TOOLS, callAgentTool, extendIndex, resourceDocs, canon, prov, titleOf, LICENSE } from './agents.mjs'
 import { restHandler, openapi } from './rest.mjs'
+import { BASE, HOST, SITE_URL_RE } from '../../domain.mjs'
+const SITE_RE = new RegExp(SITE_URL_RE)
 
-export const SERVER_INFO = { name: 'wiser', title: 'Wiser: an open directory of the wisdom traditions', version: '0.2.0', websiteUrl: 'https://tantrafiles.xyz/agents' }
+export const SERVER_INFO = { name: 'satsang', title: 'Satsang: an open directory of the wisdom traditions', version: '0.2.0', websiteUrl: BASE + '/agents' }
 const PROTOCOLS = ['2025-06-18', '2025-03-26', '2024-11-05']
-const SITE = 'https://tantrafiles.xyz'
+const SITE = BASE
 const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
 
 export function buildIndex(data) {
@@ -66,8 +68,8 @@ const lim = (n, d, max) => Math.max(1, Math.min(max, Number.isFinite(+n) ? Math.
 
 // ---------- tools ----------
 const LEGACY_TOOLS = [
-  { name: 'search', title: 'Search Wiser',
-    description: 'Search the Wiser directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks. Returns {results:[{id,title,url}]}; pass an id to fetch (or to the get_* tools) for the full record with source_url, verified_on and confidence.',
+  { name: 'search', title: 'Search Satsang',
+    description: 'Search the Satsang directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks. Returns {results:[{id,title,url}]}; pass an id to fetch (or to the get_* tools) for the full record with source_url, verified_on and confidence.',
     inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'Words to look for, e.g. "rebirth bardo", "Ajahn Chah", "Zen monastery Japan".' },
       kinds: { type: 'array', items: { type: 'string', enum: ['person', 'tradition', 'topic', 'practice', 'resource', 'text', 'collection', 'place', 'clip'] }, description: 'Optional: restrict to these kinds.' },
       limit: { type: 'integer', minimum: 1, maximum: 50, default: 10 } }, required: ['query'] } },
@@ -97,7 +99,7 @@ const LEGACY_TOOLS = [
 const RO = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false }
 export const TOOLS = [...LEGACY_TOOLS.map((t) => ({ ...t, annotations: RO })), ...AGENT_TOOLS]
 // ids may come prefixed ("person/x", "topic/death/bardo") or as canonical URLs, straight from search results
-const bare = (kind, id) => String(id ?? '').replace(/^https?:\/\/(www\.)?tantrafiles\.xyz\//, '').replace(/^#/, '').replace(kind === 'person' ? /^(person|teacher)\// : new RegExp('^' + kind + '\\/'), '')
+const bare = (kind, id) => String(id ?? '').replace(SITE_RE, '').replace(/^#/, '').replace(kind === 'person' ? /^(person|teacher)\// : new RegExp('^' + kind + '\\/'), '')
 
 export function callTool(ctx, name, a = {}) {
   switch (name) {
@@ -220,7 +222,7 @@ export function handleRpc(ctx, msg) {
   switch (msg.method) {
     case 'initialize':
       return ok({ protocolVersion: PROTOCOLS.includes(p.protocolVersion) ? p.protocolVersion : PROTOCOLS[0], capabilities: { tools: { listChanged: false }, resources: {} }, serverInfo: SERVER_INFO,
-        instructions: 'Wiser (tantrafiles.xyz) is an open, read-only directory of the world\'s wisdom traditions: traditions and schools, teachers and scholars with lineages, places to practise (monasteries, retreat centres, ashrams) with contacts exactly as published, free texts, practices with cautions, and talks on YouTube. Start with search (or find_places / find_teachers / get_resources / what_to_study), then fetch or get_* for details. Every record carries url (canonical tantrafiles.xyz page to cite), source_url, verified_on and confidence: cite url, prefer high-confidence facts, tell users to confirm dates on the place\'s own schedule, never invent teacher quotes, respect practice cautions and needsTeacher. Licence: CC BY 4.0 for Wiser curation (credit "Wiser, tantrafiles.xyz"); third-party records are metadata under their own terms.' })
+        instructions: 'Satsang (' + HOST + ') is an open, read-only directory of the world\'s wisdom traditions: traditions and schools, teachers and scholars with lineages, places to practise (monasteries, retreat centres, ashrams) with contacts exactly as published, free texts, practices with cautions, and talks on YouTube. Start with search (or find_places / find_teachers / get_resources / what_to_study), then fetch or get_* for details. Every record carries url (canonical tantrafiles.xyz page to cite), source_url, verified_on and confidence: cite url, prefer high-confidence facts, tell users to confirm dates on the place\'s own schedule, never invent teacher quotes, respect practice cautions and needsTeacher. Licence: CC BY 4.0 for Satsang curation (credit "Satsang, tantrafiles.xyz"); third-party records are metadata under their own terms.' })
     case 'notifications/initialized': case 'notifications/cancelled': return null
     case 'ping': return ok({})
     case 'tools/list': return ok({ tools: TOOLS })
@@ -275,7 +277,7 @@ export function makeFetch(ctx, extras = {}) {
     const u = new URL(request.url), path = u.pathname.replace(/\/+$/, '') || '/'
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS })
     // ---- discovery + docs ----
-    if (path === '/' || path === '/health') return json({ ok: true, server: SERVER_INFO, mcp: `${u.origin}/mcp`, sse: `${u.origin}/sse`, openapi: `${u.origin}/openapi.json`, rest: `${u.origin}/api`, docs: 'https://tantrafiles.xyz/agents', llms: `${u.origin}/llms.txt`, tools: TOOLS.map((t) => t.name), counts: ctx.meta.counts, built: ctx.built, license: LICENSE })
+    if (path === '/' || path === '/health') return json({ ok: true, server: SERVER_INFO, mcp: `${u.origin}/mcp`, sse: `${u.origin}/sse`, openapi: `${u.origin}/openapi.json`, rest: `${u.origin}/api`, docs: BASE + '/agents', llms: `${u.origin}/llms.txt`, tools: TOOLS.map((t) => t.name), counts: ctx.meta.counts, built: ctx.built, license: LICENSE })
     if (path === '/llms.txt' && (disc.llms || extras.llms)) return text(disc.llms || extras.llms, 'text/plain; charset=utf-8')
     if (path === '/llms-full.txt' && disc.llmsFull) return text(disc.llmsFull, 'text/plain; charset=utf-8')
     if ((path === '/.well-known/mcp.json' || path === '/.well-known/mcp' || path === '/.well-known/mcp/server-card.json' || path === '/server.json') && disc.mcpJson) return text(JSON.stringify(disc.mcpJson, null, 2), 'application/json; charset=utf-8')

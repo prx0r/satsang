@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Black-box client test, the way ChatGPT / Claude / a Custom GPT talk to the server.
-//   node test-client.mjs https://mcp.tantrafiles.xyz      (live)     node test-client.mjs http://127.0.0.1:8799 (local)
+//   node test-client.mjs https://mcp.satsang.digital      (live)     node test-client.mjs http://127.0.0.1:8799 (local)
 // Checks: Streamable HTTP handshake, tools/list (7 original + OpenAI search/fetch + directory tools), OpenAI result shapes,
 // legacy SSE transport round trip, REST mirror + OpenAPI 3.1, CORS, discovery files.
+import { BASE, MCP_BASE } from '../domain.mjs'
 export async function run(base, { log = console.log } = {}) {
   let id = 0, fails = 0
   const check = (label, cond, info = '') => { log(`${cond ? 'PASS' : 'FAIL'}  ${label}${info ? '  \u2014 ' + info : ''}`); if (!cond) fails++ }
@@ -11,7 +12,7 @@ export async function run(base, { log = console.log } = {}) {
   const call = async (name, args) => { const t = Date.now(); const r = await rpc('tools/call', { name, arguments: args }); return { r: r.result, ms: Date.now() - t, parsed: (() => { try { return JSON.parse(r.result.content[0].text) } catch { return null } })() } }
 
   const init = await rpc('initialize', { protocolVersion: '2025-06-18', capabilities: {}, clientInfo: { name: 'openai-mcp', version: '1.0.0' } })
-  check('initialize (2025-06-18, no auth)', init?.result?.serverInfo?.name === 'wiser' && init.result.protocolVersion === '2025-06-18', init?.result?.serverInfo?.version)
+  check('initialize (2025-06-18, no auth)', init?.result?.serverInfo?.name === 'satsang' && init.result.protocolVersion === '2025-06-18', init?.result?.serverInfo?.version)
   const old = await rpc('initialize', { protocolVersion: '2024-11-05', capabilities: {}, clientInfo: { name: 'old', version: '0' } })
   check('initialize (2024-11-05 negotiates)', old?.result?.protocolVersion === '2024-11-05')
   const n = await fetch(base + '/mcp', { method: 'POST', headers: H, body: JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) })
@@ -27,12 +28,12 @@ export async function run(base, { log = console.log } = {}) {
   let x = await call('search', { query: 'ajahn chah' })
   const res = x.parsed?.results || []
   check('search -> exactly {results:[{id,title,url}]} in content[0].text', Object.keys(x.parsed || {}).join() === 'results' && res.length > 0 && res.every((h) => Object.keys(h).sort().join() === 'id,title,url'), `${res.length} hits, first ${res[0]?.id}, ${x.ms} ms`)
-  check('search result urls are canonical tantrafiles.xyz', res.every((h) => /^https:\/\/tantrafiles\.xyz\/[a-z]+\//.test(h.url)))
+  check('search result urls are canonical ' + BASE, res.every((h) => h.url.startsWith(BASE + '/') && /^[a-z]+\//.test(h.url.slice(BASE.length + 1))))
   x = await call('fetch', { id: res[0].id })
   const f = x.parsed
   check('fetch -> {id,title,text,url,metadata}', f && ['id', 'title', 'text', 'url', 'metadata'].every((k) => k in f) && f.text.length > 40, `${f?.title}; ${x.ms} ms`)
   check('fetch metadata has source_url, verified_on, confidence', !!(f?.metadata?.source_url && /^\d{4}-\d{2}-\d{2}$/.test(f.metadata.verified_on) && f.metadata.confidence))
-  x = await call('fetch', { id: 'https://tantrafiles.xyz/place/amaravati' })
+  x = await call('fetch', { id: BASE + '/place/amaravati' })
   check('fetch by canonical URL (place)', x.parsed?.id === 'place/amaravati')
   x = await call('fetch', { id: 'nope/nothing' })
   check('fetch unknown -> isError', x.r.isError === true)
@@ -45,7 +46,7 @@ export async function run(base, { log = console.log } = {}) {
   x = await call('find_places', { tradition: 'Tibetan Buddhism', region: 'europe', status: 'active' })
   check('find_places Tibetan / europe / active', x.parsed.total > 0, String(x.parsed.total))
   x = await call('get_place', { id: 'amaravati' })
-  check('get_place: contact as published + programmes as_of', x.parsed.contact?.as_published && x.parsed.programmes.every((p) => p.as_of) && x.parsed.source_url && x.parsed.url === 'https://tantrafiles.xyz/place/amaravati', `checked ${x.parsed.contact?.checked}, ${x.parsed.programmes.length} programmes`)
+  check('get_place: contact as published + programmes as_of', x.parsed.contact?.as_published && x.parsed.programmes.every((p) => p.as_of) && x.parsed.source_url && x.parsed.url === BASE + '/place/amaravati', `checked ${x.parsed.contact?.checked}, ${x.parsed.programmes.length} programmes`)
   x = await call('find_teachers', { tradition: 'thai-forest', living: true })
   check('find_teachers thai-forest living', x.parsed.total > 0 && x.parsed.results.every((p) => ['living', 'likely-living'].includes(p.living)), x.parsed.results.slice(0, 4).map((p) => p.name).join(', '))
   x = await call('get_resources', { tradition: 'theravada', free: true })
@@ -90,7 +91,7 @@ export async function run(base, { log = console.log } = {}) {
   return fails
 }
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const base = (process.argv[2] || 'https://mcp.tantrafiles.xyz').replace(/\/$/, '')
+  const base = (process.argv[2] || MCP_BASE).replace(/\/$/, '')
   const fails = await run(base)
   console.log(fails ? `\n${fails} FAILED against ${base}` : `\nall passed against ${base}`)
   process.exit(fails ? 1 : 0)

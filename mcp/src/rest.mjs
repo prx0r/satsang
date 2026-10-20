@@ -1,5 +1,6 @@
-// REST mirror of the MCP tools (https://mcp.tantrafiles.xyz/api/...) + its OpenAPI 3.1 description (usable as a Custom GPT
+// REST mirror of the MCP tools (MCP_BASE/api/... from ../../domain.mjs) + its OpenAPI 3.1 description (usable as a Custom GPT
 // Action). GET with query parameters; every JSON body is exactly what the matching MCP tool returns.
+import { BASE, HOST, MCP_BASE } from '../../domain.mjs'
 const csv = (v) => (v == null || v === '' ? undefined : String(v).split(',').map((s) => s.trim()).filter(Boolean))
 const num = (v) => (v == null || v === '' ? undefined : Number(v))
 
@@ -42,19 +43,19 @@ const OBJ = { $ref: '#/components/schemas/Result' }
 const op = (operationId, summary, description, parameters, extra = {}) => ({ get: { operationId, summary, description, parameters, responses: { 200: { description: 'OK', content: { 'application/json': { schema: OBJ } } }, 404: { description: 'Unknown id', content: { 'application/json': { schema: { $ref: '#/components/schemas/Error' } } } }, 429: { description: 'Rate limited (Retry-After header)' } }, ...extra } })
 const limitP = (d = 20, max = 100) => P('limit', `Max results (default ${d}).`, { type: 'integer', minimum: 1, maximum: max, default: d })
 
-export function openapi(origin = 'https://mcp.tantrafiles.xyz') {
+export function openapi(origin = MCP_BASE) {
   return {
     openapi: '3.1.0',
-    info: { title: 'Wiser open directory API', version: '0.2.0',
-      description: 'Read-only, no-auth API over Wiser (tantrafiles.xyz): wisdom traditions and schools, teachers and lineages, places to practise with contacts as published, free texts, practices and talks. Every record has url (canonical page to cite), source_url, verified_on and confidence. Licence: CC BY 4.0 for Wiser curation; third-party data is metadata under its own terms. Same data as the MCP server at /mcp.',
-      contact: { url: 'https://tantrafiles.xyz/agents' }, license: { name: 'CC BY 4.0 (data), MIT (code)', url: 'https://creativecommons.org/licenses/by/4.0/' } },
-    servers: [{ url: origin }],
+    info: { title: 'Satsang open directory API', version: '0.2.0',
+      description: 'Read-only, no-auth API over Satsang (' + HOST + '): wisdom traditions and schools, teachers and lineages, places to practise with contacts as published, free texts, practices and talks. Every record has url (canonical page to cite), source_url, verified_on and confidence. Licence: CC BY 4.0 for Satsang curation; third-party data is metadata under its own terms. Same data as the MCP server at /mcp.',
+      contact: { url: BASE + '/agents' }, license: { name: 'CC BY 4.0 (data), MIT (code)', url: 'https://creativecommons.org/licenses/by/4.0/' } },
+    servers: [{ url: /(tantrafiles\.xyz|satsang\.digital)$/.test(origin) ? MCP_BASE : origin }],
     paths: {
       '/api/search': op('search', 'Search everything', 'Search teachers, traditions, topics, practices, texts, collections, places and talks. Returns {results:[{id,title,url}]}; pass id to /api/fetch.', [P('q', 'Search words, e.g. "Ajahn Chah" or "Zen monastery Japan".', { type: 'string' }, 'query', true), P('kinds', 'Comma list: person,tradition,topic,practice,resource,collection,place,clip'), limitP(10, 50)]),
-      '/api/fetch': op('fetchRecord', 'Fetch one record', 'Full record by id from search (e.g. person/ajahn-chah, place/amaravati): {id,title,text,url,metadata} with source_url, verified_on, confidence.', [P('id', 'Record id such as person/ajahn-chah or a tantrafiles.xyz URL.', { type: 'string' }, 'query', true)]),
+      '/api/fetch': op('fetchRecord', 'Fetch one record', 'Full record by id from search (e.g. person/ajahn-chah, place/amaravati): {id,title,text,url,metadata} with source_url, verified_on, confidence.', [P('id', 'Record id such as person/ajahn-chah or a ' + HOST + ' URL.', { type: 'string' }, 'query', true)]),
       '/api/places': op('findPlaces', 'Find places to practise', 'Monasteries, retreat centres, ashrams, temples, sacred sites. Filters: tradition (incl. schools), school, country, region, type, status, living_teacher, offers.', [P('tradition', 'e.g. theravada, Tibetan Buddhism, sufism'), P('school', 'Exact school, e.g. thai-forest'), P('country', 'ISO code(s) or names, comma-separated'), P('region', 'europe, north-america, south-asia, southeast-asia, east-asia, oceania, south-america, middle-east, africa, asia, americas'), P('type', 'monastery, retreat, centre, ashram, temple, pilgrimage, retreat-centre, study-centre, sacred-site'), P('status', 'active, heritage or any', { type: 'string', enum: ['active', 'heritage', 'any'] }), P('living_teacher', 'Only places tied to a living teacher', { type: 'boolean' }), P('offers', 'Comma list that must all match, e.g. residential,10-day or sanskrit'), P('q', 'Free words'), limitP()]),
       '/api/places/{id}': op('getPlace', 'Place details', 'One place: contacts exactly as published with source and check date, programmes with as-of date, teachers, sister places, events, resources.', [P('id', 'Place id, e.g. amaravati', { type: 'string' }, 'path')]),
-      '/api/teachers': op('findTeachers', 'Find teachers', 'Teachers, scholars and figures by tradition, school, living status, country/region (via their places), role and on_video.', [P('tradition', 'Tradition (incl. schools)'), P('school', 'Exact school'), P('living', 'true = living or likely living', { type: 'boolean' }), P('country', 'ISO code(s)'), P('region', 'Region'), P('role', 'teacher, scholar, figure', { type: 'string', enum: ['teacher', 'scholar', 'figure', 'translator', 'founder', 'author'] }), P('on_video', 'Has talks on Wiser', { type: 'boolean' }), P('q', 'Free words'), limitP()]),
+      '/api/teachers': op('findTeachers', 'Find teachers', 'Teachers, scholars and figures by tradition, school, living status, country/region (via their places), role and on_video.', [P('tradition', 'Tradition (incl. schools)'), P('school', 'Exact school'), P('living', 'true = living or likely living', { type: 'boolean' }), P('country', 'ISO code(s)'), P('region', 'Region'), P('role', 'teacher, scholar, figure', { type: 'string', enum: ['teacher', 'scholar', 'figure', 'translator', 'founder', 'author'] }), P('on_video', 'Has talks on Satsang', { type: 'boolean' }), P('q', 'Free words'), limitP()]),
       '/api/teachers/{id}': op('getTeacher', 'Teacher profile', 'Bio, years, works, best talks, lineage relations and places for one person.', [P('id', 'Person id, e.g. thanissaro-bhikkhu', { type: 'string' }, 'path'), P('talks', 'Number of talks', { type: 'integer', default: 10 })]),
       '/api/resources': op('getResources', 'Texts and books', 'Texts, books and libraries per tradition, person or topic, free (publisher\u2019s own free edition) vs paid-or-unknown.', [P('tradition', 'Tradition'), P('person', 'Person id or name'), P('topic', 'Topic id'), P('free', 'Only free', { type: 'boolean' }), P('kind', 'book, text, scripture, essay, library'), P('q', 'Free words'), limitP(25)]),
       '/api/lineage/path': op('getLineagePath', 'Lineage path', 'Shortest documented chain between two people (teacher-student, ordination, academic supervision, influence) with confidence and sources.', [P('from', 'Person id or name', { type: 'string' }, 'query', true), P('to', 'Person id or name', { type: 'string' }, 'query', true), P('lineage', 'all, dharma, academic, influence, institutional'), P('max_hops', 'Default 8', { type: 'integer' })]),
@@ -67,7 +68,7 @@ export function openapi(origin = 'https://mcp.tantrafiles.xyz') {
       '/api/recommend': op('recommend', 'Recommend talks', 'Diverse talks from liked ids (clip ids, person/<id>, topic/<id>, tradition/<id>) plus next topics.', [P('liked', 'Comma list of liked ids'), P('disliked', 'Comma list'), P('topic', 'Restrict to a topic'), P('k', 'How many (default 8)', { type: 'integer' })]),
     },
     components: { schemas: {
-      Result: { type: 'object', additionalProperties: true, description: 'Tool result. Records carry url (canonical tantrafiles.xyz page), source_url, verified_on (YYYY-MM-DD) and confidence (high|medium|low).' },
+      Result: { type: 'object', additionalProperties: true, description: 'Tool result. Records carry url (canonical ' + HOST + ' page), source_url, verified_on (YYYY-MM-DD) and confidence (high|medium|low).' },
       Error: { type: 'object', properties: { error: { type: 'string' } } } } },
   }
 }

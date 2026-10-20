@@ -1,4 +1,4 @@
-# Wiser: public contact details for curated places, exactly as each organisation publishes them on its official site.
+# Satsang: public contact details for curated places, exactly as each organisation publishes them on its official site.
 #   wisegraph/places.json (curated rows with an official url) -> wisegraph/place-contacts.json
 # Reads the homepage, follows the contact link it carries (if any), and keeps only what is written there:
 #   mailto: links and plain e-mail addresses on those two pages (Cloudflare-obfuscated addresses decoded), tel: links,
@@ -9,7 +9,7 @@ import json, os, re, sys, html, datetime, hashlib, urllib.request, urllib.parse,
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, 'tools/cache-contacts'); os.makedirs(CACHE, exist_ok=True)
 TODAY = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=7)).date().isoformat()  # the user's day (Asia/Phnom_Penh)
-UA = 'Mozilla/5.0 (compatible; WiserBot/0.1; +https://tantrafiles.xyz; metadata only)'
+UA = 'Mozilla/5.0 (compatible; SatsangBot/0.1; +https://tantrafiles.xyz; metadata only)'
 def get(url):
     k = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:16] + '.json')
     if os.path.exists(k) and '--refresh' not in sys.argv: return json.load(open(k))

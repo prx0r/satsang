@@ -4,7 +4,7 @@ compatibility_date = "2025-09-01"
 workers_dev = true
 account_id = "954612afb5a97bb15dddcdc70176813d"
 
-# api.tantrafiles.xyz is a Worker custom domain (zone tantrafiles.xyz)
+# Satsang API (worker name kept: wiser-api). api.tantrafiles.xyz custom domain; tools/switch-domain.sh adds api.satsang.digital.
 routes = [{ pattern = "api.tantrafiles.xyz", custom_domain = true }]
 
 [observability]

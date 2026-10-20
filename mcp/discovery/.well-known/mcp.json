@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "xyz.tantrafiles/wiser",
-  "title": "Wiser: an open directory of the wisdom traditions",
+  "name": "xyz.tantrafiles/satsang",
+  "title": "Satsang: an open directory of the wisdom traditions",
   "version": "0.2.0",
   "description": "Open, read-only directory of the world’s wisdom traditions: traditions, teachers and lineages, places to practise with published contacts, free texts, practices and talks. Every record has a canonical URL, source_url, verified_on and confidence.",
   "websiteUrl": "https://tantrafiles.xyz/agents",
@@ -32,8 +32,8 @@
   "tools": [
     {
       "name": "search",
-      "title": "Search Wiser",
-      "description": "Search the Wiser directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks. Returns {results:[{id,title,url}]}; pass an id to fetch (or to the get_* tools) for the full record with source_url, verified_on and confidence.",
+      "title": "Search Satsang",
+      "description": "Search the Satsang directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks. Returns {results:[{id,title,url}]}; pass an id to fetch (or to the get_* tools) for the full record with source_url, verified_on and confidence.",
       "readOnly": true
     },
     {
@@ -75,7 +75,7 @@
     {
       "name": "fetch",
       "title": "Fetch a record",
-      "description": "Fetch one Wiser record by the id returned from search (e.g. \"person/ajahn-chah\", \"place/tassajara\", \"resource/the-truth-of-rebirth-...\", \"topic/rebirth\") or its tantrafiles.xyz URL. Returns {id, title, text, url, metadata}; text is a readable summary, metadata carries kind, source_url, verified_on, confidence and licence.",
+      "description": "Fetch one Satsang record by the id returned from search (e.g. \"person/ajahn-chah\", \"place/tassajara\", \"resource/the-truth-of-rebirth-...\", \"topic/rebirth\") or its tantrafiles.xyz URL. Returns {id, title, text, url, metadata}; text is a readable summary, metadata carries kind, source_url, verified_on, confidence and licence.",
       "readOnly": true
     },
     {
@@ -93,7 +93,7 @@
     {
       "name": "find_teachers",
       "title": "Find teachers, scholars and figures",
-      "description": "People in Wiser filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Wiser.",
+      "description": "People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Satsang.",
       "readOnly": true
     },
     {
@@ -121,7 +121,7 @@
   "license": {
     "data": "CC-BY-4.0",
     "code": "MIT",
-    "attribution": "Wiser (tantrafiles.xyz)"
+    "attribution": "Satsang (tantrafiles.xyz)"
   },
   "updated": "2026-10-20"
 }

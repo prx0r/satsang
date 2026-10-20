@@ -1,4 +1,4 @@
-// Wiser Place map: Leaflet + OpenStreetMap tiles (no API key), loaded on demand from #places / #place / #country.
+// Satsang Place map: Leaflet + OpenStreetMap tiles (no API key), loaded on demand from #places / #place / #country.
 // Built to site/placemap.js (separate bundle so the screening never pays for it). Attribution always shown.
 import L from './map/leaflet-global.js'
 import 'leaflet.markercluster'

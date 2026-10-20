@@ -1,4 +1,4 @@
-// Wiser: the daily editorial theme for For You (specs/FORYOU.md §3). Pure, no DOM: shared by the site (src/foryou.js) and
+// Satsang: the daily editorial theme for For You (specs/FORYOU.md §3). Pure, no DOM: shared by the site (src/foryou.js) and
 // the API's nightly cron (api/src/index.js -> D1 daily_theme). Calendar-aware where the calendar can be computed honestly:
 //   - moon phases: Meeus, Astronomical Algorithms ch. 49 (main periodic terms; error well under an hour) -> uposatha days
 //     (full and new moon, the observance days of Theravada practice), Vesak (the first full moon of May, the date most

@@ -1,4 +1,4 @@
-// Topic flash: Wiser's main loop (specs/LOOP.md). A topic's name fills the screen, two or three teachers from different
+// Topic flash: Satsang's main loop (specs/LOOP.md). A topic's name fills the screen, two or three teachers from different
 // schools speak to it one after another, a calm "Which resonated?" (no countdown, "None of these"), then a bridge card
 // to a related topic. Every pick feeds the pairwise model (a pick among 3 = two pairwise wins, context flash:<topic>).
 // Dark design only: reuses .slide/.theatre/.screen/.ballot/.pick and the hero collage; the few new rules (fl-*) use the

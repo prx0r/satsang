@@ -1,4 +1,4 @@
-// Resources = anything a person can read or study from: Wiser text records (free editions linked, never rehosted), the free
+// Resources = anything a person can read or study from: Satsang text records (free editions linked, never rehosted), the free
 // texts listed on people (wise.json `texts`), free libraries listed on places, people's published works (books: access not
 // known to be free), and any site/data/wisegraph/resources*.json merged later (data.resourceExtra). Shared by the MCP
 // (src/agents.mjs) and the site's /resource/<id> pages (app/web-worker/build-meta.mjs), so both use the same ids.

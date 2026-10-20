@@ -1,11 +1,11 @@
-// Wiser ranking in the browser (specs/RANKING.md, ported from mcp/src/rank.mjs to the site's clip shape).
+// Satsang ranking in the browser (specs/RANKING.md, ported from mcp/src/rank.mjs to the site's clip shape).
 // Pure: no DOM, no storage. createRanker(ctx) indexes the catalogue once and answers: clip quality q, the topic publish
 // gate (specs/TOPICS.md §6), MMR-diverse lists, the next topic (adjacency + information gain + fit + depth) and the three
 // teachers of a Topic flash (two best fits from different schools + one explore slot, session fatigue, main-tier fronts).
 
 export const MAIN_MIN = 8 // RANKING §5: main tier = at least 8 ballot talks
 
-// Wiser's own one-line questions for each topic (the title card's second line). Hubs may override with their intro.
+// Satsang's own one-line questions for each topic (the title card's second line). Hubs may override with their intro.
 export const TOPIC_Q = {
   rebirth: 'Does anything carry on after death?', kamma: 'Do our actions follow us?', self: 'Who, or what, am I?', meditation: 'What happens when we sit still?',
   'sense-restraint': 'Why guard the senses?', jhana: 'What are the deep absorptions?', 'dependent-origination': 'How does suffering arise, link by link?',

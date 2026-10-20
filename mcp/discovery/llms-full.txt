@@ -1,8 +1,8 @@
-# Wiser
+# Satsang
 
-> Wiser (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 927 documented lineage and influence links, 793 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 927 documented lineage and influence links, 793 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
-Licence: Wiser's curation is CC BY 4.0 (credit "Wiser, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
+Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
 ## Connect (no sign-in)
 - [MCP server, Streamable HTTP](https://mcp.tantrafiles.xyz/mcp): add as a custom connector in ChatGPT (Settings > Connectors, developer mode) or Claude (Settings > Connectors > Add custom connector). Legacy SSE transport: https://mcp.tantrafiles.xyz/sse
@@ -13,17 +13,17 @@ Licence: Wiser's curation is CC BY 4.0 (credit "Wiser, tantrafiles.xyz"); code i
 - [Full summary for LLMs](https://tantrafiles.xyz/llms-full.txt)
 
 ## Tools
-- `search`: Search the Wiser directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks.
+- `search`: Search the Satsang directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks.
 - `get_topic`: A topic seen across traditions: intro, sub-questions, one-line takes per tradition, the best talks chosen for diversity across traditions (MMR), practices, texts, teachers and related topics.
 - `get_teacher`: A person profile: bio, years, traditions, works, their best talks, talks about them, lineage neighbours and places tied to them.
 - `get_lineage`: Walk teacher-student (dharma) and/or academic lineage edges up and down from a person or tradition.
 - `list_practices`: Practices (meditation, visualisation, enquiry, chant, ritual, movement) with steps in plain words, sources and cautions.
 - `get_collection`: A curated set, journey, meditation series, visualisation cycle or syllabus with its ordered units and items.
 - `recommend`: Stateless recommendations.
-- `fetch`: Fetch one Wiser record by the id returned from search (e.g.
+- `fetch`: Fetch one Satsang record by the id returned from search (e.g.
 - `find_places`: Monasteries, retreat centres, ashrams, temples, study centres and sacred sites.
 - `get_place`: One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.
-- `find_teachers`: People in Wiser filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video.
+- `find_teachers`: People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video.
 - `get_resources`: Texts, books and libraries per tradition, person or topic.
 - `get_lineage_path`: Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges.
 - `what_to_study`: A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first).
@@ -41,12 +41,12 @@ Licence: Wiser's curation is CC BY 4.0 (credit "Wiser, tantrafiles.xyz"); code i
 ## Rules for agents
 - Cite the `url` of every record you use; give `source_url` for contacts, dates and programmes.
 - Contacts are only those a place publishes on its own site; programme dates change, so send people to `scheduleUrl` and say when the record was verified.
-- Do not invent what a teacher said; quote talk titles. Wiser's one-line "takes" are its own summaries.
+- Do not invent what a teacher said; quote talk titles. Satsang's one-line "takes" are its own summaries.
 - Practices are summaries: respect `contraindications` and `needsTeacher`, and link the `sources`.
 - "likely-living" is an inference (teaches on video, no death year recorded); say so when it matters.
 
 
-# Topics (Wiser curation, CC BY 4.0)
+# Topics (Satsang curation, CC BY 4.0)
 
 ## Rebirth (https://tantrafiles.xyz/topic/rebirth)
 Does anything carry on after death, and if so, what? The Buddha said a stream of becoming continues without a fixed self. The Upanishads said the Self is untouched while the subtle body moves on. Plato told the Myth of Er. Theosophy and Steiner rebuilt the idea for the modern West. Start anywhere and keep going.

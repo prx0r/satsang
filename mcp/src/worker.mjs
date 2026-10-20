@@ -1,4 +1,4 @@
-// Cloudflare Worker entry (wrangler bundles the JSON and text imports). Live at https://mcp.tantrafiles.xyz/mcp.
+// Cloudflare Worker entry (wrangler bundles the JSON and text imports). Live at MCP_BASE/mcp (../../domain.mjs).
 // Transports: Streamable HTTP (POST /mcp, stateless) and the legacy HTTP+SSE transport (GET /sse + POST /messages), whose
 // streams live in a small Durable Object per session (SseSession) so a POST can reach the stream from any isolate.
 // REST mirror under /api/*, OpenAPI at /openapi.json, discovery files at /llms.txt, /llms-full.txt, /.well-known/mcp.json.
