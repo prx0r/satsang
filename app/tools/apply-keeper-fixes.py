@@ -4,7 +4,7 @@
 # usage: python3 tools/apply-keeper-fixes.py
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from source_maps import KEEPER_VERIFIED as V, KEEPER_PEOPLE, KEEPER_EDGES, KEEPER_PLACES, KEEPER_PLACE_MERGE, KEEPER_URL_BAN, KEEPER_ALIAS_REDIRECTS
+from source_maps import KEEPER_VERIFIED as V, KEEPER_PEOPLE, KEEPER_EDGES, KEEPER_PLACES, KEEPER_PLACE_MERGE, KEEPER_URL_BAN, KEEPER_ALIAS_REDIRECTS, KEEPER_URL_FIX
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = lambda p: json.load(open(os.path.join(ROOT, p)))
 def W(p, d): f = os.path.join(ROOT, p); json.dump(d, open(f, 'w'), ensure_ascii=False, indent=1); open(f, 'a').write('\n')
@@ -19,7 +19,7 @@ for pid, fix in KEEPER_PEOPLE.items():
     for k, v in fix.items():
         if k == 'links': p['links'] = {**(p.get('links') or {}), **v}
         else: p[k] = v
-    p['verified_on'] = V; n('people')
+    p['verified_on'] = fix.get('verified_on', V); n('people')
 W('wisegraph/people.json', PD)
 
 # edges
@@ -43,7 +43,7 @@ for pid, fix in KEEPER_PLACES.items():
     p = P.get(pid)
     if not p: log.setdefault('missing', []).append('place/' + pid); continue
     p.update(fix)
-    if 'url' in fix or 'source_url' in fix: p['url_checked'] = V; p['verified_on'] = V
+    if 'url' in fix or 'source_url' in fix: p['url_checked'] = p['verified_on'] = fix.get('verified_on', V)
     n('places')
 redirects = {}
 for old, new in KEEPER_PLACE_MERGE.items():
@@ -94,4 +94,28 @@ for kind, route, ids in (('people', 'person', PEOPLE_IDS), ('places', 'place', s
     for old, new in sorted(ALIAS.get(kind, {}).items()):
         if old != new and new in ids and old not in ids: redirects.setdefault(f'/{route}/{old}', f'/{route}/{new}')
 json.dump(redirects, open(os.path.join(ROOT, 'web-worker/redirects.json'), 'w'), indent=1, sort_keys=True)
+# exact cited URLs that the keeper linkrot pass found dead or moved (source_maps.KEEPER_URL_FIX): replace everywhere in wisegraph
+# (None drops a dict field or a list item). Matches with or without the trailing slash. Re-run after tools/place-contacts.py.
+_FIX = {}
+for a, b in KEEPER_URL_FIX.items(): _FIX[a] = b; _FIX[a.rstrip('/')] = b; _FIX[a.rstrip('/') + '/'] = b
+def _walk(x):
+    if isinstance(x, dict):
+        for k in list(x):
+            v = x[k]
+            if isinstance(v, str) and v in _FIX:
+                if _FIX[v] is None: x.pop(k); n('urls_fixed_dropped')
+                else: x[k] = _FIX[v]; n('urls_fixed')
+            else: _walk(v)
+    elif isinstance(x, list):
+        for i in range(len(x) - 1, -1, -1):
+            v = x[i]
+            if isinstance(v, str) and v in _FIX:
+                if _FIX[v] is None:
+                    if all(isinstance(y, str) for y in x): x.pop(i); n('urls_fixed_dropped')
+                else: x[i] = _FIX[v]; n('urls_fixed')
+            else: _walk(v)
+for f in ('people.json', 'edges.json', 'places.json', 'place-contacts.json', 'place-contacts-curated.json', 'traditions.json'):
+    if os.path.exists(os.path.join(ROOT, 'wisegraph', f)):
+        d = J('wisegraph/' + f); before = json.dumps(d, sort_keys=True); _walk(d)
+        if json.dumps(d, sort_keys=True) != before: W('wisegraph/' + f, d)
 print(json.dumps(log, ensure_ascii=False))

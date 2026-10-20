@@ -177,3 +177,48 @@ merge-sources.py AND build-wise.py; registry gains `urls` (prefix) and `held` se
   is held as a person text but still linked as a hub essay.
 Validation: schema 13,082 failing none; transcript guards 0 found; mcp/test.mjs + test-client all passed; bundles 561 KB / 997 KB gzip.
 Screenshots: shots-merge/verify/ (place amaravati, held resource page, ATI resource page) — dark design unchanged.
+
+## Hub-essay licence gate (deployed wiser-web b717a293, wiser-mcp 9b42b30c; 2026-10-21 ~01:35 +07)
+- `app/tools/build-hubs.py` now runs every topic-hub essay (59 distinct links / 63 text records across 11 hubs) through the shared gate
+  (`app/tools/licence_gate.py`, the same registry as merge-sources.py and build-wise.py). Held essays leave the hubs and the MCP text records
+  built from them, and go to the review queue as kind `text-licence-hub` (with `rid` = the resource id they would have had);
+  `web-worker/build-meta.mjs` turns each into the plain noindex "held while its licence is checked" /resource page (all 13 answer 200).
+  `licence_for` also matches `held` entries by `url`. Kept essays carry `licence`, `licenceUrl`, `noSale`.
+- Result: **46 linked, 13 held**. Newly evidenced (terms read 2026-10-21, `evidenceUrl` on each): plato.stanford.edu (SEP Terms of Use: read/link
+  licence, non-commercial distribution), ora.ox.ac.uk (ORA terms: private non-commercial study, link via the item record), sanskritdocuments.org
+  (home: personal study and research, no reposting), rsarchive.org (Responsible Use: "link to the document on rsarchive.org"), Perseus Republic
+  X (page footer CC BY-SA 3.0 US), ramakrishnavivekananda.info/vivekananda/ (Advaita Ashrama's support for placing the Complete Works online).
+  All noSale where the terms say non-commercial.
+- Held (reason in registry `held` "hub-*" + queue): Chittick "Presence with God" (ibnarabisociety.org, same as the person text), Tsadra
+  Buddha-Nature, CAC daily meditations, UVA DOPS x2, Cambridge Apollo 1810/272695 (repository refused automated reading, 503), WCCM how-to,
+  Chan Meditation Center publications, gururamana.org "Who Am I?" PDF (third-party copy), plumvillage.app (app home), Nikhilananda Gospel on
+  ramakrishnavivekananda.info (unofficial; the permission covers the Complete Works only), Sefaria Sha'ar HaGilgulim (terms JS-only),
+  vridhamma.org (organisation home). Schema 13,069 records (was 13,082: the 13 held texts) failing none.
+- Known (not in scope): three practices still cite gururamana.org / the Gospel page as their how-to source (practice citations, not essay links).
+- Registry: Ajaan Lee, "Keeping the Breath in Mind" (tr. Thanissaro Bhikkhu) added as book `lee-keeping-the-breath` + url prefix
+  https://www.dhammatalks.org/books/KeepingTheBreath/ : CC BY-NC 4.0, noSale ("any sale, whether for commercial or non-profit purposes"),
+  evidence https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html (read 2026-10-21). No current record cites it, so no rebuild.
+
+## Keeper linkrot pass (deployed wiser-web fe65aa0b, wiser-mcp f9405239; 2026-10-21 ~01:45 +07)
+- Confirming run after the hub deploy (`node keeper/run.mjs --cadence daily --only linkrot --limit 140`, open failures first): 21 failing
+  (15 error, 6 warn). Each checked with Cloudflare DoH + curl, replacements found on the organisation's own site or its umbrella body.
+- Fix at the source: `source_maps.KEEPER_URL_FIX` (exact cited URL -> official replacement, None = drop field), applied by
+  `apply-keeper-fixes.py` to every string in wisegraph people/edges/places/place-contacts(-curated)/traditions (idempotent; re-run after
+  place-contacts.py). 18 fixed: rumiscave.com -> rumis.org; vedantauk.com -> vedantauk.org; nunraw.org.uk -> nunraw-abbey.com;
+  www.marygatehouse.org.uk -> marygatehouse.org; theosophyscotland.org.uk -> .org; watsanghathan.org -> watsantiwongsaram.org (same temple,
+  renamed; Charity Commission 1123606); shivaashram.org.au -> theashram.com.au; vinesofobstacles.com -> vineobstacleszen.com;
+  youtube @AngelasSymposium -> channel/UCPSbip_LX2AxbGeAQfLp-Ig; kopan /november-course/ (404) -> home; turvey /contact -> /contact-information/;
+  gngsmethwick ?page_id=44206 (404) schedule link dropped; wisdombooks, sfvedanta, worthabbey www -> apex; ksdhighlands, williamcchittick,
+  panditarama-lumbini -> http (site-side TLS faults, http 200). build-clips re-run (clips byte-identical; graph.json picks up 2 edge sources).
+- Accepted in keeper/ignore.json with reasons: ishwarashram.in (403/500 bot wall), globalretreatcentre.org (incomplete TLS chain),
+  dwbuk.org (Cloudflare 522). Round 2 (same command, limit 150): **0 open linkrot findings** (3 failing were ignore-pattern matches),
+  dead URLs 0; open findings overall = 212 provenance/integrity info.
+- Validation: schema 13,069 failing none; transcript guards 0 found (243 transcripts, 9,665 samples); mcp/test.mjs + test-client all passed
+  live; bundles 561 KB / 995 KB gzip; /, /agents, /llms.txt, /llms-full.txt, /.well-known/mcp.json (+ server card), sitemaps, /robots.txt,
+  /schema/ 200 (mcp host: /llms.txt, /.well-known/mcp.json, /openapi.json 200).
+
+## Close-out 2026-10-21 ~01:50 +07
+Live: wiser-web fe65aa0b, wiser-mcp f9405239 (tantrafiles.xyz; satsang.digital still not resolving, see BRIEF). Repo prx0r/satsang synced
+from work/wiser (engine/ and specs/TEXT-TO-PRACTICE.md left to the text-to-practice agent; transcripts, internal/, engine/, root scratch
+scripts, generated site.gen.js and secrets excluded; secret scan clean). Sync tooling: work/wiser-closeout/ (phase scripts = deploy.sh lines
+11-27 / 29-32 / 33-34, sync + scan scripts).

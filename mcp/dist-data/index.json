@@ -21,8 +21,8 @@
    "count": 724,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 477995,
-   "sha256": "356d57d09531f4f9c6f9782ed294cd1fca9f8648cdf7ac3551da53a8c9c28646",
+   "bytes": 478296,
+   "sha256": "09d67d0bb099cd47bc8a1bb1709490c831eed4deaed0d86ebb33c7f076ddf0f4",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
@@ -45,11 +45,11 @@
   },
   {
    "kind": "text",
-   "count": 77,
+   "count": 64,
    "json": "text.json",
    "jsonl": "text.jsonl",
-   "bytes": 33574,
-   "sha256": "3ec2f26c44ee6aa4b482695f570477feec600818c017e833be571eb8b3a0f217",
+   "bytes": 27394,
+   "sha256": "5a5a1808e5c799a766577af7bf7ead98956eec77f6605e57a70a47c3a1553232",
    "schema": "https://tantrafiles.xyz/schema/text.json"
   },
   {
@@ -67,7 +67,7 @@
    "json": "topic.json",
    "jsonl": "topic.jsonl",
    "bytes": 30700,
-   "sha256": "8dc798c8fa1b6e09522edb1957202b574bbcd7b648f47ec9d8ad5a27106e70d1",
+   "sha256": "fa7b995987e5a1d91bb4cf5432855f0dda061af6de7fbf3a1959fb3a567c95da",
    "schema": "https://tantrafiles.xyz/schema/topic.json"
   },
   {
@@ -75,8 +75,8 @@
    "count": 18,
    "json": "collection.json",
    "jsonl": "collection.jsonl",
-   "bytes": 34891,
-   "sha256": "1448d0ae84d612bcede3f16f462e4a558beac894d6fb1b4173fead28f4fe5f18",
+   "bytes": 32946,
+   "sha256": "92e26bcd24516bcfc6f4a20f711c926c57ce08dfcfd35520e740d380d7428dfc",
    "schema": "https://tantrafiles.xyz/schema/collection.json"
   },
   {
@@ -84,8 +84,8 @@
    "count": 875,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 866091,
-   "sha256": "10e0cfc249761983a23ee5fe7d2bc9b84c324d99af0026673e2a3c0d1351a14b",
+   "bytes": 866362,
+   "sha256": "b2cdf56762463dfe981bf016f8f4a099db372f193b0aa071414d92aa1f4cfe54",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
@@ -94,15 +94,15 @@
    "json": "edge.json",
    "jsonl": "edge.jsonl",
    "bytes": 313561,
-   "sha256": "fa8e192391d2d82d5f085adb5c1f8a882fa18dad290c6d47419af5dd4fa853f7",
+   "sha256": "d46ae1c4e24bd8fa1c766563a4ca6ec823061ef472d68c38a46b1953d0acc160",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {
    "kind": "jsonld",
-   "count": 11964,
+   "count": 11951,
    "file": "wiser.jsonld",
-   "bytes": 6988117,
-   "sha256": "929148e74d935392ecff926cee21855fde7ea21970088bac69c6d0d9d2019591"
+   "bytes": 6979165,
+   "sha256": "7bbd9b4fcd4b3550f504c1f717eb7dd3d7f0feceb811292f43d908cb7f242a94"
   },
   {
    "kind": "sitemap-topic",

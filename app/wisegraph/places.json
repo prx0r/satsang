@@ -1472,7 +1472,7 @@
    "teachers": [
     "sayadaw-u-pandita"
    ],
-   "url": "https://www.panditarama-lumbini.info",
+   "url": "http://www.panditarama-lumbini.info/",
    "description": "Mahasi-style meditation centre near the Buddha's birthplace, founded by Sayadaw U Pandita.",
    "offers": [
     "residential retreats"
@@ -1485,9 +1485,11 @@
      "typical_length": "weeks to months",
      "format": "intensive Mahasi-style noting retreats",
      "cost_model": "dana (offered freely; donations welcome)",
-     "schedule_url": "https://www.panditarama-lumbini.info/retreats.html"
+     "schedule_url": "http://www.panditarama-lumbini.info/retreats.html"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "shwe-oo-min",
@@ -2122,7 +2124,7 @@
    ],
    "contact_page": "https://www.kopanmonastery.org/",
    "url_checked": "2026-10-20",
-   "source_url": "https://kopanmonastery.org/november-course/",
+   "source_url": "https://kopanmonastery.org/",
    "verified_on": "2026-10-20",
    "confidence": "medium"
   },
@@ -4917,7 +4919,7 @@
    "teachers": [
     "swami-vivekananda"
    ],
-   "url": "https://www.sfvedanta.org",
+   "url": "https://sfvedanta.org/",
    "wikidata": "Q118902856",
    "description": "San Francisco Ramakrishna Order society; its Old Temple is the first Hindu temple in the West.",
    "offers": [
@@ -5015,7 +5017,7 @@
    "lat": 51.587266,
    "lng": -0.707025,
    "coord_precision": "street",
-   "url": "https://www.vedantauk.com",
+   "url": "https://vedantauk.org/",
    "sisters": [
     [
      "belur-math",
@@ -7099,7 +7101,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.ujjala.dhamma.org",
+   "url": "https://ujjala.dhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schujjala",
    "description": "Dhamma Ujjala: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -7116,7 +7118,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schujjala"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-pajjota",
@@ -7279,7 +7283,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.uyyana.dhamma.org",
+   "url": "https://uyyana.dhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schuyyana",
    "description": "Dhamma Uyyāna: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -7296,7 +7300,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schuyyana"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-br",
@@ -8338,7 +8344,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.ajanta.dhamma.org",
+   "url": "https://ajanta.vridhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schajanta",
    "description": "Dhamma Ajantā: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -8355,7 +8361,11 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schajanta"
     }
-   ]
+   ],
+   "source_url": "https://ajanta.dhamma.org",
+   "confidence": "high",
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-ajaya",
@@ -9451,7 +9461,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.jalgaon.dhamma.org",
+   "url": "https://www.dhamma.org/en/schedules/schjalgaon",
    "schedule_url": "https://www.dhamma.org/en/schedules/schjalgaon",
    "description": "Dhamma Jalgaon: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -9468,7 +9478,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schjalgaon"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-jalasaya",
@@ -11244,7 +11256,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.pali.dhamma.org",
+   "url": "https://www.dhamma.org/en/schedules/schpali",
    "schedule_url": "https://www.dhamma.org/en/schedules/schpali",
    "description": "Dhamma Pāli: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -11261,7 +11273,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schpali"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-patliputta",
@@ -11710,7 +11724,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.sindhu.dhamma.org",
+   "url": "https://sindhu.dhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schsindhu",
    "description": "Dhamma Sindhu: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -11727,7 +11741,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schsindhu"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-sindhudurg",
@@ -12532,7 +12548,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.vipula.dhamma.org",
+   "url": "https://www.dhamma.org/en/schedules/schvipula",
    "schedule_url": "https://www.dhamma.org/en/schedules/schvipula",
    "description": "Dhamma Vipula: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -12549,7 +12565,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schvipula"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-vahini",
@@ -12568,7 +12586,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://www.vahini.dhamma.org",
+   "url": "https://www.dhamma.org/en/schedules/schvahini",
    "schedule_url": "https://www.dhamma.org/en/schedules/schvahini",
    "description": "Dhamma Vāhini: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -12585,7 +12603,9 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schvahini"
     }
-   ]
+   ],
+   "verified_on": "2026-10-21",
+   "url_checked": "2026-10-21"
   },
   {
    "id": "dhamma-vatika",
@@ -16536,8 +16556,8 @@
    "lat": 51.4307,
    "lng": -0.2206,
    "coord_precision": "as recorded on Wikidata",
-   "url": "https://www.buddhapadipa.org",
-   "url_checked": "2026-10-20",
+   "url": "https://buddhapadipa.com/",
+   "url_checked": "2026-10-21",
    "wikidata": "Q7972922",
    "description": "The first Thai Buddhist temple in the UK, in Wimbledon, with a celebrated painted shrine hall.",
    "offers": [
@@ -16545,7 +16565,10 @@
     "visits",
     "festivals"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5017967/contact-information",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "london-buddhist-vihara",
@@ -16588,14 +16611,17 @@
    "lat": 52.479159,
    "lng": -1.932707,
    "coord_precision": "building",
-   "url": "https://www.birminghambuddhistvihara.org.uk",
-   "url_checked": "2026-10-20",
+   "url": "https://birminghambuddhistvihara.org/",
+   "url_checked": "2026-10-21",
    "description": "Burmese Theravada vihara with the Dhammatalaka Peace Pagoda, a landmark pagoda in Edgbaston.",
    "offers": [
     "meditation classes",
     "visits"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://birminghambuddhistvihara.org/contact",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "samatha-trust-greenstreete",
@@ -16749,7 +16775,7 @@
    "lat": 52.500341,
    "lng": -1.923893,
    "coord_precision": "district",
-   "url": "https://www.watsanghathan.org",
+   "url": "https://www.watsantiwongsaram.org/",
    "url_checked": "2026-10-20",
    "description": "Thai Buddhist temple and meditation centre in Birmingham.",
    "offers": [
@@ -17172,7 +17198,7 @@
    "lat": 57.339014,
    "lng": -4.466775,
    "coord_precision": "locality",
-   "url": "https://www.ksdhighlands.org.uk",
+   "url": "http://www.ksdhighlands.org.uk/",
    "url_checked": "2026-10-20",
    "description": "Samye Ling branch near Loch Ness.",
    "offers": [
@@ -17360,8 +17386,8 @@
    "lat": 51.798241,
    "lng": -3.174011,
    "coord_precision": "town",
-   "url": "https://www.palpungwales.org.uk",
-   "url_checked": "2026-10-20",
+   "url": "https://www.palpung.org.uk/",
+   "url_checked": "2026-10-21",
    "description": "Welsh centre under Tai Situ Rinpoche's Palpung lineage.",
    "offers": [
     "classes",
@@ -17374,7 +17400,8 @@
      "branch_of",
      "Palpung lineage of Tai Situ Rinpoche"
     ]
-   ]
+   ],
+   "verified_on": "2026-10-21"
   },
   {
    "id": "lam-rim-wales",
@@ -17498,13 +17525,14 @@
    "lat": 52.240522,
    "lng": -3.379361,
    "coord_precision": "town",
-   "url": "https://www.dzogchencommunity.org.uk",
-   "url_checked": "2026-10-20",
+   "url": null,
+   "url_checked": "2026-10-21",
    "description": "UK retreat place of Namkhai Norbu's International Dzogchen Community.",
    "offers": [
     "retreats"
    ],
-   "language": "en"
+   "language": "en",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "adhisthana",
@@ -18899,8 +18927,8 @@
    "teachers": [
     "bhaktivedanta-swami-prabhupada"
    ],
-   "url": "https://www.iskconlondon.org",
-   "url_checked": "2026-10-20",
+   "url": "https://iskcon.london/",
+   "url_checked": "2026-10-21",
    "wikidata": "Q17334185",
    "description": "ISKCON's central London temple on Soho Street, opened by Prabhupada.",
    "offers": [
@@ -18914,7 +18942,9 @@
      "branch_of",
      "ISKCON world headquarters"
     ]
-   ]
+   ],
+   "source_url": "https://iskcon-london.org",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "iskcon-leicester",
@@ -19304,8 +19334,8 @@
    "teachers": [
     "swami-satyananda"
    ],
-   "url": "https://www.satyananda-yoga.co.uk",
-   "url_checked": "2026-10-20",
+   "url": null,
+   "url_checked": "2026-10-21",
    "description": "London centre of the Satyananda Yoga tradition (Bihar School of Yoga lineage).",
    "offers": [
     "classes"
@@ -19317,7 +19347,8 @@
      "branch_of",
      "Satyananda Yoga root school"
     ]
-   ]
+   ],
+   "verified_on": "2026-10-21"
   },
   {
    "id": "chinmaya-uk",
@@ -19592,14 +19623,17 @@
    "lat": 51.507642,
    "lng": -0.209636,
    "coord_precision": "street",
-   "url": "https://www.centralgurdwara.org.uk",
-   "url_checked": "2026-10-20",
+   "url": "https://www.khalsajatha.com/",
+   "url_checked": "2026-10-21",
    "description": "The first gurdwara in Britain, founded in 1911.",
    "offers": [
     "langar",
     "worship"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "http://www.centralgurdwara.org.uk",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "southall-gurdwara",
@@ -19668,16 +19702,16 @@
    "lat": 52.4958,
    "lng": -1.9714,
    "coord_precision": "as recorded on Wikidata",
-   "url": "https://www.gngsmethwick.com",
-   "schedule_url": "https://www.gngsmethwick.com/?page_id=44206",
-   "url_checked": "2026-10-20",
+   "url": "https://www.gngsmethwick.com/",
+   "url_checked": "2026-10-21",
    "wikidata": "Q5620401",
    "description": "One of the oldest and largest Sikh gurdwaras in the Midlands.",
    "offers": [
     "langar",
     "worship"
    ],
-   "language": "en"
+   "language": "en",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "nishkam-soho-road",
@@ -19777,7 +19811,7 @@
    "lat": 55.671021,
    "lng": -1.802608,
    "coord_precision": "building",
-   "url": "https://www.marygatehouse.org.uk",
+   "url": "https://www.marygatehouse.org/",
    "url_checked": "2026-10-20",
    "description": "Christian retreat house on Lindisfarne.",
    "offers": [
@@ -19983,7 +20017,7 @@
    "lat": 51.092114,
    "lng": -0.119332,
    "coord_precision": "as recorded on Wikidata",
-   "url": "https://www.worthabbey.net",
+   "url": "https://worthabbey.net/",
    "url_checked": "2026-10-20",
    "wikidata": "Q26276437",
    "description": "Benedictine community known for \"The Monastery\" and its retreat programme.",
@@ -20082,17 +20116,20 @@
    "lng": -1.0847,
    "coord_precision": "as recorded on Wikidata",
    "founded": 1897,
-   "url": "https://www.abbey.ampleforth.org.uk/",
+   "url": "https://www.ampleforthabbey.org.uk/",
    "schedule_url": "https://www.ampleforthabbey.org.uk/retreats",
    "contact_page": "https://www.ampleforthabbey.org.uk/safeguarding/contact-us",
-   "url_checked": "2026-10-20",
+   "url_checked": "2026-10-21",
    "wikidata": "Q3012194",
    "description": "Benedictine abbey in the North York Moors.",
    "offers": [
     "retreats",
     "services"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://www.ampleforth.org.uk/",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "mount-st-bernard",
@@ -20134,7 +20171,7 @@
    "lng": -2.6519,
    "coord_precision": "as recorded on Wikidata",
    "founded": 1952,
-   "url": "https://www.nunraw.org.uk",
+   "url": "https://nunraw-abbey.com/",
    "url_checked": "2026-10-20",
    "wikidata": "Q7415655",
    "description": "Cistercian (Trappist) abbey in East Lothian.",
@@ -20414,13 +20451,16 @@
    "lat": 55.388323,
    "lng": -1.61263,
    "coord_precision": "village",
-   "url": "https://www.alnmouthfriary.org.uk",
-   "url_checked": "2026-10-20",
+   "url": "https://alnmouthfriaryssf.org.uk/",
+   "url_checked": "2026-10-21",
    "description": "Anglican Franciscan friary overlooking the Northumberland coast.",
    "offers": [
     "guest stays"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://www.franciscans.org.uk/hospitality",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "northumbria-community",
@@ -20809,14 +20849,15 @@
    "lat": 52.826767,
    "lng": -3.448117,
    "coord_precision": "as recorded on Wikidata",
-   "url": "https://www.pennant-melangell.org.uk",
-   "url_checked": "2026-10-20",
+   "url": "https://stmelangell.org/",
+   "url_checked": "2026-10-21",
    "wikidata": "Q13130689",
    "description": "Remote church with the restored Romanesque shrine of St Melangell.",
    "offers": [
     "pilgrimage"
    ],
-   "language": "en"
+   "language": "en",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "downpatrick-cathedral",
@@ -21183,14 +21224,17 @@
    "lat": 51.6475,
    "lng": -1.4508,
    "coord_precision": "as recorded on Wikidata",
-   "url": "https://www.charneymanor.org",
-   "url_checked": "2026-10-20",
+   "url": "https://www.charneymanor.com/",
+   "url_checked": "2026-10-21",
    "wikidata": "Q5086554",
    "description": "Quaker conference and retreat house in a medieval manor.",
    "offers": [
     "retreats"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://www.charneymanor.com/",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "beshara-chisholme",
@@ -21322,7 +21366,7 @@
    "lat": 51.54154,
    "lng": -0.199499,
    "coord_precision": "building",
-   "url": "https://www.rumiscave.com",
+   "url": "https://www.rumis.org/",
    "url_checked": "2026-10-20",
    "description": "Community arts and spiritual space in Kilburn rooted in Sufi hospitality.",
    "offers": [
@@ -21451,7 +21495,7 @@
    "lat": 55.957543,
    "lng": -3.201186,
    "coord_precision": "street",
-   "url": "https://www.theosophyscotland.org.uk",
+   "url": "https://www.theosophyscotland.org/",
    "url_checked": "2026-10-20",
    "description": "Scottish section of the Theosophical Society, Great King Street, Edinburgh.",
    "offers": [
@@ -21552,13 +21596,14 @@
    "teachers": [
     "helena-blavatsky"
    ],
-   "url": "https://www.blavatskyhouse.org.uk",
-   "url_checked": "2026-10-20",
-   "description": "London centre of the Pasadena Theosophical Society.",
+   "url": null,
+   "url_checked": "2026-10-21",
+   "description": "London centre of the Pasadena Theosophical Society. Its former site (blavatskyhouse.org.uk) no longer resolves; no current official page found (checked 2026-10-21).",
    "offers": [
     "study groups"
    ],
-   "language": "en"
+   "language": "en",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "emerson-college",
@@ -22788,7 +22833,7 @@
    "country": "GB",
    "country_name": "United Kingdom",
    "city": "London",
-   "url": "https://www.wisdombooks.org",
+   "url": "https://wisdombooks.org/",
    "url_checked": "2026-10-20",
    "description": "Specialist Buddhist and Eastern spirituality bookseller.",
    "offers": [
@@ -22987,13 +23032,14 @@
    "lat": 51.14804,
    "lng": -2.716577,
    "coord_precision": "town",
-   "url": "https://www.isleofavalonfoundation.com",
-   "url_checked": "2026-10-20",
+   "url": null,
+   "url_checked": "2026-10-21",
    "description": "Glastonbury centre for spiritual education.",
    "offers": [
     "courses"
    ],
-   "language": "en"
+   "language": "en",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "blythe-road",
@@ -23257,7 +23303,7 @@
    "coord_precision": "as recorded on Wikidata",
    "url": "https://www.turveyabbey.org.uk",
    "schedule_url": "http://www.turveyabbey.org.uk/on-line-retreats",
-   "contact_page": "https://www.turveyabbey.org.uk/contact",
+   "contact_page": "https://www.turveyabbey.org.uk/contact-information/",
    "url_checked": "2026-10-20",
    "wikidata": "Q7856535",
    "description": "Benedictine monks and nuns of the Monastery of Christ Our Saviour.",

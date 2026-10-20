@@ -74,6 +74,16 @@
    "licence": "publisher-free",
    "evidence": "LTWA \"Free Download Resources\" page (Tibet Journal issues, science books) offered as free downloads by the Library",
    "evidenceUrl": "https://tibetanlibrary.org/free-download-resources/"
+  },
+  "lee-keeping-the-breath": {
+   "checked": "2026-10-21",
+   "licence": "cc-by-nc-4.0",
+   "noSale": true,
+   "title": "Keeping the Breath in Mind (& Lessons in Samādhi)",
+   "author": "Ajaan Lee Dhammadharo",
+   "translator": "Thanissaro Bhikkhu",
+   "evidence": "Copyright page (7th ed., 2017): \"licensed under the Creative Commons Attribution-NonCommercial 4.0\"; \"Commercial shall mean any sale, whether for commercial or non-profit purposes or entities\"",
+   "evidenceUrl": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html"
   }
  },
  "domains": {
@@ -168,6 +178,34 @@
    "evidence": "GRETIL registers only e-texts freely available for scholarly purposes; notice: files strictly for scholarly reference, any commercial use excluded, copyright stays with the original holders (many files now CC BY-NC-SA 4.0)",
    "evidenceUrl": "https://gretil.sub.uni-goettingen.de/gret_utfbk.htm",
    "evidenceSource": "http://gretil.sub.uni-goettingen.de/gretinfobk.htm"
+  },
+  "plato.stanford.edu": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "noSale": true,
+   "evidence": "SEP Terms of Use: Stanford grants each user a royalty-free licence to read, download, print or link to the full text of each SEP entry; distribution only non-commercial (\"an edited open access work\")",
+   "evidenceUrl": "https://plato.stanford.edu/info.html#terms"
+  },
+  "ora.ox.ac.uk": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "noSale": true,
+   "evidence": "ORA Terms of Use: unless the item record says otherwise, users may download/print one copy for private non-commercial study; items are to be linked through their item record page (which is what we link)",
+   "evidenceUrl": "https://ora.ox.ac.uk/terms_of_use"
+  },
+  "sanskritdocuments.org": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "noSale": true,
+   "evidence": "Home page: files prepared by volunteers \"meant to be used for personal study and research\"; not to be copied or reposted or used commercially without permission (we link only, never repost)",
+   "evidenceUrl": "https://sanskritdocuments.org/"
+  },
+  "rsarchive.org": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "noSale": true,
+   "evidence": "Responsible Use (rev. June 2026): asks users to \"link to the document on rsarchive.org so others may access the full text\"; reproducing SOL original content needs consent; no AI training (we link only)",
+   "evidenceUrl": "https://rsarchive.org/Legal/ResponsibleUse.html"
   }
  },
  "traditions": {
@@ -186,6 +224,25 @@
    "licence": "publisher-free",
    "evidence": "bps.lk home: \"E-Books ... Free to Read ... Read Online\" (the online library); printed books are sold",
    "evidenceUrl": "https://www.bps.lk/"
+  },
+  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0168": {
+   "checked": "2026-10-21",
+   "licence": "cc-by-sa-3.0-us",
+   "evidence": "Page footer: \"This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License\"",
+   "evidenceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0168:book=10"
+  },
+  "https://www.ramakrishnavivekananda.info/vivekananda/": {
+   "checked": "2026-10-21",
+   "licence": "permissioned",
+   "evidence": "Site home, Acknowledgements: thanks to Swami Bodhasaranandaji of Advaita Ashrama (the publisher) \"for his whole-hearted support for placing the Complete Works of Swami Vivekananda ... online\" (covers the Complete Works only)",
+   "evidenceUrl": "https://www.ramakrishnavivekananda.info/"
+  },
+  "https://www.dhammatalks.org/books/KeepingTheBreath/": {
+   "checked": "2026-10-21",
+   "licence": "cc-by-nc-4.0",
+   "noSale": true,
+   "evidence": "Copyright page (7th ed., 2017): \"licensed under the Creative Commons Attribution-NonCommercial 4.0\"; \"Commercial shall mean any sale, whether for commercial or non-profit purposes or entities\"",
+   "evidenceUrl": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html"
   }
  },
  "held": {
@@ -253,6 +310,84 @@
    "checked": "2026-10-21",
    "evidenceUrl": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
    "why": "Copyright Muhyiddin Ibn Arabi Society; article readable online but no permission or licence statement"
+  },
+  "hub-tsadra-foundation-buddha-nature-resource-essays-texts-the-20": {
+   "checked": "2026-10-21",
+   "url": "https://buddhanature.tsadra.org/",
+   "why": "Tsadra Buddha-Nature site: no licence or free-reading statement found (its copyright page URL 404s); not a single text but a reference wiki",
+   "evidenceUrl": "https://buddhanature.tsadra.org/"
+  },
+  "hub-daily-meditations-richard-rohr-and-cac-faculty": {
+   "checked": "2026-10-21",
+   "url": "https://cac.org/daily-meditations/",
+   "why": "Center for Action and Contemplation: no terms page found (terms-of-use 404); no licence or free-reading statement read",
+   "evidenceUrl": "https://cac.org/daily-meditations/"
+  },
+  "hub-presence-with-god-in-ibn-arabi-s-teaching": {
+   "checked": "2026-10-21",
+   "url": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
+   "why": "Copyright the Muhyiddin Ibn Arabi Society; no permission or free-reading statement (same hold as the person text)",
+   "evidenceUrl": "https://ibnarabisociety.org/presence-with-god-william-chittick/"
+  },
+  "hub-children-who-report-memories-of-previous-lives": {
+   "checked": "2026-10-21",
+   "url": "https://med.virginia.edu/perceptual-studies/research/children-who-report-memories-of-previous-lives/",
+   "why": "UVA Division of Perceptual Studies research summary page: university copyright, no content licence read",
+   "evidenceUrl": "https://med.virginia.edu/perceptual-studies/research/children-who-report-memories-of-previous-lives/"
+  },
+  "hub-near-death-experiences": {
+   "checked": "2026-10-21",
+   "url": "https://med.virginia.edu/perceptual-studies/research/near-death-experiences-ndes/",
+   "why": "UVA Division of Perceptual Studies research summary page: university copyright, no content licence read",
+   "evidenceUrl": "https://med.virginia.edu/perceptual-studies/research/near-death-experiences-ndes/"
+  },
+  "hub-thupten-jinpa-self-persons-and-madhyamaka-dialectics-cambrid": {
+   "checked": "2026-10-21",
+   "url": "https://www.repository.cam.ac.uk/handle/1810/272695",
+   "why": "Cambridge Apollo item: the repository refused automated reading (HTTP 503 bot protection), so the item licence is unread",
+   "evidenceUrl": "https://www.repository.cam.ac.uk/handle/1810/272695"
+  },
+  "hub-how-to-meditate-christian-meditation-with-a-mantra": {
+   "checked": "2026-10-21",
+   "url": "https://wccm.org/meditate/how-to-meditate/",
+   "why": "WCCM how-to page: no licence or free-reading statement read",
+   "evidenceUrl": "https://wccm.org/meditate/how-to-meditate/"
+  },
+  "hub-chan-meditation-center-publications-sheng-yen-free-books": {
+   "checked": "2026-10-21",
+   "url": "https://www.chancenter.org/en/publications",
+   "why": "Chan Meditation Center publications page: no licence or free-distribution statement read",
+   "evidenceUrl": "https://www.chancenter.org/en/publications"
+  },
+  "hub-who-am-i-nan-yar": {
+   "checked": "2026-10-21",
+   "url": "https://www.gururamana.org/Resources/Books/Who_Am_I_English.pdf",
+   "why": "Third-party copy of the Sri Ramanasramam translation; no permission statement from the publisher found",
+   "evidenceUrl": "https://www.gururamana.org/Resources/Books/Who_Am_I_English.pdf"
+  },
+  "hub-plum-village-app-free-guided-meditations-and-talks": {
+   "checked": "2026-10-21",
+   "url": "https://www.plumvillage.app/",
+   "why": "App homepage, not a text; no content licence",
+   "evidenceUrl": "https://www.plumvillage.app/"
+  },
+  "hub-the-gospel-of-sri-ramakrishna-nikhilananda-tr": {
+   "checked": "2026-10-21",
+   "url": "https://www.ramakrishnavivekananda.info/gospel/gospel.htm",
+   "why": "Nikhilananda translation (1942, Ramakrishna-Vivekananda Center NY) on an unofficial site (\"Not affiliated with the official organization\"); the Advaita Ashrama permission covers only the Complete Works",
+   "evidenceUrl": "https://www.ramakrishnavivekananda.info/gospel/gospel.htm"
+  },
+  "hub-sha-ar-hagilgulim-the-gate-of-reincarnations": {
+   "checked": "2026-10-21",
+   "url": "https://www.sefaria.org/Sha'ar_HaGilgulim",
+   "why": "Sefaria terms page renders by JavaScript only; the version licence of this English text was not read",
+   "evidenceUrl": "https://www.sefaria.org/Sha'ar_HaGilgulim"
+  },
+  "hub-vipassana-research-institute-discourse-summaries-pariyatti-t": {
+   "checked": "2026-10-21",
+   "url": "https://www.vridhamma.org/",
+   "why": "Organisation homepage, not a text; no content licence",
+   "evidenceUrl": "https://www.vridhamma.org/"
   }
  }
 }

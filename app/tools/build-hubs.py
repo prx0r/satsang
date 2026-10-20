@@ -83,6 +83,30 @@ for k, h in src['hubs'].items():
     h['thread'] = thread(h['atlas']) if h.get('atlas') else []
     h['threadLabel'] = nodes.get(h.get('atlas') or '', {}).get('label')
     hubs[k] = h
+# licence gate (tools/licence_gate.py, shared with merge-sources.py / build-wise.py): a hub essay is linked only when the registry
+# evidences a linkable licence; held ones leave the hub (and the MCP text records built from it) and go to the review queue
+# (kind text-licence-hub), where web-worker/build-meta.mjs turns each into a "held while its licence is checked" /resource page.
+from licence_gate import licence_for, linkable, no_sale, queue_refresh
+def _slug(s, n):
+    import unicodedata
+    s = ''.join(c for c in unicodedata.normalize('NFD', str(s)) if not unicodedata.combining(c))
+    return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', s.lower()))[:n]
+HHELD, HSEEN, NLINK = [], set(), set()
+for k, h in hubs.items():
+    keep = []
+    for e in h.get('essays') or []:
+        tid = _slug(e['title'], 60)
+        lic, why, evu, ent = licence_for('hub-' + tid, e.get('url'))
+        if not linkable(lic):
+            if e['url'] not in HSEEN:
+                HSEEN.add(e['url'])
+                HHELD.append({'pack': 'hubs', 'kind': 'text-licence-hub', 'subject': f'hub-essay:{e["url"]}', 'reason': f'licence gate: hub essay "{e["title"][:80]}" ({e["url"]}); registry says {lic or "unregistered"} ({why[:200]}); link held off the topic hubs ({k}...)', 'severity': 'verify', 'title': e['title'], 'rid': _slug(tid, 72), **({'evidenceUrl': evu} if evu else {})})
+            continue
+        NLINK.add(e['url'])
+        keep.append({**e, 'licence': lic, **({'licenceUrl': evu} if evu else {}), **({'noSale': True} if no_sale(lic, ent) else {})})
+    h['essays'] = keep
+nq = queue_refresh(os.path.join(ROOT, 'wisegraph/review-queue.json'), {'text-licence-hub'}, HHELD, '2026-10-21')
+print({'hub_essay_links': len(NLINK) + len(HSEEN), 'linked': len(NLINK), 'held': len(HHELD), 'review_queue': nq})
 os.makedirs(os.path.join(ROOT, 'site/data/wisegraph'), exist_ok=True)
 TT = json.load(open(os.path.join(ROOT, 'schema/topics.json')))['tree']
 labels = {r + '/' + l: n['label'] for r, node in TT.items() for l, n in node.items() if isinstance(n, dict) and 'kw' in n}

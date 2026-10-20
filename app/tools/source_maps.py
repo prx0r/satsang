@@ -257,6 +257,9 @@ KEEPER_PEOPLE = {
     },
     # official site: sanshin.org (an old domain that no longer answers) -> the Sanshin Zen Community's own site
     'shohaku-okumura': {'links': {'Website': 'https://www.sanshinji.org'}, 'source_url': 'https://www.sanshinji.org/', 'confidence': 'high'},
+    # keeper pass 2026-10-21: dead monastery domains -> the monasteries' current sites
+    'ajahn-kalyano': {'links': {'Website': 'https://www.buddhabodhivana.org/'}, 'source_url': 'https://www.buddhabodhivana.org/about/ajahn-kalyano', 'confidence': 'high', 'verified_on': '2026-10-21'},  # bodhivana.org.au NXDOMAIN
+    'ajahn-chandako': {'links': {'Website': 'https://atba.nz/'}, 'source_url': 'https://atba.nz/about/', 'confidence': 'high', 'verified_on': '2026-10-21'},  # vimutti.org.nz cert expired, http redirects to atba.nz (Vimutti Monastery / ATBA)
 }
 # edges matched on (from, to); 'type' may change. Wikipedia moved pages; dead source URLs replaced.
 KEEPER_EDGES = [
@@ -290,6 +293,28 @@ KEEPER_PLACES = {
     'nag-hammadi-site': {'teachers': []},
     # India study: Library of Tibetan Works and Archives = tibetanlibrary.org (ltwa.net is not its site)
     'ltwa': {'url': 'https://tibetanlibrary.org', 'source_url': 'https://tibetanlibrary.org', 'confidence': 'high'},
+    # keeper pass 2026-10-21: linkrot errors (3 consecutive fails) fixed at the source. Old domain NXDOMAIN / parked / TLS-broken -> the
+    # organisation's own current site (found via its old domain's redirect, the Charity Commission register, or its own pages).
+    'charney-manor': {'url': 'https://www.charneymanor.com/', 'source_url': 'https://www.charneymanor.com/', 'confidence': 'high', 'verified_on': '2026-10-21'},  # charneymanor.org: TLS alert on https, parked IONOS page on http
+    'central-gurdwara-london': {'url': 'https://www.khalsajatha.com/', 'source_url': 'http://www.centralgurdwara.org.uk', 'confidence': 'high', 'verified_on': '2026-10-21'},  # old domain redirects here (Central Gurdwara, Khalsa Jatha)
+    'dhamma-ajanta': {'url': 'https://ajanta.vridhamma.org/', 'source_url': 'https://ajanta.dhamma.org', 'confidence': 'high', 'verified_on': '2026-10-21'},  # www. host has no valid cert; ajanta.dhamma.org redirects here
+    'ampleforth-abbey': {'url': 'https://www.ampleforthabbey.org.uk/', 'source_url': 'https://www.ampleforth.org.uk/', 'confidence': 'high', 'verified_on': '2026-10-21'},  # abbey.ampleforth.org.uk cert mismatch; ampleforth.org.uk redirects here
+    'wat-buddhapadipa': {'url': 'https://buddhapadipa.com/', 'source_url': 'https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5017967/contact-information', 'confidence': 'high', 'verified_on': '2026-10-21'},  # buddhapadipa.org SERVFAIL; the Temple Trust's registered website
+    'alnmouth-friary': {'url': 'https://alnmouthfriaryssf.org.uk/', 'source_url': 'https://www.franciscans.org.uk/hospitality', 'confidence': 'high', 'verified_on': '2026-10-21'},  # alnmouthfriary.org.uk NXDOMAIN; SSF's hospitality page links this
+    'birmingham-buddhist-vihara': {'url': 'https://birminghambuddhistvihara.org/', 'source_url': 'https://birminghambuddhistvihara.org/contact', 'confidence': 'high', 'verified_on': '2026-10-21'},  # .org.uk NXDOMAIN
+    # keeper pass 2026-10-21, round 2: Goenka centres whose www. host has no valid certificate -> bare host (works) or the dhamma.org schedule page
+    'dhamma-ujjala': {'url': 'https://ujjala.dhamma.org/', 'verified_on': '2026-10-21'}, 'dhamma-uyyana': {'url': 'https://uyyana.dhamma.org/', 'verified_on': '2026-10-21'}, 'dhamma-sindhu': {'url': 'https://sindhu.dhamma.org/', 'verified_on': '2026-10-21'},
+    'dhamma-jalgaon': {'url': 'https://www.dhamma.org/en/schedules/schjalgaon', 'verified_on': '2026-10-21'}, 'dhamma-pali': {'url': 'https://www.dhamma.org/en/schedules/schpali', 'verified_on': '2026-10-21'},
+    'dhamma-vipula': {'url': 'https://www.dhamma.org/en/schedules/schvipula', 'verified_on': '2026-10-21'}, 'dhamma-vahini': {'url': 'https://www.dhamma.org/en/schedules/schvahini', 'verified_on': '2026-10-21'},
+    'smethwick-gurdwara': {'url': 'https://www.gngsmethwick.com/', 'verified_on': '2026-10-21'},  # old deep link answered 404; the gurdwara's home page
+    'panditarama-lumbini': {'url': 'http://www.panditarama-lumbini.info/', 'verified_on': '2026-10-21'},  # https certificate expired; the site answers on http
+    'radha-krishna-temple-soho': {'url': 'https://iskcon.london/', 'source_url': 'https://iskcon-london.org', 'verified_on': '2026-10-21'},  # iskconlondon.org NXDOMAIN; iskcon-london.org redirects here
+    'pennant-melangell': {'url': 'https://stmelangell.org/', 'verified_on': '2026-10-21'},  # pennant-melangell.org.uk NXDOMAIN; The Shrine Church of Saint Melangell
+    'palpung-wales': {'url': 'https://www.palpung.org.uk/', 'verified_on': '2026-10-21'},  # palpungwales.org.uk NXDOMAIN; Palpung Changchub Dargyeling's own site
+    'satyananda-yoga-uk': {'url': None, 'verified_on': '2026-10-21'},  # satyananda-yoga.co.uk NXDOMAIN; no current official site found
+    'dzogchen-community-uk': {'url': None, 'verified_on': '2026-10-21'},  # dzogchencommunity.org.uk NXDOMAIN; no current official site found
+    'isle-of-avalon-foundation': {'url': None, 'verified_on': '2026-10-21'},  # isleofavalonfoundation.com has no web host; no current official site found
+    'blavatsky-house': {'url': None, 'description': 'London centre of the Pasadena Theosophical Society. Its former site (blavatskyhouse.org.uk) no longer resolves; no current official page found (checked 2026-10-21).', 'verified_on': '2026-10-21'},
 }
 # duplicate places: old id -> kept id (/place/<old> 301s to the kept page)
 KEEPER_ALIAS_REDIRECTS = {  # short slugs people reach for (seen 404 after batch 3): 301 to the canonical id; never reused as ids
@@ -305,6 +330,29 @@ KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maak
 # headquarters country (disciples "in different countries"; teachers listed in Moscow, Chelyabinsk...), so no honest ISO code exists.
 PLACE_DROP = {'nathas-org-natha-tradition': 'country "INT" is not ISO 3166; nathas.org (about/contacts/disciples, checked 2026-10-21) states no headquarters country; schema requires one, so the record is removed (people and resources kept)'}
 KEEPER_URL_MOVED = {'https://sanshin.org': 'https://www.sanshinji.org/'}
+# keeper linkrot pass 2026-10-21 (confirming run after the batch-5 deploy): exact cited URL -> official replacement (None = drop the
+# field). Applied by apply-keeper-fixes.py to every string in wisegraph/*.json (people links, edge sources, places, contacts).
+# Each replacement was opened 2026-10-21 and is named by the organisation itself or its umbrella body (see MERGE-LOG keeper pass).
+KEEPER_URL_FIX = {
+    'https://www.rumiscave.com': 'https://www.rumis.org/',                       # old domain parked (hugedomains); rumis.org = Rumi's Cave (Ulfa Aid)
+    'https://www.vedantauk.com': 'https://vedantauk.org/',                       # .com has no A record; Belur Math centre page lists vedantauk.org
+    'https://www.nunraw.org.uk': 'https://nunraw-abbey.com/',                    # NXDOMAIN; OCSO directory + Archdiocese list nunraw-abbey.com
+    'https://www.marygatehouse.org.uk': 'https://www.marygatehouse.org/',        # www. NXDOMAIN; marygatehouse.org = the house's own site (same address/phone)
+    'https://www.theosophyscotland.org.uk': 'https://www.theosophyscotland.org/', # NXDOMAIN; the Society's site is .org
+    'https://www.watsanghathan.org': 'https://www.watsantiwongsaram.org/',       # NXDOMAIN; same temple (107 Handsworth Wood Rd), renamed; Charity Commission 1123606
+    'https://www.shivaashram.org.au': 'https://www.theashram.com.au/',           # NXDOMAIN; The Ashram Mt Eliza (Swami Shankarananda's Shiva Ashram)
+    'https://www.vinesofobstacles.com': 'https://www.vineobstacleszen.com/',     # NXDOMAIN; Dosho Port's Vine of Obstacles Zen site
+    'https://www.youtube.com/@AngelasSymposium': 'https://www.youtube.com/channel/UCPSbip_LX2AxbGeAQfLp-Ig',  # handle 404; the channel id already on record
+    'https://kopanmonastery.org/november-course/': 'https://kopanmonastery.org/',  # page answers 404; home page carries the November Course entry
+    'https://www.turveyabbey.org.uk/contact': 'https://www.turveyabbey.org.uk/contact-information/',  # 404; the site's own contact link
+    'https://www.gngsmethwick.com/?page_id=44206': None,                         # 404 (still in the site's menu); schedule link dropped, home page kept
+    'https://www.wisdombooks.org': 'https://wisdombooks.org/',                   # www. TLS name error; apex 200
+    'https://www.sfvedanta.org': 'https://sfvedanta.org/',                       # www. CNAME no longer resolves; apex 200
+    'https://www.worthabbey.net': 'https://worthabbey.net/',                     # www. certificate name mismatch; apex answers
+    'https://www.ksdhighlands.org.uk': 'http://www.ksdhighlands.org.uk/',        # https TLS internal error (site-side); http 200
+    'https://www.williamcchittick.com': 'http://www.williamcchittick.com/',      # https certificate name mismatch (site-side); http 200
+    'https://www.panditarama-lumbini.info/retreats.html': 'http://www.panditarama-lumbini.info/retreats.html',  # self-signed https; http 200
+}
 
 # ---------- main teachers checked on each place's OFFICIAL site (2026-10-21) ----------
 # (place, teacher) -> verdict. 'publish' = the official page states it now (published with conf high + source); 'hold' = it does not

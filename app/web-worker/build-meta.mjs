@@ -26,8 +26,8 @@ import { slugify } from '../../mcp/src/resources.mjs'
 const HELD = {}
 try {
   const q = JSON.parse(fs.readFileSync(new URL('../wisegraph/review-queue.json', import.meta.url), 'utf8')).items || []
-  for (const i of q) if (/^(text-licence|text-licence-person|resource-licence-place)$/.test(i.kind) && i.title) {
-    const id = slugify(i.title); if (!res[id] && !HELD[id]) HELD[id] = { t: i.title, why: String(i.reason || '').replace(/^licence gate: /, '').slice(0, 300), lu: i.evidenceUrl || null, q: i.queued }
+  for (const i of q) if (/^(text-licence|text-licence-person|text-licence-hub|resource-licence-place)$/.test(i.kind) && i.title) {
+    for (const id of new Set([slugify(i.title), i.rid].filter(Boolean))) if (!res[id] && !HELD[id]) HELD[id] = { t: i.title, why: String(i.reason || '').replace(/^licence gate: /, '').slice(0, 300), lu: i.evidenceUrl || null, q: i.queued }
   }
 } catch (e) { console.warn('review queue unreadable', e.message) }
 fs.writeFileSync(new URL('resources.gen.js', import.meta.url), 'export default ' + JSON.stringify(res) + '\nexport const HELD = ' + JSON.stringify(HELD) + '\n')

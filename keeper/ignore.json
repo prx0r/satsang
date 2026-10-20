@@ -8,6 +8,41 @@
    "check": "linkrot",
    "target": "^https://networks\\.h-net\\.org/",
    "reason": "H-Net pages answer 302 to themselves until a session cookie is set (the keeper client keeps no cookies); both cited pages load (200) with cookies, re-checked 2026-10-20. Not dead."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.luangta\\.com",
+   "reason": "2026-10-21 keeper pass: official site of Wat Pa Baan Taad; its https certificate has expired (site-side), http redirects to https. Kept as the official link; re-check monthly."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.karunabhavan\\.com",
+   "reason": "2026-10-21 keeper pass: DNS SERVFAIL from Cloudflare DoH on 2026-10-21 (not NXDOMAIN); not confirmed dead. Re-check from another network."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.mahalakshmitemple\\.com",
+   "reason": "2026-10-21 keeper pass: A record resolves; connection times out from this sandbox only; not confirmed dead."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.menri\\.org",
+   "reason": "2026-10-21 keeper pass: A record resolves; ECONNRESET from this sandbox only; not confirmed dead."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://ishwarashram\\.in/",
+   "reason": "2026-10-21 keeper pass (close-out): official Ishwar Ashram Trust site; answers 403 to non-browser clients and 500 to the keeper on this page (bot wall / server error), home page reachable; not confirmed dead. Re-check monthly."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.globalretreatcentre\\.org",
+   "reason": "2026-10-21 keeper pass (close-out): official Brahma Kumaris Global Retreat Centre site; its https chain is incomplete (UNABLE_TO_VERIFY_LEAF_SIGNATURE, site-side), DNS resolves; kept as the official link. Re-check monthly."
+  },
+  {
+   "check": "linkrot",
+   "target": "^https://www\\.dwbuk\\.org",
+   "reason": "2026-10-21 keeper pass (close-out): Diamond Way UK; Cloudflare 522 (origin not answering) on 2026-10-21, DNS resolves through Cloudflare; not confirmed dead. Re-check monthly."
   }
  ],
  "_reasons": {

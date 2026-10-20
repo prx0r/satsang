@@ -18,7 +18,7 @@ def licence_for(id_, url):
         if h == dom or h.endswith('.' + dom):
             if dd.get('verify'): return None, f'domain {dom}: default unconfirmed (verify)', dd.get('evidenceUrl'), dd
             return dd.get('default'), f'domain {dom}: ' + dd.get('evidence', ''), dd.get('evidenceUrl'), dd
-    hd = (LREG.get('held') or {}).get(id_ or '')
+    hd = (LREG.get('held') or {}).get(id_ or '') or next((e for e in (LREG.get('held') or {}).values() if url and e.get('url') == url), None)
     if hd: return None, 'checked ' + hd.get('checked', '') + ': ' + hd.get('why', ''), hd.get('evidenceUrl'), hd
     return None, 'no registry entry for the book or its domain', None, None
 def no_sale(lic, entry): return bool(entry and entry.get('noSale')) or lic in ('gift-of-dhamma', 'monastery-free-reprint') or 'nc' in (lic or '')

@@ -7302,7 +7302,7 @@
     }
    ],
    "links": {
-    "Website": "https://www.shivaashram.org.au"
+    "Website": "https://www.theashram.com.au/"
    },
    "aliases": [],
    "works": []
@@ -7621,10 +7621,13 @@
     }
    ],
    "links": {
-    "Website": "https://www.bodhivana.org.au"
+    "Website": "https://www.buddhabodhivana.org/"
    },
    "aliases": [],
-   "works": []
+   "works": [],
+   "source_url": "https://www.buddhabodhivana.org/about/ajahn-kalyano",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "ajahn-chandako",
@@ -7642,10 +7645,13 @@
     }
    ],
    "links": {
-    "Website": "https://vimutti.org.nz"
+    "Website": "https://atba.nz/"
    },
    "aliases": [],
-   "works": []
+   "works": [],
+   "source_url": "https://atba.nz/about/",
+   "confidence": "high",
+   "verified_on": "2026-10-21"
   },
   {
    "id": "sayadaw-u-silananda",
@@ -10566,7 +10572,7 @@
     }
    ],
    "links": {
-    "Website": "https://www.youtube.com/@AngelasSymposium"
+    "Website": "https://www.youtube.com/channel/UCPSbip_LX2AxbGeAQfLp-Ig"
    },
    "aliases": [],
    "works": []
@@ -10782,7 +10788,7 @@
    "years": "1943–",
    "bio": "Scholar and translator of Ibn Arabi and Rumi; doctorate at Tehran University under Seyyed Hossein Nasr (1974).",
    "links": {
-    "Website": "https://www.williamcchittick.com"
+    "Website": "http://www.williamcchittick.com/"
    },
    "aliases": [],
    "works": [

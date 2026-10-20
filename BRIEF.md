@@ -1,6 +1,6 @@
 # Wiser: brief
 
-Live: https://tantrafiles.xyz (www too) · API: https://api.tantrafiles.xyz · Code: `work/wiser/app` (cloned from Funnier, not in git; tarball backups in `work/wiser/backups/`).
+Live: https://tantrafiles.xyz (www too) · API: https://api.tantrafiles.xyz · MCP: https://mcp.tantrafiles.xyz/mcp · Code: `work/wiser/` (public mirror github.com/prx0r/satsang; tarball backups in `work/wiser/backups/`). **Current state: see the last section.**
 
 ## What it is
 Two talks from the world's wisdom traditions, one quiet question: **Which resonates more?** The listener takes their time.
@@ -230,3 +230,28 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
 - Build note: build-clips.py reads every sources/ group with a REPORT.md, so it now pulls deep-india-study (unmerged). Run it with
   WISER_SOURCES pointing at a folder of symlinks without deep-india-study. Its virtual-clip part titles are not deterministic
   (Python set order); the live clips.json was kept.
+
+## CURRENT STATE 2026-10-21 01:50 +07 (close-out; history in MERGE-LOG.md)
+- Live versions: **wiser-web fe65aa0b**, **wiser-mcp f9405239**, wiser-api 007fc5c3 (unchanged). Domain ACTIVE='legacy' (tantrafiles.xyz).
+  Bundles 561 KB / 995 KB gzip (Free cap 3 MB). MCP: 22 read-only tools, REST mirror + OpenAPI, discovery on both hosts.
+- Counts: about **738 people** (724 in the open-data person dump), **875 places** (825 mapped), **516 edges**, 178 tradition nodes,
+  9,947 clips; open-data schema 13,069 records failing none. Review queue 117 items (never live).
+- Licence registry `app/wisegraph/licence-registry.json` (books / domains / urls / held, every new entry with evidenceUrl), one shared gate
+  `app/tools/licence_gate.py` used by merge-sources.py (staged texts), build-wise.py (person texts, place resource links) and build-hubs.py
+  (topic-hub essays). Hub essays: 46 linked, 13 held. Staged texts 14 shown. Person texts 19 linked, 1 held. Every held text answers
+  /resource/<id> with a noindex "held while its licence is checked" page (28 such pages). Latest entry: Ajaan Lee "Keeping the Breath in
+  Mind" (dhammatalks.org, CC BY-NC 4.0, any sale = commercial).
+- Held, never live: 28 living claims; **6 internal red-flag records** (work/wiser/internal/19-red-flags, never public); D1 drafts
+  **0020_curations / 0021_sessions NOT applied**; main teachers held: **Ajahn Sucitto** (Cittaviveka: Guiding Elder, not abbot),
+  **Jack Kornfield** (Spirit Rock: a founding teacher), **Swami Ramdev** (Patanjali Yogpeeth: trustee/co-founder); held texts: the 13 hub
+  essays + 12 staged texts (path-press-shop, Lakshmanjoo blog, utpaladeva.in, IFP, alexissanderson.com, swarayoga x2, Arsha Vidya x3,
+  Vishnusahasranama PDF, Anuttara Trika Kula) + Chittick person text. 21 medium teacher_of edges show as "studied with" and stay queued.
+- Keeper: 0 open linkrot errors after the 2026-10-21 pass (URL fixes in source_maps.KEEPER_URL_FIX; accepted sites in keeper/ignore.json).
+- **Domain: satsang.digital still FAILS DNS as of 2026-10-21 01:30 +07 ("No Reachable Authority").** The registry still lists Porkbun's
+  ariadne.ns.porkbun.com / burt.ns.porkbun.com; they must be **ariadne.ns.cloudflare.com / burt.ns.cloudflare.com** (Porkbun > Domain >
+  Authoritative Nameservers). Cloudflare zone 708de8d4 stays pending until then. Only after it is active: `sh app/tools/switch-domain.sh`
+  in phases. No agent touches DNS.
+- Deploy in this sandbox: never build and deploy concurrently. Site = deploy.sh lines 11-27, then 29-32 (guards), then 33-34 (KV + deploy),
+  each in its own call (scripts in work/wiser-closeout/); then `sh deploy.sh mcp`; then `node mcp/test-client.mjs https://mcp.tantrafiles.xyz`.
+  pip install jsonschema if the schema check says it is missing.
+- Repo: engine/ and specs/TEXT-TO-PRACTICE.md are owned and committed by the text-to-practice agent (e.g. 503894e); sync everything else.
