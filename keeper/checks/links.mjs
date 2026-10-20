@@ -14,7 +14,7 @@ export default {
       if (!r.ok || !r.text) return
       const baseHref = new URL((r.text.match(/<base[^>]+href=["']([^"']+)/i) || [])[1] || pg, pg)
       const raw = [...r.text.matchAll(/(?:href|src)=["']([^"'#]+)["']/gi)].map((m) => m[1])
-        .concat(/\.txt$/.test(pg) ? [...r.text.matchAll(/https?:\/\/[^\s)<>"'\]{}`]+(?![<{])/g)].map((m) => m[0].replace(/[.,;:]+$/, '')).filter((x) => !/\/$/.test(x) || !/[/](person|topic|tradition|place|practice|collection|resource|clip|text|api)\/$/.test(x)) : [])
+        .concat(/\.txt$/.test(pg) ? [...r.text.matchAll(/https?:\/\/[^\s)<>"'\]{}`]+/g)].filter((m) => !/[<{]/.test(r.text[m.index + m[0].length] || '')).map((m) => m[0].replace(/[.,;:]+$/, '')) : []) // skip URL templates like /person/<id>
       for (const h of raw) {
         if (/^(mailto|tel|javascript|data):/i.test(h)) continue
         let u; try { u = new URL(h.replace(/&amp;/g, '&'), baseHref) } catch { continue }
