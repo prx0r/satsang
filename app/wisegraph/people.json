@@ -588,6 +588,16 @@
      "id": "gitartha-sangraha",
      "title": "Gītārtha-saṅgraha (commentary on the Bhagavad Gita)",
      "kind": "text"
+    },
+    {
+     "id": "paratrishika-vivarana",
+     "kind": "text",
+     "title": "Parātrīśikāvivaraṇa"
+    },
+    {
+     "id": "isvara-pratyabhijna-vimarshini",
+     "kind": "text",
+     "title": "Īśvarapratyabhijñāvimarśinī + Vivṛtivimarśinī"
     }
    ],
    "role": "figure"
@@ -6554,8 +6564,15 @@
    "role": "figure",
    "tradition": "siddha-siddhanta",
    "bio": "Founder-figure of the Nāth yogīs, credited with haṭha texts such as the Amaraugha.",
-   "aliases": [],
-   "works": []
+   "aliases": [
+    "gorakshanath nath founder"
+   ],
+   "works": [],
+   "years": "c. 11th–12th c. (traditional)",
+   "short": "Goraksha",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Nath histories consensus"
   },
   {
    "id": "harunaga-isaacson",
@@ -10750,6 +10767,12 @@
      "kind": "book",
      "title": "The Sufi Path of Knowledge",
      "year": 1989
+    },
+    {
+     "id": "self-disclosure-of-god",
+     "kind": "book",
+     "title": "The Self-Disclosure of God",
+     "year": 1998
     }
    ]
   },
@@ -11959,7 +11982,20 @@
    "tradition": "imaginal",
    "lineageOnly": true,
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "creative-imagination-ibn-arabi",
+     "kind": "book",
+     "title": "Creative Imagination in the Sufism of Ibn Arabi",
+     "year": 1969
+    },
+    {
+     "id": "avicenna-visionary-recital",
+     "kind": "book",
+     "title": "Avicenna and the Visionary Recital",
+     "year": 1960
+    }
+   ]
   },
   {
    "id": "abdullah-daghestani",
@@ -13757,6 +13793,767 @@
    "confidence": "medium",
    "role": "text",
    "source_note": "Traditional"
+  },
+  {
+   "id": "paratrishika-vivarana",
+   "name": "Parātrīśikāvivaraṇa",
+   "short": "Parātrīśikāvivaraṇa",
+   "kind": "text",
+   "tradition": "trika",
+   "bio": "Abhinavagupta's commentary on the Parātrīśikā Tantra (KSTS 18, 1916, public domain); Jaideva Singh English translation (1988, copyrighted, no link).",
+   "aliases": [],
+   "works": [],
+   "source_note": "KSTS catalogue consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text"
+  },
+  {
+   "id": "isvara-pratyabhijna-vimarshini",
+   "name": "Īśvarapratyabhijñāvimarśinī (and Vivṛtivimarśinī)",
+   "short": "ĪPV/ĪPVV",
+   "kind": "text",
+   "tradition": "pratyabhijna",
+   "bio": "Abhinavagupta's two commentaries (Vimarśinī + Vivṛtivimarśinī) on Utpaladeva's Īśvarapratyabhijñākārikā (KSTS 22/33, 1918–21, public domain); Torella English translation of karika+vritti (copyrighted, no link).",
+   "aliases": [],
+   "works": [],
+   "source_note": "KSTS catalogue consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text"
+  },
+  {
+   "id": "rumi",
+   "name": "Jalaluddin Rumi",
+   "short": "Rumi",
+   "kind": "figure",
+   "tradition": "mevlevi-rumi",
+   "years": "1207–1273",
+   "bio": "Persian poet-mystic (1207–1273); Divan and 25,000-verse Mathnawi; transformed by Shams (1244); order organized by son Sultan Walad.",
+   "aliases": [
+    "jalaluddin rumi",
+    "mawlana",
+    "mevlana"
+   ],
+   "works": [],
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "shams-tabrizi",
+   "name": "Shams-i Tabrizi",
+   "short": "Shams",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. 1248 (traditional)",
+   "bio": "Wandering dervish whose 1244 Konya meeting transformed Rumi; Divan named for him; disappeared 1248 (traditional).",
+   "aliases": [
+    "shams-i tabrizi"
+   ],
+   "works": [],
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "baha-walad",
+   "name": "Baha al-Din Walad",
+   "short": "Baha Walad",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. 1231",
+   "bio": "Rumi's father; Hanafi scholar-mystic of Balkh; family fled the Mongols to Konya; Rumi's first formation.",
+   "aliases": [
+    "baha al-din walad"
+   ],
+   "works": [],
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "burhan-aldin",
+   "name": "Sayyid Burhan al-Din",
+   "short": "Burhan al-Din",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. 1241",
+   "bio": "Rumi's first Sufi master after his father (from 1232); nine years' training, forty-day retreats; directed his Aleppo studies.",
+   "aliases": [
+    "sayyid burhan al-din muhaqqiq"
+   ],
+   "works": [],
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "sultan-walad",
+   "name": "Sultan Walad",
+   "short": "Sultan Walad",
+   "kind": "figure",
+   "tradition": "mevlevi-rumi",
+   "years": "1226–1312",
+   "bio": "Rumi's son; first organizer of the Mevlevi order after Husam's death; Ibtidanama chronicler.",
+   "aliases": [
+    "sultan walad mevlevi founder"
+   ],
+   "works": [],
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "qunawi",
+   "name": "Sadr al-Din al-Qunawi",
+   "short": "Qunawi",
+   "kind": "figure",
+   "tradition": "akbarian",
+   "years": "c. 1209–1274",
+   "bio": "Ibn Arabi's stepson and foremost disciple (ijaza for all works); systematized the school (wujūd, Perfect Man); teacher of Tilimsani, Jandi, Iraqi.",
+   "aliases": [
+    "sadr al-din al-qunawi"
+   ],
+   "works": [],
+   "source_url": "https://ibnarabisociety.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "plethon",
+   "name": "Gemistus Plethon",
+   "short": "Plethon",
+   "kind": "figure",
+   "tradition": "platonic",
+   "years": "c. 1355–1452",
+   "bio": "Byzantine Platonist of Mistra; Bessarion's teacher; Laws manuscript burned as pagan; Council of Florence catalyst.",
+   "aliases": [
+    "gemistus pletho"
+   ],
+   "works": [],
+   "source_url": "https://plato.stanford.edu/entries/bessarion",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "bessarion",
+   "name": "Basil Bessarion",
+   "short": "Bessarion",
+   "kind": "figure",
+   "tradition": "christian",
+   "years": "c. 1403–1472",
+   "bio": "Plethon's student turned cardinal; carried Plato west (In calumniatorem Platonis); exegetical schemes fed Ficino.",
+   "aliases": [
+    "cardinal bessarion",
+    "basil bessarion"
+   ],
+   "works": [],
+   "source_url": "https://plato.stanford.edu/entries/bessarion",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "pico-della-mirandola",
+   "name": "Giovanni Pico della Mirandola",
+   "short": "Pico",
+   "kind": "figure",
+   "tradition": "platonic",
+   "years": "1463–1494",
+   "bio": "Florentine Academy junior; Oration on the Dignity of Man (900 theses); Christian Kabbalah with Ficino's Platonism.",
+   "aliases": [
+    "giovanni pico mirandola"
+   ],
+   "works": [],
+   "source_note": "Academy histories consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "augustine",
+   "name": "Augustine of Hippo",
+   "short": "Augustine",
+   "kind": "figure",
+   "tradition": "christian",
+   "years": "354–430",
+   "bio": "Bishop of Hippo (354–430); read the Platonists (Enneads in Latin); Confessions/City of God; baptized Neoplatonism into Christianity.",
+   "aliases": [
+    "saint augustine hippo"
+   ],
+   "works": [],
+   "source_note": "Confessions + scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "erigena",
+   "name": "John Scottus Eriugena",
+   "short": "Eriugena",
+   "kind": "figure",
+   "tradition": "christian",
+   "years": "c. 800–877",
+   "bio": "9th-century Irish scholar at Laon; translated Pseudo-Dionysius into Latin; Periphyseon; channeled theosis west.",
+   "aliases": [
+    "john scotus eriugena"
+   ],
+   "works": [],
+   "source_note": "Cambridge (Russell, Latin Heirs of Dionysius)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "cusa",
+   "name": "Nicholas of Cusa",
+   "short": "Cusa",
+   "kind": "figure",
+   "tradition": "christian",
+   "years": "1401–1464",
+   "bio": "Cardinal-philosopher (1401–1464); learned ignorance (De docta ignorantia); Eckhart and Proclus/Dionysius debts.",
+   "aliases": [
+    "nicholas cusa"
+   ],
+   "works": [],
+   "source_note": "IEP + Brill Companion (Brient) + Duclow",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "parmenides",
+   "name": "Parmenides",
+   "short": "Parmenides",
+   "kind": "figure",
+   "tradition": "presocratic-mysticism",
+   "years": "c. 515–450 BCE",
+   "bio": "Presocratic of Elea (c. 515–450 BCE); the Way of Truth; read by the tradition (and Peter Kingsley) as mystic, not logician.",
+   "aliases": [
+    "parmenides elea"
+   ],
+   "works": [],
+   "source_note": "Kingsley-adjacent consensus (root, no edge)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "empedocles",
+   "name": "Empedocles",
+   "short": "Empedocles",
+   "kind": "figure",
+   "tradition": "presocratic-mysticism",
+   "years": "c. 495–435 BCE",
+   "bio": "Sicilian healer-prophet (c. 495–435 BCE); four roots + Love/Strife; mystic-physician of the Western root.",
+   "aliases": [
+    "empedocles sicily"
+   ],
+   "works": [],
+   "source_note": "Kingsley-adjacent consensus (root, no edge)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "hsing-yun",
+   "name": "Hsing Yun",
+   "short": "Hsing Yun",
+   "kind": "figure",
+   "tradition": "mahayana",
+   "years": "1927–2023",
+   "bio": "Founder of Fo Guang Shan (1967) and 200+ branch temples incl. Nan Tien; Humanistic Buddhism.",
+   "aliases": [
+    "hsing yun master"
+   ],
+   "works": [],
+   "source_url": "https://nantien.org.au",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "swami-ramdev",
+   "name": "Swami Ramdev",
+   "short": "Ramdev",
+   "kind": "figure",
+   "tradition": "hindu",
+   "years": "1965–",
+   "bio": "Yoga teacher and Patanjali Yogpeeth co-founder; mass yoga camps, Ayurveda institutions.",
+   "aliases": [
+    "baba ramdev"
+   ],
+   "works": [],
+   "source_url": "https://divyayoga.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "shriram-sharma",
+   "name": "Shriram Sharma Acharya",
+   "short": "Shriram Sharma",
+   "kind": "figure",
+   "tradition": "hindu",
+   "years": "1911–1990",
+   "bio": "Founder of Shantikunj/AWGP (1971); Gayatri sadhana, Yug Nirman mission; 3500+ centres.",
+   "aliases": [
+    "pandit shriram sharma acharya"
+   ],
+   "works": [],
+   "source_url": "https://awgp.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "chidanand-saraswati",
+   "name": "Swami Chidanand Saraswati",
+   "short": "Chidanand Saraswati",
+   "kind": "figure",
+   "tradition": "hindu",
+   "years": "",
+   "bio": "President of Parmarth Niketan; Ganga Aarti host; interfaith water/environment work.",
+   "aliases": [
+    "swami chidanand saraswati parmarth"
+   ],
+   "works": [],
+   "source_url": "https://parmarth.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "ajahn-tong",
+   "name": "Ajahn Tong Sirimangalo",
+   "short": "Ajahn Tong",
+   "kind": "figure",
+   "tradition": "mahasi",
+   "years": "1923–2019",
+   "bio": "Mahasi student (Rangoon 1957); abbot of Chom Tong 1991–2019; spread four-foundations vipassana to 11+ countries; Northern Vipassana dept.",
+   "aliases": [
+    "phra ajahn thong sirimangalo"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "ajahn-martin",
+   "name": "Ajahn Martin Piyadhammo",
+   "short": "Ajahn Martin",
+   "kind": "figure",
+   "tradition": "thai-forest",
+   "years": "",
+   "bio": "German-born Thai Forest monk (Maha Bua line); Wat Phu Kong Tong; blunt desanas answered from practitioner questions; 3 free books.",
+   "aliases": [
+    "than ajahn martin"
+   ],
+   "works": [],
+   "source_url": "https://forestdhammatalks.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "ajahn-suphan",
+   "name": "Ajahn Suphan",
+   "short": "Ajahn Suphan",
+   "kind": "figure",
+   "tradition": "mahasi",
+   "years": "",
+   "bio": "Abbot of Wat Ram Poeng (Tapotaram); carries Ajahn Tong's Northern Insight 26-day curriculum.",
+   "aliases": [
+    "phrabhavana dhammabhirach"
+   ],
+   "works": [],
+   "source_url": "https://watrampoeng.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "suhrawardi",
+   "name": "Shihab al-Din Suhrawardi",
+   "short": "Suhrawardi",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "1154–1191",
+   "bio": "Founder of Illuminationism (1154–1191, Aleppo); Hikmat al-Ishraq; light metaphysics; executed.",
+   "aliases": [
+    "shihabuddin suhrawardi maqtul"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "ghazali",
+   "name": "Al-Ghazali",
+   "short": "Ghazali",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "1058–1111",
+   "bio": "Theologian-mystic (1058–1111); Revival of the Religious Sciences; studied under al-Juwayni; Sufi turn after crisis.",
+   "aliases": [
+    "al-ghazali hujjat"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "hallaj",
+   "name": "Mansur al-Hallaj",
+   "short": "Hallaj",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "858–922",
+   "bio": "Ecstatic martyr (858–922, Baghdad); 'I am the Truth'; associated with Junayd's circle.",
+   "aliases": [
+    "mansur al-hallaj ana al-haqq"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "attar",
+   "name": "Fariduddin Attar",
+   "short": "Attar",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "c. 1145–1221",
+   "bio": "Nishapur poet-pharmacist (c. 1145–1221); Conference of the Birds, Memorial of the Saints.",
+   "aliases": [
+    "fariduddin attar conference birds"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "sanai",
+   "name": "Sanai",
+   "short": "Sanai",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. c. 1131",
+   "bio": "Ghazna court poet turned mystic (d. c. 1131); Hadiqa (Walled Garden), first great Persian Sufi mathnawi.",
+   "aliases": [
+    "hakim sanai hadiqa"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "mulla-sadra",
+   "name": "Mulla Sadra",
+   "short": "Mulla Sadra",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "1571–1640",
+   "bio": "Safavid philosopher (1571–1640); transcendent theosophy (al-hikmah al-muta'aliyah); student of Mir Damad.",
+   "aliases": [
+    "sadr al-din shirazi"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "mir-damad",
+   "name": "Mir Damad",
+   "short": "Mir Damad",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. 1631",
+   "bio": "Safavid philosopher-scientist (d. 1631); teacher of Mulla Sadra; School of Isfahan.",
+   "aliases": [
+    "mir damad isfahan"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "juwayni",
+   "name": "Al-Juwayni",
+   "short": "Juwayni",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "1028–1085",
+   "bio": "Asharite theologian of Nishapur (1028–1085); Ghazali's master; Shafi'i authority.",
+   "aliases": [
+    "imam al-haramayn juwayni"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "junayd",
+   "name": "Junayd al-Baghdadi",
+   "short": "Junayd",
+   "kind": "figure",
+   "tradition": "sufism",
+   "years": "d. 910",
+   "bio": "Baghdad master (d. 910); sober Sufism; Hallaj moved in his circle and was reproved by him.",
+   "aliases": [
+    "junayd baghdadi"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "marinus",
+   "name": "Marinus of Neapolis",
+   "short": "Marinus",
+   "kind": "figure",
+   "tradition": "platonic",
+   "years": "5th c.",
+   "bio": "Successor of Proclus as head of the Athenian school; wrote the Life of Proclus.",
+   "aliases": [
+    "marinus neapolis successor"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus (Life of Proclus)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "aquinas",
+   "name": "Thomas Aquinas",
+   "short": "Aquinas",
+   "kind": "figure",
+   "tradition": "christian",
+   "years": "1225–1274",
+   "bio": "Dominican theologian (1225–1274); Summa; baptized Aristotle through Augustine's Platonist legacy.",
+   "aliases": [
+    "thomas aquinas angelic doctor"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "chandrakirti",
+   "name": "Chandrakirti",
+   "short": "Chandrakirti",
+   "kind": "figure",
+   "tradition": "madhyamaka",
+   "years": "c. 600–650",
+   "bio": "7th-century Madhyamaka commentator (Madhyamakavatara); Prasangika reading of Nagarjuna.",
+   "aliases": [
+    "chandrakirti madhyamakavatara"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "shantideva",
+   "name": "Shantideva",
+   "short": "Shantideva",
+   "kind": "figure",
+   "tradition": "madhyamaka",
+   "years": "c. 8th c.",
+   "bio": "8th-century monk-scholar; Bodhicaryavatara (Way of the Bodhisattva); taught by Patrul/Mipham line ever after.",
+   "aliases": [
+    "shantideva bodhicaryavatara"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "asanga",
+   "name": "Asanga",
+   "short": "Asanga",
+   "kind": "figure",
+   "tradition": "mahayana",
+   "years": "c. 4th c.",
+   "bio": "4th-century systematizer (with brother Vasubandhu); Yogacara/Cittamatra; Abhidharmasamuccaya.",
+   "aliases": [
+    "asanga yogacara founder"
+   ],
+   "works": [],
+   "source_note": "Scholarly consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "vasubandhu",
+   "name": "Vasubandhu",
+   "short": "Vasubandhu",
+   "kind": "figure",
+   "tradition": "mahayana",
+   "years": "c. 4th–5th c.",
+   "bio": "Abhidharmakosha author; converted to Mahayana by brother Asanga (traditional); Yogacara co-founder.",
+   "aliases": [
+    "vasubandhu abhidharmakosha"
+   ],
+   "works": [],
+   "source_note": "Traditional conversion narrative",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "shantarakshita",
+   "name": "Shantarakshita",
+   "short": "Shantarakshita",
+   "kind": "figure",
+   "tradition": "mahayana",
+   "years": "725–788",
+   "bio": "Nalanda abbot invited to Tibet (8th c.); founded Samye with Padmasambhava; teacher of Kamalashila.",
+   "aliases": [
+    "shantarakshita nalanda abbot"
+   ],
+   "works": [],
+   "source_note": "Tibetan histories consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "kamalashila",
+   "name": "Kamalashila",
+   "short": "Kamalashila",
+   "kind": "figure",
+   "tradition": "mahayana",
+   "years": "c. 8th c.",
+   "bio": "Disciple of Shantarakshita; Samye debate victor (traditional); Stages of Meditation.",
+   "aliases": [
+    "kamalashila samye debate"
+   ],
+   "works": [],
+   "source_note": "Tibetan histories consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "taranatha",
+   "name": "Jetsun Taranatha",
+   "short": "Taranatha",
+   "kind": "figure",
+   "tradition": "jonang",
+   "years": "1575–1634",
+   "bio": "Jonang historian-yogi (1575–1634); Damchö Ling founder; Kālacakra systematizer after Dolpopa.",
+   "aliases": [
+    "jetsun taranatha jonang historian"
+   ],
+   "works": [],
+   "source_note": "Jonang Foundation consensus",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "yeshe-tsogyal",
+   "name": "Yeshe Tsogyal",
+   "short": "Yeshe Tsogyal",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "8th c. (traditional)",
+   "bio": "Padmasambhava's consort-disciple (8th c., traditional); treasure revealer; Nyingma mother-line root.",
+   "aliases": [
+    "yeshe tsogyel khandro"
+   ],
+   "works": [],
+   "source_note": "Traditional (terma histories)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "alara-kalama",
+   "name": "Alara Kalama",
+   "short": "Alara Kalama",
+   "kind": "figure",
+   "tradition": "early-suttas",
+   "years": "6th c. BCE (traditional)",
+   "bio": "Meditation teacher of the Bodhisatta (formless attainments); left unsatisfied for Uddaka, then alone.",
+   "aliases": [
+    "alara kalama buddha teacher"
+   ],
+   "works": [],
+   "source_note": "Pali suttas (Ariyapariyesana)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "uddaka-ramaputta",
+   "name": "Uddaka Ramaputta",
+   "short": "Uddaka",
+   "kind": "figure",
+   "tradition": "early-suttas",
+   "years": "6th c. BCE (traditional)",
+   "bio": "Second teacher of the Bodhisatta (neither-perception-nor-non-perception); declined, went forth alone.",
+   "aliases": [
+    "uddaka ramaputta buddha teacher"
+   ],
+   "works": [],
+   "source_note": "Pali suttas (Ariyapariyesana)",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "pali-canon",
+   "name": "Pali Canon (Tipitaka)",
+   "short": "Pali Canon",
+   "kind": "text",
+   "tradition": "early-suttas",
+   "bio": "Pali Canon (Tipitaka): Vinaya, Sutta, Abhidhamma; Theravada scriptural root; free editions via SuttaCentral/ATI.",
+   "aliases": [
+    "pali tipitaka canon"
+   ],
+   "works": [],
+   "source_note": "Canonical",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text"
   }
  ]
 }

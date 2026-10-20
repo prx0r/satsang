@@ -1,0 +1,42 @@
+{
+ "_note": "Per-domain licence registry (2026-10-20 extension pack). Defaults with terms evidence; individual books override (licence lives in the book). Merge target: docs/licences + build-data defaulting.",
+ "sources": [
+  {
+   "default": "gift-of-dhamma",
+   "domain": "dhammatalks.org",
+   "evidence": "Thanissaro books carry per-book licences (custom gift licence or CC BY-NC 4.0); site ethos: free, no ads, no sale. Mixed — check each book.",
+   "note": "Per-book rule mandatory here: custom gift licence AND CC BY-NC coexist on one domain. Sutta translations share the gift ethos."
+  },
+  {
+   "default": "gift-of-dhamma",
+   "domain": "accesstoinsight.org",
+   "evidence": "BPS/ATI free-distribution ethos (verify current terms page at merge).",
+   "note": "Verify terms URL before relying.",
+   "verify": true
+  },
+  {
+   "default": "monastery-free-reprint",
+   "domain": "amaravati.org",
+   "evidence": "Books state: copyright reserved only for sale; free-distribution reprint allowed unchanged.",
+   "note": "Site WAF-blocks checkers; verify via Abhayagiri mirror or browser."
+  },
+  {
+   "default": "monastery-free-reprint",
+   "domain": "abhayagiri.org",
+   "evidence": "Small Boat colophon (verified PDF): free-distribution reprint allowed unchanged.",
+   "note": "Canonical mirror for Amaravati titles."
+  },
+  {
+   "default": "mixed-free-watch-paid-course",
+   "domain": "anuttaratrikakula.org",
+   "evidence": "Free lectures/videos/articles (watch-only) alongside $150 courses and $35/mo recordings (2026-10-20). Translations sold = copyrighted, no-link.",
+   "note": "Dyczkowski rule: link free teachings for watching; never reproduce course materials or translations."
+  },
+  {
+   "default": "publisher-free",
+   "domain": "dlshq.org",
+   "evidence": "DLS posts ebooks free (09-texts).",
+   "note": "Publisher-free, not public domain."
+  }
+ ]
+}

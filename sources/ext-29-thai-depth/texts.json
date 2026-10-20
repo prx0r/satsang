@@ -1,0 +1,35 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "texts": [
+  {
+   "id": "martin-signs-along-path",
+   "kind": "book",
+   "lang": "en",
+   "licence": "gift-of-dhamma: free distribution only, all commercial rights reserved (colophon, 2025)",
+   "link": "https://www.forestdhammatalks.org/books",
+   "note": "12 desanas + 18 Q&A (2007–2019).",
+   "school": "thai-forest",
+   "title": "Signs Along the Path — Ajahn Martin"
+  },
+  {
+   "id": "martin-way-to-heart",
+   "kind": "book",
+   "lang": "en",
+   "licence": "gift-of-dhamma: free distribution only, all commercial rights reserved (colophon series, Forest Dhamma Talks)",
+   "link": "https://www.forestdhammatalks.org/books",
+   "note": "16 desanas (2021).",
+   "school": "thai-forest",
+   "title": "The Way to the Heart — Ajahn Martin"
+  },
+  {
+   "id": "martin-forest-leaves",
+   "kind": "book",
+   "lang": "en",
+   "licence": "gift-of-dhamma: free distribution only, all commercial rights reserved (colophon series, Forest Dhamma Talks)",
+   "link": "https://www.forestdhammatalks.org/books",
+   "note": "Selections 2006–2016 (2019).",
+   "school": "thai-forest",
+   "title": "Forest Leaves — Ajahn Martin"
+  }
+ ]
+}

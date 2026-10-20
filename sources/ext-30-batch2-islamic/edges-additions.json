@@ -1,0 +1,45 @@
+{
+ "_note": "staged from satsang-extensions/30-second-wave",
+ "edges": [
+  {
+   "from": "mir-damad",
+   "to": "mulla-sadra",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "juwayni",
+   "to": "ghazali",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "junayd",
+   "to": "hallaj",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Hallaj moved in Junayd's Baghdad circle and was reproved by him; looser tie by rule."
+  },
+  {
+   "from": "proclus",
+   "to": "marinus",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Successor as scholarch; biographer (Life of Proclus)."
+  },
+  {
+   "from": "augustine",
+   "to": "aquinas",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Aquinas baptized Aristotle through the Augustinian-Platonist legacy."
+  },
+  {
+   "from": "porphyry",
+   "to": "iamblichus",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Iamblichus studied under Porphyry (traditional account)."
+  }
+ ]
+}

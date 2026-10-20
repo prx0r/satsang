@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 650 teachers, scholars and historical figures with 1,023 documented lineage and influence links, 837 places to practise in 50 countries (contacts exactly as each place publishes them, 261 checked against the place's own site), 337 texts and books (77 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 692 teachers, scholars and historical figures with 1,063 documented lineage and influence links, 852 places to practise in 51 countries (contacts exactly as each place publishes them, 276 checked against the place's own site), 345 texts and books (77 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -505,17 +505,17 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 # Places by country
 
 - GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 199 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- IN: 204 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
 - US: 85 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
-- NP: 28 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
-- TH: 23 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
+- NP: 29 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
+- TH: 27 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
+- AU: 15 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; Nan Tien Temple; ...)
 - LK: 15 places (Island Hermitage; Forest Hermitage Udawattakele; Buddhist Publication Society; Nissaraṇa Monastery; Nā Uyana Monastery; Hillside Hermitage; Sri Maha Bodhi; Temple of the Tooth; ...)
-- AU: 14 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; ...)
 - FR: 14 places (Lerab Ling; Plum Village Monastery; Maison de l'Inspir; Taizé Community; Grande Chartreuse; Château du Prieuré; Centre Védantique Ramakrichna; Bonnevaux (WCCM international centre); ...)
 - CN: 11 places (Sera Monastery (Lhasa); Drepung Monastery; Ganden Monastery; Tsurphu Monastery; Jokhang; Potala Palace; Samye; Shaolin Monastery; ...)
 - CA: 9 places (Tisarana Buddhist Monastery; Birken Forest Buddhist Monastery; Gampo Abbey; Sivananda Ashram Yoga Camp; ...)
-- JP: 8 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple)
+- JP: 9 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple; Mount Koya (Kongobuji); ...)
 - IT: 7 places (Santacittārāma; Istituto Lama Tzong Khapa; Bose Monastic Community; Basilica of San Francesco d'Assisi; Monastery of Saint Benedict; Villa Medici at Careggi)
 - BR: 7 places (Céu do Mapiá; Ilê Axé Opô Afonjá)
 - DE: 5 places (Muttodaya; European Institute of Applied Buddhism; Predigerkirche Erfurt)
@@ -528,12 +528,13 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - EG: 3 places (Saint Catherine Monastery; Nag Hammadi; Coptic Museum)
 - PL: 3 places (Jakob Böhme House; Vihara Pod Lasem)
 - ID: 3 places ()
+- TW: 3 places (Fo Guang Shan Monastery)
 - VN: 2 places (Từ Hiếu pogoda)
 - AR: 2 places ()
 - CO: 2 places ()
 - KH: 2 places ()
+- KR: 2 places (Haeinsa)
 - PE: 2 places (Temple of the Way of Light)
-- TW: 2 places ()
 - SI: 2 places (Hillside Hermitage Slovenija; Samanadipa)
 - IE: 1 places (Dzogchen Beara)
 - PT: 1 places (Monte Sahaja)
@@ -543,7 +544,6 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - HK: 1 places ()
 - IL: 1 places ()
 - IR: 1 places ()
-- KR: 1 places ()
 - LT: 1 places ()
 - LV: 1 places ()
 - MN: 1 places ()
@@ -554,3 +554,4 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - SE: 1 places ()
 - VE: 1 places ()
 - ZA: 1 places ()
+- TR: 1 places (Mevlana Museum (Konya))

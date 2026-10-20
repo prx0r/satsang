@@ -1,0 +1,35 @@
+{
+ "_note": "staged from satsang-extensions/28-licence-registry",
+ "texts": [
+  {
+   "id": "amaro-small-boat",
+   "kind": "book",
+   "lang": "en",
+   "licence": "monastery-free-reprint: copyright reserved only for sale; free-distribution reprint allowed unchanged (colophon, Abhayagiri Monastic Foundation 2003)",
+   "link": "https://www.abhayagiri.org/media/books/amaro_small_boat_great_mountain.pdf",
+   "note": "Ajahn Amaro: Theravada reflections on Dzogchen. The cross-tradition bridge text.",
+   "school": "thai-forest",
+   "title": "Small Boat, Great Mountain — Ajahn Amaro"
+  },
+  {
+   "id": "thanissaro-refuge",
+   "kind": "book",
+   "lang": "en",
+   "licence": "gift-of-dhamma custom: copy/reformat/reprint/republish/redistribute free of charge with conditions (copyright page, 5th ed. 2012)",
+   "link": "https://www.dhammatalks.org/Archive/Writings/Ebooks/Refuge_181215.pdf",
+   "note": "Thanissaro: introduction to Buddha/Dhamma/Sangha. Licence text inside the PDF.",
+   "school": "thai-forest",
+   "title": "Refuge — Thanissaro Bhikkhu"
+  },
+  {
+   "id": "maha-boowa-things-as-they-are",
+   "kind": "book",
+   "lang": "en",
+   "licence": "CC BY-NC 4.0 (copyright page); free gift of Dhamma, no sale",
+   "link": "https://www.dhammatalks.org/books/ThingsAsTheyAre/Section0002.html",
+   "note": "Maha Boowa via Thanissaro translation. Same domain, different licence — the per-book rule demonstrated.",
+   "school": "thai-forest",
+   "title": "Things As They Are — Maha Boowa"
+  }
+ ]
+}

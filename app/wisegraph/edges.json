@@ -3307,6 +3307,194 @@
    "note": "His English Pratyabhijñāhṛdayam translation (bio-attested)."
   },
   {
+   "from": "abhinavagupta",
+   "to": "paratrishika-vivarana",
+   "type": "expounds",
+   "conf": "high",
+   "note": "Author (KSTS 18, 1916)."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "isvara-pratyabhijna-vimarshini",
+   "type": "expounds",
+   "conf": "high",
+   "note": "Author of both commentaries (KSTS 22/33)."
+  },
+  {
+   "from": "shams-tabrizi",
+   "to": "rumi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "1244 Konya meeting; transformative companionship (Gamard/Lewis).",
+   "src": "https://dar-al-masnavi.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "burhan-aldin",
+   "to": "rumi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "First Sufi master after Rumi's father; nine years from 1232 (Gamard).",
+   "src": "https://dar-al-masnavi.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "baha-walad",
+   "to": "rumi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father and first formation (Gamard).",
+   "src": "https://dar-al-masnavi.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "rumi",
+   "to": "sultan-walad",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Son, disciple, first organizer of the Mevlevi order (Gamard).",
+   "src": "https://dar-al-masnavi.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "qunawi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Stepson, foremost disciple, ijaza for all works (Chittick/Iranica).",
+   "src": "https://ibnarabisociety.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "plethon",
+   "to": "bessarion",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Studied under Plethon at Mistra (SEP Del Soldato).",
+   "src": "https://plato.stanford.edu/entries/bessarion",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "bessarion",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Exegetical schemes (Plotinus/Proclus/Ps-Dionysius) fed Ficino (SEP).",
+   "src": "https://plato.stanford.edu/entries/bessarion",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "plotinus",
+   "to": "augustine",
+   "type": "influenced",
+   "conf": "high",
+   "note": "The 'books of the Platonists' behind the Confessions."
+  },
+  {
+   "from": "pseudo-dionysius",
+   "to": "erigena",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Eriugena translated and channeled Dionysius west (Cambridge Russell)."
+  },
+  {
+   "from": "meister-eckhart",
+   "to": "cusa",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Documented influence survey (Brill Companion, Brient)."
+  },
+  {
+   "from": "marsilio-ficino",
+   "to": "pico-della-mirandola",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Academy senior to Pico's junior; Oration draws on Ficino's Platonism."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "ajahn-tong",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Practised directly under Mahasi at Sāsana Yeiktha, Rangoon 1957 (2y7m).",
+   "src": "https://en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "mir-damad",
+   "to": "mulla-sadra",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "juwayni",
+   "to": "ghazali",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "junayd",
+   "to": "hallaj",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Hallaj moved in Junayd's Baghdad circle and was reproved by him; looser tie by rule."
+  },
+  {
+   "from": "proclus",
+   "to": "marinus",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Successor as scholarch; biographer (Life of Proclus)."
+  },
+  {
+   "from": "augustine",
+   "to": "aquinas",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Aquinas baptized Aristotle through the Augustinian-Platonist legacy."
+  },
+  {
+   "from": "porphyry",
+   "to": "iamblichus",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Iamblichus studied under Porphyry (traditional account)."
+  },
+  {
+   "from": "asanga",
+   "to": "vasubandhu",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional conversion narrative (brother to Mahayana)."
+  },
+  {
+   "from": "shantarakshita",
+   "to": "kamalashila",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "alara-kalama",
+   "to": "the-buddha",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught the Bodhisatta the base of nothingness (Ariyapariyesana Sutta)."
+  },
+  {
+   "from": "uddaka-ramaputta",
+   "to": "the-buddha",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught neither-perception-nor-non-perception (Ariyapariyesana Sutta)."
+  },
+  {
+   "from": "padmasambhava",
+   "to": "yeshe-tsogyal",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Tantric consort-disciple (traditional terma histories)."
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",

@@ -36,6 +36,7 @@ export function buildResources(data) {
     confidence: x.checked ? 'high' : 'medium', origin: 'place' })
   for (const x of data.resourceExtra || []) add({
     title: x.title, kind: x.kind || 'text', url: x.url, free: x.free === true, access: x.free === true ? 'free' : x.free === false ? 'paid' : 'paid-or-unknown', licence: x.licence,
+    ...(x.licenceClass ? { licenceClass: x.licenceClass, ...(x.noSale ? { terms: 'Free to read and share unchanged; not for sale (licence on the book\u2019s copyright page).' } : {}) } : {}),
     authors: x.people || [], traditions: x.traditions || [], topics: [], sourceUrl: x.sourceUrl || x.url, verifiedOn: dateOf(x.checked) || built, confidence: x.checked ? 'high' : 'medium', origin: 'extra' })
   for (const p of Object.values(data.person || {})) for (const w of p.works || []) {
     if (!w.title) continue

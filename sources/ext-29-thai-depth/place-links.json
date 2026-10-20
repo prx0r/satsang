@@ -1,0 +1,22 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "links": [
+  {
+   "from": "ajahn-tong",
+   "to": "wat-ram-poeng",
+   "type": "abbot_of",
+   "conf": "high",
+   "note": "Abbot of Wat Tapotaram 1988–1991 before Chom Thong.",
+   "src": "https://en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "buddhadasa",
+   "to": "wat-suan-mokkh",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://suanmokkh.org/",
+   "checked": "2026-10-20"
+  }
+ ]
+}

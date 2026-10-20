@@ -1,0 +1,33 @@
+{
+ "_note": "staged from satsang-extensions/25-mystics-west",
+ "attach": [
+  {
+   "person": "henry-corbin",
+   "works": [
+    {
+     "id": "creative-imagination-ibn-arabi",
+     "kind": "book",
+     "title": "Creative Imagination in the Sufism of Ibn Arabi",
+     "year": 1969
+    },
+    {
+     "id": "avicenna-visionary-recital",
+     "kind": "book",
+     "title": "Avicenna and the Visionary Recital",
+     "year": 1960
+    }
+   ]
+  },
+  {
+   "person": "william-chittick",
+   "works": [
+    {
+     "id": "self-disclosure-of-god",
+     "kind": "book",
+     "title": "The Self-Disclosure of God",
+     "year": 1998
+    }
+   ]
+  }
+ ]
+}

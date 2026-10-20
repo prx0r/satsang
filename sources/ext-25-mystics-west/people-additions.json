@@ -1,0 +1,353 @@
+{
+ "_note": "staged from satsang-extensions/25-mystics-west",
+ "people": [
+  {
+   "aliases": [
+    "jalaluddin rumi",
+    "mawlana",
+    "mevlana"
+   ],
+   "bio": "Persian poet-mystic (1207–1273); Divan and 25,000-verse Mathnawi; transformed by Shams (1244); order organized by son Sultan Walad.",
+   "id": "rumi",
+   "kind": "figure",
+   "living": false,
+   "name": "Jalaluddin Rumi",
+   "role": "figure",
+   "short": "Rumi",
+   "source": "Gamard bio (dar-al-masnavi) + Lewis consensus",
+   "tradition": "mevlevi-rumi",
+   "traditions": [
+    "mevlevi-rumi"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1207–1273",
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Gamard bio (dar-al-masnavi) + Lewis consensus"
+  },
+  {
+   "aliases": [
+    "shams-i tabrizi"
+   ],
+   "bio": "Wandering dervish whose 1244 Konya meeting transformed Rumi; Divan named for him; disappeared 1248 (traditional).",
+   "id": "shams-tabrizi",
+   "kind": "figure",
+   "living": false,
+   "name": "Shams-i Tabrizi",
+   "role": "figure",
+   "short": "Shams",
+   "source": "Gamard bio + Chittick/Lewis consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 1248 (traditional)",
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Gamard bio + Chittick/Lewis consensus"
+  },
+  {
+   "aliases": [
+    "baha al-din walad"
+   ],
+   "bio": "Rumi's father; Hanafi scholar-mystic of Balkh; family fled the Mongols to Konya; Rumi's first formation.",
+   "id": "baha-walad",
+   "kind": "figure",
+   "living": false,
+   "name": "Baha al-Din Walad",
+   "role": "figure",
+   "short": "Baha Walad",
+   "source": "Gamard bio (dar-al-masnavi)",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 1231",
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Gamard bio (dar-al-masnavi)"
+  },
+  {
+   "aliases": [
+    "sayyid burhan al-din muhaqqiq"
+   ],
+   "bio": "Rumi's first Sufi master after his father (from 1232); nine years' training, forty-day retreats; directed his Aleppo studies.",
+   "id": "burhan-aldin",
+   "kind": "figure",
+   "living": false,
+   "name": "Sayyid Burhan al-Din",
+   "role": "figure",
+   "short": "Burhan al-Din",
+   "source": "Gamard bio (dar-al-masnavi)",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 1241",
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Gamard bio (dar-al-masnavi)"
+  },
+  {
+   "aliases": [
+    "sultan walad mevlevi founder"
+   ],
+   "bio": "Rumi's son; first organizer of the Mevlevi order after Husam's death; Ibtidanama chronicler.",
+   "id": "sultan-walad",
+   "kind": "figure",
+   "living": false,
+   "name": "Sultan Walad",
+   "role": "figure",
+   "short": "Sultan Walad",
+   "source": "Gamard bio (dar-al-masnavi)",
+   "tradition": "mevlevi-rumi",
+   "traditions": [
+    "mevlevi-rumi"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1226–1312",
+   "source_url": "https://dar-al-masnavi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Gamard bio (dar-al-masnavi)"
+  },
+  {
+   "aliases": [
+    "sadr al-din al-qunawi"
+   ],
+   "bio": "Ibn Arabi's stepson and foremost disciple (ijaza for all works); systematized the school (wujūd, Perfect Man); teacher of Tilimsani, Jandi, Iraqi.",
+   "id": "qunawi",
+   "kind": "figure",
+   "living": false,
+   "name": "Sadr al-Din al-Qunawi",
+   "role": "figure",
+   "short": "Qunawi",
+   "source": "Ibn Arabi Society (Chittick/Jane Clark) + Iranica",
+   "tradition": "akbarian",
+   "traditions": [
+    "akbarian"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 1209–1274",
+   "source_url": "https://ibnarabisociety.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Ibn Arabi Society (Chittick/Jane Clark) + Iranica"
+  },
+  {
+   "aliases": [
+    "gemistus pletho"
+   ],
+   "bio": "Byzantine Platonist of Mistra; Bessarion's teacher; Laws manuscript burned as pagan; Council of Florence catalyst.",
+   "id": "plethon",
+   "kind": "figure",
+   "living": false,
+   "name": "Gemistus Plethon",
+   "role": "figure",
+   "short": "Plethon",
+   "source": "SEP (Bessarion article, Del Soldato)",
+   "tradition": "platonic",
+   "traditions": [
+    "platonic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 1355–1452",
+   "source_url": "https://plato.stanford.edu/entries/bessarion",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "SEP (Bessarion article, Del Soldato)"
+  },
+  {
+   "aliases": [
+    "cardinal bessarion",
+    "basil bessarion"
+   ],
+   "bio": "Plethon's student turned cardinal; carried Plato west (In calumniatorem Platonis); exegetical schemes fed Ficino.",
+   "id": "bessarion",
+   "kind": "figure",
+   "living": false,
+   "name": "Basil Bessarion",
+   "role": "figure",
+   "short": "Bessarion",
+   "source": "SEP (Del Soldato) + Leiden (Lamers)",
+   "tradition": "christian",
+   "traditions": [
+    "christian",
+    "platonic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 1403–1472",
+   "source_url": "https://plato.stanford.edu/entries/bessarion",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "SEP (Del Soldato) + Leiden (Lamers)"
+  },
+  {
+   "aliases": [
+    "giovanni pico mirandola"
+   ],
+   "bio": "Florentine Academy junior; Oration on the Dignity of Man (900 theses); Christian Kabbalah with Ficino's Platonism.",
+   "id": "pico-della-mirandola",
+   "kind": "figure",
+   "living": false,
+   "name": "Giovanni Pico della Mirandola",
+   "role": "figure",
+   "short": "Pico",
+   "source": "Academy histories consensus",
+   "tradition": "platonic",
+   "traditions": [
+    "platonic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1463–1494",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Academy histories consensus"
+  },
+  {
+   "aliases": [
+    "saint augustine hippo"
+   ],
+   "bio": "Bishop of Hippo (354–430); read the Platonists (Enneads in Latin); Confessions/City of God; baptized Neoplatonism into Christianity.",
+   "id": "augustine",
+   "kind": "figure",
+   "living": false,
+   "name": "Augustine of Hippo",
+   "role": "figure",
+   "short": "Augustine",
+   "source": "Confessions + scholarly consensus",
+   "tradition": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "354–430",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Confessions + scholarly consensus"
+  },
+  {
+   "aliases": [
+    "john scotus eriugena"
+   ],
+   "bio": "9th-century Irish scholar at Laon; translated Pseudo-Dionysius into Latin; Periphyseon; channeled theosis west.",
+   "id": "erigena",
+   "kind": "figure",
+   "living": false,
+   "name": "John Scottus Eriugena",
+   "role": "figure",
+   "short": "Eriugena",
+   "source": "Cambridge (Russell, Latin Heirs of Dionysius)",
+   "tradition": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 800–877",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Cambridge (Russell, Latin Heirs of Dionysius)"
+  },
+  {
+   "aliases": [
+    "nicholas cusa"
+   ],
+   "bio": "Cardinal-philosopher (1401–1464); learned ignorance (De docta ignorantia); Eckhart and Proclus/Dionysius debts.",
+   "id": "cusa",
+   "kind": "figure",
+   "living": false,
+   "name": "Nicholas of Cusa",
+   "role": "figure",
+   "short": "Cusa",
+   "source": "IEP + Brill Companion (Brient) + Duclow",
+   "tradition": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1401–1464",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "IEP + Brill Companion (Brient) + Duclow"
+  },
+  {
+   "aliases": [
+    "parmenides elea"
+   ],
+   "bio": "Presocratic of Elea (c. 515–450 BCE); the Way of Truth; read by the tradition (and Peter Kingsley) as mystic, not logician.",
+   "id": "parmenides",
+   "kind": "figure",
+   "living": false,
+   "name": "Parmenides",
+   "role": "figure",
+   "short": "Parmenides",
+   "source": "Kingsley-adjacent consensus (root, no edge)",
+   "tradition": "presocratic-mysticism",
+   "traditions": [
+    "presocratic-mysticism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 515–450 BCE",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Kingsley-adjacent consensus (root, no edge)"
+  },
+  {
+   "aliases": [
+    "empedocles sicily"
+   ],
+   "bio": "Sicilian healer-prophet (c. 495–435 BCE); four roots + Love/Strife; mystic-physician of the Western root.",
+   "id": "empedocles",
+   "kind": "figure",
+   "living": false,
+   "name": "Empedocles",
+   "role": "figure",
+   "short": "Empedocles",
+   "source": "Kingsley-adjacent consensus (root, no edge)",
+   "tradition": "presocratic",
+   "traditions": [
+    "presocratic-mysticism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 495–435 BCE",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Kingsley-adjacent consensus (root, no edge)"
+  }
+ ]
+}

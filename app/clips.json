@@ -139427,9 +139427,12 @@
 "tradition": "kagyu",
 "traditions": [
 "kagyu",
+"madhyamaka",
 "tibetan"
 ],
-"figures": [],
+"figures": [
+"shantideva"
+],
 "topics": [
 "kindness",
 "kindness/compassion"
@@ -393841,9 +393844,12 @@
 "tradition": "kagyu",
 "traditions": [
 "kagyu",
+"madhyamaka",
 "tibetan"
 ],
-"figures": [],
+"figures": [
+"shantideva"
+],
 "topics": [
 "kindness",
 "kindness/compassion"
@@ -492063,9 +492069,12 @@
 "tradition": "kagyu",
 "traditions": [
 "kagyu",
+"madhyamaka",
 "tibetan"
 ],
-"figures": [],
+"figures": [
+"shantideva"
+],
 "topics": [],
 "style": [],
 "views": 3800,

@@ -1,0 +1,198 @@
+{
+ "_note": "staged from satsang-extensions/27-teaching-hotspots",
+ "places": [
+  {
+   "city": "Swargashram, Rishikesh",
+   "contact_page": "https://parmarth.org/contact/",
+   "contact_page_source": "link published on https://parmarth.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Largest Rishikesh ashram; daily yoga/meditation, satsang, sunset Ganga Aarti; courses and stays.",
+   "id": "parmarth-niketan",
+   "language": "en",
+   "lat": 30.08,
+   "lng": 78.29,
+   "name": "Parmarth Niketan",
+   "offers": [
+    "courses",
+    "satsang",
+    "stays"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "chidanand-saraswati"
+   ],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "ashram",
+   "url": "https://parmarth.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://parmarth.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Swargashram, Rishikesh",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Sivananda-founded (1936) Gita Press ashram; daily satsang/discourses (live app), library, 1000 rooms, free dispensary.",
+   "founded": 1936,
+   "founded_source": "incredibleindia.gov.in (read 2026-10-20)",
+   "id": "geeta-bhawan",
+   "language": "en",
+   "lat": 30.08,
+   "lng": 78.3,
+   "name": "Geeta Bhawan",
+   "offers": [
+    "satsang",
+    "discourses",
+    "library",
+    "stays"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "ashram",
+   "url": "https://geetabhawan.in",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://geetabhawan.in",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Muni Ki Reti, Rishikesh",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Arsha Vidya Pitham (est. 1960s by Dayananda Saraswati); 3-year + 3-month residential Vedanta/Sanskrit courses, free teaching; retreats.",
+   "id": "dayananda-ashram",
+   "language": "en",
+   "lat": 30.07,
+   "lng": 78.29,
+   "name": "Swami Dayananda Ashram",
+   "offers": [
+    "long courses",
+    "retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "swami-dayananda-saraswati"
+   ],
+   "traditions": [
+    "vedanta"
+   ],
+   "type": "ashram",
+   "url": "https://www.dayananda.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.dayananda.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Rajghat, Varanasi",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "KFI Rajghat Education Centre (est. 1928): Besant School, Vasanta College, Study Centre dialogues, village work; guest stays by arrangement.",
+   "founded": 1928,
+   "founded_source": "rajghatbesantschool.org (read 2026-10-20)",
+   "id": "rajghat-varanasi",
+   "language": "en",
+   "lat": 25.32,
+   "lng": 83.03,
+   "name": "Rajghat Education Centre (KFI)",
+   "offers": [
+    "study",
+    "dialogues",
+    "school"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "jiddu-krishnamurti"
+   ],
+   "traditions": [
+    "krishnamurti"
+   ],
+   "type": "study-centre",
+   "url": "https://www.rajghatbesantschool.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.rajghatbesantschool.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Bahadrabad, Haridwar",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Ramdev/Balkrishna Divya Yog trust (1995); mass yoga camps, Ayurveda hospital/university, Acharyakulam schools.",
+   "founded": 1995,
+   "founded_source": "divyayoga.com (read 2026-10-20)",
+   "id": "patanjali-yogpeeth",
+   "language": "en",
+   "lat": 29.92,
+   "lng": 78.05,
+   "name": "Patanjali Yogpeeth",
+   "offers": [
+    "camps",
+    "ayurveda",
+    "university"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "swami-ramdev"
+   ],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "ashram",
+   "url": "https://divyayoga.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://divyayoga.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Haridwar",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "All World Gayatri Pariwar HQ (founded 1971 by Shriram Sharma Acharya); sadhana shivirs, yagyas, Vedic college, 3500+ centres worldwide.",
+   "founded": 1971,
+   "founded_source": "awgp.org (read 2026-10-20)",
+   "id": "shantikunj",
+   "language": "en",
+   "lat": 29.95,
+   "lng": 78.16,
+   "name": "Shantikunj (AWGP)",
+   "offers": [
+    "shivirs",
+    "college"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "shriram-sharma"
+   ],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "ashram",
+   "url": "https://www.awgp.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.awgp.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "_note": "staged from satsang-extensions/27-teaching-hotspots",
+ "links": [
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "parmarth-niketan",
+   "teacher": "chidanand-saraswati"
+  },
+  {
+   "conf": "medium",
+   "model": "single",
+   "note": "Co-founder, public face; confirm current role.",
+   "place": "patanjali-yogpeeth",
+   "teacher": "swami-ramdev"
+  },
+  {
+   "conf": "high",
+   "model": "rotating",
+   "note": "No guru by Krishnamurti design; dialogues + educators rotate.",
+   "place": "rajghat-varanasi",
+   "teacher": null
+  }
+ ]
+}

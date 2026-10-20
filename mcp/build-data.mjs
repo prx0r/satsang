@@ -269,7 +269,7 @@ const resourceExtra = []
 try {
   for (const f of fs.readdirSync(path.join(APP, 'site/data/wisegraph')).filter((f) => /^resources.*\.json$/.test(f))) {
     const j = rd('site/data/wisegraph/' + f), rows = Array.isArray(j) ? j : j.resources || []
-    for (const r of rows) if (r && r.title && /^https?:/.test(r.url || '')) resourceExtra.push({ title: r.title, url: r.url, free: r.free, licence: r.licence, kind: r.kind,
+    for (const r of rows) if (r && r.title && /^https?:/.test(r.url || '')) resourceExtra.push({ title: r.title, url: r.url, free: r.free, licence: r.licence, ...(r.licenceClass ? { licenceClass: r.licenceClass, noSale: !!r.noSale } : {}), kind: r.kind,
       traditions: (r.traditions || []).filter((t) => tradition[t]), people: (r.people || []).filter((x) => person[x]), sourceUrl: r.source_url || r.url, checked: r.checked, file: f })
   }
 } catch { /* none */ }

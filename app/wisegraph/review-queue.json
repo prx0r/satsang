@@ -616,6 +616,142 @@
    "reason": "medium teacher_of: shown as \"studied with\" until checked",
    "severity": "verify",
    "queued": "2026-10-20"
+  },
+  {
+   "pack": "25-mystics-west",
+   "kind": "work-check",
+   "subject": "person/henry-corbin#spiritual-body-celestial-earth",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "25-mystics-west",
+   "kind": "work-check",
+   "subject": "person/henry-corbin#swedenborg-esoteric-islam",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "27-teaching-hotspots",
+   "kind": "main-teacher-medium",
+   "subject": "place/patanjali-yogpeeth",
+   "reason": "main teacher swami-ramdev (medium): Co-founder, public face; confirm current role.",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "27-teaching-hotspots",
+   "kind": "living-claim",
+   "subject": "person/swami-ramdev",
+   "reason": "living:true claimed (divyayoga.com (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "27-teaching-hotspots",
+   "kind": "living-claim",
+   "subject": "person/chidanand-saraswati",
+   "reason": "living:true claimed (parmarth.org (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "27-teaching-hotspots",
+   "kind": "contact-offdomain",
+   "subject": "place/rajghat-varanasi#phone",
+   "reason": "phone source off the official domain (https://www.jkrishnamurti.in/kfi-centres/varanasi); dropped",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "29-thai-depth",
+   "kind": "living-claim",
+   "subject": "person/ajahn-martin",
+   "reason": "living:true claimed (forestdhammatalks.org (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "29-thai-depth",
+   "kind": "living-claim",
+   "subject": "person/ajahn-suphan",
+   "reason": "living:true claimed (watrampoeng.com (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "30-second-wave",
+   "kind": "edge-medium-teacher",
+   "subject": "porphyry->iamblichus",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "31-second-wave-east",
+   "kind": "edge-medium-teacher",
+   "subject": "asanga->vasubandhu",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "31-second-wave-east",
+   "kind": "edge-medium-teacher",
+   "subject": "padmasambhava->yeshe-tsogyal",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "ext-09-texts-freebooks",
+   "kind": "text-licence",
+   "subject": "text/accesstoinsight-library",
+   "reason": "licence gate: unregistered (domain accesstoinsight.org: default unconfirmed (verify)); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "ext-09-texts-freebooks",
+   "kind": "text-licence",
+   "subject": "text/suttacentral-early-texts",
+   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "ext-09-texts-freebooks",
+   "kind": "text-licence",
+   "subject": "text/bps-pariyatti",
+   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "ext-15-niche-hermitages",
+   "kind": "text-licence",
+   "subject": "text/path-press-shop",
+   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "deep-india-study",
+   "kind": "resource-low-confidence",
+   "subject": "resource/sarit",
+   "reason": "Returned HTTP 502 on 2026-10-20; re-check.",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "deep-india-study",
+   "kind": "resource-low-confidence",
+   "subject": "resource/gita-home-study-jnanapravaha",
+   "reason": "FLAG: AVRPT sells this set; confirm Jñānapravāha has permission before listing publicly.",
+   "severity": "check",
+   "queued": "2026-10-20"
   }
  ]
 }

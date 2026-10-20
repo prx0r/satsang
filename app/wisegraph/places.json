@@ -240,10 +240,7 @@
      "url": "https://amaravati.org/news",
      "note": "Sunday afternoon Dhamma talks (see \"Sunday Talks\" posts)."
     }
-   ],
-   "main_teacher": "ajahn-amaro",
-   "teacher_model": "single",
-   "main_teacher_conf": "medium"
+   ]
   },
   {
    "id": "cittaviveka",
@@ -294,10 +291,7 @@
      "amaravati",
      "sister_of"
     ]
-   ],
-   "main_teacher": "ajahn-sucitto",
-   "teacher_model": "single",
-   "main_teacher_conf": "medium"
+   ]
   },
   {
    "id": "aruna-ratanagiri",
@@ -348,10 +342,7 @@
      "amaravati",
      "sister_of"
     ]
-   ],
-   "main_teacher": "ajahn-munindo",
-   "teacher_model": "single",
-   "main_teacher_conf": "medium"
+   ]
   },
   {
    "id": "hartridge",
@@ -1038,7 +1029,12 @@
      "cost_model": "fee (small fixed fee)",
      "schedule_url": "https://www.suanmokkh-idh.org"
     }
-   ]
+   ],
+   "founded": 1932,
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.suanmokkh-idh.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "wat-ram-poeng",
@@ -1053,14 +1049,26 @@
    "lat": 18.775013,
    "lng": 98.948659,
    "coord_precision": "as recorded on Wikidata",
-   "teachers": [],
+   "teachers": [
+    "ajahn-tong",
+    "ajahn-suphan"
+   ],
    "wikidata": "Q13020681",
    "description": "Chiang Mai temple with a Mahasi-style insight meditation centre that takes foreign meditators.",
    "offers": [
     "residential retreats",
     "visits"
    ],
-   "language": "en"
+   "language": "en",
+   "url": "https://www.watrampoeng.com/vipassana-course/",
+   "contact_page": "https://www.watrampoeng.com/vipassana-course/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.watrampoeng.com/vipassana-course/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "ajahn-suphan",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "island-hermitage",
@@ -1569,7 +1577,12 @@
    "offers": [
     "visits"
    ],
-   "language": "my"
+   "language": "my",
+   "url": "https://whc.unesco.org/en/tentativelists/6367/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://whc.unesco.org/en/tentativelists/6367/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "dhamma-giri",
@@ -1772,10 +1785,7 @@
    "url_checked": "2026-10-20",
    "source_url": "https://spiritrock.org",
    "verified_on": "2026-10-20",
-   "confidence": "high",
-   "main_teacher": "jack-kornfield",
-   "teacher_model": "single",
-   "main_teacher_conf": "medium"
+   "confidence": "high"
   },
   {
    "id": "gaia-house",
@@ -2240,7 +2250,14 @@
    "offers": [
     "visits"
    ],
-   "language": "bo"
+   "language": "bo",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.dalailama.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "dalai-lama",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "ltwa",
@@ -2855,7 +2872,12 @@
      "rigpa-london",
      "branch"
     ]
-   ]
+   ],
+   "founded": 1991,
+   "url_checked": "2026-10-20",
+   "source_url": "https://lerabling.org/en/about-lerab-ling/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "dzogchen-beara",
@@ -2889,7 +2911,12 @@
      "cost_model": "fee",
      "schedule_url": "https://www.dzogchenbeara.org/"
     }
-   ]
+   ],
+   "contact_page": "https://www.dzogchenbeara.org/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.dzogchenbeara.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "gampo-abbey",
@@ -3201,7 +3228,12 @@
    "offers": [
     "visits"
    ],
-   "language": "ne"
+   "language": "ne",
+   "url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "swayambhunath",
@@ -3246,7 +3278,12 @@
    "offers": [
     "visits"
    ],
-   "language": "hi"
+   "language": "hi",
+   "contact_page": "https://bodhgayatemple.com/contact-us/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://bodhgayatemple.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "lumbini",
@@ -3293,7 +3330,12 @@
    "offers": [
     "visits"
    ],
-   "language": "hi"
+   "language": "hi",
+   "url": "https://asi.nic.in/sarnath/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://asi.nic.in/sarnath/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "kushinagar",
@@ -3867,7 +3909,11 @@
      "cost_model": "see page",
      "schedule_url": "https://daihonzan-eiheiji.com/en/schedule.html"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://daihonzan-eiheiji.com/en/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "sojiji",
@@ -24464,7 +24510,24 @@
    "coord_precision": "as recorded on Wikidata",
    "url": "https://www.parmarth.org",
    "wikidata": "Q7139173",
-   "description": "Large ashram on the Ganges in Rishikesh, known for its evening Ganga Aarti."
+   "description": "Large ashram on the Ganges in Rishikesh, known for its evening Ganga Aarti.",
+   "teachers": [
+    "chidanand-saraswati"
+   ],
+   "contact_page": "https://parmarth.org/contact/",
+   "url_checked": "2026-10-20",
+   "offers": [
+    "courses",
+    "satsang",
+    "stays"
+   ],
+   "language": "en",
+   "source_url": "https://parmarth.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "chidanand-saraswati",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "kashi-vishwanath",
@@ -25834,6 +25897,430 @@
    "language": "pt",
    "verified_on": "2026-10-20",
    "confidence": "medium"
+  },
+  {
+   "id": "shechen-boudha",
+   "name": "Shechen Monastery (Boudha)",
+   "type": "monastery",
+   "traditions": [
+    "nyingma"
+   ],
+   "country": "NP",
+   "country_name": "Nepal",
+   "city": "Boudha, Kathmandu",
+   "lat": 27.72,
+   "lng": 85.36,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "dilgo-khyentse"
+   ],
+   "url": "https://shechen.org",
+   "url_checked": "2026-10-20",
+   "description": "Shechen tennyi Dargyeling (rebuilt 1980 by Dilgo Khyentse); shedra, library, guest house (no visitor stays/retreats).",
+   "offers": [
+    "study",
+    "visits"
+   ],
+   "language": "en",
+   "source_url": "https://shechen.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "wat-pho",
+   "name": "Wat Pho",
+   "type": "temple",
+   "traditions": [
+    "theravada"
+   ],
+   "country": "TH",
+   "country_name": "Thailand",
+   "city": "Bangkok",
+   "lat": 13.75,
+   "lng": 100.49,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.watpho.com/en/home/",
+   "contact_page": "https://www.watpho.com/en/home/",
+   "url_checked": "2026-10-20",
+   "description": "Temple of the Reclining Buddha; traditional medicine/massage school; meditation centre on site.",
+   "offers": [
+    "worship",
+    "massage school"
+   ],
+   "language": "en",
+   "source_url": "https://www.watpho.com/en/home/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "wat-mahathat",
+   "name": "Wat Mahathat (Vipassana Centre)",
+   "type": "retreat",
+   "traditions": [
+    "theravada"
+   ],
+   "country": "TH",
+   "country_name": "Thailand",
+   "city": "Bangkok",
+   "lat": 13.75,
+   "lng": 100.49,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://watmahathat-inter.saphanbun.com/home",
+   "url_checked": "2026-10-20",
+   "description": "Vipassana headquarters (International Meditation Centre); teacher-training, retreats with registration; Thai + foreign yogis.",
+   "offers": [
+    "retreats",
+    "teacher training"
+   ],
+   "language": "en",
+   "source_url": "https://watmahathat-inter.saphanbun.com/home",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "koyasan",
+   "name": "Mount Koya (Kongobuji)",
+   "type": "monastery",
+   "traditions": [
+    "shingon"
+   ],
+   "country": "JP",
+   "country_name": "Japan",
+   "city": "Mount Koya, Wakayama",
+   "lat": 34.21,
+   "lng": 135.58,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "kukai"
+   ],
+   "url": "https://www.koyasan.or.jp/en/",
+   "url_checked": "2026-10-20",
+   "description": "Kukai's mountain seat (Kongobuji, 819); Shingon head temple; shukubo lodging, Okunoin cemetery.",
+   "offers": [
+    "pilgrimage",
+    "lodging",
+    "practice"
+   ],
+   "language": "en",
+   "source_url": "https://www.koyasan.or.jp/en/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "haeinsa",
+   "name": "Haeinsa",
+   "type": "monastery",
+   "traditions": [
+    "seon"
+   ],
+   "country": "KR",
+   "country_name": "South Korea",
+   "city": "Hapcheon, Gyeongsangnam",
+   "lat": 35.8,
+   "lng": 128.1,
+   "coord_precision": "approximate (unverified)",
+   "description": "Jogye head temple; Tripitaka Koreana (80,000 blocks) in 15th-c depositories; UNESCO listed.",
+   "offers": [
+    "pilgrimage",
+    "practice"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "fgs-kaohsiung",
+   "name": "Fo Guang Shan Monastery",
+   "type": "monastery",
+   "traditions": [
+    "mahayana"
+   ],
+   "country": "TW",
+   "country_name": "Taiwan",
+   "city": "Dashu, Kaohsiung",
+   "lat": 22.75,
+   "lng": 120.45,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1967,
+   "teachers": [
+    "hsing-yun"
+   ],
+   "url": "https://www.fgs.org.tw",
+   "url_checked": "2026-10-20",
+   "description": "Fo Guang Shan headquarters (Hsing Yun, 1967); Humanistic Buddhism; 200+ branch temples incl. Nan Tien.",
+   "offers": [
+    "worship",
+    "study"
+   ],
+   "language": "en",
+   "source_url": "https://www.fgs.org.tw",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "nan-tien",
+   "name": "Nan Tien Temple",
+   "type": "temple",
+   "traditions": [
+    "mahayana"
+   ],
+   "country": "AU",
+   "country_name": "Australia",
+   "city": "Berkeley (Wollongong), NSW",
+   "lat": -34.47,
+   "lng": 150.85,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1995,
+   "teachers": [
+    "hsing-yun"
+   ],
+   "url": "https://www.nantien.org.au/en/visit-us",
+   "contact_page": "https://www.nantien.org.au/en/visit-us",
+   "url_checked": "2026-10-20",
+   "description": "Southern-hemisphere flagship Fo Guang Shan temple (opened 1995); tours, vegetarian meals, pilgrim lodge.",
+   "offers": [
+    "visits",
+    "retreats",
+    "lodging"
+   ],
+   "language": "en",
+   "source_url": "https://www.nantien.org.au/en/visit-us",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "konya-museum",
+   "name": "Mevlana Museum (Konya)",
+   "type": "pilgrimage",
+   "traditions": [
+    "mevlevi-rumi"
+   ],
+   "country": "TR",
+   "country_name": "Türkiye",
+   "city": "Konya",
+   "lat": 37.87,
+   "lng": 32.5,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "rumi"
+   ],
+   "url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "contact_page": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "url_checked": "2026-10-20",
+   "description": "Rumi's tomb-shrine (1274 Green Dome); museum since 1926; sema hall, dervish cells. State museum, not an active lodge.",
+   "offers": [
+    "pilgrimage"
+   ],
+   "language": "en",
+   "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "geeta-bhawan",
+   "name": "Geeta Bhawan",
+   "type": "ashram",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Swargashram, Rishikesh",
+   "lat": 30.08,
+   "lng": 78.3,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1936,
+   "url": "https://geetabhawan.in",
+   "url_checked": "2026-10-20",
+   "description": "Sivananda-founded (1936) Gita Press ashram; daily satsang/discourses (live app), library, 1000 rooms, free dispensary.",
+   "offers": [
+    "satsang",
+    "discourses",
+    "library",
+    "stays"
+   ],
+   "language": "en",
+   "source_url": "https://geetabhawan.in",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "dayananda-ashram",
+   "name": "Swami Dayananda Ashram",
+   "type": "ashram",
+   "traditions": [
+    "vedanta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Muni Ki Reti, Rishikesh",
+   "lat": 30.07,
+   "lng": 78.29,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "swami-dayananda-saraswati"
+   ],
+   "url": "https://www.dayananda.org",
+   "url_checked": "2026-10-20",
+   "description": "Arsha Vidya Pitham (est. 1960s by Dayananda Saraswati); 3-year + 3-month residential Vedanta/Sanskrit courses, free teaching; retreats.",
+   "offers": [
+    "long courses",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://www.dayananda.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "rajghat-varanasi",
+   "name": "Rajghat Education Centre (KFI)",
+   "type": "study-centre",
+   "traditions": [
+    "krishnamurti"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Rajghat, Varanasi",
+   "lat": 25.32,
+   "lng": 83.03,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1928,
+   "teachers": [
+    "jiddu-krishnamurti"
+   ],
+   "url": "https://www.rajghatbesantschool.org",
+   "url_checked": "2026-10-20",
+   "description": "KFI Rajghat Education Centre (est. 1928): Besant School, Vasanta College, Study Centre dialogues, village work; guest stays by arrangement.",
+   "offers": [
+    "study",
+    "dialogues",
+    "school"
+   ],
+   "language": "en",
+   "source_url": "https://www.rajghatbesantschool.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "teacher_model": "rotating"
+  },
+  {
+   "id": "patanjali-yogpeeth",
+   "name": "Patanjali Yogpeeth",
+   "type": "ashram",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Bahadrabad, Haridwar",
+   "lat": 29.92,
+   "lng": 78.05,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1995,
+   "teachers": [
+    "swami-ramdev"
+   ],
+   "url": "https://divyayoga.com",
+   "url_checked": "2026-10-20",
+   "description": "Ramdev/Balkrishna Divya Yog trust (1995); mass yoga camps, Ayurveda hospital/university, Acharyakulam schools.",
+   "offers": [
+    "camps",
+    "ayurveda",
+    "university"
+   ],
+   "language": "en",
+   "source_url": "https://divyayoga.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "shantikunj",
+   "name": "Shantikunj (AWGP)",
+   "type": "ashram",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Haridwar",
+   "lat": 29.95,
+   "lng": 78.16,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1971,
+   "teachers": [
+    "shriram-sharma"
+   ],
+   "url": "https://www.awgp.org",
+   "url_checked": "2026-10-20",
+   "description": "All World Gayatri Pariwar HQ (founded 1971 by Shriram Sharma Acharya); sadhana shivirs, yagyas, Vedic college, 3500+ centres worldwide.",
+   "offers": [
+    "shivirs",
+    "college"
+   ],
+   "language": "en",
+   "source_url": "https://www.awgp.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "wat-chom-tong",
+   "name": "Wat Phra That Si Chom Thong",
+   "type": "monastery",
+   "traditions": [
+    "mahasi"
+   ],
+   "country": "TH",
+   "country_name": "Thailand",
+   "city": "Chom Tong, Chiang Mai",
+   "lat": 18.42,
+   "lng": 98.68,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "ajahn-tong",
+    "mahasi-sayadaw"
+   ],
+   "url": "https://www.watchomtong.com/?lang=en",
+   "url_checked": "2026-10-20",
+   "description": "Ajahn Tong's royal monastery (abbot 1991–2019); Northern Vipassana international dept; 7–21-day courses, centres in 11+ countries.",
+   "offers": [
+    "retreats (7–21 day)"
+   ],
+   "language": "en",
+   "source_url": "https://www.watchomtong.com/?lang=en",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "wat-phu-kong-tong",
+   "name": "Wat Phu Kong Tong",
+   "type": "monastery",
+   "traditions": [
+    "thai-forest"
+   ],
+   "country": "TH",
+   "country_name": "Thailand",
+   "city": "Nongbua Lamphu",
+   "lat": 17.17,
+   "lng": 102.44,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "ajahn-martin"
+   ],
+   "url": "https://www.forestdhammatalks.org/",
+   "contact_page": "https://forestdhammatalks.org/contact",
+   "url_checked": "2026-10-20",
+   "description": "Ajahn Martin's forest monastery (Maha Bua line); intensive practice, walk-ins welcome; 3 free books, talks answered in desanas.",
+   "offers": [
+    "intensive stays",
+    "books"
+   ],
+   "language": "en",
+   "source_url": "https://www.forestdhammatalks.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "ajahn-martin",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   }
  ],
  "countries": [
@@ -25916,12 +26403,12 @@
   {
    "code": "IN",
    "name": "India",
-   "places": 199,
+   "places": 204,
    "goenka": 129,
    "traditions": {
     "goenka-vipassana": 130,
+    "hindu": 15,
     "tibetan": 12,
-    "hindu": 12,
     "advaita": 10,
     "ramakrishna-order": 8,
     "buddhism": 6,
@@ -25929,11 +26416,11 @@
     "kashmir-shaivism": 5,
     "kriya-yoga": 4,
     "kagyu": 3,
+    "krishnamurti": 3,
     "nyingma": 2,
     "inchegeri": 2,
     "anandamayi-sangha": 2,
     "divine-life-society": 2,
-    "krishnamurti": 2,
     "iskcon": 2,
     "gaudiya": 2,
     "mahayana": 1,
@@ -25950,7 +26437,8 @@
     "sufism": 1,
     "triratna": 1,
     "sikh": 1,
-    "jain": 1
+    "jain": 1,
+    "vedanta": 1
    },
    "goenka_sites": 15
   },
@@ -26018,14 +26506,14 @@
   {
    "code": "NP",
    "name": "Nepal",
-   "places": 28,
+   "places": 29,
    "goenka": 20,
    "traditions": {
     "goenka-vipassana": 20,
     "tibetan": 5,
+    "nyingma": 3,
     "buddhism": 3,
     "kagyu": 2,
-    "nyingma": 2,
     "burmese": 1,
     "gelug": 1
    }
@@ -26033,14 +26521,29 @@
   {
    "code": "TH",
    "name": "Thailand",
-   "places": 23,
+   "places": 27,
    "goenka": 13,
    "traditions": {
     "goenka-vipassana": 13,
-    "thai-forest": 7,
-    "theravada": 2,
-    "plum-village": 1
+    "thai-forest": 8,
+    "theravada": 4,
+    "plum-village": 1,
+    "mahasi": 1
    }
+  },
+  {
+   "code": "AU",
+   "name": "Australia",
+   "places": 15,
+   "goenka": 8,
+   "traditions": {
+    "goenka-vipassana": 8,
+    "thai-forest": 5,
+    "gelug": 1,
+    "tibetan": 1,
+    "mahayana": 1
+   },
+   "goenka_sites": 2
   },
   {
    "code": "LK",
@@ -26053,19 +26556,6 @@
     "early-suttas": 2,
     "buddhism": 2
    }
-  },
-  {
-   "code": "AU",
-   "name": "Australia",
-   "places": 14,
-   "goenka": 8,
-   "traditions": {
-    "goenka-vipassana": 8,
-    "thai-forest": 5,
-    "gelug": 1,
-    "tibetan": 1
-   },
-   "goenka_sites": 2
   },
   {
    "code": "FR",
@@ -26119,12 +26609,13 @@
   {
    "code": "JP",
    "name": "Japan",
-   "places": 8,
+   "places": 9,
    "goenka": 2,
    "traditions": {
     "soto-zen": 3,
     "rinzai-zen": 3,
-    "goenka-vipassana": 2
+    "goenka-vipassana": 2,
+    "shingon": 1
    }
   },
   {
@@ -26266,6 +26757,17 @@
    }
   },
   {
+   "code": "TW",
+   "name": "Taiwan",
+   "places": 3,
+   "goenka": 2,
+   "traditions": {
+    "goenka-vipassana": 2,
+    "mahayana": 1
+   },
+   "goenka_sites": 1
+  },
+  {
    "code": "VN",
    "name": "Vietnam",
    "places": 2,
@@ -26308,6 +26810,17 @@
    "goenka_sites": 1
   },
   {
+   "code": "KR",
+   "name": "South Korea",
+   "places": 2,
+   "goenka": 1,
+   "traditions": {
+    "goenka-vipassana": 1,
+    "seon": 1
+   },
+   "goenka_sites": 1
+  },
+  {
    "code": "PE",
    "name": "Peru",
    "places": 2,
@@ -26317,16 +26830,6 @@
     "shipibo-curanderismo": 1
    },
    "goenka_sites": 2
-  },
-  {
-   "code": "TW",
-   "name": "Taiwan",
-   "places": 2,
-   "goenka": 2,
-   "traditions": {
-    "goenka-vipassana": 2
-   },
-   "goenka_sites": 1
   },
   {
    "code": "SI",
@@ -26413,16 +26916,6 @@
    "traditions": {
     "goenka-vipassana": 1
    }
-  },
-  {
-   "code": "KR",
-   "name": "South Korea",
-   "places": 1,
-   "goenka": 1,
-   "traditions": {
-    "goenka-vipassana": 1
-   },
-   "goenka_sites": 1
   },
   {
    "code": "LT",
@@ -26516,6 +27009,16 @@
    "traditions": {
     "goenka-vipassana": 1
    }
+  },
+  {
+   "code": "TR",
+   "name": "Türkiye",
+   "places": 1,
+   "goenka": 0,
+   "traditions": {
+    "mevlevi-rumi": 1
+   },
+   "goenka_sites": 1
   }
  ]
 }

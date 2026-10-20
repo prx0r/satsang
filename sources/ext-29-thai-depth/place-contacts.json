@@ -1,0 +1,39 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "places": {
+  "wat-chom-tong": {
+   "address": {
+    "source_url": "https://www.watchomtong.com/?lang=en",
+    "value": "157 Moo 2, Chiangmai-Hot Rd, Ban Luang, Chom Tong, Chiang Mai 50160"
+   },
+   "checked": "2026-10-20",
+   "site": "https://www.watchomtong.com/"
+  },
+  "wat-phu-kong-tong": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://forestdhammatalks.org/contact",
+     "value": "th.forest.dhamma@protonmail.com"
+    }
+   ],
+   "site": "https://www.forestdhammatalks.org/"
+  },
+  "wat-ram-poeng": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.watrampoeng.com/vipassana-course/",
+     "value": "wrp.vipassana@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.watrampoeng.com/vipassana-course/",
+     "value": "082 185 7701"
+    }
+   ],
+   "site": "https://www.watrampoeng.com/"
+  }
+ }
+}

@@ -1,6 +1,7 @@
 {
  "/person/maezumi-taizan": "/person/taizan-maezumi",
  "/person/uddalaka-aruni": "/person/uddalaka",
+ "/place/bodh-gaya": "/place/mahabodhi",
  "/place/cac-albuquerque": "/place/cac",
  "/place/deer-park": "/place/deer-park-monastery",
  "/place/dhamma-khetta2": "/place/dhamma-khetta",
@@ -8,6 +9,7 @@
  "/place/pendle-hill": "/place/pendle-hill-pa",
  "/place/sfzc": "/place/sfzc-city-center",
  "/place/siddha-ashram": "/place/shree-muktananda-ashram",
+ "/place/suan-mokkh": "/place/wat-suan-mokkh",
  "/place/tushita-dharamkot": "/place/tushita-dharamsala",
  "/place/upaya-zen": "/place/upaya",
  "/place/vedanta-socal": "/place/vedanta-hollywood",

@@ -1,0 +1,107 @@
+{
+ "_note": "Licence registry (satsang-extensions 28, merged 2026-10-20): per-book licences (book always wins) and per-domain defaults, each with evidence. Gates which text records are shown: tools/merge-sources.py links a text only when this file evidences a linkable licence (RIGHTS.md taxonomy); verify-flagged defaults do not count. Edit here after checking a copyright page or terms URL; never assume free.",
+ "books": {
+  "accesstoinsight-dhp": {
+   "evidence": "accesstoinsight.org author-posted translations",
+   "licence": "publisher-free"
+  },
+  "amaro-small-boat": {
+   "evidence": "Colophon quoted in 28-REPORT",
+   "licence": "monastery-free-reprint"
+  },
+  "dhammatalks-an5-57": {
+   "evidence": "dhammatalks.org gift ethos",
+   "licence": "gift-of-dhamma"
+  },
+  "martin-forest-leaves": {
+   "evidence": "Colophon quoted in 29-REPORT",
+   "licence": "gift-of-dhamma"
+  },
+  "martin-signs-along-path": {
+   "evidence": "Colophon quoted in 29-REPORT",
+   "licence": "gift-of-dhamma"
+  },
+  "martin-way-to-heart": {
+   "evidence": "Colophon quoted in 29-REPORT",
+   "licence": "gift-of-dhamma"
+  },
+  "maha-boowa-things-as-they-are": {
+   "evidence": "Copyright page quoted in 28-REPORT",
+   "licence": "cc-by-nc-4.0"
+  },
+  "nanavira-notes-free": {
+   "evidence": "nanavira.org serves 1987 PDFs free",
+   "licence": "publisher-free"
+  },
+  "sivananda-kundalini-yoga": {
+   "evidence": "DLS posts ebooks free (09)",
+   "licence": "publisher-free"
+  },
+  "thanissaro-refuge": {
+   "evidence": "Copyright page quoted in 28-REPORT",
+   "licence": "gift-of-dhamma"
+  },
+  "vivekananda-complete-works": {
+   "evidence": "Wikisource transcription (public domain text)",
+   "licence": "public-domain"
+  }
+ },
+ "domains": {
+  "abhayagiri.org": {
+   "checked": "2026-10-20",
+   "default": "monastery-free-reprint",
+   "evidence": "Small Boat colophon"
+  },
+  "accesstoinsight.org": {
+   "checked": "2026-10-20",
+   "default": "publisher-free",
+   "evidence": "Free-translation ethos; VERIFY terms page",
+   "verify": true
+  },
+  "amaravati.org": {
+   "checked": "2026-10-20",
+   "default": "monastery-free-reprint",
+   "evidence": "Book colophons (free reprint if unchanged)"
+  },
+  "anuttaratrikakula.org": {
+   "checked": "2026-10-20",
+   "default": "mixed-free-watch-paid-course",
+   "evidence": "Free lectures watch-only; $150 courses + translations sold"
+  },
+  "dhammatalks.org": {
+   "checked": "2026-10-20",
+   "default": "gift-of-dhamma",
+   "evidence": "Site ethos + per-book licences (custom gift and CC BY-NC coexist)"
+  },
+  "dlshq.org": {
+   "checked": "2026-10-20",
+   "default": "publisher-free",
+   "evidence": "DLS free ebooks (09)"
+  },
+  "en.wikisource.org": {
+   "checked": "2026-10-20",
+   "default": "public-domain",
+   "evidence": "Wikisource hosts PD transcriptions"
+  },
+  "forestdhammatalks.org": {
+   "checked": "2026-10-20",
+   "default": "gift-of-dhamma",
+   "evidence": "Book colophons quoted in 29-REPORT"
+  },
+  "nanavira.org": {
+   "checked": "2026-10-20",
+   "default": "publisher-free",
+   "evidence": "1987 edition PDFs served free"
+  }
+ },
+ "traditions": {
+  "advaita": {
+   "default": "mixed",
+   "evidence": "Falls back to publisher; no order-wide rule found"
+  },
+  "theravada": {
+   "default": "gift-of-dhamma",
+   "evidence": "Forest/Thai norm (dhammatalks, Amaravati, ForestDhamma colophons)"
+  }
+ }
+}

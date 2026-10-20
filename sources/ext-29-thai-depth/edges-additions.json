@@ -1,0 +1,14 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "edges": [
+  {
+   "from": "mahasi-sayadaw",
+   "to": "ajahn-tong",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Practised directly under Mahasi at Sāsana Yeiktha, Rangoon 1957 (2y7m).",
+   "src": "https://en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "checked": "2026-10-20"
+  }
+ ]
+}

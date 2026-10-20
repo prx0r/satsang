@@ -1,0 +1,28 @@
+{
+ "_note": "staged from satsang-extensions/26-asia-europe",
+ "people": [
+  {
+   "aliases": [
+    "hsing yun master"
+   ],
+   "bio": "Founder of Fo Guang Shan (1967) and 200+ branch temples incl. Nan Tien; Humanistic Buddhism.",
+   "id": "hsing-yun",
+   "kind": "figure",
+   "living": false,
+   "name": "Hsing Yun",
+   "role": "figure",
+   "short": "Hsing Yun",
+   "source": "nantien.org.au (read 2026-10-20)",
+   "tradition": "mahayana",
+   "traditions": [
+    "mahayana"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1927–2023",
+   "source_url": "https://nantien.org.au",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

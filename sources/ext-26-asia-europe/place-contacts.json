@@ -1,0 +1,127 @@
+{
+ "_note": "staged from satsang-extensions/26-asia-europe",
+ "places": {
+  "mahabodhi": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://bodhgayatemple.com/contact-us/",
+     "value": "bodhgayatemple@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://bodhgayatemple.com/contact-us/",
+     "value": "0091-631-2200735"
+    }
+   ],
+   "site": "https://bodhgayatemple.com/"
+  },
+  "boudhanath": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+     "value": "info@boudhanath.gov.np"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+     "value": "01-4589257"
+    }
+   ],
+   "site": "https://boudhanath.gov.np/"
+  },
+  "dzogchen-beara": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dzogchenbeara.org/",
+     "value": "info@dzogchenbeara.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dzogchenbeara.org/",
+     "value": "+353 27 73 032"
+    }
+   ],
+   "site": "https://www.dzogchenbeara.org/"
+  },
+  "konya-museum": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+     "value": "mevlanamüzesi@konyakultur.gov.tr"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+     "value": "03323511215"
+    }
+   ],
+   "site": "https://muze.gov.tr/"
+  },
+  "nan-tien": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.nantien.org.au/en/visit-us",
+     "value": "info@nantien.org.au"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.nantien.org.au/en/visit-us",
+     "value": "+61 (2) 4272 0600"
+    }
+   ],
+   "site": "https://www.nantien.org.au/"
+  },
+  "shechen-boudha": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://shechen.org/wp/about/useful-contacts/",
+     "value": "guesthouse.nepal@shechen.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://shechen.org/wp/about/useful-contacts/",
+     "value": "+977 1 5918209"
+    }
+   ],
+   "site": "https://shechen.org/"
+  },
+  "wat-mahathat": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://watmahathat-inter.saphanbun.com/home",
+     "value": "062-798-4317"
+    }
+   ],
+   "site": "https://watmahathat-inter.saphanbun.com/home"
+  },
+  "wat-pho": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.watpho.com/en/home/",
+     "value": "watpho.th@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.watpho.com/en/home/",
+     "value": "083-057-7100"
+    }
+   ],
+   "site": "https://www.watpho.com/"
+  }
+ }
+}

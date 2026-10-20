@@ -1,0 +1,292 @@
+{
+ "_note": "staged from satsang-extensions/31-second-wave-east",
+ "people": [
+  {
+   "aliases": [
+    "chandrakirti madhyamakavatara"
+   ],
+   "bio": "7th-century Madhyamaka commentator (Madhyamakavatara); Prasangika reading of Nagarjuna.",
+   "id": "chandrakirti",
+   "kind": "figure",
+   "living": false,
+   "name": "Chandrakirti",
+   "role": "figure",
+   "short": "Chandrakirti",
+   "source": "Scholarly consensus",
+   "tradition": "madhyamaka",
+   "traditions": [
+    "madhyamaka"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 600–650",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "shantideva bodhicaryavatara"
+   ],
+   "bio": "8th-century monk-scholar; Bodhicaryavatara (Way of the Bodhisattva); taught by Patrul/Mipham line ever after.",
+   "id": "shantideva",
+   "kind": "figure",
+   "living": false,
+   "name": "Shantideva",
+   "role": "figure",
+   "short": "Shantideva",
+   "source": "Scholarly consensus",
+   "tradition": "madhyamaka",
+   "traditions": [
+    "madhyamaka"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "asanga yogacara founder"
+   ],
+   "bio": "4th-century systematizer (with brother Vasubandhu); Yogacara/Cittamatra; Abhidharmasamuccaya.",
+   "id": "asanga",
+   "kind": "figure",
+   "living": false,
+   "name": "Asanga",
+   "role": "figure",
+   "short": "Asanga",
+   "source": "Scholarly consensus",
+   "tradition": "mahayana",
+   "traditions": [
+    "mahayana"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 4th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "vasubandhu abhidharmakosha"
+   ],
+   "bio": "Abhidharmakosha author; converted to Mahayana by brother Asanga (traditional); Yogacara co-founder.",
+   "id": "vasubandhu",
+   "kind": "figure",
+   "living": false,
+   "name": "Vasubandhu",
+   "role": "figure",
+   "short": "Vasubandhu",
+   "source": "Traditional conversion narrative",
+   "tradition": "mahayana",
+   "traditions": [
+    "mahayana"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 4th–5th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional conversion narrative"
+  },
+  {
+   "aliases": [
+    "gorakshanath nath founder"
+   ],
+   "bio": "Nath sampradaya organizer; disciple of Matsyendranath; Hatha Yoga lineages trace to him.",
+   "id": "goraksha",
+   "kind": "figure",
+   "living": false,
+   "name": "Gorakshanath",
+   "role": "figure",
+   "short": "Goraksha",
+   "source": "Nath histories consensus",
+   "tradition": "hindu",
+   "traditions": [
+    "hindu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 11th–12th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Nath histories consensus"
+  },
+  {
+   "aliases": [
+    "shantarakshita nalanda abbot"
+   ],
+   "bio": "Nalanda abbot invited to Tibet (8th c.); founded Samye with Padmasambhava; teacher of Kamalashila.",
+   "id": "shantarakshita",
+   "kind": "figure",
+   "living": false,
+   "name": "Shantarakshita",
+   "role": "figure",
+   "short": "Shantarakshita",
+   "source": "Tibetan histories consensus",
+   "tradition": "mahayana",
+   "traditions": [
+    "mahayana"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "725–788",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Tibetan histories consensus"
+  },
+  {
+   "aliases": [
+    "kamalashila samye debate"
+   ],
+   "bio": "Disciple of Shantarakshita; Samye debate victor (traditional); Stages of Meditation.",
+   "id": "kamalashila",
+   "kind": "figure",
+   "living": false,
+   "name": "Kamalashila",
+   "role": "figure",
+   "short": "Kamalashila",
+   "source": "Tibetan histories consensus",
+   "tradition": "mahayana",
+   "traditions": [
+    "mahayana"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Tibetan histories consensus"
+  },
+  {
+   "aliases": [
+    "jetsun taranatha jonang historian"
+   ],
+   "bio": "Jonang historian-yogi (1575–1634); Damchö Ling founder; Kālacakra systematizer after Dolpopa.",
+   "id": "taranatha",
+   "kind": "figure",
+   "living": false,
+   "name": "Jetsun Taranatha",
+   "role": "figure",
+   "short": "Taranatha",
+   "source": "Jonang Foundation consensus",
+   "tradition": "jonang",
+   "traditions": [
+    "jonang"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1575–1634",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Jonang Foundation consensus"
+  },
+  {
+   "aliases": [
+    "yeshe tsogyel khandro"
+   ],
+   "bio": "Padmasambhava's consort-disciple (8th c., traditional); treasure revealer; Nyingma mother-line root.",
+   "id": "yeshe-tsogyal",
+   "kind": "figure",
+   "living": false,
+   "name": "Yeshe Tsogyal",
+   "role": "figure",
+   "short": "Yeshe Tsogyal",
+   "source": "Traditional (terma histories)",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "8th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (terma histories)"
+  },
+  {
+   "aliases": [
+    "alara kalama buddha teacher"
+   ],
+   "bio": "Meditation teacher of the Bodhisatta (formless attainments); left unsatisfied for Uddaka, then alone.",
+   "id": "alara-kalama",
+   "kind": "figure",
+   "living": false,
+   "name": "Alara Kalama",
+   "role": "figure",
+   "short": "Alara Kalama",
+   "source": "Pali suttas (Ariyapariyesana)",
+   "tradition": "early-suttas",
+   "traditions": [
+    "early-suttas"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "6th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Pali suttas (Ariyapariyesana)"
+  },
+  {
+   "aliases": [
+    "uddaka ramaputta buddha teacher"
+   ],
+   "bio": "Second teacher of the Bodhisatta (neither-perception-nor-non-perception); declined, went forth alone.",
+   "id": "uddaka-ramaputta",
+   "kind": "figure",
+   "living": false,
+   "name": "Uddaka Ramaputta",
+   "role": "figure",
+   "short": "Uddaka",
+   "source": "Pali suttas (Ariyapariyesana)",
+   "tradition": "early-suttas",
+   "traditions": [
+    "early-suttas"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "6th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Pali suttas (Ariyapariyesana)"
+  },
+  {
+   "aliases": [
+    "pali tipitaka canon"
+   ],
+   "bio": "Pali Canon (Tipitaka): Vinaya, Sutta, Abhidhamma; Theravada scriptural root; free editions via SuttaCentral/ATI.",
+   "id": "pali-canon",
+   "kind": "text",
+   "living": null,
+   "name": "Pali Canon (Tipitaka)",
+   "role": "text",
+   "short": "Pali Canon",
+   "source": "Canonical",
+   "tradition": "early-suttas",
+   "traditions": [
+    "early-suttas"
+   ],
+   "wikidata": null,
+   "works": [],
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Canonical"
+  }
+ ]
+}

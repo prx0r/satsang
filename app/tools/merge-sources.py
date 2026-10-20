@@ -476,6 +476,7 @@ def merge_ext_places(out):
             P0, t = BYID.get(m['place']), PERSON_MAP.get(m['teacher'], m['teacher'])
             if P0 and not t and m.get('model') in ('rotating', 'none'): P0['teacher_model'] = m['model']; log['teacher_model_set'] += 1; continue  # no single teacher by design
             if not P0 or t not in PB: log['main_teacher_unknown'] += 1; notes.append(f'main teacher {m["teacher"]} @ {m["place"]}: unknown'); continue
+            if (m.get('conf') or 'medium') != 'high': log['main_teacher_medium_held'] += 1; continue  # owner rule 2026-10-20: medium main teachers stay in the review queue, never live
             P0['main_teacher'] = t; P0['teacher_model'] = m.get('model') or 'single'; P0['main_teacher_conf'] = m.get('conf') or 'medium'
             if t not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [t]
             log['main_teachers'] += 1
@@ -524,13 +525,35 @@ W(os.path.join(ROOT, 'wisegraph/place-contacts-curated.json'), {'_note': 'Hand-c
   'Exactly as published, each value with its source_url. Layered over place-contacts.json by tools/build-wise.py (curated wins).', 'places': CUR})
 log['contacts_curated'] = len(CUR)
 RES = []
+# Licence gate (satsang-extensions 28 + RIGHTS.md): a text is shown (linked) only when the licence registry evidences a licence that allows
+# linking: the book's own registry entry wins, else its link's domain default (a verify-flagged default does not count). No registry
+# evidence, or a copyrighted / paid-course / mixed default -> held (citation-only, review queue). Default is copyrighted, never assumed free.
+LREG = J(os.path.join(ROOT, 'wisegraph/licence-registry.json')) if os.path.exists(os.path.join(ROOT, 'wisegraph/licence-registry.json')) else {'books': {}, 'domains': {}}
+LINKABLE = {'public-domain', 'publisher-free', 'gift-of-dhamma', 'monastery-free-reprint', 'permissioned'}
+def licence_of(t):
+    b = (LREG.get('books') or {}).get(t['id'])
+    if b: return b['licence'], 'book: ' + b.get('evidence', '')
+    h = re.sub(r'^www\.', '', (re.match(r'https?://([^/]+)', t.get('link') or '') or [None, ''])[1].lower())
+    for dom, dd in (LREG.get('domains') or {}).items():
+        if h == dom or h.endswith('.' + dom):
+            if dd.get('verify'): return None, f'domain {dom}: default unconfirmed (verify)'
+            return dd.get('default'), f'domain {dom}: ' + dd.get('evidence', '')
+    return None, 'no registry entry for the book or its domain'
+def linkable(lic): return bool(lic) and (lic in LINKABLE or lic.startswith('cc-'))
+log['texts_licence_shown'] = log['texts_licence_held'] = 0
 for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older deep groups' texts.json are not wired; unchanged)
     f = os.path.join(SRC, g, 'texts.json')
     for t in (items(J(f), 'texts') if os.path.exists(f) else []):
         if not t.get('link'): log['texts_linkless_held'] += 1; continue
+        lic, why = licence_of(t)
+        if not linkable(lic):
+            log['texts_licence_held'] += 1
+            REVIEW.append({'pack': g, 'kind': 'text-licence', 'subject': 'text/' + t['id'], 'reason': f'licence gate: {lic or "unregistered"} ({why}); held citation-only until the registry evidences a linkable licence', 'severity': 'verify'}); continue
+        log['texts_licence_shown'] += 1
         sch = TRAD_MAP.get(t.get('school'), t.get('school'))
-        RES.append({'id': t['id'], 'title': t['title'], 'url': t['link'], 'kind': t.get('kind') or 'book', 'free': bool(re.search(r'free|gift|cc |cc-|creative commons|public domain', str(t.get('licence')), re.I)),
-                    'licence': t.get('licence'), 'traditions': [sch] if sch in TR else [], 'people': [x for x in [PERSON_MAP.get(t.get('author') or '', t.get('author'))] if x in PB],
+        RES.append({'id': t['id'], 'title': t['title'], 'url': t['link'], 'kind': t.get('kind') or 'book', 'free': True,
+                    'licence': t.get('licence') or lic, 'licenceClass': lic, 'licenceEvidence': why[:200], 'noSale': lic in ('gift-of-dhamma', 'monastery-free-reprint') or 'nc' in lic,
+                    'traditions': [sch] if sch in TR else [], 'people': [x for x in [PERSON_MAP.get(t.get('author') or '', t.get('author'))] if x in PB],
                     'note': t.get('note'), 'source_url': t['link'], 'checked': t.get('checked') or '2026-10-20', 'group': g})
 f = os.path.join(SRC, 'deep-india-study', 'resources.json')
 if 'deep-india-study' in G and os.path.exists(f):

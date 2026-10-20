@@ -1,0 +1,19 @@
+{
+ "_note": "staged from satsang-extensions/24-abhinava-rights",
+ "edges": [
+  {
+   "from": "abhinavagupta",
+   "to": "paratrishika-vivarana",
+   "type": "expounds",
+   "conf": "high",
+   "note": "Author (KSTS 18, 1916)."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "isvara-pratyabhijna-vimarshini",
+   "type": "expounds",
+   "conf": "high",
+   "note": "Author of both commentaries (KSTS 22/33)."
+  }
+ ]
+}

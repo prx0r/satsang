@@ -1,0 +1,54 @@
+{
+ "_note": "staged from satsang-extensions/31-second-wave-east",
+ "edges": [
+  {
+   "from": "asanga",
+   "to": "vasubandhu",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional conversion narrative (brother to Mahayana)."
+  },
+  {
+   "from": "shantarakshita",
+   "to": "kamalashila",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "matsyendranatha",
+   "to": "goraksha",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "alara-kalama",
+   "to": "the-buddha",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught the Bodhisatta the base of nothingness (Ariyapariyesana Sutta)."
+  },
+  {
+   "from": "uddaka-ramaputta",
+   "to": "the-buddha",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught neither-perception-nor-non-perception (Ariyapariyesana Sutta)."
+  },
+  {
+   "from": "padmasambhava",
+   "to": "yeshe-tsogyal",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Tantric consort-disciple (traditional terma histories)."
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "mingyur-rinpoche",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father-guru: Mahamudra + Dzogchen at Nagi Gonpa age 9–12 (Tergar official bio).",
+   "src": "https://tergarsangha.org",
+   "checked": "2026-10-20"
+  }
+ ]
+}

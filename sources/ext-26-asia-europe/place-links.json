@@ -1,0 +1,37 @@
+{
+ "_note": "staged from satsang-extensions/26-asia-europe",
+ "links": [
+  {
+   "from": "kukai",
+   "to": "koyasan",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.koyasan.or.jp/en/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "dogen",
+   "to": "eiheiji",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://daihonzan-eiheiji.com/en/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "dilgo-khyentse",
+   "to": "shechen-boudha",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://shechen.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "hsing-yun",
+   "to": "fgs-kaohsiung",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.nantien.org.au/en/about-us/nan-tien-temple",
+   "checked": "2026-10-20"
+  }
+ ]
+}

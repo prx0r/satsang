@@ -1,0 +1,53 @@
+{
+ "_note": "staged from satsang-extensions/30-second-wave",
+ "people": [
+  {
+   "aliases": [
+    "marinus neapolis successor"
+   ],
+   "bio": "Successor of Proclus as head of the Athenian school; wrote the Life of Proclus.",
+   "id": "marinus",
+   "kind": "figure",
+   "living": false,
+   "name": "Marinus of Neapolis",
+   "role": "figure",
+   "short": "Marinus",
+   "source": "Scholarly consensus (Life of Proclus)",
+   "tradition": "platonic",
+   "traditions": [
+    "platonic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "5th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus (Life of Proclus)"
+  },
+  {
+   "aliases": [
+    "thomas aquinas angelic doctor"
+   ],
+   "bio": "Dominican theologian (1225–1274); Summa; baptized Aristotle through Augustine's Platonist legacy.",
+   "id": "aquinas",
+   "kind": "figure",
+   "living": false,
+   "name": "Thomas Aquinas",
+   "role": "figure",
+   "short": "Aquinas",
+   "source": "Scholarly consensus",
+   "tradition": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1225–1274",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "_note": "staged from satsang-extensions/26-asia-europe",
+ "places": [
+  {
+   "city": "Bodh Gaya, Bihar",
+   "contact_page": "https://bodhgayatemple.com/contact-us/",
+   "contact_page_source": "link published on https://bodhgayatemple.com (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Enlightenment site; Mahabodhi Mahavihara (UNESCO), BTMC-managed; resident monks, daily Pali/Mahayana chanting.",
+   "id": "mahabodhi",
+   "language": "en",
+   "lat": 24.7,
+   "lng": 84.99,
+   "name": "Mahabodhi Temple (Bodh Gaya)",
+   "offers": [
+    "worship",
+    "chanting"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "pilgrimage",
+   "url": "https://bodhgayatemple.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://bodhgayatemple.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Sarnath, Uttar Pradesh",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "First-sermon site (Dhamek Stupa, Mulagandha Kuti Vihar); ASI-protected archaeology + living monasteries.",
+   "id": "sarnath",
+   "language": "en",
+   "lat": 25.38,
+   "lng": 83.03,
+   "name": "Sarnath",
+   "offers": [
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "pilgrimage",
+   "url": "https://asi.nic.in/sarnath/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://asi.nic.in/sarnath/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "McLeod Ganj, Himachal Pradesh",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Main Tibetan Temple beside the Dalai Lama's residence; Namgyal monks, Mani recitations, public audiences.",
+   "id": "tsuglagkhang",
+   "language": "en",
+   "lat": 32.22,
+   "lng": 76.32,
+   "name": "Tsuglagkhang (McLeod Ganj)",
+   "offers": [
+    "worship",
+    "audiences"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "dalai-lama"
+   ],
+   "traditions": [
+    "gelug"
+   ],
+   "type": "temple",
+   "url": "https://www.dalailama.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.dalailama.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Boudha, Kathmandu",
+   "coord_precision": "approximate (unverified)",
+   "country": "NP",
+   "country_name": "Nepal",
+   "description": "Shechen tennyi Dargyeling (rebuilt 1980 by Dilgo Khyentse); shedra, library, guest house (no visitor stays/retreats).",
+   "id": "shechen-boudha",
+   "language": "en",
+   "lat": 27.72,
+   "lng": 85.36,
+   "name": "Shechen Monastery (Boudha)",
+   "offers": [
+    "study",
+    "visits"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "dilgo-khyentse"
+   ],
+   "traditions": [
+    "nyingma"
+   ],
+   "type": "monastery",
+   "url": "https://shechen.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://shechen.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Kathmandu",
+   "coord_precision": "approximate (unverified)",
+   "country": "NP",
+   "country_name": "Nepal",
+   "description": "Great stupa; Tibetan settlement circumambulation; Area Development Committee manages visits.",
+   "id": "boudhanath",
+   "language": "en",
+   "lat": 27.72,
+   "lng": 85.36,
+   "name": "Boudhanath Stupa",
+   "offers": [
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "tibetan"
+   ],
+   "type": "pilgrimage",
+   "url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Yangon",
+   "coord_precision": "UNESCO tentative listing (2018)",
+   "country": "MM",
+   "country_name": "Myanmar",
+   "description": "Most sacred Burmese stupa (Singuttara Hill); relic shrine, covered pilgrim stairways, monastery terraces.",
+   "id": "shwedagon",
+   "language": "en",
+   "lat": 16.8,
+   "lng": 96.15,
+   "name": "Shwedagon Pagoda",
+   "offers": [
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "pilgrimage",
+   "url": "https://whc.unesco.org/en/tentativelists/6367/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://whc.unesco.org/en/tentativelists/6367/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Bangkok",
+   "contact_page": "https://www.watpho.com/en/home/",
+   "contact_page_source": "link published on https://www.watpho.com (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Temple of the Reclining Buddha; traditional medicine/massage school; meditation centre on site.",
+   "id": "wat-pho",
+   "language": "en",
+   "lat": 13.75,
+   "lng": 100.49,
+   "name": "Wat Pho",
+   "offers": [
+    "worship",
+    "massage school"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "temple",
+   "url": "https://www.watpho.com/en/home/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.watpho.com/en/home/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Bangkok",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Vipassana headquarters (International Meditation Centre); teacher-training, retreats with registration; Thai + foreign yogis.",
+   "id": "wat-mahathat",
+   "language": "en",
+   "lat": 13.75,
+   "lng": 100.49,
+   "name": "Wat Mahathat (Vipassana Centre)",
+   "offers": [
+    "retreats",
+    "teacher training"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "retreat",
+   "url": "https://watmahathat-inter.saphanbun.com/home",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://watmahathat-inter.saphanbun.com/home",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Mount Koya, Wakayama",
+   "coord_precision": "approximate (unverified)",
+   "country": "JP",
+   "country_name": "Japan",
+   "description": "Kukai's mountain seat (Kongobuji, 819); Shingon head temple; shukubo lodging, Okunoin cemetery.",
+   "id": "koyasan",
+   "language": "en",
+   "lat": 34.21,
+   "lng": 135.58,
+   "name": "Mount Koya (Kongobuji)",
+   "offers": [
+    "pilgrimage",
+    "lodging",
+    "practice"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "kukai"
+   ],
+   "traditions": [
+    "shingon"
+   ],
+   "type": "monastery",
+   "url": "https://www.koyasan.or.jp/en/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.koyasan.or.jp/en/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Eiheiji, Fukui",
+   "coord_precision": "approximate (unverified)",
+   "country": "JP",
+   "country_name": "Japan",
+   "description": "Dogen's head temple (1244); 100+ training monks; sanzen/overnight and IZW programmes (book ahead; 2026 pauses noted).",
+   "founded": 1244,
+   "founded_source": "daihonzan-eiheiji.com (read 2026-10-20)",
+   "id": "eiheiji",
+   "language": "en",
+   "lat": 36.05,
+   "lng": 136.35,
+   "name": "Eiheiji",
+   "offers": [
+    "training",
+    "sanzen stays"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "dogen"
+   ],
+   "traditions": [
+    "soto-zen"
+   ],
+   "type": "monastery",
+   "url": "https://daihonzan-eiheiji.com/en/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://daihonzan-eiheiji.com/en/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Hapcheon, Gyeongsangnam",
+   "coord_precision": "approximate (unverified)",
+   "country": "KR",
+   "country_name": "South Korea",
+   "description": "Jogye head temple; Tripitaka Koreana (80,000 blocks) in 15th-c depositories; UNESCO listed.",
+   "id": "haeinsa",
+   "language": "en",
+   "lat": 35.8,
+   "lng": 128.1,
+   "name": "Haeinsa",
+   "offers": [
+    "pilgrimage",
+    "practice"
+   ],
+   "source": "curated (extension pack 2026-10-20; Korean-only official site)",
+   "teacher_ids": [],
+   "traditions": [
+    "seon"
+   ],
+   "type": "monastery",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Dashu, Kaohsiung",
+   "coord_precision": "approximate (unverified)",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "description": "Fo Guang Shan headquarters (Hsing Yun, 1967); Humanistic Buddhism; 200+ branch temples incl. Nan Tien.",
+   "founded": 1967,
+   "founded_source": "nantien.org.au (read 2026-10-20)",
+   "id": "fgs-kaohsiung",
+   "language": "en",
+   "lat": 22.75,
+   "lng": 120.45,
+   "name": "Fo Guang Shan Monastery",
+   "offers": [
+    "worship",
+    "study"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "hsing-yun"
+   ],
+   "traditions": [
+    "mahayana"
+   ],
+   "type": "monastery",
+   "url": "https://www.fgs.org.tw",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.fgs.org.tw",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Berkeley (Wollongong), NSW",
+   "contact_page": "https://www.nantien.org.au/en/visit-us",
+   "contact_page_source": "link published on https://www.nantien.org.au (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "AU",
+   "country_name": "Australia",
+   "description": "Southern-hemisphere flagship Fo Guang Shan temple (opened 1995); tours, vegetarian meals, pilgrim lodge.",
+   "founded": 1995,
+   "founded_source": "nantien.org.au (read 2026-10-20)",
+   "id": "nan-tien",
+   "language": "en",
+   "lat": -34.47,
+   "lng": 150.85,
+   "name": "Nan Tien Temple",
+   "offers": [
+    "visits",
+    "retreats",
+    "lodging"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "hsing-yun"
+   ],
+   "traditions": [
+    "mahayana"
+   ],
+   "type": "temple",
+   "url": "https://www.nantien.org.au/en/visit-us",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.nantien.org.au/en/visit-us",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Konya",
+   "contact_page": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "contact_page_source": "link published on https://muze.gov.tr (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "TR",
+   "country_name": "Türkiye",
+   "description": "Rumi's tomb-shrine (1274 Green Dome); museum since 1926; sema hall, dervish cells. State museum, not an active lodge.",
+   "id": "konya-museum",
+   "language": "en",
+   "lat": 37.87,
+   "lng": 32.5,
+   "name": "Mevlana Museum (Konya)",
+   "offers": [
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "rumi"
+   ],
+   "traditions": [
+    "mevlevi-rumi"
+   ],
+   "type": "pilgrimage",
+   "url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Roqueredonde, Hérault",
+   "coord_precision": "GPS published by centre (43.800248, 3.237998)",
+   "country": "FR",
+   "country_name": "France",
+   "description": "Rigpa's principal retreat centre (est. 1991); temple, resident community, nyenpa retreats. See the linked founder safety record (redflags: rigpa-sogyal-2017).",
+   "founded": 1991,
+   "founded_source": "lerabling.org (read 2026-10-20)",
+   "id": "lerab-ling",
+   "language": "en",
+   "lat": 43.8,
+   "lng": 3.24,
+   "name": "Lerab Ling",
+   "offers": [
+    "retreats",
+    "study"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "nyingma"
+   ],
+   "type": "retreat",
+   "url": "https://lerabling.org/en/about-lerab-ling/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://lerabling.org/en/about-lerab-ling/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Allihies, Co. Cork",
+   "contact_page": "https://www.dzogchenbeara.org/",
+   "contact_page_source": "link published on https://www.dzogchenbeara.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "IE",
+   "country_name": "Ireland",
+   "description": "Rigpa long-term retreat centre (since 1980); cliff temple (2024), weekend + nyenpa retreats. See the linked founder safety record (redflags: rigpa-sogyal-2017).",
+   "id": "dzogchen-beara",
+   "language": "en",
+   "lat": 51.62,
+   "lng": -10.02,
+   "name": "Dzogchen Beara",
+   "offers": [
+    "retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "nyingma"
+   ],
+   "type": "retreat",
+   "url": "https://www.dzogchenbeara.org/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.dzogchenbeara.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

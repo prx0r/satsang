@@ -1,0 +1,74 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "people": [
+  {
+   "aliases": [
+    "phra ajahn thong sirimangalo"
+   ],
+   "bio": "Mahasi student (Rangoon 1957); abbot of Chom Tong 1991–2019; spread four-foundations vipassana to 11+ countries; Northern Vipassana dept.",
+   "id": "ajahn-tong",
+   "kind": "figure",
+   "living": false,
+   "name": "Ajahn Tong Sirimangalo",
+   "role": "figure",
+   "short": "Ajahn Tong",
+   "source": "en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "tradition": "mahasi",
+   "traditions": [
+    "mahasi"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1923–2019",
+   "source_url": "https://en.wikipedia.org/wiki/Ajahn_Tong_Sirimangalo",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "than ajahn martin"
+   ],
+   "bio": "German-born Thai Forest monk (Maha Bua line); Wat Phu Kong Tong; blunt desanas answered from practitioner questions; 3 free books.",
+   "id": "ajahn-martin",
+   "kind": "figure",
+   "living": null,
+   "name": "Ajahn Martin Piyadhammo",
+   "role": "figure",
+   "short": "Ajahn Martin",
+   "source": "forestdhammatalks.org (read 2026-10-20)",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": "https://forestdhammatalks.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "phrabhavana dhammabhirach"
+   ],
+   "bio": "Abbot of Wat Ram Poeng (Tapotaram); carries Ajahn Tong's Northern Insight 26-day curriculum.",
+   "id": "ajahn-suphan",
+   "kind": "figure",
+   "living": null,
+   "name": "Ajahn Suphan",
+   "role": "figure",
+   "short": "Ajahn Suphan",
+   "source": "watrampoeng.com (read 2026-10-20)",
+   "tradition": "mahasi",
+   "traditions": [
+    "mahasi"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": "https://watrampoeng.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "_note": "staged from satsang-extensions/30-second-wave",
+ "people": [
+  {
+   "aliases": [
+    "shihabuddin suhrawardi maqtul"
+   ],
+   "bio": "Founder of Illuminationism (1154–1191, Aleppo); Hikmat al-Ishraq; light metaphysics; executed.",
+   "id": "suhrawardi",
+   "kind": "figure",
+   "living": false,
+   "name": "Shihab al-Din Suhrawardi",
+   "role": "figure",
+   "short": "Suhrawardi",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1154–1191",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "al-ghazali hujjat"
+   ],
+   "bio": "Theologian-mystic (1058–1111); Revival of the Religious Sciences; studied under al-Juwayni; Sufi turn after crisis.",
+   "id": "ghazali",
+   "kind": "figure",
+   "living": false,
+   "name": "Al-Ghazali",
+   "role": "figure",
+   "short": "Ghazali",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1058–1111",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "mansur al-hallaj ana al-haqq"
+   ],
+   "bio": "Ecstatic martyr (858–922, Baghdad); 'I am the Truth'; associated with Junayd's circle.",
+   "id": "hallaj",
+   "kind": "figure",
+   "living": false,
+   "name": "Mansur al-Hallaj",
+   "role": "figure",
+   "short": "Hallaj",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "858–922",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "fariduddin attar conference birds"
+   ],
+   "bio": "Nishapur poet-pharmacist (c. 1145–1221); Conference of the Birds, Memorial of the Saints.",
+   "id": "attar",
+   "kind": "figure",
+   "living": false,
+   "name": "Fariduddin Attar",
+   "role": "figure",
+   "short": "Attar",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 1145–1221",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "hakim sanai hadiqa"
+   ],
+   "bio": "Ghazna court poet turned mystic (d. c. 1131); Hadiqa (Walled Garden), first great Persian Sufi mathnawi.",
+   "id": "sanai",
+   "kind": "figure",
+   "living": false,
+   "name": "Sanai",
+   "role": "figure",
+   "short": "Sanai",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. c. 1131",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "sadr al-din shirazi"
+   ],
+   "bio": "Safavid philosopher (1571–1640); transcendent theosophy (al-hikmah al-muta'aliyah); student of Mir Damad.",
+   "id": "mulla-sadra",
+   "kind": "figure",
+   "living": false,
+   "name": "Mulla Sadra",
+   "role": "figure",
+   "short": "Mulla Sadra",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1571–1640",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "mir damad isfahan"
+   ],
+   "bio": "Safavid philosopher-scientist (d. 1631); teacher of Mulla Sadra; School of Isfahan.",
+   "id": "mir-damad",
+   "kind": "figure",
+   "living": false,
+   "name": "Mir Damad",
+   "role": "figure",
+   "short": "Mir Damad",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 1631",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "imam al-haramayn juwayni"
+   ],
+   "bio": "Asharite theologian of Nishapur (1028–1085); Ghazali's master; Shafi'i authority.",
+   "id": "juwayni",
+   "kind": "figure",
+   "living": false,
+   "name": "Al-Juwayni",
+   "role": "figure",
+   "short": "Juwayni",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1028–1085",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  },
+  {
+   "aliases": [
+    "junayd baghdadi"
+   ],
+   "bio": "Baghdad master (d. 910); sober Sufism; Hallaj moved in his circle and was reproved by him.",
+   "id": "junayd",
+   "kind": "figure",
+   "living": false,
+   "name": "Junayd al-Baghdadi",
+   "role": "figure",
+   "short": "Junayd",
+   "source": "Scholarly consensus",
+   "tradition": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 910",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Scholarly consensus"
+  }
+ ]
+}

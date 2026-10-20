@@ -1,0 +1,45 @@
+{
+ "_note": "staged from satsang-extensions/27-teaching-hotspots",
+ "links": [
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "dayananda-ashram",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.dayananda.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "jiddu-krishnamurti",
+   "to": "rajghat-varanasi",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.rajghatbesantschool.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "swami-ramdev",
+   "to": "patanjali-yogpeeth",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://divyayoga.com/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "shriram-sharma",
+   "to": "shantikunj",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.awgp.org/en/about_us/our_establishments/shantikunj_ashram",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "chidanand-saraswati",
+   "to": "parmarth-niketan",
+   "type": "teaches_at",
+   "conf": "high",
+   "src": "https://parmarth.org/",
+   "checked": "2026-10-20"
+  }
+ ]
+}

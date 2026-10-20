@@ -326,6 +326,246 @@
     }
    ],
    "site": "https://www.siddhachalam.org/"
+  },
+  "mahabodhi": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://bodhgayatemple.com/contact-us/",
+     "value": "bodhgayatemple@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://bodhgayatemple.com/contact-us/",
+     "value": "0091-631-2200735"
+    }
+   ],
+   "site": "https://bodhgayatemple.com/"
+  },
+  "boudhanath": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+     "value": "info@boudhanath.gov.np"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://boudhanath.gov.np/en/pages/100/32859255/",
+     "value": "01-4589257"
+    }
+   ],
+   "site": "https://boudhanath.gov.np/"
+  },
+  "dzogchen-beara": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dzogchenbeara.org/",
+     "value": "info@dzogchenbeara.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dzogchenbeara.org/",
+     "value": "+353 27 73 032"
+    }
+   ],
+   "site": "https://www.dzogchenbeara.org/"
+  },
+  "konya-museum": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+     "value": "mevlanamüzesi@konyakultur.gov.tr"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://muze.gov.tr/muze-detay?distId=MEV&sectionId=MEV01",
+     "value": "03323511215"
+    }
+   ],
+   "site": "https://muze.gov.tr/"
+  },
+  "nan-tien": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.nantien.org.au/en/visit-us",
+     "value": "info@nantien.org.au"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.nantien.org.au/en/visit-us",
+     "value": "+61 (2) 4272 0600"
+    }
+   ],
+   "site": "https://www.nantien.org.au/"
+  },
+  "shechen-boudha": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://shechen.org/wp/about/useful-contacts/",
+     "value": "guesthouse.nepal@shechen.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://shechen.org/wp/about/useful-contacts/",
+     "value": "+977 1 5918209"
+    }
+   ],
+   "site": "https://shechen.org/"
+  },
+  "wat-mahathat": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://watmahathat-inter.saphanbun.com/home",
+     "value": "062-798-4317"
+    }
+   ],
+   "site": "https://watmahathat-inter.saphanbun.com/home"
+  },
+  "wat-pho": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.watpho.com/en/home/",
+     "value": "watpho.th@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.watpho.com/en/home/",
+     "value": "083-057-7100"
+    }
+   ],
+   "site": "https://www.watpho.com/"
+  },
+  "dayananda-ashram": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dayananda.org/",
+     "value": "sakshat1949@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dayananda.org/",
+     "value": "0135-2430769"
+    }
+   ],
+   "site": "https://www.dayananda.org/"
+  },
+  "geeta-bhawan": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://geetabhawan.in/",
+     "value": "+91-7456842900"
+    }
+   ],
+   "site": "https://geetabhawan.in/"
+  },
+  "parmarth-niketan": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://parmarth.org/reservations/",
+     "value": "reservations@parmarth.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://parmarth.org/contact/",
+     "value": "(0135) 2434301"
+    }
+   ],
+   "site": "https://parmarth.org/"
+  },
+  "patanjali-yogpeeth": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://divyayoga.com/",
+     "value": "divyayoga@divyayoga.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://divyayoga.com/",
+     "value": "+91-1334-240008"
+    }
+   ],
+   "site": "https://divyayoga.com/"
+  },
+  "rajghat-varanasi": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.rajghatbesantschool.org/contact-us",
+     "value": "office@rajghatbesantschool.org"
+    }
+   ],
+   "site": "https://www.rajghatbesantschool.org/"
+  },
+  "shantikunj": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.awgp.org/en/contact_us/shantikunj",
+     "value": "shantikunj@awgp.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.awgp.org/en/contact_us/shantikunj",
+     "value": "91-1334-260602"
+    }
+   ],
+   "site": "https://www.awgp.org/"
+  },
+  "wat-chom-tong": {
+   "address": {
+    "source_url": "https://www.watchomtong.com/?lang=en",
+    "value": "157 Moo 2, Chiangmai-Hot Rd, Ban Luang, Chom Tong, Chiang Mai 50160"
+   },
+   "checked": "2026-10-20",
+   "site": "https://www.watchomtong.com/"
+  },
+  "wat-phu-kong-tong": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://forestdhammatalks.org/contact",
+     "value": "th.forest.dhamma@protonmail.com"
+    }
+   ],
+   "site": "https://www.forestdhammatalks.org/"
+  },
+  "wat-ram-poeng": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.watrampoeng.com/vipassana-course/",
+     "value": "wrp.vipassana@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.watrampoeng.com/vipassana-course/",
+     "value": "082 185 7701"
+    }
+   ],
+   "site": "https://www.watrampoeng.com/"
   }
  }
 }

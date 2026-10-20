@@ -82,3 +82,28 @@ merged records; integrity info 6 (pre-existing co-supervisor pairs + one deep-ta
 packs links the short forms) — added as 301 aliases anyway (source_maps KEEPER_ALIAS_REDIRECTS), and apply-keeper-fixes.py now
 also writes 301s for every staging dedupe in ext-idmap.json (e.g. /place/pendle-hill -> /place/pendle-hill-pa, which 404'd).
 Deployed with batch 4.
+
+## Batch 4: 24, 25, 26, 27, 28, 29, 30, 31 (deployed wiser-web a8e78e86, wiser-mcp feb8036b -> bcaa2652; 2026-10-21 ~00:20 +07)
+Merge run: `python3 app/tools/merge-sources.py /tmp/srcsel` (symlink folder of the merged groups; deep-india-study stays out until
+step 5 — a plain run over sources/ pulls it in; merge-sources accumulates people from wisegraph/people.json, so a wrong run must be
+undone by restoring wisegraph/*.json from the last commit, as done once here).
+| pack | result | counts / notes |
+|---|---|---|
+| 24-abhinava-rights | merged | 2 crown-text records (kind text, linkless by rule: KSTS PD but unscanned, translations copyrighted), 2 author edges, 2 works; RIGHTS.md archived (specs/extensions/24-abhinava-rights/) and applied below |
+| 25-mystics-west | merged | 14 people (Rumi circle, Qunawi, Plethon->Bessarion, Pico, Augustine, Eriugena, Cusa, Parmenides, Empedocles), 11 edges, 3 works (2 Corbin works flagged check held) |
+| 26-asia-europe | merged | 16 places (8 new, 8 gap-filled; bodh-gaya -> mahabodhi dedupe), Hsing Yun, 4 founder ties, 8 contact rows, 1 high main teacher (Tsuglagkhang -> Dalai Lama) |
+| 27-teaching-hotspots | merged | 6 places (5 new), 3 people (2 living held), 6 contacts (1 off-domain dropped), 3 main-teacher rows (patanjali-yogpeeth medium HELD) |
+| 28-licence-registry | merged | registry -> app/wisegraph/licence-registry.json; 3 licence-carrying Dhamma books; licence_tracker.py archived. **Licence gate** in merge-sources.py: a text is linked only when the registry evidences a linkable licence (book entry wins, else domain default; verify-flagged defaults don't count; default copyrighted). 11 texts shown (licenceClass + no-sale terms in MCP get_resources), 4 held citation-only + queued: accesstoinsight-library (domain verify), suttacentral-early-texts, bps-pariyatti, path-press-shop (no registry evidence) |
+| 29-thai-depth | merged | 4 places (2 new; suan-mokkh -> wat-suan-mokkh), 3 people (2 living held), 3 gift-licence books (shown), 1 edge, 2 place links |
+| 30-second-wave | merged | 11 people (Suhrawardi, Ghazali, Hallaj, Attar, Sanai, Mulla Sadra, Mir Damad, Juwayni, Junayd, Marinus, Aquinas), 6 edges (1 medium queued) |
+| 31-second-wave-east | merged | 12 people (goraksha mapped onto canonical gorakhnath via PERSON_MAP: name-collision), 7 edges (2 medium queued); pali-canon is a kind:text record |
+
+Owner rule applied from this batch: **medium-confidence main teachers are never live** (merge-sources skips them; they stay in the
+review queue). This removed 4 that batch 2 had published (amaravati/ajahn-amaro, cittaviveka/ajahn-sucitto,
+aruna-ratanagiri/ajahn-munindo, spirit-rock/jack-kornfield) + patanjali-yogpeeth/swami-ramdev. 15 high main teachers live.
+Graph after: people 706 (+45), places 853 (+16), edges 503, tradition nodes 178. Review queue 94. Clips 9,478 (3 gain figure shantideva; ids unchanged).
+Validation: schema 12,503 records failing none; transcript guards 0 found (243 transcripts, 9,665 samples); mcp/test.mjs all passed;
+test-client all passed live; gates: only ids-unique self-collisions. Redirects live: /place/wudang, /person/uddalaka-aruni, /place/pendle-hill 301.
+Screenshots: shots-merge/b4/ (live: person rumi, place patanjali-yogpeeth, place amaravati, resource refuge) — dark design unchanged.
+Known: a person's own freeTexts (legacy deep sourcing, 20 rows, e.g. gutenberg/accesstoinsight) are not under the licence gate yet;
+the gated 4 texts' old /resource/<id> pages now 404 (held, not redirected).

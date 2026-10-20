@@ -13,7 +13,7 @@ TRAD_MAP = {
     'christianity': 'christian', 'western-esotericism': 'esoteric',
 }
 # person ids that name an existing wisegraph entry
-PERSON_MAP = {'nag-hammadi-library': 'nag-hammadi'}
+PERSON_MAP = {'nag-hammadi-library': 'nag-hammadi', 'goraksha': 'gorakhnath'}  # goraksha: pack 31 id for the canonical Gorakhnath (22 already uses gorakhnath)
 # readings by the publisher are credited to the author (clip.delivery = 'reading'); no separate "person" for the publisher
 PERSON_SKIP = {'rudolf-steiner-press'}
 SPEAKER_MAP = {'rudolf-steiner-press': 'rudolf-steiner'}

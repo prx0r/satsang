@@ -1,0 +1,89 @@
+{
+ "_note": "staged from satsang-extensions/27-teaching-hotspots",
+ "places": {
+  "dayananda-ashram": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dayananda.org/",
+     "value": "sakshat1949@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dayananda.org/",
+     "value": "0135-2430769"
+    }
+   ],
+   "site": "https://www.dayananda.org/"
+  },
+  "geeta-bhawan": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://geetabhawan.in/",
+     "value": "+91-7456842900"
+    }
+   ],
+   "site": "https://geetabhawan.in/"
+  },
+  "parmarth-niketan": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://parmarth.org/reservations/",
+     "value": "reservations@parmarth.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://parmarth.org/contact/",
+     "value": "(0135) 2434301"
+    }
+   ],
+   "site": "https://parmarth.org/"
+  },
+  "patanjali-yogpeeth": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://divyayoga.com/",
+     "value": "divyayoga@divyayoga.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://divyayoga.com/",
+     "value": "+91-1334-240008"
+    }
+   ],
+   "site": "https://divyayoga.com/"
+  },
+  "rajghat-varanasi": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.rajghatbesantschool.org/contact-us",
+     "value": "office@rajghatbesantschool.org"
+    }
+   ],
+   "site": "https://www.rajghatbesantschool.org/"
+  },
+  "shantikunj": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.awgp.org/en/contact_us/shantikunj",
+     "value": "shantikunj@awgp.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.awgp.org/en/contact_us/shantikunj",
+     "value": "91-1334-260602"
+    }
+   ],
+   "site": "https://www.awgp.org/"
+  }
+ }
+}

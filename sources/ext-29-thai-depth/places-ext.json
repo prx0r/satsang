@@ -1,0 +1,131 @@
+{
+ "_note": "staged from satsang-extensions/29-thai-depth",
+ "places": [
+  {
+   "city": "Chom Tong, Chiang Mai",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Ajahn Tong's royal monastery (abbot 1991–2019); Northern Vipassana international dept; 7–21-day courses, centres in 11+ countries.",
+   "id": "wat-chom-tong",
+   "language": "en",
+   "lat": 18.42,
+   "lng": 98.68,
+   "name": "Wat Phra That Si Chom Thong",
+   "offers": [
+    "retreats (7–21 day)"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-tong",
+    "mahasi-sayadaw"
+   ],
+   "traditions": [
+    "mahasi"
+   ],
+   "type": "monastery",
+   "url": "https://www.watchomtong.com/?lang=en",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.watchomtong.com/?lang=en",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Nongbua Lamphu",
+   "contact_page": "https://forestdhammatalks.org/contact",
+   "contact_page_source": "link published on https://forestdhammatalks.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Ajahn Martin's forest monastery (Maha Bua line); intensive practice, walk-ins welcome; 3 free books, talks answered in desanas.",
+   "id": "wat-phu-kong-tong",
+   "language": "en",
+   "lat": 17.17,
+   "lng": 102.44,
+   "name": "Wat Phu Kong Tong",
+   "offers": [
+    "intensive stays",
+    "books"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-martin"
+   ],
+   "traditions": [
+    "thai-forest"
+   ],
+   "type": "monastery",
+   "url": "https://www.forestdhammatalks.org/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.forestdhammatalks.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Chaiya, Surat Thani",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Buddhadasa's Garden of Liberation (1932); International Dharma Hermitage runs monthly 10-day silent retreats (30k alumni).",
+   "founded": 1932,
+   "founded_source": "suanmokkh.org (read 2026-10-20)",
+   "id": "wat-suan-mokkh",
+   "language": "en",
+   "lat": 9.38,
+   "lng": 99.2,
+   "name": "Suan Mokkh",
+   "offers": [
+    "10-day retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "buddhadasa"
+   ],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "monastery",
+   "url": "https://www.suanmokkh-idh.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.suanmokkh-idh.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Chiang Mai",
+   "contact_page": "https://www.watrampoeng.com/vipassana-course/",
+   "contact_page_source": "link published on https://www.watrampoeng.com (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Northern Insight Meditation Center (Ajahn Tong abbot 1988–1991; now Ajahn Suphan); 26-day basic + 10-day retreats, foreign office.",
+   "id": "wat-ram-poeng",
+   "language": "en",
+   "lat": 18.8,
+   "lng": 98.97,
+   "name": "Wat Ram Poeng (Tapotaram)",
+   "offers": [
+    "26-day course",
+    "retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-tong",
+    "ajahn-suphan"
+   ],
+   "traditions": [
+    "mahasi"
+   ],
+   "type": "monastery",
+   "url": "https://www.watrampoeng.com/vipassana-course/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.watrampoeng.com/vipassana-course/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}
