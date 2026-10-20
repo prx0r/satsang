@@ -1,0 +1,7 @@
+{
+ "updated": "2026-10-20T13:14:56Z",
+ "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
+ "clips": [],
+ "videos": [],
+ "urls": []
+}

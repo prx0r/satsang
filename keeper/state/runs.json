@@ -1,0 +1,154 @@
+{
+ "sitemap": {
+  "at": "2026-10-20T13:10:12Z",
+  "cadence": "hourly",
+  "ms": 1089,
+  "failing": 0,
+  "passed": 127,
+  "checked": 120,
+  "total": 1395
+ },
+ "uptime": {
+  "at": "2026-10-20T13:10:12Z",
+  "cadence": "hourly",
+  "ms": 520,
+  "failing": 0,
+  "passed": 12,
+  "checked": 12
+ },
+ "bundle": {
+  "at": "2026-10-20T13:10:33Z",
+  "cadence": "all",
+  "ms": 379,
+  "failing": 0,
+  "passed": 0,
+  "checked": 2,
+  "sizes": {
+   "site": {
+    "raw": 8991266,
+    "gzip": 1622355,
+    "files": 4,
+    "basis": "build output"
+   },
+   "mcp": {
+    "raw": 6267537,
+    "gzip": 933210,
+    "files": 16,
+    "basis": "estimate (data + src + discovery)"
+   }
+  }
+ },
+ "integrity": {
+  "at": "2026-10-20T13:10:13Z",
+  "cadence": "all",
+  "ms": 234,
+  "failing": 13,
+  "passed": 0,
+  "checked": 2280
+ },
+ "jsonld": {
+  "at": "2026-10-20T13:10:14Z",
+  "cadence": "all",
+  "ms": 523,
+  "failing": 0,
+  "passed": 44,
+  "checked": 44
+ },
+ "leaks": {
+  "at": "2026-10-20T13:10:19Z",
+  "cadence": "all",
+  "ms": 5036,
+  "failing": 0,
+  "passed": 0,
+  "checked": 576,
+  "grams": 300
+ },
+ "links": {
+  "at": "2026-10-20T13:10:21Z",
+  "cadence": "all",
+  "ms": 2009,
+  "failing": 2,
+  "passed": 321,
+  "checked": 323,
+  "total": 323,
+  "pages": 47
+ },
+ "perf": {
+  "at": "2026-10-20T13:10:21Z",
+  "cadence": "all",
+  "ms": 487,
+  "failing": 0,
+  "passed": 0,
+  "checked": 5,
+  "perf": {
+   "/": {
+    "ttfb": 32,
+    "weight": 651942,
+    "assets": 2
+   },
+   "/topic/rebirth": {
+    "ttfb": 11,
+    "weight": 653878,
+    "assets": 2
+   },
+   "/person/ajahn-chah": {
+    "ttfb": 12,
+    "weight": 653714,
+    "assets": 2
+   },
+   "/place/amaravati": {
+    "ttfb": 11,
+    "weight": 652561,
+    "assets": 2
+   },
+   "/agents": {
+    "ttfb": 12,
+    "weight": 8654,
+    "assets": 0
+   }
+  }
+ },
+ "provenance": {
+  "at": "2026-10-20T13:10:21Z",
+  "cadence": "all",
+  "ms": 120,
+  "failing": 158,
+  "passed": 0,
+  "checked": 1976,
+  "selfSourced": {
+   "person": 182,
+   "tradition": 86,
+   "place": 64,
+   "practice": 0
+  }
+ },
+ "robots": {
+  "at": "2026-10-20T13:12:40Z",
+  "cadence": "all",
+  "ms": 343,
+  "failing": 0,
+  "passed": 14,
+  "checked": 18
+ },
+ "oembed": {
+  "at": "2026-10-20T13:12:14Z",
+  "cadence": "all",
+  "ms": 91932,
+  "failing": 0,
+  "passed": 600,
+  "checked": 600,
+  "unknown": 0,
+  "throttled": false,
+  "total": 9269
+ },
+ "linkrot": {
+  "at": "2026-10-20T13:14:56Z",
+  "cadence": "all",
+  "ms": 69298,
+  "failing": 10,
+  "passed": 423,
+  "checked": 450,
+  "unknown": 17,
+  "total": 1694
+ }
+}

@@ -1,0 +1,2551 @@
+{
+ "updated": "2026-10-20",
+ "rule": "verified_on > 90 days, past programme dates, living status unknown or inferred, low-confidence places",
+ "count": 424,
+ "items": [
+  {
+   "kind": "person",
+   "id": "mahavatar-babaji",
+   "reason": "alive-unknown",
+   "source_url": "https://www.wikidata.org/wiki/Q741358"
+  },
+  {
+   "kind": "person",
+   "id": "pa-auk-sayadaw",
+   "reason": "alive-unknown",
+   "source_url": "https://www.paaukforestmonastery.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-liem",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ajahn-liem"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-munindo",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ajahn-munindo"
+  },
+  {
+   "kind": "person",
+   "id": "mingun-sayadaw",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/mingun-sayadaw"
+  },
+  {
+   "kind": "person",
+   "id": "gyokujun-so-on",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/gyokujun-so-on"
+  },
+  {
+   "kind": "person",
+   "id": "thich-chan-that",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/thich-chan-that"
+  },
+  {
+   "kind": "person",
+   "id": "bhausaheb-maharaj",
+   "reason": "alive-unknown",
+   "source_url": "https://www.wikidata.org/wiki/Q18208923"
+  },
+  {
+   "kind": "person",
+   "id": "swami-ram-kashmir",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/swami-ram-kashmir"
+  },
+  {
+   "kind": "person",
+   "id": "swami-mahtab-kak",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/swami-mahtab-kak"
+  },
+  {
+   "kind": "person",
+   "id": "john-hughes",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/john-hughes"
+  },
+  {
+   "kind": "person",
+   "id": "lakshmanagupta",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/lakshmanagupta"
+  },
+  {
+   "kind": "person",
+   "id": "alexander-von-rospatt",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/alexander-von-rospatt"
+  },
+  {
+   "kind": "person",
+   "id": "ben-williams",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ben-williams"
+  },
+  {
+   "kind": "person",
+   "id": "csaba-kiss",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/csaba-kiss"
+  },
+  {
+   "kind": "person",
+   "id": "elizabeth-de-michelis",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/elizabeth-de-michelis"
+  },
+  {
+   "kind": "person",
+   "id": "gorakhnath",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/gorakhnath"
+  },
+  {
+   "kind": "person",
+   "id": "jaideva-singh",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/jaideva-singh"
+  },
+  {
+   "kind": "person",
+   "id": "judit-torzsok",
+   "reason": "alive-unknown",
+   "source_url": "https://ephe.academia.edu/JuditTorzsok"
+  },
+  {
+   "kind": "person",
+   "id": "lakulisha",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/lakulisha"
+  },
+  {
+   "kind": "person",
+   "id": "matsyendranatha",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/matsyendranatha"
+  },
+  {
+   "kind": "person",
+   "id": "robert-goldman",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/robert-goldman"
+  },
+  {
+   "kind": "person",
+   "id": "somadeva-vasudeva",
+   "reason": "alive-unknown",
+   "source_url": "https://kyoto-u.academia.edu/SomadevaVasudeva"
+  },
+  {
+   "kind": "person",
+   "id": "swami-rama",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/swami-rama"
+  },
+  {
+   "kind": "person",
+   "id": "swami-rudrananda",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/swami-rudrananda"
+  },
+  {
+   "kind": "person",
+   "id": "tilmann-vetter",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/tilmann-vetter"
+  },
+  {
+   "kind": "person",
+   "id": "yogaswami",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/yogaswami"
+  },
+  {
+   "kind": "person",
+   "id": "swami-chetanananda",
+   "reason": "alive-unknown",
+   "source_url": "https://www.vedantastl.org"
+  },
+  {
+   "kind": "person",
+   "id": "paul-williams",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/paul-williams"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-piak",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ajahn-piak"
+  },
+  {
+   "kind": "person",
+   "id": "swami-paramarthananda",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/swami-paramarthananda"
+  },
+  {
+   "kind": "person",
+   "id": "karl-brunnholzl",
+   "reason": "alive-unknown",
+   "source_url": "https://www.tsadra.org"
+  },
+  {
+   "kind": "person",
+   "id": "khenpo-sodargye",
+   "reason": "alive-unknown",
+   "source_url": "https://www.khenposodargye.org"
+  },
+  {
+   "kind": "person",
+   "id": "chan-khong",
+   "reason": "alive-unknown",
+   "source_url": "https://plumvillage.org"
+  },
+  {
+   "kind": "person",
+   "id": "bodhin-kjolhede",
+   "reason": "alive-unknown",
+   "source_url": "https://www.rzc.org"
+  },
+  {
+   "kind": "person",
+   "id": "griffith-foulk",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/griffith-foulk"
+  },
+  {
+   "kind": "person",
+   "id": "daishin-morgan",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/daishin-morgan"
+  },
+  {
+   "kind": "person",
+   "id": "kathy-jones",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/kathy-jones"
+  },
+  {
+   "kind": "person",
+   "id": "luis-gomez",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/luis-gomez"
+  },
+  {
+   "kind": "person",
+   "id": "donald-munro",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/donald-munro"
+  },
+  {
+   "kind": "person",
+   "id": "stanley-weinstein",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/stanley-weinstein"
+  },
+  {
+   "kind": "person",
+   "id": "yanagida-seizan",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/yanagida-seizan"
+  },
+  {
+   "kind": "person",
+   "id": "francine-herail",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/francine-herail"
+  },
+  {
+   "kind": "person",
+   "id": "paul-groner",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/paul-groner"
+  },
+  {
+   "kind": "person",
+   "id": "masatoshi-nagatomi",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/masatoshi-nagatomi"
+  },
+  {
+   "kind": "person",
+   "id": "richard-robinson",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/richard-robinson"
+  },
+  {
+   "kind": "person",
+   "id": "geshe-lhundub-sopa",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/geshe-lhundub-sopa"
+  },
+  {
+   "kind": "person",
+   "id": "geshe-ngawang-wangyal",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/geshe-ngawang-wangyal"
+  },
+  {
+   "kind": "person",
+   "id": "geshe-rabten",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/geshe-rabten"
+  },
+  {
+   "kind": "person",
+   "id": "gyatrul-rinpoche",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/gyatrul-rinpoche"
+  },
+  {
+   "kind": "person",
+   "id": "joan-rieck",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/joan-rieck"
+  },
+  {
+   "kind": "person",
+   "id": "yamada-ryoun",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/yamada-ryoun"
+  },
+  {
+   "kind": "person",
+   "id": "charlotte-joko-beck",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/charlotte-joko-beck"
+  },
+  {
+   "kind": "person",
+   "id": "dainin-katagiri",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/dainin-katagiri"
+  },
+  {
+   "kind": "person",
+   "id": "dilgo-khyentse",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/dilgo-khyentse"
+  },
+  {
+   "kind": "person",
+   "id": "lopon-tenzin-namdak",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/lopon-tenzin-namdak"
+  },
+  {
+   "kind": "person",
+   "id": "wangdor-rinpoche",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/wangdor-rinpoche"
+  },
+  {
+   "kind": "person",
+   "id": "khenpo-munsel",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/khenpo-munsel"
+  },
+  {
+   "kind": "person",
+   "id": "lama-norlha",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/lama-norlha"
+  },
+  {
+   "kind": "person",
+   "id": "kalu-rinpoche",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/kalu-rinpoche"
+  },
+  {
+   "kind": "person",
+   "id": "karma-thinley",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/karma-thinley"
+  },
+  {
+   "kind": "person",
+   "id": "chogyal-namkhai-norbu",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/chogyal-namkhai-norbu"
+  },
+  {
+   "kind": "person",
+   "id": "tsenzhab-serkong",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/tsenzhab-serkong"
+  },
+  {
+   "kind": "person",
+   "id": "dolpopa",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/dolpopa"
+  },
+  {
+   "kind": "person",
+   "id": "zhiyi",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/zhiyi"
+  },
+  {
+   "kind": "person",
+   "id": "saicho",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/saicho"
+  },
+  {
+   "kind": "person",
+   "id": "kukai",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/kukai"
+  },
+  {
+   "kind": "person",
+   "id": "honen",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/honen"
+  },
+  {
+   "kind": "person",
+   "id": "shinran",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/shinran"
+  },
+  {
+   "kind": "person",
+   "id": "fazang",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/fazang"
+  },
+  {
+   "kind": "person",
+   "id": "yamada-koun",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/yamada-koun"
+  },
+  {
+   "kind": "person",
+   "id": "alexander-altmann",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/alexander-altmann"
+  },
+  {
+   "kind": "person",
+   "id": "shlomo-pines",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/shlomo-pines"
+  },
+  {
+   "kind": "person",
+   "id": "ephraim-gottlieb",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ephraim-gottlieb"
+  },
+  {
+   "kind": "person",
+   "id": "gershom-scholem",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/gershom-scholem"
+  },
+  {
+   "kind": "person",
+   "id": "abraham-joshua-heschel",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/abraham-joshua-heschel"
+  },
+  {
+   "kind": "person",
+   "id": "zalman-schachter-shalomi",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/zalman-schachter-shalomi"
+  },
+  {
+   "kind": "person",
+   "id": "rene-guenon",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/rene-guenon"
+  },
+  {
+   "kind": "person",
+   "id": "henry-corbin",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/henry-corbin"
+  },
+  {
+   "kind": "person",
+   "id": "abdullah-daghestani",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/abdullah-daghestani"
+  },
+  {
+   "kind": "person",
+   "id": "munes-ali-shah",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/munes-ali-shah"
+  },
+  {
+   "kind": "person",
+   "id": "hazrat-inayat-khan",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/hazrat-inayat-khan"
+  },
+  {
+   "kind": "person",
+   "id": "vilayat-inayat-khan",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/vilayat-inayat-khan"
+  },
+  {
+   "kind": "person",
+   "id": "james-hillman",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/james-hillman"
+  },
+  {
+   "kind": "person",
+   "id": "carl-jung",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/carl-jung"
+  },
+  {
+   "kind": "person",
+   "id": "pierre-hadot",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/pierre-hadot"
+  },
+  {
+   "kind": "person",
+   "id": "antoine-faivre",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/antoine-faivre"
+  },
+  {
+   "kind": "person",
+   "id": "egil-asprem",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/egil-asprem"
+  },
+  {
+   "kind": "person",
+   "id": "marco-pasi",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/marco-pasi"
+  },
+  {
+   "kind": "person",
+   "id": "linden-west",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/linden-west"
+  },
+  {
+   "kind": "person",
+   "id": "thomas-taylor",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/thomas-taylor"
+  },
+  {
+   "kind": "person",
+   "id": "iamblichus",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/iamblichus"
+  },
+  {
+   "kind": "person",
+   "id": "porphyry",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/porphyry"
+  },
+  {
+   "kind": "person",
+   "id": "syrianus",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/syrianus"
+  },
+  {
+   "kind": "place",
+   "id": "wat-dhammasathit",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/wat-dhammasathit"
+  },
+  {
+   "kind": "place",
+   "id": "bodhivana",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/bodhivana"
+  },
+  {
+   "kind": "place",
+   "id": "forest-hermitage-kandy",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/forest-hermitage-kandy"
+  },
+  {
+   "kind": "place",
+   "id": "chanmyay-yeiktha",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/chanmyay-yeiktha"
+  },
+  {
+   "kind": "place",
+   "id": "panditarama",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/panditarama"
+  },
+  {
+   "kind": "place",
+   "id": "imc-yangon",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/imc-yangon"
+  },
+  {
+   "kind": "place",
+   "id": "ledi-tawya",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/ledi-tawya"
+  },
+  {
+   "kind": "place",
+   "id": "gyuto",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/gyuto"
+  },
+  {
+   "kind": "place",
+   "id": "annamalai-swami-ashram",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/annamalai-swami-ashram"
+  },
+  {
+   "kind": "place",
+   "id": "vanmali-bhavan",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/vanmali-bhavan"
+  },
+  {
+   "kind": "place",
+   "id": "babaji-cave",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/babaji-cave"
+  },
+  {
+   "kind": "place",
+   "id": "bhairav-gufa-beerwah",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/bhairav-gufa-beerwah"
+  },
+  {
+   "kind": "place",
+   "id": "avila-encarnacion",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/avila-encarnacion"
+  },
+  {
+   "kind": "place",
+   "id": "erfurt-predigerkirche",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/erfurt-predigerkirche"
+  },
+  {
+   "kind": "place",
+   "id": "prieure",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/prieure"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-pamoda",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-pamoda"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-aranya",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-aranya"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-arunachala",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-arunachala"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-banga",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-banga"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-chhavi",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-chhavi"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-sambodhi",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-sambodhi"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-taposagara",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-taposagara"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-vata",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-vata"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-ananda",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-ananda"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-acala",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-acala"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-rangsima",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-rangsima"
+  },
+  {
+   "kind": "place",
+   "id": "dhamma-bhasura",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhamma-bhasura"
+  },
+  {
+   "kind": "place",
+   "id": "great-ocean-dharma-refuge",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/great-ocean-dharma-refuge"
+  },
+  {
+   "kind": "place",
+   "id": "maharishi-garden-village",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/maharishi-garden-village"
+  },
+  {
+   "kind": "place",
+   "id": "leicester-guru-nanak-gurdwara",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/leicester-guru-nanak-gurdwara"
+  },
+  {
+   "kind": "place",
+   "id": "glasgow-gurdwara",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/glasgow-gurdwara"
+  },
+  {
+   "kind": "place",
+   "id": "wolverhampton-gurdwara",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/wolverhampton-gurdwara"
+  },
+  {
+   "kind": "place",
+   "id": "st-aidans-lindisfarne",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/st-aidans-lindisfarne"
+  },
+  {
+   "kind": "place",
+   "id": "tolleshunt-knights",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/tolleshunt-knights"
+  },
+  {
+   "kind": "place",
+   "id": "whithorn",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/whithorn"
+  },
+  {
+   "kind": "place",
+   "id": "jarrow-st-pauls",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/jarrow-st-pauls"
+  },
+  {
+   "kind": "place",
+   "id": "brigflatts",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/brigflatts"
+  },
+  {
+   "kind": "place",
+   "id": "naqshbandi-st-anns",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/naqshbandi-st-anns"
+  },
+  {
+   "kind": "place",
+   "id": "ts-bristol",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/ts-bristol"
+  },
+  {
+   "kind": "place",
+   "id": "tekels-park",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/tekels-park"
+  },
+  {
+   "kind": "place",
+   "id": "chalice-orchard",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/chalice-orchard"
+  },
+  {
+   "kind": "place",
+   "id": "madron-well",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/madron-well"
+  },
+  {
+   "kind": "place",
+   "id": "blythe-road",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/blythe-road"
+  },
+  {
+   "kind": "place",
+   "id": "sasana-ramsi",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/sasana-ramsi"
+  },
+  {
+   "kind": "place",
+   "id": "santimiterama",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/santimiterama"
+  },
+  {
+   "kind": "place",
+   "id": "dhammakaya-london",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dhammakaya-london"
+  },
+  {
+   "kind": "place",
+   "id": "wat-charoen-bhavana",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/wat-charoen-bhavana"
+  },
+  {
+   "kind": "place",
+   "id": "sakya-ling-reading",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/sakya-ling-reading"
+  },
+  {
+   "kind": "place",
+   "id": "lastingham",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/lastingham"
+  },
+  {
+   "kind": "place",
+   "id": "quaker-meeting-lancaster",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/quaker-meeting-lancaster"
+  },
+  {
+   "kind": "place",
+   "id": "pardshaw",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/pardshaw"
+  },
+  {
+   "kind": "place",
+   "id": "gurdwara-sri-guru-tegh-bahadur-leicester",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/gurdwara-sri-guru-tegh-bahadur-leicester"
+  },
+  {
+   "kind": "place",
+   "id": "guru-har-rai-west-bromwich",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/guru-har-rai-west-bromwich"
+  },
+  {
+   "kind": "place",
+   "id": "mandir-leicester-sanatan",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/mandir-leicester-sanatan"
+  },
+  {
+   "kind": "place",
+   "id": "the-vedanta-branston",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/the-vedanta-branston"
+  },
+  {
+   "kind": "place",
+   "id": "thames-buddhist-vihara",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/thames-buddhist-vihara"
+  },
+  {
+   "kind": "place",
+   "id": "saddhatissa-centre",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/saddhatissa-centre"
+  },
+  {
+   "kind": "place",
+   "id": "st-nons-well",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/st-nons-well"
+  },
+  {
+   "kind": "place",
+   "id": "penmon-priory",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/penmon-priory"
+  },
+  {
+   "kind": "place",
+   "id": "oxford-friends-meeting-house",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/oxford-friends-meeting-house"
+  },
+  {
+   "kind": "place",
+   "id": "come-to-good",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/come-to-good"
+  },
+  {
+   "kind": "place",
+   "id": "blue-idol",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/blue-idol"
+  },
+  {
+   "kind": "place",
+   "id": "fazal-manzil",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/fazal-manzil"
+  },
+  {
+   "kind": "place",
+   "id": "dargah-inayat-khan",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dargah-inayat-khan"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-nyanamoli",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.hillsidehermitage.org/"
+  },
+  {
+   "kind": "person",
+   "id": "bhikkhu-anigha",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/bhikkhu-anigha"
+  },
+  {
+   "kind": "person",
+   "id": "thaniyo-thero",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/thaniyo-thero"
+  },
+  {
+   "kind": "person",
+   "id": "sister-medhini",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/sister-medhini"
+  },
+  {
+   "kind": "person",
+   "id": "rupert-spira",
+   "reason": "likely-living-inferred",
+   "source_url": "https://rupertspira.com"
+  },
+  {
+   "kind": "person",
+   "id": "francis-lucille",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q56314924"
+  },
+  {
+   "kind": "person",
+   "id": "mooji",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q5015394"
+  },
+  {
+   "kind": "person",
+   "id": "adyashanti",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q5543094"
+  },
+  {
+   "kind": "person",
+   "id": "swami-tadatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://arshabodha.org"
+  },
+  {
+   "kind": "person",
+   "id": "christopher-wallis",
+   "reason": "likely-living-inferred",
+   "source_url": "https://hareesh.org"
+  },
+  {
+   "kind": "person",
+   "id": "david-godman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/david-godman"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sarvapriyananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.vedantany.org"
+  },
+  {
+   "kind": "person",
+   "id": "brother-chidananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q42428676"
+  },
+  {
+   "kind": "person",
+   "id": "brother-anandamoy",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q113762258"
+  },
+  {
+   "kind": "person",
+   "id": "brother-bhumananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/brother-bhumananda"
+  },
+  {
+   "kind": "person",
+   "id": "brother-achalananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/brother-achalananda"
+  },
+  {
+   "kind": "person",
+   "id": "brother-satyananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/brother-satyananda"
+  },
+  {
+   "kind": "person",
+   "id": "brother-kamalananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/brother-kamalananda"
+  },
+  {
+   "kind": "person",
+   "id": "brother-prafullananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/brother-prafullananda"
+  },
+  {
+   "kind": "person",
+   "id": "sister-usha",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/sister-usha"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sarvadevananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-mahayogananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-satyamayananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-atmaghanananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/swami-atmaghanananda"
+  },
+  {
+   "kind": "person",
+   "id": "swami-atmavidyananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-vedarupananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "pravrajika-vidyaprana",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/pravrajika-vidyaprana"
+  },
+  {
+   "kind": "person",
+   "id": "venkat-s-ramanan",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/venkat-s-ramanan"
+  },
+  {
+   "kind": "person",
+   "id": "nochur-venkataraman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/nochur-venkataraman"
+  },
+  {
+   "kind": "person",
+   "id": "aparna-krishnamoorthy",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/aparna-krishnamoorthy"
+  },
+  {
+   "kind": "person",
+   "id": "ganapathi-raman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/ganapathi-raman"
+  },
+  {
+   "kind": "person",
+   "id": "dhiruben-patel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/dhiruben-patel"
+  },
+  {
+   "kind": "person",
+   "id": "santa-ramachandran",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/santa-ramachandran"
+  },
+  {
+   "kind": "person",
+   "id": "mangalam-kalyanam",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/mangalam-kalyanam"
+  },
+  {
+   "kind": "person",
+   "id": "sethulakshmi",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/sethulakshmi"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-brahm",
+   "reason": "likely-living-inferred",
+   "source_url": "https://bswa.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-sumedho",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.amaravati.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-amaro",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.amaravati.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-pasanno",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.abhayagiri.org"
+  },
+  {
+   "kind": "person",
+   "id": "thanissaro-bhikkhu",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.dhammatalks.org"
+  },
+  {
+   "kind": "person",
+   "id": "shohaku-okumura",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sanshin.org"
+  },
+  {
+   "kind": "person",
+   "id": "joan-halifax",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.upaya.org"
+  },
+  {
+   "kind": "person",
+   "id": "henry-shukman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.mountaincloud.org"
+  },
+  {
+   "kind": "person",
+   "id": "brad-warner",
+   "reason": "likely-living-inferred",
+   "source_url": "https://hardcorezen.info"
+  },
+  {
+   "kind": "person",
+   "id": "shinge-roshi",
+   "reason": "likely-living-inferred",
+   "source_url": "https://zenstudies.org"
+  },
+  {
+   "kind": "person",
+   "id": "mingyur-rinpoche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tergar.org"
+  },
+  {
+   "kind": "person",
+   "id": "dalai-lama",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.dalailama.com"
+  },
+  {
+   "kind": "person",
+   "id": "tsoknyi-rinpoche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tsoknyirinpoche.org"
+  },
+  {
+   "kind": "person",
+   "id": "tara-brach",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.tarabrach.com"
+  },
+  {
+   "kind": "person",
+   "id": "jack-kornfield",
+   "reason": "likely-living-inferred",
+   "source_url": "https://jackkornfield.com"
+  },
+  {
+   "kind": "person",
+   "id": "gil-fronsdal",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.insightmeditationcenter.org"
+  },
+  {
+   "kind": "person",
+   "id": "joseph-goldstein",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.dharma.org"
+  },
+  {
+   "kind": "person",
+   "id": "sharon-salzberg",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.sharonsalzberg.com"
+  },
+  {
+   "kind": "person",
+   "id": "justin-sledge",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/@TheEsotericaChannel"
+  },
+  {
+   "kind": "person",
+   "id": "filip-holm",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q134521272"
+  },
+  {
+   "kind": "person",
+   "id": "john-vervaeke",
+   "reason": "likely-living-inferred",
+   "source_url": "https://johnvervaeke.com"
+  },
+  {
+   "kind": "person",
+   "id": "charles-stang",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/charles-stang"
+  },
+  {
+   "kind": "person",
+   "id": "gregory-sadler",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/gregory-sadler"
+  },
+  {
+   "kind": "person",
+   "id": "eric-steinhart",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q60334246"
+  },
+  {
+   "kind": "person",
+   "id": "denis-robichaud",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/denis-robichaud"
+  },
+  {
+   "kind": "person",
+   "id": "richard-rohr",
+   "reason": "likely-living-inferred",
+   "source_url": "https://cac.org"
+  },
+  {
+   "kind": "person",
+   "id": "cynthia-bourgeault",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.cynthiabourgeault.org"
+  },
+  {
+   "kind": "person",
+   "id": "barbara-holmes",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q113585746"
+  },
+  {
+   "kind": "person",
+   "id": "theodore-nottingham",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/theodore-nottingham"
+  },
+  {
+   "kind": "person",
+   "id": "gary-lachman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q742923"
+  },
+  {
+   "kind": "person",
+   "id": "mitch-horowitz",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q6880902"
+  },
+  {
+   "kind": "person",
+   "id": "pablo-sender",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/pablo-sender"
+  },
+  {
+   "kind": "person",
+   "id": "john-dalton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/john-dalton"
+  },
+  {
+   "kind": "person",
+   "id": "bart-ehrman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q127876"
+  },
+  {
+   "kind": "person",
+   "id": "gautam-sachdeva",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/gautam-sachdeva"
+  },
+  {
+   "kind": "person",
+   "id": "wayne-liquorman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/wayne-liquorman"
+  },
+  {
+   "kind": "person",
+   "id": "stephen-wolinsky",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wikidata.org/wiki/Q125628687"
+  },
+  {
+   "kind": "person",
+   "id": "s-k-mullarpattan",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/s-k-mullarpattan"
+  },
+  {
+   "kind": "person",
+   "id": "vanaja-narayanswamy",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/vanaja-narayanswamy"
+  },
+  {
+   "kind": "person",
+   "id": "swami-kedarnath",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/swami-kedarnath"
+  },
+  {
+   "kind": "person",
+   "id": "shunyamurti",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/shunyamurti"
+  },
+  {
+   "kind": "person",
+   "id": "amitabh-trika-school",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/amitabh-trika-school"
+  },
+  {
+   "kind": "person",
+   "id": "amritananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://devipuram.org"
+  },
+  {
+   "kind": "person",
+   "id": "anya-foxen",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/anya-foxen"
+  },
+  {
+   "kind": "person",
+   "id": "bettina-baumer",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/bettina-baumer"
+  },
+  {
+   "kind": "person",
+   "id": "bjarne-wernicke-olesen",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/bjarne-wernicke-olesen"
+  },
+  {
+   "kind": "person",
+   "id": "bodhinatha-veylanswami",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.himalayanacademy.com"
+  },
+  {
+   "kind": "person",
+   "id": "christopher-tompkins",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/christopher-tompkins"
+  },
+  {
+   "kind": "person",
+   "id": "daniel-odier",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/daniel-odier"
+  },
+  {
+   "kind": "person",
+   "id": "daniela-bevilacqua",
+   "reason": "likely-living-inferred",
+   "source_url": "https://yoga.ames.ox.ac.uk/hyp/team"
+  },
+  {
+   "kind": "person",
+   "id": "david-gordon-white",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.religion.ucsb.edu/people/david-gordon-white"
+  },
+  {
+   "kind": "person",
+   "id": "debra-diamond",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/debra-diamond"
+  },
+  {
+   "kind": "person",
+   "id": "diwakar-acharya",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/diwakar-acharya"
+  },
+  {
+   "kind": "person",
+   "id": "dominic-goodall",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.efeo.fr/membre/dominic-goodall/?lang=en"
+  },
+  {
+   "kind": "person",
+   "id": "douglas-brooks",
+   "reason": "likely-living-inferred",
+   "source_url": "https://rajanaka.com"
+  },
+  {
+   "kind": "person",
+   "id": "edwin-bryant",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.edwinbryant.org"
+  },
+  {
+   "kind": "person",
+   "id": "eric-baret",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/eric-baret"
+  },
+  {
+   "kind": "person",
+   "id": "gavin-flood",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.ochs.org.uk"
+  },
+  {
+   "kind": "person",
+   "id": "harunaga-isaacson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.tantric-studies.uni-hamburg.de/people/isaacson.html"
+  },
+  {
+   "kind": "person",
+   "id": "igor-kufayev",
+   "reason": "likely-living-inferred",
+   "source_url": "https://igorkufayev.com"
+  },
+  {
+   "kind": "person",
+   "id": "james-mallinson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://yoga.ames.ox.ac.uk/hyp/team"
+  },
+  {
+   "kind": "person",
+   "id": "jason-birch",
+   "reason": "likely-living-inferred",
+   "source_url": "https://yoga.ames.ox.ac.uk/hyp/team"
+  },
+  {
+   "kind": "person",
+   "id": "june-mcdaniel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/june-mcdaniel"
+  },
+  {
+   "kind": "person",
+   "id": "kavitha-chinnaiyan",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/kavitha-chinnaiyan"
+  },
+  {
+   "kind": "person",
+   "id": "loriliai-biernacki",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/loriliai-biernacki"
+  },
+  {
+   "kind": "person",
+   "id": "lorin-roche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/lorin-roche"
+  },
+  {
+   "kind": "person",
+   "id": "mark-dyczkowski",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.anuttaratrikakula.org"
+  },
+  {
+   "kind": "person",
+   "id": "mark-singleton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://yoga.ames.ox.ac.uk/hyp/team"
+  },
+  {
+   "kind": "person",
+   "id": "mary-reilly-nichols",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/mary-reilly-nichols"
+  },
+  {
+   "kind": "person",
+   "id": "om-swami",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.omswami.com"
+  },
+  {
+   "kind": "person",
+   "id": "paul-muller-ortega",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.bluethroatyoga.com"
+  },
+  {
+   "kind": "person",
+   "id": "rajarshi-nandy",
+   "reason": "likely-living-inferred",
+   "source_url": "https://kamakhyabhairavaupasaka.org"
+  },
+  {
+   "kind": "person",
+   "id": "rajmani-tigunait",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.himalayaninstitute.org"
+  },
+  {
+   "kind": "person",
+   "id": "richard-gombrich",
+   "reason": "likely-living-inferred",
+   "source_url": "https://ocbs.org"
+  },
+  {
+   "kind": "person",
+   "id": "sadhguru",
+   "reason": "likely-living-inferred",
+   "source_url": "https://isha.sadhguru.org/linga-bhairavi/"
+  },
+  {
+   "kind": "person",
+   "id": "seth-powell",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.yogicstudies.com"
+  },
+  {
+   "kind": "person",
+   "id": "shaman-hatley",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.umb.edu/directory/shamanhatley/"
+  },
+  {
+   "kind": "person",
+   "id": "shambhavi-sarasvati",
+   "reason": "likely-living-inferred",
+   "source_url": "https://jayakula.org"
+  },
+  {
+   "kind": "person",
+   "id": "sravana-borkataky-varma",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/sravana-borkataky-varma"
+  },
+  {
+   "kind": "person",
+   "id": "sthaneshwar-timalsina",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.vimarshafoundation.org"
+  },
+  {
+   "kind": "person",
+   "id": "suzanne-newcombe",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/suzanne-newcombe"
+  },
+  {
+   "kind": "person",
+   "id": "swami-khecaranatha",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.heartofconsciousness.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-shankarananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.shivaashram.org.au"
+  },
+  {
+   "kind": "person",
+   "id": "vidya-dehejia",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/vidya-dehejia"
+  },
+  {
+   "kind": "person",
+   "id": "yamajit",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/yamajit"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-brahmali",
+   "reason": "likely-living-inferred",
+   "source_url": "https://bswa.org"
+  },
+  {
+   "kind": "person",
+   "id": "bhante-sujato",
+   "reason": "likely-living-inferred",
+   "source_url": "https://suttacentral.net"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-hasapanna",
+   "reason": "likely-living-inferred",
+   "source_url": "https://bswa.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-nyaniko",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.abhayagiri.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-karunadhammo",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.abhayagiri.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-cunda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.abhayagiri.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-sudhiro",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.abhayagiri.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-ahimsako",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.cittaviveka.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-karuniko",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.cittaviveka.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-sona",
+   "reason": "likely-living-inferred",
+   "source_url": "https://birken.ca"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-anan",
+   "reason": "likely-living-inferred",
+   "source_url": "https://watmarpjan.org/en/"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-kalyano",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.bodhivana.org.au"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-chandako",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vimutti.org.nz"
+  },
+  {
+   "kind": "person",
+   "id": "sayadaw-u-thuzana",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.tathagata.org"
+  },
+  {
+   "kind": "person",
+   "id": "sayadaw-u-nandasiri",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.tathagata.org"
+  },
+  {
+   "kind": "person",
+   "id": "bhikkhu-analayo",
+   "reason": "likely-living-inferred",
+   "source_url": "https://agamaresearch.dila.edu.tw"
+  },
+  {
+   "kind": "person",
+   "id": "swami-dhyanayogananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-medhananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "pravrajika-vrajaprana",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "pravrajika-krishnaprana",
+   "reason": "likely-living-inferred",
+   "source_url": "https://vedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-tyagananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.vedantasociety.net"
+  },
+  {
+   "kind": "person",
+   "id": "swami-shivarchanananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.vedantastl.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-ishatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.chicagovedanta.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-tejomayananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.chinmayamission.com"
+  },
+  {
+   "kind": "person",
+   "id": "swami-swaroopananda-chinmaya",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.chinmayamission.com"
+  },
+  {
+   "kind": "person",
+   "id": "swamini-svatmavidyananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCJ8VESdPB5X0FReFGz8YMOA"
+  },
+  {
+   "kind": "person",
+   "id": "swami-tattvavidananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.arshavidya.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-viditatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.arshavidya.org"
+  },
+  {
+   "kind": "person",
+   "id": "radhanath-swami",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.radhanathswami.com"
+  },
+  {
+   "kind": "person",
+   "id": "swami-niranjanananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.biharyoga.net"
+  },
+  {
+   "kind": "person",
+   "id": "swami-swaroopananda-sivananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sivanandabahamas.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sitaramananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sivanandayogafarm.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-paramananda-sivananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sivanandabahamas.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-shambhudevananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sivanandabahamas.org"
+  },
+  {
+   "kind": "person",
+   "id": "swami-brahmananda-sivananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sivanandabahamas.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-dtun",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.nigrodharamaforestmonastery.org/teachings"
+  },
+  {
+   "kind": "person",
+   "id": "alexander-wynne",
+   "reason": "likely-living-inferred",
+   "source_url": "https://ocbs.org"
+  },
+  {
+   "kind": "person",
+   "id": "rupert-gethin",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.bristol.ac.uk/people/person/Rupert-Gethin-7c32c26a-8f6f-42f8-aaae-a4fd97124ed5/"
+  },
+  {
+   "kind": "person",
+   "id": "jeffery-long",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.etown.edu"
+  },
+  {
+   "kind": "person",
+   "id": "wendy-doniger",
+   "reason": "likely-living-inferred",
+   "source_url": "https://divinity.uchicago.edu"
+  },
+  {
+   "kind": "person",
+   "id": "nick-sutton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.ochs.org.uk"
+  },
+  {
+   "kind": "person",
+   "id": "dzogchen-ponlop",
+   "reason": "likely-living-inferred",
+   "source_url": "https://dpr.info"
+  },
+  {
+   "kind": "person",
+   "id": "ringu-tulku",
+   "reason": "likely-living-inferred",
+   "source_url": "https://bodhicharya.org"
+  },
+  {
+   "kind": "person",
+   "id": "tenzin-wangyal",
+   "reason": "likely-living-inferred",
+   "source_url": "https://ligmincha.org"
+  },
+  {
+   "kind": "person",
+   "id": "valerie-forstman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.mountaincloud.org"
+  },
+  {
+   "kind": "person",
+   "id": "chigan-roshi",
+   "reason": "likely-living-inferred",
+   "source_url": "https://zenstudies.org"
+  },
+  {
+   "kind": "person",
+   "id": "lama-jampa-thaye",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.dechen.org"
+  },
+  {
+   "kind": "person",
+   "id": "kwan-um-school",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.kwanumzen.org"
+  },
+  {
+   "kind": "person",
+   "id": "tendai-buddhist-institute",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.tendai.org"
+  },
+  {
+   "kind": "person",
+   "id": "shingon-foundation",
+   "reason": "likely-living-inferred",
+   "source_url": "http://www.shingonbuddhism.org"
+  },
+  {
+   "kind": "person",
+   "id": "dzongsar-khyentse",
+   "reason": "likely-living-inferred",
+   "source_url": "https://siddharthasintent.org"
+  },
+  {
+   "kind": "person",
+   "id": "alan-wallace",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.alanwallace.org"
+  },
+  {
+   "kind": "person",
+   "id": "khentrul-rinpoche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://dzokden.org"
+  },
+  {
+   "kind": "person",
+   "id": "dzigar-kongtrul",
+   "reason": "likely-living-inferred",
+   "source_url": "https://mangalashribhuti.org"
+  },
+  {
+   "kind": "person",
+   "id": "hokuto-sensei",
+   "reason": "likely-living-inferred",
+   "source_url": "https://zenstudies.org"
+  },
+  {
+   "kind": "person",
+   "id": "anne-klein",
+   "reason": "likely-living-inferred",
+   "source_url": "https://dawnmountain.org"
+  },
+  {
+   "kind": "person",
+   "id": "thupten-jinpa",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.compassioninstitute.com"
+  },
+  {
+   "kind": "person",
+   "id": "jundo-cohen",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.treeleaf.org"
+  },
+  {
+   "kind": "person",
+   "id": "tsultrim-allione",
+   "reason": "likely-living-inferred",
+   "source_url": "https://taramandala.org"
+  },
+  {
+   "kind": "person",
+   "id": "chozen-bays",
+   "reason": "likely-living-inferred",
+   "source_url": "https://zendust.org"
+  },
+  {
+   "kind": "person",
+   "id": "meian-elbert",
+   "reason": "likely-living-inferred",
+   "source_url": "https://shastaabbey.org"
+  },
+  {
+   "kind": "person",
+   "id": "jiryu-rutschman-byler",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.sfzc.org"
+  },
+  {
+   "kind": "person",
+   "id": "anam-thubten",
+   "reason": "likely-living-inferred",
+   "source_url": "https://dharmata.org"
+  },
+  {
+   "kind": "person",
+   "id": "phakchok-rinpoche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://samyeinstitute.org"
+  },
+  {
+   "kind": "person",
+   "id": "guo-gu",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tallahasseechan.org"
+  },
+  {
+   "kind": "person",
+   "id": "david-germano",
+   "reason": "likely-living-inferred",
+   "source_url": "https://religiousstudies.as.virginia.edu/david-germano"
+  },
+  {
+   "kind": "person",
+   "id": "barry-magid",
+   "reason": "likely-living-inferred",
+   "source_url": "https://ordinarymind.com"
+  },
+  {
+   "kind": "person",
+   "id": "elizabeth-mattis-namgyel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.elizabethmattisnamgyel.com"
+  },
+  {
+   "kind": "person",
+   "id": "lama-lena",
+   "reason": "likely-living-inferred",
+   "source_url": "https://lamalenateachings.com"
+  },
+  {
+   "kind": "person",
+   "id": "shenpen-hookham",
+   "reason": "likely-living-inferred",
+   "source_url": "https://ahs.org.uk"
+  },
+  {
+   "kind": "person",
+   "id": "phap-hai",
+   "reason": "likely-living-inferred",
+   "source_url": "https://plumvillage.org"
+  },
+  {
+   "kind": "person",
+   "id": "kokyo-henkel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/kokyo-henkel"
+  },
+  {
+   "kind": "person",
+   "id": "jetsunma-tenzin-palmo",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tenzinpalmo.com"
+  },
+  {
+   "kind": "person",
+   "id": "tulku-thondup",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tulkuthondup.com"
+  },
+  {
+   "kind": "person",
+   "id": "lama-rod-owens",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.lamarod.com"
+  },
+  {
+   "kind": "person",
+   "id": "menri-trizin",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.menri.org"
+  },
+  {
+   "kind": "person",
+   "id": "willa-blythe-baker",
+   "reason": "likely-living-inferred",
+   "source_url": "https://naturaldharma.org"
+  },
+  {
+   "kind": "person",
+   "id": "jan-willis",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.janwillis.com"
+  },
+  {
+   "kind": "person",
+   "id": "reb-anderson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.sfzc.org"
+  },
+  {
+   "kind": "person",
+   "id": "paul-swanson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://nirc.nanzan-u.ac.jp"
+  },
+  {
+   "kind": "person",
+   "id": "donald-lopez",
+   "reason": "likely-living-inferred",
+   "source_url": "https://lsa.umich.edu/asian/people/faculty/dlopez.html"
+  },
+  {
+   "kind": "person",
+   "id": "dae-bong",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.kwanumzen.org"
+  },
+  {
+   "kind": "person",
+   "id": "duncan-williams",
+   "reason": "likely-living-inferred",
+   "source_url": "https://dornsife.usc.edu"
+  },
+  {
+   "kind": "person",
+   "id": "alexander-berzin",
+   "reason": "likely-living-inferred",
+   "source_url": "https://studybuddhism.com"
+  },
+  {
+   "kind": "person",
+   "id": "phap-huu",
+   "reason": "likely-living-inferred",
+   "source_url": "https://plumvillage.org"
+  },
+  {
+   "kind": "person",
+   "id": "robert-sharf",
+   "reason": "likely-living-inferred",
+   "source_url": "https://buddhiststudies.berkeley.edu/people/robert-sharf"
+  },
+  {
+   "kind": "person",
+   "id": "garchen-rinpoche",
+   "reason": "likely-living-inferred",
+   "source_url": "https://garchen.net"
+  },
+  {
+   "kind": "person",
+   "id": "sam-van-schaik",
+   "reason": "likely-living-inferred",
+   "source_url": "https://earlytibet.com"
+  },
+  {
+   "kind": "person",
+   "id": "brook-ziporyn",
+   "reason": "likely-living-inferred",
+   "source_url": "https://voices.uchicago.edu/ziporyn/"
+  },
+  {
+   "kind": "person",
+   "id": "geoffrey-samuel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://profiles.cardiff.ac.uk/emeritus/samuelg"
+  },
+  {
+   "kind": "person",
+   "id": "bernard-faure",
+   "reason": "likely-living-inferred",
+   "source_url": "https://religion.columbia.edu/content/bernard-r-faure"
+  },
+  {
+   "kind": "person",
+   "id": "jacob-dalton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sseas.berkeley.edu/people/jacob-dalton"
+  },
+  {
+   "kind": "person",
+   "id": "phap-linh",
+   "reason": "likely-living-inferred",
+   "source_url": "https://plumvillage.org"
+  },
+  {
+   "kind": "person",
+   "id": "ruben-habito",
+   "reason": "likely-living-inferred",
+   "source_url": "https://mkzc.org"
+  },
+  {
+   "kind": "person",
+   "id": "jose-cabezon",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.religion.ucsb.edu/people/jose-cabezon"
+  },
+  {
+   "kind": "person",
+   "id": "asanga-vajra",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.sakya.org"
+  },
+  {
+   "kind": "person",
+   "id": "sakya-trizin",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.hhthesakyatrizin.org"
+  },
+  {
+   "kind": "person",
+   "id": "chan-duc",
+   "reason": "likely-living-inferred",
+   "source_url": "https://plumvillage.org"
+  },
+  {
+   "kind": "person",
+   "id": "janet-gyatso",
+   "reason": "likely-living-inferred",
+   "source_url": "https://hds.harvard.edu"
+  },
+  {
+   "kind": "person",
+   "id": "steven-heine",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/steven-heine"
+  },
+  {
+   "kind": "person",
+   "id": "taigen-leighton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.ancientdragon.org"
+  },
+  {
+   "kind": "person",
+   "id": "dosho-port",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/dosho-port"
+  },
+  {
+   "kind": "person",
+   "id": "kenneth-tanaka",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/kenneth-tanaka"
+  },
+  {
+   "kind": "person",
+   "id": "dennis-hirota",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/dennis-hirota"
+  },
+  {
+   "kind": "person",
+   "id": "peter-gregory",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/peter-gregory"
+  },
+  {
+   "kind": "person",
+   "id": "richard-payne",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.shin-ibs.edu"
+  },
+  {
+   "kind": "person",
+   "id": "charles-jones",
+   "reason": "likely-living-inferred",
+   "source_url": "https://trs.catholic.edu"
+  },
+  {
+   "kind": "person",
+   "id": "laurence-freeman",
+   "reason": "likely-living-inferred",
+   "source_url": "https://wccm.org/people/laurence-freeman/"
+  },
+  {
+   "kind": "person",
+   "id": "iain-mcgilchrist",
+   "reason": "likely-living-inferred",
+   "source_url": "https://channelmcgilchrist.com"
+  },
+  {
+   "kind": "person",
+   "id": "bernardo-kastrup",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.bernardokastrup.com"
+  },
+  {
+   "kind": "person",
+   "id": "arthur-green",
+   "reason": "likely-living-inferred",
+   "source_url": "https://artgreen26.com"
+  },
+  {
+   "kind": "person",
+   "id": "pir-zia-inayat-khan",
+   "reason": "likely-living-inferred",
+   "source_url": "https://pirzia.org"
+  },
+  {
+   "kind": "person",
+   "id": "omid-safi",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/omid-safi"
+  },
+  {
+   "kind": "person",
+   "id": "nour-kabbani",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sufilive.com/dnk/"
+  },
+  {
+   "kind": "person",
+   "id": "baraka-blue",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/baraka-blue"
+  },
+  {
+   "kind": "person",
+   "id": "father-spyridon",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCkpBmkoZ6yToHhB8uFDp46Q"
+  },
+  {
+   "kind": "person",
+   "id": "angela-puca",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/@AngelasSymposium"
+  },
+  {
+   "kind": "person",
+   "id": "moshe-idel",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/moshe-idel"
+  },
+  {
+   "kind": "person",
+   "id": "nimatullahi-order",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.nimatullahi.org"
+  },
+  {
+   "kind": "person",
+   "id": "william-rowlandson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/william-rowlandson"
+  },
+  {
+   "kind": "person",
+   "id": "angela-voss",
+   "reason": "likely-living-inferred",
+   "source_url": "https://mythcosmologysacred.com/about/angela-voss-phd-sfhea"
+  },
+  {
+   "kind": "person",
+   "id": "sarah-bachelard",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/sarah-bachelard"
+  },
+  {
+   "kind": "person",
+   "id": "becca-tarnas",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/becca-tarnas"
+  },
+  {
+   "kind": "person",
+   "id": "peter-kingsley",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.peterkingsley.org"
+  },
+  {
+   "kind": "person",
+   "id": "tom-cheetham",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.springpublications.com/cheetham.html"
+  },
+  {
+   "kind": "person",
+   "id": "seyyed-hossein-nasr",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/seyyed-hossein-nasr"
+  },
+  {
+   "kind": "person",
+   "id": "james-finley",
+   "reason": "likely-living-inferred",
+   "source_url": "https://cac.org/about/cac-faculty/james-finley"
+  },
+  {
+   "kind": "person",
+   "id": "louise-livingstone",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/louise-livingstone"
+  },
+  {
+   "kind": "person",
+   "id": "william-chittick",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.williamcchittick.com"
+  },
+  {
+   "kind": "person",
+   "id": "geoffrey-cornelius",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/geoffrey-cornelius"
+  },
+  {
+   "kind": "person",
+   "id": "elliot-wolfson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.religion.ucsb.edu/people/elliot-wolfson"
+  },
+  {
+   "kind": "person",
+   "id": "daniel-matt",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/daniel-matt"
+  },
+  {
+   "kind": "person",
+   "id": "prometheus-trust",
+   "reason": "likely-living-inferred",
+   "source_url": "https://prometheustrust.co.uk"
+  },
+  {
+   "kind": "person",
+   "id": "medina-tenour",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/medina-tenour"
+  },
+  {
+   "kind": "person",
+   "id": "rowan-williams",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/rowan-williams"
+  },
+  {
+   "kind": "person",
+   "id": "mary-attwood",
+   "reason": "likely-living-inferred",
+   "source_url": "https://mythcosmologysacred.com"
+  },
+  {
+   "kind": "person",
+   "id": "alireza-nurbakhsh",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.nimatullahi.org"
+  },
+  {
+   "kind": "person",
+   "id": "cyprian-consiglio",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/cyprian-consiglio"
+  },
+  {
+   "kind": "person",
+   "id": "mirabai-starr",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/mirabai-starr"
+  },
+  {
+   "kind": "person",
+   "id": "embassy-curators",
+   "reason": "likely-living-inferred",
+   "source_url": "https://embassyofthefreemind.com"
+  },
+  {
+   "kind": "person",
+   "id": "arthur-versluis",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/arthur-versluis"
+  },
+  {
+   "kind": "person",
+   "id": "patrick-curry",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/patrick-curry"
+  },
+  {
+   "kind": "person",
+   "id": "wouter-hanegraaff",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.wouterjhanegraaff.net"
+  },
+  {
+   "kind": "person",
+   "id": "simon-wilson",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.canterbury.ac.uk/people/simon-wilson"
+  },
+  {
+   "kind": "person",
+   "id": "reza-shah-kazemi",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/reza-shah-kazemi"
+  },
+  {
+   "kind": "person",
+   "id": "bernard-mcginn",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tantrafiles.xyz/person/bernard-mcginn"
+  }
+ ]
+}
