@@ -1,0 +1,119 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/ask-preload.json",
+ "title": "PRACTICE-ASK preloads for one practice, grounded in extracted instructions",
+ "type": "object",
+ "required": [
+  "preload"
+ ],
+ "properties": {
+  "type": {
+   "const": "ask_preload"
+  },
+  "preload": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "phase",
+     "intent",
+     "safety",
+     "question",
+     "answer_spoken",
+     "action",
+     "instr",
+     "status"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^qa_"
+     },
+     "phase": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "stage ids (timeline markers kind=stage)"
+     },
+     "intent": {
+      "type": "string"
+     },
+     "safety": {
+      "enum": [
+       "stop",
+       "caution",
+       "info"
+      ]
+     },
+     "question": {
+      "type": "string"
+     },
+     "variants": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "answer_spoken": {
+      "type": "string",
+      "description": "≤ 60 spoken words"
+     },
+     "action": {
+      "type": "object",
+      "required": [
+       "player"
+      ],
+      "properties": {
+       "player": {
+        "enum": [
+         "continue",
+         "switch_params",
+         "offer",
+         "replay_phase_slow",
+         "pause",
+         "stop"
+        ]
+       },
+       "params": {
+        "type": "object"
+       },
+       "practice": {
+        "type": "string"
+       }
+      }
+     },
+     "instr": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      }
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "confidence": {
+      "enum": [
+       "high",
+       "medium",
+       "low"
+      ]
+     },
+     "status": {
+      "enum": [
+       "preloaded",
+       "candidate",
+       "approved",
+       "retired"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

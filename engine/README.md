@@ -11,11 +11,17 @@ engine/
   compile.mjs             practice v2 → timeline (browser + node CLI), safety caps
   schema/practice-v2.json practice v1 + facets + safety + script blocks
   schema/timeline.json    compiled output (§3 tracks in absolute seconds)
-  practices/*.json        5 demo practices (our wording, cited)
+  practices/*.json        6 demo practices (our wording, cited); ajahn-lee-method-1 is built by the text→practice pipeline
   player/engine.js        Canvas2D renderer (~30 KB, no deps): body, channels, particle fluid, bloom, attention, orb
   player/player.js/.css   DOM shell: controls, captions, narration hook, bells, keyboard/TV, gate + info cards
   demo/index.html         loads any practice: /demo/?p=<id>[&t=<sec>&beginner=1&voice=1]
-  tools/test-compile.mjs  56 compiler checks       tools/shoot.mjs  headless screenshots → shots/
+  tools/test-compile.mjs  65 compiler checks       tools/shoot.mjs  headless screenshots → shots/
+  sources/<text>/         SourceText: edition, licence evidence, hashed chapter text (TEXT-TO-PRACTICE §2)
+  pipeline/<practice>/    passages → instructions → head + narration → timeline (+ ask preloads, build report, REPORT.md)
+  tools/extract/          fetch, segment, extract (LLM-or-agent, validated), build-practice, validate, defaults.json (inference rules), PROMPT.md
+  tools/media/            tts.mjs (Fish, cached) · align.py (whisper words) · cues.py (bowl synth + earshot) · mix.py (-14 LUFS) · preview.mjs (offline player → mp4)
+  tools/test-text-to-practice.mjs  43 pipeline checks   tools/validate-schemas.py  every artefact vs schema/
+  renders/<practice>/     voice clips + manifest, cue kit, mix reports, preview video (caches gitignored)
   tools/deploy-preview.mjs  preview Worker + custom domain (curl via the credential gateway)
   shots/                  tv-* (1920×1080) and phone-* (390×844 @2x) key phases
 ```
@@ -32,6 +38,8 @@ p.play(); p.pause(); p.seek(30); p.renderAt(30); p.set({ rounds: 7, beginner: tr
 CLI: `node compile.mjs practices/nadi-shodhana-sivananda.json --beginner --rounds 3 > timeline.json`
 
 **Keys:** Space/K play-pause · Esc stop · R restart · +/− rounds · > speed · B beginner · V voice · M sound · I info · F fullscreen · 1–5 switch practice (demo). Media keys work; every control is a focusable 44–60 px button for TV remotes.
+
+**Text → practice:** `../specs/TEXT-TO-PRACTICE.md`. Worked example: Ajaan Lee, Keeping the Breath in Mind, Method 1 (CC BY-NC 4.0) → `/demo/?p=ajahn-lee-method-1` with Fish narration and the generated cue kit; preview video `/renders/ajahn-lee-method-1/preview/preview-960x540.mp4`. Optional stages: `&skip=recollection`.
 
 **Narration hook:** captions are the voice track (our words). Set `window.SatsangTTS = { speak(text) → Promise, cancel() }` to use a real TTS (e.g. a server endpoint fronting Fish Audio that caches clips by text hash); otherwise the browser's `speechSynthesis` is used. Voice is off by default, and nothing is generated server-side yet.
 

@@ -1,0 +1,214 @@
+{
+ "type": "practice_head",
+ "_note": "Editorial fields of the practice that are not timed blocks. Each field names the instructions (and so the source spans) it rests on; build-practice.mjs refuses a field with neither instr nor an inferred rule.",
+ "id": "ajahn-lee-method-1",
+ "name": "Bud-dho · Ajahn Lee, Method 1",
+ "kind": "meditation",
+ "subkind": "breath",
+ "traditions": [
+  "theravada-thai-forest"
+ ],
+ "teachers": [
+  "ajahn-lee-dhammadharo",
+  "thanissaro-bhikkhu"
+ ],
+ "summary": {
+  "text": "Counting the breath with “bud-dho” in four stages, resting still like a post at the edge of the sea, then moving attention up the bases of the breath: nose, forehead, top of the head, middle of the head, and letting the refined breath spread through the body.",
+  "instr": [
+   "i08",
+   "i09",
+   "i10",
+   "i11",
+   "i19",
+   "i24",
+   "i29",
+   "i32",
+   "i35",
+   "i41"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "steady",
+  "instr": [
+   "i44"
+  ],
+  "basis": "paraphrased",
+  "note": "Ajaan Lee: most people find Method 2 easier, so this is not the first-steps practice"
+ },
+ "posture": {
+  "value": "seated",
+  "instr": [
+   "i01"
+  ],
+  "basis": "paraphrased"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default",
+  "note": "the text does not say; closed is the Thai forest default and the player's dark view assumes it"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i43"
+  ],
+  "note": "Ajaan Lee advises studying with someone skilled to become expert, especially for work with signs (not scripted here)"
+ },
+ "facets": {
+  "method": [
+   "breath",
+   "mantra-japa",
+   "dharana-visualisation"
+  ],
+  "aim": {
+   "value": [
+    "calm",
+    "focus"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet",
+   "note": "editorial facet; the chapter's stated aims (knowledge, insight) are kept for the Theory tab"
+  },
+  "intensity": 2
+ },
+ "steps": [
+  {
+   "text": "Sit upright and steady (half-lotus, right leg on the left, hands palm-up, right on left, or any steady seat).",
+   "instr": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "text": "Optional: palms together at the heart, recollect the Buddha, Dhamma and Sangha; repeat buddho, dhammo, saṅgho; then buddho three times.",
+   "instr": [
+    "i03",
+    "i04",
+    "i05",
+    "i06"
+   ]
+  },
+  {
+   "text": "Count the breath with buddho: bud in, dho out ×10; buddho in and out ×7; one buddho per breath ×5; three buddhos per breath ×3.",
+   "instr": [
+    "i08",
+    "i09",
+    "i10",
+    "i11"
+   ]
+  },
+  {
+   "text": "Stop counting; keep bud-dho with a relaxed, natural breath at the nostrils. Don't follow it in or out. Broad, open, unforced, like a post at the edge of the sea.",
+   "instr": [
+    "i12",
+    "i13",
+    "i14",
+    "i15",
+    "i16",
+    "i17",
+    "i18",
+    "i19"
+   ]
+  },
+  {
+   "text": "When still, drop buddho and just feel the breath.",
+   "instr": [
+    "i20",
+    "i21"
+   ]
+  },
+  {
+   "text": "Bases of the breath: nose ↔ forehead seven times, settle at the forehead; forehead ↔ top of the head seven times, breathing in at the top and spreading the breath through the head; top ↔ middle of the head, settling there.",
+   "instr": [
+    "i24",
+    "i26",
+    "i27",
+    "i28",
+    "i29",
+    "i30",
+    "i31",
+    "i32",
+    "i33"
+   ]
+  },
+  {
+   "text": "Keep awareness broad; let the refined breath spread from the head to the rest of the body and fill it.",
+   "instr": [
+    "i34",
+    "i35",
+    "i40",
+    "i41"
+   ]
+  }
+ ],
+ "contraindications": [
+  {
+   "text": "Frequent headaches or nervous problems: skip the head bases (Ajaan Lee's caution in Method 2: no spot above the base of the throat). The beginner form does this.",
+   "instr": [
+    "i45"
+   ]
+  },
+  {
+   "text": "Don't force the mind. If signs appear (lights, heat, tingling), don't be affected; breathe deep and long down into the heart and they go.",
+   "instr": [
+    "i17",
+    "i37"
+   ]
+  },
+  {
+   "text": "Most people find Method 2 easier and more relaxing; start there if this feels effortful.",
+   "instr": [
+    "i44"
+   ]
+  }
+ ],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no retention anywhere in the text"
+  },
+  "stop_if": {
+   "value": [
+    "headache",
+    "strain",
+    "pressure in the head"
+   ],
+   "instr": [
+    "i45",
+    "i17"
+   ]
+  },
+  "beginner_override": {
+   "value": {
+    "skip_stages": [
+     "bases"
+    ],
+    "rounds": 4
+   },
+   "instr": [
+    "i45",
+    "i44"
+   ],
+   "rule": "caution-cross-method"
+  },
+  "alternatives": {
+   "value": [
+    {
+     "practice": "ajahn-lee-method-2",
+     "when": "most people; beginners; headaches"
+    }
+   ],
+   "instr": [
+    "i44",
+    "i45"
+   ]
+  }
+ },
+ "meta": {
+  "status": "review",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 text (attribution + noncommercial; the book counts any sale as commercial). Our wording, adapted; see sources."
+ }
+}

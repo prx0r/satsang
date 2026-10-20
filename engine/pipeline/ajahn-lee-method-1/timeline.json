@@ -1,0 +1,4466 @@
+{
+ "script_version": 1,
+ "engine": "satsang-engine/0.2",
+ "practice": "ajahn-lee-method-1",
+ "name": "Bud-dho · Ajahn Lee, Method 1",
+ "traditions": [
+  "theravada-thai-forest"
+ ],
+ "opts": {
+  "beginner": false,
+  "rounds": 6,
+  "count_s": 1
+ },
+ "params": {},
+ "loops": 6,
+ "total_s": 938.6,
+ "show": {
+  "channels": [],
+  "loci": [
+   "middle_chest",
+   "nose_tip",
+   "middle_of_forehead",
+   "top_of_head",
+   "middle_of_head"
+  ],
+  "labels": "active"
+ },
+ "tracks": {
+  "breath": [
+   {
+    "t": 0,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 5,
+    "dur": 1,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 11,
+    "dur": 6,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 17,
+    "dur": 3.4,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 20.4,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 25.4,
+    "dur": 3,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 28.4,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 33.4,
+    "dur": 6,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 39.4,
+    "dur": 1.5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 40.9,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 45.9,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 50.9,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 55.9,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 60.9,
+    "dur": 4.7,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 65.6,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 70.6,
+    "dur": 6,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 76.6,
+    "dur": 1,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 77.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0.18,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 82.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 88.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 93.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 99.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 104.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 110.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 115.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 121.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 126.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 132.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 137.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 143.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 148.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 154.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 8,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 159.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 8,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 165.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 9,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 170.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 9,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 176.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 10,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 181.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 10,
+    "strokes": 10,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 187.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 192.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 198.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 203.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 209.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 214.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 220.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 225.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 231.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 236.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 242.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 247.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 253.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 258.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0,
+    "label": "buddho"
+   },
+   {
+    "t": 264.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 269.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 275.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 280.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 286.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 291.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 297.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 302.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 308.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho"
+   },
+   {
+    "t": 313.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 5,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 319.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho ×3"
+   },
+   {
+    "t": 324.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 330.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho ×3"
+   },
+   {
+    "t": 335.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 341.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "buddho ×3"
+   },
+   {
+    "t": 346.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 352.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 357.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 363.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 368.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 374.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 379.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 385.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 390.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 396.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 401.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 407.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 412.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 418.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 423.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 429.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 434.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 440.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 1,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 445.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 1,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 451.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 2,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 456.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 2,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 462.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 3,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 467.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 3,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 473.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 4,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 478.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 4,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 484.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 5,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 489.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 5,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 495.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 6,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 500.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 6,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 506.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 511.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 517.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 522.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 528.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 533.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 539.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 544.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 550.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 555.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 561.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 566.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 572.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 577.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 583.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 588.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 594.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 599.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 605.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 610.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 616.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 621.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 627.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 632.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 638.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 643.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 649.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 654.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 660.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 665.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 671.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 676.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 682.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 687.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 693.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 698.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 704.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 709.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 715.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 720.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 726.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 731.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 737.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 742.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 748.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 753.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 759.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 764.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 770.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 775.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 781.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 786.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 792.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 797.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 803.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 808.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 814.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 819.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 5,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 825.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 830.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 6,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 836.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 841.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 7,
+    "strokes": 7,
+    "unit": "round trip",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 847.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 852.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 858.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 863.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 869.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 874.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 880.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 885.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 891.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 896.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 902.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 907.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 913.6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 918.6,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 924.6,
+    "dur": 5,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 929.6,
+    "dur": 6,
+    "phase": "natural",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 935.6,
+    "dur": 3,
+    "phase": "natural",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   }
+  ],
+  "voice": [
+   {
+    "t": 6,
+    "dur": 14.4,
+    "text": "Sit upright. Half-lotus if it suits you, right leg on the left, hands palm-up, right on left. Or any steady seat.",
+    "say": "Sit upright. Half-lotus if it suits you, right leg on the left, hands palm-up, right on left. Or any steady seat.",
+    "once": false,
+    "block": "i01",
+    "stage": "posture"
+   },
+   {
+    "t": 20.4,
+    "dur": 8,
+    "text": "Body straight. Mind on the task in front of you.",
+    "say": "Body straight. Mind on the task in front of you.",
+    "once": false,
+    "block": "i02",
+    "stage": "posture"
+   },
+   {
+    "t": 28.4,
+    "dur": 12.5,
+    "text": "Bring your palms together in front of the heart, and recall the qualities of the Buddha, the Dhamma and the Sangha.",
+    "say": "Bring your palms together in front of the heart, and recall the qualities of the Buddha, the Dhamma and the Sangha.",
+    "once": false,
+    "block": "i03",
+    "stage": "recollection"
+   },
+   {
+    "t": 40.9,
+    "dur": 5,
+    "text": "The Buddha is my mainstay.",
+    "say": "The Buddha is my mainstay.",
+    "once": false,
+    "block": "i04.a",
+    "quote": {
+     "text": "Buddho me nātho",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-1:p1.s3 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "recollection"
+   },
+   {
+    "t": 45.9,
+    "dur": 5,
+    "text": "The Dhamma is my mainstay.",
+    "say": "The Dhamma is my mainstay.",
+    "once": false,
+    "block": "i04.b",
+    "quote": {
+     "text": "Dhammo me nātho",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-1:p1.s4 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "recollection"
+   },
+   {
+    "t": 50.9,
+    "dur": 5,
+    "text": "The Sangha is my mainstay.",
+    "say": "The Sangha is my mainstay.",
+    "once": false,
+    "block": "i04.c",
+    "quote": {
+     "text": "Saṅgho me nātho",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-1:p1.s5 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "recollection"
+   },
+   {
+    "t": 55.9,
+    "dur": 9.7,
+    "text": "In your mind: buddho, buddho. Dhammo, dhammo. Sangho, sangho.",
+    "say": "In your mind. Buddho, buddho. Dhammo, dhammo. Sangho, sangho.",
+    "once": false,
+    "block": "i05",
+    "stage": "recollection"
+   },
+   {
+    "t": 65.6,
+    "dur": 12,
+    "text": "Hands back in your lap. Silently, three times: buddho.",
+    "say": "Hands back in your lap. Silently, three times: buddho.",
+    "once": false,
+    "block": "i06",
+    "stage": "recollection"
+   },
+   {
+    "t": 77.6,
+    "dur": 5,
+    "text": "Breathing in, think “bud”…",
+    "say": "Breathing in: bud.",
+    "once": false,
+    "block": "i08.in",
+    "stage": "counting"
+   },
+   {
+    "t": 82.6,
+    "dur": 6,
+    "text": "…breathing out, “dho”. Ten breaths, at your own pace.",
+    "say": "…breathing out, “dho”. Ten breaths, at your own pace.",
+    "once": false,
+    "block": "i08.out",
+    "stage": "counting"
+   },
+   {
+    "t": 187.6,
+    "dur": 5,
+    "text": "Now “buddho” on the in-breath…",
+    "say": "Now “buddho” on the in-breath…",
+    "once": false,
+    "block": "i09.in",
+    "stage": "counting"
+   },
+   {
+    "t": 192.6,
+    "dur": 6,
+    "text": "…and “buddho” on the out-breath. Seven breaths.",
+    "say": "…and “buddho” on the out-breath. Seven breaths.",
+    "once": false,
+    "block": "i09.out",
+    "stage": "counting"
+   },
+   {
+    "t": 264.6,
+    "dur": 5,
+    "text": "Now one “buddho” for each whole breath, in and out. Five breaths.",
+    "say": "Now one “buddho” for each whole breath, in and out. Five breaths.",
+    "once": false,
+    "block": "i10.in",
+    "stage": "counting"
+   },
+   {
+    "t": 319.6,
+    "dur": 5,
+    "text": "Now “buddho” three times in each breath. Three breaths.",
+    "say": "Now “buddho” three times in each breath. Three breaths.",
+    "once": false,
+    "block": "i11.b1.in",
+    "stage": "counting"
+   },
+   {
+    "t": 352.6,
+    "dur": 5,
+    "text": "Stop counting. Just “bud” on the in-breath, “dho” on the out.",
+    "say": "Stop counting. Just “bud” on the in-breath, “dho” on the out.",
+    "once": false,
+    "block": "i12.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 363.6,
+    "dur": 5,
+    "text": "Let the breath be relaxed and natural.",
+    "say": "Let the breath be relaxed and natural.",
+    "once": false,
+    "block": "i13.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 374.6,
+    "dur": 5,
+    "text": "Keep the mind still, with the breath at the nostrils.",
+    "say": "Keep the mind still, with the breath at the nostrils.",
+    "once": false,
+    "block": "i14.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 385.6,
+    "dur": 5,
+    "text": "As it goes out, don't send the mind out after it. As it comes in, don't follow it in.",
+    "say": "As it goes out, don't send the mind out after it. As it comes in, don't follow it in.",
+    "once": false,
+    "block": "i15.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 396.6,
+    "dur": 5,
+    "text": "Let your awareness be broad, cheerful, and open.",
+    "say": "Let your awareness be broad, cheerful, and open.",
+    "once": false,
+    "block": "i16.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 407.6,
+    "dur": 5,
+    "text": "Don't force the mind. Relax.",
+    "say": "Don't force the mind. Relax.",
+    "once": false,
+    "block": "i17.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 418.6,
+    "dur": 5,
+    "text": "Imagine you're breathing out into the wide open air.",
+    "say": "Imagine you're breathing out into the wide open air.",
+    "once": false,
+    "block": "i18.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 429.6,
+    "dur": 5,
+    "text": "Be like a post at the edge of the sea. The tide rises and falls; the post doesn't move.",
+    "say": "Be like a post at the edge of the sea. The tide rises and falls; the post doesn't move.",
+    "once": false,
+    "block": "i19.g.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 440.6,
+    "dur": 5,
+    "text": "Bud… dho. Still, like the post.",
+    "say": "Bud… dho. Still, like the post.",
+    "once": true,
+    "block": "i12.r.in",
+    "stage": "stillness"
+   },
+   {
+    "t": 506.6,
+    "dur": 5,
+    "text": "When you're this still, let go of “buddho”.",
+    "say": "When you're this still, let go of “buddho”.",
+    "once": false,
+    "block": "i21.b1.in",
+    "stage": "feeling"
+   },
+   {
+    "t": 517.6,
+    "dur": 5,
+    "text": "Simply feel the breath itself.",
+    "say": "Simply feel the breath itself.",
+    "once": false,
+    "block": "i21.b2.in",
+    "stage": "feeling"
+   },
+   {
+    "t": 528.6,
+    "dur": 5,
+    "text": "Now inward: the tip of the nose…",
+    "say": "Now inward: the tip of the nose…",
+    "once": false,
+    "block": "i24.in",
+    "stage": "bases"
+   },
+   {
+    "t": 533.6,
+    "dur": 6,
+    "text": "…and slowly up to the middle of the forehead.",
+    "say": "…and slowly up to the middle of the forehead.",
+    "once": false,
+    "block": "i24.out",
+    "stage": "bases"
+   },
+   {
+    "t": 539.6,
+    "dur": 5,
+    "text": "Keep your awareness broad.",
+    "say": "Keep your awareness broad.",
+    "once": false,
+    "block": "i25.g.in",
+    "stage": "bases"
+   },
+   {
+    "t": 550.6,
+    "dur": 5,
+    "text": "Rest a moment at the forehead, then come back to the nose.",
+    "say": "Rest a moment at the forehead, then come back to the nose.",
+    "once": false,
+    "block": "i26.in",
+    "stage": "bases"
+   },
+   {
+    "t": 561.6,
+    "dur": 5,
+    "text": "Now back and forth, nose to forehead, like climbing up and down a mountain. Seven times.",
+    "say": "Now back and forth, nose to forehead, like climbing up and down a mountain. Seven times.",
+    "once": false,
+    "block": "i27.in",
+    "stage": "bases"
+   },
+   {
+    "t": 638.6,
+    "dur": 5,
+    "text": "Settle at the forehead. Don't go back to the nose.",
+    "say": "Settle at the forehead. Don't go back to the nose.",
+    "once": false,
+    "block": "i28.in",
+    "stage": "bases"
+   },
+   {
+    "t": 649.6,
+    "dur": 5,
+    "text": "Move up to the middle of the top of the head, and settle there.",
+    "say": "Move up to the middle of the top of the head, and settle there.",
+    "once": false,
+    "block": "i29.in",
+    "stage": "bases"
+   },
+   {
+    "t": 660.6,
+    "dur": 5,
+    "text": "Breathe in there; let it spread through the head…",
+    "say": "Breathe in there; let it spread through the head…",
+    "once": false,
+    "block": "i30.in",
+    "stage": "bases"
+   },
+   {
+    "t": 665.6,
+    "dur": 6,
+    "text": "…then return to the forehead.",
+    "say": "…then return to the forehead.",
+    "once": false,
+    "block": "i30.out",
+    "stage": "bases"
+   },
+   {
+    "t": 671.6,
+    "dur": 5,
+    "text": "Back and forth between the forehead and the top of the head. Seven times.",
+    "say": "Back and forth between the forehead and the top of the head. Seven times.",
+    "once": false,
+    "block": "i31.in",
+    "stage": "bases"
+   },
+   {
+    "t": 748.6,
+    "dur": 5,
+    "text": "Finally, rest on the top of the head.",
+    "say": "Finally, rest on the top of the head.",
+    "once": false,
+    "block": "i31.end.in",
+    "stage": "bases"
+   },
+   {
+    "t": 759.6,
+    "dur": 5,
+    "text": "Now into the centre of the brain…",
+    "say": "Now into the centre of the brain…",
+    "once": false,
+    "block": "i32.in",
+    "stage": "bases"
+   },
+   {
+    "t": 764.6,
+    "dur": 6,
+    "text": "…be still a moment, then back to the top of the head.",
+    "say": "…be still a moment, then back to the top of the head.",
+    "once": false,
+    "block": "i32.out",
+    "stage": "bases"
+   },
+   {
+    "t": 770.6,
+    "dur": 5,
+    "text": "Back and forth between these two spots: the top, and the middle.",
+    "say": "Back and forth between these two spots: the top, and the middle.",
+    "once": false,
+    "block": "i33.in",
+    "stage": "bases"
+   },
+   {
+    "t": 847.6,
+    "dur": 5,
+    "text": "Finally, settle in the middle of the brain.",
+    "say": "Finally, settle in the middle of the brain.",
+    "once": false,
+    "block": "i33.end.in",
+    "stage": "bases"
+   },
+   {
+    "t": 858.6,
+    "dur": 5,
+    "text": "Keep your awareness broad.",
+    "say": "Keep your awareness broad.",
+    "once": false,
+    "block": "i34.g.in",
+    "stage": "bases"
+   },
+   {
+    "t": 869.6,
+    "dur": 5,
+    "text": "Let the refined breath in the head spread down to the lower body.",
+    "say": "Let the refined breath in the head spread down to the lower body.",
+    "once": false,
+    "block": "i35.b1.in",
+    "stage": "bases"
+   },
+   {
+    "t": 891.6,
+    "dur": 5,
+    "text": "Keep awareness still and expansive. Let the refined breath fill the whole body.",
+    "say": "Keep awareness still and expansive. Let the refined breath fill the whole body.",
+    "once": false,
+    "block": "i41.b1.in",
+    "stage": "whole-body"
+   },
+   {
+    "t": 924.6,
+    "dur": 14,
+    "text": "Stay with the whole body breathing, as long as you like.",
+    "say": "Stay with the whole body breathing, as long as you like.",
+    "once": false,
+    "block": "close",
+    "stage": "whole-body"
+   }
+  ],
+  "visual": [
+   {
+    "t": 6,
+    "dur": 14.4,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 20.4,
+    "dur": 8,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 28.4,
+    "dur": 12.5,
+    "phase": "natural",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 40.9,
+    "dur": 5,
+    "phase": "natural",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 45.9,
+    "dur": 5,
+    "phase": "natural",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 50.9,
+    "dur": 5,
+    "phase": "natural",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 77.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 82.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 88.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 93.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 99.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 104.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 110.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 115.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 121.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 126.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 132.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 137.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 143.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 148.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 154.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 159.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 165.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 170.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 176.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 181.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 187.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 192.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 198.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 203.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 209.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 214.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 220.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 225.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 231.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 236.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 242.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 247.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 253.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 258.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 264.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 269.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 275.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 280.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 286.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 291.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 297.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 302.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 308.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 313.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 319.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 324.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 330.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 335.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 341.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 346.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 352.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 357.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 363.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 368.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 374.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 379.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 385.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 390.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 396.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 401.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 407.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 412.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 418.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 423.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 429.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 434.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 440.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 445.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 451.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 456.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 462.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 467.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 473.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 478.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 484.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 489.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 495.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 500.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 506.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 511.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 517.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 522.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 528.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 533.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 539.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 544.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 550.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 555.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 561.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 566.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 572.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 577.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 583.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 588.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 594.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 599.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 605.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 610.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 616.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 621.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 627.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 632.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 638.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 643.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 649.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 654.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 660.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 660.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "head",
+    "motion": "expand",
+    "colour": "breath",
+    "from": "top_of_head"
+   },
+   {
+    "t": 665.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 671.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 676.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 682.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 687.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 693.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 698.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 704.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 709.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 715.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 720.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 726.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 731.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 737.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 742.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_forehead",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 748.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 753.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 759.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 764.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 770.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 775.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 781.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 786.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 792.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 797.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 803.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 808.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 814.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 819.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 825.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 830.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 836.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 841.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "top_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 847.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 852.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 858.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 863.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 869.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 869.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "path",
+    "path": "spine",
+    "motion": "flow",
+    "mode": "fill",
+    "colour": "breath",
+    "dir": "forward"
+   },
+   {
+    "t": 874.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath",
+    "from": "middle_of_head"
+   },
+   {
+    "t": 874.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "path",
+    "path": "spine",
+    "motion": "flow",
+    "mode": "stream",
+    "colour": "breath",
+    "dir": "forward"
+   },
+   {
+    "t": 880.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 880.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "path",
+    "path": "spine",
+    "motion": "flow",
+    "mode": "fill",
+    "colour": "breath",
+    "dir": "forward"
+   },
+   {
+    "t": 885.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath",
+    "from": "middle_of_head"
+   },
+   {
+    "t": 885.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "path",
+    "path": "spine",
+    "motion": "flow",
+    "mode": "stream",
+    "colour": "breath",
+    "dir": "forward"
+   },
+   {
+    "t": 891.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 896.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 902.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 907.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 913.6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 918.6,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 924.6,
+    "dur": 14,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   }
+  ],
+  "attention": [
+   {
+    "t": 77.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 88.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 99.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 110.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 121.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 132.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 143.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 154.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 165.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 176.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 187.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 198.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 209.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 220.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 231.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 242.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 253.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 264.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 275.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 286.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 297.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 308.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 319.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 330.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 341.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 352.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 374.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 396.6,
+    "target": "head",
+    "size": "wide"
+   },
+   {
+    "t": 506.6,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 517.6,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 528.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 533.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 539.6,
+    "target": "middle_of_forehead",
+    "size": "wide"
+   },
+   {
+    "t": 550.6,
+    "target": "middle_of_forehead",
+    "size": "medium"
+   },
+   {
+    "t": 555.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 561.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 566.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 572.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 577.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 583.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 588.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 594.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 599.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 605.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 610.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 616.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 621.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 627.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 632.6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 638.6,
+    "target": "middle_of_forehead",
+    "size": "medium"
+   },
+   {
+    "t": 643.6,
+    "target": "middle_of_forehead",
+    "size": "medium"
+   },
+   {
+    "t": 649.6,
+    "target": "top_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 654.6,
+    "target": "top_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 660.6,
+    "target": "top_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 665.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 671.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 676.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 682.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 687.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 693.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 698.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 704.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 709.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 715.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 720.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 726.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 731.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 737.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 742.6,
+    "target": "middle_of_forehead",
+    "size": "narrow"
+   },
+   {
+    "t": 748.6,
+    "target": "top_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 759.6,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 764.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 770.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 775.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 781.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 786.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 792.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 797.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 803.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 808.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 814.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 819.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 825.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 830.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 836.6,
+    "target": "middle_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 841.6,
+    "target": "top_of_head",
+    "size": "narrow"
+   },
+   {
+    "t": 847.6,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 858.6,
+    "target": "middle_of_head",
+    "size": "wide"
+   },
+   {
+    "t": 869.6,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 874.6,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 880.6,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 885.6,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 891.6,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 902.6,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 913.6,
+    "target": "whole_body",
+    "size": "whole"
+   }
+  ],
+  "audio": [
+   {
+    "t": 0,
+    "sound": "bowl-start"
+   },
+   {
+    "t": 28.4,
+    "sound": "chime"
+   },
+   {
+    "t": 77.6,
+    "sound": "chime"
+   },
+   {
+    "t": 352.6,
+    "sound": "chime"
+   },
+   {
+    "t": 506.6,
+    "sound": "chime"
+   },
+   {
+    "t": 528.6,
+    "sound": "chime"
+   },
+   {
+    "t": 891.6,
+    "sound": "chime"
+   },
+   {
+    "t": 938.6,
+    "sound": "bell-end"
+   }
+  ],
+  "haptic": [],
+  "markers": [
+   {
+    "t": 0,
+    "kind": "stage",
+    "stage": "posture",
+    "label": "Sitting"
+   },
+   {
+    "t": 28.4,
+    "kind": "stage",
+    "stage": "recollection",
+    "label": "Recollecting the Triple Gem"
+   },
+   {
+    "t": 77.6,
+    "kind": "stage",
+    "stage": "counting",
+    "label": "Counting the breath with buddho"
+   },
+   {
+    "t": 352.6,
+    "kind": "stage",
+    "stage": "stillness",
+    "label": "The post at the edge of the sea"
+   },
+   {
+    "t": 440.6,
+    "kind": "round",
+    "round": 1,
+    "of": 6
+   },
+   {
+    "t": 451.6,
+    "kind": "round",
+    "round": 2,
+    "of": 6
+   },
+   {
+    "t": 462.6,
+    "kind": "round",
+    "round": 3,
+    "of": 6
+   },
+   {
+    "t": 473.6,
+    "kind": "round",
+    "round": 4,
+    "of": 6
+   },
+   {
+    "t": 484.6,
+    "kind": "round",
+    "round": 5,
+    "of": 6
+   },
+   {
+    "t": 495.6,
+    "kind": "round",
+    "round": 6,
+    "of": 6
+   },
+   {
+    "t": 506.6,
+    "kind": "stage",
+    "stage": "feeling",
+    "label": "Just the feeling of the breath"
+   },
+   {
+    "t": 528.6,
+    "kind": "stage",
+    "stage": "bases",
+    "label": "The bases of the breath (head)"
+   },
+   {
+    "t": 891.6,
+    "kind": "stage",
+    "stage": "whole-body",
+    "label": "Refined breath through the body"
+   }
+  ]
+ },
+ "physiology": {
+  "ratio": null,
+  "retention_max_s": 0,
+  "breaths_per_min": 5.817
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "beginner": false,
+  "applied": [],
+  "needs_teacher": false,
+  "contraindications": [
+   "Frequent headaches or nervous problems",
+   "Don't force the mind. If signs appear (lights, heat, tingling), don't be affected; breathe deep and long down into the heart and they go.",
+   "Most people find Method 2 easier and more relaxing; start there if this feels effortful."
+  ],
+  "stop_if": [
+   "headache",
+   "strain",
+   "pressure in the head"
+  ]
+ },
+ "warnings": []
+}

@@ -1,0 +1,42 @@
+{
+ "type": "cue_kit",
+ "sr": 48000,
+ "via": "earshot",
+ "cues": {
+  "bowl-start": {
+   "file": "bowl-start.mp3",
+   "wav": "bowl-start.wav",
+   "dur_s": 9.0,
+   "bytes": 54456,
+   "desc": "session start: one bowl strike, long tail"
+  },
+  "bell-end": {
+   "file": "bell-end.mp3",
+   "wav": "bell-end.wav",
+   "dur_s": 11.0,
+   "bytes": 66525,
+   "desc": "session end: two strikes"
+  },
+  "warn": {
+   "file": "warn.mp3",
+   "wav": "warn.wav",
+   "dur_s": 1.4,
+   "bytes": 8846,
+   "desc": "safety stop two-tone (Ask layer; never used elsewhere)"
+  },
+  "chime": {
+   "file": "chime.mp3",
+   "wav": "chime.wav",
+   "dur_s": 3.0,
+   "bytes": 18407,
+   "desc": "earshot pluck/kalimba_soft --pitch E6"
+  },
+  "tick": {
+   "file": "tick.mp3",
+   "wav": "tick.wav",
+   "dur_s": 0.339,
+   "bytes": 2420,
+   "desc": "earshot fit/land.light/finger_wood"
+  }
+ }
+}

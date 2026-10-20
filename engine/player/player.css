@@ -20,6 +20,10 @@
 .sp-port .sp-caption{align-items:center;font-size:clamp(18px,5vw,26px)}
 .sp-caption p{margin:0;opacity:0;transform:translateY(6px);transition:opacity .9s ease,transform .9s ease}
 .sp-caption.sp-in p{opacity:1;transform:none}
+.sp-caption{flex-wrap:wrap;align-content:flex-start}
+.sp-quote{display:block;flex-basis:100%;margin-top:.55em;font-size:.62em;font-style:italic;color:var(--gold,#c9a45c);opacity:0;transition:opacity 1.2s ease .4s;quotes:none}
+.sp-caption.sp-in .sp-quote{opacity:.92}
+.sp-quote[hidden]{display:none}
 .sp-controls{position:absolute;left:50%;bottom:clamp(10px,2.2vh,22px);transform:translateX(-50%);z-index:3;display:flex;align-items:center;gap:6px;
   padding:8px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(15,19,32,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
   transition:opacity .6s ease,transform .6s ease;max-width:calc(100% - 20px);overflow-x:auto;scrollbar-width:none}
@@ -79,3 +83,4 @@
 }
 @media (min-width:1600px){ .sp-btn{font-size:17px;min-height:52px} .sp-icon{width:52px;height:52px} .sp-play{width:60px;height:60px} .sp-time,.sp-rval{font-size:16px} }
 @media (prefers-reduced-motion:reduce){ .sp-caption p{transition:opacity .3s} .sp-controls{transition:none} }
+.sp-port .sp-caption{align-content:center}

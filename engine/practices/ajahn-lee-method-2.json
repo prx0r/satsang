@@ -113,8 +113,8 @@
     ]
   },
   "sources": [
-    { "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html", "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2, steps 1–7 (tr. Ṭhānissaro Bhikkhu)", "checked": "2026-10-20", "check": "work", "licence": "free distribution (dhammatalks.org)" }
+    { "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html", "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2, steps 1–7 (tr. Ṭhānissaro Bhikkhu)", "checked": "2026-10-20", "check": "work", "licence": "CC-BY-NC-4.0 (copyright page https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html, checked 2026-10-21)" }
   ],
   "teachers": ["ajahn-lee-dhammadharo", "thanissaro-bhikkhu"],
-  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Steps, resting-spot list, spreading routes and the headache caution are verified on the source page. Timings, the 'one leg then the other' neutral wording (the text gives a male/female starting side) and choosing the breastbone as the demo spot are ours.", "license": "CC-BY-4.0" }
+  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Steps, resting-spot list, spreading routes and the headache caution are verified on the source page. Timings, the 'one leg then the other' neutral wording (the text gives a male/female starting side) and choosing the breastbone as the demo spot are ours.", "license": "CC-BY-NC-4.0", "license_note": "adapted from a CC BY-NC 4.0 translation (attribution, noncommercial; the book counts any sale as commercial); was CC-BY-4.0 until 2026-10-21" }
 }

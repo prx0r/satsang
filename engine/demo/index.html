@@ -29,6 +29,7 @@ const PRACTICES = [
   ['kapalabhati-sivananda', 'Kapalabhati'],
   ['kapala-dharana-vbt34', 'Cavern of the skull'],
   ['bhramari', 'Bhramari'],
+  ['ajahn-lee-method-1', 'Ajahn Lee · bud-dho'],
 ]
 const qs = new URLSearchParams(location.search)
 const base = new URL('../', import.meta.url)
@@ -39,7 +40,7 @@ const loadP = id => cache[id] ||= getJSON(`practices/${id}.json`)
 
 const player = createPlayer(document.getElementById('stage'), {
   grammar, compile,
-  options: { beginner: qs.get('beginner') === '1', voice: qs.get('voice') === '1', muted: qs.get('muted') === '1' },
+  options: { beginner: qs.get('beginner') === '1', voice: qs.get('voice') === '1', muted: qs.get('muted') === '1', skip_stages: (qs.get('skip') || '').split(',').filter(Boolean) },
 })
 // practice picker lives in the player's header slot
 const chips = PRACTICES.map(([id, label], i) => {
@@ -48,8 +49,33 @@ const chips = PRACTICES.map(([id, label], i) => {
   b.onclick = () => choose(id)
   player.slot.appendChild(b); return b
 })
+// rendered media (TEXT-TO-PRACTICE §8): cached Fish narration clips + the generated cue kit, when the practice has them.
+// Narration clips are matched by caption text, so captions without a clip fall back to speechSynthesis.
+const media = {}
+async function loadMedia(id) {
+  if (id in media) return media[id]
+  try {
+    const [v, c] = await Promise.all([getJSON(`renders/${id}/voice/manifest.json`), getJSON(`renders/${id}/cues/cues.json`).catch(() => null)])
+    media[id] = { clips: new Map(v.lines.map(l => [l.text, new URL(l.file, base).href])), cues: c ? Object.fromEntries(Object.entries(c.cues).map(([k, x]) => [k, new URL(`renders/${id}/cues/${x.file}`, base).href])) : {}, voice: v.voice }
+  } catch { media[id] = null }
+  return media[id]
+}
+let clip = null
+const fallbackTTS = { speak(t) { if (!('speechSynthesis' in window)) return Promise.resolve(); speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t.replace(/[“”]/g, '')); u.rate = 0.86; return new Promise(r => { u.onend = r; u.onerror = r; speechSynthesis.speak(u) }) }, cancel() { try { speechSynthesis.cancel() } catch { } } }
+function useMedia(m) {
+  if (!m) { delete window.SatsangTTS; delete window.SatsangCues; return }
+  const caption = () => document.querySelector('.sp-caption p')?.textContent || ''
+  window.SatsangTTS = {
+    speak(text) { const url = m.clips.get(caption()) || m.clips.get(text); if (!url) return fallbackTTS.speak(text)
+      clip?.pause(); clip = new Audio(url); clip.volume = 1; return new Promise(r => { clip.onended = r; clip.onerror = r; clip.play().catch(r) }) },
+    cancel() { clip?.pause(); fallbackTTS.cancel() },
+  }
+  window.SatsangCues = { play(kind) { const u = m.cues[kind] || (kind === 'bell-soft' ? m.cues.chime : null); if (!u) return false; const a = new Audio(u); a.volume = 0.2; a.play().catch(() => { }); return true } }
+}
 async function choose(id, o = {}) {
-  const p = await loadP(id)
+  const [p, m] = await Promise.all([loadP(id), loadMedia(id)])
+  useMedia(m)
+  if (m && !qs.has('voice')) player.set({ voice: true })   // a rendered narration exists: voice on by default (V toggles)
   chips.forEach(c => c.setAttribute('aria-current', String(c.dataset.id === id)))
   player.load(p, o)
   const u = new URL(location.href); u.searchParams.set('p', id); u.searchParams.delete('t'); history.replaceState(null, '', u)

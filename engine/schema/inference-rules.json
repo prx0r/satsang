@@ -1,0 +1,53 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/inference-rules.json",
+ "title": "Inference rules: the only place an unstated value may come from",
+ "type": "object",
+ "required": [
+  "rules"
+ ],
+ "properties": {
+  "type": {
+   "const": "inference_rules"
+  },
+  "rules": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "sets",
+     "value",
+     "basis"
+    ],
+    "properties": {
+     "sets": {
+      "type": "string"
+     },
+     "value": {},
+     "basis": {
+      "enum": [
+       "engine default",
+       "convention",
+       "analogy",
+       "cited",
+       "grammar",
+       "policy",
+       "adaptation",
+       "editorial",
+       "measured"
+      ]
+     },
+     "cite": {
+      "type": "string"
+     },
+     "note": {
+      "type": "string"
+     },
+     "confidence": {
+      "type": "number"
+     }
+    }
+   }
+  }
+ }
+}

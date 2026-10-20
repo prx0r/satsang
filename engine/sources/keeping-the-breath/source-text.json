@@ -1,0 +1,65 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "keeping-the-breath",
+ "title": "Keeping the Breath in Mind & Lessons in Samādhi",
+ "work": "Keeping the Breath in Mind (Thai original by Ajaan Lee Dhammadharo, 1906–1961)",
+ "author": {
+  "name": "Ajaan Lee Dhammadharo",
+  "id": "ajahn-lee-dhammadharo"
+ },
+ "translator": {
+  "name": "Ṭhānissaro Bhikkhu (Geoffrey DeGraff)",
+  "id": "thanissaro-bhikkhu"
+ },
+ "edition": "seventh edition, revised, 2017 (first edition 1979); ebook ISBN 979-8-90281-313-2",
+ "publisher": "Metta Forest Monastery, Valley Center, CA",
+ "language": "en",
+ "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0001.html",
+ "licence": {
+  "id": "CC-BY-NC-4.0",
+  "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "evidence_url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html",
+  "evidence_segment": "copyright",
+  "evidence_quote": "This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported.",
+  "terms": {
+   "attribution": "Ajaan Lee Dhammadharo, tr. Ṭhānissaro Bhikkhu, dhammatalks.org, CC BY-NC 4.0",
+   "noncommercial": true,
+   "noncommercial_note": "The book defines “Commercial” as any sale, whether for commercial or non-profit purposes or entities. Renders made from it must not be sold, paywalled or monetised (incl. ad revenue) — open question for any YouTube plan.",
+   "adaptations": "allowed (CC BY-NC permits adapted material with attribution and an indication of changes)",
+   "store_verbatim": true
+  },
+  "checked": "2026-10-21"
+ },
+ "segments": [
+  {
+   "id": "method-1",
+   "label": "Method 1",
+   "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0008.html",
+   "file": "method-1.txt",
+   "title": "Method 1",
+   "chars": 10249,
+   "sha256": "057b9f802c1fb3e8ed3838aa2dc2f2a6e229d3bea313bab8977fcdfab58e4053"
+  },
+  {
+   "id": "method-2",
+   "label": "Method 2",
+   "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html",
+   "file": "method-2.txt",
+   "title": "Method 2",
+   "chars": 21134,
+   "sha256": "4a958f2fd947b0c94c7fe1e0abfa6c52c8548b0f3e9c5750a1effbcd048040d6"
+  },
+  {
+   "id": "copyright",
+   "label": "Copyright page",
+   "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html",
+   "file": "copyright.txt",
+   "title": "Copyright",
+   "chars": 680,
+   "sha256": "aed42751d0dee822eb3289679636428920decd5a5bfd12e38a767f4fd75afef6"
+  }
+ ],
+ "normalisation": "engine/tools/extract/lib.mjs htmlToText v1: <main id=content>, one paragraph per <p>/<li>, joined by a blank line, tags stripped, whitespace collapsed, NFC. Offsets are JS string (UTF-16) indices into the segment text; sha256 of that exact text.",
+ "retrieved": "2026-10-20"
+}

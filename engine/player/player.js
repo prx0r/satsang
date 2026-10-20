@@ -4,6 +4,7 @@
 //   const p = createPlayer(el, { grammar, practice, compile })   // compile from ../compile.mjs
 //   p.load(practice)  p.play()  p.pause()  p.seek(t)  p.renderAt(t)  p.set({ speed, rounds, beginner, voice, muted })
 // Narration: window.SatsangTTS = { speak(text, {lang}) → Promise, cancel() } overrides the speechSynthesis fallback.
+// Cues: window.SatsangCues = { play(kind) → true if handled } plays a rendered sound kit; the synth bell is the fallback.
 import { createRenderer } from './engine.js'
 
 const $ = (h) => { const d = document.createElement('div'); d.innerHTML = h.trim(); return d.firstChild }
@@ -25,6 +26,7 @@ function makeAudio() {
   return {
     bell(kind = 'bell-soft', muted) {
       if (muted) return
+      if (window.SatsangCues?.play?.(kind)) return   // rendered kit (PRACTICE-MEDIA §1); else the synth below
       try {
         ac ||= new (window.AudioContext || window.webkitAudioContext)()
         const f0 = kind === 'bell-end' ? 396 : 528, now = ac.currentTime
@@ -62,7 +64,7 @@ export function createPlayer(root, { grammar, compile, practice, options = {} })
       <div class="sp-slot"></div>
       <button class="sp-btn sp-icon sp-info-btn" aria-label="About this practice and its sources">${ICON.info}</button>
     </header>
-    <div class="sp-caption" aria-live="polite"><p></p></div>
+    <div class="sp-caption" aria-live="polite"><p></p><q class="sp-quote" hidden></q></div>
     <nav class="sp-controls" aria-label="Practice controls">
       <button class="sp-btn sp-icon sp-restart" aria-label="Restart">${ICON.restart}</button>
       <button class="sp-btn sp-icon sp-play sp-primary" aria-label="Play">${ICON.play}</button>
@@ -79,7 +81,7 @@ export function createPlayer(root, { grammar, compile, practice, options = {} })
   </div>`)
   root.appendChild(el)
   const q = s => el.querySelector(s)
-  const canvas = q('.sp-canvas'), capEl = q('.sp-caption'), capP = q('.sp-caption p')
+  const canvas = q('.sp-canvas'), capEl = q('.sp-caption'), capP = q('.sp-caption p'), capQ = q('.sp-caption .sp-quote')
   const audio = makeAudio()
   { // static film grain from a tiny generated tile (an SVG turbulence filter is too slow on TVs and headless)
     const c = document.createElement('canvas'); c.width = c.height = 128; const g = c.getContext('2d'), im = g.createImageData(128, 128)
@@ -97,7 +99,7 @@ export function createPlayer(root, { grammar, compile, practice, options = {} })
   const tts = () => window.SatsangTTS || speechTTS
 
   function compileNow() {
-    st.tl = compile(st.practice, grammar, { beginner: st.beginner, rounds: st.rounds ?? undefined })
+    st.tl = compile(st.practice, grammar, { beginner: st.beginner, rounds: st.rounds ?? undefined, skip_stages: options.skip_stages })
     st.rounds = st.tl.loops
     R.setTimeline(st.tl, st.practice)
     syncUI()
@@ -129,10 +131,12 @@ export function createPlayer(root, { grammar, compile, practice, options = {} })
     if (k !== st.voiceIdx) {
       const prev = st.voiceIdx; st.voiceIdx = k
       const v = V[k]
-      if (!v) { capP.textContent = ''; return }
+      if (!v) { capP.textContent = ''; capQ.hidden = true; return }
       if (prev < 0 || V[prev]?.text !== v.text) {
         capEl.classList.remove('sp-in'); void capEl.offsetWidth
         capP.textContent = v.text; capEl.classList.add('sp-in')
+        // optional original-text line (TEXT-TO-PRACTICE §5): shown, never spoken, with its citation
+        capQ.hidden = !v.quote; capQ.textContent = v.quote ? v.quote.text : ''; if (v.quote?.cite) capQ.title = v.quote.cite
       }
       if (st.playing && st.voice && !st.muted && v.say && k > prev) tts().speak(v.say).catch(() => { })
     }
@@ -268,6 +272,8 @@ export function createPlayer(root, { grammar, compile, practice, options = {} })
     get state() { return { t: st.t, playing: st.playing, total: st.tl?.total_s, beginner: st.beginner, rounds: st.tl?.loops } },
     get timeline() { return st.tl },
     freeze() { cancelAnimationFrame(raf); raf = 0 },
+    // deterministic offline rendering (preview videos): step the clock forward to t in 1/60 s frames, keeping trails
+    advance(t) { while (st.t + 1 / 60 <= t + 1e-9) { st.t += 1 / 60; R.frame(st.t, 1 / 60) } st.t = t; R.frame(t, 0); caption(t); syncUI() },
     hideGate() { q('.sp-gate').hidden = true; st.started = true },
     destroy() { cancelAnimationFrame(raf); ro.disconnect(); window.removeEventListener('keydown', onKey); el.remove() },
   }

@@ -1,0 +1,7 @@
+# render caches and large intermediates (rebuildable; see pipeline/*/REPORT.md)
+renders/*/voice/wav/
+renders/*/cues/*.wav
+renders/*/mix/*.m4a
+renders/*/preview/frames/
+renders/*/preview/preview-1280x720.mp4
+renders/*/preview/poster.jpg

@@ -578,7 +578,7 @@ export function createRenderer(canvas, grammar, opts = {}) {
     if (ctx.letterSpacing !== undefined) ctx.letterSpacing = '0.16em'
     ctx.fillText(word.toUpperCase(), x, y + R + fs * 1.6)
     const mk = [...tl.tracks.markers].reverse().find(m => m.t <= t)
-    const sub = seg.stroke ? `stroke ${seg.stroke} of ${seg.strokes}` : seg.round && mk ? `round ${mk.round} of ${mk.of}` : ''
+    const sub = seg.stroke ? `${seg.unit || 'stroke'} ${seg.stroke} of ${seg.strokes}` : seg.round && mk ? `round ${mk.round} of ${mk.of}` : ''
     if (sub) { ctx.font = `500 ${Math.max(10, fs - 2)}px "Inter Tight", system-ui, sans-serif`; ctx.fillStyle = 'rgba(146,154,171,0.85)'; ctx.fillText(sub.toUpperCase(), x, y + R + fs * 3.1) }
     if (ctx.letterSpacing !== undefined) ctx.letterSpacing = '0px'
   }

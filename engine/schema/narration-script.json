@@ -1,0 +1,143 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/narration-script.json",
+ "title": "Script: narration lines in plain modern English, each tied to instructions and a block",
+ "description": "Layer 5. Separate from the practice so wording can change (or be translated) without touching timing, and so the lint can prove the voice never says what the source doesn't support. build-practice.mjs writes each line into its block's caption/say/quote.",
+ "type": "object",
+ "required": [
+  "practice",
+  "lines"
+ ],
+ "properties": {
+  "type": {
+   "const": "narration_script"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "practice": {
+   "type": "string"
+  },
+  "language": {
+   "type": "string"
+  },
+  "authored_by": {
+   "type": "object"
+  },
+  "voice_policy": {
+   "type": "string"
+  },
+  "lines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "block",
+     "basis",
+     "instructions",
+     "text"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^L[0-9]{2,}$"
+     },
+     "block": {
+      "type": "string",
+      "description": "the practice block whose start is this line's timing slot; the slot runs until the next spoken line"
+     },
+     "basis": {
+      "enum": [
+       "quoted",
+       "paraphrased",
+       "inferred",
+       "framing"
+      ],
+      "description": "framing = ours, non-instructional (welcome, close)"
+     },
+     "instructions": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "inferred": {
+      "type": "object",
+      "properties": {
+       "rule": {
+        "type": "string"
+       },
+       "note": {
+        "type": "string"
+       },
+       "values": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       },
+       "loci": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "text": {
+      "type": "string",
+      "maxLength": 140,
+      "description": "caption, shown"
+     },
+     "say": {
+      "type": "string",
+      "description": "spoken form when it differs (pronunciation, length)"
+     },
+     "quote": {
+      "type": "object",
+      "required": [
+       "passage",
+       "text"
+      ],
+      "properties": {
+       "passage": {
+        "type": "string"
+       },
+       "text": {
+        "type": "string",
+        "description": "verbatim from that passage, ≤ 25 words; shown, never spoken"
+       }
+      }
+     },
+     "pause_after_s": {
+      "type": "number",
+      "minimum": 0
+     },
+     "cue_words": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "allOf": [
+     {
+      "if": {
+       "properties": {
+        "basis": {
+         "const": "inferred"
+        }
+       }
+      },
+      "then": {
+       "required": [
+        "inferred"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ }
+}

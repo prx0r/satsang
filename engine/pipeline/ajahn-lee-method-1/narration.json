@@ -1,0 +1,448 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "ajahn-lee-method-1",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-21"
+ },
+ "voice_policy": "plain modern English, second person, present tense; no promises of results; quotes only from the linked spans (≤ 25 words); Pali shown on screen, never spoken by TTS",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01",
+   "basis": "inferred",
+   "instructions": [
+    "i01"
+   ],
+   "inferred": {
+    "rule": "posture-accessibility",
+    "note": "“or any steady seat” is ours"
+   },
+   "text": "Sit upright. Half-lotus if it suits you, right leg on the left, hands palm-up, right on left. Or any steady seat.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L02",
+   "block": "i02",
+   "basis": "paraphrased",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Body straight. Mind on the task in front of you.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L03",
+   "block": "i03",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "Bring your palms together in front of the heart, and recall the qualities of the Buddha, the Dhamma and the Sangha.",
+   "pause_after_s": 1.2
+  },
+  {
+   "id": "L04",
+   "block": "i04.a",
+   "basis": "quoted",
+   "instructions": [
+    "i04"
+   ],
+   "text": "The Buddha is my mainstay.",
+   "quote": {
+    "passage": "method-1:p1.s3",
+    "text": "Buddho me nātho"
+   },
+   "pause_after_s": 1.0
+  },
+  {
+   "id": "L05",
+   "block": "i04.b",
+   "basis": "quoted",
+   "instructions": [
+    "i04"
+   ],
+   "text": "The Dhamma is my mainstay.",
+   "quote": {
+    "passage": "method-1:p1.s4",
+    "text": "Dhammo me nātho"
+   },
+   "pause_after_s": 1.0
+  },
+  {
+   "id": "L06",
+   "block": "i04.c",
+   "basis": "quoted",
+   "instructions": [
+    "i04"
+   ],
+   "text": "The Sangha is my mainstay.",
+   "quote": {
+    "passage": "method-1:p1.s5",
+    "text": "Saṅgho me nātho"
+   },
+   "pause_after_s": 1.0
+  },
+  {
+   "id": "L07",
+   "block": "i05",
+   "basis": "paraphrased",
+   "instructions": [
+    "i05"
+   ],
+   "text": "In your mind: buddho, buddho. Dhammo, dhammo. Sangho, sangho.",
+   "say": "In your mind. Buddho, buddho. Dhammo, dhammo. Sangho, sangho.",
+   "pause_after_s": 2.0
+  },
+  {
+   "id": "L08",
+   "block": "i06",
+   "basis": "paraphrased",
+   "instructions": [
+    "i06"
+   ],
+   "text": "Hands back in your lap. Silently, three times: buddho.",
+   "pause_after_s": 4.0
+  },
+  {
+   "id": "L09",
+   "block": "i08.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i07",
+    "i08"
+   ],
+   "text": "Breathing in, think “bud”…",
+   "say": "Breathing in: bud."
+  },
+  {
+   "id": "L10",
+   "block": "i08.out",
+   "basis": "inferred",
+   "instructions": [
+    "i08"
+   ],
+   "inferred": {
+    "rule": "pace-guide",
+    "note": "“at your own pace”: the orb's pace is our guide, not the text's"
+   },
+   "text": "…breathing out, “dho”. Ten breaths, at your own pace."
+  },
+  {
+   "id": "L11",
+   "block": "i09.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i09"
+   ],
+   "text": "Now “buddho” on the in-breath…"
+  },
+  {
+   "id": "L12",
+   "block": "i09.out",
+   "basis": "paraphrased",
+   "instructions": [
+    "i09"
+   ],
+   "text": "…and “buddho” on the out-breath. Seven breaths."
+  },
+  {
+   "id": "L13",
+   "block": "i10.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i10"
+   ],
+   "text": "Now one “buddho” for each whole breath, in and out. Five breaths."
+  },
+  {
+   "id": "L14",
+   "block": "i11.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i11"
+   ],
+   "text": "Now “buddho” three times in each breath. Three breaths."
+  },
+  {
+   "id": "L15",
+   "block": "i12.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i12"
+   ],
+   "text": "Stop counting. Just “bud” on the in-breath, “dho” on the out."
+  },
+  {
+   "id": "L16",
+   "block": "i13.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i13"
+   ],
+   "text": "Let the breath be relaxed and natural."
+  },
+  {
+   "id": "L17",
+   "block": "i14.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i14"
+   ],
+   "text": "Keep the mind still, with the breath at the nostrils."
+  },
+  {
+   "id": "L18",
+   "block": "i15.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i15"
+   ],
+   "text": "As it goes out, don't send the mind out after it. As it comes in, don't follow it in."
+  },
+  {
+   "id": "L19",
+   "block": "i16.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i16"
+   ],
+   "text": "Let your awareness be broad, cheerful, and open."
+  },
+  {
+   "id": "L20",
+   "block": "i17.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i17"
+   ],
+   "text": "Don't force the mind. Relax."
+  },
+  {
+   "id": "L21",
+   "block": "i18.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i18"
+   ],
+   "text": "Imagine you're breathing out into the wide open air."
+  },
+  {
+   "id": "L22",
+   "block": "i19.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i19"
+   ],
+   "text": "Be like a post at the edge of the sea. The tide rises and falls; the post doesn't move."
+  },
+  {
+   "id": "L23",
+   "block": "i12.r.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i12",
+    "i19"
+   ],
+   "text": "Bud… dho. Still, like the post."
+  },
+  {
+   "id": "L24",
+   "block": "i21.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i20"
+   ],
+   "text": "When you're this still, let go of “buddho”."
+  },
+  {
+   "id": "L25",
+   "block": "i21.b2.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i21"
+   ],
+   "text": "Simply feel the breath itself."
+  },
+  {
+   "id": "L26",
+   "block": "i24.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i22",
+    "i24"
+   ],
+   "text": "Now inward: the tip of the nose…"
+  },
+  {
+   "id": "L27",
+   "block": "i24.out",
+   "basis": "paraphrased",
+   "instructions": [
+    "i24"
+   ],
+   "text": "…and slowly up to the middle of the forehead."
+  },
+  {
+   "id": "L28",
+   "block": "i25.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i25"
+   ],
+   "text": "Keep your awareness broad."
+  },
+  {
+   "id": "L29",
+   "block": "i26.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i26"
+   ],
+   "text": "Rest a moment at the forehead, then come back to the nose."
+  },
+  {
+   "id": "L30",
+   "block": "i27.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i27"
+   ],
+   "text": "Now back and forth, nose to forehead, like climbing up and down a mountain. Seven times."
+  },
+  {
+   "id": "L31",
+   "block": "i28.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i28"
+   ],
+   "text": "Settle at the forehead. Don't go back to the nose."
+  },
+  {
+   "id": "L32",
+   "block": "i29.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i29"
+   ],
+   "text": "Move up to the middle of the top of the head, and settle there."
+  },
+  {
+   "id": "L33",
+   "block": "i30.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i30"
+   ],
+   "text": "Breathe in there; let it spread through the head…"
+  },
+  {
+   "id": "L34",
+   "block": "i30.out",
+   "basis": "paraphrased",
+   "instructions": [
+    "i30"
+   ],
+   "text": "…then return to the forehead."
+  },
+  {
+   "id": "L35",
+   "block": "i31.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i31"
+   ],
+   "text": "Back and forth between the forehead and the top of the head. Seven times."
+  },
+  {
+   "id": "L36",
+   "block": "i31.end.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i31"
+   ],
+   "text": "Finally, rest on the top of the head."
+  },
+  {
+   "id": "L37",
+   "block": "i32.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i32"
+   ],
+   "text": "Now into the centre of the brain…"
+  },
+  {
+   "id": "L38",
+   "block": "i32.out",
+   "basis": "paraphrased",
+   "instructions": [
+    "i32"
+   ],
+   "text": "…be still a moment, then back to the top of the head."
+  },
+  {
+   "id": "L39",
+   "block": "i33.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i33"
+   ],
+   "text": "Back and forth between these two spots: the top, and the middle."
+  },
+  {
+   "id": "L40",
+   "block": "i33.end.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i33"
+   ],
+   "text": "Finally, settle in the middle of the brain."
+  },
+  {
+   "id": "L41",
+   "block": "i34.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i34"
+   ],
+   "text": "Keep your awareness broad."
+  },
+  {
+   "id": "L42",
+   "block": "i35.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i35"
+   ],
+   "text": "Let the refined breath in the head spread down to the lower body."
+  },
+  {
+   "id": "L43",
+   "block": "i41.b1.in",
+   "basis": "inferred",
+   "instructions": [
+    "i40",
+    "i41"
+   ],
+   "inferred": {
+    "rule": "condition-dropped",
+    "note": "in the text these follow the light sign; here they are for the breath alone"
+   },
+   "text": "Keep awareness still and expansive. Let the refined breath fill the whole body."
+  },
+  {
+   "id": "L44",
+   "block": "close",
+   "basis": "framing",
+   "instructions": [
+    "i41"
+   ],
+   "text": "Stay with the whole body breathing, as long as you like."
+  }
+ ]
+}

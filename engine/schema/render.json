@@ -1,0 +1,203 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/render.json",
+ "title": "Render artefacts: voice manifest, cue kit, mix report",
+ "description": "Layer 7. What was rendered from the timeline, measured from the bytes (durations, word onsets, loudness) so a build can be checked without listening.",
+ "oneOf": [
+  {
+   "$ref": "#/$defs/voice_manifest"
+  },
+  {
+   "$ref": "#/$defs/cue_kit"
+  },
+  {
+   "$ref": "#/$defs/mix"
+  }
+ ],
+ "$defs": {
+  "voice_manifest": {
+   "type": "object",
+   "required": [
+    "type",
+    "practice",
+    "voice",
+    "lines"
+   ],
+   "properties": {
+    "type": {
+     "const": "voice_manifest"
+    },
+    "practice": {
+     "type": "string"
+    },
+    "voice": {
+     "type": "object",
+     "required": [
+      "provider",
+      "model",
+      "id",
+      "policy"
+     ],
+     "properties": {
+      "provider": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "id": {
+       "type": "string"
+      },
+      "title": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "policy": {
+       "type": "string",
+       "description": "must state it is not a real teacher's voice"
+      }
+     }
+    },
+    "lines": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "text",
+       "spoken",
+       "key",
+       "file",
+       "dur_s"
+      ],
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "text": {
+        "type": "string"
+       },
+       "spoken": {
+        "type": "string"
+       },
+       "key": {
+        "type": "string",
+        "description": "sha1(model|voice|speed|spoken)[:16]: the cache key"
+       },
+       "file": {
+        "type": "string"
+       },
+       "dur_s": {
+        "type": "number"
+       },
+       "words": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "w": {
+           "type": "string"
+          },
+          "t0": {
+           "type": "number"
+          },
+          "t1": {
+           "type": "number"
+          }
+         }
+        }
+       },
+       "heard": {
+        "type": "string"
+       },
+       "match": {
+        "type": "number"
+       }
+      }
+     }
+    }
+   }
+  },
+  "cue_kit": {
+   "type": "object",
+   "required": [
+    "type",
+    "cues"
+   ],
+   "properties": {
+    "type": {
+     "const": "cue_kit"
+    },
+    "sr": {
+     "type": "integer"
+    },
+    "via": {
+     "type": "string"
+    },
+    "cues": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "required": [
+       "file",
+       "dur_s"
+      ],
+      "properties": {
+       "file": {
+        "type": "string"
+       },
+       "wav": {
+        "type": "string"
+       },
+       "dur_s": {
+        "type": "number"
+       },
+       "bytes": {
+        "type": "integer"
+       },
+       "desc": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "mix": {
+   "type": "object",
+   "required": [
+    "file",
+    "integrated_lufs",
+    "true_peak_dbtp"
+   ],
+   "properties": {
+    "file": {
+     "type": "string"
+    },
+    "from_s": {
+     "type": "number"
+    },
+    "to_s": {
+     "type": "number"
+    },
+    "integrated_lufs": {
+     "type": "number",
+     "minimum": -15,
+     "maximum": -13
+    },
+    "true_peak_dbtp": {
+     "type": "number",
+     "maximum": -1
+    },
+    "lra": {
+     "type": "number"
+    },
+    "placed": {
+     "type": "array"
+    }
+   }
+  }
+ }
+}

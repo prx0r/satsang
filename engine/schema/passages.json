@@ -1,0 +1,97 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/passages.json",
+ "title": "Passages: verbatim sentence spans with offsets",
+ "description": "Layer 2. Deterministic split (tools/extract/segment.mjs) so instructions cite stable ids, and every quote can be re-checked against the hashed source by offset.",
+ "type": "object",
+ "required": [
+  "type",
+  "source",
+  "segmenter",
+  "passages"
+ ],
+ "properties": {
+  "type": {
+   "const": "passages"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "source": {
+   "type": "string"
+  },
+  "segmenter": {
+   "type": "string"
+  },
+  "source_sha256": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   }
+  },
+  "passages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "segment",
+     "para",
+     "start",
+     "end",
+     "text",
+     "sha256",
+     "kind_guess"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+:p[0-9]+\\.s[0-9]+$",
+      "description": "<segment>:p<paragraph>.s<sentence>"
+     },
+     "segment": {
+      "type": "string"
+     },
+     "para": {
+      "type": "string"
+     },
+     "start": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "end": {
+      "type": "integer"
+     },
+     "text": {
+      "type": "string",
+      "description": "== segment text [start, end)"
+     },
+     "sha256": {
+      "type": "string",
+      "description": "first 16 hex of sha256(text)"
+     },
+     "kind_guess": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "instruction",
+        "condition",
+        "warning",
+        "devotional",
+        "theory",
+        "description"
+       ]
+      },
+      "description": "rule-based hint for the extractor and the coverage check; never authoritative"
+     },
+     "numbers": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

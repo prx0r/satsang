@@ -1,7 +1,7 @@
 {
   "id": "satsang-visual-grammar",
-  "version": "1.0.0",
-  "updated": "2026-10-20",
+  "version": "1.1.0",
+  "updated": "2026-10-21",
   "note": "Maps practice-instruction semantics to visuals. Loci are attention-seats, not anatomy. Extends prx0r/deitybody (canonical-body-v1 address names + y values, nadis-ten channel topology, mechanism registry, operators, vitruvian-figure capsule canon). See GRAMMAR.md.",
   "frame": {
     "id": "satsang-body-v1",
@@ -32,7 +32,9 @@
     "dvadasanta":     { "at": [0, 4.25],   "label": "dvādaśānta", "gloss": "twelve fingers above the crown", "from": "deitybody canonical-body centers.dvadasanta (4.3)" },
     "sahasrara":      { "at": [0, 3.38],   "label": "sahasrāra", "gloss": "crown lotus", "kind": "chakra", "petals": 24, "alias": ["crown"], "from": "canonical crown 3.3" },
     "brahmarandhra":  { "at": [0, 3.27],   "label": "brahmarandhra", "gloss": "the fontanelle, 'aperture of Brahman' at the top of the head", "from": "deitybody dvadasanta_stations; Sivananda, The Science of Pranayama, glossary" },
+    "top_of_head":    { "at": [0, 3.3],    "label": "top of the head", "gloss": "Ajaan Lee's Third Base: the middle of the top of the head (Method 1)", "from": "plain-English label near brahmarandhra" },
     "lalata":         { "at": [0, 3.02],   "label": "lalāṭa", "gloss": "forehead", "alias": ["forehead"] },
+    "middle_of_forehead": { "at": [0, 3.02], "label": "forehead", "gloss": "Ajaan Lee's Second Base of the breath (Keeping the Breath in Mind, Method 1)", "from": "same point as lalāṭa; plain-English label for the Thai forest practices" },
     "kapala":         { "at": [0, 2.9],    "label": "kapāla", "gloss": "the space inside the skull, the 'cavern of Brahman'", "alias": ["skull_cavity", "brahma_cave", "cranium"] },
     "middle_of_head": { "at": [0, 2.84],   "label": "middle of the head", "gloss": "where left-right and front-back lines cross (Ajahn Lee resting spot)" },
     "ajna":           { "at": [0, 2.74],   "label": "ājñā", "gloss": "between the eyebrows", "kind": "chakra", "petals": 2, "alias": ["brow", "bhrumadhya", "trikuti"], "from": "canonical brow 2.75" },
@@ -143,5 +145,14 @@
     "max_hold_s": 30,
     "beginner": { "use": "practice.safety.beginner_override if present", "strip_holds_over_s": 10 },
     "always": "Stop is always one key away. No competitive breath-holding (deitybody ARCHITECTURE)."
+  },
+  "audio": {
+    "_note": "PRACTICE-MEDIA §1 sound vocabulary. Timeline audio events name a sound id; the player plays the practice's rendered kit (renders/<id>/cues/<id>.mp3) when present, else its WebAudio synth fallback. Levels: cues sit 18-24 dB under the voice.",
+    "bowl-start": { "event": "session start", "desc": "singing bowl strike, long tail", "synth": { "f0": 196, "partials": [1, 2.76, 5.4, 8.93], "decay_s": 9 } },
+    "bell-end":   { "event": "session end", "desc": "two bowl strikes", "synth": { "f0": 174.6, "strikes": 2 } },
+    "bell-soft":  { "event": "round end (legacy)", "desc": "soft bell", "synth": { "f0": 528 } },
+    "chime":      { "event": "stage change / round end", "desc": "tiny chime (earshot pluck/kalimba_soft E6)", "synth": { "f0": 1318.5 } },
+    "tick":       { "event": "phase change (off by default)", "desc": "soft wooden tick", "synth": { "f0": 900, "dur_s": 0.05 } },
+    "warn":       { "event": "safety stop", "desc": "distinct two-tone, never used elsewhere", "synth": { "tones": [660, 440] } }
   }
 }

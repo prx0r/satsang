@@ -1,0 +1,202 @@
+{
+ "type": "inference_rules",
+ "schema_version": 1,
+ "_note": "Every value the source does not state comes from one of these rules (or a cited span). A rule says what it sets, the value, and why. Changing a value here changes every practice that uses it on the next build; the practice records rule ids, not copies.",
+ "rules": {
+  "pace-guide": {
+   "sets": "seconds per in/out breath when the text gives no timing",
+   "value": {
+    "in_s": 5,
+    "out_s": 6
+   },
+   "basis": "engine default",
+   "cite": "engine/compile.mjs natural-phase default pace [5, 6]; the same pace as the existing Ajahn Lee Method 2 demo",
+   "note": "A visual guide only. Narration says once to breathe at your own pace; the orb is not a command.",
+   "confidence": 0.6
+  },
+  "moment-one-breath": {
+   "sets": "length of 'a moment' at a base",
+   "value": {
+    "breaths": 1
+   },
+   "basis": "convention",
+   "note": "one full breath: long enough to arrive, short enough not to dwell",
+   "confidence": 0.6
+  },
+  "traverse-with-breath": {
+   "sets": "how back-and-forth attention moves are paced",
+   "value": {
+    "per_round_trip": "one breath: out to the further spot on the in-breath, back on the out-breath"
+   },
+   "basis": "convention",
+   "note": "the text ties the moves to no breath phase; pairing them gives the visual a clock. Users can ignore the breath link.",
+   "confidence": 0.55
+  },
+  "count-by-analogy": {
+   "sets": "a repetition count the text leaves open between parallel steps",
+   "value": {
+    "from": "the count of the immediately preceding parallel steps"
+   },
+   "basis": "analogy",
+   "note": "Method 1 gives 'seven times' for Bases 1–2 and 2–3 and no count for 3–4",
+   "confidence": 0.5
+  },
+  "stillness-rounds": {
+   "sets": "breaths in the stillness stage (no length in the text: 'when you've reached this level of stillness')",
+   "value": {
+    "default": 6,
+    "min": 2,
+    "max": 40
+   },
+   "basis": "convention",
+   "note": "the user's rounds control (+/−) changes it",
+   "confidence": 0.5
+  },
+  "feel-breaths": {
+   "sets": "breaths of plain breath-feeling before the bases",
+   "value": {
+    "breaths": 2
+   },
+   "basis": "convention",
+   "confidence": 0.5
+  },
+  "spread-breaths": {
+   "sets": "breaths for 'let the refined breath … spread to the lower parts of the body'",
+   "value": {
+    "breaths": 2
+   },
+   "basis": "convention",
+   "confidence": 0.5
+  },
+  "whole-body-breaths": {
+   "sets": "breaths in the closing whole-body stage",
+   "value": {
+    "breaths": 3,
+    "rest_s": 14
+   },
+   "basis": "convention",
+   "confidence": 0.5
+  },
+  "attention-at-nostrils": {
+   "sets": "where attention is drawn while counting",
+   "value": {
+    "target": "nose_tip"
+   },
+   "basis": "cited",
+   "cite": "method-1:p3.s3 (focused on the breath as it comes in and out of the nostrils)",
+   "confidence": 0.8
+  },
+  "broad-awareness-visual": {
+   "sets": "visual for 'awareness broad'",
+   "value": {
+    "attention_size": "wide"
+   },
+   "basis": "grammar",
+   "cite": "engine/GRAMMAR.md attention sizes",
+   "confidence": 0.8
+  },
+  "posture-accessibility": {
+   "sets": "posture alternatives",
+   "value": {
+    "allow": "any steady, upright seat"
+   },
+   "basis": "policy",
+   "note": "the text gives half-lotus; we name it and allow any steady upright seat so the practice is usable on a chair",
+   "confidence": 0.7
+  },
+  "recollection-optional": {
+   "sets": "whether the devotional opening can be skipped",
+   "value": {
+    "optional": true
+   },
+   "basis": "policy",
+   "note": "kept by default (it is the text's first step); skippable for users who prefer a secular session",
+   "confidence": 0.8
+  },
+  "condition-dropped": {
+   "sets": "use of a line outside the condition the text attaches to it",
+   "value": {},
+   "basis": "adaptation",
+   "note": "the line is used for the breath sensation alone, without the light sign it follows in the text; flagged on every use",
+   "confidence": 0.6
+  },
+  "caution-cross-method": {
+   "sets": "applying a caution from one chapter to another",
+   "value": {},
+   "basis": "cited",
+   "cite": "method-2:p23.s1",
+   "note": "same author and book; the head bases are spots above the base of the throat",
+   "confidence": 0.8
+  },
+  "no-nimitta-scripting": {
+   "sets": "policy for signs and lights",
+   "value": {
+    "scripted": false
+   },
+   "basis": "policy",
+   "note": "signs are conditional on the meditator's experience; the session never asks anyone to see lights. Responses live in the Ask layer with the source's own handling.",
+   "confidence": 0.9
+  },
+  "narration-margin": {
+   "sets": "minimum silence after a narration line before the next line or phase-locked cue",
+   "value": {
+    "s": 0.6
+   },
+   "basis": "convention",
+   "note": "the voice never runs into the next instruction; long lines must be split or given another breath",
+   "confidence": 0.8
+  },
+  "editorial-facet": {
+   "sets": "discovery facets (aim, method) not stated as such in the text",
+   "value": {},
+   "basis": "editorial",
+   "note": "chosen by us from the content for filtering; never shown as the teacher's claim",
+   "confidence": 0.7
+  },
+  "eyes-closed-default": {
+   "sets": "eyes, when the text is silent",
+   "value": {
+    "eyes": "closed"
+   },
+   "basis": "convention",
+   "note": "Thai forest default; the dark player view assumes it",
+   "confidence": 0.6
+  },
+  "guidance-breaths": {
+   "sets": "breaths given to narrated guidance inside a breathing stage",
+   "value": {
+    "per_instruction": 1
+   },
+   "basis": "convention",
+   "note": "each scripted modifier (caution, image, widen…) gets one breath of its own so lines never stack; adds to the stage length",
+   "confidence": 0.6
+  },
+  "fit-narration": {
+   "sets": "length of non-breath blocks (posture, recollection)",
+   "value": {
+    "margin_s": 0.6
+   },
+   "basis": "measured",
+   "note": "seconds = max(min_s, measured narration + pause + margin); before TTS an estimate at 2.3 words/s",
+   "confidence": 0.8
+  },
+  "lead-in": {
+   "sets": "silence + bowl before the first word",
+   "value": {
+    "s": 6
+   },
+   "basis": "convention",
+   "note": "PRACTICE-MEDIA: session start = singing bowl strike with a long tail; the voice waits for the attack to settle",
+   "confidence": 0.8
+  },
+  "stage-chime": {
+   "sets": "sound at each stage change",
+   "value": {
+    "sound": "chime"
+   },
+   "basis": "convention",
+   "note": "PRACTICE-MEDIA 'round end: tiny chime', used for stage changes so the ear can follow the structure with eyes closed",
+   "confidence": 0.7
+  }
+ }
+}

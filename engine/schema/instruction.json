@@ -1,0 +1,508 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/instruction.json",
+ "title": "ExtractedInstructions: atomic instructions, each tied to verbatim spans",
+ "description": "Layer 3, the only model-assisted layer. One atomic instruction per action; every field either supported by its quote or carrying prov (rule or cite). Coverage lists what each passage became, so nothing in the source is silently dropped.",
+ "type": "object",
+ "required": [
+  "practice",
+  "source",
+  "stages",
+  "instructions"
+ ],
+ "properties": {
+  "type": {
+   "enum": [
+    "instructions",
+    "instructions_draft"
+   ]
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "practice": {
+   "type": "string"
+  },
+  "source": {
+   "type": "string"
+  },
+  "extractor": {
+   "type": "object",
+   "properties": {
+    "tool": {
+     "type": "string"
+    },
+    "mode": {
+     "enum": [
+      "llm",
+      "agent-manual"
+     ]
+    },
+    "model": {
+     "type": "string"
+    },
+    "prompt": {
+     "type": "string"
+    },
+    "prompt_sha256": {
+     "type": "string"
+    },
+    "date": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   }
+  },
+  "extracted_by": {
+   "type": "object"
+  },
+  "stages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "label"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "description": "also the PRACTICE-ASK phase id"
+     },
+     "label": {
+      "type": "string"
+     },
+     "optional": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "instructions": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/instruction"
+   }
+  },
+  "coverage_rules": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "passages",
+     "status",
+     "reason"
+    ],
+    "properties": {
+     "passages": {
+      "type": "string",
+      "description": "a passage id, '<a>..<b>' range or '<segment>:*'"
+     },
+     "status": {
+      "enum": [
+       "out_of_scope",
+       "cited_only"
+      ]
+     },
+     "reason": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "coverage": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "passage",
+     "status"
+    ],
+    "properties": {
+     "passage": {
+      "type": "string"
+     },
+     "status": {
+      "enum": [
+       "extracted",
+       "out_of_scope",
+       "cited_only",
+       "not_instruction",
+       "uncovered"
+      ]
+     },
+     "instructions": {
+      "type": "array"
+     },
+     "reason": {
+      "type": "string"
+     },
+     "kind_guess": {
+      "type": "array"
+     }
+    }
+   }
+  },
+  "passages_sha256": {
+   "type": "string"
+  },
+  "validation": {
+   "type": "object",
+   "properties": {
+    "errors": {
+     "type": "array",
+     "maxItems": 0
+    },
+    "warnings": {
+     "type": "array"
+    }
+   }
+  }
+ },
+ "$defs": {
+  "instruction": {
+   "type": "object",
+   "required": [
+    "id",
+    "stage",
+    "action",
+    "spans",
+    "scripted",
+    "confidence"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^i[0-9]{2,}$"
+    },
+    "stage": {
+     "type": "string"
+    },
+    "action": {
+     "enum": [
+      "posture",
+      "gesture",
+      "recollect",
+      "recite",
+      "breath_word",
+      "breathe",
+      "attend",
+      "move_attention",
+      "settle",
+      "spread",
+      "widen",
+      "let_go",
+      "image",
+      "caution",
+      "handle_sign",
+      "intent",
+      "teacher_advice",
+      "alternative"
+     ],
+     "description": "carriers (posture, recollect, recite, move_attention, settle, spread, and breath_word/let_go/attend with a count) make timed blocks; the rest ride on them"
+    },
+    "spans": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "passage",
+       "quote"
+      ],
+      "properties": {
+       "passage": {
+        "type": "string"
+       },
+       "quote": {
+        "type": "string",
+        "description": "verbatim substring of the passage; the LLM gives only this, the tool computes offsets"
+       },
+       "segment": {
+        "type": "string"
+       },
+       "start": {
+        "type": "integer"
+       },
+       "end": {
+        "type": "integer"
+       }
+      }
+     }
+    },
+    "object": {
+     "type": "string"
+    },
+    "gesture": {
+     "type": "string"
+    },
+    "language": {
+     "type": "string"
+    },
+    "words": {
+     "type": "object",
+     "description": "meditation words: in/out per breath phase, per_breath(+_n), or silent recitation",
+     "properties": {
+      "in": {
+       "type": "string"
+      },
+      "out": {
+       "type": "string"
+      },
+      "per_breath": {
+       "type": "string"
+      },
+      "per_breath_n": {
+       "type": "integer"
+      },
+      "silent": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "attention": {
+     "type": "object",
+     "required": [
+      "target"
+     ],
+     "properties": {
+      "target": {
+       "type": "string",
+       "description": "grammar locus/region/path id"
+      },
+      "size": {
+       "enum": [
+        "narrow",
+        "medium",
+        "wide",
+        "whole"
+       ]
+      }
+     }
+    },
+    "locus": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "region": {
+     "type": "string"
+    },
+    "path": {
+     "type": "object",
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "type": "string"
+      },
+      "to": {
+       "type": "string"
+      },
+      "back_and_forth": {
+       "type": "boolean"
+      },
+      "end": {
+       "type": "string"
+      }
+     }
+    },
+    "breath": {
+     "type": "object",
+     "properties": {
+      "phase": {
+       "enum": [
+        "in",
+        "out",
+        "in_out",
+        "natural"
+       ]
+      },
+      "quality": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "count": {
+     "type": "object",
+     "required": [
+      "value",
+      "unit"
+     ],
+     "properties": {
+      "value": {
+       "type": "number"
+      },
+      "unit": {
+       "type": "string"
+      },
+      "range": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      }
+     }
+    },
+    "duration": {
+     "type": "object",
+     "properties": {
+      "text": {
+       "type": "string"
+      },
+      "value": {
+       "type": "number"
+      },
+      "unit": {
+       "enum": [
+        "s",
+        "breaths",
+        "minutes"
+       ]
+      }
+     }
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "warnings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "intent": {
+     "type": "string",
+     "description": "the teacher's stated purpose or result, in our words"
+    },
+    "prov": {
+     "type": "object",
+     "description": "provenance per field; a field absent here must be supported by the quote (the validator checks numbers, loci and words)",
+     "additionalProperties": {
+      "$ref": "#/$defs/prov"
+     }
+    },
+    "scripted": {
+     "type": "boolean"
+    },
+    "exclude_reason": {
+     "type": "string"
+    },
+    "ask": {
+     "type": "boolean",
+     "description": "feeds a PRACTICE-ASK preload"
+    },
+    "confidence": {
+     "type": "number",
+     "minimum": 0,
+     "maximum": 1,
+     "description": "< 0.8 → review queue"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "scripted": {
+        "const": false
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "exclude_reason"
+      ]
+     }
+    }
+   ]
+  },
+  "prov": {
+   "type": "object",
+   "required": [
+    "basis"
+   ],
+   "properties": {
+    "basis": {
+     "enum": [
+      "quoted",
+      "paraphrased",
+      "inferred"
+     ],
+     "description": "quoted: the value is in the span's words; paraphrased: the meaning is in the span, the words/mapping are ours (note says how); inferred: not in the span, so a rule (tools/extract/defaults.json) or a cited other span must supply it"
+    },
+    "rule": {
+     "type": "string",
+     "description": "inference rule id in defaults.json"
+    },
+    "cite": {
+     "description": "passage id(s) of another span that supplies the value",
+     "oneOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     ]
+    },
+    "note": {
+     "type": "string"
+    },
+    "span": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "min_s": {
+     "type": "number"
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "basis": {
+        "const": "inferred"
+       }
+      }
+     },
+     "then": {
+      "anyOf": [
+       {
+        "required": [
+         "rule"
+        ]
+       },
+       {
+        "required": [
+         "cite"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

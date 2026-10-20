@@ -1,0 +1,173 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/source-text.json",
+ "title": "SourceText: one edition of a text, its licence evidence and its segments",
+ "description": "Layer 1 of TEXT-TO-PRACTICE. Exists so every later layer can say exactly which words of which edition it rests on, and whether we may store them. The text itself lives next to this file as <segment>.txt (normalised, hashed).",
+ "type": "object",
+ "required": [
+  "type",
+  "id",
+  "title",
+  "author",
+  "licence",
+  "segments",
+  "normalisation"
+ ],
+ "properties": {
+  "type": {
+   "const": "source_text"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
+  },
+  "title": {
+   "type": "string"
+  },
+  "work": {
+   "type": "string"
+  },
+  "author": {
+   "$ref": "#/$defs/agent"
+  },
+  "translator": {
+   "$ref": "#/$defs/agent"
+  },
+  "edition": {
+   "type": "string"
+  },
+  "publisher": {
+   "type": "string"
+  },
+  "language": {
+   "type": "string"
+  },
+  "url": {
+   "type": "string",
+   "format": "uri"
+  },
+  "retrieved": {
+   "type": "string",
+   "format": "date"
+  },
+  "licence": {
+   "type": "object",
+   "required": [
+    "id",
+    "evidence_url",
+    "evidence_quote",
+    "checked",
+    "terms"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "description": "SPDX-style id, e.g. CC-BY-NC-4.0, or a registry class (gift-of-dhamma, publisher-free)"
+    },
+    "url": {
+     "type": "string"
+    },
+    "evidence_url": {
+     "type": "string",
+     "format": "uri",
+     "description": "the copyright page the licence was read from"
+    },
+    "evidence_segment": {
+     "type": "string"
+    },
+    "evidence_quote": {
+     "type": "string",
+     "description": "verbatim licence sentence; tests check it appears in the evidence segment"
+    },
+    "checked": {
+     "type": "string",
+     "format": "date"
+    },
+    "terms": {
+     "type": "object",
+     "required": [
+      "attribution",
+      "store_verbatim"
+     ],
+     "properties": {
+      "attribution": {
+       "type": "string"
+      },
+      "noncommercial": {
+       "type": "boolean"
+      },
+      "noncommercial_note": {
+       "type": "string"
+      },
+      "adaptations": {
+       "type": "string"
+      },
+      "store_verbatim": {
+       "type": "boolean",
+       "description": "false → keep offsets + hashes only and fetch the words at build time; quotes in scripts ≤ 25 words"
+      }
+     }
+    }
+   }
+  },
+  "segments": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "url"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "label": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "file": {
+      "type": "string"
+     },
+     "chars": {
+      "type": "integer"
+     },
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     }
+    }
+   }
+  },
+  "normalisation": {
+   "type": "string"
+  }
+ },
+ "$defs": {
+  "agent": {
+   "type": "object",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "description": "person id in the Satsang graph"
+    }
+   }
+  }
+ }
+}

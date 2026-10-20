@@ -2,7 +2,7 @@
 // Pure ESM, no dependencies; runs in the browser (import { compile }) and in node (CLI below).
 // CLI: node compile.mjs practices/<id>.json [--beginner] [--rounds N] [--count S] [--grammar grammar.json] [--out file]
 
-export const ENGINE = 'satsang-engine/0.1'
+export const ENGINE = 'satsang-engine/0.2'
 const HOLDS = new Set(['hold_in', 'hold_out'])
 const PHASES = new Set(['in', 'hold_in', 'out', 'hold_out', 'natural', 'rest'])
 const r3 = x => Math.round(x * 1000) / 1000
@@ -10,7 +10,9 @@ const r3 = x => Math.round(x * 1000) / 1000
 /**
  * @param {object} practice  practice v2 (schema/practice-v2.json)
  * @param {object} grammar   grammar.json
- * @param {object} [opts]    { beginner?: bool, rounds?: int, count_s?: number, max_hold_s?: number }
+ * @param {object} [opts]    { beginner?: bool, rounds?: int, count_s?: number, max_hold_s?: number, skip_stages?: string[] }
+ * v0.2 (additive, TEXT-TO-PRACTICE.md §6): blocks may carry id, stage, instr, quote, voice_first, sound_first; repeat may carry unit;
+ * stages listed in opts.skip_stages or safety.beginner_override.skip_stages (beginner) are dropped; stage changes become markers.
  * @returns timeline (schema/timeline.json)
  */
 export function compile(practice, grammar, opts = {}) {
@@ -27,6 +29,10 @@ export function compile(practice, grammar, opts = {}) {
   rounds = Math.max(R.min ?? 1, Math.min(R.max ?? 99, rounds | 0))
   const capHold = Math.min(30, opts.max_hold_s ?? 30, practice.safety?.max_hold_s ?? 30, grammar?.safety?.max_hold_s ?? 30)
   const stripOver = beginner ? (grammar?.safety?.beginner?.strip_holds_over_s ?? 10) : Infinity
+  const skip = new Set([...(opts.skip_stages || []), ...(beginner ? bo.skip_stages || [] : [])])
+  if (skip.size) applied.push(`skipped stages: ${[...skip].join(', ')}`)
+  const stageLabel = Object.fromEntries((practice.stages || []).map(s => [s.id, s.label]))
+  let stage = null
 
   // address validation against the grammar
   const L = grammar?.loci || {}, P = grammar?.paths || {}, G = grammar?.regions || {}
@@ -74,9 +80,11 @@ export function compile(practice, grammar, opts = {}) {
   let t = 0, vol = 0, round = 0, said = new Set()
 
   function emitBlock(b, ctx) {
+    if (b.stage && skip.has(b.stage)) return
+    if (b.stage && b.stage !== stage) { stage = b.stage; tl.markers.push({ t: r3(t), kind: 'stage', stage, label: stageLabel[stage] }) }
     if (b.repeat != null) {
       const n = repeatN(b.repeat)
-      for (let i = 0; i < n; i++) for (const bb of b.blocks) emitBlock(bb, { ...ctx, stroke: b.repeat === 'rounds' ? undefined : i + 1, strokes: n, first: i === 0, last: i === n - 1 })
+      for (let i = 0; i < n; i++) for (const bb of b.blocks) emitBlock(bb.stage || !b.stage ? bb : { ...bb, stage: b.stage }, { ...ctx, stroke: b.repeat === 'rounds' ? undefined : i + 1, strokes: n, unit: b.unit, first: i === 0, last: i === n - 1, rid: b.id })
       return
     }
     const phase = b.phase
@@ -104,12 +112,12 @@ export function compile(practice, grammar, opts = {}) {
     } else {
       const vol0 = vol
       const vol1 = phase === 'in' ? (b.to ?? 1) : phase === 'out' ? (b.to ?? 0) : vol
-      tl.breath.push({ t: r3(t0), dur: r3(dur), phase, nostril: b.nostril, counts: c, round, stroke: ctx.stroke, strokes: ctx.strokes, vol0, vol1, label: b.label })
+      tl.breath.push({ t: r3(t0), dur: r3(dur), phase, nostril: b.nostril, counts: c, round, stroke: ctx.stroke, strokes: ctx.strokes, unit: ctx.unit, vol0, vol1, label: b.label })
       vol = vol1
     }
     // voice: caption (shown) and say (spoken); our own words
-    const text = b.caption
-    if (text) tl.voice.push({ t: r3(t0), dur: r3(dur), text, say: b.say === false ? null : (b.say || text), once: !!b.say_once })
+    const text = b.voice_first && ctx.first === false ? null : b.caption
+    if (text) tl.voice.push({ t: r3(t0), dur: r3(dur), text, say: b.say === false ? null : (b.say || text), once: !!b.say_once, ...(b.id ? { block: b.id } : {}), ...(b.quote ? { quote: b.quote } : {}), ...(b.stage ? { stage: b.stage } : {}) })
     if (b.say_once && text) { const k = text; if (said.has(k)) tl.voice[tl.voice.length - 1].say = null; said.add(k) }
     // visual cues
     const cues = [...(b.visual || []), ...(b.do || []).flatMap(verbCue)]
@@ -120,7 +128,7 @@ export function compile(practice, grammar, opts = {}) {
       tl.visual.push({ t: r3(t0 + (raw.delay || 0)), dur: r3(cd), phase, ...cue })
     }
     if (b.attention) { const a = normCue({ prim: 'attention', ...b.attention }); tl.attention.push({ t: r3(t0), target: a.target, size: a.size || 'medium' }) }
-    if (b.sound) tl.audio.push({ t: r3(t0 + (b.sound_at === 'end' ? dur : 0)), sound: b.sound })
+    if (b.sound && !(b.sound_first && ctx.first === false)) tl.audio.push({ t: r3(t0 + (b.sound_at === 'end' ? dur : 0)), sound: b.sound })
     if (b.haptic) tl.haptic.push({ t: r3(t0), pattern: b.haptic })
     t += dur
   }

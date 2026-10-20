@@ -24,6 +24,7 @@ const SHOTS = {
   'kapalabhati-sivananda': [['strokes', 23.6], ['rest-skull-shines', 42]],
   'kapala-dharana-vbt34': [['gather-up', 18], ['cavern', 40], ['brahmarandhra', 104]],
   'bhramari': [['inhale', 8.5], ['hum', 14], ['silence', 108]],
+  'ajahn-lee-method-1': [['recollection', 40], ['pali-quote', 43], ['counting-bud', 80], ['post-at-sea', 432], ['base-forehead', 560], ['base-top', 700], ['spread-body', 890], ['whole-body', 925]],
 }
 if (process.env.GATE) for (const k of Object.keys(SHOTS)) SHOTS[k] = k === 'nadi-shodhana-sivananda' ? [['start-card', null]] : []
 const DEV = { tv: { width: 1920, height: 1080, deviceScaleFactor: 1 }, desktop: { width: 1440, height: 900, deviceScaleFactor: 1 }, phone: { width: 390, height: 844, deviceScaleFactor: 2, isMobile: true, hasTouch: true } }

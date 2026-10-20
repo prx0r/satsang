@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://tantrafiles.xyz/schema/practice-v2.json",
   "title": "Practice v2 (executable)",
-  "description": "Practice v1 (specs/schema/practice.json) plus PRACTICE-ENGINE.md §2 facets, safety, and an executable script that engine/compile.mjs turns into a timeline. Every v1 field keeps its meaning; v2 adds schema_version, facets, safety, script.",
+  "description": "Practice v1 (specs/schema/practice.json) plus PRACTICE-ENGINE.md §2 facets, safety, and an executable script that engine/compile.mjs turns into a timeline. Every v1 field keeps its meaning; v2 adds schema_version, facets, safety, script. v2.1 (2026-10-21, additive, TEXT-TO-PRACTICE.md): optional stages, derivation, provenance, ask; blocks may carry id, stage, instr, quote, voice_first, sound_first; repeat may carry unit; safety.beginner_override.skip_stages and safety.alternatives. Practices without them compile exactly as before.",
   "allOf": [{ "$ref": "practice.json" }],
   "type": "object",
   "required": ["schema_version", "script", "safety"],
@@ -25,11 +25,16 @@
       "type": "object",
       "properties": {
         "max_hold_s": { "type": "number", "minimum": 0, "maximum": 30 },
-        "beginner_override": { "type": "object", "properties": { "params": { "type": "object" }, "rounds": { "type": "integer" } } },
+        "beginner_override": { "type": "object", "properties": { "params": { "type": "object" }, "rounds": { "type": "integer" }, "skip_stages": { "type": "array", "items": { "type": "string" } } } },
         "contraindications": { "type": "array", "items": { "type": "string" } },
-        "stop_if": { "type": "array", "items": { "type": "string" } }
+        "stop_if": { "type": "array", "items": { "type": "string" } },
+        "alternatives": { "type": "array", "items": { "type": "object", "properties": { "practice": { "type": "string" }, "when": { "type": "string" } } } }
       }
     },
+    "stages": { "type": "array", "description": "ordered stage ids (= PRACTICE-ASK phase ids; timeline markers kind=stage)", "items": { "type": "object", "required": ["id", "label"], "properties": { "id": { "type": "string" }, "label": { "type": "string" }, "optional": { "type": "boolean" } } } },
+    "derivation": { "type": "object", "description": "how this practice was built from a source text: files, hashes, extractor mode", "properties": { "pipeline": { "type": "string" }, "builder": { "type": "string" }, "extractor": { "type": "object" }, "source": { "type": "object" }, "files": { "type": "object" }, "inputs_sha256": { "type": "string" }, "voice_measured": { "type": "boolean" } } },
+    "provenance": { "type": "object", "properties": { "blocks": { "type": "object", "description": "block id → {instr:[…], seconds|count|duration|pairing|guidance: {basis, rule?, cite?}}", "additionalProperties": { "type": ["object", "null"] } }, "fields": { "type": "object", "additionalProperties": { "type": "object", "properties": { "basis": { "enum": ["quoted", "paraphrased", "inferred"] }, "instr": { "type": "array" }, "rule": { "type": "string" }, "note": { "type": "string" } } } } } },
+    "ask": { "type": "object", "properties": { "phases": { "type": "array", "items": { "type": "string" } }, "preload": { "type": "array", "description": "see schema/ask-preload.json" } } },
     "script": {
       "type": "object",
       "required": ["round"],
@@ -73,7 +78,15 @@
         "visual": { "type": "array", "items": { "$ref": "#/$defs/cue" } },
         "do": { "type": "array", "items": { "type": "object", "required": ["verb"], "properties": { "verb": { "type": "string", "description": "grammar.json verbs" } } } },
         "sound": { "type": "string" },
-        "haptic": { "type": "string" }
+        "haptic": { "type": "string" },
+        "id": { "type": "string", "description": "stable block id (instruction id + suffix) for narration slots and provenance" },
+        "stage": { "type": "string" },
+        "instr": { "type": "array", "items": { "type": "string" } },
+        "quote": { "type": "object", "properties": { "text": { "type": "string" }, "cite": { "type": "string" } }, "description": "original-text line shown under the caption, never spoken" },
+        "voice_first": { "type": "boolean", "description": "inside a repeat: caption/voice only on the first iteration" },
+        "sound_first": { "type": "boolean" },
+        "unit": { "type": "string", "description": "repeat only: what one iteration is called on the orb ('breath', 'round trip')" },
+        "sound_at": { "enum": ["start", "end"] }
       }
     },
     "cue": {
