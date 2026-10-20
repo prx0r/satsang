@@ -238,7 +238,7 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
   New: practices 84 (+7: ease-through-the-body-trika-prep + 6 VBT dhāraṇās), collections 9 (+ **trika-prep-week** journey, **vbt-foundations** series),
   staged texts 40 linked (+26 from pack 44) / 14 held (+2: Hareesh 2018 VBT PDF, archive.org Bäumer/Lakshman Joo PDF). Open-data 13,078 records.
 - engine/ belongs to the **engine-v2** agent (VBT interactive play from pack 45 + VBT-DOCTRINE/INTERACTIVE/ADAPTIVE); no other agent edits engine/.
-- Pack corrections are reproducible: app/tools/patch-ext-42-45.py on a copy of the packs, then stage-extensions → merge-sources → build-wise/hubs/collections.
+- Repo prx0r/satsang at 0d703de (+ this log line). Pack corrections are reproducible: app/tools/patch-ext-42-45.py on a copy of the packs, then stage-extensions → merge-sources → build-wise/hubs/collections.
 
 ## STATE 2026-10-21 01:50 +07 (previous close-out; superseded above where they differ)
 - Live versions: **wiser-web fe65aa0b**, **wiser-mcp f9405239**, wiser-api 007fc5c3 (unchanged). Domain ACTIVE='legacy' (tantrafiles.xyz).

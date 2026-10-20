@@ -251,3 +251,4 @@ Licence results (terms read 2026-10-21; registry entries carry evidenceUrl):
 Validation: schema 13,078 failing none; transcript guards 0 found (243 / 9,665); mcp/test.mjs + test-client all passed live; bundles 572 KB / 1,002 KB gzip.
 Live: /practice/vbt-mind-between-objects, /practice/vbt-twelve-centres, /collection/vbt-foundations, /collection/trika-prep-week, /resource/tantra112-full-vbt-text-all-112-practices-free 200.
 No screenshots this batch (no UI change; existing practice/collection templates). MCP get_resources: VBT texts match "VBT"/"Hareesh" queries, not "vijnana bhairava" (titles abbreviate).
+Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated site.gen.js excluded; secret scan clean).
