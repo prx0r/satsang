@@ -219,3 +219,14 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
 - DEPLOYED on tantrafiles.xyz: wiser-api 007fc5c3, wiser-web a96ea684 (1.57 MB gzip), wiser-mcp 2d6239de. Transcript guards passed (243 transcripts, 9,665 samples, 0 found); schema check 12,144 records failing none; node mcp/test.mjs all passed; test-client 35/35 against https://mcp.tantrafiles.xyz. Screenshots: shots-satsang/ (desktop+phone flash, For You, Teachers; local).
 - GitHub prx0r/satsang: commit 7c9b8dc "Rebrand to Satsang" pushed to main (root README notes domain.mjs + switch script).
 - ZONE BLOCKER: Cloudflare zone satsang.digital still pending. Registry (RDAP) nameservers are ariadne.ns.PORKBUN.com + burt.ns.PORKBUN.com (changed 2026-10-20 04:54 +07), hosts that don't exist, so satsang.digital doesn't resolve at all (SERVFAIL). Fix at Porkbun: Domain > Authoritative Nameservers = ariadne.ns.cloudflare.com and burt.ns.cloudflare.com (delete the porkbun ones). Then: `sh app/tools/switch-domain.sh` (in phases).
+
+## Keeper fixes, 2026-10-20 ~21:30 (domain still 'legacy')
+- Fixes at the source: `app/tools/source_maps.py` KEEPER_* (people, edges, places, place merges, URL bans, moved URLs) applied by
+  `app/tools/apply-keeper-fixes.py` (idempotent; merge-sources.py runs it last). Provenance (source_url, verified_on, confidence)
+  now flows people/places/edges -> wise.json/places.json -> MCP meta/prov. /place/<old> 301s via `app/web-worker/redirects.json`.
+- /schema/ index (mcp/build-discovery.mjs -> discovery/schema-index.html). Dyczkowski d. 2025-02-02 (Sanderson high, Gombrich low/disputed).
+- DEPLOYED: wiser-web 3f6d675e, wiser-mcp 60a96e07 (keeper site hook + site_health/list_findings/next_maintenance_task live).
+  Keeper daily run after: 0 error, 1 warn (bundle estimate). Commit be8fb37 on prx0r/satsang main.
+- Build note: build-clips.py reads every sources/ group with a REPORT.md, so it now pulls deep-india-study (unmerged). Run it with
+  WISER_SOURCES pointing at a folder of symlinks without deep-india-study. Its virtual-clip part titles are not deterministic
+  (Python set order); the live clips.json was kept.

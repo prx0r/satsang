@@ -1,0 +1,29 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "people": [
+  {
+   "aliases": [
+    "abd al-qadir",
+    "ghawth al-azam"
+   ],
+   "bio": "Hanbali preacher and mystic of Baghdad whose teaching founded the Qadiri order, the first widespread Sufi order.",
+   "id": "abdul-qadir-gilani",
+   "kind": "figure",
+   "living": false,
+   "name": "Abdul Qadir Gilani",
+   "role": "figure",
+   "short": "Abdul Qadir Gilani",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Abdul_Qadir_Gilani",
+   "tradition": "qadiri",
+   "traditions": [
+    "qadiri"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1077–1166",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

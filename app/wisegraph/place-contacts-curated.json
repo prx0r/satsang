@@ -1,0 +1,4 @@
+{
+ "_note": "Hand-checked contacts from staged sourcing groups (sources/ext-*/place-contacts.json, deep-india-study places). Exactly as published, each value with its source_url. Layered over place-contacts.json by tools/build-wise.py (curated wins).",
+ "places": {}
+}

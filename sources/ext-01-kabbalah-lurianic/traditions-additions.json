@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "nodes": [
+  {
+   "blurb": "The Kabbalah of Isaac Luria as recorded by Hayyim Vital: contraction (tzimtzum), the breaking of the vessels, and repair (tikkun).",
+   "id": "lurianic",
+   "kind": "lineage",
+   "label": "Lurianic Kabbalah",
+   "parent": "kabbalah",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

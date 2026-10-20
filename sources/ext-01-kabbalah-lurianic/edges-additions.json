@@ -1,0 +1,17 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "edges": [
+  {
+   "from": "isaac-luria",
+   "to": "lurianic",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "isaac-luria",
+   "to": "hayyim-vital",
+   "type": "teacher_of",
+   "conf": "high"
+  }
+ ]
+}

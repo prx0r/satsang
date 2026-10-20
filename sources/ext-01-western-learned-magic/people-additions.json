@@ -1,0 +1,78 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "people": [
+  {
+   "aliases": [
+    "agrippa von nettesheim"
+   ],
+   "bio": "Author of the Three Books of Occult Philosophy, the Renaissance summa joining natural, celestial and ceremonial magic.",
+   "id": "cornelius-agrippa",
+   "kind": "figure",
+   "living": false,
+   "name": "Heinrich Cornelius Agrippa",
+   "role": "figure",
+   "short": "Agrippa",
+   "source": "Documented dates; en.wikipedia.org/wiki/Heinrich_Cornelius_Agrippa",
+   "tradition": "learned-magic",
+   "traditions": [
+    "learned-magic",
+    "esoteric"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1486–1535",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "dr dee",
+    "007"
+   ],
+   "bio": "Mathematician, astrologer and angel-conversationalist to Elizabeth I; his Enochian workings with Edward Kelley defined English learned magic.",
+   "id": "john-dee",
+   "kind": "figure",
+   "living": false,
+   "name": "John Dee",
+   "role": "figure",
+   "short": "John Dee",
+   "source": "Documented dates; en.wikipedia.org/wiki/John_Dee",
+   "tradition": "learned-magic",
+   "traditions": [
+    "learned-magic",
+    "esoteric"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1527–1609",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "nolano"
+   ],
+   "bio": "Dominican turned Hermetic philosopher, burned in Rome in 1600; read the infinite universe as the unfolding of the divine mind.",
+   "id": "giordano-bruno",
+   "kind": "figure",
+   "living": false,
+   "name": "Giordano Bruno",
+   "role": "figure",
+   "short": "Giordano Bruno",
+   "source": "Documented dates; en.wikipedia.org/wiki/Giordano_Bruno",
+   "tradition": "learned-magic",
+   "traditions": [
+    "learned-magic",
+    "esoteric"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1548–1600",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

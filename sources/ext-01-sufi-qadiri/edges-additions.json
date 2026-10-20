@@ -1,0 +1,11 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "edges": [
+  {
+   "from": "abdul-qadir-gilani",
+   "to": "qadiri",
+   "type": "lineage_of",
+   "conf": "high"
+  }
+ ]
+}

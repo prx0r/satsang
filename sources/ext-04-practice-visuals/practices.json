@@ -1,0 +1,23 @@
+{
+ "_note": "staged from satsang-extensions/04-practice-visuals",
+ "practices": [
+  {
+   "contraindications": [
+    "Energy visualisation: stop if you feel agitated, pressured in the head or chest, or unwell.",
+    "Psychologically intense imagery; set aside if it overwhelms you."
+   ],
+   "howto": "Stand or sit straight. Picture a slender pillar of light along the midline of the body. Bring attention to five centers in turn, seeing each as a sphere of its colour: brilliant white above the crown; soft lavender at the throat; rose pink at the heart; deep violet at the loins; and at the feet the four earth tones quartered. Dwell briefly at each. Then picture light circulating: down the front of the body and up the spine, around and around, steady with the breath. Close by letting the light settle and fade. Learn the full form from the order or a qualified teacher; this outline only shows what the exercise is.",
+   "id": "middle-pillar-outline",
+   "name": "The Middle Pillar (outline)",
+   "needsTeacher": true,
+   "school": "golden-dawn",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Middle_Pillar"
+   ],
+   "source_note": "Regardie, The Middle Pillar (1938). Centres, colours and circulation as published; vibratory formulae omitted. Wikipedia link checked 200 on 2026-10-20.",
+   "visual": "middle-pillar",
+   "url_checked": "2026-10-20",
+   "url_status": "ok"
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "_note": "staged from satsang-extensions/03-collections",
+ "collections": [
+  {
+   "author": "Wiser",
+   "cadence": "self-paced",
+   "id": "rebirth-read-and-practise",
+   "intro": "The traditions disagree about what is reborn and whether anything is. Read their takes side by side, watch one talk per tradition, and practise the death reflections they share. Go gently; skip anything that overwhelms you.",
+   "kind": "set",
+   "title": "Rebirth: read and practise",
+   "topic": "rebirth",
+   "type": "collection",
+   "units": [
+    {
+     "intro": "Theravada: actions have consequences that outlive this body. Start with the five remembrances.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "rebirth",
+        "trad": "theravada"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "the-five-remembrances"
+      },
+      {
+       "role": "reflect",
+       "note": "Which of the five lands hardest? That one is your teacher this week."
+      }
+     ],
+     "n": 1,
+     "title": "The owner of my actions",
+     "track": "both"
+    },
+    {
+     "intro": "Tibetan: between death and rebirth lies the bardo. Prepare for it the way you would for a journey.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "rebirth",
+        "trad": "tibetan"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "preparing-for-the-bardo"
+      },
+      {
+       "role": "reflect",
+       "note": "What would you pack for a journey you cannot refuse?"
+      }
+     ],
+     "n": 2,
+     "title": "The between-state",
+     "track": "both"
+    },
+    {
+     "intro": "Advaita: before asking what is reborn, find who it is that fears death.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "rebirth",
+        "trad": "advaita"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "self-enquiry-who-dies"
+      },
+      {
+       "role": "reflect",
+       "note": "Notice the difference between thinking about the seeker and looking for it."
+      }
+     ],
+     "n": 3,
+     "title": "Who dies?",
+     "track": "both"
+    },
+    {
+     "intro": "Early suttas and the Platonists both kept death in daily view. Recollect the round; practise dying.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "trad": "thai-forest"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "recollecting-the-round"
+      },
+      {
+       "role": "practise",
+       "practice": "practising-dying-melete-thanatou"
+      },
+      {
+       "role": "reflect",
+       "note": "Two traditions, one exercise: what changes when death is remembered daily?"
+      }
+     ],
+     "n": 4,
+     "title": "Remembering, both ways",
+     "track": "both"
+    },
+    {
+     "intro": "Close with the shared ground: mindfulness of death as urgency for practice, not fear.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "rx": "mindful|maranasati|recollect|contemplat"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "mindfulness-of-death-maranasati"
+      },
+      {
+       "role": "reflect",
+       "note": "What would you stop putting off if you took impermanence seriously?"
+      }
+     ],
+     "n": 5,
+     "title": "Urgency, not fear",
+     "track": "both"
+    }
+   ]
+  }
+ ]
+}

@@ -19,6 +19,8 @@ def items(d, *keys):
     return next((v for v in d.values() if isinstance(v, list)), [])
 G = groups(SRC)
 log = collections.Counter(); notes = []
+REVIEW = []  # claims held back (living, low confidence) -> wisegraph/review-queue.json (merged with tools/stage-extensions.py's items)
+REVIEW_LIVING_GROUPS = {'deep-india-study'}  # deep groups merged under the review rules (2026-10-20); staged ext-* groups are gated by stage-extensions.py
 
 # ---------- traditions ----------
 tp = os.path.join(ROOT, 'wisegraph/traditions.json'); TD = J(tp); TR = {n['id']: n for n in TD['nodes']}
@@ -114,7 +116,8 @@ for g in G:
              'years': p.get('years'), 'bio': p.get('bio'), 'tagline': p.get('tagline'), 'aliases': p.get('aliases') or [],
              'channels': p.get('channels') or None, 'links': p.get('links') or None, 'works': p.get('works') or [],
              # living only when the sourcer checked Wikidata (no death date) and the person has a Wikidata item; PEOPLE_FIX can veto
-             'living': True if p.get('living') is True and p.get('wikidata') and str(p.get('years') or '').endswith('–') else None}
+             'living': True if p.get('living') is True and p.get('wikidata') and str(p.get('years') or '').endswith('–') and not g.startswith('ext-') else None,
+             'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}
         PB[pid] = {k: v for k, v in q.items() if v is not None}
         if q['wikidata']: BYWD[q['wikidata']] = pid
         log['people_added'] += 1
@@ -167,10 +170,13 @@ for g, p in deep_people():
         if trad and trad != q['tradition'] and q['tradition'] in [TR[trad]['parent'], TR.get(TR[trad]['parent'] or '', {}).get('parent')]: q['tradition'] = trad
         log['deep_people_merged'] += 1; continue
     if not trad: notes.append(f'person {pid} ({g}): no known tradition, skipped'); continue
+    held = g in REVIEW_LIVING_GROUPS and p.get('living') is True
+    if held: REVIEW.append({'pack': g, 'kind': 'living-claim', 'subject': 'person/' + pid, 'reason': 'living:true claimed by the sourcer; not set live until checked', 'severity': 'check'})
     q = {'id': pid, 'name': p['name'], 'short': p.get('short'), 'kind': 'speaker' if n_clips else 'figure', 'role': role, 'tradition': trad,
          'wikidata': p.get('wikidata'), 'years': p.get('years'), 'bio': p.get('bio'), 'aliases': p.get('aliases') or [],
          'channels': chans or None, 'links': links or None, 'works': p.get('works') or [],
-         'living': True if p.get('living') is True and p.get('wikidata') and str(p.get('years') or '').endswith('–') else None}
+         'living': True if not held and p.get('living') is True and p.get('wikidata') and str(p.get('years') or '').endswith('–') else None,
+         'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}
     PB[pid] = {k: v for k, v in q.items() if v not in (None, [])} | {'aliases': q['aliases'], 'works': q['works']}
     if q['wikidata']: BYWD[q['wikidata']] = pid
     log['deep_people_added'] += 1
@@ -189,7 +195,10 @@ def deep_edges(g):
             a, b = DEEP_PERSON_MAP.get(a, a), DEEP_PERSON_MAP.get(b, b)
             if e.get('target_kind') == 'place': PLACE_TEACH[b].append(a); continue
             conf = (e.get('conf') or e.get('confidence') or 'medium').lower()
-            if conf.startswith('low'): log['deep_edges_low_conf_held'] += 1; continue
+            if conf.startswith('low'):
+                log['deep_edges_low_conf_held'] += 1
+                if g in REVIEW_LIVING_GROUPS: REVIEW.append({'pack': g, 'kind': 'edge-low-confidence', 'subject': f'{a}->{b}:{e.get("type")}', 'reason': 'confidence low; held back', 'severity': 'check'})
+                continue
             ty = e.get('type')
             if ty == 'founded':
                 if dt(b) in TR: ty, b = 'lineage_of', dt(b)
@@ -230,6 +239,15 @@ for pid, fix in PEOPLE_FIX.items():
     if pid in PB:
         PB[pid].update(fix)
         if PB[pid].get('living') is False: PB[pid].pop('living')
+for g in G:  # staged packs: works attached to existing people, dated corrections
+    f = os.path.join(SRC, g, 'works-attach.json')
+    for a in (items(J(f), 'attach') if os.path.exists(f) else []):
+        q = PB.get(PERSON_MAP.get(a['person'], a['person']))
+        if not q: notes.append(f'works-attach {a["person"]}: unknown person'); continue
+        n0 = len(q.get('works') or []); q['works'] = union(q.get('works'), a['works'], lambda w: (w.get('id') or w['title']).lower()); log['works_attached'] += len(q['works']) - n0
+    f = os.path.join(SRC, g, 'years-fix.json')
+    for pid, y in ((J(f).get('set_years') or {}).items() if os.path.exists(f) else []):
+        if pid in PB and PB[pid].get('years') != y: PB[pid]['years'] = y; PB[pid].pop('living', None); log['years_fixed'] += 1
 for k in PERSON_SKIP: PB.pop(k, None)
 import re as _re
 def _wkey(w): return _re.sub(r'[^a-z0-9]+', ' ', _re.sub(r'\(.*?\)', '', w['title'].lower())).strip()
@@ -262,7 +280,8 @@ PAIR_TEACHER = {(e['from'], e['to']) for e in ED['edges'] if e['type'] == 'teach
 for g in G:
     for e in group_edges(g):
         # a medium-confidence teacher_of from the places group means "studied with", never heir (review 2026-10-20)
-        if g == 'places' and STUDIED_WITH_FROM_MEDIUM and e.get('type') == 'teacher_of' and e.get('conf') == 'medium':
+        if e.get('type') == 'founded' and nid(e['to']) in TR: e = {**e, 'type': 'lineage_of'}
+        if (g == 'places' or g.startswith('ext-')) and STUDIED_WITH_FROM_MEDIUM and e.get('type') == 'teacher_of' and e.get('conf') == 'medium':
             e = {**e, 'type': 'studied_with'}
             if (nid(e['from']), nid(e['to'])) in PAIR_TEACHER: continue  # already a teacher_of: keep that one
         a, b = nid(e['from']), nid(e['to'])
@@ -274,7 +293,7 @@ for g in G:
         if k in EK or a == b: continue
         if e['type'] == 'teacher_of' and (a, b, 'studied_with') in EK:  # promote: drop the looser edge
             ED['edges'] = [x for x in ED['edges'] if (x['from'], x['to'], x['type']) != (a, b, 'studied_with')]; EK.discard((a, b, 'studied_with'))
-        EK.add(k); ED['edges'].append({k2: e[k2] for k2 in ('from', 'to', 'type', 'conf', 'note', 'src') if e.get(k2)}); log['edges_added'] += 1
+        EK.add(k); ED['edges'].append({k2: e[k2] for k2 in ('from', 'to', 'type', 'conf', 'note', 'src', 'checked') if e.get(k2)}); log['edges_added'] += 1
 for e in EDGES_ADD:
     k = (e['from'], e['to'], e['type'])
     if k not in EK and (e['from'] in PB or e['from'] in TR) and (e['to'] in PB or e['to'] in TR): EK.add(k); ED['edges'].append(dict(e)); log['edges_added'] += 1
@@ -355,6 +374,7 @@ def merge_places():
             q.setdefault('events', []).append({k: v for k, v in {'name': e['name'], 'kind': e.get('kind'), 'when': e.get('usual_month') or e.get('recurrence'),
                                                                  'url': e.get('official_url'), 'note': e.get('note')}.items() if v})
             log['events'] += 1
+    merge_ext_places(out)
     # countries: recomputed from the merged places (so retags count), plus dhamma.org's non-centre course sites
     C0 = {c['iso2']: c for c in items(J(os.path.join(SRC, 'places', 'countries.json')), 'countries')} if os.path.exists(os.path.join(SRC, 'places', 'countries.json')) else {}
     C = {}
@@ -370,6 +390,95 @@ def merge_places():
     return {'_note': 'Generated by tools/merge-sources.py from sources/places (2026-10-20). Metadata only: names, coordinates, official links, '
             'recurring programmes with the official schedule link (no dates). teachers = founders or teachers historically tied to the place, '
             'not a claim about who teaches there now.', 'places': out, 'countries': sorted(C.values(), key=lambda c: -c['places'])}
+# ---------- places from staged packs (sources/ext-*/places-ext.json, place-links.json, main-teachers.json) + deep-india-study ----------
+EXT_CONTACTS = {}
+def merge_ext_places(out):
+    BYID = {p['id']: p for p in out}
+    def put(r, src):
+        r = {k: v for k, v in r.items() if v not in (None, [], '')}
+        if r['id'] in BYID:  # the same place: the existing record wins; fill gaps only, add teachers
+            q = BYID[r['id']]
+            for k, v in r.items():
+                if k not in q: q[k] = v
+            if r.get('teachers'): q['teachers'] = list(dict.fromkeys((q.get('teachers') or []) + r['teachers']))
+            log['places_ext_merged:' + src] += 1
+        else:
+            out.append(r); BYID[r['id']] = r; log['places_ext_added:' + src] += 1
+    def trads_of(p):
+        return list(dict.fromkeys(t for t in (dt(x) for x in p.get('traditions') or []) if t in TR))
+    for g in G:
+        f = os.path.join(SRC, g, 'places-ext.json')
+        if not os.path.exists(f): continue
+        for p in items(J(f), 'places'):
+            trads = PLACE_TRADS.get(p['id']) or trads_of(p)
+            if not trads and p['id'] not in BYID: notes.append(f'place {p["id"]} ({g}): no known tradition, skipped'); continue
+            lat, lng = p.get('lat'), p.get('lng')
+            if p['id'] in PLACE_NO_COORDS or lat is None or lng is None: lat = lng = None
+            put({'id': p['id'], 'name': p['name'], 'type': p.get('type') or 'centre', 'traditions': trads, 'country': p.get('country'), 'country_name': p.get('country_name'),
+                 'city': p.get('city'), 'lat': lat, 'lng': lng, 'coord_precision': p.get('coord_precision') if lat is not None else None, 'founded': p.get('founded'),
+                 'teachers': [t for t in (PERSON_MAP.get(x, x) for x in p.get('teacher_ids') or []) if t in PB], 'url': p.get('url'), 'schedule_url': p.get('schedule_url'),
+                 'contact_page': p.get('contact_page'), 'url_checked': p.get('url_checked'), 'wikidata': p.get('wikidata'), 'description': (p.get('description') or '')[:200] or None,
+                 'offers': p.get('offers') or None, 'language': p.get('language'), 'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}, g)
+    # deep India study: places-uk shape + contact block (strings, one source page) + alive status; dated "upcoming" items stay out (no dates stored)
+    f = os.path.join(SRC, 'deep-india-study', 'places.json')
+    if 'deep-india-study' in G and os.path.exists(f):
+        for p in items(J(f), 'places'):
+            trads = PLACE_TRADS.get(p['id']) or trads_of(p)
+            if not trads and p['id'] not in BYID: notes.append(f'place {p["id"]} (deep-india-study): no known tradition, skipped'); continue
+            url = p.get('url')
+            for bad, good in KEEPER_URL_BAN.items():
+                if url and bad in url: url = good
+            lat, lng = p.get('lat'), p.get('lng')
+            if p['id'] in PLACE_NO_COORDS or lat is None or lng is None: lat = lng = None
+            alive = (p.get('alive') or {}).get('status')
+            desc = (p.get('study') or '').split('. ')[0][:200] or None
+            put({'id': p['id'], 'name': p['name'], 'type': p.get('type') or 'centre', 'traditions': trads, 'country': p.get('country'), 'country_name': p.get('country_name'),
+                 'city': p.get('city'), 'lat': lat, 'lng': lng, 'coord_precision': p.get('coord_precision') if lat is not None else None,
+                 'teachers': [t for t in (DEEP_PERSON_MAP.get(x, PERSON_MAP.get(x, x)) for x in p.get('teachers') or []) if t in PB], 'url': url,
+                 'contact_page': (p.get('contact') or {}).get('page'), 'url_checked': p.get('verified_on'), 'wikidata': p.get('wikidata'), 'description': desc,
+                 'language': (p.get('language') or [None])[0] if isinstance(p.get('language'), list) else p.get('language'),
+                 'status': 'unknown' if alive == 'unknown' else None, 'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}, 'deep-india-study')
+            c = p.get('contact') or {}
+            srcp = c.get('page') or p.get('source_url') or url
+            if (c.get('email') or c.get('phone')) and srcp:
+                EXT_CONTACTS[p['id']] = {'checked': p.get('verified_on') or '2026-10-20', 'site': url,
+                                         **({'contact_page': {'url': c['page'], 'source_url': p.get('source_url') or c['page']}} if c.get('page') else {}),
+                                         **{k: [{'value': v, 'source_url': srcp} for v in c.get(k) or []] for k in ('email', 'phone') if c.get(k)}}
+    # person -> place ties and place -> place sisters (staged packs + the India study's founded/abbot_of/teaches_at edges)
+    links = []
+    for g in G:
+        f = os.path.join(SRC, g, 'place-links.json')
+        if os.path.exists(f): links += items(J(f), 'links')
+    f = os.path.join(SRC, 'deep-india-study', 'lineages.json')
+    if 'deep-india-study' in G and os.path.exists(f):
+        for e in items(J(f), 'edges'):
+            a, b = e.get('from') or e.get('source'), e.get('to') or e.get('target')
+            if b in BYID and e.get('type') in ('founded', 'abbot_of', 'teaches_at') and not str(e.get('confidence') or e.get('conf') or '').lower().startswith('low'):
+                links.append({'from': DEEP_PERSON_MAP.get(a, a), 'to': b, 'type': e['type']})
+    INV = {'branch_of': 'branch', 'sister_of': 'sister_of'}
+    for e in links:
+        a, b = PERSON_MAP.get(e['from'], e['from']), e['to']
+        if e['type'] in INV:
+            A, B = BYID.get(a), BYID.get(b)
+            if not A or not B: log['place_links_unknown'] += 1; continue
+            if any(s[0] == b for s in A.get('sisters') or []): continue
+            A.setdefault('sisters', []).append([b, e['type']] + ([e['note']] if e.get('note') else []))
+            B.setdefault('sisters', []).append([a, INV[e['type']]]); log['place_sisters'] += 1
+        else:
+            P0 = BYID.get(b)
+            if not P0 or a not in PB: log['place_links_unknown'] += 1; continue
+            if a not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [a]; log['place_teachers_linked'] += 1
+    # one main teacher per place (MINIMAL-ENTRY: teacher_model single|rotating|none); medium ones are queued for re-check by the stager
+    for g in G:
+        f = os.path.join(SRC, g, 'main-teachers.json')
+        for m in (items(J(f), 'links') if os.path.exists(f) else []):
+            P0, t = BYID.get(m['place']), PERSON_MAP.get(m['teacher'], m['teacher'])
+            if not P0 or t not in PB: log['main_teacher_unknown'] += 1; notes.append(f'main teacher {m["teacher"]} @ {m["place"]}: unknown'); continue
+            P0['main_teacher'] = t; P0['teacher_model'] = m.get('model') or 'single'; P0['main_teacher_conf'] = m.get('conf') or 'medium'
+            if t not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [t]
+            log['main_teachers'] += 1
+from source_maps import KEEPER_URL_BAN
+
 PL = merge_places()
 if PL: W(os.path.join(ROOT, 'wisegraph/places.json'), PL)
 
@@ -401,6 +510,46 @@ TP['version'] = 2
 TP['_note'] = (TP.get('_note', '').split(' | v2')[0] + ' | v2 (2026-10-20): merged the sourcing groups\' topics-additions (tools/merge-sources.py); '
                'rebirth stays the cross-tradition root with Western reincarnation as a leaf, karma likewise (kamma/western).')
 W(tpp, TP)
+# staged packs: curated contacts (official-published, per-value source) + texts/resources for the open data
+import re
+CUR = {}
+for g in G:
+    f = os.path.join(SRC, g, 'place-contacts.json')
+    if os.path.exists(f):
+        for pid, c in (J(f).get('places') or {}).items(): CUR[pid] = c
+for pid, c in EXT_CONTACTS.items(): CUR.setdefault(pid, c)
+W(os.path.join(ROOT, 'wisegraph/place-contacts-curated.json'), {'_note': 'Hand-checked contacts from staged sourcing groups (sources/ext-*/place-contacts.json, deep-india-study places). '
+  'Exactly as published, each value with its source_url. Layered over place-contacts.json by tools/build-wise.py (curated wins).', 'places': CUR})
+log['contacts_curated'] = len(CUR)
+RES = []
+for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older deep groups' texts.json are not wired; unchanged)
+    f = os.path.join(SRC, g, 'texts.json')
+    for t in (items(J(f), 'texts') if os.path.exists(f) else []):
+        if not t.get('link'): log['texts_linkless_held'] += 1; continue
+        sch = TRAD_MAP.get(t.get('school'), t.get('school'))
+        RES.append({'id': t['id'], 'title': t['title'], 'url': t['link'], 'kind': t.get('kind') or 'book', 'free': bool(re.search(r'free|gift|cc |cc-|creative commons|public domain', str(t.get('licence')), re.I)),
+                    'licence': t.get('licence'), 'traditions': [sch] if sch in TR else [], 'people': [x for x in [PERSON_MAP.get(t.get('author') or '', t.get('author'))] if x in PB],
+                    'note': t.get('note'), 'source_url': t['link'], 'checked': t.get('checked') or '2026-10-20', 'group': g})
+f = os.path.join(SRC, 'deep-india-study', 'resources.json')
+if 'deep-india-study' in G and os.path.exists(f):
+    for r in items(J(f), 'resources'):
+        if not str(r.get('url') or '').startswith('http'): continue
+        if str(r.get('confidence') or '').lower().startswith('low'):
+            REVIEW.append({'pack': 'deep-india-study', 'kind': 'resource-low-confidence', 'subject': 'resource/' + r['id'], 'reason': r.get('notes') or 'low confidence (permission unconfirmed)', 'severity': 'check'}); continue
+        RES.append({'id': r['id'], 'title': r['title'], 'url': r['url'], 'kind': r.get('kind'), 'free': r.get('access') == 'free', 'licence': {'free': 'free from the publisher', 'paid': 'paid', 'mixed': 'mixed: some free, some paid'}.get(r.get('access'), r.get('access')),
+                    'traditions': [t for t in (r.get('traditions') or []) if t in TR], 'people': [x for x in [DEEP_PERSON_MAP.get(r.get('person') or '', r.get('person'))] if x in PB],
+                    'note': r.get('notes'), 'source_url': r.get('source_url') or r['url'], 'checked': r.get('verified_on'), 'confidence': r.get('confidence'), 'group': 'deep-india-study'})
+os.makedirs(os.path.join(ROOT, 'site/data/wisegraph'), exist_ok=True)
+json.dump({'_note': 'Texts and resources from staged sourcing groups (tools/merge-sources.py). Links to the publisher only; never rehosted.', 'resources': RES},
+          open(os.path.join(ROOT, 'site/data/wisegraph/resources-ext.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
+log['resources_ext'] = len(RES)
+# review queue: merge this run's held claims into wisegraph/review-queue.json (stage-extensions.py writes the staged packs' items)
+qp = os.path.join(ROOT, 'wisegraph/review-queue.json')
+Q = J(qp) if os.path.exists(qp) else {'_note': 'Satsang review queue: claims held back from the live site until a human checks them.', 'items': []}
+QK = {(i['pack'], i['kind'], i['subject']) for i in Q['items']}
+for i in REVIEW:
+    if (i['pack'], i['kind'], i['subject']) not in QK: QK.add((i['pack'], i['kind'], i['subject'])); Q['items'].append({**i, 'queued': '2026-10-20'})
+W(qp, Q); log['review_queue'] = len(Q['items'])
 print(json.dumps({'groups': G, **log, 'traditions': len(TR), 'people': len(PB), 'edges': len(ED['edges']), 'topic_roots': len(tree), 'notes': notes}, ensure_ascii=False))
 # keeper fixes last (source_maps.KEEPER_*), so a re-merge never brings back a corrected fact
 import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'apply-keeper-fixes.py')], check=True)

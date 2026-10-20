@@ -1256,6 +1256,46 @@
    "parent": "shaktism",
    "wikidata": null,
    "blurb": "Clan (kula) cults of yoginīs and Bhairava; source of many later Śākta and haṭha practices."
+  },
+  {
+   "id": "franciscan-contemplative",
+   "label": "Franciscan contemplative",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": null,
+   "blurb": "The Franciscan contemplative current: poverty and minority as a way of seeing, from Francis and Clare through Bonaventure to today."
+  },
+  {
+   "id": "lurianic",
+   "label": "Lurianic Kabbalah",
+   "kind": "lineage",
+   "parent": "kabbalah",
+   "wikidata": null,
+   "blurb": "The Kabbalah of Isaac Luria as recorded by Hayyim Vital: contraction (tzimtzum), the breaking of the vessels, and repair (tikkun)."
+  },
+  {
+   "id": "chishti",
+   "label": "Chishti order",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": "The Sufi order of Muinuddin Chishti, rooted in Ajmer: music (sama, qawwali), service of the poor, and love of the teacher."
+  },
+  {
+   "id": "qadiri",
+   "label": "Qadiri order",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": "The Sufi order of Abdul Qadir Gilani of Baghdad: sober adherence to the law joined to inward poverty and reliance on God."
+  },
+  {
+   "id": "learned-magic",
+   "label": "Learned magic",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": "Renaissance learned magic: Ficino's Neoplatonic natural magic, Agrippa's three books, Dee's angelic conversations, Bruno's heroic frenzies. Studied, not practised, here."
   }
  ]
 }

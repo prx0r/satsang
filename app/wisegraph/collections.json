@@ -489,7 +489,7 @@
       {
        "role": "watch",
        "select": {
-        "rx": "tantras and emptiness|tantra.*empt"
+        "rx": "tantras and emptiness|tantra.*empt|empt.*tantra|emptiness .from .*vajray"
        }
       }
      ]

@@ -6502,7 +6502,14 @@
     }
    ],
    "aliases": [],
-   "works": [],
+   "works": [
+    {
+     "id": "the-tantric-body",
+     "kind": "book",
+     "title": "The Tantric Body",
+     "year": 2006
+    }
+   ],
    "wikidata": "Q4490975",
    "years": "b. 1954",
    "links": {
@@ -6619,7 +6626,14 @@
     "Website": "https://yoga.ames.ox.ac.uk/hyp/team"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "roots-of-yoga",
+     "kind": "book",
+     "title": "Roots of Yoga (with Mark Singleton)",
+     "year": 2017
+    }
+   ]
   },
   {
    "id": "jason-birch",
@@ -6804,7 +6818,14 @@
     "Website": "https://yoga.ames.ox.ac.uk/hyp/team"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "yoga-body",
+     "kind": "book",
+     "title": "Yoga Body",
+     "year": 2010
+    }
+   ]
   },
   {
    "id": "mary-reilly-nichols",
@@ -8197,7 +8218,14 @@
     "Website": "https://ocbs.org"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "origin-of-buddhist-meditation",
+     "kind": "book",
+     "title": "The Origin of Buddhist Meditation",
+     "year": 2007
+    }
+   ]
   },
   {
    "id": "rupert-gethin",
@@ -8220,7 +8248,14 @@
     "Website": "https://www.bristol.ac.uk/people/person/Rupert-Gethin-7c32c26a-8f6f-42f8-aaae-a4fd97124ed5/"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "foundations-of-buddhism",
+     "kind": "book",
+     "title": "The Foundations of Buddhism",
+     "year": 1998
+    }
+   ]
   },
   {
    "id": "steven-collins",
@@ -9501,7 +9536,14 @@
     "Website": "https://lsa.umich.edu/asian/people/faculty/dlopez.html"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "prisoners-of-shangri-la",
+     "kind": "book",
+     "title": "Prisoners of Shangri-La",
+     "year": 1998
+    }
+   ]
   },
   {
    "id": "dae-bong",
@@ -10477,7 +10519,14 @@
    "years": "1947–",
    "bio": "Hebrew University scholar of Kabbalah who reframed the field around ecstatic Kabbalah and Abraham Abulafia.",
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "kabbalah-new-perspectives",
+     "kind": "book",
+     "title": "Kabbalah: New Perspectives",
+     "year": 1988
+    }
+   ]
   },
   {
    "id": "nimatullahi-order",
@@ -10604,7 +10653,14 @@
    "years": "1919–2016",
    "bio": "American scholar of world religions, author of The World's Religions and Forgotten Truth.",
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "worlds-religions",
+     "kind": "book",
+     "title": "The World's Religions",
+     "year": 1991
+    }
+   ]
   },
   {
    "id": "james-cutsinger",
@@ -10653,7 +10709,14 @@
     "Website": "https://www.williamcchittick.com"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "sufi-path-of-knowledge",
+     "kind": "book",
+     "title": "The Sufi Path of Knowledge",
+     "year": 1989
+    }
+   ]
   },
   {
    "id": "nazim-al-haqqani",
@@ -10716,7 +10779,14 @@
    "tradition": "zohar",
    "bio": "Scholar of Kabbalah and translator of the Pritzker Edition of the Zohar; studied under Alexander Altmann at Brandeis.",
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "zohar-pritzker",
+     "kind": "book",
+     "title": "The Zohar, Pritzker Edition (translator)",
+     "year": 2004
+    }
+   ]
   },
   {
    "id": "prometheus-trust",
@@ -10757,7 +10827,14 @@
    "years": "1909–2005",
    "bio": "English Sufi author and Shakespeare scholar, disciple of Frithjof Schuon and onetime assistant to René Guénon in Cairo.",
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "muhammad-life-earliest-sources",
+     "kind": "book",
+     "title": "Muhammad: His Life Based on the Earliest Sources",
+     "year": 1983
+    }
+   ]
   },
   {
    "id": "rowan-williams",
@@ -11998,6 +12075,205 @@
    "lineageOnly": true,
    "aliases": [],
    "works": []
+  },
+  {
+   "id": "francis-of-assisi",
+   "name": "Francis of Assisi",
+   "short": "Francis of Assisi",
+   "kind": "figure",
+   "tradition": "franciscan-contemplative",
+   "years": "1181–1226",
+   "bio": "Troubadour turned friar of Assisi; married Lady Poverty and preached to birds, sultans and lepers alike.",
+   "aliases": [
+    "francesco",
+    "poverello"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "clare-of-assisi",
+   "name": "Clare of Assisi",
+   "short": "Clare of Assisi",
+   "kind": "figure",
+   "tradition": "franciscan-contemplative",
+   "years": "1194–1253",
+   "bio": "First follower of Francis and founder of the Poor Clares; kept the privilege of poverty against popes and cardinals.",
+   "aliases": [
+    "chiara"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "bonaventure",
+   "name": "Bonaventure",
+   "short": "Bonaventure",
+   "kind": "figure",
+   "tradition": "franciscan-contemplative",
+   "years": "1221–1274",
+   "bio": "Franciscan minister general who joined Aristotle to the mystical ascent: the soul's journey into God in six illuminations.",
+   "aliases": [
+    "doctor seraphicus"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "isaac-luria",
+   "name": "Isaac Luria",
+   "short": "Isaac Luria (the Ari)",
+   "kind": "figure",
+   "tradition": "lurianic",
+   "years": "1534–1572",
+   "bio": "Mystic of Safed whose two years of teaching (1569–1572) remade Kabbalah around tzimtzum, shevirat ha-kelim and tikkun.",
+   "aliases": [
+    "the ari",
+    "ari zal"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "hayyim-vital",
+   "name": "Hayyim Vital",
+   "short": "Hayyim Vital",
+   "kind": "figure",
+   "tradition": "lurianic",
+   "years": "1542–1620",
+   "bio": "Foremost disciple of Luria, whose notebooks (Etz Chaim) preserve nearly all we have of the master's teaching.",
+   "aliases": [
+    "vital"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "moinuddin-chishti",
+   "name": "Muinuddin Chishti",
+   "short": "Muinuddin Chishti",
+   "kind": "figure",
+   "tradition": "chishti",
+   "years": "1143–1236",
+   "bio": "Founder of the Chishti order in India, settled in Ajmer; remembered for service to the poor and love without distinction.",
+   "aliases": [
+    "muinuddin",
+    "khwaja gharib nawaz"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "nizamuddin-auliya",
+   "name": "Nizamuddin Auliya",
+   "short": "Nizamuddin",
+   "kind": "figure",
+   "tradition": "chishti",
+   "years": "1238–1325",
+   "bio": "Chishti master of Delhi whose assemblies joined princes and paupers; Amir Khusrau was his foremost disciple.",
+   "aliases": [
+    "nizamuddin",
+    "mahbub-e-ilahi"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "amir-khusrau",
+   "name": "Amir Khusrau",
+   "short": "Amir Khusrau",
+   "kind": "figure",
+   "tradition": "chishti",
+   "years": "1253–1325",
+   "bio": "Poet, musician and disciple of Nizamuddin; credited with shaping qawwali and Hindavi poetry at the Chishti court of Delhi.",
+   "aliases": [
+    "khusrau",
+    "amir khusro"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "abdul-qadir-gilani",
+   "name": "Abdul Qadir Gilani",
+   "short": "Abdul Qadir Gilani",
+   "kind": "figure",
+   "tradition": "qadiri",
+   "years": "1077–1166",
+   "bio": "Hanbali preacher and mystic of Baghdad whose teaching founded the Qadiri order, the first widespread Sufi order.",
+   "aliases": [
+    "abd al-qadir",
+    "ghawth al-azam"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "cornelius-agrippa",
+   "name": "Heinrich Cornelius Agrippa",
+   "short": "Agrippa",
+   "kind": "figure",
+   "tradition": "learned-magic",
+   "years": "1486–1535",
+   "bio": "Author of the Three Books of Occult Philosophy, the Renaissance summa joining natural, celestial and ceremonial magic.",
+   "aliases": [
+    "agrippa von nettesheim"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "john-dee",
+   "name": "John Dee",
+   "short": "John Dee",
+   "kind": "figure",
+   "tradition": "learned-magic",
+   "years": "1527–1609",
+   "bio": "Mathematician, astrologer and angel-conversationalist to Elizabeth I; his Enochian workings with Edward Kelley defined English learned magic.",
+   "aliases": [
+    "dr dee",
+    "007"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "giordano-bruno",
+   "name": "Giordano Bruno",
+   "short": "Giordano Bruno",
+   "kind": "figure",
+   "tradition": "learned-magic",
+   "years": "1548–1600",
+   "bio": "Dominican turned Hermetic philosopher, burned in Rome in 1600; read the infinite universe as the unfolding of the divine mind.",
+   "aliases": [
+    "nolano"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
   }
  ]
 }

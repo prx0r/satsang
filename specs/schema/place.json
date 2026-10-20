@@ -176,6 +176,30 @@
    "type": "string",
    "description": "e.g. dhamma.org, ajahn-chah-branch, ramakrishna-math."
   },
+  "mainTeacher": {
+   "type": "string",
+   "description": "Person id of the one teacher responsible now (MINIMAL-ENTRY, satsang-extensions 12); medium-confidence links are queued for re-check."
+  },
+  "teacherModel": {
+   "type": "string",
+   "enum": [
+    "single",
+    "rotating",
+    "none"
+   ]
+  },
+  "mainTeacherConfidence": {
+   "type": "string",
+   "enum": [
+    "high",
+    "medium",
+    "low"
+   ]
+  },
+  "status": {
+   "type": "string",
+   "description": "Activity status when not confirmed active (e.g. unknown)."
+  },
   "ids": {
    "$ref": "common.json#/$defs/ids"
   },

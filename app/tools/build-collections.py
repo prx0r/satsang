@@ -53,8 +53,8 @@ def add_practice(p, topic=None):
     rec = practices.get(pid)
     if not rec:
         mins = 10 if re.search(r'sit|breath|meditat|mantra|japa|prayer|awareness|zazen|shikantaza|mu\b', name + how, re.I) else 5
-        needs = bool(NEEDS.search(name + ' ' + how))
-        cautions = []
+        needs = bool(NEEDS.search(name + ' ' + how)) or p.get('needsTeacher') is True  # the sourcer's own flag always holds (satsang-extensions 04)
+        cautions = [str(x) for x in p.get('contraindications') or []][:3]
         if needs: cautions.append('Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.')
         if ENERGY.search(name + ' ' + how) and not needs: cautions.append('Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.')
         if re.search(r'death|dying|die|bardo|corpse', name + how, re.I): cautions.append('Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.')
@@ -68,7 +68,7 @@ def add_practice(p, topic=None):
     return pid
 for t, h in hubs.items():
     for p in h.get('practices', []): add_practice(p, t.split('/')[0])
-for f in sorted(glob.glob(os.path.join(WISER, 'sources', 'deep-*', 'practices.json'))):
+for f in sorted(glob.glob(os.path.join(WISER, 'sources', 'deep-*', 'practices.json')) + glob.glob(os.path.join(WISER, 'sources', 'ext-*', 'practices.json'))):
     d = J(f); L = d if isinstance(d, list) else d.get('practices', [])
     for p in L: add_practice(p)
 
@@ -96,6 +96,15 @@ def pick(sel, used, n=3):
     return out
 
 spec = J(os.path.join(APP, 'wisegraph/collections.json'))
+# staged packs (sources/ext-*/collections.json): new ids are appended; FOLD puts a pack's units into the canonical set instead of a twin
+FOLD = {'rebirth-read-and-practise': 'rebirth-across-traditions'}  # satsang-extensions 03 MERGE-NOTES: one rebirth set survives, never both
+BYCOL = {c['id']: c for c in spec['collections']}
+for f in sorted(glob.glob(os.path.join(WISER, 'sources', 'ext-*', 'collections.json'))):
+    for c in J(f).get('collections') or []:
+        tgt = BYCOL.get(FOLD.get(c['id'], ''))
+        if tgt is not None:
+            if not tgt.get('units'): tgt['units'] = c.get('units') or []
+        elif c['id'] not in BYCOL: spec['collections'].append(c); BYCOL[c['id']] = c
 out_cols, missing = [], []
 for col in spec['collections']:
     used, units = set(), []

@@ -205,7 +205,7 @@ for g in groups(SRC):
             if not r.get('parent') and '@' not in str(r.get('id')) and 60 <= int(r.get('dur') or 0) <= FULL: NAT_SHORT.add(str(r.get('id')))
 VSPAN = collections.defaultdict(list)  # parent -> accepted (start, end)
 def strip_speaker(t, names):  # 'Abiding in Emptiness | Yongey Mingyur Rinpoche' -> 'Abiding in Emptiness'
-    for n in sorted({x for x in names if x and len(x) > 3}, key=len, reverse=True):
+    for n in sorted({x for x in names if x and len(x) > 3}, key=lambda x: (-len(x), x)):  # deterministic (ties by name)
         e = re.escape(n)
         t2 = re.sub(r'\s*[|\-\u2013\u2014:~,]\s*(with |by )?(Prof\.?|Dr\.?|Ven\.?)?\s*' + e + r'\s*$', '', t, flags=re.I)
         t2 = re.sub(r'^\s*(Prof\.?|Dr\.?)?\s*' + e + r'\s*[|\-\u2013\u2014:~]\s*', '', t2, flags=re.I)
@@ -279,7 +279,7 @@ for g in groups(SRC):
                 tps.add(t)
                 if t not in conf or conf[t][0] < 0.9: conf[t] = [0.9, 'title']
             tps = {t for t in tps if '/' in t or t in mine or t in conf or any(x.startswith(t + '/') for x in tps)}
-        for t in list(tps):
+        for t in sorted(tps):
             if '/' in t:
                 root = t.split('/')[0]; tps.add(root)
                 if root not in conf and t in conf: conf[root] = list(conf[t])
@@ -290,12 +290,12 @@ for g in groups(SRC):
             if r.get('segTitleAuto'):  # machine segment title -> '<topic> and <topic> (from <lecture>)', named only from its tagged topics
                 lec = DEEP_LECTURE.get(r.get('ytTitle'), strip_speaker(r.get('ytTitle') or '', [P0['name']]))
                 labs = []
-                ok = [t for t in tps if conf.get(t, [0, 'talk'])[1] != 'talk' and not (t in ('texts/tantra', 'texts') and 'tantr' in lec.lower())]
+                ok = [t for t in sorted(tps) if conf.get(t, [0, 'talk'])[1] != 'talk' and not (t in ('texts/tantra', 'texts') and 'tantr' in lec.lower())]
                 ok = [t for t in ok if not any(x.startswith(t + '/') for x in ok)]
                 NAMEABLE = {'faith/ritual', 'meditation/mantra', 'guru', 'reality', 'consciousness', 'awakening', 'self', 'divine', 'death', 'rebirth', 'faith', 'meditation',
                             'mindfulness', 'meditation/breath', 'soul', 'gnosis', 'renunciation', 'imaginal'}
                 ok = [t for t in ok if '/' in t and not t.startswith(('emotions/', 'craving/')) or t in NAMEABLE]
-                for t in sorted(ok, key=lambda t: (-conf.get(t, [0])[0], '/' not in t)):
+                for t in sorted(ok, key=lambda t: (-conf.get(t, [0])[0], '/' not in t, t)):  # full key: titles never depend on set order (PYTHONHASHSEED)
                     lab = DEEP_TOPIC_SHORT.get(t) or ((topics_tree[t] if '/' not in t else topics_tree[t.split('/')[0]][t.split('/')[1]]).get('label') or '').lower()
                     if lab and lab not in labs and not any(lab in x or x in lab for x in labs): labs.append(lab)
                 if r.get('qa'): title = f'Questions and answers (from {lec})'
@@ -337,9 +337,9 @@ for g in groups(SRC):
 _seg = collections.defaultdict(list)
 for c in clips:
     if c.get('segAuto'): _seg[(c['parent'], c['title'])].append(c)
-for (pa, ti), L in _seg.items():
+for (pa, ti), L in sorted(_seg.items()):
     if len(L) > 1:
-        for i, c in enumerate(sorted(L, key=lambda c: c['start'])):
+        for i, c in enumerate(sorted(L, key=lambda c: (c['start'], c['id']))):
             c['title'] = c['segTitle'] = ti.replace(' (from ', f', part {i + 1} (from ', 1) if ' (from ' in ti else f'{ti}, part {i + 1}'
 stats.update({k: v for k, v in src_stats.items() if not k.startswith('topic_dropped')})
 if src_drop: stats.update({'source_dropped:' + k: v for k, v in src_drop.items()})

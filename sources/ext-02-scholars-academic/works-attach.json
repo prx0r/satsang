@@ -1,0 +1,137 @@
+{
+ "_note": "staged from satsang-extensions/02-scholars-academic",
+ "attach": [
+  {
+   "person": "christopher-wallis",
+   "works": [
+    {
+     "id": "tantra-illuminated",
+     "kind": "book",
+     "title": "Tantra Illuminated",
+     "year": 2012
+    }
+   ]
+  },
+  {
+   "person": "gavin-flood",
+   "works": [
+    {
+     "id": "the-tantric-body",
+     "kind": "book",
+     "title": "The Tantric Body",
+     "year": 2006
+    }
+   ]
+  },
+  {
+   "person": "james-mallinson",
+   "works": [
+    {
+     "id": "roots-of-yoga",
+     "kind": "book",
+     "title": "Roots of Yoga (with Mark Singleton)",
+     "year": 2017
+    }
+   ]
+  },
+  {
+   "person": "mark-singleton",
+   "works": [
+    {
+     "id": "yoga-body",
+     "kind": "book",
+     "title": "Yoga Body",
+     "year": 2010
+    }
+   ]
+  },
+  {
+   "person": "moshe-idel",
+   "works": [
+    {
+     "id": "kabbalah-new-perspectives",
+     "kind": "book",
+     "title": "Kabbalah: New Perspectives",
+     "year": 1988
+    }
+   ]
+  },
+  {
+   "person": "daniel-matt",
+   "works": [
+    {
+     "id": "zohar-pritzker",
+     "kind": "book",
+     "title": "The Zohar, Pritzker Edition (translator)",
+     "year": 2004
+    }
+   ]
+  },
+  {
+   "person": "william-chittick",
+   "works": [
+    {
+     "id": "sufi-path-of-knowledge",
+     "kind": "book",
+     "title": "The Sufi Path of Knowledge",
+     "year": 1989
+    }
+   ]
+  },
+  {
+   "person": "martin-lings",
+   "works": [
+    {
+     "id": "muhammad-life-earliest-sources",
+     "kind": "book",
+     "title": "Muhammad: His Life Based on the Earliest Sources",
+     "year": 1983
+    }
+   ]
+  },
+  {
+   "person": "huston-smith",
+   "works": [
+    {
+     "id": "worlds-religions",
+     "kind": "book",
+     "title": "The World's Religions",
+     "year": 1991
+    }
+   ]
+  },
+  {
+   "person": "donald-lopez",
+   "works": [
+    {
+     "id": "prisoners-of-shangri-la",
+     "kind": "book",
+     "title": "Prisoners of Shangri-La",
+     "year": 1998
+    }
+   ]
+  },
+  {
+   "person": "alexander-wynne",
+   "works": [
+    {
+     "id": "origin-of-buddhist-meditation",
+     "kind": "book",
+     "title": "The Origin of Buddhist Meditation",
+     "year": 2007
+    }
+   ]
+  },
+  {
+   "person": "rupert-gethin",
+   "works": [
+    {
+     "id": "foundations-of-buddhism",
+     "kind": "book",
+     "title": "The Foundations of Buddhism",
+     "year": 1998
+    }
+   ]
+  }
+ ]
+}

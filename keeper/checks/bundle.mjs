@@ -7,6 +7,8 @@ import zlib from 'node:zlib'
 import { ROOT } from '../lib/util.mjs'
 const gz = (files) => { const bufs = files.filter((f) => fs.existsSync(f)).map((f) => fs.readFileSync(f)); const raw = Buffer.concat(bufs); return { raw: raw.length, gzip: zlib.gzipSync(raw, { level: 9 }).length, files: bufs.length } }
 const walk = (d, re) => fs.existsSync(d) ? fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name), re) : re.test(e.name) ? [path.join(d, e.name)] : []) : []
+// files the site Worker serves from KV, not from its bundle (app/web-worker/kv-paths.json)
+const KVP = new Set((() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'app/web-worker/kv-paths.json'), 'utf8')).paths } catch { return [] } })())
 export default {
   id: 'bundle', cadence: 'weekly', full: true,
   doc: 'A Worker script is near or over the 3 MB gzip Free-plan limit. Levers: move clips.json and meta.gen.js to KV like the open-data dumps (site); slim mcp/data/wiser.mcp.json (MCP). Never upgrade the plan (no purchases).',
@@ -15,7 +17,7 @@ export default {
     const ww = process.env.KEEPER_APP_DIR ? path.join(process.env.KEEPER_APP_DIR, 'web-worker') : path.join(ROOT, 'app/web-worker') // KEEPER_APP_DIR: a built app/ checkout
     const exact = fs.existsSync(path.join(ww, 'site.gen.js'))
     out.site = exact ? { ...gz(['site.gen.js', 'meta.gen.js', 'resources.gen.js', 'worker.js'].map((f) => path.join(ww, f))), basis: 'build output' }
-      : { ...gz([...['meta.gen.js', 'resources.gen.js', 'worker.js'].map((f) => path.join(ww, f)), path.join(ROOT, 'app/clips.site.json'), ...walk(path.join(ROOT, 'app/site'), /\.(html|css|js|json|txt|xml|svg)$/).filter((f) => !/\/data\/(open|dump)\//.test(f))]), basis: 'estimate from tracked inputs (build output absent)' }
+      : { ...gz([...['meta.gen.js', 'resources.gen.js', 'worker.js'].map((f) => path.join(ww, f)), ...(KVP.has('/clips.json') ? [] : [path.join(ROOT, 'app/clips.site.json')]), ...walk(path.join(ROOT, 'app/site'), /\.(html|css|js|json|txt|xml|svg)$/).filter((f) => !/\/data\/(open|dump)\//.test(f) && !KVP.has('/' + path.relative(path.join(ROOT, 'app/site'), f)))]), basis: 'estimate from tracked inputs (build output absent; KV-served files excluded)' }
     out.mcp = { ...gz([path.join(ROOT, 'mcp/data/wiser.mcp.json'), ...walk(path.join(ROOT, 'mcp/src'), /\.mjs$/), ...walk(path.join(ROOT, 'mcp/discovery'), /\.(txt|json|html)$/)]), basis: 'estimate (data + src + discovery)' }
     for (const [k, v] of Object.entries(out)) {
       if (!v.files) continue

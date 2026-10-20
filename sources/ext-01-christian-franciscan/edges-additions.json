@@ -1,0 +1,18 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "edges": [
+  {
+   "from": "francis-of-assisi",
+   "to": "franciscan-contemplative",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "francis-of-assisi",
+   "to": "clare-of-assisi",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Francis received Clare's vows and remained her lifelong spiritual guide."
+  }
+ ]
+}

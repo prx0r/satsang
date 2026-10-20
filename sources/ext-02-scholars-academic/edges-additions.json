@@ -1,0 +1,29 @@
+{
+ "_note": "staged from satsang-extensions/02-scholars-academic",
+ "edges": [
+  {
+   "from": "louis-renou",
+   "to": "lilian-silburn",
+   "type": "academic_supervisor_of",
+   "conf": "high"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "mark-dyczkowski",
+   "type": "academic_supervisor_of",
+   "conf": "high"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "alexander-wynne",
+   "type": "academic_supervisor_of",
+   "conf": "high"
+  },
+  {
+   "from": "elizabeth-de-michelis",
+   "to": "mark-singleton",
+   "type": "academic_supervisor_of",
+   "conf": "high"
+  }
+ ]
+}

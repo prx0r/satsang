@@ -1,0 +1,135 @@
+{
+ "_note": "staged from satsang-extensions/04-practice-visuals",
+ "collections": [
+  {
+   "author": "Wiser",
+   "cadence": "daily",
+   "id": "middle-pillar-week",
+   "intro": "One outline, seven sittings. Each day adds one centre to the pillar, then rests in the circulation. Ten minutes a day. This is orientation only: the full form is learnt in the order or from a qualified teacher.",
+   "kind": "visualisation-cycle",
+   "title": "Middle Pillar week",
+   "type": "collection",
+   "units": [
+    {
+     "intro": "The pillar first: light along the midline, crown to feet. Nothing else.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "Can you feel the midline as one continuous line? If not, that is the work."
+      }
+     ],
+     "day": 1,
+     "n": 1,
+     "title": "The pillar",
+     "track": "practice"
+    },
+    {
+     "intro": "Add the crown: brilliant white above the head, the source of the light.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "White first: the colour of undifferentiated light."
+      }
+     ],
+     "day": 2,
+     "n": 2,
+     "title": "Crown",
+     "track": "practice"
+    },
+    {
+     "intro": "Add the throat: soft lavender, where the light narrows into speech.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "Notice any pressure in the throat and breathe around it, never through force."
+      }
+     ],
+     "day": 3,
+     "n": 3,
+     "title": "Throat",
+     "track": "practice"
+    },
+    {
+     "intro": "Add the heart: rose pink, the largest sphere, the seat of the circulation.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "The heart centre carries the practice. Give it the most time."
+      }
+     ],
+     "day": 4,
+     "n": 4,
+     "title": "Heart",
+     "track": "practice"
+    },
+    {
+     "intro": "Add the loins: deep violet, where the light gathers before descending.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "Gathering is not grasping. Let the violet hold without pulling."
+      }
+     ],
+     "day": 5,
+     "n": 5,
+     "title": "Loins",
+     "track": "practice"
+    },
+    {
+     "intro": "Add the feet: the quartered earth tones grounding the whole pillar.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "A pillar with no foundation is a fantasy. Feel the feet."
+      }
+     ],
+     "day": 6,
+     "n": 6,
+     "title": "Feet",
+     "track": "practice"
+    },
+    {
+     "intro": "The whole week in one sit: five centres, then the circulation down the front and up the spine with the breath.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "middle-pillar-outline"
+      },
+      {
+       "role": "reflect",
+       "note": "If the circuit runs on its own, let it. If not, return to the heart."
+      }
+     ],
+     "day": 7,
+     "n": 7,
+     "title": "The circulation",
+     "track": "practice"
+    }
+   ]
+  }
+ ]
+}

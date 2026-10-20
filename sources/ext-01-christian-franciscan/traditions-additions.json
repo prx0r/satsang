@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "nodes": [
+  {
+   "blurb": "The Franciscan contemplative current: poverty and minority as a way of seeing, from Francis and Clare through Bonaventure to today.",
+   "id": "franciscan-contemplative",
+   "kind": "school",
+   "label": "Franciscan contemplative",
+   "parent": "christian",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

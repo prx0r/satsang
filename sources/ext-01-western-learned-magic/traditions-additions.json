@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "nodes": [
+  {
+   "blurb": "Renaissance learned magic: Ficino's Neoplatonic natural magic, Agrippa's three books, Dee's angelic conversations, Bruno's heroic frenzies. Studied, not practised, here.",
+   "id": "learned-magic",
+   "kind": "school",
+   "label": "Learned magic",
+   "parent": "esoteric",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

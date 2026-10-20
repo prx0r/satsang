@@ -2867,6 +2867,70 @@
    "src": "https://en.wikipedia.org/wiki/Syrianus"
   },
   {
+   "from": "francis-of-assisi",
+   "to": "franciscan-contemplative",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "francis-of-assisi",
+   "to": "clare-of-assisi",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Francis received Clare's vows and remained her lifelong spiritual guide."
+  },
+  {
+   "from": "isaac-luria",
+   "to": "lurianic",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "isaac-luria",
+   "to": "hayyim-vital",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "moinuddin-chishti",
+   "to": "chishti",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nizamuddin-auliya",
+   "to": "amir-khusrau",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "abdul-qadir-gilani",
+   "to": "qadiri",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "marsilio-ficino",
+   "to": "cornelius-agrippa",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Agrippa's Three Books systematise Ficino's Neoplatonic natural magic."
+  },
+  {
+   "from": "cornelius-agrippa",
+   "to": "john-dee",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Dee owned and annotated Agrippa; the Heptameron circle descends from the Three Books."
+  },
+  {
+   "from": "marsilio-ficino",
+   "to": "giordano-bruno",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Bruno's heroic frenzies and infinite worlds work Ficino's Hermetic-Neoplatonic sources."
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",

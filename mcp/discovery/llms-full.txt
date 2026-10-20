@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 926 documented lineage and influence links, 792 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 162 traditions and schools, 572 teachers, scholars and historical figures with 941 documented lineage and influence links, 794 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 322 texts and books (75 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -353,6 +353,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
     - Cistercians (Trappists) (https://tantrafiles.xyz/tradition/cistercian): Reformed Benedictines; Trappists are the Strict Observance.
   - Ignatian spirituality (https://tantrafiles.xyz/tradition/ignatian): The Jesuit way of the Spiritual Exercises of Ignatius of Loyola.
   - Celtic Christianity (https://tantrafiles.xyz/tradition/celtic-christianity): The early Christianity of Britain and Ireland (Columba, Aidan, Cuthbert, David) and its modern revival.
+  - Franciscan contemplative (https://tantrafiles.xyz/tradition/franciscan-contemplative): The Franciscan contemplative current: poverty and minority as a way of seeing, from Francis and Clare through Bonaventure to today.
 - Platonic tradition (https://tantrafiles.xyz/tradition/platonic): Philosophy as the care of the soul, turning from the world of change toward the eternal Forms and the Good.
   - Neoplatonism (https://tantrafiles.xyz/tradition/neoplatonism): Late antique Platonism: everything flows from the One, and the soul can return to it through contemplation.
     - Renaissance Platonism (https://tantrafiles.xyz/tradition/renaissance-platonism): The revival of Plato and Plotinus in fifteenth-century Florence, joining Platonic philosophy with Christian faith.
@@ -375,6 +376,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
     - Archetypal cosmology and divination (https://tantrafiles.xyz/tradition/archetypal-cosmology)
   - Swedenborgianism (https://tantrafiles.xyz/tradition/swedenborgian): Thought and church following the visions of Emanuel Swedenborg.
   - Spiritualism (https://tantrafiles.xyz/tradition/spiritualism): Movement based on communication with the dead through mediums.
+  - Learned magic (https://tantrafiles.xyz/tradition/learned-magic): Renaissance learned magic: Ficino's Neoplatonic natural magic, Agrippa's three books, Dee's angelic conversations, Bruno's heroic frenzies. Studied, not practised, here.
 - Independent (https://tantrafiles.xyz/tradition/independent): Teachers who stand outside any tradition.
   - Modern non-dual teachers (https://tantrafiles.xyz/tradition/modern-nondual): Contemporary teachers of awakening who draw on Zen, Advaita and other sources without belonging to one lineage.
   - Krishnamurti (https://tantrafiles.xyz/tradition/krishnamurti): J. Krishnamurti's teaching after he left Theosophy in 1929: no path, no authority, freedom from the known.
@@ -384,10 +386,13 @@ Between the world of the senses and the world of pure ideas lies a third: the im
   - Naqshbandi-Haqqani order (https://tantrafiles.xyz/tradition/naqshbandi): Sufi order known for silent remembrance (dhikr) and tracing its chain through Abu Bakr.
   - Inayatiyya (universal Sufism, Chishti roots) (https://tantrafiles.xyz/tradition/inayati): Universal Sufism of Hazrat Inayat Khan, founded in London around 1914-1917.
   - Nimatullahi order (https://tantrafiles.xyz/tradition/nimatullahi)
+  - Chishti order (https://tantrafiles.xyz/tradition/chishti): The Sufi order of Muinuddin Chishti, rooted in Ajmer: music (sama, qawwali), service of the poor, and love of the teacher.
+  - Qadiri order (https://tantrafiles.xyz/tradition/qadiri): The Sufi order of Abdul Qadir Gilani of Baghdad: sober adherence to the law joined to inward poverty and reliance on God.
 - Jewish mysticism (https://tantrafiles.xyz/tradition/jewish): Merkavah, Kabbalah, the Zohar and Hasidism: the contemplative and mystical currents of Judaism.
   - Merkavah / Hekhalot mysticism (https://tantrafiles.xyz/tradition/merkavah)
   - Kabbalah (theosophical and ecstatic) (https://tantrafiles.xyz/tradition/kabbalah): Jewish mystical tradition of the sefirot and the hidden meanings of Torah; also its modern popular forms.
     - Zoharic Kabbalah (https://tantrafiles.xyz/tradition/zohar)
+    - Lurianic Kabbalah (https://tantrafiles.xyz/tradition/lurianic): The Kabbalah of Isaac Luria as recorded by Hayyim Vital: contraction (tzimtzum), the breaking of the vessels, and repair (tikkun).
   - Hasidism (https://tantrafiles.xyz/tradition/hasidism)
     - Neo-Hasidism (https://tantrafiles.xyz/tradition/neo-hasidism)
 - Philosophy of the sacred (https://tantrafiles.xyz/tradition/philosophy-of-the-sacred): Contemporary philosophers and scientists on consciousness, meaning and the sacred: idealism, the divided brain, the meaning crisis, perennialism.
@@ -443,7 +448,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - Nembutsu / nianfo (Pure Land; https://tantrafiles.xyz/practice/nembutsu-nianfo)
 - Christian meditation with a mantra (Maranatha) (Christian Meditation (John Main / WCCM); https://tantrafiles.xyz/practice/christian-meditation-with-a-mantra-maranatha)
 - Centering Prayer (Wisdom Christianity and Centering Prayer; https://tantrafiles.xyz/practice/centering-prayer)
-- Lectio Divina (Practice; https://tantrafiles.xyz/practice/lectio-divina)
+- Lectio Divina (Franciscan contemplative; https://tantrafiles.xyz/practice/lectio-divina)
 - The Jesus Prayer (prayer of the heart) (Orthodox hesychasm; https://tantrafiles.xyz/practice/the-jesus-prayer-prayer-of-the-heart)
 - Zikr (remembrance) in the Inayati way (Inayatiyya (universal Sufism, Chishti roots); https://tantrafiles.xyz/practice/zikr-remembrance-in-the-inayati-way) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
 - Dhikr and breathwork (Sufism; https://tantrafiles.xyz/practice/dhikr-and-breathwork) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
@@ -478,11 +483,12 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - Welcoming Practice (Wisdom Christianity and Centering Prayer; https://tantrafiles.xyz/practice/welcoming-practice)
 - Neoplatonic contemplation ("strip away everything") (Neoplatonism; https://tantrafiles.xyz/practice/neoplatonic-contemplation)
 - Letter-combination meditation (ecstatic Kabbalah) (Kabbalah (theosophical and ecstatic); https://tantrafiles.xyz/practice/unio-mystica-letters) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- The Middle Pillar (outline) (Hermetic Order of the Golden Dawn; https://tantrafiles.xyz/practice/middle-pillar-outline) [traditionally given by a teacher] Cautions: Energy visualisation: stop if you feel agitated, pressured in the head or chest, or unwell. Psychologically intense imagery; set aside if it overwhelms you. Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
 
 # Places by country
 
 - GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 195 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- IN: 197 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
 - US: 59 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
 - NP: 28 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)

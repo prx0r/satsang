@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "nodes": [
+  {
+   "blurb": "The Sufi order of Abdul Qadir Gilani of Baghdad: sober adherence to the law joined to inward poverty and reliance on God.",
+   "id": "qadiri",
+   "kind": "school",
+   "label": "Qadiri order",
+   "parent": "sufism",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

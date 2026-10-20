@@ -1,0 +1,114 @@
+{
+ "_note": "staged from satsang-extensions/08-places-networks",
+ "links": [
+  {
+   "from": "amaravati",
+   "to": "cittaviveka",
+   "type": "sister_of",
+   "conf": "high",
+   "note": "Same Ajahn Chah lineage, Western branch.",
+   "src": "https://cittaviveka.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "amaravati",
+   "to": "aruna-ratanagiri",
+   "type": "sister_of",
+   "conf": "high",
+   "note": "Aruna Ratanagiri founded from Amaravati's community network.",
+   "src": "https://ratanagiri.org.uk",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "amaravati",
+   "to": "santacittarama",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Italian branch house of the same lineage."
+  },
+  {
+   "from": "amaravati",
+   "to": "abhayagiri",
+   "type": "sister_of",
+   "conf": "high",
+   "note": "US branch monastery, founded by Amaravati-trained Ajahn Amaro with Ajahn Pasanno.",
+   "src": "https://abhayagiri.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "wat-pah-nanachat",
+   "to": "amaravati",
+   "type": "sister_of",
+   "conf": "high",
+   "note": "Root house in Thailand of the whole Western branch.",
+   "src": "https://watpahnanachat.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "belur-math",
+   "to": "advaita-ashrama",
+   "type": "sister_of",
+   "conf": "high",
+   "note": "Headquarters and Mayavati publishing ashram of one order.",
+   "src": "https://belurmath.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "belur-math",
+   "to": "vedanta-ny",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Oldest Western Vedanta Society in the Ramakrishna-Vivekananda lineage.",
+   "src": "https://vedantany.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "wat-pah-nanachat",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://watpahnanachat.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ajahn-pasanno",
+   "to": "abhayagiri",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://abhayagiri.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "swami-vivekananda",
+   "to": "belur-math",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://belurmath.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "divine-life-society",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://dlshq.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "sri-ramanasramam",
+   "type": "teacher_at",
+   "conf": "high",
+   "src": "https://www.sriramanamaharshi.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "root-institute",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://rootinstitute.com",
+   "checked": "2026-10-20"
+  }
+ ]
+}

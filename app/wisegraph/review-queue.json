@@ -1,0 +1,149 @@
+{
+ "_note": "Satsang review queue: claims held back from the live site until a human checks them (tools/stage-extensions.py, 11-site-runtime/review_queue.py). Regenerated per pack; edit decisions into tools/source_maps.py, never here.",
+ "items": [
+  {
+   "pack": "01-tradition-nodes",
+   "kind": "edge-medium-teacher",
+   "subject": "francis-of-assisi->clare-of-assisi",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/mark-dyczkowski#doctrine-of-vibration",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/andre-padoux#vac-concept-of-word",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/lilian-silburn#kundalini-energy-of-depths",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/paul-muller-ortega#triadic-heart-of-siva",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/loriliai-biernacki#renowned-goddess-of-desire",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/bhikkhu-analayo#satipatthana-direct-path",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "02-scholars-academic",
+   "kind": "work-check",
+   "subject": "person/omid-safi#memories-of-muhammad",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/santacittarama",
+   "reason": "founded 1990 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/wat-pah-nanachat",
+   "reason": "founded 1975 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/abhayagiri",
+   "reason": "founded 1996 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/belur-math",
+   "reason": "founded 1897 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/advaita-ashrama",
+   "reason": "founded 1899 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/vedanta-ny",
+   "reason": "founded 1894 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/tushita-dharamsala",
+   "reason": "founded 1972 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/divine-life-society",
+   "reason": "founded 1936 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/sri-ramanasramam",
+   "reason": "founded 1922 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "08-places-networks",
+   "kind": "place-founded",
+   "subject": "place/root-institute",
+   "reason": "founded 1976 not sourced (traditional; lead agent verifies); held back",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  }
+ ]
+}

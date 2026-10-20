@@ -18,20 +18,20 @@
  "files": [
   {
    "kind": "person",
-   "count": 560,
+   "count": 572,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 373268,
-   "sha256": "e0948f1015c87efc42353f67eec22ff677e5d911b24ee17b144abd29845e93ad",
+   "bytes": 381192,
+   "sha256": "13cd7affb7f1598ddf8a47f3073cc0b7e66724ca7a1f50007b684441c1665c36",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
    "kind": "tradition",
-   "count": 157,
+   "count": 162,
    "json": "tradition.json",
    "jsonl": "tradition.jsonl",
-   "bytes": 43737,
-   "sha256": "a2ed4bb9024eda6e9e8687a715fec37665414ceba1e0aeda9e6ba2f23a8b64a4",
+   "bytes": 45419,
+   "sha256": "497cf5238f2deb064043cad618d9f80755155bce7039d5654ff0618b2e1d8bea",
    "schema": "https://tantrafiles.xyz/schema/tradition.json"
   },
   {
@@ -39,8 +39,8 @@
    "count": 9478,
    "json": "clip.json",
    "jsonl": "clip.jsonl",
-   "bytes": 6654674,
-   "sha256": "ce8735a0ca7c1ae84b38311f0e561faba980cb5293b8f0d8c470ccbc2b591b82",
+   "bytes": 6654681,
+   "sha256": "7f48e6f1b5ddbd7666fa125bc90c284c12e2f5930e3e95804e16d4f83b3c4e81",
    "schema": "https://tantrafiles.xyz/schema/clip.json"
   },
   {
@@ -48,17 +48,17 @@
    "count": 68,
    "json": "text.json",
    "jsonl": "text.jsonl",
-   "bytes": 31107,
-   "sha256": "ad86a16dd20ecc01e5ec72160c2ffa3a7a7066c04f9ec5e889529f06ed2c84d1",
+   "bytes": 31133,
+   "sha256": "b17099c23b10c7cf121ea9ff3ca1e3552f7efc22319873a27292681aba5d77f1",
    "schema": "https://tantrafiles.xyz/schema/text.json"
   },
   {
    "kind": "practice",
-   "count": 76,
+   "count": 77,
    "json": "practice.json",
    "jsonl": "practice.jsonl",
-   "bytes": 84276,
-   "sha256": "17aa787f7fcc53add61ba4bcfa2d27bb73ff58714745908eec900b93acde781f",
+   "bytes": 86269,
+   "sha256": "3c752564603cf9a510762b01b0db8bfd09f7bc11d31105662226f4d830525bf4",
    "schema": "https://tantrafiles.xyz/schema/practice.json"
   },
   {
@@ -72,37 +72,37 @@
   },
   {
    "kind": "collection",
-   "count": 17,
+   "count": 18,
    "json": "collection.json",
    "jsonl": "collection.jsonl",
-   "bytes": 30357,
-   "sha256": "1a74cfba845b1b041cd711bd6b3878cb8336857583b13c52de032a1e54cbe378",
+   "bytes": 34891,
+   "sha256": "1448d0ae84d612bcede3f16f462e4a558beac894d6fb1b4173fead28f4fe5f18",
    "schema": "https://tantrafiles.xyz/schema/collection.json"
   },
   {
    "kind": "place",
-   "count": 792,
+   "count": 794,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 779780,
-   "sha256": "12135a8fa949c8e9b46c2518c4993f836f68ba97e616c3f1e928e07a15d63a39",
+   "bytes": 782162,
+   "sha256": "de3e27643b88e9a082bb3b75ef981f7b9cb2fbed7918d4bbd42b432ab6543f7c",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
    "kind": "edge",
-   "count": 926,
+   "count": 941,
    "json": "edge.json",
    "jsonl": "edge.jsonl",
-   "bytes": 257889,
-   "sha256": "31d03f209729a50ed26a54a7b4c49a5f99352e81d210711f3350b676fe248a3b",
+   "bytes": 261924,
+   "sha256": "6012e453be913bb04fb14998a740b529ad21fe205c32d578128504a63da8a2ea",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {
    "kind": "jsonld",
-   "count": 11216,
+   "count": 11237,
    "file": "wiser.jsonld",
-   "bytes": 6559512,
-   "sha256": "328c5b34aa18692575414b340ed911d9cb2bcba5d471e3846625197c8a7621ea"
+   "bytes": 6573515,
+   "sha256": "67c0a4546247a5594cd4214573d3d365fffb40b72431ad025b438894c8f3fc9a"
   },
   {
    "kind": "sitemap-topic",
@@ -111,27 +111,27 @@
   },
   {
    "kind": "sitemap-person",
-   "count": 560,
+   "count": 572,
    "file": "sitemap-person.xml"
   },
   {
    "kind": "sitemap-tradition",
-   "count": 157,
+   "count": 162,
    "file": "sitemap-tradition.xml"
   },
   {
    "kind": "sitemap-practice",
-   "count": 76,
+   "count": 77,
    "file": "sitemap-practice.xml"
   },
   {
    "kind": "sitemap-collection",
-   "count": 17,
+   "count": 18,
    "file": "sitemap-collection.xml"
   },
   {
    "kind": "sitemap-place",
-   "count": 520,
+   "count": 522,
    "file": "sitemap-place.xml"
   }
  ]

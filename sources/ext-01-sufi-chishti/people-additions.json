@@ -1,0 +1,77 @@
+{
+ "_note": "staged from satsang-extensions/01-tradition-nodes",
+ "people": [
+  {
+   "aliases": [
+    "muinuddin",
+    "khwaja gharib nawaz"
+   ],
+   "bio": "Founder of the Chishti order in India, settled in Ajmer; remembered for service to the poor and love without distinction.",
+   "id": "moinuddin-chishti",
+   "kind": "figure",
+   "living": false,
+   "name": "Muinuddin Chishti",
+   "role": "figure",
+   "short": "Muinuddin Chishti",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Moinuddin_Chishti",
+   "tradition": "chishti",
+   "traditions": [
+    "chishti"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1143–1236",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "nizamuddin",
+    "mahbub-e-ilahi"
+   ],
+   "bio": "Chishti master of Delhi whose assemblies joined princes and paupers; Amir Khusrau was his foremost disciple.",
+   "id": "nizamuddin-auliya",
+   "kind": "figure",
+   "living": false,
+   "name": "Nizamuddin Auliya",
+   "role": "figure",
+   "short": "Nizamuddin",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Nizamuddin_Auliya",
+   "tradition": "chishti",
+   "traditions": [
+    "chishti"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1238–1325",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "khusrau",
+    "amir khusro"
+   ],
+   "bio": "Poet, musician and disciple of Nizamuddin; credited with shaping qawwali and Hindavi poetry at the Chishti court of Delhi.",
+   "id": "amir-khusrau",
+   "kind": "figure",
+   "living": false,
+   "name": "Amir Khusrau",
+   "role": "figure",
+   "short": "Amir Khusrau",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Amir_Khusrau",
+   "tradition": "chishti",
+   "traditions": [
+    "chishti"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1253–1325",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

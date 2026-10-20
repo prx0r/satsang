@@ -3664,7 +3664,14 @@
     "Śaivism",
     "b. 1954"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "the-tantric-body",
+     "title": "The Tantric Body",
+     "year": 2006,
+     "kind": "book"
+    }
+   ],
    "clips": 16,
    "about": 0
   },
@@ -3730,7 +3737,14 @@
    "facts": [
     "Nāth / Siddha Siddhānta"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "roots-of-yoga",
+     "title": "Roots of Yoga (with Mark Singleton)",
+     "year": 2017,
+     "kind": "book"
+    }
+   ],
    "clips": 17,
    "about": 0
   },
@@ -3877,7 +3891,14 @@
    "facts": [
     "Nāth / Siddha Siddhānta"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "yoga-body",
+     "title": "Yoga Body",
+     "year": 2010,
+     "kind": "book"
+    }
+   ],
    "clips": 3,
    "about": 0
   },
@@ -5205,7 +5226,14 @@
     "Buddhism",
     "b. 1974"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "origin-of-buddhist-meditation",
+     "title": "The Origin of Buddhist Meditation",
+     "year": 2007,
+     "kind": "book"
+    }
+   ],
    "clips": 7,
    "about": 0
   },
@@ -5228,7 +5256,14 @@
     "Buddhism",
     "b. 1957"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "foundations-of-buddhism",
+     "title": "The Foundations of Buddhism",
+     "year": 1998,
+     "kind": "book"
+    }
+   ],
    "clips": 1,
    "about": 0
   },
@@ -6309,7 +6344,14 @@
     "Tibetan Buddhism",
     "1952–"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "prisoners-of-shangri-la",
+     "title": "Prisoners of Shangri-La",
+     "year": 1998,
+     "kind": "book"
+    }
+   ],
    "clips": 9,
    "about": 0
   },
@@ -7209,7 +7251,14 @@
     "Jewish mysticism",
     "1947–"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "kabbalah-new-perspectives",
+     "title": "Kabbalah: New Perspectives",
+     "year": 1988,
+     "kind": "book"
+    }
+   ],
    "clips": 13,
    "about": 0
   },
@@ -7401,7 +7450,14 @@
     "Philosophy of the sacred",
     "1919–2016"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "worlds-religions",
+     "title": "The World's Religions",
+     "year": 1991,
+     "kind": "book"
+    }
+   ],
    "clips": 7,
    "about": 0
   },
@@ -7488,7 +7544,14 @@
     "Sufism",
     "1943–"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "sufi-path-of-knowledge",
+     "title": "The Sufi Path of Knowledge",
+     "year": 1989,
+     "kind": "book"
+    }
+   ],
    "clips": 6,
    "about": 0
   },
@@ -7574,7 +7637,14 @@
    "facts": [
     "Kabbalah (theosophical and ecstatic)"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "zohar-pritzker",
+     "title": "The Zohar, Pritzker Edition (translator)",
+     "year": 2004,
+     "kind": "book"
+    }
+   ],
    "clips": 5,
    "about": 0
   },
@@ -7635,7 +7705,14 @@
     "Philosophy of the sacred",
     "1909–2005"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "muhammad-life-earliest-sources",
+     "title": "Muhammad: His Life Based on the Earliest Sources",
+     "year": 1983,
+     "kind": "book"
+    }
+   ],
    "clips": 4,
    "about": 0
   },

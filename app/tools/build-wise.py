@@ -100,11 +100,13 @@ json.dump(out, open(os.path.join(wg, 'wise.json'), 'w'), ensure_ascii=False, sep
 pp = os.path.join(ROOT, 'wisegraph/places.json')
 if os.path.exists(pp):
     PLS = json.load(open(pp))
-    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases')
+    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases', 'main_teacher', 'teacher_model', 'main_teacher_conf', 'status')
     import sys as _s; _s.path.insert(0, os.path.join(ROOT, 'tools'))
     from source_maps import PLACE_CONTACT_DROP, PLACE_RESOURCES
     cp_ = os.path.join(ROOT, 'wisegraph/place-contacts.json')
     CON = json.load(open(cp_))['places'] if os.path.exists(cp_) else {}
+    cc_ = os.path.join(ROOT, 'wisegraph/place-contacts-curated.json')  # hand-checked rows from staged packs (merge-sources.py) win over the crawler's
+    if os.path.exists(cc_): CON = {**CON, **json.load(open(cc_))['places']}
     rows = []
     for x in PLS['places']:
         c = CON.get(x['id'])

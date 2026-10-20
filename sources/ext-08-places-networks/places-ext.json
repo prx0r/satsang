@@ -1,0 +1,321 @@
+{
+ "_note": "staged from satsang-extensions/08-places-networks",
+ "places": [
+  {
+   "city": "Sezze, Lazio",
+   "coord_precision": "approximate (unverified)",
+   "country": "IT",
+   "country_name": "Italy",
+   "description": "Italian branch monastery of the Ajahn Chah lineage; monastic community and lay retreats.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "santacittarama",
+   "language": "it",
+   "lat": 41.5,
+   "lng": 12.98,
+   "name": "Santacittarama",
+   "offers": [
+    "residential retreats",
+    "visits"
+   ],
+   "source": "extension pack 2026-10-20 (no verified URL; WAF-blocked on check)",
+   "teacher_ids": [
+    "ajahn-chah"
+   ],
+   "traditions": [
+    "thai-forest"
+   ],
+   "type": "monastery",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Bung Wai, Ubon Ratchathani",
+   "coord_precision": "approximate (unverified)",
+   "country": "TH",
+   "country_name": "Thailand",
+   "description": "Ajahn Chah's forest monastery; the root house of the Western branch (Amaravati, Abhayagiri, Santacittarama).",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "wat-pah-nanachat",
+   "language": "en",
+   "lat": 15.16,
+   "lng": 104.84,
+   "name": "Wat Pah Nanachat",
+   "offers": [
+    "ordination",
+    "visits",
+    "residential stays"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-chah"
+   ],
+   "traditions": [
+    "thai-forest"
+   ],
+   "type": "monastery",
+   "url": "https://watpahnanachat.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://watpahnanachat.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Redwood Valley, California",
+   "coord_precision": "approximate (unverified)",
+   "contact_page": "https://abhayagiri.org/contact",
+   "contact_page_source": "link structure assumed from site; lead agent verifies via place-contacts.py",
+   "country": "US",
+   "country_name": "United States",
+   "description": "US branch monastery of the Ajahn Chah lineage, founded by Ajahn Pasanno and Ajahn Amaro; forest monastery and lay retreat centre.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "abhayagiri",
+   "language": "en",
+   "lat": 39.27,
+   "lng": -123.21,
+   "name": "Abhayagiri Buddhist Monastery",
+   "offers": [
+    "residential retreats",
+    "visits",
+    "ordination"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-pasanno",
+    "ajahn-amaro"
+   ],
+   "traditions": [
+    "thai-forest"
+   ],
+   "type": "monastery",
+   "url": "https://abhayagiri.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://abhayagiri.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Belur, West Bengal",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Headquarters of the Ramakrishna Math and Mission, founded by Swami Vivekananda; temple, museum, study centre and monastic university.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "belur-math",
+   "language": "en",
+   "lat": 22.63,
+   "lng": 88.36,
+   "name": "Belur Math",
+   "offers": [
+    "visits",
+    "study",
+    "festivals"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ramakrishna",
+    "swami-vivekananda"
+   ],
+   "traditions": [
+    "ramakrishna-order"
+   ],
+   "type": "monastery",
+   "url": "https://belurmath.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://belurmath.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Mayavati, Uttarakhand",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Himalayan ashrama of the Ramakrishna Order; publishing house of the English works (Complete Works of Swami Vivekananda).",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "advaita-ashrama",
+   "language": "en",
+   "lat": 29.65,
+   "lng": 80.14,
+   "name": "Advaita Ashrama, Mayavati",
+   "offers": [
+    "visits",
+    "study"
+   ],
+   "source": "extension pack 2026-10-20 (no verified URL; WAF-blocked on check)",
+   "teacher_ids": [
+    "swami-vivekananda"
+   ],
+   "traditions": [
+    "ramakrishna-order"
+   ],
+   "type": "ashram",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "New York",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Oldest Vedanta Society in the West (1894); lectures, classes and retreats in the Ramakrishna-Vivekananda lineage.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "vedanta-ny",
+   "language": "en",
+   "lat": 40.78,
+   "lng": -73.98,
+   "name": "Vedanta Society of New York",
+   "offers": [
+    "classes",
+    "lectures",
+    "retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "swami-vivekananda"
+   ],
+   "traditions": [
+    "ramakrishna-order"
+   ],
+   "type": "centre",
+   "url": "https://vedantany.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://vedantany.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Dharamkot, Himachal Pradesh",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "FPMT Tibetan Buddhist retreat centre above Dharamshala; introductory lam-rim courses and silent retreats.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "tushita-dharamsala",
+   "language": "en",
+   "lat": 32.24,
+   "lng": 76.33,
+   "name": "Tushita Meditation Centre",
+   "offers": [
+    "residential retreats",
+    "courses"
+   ],
+   "source": "extension pack 2026-10-20 (no verified URL; WAF-blocked on check)",
+   "teacher_ids": [
+    "lama-yeshe",
+    "lama-zopa"
+   ],
+   "traditions": [
+    "gelug"
+   ],
+   "type": "retreat",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Rishikesh, Uttarakhand",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Headquarters ashram of the Divine Life Society founded by Swami Sivananda; yoga-vendanta courses, hospital, and the free-book publishing house (see 09-texts-freebooks).",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "divine-life-society",
+   "language": "en",
+   "lat": 30.08,
+   "lng": 78.29,
+   "name": "Sivananda Ashram (Divine Life Society)",
+   "offers": [
+    "residential retreats",
+    "courses",
+    "study"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "swami-sivananda"
+   ],
+   "traditions": [
+    "divine-life-society"
+   ],
+   "type": "ashram",
+   "url": "https://dlshq.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://dlshq.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Tiruvannamalai, Tamil Nadu",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Ashram at Arunachala founded around Ramana Maharshi; self-enquiry (vichara) in the Advaita lineage; library and Veda school.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "sri-ramanasramam",
+   "language": "en",
+   "lat": 12.23,
+   "lng": 79.88,
+   "name": "Sri Ramanasramam",
+   "offers": [
+    "visits",
+    "study",
+    "satsangs"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ramana-maharshi"
+   ],
+   "traditions": [
+    "advaita"
+   ],
+   "type": "ashram",
+   "url": "https://www.sriramanamaharshi.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.sriramanamaharshi.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Bodh Gaya, Bihar",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "FPMT centre at the place of the Buddha's awakening; month-long lam-rim courses each November.",
+   "founded_source": "traditional; lead agent verifies",
+   "id": "root-institute",
+   "language": "en",
+   "lat": 24.69,
+   "lng": 84.99,
+   "name": "Root Institute for Wisdom Culture",
+   "offers": [
+    "residential retreats",
+    "courses"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "lama-yeshe",
+    "lama-zopa"
+   ],
+   "traditions": [
+    "gelug"
+   ],
+   "type": "retreat",
+   "url": "https://rootinstitute.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://rootinstitute.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

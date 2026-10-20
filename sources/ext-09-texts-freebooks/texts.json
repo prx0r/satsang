@@ -1,0 +1,75 @@
+{
+ "_note": "staged from satsang-extensions/09-texts-freebooks",
+ "texts": [
+  {
+   "id": "sivananda-kundalini-yoga",
+   "kind": "book",
+   "lang": "en",
+   "licence": "free ebook, Divine Life Society (publisher-posted)",
+   "link": "https://www.dlshq.org/download/kundalini.htm",
+   "note": "Swami Sivananda's Kundalini Yoga, free from the DLS publishing house. Syllabus target: theory chapters + practice schedule (NORTHSTAR endgame).",
+   "school": "divine-life-society",
+   "title": "Kundalini Yoga — Swami Sivananda (DLS free ebook)"
+  },
+  {
+   "id": "vivekananda-complete-works",
+   "kind": "book",
+   "lang": "en",
+   "licence": "public domain (Wikisource transcription)",
+   "link": "https://en.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda",
+   "note": "Nine-volume Complete Works. Syllabus target for the ramakrishna-order track; pairs with Belur Math + Advaita Ashrama places (08).",
+   "school": "ramakrishna-order",
+   "title": "The Complete Works of Swami Vivekananda (Wikisource)"
+  },
+  {
+   "id": "dhammatalks-an5-57",
+   "kind": "sutta",
+   "lang": "en",
+   "licence": "free sutta translations, Thanissaro Bhikkhu (dhammatalks.org)",
+   "link": "https://www.dhammatalks.org/suttas/AN/AN5_57.html",
+   "note": "The five remembrances — already the source of a hub practice; recorded here as a text so syllabuses can cite it.",
+   "school": "theravada",
+   "title": "AN 5.57: Subjects for Contemplation (Thanissaro translation)"
+  },
+  {
+   "id": "accesstoinsight-dhp",
+   "kind": "sutta",
+   "lang": "en",
+   "licence": "free (Access to Insight, author-posted)",
+   "link": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.budd.html",
+   "note": "Buddharakkhita's Dhammapada with introduction — the most-assigned first Buddhist text.",
+   "school": "theravada",
+   "title": "Dhammapada (Buddharakkhita translation, Access to Insight)"
+  },
+  {
+   "id": "accesstoinsight-library",
+   "kind": "library",
+   "lang": "en",
+   "licence": "free translations (various, author-posted)",
+   "link": "https://www.accesstoinsight.org",
+   "note": "Theravada sutta library: suttas, study guides, chanting guides. Entry point, not a single text.",
+   "school": "theravada",
+   "title": "Access to Insight — Theravada library"
+  },
+  {
+   "id": "suttacentral-early-texts",
+   "kind": "library",
+   "lang": "en",
+   "licence": "free translations (SuttaCentral, various licences per text)",
+   "link": "https://suttacentral.net",
+   "note": "Early Buddhist texts in Pali, Chinese, Sanskrit and Tibetan parallels with modern translations. Entry point.",
+   "school": "early-suttas",
+   "title": "SuttaCentral — Early Buddhist Texts"
+  },
+  {
+   "id": "bps-pariyatti",
+   "kind": "library",
+   "lang": "en",
+   "licence": "free booklets (Buddhist Publication Society)",
+   "link": "https://www.bps.lk",
+   "note": "BPS Wheel and Bodhi Leaves booklets, many free. Pairs with the BPS free-book resource already in the graph.",
+   "school": "theravada",
+   "title": "Buddhist Publication Society — free booklets"
+  }
+ ]
+}

@@ -233,7 +233,7 @@ for (const p of placesRaw.places) {
   place[p.id] = { id: p.id, type: 'place', name: p.name, placeType: ['monastery', 'centre', 'ashram', 'retreat', 'pilgrimage', 'temple', 'lodge', 'grove', 'hermitage'].includes(p.type) ? p.type : PLACE_TYPE[p.type] || 'other',
     traditions: p.traditions || [], country: p.country, city: p.city,
     geo: p.lat != null ? { lat: p.lat, lng: p.lng, precision: p.coord_precision, public: true } : { public: false },
-    founded: years(p.founded), teachers: p.teachers || [], url: p.url, scheduleUrl: p.schedule_url, description: p.description,
+    founded: years(p.founded), teachers: p.teachers || [], ...(p.main_teacher ? { mainTeacher: p.main_teacher, teacherModel: p.teacher_model || 'single', mainTeacherConfidence: p.main_teacher_conf } : {}), ...(p.status ? { status: p.status } : {}), url: p.url, scheduleUrl: p.schedule_url, description: p.description,
     network: p.goenka ? 'dhamma.org' : undefined,
     programmes: (p.retreats || []).map((r) => ({ id: r.id, name: r.name, typicalLength: r.typical_length, format: r.format, costModel: ['dana', 'fixed', 'sliding', 'free'].includes(r.cost_model) ? r.cost_model : 'unknown', scheduleUrl: r.schedule_url })),
     contact: p.contact ? { checked: p.contact.checked, page: p.contact.page, pageSource: p.contact.page_src, email: p.contact.email, phone: p.contact.phone, address: p.contact.address } : undefined,

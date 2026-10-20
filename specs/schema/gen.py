@@ -198,6 +198,9 @@ place = doc("place", "Place",
         "phone": arr({"type": "array", "prefixItems": [S(), c("url")], "minItems": 2, "maxItems": 2}),
         "address": {"type": "array", "prefixItems": [S(), c("url")]}}},
      "sisters": arr(c("slug")), "network": S(description="e.g. dhamma.org, ajahn-chah-branch, ramakrishna-math."),
+     "mainTeacher": S(description="Person id of the one teacher responsible now (MINIMAL-ENTRY, satsang-extensions 12); medium-confidence links are queued for re-check."),
+     "teacherModel": enum("single", "rotating", "none"), "mainTeacherConfidence": enum("high", "medium", "low"),
+     "status": S(description="Activity status when not confirmed active (e.g. unknown)."),
      "ids": c("ids"), "meta": c("meta")}, ["name", "placeType", "traditions", "country"])
 
 event = doc("event", "Event",

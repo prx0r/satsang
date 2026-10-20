@@ -1,0 +1,4 @@
+{
+ "_note": "Large site files served from KV (binding DATA, keys site/<hash>/<path>) instead of the inline Worker bundle (Workers Free: 3 MB gzip). embed.mjs skips them and writes /tmp/wiser-site-kv.json + site.kv.gen.js; deploy.sh uploads before deploying.",
+ "paths": ["/clips.json", "/teachers.json", "/data/wisegraph/places.json", "/data/wisegraph/wise.json", "/data/wisegraph/profiles.json", "/data/wisegraph/graph.json", "/data/wisegraph/boards.json", "/data/wisegraph/hubs.json", "/data/wisegraph/collections.json"]
+}

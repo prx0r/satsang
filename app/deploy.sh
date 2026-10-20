@@ -31,4 +31,4 @@ python3 tools/check-no-transcripts.py dist $([ -f ../mcp/data/wiser.json ] && ec
   { echo "transcript text found in dist or the open data" >&2; exit 1; }
 if grep -rIlE "dhamma\.stream|bbballs|hillside-hermitage-documents|_djvu|transcripts-internal|hasTranscript" ../mcp/dist-data ../mcp/data; then echo "transcript reference in the open data" >&2; exit 1; fi
 if [ -d ../mcp/dist-data ] && [ "$SKIP_DATA" != "1" ]; then node -e "const fs=require('fs'),d='../mcp/dist-data/';fs.writeFileSync('/tmp/wiser-kv.json',JSON.stringify(fs.readdirSync(d).filter(f=>/\.(json|jsonl|jsonld)$/.test(f)).map(f=>({key:'data/'+f,value:fs.readFileSync(d+f,'utf8')}))))" && (cd web-worker && npx wrangler kv bulk put /tmp/wiser-kv.json --binding DATA --remote >/dev/null && echo "open data uploaded to KV"); fi
-cd web-worker && node embed.mjs && npx wrangler deploy
+cd web-worker && node embed.mjs && npx wrangler kv bulk put /tmp/wiser-site-kv.json --binding DATA --remote >/dev/null && echo "site data uploaded to KV" && npx wrangler deploy

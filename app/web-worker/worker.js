@@ -1,6 +1,7 @@
 // wiser-web (Satsang site): serves the static site (embedded by embed.mjs from ../dist) on BASE (../../domain.mjs); www. 301s to the apex,
 // and once BASE moved off tantrafiles.xyz the old hosts 301 to BASE keeping the path.
 import SITE from './site.gen.js'
+import KVSITE from './site.kv.gen.js' // large data files served from KV (embed.mjs, kv-paths.json)
 import META from './meta.gen.js' // path pages: title, description, JSON-LD (build-meta.mjs)
 import RES from './resources.gen.js' // /resource/<id> plain pages (build-meta.mjs <- mcp/discovery/resources.json)
 import { withoutDeadClips } from './keeper-dead.mjs' // keeper: hide dead clips (fail-open; keeper/AGENTS.md)
@@ -9,7 +10,7 @@ import { BASE, HOST, MCP_BASE, SITE_ORIGINS } from '../../domain.mjs' // public 
 const OUR_HOSTS = SITE_ORIGINS.map((o) => new URL(o).host)
 const hdr = (type, extra = {}) => ({ 'content-type': type, 'x-content-type-options': 'nosniff', 'referrer-policy': 'strict-origin-when-cross-origin', ...extra })
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const u = new URL(req.url)
     if (u.hostname !== HOST && OUR_HOSTS.includes(u.hostname)) { const to = new URL(u.pathname + u.search, BASE); return Response.redirect(to.toString(), 301) }
     if (/^\/u\/[A-Za-z0-9_]{3,20}\/?$/.test(u.pathname)) return Response.redirect(u.origin + '/#u/' + u.pathname.split('/')[2], 302)
@@ -43,12 +44,32 @@ export default {
       if (ld) html = html.replace('</head>', `<script type="application/ld+json">${ld.replace(/</g, '\\u003c')}</script>\n</head>`)
       return new Response(req.method === 'HEAD' ? null : html, { headers: hdr('text/html; charset=utf-8', { 'cache-control': 'public, max-age=600' }) })
     }
+    const kv = KVSITE[p]
+    if (kv && env && env.DATA) { const r = await fromKV(req, env, ctx, p, kv); if (r) return r }
     const f = SITE[p] || SITE[p + '.html']
     if (!f) { const nf = SITE['/404.html']; return new Response(nf ? nf[1] : 'Not found', { status: 404, headers: hdr('text/html; charset=utf-8') }) }
     if (p === '/clips.json' && req.method !== 'HEAD') return new Response(await withoutDeadClips(f[1], SITE['/index.html']?.[1]?.length), { headers: hdr(f[0], { 'cache-control': 'public, max-age=300', 'access-control-allow-origin': '*' }) }) // keeper hook
     const cache = p === '/index.html' ? 'no-cache' : /\.json$/.test(p) ? 'public, max-age=300' : u.searchParams.has('v') ? 'public, max-age=31536000, immutable' : 'public, max-age=3600'
     return new Response(req.method === 'HEAD' ? null : f[1], { headers: hdr(f[0], { 'cache-control': cache, ...(/\.json$/.test(p) ? { 'access-control-allow-origin': '*' } : {}) }) })
   },
+}
+
+// Large data files live in KV under content-hashed keys (immutable), so the edge cache can keep them for a day and an
+// unchanged file answers If-None-Match with 304 without touching KV. clips.json keeps the keeper dead-clip hook (no ETag).
+async function fromKV(req, env, ctx, p, kv) {
+  const h = hdr(kv.type, { 'cache-control': 'public, max-age=300', 'access-control-allow-origin': '*', ...(p !== '/clips.json' ? { etag: `"${kv.etag}"` } : {}) })
+  if (p !== '/clips.json' && (req.headers.get('if-none-match') || '').includes(kv.etag)) return new Response(null, { status: 304, headers: h })
+  const cache = typeof caches !== 'undefined' ? caches.default : null, ck = new Request('https://kv-cache.invalid/' + kv.key)
+  let r = cache && (await cache.match(ck))
+  if (!r) {
+    const body = await env.DATA.get(kv.key, 'arrayBuffer')
+    if (!body) return null
+    r = new Response(body, { headers: { 'content-type': kv.type, 'cache-control': 'public, max-age=86400' } })
+    if (cache) { const put = cache.put(ck, r.clone()).catch(() => {}); if (ctx && ctx.waitUntil) ctx.waitUntil(put) }
+  }
+  if (req.method === 'HEAD') return new Response(null, { headers: h })
+  if (p === '/clips.json') return new Response(await withoutDeadClips(await r.text(), kv.etag), { headers: h }) // keeper hook
+  return new Response(r.body, { headers: h })
 }
 
 // /resource/<id>: a citable plain page in the site's dark static-page style (as credits.html), with schema.org JSON-LD.
