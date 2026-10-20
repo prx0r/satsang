@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-10-20T13:24:31Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-10-20T13:27:29Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 188 (error 2, warn 22, info 164). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 0 clips (0 videos), 0 external URLs. **Re-verify queue:** 424.
@@ -19,52 +19,52 @@ Updated 2026-10-20T13:24:31Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-10-20T13:24:29Z | 5 |
 | provenance | 158 | 0 | 0 | 158 | 2026-10-20T13:24:29Z | 1976 |
 | robots | 0 | 0 | 0 | 0 | 2026-10-20T13:24:29Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-10-20T13:24:30Z | 120 / 1395 |
-| uptime | 0 | 0 | 0 | 0 | 2026-10-20T13:24:31Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-10-20T13:27:28Z | 120 / 1395 |
+| uptime | 0 | 0 | 0 | 0 | 2026-10-20T13:27:29Z | 12 |
 
 ## Top problems
 
 - `917315e3a558` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/person
 - `fbbc7a8a6653` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/schema/
-- `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
-- `c6f47fa694fc` **warn** integrity: Possible duplicate places "Dhamma Khetta" (0.00 km apart) — place/dhamma-khetta2+dhamma-khetta
-- `dd32a7ca2ef1` **warn** integrity: Place lists teacher "nag-hammadi", who is not in the people list — place/nag-hammadi-site
-- `779c10de3528` **warn** integrity: Place lists teacher "nag-hammadi", who is not in the people list — place/coptic-museum
-- `d24f23dc0807` **warn** integrity: Conflicting claims on years.end: none (sources/deep-tantra/people.json (b. 1951, no death)) vs 2025 (sources/deep-india-study (died 2025-02-02)) — person/mark-dyczkowski
 - `010a563b6d1b` **warn** integrity: Conflicting claims on academic_supervisor_of (incoming): richard-gombrich (https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski (deep-tantra lineages)) vs alexis-sanderson (https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski (his own site, per deep-india-study)) — person/mark-dyczkowski
 - `1549dabc3ce9` **warn** linkrot: External link failing: ENOTFOUND: fetch failed — https://bedegriffithssangha.org
-- `21c330226d8d` **warn** linkrot: External link failing: ENOTFOUND: fetch failed — https://dragonbelltemple.org
-- `e77638f23fcb` **warn** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://giri.dhamma.org
-- `9fbff351e76c` **warn** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://kanheri.dhamma.org/
-- `b525919c7f42` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://bodhgayatemple.com
-- `f09bc89183eb` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://devipuram.org
-- `4e4922c6f4fc` **warn** linkrot: External link failing: TypeError: fetch failed — https://networks.h-net.org/group/announcements/20037841/jeffrey-hopkins-1940-2024
-- `66a501feb9e9` **warn** linkrot: External link failing: ENOTFOUND: fetch failed — https://srflondon.org.uk
-- `c8df15076389` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html
 - `1db195649ec4` **warn** linkrot: External link failing: TypeError: fetch failed — https://networks.h-net.org/node/6060/pages/3914200/hopkins-jeffrey
-- `ebb655953ffd` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://sanshin.org
+- `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
+- `21c330226d8d` **warn** linkrot: External link failing: ENOTFOUND: fetch failed — https://dragonbelltemple.org
+- `4e4922c6f4fc` **warn** linkrot: External link failing: TypeError: fetch failed — https://networks.h-net.org/group/announcements/20037841/jeffrey-hopkins-1940-2024
+- `5339093fa2bf` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati
+- `66a501feb9e9` **warn** linkrot: External link failing: ENOTFOUND: fetch failed — https://srflondon.org.uk
+- `779c10de3528` **warn** integrity: Place lists teacher "nag-hammadi", who is not in the people list — place/coptic-museum
+- `9fbff351e76c` **warn** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://kanheri.dhamma.org/
+- `afe8eac6ed41` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Swami_Niranjanananda_Saraswati
+- `b525919c7f42` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://bodhgayatemple.com
+- `be60948a07b9` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Sayadaw_U_Silananda
+- `c6f47fa694fc` **warn** integrity: Possible duplicate places "Dhamma Khetta" (0.00 km apart) — place/dhamma-khetta2+dhamma-khetta
+- `c8df15076389` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html
 - `cacb2c6a1dcc` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://bodhgayatemple.com/how-to-reach/
 - `cba4a4d20165` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Sujato
-- `afe8eac6ed41` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Swami_Niranjanananda_Saraswati
-- `be60948a07b9` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Sayadaw_U_Silananda
-- `5339093fa2bf` **warn** linkrot: External link failing: HTTP 404 — https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati
+- `d24f23dc0807` **warn** integrity: Conflicting claims on years.end: none (sources/deep-tantra/people.json (b. 1951, no death)) vs 2025 (sources/deep-india-study (died 2025-02-02)) — person/mark-dyczkowski
+- `dd32a7ca2ef1` **warn** integrity: Place lists teacher "nag-hammadi", who is not in the people list — place/nag-hammadi-site
+- `e77638f23fcb` **warn** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://giri.dhamma.org
+- `ebb655953ffd` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://sanshin.org
+- `f09bc89183eb` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://devipuram.org
 
 ## Uptime by probe (30 d)
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 111 | up 2026-10-20T13:24:30Z |
-| home | 100.0 | 16 | up 2026-10-20T13:24:30Z |
-| hub:/person/ajahn-chah | 100.0 | 17 | up 2026-10-20T13:24:30Z |
-| hub:/topic/rebirth | 100.0 | 17 | up 2026-10-20T13:24:30Z |
-| hub:/tradition/buddhism | 100.0 | 17 | up 2026-10-20T13:24:30Z |
-| llms.txt | 100.0 | 16 | up 2026-10-20T13:24:31Z |
-| mcp-initialize | 100.0 | 541 | up 2026-10-20T13:24:31Z |
-| mcp-tool-call | 100.0 | 36 | up 2026-10-20T13:24:31Z |
-| mcp-tools-list | 100.0 | 33 | up 2026-10-20T13:24:31Z |
-| openapi.json | 100.0 | 35 | up 2026-10-20T13:24:31Z |
-| sitemap | 100.0 | 16 | up 2026-10-20T13:24:31Z |
-| well-known-mcp | 100.0 | 18 | up 2026-10-20T13:24:31Z |
+| api-health | 100.0 | 127 | up 2026-10-20T13:27:28Z |
+| home | 100.0 | 22 | up 2026-10-20T13:27:28Z |
+| hub:/person/ajahn-chah | 100.0 | 23 | up 2026-10-20T13:27:28Z |
+| hub:/topic/rebirth | 100.0 | 23 | up 2026-10-20T13:27:28Z |
+| hub:/tradition/buddhism | 100.0 | 22 | up 2026-10-20T13:27:28Z |
+| llms.txt | 100.0 | 22 | up 2026-10-20T13:27:29Z |
+| mcp-initialize | 100.0 | 461 | up 2026-10-20T13:27:28Z |
+| mcp-tool-call | 100.0 | 36 | up 2026-10-20T13:27:29Z |
+| mcp-tools-list | 100.0 | 33 | up 2026-10-20T13:27:28Z |
+| openapi.json | 100.0 | 35 | up 2026-10-20T13:27:29Z |
+| sitemap | 100.0 | 23 | up 2026-10-20T13:27:29Z |
+| well-known-mcp | 100.0 | 23 | up 2026-10-20T13:27:29Z |
 
 ## Performance (key pages)
 
