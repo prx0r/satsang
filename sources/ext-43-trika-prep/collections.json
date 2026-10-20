@@ -1,0 +1,136 @@
+{
+ "_note": "staged from satsang-extensions/43-trika-prep",
+ "collections": [
+  {
+   "id": "trika-prep-week",
+   "type": "collection",
+   "kind": "journey",
+   "title": "Trika prep week",
+   "topic": "self",
+   "cadence": "daily",
+   "author": "Wiser",
+   "intro": "Seven days of foundation for Abhinavagupta and VBT study: steady breath, the turn of the breath, and recognition. Ten minutes a day. Initiated practices are not here: when the gap is steady, take the next step with a qualified teacher in the tradition.",
+   "units": [
+    {
+     "n": 1,
+     "day": 1,
+     "title": "Settle",
+     "track": "practice",
+     "intro": "The home base: ease through the body with the breath.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "ease-through-the-body-trika-prep"
+      },
+      {
+       "role": "reflect",
+       "note": "Where is the breath clearest today? That is your seat for the week."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "day": 2,
+     "title": "The turn",
+     "track": "practice",
+     "intro": "Notice where the in-breath becomes the out-breath. Rest there; hold nothing.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-breath-pause"
+      },
+      {
+       "role": "reflect",
+       "note": "Did you find the turning, or the idea of it? Either is fine — noted, not judged."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "day": 3,
+     "title": "Recognition",
+     "track": "practice",
+     "intro": "One sutra slowly, then look: does anything appear outside awareness?",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "recognition-contemplation"
+      },
+      {
+       "role": "reflect",
+       "note": "Write one sentence on what recognition felt like versus what you thought about it."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "day": 4,
+     "title": "Return to ease",
+     "track": "practice",
+     "intro": "Same foundation, deeper seat. The gap work needs a rested body.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "ease-through-the-body-trika-prep"
+      },
+      {
+       "role": "reflect",
+       "note": "Compare today with day 1: steadier, sleepier, brighter? Log it plainly."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "day": 5,
+     "title": "Longer turn",
+     "track": "practice",
+     "intro": "Same gap practice, full sit. Let attention fall in; never force it.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-breath-pause"
+      },
+      {
+       "role": "reflect",
+       "note": "If strain appears, drop back to ease. The gap is found, not made."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "day": 6,
+     "title": "Recognition again",
+     "track": "practice",
+     "intro": "Same contemplation, fresh experience. Sound, thought, feeling — inside or outside?",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "recognition-contemplation"
+      },
+      {
+       "role": "reflect",
+       "note": "One line for the journal: what was recognised, and by what?"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "day": 7,
+     "title": "The week in one sit",
+     "track": "practice",
+     "intro": "Ease, then the turn, then recognition — one short sit chaining all three in order.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "ease-through-the-body-trika-prep"
+      },
+      {
+       "role": "reflect",
+       "note": "Which of the three is your door? That is what you take to a teacher next."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

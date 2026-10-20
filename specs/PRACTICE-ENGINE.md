@@ -72,6 +72,18 @@ Output per book: `sources/books/<slug>/{extract.jsonl, practices.json, routines.
 - `PathwayState { user, pathway, stage, gates_met, started_at }`
 - Derived: streaks, minutes per method/aim, "what's working" (pre→post deltas by practice), feeding For You (practices and talks) and the intention matcher.
 
+### 7.1 Planned session log + daily snapshot (from satsang-extensions 42, archived 2026-10-21; NOT built: needs accounts + D1)
+- **Session row = the journal's `practice_session` kind.** One row per sit in `practice_log` (PROFILE.md 0016): `{id, who (u:<id>|d:<device>),
+  practice (built practice id, e.g. vbt-mind-between-objects), at, minutes, completion?, pre/post {calm,energy,focus 1-5}?, quality? (1-5, the
+  user's own word), note? (private), source: timer|player|manual, collection? + unit? (journey/series step it advanced)}`. Other journal kinds map
+  elsewhere (insight/journal_entry -> private essay, book_note -> works log, ritual_note -> a practice_log note, question -> teacher-prompt card);
+  dream/symbol entries are record-only (no AI interpretation, ever). Private by default, in `/me/export`, removed by `DELETE /me`.
+- **Daily snapshot** (`GET /me/snapshot`, computed on read from live rows, cached 1 h, never prebuilt files): `{type:'daily-snapshot', date, who,
+  taste_chips[] (words, never numbers), exploring[], due[] {ref, kind: practice|routine|journey|retreat, why<=200}, journeys[] {collection, unit, title},
+  streak {week_dots, month_sits, total_hours} (plain counts, no pressure copy), suggested_next {talk?, practice?, topic?, reason<=200}}`. Agents
+  (the 41 agent shelf) read this, never raw tables. Draft schema: `specs/extensions/42-user-profile/schemas/daily-snapshot.json`.
+- Until accounts exist the device keeps the same shape locally (collections.js already logs journey progress on the device).
+
 ## 8. Agent-native (everything)
 Every Concept/Practice/Routine/Pathway/Lens has `/x/<id>` HTML, `.json`, `.md`, JSON-LD and a script at `/x/<id>/script.json`. MCP tools: `find_practices(facets…)`, `get_practice`, `get_script`, `get_routine`, `get_pathway`, `get_concept`, `compare_concept(traditions)`, `build_routine(aim, minutes, level, constraints)` (deterministic composer over tagged practices), `list_lenses`. Vocabularies are published at `/vocab/*.json` so agents filter with the same ids. Sessions are NOT exposed (private) except to the user's own token later.
 

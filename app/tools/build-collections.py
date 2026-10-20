@@ -39,11 +39,13 @@ def steps_of(how, minutes):
     s = sum(w)
     return [{'n': i + 1, 'text': t, 'seconds': int(round(total * w[i] / s))} for i, t in enumerate(parts)]
 practices, BYNAME = {}, {}
+ALIAS = {}  # a sourcer's own practice id -> the built id (packs 43/45 reuse deep-tantra ids such as vbt-breath-pause)
 def add_practice(p, topic=None):
     name = p.get('name') or ''
     if not name: return None
     pid = BYNAME.get(slug(name)) or p.get('id') or slug(name)
     BYNAME.setdefault(slug(name), pid)
+    if p.get('id') and p['id'] != pid: ALIAS.setdefault(p['id'], pid)
     how = p.get('how') or p.get('howto') or p.get('how_to') or ''
     src = p.get('url') or p.get('source_url') or (p.get('sources') or [None])[0] or (p.get('source') if str(p.get('source', '')).startswith('http') else None)
     src = KEEPER_URL_MOVED.get(src, src)  # keeper fixes (tools/source_maps.py)
@@ -119,6 +121,7 @@ for col in spec['collections']:
             if not ids: missing.append((col['id'], it.get('note') or it['select'])); return None
             used.update(ids[:1]); o['ref'] = 'clip:' + ids[0]; o['alts'] = ids[1:]
         if it.get('practice'):
+            it = {**it, 'practice': it['practice'] if it['practice'] in practices else ALIAS.get(it['practice'], it['practice'])}
             if it['practice'] not in practices: missing.append((col['id'], it['practice'])); return None
             o['ref'] = 'practice:' + it['practice']; o.pop('practice')
         return o

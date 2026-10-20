@@ -1,0 +1,430 @@
+{
+ "_note": "staged from satsang-extensions/44-texts-targets",
+ "texts": [
+  {
+   "id": "nanavira-tragic-comic-personal",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF/EPUB/MOBI)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Selected letters of Ñāṇavīra Thera, free from his estate. The accessible entry point to his thought — existential, direct, often funny. Good first Ñāṇavīra text for readers new to the lineage.",
+   "title": "The Tragic, the Comic and the Personal — Ñāṇavīra Thera (free PDF/EPUB)"
+  },
+  {
+   "id": "nanavira-nibbana-anatta",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF/EPUB/MOBI)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Ñāṇavīra's argument that nibbāna is a state here-and-now, not a metaphysical escape. Core to the early-suttas lineage's non-standard reading of anattā.",
+   "title": "Nibbāna and Anattā — Ñāṇavīra Thera (free PDF/EPUB)"
+  },
+  {
+   "id": "nanavira-sketch-proofs-rebirth",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF/EPUB)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Early essay on rebirth through the lens of dependent origination rather than a soul-transmigration model.",
+   "title": "Sketch for a Proof of Rebirth — Ñāṇavīra Thera (free PDF/EPUB)"
+  },
+  {
+   "id": "nanavira-foundation-of-ethics",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Ethics grounded in seeing, not rules. Pairs with the 'seeing dukkha directly' practice family.",
+   "title": "The Foundation of Ethics — Ñāṇavīra Thera (free PDF)"
+  },
+  {
+   "id": "nanavira-commonplace-book",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Working notebook — his rawest notes. For advanced study only; not a teaching text.",
+   "title": "Commonplace Book — Ñāṇavīra Thera (free PDF)"
+  },
+  {
+   "id": "nanavira-marginalia",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Ñāṇavīra's margin notes on Heidegger, Sartre, etc. Shows his philosophical anchors.",
+   "title": "Marginalia — Ñāṇavīra Thera (free PDF)"
+  },
+  {
+   "id": "nanavira-suttas-sartre",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (author estate, nanavira.org, PDF)",
+   "link": "https://nanavira.org/writings",
+   "authors": [
+    "nanavira-thera"
+   ],
+   "note": "Sutta and existentialism side by side. Shows how the early-suttas reading bridges Pali and Western existential thought.",
+   "title": "Suttas & Sartre — Ñāṇavīra Thera (free PDF)"
+  },
+  {
+   "id": "nyanamoli-dhamma-within-reach",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free PDF (Path Press, pathpress.org)",
+   "link": "https://www.pathpresspublications.com/en/page/books",
+   "authors": [
+    "ajahn-nyanamoli"
+   ],
+   "note": "Ajahn Ñāṇamoli Thero's expanded essays from talks. The clearest modern presentation of the early-suttas approach — signless concentration, kāya-passāna, right view as lived seeing.",
+   "title": "Dhamma Within Reach — Ajahn Ñāṇamoli Thero (free PDF)"
+  },
+  {
+   "id": "nyanamoli-visuddhimagga",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "theravada"
+   ],
+   "licence": "free PDF (BPS digital edition, Access to Insight)",
+   "link": "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+   "authors": [
+    "nyanamoli"
+   ],
+   "note": "Ñāṇamoli Thera's translation of Buddhaghosa's Visuddhimagga. The classical shamatha-vipassanā manual. The early-suttas lineage reads it critically but respects its system.",
+   "title": "The Path of Purification (Visuddhimagga) — Ñāṇamoli tr. (free BPS PDF)"
+  },
+  {
+   "id": "nanananda-concept-and-reality",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (BPS / author-posted)",
+   "link": "https://seeingthroughthenet.net/books/",
+   "authors": [
+    "katukurunde-nanananda"
+   ],
+   "note": "How the mind builds conceptual reality and how to see through it. Pairs with dependent origination practice; the theory under the early-suttas seeing.",
+   "title": "Concept and Reality in Early Buddhism — Katukurunde Ñāṇananda (BPS)"
+  },
+  {
+   "id": "nanananda-magic-of-mind",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (BPS / author-posted)",
+   "link": "https://seeingthroughthenet.net/books/",
+   "authors": [
+    "katukurunde-nanananda"
+   ],
+   "note": "Signless concentration and the limitation of perceptions. The practice core of Ñāṇananda's work — pairs directly with the signless-concentration practice family.",
+   "title": "The Magic of the Mind — Katukurunde Ñāṇananda (BPS)"
+  },
+  {
+   "id": "nanananda-nibbana-mind-stilled",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (BPS / author-posted)",
+   "link": "https://seeingthroughthenet.net/books/",
+   "authors": [
+    "katukurunde-nanananda"
+   ],
+   "note": "Nibbāna as experienced, not theorised. The culmination text of Ñāṇananda's trilogy.",
+   "title": "Nibbāna – The Mind Stilled — Katukurunde Ñāṇananda (BPS)"
+  },
+  {
+   "id": "nyanadipa-silent-sages-of-old",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free PDF (Path Press, pathpress.org)",
+   "link": "https://www.pathpresspublications.com/en/page/books",
+   "authors": [],
+   "note": "Ñāṇadīpa Thera's selection from the Sutta Nipāta — the archaic core of the Pali canon that the early-suttas lineage privileges.",
+   "title": "The Silent Sages of Old — Ñāṇadīpa Thera (free PDF)"
+  },
+  {
+   "id": "pannobhasa-atthakavagga",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (Path Press, €0.00)",
+   "link": "https://www.pathpresspublications.com/en/page/books",
+   "authors": [],
+   "note": "The Aṭṭhakavagga (Sutta Nipāta ch. 4) with commentary by Bhikkhu Paññobhāsa. The foundational text of the early-suttas approach — non-clinging to views.",
+   "title": "The Aṭṭhakavagga — Bhikkhu Paññobhāsa (free, Path Press)"
+  },
+  {
+   "id": "snp-4-11-atthakavagga-sutta",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (SuttaCentral, CC0 root)",
+   "link": "https://suttacentral.net/snp4.11/en/sujato",
+   "note": "The Sutta on Non-Attraction to Views. The core Aṭṭhakavagga discourse — the practice of not taking any view as 'mine'. Verify with FoJin get_parallels for the Chinese Āgama parallel.",
+   "title": "Snp 4.11 Dhātuvibhaṅga Sutta — SuttaCentral (Sujato, CC0)"
+  },
+  {
+   "id": "sn-48-10-indriya",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "early-suttas",
+    "theravada"
+   ],
+   "licence": "free (SuttaCentral, CC0 root)",
+   "link": "https://suttacentral.net/sn48.10/en/sujato",
+   "note": "The faculties (indriya) including the signless concentration — the sutta basis for the early-suttas signless practice. Cross-check with FoJin.",
+   "title": "SN 48.10 Indriya Sutta — SuttaCentral (Sujato, CC0)"
+  },
+  {
+   "id": "mn-10-satipatthana",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free (SuttaCentral, CC0 root)",
+   "link": "https://suttacentral.net/mn10/en/sujato",
+   "note": "The four establishments of mindfulness. The core text behind all satipatthāna-based practices in the graph.",
+   "title": "MN 10 Satipaṭṭhāna Sutta — SuttaCentral (Sujato, CC0)"
+  },
+  {
+   "id": "mn-111-anupada",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free (SuttaCentral, CC0 root)",
+   "link": "https://suttacentral.net/mn111/en/sujato",
+   "note": "The One-by-One Discourse — detailed jhāna progression. Key text for the jhana track; cited in Burbea and by the early-suttas lineage.",
+   "title": "MN 111 Anupada Sutta — SuttaCentral (Sujato, CC0)"
+  },
+  {
+   "id": "mn-131-basileadhamma",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free (dhammatalks.org, Thanissaro translation)",
+   "link": "https://www.dhammatalks.org/suttas/MN/MN131.html",
+   "note": "Bhikkhu Bodhi's Majjhima translation of the bases for mindfulness; also free on dhammatalks.",
+   "title": "MN 131 Basileadhamma Sutta (Bhikkhu Bodhi, dhammatalks)"
+  },
+  {
+   "id": "an2-188-indriya",
+   "kind": "sutta",
+   "lang": "en",
+   "traditions": [
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free (SuttaCentral, CC0 root)",
+   "link": "https://suttacentral.net/an2.188/en/sujato",
+   "note": "The two faculties — faith and wisdom, concentration and effort. Foundational for balancing effort and ease.",
+   "title": "AN 2.188 Indriya Sutta — SuttaCentral (Sujato, CC0)"
+  },
+  {
+   "id": "analayo-direct-path",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "insight",
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free PDF (uni-hamburg, author-posted)",
+   "link": "https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf",
+   "authors": [
+    "bhikkhu-analayo"
+   ],
+   "note": "Anaylayo comparative study of MN 10 and its Chinese Madhyama-agama parallel. Free PDF. The best single entry into the early-suttas satipatthana material.",
+   "title": "Satipatthana: The Direct Path to Realization - Bhikkhu Analayo (free PDF)"
+  },
+  {
+   "id": "analayo-nibbana-mind-stilled",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "insight",
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free PDF (BCBS / Dharma Seed, 33 lectures)",
+   "link": "https://bcbs.dharmaseed.org/teacher/439",
+   "authors": [
+    "bhikkhu-analayo"
+   ],
+   "note": "The 33-lecture BCBS retreat: Analayo's line-by-line analysis of Katukurunde Nanananda's Nibbana - The Mind Stilled. Each lecture has a downloadable PDF transcript. Read alongside the original Nanananda book. Analayo reads the Pali against Chinese and Tibetan parallels.",
+   "title": "Nibbana: The Mind Stilled - Bhikkhu Analayo (33-lecture analysis of Nanananda, free PDFs)"
+  },
+  {
+   "id": "analayo-samyukta-agama-studies",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "insight",
+    "theravada",
+    "early-suttas"
+   ],
+   "licence": "free PDF (uni-hamburg / Dharma Drum)",
+   "link": "https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/sastudies.pdf",
+   "note": "Comparative studies of the Samyukta-agama - the Chinese parallel collection. Unique in showing what is common and what differs between the Pali and Chinese early traditions.",
+   "title": "Samyukta-agama Studies - Bhikkhu Analayo (free PDFs at uni-hamburg)",
+   "authors": [
+    "bhikkhu-analayo"
+   ]
+  },
+  {
+   "id": "hareesh-vbt-translation",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "licence": "free PDF (author-posted, hareesh.org)",
+   "link": "https://static1.squarespace.com/static/555e47f7e4b02f649df32c58/t/5b155bb90e2e72f442d84263/1528126411131/VBT%20translation%20WALLIS-2.pdf",
+   "note": "Complete VBT translation by Christopher Wallis (Hareesh), free PDF. 112 practices, direct from Sanskrit. The base translation his blog analyses reference. Satsang: the 2018 first-draft PDF; the translator says it has since been considerably improved (final translation in Tantra 112).",
+   "title": "VBT Complete Translation - Christopher Wallis (Hareesh), free PDF",
+   "authors": [
+    "christopher-wallis"
+   ]
+  },
+  {
+   "id": "hareesh-vbt-blog-series",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "licence": "free (author blog, hareesh.org)",
+   "link": "https://hareesh.org/vbt-blog-posts",
+   "note": "Ongoing verse-by-verse analysis of the VBT on Hareesh's free blog. Verses 1-57+ covered, with Sanskrit, translation, practice notes, and Abhinavagupta's upaya framework. The lecture-analysis layer for the VBT.",
+   "title": "VBT Blog Series - Christopher Wallis (Hareesh), free verse-by-verse analysis",
+   "authors": [
+    "christopher-wallis"
+   ]
+  },
+  {
+   "id": "hareesh-vbt-concordance",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "licence": "free (author blog, hareesh.org)",
+   "link": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance",
+   "note": "Master translation concordance comparing 8 English + 2 French + 1 German + 1 Spanish VBT translations verse by verse, with upaya categorization (aṇava/śākta/śāmbhava) and difficulty levels. The single most useful reference for understanding how different translators read the VBT.",
+   "title": "VBT Translation Concordance Part 1 - Christopher Wallis, free",
+   "authors": [
+    "christopher-wallis"
+   ]
+  },
+  {
+   "id": "vbt-baumer-lakshmanjoo",
+   "kind": "book",
+   "lang": "en",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "licence": "copyrighted",
+   "link": "https://ia801801.us.archive.org/7/items/vijnana-bhairava-tantra_20210216/Vijnana%20Bhairava%20Tantra_text.pdf",
+   "note": "Baumer translation + Lakshman Joo oral commentary, Indica Books 2002. Copyrighted but Archive PDF is publicly available. The Lakshman Joo commentary layer - his direct oral teaching edited from transcript.",
+   "title": "VBT: The Practice of Centring Awareness - Baumer tr. + Lakshman Joo commentary (Archive PDF)"
+  },
+  {
+   "id": "tantra112-full-text",
+   "kind": "library",
+   "lang": "en",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "licence": "free (tantra112.app, Hareesh)",
+   "link": "https://tantra112.app/vijnana-bhairava-tantra",
+   "note": "All 112 VBT practices in full, translated by Hareesh, free to read online with printable PDF. The web version of the free translation.",
+   "title": "Tantra112 - Full VBT text, all 112 practices, free",
+   "authors": [
+    "christopher-wallis"
+   ]
+  }
+ ]
+}

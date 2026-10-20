@@ -1,0 +1,218 @@
+{
+ "_note": "staged from satsang-extensions/44-texts-targets (teaching targets: teach_as + read_order are shown with the text; practices_to_derive are plans, archived in specs/extensions/44-texts-targets/)",
+ "targets": {
+  "nanananda-magic-of-mind": {
+   "text_id": "nanananda-magic-of-mind",
+   "title": "The Magic of the Mind",
+   "teach_as": "practice text — read one chapter, do the signless practice the chapter describes, log what shifts",
+   "read_order": "chapter 1 → signless practice → chapter 2 → log after each sit",
+   "practice_families": [
+    "signless-concentration",
+    "perception-limitation"
+   ],
+   "collection_target": "signless-concentration-week"
+  },
+  "nyanamoli-dhamma-within-reach": {
+   "text_id": "nyanamoli-dhamma-within-reach",
+   "title": "Dhamma Within Reach",
+   "teach_as": "orientation text — read the essay, sit with the practice it points to, journal one paragraph",
+   "read_order": "any essay → sit → journal → next essay",
+   "practice_families": [
+    "signless-concentration",
+    "kaya-passana",
+    "right-view-seeing"
+   ],
+   "collection_target": "early-sutta-first-month"
+  },
+  "nanavira-tragic-comic-personal": {
+   "text_id": "nanavira-tragic-comic-personal",
+   "title": "The Tragic, the Comic and the Personal",
+   "teach_as": "letters, not a manual — read for orientation; no practice derived directly from letters",
+   "read_order": "front to back; pause on any letter that stirs something",
+   "practice_families": [],
+   "collection_target": "early-sutta-first-month"
+  },
+  "nanananda-concept-and-reality": {
+   "text_id": "nanananda-concept-and-reality",
+   "title": "Concept and Reality in Early Buddhism",
+   "teach_as": "theory that underpins practice — read a section, then do the deconstruction practice it implies",
+   "read_order": "read one section → concept-deconstruction sit → journal",
+   "practice_families": [
+    "concept-deconstruction",
+    "dependent-origination"
+   ],
+   "collection_target": "signless-concentration-week"
+  },
+  "nanavira-nibbana-anatta": {
+   "text_id": "nanavira-nibbana-anatta",
+   "title": "Nibbāna and Anattā",
+   "teach_as": "advanced reading — no direct practice derivation; pairs with the recognition work but is not the same tradition",
+   "read_order": "after Dhamma Within Reach and one week of signless work",
+   "practice_families": [],
+   "collection_target": null
+  },
+  "pannobhasa-atthakavagga": {
+   "text_id": "pannobhasa-atthakavagga",
+   "title": "The Aṭṭhakavagga",
+   "teach_as": "study text — read one verse, sit on non-clinging to views, journal",
+   "read_order": "one verse per day → non-clinging sit → journal what view was being held",
+   "practice_families": [
+    "non-clinging-to-views"
+   ],
+   "collection_target": "atthakavagga-week"
+  },
+  "snp-4-11-atthakavagga-sutta": {
+   "text_id": "snp-4-11-atthakavagga-sutta",
+   "title": "Snp 4.11 Dhātuvibhaṅga Sutta",
+   "teach_as": "core sutta — read, sit on it, log",
+   "read_order": "read the sutta → sit → journal what view was released",
+   "practice_families": [
+    "non-clinging-to-views"
+   ],
+   "collection_target": "atthakavagga-week"
+  },
+  "sn-48-10-indriya": {
+   "text_id": "sn-48-10-indriya",
+   "title": "SN 48.10 Indriya Sutta",
+   "teach_as": "core sutta for signless concentration — the textual anchor for Ñāṇananda's practice",
+   "read_order": "read the sutta → signless sit → journal",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "collection_target": "signless-concentration-week"
+  },
+  "mn-10-satipatthana": {
+   "text_id": "mn-10-satipatthana",
+   "title": "MN 10 Satipaṭṭhāna Sutta",
+   "teach_as": "foundational sutta — the basis for all body-scan and noting practices in the graph",
+   "read_order": "read one establishment per week; practice the corresponding practice",
+   "practice_families": [
+    "body-scan",
+    "noting",
+    "four-establishments"
+   ],
+   "collection_target": "early-sutta-first-month"
+  },
+  "mn-111-anupada": {
+   "text_id": "mn-111-anupada",
+   "title": "MN 111 Anupada Sutta",
+   "teach_as": "advanced jhana text — for the jhana track, after stable shamatha",
+   "read_order": "after stable breath practice; read one jhāna factor at a time",
+   "practice_families": [
+    "jhana-progressions"
+   ],
+   "collection_target": "jhana-foundations-week"
+  },
+  "nyanamoli-visuddhimagga": {
+   "text_id": "nyanamoli-visuddhimagga",
+   "title": "The Path of Purification (Visuddhimagga)",
+   "teach_as": "classical manual — reference text for shamatha-vipassanā; early-suttas lineage reads it critically",
+   "read_order": "chapter on shamatha → sit; chapter on vipassanā → sit; never attempt the ten kasiṇas from the book alone",
+   "practice_families": [
+    "shamatha",
+    "vipassana",
+    "jhana-progressions"
+   ],
+   "collection_target": null
+  },
+  "nanananda-nibbana-mind-stilled": {
+   "text_id": "nanananda-nibbana-mind-stilled",
+   "title": "Nibbāna – The Mind Stilled",
+   "teach_as": "advanced — after signless concentration is established",
+   "read_order": "after two weeks of signless practice",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "collection_target": "signless-concentration-week"
+  },
+  "nyanadipa-silent-sages-of-old": {
+   "text_id": "nyanadipa-silent-sages-of-old",
+   "title": "The Silent Sages of Old",
+   "teach_as": "sutta anthology — Sutta Nipāta selection for study and practice",
+   "read_order": "one sutta per day; sit on what it points to",
+   "practice_families": [
+    "non-clinging-to-views",
+    "simplicity-of-practice"
+   ],
+   "collection_target": "atthakavagga-week"
+  },
+  "analayo-direct-path": {
+   "text_id": "analayo-direct-path",
+   "title": "Satipatthana: The Direct Path to Realization",
+   "teach_as": "study + practice - read one section per week; sit the corresponding satipatthana contemplation; use the Chinese parallel to see what the Pali omits",
+   "read_order": "section - sit one establishment - journal - next section",
+   "practice_families": [
+    "body-scan",
+    "noting",
+    "four-establishments"
+   ],
+   "collection_target": "early-sutta-first-month"
+  },
+  "analayo-nibbana-mind-stilled": {
+   "text_id": "analayo-nibbana-mind-stilled",
+   "title": "Nibbana: The Mind Stilled",
+   "teach_as": "Anaylayo's 33-lecture analysis of Nanananda's Nibbana - The Mind Stilled. One lecture per session; read the corresponding section of the original Nanananda book alongside; the PDF transcript is the text; practice is the signless concentration both books describe.",
+   "read_order": "Nanananda section 1 - signless sit - Anaylayo lecture 1 - journal; then Nanananda section 2 - sit - lecture 2 - journal; move at the pace of understanding.",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "collection_target": "signless-concentration-week"
+  },
+  "analayo-samyukta-agama-studies": {
+   "text_id": "analayo-samyukta-agama-studies",
+   "title": "Samyukta-agama Studies",
+   "teach_as": "advanced study - for practitioners who already know the Pali side and want the comparative view",
+   "read_order": "pick the paper matching a sutta you already practice; compare the two versions",
+   "practice_families": [],
+   "collection_target": null
+  },
+  "hareesh-vbt-translation": {
+   "text_id": "hareesh-vbt-translation",
+   "title": "VBT Complete Translation",
+   "teach_as": "the base translation - read one dharana at a time; sit the practice it describes; log what shifts. Pair with the blog analysis for the full picture.",
+   "read_order": "one dharana per sitting day; read, sit, log. Start with the breath practices (24-26), progress to the middle practices (40-50), save the deep ones (52-57) for later.",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition",
+    "sound-dissolution",
+    "body-as-consciousness"
+   ],
+   "collection_target": "trika-prep-week"
+  },
+  "hareesh-vbt-blog-series": {
+   "text_id": "hareesh-vbt-blog-series",
+   "title": "VBT Blog Series",
+   "teach_as": "lecture-analysis layer - read one blog post per sitting day alongside the corresponding dharana from the base translation. The blog gives the Sanskrit, the translation, the practice notes, and Abhinavagupta's framework.",
+   "read_order": "blog post N - sit dharana N - journal - next post. Move at the pace of understanding.",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition",
+    "sound-dissolution",
+    "body-as-consciousness"
+   ],
+   "collection_target": "trika-prep-week"
+  },
+  "hareesh-vbt-concordance": {
+   "text_id": "hareesh-vbt-concordance",
+   "title": "VBT Translation Concordance Part 1",
+   "teach_as": "reference - when a dharana is unclear, check the concordance to see how 8 translators read it differently. The upaya categorization (aṇava/śākta/śāmbhava) tells you which level of practice it is.",
+   "read_order": "as needed - when a verse is unclear, look it up",
+   "practice_families": [],
+   "collection_target": null
+  },
+  "vbt-baumer-lakshmanjoo": {
+   "text_id": "vbt-baumer-lakshmanjoo",
+   "title": "VBT: The Practice of Centring Awareness",
+   "teach_as": "the Lakshman Joo commentary layer - his direct oral teaching on the VBT, edited from transcript by Baumer. The most direct access to how a living Trika master reads the text. Read alongside the Hareesh translation for a different angle.",
+   "read_order": "after reading Hareesh's translation of the same dharana; compare the two readings",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition"
+   ],
+   "collection_target": "trika-prep-week"
+  }
+ }
+}

@@ -1,0 +1,433 @@
+{
+ "_note": "Texts-targets (2026-10-20 extension pack 44). Tracks every text we add to the graph and how to teach it: what practice family it feeds, what collection/journey it belongs in, and the derivation path from modern book → public source → practice. P0 = early-sutta lineage first. FoJin connector feeds parallels + dictionary + verify for every sutta row.",
+ "priority_order": [
+  "hareesh-vbt-translation",
+  "hareesh-vbt-blog-series",
+  "hareesh-vbt-concordance",
+  "nanananda-magic-of-mind",
+  "analayo-direct-path",
+  "analayo-nibbana-mind-stilled",
+  "nyanamoli-dhamma-within-reach",
+  "nanavira-tragic-comic-personal",
+  "nanananda-concept-and-reality",
+  "nanavira-nibbana-anatta",
+  "pannobhasa-atthakavagga",
+  "snp-4-11-atthakavagga-sutta",
+  "sn-48-10-indriya",
+  "mn-10-satipatthana",
+  "mn-111-anupada",
+  "nyanamoli-visuddhimagga",
+  "nanananda-nibbana-mind-stilled",
+  "nyanadipa-silent-sages-of-old"
+ ],
+ "targets": {
+  "nanananda-magic-of-mind": {
+   "text_id": "nanananda-magic-of-mind",
+   "title": "The Magic of the Mind",
+   "author": "Katukurunde Ñāṇananda",
+   "status": "free",
+   "teach_as": "practice text — read one chapter, do the signless practice the chapter describes, log what shifts",
+   "practice_families": [
+    "signless-concentration",
+    "perception-limitation"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "signless-concentration-outline",
+     "kind": "meditation",
+     "level": "first-steps",
+     "howto": "Sit and notice the mind making signs — categories, images, words for what is present. Do not follow the signs; do not suppress them. Let attention rest on the bare experience behind the sign. When you notice a sign arising, note 'sign' and return to bare experience. Over time the signs thin and the concentration opens into something less constructed.",
+     "sources": [
+      "nanananda-magic-of-mind",
+      "sn-48-10-indriya"
+     ],
+     "cautions": [
+      "If you feel disoriented or 'unreal', open the eyes and ground in the body before continuing.",
+      "This is a concentration practice, not a void-blanket — alertness stays."
+     ]
+    }
+   ],
+   "collection_target": "signless-concentration-week",
+   "read_order": "chapter 1 → signless practice → chapter 2 → log after each sit",
+   "fojin_check": "sn-48-10-indriya: use get_parallels to find the Chinese parallel; verify any sutta quote from the book with verify_quote before shipping."
+  },
+  "nyanamoli-dhamma-within-reach": {
+   "text_id": "nyanamoli-dhamma-within-reach",
+   "title": "Dhamma Within Reach",
+   "author": "Ajahn Ñāṇamoli Thero",
+   "status": "free",
+   "teach_as": "orientation text — read the essay, sit with the practice it points to, journal one paragraph",
+   "practice_families": [
+    "signless-concentration",
+    "kaya-passana",
+    "right-view-seeing"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "seeing-right-view-outline",
+     "kind": "enquiry",
+     "level": "first-steps",
+     "howto": "After a sit, ask: what did I take to be 'me' in that sit? What did I take to be 'mine'? Look at the answer as a phenomenon, not a truth. Write one sentence. Return to the breath. Do not argue with what you see.",
+     "sources": [
+      "nyanamoli-dhamma-within-reach",
+      "nanavira-foundation-of-ethics"
+     ],
+     "cautions": [
+      "This can stir existential discomfort. If distress arises, stop the enquiry and return to the breath body."
+     ]
+    }
+   ],
+   "collection_target": "early-sutta-first-month",
+   "read_order": "any essay → sit → journal → next essay",
+   "fojin_check": "every sutta citation in the text: verify_quote before shipping any practice derived from it."
+  },
+  "nanavira-tragic-comic-personal": {
+   "text_id": "nanavira-tragic-comic-personal",
+   "title": "The Tragic, the Comic and the Personal",
+   "author": "Ñāṇavīra Thera",
+   "status": "free",
+   "teach_as": "letters, not a manual — read for orientation; no practice derived directly from letters",
+   "practice_families": [],
+   "practices_to_derive": [],
+   "collection_target": "early-sutta-first-month",
+   "read_order": "front to back; pause on any letter that stirs something",
+   "fojin_check": null
+  },
+  "nanananda-concept-and-reality": {
+   "text_id": "nanananda-concept-and-reality",
+   "title": "Concept and Reality in Early Buddhism",
+   "author": "Katukurunde Ñāṇananda",
+   "status": "free",
+   "teach_as": "theory that underpins practice — read a section, then do the deconstruction practice it implies",
+   "practice_families": [
+    "concept-deconstruction",
+    "dependent-origination"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "concept-deconstruction-outline",
+     "kind": "enquiry",
+     "level": "first-steps",
+     "howto": "Take a simple perception — a sound, a feeling, a thought. Ask: what conceptual labels am I putting on this? What is there without the labels? Rest in the unlabeled experience for a few breaths. When the labels return, notice them without following. This is the deconstruction, not destruction, of concepts.",
+     "sources": [
+      "nanananda-concept-and-reality"
+     ],
+     "cautions": [
+      "Stay gentle — this is not a war against concepts. Concepts are tools; the practice is seeing that they are made, not given."
+     ]
+    }
+   ],
+   "collection_target": "signless-concentration-week",
+   "read_order": "read one section → concept-deconstruction sit → journal",
+   "fojin_check": null
+  },
+  "nanavira-nibbana-anatta": {
+   "text_id": "nanavira-nibbana-anatta",
+   "title": "Nibbāna and Anattā",
+   "author": "Ñāṇavīra Thera",
+   "status": "free",
+   "teach_as": "advanced reading — no direct practice derivation; pairs with the recognition work but is not the same tradition",
+   "practice_families": [],
+   "practices_to_derive": [],
+   "collection_target": null,
+   "read_order": "after Dhamma Within Reach and one week of signless work",
+   "fojin_check": null
+  },
+  "pannobhasa-atthakavagga": {
+   "text_id": "pannobhasa-atthakavagga",
+   "title": "The Aṭṭhakavagga",
+   "author": "Bhikkhu Paññobhāsa",
+   "status": "free",
+   "teach_as": "study text — read one verse, sit on non-clinging to views, journal",
+   "practice_families": [
+    "non-clinging-to-views"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "non-clinging-to-views-outline",
+     "kind": "enquiry",
+     "level": "first-steps",
+     "howto": "Hold a view you usually take for granted — about yourself, a practice, a person. Look at it as a view, not as reality. Ask: does this view hold up? Does it serve? Do not replace it with another view. Rest in the space where no view is being held. Return when you notice yourself re-gripping.",
+     "sources": [
+      "pannobhasa-atthakavagga",
+      "snp-4-11-atthakavagga-sutta"
+     ],
+     "cautions": [
+      "Do not use this to dismiss all views — the Aṭṭhakavagga is not nihilism; it is non-grasping."
+     ]
+    }
+   ],
+   "collection_target": "atthakavagga-week",
+   "read_order": "one verse per day → non-clinging sit → journal what view was being held",
+   "fojin_check": "snp-4-11: get_parallels to the Chinese Āgama version; dictionary for the archaic Pali terms."
+  },
+  "snp-4-11-atthakavagga-sutta": {
+   "text_id": "snp-4-11-atthakavagga-sutta",
+   "title": "Snp 4.11 Dhātuvibhaṅga Sutta",
+   "author": "Buddha (attributed)",
+   "status": "free",
+   "teach_as": "core sutta — read, sit on it, log",
+   "practice_families": [
+    "non-clinging-to-views"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "atthakavagga-week",
+   "read_order": "read the sutta → sit → journal what view was released",
+   "fojin_check": "get_parallels: find the Chinese Dhātuvibhaṅga parallel; verify_quote any English we ship."
+  },
+  "sn-48-10-indriya": {
+   "text_id": "sn-48-10-indriya",
+   "title": "SN 48.10 Indriya Sutta",
+   "author": "Buddha (attributed)",
+   "status": "free",
+   "teach_as": "core sutta for signless concentration — the textual anchor for Ñāṇananda's practice",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "signless-concentration-week",
+   "read_order": "read the sutta → signless sit → journal",
+   "fojin_check": "get_parallels: Chinese parallel on the faculties; verify_quote for any Pali we render."
+  },
+  "mn-10-satipatthana": {
+   "text_id": "mn-10-satipatthana",
+   "title": "MN 10 Satipaṭṭhāna Sutta",
+   "author": "Buddha (attributed)",
+   "status": "free",
+   "teach_as": "foundational sutta — the basis for all body-scan and noting practices in the graph",
+   "practice_families": [
+    "body-scan",
+    "noting",
+    "four-establishments"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "early-sutta-first-month",
+   "read_order": "read one establishment per week; practice the corresponding practice",
+   "fojin_check": "get_parallels: Chinese and Tibetan parallels; verify_quote for any claim about what the sutta says."
+  },
+  "mn-111-anupada": {
+   "text_id": "mn-111-anupada",
+   "title": "MN 111 Anupada Sutta",
+   "author": "Buddha (attributed)",
+   "status": "free",
+   "teach_as": "advanced jhana text — for the jhana track, after stable shamatha",
+   "practice_families": [
+    "jhana-progressions"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "jhana-foundations-week",
+   "read_order": "after stable breath practice; read one jhāna factor at a time",
+   "fojin_check": "get_parallels for the jhāna factors across Chinese/Tibetan."
+  },
+  "nyanamoli-visuddhimagga": {
+   "text_id": "nyanamoli-visuddhimagga",
+   "title": "The Path of Purification (Visuddhimagga)",
+   "author": "Bhikkhu Ñāṇamoli tr.",
+   "status": "free",
+   "teach_as": "classical manual — reference text for shamatha-vipassanā; early-suttas lineage reads it critically",
+   "practice_families": [
+    "shamatha",
+    "vipassana",
+    "jhana-progressions"
+   ],
+   "practices_to_derive": [],
+   "collection_target": null,
+   "read_order": "chapter on shamatha → sit; chapter on vipassanā → sit; never attempt the ten kasiṇas from the book alone",
+   "fojin_check": null
+  },
+  "nanananda-nibbana-mind-stilled": {
+   "text_id": "nanananda-nibbana-mind-stilled",
+   "title": "Nibbāna – The Mind Stilled",
+   "author": "Katukurunde Ñāṇananda",
+   "status": "free",
+   "teach_as": "advanced — after signless concentration is established",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "signless-concentration-week",
+   "read_order": "after two weeks of signless practice",
+   "fojin_check": null
+  },
+  "nyanadipa-silent-sages-of-old": {
+   "text_id": "nyanadipa-silent-sages-of-old",
+   "title": "The Silent Sages of Old",
+   "author": "Ñāṇadīpa Thera",
+   "status": "free",
+   "teach_as": "sutta anthology — Sutta Nipāta selection for study and practice",
+   "practice_families": [
+    "non-clinging-to-views",
+    "simplicity-of-practice"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "atthakavagga-week",
+   "read_order": "one sutta per day; sit on what it points to",
+   "fojin_check": "get_parallels for every sutta in the selection."
+  },
+  "analayo-direct-path": {
+   "text_id": "analayo-direct-path",
+   "title": "Satipatthana: The Direct Path to Realization",
+   "author": "Bhikkhu Analayo",
+   "status": "free",
+   "teach_as": "study + practice - read one section per week; sit the corresponding satipatthana contemplation; use the Chinese parallel to see what the Pali omits",
+   "practice_families": [
+    "body-scan",
+    "noting",
+    "four-establishments"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "four-establishments-outline",
+     "kind": "meditation",
+     "level": "first-steps",
+     "howto": "Sit and establish mindfulness in the body first - breath, posture, the whole body sitting. Then feelings: pleasant, unpleasant, neutral. Then mind: contracted, expanded, concentrated, scattered. Then dharmas: hindrances present or absent, aggregates arising and passing. Move through the four in order; do not skip the body.",
+     "sources": [
+      "mn-10-satipatthana",
+      "analayo-direct-path"
+     ],
+     "cautions": [
+      "If scanning the body triggers trauma responses, drop to the breath only and keep the eyes open.",
+      "Do not treat the four as a checklist to rush through - one establishment well is better than all four skimmed."
+     ]
+    }
+   ],
+   "collection_target": "early-sutta-first-month",
+   "read_order": "section - sit one establishment - journal - next section",
+   "fojin_check": "MN 10 and its Madhyama-agama parallel: get_parallels gives the Chinese version; verify_quote for any Analayo citation we ship."
+  },
+  "analayo-nibbana-mind-stilled": {
+   "text_id": "analayo-nibbana-mind-stilled",
+   "title": "Nibbana: The Mind Stilled",
+   "author": "Bhikkhu Analayo",
+   "status": "free",
+   "teach_as": "Anaylayo's 33-lecture analysis of Nanananda's Nibbana - The Mind Stilled. One lecture per session; read the corresponding section of the original Nanananda book alongside; the PDF transcript is the text; practice is the signless concentration both books describe.",
+   "practice_families": [
+    "signless-concentration"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "signless-concentration-from-nanananda",
+     "kind": "meditation",
+     "level": "first-steps",
+     "howto": "Read one section of Nanananda's Nibbana - The Mind Stilled. Sit and notice the mind making signs - categories, images, words for what is present. Do not follow the signs; do not suppress them. Let attention rest on the bare experience behind the sign. When a sign arises, note 'sign' and return. Over time the signs thin and the concentration opens into something less constructed. Read Anaylayo's lecture on that section; sit again.",
+     "sources": [
+      "nanananda-nibbana-mind-stilled",
+      "analayo-nibbana-mind-stilled",
+      "sn-48-10-indriya"
+     ],
+     "cautions": [
+      "If you feel disoriented or 'unreal', open the eyes and ground in the body before continuing.",
+      "This is concentration, not void-blanket - alertness stays."
+     ]
+    }
+   ],
+   "collection_target": "signless-concentration-week",
+   "read_order": "Nanananda section 1 - signless sit - Anaylayo lecture 1 - journal; then Nanananda section 2 - sit - lecture 2 - journal; move at the pace of understanding.",
+   "fojin_check": "every sutta Analayo cites: verify_quote; get_parallels for the Agama versions he references."
+  },
+  "analayo-samyukta-agama-studies": {
+   "text_id": "analayo-samyukta-agama-studies",
+   "title": "Samyukta-agama Studies",
+   "author": "Bhikkhu Analayo",
+   "status": "free",
+   "teach_as": "advanced study - for practitioners who already know the Pali side and want the comparative view",
+   "practice_families": [],
+   "practices_to_derive": [],
+   "collection_target": null,
+   "read_order": "pick the paper matching a sutta you already practice; compare the two versions",
+   "fojin_check": "get_parallels is the main tool - the whole point is finding the Agama version of a Pali sutta."
+  },
+  "hareesh-vbt-translation": {
+   "text_id": "hareesh-vbt-translation",
+   "title": "VBT Complete Translation",
+   "author": "Christopher Wallis (Hareesh)",
+   "status": "free",
+   "teach_as": "the base translation - read one dharana at a time; sit the practice it describes; log what shifts. Pair with the blog analysis for the full picture.",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition",
+    "sound-dissolution",
+    "body-as-consciousness"
+   ],
+   "practices_to_derive": [
+    {
+     "id": "vbt-body-as-consciousness",
+     "kind": "meditation",
+     "level": "first-steps",
+     "howto": "Sit and conceive of the body, or the whole universe, as nothing but consciousness. Let this be a felt sense, not an idea. When the mind contracts into 'me' or 'mine', return to the wider field. Rest there. This is VBT verse 63.",
+     "sources": [
+      "hareesh-vbt-translation",
+      "vbt-breath-pause"
+     ],
+     "cautions": [
+      "If this triggers derealisation, open the eyes and ground in the breath body before continuing.",
+      "This is a recognition practice, not a blank-state practice - alertness stays."
+     ]
+    },
+    {
+     "id": "vbt-mind-between-objects",
+     "kind": "enquiry",
+     "level": "steady",
+     "howto": "When the mind leaves one object and is about to grasp another, rest in the gap between them. Do not follow the mind to its next object; do not suppress it. Stay in the middle. The highest realisation unfolds there. This is VBT verse 62.",
+     "sources": [
+      "hareesh-vbt-translation",
+      "vbt-breath-pause"
+     ],
+     "cautions": [
+      "This requires a basic level of concentration first - establish the breath gap practice before attempting."
+     ]
+    }
+   ],
+   "collection_target": "trika-prep-week",
+   "read_order": "one dharana per sitting day; read, sit, log. Start with the breath practices (24-26), progress to the middle practices (40-50), save the deep ones (52-57) for later.",
+   "fojin_check": "not applicable (Sanskrit, not Pali) - use GRETIL for the Sanskrit source text."
+  },
+  "hareesh-vbt-blog-series": {
+   "text_id": "hareesh-vbt-blog-series",
+   "title": "VBT Blog Series",
+   "author": "Christopher Wallis (Hareesh)",
+   "status": "free",
+   "teach_as": "lecture-analysis layer - read one blog post per sitting day alongside the corresponding dharana from the base translation. The blog gives the Sanskrit, the translation, the practice notes, and Abhinavagupta's framework.",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition",
+    "sound-dissolution",
+    "body-as-consciousness"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "trika-prep-week",
+   "read_order": "blog post N - sit dharana N - journal - next post. Move at the pace of understanding.",
+   "fojin_check": "not applicable - Sanskrit source, use GRETIL."
+  },
+  "hareesh-vbt-concordance": {
+   "text_id": "hareesh-vbt-concordance",
+   "title": "VBT Translation Concordance Part 1",
+   "author": "Christopher Wallis (Hareesh)",
+   "status": "free",
+   "teach_as": "reference - when a dharana is unclear, check the concordance to see how 8 translators read it differently. The upaya categorization (aṇava/śākta/śāmbhava) tells you which level of practice it is.",
+   "practice_families": [],
+   "practices_to_derive": [],
+   "collection_target": null,
+   "read_order": "as needed - when a verse is unclear, look it up",
+   "fojin_check": "not applicable."
+  },
+  "vbt-baumer-lakshmanjoo": {
+   "text_id": "vbt-baumer-lakshmanjoo",
+   "title": "VBT: The Practice of Centring Awareness",
+   "author": "Bettina Baumer tr. + Swami Lakshman Joo commentary",
+   "status": "free (Archive PDF)",
+   "teach_as": "the Lakshman Joo commentary layer - his direct oral teaching on the VBT, edited from transcript by Baumer. The most direct access to how a living Trika master reads the text. Read alongside the Hareesh translation for a different angle.",
+   "practice_families": [
+    "vbt-breath-pause",
+    "gap-rest",
+    "recognition"
+   ],
+   "practices_to_derive": [],
+   "collection_target": "trika-prep-week",
+   "read_order": "after reading Hareesh's translation of the same dharana; compare the two readings",
+   "fojin_check": "not applicable."
+  }
+ }
+}

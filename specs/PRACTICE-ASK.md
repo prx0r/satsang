@@ -39,6 +39,12 @@ Embeddings small enough for the edge (e.g. a 384-dim model; Workers AI or comput
 ## Privacy and safety
 Audio is never stored (only text). Questions are private by default; shared only after scrubbing. Clear "not medical advice"; red-flag scripts are written in advance and reviewed. The LLM can never extend holds or increase intensity — only the progression rules can, and only between sessions.
 
+### Where Ask lands in the planned session log (from satsang-extensions 42, archived 2026-10-21; not built)
+Each Ask exchange during a sit is attached to that sit's `practice_session` row (PRACTICE-ENGINE §7.1) as private text: `{t (s into the
+session), phase (stage id), question, action taken (continue|switch_params|offer...), safety?: true}`; never audio. Safety events also feed
+`due[].why` in the next daily snapshot ("last time: lightheaded at round 3 -> try the gentler ratio"), so the guidance carries over without the
+user retelling it. Nothing is stored server-side until accounts exist; the device keeps it locally and in `/me/export` later.
+
 ## Agent-native
 MCP: `ask_practice(practice, question, phase?)` returns the best approved QA or null (no generation for agents by default); `list_practice_questions(practice)`. Each approved QA renders on the practice page as an FAQ section (visible text, good for Google AI answers).
 

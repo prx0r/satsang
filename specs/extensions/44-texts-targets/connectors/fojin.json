@@ -1,0 +1,30 @@
+{
+  "_note": "FoJin connector (2026-10-20 extension pack 44). Buddhist canon tools: search, passages, cross-canon parallels, dictionaries — all URN-cited. Free, no key required (anon rate-limited). Home: https://fojin.app · MCP: https://mcp.fojin.ai/mcp · PyPI: fojin-mcp. Interoperable URN scheme maps to CBETA / SuttaCentral (sc/) / 84000 / GRETIL numbering.",
+  "id": "fojin",
+  "kind": "buddhist-canon",
+  "access": {
+    "mcp": "https://mcp.fojin.ai/mcp",
+    "api_base_note": "The MCP server calls the FoJin API internally; we use the MCP endpoint directly.",
+    "pypi": "pip install fojin-mcp",
+    "transport": "streamable-http, anon, rate-limited",
+    "install": "claude mcp add --transport http fojin https://mcp.fojin.ai/mcp  OR  uvx fojin-mcp"
+  },
+  "tools": [
+    {"name": "search_corpus", "use": "semantic search across aggregated canon — every hit carries a fojin: URN"},
+    {"name": "read_passage", "use": "read one fascicle (juan) + its URN"},
+    {"name": "get_parallels", "use": "cross-canon aligned parallels (Chinese↔Pali↔Tibetan) — the comparative engine for topic hubs"},
+    {"name": "lookup_dictionary", "use": "32 dictionaries, 747K+ entries across Sanskrit/Pali/Tibetan/Chinese/English"},
+    {"name": "lookup_entity", "use": "knowledge-graph entities — people, places, works, terms"},
+    {"name": "resolve_urn", "use": "resolve a fojin: URN to reader URL + existence"},
+    {"name": "verify_quote", "use": "verbatim check — does this quote exist in the canon? honest cite_matched/juan_matched or near-miss. CALL THIS before serving any quoted scripture."},
+    {"name": "commentaries", "use": "for one passage, what historical commentators wrote — anchored to juan and line"}
+  ],
+  "licence": "Apache-2.0 (code) / data: per-source (SuttaCentral CC0, CBETA CC BY-NC-SA, 84000 per terms) — link, never rehost",
+  "satsang_use": {
+    "topic_hubs": "get_parallels on the key topic for cross-tradition compare sections",
+    "chat_enquiry": "verify_quote before any quoted scripture appears in chat output",
+    "practice_sources": "search_corpus to find the right sutta id for a practice's source row",
+    "translations": "lookup_dictionary for archaic Pali/Sanskrit terms in practice step text",
+    "fojin_check_in_targets": "each targets entry carries a fojin_check field naming which tool to call for that text"
+  }
+}

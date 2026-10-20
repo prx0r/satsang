@@ -222,3 +222,32 @@ Live: wiser-web fe65aa0b, wiser-mcp f9405239 (tantrafiles.xyz; satsang.digital s
 from work/wiser (engine/ and specs/TEXT-TO-PRACTICE.md left to the text-to-practice agent; transcripts, internal/, engine/, root scratch
 scripts, generated site.gen.js and secrets excluded; secret scan clean). Sync tooling: work/wiser-closeout/ (phase scripts = deploy.sh lines
 11-27 / 29-32 / 33-34, sync + scan scripts).
+
+## Batch 6: 42–45 + VBT source stack 74ebf23 (deployed wiser-web 3478290f, wiser-mcp 9a999aad; 2026-10-21 ~02:20 +07)
+Source: prx0r/satsang-extensions @ c470b06. Scope change from the owner mid-run: the text-to-practice VBT demos (engine/) are owned by the
+engine-v2 agent; nothing under engine/ was touched here, and pack 45's VBT-DOCTRINE/INTERACTIVE/ADAPTIVE.md are left to it (archive copies only).
+Review corrections are code, not hand edits: `app/tools/patch-ext-42-45.py <copy>` rewrites a copy of the packs before staging (upstream untouched),
+then `stage-extensions.py --packs 43-trika-prep,44-texts-targets,45-vbt-practices --date 2026-10-21` → `merge-sources.py` (graph files byte-identical)
+→ build-wise → build-hubs → build-collections. check_pack: 43/44/45 ALL PASS on the corrected copy (44 has 1 verify-queued: the Bäumer PDF, held).
+| pack | result | counts / notes |
+|---|---|---|
+| 42-user-profile | ARCHIVED | needs accounts + D1 (0016 tables, /me/snapshot, /me/export). Folded as the planned session log: specs/PRACTICE-ENGINE.md §7.1 (practice_session row + daily-snapshot shape) and specs/PRACTICE-ASK.md ("Where Ask lands"). Draft schema stays in specs/extensions/42-user-profile/schemas/ (not in specs/schema). No migration applied |
+| 43-trika-prep | merged | 1 practice (ease-through-the-body-trika-prep, needsTeacher false, 3 contraindications incl. the teacher pointer), visual gap-rest → app/wisegraph/visuals/ (ground moved to the dark palette; no consumer yet), journey **trika-prep-week** (7 days) |
+| 44-texts-targets | merged (connector archived) | 28 text records: **26 linked, 2 held**; 20 teaching targets → `sources/ext-44-texts-targets/teaching-targets.json` (teachAs + readOrder ride on the linked text: 18 of 26; 2 targets are the held texts); practices_to_derive stay plans (specs/extensions/44-texts-targets/texts-targets.json). FoJin: ARCHIVED (connectors/FOJIN-DECISION.md: live and Apache-2.0, but 7 months old with v3→v4→v1 churn, one maintainer, anon rate-limited, no proxy terms, NC/SA data pass-through) |
+| 45-vbt-practices | merged | 6 VBT practices + series **vbt-foundations** (7 units, reuses vbt-breath-pause). Corrected: verse numbers (inner sound 38-39 not 34-35; body-as-awareness 63; "twelve centres" → the end-of-twelve, verse 51 — the pack had invented a 12-centre list; spaciousness 43-48), sources → Tantra 112 full text + the translator's per-verse blog posts (not the held 2018 PDF), quotes and promised outcomes removed from source notes/how-tos, every record gets contraindications + "learn the rest from a qualified teacher"; collection intro no longer claims the text's own order or "needs no teacher". No retention, locks, khecari or mantras |
+- build-collections: ALIAS map (a sourcer's own practice id → built id), so packs can reuse deep-tantra ids (vbt-breath-pause →
+  resting-in-the-gap-between-breaths-vijnana-bhairava-dharana, recognition-contemplation → recognition-pratyabhijna-contemplation). 0 unresolved.
+- merge-sources: staged texts read `traditions[]` / `authors[]` lists (were dropped) and a group's teaching-targets.json.
+Licence results (terms read 2026-10-21; registry entries carry evidenceUrl):
+- LINKED: tantra112.app full text (book `tantra112-full-text`: "offered for free as our gift"; ToS §5 personal non-commercial, no copying/scraping → link only, noSale);
+  hareesh.org (domain, publisher-free, noSale: author's own site, posts "All rights reserved" → link only) → VBT blog series index + concordance;
+  seeingthroughthenet.net (gift-of-dhamma: "express wish ... offered as a pure gift of Dhamma free of charge") → 3 Ñāṇananda books (link moved off bps.lk home);
+  Anālayo folder at the Numata Center Hamburg (url prefix: his own staff page lists each book with a PDF link; © Anālayo, royalties waived) → Direct Path +
+  Saṃyukta-āgama Studies (link fixed: the pack pointed it at direct-path.pdf; now sastudies.pdf); Path Press Publications per-book (€ 0,00): Dhamma Within
+  Reach, Silent Sages of Old, Aṭṭhakavagga; existing registry: nanavira.org ×7, SuttaCentral ×5, ATI Visuddhimagga, dhammatalks MN 131, Dharma Seed (BCBS Anālayo lectures, CC BY-NC-ND).
+- HELD: Hareesh 2018 VBT PDF (last page "All rights reserved. Please do not reproduce or distribute"; not on his free Writings page; he calls it the old
+  draft that "circulates online"); archive.org Bäumer/Lakshman Joo PDF (Community Texts upload by a user, copyrighted Indica 2002 book, no permission).
+  Both answer /resource/<slug> with the noindex held page. Pack note: 45's README lists tts-scripts/vbt-sound-dissolution.json, which is not in the repo.
+Validation: schema 13,078 failing none; transcript guards 0 found (243 / 9,665); mcp/test.mjs + test-client all passed live; bundles 572 KB / 1,002 KB gzip.
+Live: /practice/vbt-mind-between-objects, /practice/vbt-twelve-centres, /collection/vbt-foundations, /collection/trika-prep-week, /resource/tantra112-full-vbt-text-all-112-practices-free 200.
+No screenshots this batch (no UI change; existing practice/collection templates). MCP get_resources: VBT texts match "VBT"/"Hareesh" queries, not "vijnana bhairava" (titles abbreviate).

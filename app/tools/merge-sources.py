@@ -565,6 +565,8 @@ TEXT_KINDS = {'book', 'books', 'text', 'texts', 'article', 'articles', 'e-text-l
 log['texts_licence_shown'] = log['texts_licence_held'] = 0
 for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older deep groups' texts.json are not wired; unchanged)
     f = os.path.join(SRC, g, 'texts.json')
+    ft = os.path.join(SRC, g, 'teaching-targets.json')  # satsang-extensions 44: how to teach a text (teach_as, read_order); practices_to_derive stay plans (specs/extensions/44)
+    TT = (J(ft).get('targets') or {}) if os.path.exists(ft) else {}
     for t in (items(J(f), 'texts') if os.path.exists(f) else []):
         if not t.get('link'): log['texts_linkless_held'] += 1; continue
         lic, why, evu, ent = licence_for(t['id'], t.get('link'))
@@ -575,7 +577,9 @@ for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older
         sch = TRAD_MAP.get(t.get('school'), t.get('school'))
         RES.append({'id': t['id'], 'title': t['title'], 'url': t['link'], 'kind': t.get('kind') or 'book', 'free': True,
                     'licence': t.get('licence') or lic, 'licenceClass': lic, 'licenceEvidence': why[:200], **({'licenceEvidenceUrl': evu} if evu else {}), 'noSale': no_sale(lic, ent),
-                    'traditions': [sch] if sch in TR else [], 'people': [x for x in [PERSON_MAP.get(t.get('author') or '', t.get('author'))] if x in PB],
+                    'traditions': [x for x in dict.fromkeys([sch] + [TRAD_MAP.get(y, y) for y in t.get('traditions') or []]) if x in TR],
+                    'people': [x for x in dict.fromkeys([PERSON_MAP.get(y, y) for y in [t.get('author')] + list(t.get('authors') or []) if y]) if x in PB],
+                    **({'teach': {k2: v2 for k2, v2 in (('teachAs', TT[t['id']].get('teach_as')), ('readOrder', TT[t['id']].get('read_order'))) if v2}} if t['id'] in TT else {}),
                     'note': t.get('note'), 'source_url': t['link'], 'checked': t.get('checked') or '2026-10-20', 'group': g})
 f = os.path.join(SRC, 'deep-india-study', 'resources.json')
 if 'deep-india-study' in G and os.path.exists(f):

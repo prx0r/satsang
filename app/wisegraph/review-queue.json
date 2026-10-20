@@ -740,6 +740,26 @@
    "queued": "2026-10-20"
   },
   {
+   "pack": "ext-44-texts-targets",
+   "kind": "text-licence",
+   "subject": "text/hareesh-vbt-translation",
+   "reason": "licence gate: unregistered (checked 2026-10-21: 2018 first-draft PDF: last page \"All rights reserved. Please do not reproduce or distribute without permission\"; not offered on the author's free Writings page; the author calls it an old version that \"circulates online\" (hareesh.org/blog/2026/2/28/tantra112). Linked instead: the current free full text on Tantra 112); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "title": "VBT Complete Translation - Christopher Wallis (Hareesh), free PDF",
+   "evidenceUrl": "https://hareesh.org/blog/2026/2/28/tantra112",
+   "queued": "2026-10-21"
+  },
+  {
+   "pack": "ext-44-texts-targets",
+   "kind": "text-licence",
+   "subject": "text/vbt-baumer-lakshmanjoo",
+   "reason": "licence gate: unregistered (checked 2026-10-21: Internet Archive \"Community Texts\" upload by user SwamiJii (2021) of a copyrighted book (Bäumer tr., Lakshman Joo commentary, Indica 2002); no licence or rights-holder permission stated on the item page); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "title": "VBT: The Practice of Centring Awareness - Baumer tr. + Lakshman Joo commentary (Archive PDF)",
+   "evidenceUrl": "https://archive.org/details/vijnana-bhairava-tantra_20210216",
+   "queued": "2026-10-21"
+  },
+  {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/dyczkowski-video-note",

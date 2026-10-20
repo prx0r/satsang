@@ -1,0 +1,129 @@
+{
+ "_note": "staged from satsang-extensions/45-vbt-practices",
+ "collections": [
+  {
+   "id": "vbt-foundations",
+   "type": "collection",
+   "kind": "meditation-series",
+   "title": "VBT Foundations",
+   "topic": "self",
+   "cadence": "daily",
+   "author": "Wiser",
+   "intro": "Seven contemplative practices from the Vijñāna Bhairava Tantra, in a progression from the breath to daily life (not the text's own order): the turn of the breath, the gap between objects, inner sound, the body as awareness, the sense spaces, spaciousness, and the end-of-twelve through the day. Each is a quiet sit you can do on your own. The rest of the text (breath retention, mantra, the subtle-body practices) is learned from a qualified teacher: when one of these becomes your door, take it to a teacher in the tradition.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Breath-pause",
+     "track": "practice",
+     "intro": "The first practice the text presents: resting in the gap between the in-breath and the out-breath.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-breath-pause"
+      },
+      {
+       "role": "reflect",
+       "note": "Did you find the turning, or the idea of it? Either is fine — noted, not judged."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "The gap between thoughts",
+     "track": "practice",
+     "intro": "When the mind lets go of one thing and before it takes up the next, rest in the middle. Build on day 1's steadiness.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-mind-between-objects"
+      },
+      {
+       "role": "reflect",
+       "note": "How long was the gap today? One thought-width, or longer?"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Inner sound",
+     "track": "practice",
+     "intro": "Listen to the subtle inner sound until sound dissolves into silence.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-sound-dissolution"
+      },
+      {
+       "role": "reflect",
+       "note": "What quality was the sound — ring, hum, tone, silence? Log it plainly."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Body as consciousness",
+     "track": "practice",
+     "intro": "Conceive of the body — or the whole universe — as nothing but consciousness. A felt sense, not an idea.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-body-as-consciousness"
+      },
+      {
+       "role": "reflect",
+       "note": "Did the body-sense shift, or was it the same body with a different label? Both are data."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Inner and outer spaces",
+     "track": "practice",
+     "intro": "A sense contact — the outer space where it arrives, the inner space where it is received, both as one field.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-inner-outer-spaces"
+      },
+      {
+       "role": "reflect",
+       "note": "Which side did attention collapse into — inner or outer? That is the habit to notice."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Spaciousness",
+     "track": "practice",
+     "intro": "The space of the room, the space inside the body, the skin as a thin wall between: one open field.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-space-contemplation"
+      },
+      {
+       "role": "reflect",
+       "note": "When did the mind grasp for something solid? What did it grasp at?"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "The end-of-twelve through the day",
+     "track": "practice",
+     "intro": "Not a sitting practice. A few times today, let attention touch the space just above the crown for a breath or two, then carry on.",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "vbt-twelve-centres"
+      },
+      {
+       "role": "reflect",
+       "note": "How many times today did you remember? The remembering is the practice, not the count."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

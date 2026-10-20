@@ -1,0 +1,68 @@
+{
+ "_note": "Visual spec for vbt-breath-pause (2026-10-20 extension pack). Grammar: deitybody-v1. Breath-paced, white ground, midline channel, bindu at the heart. No retention cues, no forced locks — attention rests at the turn, nothing is held. | Satsang 2026-10-21: ground and settle cue moved to the dark palette (the site keeps its dark design).",
+ "id": "gap-rest",
+ "practice": "vbt-breath-pause",
+ "grammar": "deitybody-v1",
+ "ground": "#0b0b0d",
+ "body": {
+  "channels": [
+   {
+    "id": "midline",
+    "kind": "channel",
+    "note": "slender gold line, crown to heart — the only axis used",
+    "color": "#c9a45c",
+    "opacity": 0.75
+   }
+  ]
+ },
+ "breath": {
+  "inhale_s": 6,
+  "exhale_s": 6,
+  "note": "natural rhythm only; the turn is noticed, never held"
+ },
+ "cues": [
+  {
+   "id": "settle",
+   "at_s": 0,
+   "locus": "whole-body",
+   "shape": "sphere",
+   "size": 1.0,
+   "color": "#e8e1cf",
+   "motion": "appear",
+   "note": "arrive; feel the body sitting"
+  },
+  {
+   "id": "turn-in",
+   "at_s": 60,
+   "locus": "heart",
+   "shape": "sphere",
+   "glyph": "bindu",
+   "size": 0.6,
+   "color": "#c9a45c",
+   "motion": "appear",
+   "note": "in-breath turns; attention falls into the turning"
+  },
+  {
+   "id": "turn-out",
+   "at_s": 180,
+   "locus": "heart",
+   "shape": "sphere",
+   "glyph": "bindu",
+   "size": 0.6,
+   "color": "#c9a45c",
+   "motion": "pulse",
+   "note": "out-breath turns; rest there for its brief duration"
+  },
+  {
+   "id": "rest",
+   "at_s": 320,
+   "locus": "whole-body",
+   "shape": "loop",
+   "size": 1.0,
+   "color": "#c9a45c",
+   "motion": "circulate",
+   "note": "open awareness present in the pause; nothing to do"
+  }
+ ],
+ "caution": "PEDAGOGICAL encoding, not initiation. If attention strains, return to the ease practice; never hold the breath to find the gap."
+}

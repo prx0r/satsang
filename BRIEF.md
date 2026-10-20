@@ -231,7 +231,16 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
   WISER_SOURCES pointing at a folder of symlinks without deep-india-study. Its virtual-clip part titles are not deterministic
   (Python set order); the live clips.json was kept.
 
-## CURRENT STATE 2026-10-21 01:50 +07 (close-out; history in MERGE-LOG.md)
+## CURRENT STATE 2026-10-21 02:20 +07 (batch 6; history in MERGE-LOG.md)
+- Live versions: **wiser-web 3478290f**, **wiser-mcp 9a999aad**, wiser-api 007fc5c3 (unchanged). Domain ACTIVE='legacy' (tantrafiles.xyz).
+  Bundles 572 KB / 1,002 KB gzip. MCP: 22 read-only tools (FoJin NOT added: archived, see specs/extensions/44-texts-targets/connectors/FOJIN-DECISION.md).
+- Extensions merged through **45** (prx0r/satsang-extensions @ c470b06). 42-user-profile archived (planned session log in PRACTICE-ENGINE §7.1 / PRACTICE-ASK).
+  New: practices 84 (+7: ease-through-the-body-trika-prep + 6 VBT dhāraṇās), collections 9 (+ **trika-prep-week** journey, **vbt-foundations** series),
+  staged texts 40 linked (+26 from pack 44) / 14 held (+2: Hareesh 2018 VBT PDF, archive.org Bäumer/Lakshman Joo PDF). Open-data 13,078 records.
+- engine/ belongs to the **engine-v2** agent (VBT interactive play from pack 45 + VBT-DOCTRINE/INTERACTIVE/ADAPTIVE); no other agent edits engine/.
+- Pack corrections are reproducible: app/tools/patch-ext-42-45.py on a copy of the packs, then stage-extensions → merge-sources → build-wise/hubs/collections.
+
+## STATE 2026-10-21 01:50 +07 (previous close-out; superseded above where they differ)
 - Live versions: **wiser-web fe65aa0b**, **wiser-mcp f9405239**, wiser-api 007fc5c3 (unchanged). Domain ACTIVE='legacy' (tantrafiles.xyz).
   Bundles 561 KB / 995 KB gzip (Free cap 3 MB). MCP: 22 read-only tools, REST mirror + OpenAPI, discovery on both hosts.
 - Counts: about **738 people** (724 in the open-data person dump), **875 places** (825 mapped), **516 edges**, 178 tradition nodes,
