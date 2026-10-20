@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tantrafiles.xyz/schema/programme.json",
+  "title": "Recurring programme at a place",
+  "description": "Timeless facts about something a place regularly runs. Dated instances are event.json records (kind retreat/course) with checked dates and TTL. Merge target: specs/schema/programme.json.",
+  "type": "object",
+  "properties": {
+    "type": { "type": "string", "const": "programme" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,79}$" },
+    "place": { "type": "string", "description": "place id" },
+    "name": { "type": "string", "maxLength": 140 },
+    "typical_length": { "type": "string", "description": "e.g. '10 days', '26 days', 'weekend', 'ongoing'" },
+    "format": { "type": "string", "enum": ["residential", "non-residential", "online", "mixed"] },
+    "cost_model": { "type": "string", "enum": ["free", "donation", "fixed", "unknown"] },
+    "schedule_url": { "type": "string", "format": "uri" },
+    "recurrence": { "type": "string", "description": "RRULE or plain words ('monthly from the 1st', 'ongoing, join anytime')" },
+    "teachers": { "type": "array", "items": { "type": "string" } },
+    "meta": { "type": "object" }
+  },
+  "required": ["type", "id", "place", "name"]
+}

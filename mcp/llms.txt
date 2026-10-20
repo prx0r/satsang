@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 692 teachers, scholars and historical figures with 1,063 documented lineage and influence links, 852 places to practise in 51 countries (contacts exactly as each place publishes them, 276 checked against the place's own site), 345 texts and books (77 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 692 teachers, scholars and historical figures with 1,064 documented lineage and influence links, 852 places to practise in 51 countries (contacts exactly as each place publishes them, 276 checked against the place's own site), 348 texts and books (77 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -28,6 +28,10 @@ Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); co
 - `get_lineage_path`: Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges.
 - `what_to_study`: A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first).
 - `guide_me`: Walk the golden path for a tradition or a teacher: living teachers, each one’s methods (practices with cautions and needsTeacher; never initiated detail), the syllabuses that contain them, and the places tied to them with contacts exactly as published.
+- `find_retreats`: Retreats and courses by country, tradition, length or format: the recurring programmes places publish (name, typical length, format, cost model, recurrence) with the official schedule link and the date Satsang last confirmed it.
+- `get_schedule`: One place’s schedule: its recurring programmes, its yearly events (usual month), and the official schedule page, which is canonical for dates (always cite it).
+- `plan_retreat`: Plan a personal (home) retreat from an intent: topic, days, strictness (gentle | standard | strict), optional tradition or teacher.
+- `compose_booking`: Draft a booking or enquiry email to a place for a programme and dates, using only the contacts and booking route the place publishes.
 - `site_health`: Satsang’s own health from its keeper (GitHub Actions checks): uptime over 30 days per probe (site, API, MCP, sitemap, llms.txt, openapi), what is down now, open maintenance findings by severity and check, dead clips/links, and the re-verify queue size.
 - `list_findings`: Open keeper findings (broken links, dead YouTube embeds, sitemap/JSON-LD problems, stale or unsourced records, data conflicts, leak guards), highest priority first.
 - `next_maintenance_task`: The highest-priority unclaimed keeper finding with how to fix it and how to claim it (keeper/claims.json in a PR to github.com/prx0r/satsang).

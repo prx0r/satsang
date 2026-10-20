@@ -1,0 +1,35 @@
+{
+ "_note": "staged from satsang-extensions/39-dharma-sites",
+ "places": [
+  {
+   "city": "Kamloops, British Columbia",
+   "coord_precision": "approximate (unverified)",
+   "country": "CA",
+   "country_name": "Canada",
+   "description": "First Ajahn Chah monastery in North America; Ajahn Sona abbot; self-hosted library + YouTube + podcasts + virtual retreat playlists.",
+   "id": "birken",
+   "language": "en",
+   "lat": 50.7,
+   "lng": -120.3,
+   "name": "Birken Forest Monastery (Sitavana)",
+   "offers": [
+    "retreats",
+    "library"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-sona"
+   ],
+   "traditions": [
+    "thai-forest"
+   ],
+   "type": "monastery",
+   "url": "https://birken.ca/teachings/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://birken.ca/teachings/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

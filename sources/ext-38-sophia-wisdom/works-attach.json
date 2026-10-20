@@ -1,0 +1,34 @@
+{
+ "_note": "staged from satsang-extensions/38-sophia-wisdom",
+ "attach": [
+  {
+   "person": "cynthia-bourgeault",
+   "works": [
+    {
+     "id": "wisdom-way-of-knowing",
+     "kind": "book",
+     "title": "The Wisdom Way of Knowing",
+     "year": 2003
+    },
+    {
+     "id": "wisdom-jesus",
+     "kind": "book",
+     "title": "The Wisdom Jesus",
+     "year": 2008
+    },
+    {
+     "id": "meaning-of-mary-magdalene",
+     "kind": "book",
+     "title": "The Meaning of Mary Magdalene",
+     "year": 2010
+    },
+    {
+     "id": "eye-of-the-heart",
+     "kind": "book",
+     "title": "Eye of the Heart",
+     "year": 2020
+    }
+   ]
+  }
+ ]
+}

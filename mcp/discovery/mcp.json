@@ -121,6 +121,30 @@
       "readOnly": true
     },
     {
+      "name": "find_retreats",
+      "title": "Find retreats",
+      "description": "Retreats and courses by country, tradition, length or format: the recurring programmes places publish (name, typical length, format, cost model, recurrence) with the official schedule link and the date Satsang last confirmed it. Satsang holds no dated instances: dates always come from the official schedule page, and anything not confirmed in the last 14 days says so.",
+      "readOnly": true
+    },
+    {
+      "name": "get_schedule",
+      "title": "Place schedule",
+      "description": "One place’s schedule: its recurring programmes, its yearly events (usual month), and the official schedule page, which is canonical for dates (always cite it). Each part carries the date Satsang last checked it, so callers can show staleness honestly.",
+      "readOnly": true
+    },
+    {
+      "name": "plan_retreat",
+      "title": "Plan a retreat",
+      "description": "Plan a personal (home) retreat from an intent: topic, days, strictness (gentle | standard | strict), optional tradition or teacher. Returns one full talk per day (whole talks only, matched across traditions), a daily timetable scaled by strictness, the rules overlay, and places that run real retreats of this kind. Nothing is booked or started; it is orientation scaffolding, not transmission. Says plainly when the container is too thin to be a retreat.",
+      "readOnly": true
+    },
+    {
+      "name": "compose_booking",
+      "title": "Draft a booking enquiry",
+      "description": "Draft a booking or enquiry email to a place for a programme and dates, using only the contacts and booking route the place publishes. Returns text for the user to send themselves: it never sends, never books, never holds payment. If the place publishes no email, it points to the official contact or schedule page instead.",
+      "readOnly": true
+    },
+    {
       "name": "site_health",
       "title": "Site health",
       "description": "Satsang’s own health from its keeper (GitHub Actions checks): uptime over 30 days per probe (site, API, MCP, sitemap, llms.txt, openapi), what is down now, open maintenance findings by severity and check, dead clips/links, and the re-verify queue size.",

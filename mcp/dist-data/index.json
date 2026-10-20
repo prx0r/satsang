@@ -21,8 +21,8 @@
    "count": 692,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 457613,
-   "sha256": "36d53b5bedc5be14c9ae6b7fbb1baefc9336a9d8d188a48109bfef0a81620249",
+   "bytes": 457886,
+   "sha256": "7567669b10f5f69fc68c5c10e42e86b8f280c4d5802699d668579b2b5b65600d",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
@@ -84,17 +84,17 @@
    "count": 852,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 835430,
-   "sha256": "2ea89fb2d4ad934697b1e89caff5d0bebdb195171fb83ce4d02a049b67c4d38d",
+   "bytes": 836928,
+   "sha256": "3515b9533c7d62824efe9bf156d37ea09ffea5e1064c1670a681e43125754d9a",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
    "kind": "edge",
-   "count": 1063,
+   "count": 1064,
    "json": "edge.json",
    "jsonl": "edge.jsonl",
-   "bytes": 296423,
-   "sha256": "32184f41bdd98a0e3ef41258c3d439068eeab4e37c17f3aab1e3d32520050f86",
+   "bytes": 296670,
+   "sha256": "669b27ce5713bd96ac98e5d689d877e8079ff7f27fff9765ba0686344358b62d",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {

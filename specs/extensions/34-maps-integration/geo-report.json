@@ -1,0 +1,2242 @@
+{
+ "totals": {
+  "ok": 387,
+  "missing": 27
+ },
+ "rows": [
+  {
+   "id": "amaravati",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "cittaviveka",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "aruna-ratanagiri",
+   "verdict": "ok",
+   "precision": "site"
+  },
+  {
+   "id": "hartridge",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "forest-hermitage-uk",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "wat-buddhapadipa",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "london-buddhist-vihara",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "birmingham-buddhist-vihara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "imc-uk",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "samatha-trust-greenstreete",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "samatha-manchester",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "dhamma-dipa",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "dhamma-padhana",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "dhamma-sukhakari",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "gaia-house",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "sharpham-trust",
+   "verdict": "ok",
+   "precision": "building (Sharpham estate)"
+  },
+  {
+   "id": "buddhist-society",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "peace-pagoda-battersea",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "peace-pagoda-mk",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "wat-sanghathan",
+   "verdict": "ok",
+   "precision": "district"
+  },
+  {
+   "id": "throssel-hole",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "telford-priory",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "portobello-priory",
+   "verdict": "ok",
+   "precision": "address"
+  },
+  {
+   "id": "norwich-zen-priory",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "great-ocean-dharma-refuge",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "dragon-bell-temple",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "turning-wheel-temple",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "maenllwyd",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "zenways",
+   "verdict": "missing"
+  },
+  {
+   "id": "kwan-um-london",
+   "verdict": "missing"
+  },
+  {
+   "id": "samye-ling",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "holy-isle",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "purelands",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "kagyu-samye-dzong-london",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "ksd-edinburgh",
+   "verdict": "ok",
+   "precision": "building (OSM node on Maritime Street, beside the published Bernard Street address)"
+  },
+  {
+   "id": "ksd-glasgow",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "ksd-cardiff",
+   "verdict": "ok",
+   "precision": "street (address search returned a neighbouring property on Cowbridge Road East)"
+  },
+  {
+   "id": "ksd-scarborough",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "ksd-highlands",
+   "verdict": "ok",
+   "precision": "locality"
+  },
+  {
+   "id": "jamyang-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "jamyang-leeds",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "land-of-joy",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "manjushri-kmc",
+   "verdict": "ok",
+   "precision": "adjacent (OSM bus stop named Conishead Priory at the site)"
+  },
+  {
+   "id": "kmc-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "rigpa-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "palpung-wales",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "lam-rim-wales",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "dechen-sheffield",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "diamond-way-london",
+   "verdict": "missing"
+  },
+  {
+   "id": "shambhala-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "dzogchen-community-uk",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "adhisthana",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "london-buddhist-centre",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "padmaloka",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "taraloka",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "dhanakosa",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "rivendell",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "vajrasana",
+   "verdict": "ok",
+   "precision": "village (Walsham-le-Willows)"
+  },
+  {
+   "id": "vajraloka",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "tiratanaloka",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "alfoxton-park",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "birmingham-buddhist-centre",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "brighton-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "bristol-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "brixton-buddhist-centre",
+   "verdict": "ok",
+   "precision": "district"
+  },
+  {
+   "id": "cambridge-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "cardiff-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "colchester-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "croydon-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "edinburgh-buddhist-centre",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "glasgow-buddhist-centre",
+   "verdict": "ok",
+   "precision": "street (Berkeley Street; venue is the Unitarian church at no. 72)"
+  },
+  {
+   "id": "ipswich-buddhist-centre",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "leeds-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "liverpool-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "llangollen-buddhist-centre",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "manchester-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "mid-essex-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "newcastle-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "north-london-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "norwich-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "nottingham-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "oxford-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "sheffield-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "southampton-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "west-london-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "worcester-buddhist-centre",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "york-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "shrewsbury-buddhist-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "buddhafield",
+   "verdict": "missing"
+  },
+  {
+   "id": "pv-uk",
+   "verdict": "missing"
+  },
+  {
+   "id": "vedanta-uk",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "bhaktivedanta-manor",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "radha-krishna-temple-soho",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "iskcon-leicester",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "iskcon-manchester",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "karuna-bhavan",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "baps-neasden",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "baps-leicester",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "swaminarayan-willesden",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "shri-venkateswara-tividale",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "highgatehill-murugan",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "mahalakshmi-east-ham",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "london-sri-murugan",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "sanatan-mandir-wembley",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "skanda-vale",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "sivananda-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "satyananda-yoga-uk",
+   "verdict": "missing"
+  },
+  {
+   "id": "chinmaya-uk",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "bk-global-retreat-centre",
+   "verdict": "ok",
+   "precision": "building (Nuneham House)"
+  },
+  {
+   "id": "bk-global-cooperation-house",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "srf-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "maharishi-garden-village",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "amma-uk",
+   "verdict": "missing"
+  },
+  {
+   "id": "brockwood",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "krishnamurti-centre",
+   "verdict": "ok",
+   "precision": "estate (Brockwood Park)"
+  },
+  {
+   "id": "headless-way",
+   "verdict": "missing"
+  },
+  {
+   "id": "colet-house",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "gurdjieff-society-london",
+   "verdict": "missing"
+  },
+  {
+   "id": "central-gurdwara-london",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "southall-gurdwara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "gravesend-gurdwara",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "smethwick-gurdwara",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "nishkam-soho-road",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "leicester-guru-nanak-gurdwara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "glasgow-gurdwara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "wolverhampton-gurdwara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "iona-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "lindisfarne",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "marygate-house",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "st-aidans-lindisfarne",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "julian-centre-norwich",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "ealing-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "wccm-meditatio-house",
+   "verdict": "missing"
+  },
+  {
+   "id": "prinknash-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "pluscarden-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "worth-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "buckfast-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "quarr-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "downside-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "ampleforth-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "mount-st-bernard",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "nunraw-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "caldey-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "stanbrook-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "malling-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "mirfield",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-beunos",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "aylesford-priory",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "tolleshunt-knights",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "little-gidding",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "glasshampton",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "hilfield-friary",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "alnmouth-friary",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "northumbria-community",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "lee-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "launde-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "scargill-house",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "minsteracres",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "st-davids-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-winefrides-well",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "walsingham-anglican",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "walsingham-catholic",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "canterbury-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "durham-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-albans-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "glastonbury-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "bardsey-island",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "whithorn",
+   "verdict": "ok",
+   "precision": "building (St Ninian's Cave)"
+  },
+  {
+   "id": "pennant-melangell",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "downpatrick-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "ely-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "westminster-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "jarrow-st-pauls",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "whitby-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "friends-house",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "woodbrooke",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "swarthmoor-hall",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "brigflatts",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "jordans",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "pendle-hill-uk",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "firbank-fell",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "glenthorne",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "claridge-house",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "charney-manor",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "beshara-chisholme",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "ibn-arabi-society",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "naqshbandi-st-anns",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "inayati-uk",
+   "verdict": "missing"
+  },
+  {
+   "id": "rumis-cave",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "cambridge-central-mosque",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "kabbalah-centre-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "kabbalah-society",
+   "verdict": "missing"
+  },
+  {
+   "id": "ts-england-hq",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "ts-scotland",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "ts-nottingham",
+   "verdict": "ok",
+   "precision": "building (Theosophical Hall)"
+  },
+  {
+   "id": "ts-bristol",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "tekels-park",
+   "verdict": "ok",
+   "precision": "locality (estate road)"
+  },
+  {
+   "id": "blavatsky-house",
+   "verdict": "missing"
+  },
+  {
+   "id": "rudolf-steiner-house",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "emerson-college",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "camphill-aberdeen",
+   "verdict": "ok",
+   "precision": "locality (Camphill Estate road)"
+  },
+  {
+   "id": "botton-village",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "swedenborg-society",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "college-of-psychic-studies",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "arthur-findlay-college",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "society-inner-light",
+   "verdict": "missing"
+  },
+  {
+   "id": "boleskine-house",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "chalice-orchard",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "museum-witchcraft-magic",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "doreen-valiente-foundation",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "warburg-institute",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "obod",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "druid-network",
+   "verdict": "missing"
+  },
+  {
+   "id": "pagan-federation",
+   "verdict": "missing"
+  },
+  {
+   "id": "british-druid-order",
+   "verdict": "missing"
+  },
+  {
+   "id": "odinist-fellowship-temple",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "asatru-uk",
+   "verdict": "missing"
+  },
+  {
+   "id": "children-of-artemis",
+   "verdict": "missing"
+  },
+  {
+   "id": "goddess-temple",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "chalice-well",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "glastonbury-tor",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "stonehenge",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "avebury",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "silbury-hill",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "west-kennet",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "rollright-stones",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "uffington-white-horse",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "waylands-smithy",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "cerne-abbas-giant",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "castlerigg",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "long-meg",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "callanish",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "ring-of-brodgar",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "maeshowe",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "clava-cairns",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "bryn-celli-ddu",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "pentre-ifan",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "men-an-tol",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "boscawen-un",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "madron-well",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "arbor-low",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "stanton-drew",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "tintagel",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-nectans-glen",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-michaels-mount",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "isle-of-man-tynwald",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "watkins-books",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "treadwells",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "atlantis-bookshop",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "wisdom-books",
+   "verdict": "missing"
+  },
+  {
+   "id": "housmans",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "gothic-image",
+   "verdict": "missing"
+  },
+  {
+   "id": "buddhist-society-bookshop",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "aeon-books",
+   "verdict": "missing"
+  },
+  {
+   "id": "mandrake-oxford",
+   "verdict": "missing"
+  },
+  {
+   "id": "findhorn",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "schumacher-college",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "library-of-avalon",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "isle-of-avalon-foundation",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "blythe-road",
+   "verdict": "ok",
+   "precision": "street"
+  },
+  {
+   "id": "sasana-ramsi",
+   "verdict": "ok",
+   "precision": "district"
+  },
+  {
+   "id": "santimiterama",
+   "verdict": "ok",
+   "precision": "town"
+  },
+  {
+   "id": "dhammakaya-london",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "wat-charoen-bhavana",
+   "verdict": "ok",
+   "precision": "city"
+  },
+  {
+   "id": "oxford-buddha-vihara",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "sakya-ling-reading",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "belmont-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "douai-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "farnborough-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "minster-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "turvey-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "lichfield-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "hereford-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "winchester-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "chichester-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-andrews-cathedral",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "dunfermline-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "lastingham",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "hexham-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "melrose-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "bury-st-edmunds-abbey",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "iona-community-camas",
+   "verdict": "missing"
+  },
+  {
+   "id": "merry-maidens",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "stones-of-stenness",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "seahenge-lynn-museum",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "knowlton-church",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "bede-griffiths-sangha",
+   "verdict": "missing"
+  },
+  {
+   "id": "quaker-meeting-lancaster",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "pardshaw",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "gurdwara-sri-guru-tegh-bahadur-leicester",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "guru-har-rai-west-bromwich",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "shree-ghanapathy",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "jalaram-leicester",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "mandir-leicester-sanatan",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "the-vedanta-branston",
+   "verdict": "ok",
+   "precision": "village"
+  },
+  {
+   "id": "lam-rim-bristol",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "thames-buddhist-vihara",
+   "verdict": "missing"
+  },
+  {
+   "id": "saddhatissa-centre",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "hindu-mandir-glasgow",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "hindu-temple-scotland",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "swaminarayan-cardiff",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "swaminarayan-oldham",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "swaminarayan-bolton",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "lindisfarne-priory",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "mount-grace-priory",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "st-nons-well",
+   "verdict": "ok",
+   "precision": "building (the well)"
+  },
+  {
+   "id": "penmon-priory",
+   "verdict": "ok",
+   "precision": "building (St Seiriol's Well)"
+  },
+  {
+   "id": "oxford-friends-meeting-house",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "come-to-good",
+   "verdict": "missing"
+  },
+  {
+   "id": "blue-idol",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "swinside",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "nine-ladies",
+   "verdict": "ok",
+   "precision": "building"
+  },
+  {
+   "id": "kilmartin-glen",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "machrie-moor",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "long-man-wilmington",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "dartington-hall",
+   "verdict": "ok",
+   "precision": "as recorded on Wikidata"
+  },
+  {
+   "id": "santacittarama",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wat-pah-nanachat",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "abhayagiri",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "belur-math",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "advaita-ashrama",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "vedanta-society-new-york",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "tushita-dharamkot",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "divine-life-society",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sri-ramanasramam",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "root-institute",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "mbmc-penang",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sasanarakkha-taiping",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "hillside-hermitage-lk",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "hillside-hermitage-slovenia",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "samanadipa",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "vihara-pod-lasem",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "na-uyana",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "meetirigala-nissarana-vanaya",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "brahma-vihari-penang",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "metta-forest",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "ims-barre",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "spirit-rock",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sfzc",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "zen-mountain-monastery",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "upaya-zen",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "kwan-um-us",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "deer-park",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "blue-cliff",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "bhavana-society",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sakya-seattle",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sravasti-abbey",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "land-medicine-buddha",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "cttb-city",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "dharma-drum-retreat",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "dhamma-dhara",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "dhamma-siri",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "vedanta-socal",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "srf-mother-center",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sivananda-ranch",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "isha-institute",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "amma-ma-center",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "siddha-ashram",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "kripalu",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "himalayan-institute",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "gethsemani",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "contemplative-outreach",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "cac-albuquerque",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "pendle-hill",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "saint-johns-abbey",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "inayati-abode",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "mevlevi-usa",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "aleph-renewal",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "theosophical-wheaton",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "adf-druidry",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "lily-dale",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "chlq-ashland",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "fdmd-socal",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "ceu-do-mapia",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "udv-santa-fe",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "temple-way-of-light",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "blue-spirit",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "bodhi-tree-cr",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "anamaya-cr",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "golden-temple",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "espanola-ashram",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "siddhachalam",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "palitana",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wudang-zixiao",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "bahai-wilmette",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "plum-village-france",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "nacna",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "ile-axe-opo-afonja",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "bodh-gaya",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "sarnath",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "tsuglagkhang",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "shechen-boudha",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "boudhanath",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "shwedagon",
+   "verdict": "ok",
+   "precision": "UNESCO tentative listing (2018)"
+  },
+  {
+   "id": "wat-pho",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wat-mahathat",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "koyasan",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "eiheiji",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "haeinsa",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "fgs-kaohsiung",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "nan-tien",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "konya-museum",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "lerab-ling",
+   "verdict": "ok",
+   "precision": "GPS published by centre (43.800248, 3.237998)"
+  },
+  {
+   "id": "dzogchen-beara",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "parmarth-niketan",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "geeta-bhawan",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "dayananda-ashram",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "rajghat-varanasi",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "patanjali-yogpeeth",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "shantikunj",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wat-chom-tong",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wat-phu-kong-tong",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "suan-mokkh",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  },
+  {
+   "id": "wat-ram-poeng",
+   "verdict": "ok",
+   "precision": "approximate (unverified)"
+  }
+ ],
+ "backlog": [
+  {
+   "id": "geo-zenways-missing",
+   "kind": "coverage-gap",
+   "file": "zenways",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-kwan-um-london-missing",
+   "kind": "coverage-gap",
+   "file": "kwan-um-london",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-diamond-way-london-missing",
+   "kind": "coverage-gap",
+   "file": "diamond-way-london",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-buddhafield-missing",
+   "kind": "coverage-gap",
+   "file": "buddhafield",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-pv-uk-missing",
+   "kind": "coverage-gap",
+   "file": "pv-uk",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-satyananda-yoga-uk-missing",
+   "kind": "coverage-gap",
+   "file": "satyananda-yoga-uk",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-amma-uk-missing",
+   "kind": "coverage-gap",
+   "file": "amma-uk",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-headless-way-missing",
+   "kind": "coverage-gap",
+   "file": "headless-way",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-gurdjieff-society-london-missing",
+   "kind": "coverage-gap",
+   "file": "gurdjieff-society-london",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-wccm-meditatio-house-missing",
+   "kind": "coverage-gap",
+   "file": "wccm-meditatio-house",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-inayati-uk-missing",
+   "kind": "coverage-gap",
+   "file": "inayati-uk",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-kabbalah-society-missing",
+   "kind": "coverage-gap",
+   "file": "kabbalah-society",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-blavatsky-house-missing",
+   "kind": "coverage-gap",
+   "file": "blavatsky-house",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-society-inner-light-missing",
+   "kind": "coverage-gap",
+   "file": "society-inner-light",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-druid-network-missing",
+   "kind": "coverage-gap",
+   "file": "druid-network",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-pagan-federation-missing",
+   "kind": "coverage-gap",
+   "file": "pagan-federation",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-british-druid-order-missing",
+   "kind": "coverage-gap",
+   "file": "british-druid-order",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-asatru-uk-missing",
+   "kind": "coverage-gap",
+   "file": "asatru-uk",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-children-of-artemis-missing",
+   "kind": "coverage-gap",
+   "file": "children-of-artemis",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-wisdom-books-missing",
+   "kind": "coverage-gap",
+   "file": "wisdom-books",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-gothic-image-missing",
+   "kind": "coverage-gap",
+   "file": "gothic-image",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-aeon-books-missing",
+   "kind": "coverage-gap",
+   "file": "aeon-books",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-mandrake-oxford-missing",
+   "kind": "coverage-gap",
+   "file": "mandrake-oxford",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-iona-community-camas-missing",
+   "kind": "coverage-gap",
+   "file": "iona-community-camas",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-bede-griffiths-sangha-missing",
+   "kind": "coverage-gap",
+   "file": "bede-griffiths-sangha",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-thames-buddhist-vihara-missing",
+   "kind": "coverage-gap",
+   "file": "thames-buddhist-vihara",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  },
+  {
+   "id": "geo-come-to-good-missing",
+   "kind": "coverage-gap",
+   "file": "come-to-good",
+   "reason": "no coordinates",
+   "severity": "backlog"
+  }
+ ]
+}

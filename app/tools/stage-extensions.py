@@ -257,6 +257,14 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
                     held = J(os.path.join(INTERNAL, 'review-internal.json')) if os.path.exists(os.path.join(INTERNAL, 'review-internal.json')) else {'items': []}
                     if r['id'] not in {i['id'] for i in held['items']}: held['items'].append({'id': r['id'], 'subject': r['subject'], 'why': 'red flag held for a human re-read (living subject, press-only or dispute)', 'queued': DATE})
                     W(os.path.join(INTERNAL, 'review-internal.json'), held); inc('redflags_internal')
+        elif base.startswith('programmes'):  # satsang-extensions 32: recurring programme patterns only (never dated instances); schedule link re-checked
+            for r in d.get('programmes') or []:
+                r = dict(r); r['place'] = PLMAP.get(r['place'], IDMAP['places'].get(r['place'], r['place']))
+                if r['place'] not in PLID: queue(pack, 'programme-unplaced', 'programme/' + r['id'], f'place {r["place"]} not in the graph; held'); continue
+                u = r.get('schedule_url')
+                if u and not url_ok(u): queue(pack, 'url-unverified', 'programme/' + r['id'], f'schedule link not 200 on {DATE}: {u}; shipped without it'); u = None
+                r['schedule_url'] = u; r['teachers'] = [PMAP.get(t, t) for t in r.get('teachers') or []]; r['checked'] = DATE if u else None
+                g.setdefault('programmes', []).append({k: v for k, v in r.items() if v not in (None, [], '')}); inc('programmes')
         elif base == 'years.json':
             g['years'].update(d.get('set_years') or {}); inc('years_fixes', len(d.get('set_years') or {}))
         elif base == 'living-flags.json':
@@ -311,6 +319,7 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
         if g.get('practices'): W(os.path.join(gd, 'practices.json'), {'_note': f'staged from satsang-extensions/{pack}', 'practices': g['practices']})
         if g.get('practice_links'): W(os.path.join(gd, 'practice-links.json'), {'_note': f'staged from satsang-extensions/{pack}', 'links': g['practice_links']})
         if g.get('redflags'): W(os.path.join(gd, 'redflags-public.json'), {'_note': 'Safety records published under the Satsang rule: a strong primary source (institutional statement, investigation, regulator), a deceased subject and a factual status; summaries are dry and attributed. Others stay internal for a human re-read.', 'records': g['redflags']})
+        if g.get('programmes'): W(os.path.join(gd, 'programmes.json'), {'_note': f'staged from satsang-extensions/{pack}: recurring patterns + official schedule link, no dates', 'programmes': g['programmes']})
         if g['years']: W(os.path.join(gd, 'years-fix.json'), {'_note': f'staged from satsang-extensions/{pack}', 'set_years': g['years']})
         rep = os.path.join(pdir, 'REPORT.md') if not os.path.exists(os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')) else os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')
         hdr = f'# {gid}: staged from prx0r/satsang-extensions/{pack} on {DATE}\n\nStaged by app/tools/stage-extensions.py (dedupe, living/low-confidence claims to app/wisegraph/review-queue.json). Pack docs: specs/extensions/{pack}/.\n\n'

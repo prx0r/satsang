@@ -839,7 +839,9 @@
    "lng": -120.185,
    "coord_precision": "as recorded on Wikidata",
    "founded": 1994,
-   "teachers": [],
+   "teachers": [
+    "ajahn-sona"
+   ],
    "url": "https://www.birken.ca",
    "wikidata": "Q4916413",
    "description": "Forest monastery in interior British Columbia in the Ajahn Chah lineage.",
@@ -864,7 +866,11 @@
      "branch_of",
      "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
     ]
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://birken.ca/teachings/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "bodhivana",
@@ -1028,6 +1034,17 @@
      "format": "silent anapanasati retreat in English",
      "cost_model": "fee (small fixed fee)",
      "schedule_url": "https://www.suanmokkh-idh.org"
+    },
+    {
+     "id": "suan-mokkh-monthly-10day",
+     "name": "Monthly 10-day silent retreat",
+     "typical_length": "10 days",
+     "format": "residential",
+     "cost_model": "unknown",
+     "schedule_url": "https://www.suanmokkh-idh.org",
+     "recurrence": "monthly from the 1st; register in person day before; no shorter stays",
+     "checked": "2026-10-20",
+     "source": "ext-32-schedules-stream"
     }
    ],
    "founded": 1932,
@@ -1068,7 +1085,23 @@
    "confidence": "high",
    "main_teacher": "ajahn-suphan",
    "teacher_model": "single",
-   "main_teacher_conf": "high"
+   "main_teacher_conf": "high",
+   "retreats": [
+    {
+     "id": "rampoeng-26day-basic",
+     "name": "26-day basic vipassana course (+10-day follow-ups)",
+     "typical_length": "26 days",
+     "format": "residential",
+     "cost_model": "fixed",
+     "schedule_url": "https://www.watrampoeng.com/vipassana-course/",
+     "recurrence": "check-in dates published yearly; 500 THB registration",
+     "teachers": [
+      "ajahn-suphan"
+     ],
+     "checked": "2026-10-20",
+     "source": "ext-32-schedules-stream"
+    }
+   ]
   },
   {
    "id": "island-hermitage",
@@ -15790,6 +15823,17 @@
      "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en-US/schedules/schdhara"
+    },
+    {
+     "id": "dhara-10day",
+     "name": "Goenka 10-day courses",
+     "typical_length": "10 days",
+     "format": "residential",
+     "cost_model": "dana",
+     "schedule_url": "https://dhara.dhamma.org",
+     "recurrence": "scheduled through dhamma.org; assistant teachers",
+     "checked": "2026-10-20",
+     "source": "ext-32-schedules-stream"
     }
    ],
    "url_checked": "2026-10-20",
@@ -16155,6 +16199,17 @@
      "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en-US/schedules/schsiri"
+    },
+    {
+     "id": "siri-10day",
+     "name": "Goenka 10-day courses",
+     "typical_length": "10 days",
+     "format": "residential",
+     "cost_model": "dana",
+     "schedule_url": "https://siri.dhamma.org",
+     "recurrence": "scheduled through dhamma.org; assistant teachers",
+     "checked": "2026-10-20",
+     "source": "ext-32-schedules-stream"
     }
    ],
    "url_checked": "2026-10-20",
@@ -24761,7 +24816,20 @@
    "language": "en",
    "source_url": "https://www.mbmcmalaysia.org",
    "verified_on": "2026-10-20",
-   "confidence": "high"
+   "confidence": "high",
+   "retreats": [
+    {
+     "id": "mbmc-intensive",
+     "name": "Year-round intensive vipassana (MYR10/40 day, first 10 days)",
+     "typical_length": "ongoing",
+     "format": "residential",
+     "cost_model": "fixed",
+     "schedule_url": "https://www.mbmcmalaysia.org/",
+     "recurrence": "ongoing; apply via jotform",
+     "checked": "2026-10-20",
+     "source": "ext-32-schedules-stream"
+    }
+   ]
   },
   {
    "id": "sasanarakkha-taiping",

@@ -92,6 +92,13 @@
    "checked": "2026-10-20",
    "default": "publisher-free",
    "evidence": "1987 edition PDFs served free"
+  },
+  "dharmaseed.org": {
+   "checked": "2026-10-20",
+   "default": "cc-by-nc-nd-4.0",
+   "wholeOnly": true,
+   "evidence": "Dharma Seed talk pages + DATABASES.md (satsang-extensions 37): CC BY-NC-ND 4.0, unabridged and unmodified playback only, credit teacher + title + Dharma Seed, non-commercial; no transcripts exist",
+   "rule": "Never cut: Dharma Seed talks are played or linked whole, never clipped, trimmed or made into virtual clips (owner rule)."
   }
  },
  "traditions": {

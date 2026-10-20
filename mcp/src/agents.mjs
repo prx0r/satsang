@@ -3,6 +3,7 @@
 // get_lineage_path, what_to_study. Pure functions over the index built by core.mjs (no I/O), so the same code runs in the
 // Worker, in Node tests and behind the REST mirror.
 import { buildResources, dateOf, slugify } from './resources.mjs'
+import { mmr } from './rank.mjs'
 import { BASE, HOST, SITE_URL_RE } from '../../domain.mjs'
 const SITE_RE = new RegExp(SITE_URL_RE)
 
@@ -241,6 +242,25 @@ export const AGENT_TOOLS = [
   { name: 'guide_me', title: 'Guided path: teacher, method, contact', annotations: RO,
     description: 'Walk the golden path for a tradition or a teacher: living teachers, each one’s methods (practices with cautions and needsTeacher; never initiated detail), the syllabuses that contain them, and the places tied to them with contacts exactly as published. For a historical figure or a text it returns the study path (works, free texts, syllabuses, living students) instead of a contact. Start here for "how do I learn X" or "who teaches Y".',
     inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'tradition (e.g. "thai-forest") or person (e.g. "ajahn-chah", "person/thanissaro-bhikkhu")' }, limit: { type: 'integer', minimum: 1, maximum: 10, default: 5 } }, required: ['id'] } },
+  // satsang-extensions 32-schedules-stream
+  { name: 'find_retreats', title: 'Find retreats', annotations: RO,
+    description: 'Retreats and courses by country, tradition, length or format: the recurring programmes places publish (name, typical length, format, cost model, recurrence) with the official schedule link and the date Satsang last confirmed it. Satsang holds no dated instances: dates always come from the official schedule page, and anything not confirmed in the last 14 days says so.',
+    inputSchema: { type: 'object', properties: { country: { type: 'string', description: 'ISO code(s) or name(s), e.g. "GB", "TH,LK".' }, tradition: { type: 'string', description: 'Tradition or school id/label, e.g. "thai-forest", "goenka", "zen".' },
+      format: { type: 'string', enum: ['residential', 'non-residential', 'online', 'mixed'] }, length: { type: 'string', description: 'e.g. "10-day", "weekend", "long" (3 weeks or more), "ongoing".' }, query: { type: 'string' },
+      limit: { type: 'integer', minimum: 1, maximum: 50, default: 20 } } } },
+  { name: 'get_schedule', title: 'Place schedule', annotations: RO,
+    description: 'One place\u2019s schedule: its recurring programmes, its yearly events (usual month), and the official schedule page, which is canonical for dates (always cite it). Each part carries the date Satsang last checked it, so callers can show staleness honestly.',
+    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Place id, e.g. "wat-ram-poeng" or "place/amaravati".' } }, required: ['id'] } },
+  // satsang-extensions 36-retreat-builder
+  { name: 'plan_retreat', title: 'Plan a retreat', annotations: RO,
+    description: 'Plan a personal (home) retreat from an intent: topic, days, strictness (gentle | standard | strict), optional tradition or teacher. Returns one full talk per day (whole talks only, matched across traditions), a daily timetable scaled by strictness, the rules overlay, and places that run real retreats of this kind. Nothing is booked or started; it is orientation scaffolding, not transmission. Says plainly when the container is too thin to be a retreat.',
+    inputSchema: { type: 'object', properties: { topic: { type: 'string', description: 'e.g. "death", "metta", "awakening", "jhana".' }, days: { type: 'integer', minimum: 1, maximum: 365 },
+      strictness: { type: 'string', enum: ['gentle', 'standard', 'strict'], default: 'standard' }, tradition: { type: 'string' }, teacher: { type: 'string', description: 'Person id or name, optional.' } }, required: ['topic', 'days'] } },
+  // satsang-extensions 41-agent-shelf
+  { name: 'compose_booking', title: 'Draft a booking enquiry', annotations: RO,
+    description: 'Draft a booking or enquiry email to a place for a programme and dates, using only the contacts and booking route the place publishes. Returns text for the user to send themselves: it never sends, never books, never holds payment. If the place publishes no email, it points to the official contact or schedule page instead.',
+    inputSchema: { type: 'object', properties: { place: { type: 'string', description: 'Place id.' }, dates: { type: 'string', description: 'e.g. "2027-01-04 to 2027-01-30" or "next monthly intake".' },
+      programme: { type: 'string', description: 'Programme id or name from get_schedule, optional.' } }, required: ['place', 'dates'] } },
 ]
 
 function personId(ctx, x) {
@@ -390,8 +410,109 @@ export function callAgentTool(ctx, name, a = {}) {
       return { kind: 'tradition', tradition: { id: tid, label: t.label, ...prov(ctx, 'tradition', t) }, teachers: top.map((p) => teacherStep(p)),
         more: { livingTeachers: people.length }, caution: 'A path, not instruction: anything marked needsTeacher is learned from a qualified teacher. Contacts are exactly as each place publishes them.', license: LICENSE }
     }
+    case 'find_retreats': {
+      const applied = {}; let rows = []
+      for (const p of Object.values(ctx.place)) for (const x of p.programmes || []) rows.push({ p, x })
+      const tr = tradSet(ctx, a.tradition, false); if (tr) { rows = rows.filter(({ p }) => p.traditions.some((t) => tr.set.has(t))); applied.tradition = tr.ids }
+      if (a.country) { const cs = countrySet(a.country); rows = rows.filter(({ p }) => cs.has(p.country)); applied.country = [...cs] }
+      if (a.format) { const f = fold(a.format); rows = rows.filter(({ x }) => { const h = fold([x.format, x.name].join(' ')); return f === 'residential' ? /residential|stay|resident|retreat|course/.test(h) && !/online|non-residential/.test(h) : f === 'online' ? /online|zoom|livestream/.test(h) : f === 'non-residential' ? /non-residential|day|evening|class/.test(h) : /mixed|hybrid/.test(h) }); applied.format = a.format }
+      if (a.length) { const L = fold(a.length), n = parseInt(L, 10); rows = rows.filter(({ x }) => { const h = fold([x.typicalLength, x.name].join(' ')); const d = progDays(h)
+        return Number.isFinite(n) ? (d === n || h.includes(`${n}-day`) || h.includes(`${n} day`)) : /weekend/.test(L) ? (/weekend/.test(h) || (d >= 2 && d <= 3)) : /long/.test(L) ? (d >= 21 || /month|year|ongoing|long/.test(h)) : /ongoing/.test(L) ? /ongoing|year-round|by arrangement/.test(h) : h.includes(L) }); applied.length = a.length }
+      if (a.query) { const ws = fold(a.query).split(/\s+/).filter(Boolean); rows = rows.filter(({ p, x }) => { const h = fold([x.name, x.typicalLength, x.format, x.recurrence, p.name, p.city].join(' ')); return ws.every((w) => h.includes(w)) }); applied.query = a.query }
+      const items = rows.map(({ p, x }) => progCard(ctx, p, x)).sort((u, v) => (v.fresh - u.fresh) || (!!v.scheduleUrl - !!u.scheduleUrl) || u.place.name.localeCompare(v.place.name))
+      return { total: items.length, filters: applied, results: items.slice(0, lim(a.limit, 20, 50)), occurrences: [],
+        note: 'Recurring programmes as each place publishes them. Satsang stores no dated instances: take dates from scheduleUrl. fresh=false means not re-confirmed in the last 14 days.', license: LICENSE }
+    }
+    case 'get_schedule': {
+      const id = String(a.id || '').replace(SITE_RE, '').replace(/^#?place\//, ''); const p = ctx.place[id]
+      if (!p) throw err(`unknown place "${a.id}"; try find_places or find_retreats`)
+      const pv = prov(ctx, 'place', p)
+      return { place: placeCard(ctx, p), officialSchedule: p.scheduleUrl || p.url || p.contact?.page || null, canonical: 'The official schedule page is canonical for dates; cite it.',
+        programmes: (p.programmes || []).map((x) => { const c = progCard(ctx, p, x); delete c.place; return c }),
+        events: (p.events || []).map((e) => ({ ...e, usual: e.when, checked: pv.verified_on, note: 'Yearly event, usual month only; confirm the date on the official page.' })),
+        contactPage: p.contact?.page || null, checked: pv.verified_on, stale: !isFresh(pv.verified_on, ctx), occurrences: [], license: LICENSE }
+    }
+    case 'plan_retreat': {
+      const kit = ctx.retreatKit || {}, levels = kit.strictness?.levels || {}
+      const days = Math.round(+a.days); if (!Number.isFinite(days) || days < 1 || days > 365) throw err('days must be 1..365')
+      const level = levels[a.strictness || 'standard'] ? (a.strictness || 'standard') : null; if (!level) throw err('strictness must be gentle, standard or strict')
+      const TOPIC_ALIAS = { metta: 'kindness', 'loving-kindness': 'kindness', 'loving kindness': 'kindness', karuna: 'kindness/compassion', compassion: 'kindness/compassion', dying: 'death', maranasati: 'death' }
+      const tq = fold(TOPIC_ALIAS[fold(a.topic || '')] || a.topic || ''), topicId = ctx.topic[tq] ? tq : Object.values(ctx.topic).find((t) => fold(t.label) === tq || fold(t.id) === tq)?.id || Object.values(ctx.topic).find((t) => tq && fold(t.label).includes(tq))?.id
+      if (!topicId) throw err(`unknown topic "${a.topic}"; try search with kinds ["topic"]`)
+      // whole talks only: virtual clips and footage are discovery, never retreat playback (Dharma Seed CC BY-NC-ND rule generalised: never cut)
+      const whole = (c) => c.lengthClass === 'full' && c.delivery === 'talk' && c.media?.start == null && !String(c.id).includes('@')
+      let pool = (ctx.byTopic.get(topicId) || []).filter(whole); const applied = { topic: topicId, days, strictness: level }
+      const tr = tradSet(ctx, a.tradition, false); if (tr) { const f = pool.filter((c) => c.traditions.some((t) => tr.set.has(t))); if (f.length) pool = f; applied.tradition = tr.ids }
+      const tid = a.teacher ? personId(ctx, a.teacher) : null; if (a.teacher && !tid) throw err(`unknown teacher "${a.teacher}"`)
+      if (tid) applied.teacher = tid
+      const rel = (c) => (ctx.q.get(c.id) || 0) + (tid && c.speaker === tid ? 0.5 : 0)
+      const talks = mmr(pool.slice().sort((x, y) => rel(y) - rel(x)).slice(0, 400), rel, Math.min(days, 60), ctx, 0.6)
+      const L = levels[level]
+      const fam = tr ? tr.ids.map((i) => familyKey(ctx, i)).find(Boolean) : (talks[0] ? talks[0].traditions.map((t) => familyKey(ctx, t)).find(Boolean) : null) || null
+      const tt = kit.timetables?.['goenka-10day']
+      const blocks = level === 'strict' && tt ? tt.blocks : dayBlocks(level, L)
+      const warnings = []
+      if (level === 'gentle' || days < 3 || talks.length < Math.min(days, 3)) warnings.push('This is a study week, not a retreat: the container is thin (gentle level, under three days, or too few whole talks). It can still be worthwhile; call it what it is.')
+      if (talks.length < days) warnings.push(`Only ${talks.length} whole talks match; days beyond that repeat a talk or sit in silence.`)
+      const pd = (x) => progDays(fold(x.typicalLength || ''))
+      const places = Object.values(ctx.place).filter((p) => (p.programmes || []).length && (!tr || p.traditions.some((t) => tr.set.has(t))))
+        .map((p) => ({ p, x: (p.programmes || []).find((x) => Math.abs(pd(x) - days) <= 2) || p.programmes[0] }))
+        .sort((u, v) => (pd(v.x) === days) - (pd(u.x) === days) || (Math.abs(pd(u.x) - days) || 99) - (Math.abs(pd(v.x) - days) || 99)).slice(0, 3).map((r) => progCard(ctx, r.p, r.x))
+      return { plan: applied, booked: false, started: false,
+        days: talks.map((c, i) => ({ day: i + 1, talk: { ...clipCard(ctx, c), playback: 'whole talk, unedited, on its own host; credit the teacher' } })),
+        timetable: { level, ...L, blocks, note: level === 'strict' && tt ? 'Model day from the Goenka 10-day skeleton (MBMC-published timings, approximate).' : 'A suggested day; shift times to your life, keep the shape.' },
+        rules: { precepts: L.precepts, silence: L.silence, reading: L.reading, meals: L.meals, overlay: fam && kit.strictness?.overlays?.[fam] ? { tradition: fam, rule: kit.strictness.overlays[fam] } : null },
+        warnings, cautions: ['Intensive silent practice is not advised without a teacher\u2019s guidance if you have a history of trauma, psychosis or severe depression; stop and seek help if distress grows.', 'Talks are orientation, not transmission or instruction; anything marked needsTeacher is learned from a teacher.'],
+        flexibility: 'Swap any talk for another whole talk by the same teacher; shorten sits before dropping them; keep the evening talk.', realRetreats: places,
+        licence: { wholeOnly: kit.wholeOnly || [], rule: 'Talks play whole and credited; Satsang never cuts, trims or rehosts them.' }, license: LICENSE }
+    }
+    case 'compose_booking': {
+      const id = String(a.place || '').replace(SITE_RE, '').replace(/^#?place\//, ''); const p = ctx.place[id]
+      if (!p) throw err(`unknown place "${a.place}"; try find_places`)
+      const dates = String(a.dates || '').trim().slice(0, 120); if (!dates) throw err('dates is required (e.g. "2027-01-04 to 2027-01-30" or "next monthly intake")')
+      const pq = a.programme ? fold(a.programme) : null, x = pq ? (p.programmes || []).find((r) => fold(r.id) === pq || fold(r.name).includes(pq)) : null
+      if (a.programme && !x) throw err(`no programme "${a.programme}" at ${p.id}; see get_schedule`)
+      const pv = prov(ctx, 'place', p), email = (p.contact?.email || [])[0], page = p.contact?.page || x?.scheduleUrl || p.scheduleUrl || p.url || null
+      const base = { place: placeCard(ctx, p), sends: false, books: false, payment: false, rule: 'Draft only. Satsang never sends, books or holds payment; the user sends it from their own mail app.', license: LICENSE }
+      if (!email) return { ...base, draft: null, reason: 'This place publishes no email address in Satsang\u2019s records.', next: page ? `Use the place\u2019s own contact or booking page: ${page}` : 'No published contact route on record; look on the place\u2019s official site.', officialPage: page, checked: p.contact?.checked || pv.verified_on }
+      const prog = x ? `${x.name}${x.typicalLength ? ` (${x.typicalLength})` : ''}` : 'a stay or retreat'
+      const route = [x?.recurrence ? `I understand the arrangement is: ${x.recurrence}.` : null, x?.scheduleUrl ? `I have read the schedule at ${x.scheduleUrl}.` : null].filter(Boolean).join(' ')
+      const lines = [`Dear ${p.name} team,`, '', `I would like to ask about ${prog} for these dates: ${dates}.`, ...(route ? [route] : []), '',
+        'Could you let me know whether there is space, how to register, and anything I should prepare or know before arriving (guidelines, what to bring, costs or dana)?', '',
+        'About me: [a line on your practice background and any health needs the centre should know]', '', 'With thanks,', '[Your name]', '[Your contact]']
+      return { ...base, draft: { to: email[0], toSource: email[1], subject: `Enquiry: ${prog} \u2014 ${dates}`, body: lines.join('\n') },
+        links: { schedule: x?.scheduleUrl || p.scheduleUrl || null, contactPage: p.contact?.page || null, website: p.url || null },
+        checked: { contact: p.contact?.checked || null, schedule: x?.checked || pv.verified_on }, reconfirm: 'Contacts and schedules are as last checked; confirm dates on the official page before sending.' }
+    }
     default: return undefined
   }
+}
+
+// ---------- retreat helpers (satsang-extensions 32/36/41) ----------
+const FRESH_DAYS = 14
+function isFresh(d, ctx) { const t = Date.parse(d || ''); const now = Date.now(); return Number.isFinite(t) && (now - t) / 864e5 <= FRESH_DAYS }
+function progDays(h) { const s = String(h); const m = s.match(/(\d+)\s*-?\s*(day|days|night|nights)\b/); if (m) return +m[1]; const w = s.match(/(\d+)\s*-?\s*weeks?\b/); if (w) return +w[1] * 7; if (/weekend/.test(s)) return 2; if (/month/.test(s)) return 30; return NaN }
+function progCard(ctx, p, x) {
+  const checked = x.checked || prov(ctx, 'place', p).verified_on, fresh = isFresh(checked, ctx)
+  return { id: x.id, name: x.name, typicalLength: x.typicalLength, format: x.format, costModel: x.costModel, recurrence: x.recurrence, teachers: (x.teachers || []).filter((t) => ctx.person[t]).map((t) => ({ id: t, name: ctx.person[t].name })),
+    scheduleUrl: x.scheduleUrl || p.scheduleUrl || p.url || null, checked, fresh, badge: fresh ? undefined : 'confirm on the official page',
+    place: { id: p.id, name: p.name, country: p.country, city: p.city, url: canon('place', p.id) } }
+}
+const FAMILY_OVERLAY = { goenka: ['goenka', 'vipassana-goenka'], 'thai-forest': ['thai-forest'], zen: ['zen', 'soto-zen', 'rinzai-zen', 'chan'] }
+function familyKey(ctx, t) { let cur = t; const seen = new Set(); while (cur && !seen.has(cur)) { seen.add(cur); for (const [k, ids] of Object.entries(FAMILY_OVERLAY)) if (ids.includes(cur)) return k; cur = ctx.tradition[cur]?.parent } return null }
+function dayBlocks(level, L) {
+  const [h0, m0] = String(L.wake || '06:00').split(':').map(Number), gentle = level === 'gentle', sits = gentle ? 4 : 7, sit = gentle ? 45 : 60, walk = gentle ? 30 : 45
+  const fmt = (m) => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`
+  let t = h0 * 60 + m0; const out = [{ start: fmt(t), kind: 'wake', minutes: 30, cue: 'bell' }]; t += 30
+  for (let i = 0; i < sits; i++) {
+    out.push({ start: fmt(t), kind: 'sit', minutes: sit, cue: 'silent' }); t += sit
+    if (i === 1) { out.push({ start: fmt(t), kind: 'meal', minutes: 45, cue: 'silent', note: 'breakfast' }); t += 45 }
+    else if (i === 3) { out.push({ start: fmt(t), kind: 'meal', minutes: 60, cue: 'silent', note: 'main meal' }); t += 60 }
+    else if (i < sits - 1) { out.push({ start: fmt(t), kind: 'walk', minutes: walk, cue: 'silent' }); t += walk }
+  }
+  const ev = Math.max(t, 19 * 60)
+  out.push({ start: fmt(ev), kind: 'talk', minutes: 60, cue: 'bell', note: 'the day\u2019s talk, whole' }, { start: fmt(ev + 60), kind: 'sit', minutes: 30, cue: 'silent' })
+  return out
 }
 
 // search docs for resources (added to core's docs)

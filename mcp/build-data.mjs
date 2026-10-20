@@ -237,7 +237,7 @@ for (const p of placesRaw.places) {
     geo: p.lat != null ? { lat: p.lat, lng: p.lng, precision: p.coord_precision, public: true } : { public: false },
     founded: years(p.founded), teachers: p.teachers || [], ...(p.main_teacher ? { mainTeacher: p.main_teacher, teacherModel: p.teacher_model || 'single', mainTeacherConfidence: p.main_teacher_conf } : {}), ...(p.status ? { status: p.status } : {}), url: p.url, scheduleUrl: p.schedule_url, description: p.description,
     network: p.goenka ? 'dhamma.org' : undefined,
-    programmes: (p.retreats || []).map((r) => ({ id: r.id, name: r.name, typicalLength: r.typical_length, format: r.format, costModel: ['dana', 'fixed', 'sliding', 'free'].includes(r.cost_model) ? r.cost_model : 'unknown', scheduleUrl: r.schedule_url })),
+    programmes: (p.retreats || []).map((r) => ({ id: r.id, name: r.name, typicalLength: r.typical_length, format: r.format, costModel: ['dana', 'fixed', 'sliding', 'free'].includes(r.cost_model) ? r.cost_model : 'unknown', scheduleUrl: r.schedule_url, ...(r.recurrence ? { recurrence: r.recurrence } : {}), ...(r.teachers ? { teachers: r.teachers } : {}), ...(r.checked ? { checked: r.checked } : {}) })),
     contact: p.contact ? { checked: p.contact.checked, page: p.contact.page, pageSource: p.contact.page_src, email: p.contact.email, phone: p.contact.phone, address: p.contact.address } : undefined,
     kindLabel: p.type, offers: p.offers || [], sisters: (p.sisters || []).map((x) => (Array.isArray(x) ? x[0] : x)).filter((x) => typeof x === 'string'),
     sisterLinks: (p.sisters || []).filter(Array.isArray).map(([id, rel, note]) => ({ id, rel, ...(note ? { note } : {}) })),
@@ -274,12 +274,21 @@ try {
   }
 } catch { /* none */ }
 
+// retreat kit (satsang-extensions 33/36): strictness dial + model timetables + the licence rules plan_retreat must respect. Read-only data.
+const retreatKit = {}
+try {
+  retreatKit.strictness = rd('wisegraph/strictness.json')
+  retreatKit.timetables = {}
+  for (const f of fs.readdirSync(path.join(APP, 'wisegraph/timetables')).filter((f) => f.endsWith('.json'))) retreatKit.timetables[f.replace(/\.json$/, '')] = rd('wisegraph/timetables/' + f)
+  const lr = rd('wisegraph/licence-registry.json'); retreatKit.wholeOnly = Object.entries(lr.domains || {}).filter(([, v]) => v.wholeOnly).map(([k, v]) => ({ domain: k, licence: v.default, rule: v.rule }))
+} catch { /* optional */ }
+
 // strip undefined
 const clean = (o) => JSON.parse(JSON.stringify(o, (k, v) => (v === null && !['parent', 'end', 'start', 'year'].includes(k) ? undefined : v)))
 const out = clean({
   meta: { built: new Date().toISOString(), source: 'app/site (read-only)', license: 'Metadata CC BY 4.0 (Satsang curation). Media stays on its host (YouTube embeds). No transcripts.',
     counts: {}, sources: { people: wise.meta?.built, places: placesRaw.meta?.built, placeSources: placesRaw.meta?.sources } },
-  person, tradition, clip, text, practice, topic, collection, place, edge, resourceExtra,
+  person, tradition, clip, text, practice, topic, collection, place, edge, resourceExtra, retreatKit,
 })
 for (const k of ['person', 'tradition', 'clip', 'text', 'practice', 'topic', 'collection', 'place', 'edge']) out.meta.counts[k] = Object.keys(out[k]).length
 fs.mkdirSync(path.join(HERE, 'data'), { recursive: true })

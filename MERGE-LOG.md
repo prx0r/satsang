@@ -107,3 +107,23 @@ test-client all passed live; gates: only ids-unique self-collisions. Redirects l
 Screenshots: shots-merge/b4/ (live: person rumi, place patanjali-yogpeeth, place amaravati, resource refuge) — dark design unchanged.
 Known: a person's own freeTexts (legacy deep sourcing, 20 rows, e.g. gutenberg/accesstoinsight) are not under the licence gate yet;
 the gated 4 texts' old /resource/<id> pages now 404 (held, not redirected).
+
+## Batch 5: 32–41 (deployed wiser-web 00b53e61, wiser-mcp 2bb46ab2; 2026-10-21 ~01:00 +07)
+| pack | result | counts / notes |
+|---|---|---|
+| 32-schedules-stream | merged (partial) | 5 programme seeds -> staged `programmes.json` -> place retreats (suan-mokkh -> wat-suan-mokkh; recurrence, teachers, checked); NEW MCP tools `find_retreats`, `get_schedule`. No dated occurrences (never seeded); freshness = checked within 14 days, else "confirm on the official page". refresh_schedules.py + programme.json schema ARCHIVED (cron needs D1/KV state) |
+| 33-virtual-retreats | archived (data used) | goenka-10day timetable -> app/wisegraph/timetables/ (plan_retreat strict level); start_retreat/retreat_today not built (stateful client runtime); DHARMA-SEED-RULES + VIRTUAL-RETREAT archived |
+| 34-maps-integration | archived | keyless Directions links already live; geo_audit.py + report archived |
+| 35-group-retreats | ARCHIVED | rooms/cohorts/dana need D1 tables + write paths; host_room/join_cohort not built |
+| 36-retreat-builder | merged (partial) | strictness.json -> app/wisegraph/; NEW MCP tool `plan_retreat` (whole full talks only via MMR, never virtual clips/footage; timetable by strictness; rules + tradition overlay; "study week, not a retreat" warning; real retreats suggested; nothing booked). retreat-log schema + profile tables ARCHIVED (D1) |
+| 37-talk-databases | archived (registry row) | dharmaseed.org added to the licence registry: CC BY-NC-ND 4.0, wholeOnly (never cut); connector contract archived; no Dharma Seed playback built |
+| 38-sophia-wisdom | merged | Keating->Bourgeault edge (already present; source added), 4 Bourgeault works |
+| 39-dharma-sites | merged (partial) | Birken place gap-filled (2 WAF URLs dropped by re-check); sites.json + channels archived |
+| 40-retreat-mode | archived | device runtime spec (client) |
+| 41-agent-shelf | merged (partial) | NEW MCP tool `compose_booking`: draft text only from published contacts (to + its source page), never sends/books/takes payment (no send path exists in the MCP; audited), refuses with the official page when no email is published. agent-claims scopes ARCHIVED (D1) |
+
+MCP: 22 tools (14 directory + 4 retreat + 3 keeper + fetch...), all read-only annotated; REST mirror /api/retreats, /api/schedule/{id},
+/api/retreat-plan, /api/booking-draft + OpenAPI. Places with programmes 352 (+5 programmes). D1 drafts 0020/0021 NOT applied.
+Validation: schema 12,504 failing none; transcript guards 0 found; mcp/test.mjs all passed (7 new retreat checks); test-client all
+passed live. Gates: ALL PASS except 39 (2 verify-severity WAF URLs, expected). Screenshots: shots-merge/b5/ (place wat-ram-poeng,
+place birken, /agents) — dark design unchanged.

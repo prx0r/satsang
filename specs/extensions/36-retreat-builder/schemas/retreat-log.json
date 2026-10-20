@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tantrafiles.xyz/schema/retreat-log.json",
+  "title": "Retreat keepsake log",
+  "description": "The user's own record of a retreat: plan, kept blocks, talks, notes, stats. Private by default; sharing publishes a curation minus private notes. Merge target: specs/schema/retreat-log.json.",
+  "type": "object",
+  "properties": {
+    "type": { "type": "string", "const": "retreat-log" },
+    "id": { "type": "string" },
+    "intent": {
+      "type": "object",
+      "properties": {
+        "topic": { "type": "string" },
+        "tradition": { "type": "string" },
+        "teacher": { "type": "string" },
+        "days": { "type": "integer" },
+        "strictness": { "type": "string", "enum": ["gentle", "standard", "strict"] }
+      },
+      "required": ["topic", "days", "strictness"]
+    },
+    "timetable": { "type": "string", "description": "timetable id + strictness used" },
+    "rules": { "type": "array", "items": { "type": "string" } },
+    "talks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ref", "heard"],
+        "properties": {
+          "ref": { "type": "string", "description": "clip gid (full talk only)" },
+          "heard": { "type": "boolean" },
+          "note": { "type": "string", "maxLength": 2000 }
+        }
+      }
+    },
+    "days": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "kept"],
+        "properties": {
+          "n": { "type": "integer" },
+          "kept": { "type": "boolean" },
+          "blocks_kept": { "type": "integer" },
+          "blocks_total": { "type": "integer" },
+          "notes": { "type": "string", "maxLength": 8000 },
+          "uploads": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "sit_hours": { "type": "number" },
+        "talks_heard": { "type": "integer" },
+        "days_kept": { "type": "integer" }
+      }
+    },
+    "teacher_prompts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "visibility": { "type": "string", "enum": ["private", "unlisted", "public"] }
+  },
+  "required": ["type", "id", "intent", "visibility"]
+}

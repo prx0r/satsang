@@ -508,6 +508,9 @@ INSERT INTO wg_people (id,name,kind,tradition,wikidata,years,bio) VALUES ('cynth
 INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('bourgeault-wisdom-jesus','cynthia-bourgeault','The Wisdom Jesus','2008','book');
 INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('bourgeault-centering-prayer','cynthia-bourgeault','Centering Prayer and Inner Awakening','2004','book');
 INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('bourgeault-law-of-three','cynthia-bourgeault','The Holy Trinity and the Law of Three','2013','book');
+INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('wisdom-way-of-knowing','cynthia-bourgeault','The Wisdom Way of Knowing','2003','book');
+INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('meaning-of-mary-magdalene','cynthia-bourgeault','The Meaning of Mary Magdalene','2010','book');
+INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('eye-of-the-heart','cynthia-bourgeault','Eye of the Heart','2020','book');
 INSERT INTO wg_people (id,name,kind,tradition,wikidata,years,bio) VALUES ('barbara-holmes','Barbara A. Holmes','speaker','christian-mysticism','Q113585746',NULL,'Writer and teacher on African American mysticism and contemplative practice, a CAC core faculty member.');
 INSERT OR IGNORE INTO wg_works (id,person,title,year,kind) VALUES ('holmes-joy-unspeakable','barbara-holmes','Joy Unspeakable: Contemplative Practices of the Black Church','2004','book');
 INSERT INTO wg_people (id,name,kind,tradition,wikidata,years,bio) VALUES ('theodore-nottingham','Theodore Nottingham','speaker','fourth-way',NULL,NULL,'Author and teacher who presents Gurdjieff''s Fourth Way alongside the Christian contemplative tradition on his own channel.');
@@ -48322,6 +48325,7 @@ INSERT INTO wg_place_links (place,kind,ref) VALUES ('tisarana','teacher','ajahn-
 INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('tisarana--visiting-may-to-december','tisarana','Visiting (May to December)','overnight to weeks','lay guest stay','dana (offered freely; donations welcome)','https://tisarana.ca');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('birken','Birken Forest Buddhist Monastery','monastery','CA','Knutsford, British Columbia',50.4317,-120.185,1994,'https://www.birken.ca',NULL,'Q4916413','Forest monastery in interior British Columbia in the Ajahn Chah lineage.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('birken','tradition','thai-forest');
+INSERT INTO wg_place_links (place,kind,ref) VALUES ('birken','teacher','ajahn-sona');
 INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('birken--visiting-and-guest-stays','birken','Visiting and guest stays','a few days','lay guest stay','dana (offered freely; donations welcome)','https://birken.ca/visit/');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('bodhivana','Bodhivana Monastery','monastery','AU','East Warburton, Victoria',-37.727188,145.764253,NULL,NULL,NULL,NULL,'Ajahn Chah lineage forest monastery in the Yarra Ranges.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('bodhivana','tradition','thai-forest');
@@ -48340,10 +48344,12 @@ INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_ur
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('wat-suan-mokkh','tradition','theravada');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('wat-suan-mokkh','teacher','buddhadasa');
 INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('wat-suan-mokkh--international-dharma-hermitage-monthly-r','wat-suan-mokkh','International Dharma Hermitage monthly retreat','10 days','silent anapanasati retreat in English','fee (small fixed fee)','https://www.suanmokkh-idh.org');
+INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('suan-mokkh-monthly-10day','wat-suan-mokkh','Monthly 10-day silent retreat','10 days','residential','unknown','https://www.suanmokkh-idh.org');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('wat-ram-poeng','Wat Ram Poeng','monastery','TH','Chiang Mai',18.775013,98.948659,NULL,'https://www.watrampoeng.com/vipassana-course/',NULL,'Q13020681','Chiang Mai temple with a Mahasi-style insight meditation centre that takes foreign meditators.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('wat-ram-poeng','tradition','theravada');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('wat-ram-poeng','teacher','ajahn-tong');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('wat-ram-poeng','teacher','ajahn-suphan');
+INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('rampoeng-26day-basic','wat-ram-poeng','26-day basic vipassana course (+10-day follow-ups)','26 days','residential','fixed','https://www.watrampoeng.com/vipassana-course/');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('island-hermitage','Island Hermitage','monastery','LK','Dodanduwa',6.108174,80.138224,1911,NULL,NULL,'Q6083197','Island monastery founded by Nyanatiloka in 1911, a historic home for Western monks; Ñāṇavīra Thera was ordained there.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('island-hermitage','tradition','theravada');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('island-hermitage','tradition','early-suttas');
@@ -49988,6 +49994,7 @@ INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_ur
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-dhara','tradition','goenka-vipassana');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-dhara','teacher','goenka');
 INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('dhamma-dhara--10-day','dhamma-dhara','10-day Vipassana course (Goenka)','10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)','silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers','dana: no charge; donations only from those who have completed a course','https://www.dhamma.org/en-US/schedules/schdhara');
+INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('dhara-10day','dhamma-dhara','Goenka 10-day courses','10 days','residential','dana','https://dhara.dhamma.org');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('dhamma-kunja','Dhamma Kuñja','retreat-centre','US','Washington, Onalaska',46.548949,-122.684394,1991,'https://kunja.dhamma.org','https://www.dhamma.org/en-US/schedules/schkunja',NULL,'Dhamma Kuñja: a centre in S. N. Goenka''s Vipassana network running 10-day residential courses on a donation basis.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-kunja','tradition','goenka-vipassana');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-kunja','teacher','goenka');
@@ -50028,6 +50035,7 @@ INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_ur
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-siri','tradition','goenka-vipassana');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-siri','teacher','goenka');
 INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('dhamma-siri--10-day','dhamma-siri','10-day Vipassana course (Goenka)','10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)','silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers','dana: no charge; donations only from those who have completed a course','https://www.dhamma.org/en-US/schedules/schsiri');
+INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('siri-10day','dhamma-siri','Goenka 10-day courses','10 days','residential','dana','https://siri.dhamma.org');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('dhamma-sukha','Dhamma Sukha','retreat-centre','US','Texas, New Ulm',29.937248,-96.444568,2023,'https://sukha.dhamma.org/','https://www.dhamma.org/en-US/schedules/schsukha',NULL,'Dhamma Sukha: a centre in S. N. Goenka''s Vipassana network running 10-day residential courses on a donation basis.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-sukha','tradition','goenka-vipassana');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('dhamma-sukha','teacher','goenka');
@@ -50886,6 +50894,7 @@ INSERT INTO wg_place_links (place,kind,ref) VALUES ('divine-life-society','tradi
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('divine-life-society','teacher','swami-sivananda');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('mbmc-penang','Malaysian Buddhist Meditation Centre','retreat','MY','George Town, Penang',5.41,100.31,1969,'https://www.mbmcmalaysia.org',NULL,NULL,'Premier Mahasi-method vipassana centre (est. 1969); year-round intensive retreats, resident Sangha, English-speaking.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('mbmc-penang','tradition','mahasi');
+INSERT OR IGNORE INTO wg_retreats (id,place,name,typical_length,format,cost_model,schedule_url) VALUES ('mbmc-intensive','mbmc-penang','Year-round intensive vipassana (MYR10/40 day, first 10 days)','ongoing','residential','fixed','https://www.mbmcmalaysia.org/');
 INSERT INTO wg_places (id,name,type,country,city,lat,lng,founded,url,schedule_url,wikidata,description) VALUES ('sasanarakkha-taiping','Sasanarakkha Buddhist Sanctuary','monastery','MY','Taiping, Perak',4.85,100.74,2000,'https://sasanarakkha.org',NULL,NULL,'Theravada monk training centre (est. 2000) with a lay retreat centre; DhammaVinaya study, forest setting.');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('sasanarakkha-taiping','tradition','theravada');
 INSERT INTO wg_place_links (place,kind,ref) VALUES ('sasanarakkha-taiping','teacher','aggacitta');

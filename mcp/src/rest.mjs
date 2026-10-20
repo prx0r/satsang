@@ -21,6 +21,10 @@ const ROUTES = [
   [/^\/api\/practices$/, 'list_practices', (m, q) => ({ tradition: q.get('tradition') || undefined, kind: q.get('kind') || undefined, topic: q.get('topic') || undefined, limit: num(q.get('limit')) })],
   [/^\/api\/collections$/, 'get_collection', () => ({})],
   [/^\/api\/collections\/([^/]+)$/, 'get_collection', (m) => ({ id: m[1] })],
+  [/^\/api\/retreats$/, 'find_retreats', (m, q) => ({ country: q.get('country') || undefined, tradition: q.get('tradition') || undefined, format: q.get('format') || undefined, length: q.get('length') || undefined, query: q.get('q') || q.get('query') || undefined, limit: num(q.get('limit')) })],
+  [/^\/api\/schedule\/([^/]+)$/, 'get_schedule', (m) => ({ id: m[1] })],
+  [/^\/api\/retreat-plan$/, 'plan_retreat', (m, q) => ({ topic: q.get('topic'), days: num(q.get('days')), strictness: q.get('strictness') || undefined, tradition: q.get('tradition') || undefined, teacher: q.get('teacher') || undefined })],
+  [/^\/api\/booking-draft$/, 'compose_booking', (m, q) => ({ place: q.get('place'), dates: q.get('dates'), programme: q.get('programme') || undefined })],
   [/^\/api\/recommend$/, 'recommend', (m, q, b) => ({ liked: b.liked || csv(q.get('liked')), disliked: b.disliked || csv(q.get('disliked')), topic: b.topic || q.get('topic') || undefined, exclude: b.exclude || csv(q.get('exclude')), maxMinutes: b.maxMinutes ?? num(q.get('maxMinutes')), k: b.k ?? num(q.get('k')) })],
 ]
 
@@ -65,6 +69,10 @@ export function openapi(origin = MCP_BASE) {
       '/api/practices': op('listPractices', 'Practices', 'Practices with plain steps, sources and cautions; filter by tradition, kind, topic.', [P('tradition', 'Tradition'), P('kind', 'meditation, visualisation, enquiry, chant, ritual, movement'), P('topic', 'Topic id'), limitP()]),
       '/api/collections': op('listCollections', 'Collections', 'Curated sets, journeys and syllabi.', []),
       '/api/collections/{id}': op('getCollection', 'One collection', 'A journey, syllabus or set with its ordered units and resolved items.', [P('id', 'Collection id', { type: 'string' }, 'path')]),
+      '/api/retreats': op('findRetreats', 'Find retreats', 'Recurring programmes places publish (typical length, format, cost model, recurrence) with the official schedule link and last-confirmed date. No dated instances: dates come from the schedule page.', [P('country', 'ISO code(s) or names'), P('tradition', 'Tradition or school'), P('format', 'residential, non-residential, online, mixed'), P('length', 'e.g. 10-day, weekend, long, ongoing'), P('q', 'Free words'), limitP(20, 50)]),
+      '/api/schedule/{id}': op('getSchedule', 'Place schedule', 'One place: programmes, yearly events (usual month), official schedule page (canonical for dates), last-checked dates.', [P('id', 'Place id, e.g. wat-ram-poeng', { type: 'string' }, 'path')]),
+      '/api/retreat-plan': op('planRetreat', 'Plan a home retreat', 'One whole talk per day (never cut), a timetable scaled by strictness, rules overlay, warnings when it is a study week rather than a retreat, and places that run real retreats. Nothing is booked.', [P('topic', 'e.g. death, metta, awakening', { type: 'string' }, 'query', true), P('days', '1-365', { type: 'integer', minimum: 1, maximum: 365 }, 'query', true), P('strictness', 'gentle, standard or strict'), P('tradition', 'Tradition, optional'), P('teacher', 'Person id or name, optional')]),
+      '/api/booking-draft': op('composeBooking', 'Draft a booking enquiry', 'Email text for the user to send themselves, from the contacts the place publishes. Never sends, books or takes payment; without a published email it returns the official page instead.', [P('place', 'Place id', { type: 'string' }, 'query', true), P('dates', 'e.g. 2027-01-04 to 2027-01-30', { type: 'string' }, 'query', true), P('programme', 'Programme id or name, optional')]),
       '/api/recommend': op('recommend', 'Recommend talks', 'Diverse talks from liked ids (clip ids, person/<id>, topic/<id>, tradition/<id>) plus next topics.', [P('liked', 'Comma list of liked ids'), P('disliked', 'Comma list'), P('topic', 'Restrict to a topic'), P('k', 'How many (default 8)', { type: 'integer' })]),
     },
     components: { schemas: {

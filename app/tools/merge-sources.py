@@ -376,6 +376,18 @@ def merge_places():
                                                                  'url': e.get('official_url'), 'note': e.get('note')}.items() if v})
             log['events'] += 1
     merge_ext_places(out)
+    # staged programmes (satsang-extensions 32): recurring patterns appended to the place's retreats (dedupe by id); no dated instances, ever
+    PB2 = {p['id']: p for p in out}
+    for g in [g for g in G if g.startswith('ext-')]:
+        f = os.path.join(SRC, g, 'programmes.json')
+        for r in (items(J(f), 'programmes') if os.path.exists(f) else []):
+            q = PB2.get(r['place'])
+            if not q: log['programmes_unplaced'] += 1; continue
+            rs = q.get('retreats') or []
+            if any(x.get('id') == r['id'] for x in rs): continue
+            rs.append({k: v for k, v in {'id': r['id'], 'name': r['name'], 'typical_length': r.get('typical_length'), 'format': r.get('format'), 'cost_model': {'donation': 'dana'}.get(r.get('cost_model'), r.get('cost_model')),
+                                         'schedule_url': r.get('schedule_url'), 'recurrence': r.get('recurrence'), 'teachers': r.get('teachers'), 'checked': r.get('checked'), 'source': g}.items() if v})
+            q['retreats'] = rs; log['programmes_ext'] += 1
     # countries: recomputed from the merged places (so retags count), plus dhamma.org's non-centre course sites
     C0 = {c['iso2']: c for c in items(J(os.path.join(SRC, 'places', 'countries.json')), 'countries')} if os.path.exists(os.path.join(SRC, 'places', 'countries.json')) else {}
     C = {}
