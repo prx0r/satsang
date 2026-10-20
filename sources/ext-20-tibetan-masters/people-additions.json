@@ -1,0 +1,703 @@
+{
+ "_note": "staged from satsang-extensions/20-tibetan-lineages",
+ "people": [
+  {
+   "aliases": [
+    "rigdzin kumaradza"
+   ],
+   "bio": "Dzogchen master; root guru of Longchenpa (Vima Nyingthig) and teacher of the 3rd Karmapa Rangjung Dorje.",
+   "id": "kumaradza",
+   "kind": "figure",
+   "living": false,
+   "name": "Rigdzin Kumaradza",
+   "role": "figure",
+   "short": "Kumaradza",
+   "source": "rywiki.tsadra.org + Treasury of Lives consensus",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1266–1343",
+   "source_url": "https://rywiki.tsadra.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "klong chen rab byams pa"
+   ],
+   "bio": "Systematiser of Dzogchen (Seven Treasuries); successor of Kumaradza; visions of Padmasambhava; re-revealed by Jigme Lingpa centuries later.",
+   "id": "longchenpa",
+   "kind": "figure",
+   "living": false,
+   "name": "Longchen Rabjam (Longchenpa)",
+   "role": "figure",
+   "short": "Longchenpa",
+   "source": "Oxford Encyclopedia + Treasury of Lives consensus",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1308–1363",
+   "source_url": "https://tibetanculture.weai.columbia.edu",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Oxford Encyclopedia + Treasury of Lives consensus"
+  },
+  {
+   "aliases": [
+    "rigdzin jigme lingpa"
+   ],
+   "bio": "Tertön whose Longchen Nyingtik visions made Longchenpa's Heart Essence the dominant Nyingma practice cycle.",
+   "id": "jigme-lingpa",
+   "kind": "figure",
+   "living": false,
+   "name": "Jigme Lingpa",
+   "role": "figure",
+   "short": "Jigme Lingpa",
+   "source": "Treasury of Lives consensus",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1729–1798",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Treasury of Lives consensus"
+  },
+  {
+   "aliases": [
+    "gyalwai nyugu"
+   ],
+   "bio": "Hermit of Dzachuka; heart-disciple of Jigme Lingpa and root guru of Patrul (ngöndro 25 times).",
+   "id": "jigme-gyalwai-nyugu",
+   "kind": "figure",
+   "living": false,
+   "name": "Jigme Gyalwai Nyugu",
+   "role": "figure",
+   "short": "Gyalwai Nyugu",
+   "source": "Rangjung Yeshe Wiki + Treasury of Lives (Patrul bio)",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1765–1842",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Rangjung Yeshe Wiki + Treasury of Lives (Patrul bio)"
+  },
+  {
+   "aliases": [
+    "dza patrul"
+   ],
+   "bio": "Wandering yogi-scholar; Words of My Perfect Teacher; root-guru lineage Jigme Lingpa→Gyalwai Nyugu→Patrul→Mipham.",
+   "id": "patrul",
+   "kind": "figure",
+   "living": false,
+   "name": "Patrul Rinpoche",
+   "role": "figure",
+   "short": "Patrul",
+   "source": "Treasury of Lives (Patrul bio)",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1808–1887",
+   "source_url": "https://samyeinstitute.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Treasury of Lives (Patrul bio)"
+  },
+  {
+   "aliases": [
+    "ju mipham",
+    "mipham gyatso"
+   ],
+   "bio": "Prolific Nyingma scholar (30+ volumes); student of Patrul, Kongtrul and Khyentse Wangpo; teacher of Shechen Gyaltsap; named infant Dilgo Khyentse.",
+   "id": "mipham",
+   "kind": "figure",
+   "living": false,
+   "name": "Jamgon Mipham (Ju Mipham)",
+   "role": "figure",
+   "short": "Mipham",
+   "source": "Samye Institute + Treasury consensus",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1846–1912",
+   "source_url": "https://samyeinstitute.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Samye Institute + Treasury consensus"
+  },
+  {
+   "aliases": [
+    "jamgon kongtrul lodro thaye"
+   ],
+   "bio": "Rimé collector (Five Treasuries) with Khyentse Wangpo and Chokgyur Lingpa; teacher of Mipham; emanation-source of Kalu Rinpoche's line.",
+   "id": "jamgon-kongtrul",
+   "kind": "figure",
+   "living": false,
+   "name": "Jamgon Kongtrul Lodro Thaye",
+   "role": "figure",
+   "short": "Jamgon Kongtrul",
+   "source": "Treasury consensus",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu",
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1813–1899",
+   "source_url": "https://samyeinstitute.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Treasury consensus"
+  },
+  {
+   "aliases": [
+    "khyentse wangpo"
+   ],
+   "bio": "Tertön and Rimé founder with Kongtrul; root guru of Mipham; incarnation line continues (Khyentse Chökyi Lodrö, Dilgo, Dzongsar).",
+   "id": "jamyang-khyentse-wangpo",
+   "kind": "figure",
+   "living": false,
+   "name": "Jamyang Khyentse Wangpo",
+   "role": "figure",
+   "short": "Khyentse Wangpo",
+   "source": "Khyentse Vision biography project",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma",
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1820–1892",
+   "source_url": "https://samyeinstitute.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Khyentse Vision biography project"
+  },
+  {
+   "aliases": [
+    "shechen gyaltsap pema namgyal"
+   ],
+   "bio": "Mipham's heart-disciple; root guru of Dilgo Khyentse (enthroned him as Khyentse Wangpo's mind emanation).",
+   "id": "shechen-gyaltsap",
+   "kind": "figure",
+   "living": false,
+   "name": "Shechen Gyaltsap",
+   "role": "figure",
+   "short": "Shechen Gyaltsap",
+   "source": "Shambhala bio of Dilgo (Thondup) + Khyentse Vision",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1871–1926",
+   "source_url": "https://tibetanbuddhistencyclopedia.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Shambhala bio of Dilgo (Thondup) + Khyentse Vision"
+  },
+  {
+   "aliases": [
+    "khyentse chokyi lodro",
+    "dzongsar khyentse senior"
+   ],
+   "bio": "Activity emanation of Khyentse Wangpo; second root teacher of Dilgo Khyentse; taught all four schools to 80+ masters' heir.",
+   "id": "jamyang-khyentse-chokyi-lodro",
+   "kind": "figure",
+   "living": false,
+   "name": "Jamyang Khyentse Chökyi Lodrö",
+   "role": "figure",
+   "short": "Khyentse Chökyi Lodrö",
+   "source": "Lotsawa House bio (Orgyen Tobgyal) + Shechen bio",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya",
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1893–1959",
+   "source_url": "https://shechen.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Lotsawa House bio (Orgyen Tobgyal) + Shechen bio"
+  },
+  {
+   "aliases": [
+    "larung gar founder"
+   ],
+   "bio": "Founder of Larung Gar (world's largest Buddhist institute); root guru of Khenpo Sodargye; nonsectarian tertön.",
+   "id": "jigme-phuntsok",
+   "kind": "figure",
+   "living": false,
+   "name": "Khenchen Jigme Phuntsok",
+   "role": "figure",
+   "short": "Jigme Phuntsok",
+   "source": "khenposodargye.org bio + Penguin bio",
+   "tradition": "nyingma",
+   "traditions": [
+    "nyingma"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1933–2004",
+   "source_url": "https://khenposodargye.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "8th khamtrul dongyud nyima"
+   ],
+   "bio": "Drukpa master of Khampagar (Tashi Jong); root guru of Jetsunma Tenzin Palmo (ordained her 1964).",
+   "id": "khamtrul-8",
+   "kind": "figure",
+   "living": false,
+   "name": "8th Khamtrul Rinpoche Dongyud Nyima",
+   "role": "figure",
+   "short": "Khamtrul Dongyud Nyima",
+   "source": "tenzinpalmo.com biography",
+   "tradition": "drukpa",
+   "traditions": [
+    "drukpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1930–1980",
+   "source_url": "https://tenzinpalmo.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "yonten gyatso"
+   ],
+   "bio": "Jonang throne-holder; gave Dolpopa the complete Kalachakra/Dro transmission and named him heir (1326).",
+   "id": "yonten-gyatso",
+   "kind": "figure",
+   "living": false,
+   "name": "Yonten Gyatso",
+   "role": "figure",
+   "short": "Yonten Gyatso",
+   "source": "Jonang Foundation (Sheehy history + Dolpopa bio)",
+   "tradition": "jonang",
+   "traditions": [
+    "jonang"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1260–1327",
+   "source_url": "https://jonangfoundation.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Jonang Foundation (Sheehy history + Dolpopa bio)"
+  },
+  {
+   "aliases": [
+    "huiguo acharya"
+   ],
+   "bio": "Tang court master at Qinglong Monastery; poured the two-mandala transmission into Kukai in months (805); 7th Shingon patriarch.",
+   "id": "huiguo",
+   "kind": "figure",
+   "living": false,
+   "name": "Huiguo",
+   "role": "figure",
+   "short": "Huiguo",
+   "source": "Kukai epitaph + AAS (Green)",
+   "tradition": "chan",
+   "traditions": [
+    "chan"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "746–805",
+   "source_url": "https://asianstudies.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Kukai epitaph + AAS (Green)"
+  },
+  {
+   "aliases": [
+    "rendawa zhonnu lodro"
+   ],
+   "bio": "Sakya master of explanation; Tsongkhapa's foremost teacher (Pramanavarttika, Madhyamaka); later mutual instruction.",
+   "id": "rendawa",
+   "kind": "figure",
+   "living": false,
+   "name": "Rendawa Zhonnu Lodro",
+   "role": "figure",
+   "short": "Rendawa",
+   "source": "Columbia Tsongkhapa bio + Wikipedia",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1349–1412",
+   "source_url": "https://tibetanculture.weai.columbia.edu",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Columbia Tsongkhapa bio + Wikipedia"
+  },
+  {
+   "aliases": [
+    "phagmodrupa dorje gyalpo"
+   ],
+   "bio": "Gampopa's chief disciple; teacher of Jigten Sumgon; the eight Kagyu branches divide from his seat.",
+   "id": "phagmo-drupa",
+   "kind": "figure",
+   "living": false,
+   "name": "Phagmo Drupa Dorje Gyalpo",
+   "role": "figure",
+   "short": "Phagmo Drupa",
+   "source": "Drikung lineage histories",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1110–1170",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Drikung lineage histories"
+  },
+  {
+   "aliases": [
+    "sachen kunga nyingpo"
+   ],
+   "bio": "Founder of Sakya (1073); first of the Five Forefathers; father and first teacher of Dragpa Gyaltsen.",
+   "id": "sachen",
+   "kind": "figure",
+   "living": false,
+   "name": "Sachen Kunga Nyingpo",
+   "role": "figure",
+   "short": "Sachen",
+   "source": "Sakya Tradition biographies + SEP (Gold)",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1092–1158",
+   "source_url": "https://sakyatradition.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Sakya Tradition biographies + SEP (Gold)"
+  },
+  {
+   "aliases": [
+    "jetsun dragpa gyaltsen"
+   ],
+   "bio": "Third Sakya patriarch; son and student of Sachen; principal teacher of his nephew Sakya Pandita.",
+   "id": "dragpa-gyaltsen",
+   "kind": "figure",
+   "living": false,
+   "name": "Jetsun Dragpa Gyaltsen",
+   "role": "figure",
+   "short": "Dragpa Gyaltsen",
+   "source": "Sakya Tradition biographies",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1147–1216",
+   "source_url": "https://sakyatradition.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Sakya Tradition biographies"
+  },
+  {
+   "aliases": [
+    "sapan",
+    "kunga gyaltsen"
+   ],
+   "bio": "Fourth Sakya forefather; epistemologist (Treasury of Reasoning); student of Dragpa Gyaltsen and Sakya Shri; negotiated Tibet's surrender (1244).",
+   "id": "sakya-pandita",
+   "kind": "figure",
+   "living": false,
+   "name": "Sakya Pandita Kunga Gyaltsen",
+   "role": "figure",
+   "short": "Sakya Pandita",
+   "source": "SEP (Gold) + Sakya Tradition biographies",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1182–1251",
+   "source_url": "https://plato.stanford.edu/entries/sakya-pandita",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "SEP (Gold) + Sakya Tradition biographies"
+  },
+  {
+   "aliases": [
+    "tsangpa gyare yeshe dorje"
+   ],
+   "bio": "Founder of the Drukpa Kagyu (student of Ling Repa); 'Thunder-Dragon' line of the Himalayas.",
+   "id": "tsangpa-gyare",
+   "kind": "figure",
+   "living": false,
+   "name": "Tsangpa Gyare",
+   "role": "figure",
+   "short": "Tsangpa Gyare",
+   "source": "Drukpa histories (medium: confirm Ling Repa link)",
+   "tradition": "drukpa",
+   "traditions": [
+    "drukpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1161–1211",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Drukpa histories (medium: confirm Ling Repa link)"
+  },
+  {
+   "aliases": [
+    "lingchen repa pema dorje"
+   ],
+   "bio": "Drukpa yogi; teacher of Tsangpa Gyare (medium confidence — confirm before treating as settled).",
+   "id": "ling-repa",
+   "kind": "figure",
+   "living": false,
+   "name": "Lingchen Repa Pema Dorje",
+   "role": "figure",
+   "short": "Ling Repa",
+   "source": "Drukpa histories (medium)",
+   "tradition": "drukpa",
+   "traditions": [
+    "drukpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1128–1188",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Drukpa histories (medium)"
+  },
+  {
+   "aliases": [
+    "kyobpa jigme gonpo",
+    "ratnashri"
+   ],
+   "bio": "Founder of Drikung Kagyu (Drikung Thil 1179); chief disciple of Phagmo Drupa; Gongchig (Single Intention).",
+   "id": "jigten-sumgon",
+   "kind": "figure",
+   "living": false,
+   "name": "Jigten Sumgon",
+   "role": "figure",
+   "short": "Jigten Sumgon",
+   "source": "Wikipedia + Drikung histories",
+   "tradition": "drikung",
+   "traditions": [
+    "drikung"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1143–1217",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Wikipedia + Drikung histories"
+  },
+  {
+   "aliases": [
+    "vajradhara niguma",
+    "naropa sister"
+   ],
+   "bio": "Wisdom dakini of Kashmir; sister of Naropa; source of the Shangpa transmission to Khyungpo Naljor.",
+   "id": "niguma",
+   "kind": "figure",
+   "living": false,
+   "name": "Niguma",
+   "role": "figure",
+   "short": "Niguma",
+   "source": "Shangpa Foundation masters pages",
+   "tradition": "shangpa",
+   "traditions": [
+    "shangpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "10th–11th c. (traditional)",
+   "source_url": "https://shangpafoundation.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Shangpa Foundation masters pages"
+  },
+  {
+   "aliases": [
+    "lama of shang"
+   ],
+   "bio": "Founder of Shangpa Kagyu; seven India journeys; received Niguma/Sukhasiddhi transmissions; one-to-one lineage begins.",
+   "id": "khyungpo-naljor",
+   "kind": "figure",
+   "living": false,
+   "name": "Khyungpo Naljor",
+   "role": "figure",
+   "short": "Khyungpo Naljor",
+   "source": "Shangpa Foundation + Wikipedia",
+   "tradition": "shangpa",
+   "traditions": [
+    "shangpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "990–1139",
+   "source_url": "https://shangpafoundation.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Shangpa Foundation + Wikipedia"
+  },
+  {
+   "aliases": [
+    "yizhin norbu",
+    "tsa tsa drubgen"
+   ],
+   "bio": "Abbot of Tsa Tsa Monastery; gave Kalu Rinpoche the complete Shangpa cycle in closed retreat (1940s).",
+   "id": "yizhin-norbu",
+   "kind": "figure",
+   "living": false,
+   "name": "Yizhin Norbu (Tsa Tsa Drubgen)",
+   "role": "figure",
+   "short": "Yizhin Norbu",
+   "source": "Shangpa/Kagyu histories (medium)",
+   "tradition": "shangpa",
+   "traditions": [
+    "shangpa",
+    "kagyu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "d. 2005",
+   "source_url": "https://en.wikipedia.org/wiki/Shangpa_Kagyu",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Shangpa/Kagyu histories (medium)"
+  },
+  {
+   "aliases": [
+    "khenchen appey"
+   ],
+   "bio": "Sakya scholar (International Buddhist Academy founder); teacher of senior Sakya masters including Dzongsar Khyentse.",
+   "id": "khenchen-appey",
+   "kind": "figure",
+   "living": false,
+   "name": "Khenchen Appey Rinpoche",
+   "role": "figure",
+   "short": "Appey Rinpoche",
+   "source": "Lotsawa House advisors",
+   "tradition": "sakya",
+   "traditions": [
+    "sakya"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1927–2010",
+   "source_url": "https://lotsawahouse.org/about/advisors",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Lotsawa House advisors"
+  },
+  {
+   "aliases": [
+    "rangjung dorje"
+   ],
+   "bio": "3rd Karmapa; student of Kumaradza (Vima Nyingthig); discussed view with Dolpopa at Tsurphu (1321).",
+   "id": "rangjung-dorje",
+   "kind": "figure",
+   "living": false,
+   "name": "Rangjung Dorje (3rd Karmapa)",
+   "role": "figure",
+   "short": "Rangjung Dorje",
+   "source": "Jonang Foundation (Dolpopa bio) + rywiki",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1284–1339",
+   "source_url": "https://tibetanculture.weai.columbia.edu",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Jonang Foundation (Dolpopa bio) + rywiki"
+  },
+  {
+   "aliases": [
+    "chenga chokyi gyalpo"
+   ],
+   "bio": "Drikung patriarch under whom Tsongkhapa studied Mahamudra and the Six Dharmas of Naropa.",
+   "id": "chenga-chokyi-gyalpo",
+   "kind": "figure",
+   "living": false,
+   "name": "Chenga Chokyi Gyalpo",
+   "role": "figure",
+   "short": "Chenga Rinpoche",
+   "source": "Wikipedia (Tsongkhapa) (medium)",
+   "tradition": "drikung",
+   "traditions": [
+    "drikung"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": "https://en.wikipedia.org/wiki/Tsongkhapa",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Wikipedia (Tsongkhapa) (medium)"
+  }
+ ]
+}

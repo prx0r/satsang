@@ -1,0 +1,54 @@
+{
+ "_note": "staged from satsang-extensions/21-roots-anthropology",
+ "edges": [
+  {
+   "from": "garab-dorje",
+   "to": "manjushrimitra",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional lineage account (Thondup)."
+  },
+  {
+   "from": "manjushrimitra",
+   "to": "shri-simha",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "shri-simha",
+   "to": "jnanasutra",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "jnanasutra",
+   "to": "vimalamitra",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "maitripa",
+   "to": "marpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nagarjuna",
+   "to": "aryadeva",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "james-mallinson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Mallinson's Oxford DPhil supervisor (Khecarividya thesis).",
+   "src": "https://hyp.soas.ac.uk/team",
+   "checked": "2026-10-20"
+  }
+ ]
+}

@@ -103,8 +103,9 @@ for g in G:
             q['works'] = union(q.get('works'), p.get('works'), lambda w: (w.get('id') or w['title']).lower())
             q['aliases'] = union(q.get('aliases'), p.get('aliases'), lambda a: a.lower())
             q['channels'] = union(q.get('channels'), p.get('channels'), lambda c: c.get('id') or c.get('url') or c.get('name'))
-            for k in ('wikidata', 'years', 'bio', 'tagline', 'short'):
+            for k in ('wikidata', 'years', 'bio', 'tagline', 'short') + (('source_url', 'verified_on', 'confidence') if g.startswith('ext-') else ()):
                 if not q.get(k) and p.get(k): q[k] = p[k]
+            if g.startswith('ext-') and not q.get('source_url') and p.get('source_note'): q['source_note'] = p['source_note']
             if p.get('links'): q['links'] = {**p['links'], **(q.get('links') or {})}
             if kind == 'speaker' and q['kind'] == 'figure' and pid not in ('ramana-maharshi',): q['kind'] = 'speaker'
             if trad and trad != q['tradition'] and TR[trad]['parent'] == q['tradition']: q['tradition'] = trad  # more specific node
@@ -117,7 +118,7 @@ for g in G:
              'channels': p.get('channels') or None, 'links': p.get('links') or None, 'works': p.get('works') or [],
              # living only when the sourcer checked Wikidata (no death date) and the person has a Wikidata item; PEOPLE_FIX can veto
              'living': True if p.get('living') is True and p.get('wikidata') and str(p.get('years') or '').endswith('–') and not g.startswith('ext-') else None,
-             'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}
+             'source_url': p.get('source_url'), 'source_note': p.get('source_note') if not p.get('source_url') else None, 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}
         PB[pid] = {k: v for k, v in q.items() if v is not None}
         if q['wikidata']: BYWD[q['wikidata']] = pid
         log['people_added'] += 1
@@ -544,6 +545,13 @@ os.makedirs(os.path.join(ROOT, 'site/data/wisegraph'), exist_ok=True)
 json.dump({'_note': 'Texts and resources from staged sourcing groups (tools/merge-sources.py). Links to the publisher only; never rehosted.', 'resources': RES},
           open(os.path.join(ROOT, 'site/data/wisegraph/resources-ext.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 log['resources_ext'] = len(RES)
+# staged safety records (public subset only; tools/stage-extensions.py keeps the rest internal) -> wisegraph/redflags.json
+RF = []
+for g in G:
+    f = os.path.join(SRC, g, 'redflags-public.json')
+    if os.path.exists(f): RF += [r for r in items(J(f), 'records') if r['subject'].split('/', 1)[1] in PB]
+W(os.path.join(ROOT, 'wisegraph/redflags.json'), {'_note': 'Public safety records (satsang-extensions 19 under the Satsang publication rule). Dry, attributed, dated; each with its primary reports.', 'records': RF})
+log['redflags_public'] = len(RF)
 # review queue: merge this run's held claims into wisegraph/review-queue.json (stage-extensions.py writes the staged packs' items)
 qp = os.path.join(ROOT, 'wisegraph/review-queue.json')
 Q = J(qp) if os.path.exists(qp) else {'_note': 'Satsang review queue: claims held back from the live site until a human checks them.', 'items': []}

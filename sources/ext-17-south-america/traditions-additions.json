@@ -1,0 +1,49 @@
+{
+ "_note": "staged from satsang-extensions/17-south-america",
+ "nodes": [
+  {
+   "blurb": "Shamanic and plant-medicine healing traditions of the Americas, entered only where lineage, teachers and screening are verifiable.",
+   "id": "shamanic",
+   "kind": "family",
+   "label": "Shamanic traditions",
+   "parent": null,
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Syncretic Amazonian religion founded by Raimundo Irineu Serra (1930s): Christianity, South American shamanism, African animism, Kardecist spiritism. Legal churches in Oregon, Los Angeles, Washington.",
+   "id": "santo-daime",
+   "kind": "school",
+   "label": "Santo Daime",
+   "parent": "christian",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Christian Spiritist religion founded by José Gabriel da Costa; hoasca sacrament; US Supreme Court exemption 2006 (Gonzales v. O Centro). Núcleos across the US.",
+   "id": "udv",
+   "kind": "school",
+   "label": "União do Vegetal (UDV)",
+   "parent": "christian",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Shipibo-Conibo plant-spirit healing (curanderismo): onanya healers, ikaros songs, dietas. Entered via its longest-running centre, not via individual claims.",
+   "id": "shipibo-curanderismo",
+   "kind": "lineage",
+   "label": "Shipibo curanderismo",
+   "parent": "shamanic",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

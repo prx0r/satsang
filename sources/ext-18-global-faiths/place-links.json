@@ -1,0 +1,29 @@
+{
+ "_note": "staged from satsang-extensions/18-global-faiths",
+ "links": [
+  {
+   "from": "yogi-bhajan",
+   "to": "espanola-ashram",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.espanolaashram.com/pages/about-hgrd",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sushil-kumar",
+   "to": "siddhachalam",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.siddhachalam.org/about/about-siddhachalam/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "plum-village-france",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://plumvillage.org",
+   "checked": "2026-10-20"
+  }
+ ]
+}

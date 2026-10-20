@@ -18,20 +18,20 @@
  "files": [
   {
    "kind": "person",
-   "count": 578,
+   "count": 650,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 384300,
-   "sha256": "494202db79c8259134a8bcc0fd41553dd69f9dc74c7418be29349426df9f4453",
+   "bytes": 432769,
+   "sha256": "f529343353860cfd9c826871efac95c5d70acf212b8f93d7943a7a22c6dccc80",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
    "kind": "tradition",
-   "count": 162,
+   "count": 178,
    "json": "tradition.json",
    "jsonl": "tradition.jsonl",
-   "bytes": 45419,
-   "sha256": "497cf5238f2deb064043cad618d9f80755155bce7039d5654ff0618b2e1d8bea",
+   "bytes": 50386,
+   "sha256": "2068ff0b1c3d7bebf2d4412b0aece0aaa3af9b1ebd9294a6e593c4ff173b6a4f",
    "schema": "https://tantrafiles.xyz/schema/tradition.json"
   },
   {
@@ -39,17 +39,17 @@
    "count": 9478,
    "json": "clip.json",
    "jsonl": "clip.jsonl",
-   "bytes": 6654681,
-   "sha256": "7f48e6f1b5ddbd7666fa125bc90c284c12e2f5930e3e95804e16d4f83b3c4e81",
+   "bytes": 6654706,
+   "sha256": "1e09a1440ff9cb35ef9391b08bcc983e4858d882a697d4bae0cb32fc38842ebb",
    "schema": "https://tantrafiles.xyz/schema/clip.json"
   },
   {
    "kind": "text",
-   "count": 68,
+   "count": 74,
    "json": "text.json",
    "jsonl": "text.jsonl",
-   "bytes": 31133,
-   "sha256": "b17099c23b10c7cf121ea9ff3ca1e3552f7efc22319873a27292681aba5d77f1",
+   "bytes": 32543,
+   "sha256": "9c52beb2533b52910fd79a13b9316771fea0c7f75780711eaacf6fccacb7a255",
    "schema": "https://tantrafiles.xyz/schema/text.json"
   },
   {
@@ -81,28 +81,28 @@
   },
   {
    "kind": "place",
-   "count": 820,
+   "count": 837,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 806294,
-   "sha256": "825716c36b16c50f6b49f1c828b53864eaae2a02097e5c7331ddd464c362d849",
+   "bytes": 820491,
+   "sha256": "0cc780421003f1706bfadcef874e136e8e847b08724f4667c151549382e86a9f",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
    "kind": "edge",
-   "count": 960,
+   "count": 1023,
    "json": "edge.json",
    "jsonl": "edge.jsonl",
-   "bytes": 267294,
-   "sha256": "3e1caee009cbfa5d511a4990ff3035c31d6fa497f5624ff304d1777bdbb89b02",
+   "bytes": 284543,
+   "sha256": "56f335d7aa0aedfa1f2dac7935cfef39451cbea7e5d18f6fb03882dfad0560c8",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {
    "kind": "jsonld",
-   "count": 11269,
+   "count": 11380,
    "file": "wiser.jsonld",
-   "bytes": 6589191,
-   "sha256": "9addfd93801dc94dc37d2798e9e6352e3195d6d428e6f8b8988603c56e2e72ca"
+   "bytes": 6639673,
+   "sha256": "e519e56d9a3a07b7a0d0e49f6d234e3d343c07b6e8240b78b46b323390a468a7"
   },
   {
    "kind": "sitemap-topic",
@@ -111,12 +111,12 @@
   },
   {
    "kind": "sitemap-person",
-   "count": 578,
+   "count": 650,
    "file": "sitemap-person.xml"
   },
   {
    "kind": "sitemap-tradition",
-   "count": 162,
+   "count": 178,
    "file": "sitemap-tradition.xml"
   },
   {
@@ -131,7 +131,7 @@
   },
   {
    "kind": "sitemap-place",
-   "count": 548,
+   "count": 565,
    "file": "sitemap-place.xml"
   }
  ]

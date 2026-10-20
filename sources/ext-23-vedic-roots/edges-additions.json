@@ -1,0 +1,33 @@
+{
+ "_note": "staged from satsang-extensions/23-vedic-roots",
+ "edges": [
+  {
+   "from": "uddalaka",
+   "to": "shvetaketu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father-son teaching; nine homilies (Chandogya 6)."
+  },
+  {
+   "from": "yajnavalkya",
+   "to": "maitreyi",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Maitreyi dialogue (Brihadaranyaka 2.4/4.5); traditional."
+  },
+  {
+   "from": "vasugupta",
+   "to": "kallata",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional: chief disciple, received the Spanda-karika."
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "pratyabhijnahrdayam",
+   "type": "translated",
+   "conf": "high",
+   "note": "His English Pratyabhijñāhṛdayam translation (bio-attested)."
+  }
+ ]
+}

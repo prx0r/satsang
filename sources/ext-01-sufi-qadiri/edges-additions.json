@@ -5,7 +5,9 @@
    "from": "abdul-qadir-gilani",
    "to": "qadiri",
    "type": "lineage_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gilani",
+   "checked": "2026-10-20"
   }
  ]
 }

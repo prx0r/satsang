@@ -1,0 +1,37 @@
+{
+ "_note": "staged from satsang-extensions/18-global-faiths",
+ "edges": [
+  {
+   "from": "guru-nanak",
+   "to": "sikh",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Guru_Nanak",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "mahavira",
+   "to": "jain",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Mahavira",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "laozi",
+   "to": "taoist",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Laozi",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "bahaullah",
+   "to": "bahai",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.bahai.us/",
+   "checked": "2026-10-20"
+  }
+ ]
+}

@@ -5682,16 +5682,20 @@
    "name": "Taizan Maezumi",
    "short": "Taizan Maezumi",
    "kind": "figure",
-   "tradition": "soto-zen",
+   "tradition": "white-plum",
    "wikidata": "Q1952144",
    "years": "1931–1995",
    "bio": "Founder of the Zen Center of Los Angeles; many American teachers are his heirs.",
    "aliases": [
     "maezumi",
-    "maezumi roshi"
+    "maezumi roshi",
+    "taizan maezumi roshi"
    ],
    "works": [],
-   "role": "figure"
+   "role": "figure",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "White Plum Asanga statement + Tricycle"
   },
   {
    "id": "bernie-glassman",
@@ -6337,7 +6341,20 @@
     "Website": "https://www.religion.ucsb.edu/people/david-gordon-white"
    },
    "aliases": [],
-   "works": []
+   "works": [
+    {
+     "id": "kiss-of-the-yogini",
+     "kind": "book",
+     "title": "Kiss of the Yogini",
+     "year": 2003
+    },
+    {
+     "id": "tantra-in-practice",
+     "kind": "book",
+     "title": "Tantra in Practice (ed.)",
+     "year": 2000
+    }
+   ]
   },
   {
    "id": "debra-diamond",
@@ -6632,6 +6649,24 @@
      "kind": "book",
      "title": "Roots of Yoga (with Mark Singleton)",
      "year": 2017
+    },
+    {
+     "id": "khecarividya-adinatha",
+     "kind": "book",
+     "title": "The Khecarividya of Adinatha",
+     "year": 2007
+    },
+    {
+     "id": "gheranda-samhita",
+     "kind": "book",
+     "title": "The Gheranda Samhita",
+     "year": 2004
+    },
+    {
+     "id": "shiva-samhita",
+     "kind": "book",
+     "title": "The Shiva Samhita",
+     "year": 2007
     }
    ]
   },
@@ -9338,7 +9373,7 @@
    "kind": "speaker",
    "role": "teacher",
    "tradition": "nyingma",
-   "years": "1939–",
+   "years": "1939–2023",
    "bio": "Nyingma scholar trained at Dodrupchen monastery, former visiting scholar at Harvard, author of books on healing, the Longchen Nyingthig and the hidden treasure (terma) tradition.",
    "channels": [
     {
@@ -12091,7 +12126,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Francis_of_Assisi"
   },
   {
    "id": "clare-of-assisi",
@@ -12107,7 +12143,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Clare_of_Assisi"
   },
   {
    "id": "bonaventure",
@@ -12123,7 +12160,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Bonaventure"
   },
   {
    "id": "isaac-luria",
@@ -12140,7 +12178,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Isaac_Luria"
   },
   {
    "id": "hayyim-vital",
@@ -12156,7 +12195,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Hayyim_Vital"
   },
   {
    "id": "moinuddin-chishti",
@@ -12173,7 +12213,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Moinuddin_Chishti"
   },
   {
    "id": "nizamuddin-auliya",
@@ -12190,7 +12231,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Nizamuddin_Auliya"
   },
   {
    "id": "amir-khusrau",
@@ -12207,7 +12249,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Amir_Khusrau"
   },
   {
    "id": "abdul-qadir-gilani",
@@ -12224,7 +12267,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gilani"
   },
   {
    "id": "cornelius-agrippa",
@@ -12240,7 +12284,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Heinrich_Cornelius_Agrippa"
   },
   {
    "id": "john-dee",
@@ -12257,7 +12302,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/John_Dee"
   },
   {
    "id": "giordano-bruno",
@@ -12273,7 +12319,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Giordano_Bruno"
   },
   {
    "id": "sayalay-dipankara",
@@ -12289,7 +12336,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://cakkavala.org/Teacher.html"
   },
   {
    "id": "ariyananda",
@@ -12305,7 +12353,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://nauyana.org"
   },
   {
    "id": "dhammajiva",
@@ -12321,7 +12370,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://nissarana.lk/about-us"
   },
   {
    "id": "aggacitta",
@@ -12337,7 +12387,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://sasanarakkha.org/about"
   },
   {
    "id": "thubten-chodron",
@@ -12353,7 +12404,8 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://sravastiabbey.org"
   },
   {
    "id": "amma",
@@ -12370,7 +12422,1341 @@
    "works": [],
    "verified_on": "2026-10-20",
    "confidence": "medium",
-   "role": "figure"
+   "role": "figure",
+   "source_url": "https://amma.org"
+  },
+  {
+   "id": "mestre-irineu",
+   "name": "Raimundo Irineu Serra (Mestre Irineu)",
+   "short": "Mestre Irineu",
+   "kind": "figure",
+   "tradition": "santo-daime",
+   "years": "1892–1971",
+   "bio": "Rubber-tapper turned prophet of Acre; founded the Santo Daime doctrine in the 1930s, weaving Christianity, shamanism and African spirit ways around the Daime sacrament.",
+   "aliases": [
+    "mestre irineu",
+    "raimundo irineu serra"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://santodaime.org"
+  },
+  {
+   "id": "mestre-gabriel",
+   "name": "José Gabriel da Costa (Mestre Gabriel)",
+   "short": "Mestre Gabriel",
+   "kind": "figure",
+   "tradition": "udv",
+   "years": "1922–1971",
+   "bio": "Rubber-tapper of Rondônia; founded the União do Vegetal, teaching love of God and neighbour through the hoasca sacrament; doctrine affirmed by the US Supreme Court (2006).",
+   "aliases": [
+    "mestre gabriel",
+    "jose gabriel da costa"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://udvusa.org"
+  },
+  {
+   "id": "guru-nanak",
+   "name": "Guru Nanak",
+   "short": "Guru Nanak",
+   "kind": "figure",
+   "tradition": "sikh",
+   "years": "1469–1539",
+   "bio": "Founder of Sikhism (1469–1539); taught one God, honest work and shared food; composed the Japji Sahib.",
+   "aliases": [
+    "baba nanak"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Guru_Nanak"
+  },
+  {
+   "id": "gobind-singh",
+   "name": "Guru Gobind Singh",
+   "short": "Guru Gobind Singh",
+   "kind": "figure",
+   "tradition": "sikh",
+   "years": "1666–1708",
+   "bio": "Tenth Sikh Guru; founded the Khalsa (1699), closed the human Guruship in the Guru Granth Sahib.",
+   "aliases": [
+    "guru gobind singh ji"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Guru_Gobind_Singh"
+  },
+  {
+   "id": "yogi-bhajan",
+   "name": "Yogi Bhajan",
+   "short": "Yogi Bhajan",
+   "kind": "figure",
+   "tradition": "sikh",
+   "years": "1929–2004",
+   "bio": "Brought Kundalini Yoga and Sikh Dharma to the West; founded the Espanola Mother Ashram (1970) and 3HO.",
+   "aliases": [
+    "siri singh sahib"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://espanolaashram.com/pages/yogi-bhajan"
+  },
+  {
+   "id": "mahavira",
+   "name": "Mahavira (Vardhamana)",
+   "short": "Mahavira",
+   "kind": "figure",
+   "tradition": "jain",
+   "years": "c. 540–468 BCE (traditional)",
+   "bio": "24th tirthankara (traditional dates); reformer of the Jain path; taught ahimsa and anekantavada in the Gangetic plain.",
+   "aliases": [
+    "vardhamana",
+    "jina"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Mahavira"
+  },
+  {
+   "id": "sushil-kumar",
+   "name": "Acharya Sushil Kumarji",
+   "short": "Sushil Kumarji",
+   "kind": "figure",
+   "tradition": "jain",
+   "years": "1926–1994",
+   "bio": "Jain monk who carried Mahavira's message West from 1975; founded Siddhachalam (1983), the only Jain tirth outside India; taught Arhum Yoga. No successor.",
+   "aliases": [
+    "guruji sushil kumar"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://siddhachalam.org/about"
+  },
+  {
+   "id": "laozi",
+   "name": "Laozi",
+   "short": "Laozi",
+   "kind": "figure",
+   "tradition": "taoist",
+   "years": "6th c. BCE (traditional)",
+   "bio": "Traditional author of the Daodejing (6th c. BCE, traditional); root figure of philosophical and religious Taoism.",
+   "aliases": [
+    "lao tse",
+    "li er"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Laozi"
+  },
+  {
+   "id": "bahaullah",
+   "name": "Baha'u'llah",
+   "short": "Baha'u'llah",
+   "kind": "figure",
+   "tradition": "bahai",
+   "years": "1817–1892",
+   "bio": "Founder of the Baha'i Faith (1817–1892); Kitab-i-Aqdas; taught the oneness of God, religion and humanity.",
+   "aliases": [
+    "mirza husayn-ali nuri"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://www.bahai.us/"
+  },
+  {
+   "id": "abdu-l-baha",
+   "name": "Abdu'l-Baha",
+   "short": "Abdu'l-Baha",
+   "kind": "figure",
+   "tradition": "bahai",
+   "years": "1844–1921",
+   "bio": "Son and appointed successor of Baha'u'llah (1844–1921); spread the Faith in the West; no clergy — elected order.",
+   "aliases": [
+    "abbas effendi"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "bahai.us (read 2026-10-20)",
+   "source_url": "https://bahai.us"
+  },
+  {
+   "id": "sogyal-rinpoche",
+   "name": "Sogyal Rinpoche",
+   "short": "Sogyal Rinpoche",
+   "kind": "figure",
+   "tradition": "rigpa",
+   "years": "1947–2019",
+   "bio": "Founder of Rigpa; Tibetan teacher (Nyingma tulku) whose books reached millions; stepped back in 2017 after misconduct allegations, died 2019.",
+   "aliases": [
+    "sogyal lakar"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Sogyal_Rinpoche"
+  },
+  {
+   "id": "sakyong-mipham",
+   "name": "Sakyong Mipham Rinpoche",
+   "short": "Sakyong Mipham",
+   "kind": "figure",
+   "tradition": "shambhala",
+   "years": "1962–",
+   "bio": "Head of the Shambhala lineage (son of Chögyam Trungpa); stepped back from teaching duties in 2018 after misconduct claims and investigation.",
+   "aliases": [
+    "sakyong mipham rinpoche",
+    "mipham jaltse"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Sakyong_Mipham"
+  },
+  {
+   "id": "amrit-desai",
+   "name": "Yogi Amrit Desai",
+   "short": "Amrit Desai",
+   "kind": "figure",
+   "tradition": "hindu",
+   "years": "1932–",
+   "bio": "Founder of Kripalu (1972); resigned 1994 after admitting affairs; federal litigation followed; Kripalu restructured without him.",
+   "aliases": [
+    "yogi amrit desai"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Orlando Sentinel 1994 + Kripalu timeline + Justia opinion"
+  },
+  {
+   "id": "kumaradza",
+   "name": "Rigdzin Kumaradza",
+   "short": "Kumaradza",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1266–1343",
+   "bio": "Dzogchen master; root guru of Longchenpa (Vima Nyingthig) and teacher of the 3rd Karmapa Rangjung Dorje.",
+   "aliases": [
+    "rigdzin kumaradza"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://rywiki.tsadra.org"
+  },
+  {
+   "id": "longchenpa",
+   "name": "Longchen Rabjam (Longchenpa)",
+   "short": "Longchenpa",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1308–1363",
+   "bio": "Systematiser of Dzogchen (Seven Treasuries); successor of Kumaradza; visions of Padmasambhava; re-revealed by Jigme Lingpa centuries later.",
+   "aliases": [
+    "klong chen rab byams pa"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://tibetanculture.weai.columbia.edu"
+  },
+  {
+   "id": "jigme-lingpa",
+   "name": "Jigme Lingpa",
+   "short": "Jigme Lingpa",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1729–1798",
+   "bio": "Tertön whose Longchen Nyingtik visions made Longchenpa's Heart Essence the dominant Nyingma practice cycle.",
+   "aliases": [
+    "rigdzin jigme lingpa"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Treasury of Lives consensus"
+  },
+  {
+   "id": "jigme-gyalwai-nyugu",
+   "name": "Jigme Gyalwai Nyugu",
+   "short": "Gyalwai Nyugu",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1765–1842",
+   "bio": "Hermit of Dzachuka; heart-disciple of Jigme Lingpa and root guru of Patrul (ngöndro 25 times).",
+   "aliases": [
+    "gyalwai nyugu"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Rangjung Yeshe Wiki + Treasury of Lives (Patrul bio)"
+  },
+  {
+   "id": "patrul",
+   "name": "Patrul Rinpoche",
+   "short": "Patrul",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1808–1887",
+   "bio": "Wandering yogi-scholar; Words of My Perfect Teacher; root-guru lineage Jigme Lingpa→Gyalwai Nyugu→Patrul→Mipham.",
+   "aliases": [
+    "dza patrul"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://samyeinstitute.org"
+  },
+  {
+   "id": "mipham",
+   "name": "Jamgon Mipham (Ju Mipham)",
+   "short": "Mipham",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1846–1912",
+   "bio": "Prolific Nyingma scholar (30+ volumes); student of Patrul, Kongtrul and Khyentse Wangpo; teacher of Shechen Gyaltsap; named infant Dilgo Khyentse.",
+   "aliases": [
+    "ju mipham",
+    "mipham gyatso"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://samyeinstitute.org"
+  },
+  {
+   "id": "jamgon-kongtrul",
+   "name": "Jamgon Kongtrul Lodro Thaye",
+   "short": "Jamgon Kongtrul",
+   "kind": "figure",
+   "tradition": "kagyu",
+   "years": "1813–1899",
+   "bio": "Rimé collector (Five Treasuries) with Khyentse Wangpo and Chokgyur Lingpa; teacher of Mipham; emanation-source of Kalu Rinpoche's line.",
+   "aliases": [
+    "jamgon kongtrul lodro thaye"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://samyeinstitute.org"
+  },
+  {
+   "id": "jamyang-khyentse-wangpo",
+   "name": "Jamyang Khyentse Wangpo",
+   "short": "Khyentse Wangpo",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1820–1892",
+   "bio": "Tertön and Rimé founder with Kongtrul; root guru of Mipham; incarnation line continues (Khyentse Chökyi Lodrö, Dilgo, Dzongsar).",
+   "aliases": [
+    "khyentse wangpo"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://samyeinstitute.org"
+  },
+  {
+   "id": "shechen-gyaltsap",
+   "name": "Shechen Gyaltsap",
+   "short": "Shechen Gyaltsap",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1871–1926",
+   "bio": "Mipham's heart-disciple; root guru of Dilgo Khyentse (enthroned him as Khyentse Wangpo's mind emanation).",
+   "aliases": [
+    "shechen gyaltsap pema namgyal"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://tibetanbuddhistencyclopedia.com"
+  },
+  {
+   "id": "jamyang-khyentse-chokyi-lodro",
+   "name": "Jamyang Khyentse Chökyi Lodrö",
+   "short": "Khyentse Chökyi Lodrö",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1893–1959",
+   "bio": "Activity emanation of Khyentse Wangpo; second root teacher of Dilgo Khyentse; taught all four schools to 80+ masters' heir.",
+   "aliases": [
+    "khyentse chokyi lodro",
+    "dzongsar khyentse senior"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://shechen.org"
+  },
+  {
+   "id": "jigme-phuntsok",
+   "name": "Khenchen Jigme Phuntsok",
+   "short": "Jigme Phuntsok",
+   "kind": "figure",
+   "tradition": "nyingma",
+   "years": "1933–2004",
+   "bio": "Founder of Larung Gar (world's largest Buddhist institute); root guru of Khenpo Sodargye; nonsectarian tertön.",
+   "aliases": [
+    "larung gar founder"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://khenposodargye.org"
+  },
+  {
+   "id": "khamtrul-8",
+   "name": "8th Khamtrul Rinpoche Dongyud Nyima",
+   "short": "Khamtrul Dongyud Nyima",
+   "kind": "figure",
+   "tradition": "drukpa",
+   "years": "1930–1980",
+   "bio": "Drukpa master of Khampagar (Tashi Jong); root guru of Jetsunma Tenzin Palmo (ordained her 1964).",
+   "aliases": [
+    "8th khamtrul dongyud nyima"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://tenzinpalmo.com"
+  },
+  {
+   "id": "yonten-gyatso",
+   "name": "Yonten Gyatso",
+   "short": "Yonten Gyatso",
+   "kind": "figure",
+   "tradition": "jonang",
+   "years": "1260–1327",
+   "bio": "Jonang throne-holder; gave Dolpopa the complete Kalachakra/Dro transmission and named him heir (1326).",
+   "aliases": [
+    "yonten gyatso"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://jonangfoundation.org"
+  },
+  {
+   "id": "huiguo",
+   "name": "Huiguo",
+   "short": "Huiguo",
+   "kind": "figure",
+   "tradition": "chan",
+   "years": "746–805",
+   "bio": "Tang court master at Qinglong Monastery; poured the two-mandala transmission into Kukai in months (805); 7th Shingon patriarch.",
+   "aliases": [
+    "huiguo acharya"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://asianstudies.org"
+  },
+  {
+   "id": "rendawa",
+   "name": "Rendawa Zhonnu Lodro",
+   "short": "Rendawa",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1349–1412",
+   "bio": "Sakya master of explanation; Tsongkhapa's foremost teacher (Pramanavarttika, Madhyamaka); later mutual instruction.",
+   "aliases": [
+    "rendawa zhonnu lodro"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://tibetanculture.weai.columbia.edu"
+  },
+  {
+   "id": "phagmo-drupa",
+   "name": "Phagmo Drupa Dorje Gyalpo",
+   "short": "Phagmo Drupa",
+   "kind": "figure",
+   "tradition": "kagyu",
+   "years": "1110–1170",
+   "bio": "Gampopa's chief disciple; teacher of Jigten Sumgon; the eight Kagyu branches divide from his seat.",
+   "aliases": [
+    "phagmodrupa dorje gyalpo"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Drikung lineage histories"
+  },
+  {
+   "id": "sachen",
+   "name": "Sachen Kunga Nyingpo",
+   "short": "Sachen",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1092–1158",
+   "bio": "Founder of Sakya (1073); first of the Five Forefathers; father and first teacher of Dragpa Gyaltsen.",
+   "aliases": [
+    "sachen kunga nyingpo"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://sakyatradition.org"
+  },
+  {
+   "id": "dragpa-gyaltsen",
+   "name": "Jetsun Dragpa Gyaltsen",
+   "short": "Dragpa Gyaltsen",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1147–1216",
+   "bio": "Third Sakya patriarch; son and student of Sachen; principal teacher of his nephew Sakya Pandita.",
+   "aliases": [
+    "jetsun dragpa gyaltsen"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://sakyatradition.org"
+  },
+  {
+   "id": "sakya-pandita",
+   "name": "Sakya Pandita Kunga Gyaltsen",
+   "short": "Sakya Pandita",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1182–1251",
+   "bio": "Fourth Sakya forefather; epistemologist (Treasury of Reasoning); student of Dragpa Gyaltsen and Sakya Shri; negotiated Tibet's surrender (1244).",
+   "aliases": [
+    "sapan",
+    "kunga gyaltsen"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://plato.stanford.edu/entries/sakya-pandita"
+  },
+  {
+   "id": "tsangpa-gyare",
+   "name": "Tsangpa Gyare",
+   "short": "Tsangpa Gyare",
+   "kind": "figure",
+   "tradition": "drukpa",
+   "years": "1161–1211",
+   "bio": "Founder of the Drukpa Kagyu (student of Ling Repa); 'Thunder-Dragon' line of the Himalayas.",
+   "aliases": [
+    "tsangpa gyare yeshe dorje"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Drukpa histories (medium: confirm Ling Repa link)"
+  },
+  {
+   "id": "ling-repa",
+   "name": "Lingchen Repa Pema Dorje",
+   "short": "Ling Repa",
+   "kind": "figure",
+   "tradition": "drukpa",
+   "years": "1128–1188",
+   "bio": "Drukpa yogi; teacher of Tsangpa Gyare (medium confidence — confirm before treating as settled).",
+   "aliases": [
+    "lingchen repa pema dorje"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Drukpa histories (medium)"
+  },
+  {
+   "id": "jigten-sumgon",
+   "name": "Jigten Sumgon",
+   "short": "Jigten Sumgon",
+   "kind": "figure",
+   "tradition": "drikung",
+   "years": "1143–1217",
+   "bio": "Founder of Drikung Kagyu (Drikung Thil 1179); chief disciple of Phagmo Drupa; Gongchig (Single Intention).",
+   "aliases": [
+    "kyobpa jigme gonpo",
+    "ratnashri"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Wikipedia + Drikung histories"
+  },
+  {
+   "id": "niguma",
+   "name": "Niguma",
+   "short": "Niguma",
+   "kind": "figure",
+   "tradition": "shangpa",
+   "years": "10th–11th c. (traditional)",
+   "bio": "Wisdom dakini of Kashmir; sister of Naropa; source of the Shangpa transmission to Khyungpo Naljor.",
+   "aliases": [
+    "vajradhara niguma",
+    "naropa sister"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://shangpafoundation.org"
+  },
+  {
+   "id": "khyungpo-naljor",
+   "name": "Khyungpo Naljor",
+   "short": "Khyungpo Naljor",
+   "kind": "figure",
+   "tradition": "shangpa",
+   "years": "990–1139",
+   "bio": "Founder of Shangpa Kagyu; seven India journeys; received Niguma/Sukhasiddhi transmissions; one-to-one lineage begins.",
+   "aliases": [
+    "lama of shang"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://shangpafoundation.org"
+  },
+  {
+   "id": "yizhin-norbu",
+   "name": "Yizhin Norbu (Tsa Tsa Drubgen)",
+   "short": "Yizhin Norbu",
+   "kind": "figure",
+   "tradition": "shangpa",
+   "years": "d. 2005",
+   "bio": "Abbot of Tsa Tsa Monastery; gave Kalu Rinpoche the complete Shangpa cycle in closed retreat (1940s).",
+   "aliases": [
+    "yizhin norbu",
+    "tsa tsa drubgen"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Shangpa_Kagyu"
+  },
+  {
+   "id": "khenchen-appey",
+   "name": "Khenchen Appey Rinpoche",
+   "short": "Appey Rinpoche",
+   "kind": "figure",
+   "tradition": "sakya",
+   "years": "1927–2010",
+   "bio": "Sakya scholar (International Buddhist Academy founder); teacher of senior Sakya masters including Dzongsar Khyentse.",
+   "aliases": [
+    "khenchen appey"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://lotsawahouse.org/about/advisors"
+  },
+  {
+   "id": "rangjung-dorje",
+   "name": "Rangjung Dorje (3rd Karmapa)",
+   "short": "Rangjung Dorje",
+   "kind": "figure",
+   "tradition": "kagyu",
+   "years": "1284–1339",
+   "bio": "3rd Karmapa; student of Kumaradza (Vima Nyingthig); discussed view with Dolpopa at Tsurphu (1321).",
+   "aliases": [
+    "rangjung dorje"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://tibetanculture.weai.columbia.edu"
+  },
+  {
+   "id": "chenga-chokyi-gyalpo",
+   "name": "Chenga Chokyi Gyalpo",
+   "short": "Chenga Rinpoche",
+   "kind": "figure",
+   "tradition": "drikung",
+   "years": "",
+   "bio": "Drikung patriarch under whom Tsongkhapa studied Mahamudra and the Six Dharmas of Naropa.",
+   "aliases": [
+    "chenga chokyi gyalpo"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Tsongkhapa"
+  },
+  {
+   "id": "garab-dorje",
+   "name": "Garab Dorje",
+   "short": "Garab Dorje",
+   "kind": "figure",
+   "tradition": "dzogchen",
+   "years": "",
+   "bio": "First human holder of Dzogchen (traditional account); taught Mañjushrimitra; lineage root of the mind section.",
+   "aliases": [
+    "prahevajra"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "id": "manjushrimitra",
+   "name": "Mañjushrimitra",
+   "short": "Mañjushrimitra",
+   "kind": "figure",
+   "tradition": "dzogchen",
+   "years": "",
+   "bio": "Second Dzogchen holder (traditional); student of Garab Dorje, teacher of Shri Simha.",
+   "aliases": [
+    "manjushrimitra"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "id": "shri-simha",
+   "name": "Shri Simha",
+   "short": "Shri Simha",
+   "kind": "figure",
+   "tradition": "dzogchen",
+   "years": "",
+   "bio": "Third Dzogchen holder (traditional); student of Mañjushrimitra, teacher of Jñanasutra.",
+   "aliases": [
+    "shri simha"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "id": "jnanasutra",
+   "name": "Jñanasutra",
+   "short": "Jñanasutra",
+   "kind": "figure",
+   "tradition": "dzogchen",
+   "years": "",
+   "bio": "Fourth Dzogchen holder (traditional); student of Shri Simha, teacher of Vimalamitra.",
+   "aliases": [
+    "jnan sutra"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "id": "vimalamitra",
+   "name": "Vimalamitra",
+   "short": "Vimalamitra",
+   "kind": "figure",
+   "tradition": "dzogchen",
+   "years": "8th c. (traditional)",
+   "bio": "Fifth Dzogchen holder (traditional); student of Jñanasutra; contemporary of Padmasambhava at Samye.",
+   "aliases": [
+    "vimalamitra master"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "id": "saraha",
+   "name": "Saraha",
+   "short": "Saraha",
+   "kind": "figure",
+   "tradition": "mahamudra",
+   "years": "c. 8th c. (traditional)",
+   "bio": "Mahasiddha of the doha songs; Mahamudra root figure; inspiration-line for Maitripa and Marpa's second transmission.",
+   "aliases": [
+    "sarahapa"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (doha lineage)"
+  },
+  {
+   "id": "maitripa",
+   "name": "Maitripa (Advayavajra)",
+   "short": "Maitripa",
+   "kind": "figure",
+   "tradition": "mahamudra",
+   "years": "1007–1085",
+   "bio": "Mahamudra master (1007–1085); Marpa's second guru after Naropa; Amanasikara cycle.",
+   "aliases": [
+    "advayavajra"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Kagyu histories consensus"
+  },
+  {
+   "id": "aryadeva",
+   "name": "Aryadeva",
+   "short": "Aryadeva",
+   "kind": "figure",
+   "tradition": "madhyamaka",
+   "years": "c. 3rd c.",
+   "bio": "Nagarjuna's direct disciple; Four Hundred Verses; carried Madhyamaka to the south (and, traditionally, to Sri Lanka).",
+   "aliases": [
+    "aryadeva philosopher"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional + scholarly consensus"
+  },
+  {
+   "id": "ronald-davidson",
+   "name": "Ronald Davidson",
+   "short": "Ronald Davidson",
+   "kind": "figure",
+   "tradition": "tibetan",
+   "years": "",
+   "bio": "Fairfield historian of Indian esoteric Buddhism (Indian Esoteric Buddhism, Tibetan Renaissance); Vajrayana institutional history.",
+   "aliases": [
+    "ron davidson"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Publisher bios (Columbia UP)"
+  },
+  {
+   "id": "jayaratha",
+   "name": "Jayaratha",
+   "short": "Jayaratha",
+   "kind": "figure",
+   "tradition": "trika",
+   "years": "13th c.",
+   "bio": "13th-century Kashmir commentator whose Tantraloka-viveka unpacks Abhinavagupta's 37 chapters line by line.",
+   "aliases": [
+    "jayaratha commentator"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Tantraloka-viveka authorship consensus"
+  },
+  {
+   "id": "yogaraja",
+   "name": "Yogaraja",
+   "short": "Yogaraja",
+   "kind": "figure",
+   "tradition": "trika",
+   "years": "11th c.?",
+   "bio": "Kashmir exegete; commentary on Abhinavagupta's Paramarthasara (Essence of the Highest Reality).",
+   "aliases": [
+    "yogaraja commentator"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Paramarthasara commentary authorship consensus"
+  },
+  {
+   "id": "bhaskararaya",
+   "name": "Bhaskararaya Makhin",
+   "short": "Bhaskararaya",
+   "kind": "figure",
+   "tradition": "sri-vidya",
+   "years": "1690–1785",
+   "bio": "Sri Vidya polymath (1690–1785); Saubhagyabhaskara on the Lalita Sahasranama (1728), Setubandha (1748); initiated by Sivadatta Shukla at Surat.",
+   "aliases": [
+    "bhasurananda"
+   ],
+   "works": [
+    {
+     "id": "saubhagyabhaskara",
+     "kind": "book",
+     "title": "Saubhagyabhaskara (Lalita Sahasranama commentary)",
+     "year": 1728
+    },
+    {
+     "id": "setubandha",
+     "kind": "book",
+     "title": "Setubandha (Vamakeshvara-tantra commentary)",
+     "year": 1748
+    }
+   ],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://archive.org"
+  },
+  {
+   "id": "sadyojyoti",
+   "name": "Sadyojyoti",
+   "short": "Sadyojyoti",
+   "kind": "figure",
+   "tradition": "shaiva-siddhanta",
+   "years": "c. 7th–9th c.",
+   "bio": "Systematiser of Shaiva Siddhanta doctrine (c. 7th–9th c.); root figure of the dualist Shaiva schools.",
+   "aliases": [
+    "sadyojyoti acharya"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Shaiva Siddhanta histories consensus"
+  },
+  {
+   "id": "meykandar",
+   "name": "Meykandar",
+   "short": "Meykandar",
+   "kind": "figure",
+   "tradition": "shaiva-siddhanta",
+   "years": "13th c.",
+   "bio": "13th-century Tamil philosopher; Sivajnanabodham (12 sutras); founded the Meykandar (Santana) Santana line via Paranjyoti's diksha.",
+   "aliases": [
+    "meykanda devar"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Meykandar"
+  },
+  {
+   "id": "paranjyoti",
+   "name": "Paranjyoti Munivar",
+   "short": "Paranjyoti",
+   "kind": "figure",
+   "tradition": "shaiva-siddhanta",
+   "years": "13th c. (traditional)",
+   "bio": "The sage 'descended from Kailash' who initiated the boy Meykandar on the street of Thiruvennainallur (traditional).",
+   "aliases": [
+    "paranjoti munivar"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://en.wikipedia.org/wiki/Meykandar"
+  },
+  {
+   "id": "tirumular",
+   "name": "Tirumular",
+   "short": "Tirumular",
+   "kind": "figure",
+   "tradition": "shaiva-siddhanta",
+   "years": "c. 5th–6th c. (traditional)",
+   "bio": "Author of the Tirumantiram (3000 verses); among Nandinatha's eight disciples (traditional); Tamil Siddha root.",
+   "aliases": [
+    "tirumular saint"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://himalayanacademy.com"
+  },
+  {
+   "id": "nandinatha",
+   "name": "Nandinatha",
+   "short": "Nandinatha",
+   "kind": "figure",
+   "tradition": "shaiva-siddhanta",
+   "years": "mythic (traditional)",
+   "bio": "Legendary root guru of the Nandinatha Sampradaya; eight disciples incl. Tirumular (traditional).",
+   "aliases": [
+    "nandinatha sampradaya root"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_url": "https://himalayanacademy.com"
+  },
+  {
+   "id": "sukhasiddhi",
+   "name": "Sukhasiddhi",
+   "short": "Sukhasiddhi",
+   "kind": "figure",
+   "tradition": "shangpa",
+   "years": "10th–11th c. (traditional)",
+   "bio": "Wisdom dakini; student of Virupa; co-teacher (with Niguma) of Khyungpo Naljor's Shangpa transmission.",
+   "aliases": [
+    "sukhasiddhi dakini"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Shangpa Foundation histories"
+  },
+  {
+   "id": "yajnavalkya",
+   "name": "Yajnavalkya",
+   "short": "Yajnavalkya",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "bio": "Upanishadic sage of the Brihadaranyaka; neti-neti dialogues with Maitreyi; debated by Gargi.",
+   "aliases": [
+    "yajnavalkya sage"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "id": "uddalaka",
+   "name": "Uddalaka Aruni",
+   "short": "Uddalaka",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th c. BCE (traditional)",
+   "bio": "Father-teacher of Shvetaketu (Chandogya); 'Tat Tvam Asi' — thou art that.",
+   "aliases": [
+    "uddalaka aruni"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "id": "shvetaketu",
+   "name": "Shvetaketu",
+   "short": "Shvetaketu",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th c. BCE (traditional)",
+   "bio": "Uddalaka's son; received the nine homilies culminating in Tat Tvam Asi (Chandogya 6).",
+   "aliases": [
+    "shvetaketu uddalaka"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "id": "gargi",
+   "name": "Gargi Vachaknavi",
+   "short": "Gargi",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "bio": "Philosopher at Janaka's court; questioned Yajnavalkya on the woven-and-warped Brahman (Brihadaranyaka 3.6–3.8).",
+   "aliases": [
+    "gargi vachaknavi"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "id": "maitreyi",
+   "name": "Maitreyi",
+   "short": "Maitreyi",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "bio": "Yajnavalkya's wife-interlocutor; chose knowledge over wealth (Brihadaranyaka 2.4, 4.5).",
+   "aliases": [
+    "maitreyi yajnavalkya wife"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "id": "nachiketa",
+   "name": "Nachiketa",
+   "short": "Nachiketa",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "mythic (traditional)",
+   "bio": "Boy who questioned Death (Yama) and received the fire-doctrine and Self-knowledge (Katha Upanishad).",
+   "aliases": [
+    "nachiketa katha"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Katha Upanishad (traditional)"
+  },
+  {
+   "id": "satyakama",
+   "name": "Satyakama Jabala",
+   "short": "Satyakama",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "c. 8th c. BCE (traditional)",
+   "bio": "Student of Haridrumata Gautama; truthfulness as qualification (Chandogya 4).",
+   "aliases": [
+    "satyakama jabala"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "id": "vashistha",
+   "name": "Vashistha",
+   "short": "Vashistha",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "Vedic (traditional)",
+   "bio": "Vedic seer (Rig Veda mandala 7); priest of Ikshvaku kings; Yoga-Vasishtha interlocutor.",
+   "aliases": [
+    "vasishtha rishi"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "id": "vishvamitra",
+   "name": "Vishvamitra",
+   "short": "Vishvamitra",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "Vedic (traditional)",
+   "bio": "Seer of the Gayatri mantra (Rig Veda 3.62.10); rival-counterpart of Vashistha.",
+   "aliases": [
+    "vishvamitra gayatri"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "id": "vyasa",
+   "name": "Vyasa (Krishna Dvaipayana)",
+   "short": "Vyasa",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "mythic (traditional)",
+   "bio": "Traditional compiler of the Vedas and author of the Mahabharata; root figure of smriti.",
+   "aliases": [
+    "veda vyasa compiler"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "valmiki",
+   "name": "Valmiki",
+   "short": "Valmiki",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "mythic (traditional)",
+   "bio": "Traditional author of the Ramayana; 'first poet' (adikavi).",
+   "aliases": [
+    "valmiki ramayana"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "agastya",
+   "name": "Agastya",
+   "short": "Agastya",
+   "kind": "figure",
+   "tradition": "vedic",
+   "years": "Vedic (traditional)",
+   "bio": "Vedic seer who carried the tradition south; Rig Vedic hymns + Tamil tradition root.",
+   "aliases": [
+    "agastya rishi south"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "id": "kallata",
+   "name": "Kallaṭa",
+   "short": "Kallata",
+   "kind": "figure",
+   "tradition": "spanda",
+   "years": "9th c. (traditional)",
+   "bio": "Chief disciple of Vasugupta; received the Spanda-karika; bridge Vasugupta→Kashmir line.",
+   "aliases": [
+    "kallata spanda"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure",
+   "source_note": "Traditional (Spanda lineage lists)"
+  },
+  {
+   "id": "rigveda",
+   "name": "Rig Veda (Saṃhitā)",
+   "short": "Rig Veda",
+   "kind": "text",
+   "tradition": "vedic",
+   "bio": "Earliest Vedic hymn collection; Rishi seers incl. Vashistha, Vishvamitra, Agastya.",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "brihadaranyaka",
+   "name": "Brihadaranyaka Upanishad",
+   "short": "Brihadaranyaka",
+   "kind": "text",
+   "tradition": "vedic",
+   "bio": "Longest Upanishad; Yajnavalkya dialogues (neti-neti, Maitreyi, Gargi debate).",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "chandogya",
+   "name": "Chandogya Upanishad",
+   "short": "Chandogya",
+   "kind": "text",
+   "tradition": "vedic",
+   "bio": "Uddalaka–Shvetaketu teaching; Tat Tvam Asi; Satyakama admission.",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "katha-upanishad",
+   "name": "Katha Upanishad",
+   "short": "Katha",
+   "kind": "text",
+   "tradition": "vedic",
+   "bio": "Nachiketa questions Death; fire-doctrine and Self-knowledge.",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "isha-upanishad",
+   "name": "Isha Upanishad",
+   "short": "Isha",
+   "kind": "text",
+   "tradition": "vedic",
+   "bio": "Shortest principal Upanishad; the Lord in all that moves.",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "pratyabhijnahrdayam",
+   "name": "Pratyabhijñāhṛdayam (Heart of Recognition)",
+   "short": "Pratyabhijñāhṛdayam",
+   "kind": "text",
+   "tradition": "pratyabhijna",
+   "bio": "Kṣemarāja’s 20-sūtra digest of the Recognition school; Jaideva Singh English translation (copyrighted, no link).",
+   "aliases": [],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "text",
+   "source_note": "Traditional"
   }
  ]
 }

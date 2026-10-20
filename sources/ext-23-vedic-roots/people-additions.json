@@ -1,0 +1,431 @@
+{
+ "_note": "staged from satsang-extensions/23-vedic-roots",
+ "people": [
+  {
+   "aliases": [
+    "yajnavalkya sage"
+   ],
+   "bio": "Upanishadic sage of the Brihadaranyaka; neti-neti dialogues with Maitreyi; debated by Gargi.",
+   "id": "yajnavalkya",
+   "kind": "figure",
+   "living": false,
+   "name": "Yajnavalkya",
+   "role": "figure",
+   "short": "Yajnavalkya",
+   "source": "Brihadaranyaka Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "uddalaka aruni"
+   ],
+   "bio": "Father-teacher of Shvetaketu (Chandogya); 'Tat Tvam Asi' — thou art that.",
+   "id": "uddalaka",
+   "kind": "figure",
+   "living": false,
+   "name": "Uddalaka Aruni",
+   "role": "figure",
+   "short": "Uddalaka",
+   "source": "Chandogya Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "shvetaketu uddalaka"
+   ],
+   "bio": "Uddalaka's son; received the nine homilies culminating in Tat Tvam Asi (Chandogya 6).",
+   "id": "shvetaketu",
+   "kind": "figure",
+   "living": false,
+   "name": "Shvetaketu",
+   "role": "figure",
+   "short": "Shvetaketu",
+   "source": "Chandogya Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "gargi vachaknavi"
+   ],
+   "bio": "Philosopher at Janaka's court; questioned Yajnavalkya on the woven-and-warped Brahman (Brihadaranyaka 3.6–3.8).",
+   "id": "gargi",
+   "kind": "figure",
+   "living": false,
+   "name": "Gargi Vachaknavi",
+   "role": "figure",
+   "short": "Gargi",
+   "source": "Brihadaranyaka Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "maitreyi yajnavalkya wife"
+   ],
+   "bio": "Yajnavalkya's wife-interlocutor; chose knowledge over wealth (Brihadaranyaka 2.4, 4.5).",
+   "id": "maitreyi",
+   "kind": "figure",
+   "living": false,
+   "name": "Maitreyi",
+   "role": "figure",
+   "short": "Maitreyi",
+   "source": "Brihadaranyaka Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th–7th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Brihadaranyaka Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "nachiketa katha"
+   ],
+   "bio": "Boy who questioned Death (Yama) and received the fire-doctrine and Self-knowledge (Katha Upanishad).",
+   "id": "nachiketa",
+   "kind": "figure",
+   "living": false,
+   "name": "Nachiketa",
+   "role": "figure",
+   "short": "Nachiketa",
+   "source": "Katha Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "mythic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Katha Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "satyakama jabala"
+   ],
+   "bio": "Student of Haridrumata Gautama; truthfulness as qualification (Chandogya 4).",
+   "id": "satyakama",
+   "kind": "figure",
+   "living": false,
+   "name": "Satyakama Jabala",
+   "role": "figure",
+   "short": "Satyakama",
+   "source": "Chandogya Upanishad (traditional)",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c. BCE (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Chandogya Upanishad (traditional)"
+  },
+  {
+   "aliases": [
+    "vasishtha rishi"
+   ],
+   "bio": "Vedic seer (Rig Veda mandala 7); priest of Ikshvaku kings; Yoga-Vasishtha interlocutor.",
+   "id": "vashistha",
+   "kind": "figure",
+   "living": false,
+   "name": "Vashistha",
+   "role": "figure",
+   "short": "Vashistha",
+   "source": "Rig Veda + traditional",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "Vedic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "aliases": [
+    "vishvamitra gayatri"
+   ],
+   "bio": "Seer of the Gayatri mantra (Rig Veda 3.62.10); rival-counterpart of Vashistha.",
+   "id": "vishvamitra",
+   "kind": "figure",
+   "living": false,
+   "name": "Vishvamitra",
+   "role": "figure",
+   "short": "Vishvamitra",
+   "source": "Rig Veda + traditional",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "Vedic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "aliases": [
+    "veda vyasa compiler"
+   ],
+   "bio": "Traditional compiler of the Vedas and author of the Mahabharata; root figure of smriti.",
+   "id": "vyasa",
+   "kind": "figure",
+   "living": false,
+   "name": "Vyasa (Krishna Dvaipayana)",
+   "role": "figure",
+   "short": "Vyasa",
+   "source": "Traditional",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "mythic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "aliases": [
+    "valmiki ramayana"
+   ],
+   "bio": "Traditional author of the Ramayana; 'first poet' (adikavi).",
+   "id": "valmiki",
+   "kind": "figure",
+   "living": false,
+   "name": "Valmiki",
+   "role": "figure",
+   "short": "Valmiki",
+   "source": "Traditional",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "mythic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "aliases": [
+    "agastya rishi south"
+   ],
+   "bio": "Vedic seer who carried the tradition south; Rig Vedic hymns + Tamil tradition root.",
+   "id": "agastya",
+   "kind": "figure",
+   "living": false,
+   "name": "Agastya",
+   "role": "figure",
+   "short": "Agastya",
+   "source": "Rig Veda + traditional",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "Vedic (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Rig Veda + traditional"
+  },
+  {
+   "aliases": [
+    "kallata spanda"
+   ],
+   "bio": "Chief disciple of Vasugupta; received the Spanda-karika; bridge Vasugupta→Kashmir line.",
+   "id": "kallata",
+   "kind": "figure",
+   "living": false,
+   "name": "Kallaṭa",
+   "role": "figure",
+   "short": "Kallata",
+   "source": "Traditional (Spanda lineage lists)",
+   "tradition": "spanda",
+   "traditions": [
+    "spanda"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "9th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Spanda lineage lists)"
+  },
+  {
+   "id": "rigveda",
+   "kind": "text",
+   "name": "Rig Veda (Saṃhitā)",
+   "short": "Rig Veda",
+   "role": "text",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Earliest Vedic hymn collection; Rishi seers incl. Vashistha, Vishvamitra, Agastya.",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "brihadaranyaka",
+   "kind": "text",
+   "name": "Brihadaranyaka Upanishad",
+   "short": "Brihadaranyaka",
+   "role": "text",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Longest Upanishad; Yajnavalkya dialogues (neti-neti, Maitreyi, Gargi debate).",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "chandogya",
+   "kind": "text",
+   "name": "Chandogya Upanishad",
+   "short": "Chandogya",
+   "role": "text",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Uddalaka–Shvetaketu teaching; Tat Tvam Asi; Satyakama admission.",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "katha-upanishad",
+   "kind": "text",
+   "name": "Katha Upanishad",
+   "short": "Katha",
+   "role": "text",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Nachiketa questions Death; fire-doctrine and Self-knowledge.",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "isha-upanishad",
+   "kind": "text",
+   "name": "Isha Upanishad",
+   "short": "Isha",
+   "role": "text",
+   "tradition": "vedic",
+   "traditions": [
+    "vedic"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Shortest principal Upanishad; the Lord in all that moves.",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  },
+  {
+   "id": "pratyabhijnahrdayam",
+   "kind": "text",
+   "name": "Pratyabhijñāhṛdayam (Heart of Recognition)",
+   "short": "Pratyabhijñāhṛdayam",
+   "role": "text",
+   "tradition": "pratyabhijna",
+   "traditions": [
+    "pratyabhijna"
+   ],
+   "wikidata": null,
+   "works": [],
+   "bio": "Kṣemarāja’s 20-sūtra digest of the Recognition school; Jaideva Singh English translation (copyrighted, no link).",
+   "source": "Traditional",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional"
+  }
+ ]
+}

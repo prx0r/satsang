@@ -292,6 +292,10 @@ KEEPER_PLACES = {
     'ltwa': {'url': 'https://tibetanlibrary.org', 'source_url': 'https://tibetanlibrary.org', 'confidence': 'high'},
 }
 # duplicate places: old id -> kept id (/place/<old> 301s to the kept page)
+KEEPER_ALIAS_REDIRECTS = {  # short slugs people reach for (seen 404 after batch 3): 301 to the canonical id; never reused as ids
+    'places': {'wudang': 'wudang-zixiao'},
+    'people': {'uddalaka-aruni': 'uddalaka'},
+}
 KEEPER_PLACE_MERGE = {'dhamma-khetta2': 'dhamma-khetta'}   # same centre, same dhamma.org page text; schkhetta (1976) kept
 # India study bad URLs, applied wherever these places exist (none of them are in the live data on 2026-10-20)
 KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maakamakhya.org', 'ltwa.net': 'https://tibetanlibrary.org'}

@@ -1,0 +1,100 @@
+{
+ "_note": "staged from satsang-extensions/19-red-flags",
+ "people": [
+  {
+   "aliases": [
+    "sogyal lakar"
+   ],
+   "bio": "Founder of Rigpa; Tibetan teacher (Nyingma tulku) whose books reached millions; stepped back in 2017 after misconduct allegations, died 2019.",
+   "id": "sogyal-rinpoche",
+   "kind": "figure",
+   "living": false,
+   "name": "Sogyal Rinpoche",
+   "role": "figure",
+   "short": "Sogyal Rinpoche",
+   "source": "en.wikipedia.org/wiki/Sogyal_Rinpoche + linked investigation",
+   "tradition": "rigpa",
+   "traditions": [
+    "rigpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1947–2019",
+   "source_url": "https://en.wikipedia.org/wiki/Sogyal_Rinpoche",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "sakyong mipham rinpoche",
+    "mipham jaltse"
+   ],
+   "bio": "Head of the Shambhala lineage (son of Chögyam Trungpa); stepped back from teaching duties in 2018 after misconduct claims and investigation.",
+   "id": "sakyong-mipham",
+   "kind": "figure",
+   "living": null,
+   "name": "Sakyong Mipham Rinpoche",
+   "role": "figure",
+   "short": "Sakyong Mipham",
+   "source": "en.wikipedia.org/wiki/Sakyong_Mipham + linked investigation",
+   "tradition": "shambhala",
+   "traditions": [
+    "shambhala"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1962–",
+   "source_url": "https://en.wikipedia.org/wiki/Sakyong_Mipham",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "taizan maezumi roshi"
+   ],
+   "bio": "Founder of White Plum Asanga and ZCLA (d. 1995); admitted alcoholism and sexual misconduct 1983; lineage continues with published reforms.",
+   "id": "taizan-maezumi",
+   "kind": "figure",
+   "living": false,
+   "name": "Taizan Maezumi Roshi",
+   "role": "figure",
+   "short": "Maezumi Roshi",
+   "source": "White Plum Asanga statement + Tricycle",
+   "tradition": "white-plum",
+   "traditions": [
+    "white-plum"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1931–1995",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "White Plum Asanga statement + Tricycle"
+  },
+  {
+   "aliases": [
+    "yogi amrit desai"
+   ],
+   "bio": "Founder of Kripalu (1972); resigned 1994 after admitting affairs; federal litigation followed; Kripalu restructured without him.",
+   "id": "amrit-desai",
+   "kind": "figure",
+   "living": null,
+   "name": "Yogi Amrit Desai",
+   "role": "figure",
+   "short": "Amrit Desai",
+   "source": "Orlando Sentinel 1994 + Kripalu timeline + Justia opinion",
+   "tradition": "hindu",
+   "traditions": [
+    "hindu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1932–",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Orlando Sentinel 1994 + Kripalu timeline + Justia opinion"
+  }
+ ]
+}

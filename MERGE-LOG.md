@@ -59,3 +59,26 @@ Gates post-merge: only ids-unique self-collisions. Live: new place/person pages 
 Screenshots: shots-merge/b2/ (places map + pick, desktop + phone) — design unchanged.
 Keeper: 0 error; linkrot warns 12 = pre-existing UK/AU/NZ sites reached by the rotating linkrot cursor this run (TLS errors / no
 connection; curl from this sandbox returns 000 for them too), none from merged records; provenance info 168.
+
+## Batch 3: 17, 18, 19, 20, 21, 22, 23 (deployed wiser-web 4a6724d2, wiser-mcp fd3674ab; closed out 2026-10-20 23:40 +07)
+| pack | result | counts / notes |
+|---|---|---|
+| 17-south-america | merged | 4 nodes (shamanic, santo-daime, udv, shipibo-curanderismo), 2 founders, 8 places, 2 contact rows, 2 edges; safety/legal posture stated in descriptions (court-tested footing cited, not vouched) |
+| 18-global-faiths | merged | 6 nodes (sikh, jain, taoist, bahai, african-diaspora, nac), 8 figures, 9 places (wudang-zixiao, golden-temple, palitana...), 6 contacts (1 off-domain dropped + queued), 4 edges |
+| 19-red-flags | partial | 3 public records (deceased subject + institutional/primary source) -> app/wisegraph/redflags.json; 6 records HELD internal (work/wiser/internal/19-red-flags, review-internal.json; never public): muktananda-1994, baker-sfzc-1983, trungpa-history, nkt-shugden-dispute, desai-kripalu-1994, shambhala-sakyong-2018; 4 people (2 living held, maezumi-taizan deduped -> taizan-maezumi) |
+| 20-tibetan-lineages | merged | 28 masters, 39 edges (7 medium teacher_of -> studied with + queued), 3 nodes (drukpa, drikung, shangpa), 1 years fix; tulku successions unwired (tulku_of not in schema) |
+| 21-roots-anthropology | merged (partial) | 9 people, 7 edges (4 medium queued), madhyamaka node, 5 works attached; 4 works flagged check held; 1 living claim held |
+| 22-tantra-web | merged | 9 people, 9 edges (3 medium queued) |
+| 23-vedic-roots | merged | vedic node, 19 people (Uddalaka->Shvetaketu wired; Gargi/Yama unwired by rule), 4 edges (2 medium queued); 6 text records stay linkless (archived in specs/extensions) |
+
+Graph after: people 661, places 837, edges 477, tradition nodes 178. Review queue 77.
+Gates post-merge (check_pack vs merged tree): only ids-unique self-collisions (the merged records themselves).
+Screenshots: shots-merge/b3/ (live, desktop + phone: place ceu-do-mapia, tradition jain, person longchenpa, person uddalaka;
+`node shot-merge.mjs <dir> name=/path ...`, fetches through node because the sandbox proxy needs auth) — dark design unchanged,
+all 200, body rgb(10,13,20).
+Keeper (daily, 23:34): 0 error; 34 linkrot warns, all pre-existing UK/IN/AU/NZ sites (TLS/DNS from this sandbox), none from
+merged records; integrity info 6 (pre-existing co-supervisor pairs + one deep-tantra death-year conflict); provenance info 188.
+404 fix: /place/wudang and /person/uddalaka-aruni were never ids (the pack uses wudang-zixiao / uddalaka; nothing in the data or
+packs links the short forms) — added as 301 aliases anyway (source_maps KEEPER_ALIAS_REDIRECTS), and apply-keeper-fixes.py now
+also writes 301s for every staging dedupe in ext-idmap.json (e.g. /place/pendle-hill -> /place/pendle-hill-pa, which 404'd).
+Deployed with batch 4.

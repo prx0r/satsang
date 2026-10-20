@@ -1,0 +1,310 @@
+{
+ "_note": "staged from satsang-extensions/20-tibetan-lineages",
+ "edges": [
+  {
+   "from": "tilopa",
+   "to": "naropa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "naropa",
+   "to": "marpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "marpa",
+   "to": "milarepa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "milarepa",
+   "to": "gampopa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gampopa",
+   "to": "phagmo-drupa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "phagmo-drupa",
+   "to": "jigten-sumgon",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kumaradza",
+   "to": "longchenpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "rangjung-dorje",
+   "to": "longchenpa",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Longchenpa studied under Rangjung Dorje years before meeting Kumaradza (Columbia bio).",
+   "src": "https://tibetanculture.weai.columbia.edu",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "kumaradza",
+   "to": "rangjung-dorje",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught the Vima Nyingthig cycle (rywiki: Main Students).",
+   "src": "https://rywiki.tsadra.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "longchenpa",
+   "to": "jigme-lingpa",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Visionary lineage (terma), not personal study: Jigme Lingpa's revelations re-reveal Longchenpa's Heart Essence."
+  },
+  {
+   "from": "jigme-lingpa",
+   "to": "jigme-gyalwai-nyugu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Heart-disciple; one of two primary Longchen Nyingtik holders."
+  },
+  {
+   "from": "jigme-gyalwai-nyugu",
+   "to": "patrul",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; ngöndro 25 times (Words of My Perfect Teacher)."
+  },
+  {
+   "from": "patrul",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Bodhicaryavatara mastered in five days (Samye Institute).",
+   "src": "https://samyeinstitute.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "jamyang-khyentse-wangpo",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; complete Kama + Terma transmissions (Samye Institute).",
+   "src": "https://samyeinstitute.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "jamgon-kongtrul",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Grammar studies with Kongtrul (Samye Institute).",
+   "src": "https://samyeinstitute.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "mipham",
+   "to": "shechen-gyaltsap",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Principal student (Tibetan Buddhist Encyclopedia).",
+   "src": "https://tibetanbuddhistencyclopedia.com",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "shechen-gyaltsap",
+   "to": "dilgo-khyentse",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; enthroned Dilgo as Khyentse Wangpo's mind emanation (Shechen bio).",
+   "src": "https://shechen.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "jamyang-khyentse-chokyi-lodro",
+   "to": "dilgo-khyentse",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Second main root teacher (Shechen bio).",
+   "src": "https://shechen.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "jigme-phuntsok",
+   "to": "khenpo-sodargye",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru at Larung Gar (khenposodargye.org bio + encyclopedia).",
+   "src": "https://khenposodargye.org/about/biography",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "trijang-rinpoche",
+   "to": "kelsang-gyatso",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; sent him to England 1977 (kadampalife.org + kadampa.org).",
+   "src": "https://kadampalife.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "khamtrul-8",
+   "to": "jetsunma-tenzin-palmo",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; ordained her 1964 (tenzinpalmo.com bio + Tricycle).",
+   "src": "https://tenzinpalmo.com/biography",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "yonten-gyatso",
+   "to": "dolpopa",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Gave Dolpopa the Dro Kalachakra transmission; named him heir 1326 (Jonang Foundation).",
+   "src": "https://jonangfoundation.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "huiguo",
+   "to": "kukai",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Two-mandala abhiseka, Chang'an 805 (Kukai epitaph + AAS Green).",
+   "src": "https://asianstudies.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "rendawa",
+   "to": "tsongkhapa",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Foremost teacher (Pramanavarttika, Madhyamaka); later mutual instruction (Columbia + Wikipedia).",
+   "src": "https://tibetanculture.weai.columbia.edu",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "chenga-chokyi-gyalpo",
+   "to": "tsongkhapa",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Studied Mahamudra + Six Dharmas of Naropa under him at Drikung Thil.",
+   "src": "https://en.wikipedia.org/wiki/Tsongkhapa",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sachen",
+   "to": "dragpa-gyaltsen",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father and first teacher, age 8–12 (Sakya Tradition bios).",
+   "src": "https://sakyatradition.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "dragpa-gyaltsen",
+   "to": "sakya-pandita",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Principal disciple; initiated, taught sutras/tantras (SEP Gold + Sakya Tradition).",
+   "src": "https://plato.stanford.edu/entries/sakya-pandita",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sachen",
+   "to": "sakya",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "ling-repa",
+   "to": "tsangpa-gyare",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Teacher of Tsangpa Gyare per Drukpa histories — confirm before treating as settled."
+  },
+  {
+   "from": "tsangpa-gyare",
+   "to": "drukpa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "jigten-sumgon",
+   "to": "drikung",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "niguma",
+   "to": "khyungpo-naljor",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Four empowerments in the emanated mandala; one-to-one transmission begins (Shangpa Foundation).",
+   "src": "https://shangpafoundation.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "khyungpo-naljor",
+   "to": "shangpa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "tsoknyi-rinpoche",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Father and teacher of the Ka-Nying brothers — confirm per-student links."
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "chokyi-nyima-rinpoche",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Son and student (Chokyi Nyima). Confirm before treating as settled."
+  },
+  {
+   "from": "khenchen-appey",
+   "to": "dzongsar-khyentse",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Teacher of senior Sakya masters incl. Dzongsar (Lotsawa House advisors).",
+   "src": "https://lotsawahouse.org/about/advisors",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "yizhin-norbu",
+   "to": "kalu-rinpoche",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Gave Kalu the complete Shangpa cycle at Tsa Tsa in closed retreat (1940s).",
+   "src": "https://en.wikipedia.org/wiki/Shangpa_Kagyu",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "dilgo-khyentse",
+   "to": "ringu-tulku",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Trained under the 16th Karmapa and Dilgo (Lotsawa House advisors).",
+   "src": "https://lotsawahouse.org/about/advisors",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "karmapa-16",
+   "to": "ringu-tulku",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://lotsawahouse.org/about/advisors",
+   "checked": "2026-10-20"
+  }
+ ]
+}

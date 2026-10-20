@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/21-roots-anthropology",
+ "nodes": [
+  {
+   "blurb": "Middle-Way philosophy of Nagarjuna and Aryadeva: emptiness (shunyata) via the tetralemma; root of Mahayana dialectics and, through Chandrakirti, of Tibetan debate.",
+   "id": "madhyamaka",
+   "kind": "lineage",
+   "label": "Madhyamaka",
+   "parent": "mahayana",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

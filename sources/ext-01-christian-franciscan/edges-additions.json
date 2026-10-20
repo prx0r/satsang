@@ -5,14 +5,18 @@
    "from": "francis-of-assisi",
    "to": "franciscan-contemplative",
    "type": "lineage_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Francis_of_Assisi",
+   "checked": "2026-10-20"
   },
   {
    "from": "francis-of-assisi",
    "to": "clare-of-assisi",
    "type": "teacher_of",
    "conf": "medium",
-   "note": "Francis received Clare's vows and remained her lifelong spiritual guide."
+   "note": "Francis received Clare's vows and remained her lifelong spiritual guide.",
+   "src": "https://en.wikipedia.org/wiki/Clare_of_Assisi",
+   "checked": "2026-10-20"
   }
  ]
 }

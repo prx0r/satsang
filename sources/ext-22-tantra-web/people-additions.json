@@ -1,0 +1,237 @@
+{
+ "_note": "staged from satsang-extensions/22-tantra-web",
+ "people": [
+  {
+   "aliases": [
+    "jayaratha commentator"
+   ],
+   "bio": "13th-century Kashmir commentator whose Tantraloka-viveka unpacks Abhinavagupta's 37 chapters line by line.",
+   "id": "jayaratha",
+   "kind": "figure",
+   "living": false,
+   "name": "Jayaratha",
+   "role": "figure",
+   "short": "Jayaratha",
+   "source": "Tantraloka-viveka authorship consensus",
+   "tradition": "trika",
+   "traditions": [
+    "trika"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "13th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Tantraloka-viveka authorship consensus"
+  },
+  {
+   "aliases": [
+    "yogaraja commentator"
+   ],
+   "bio": "Kashmir exegete; commentary on Abhinavagupta's Paramarthasara (Essence of the Highest Reality).",
+   "id": "yogaraja",
+   "kind": "figure",
+   "living": false,
+   "name": "Yogaraja",
+   "role": "figure",
+   "short": "Yogaraja",
+   "source": "Paramarthasara commentary authorship consensus",
+   "tradition": "trika",
+   "traditions": [
+    "trika"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "11th c.?",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Paramarthasara commentary authorship consensus"
+  },
+  {
+   "aliases": [
+    "bhasurananda"
+   ],
+   "bio": "Sri Vidya polymath (1690–1785); Saubhagyabhaskara on the Lalita Sahasranama (1728), Setubandha (1748); initiated by Sivadatta Shukla at Surat.",
+   "id": "bhaskararaya",
+   "kind": "figure",
+   "living": false,
+   "name": "Bhaskararaya Makhin",
+   "role": "figure",
+   "short": "Bhaskararaya",
+   "source": "Wikipedia + archive.org commentary preface",
+   "tradition": "sri-vidya",
+   "traditions": [
+    "sri-vidya"
+   ],
+   "wikidata": null,
+   "works": [
+    {
+     "id": "saubhagyabhaskara",
+     "kind": "book",
+     "title": "Saubhagyabhaskara (Lalita Sahasranama commentary)",
+     "year": 1728
+    },
+    {
+     "id": "setubandha",
+     "kind": "book",
+     "title": "Setubandha (Vamakeshvara-tantra commentary)",
+     "year": 1748
+    }
+   ],
+   "years": "1690–1785",
+   "source_url": "https://archive.org",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "sadyojyoti acharya"
+   ],
+   "bio": "Systematiser of Shaiva Siddhanta doctrine (c. 7th–9th c.); root figure of the dualist Shaiva schools.",
+   "id": "sadyojyoti",
+   "kind": "figure",
+   "living": false,
+   "name": "Sadyojyoti",
+   "role": "figure",
+   "short": "Sadyojyoti",
+   "source": "Shaiva Siddhanta histories consensus",
+   "tradition": "shaiva-siddhanta",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 7th–9th c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Shaiva Siddhanta histories consensus"
+  },
+  {
+   "aliases": [
+    "meykanda devar"
+   ],
+   "bio": "13th-century Tamil philosopher; Sivajnanabodham (12 sutras); founded the Meykandar (Santana) Santana line via Paranjyoti's diksha.",
+   "id": "meykandar",
+   "kind": "figure",
+   "living": false,
+   "name": "Meykandar",
+   "role": "figure",
+   "short": "Meykandar",
+   "source": "Wikipedia (Meykandar)",
+   "tradition": "shaiva-siddhanta",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "13th c.",
+   "source_url": "https://en.wikipedia.org/wiki/Meykandar",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Wikipedia (Meykandar)"
+  },
+  {
+   "aliases": [
+    "paranjoti munivar"
+   ],
+   "bio": "The sage 'descended from Kailash' who initiated the boy Meykandar on the street of Thiruvennainallur (traditional).",
+   "id": "paranjyoti",
+   "kind": "figure",
+   "living": false,
+   "name": "Paranjyoti Munivar",
+   "role": "figure",
+   "short": "Paranjyoti",
+   "source": "Traditional (Meykandar hagiography)",
+   "tradition": "shaiva-siddhanta",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "13th c. (traditional)",
+   "source_url": "https://en.wikipedia.org/wiki/Meykandar",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Traditional (Meykandar hagiography)"
+  },
+  {
+   "aliases": [
+    "tirumular saint"
+   ],
+   "bio": "Author of the Tirumantiram (3000 verses); among Nandinatha's eight disciples (traditional); Tamil Siddha root.",
+   "id": "tirumular",
+   "kind": "figure",
+   "living": false,
+   "name": "Tirumular",
+   "role": "figure",
+   "short": "Tirumular",
+   "source": "Traditional (Nandinatha lineage lists)",
+   "tradition": "shaiva-siddhanta",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 5th–6th c. (traditional)",
+   "source_url": "https://himalayanacademy.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Traditional (Nandinatha lineage lists)"
+  },
+  {
+   "aliases": [
+    "nandinatha sampradaya root"
+   ],
+   "bio": "Legendary root guru of the Nandinatha Sampradaya; eight disciples incl. Tirumular (traditional).",
+   "id": "nandinatha",
+   "kind": "figure",
+   "living": false,
+   "name": "Nandinatha",
+   "role": "figure",
+   "short": "Nandinatha",
+   "source": "Traditional (Kailasa Parampara lists, himalayanacademy)",
+   "tradition": "shaiva-siddhanta",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "mythic (traditional)",
+   "source_url": "https://himalayanacademy.com",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_basis": "edge source (the record that names this person)",
+   "source_note": "Traditional (Kailasa Parampara lists, himalayanacademy)"
+  },
+  {
+   "aliases": [
+    "sukhasiddhi dakini"
+   ],
+   "bio": "Wisdom dakini; student of Virupa; co-teacher (with Niguma) of Khyungpo Naljor's Shangpa transmission.",
+   "id": "sukhasiddhi",
+   "kind": "figure",
+   "living": false,
+   "name": "Sukhasiddhi",
+   "role": "figure",
+   "short": "Sukhasiddhi",
+   "source": "Shangpa Foundation histories",
+   "tradition": "shangpa",
+   "traditions": [
+    "shangpa"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "10th–11th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Shangpa Foundation histories"
+  }
+ ]
+}

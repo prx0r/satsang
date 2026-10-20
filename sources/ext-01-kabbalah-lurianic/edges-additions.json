@@ -5,13 +5,17 @@
    "from": "isaac-luria",
    "to": "lurianic",
    "type": "lineage_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Isaac_Luria",
+   "checked": "2026-10-20"
   },
   {
    "from": "isaac-luria",
    "to": "hayyim-vital",
    "type": "teacher_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Hayyim_Vital",
+   "checked": "2026-10-20"
   }
  ]
 }

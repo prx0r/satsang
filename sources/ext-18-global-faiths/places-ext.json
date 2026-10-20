@@ -1,0 +1,275 @@
+{
+ "_note": "staged from satsang-extensions/18-global-faiths",
+ "places": [
+  {
+   "city": "Amritsar, Punjab",
+   "contact_page": "https://sgpc.net/sri-harmandir-sahib/",
+   "contact_page_source": "link published on https://sgpc.net (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Holiest Sikh shrine (Sri Harmandir Sahib); continuous kirtan, sarovar, langar feeding 100k+ daily; SGPC-managed.",
+   "id": "golden-temple",
+   "language": "en",
+   "lat": 31.62,
+   "lng": 74.88,
+   "name": "Golden Temple (Sri Harmandir Sahib)",
+   "offers": [
+    "worship",
+    "langar",
+    "sarovar"
+   ],
+   "source": "curated (extension pack 2026-10-20, no verified URL)",
+   "teacher_ids": [
+    "guru-nanak"
+   ],
+   "traditions": [
+    "sikh"
+   ],
+   "type": "temple",
+   "url": null,
+   "source_url": "https://sgpc.net/sri-harmandir-sahib/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Espanola, New Mexico",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Mother Ashram of Sikh Dharma in the West (founded 1970 by Yogi Bhajan); 250-strong community, sadhana, gurdwara, Kundalini yoga.",
+   "founded": 1970,
+   "founded_source": "espanolaashram.com (read 2026-10-20)",
+   "id": "espanola-ashram",
+   "language": "en",
+   "lat": 35.99,
+   "lng": -106.06,
+   "name": "Hacienda de Guru Ram Das",
+   "offers": [
+    "sadhana",
+    "gurdwara",
+    "yoga"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "yogi-bhajan"
+   ],
+   "traditions": [
+    "sikh"
+   ],
+   "type": "ashram",
+   "url": "https://www.espanolaashram.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.espanolaashram.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Blairstown, New Jersey",
+   "contact_page": "https://www.siddhachalam.org/contact/",
+   "contact_page_source": "link published on https://www.siddhachalam.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Only Jain tirth outside India (120 acres, est. 1983 by Sushil Kumarji, no successor); temples, Arhum Yoga, ahimsa sanctuary.",
+   "founded": 1983,
+   "founded_source": "siddhachalam.org/about (read 2026-10-20)",
+   "id": "siddhachalam",
+   "language": "en",
+   "lat": 40.98,
+   "lng": -74.96,
+   "name": "Siddhachalam Jain Tirth",
+   "offers": [
+    "worship",
+    "retreats",
+    "trails"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "sushil-kumar"
+   ],
+   "traditions": [
+    "jain"
+   ],
+   "type": "ashram",
+   "url": "https://www.siddhachalam.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.siddhachalam.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Palitana, Gujarat",
+   "coord_precision": "approximate (unverified)",
+   "country": "IN",
+   "country_name": "India",
+   "description": "Holiest Jain pilgrimage (863 temples, 3500 steps); no overnight stay allowed — abode for the divine only. Pedhi contacts below.",
+   "id": "palitana",
+   "language": "en",
+   "lat": 21.52,
+   "lng": 71.83,
+   "name": "Palitana (Shatrunjaya)",
+   "offers": [
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "mahavira"
+   ],
+   "traditions": [
+    "jain"
+   ],
+   "type": "pilgrimage",
+   "url": "https://bhavnagar.nic.in/tourist-place/palitana-temple/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://bhavnagar.nic.in/tourist-place/palitana-temple/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Wudang Mountains, Hubei",
+   "coord_precision": "approximate (unverified)",
+   "country": "CN",
+   "country_name": "China",
+   "description": "Working Taoist centre (Zhenwu cult, Ming palaces, resident clergy, morning/evening liturgy); Zixiao Palace is the institutional heart.",
+   "id": "wudang-zixiao",
+   "language": "en",
+   "lat": 32.4,
+   "lng": 111.0,
+   "name": "Wudang Mountain (Zixiao Palace)",
+   "offers": [
+    "worship",
+    "study"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "laozi"
+   ],
+   "traditions": [
+    "taoist"
+   ],
+   "type": "temple",
+   "url": "https://wudang.org/wudang-mountain",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://wudang.org/wudang-mountain",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Wilmette, Illinois",
+   "contact_page": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "contact_page_source": "link published on https://www.bahai.us (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Baha'i House of Worship for North America; daily devotionals, gardens, no clergy (elected assemblies). Free, open to all.",
+   "id": "bahai-wilmette",
+   "language": "en",
+   "lat": 42.08,
+   "lng": -87.72,
+   "name": "Baha'i House of Worship (Wilmette)",
+   "offers": [
+    "worship",
+    "devotionals"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "bahaullah"
+   ],
+   "traditions": [
+    "bahai"
+   ],
+   "type": "temple",
+   "url": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Saint-Avit-Sénieur, Dordogne",
+   "coord_precision": "approximate (unverified)",
+   "country": "FR",
+   "country_name": "France",
+   "description": "Plum Village mother houses (Upper/Lower/New Hamlet); Thich Nhat Hanh's root community, mindfulness retreats.",
+   "id": "plum-village-france",
+   "language": "en",
+   "lat": 44.75,
+   "lng": 0.82,
+   "name": "Plum Village (France)",
+   "offers": [
+    "residential retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "thich-nhat-hanh"
+   ],
+   "traditions": [
+    "plum-village"
+   ],
+   "type": "monastery",
+   "url": "https://plumvillage.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://plumvillage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Pan-tribal Native American Church body (peyote way, federally protected for members); tribally rooted, not drop-in — contact the church. Leadership contacts published.",
+   "id": "nacna",
+   "language": "en",
+   "lat": 48.0,
+   "lng": -101.0,
+   "name": "Native American Church of North America",
+   "offers": [],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "native-american-church"
+   ],
+   "type": "organisation",
+   "url": "https://nacna.info",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://nacna.info",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Salvador, Bahia",
+   "coord_precision": "approximate (unverified)",
+   "country": "BR",
+   "country_name": "Brazil",
+   "description": "Ketu Candomblé terreiro (founded 1910 by Mãe Aninha); IPHAN heritage-listed 2000; orixá worship, school, museum. Contact via published email/Instagram.",
+   "founded": 1910,
+   "founded_source": "Salvador city cultural pages (read 2026-10-20)",
+   "id": "ile-axe-opo-afonja",
+   "language": "pt",
+   "lat": -12.95,
+   "lng": -38.45,
+   "name": "Ilê Axé Opô Afonjá",
+   "offers": [
+    "worship"
+   ],
+   "source": "curated (extension pack 2026-10-20, no own site found)",
+   "teacher_ids": [],
+   "traditions": [
+    "candomble"
+   ],
+   "type": "temple",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

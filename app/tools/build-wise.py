@@ -67,6 +67,10 @@ for t in TEXTS:
     pid = NAMEK.get(a)
     if pid: TEXTS_BY[pid].append({k: v for k, v in t.items() if k in ('title', 'url', 'site', 'note') and v})
 people = {}
+RF = {}  # public safety records (wisegraph/redflags.json): shown to agents as a dated, sourced note; never a verdict
+if os.path.exists(os.path.join(ROOT, 'wisegraph/redflags.json')):
+    for r in json.load(open(os.path.join(ROOT, 'wisegraph/redflags.json')))['records']:
+        RF.setdefault(r['subject'].split('/', 1)[1], []).append({k: r.get(k) for k in ('id', 'status', 'happened', 'summary', 'reports', 'updated')})
 for p in PEOPLE:
     t = p['tradition']
     seek = sorted((q for q in PEOPLE if q['id'] != p['id']), key=lambda q: (-kin(p, q), q['name']))
@@ -81,6 +85,7 @@ for p in PEOPLE:
         'by': by.get(p['id']) or None, 'inf': inf.get(p['id']) or None, 'seek': seek or None,
         'ro': p.get('role') if p.get('role') in ('scholar', 'teacher') else None, 'lo': True if p.get('lineageOnly') else None,
         'texts': TEXTS_BY.get(p['id']) or None,
+        'safety': RF.get(p['id']) or None,
         'src': p.get('sources') or ([p['source_url']] if p.get('source_url') else None), 'vo': p.get('verified_on'), 'cf': p.get('confidence'),  # keeper fixes: provenance of hand-checked facts
     }.items() if v not in (None, [], {})}
 

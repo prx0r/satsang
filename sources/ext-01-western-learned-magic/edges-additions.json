@@ -6,21 +6,27 @@
    "to": "cornelius-agrippa",
    "type": "influenced",
    "conf": "medium",
-   "note": "Agrippa's Three Books systematise Ficino's Neoplatonic natural magic."
+   "note": "Agrippa's Three Books systematise Ficino's Neoplatonic natural magic.",
+   "src": "https://en.wikipedia.org/wiki/Heinrich_Cornelius_Agrippa",
+   "checked": "2026-10-20"
   },
   {
    "from": "cornelius-agrippa",
    "to": "john-dee",
    "type": "influenced",
    "conf": "medium",
-   "note": "Dee owned and annotated Agrippa; the Heptameron circle descends from the Three Books."
+   "note": "Dee owned and annotated Agrippa; the Heptameron circle descends from the Three Books.",
+   "src": "https://en.wikipedia.org/wiki/John_Dee",
+   "checked": "2026-10-20"
   },
   {
    "from": "marsilio-ficino",
    "to": "giordano-bruno",
    "type": "influenced",
    "conf": "medium",
-   "note": "Bruno's heroic frenzies and infinite worlds work Ficino's Hermetic-Neoplatonic sources."
+   "note": "Bruno's heroic frenzies and infinite worlds work Ficino's Hermetic-Neoplatonic sources.",
+   "src": "https://en.wikipedia.org/wiki/Giordano_Bruno",
+   "checked": "2026-10-20"
   }
  ]
 }

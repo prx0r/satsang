@@ -3515,7 +3515,20 @@
    "facts": [
     "Śaivism"
    ],
-   "specials": [],
+   "specials": [
+    {
+     "id": "kiss-of-the-yogini",
+     "title": "Kiss of the Yogini",
+     "year": 2003,
+     "kind": "book"
+    },
+    {
+     "id": "tantra-in-practice",
+     "title": "Tantra in Practice (ed.)",
+     "year": 2000,
+     "kind": "book"
+    }
+   ],
    "clips": 12,
    "about": 0
   },
@@ -3742,6 +3755,24 @@
      "id": "roots-of-yoga",
      "title": "Roots of Yoga (with Mark Singleton)",
      "year": 2017,
+     "kind": "book"
+    },
+    {
+     "id": "khecarividya-adinatha",
+     "title": "The Khecarividya of Adinatha",
+     "year": 2007,
+     "kind": "book"
+    },
+    {
+     "id": "gheranda-samhita",
+     "title": "The Gheranda Samhita",
+     "year": 2004,
+     "kind": "book"
+    },
+    {
+     "id": "shiva-samhita",
+     "title": "The Shiva Samhita",
+     "year": 2007,
      "kind": "book"
     }
    ],
@@ -6177,14 +6208,14 @@
    "traditionLabel": "Nyingma",
    "family": "buddhism",
    "familyLabel": "Buddhism",
-   "years": "1939–",
+   "years": "1939–2023",
    "wikidata": null,
    "links": {
     "Website": "https://tulkuthondup.com"
    },
    "facts": [
     "Tibetan Buddhism",
-    "1939–"
+    "1939–2023"
    ],
    "specials": [],
    "clips": 12,

@@ -64,6 +64,7 @@ for (const [id, p] of Object.entries(wise.people)) {
     ids: p.wd ? { wikidata: p.wd } : undefined,
     links: Object.entries(p.links || {}).filter(([, u]) => /^https?:/.test(u)).map(([label, url]) => ({ label, url, kind: /web|site|official/i.test(label) ? 'official' : 'other' })),
     works: (p.works || []).map((w) => ({ id: w.id, title: w.title, year: w.year ?? null, kind: w.kind })),
+    ...(p.safety ? { safety: p.safety.map((r) => ({ id: r.id, status: r.status, happened: r.happened, summary: r.summary, reports: (r.reports || []).map((x) => ({ outlet: x.outlet, kind: x.kind, url: x.url, date: x.date })), updated: r.updated })) } : {}),
     meta: { license: LIC, ...(p.vo ? { updated: p.vo } : {}), ...(p.cf ? { confidence: p.cf } : {}), ...(p.src ? { sources: p.src.filter((u) => /^https?:/.test(u)).map((url) => ({ url, check: 'reviewed', ...(p.vo ? { checked: p.vo } : {}) })) } : {}) } }
 }
 

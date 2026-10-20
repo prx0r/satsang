@@ -1,0 +1,232 @@
+{
+ "_note": "staged from satsang-extensions/17-south-america",
+ "places": [
+  {
+   "city": "Ashland, Oregon",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "Legal Santo Daime church (CEFLURIS line, since 1996); works of hymn, prayer and meditation under DEA-compliant exemption.",
+   "founded": 1996,
+   "founded_source": "chlq.org (read 2026-10-20)",
+   "id": "chlq-ashland",
+   "language": "en",
+   "lat": 42.19,
+   "lng": -122.7,
+   "name": "Church of the Holy Light of the Queen",
+   "offers": [
+    "works (services)"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "santo-daime"
+   ],
+   "type": "centre",
+   "url": "https://www.chlq.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.chlq.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Southern California",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "501c3 Santo Daime church (est. 2008); DEA-cooperating legal status; safe/nurturing works per its mission.",
+   "founded": 2008,
+   "founded_source": "flowerofthedivinemother.org (read 2026-10-20)",
+   "id": "fdmd-socal",
+   "language": "en",
+   "lat": 34.0,
+   "lng": -118.2,
+   "name": "Flower of the Divine Mother",
+   "offers": [
+    "works (services)"
+   ],
+   "source": "curated (extension pack 2026-10-20, no verified URL)",
+   "teacher_ids": [],
+   "traditions": [
+    "santo-daime"
+   ],
+   "type": "centre",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Céu do Mapiá, Amazonas",
+   "coord_precision": "approximate (unverified)",
+   "country": "BR",
+   "country_name": "Brazil",
+   "description": "Mother church of the ICEFLU Santo Daime line in the Amazon; hinários, feitio, forest stewardship; pilgrimage root of the US churches.",
+   "id": "ceu-do-mapia",
+   "language": "pt",
+   "lat": -8.0,
+   "lng": -70.0,
+   "name": "Céu do Mapiá",
+   "offers": [
+    "works (services)",
+    "pilgrimage"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "mestre-irineu"
+   ],
+   "traditions": [
+    "santo-daime"
+   ],
+   "type": "monastery",
+   "url": "https://www.santodaime.org/en",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.santodaime.org/en",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Santa Fe, New Mexico",
+   "coord_precision": "approximate (unverified)",
+   "country": "US",
+   "country_name": "United States",
+   "description": "UDV temple (licensed 2014 after RLUIPA settlement); hoasca sessions under the 2006 Supreme Court exemption; núcleos in 8 states.",
+   "id": "udv-santa-fe",
+   "language": "en",
+   "lat": 35.69,
+   "lng": -105.94,
+   "name": "UDV Santa Fe Temple",
+   "offers": [
+    "sessions"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "mestre-gabriel"
+   ],
+   "traditions": [
+    "udv"
+   ],
+   "type": "temple",
+   "url": "https://udvusa.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://udvusa.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Iquitos, Loreto",
+   "coord_precision": "approximate (unverified)",
+   "country": "PE",
+   "country_name": "Peru",
+   "description": "Longest-running Shipibo ayahuasca centre (since 2007, 10k+ guests); male/female onanya healers, screening, integration programme. Medical/psychiatric screening published; contraindications apply.",
+   "id": "temple-way-of-light",
+   "language": "en",
+   "lat": -3.75,
+   "lng": -73.25,
+   "name": "Temple of the Way of Light",
+   "offers": [
+    "retreats (8/12-day)",
+    "integration"
+   ],
+   "source": "curated (extension pack 2026-10-20, no verified URL; WAF)",
+   "teacher_ids": [],
+   "traditions": [
+    "shipibo-curanderismo"
+   ],
+   "type": "retreat",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Nosara, Nicoya",
+   "coord_precision": "approximate (unverified)",
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "description": "Flagship yoga/meditation retreat centre (Omega Institute founder); hosts world teachers, Nov–Aug season, turtle-refuge beach.",
+   "id": "blue-spirit",
+   "language": "en",
+   "lat": 9.98,
+   "lng": -85.65,
+   "name": "Blue Spirit Costa Rica",
+   "offers": [
+    "hosted retreats",
+    "trainings"
+   ],
+   "source": "curated (extension pack 2026-10-20, no verified URL; contacts backlog)",
+   "teacher_ids": [],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "retreat",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Nosara, Nicoya",
+   "contact_page": "https://bodhitreeyogaresort.com/about/",
+   "contact_page_source": "link published on https://bodhitreeyogaresort.com (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "description": "Yoga/fitness resort (est. 2014); signature retreats, shalas, surf; full published contacts.",
+   "founded": 2014,
+   "founded_source": "bodhitreeyogaresort.com/about (read 2026-10-20)",
+   "id": "bodhi-tree-cr",
+   "language": "en",
+   "lat": 9.98,
+   "lng": -85.65,
+   "name": "Bodhi Tree Yoga Resort",
+   "offers": [
+    "retreats",
+    "trainings"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "retreat",
+   "url": "https://bodhitreeyogaresort.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://bodhitreeyogaresort.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Montezuma, Nicoya",
+   "coord_precision": "approximate (unverified)",
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "description": "Yoga/wellness resort (National Geographic wellness pick); customizable retreats, 200-hour YTTs, full published contacts.",
+   "id": "anamaya-cr",
+   "language": "en",
+   "lat": 9.65,
+   "lng": -85.08,
+   "name": "Anamaya Resort",
+   "offers": [
+    "retreats",
+    "YTT"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "hindu"
+   ],
+   "type": "retreat",
+   "url": "https://www.anamaya.com",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.anamaya.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

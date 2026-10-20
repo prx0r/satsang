@@ -1,0 +1,21 @@
+{
+ "_note": "staged from satsang-extensions/17-south-america",
+ "edges": [
+  {
+   "from": "mestre-irineu",
+   "to": "santo-daime",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.santodaime.org/en",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "mestre-gabriel",
+   "to": "udv",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://udvusa.org/who-we-are/",
+   "checked": "2026-10-20"
+  }
+ ]
+}

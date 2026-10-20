@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/19-red-flags",
+ "nodes": [
+  {
+   "blurb": "Worldwide Buddhist network founded by Sogyal Rinpoche (Nyingma roots); commissioned the 2018 independent investigation into its founder.",
+   "id": "rigpa",
+   "kind": "lineage",
+   "label": "Rigpa",
+   "parent": "nyingma",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

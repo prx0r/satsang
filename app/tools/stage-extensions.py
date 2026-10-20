@@ -102,6 +102,10 @@ def src_url(x):
         if isinstance(v, str):
             m = re.search(r'https?://\S+', v)
             if m: return m.group(0).rstrip(').,;')
+    v = str(x.get('source') or '')
+    m = re.search(r'\b((?:[a-z0-9-]+\.)+(?:org|com|net|edu|lk|in|uk|us|de|fr|it|jp|th|au|nz|ca|io|info|br|pe|cr)(?:/[\w%./-]*)?)', v)  # a cited site written without the scheme
+    if m and not re.search(r'@', v): return 'https://' + m.group(1).rstrip('.')
+    if x.get('wikidata'): return f'https://www.wikidata.org/wiki/{x["wikidata"]}'
     return None
 
 def pack_files(pdir):
@@ -116,6 +120,12 @@ def pack_files(pdir):
 
 IMP = os.path.join(ROOT, 'wisegraph/ext-idmap.json')  # dedupe decisions, cumulative across packs (later packs reference earlier packs' ids)
 IDMAP = J(IMP) if os.path.exists(IMP) else {'_note': 'Pack id -> existing id, decided by tools/stage-extensions.py dedupe (normalised name / Wikidata / name + distance).', 'people': {}, 'places': {}}
+INTERNAL = os.path.join(ROOT, '..', 'internal')  # never synced to git: sensitive pack material (red flags under human review)
+SENSITIVE = {'19-red-flags'}
+STRONG = {'institutional', 'investigation', 'regulator', 'court'}
+def dead(pid, extra):
+    y = str((extra.get(pid) or {}).get('years') or next((p.get('years') for p in PEOPLE if p['id'] == pid), '') or '')
+    return bool(re.search(r'\d{3,4}\s*$', y)) and (extra.get(pid) or {}).get('living') is not True
 summary = {}
 for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
     pdir = os.path.join(A.ext, pack)
@@ -227,6 +237,26 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
                 if l.get('check'): queue(pack, 'practice-link-check', 'practice/' + pid, l.get('note') or 'attribution flagged check by the pack', 'check'); continue
                 if l.get('teachers'): g.setdefault('practice_links', {})[pid] = {'teachers': [PERSON_MAP.get(t, t) for t in l['teachers']], 'texts': l.get('texts') or []}
             inc('practice_links', len(g.get('practice_links') or {}))
+        elif base.startswith('redflags'):  # red flags: public only with a strong primary source, a deceased subject and a factual status; the rest stays internal
+            os.makedirs(os.path.join(INTERNAL, pack), exist_ok=True); shutil.copy(f, os.path.join(INTERNAL, pack, base))
+            extra = {}
+            for f2 in glob.glob(os.path.join(pdir, 'people*.json')):
+                for x in J(f2).get('people') or []: extra[x['id']] = x
+            for r in d.get('records') or []:
+                kind, sid = r['subject'].split('/', 1)
+                strong = any(x.get('kind') in STRONG for x in r.get('reports') or [])
+                ok = kind == 'person' and strong and dead(sid, extra) and r.get('status') in ('addressed', 'historical') and r.get('visibility') == 'public'
+                if ok:
+                    reps = [{'outlet': x.get('outlet'), 'kind': x.get('kind'), 'url': x['url'], 'date': x.get('date')} for x in r['reports'] if url_ok(x['url'])]
+                    if not any(x['kind'] in STRONG for x in reps): ok = False
+                if ok:
+                    summ = r['summary'] if len(r['summary']) <= 520 else r['summary'][:520].rsplit('. ', 1)[0] + '.'
+                    g.setdefault('redflags', []).append({'id': r['id'], 'subject': r['subject'], 'status': r['status'], 'happened': r.get('happened'), 'category': r.get('category'),
+                                                        'summary': summ, 'reports': reps, 'updated': r.get('updated') or DATE, 'verified_on': DATE, 'confidence': 'high'}); inc('redflags_public')
+                else:
+                    held = J(os.path.join(INTERNAL, 'review-internal.json')) if os.path.exists(os.path.join(INTERNAL, 'review-internal.json')) else {'items': []}
+                    if r['id'] not in {i['id'] for i in held['items']}: held['items'].append({'id': r['id'], 'subject': r['subject'], 'why': 'red flag held for a human re-read (living subject, press-only or dispute)', 'queued': DATE})
+                    W(os.path.join(INTERNAL, 'review-internal.json'), held); inc('redflags_internal')
         elif base == 'years.json':
             g['years'].update(d.get('set_years') or {}); inc('years_fixes', len(d.get('set_years') or {}))
         elif base == 'living-flags.json':
@@ -234,14 +264,27 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
                 queue(pack, 'living-claim', 'person/' + pid, 'pack proposes living:true; held for review' + (' (CONTRADICTED: died 2025-02-02, keeper fix)' if pid == 'mark-dyczkowski' else ''), 'check'); inc('living_held')
         else:
             inc('spec_files')  # platform/spec files: copied to specs/extensions/<pack>/ (not data)
-            dst = os.path.join(ROOT, '..', 'specs', 'extensions', pack, os.path.relpath(f, pdir)); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(f, dst)
+            dst = os.path.join(INTERNAL if pack in SENSITIVE else os.path.join(ROOT, '..', 'specs', 'extensions'), pack, os.path.relpath(f, pdir)); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(f, dst)
     # docs travel with data; scripts, SQL drafts and other non-JSON pack files are archived with them (never applied here)
+    DOCS = os.path.join(INTERNAL, pack) if pack in SENSITIVE else os.path.join(ROOT, '..', 'specs', 'extensions', pack)
     for fx in glob.glob(os.path.join(pdir, '**', '*'), recursive=True):
         rel = os.path.relpath(fx, pdir)
         if os.path.isdir(fx) or fx.endswith(('.json', '.pyc')) or rel.split(os.sep)[0] in ('receipts', 'out', 'clusters') or '__pycache__' in rel or rel.endswith('.md') and os.sep not in rel: continue
-        dst = os.path.join(ROOT, '..', 'specs', 'extensions', pack, rel); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(fx, dst)
+        dst = os.path.join(DOCS, rel); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(fx, dst)
     for md in glob.glob(os.path.join(pdir, '*.md')):
-        dst = os.path.join(ROOT, '..', 'specs', 'extensions', pack, os.path.basename(md)); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(md, dst)
+        dst = os.path.join(DOCS, os.path.basename(md)); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(md, dst)
+    ESRC = {}
+    for g in G.values():
+        for e in g['edges'] + g['place_links']:
+            if e.get('src'):
+                for k in (e['from'], e['to']): ESRC.setdefault(k, e['src'])
+    for g in G.values():
+        for p in g['people']:
+            if not p.get('source_url'):
+                u = ESRC.get(p['id']) or next((ESRC[k] for k, v in PMAP.items() if v == p['id'] and k in ESRC), None)
+                if u: p['source_url'] = u; p['source_basis'] = 'edge source (the record that names this person)'
+                else: p['confidence'] = 'medium' if p.get('confidence') == 'high' else p['confidence']
+                p['source_note'] = p.get('source')
     M = lambda x: PMAP.get(x, PLMAP.get(x, x))
     for g in G.values():
         for e in g['edges'] + g['place_links']: e['from'], e['to'] = M(e['from']), M(e['to'])
@@ -249,6 +292,7 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
         for p in g['places']: p['teacher_ids'] = [PMAP.get(t, t) for t in p.get('teacher_ids') or []]
         g['contacts'] = {PLMAP.get(k, k): v for k, v in g['contacts'].items()}
         for w in g['works']: w['person'] = PMAP.get(w['person'], w['person'])
+        for r in g.get('redflags') or []: k, i = r['subject'].split('/', 1); r['subject'] = f'{k}/{PMAP.get(i, i)}'
     for gid, g in G.items():
         if not any(g.values()): continue
         gd = os.path.join(SRC, gid); os.makedirs(gd, exist_ok=True)
@@ -266,10 +310,11 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
         if g.get('collections'): W(os.path.join(gd, 'collections.json'), {'_note': f'staged from satsang-extensions/{pack}', 'collections': g['collections']})
         if g.get('practices'): W(os.path.join(gd, 'practices.json'), {'_note': f'staged from satsang-extensions/{pack}', 'practices': g['practices']})
         if g.get('practice_links'): W(os.path.join(gd, 'practice-links.json'), {'_note': f'staged from satsang-extensions/{pack}', 'links': g['practice_links']})
+        if g.get('redflags'): W(os.path.join(gd, 'redflags-public.json'), {'_note': 'Safety records published under the Satsang rule: a strong primary source (institutional statement, investigation, regulator), a deceased subject and a factual status; summaries are dry and attributed. Others stay internal for a human re-read.', 'records': g['redflags']})
         if g['years']: W(os.path.join(gd, 'years-fix.json'), {'_note': f'staged from satsang-extensions/{pack}', 'set_years': g['years']})
         rep = os.path.join(pdir, 'REPORT.md') if not os.path.exists(os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')) else os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')
         hdr = f'# {gid}: staged from prx0r/satsang-extensions/{pack} on {DATE}\n\nStaged by app/tools/stage-extensions.py (dedupe, living/low-confidence claims to app/wisegraph/review-queue.json). Pack docs: specs/extensions/{pack}/.\n\n'
-        open(os.path.join(gd, 'REPORT.md'), 'w').write(hdr + (open(rep).read() if os.path.exists(rep) else ''))
+        open(os.path.join(gd, 'REPORT.md'), 'w').write(hdr + ('' if pack in SENSITIVE else open(rep).read() if os.path.exists(rep) else ''))
     st['groups'] = sorted(k for k, g in G.items() if any(g.values()))
     IDMAP['people'].update({k: v for k, v in PMAP.items() if k != v}); IDMAP['places'].update({k: v for k, v in PLMAP.items() if k != v})
     W(IMP, IDMAP)

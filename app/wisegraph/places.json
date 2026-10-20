@@ -25381,6 +25381,459 @@
    "source_url": "https://www.lilydaleassembly.org",
    "verified_on": "2026-10-20",
    "confidence": "high"
+  },
+  {
+   "id": "chlq-ashland",
+   "name": "Church of the Holy Light of the Queen",
+   "type": "centre",
+   "traditions": [
+    "santo-daime"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Ashland, Oregon",
+   "lat": 42.19,
+   "lng": -122.7,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1996,
+   "url": "https://www.chlq.org",
+   "url_checked": "2026-10-20",
+   "description": "Legal Santo Daime church (CEFLURIS line, since 1996); works of hymn, prayer and meditation under DEA-compliant exemption.",
+   "offers": [
+    "works (services)"
+   ],
+   "language": "en",
+   "source_url": "https://www.chlq.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "ceu-do-mapia",
+     "sister_of"
+    ]
+   ]
+  },
+  {
+   "id": "fdmd-socal",
+   "name": "Flower of the Divine Mother",
+   "type": "centre",
+   "traditions": [
+    "santo-daime"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Southern California",
+   "lat": 34.0,
+   "lng": -118.2,
+   "coord_precision": "approximate (unverified)",
+   "founded": 2008,
+   "description": "501c3 Santo Daime church (est. 2008); DEA-cooperating legal status; safe/nurturing works per its mission.",
+   "offers": [
+    "works (services)"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "ceu-do-mapia",
+   "name": "Céu do Mapiá",
+   "type": "monastery",
+   "traditions": [
+    "santo-daime"
+   ],
+   "country": "BR",
+   "country_name": "Brazil",
+   "city": "Céu do Mapiá, Amazonas",
+   "lat": -8.0,
+   "lng": -70.0,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "mestre-irineu"
+   ],
+   "url": "https://www.santodaime.org/en",
+   "url_checked": "2026-10-20",
+   "description": "Mother church of the ICEFLU Santo Daime line in the Amazon; hinários, feitio, forest stewardship; pilgrimage root of the US churches.",
+   "offers": [
+    "works (services)",
+    "pilgrimage"
+   ],
+   "language": "pt",
+   "source_url": "https://www.santodaime.org/en",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "chlq-ashland",
+     "sister_of",
+     "ICEFLU mother church; US churches trace to Mapiá lines with branch variation."
+    ]
+   ]
+  },
+  {
+   "id": "udv-santa-fe",
+   "name": "UDV Santa Fe Temple",
+   "type": "temple",
+   "traditions": [
+    "udv"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Santa Fe, New Mexico",
+   "lat": 35.69,
+   "lng": -105.94,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "mestre-gabriel"
+   ],
+   "url": "https://udvusa.org",
+   "url_checked": "2026-10-20",
+   "description": "UDV temple (licensed 2014 after RLUIPA settlement); hoasca sessions under the 2006 Supreme Court exemption; núcleos in 8 states.",
+   "offers": [
+    "sessions"
+   ],
+   "language": "en",
+   "source_url": "https://udvusa.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "temple-way-of-light",
+   "name": "Temple of the Way of Light",
+   "type": "retreat",
+   "traditions": [
+    "shipibo-curanderismo"
+   ],
+   "country": "PE",
+   "country_name": "Peru",
+   "city": "Iquitos, Loreto",
+   "lat": -3.75,
+   "lng": -73.25,
+   "coord_precision": "approximate (unverified)",
+   "description": "Longest-running Shipibo ayahuasca centre (since 2007, 10k+ guests); male/female onanya healers, screening, integration programme. Medical/psychiatric screening published; contraindications apply.",
+   "offers": [
+    "retreats (8/12-day)",
+    "integration"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "blue-spirit",
+   "name": "Blue Spirit Costa Rica",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "city": "Nosara, Nicoya",
+   "lat": 9.98,
+   "lng": -85.65,
+   "coord_precision": "approximate (unverified)",
+   "description": "Flagship yoga/meditation retreat centre (Omega Institute founder); hosts world teachers, Nov–Aug season, turtle-refuge beach.",
+   "offers": [
+    "hosted retreats",
+    "trainings"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "bodhi-tree-cr",
+   "name": "Bodhi Tree Yoga Resort",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "city": "Nosara, Nicoya",
+   "lat": 9.98,
+   "lng": -85.65,
+   "coord_precision": "approximate (unverified)",
+   "founded": 2014,
+   "url": "https://bodhitreeyogaresort.com",
+   "contact_page": "https://bodhitreeyogaresort.com/about/",
+   "url_checked": "2026-10-20",
+   "description": "Yoga/fitness resort (est. 2014); signature retreats, shalas, surf; full published contacts.",
+   "offers": [
+    "retreats",
+    "trainings"
+   ],
+   "language": "en",
+   "source_url": "https://bodhitreeyogaresort.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "anamaya-cr",
+   "name": "Anamaya Resort",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "CR",
+   "country_name": "Costa Rica",
+   "city": "Montezuma, Nicoya",
+   "lat": 9.65,
+   "lng": -85.08,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.anamaya.com",
+   "url_checked": "2026-10-20",
+   "description": "Yoga/wellness resort (National Geographic wellness pick); customizable retreats, 200-hour YTTs, full published contacts.",
+   "offers": [
+    "retreats",
+    "YTT"
+   ],
+   "language": "en",
+   "source_url": "https://www.anamaya.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "golden-temple",
+   "name": "Golden Temple (Sri Harmandir Sahib)",
+   "type": "temple",
+   "traditions": [
+    "sikh"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Amritsar, Punjab",
+   "lat": 31.62,
+   "lng": 74.88,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "guru-nanak"
+   ],
+   "contact_page": "https://sgpc.net/sri-harmandir-sahib/",
+   "description": "Holiest Sikh shrine (Sri Harmandir Sahib); continuous kirtan, sarovar, langar feeding 100k+ daily; SGPC-managed.",
+   "offers": [
+    "worship",
+    "langar",
+    "sarovar"
+   ],
+   "language": "en",
+   "source_url": "https://sgpc.net/sri-harmandir-sahib/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "espanola-ashram",
+   "name": "Hacienda de Guru Ram Das",
+   "type": "ashram",
+   "traditions": [
+    "sikh"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Espanola, New Mexico",
+   "lat": 35.99,
+   "lng": -106.06,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1970,
+   "teachers": [
+    "yogi-bhajan"
+   ],
+   "url": "https://www.espanolaashram.com",
+   "url_checked": "2026-10-20",
+   "description": "Mother Ashram of Sikh Dharma in the West (founded 1970 by Yogi Bhajan); 250-strong community, sadhana, gurdwara, Kundalini yoga.",
+   "offers": [
+    "sadhana",
+    "gurdwara",
+    "yoga"
+   ],
+   "language": "en",
+   "source_url": "https://www.espanolaashram.com",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "siddhachalam",
+   "name": "Siddhachalam Jain Tirth",
+   "type": "ashram",
+   "traditions": [
+    "jain"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Blairstown, New Jersey",
+   "lat": 40.98,
+   "lng": -74.96,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1983,
+   "teachers": [
+    "sushil-kumar"
+   ],
+   "url": "https://www.siddhachalam.org",
+   "contact_page": "https://www.siddhachalam.org/contact/",
+   "url_checked": "2026-10-20",
+   "description": "Only Jain tirth outside India (120 acres, est. 1983 by Sushil Kumarji, no successor); temples, Arhum Yoga, ahimsa sanctuary.",
+   "offers": [
+    "worship",
+    "retreats",
+    "trails"
+   ],
+   "language": "en",
+   "source_url": "https://www.siddhachalam.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "palitana",
+   "name": "Palitana (Shatrunjaya)",
+   "type": "pilgrimage",
+   "traditions": [
+    "jain"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Palitana, Gujarat",
+   "lat": 21.52,
+   "lng": 71.83,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "mahavira"
+   ],
+   "url": "https://bhavnagar.nic.in/tourist-place/palitana-temple/",
+   "url_checked": "2026-10-20",
+   "description": "Holiest Jain pilgrimage (863 temples, 3500 steps); no overnight stay allowed — abode for the divine only. Pedhi contacts below.",
+   "offers": [
+    "pilgrimage"
+   ],
+   "language": "en",
+   "source_url": "https://bhavnagar.nic.in/tourist-place/palitana-temple/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "wudang-zixiao",
+   "name": "Wudang Mountain (Zixiao Palace)",
+   "type": "temple",
+   "traditions": [
+    "taoist"
+   ],
+   "country": "CN",
+   "country_name": "China",
+   "city": "Wudang Mountains, Hubei",
+   "lat": 32.4,
+   "lng": 111.0,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "laozi"
+   ],
+   "url": "https://wudang.org/wudang-mountain",
+   "url_checked": "2026-10-20",
+   "description": "Working Taoist centre (Zhenwu cult, Ming palaces, resident clergy, morning/evening liturgy); Zixiao Palace is the institutional heart.",
+   "offers": [
+    "worship",
+    "study"
+   ],
+   "language": "en",
+   "source_url": "https://wudang.org/wudang-mountain",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "bahai-wilmette",
+   "name": "Baha'i House of Worship (Wilmette)",
+   "type": "temple",
+   "traditions": [
+    "bahai"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Wilmette, Illinois",
+   "lat": 42.08,
+   "lng": -87.72,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "bahaullah"
+   ],
+   "url": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "contact_page": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "url_checked": "2026-10-20",
+   "description": "Baha'i House of Worship for North America; daily devotionals, gardens, no clergy (elected assemblies). Free, open to all.",
+   "offers": [
+    "worship",
+    "devotionals"
+   ],
+   "language": "en",
+   "source_url": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "plum-village-france",
+   "name": "Plum Village (France)",
+   "type": "monastery",
+   "traditions": [
+    "plum-village"
+   ],
+   "country": "FR",
+   "country_name": "France",
+   "city": "Saint-Avit-Sénieur, Dordogne",
+   "lat": 44.75,
+   "lng": 0.82,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "thich-nhat-hanh"
+   ],
+   "url": "https://plumvillage.org",
+   "url_checked": "2026-10-20",
+   "description": "Plum Village mother houses (Upper/Lower/New Hamlet); Thich Nhat Hanh's root community, mindfulness retreats.",
+   "offers": [
+    "residential retreats"
+   ],
+   "language": "en",
+   "source_url": "https://plumvillage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "nacna",
+   "name": "Native American Church of North America",
+   "type": "organisation",
+   "traditions": [
+    "native-american-church"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "lat": 48.0,
+   "lng": -101.0,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://nacna.info",
+   "url_checked": "2026-10-20",
+   "description": "Pan-tribal Native American Church body (peyote way, federally protected for members); tribally rooted, not drop-in — contact the church. Leadership contacts published.",
+   "language": "en",
+   "source_url": "https://nacna.info",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "ile-axe-opo-afonja",
+   "name": "Ilê Axé Opô Afonjá",
+   "type": "temple",
+   "traditions": [
+    "candomble"
+   ],
+   "country": "BR",
+   "country_name": "Brazil",
+   "city": "Salvador, Bahia",
+   "lat": -12.95,
+   "lng": -38.45,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1910,
+   "description": "Ketu Candomblé terreiro (founded 1910 by Mãe Aninha); IPHAN heritage-listed 2000; orixá worship, school, museum. Contact via published email/Instagram.",
+   "offers": [
+    "worship"
+   ],
+   "language": "pt",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
   }
  ],
  "countries": [
@@ -25463,7 +25916,7 @@
   {
    "code": "IN",
    "name": "India",
-   "places": 197,
+   "places": 199,
    "goenka": 129,
    "traditions": {
     "goenka-vipassana": 130,
@@ -25495,14 +25948,16 @@
     "independent": 1,
     "inayati": 1,
     "sufism": 1,
-    "triratna": 1
+    "triratna": 1,
+    "sikh": 1,
+    "jain": 1
    },
    "goenka_sites": 15
   },
   {
    "code": "US",
    "name": "United States",
-   "places": 78,
+   "places": 85,
    "goenka": 14,
    "traditions": {
     "goenka-vipassana": 14,
@@ -25518,6 +25973,7 @@
     "kriya-yoga": 3,
     "thai-forest": 2,
     "rinzai-zen": 2,
+    "santo-daime": 2,
     "theravada": 1,
     "arsha-vidya": 1,
     "siddha-yoga": 1,
@@ -25539,7 +25995,12 @@
     "neo-hasidism": 1,
     "theosophy": 1,
     "druidry": 1,
-    "spiritualism": 1
+    "spiritualism": 1,
+    "udv": 1,
+    "sikh": 1,
+    "jain": 1,
+    "bahai": 1,
+    "native-american-church": 1
    },
    "goenka_sites": 6
   },
@@ -25609,11 +26070,11 @@
   {
    "code": "FR",
    "name": "France",
-   "places": 13,
+   "places": 14,
    "goenka": 4,
    "traditions": {
     "goenka-vipassana": 4,
-    "plum-village": 2,
+    "plum-village": 3,
     "nyingma": 1,
     "tibetan": 1,
     "christian": 1,
@@ -25630,14 +26091,15 @@
   {
    "code": "CN",
    "name": "People's Republic of China",
-   "places": 10,
+   "places": 11,
    "goenka": 0,
    "traditions": {
     "tibetan": 7,
     "gelug": 4,
     "zen": 3,
     "kagyu": 1,
-    "nyingma": 1
+    "nyingma": 1,
+    "taoist": 1
    }
   },
   {
@@ -25680,6 +26142,18 @@
    }
   },
   {
+   "code": "BR",
+   "name": "Brazil",
+   "places": 7,
+   "goenka": 5,
+   "traditions": {
+    "goenka-vipassana": 5,
+    "santo-daime": 1,
+    "candomble": 1
+   },
+   "goenka_sites": 4
+  },
+  {
    "code": "DE",
    "name": "Germany",
    "places": 5,
@@ -25704,16 +26178,6 @@
    "goenka_sites": 1
   },
   {
-   "code": "BR",
-   "name": "Brazil",
-   "places": 5,
-   "goenka": 5,
-   "traditions": {
-    "goenka-vipassana": 5
-   },
-   "goenka_sites": 4
-  },
-  {
    "code": "ES",
    "name": "Spain",
    "places": 4,
@@ -25724,6 +26188,16 @@
     "triratna": 1
    },
    "goenka_sites": 3
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica",
+   "places": 4,
+   "goenka": 1,
+   "traditions": {
+    "hindu": 3,
+    "goenka-vipassana": 1
+   }
   },
   {
    "code": "MY",
@@ -25834,6 +26308,17 @@
    "goenka_sites": 1
   },
   {
+   "code": "PE",
+   "name": "Peru",
+   "places": 2,
+   "goenka": 1,
+   "traditions": {
+    "goenka-vipassana": 1,
+    "shipibo-curanderismo": 1
+   },
+   "goenka_sites": 2
+  },
+  {
    "code": "TW",
    "name": "Taiwan",
    "places": 2,
@@ -25901,15 +26386,6 @@
     "goenka-vipassana": 1
    },
    "goenka_sites": 1
-  },
-  {
-   "code": "CR",
-   "name": "Costa Rica",
-   "places": 1,
-   "goenka": 1,
-   "traditions": {
-    "goenka-vipassana": 1
-   }
   },
   {
    "code": "HK",
@@ -25993,16 +26469,6 @@
    "traditions": {
     "goenka-vipassana": 1
    }
-  },
-  {
-   "code": "PE",
-   "name": "Peru",
-   "places": 1,
-   "goenka": 1,
-   "traditions": {
-    "goenka-vipassana": 1
-   },
-   "goenka_sites": 2
   },
   {
    "code": "PH",

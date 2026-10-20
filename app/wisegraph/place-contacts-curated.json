@@ -224,6 +224,108 @@
     }
    ],
    "site": "https://zmm.org/"
+  },
+  "bodhi-tree-cr": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://bodhitreeyogaresort.com/about/",
+     "value": "reservations@bodhitreeyogaresort.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://bodhitreeyogaresort.com/about/",
+     "value": "+506 2682 0256"
+    }
+   ],
+   "site": "https://bodhitreeyogaresort.com/"
+  },
+  "temple-way-of-light": {
+   "address": {
+    "source_url": "https://templeofthewayoflight.org/",
+    "value": "993 Putomayo, Iquitos, Loreto 16000, Peru"
+   },
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://templeofthewayoflight.org/",
+     "value": "booking@templeofthewayoflight.org"
+    }
+   ],
+   "site": "https://templeofthewayoflight.org/"
+  },
+  "bahai-wilmette": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.bahai.us/contact/",
+     "value": "bahai-info@bahai.us"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.bahai.us/bahai-temple-welcome/bahai-temple/",
+     "value": "(847) 853-2300"
+    }
+   ],
+   "site": "https://www.bahai.us/"
+  },
+  "golden-temple": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://sgpc.net/sri-harmandir-sahib/",
+     "value": "info@sgpc.net"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://sgpc.net/sri-harmandir-sahib/",
+     "value": "+91-183-2553956"
+    }
+   ],
+   "site": "https://sgpc.net/"
+  },
+  "ile-axe-opo-afonja": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.salvadordabahia.com/capitalafro/destaques/terreiro-do-ile-axe-opo-afonja/",
+     "value": "ileaxeopoafonja1910@gmail.com"
+    }
+   ],
+   "site": "https://www.salvadordabahia.com/capitalafro/destaques/terreiro-do-ile-axe-opo-afonja/"
+  },
+  "nacna": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://nacna.info/",
+     "value": "Brady_Jon@hotmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://nacna.info/",
+     "value": "(701) 421-1693"
+    }
+   ],
+   "site": "https://nacna.info/"
+  },
+  "palitana": {
+   "checked": "2026-10-20",
+   "site": "https://bhavnagar.nic.in/tourist-place/palitana-temple/"
+  },
+  "siddhachalam": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://www.siddhachalam.org/directions-hours/",
+     "value": "(908) 362-9793"
+    }
+   ],
+   "site": "https://www.siddhachalam.org/"
   }
  }
 }

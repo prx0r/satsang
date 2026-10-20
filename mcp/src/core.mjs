@@ -147,6 +147,7 @@ export function callTool(ctx, name, a = {}) {
         talks: best.map((c) => clipOut(c, ctx)), fullTalks: (ctx.bySpeaker.get(p.id) || []).filter((c) => c.lengthClass === 'full').slice(0, n).map((c) => clipOut(c, ctx)),
         talksAbout: about.map((c) => clipOut(c, ctx)),
         relations: edges.map((e) => ({ rel: e.rel, lineage: e.lineage, from: e.src, to: e.dst, conf: e.conf, note: e.note, source_url: e.sources?.[0]?.url })),
+        ...(p.safety ? { safety: p.safety.map((r) => ({ ...r, note: 'A dated, sourced safety record (Satsang publishes these only with a strong primary source); read the reports themselves.' })) } : {}),
         places: edges.filter((e) => e.rel === 'teacher_at').map((e) => { const pl = ctx.place[e.dst.slice(6)]; return pl && { id: pl.id, name: pl.name, country: pl.country, website: pl.url, url: url('place', pl.id) } }).filter(Boolean), license: LICENSE }
     }
     case 'get_lineage': {

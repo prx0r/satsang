@@ -180235,7 +180235,8 @@
 "tibetan"
 ],
 "figures": [
-"nagarjuna"
+"nagarjuna",
+"longchenpa"
 ],
 "topics": [
 "self",
@@ -240600,7 +240601,9 @@
 "nyingma",
 "tibetan"
 ],
-"figures": [],
+"figures": [
+"longchenpa"
+],
 "topics": [],
 "style": [],
 "views": 1000,

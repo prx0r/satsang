@@ -1,0 +1,71 @@
+{
+ "_note": "staged from satsang-extensions/18-global-faiths",
+ "nodes": [
+  {
+   "blurb": "The Jain dharma: non-violence (ahimsa), non-possessiveness and many-sidedness (anekantavada) on the tirthankara path.",
+   "id": "jain",
+   "kind": "family",
+   "label": "Jainism",
+   "parent": null,
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "The Chinese Way: Daodejing and Zhuangzi, inner alchemy, ritual and martial lineages (Quanzhen, Zhengyi, Wudang).",
+   "id": "taoist",
+   "kind": "family",
+   "label": "Taoism",
+   "parent": null,
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "The Baha'i Faith: unity of God, religion and humanity; no clergy, elected assemblies; Houses of Worship open to all.",
+   "id": "bahai",
+   "kind": "family",
+   "label": "Baha'i Faith",
+   "parent": null,
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "African diaspora religions of the Americas, entered only via heritage-listed houses with published contacts.",
+   "id": "african-diaspora",
+   "kind": "family",
+   "label": "African diaspora religions",
+   "parent": null,
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Ketu-nation Candomblé of Bahia: orixá worship, entered via the IPHAN-listed Ilê Axé Opô Afonjá (1910).",
+   "id": "candomble",
+   "kind": "school",
+   "label": "Candomblé",
+   "parent": "african-diaspora",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "The peyote way of the North American tribes; pan-tribal church body (NACNA). Tribally rooted, not drop-in.",
+   "id": "native-american-church",
+   "kind": "lineage",
+   "label": "Native American Church",
+   "parent": "shamanic",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

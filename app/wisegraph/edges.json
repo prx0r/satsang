@@ -2940,6 +2940,373 @@
    "checked": "2026-10-20"
   },
   {
+   "from": "mestre-irineu",
+   "to": "santo-daime",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.santodaime.org/en",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "mestre-gabriel",
+   "to": "udv",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://udvusa.org/who-we-are/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "guru-nanak",
+   "to": "sikh",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahavira",
+   "to": "jain",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "laozi",
+   "to": "taoist",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bahaullah",
+   "to": "bahai",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.bahai.us/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "gampopa",
+   "to": "phagmo-drupa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "phagmo-drupa",
+   "to": "jigten-sumgon",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kumaradza",
+   "to": "longchenpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "rangjung-dorje",
+   "to": "longchenpa",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Longchenpa studied under Rangjung Dorje years before meeting Kumaradza (Columbia bio)."
+  },
+  {
+   "from": "kumaradza",
+   "to": "rangjung-dorje",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Taught the Vima Nyingthig cycle (rywiki: Main Students)."
+  },
+  {
+   "from": "longchenpa",
+   "to": "jigme-lingpa",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Visionary lineage (terma), not personal study: Jigme Lingpa's revelations re-reveal Longchenpa's Heart Essence."
+  },
+  {
+   "from": "jigme-lingpa",
+   "to": "jigme-gyalwai-nyugu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Heart-disciple; one of two primary Longchen Nyingtik holders."
+  },
+  {
+   "from": "jigme-gyalwai-nyugu",
+   "to": "patrul",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; ngöndro 25 times (Words of My Perfect Teacher)."
+  },
+  {
+   "from": "patrul",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Bodhicaryavatara mastered in five days (Samye Institute)."
+  },
+  {
+   "from": "jamyang-khyentse-wangpo",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; complete Kama + Terma transmissions (Samye Institute)."
+  },
+  {
+   "from": "jamgon-kongtrul",
+   "to": "mipham",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Grammar studies with Kongtrul (Samye Institute)."
+  },
+  {
+   "from": "mipham",
+   "to": "shechen-gyaltsap",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Principal student (Tibetan Buddhist Encyclopedia)."
+  },
+  {
+   "from": "shechen-gyaltsap",
+   "to": "dilgo-khyentse",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; enthroned Dilgo as Khyentse Wangpo's mind emanation (Shechen bio)."
+  },
+  {
+   "from": "jamyang-khyentse-chokyi-lodro",
+   "to": "dilgo-khyentse",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Second main root teacher (Shechen bio)."
+  },
+  {
+   "from": "jigme-phuntsok",
+   "to": "khenpo-sodargye",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru at Larung Gar (khenposodargye.org bio + encyclopedia)."
+  },
+  {
+   "from": "trijang-rinpoche",
+   "to": "kelsang-gyatso",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; sent him to England 1977 (kadampalife.org + kadampa.org)."
+  },
+  {
+   "from": "khamtrul-8",
+   "to": "jetsunma-tenzin-palmo",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru; ordained her 1964 (tenzinpalmo.com bio + Tricycle)."
+  },
+  {
+   "from": "yonten-gyatso",
+   "to": "dolpopa",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Gave Dolpopa the Dro Kalachakra transmission; named him heir 1326 (Jonang Foundation)."
+  },
+  {
+   "from": "huiguo",
+   "to": "kukai",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Two-mandala abhiseka, Chang'an 805 (Kukai epitaph + AAS Green)."
+  },
+  {
+   "from": "rendawa",
+   "to": "tsongkhapa",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Foremost teacher (Pramanavarttika, Madhyamaka); later mutual instruction (Columbia + Wikipedia)."
+  },
+  {
+   "from": "chenga-chokyi-gyalpo",
+   "to": "tsongkhapa",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Studied Mahamudra + Six Dharmas of Naropa under him at Drikung Thil."
+  },
+  {
+   "from": "sachen",
+   "to": "dragpa-gyaltsen",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father and first teacher, age 8–12 (Sakya Tradition bios)."
+  },
+  {
+   "from": "dragpa-gyaltsen",
+   "to": "sakya-pandita",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Principal disciple; initiated, taught sutras/tantras (SEP Gold + Sakya Tradition)."
+  },
+  {
+   "from": "sachen",
+   "to": "sakya",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "ling-repa",
+   "to": "tsangpa-gyare",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Teacher of Tsangpa Gyare per Drukpa histories — confirm before treating as settled."
+  },
+  {
+   "from": "tsangpa-gyare",
+   "to": "drukpa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "jigten-sumgon",
+   "to": "drikung",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "niguma",
+   "to": "khyungpo-naljor",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Four empowerments in the emanated mandala; one-to-one transmission begins (Shangpa Foundation)."
+  },
+  {
+   "from": "khyungpo-naljor",
+   "to": "shangpa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "khenchen-appey",
+   "to": "dzongsar-khyentse",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Teacher of senior Sakya masters incl. Dzongsar (Lotsawa House advisors)."
+  },
+  {
+   "from": "yizhin-norbu",
+   "to": "kalu-rinpoche",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Gave Kalu the complete Shangpa cycle at Tsa Tsa in closed retreat (1940s)."
+  },
+  {
+   "from": "dilgo-khyentse",
+   "to": "ringu-tulku",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Trained under the 16th Karmapa and Dilgo (Lotsawa House advisors)."
+  },
+  {
+   "from": "karmapa-16",
+   "to": "ringu-tulku",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "garab-dorje",
+   "to": "manjushrimitra",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional lineage account (Thondup)."
+  },
+  {
+   "from": "manjushrimitra",
+   "to": "shri-simha",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "shri-simha",
+   "to": "jnanasutra",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "jnanasutra",
+   "to": "vimalamitra",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional lineage account."
+  },
+  {
+   "from": "maitripa",
+   "to": "marpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nagarjuna",
+   "to": "aryadeva",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "sukhasiddhi",
+   "to": "khyungpo-naljor",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "jayaratha",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Commentator three centuries later; influence, not studentship."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "yogaraja",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Commentator on the Paramarthasara; influence, not studentship."
+  },
+  {
+   "from": "paranjyoti",
+   "to": "meykandar",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional diksha narrative (Meykandar hagiography)."
+  },
+  {
+   "from": "nandinatha",
+   "to": "tirumular",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional eight-disciple list (Kailasa Parampara)."
+  },
+  {
+   "from": "uddalaka",
+   "to": "shvetaketu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father-son teaching; nine homilies (Chandogya 6)."
+  },
+  {
+   "from": "yajnavalkya",
+   "to": "maitreyi",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Maitreyi dialogue (Brihadaranyaka 2.4/4.5); traditional."
+  },
+  {
+   "from": "vasugupta",
+   "to": "kallata",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional: chief disciple, received the Spanda-karika."
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "pratyabhijnahrdayam",
+   "type": "translated",
+   "conf": "high",
+   "note": "His English Pratyabhijñāhṛdayam translation (bio-attested)."
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",

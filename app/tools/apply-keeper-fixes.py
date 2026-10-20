@@ -4,7 +4,7 @@
 # usage: python3 tools/apply-keeper-fixes.py
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from source_maps import KEEPER_VERIFIED as V, KEEPER_PEOPLE, KEEPER_EDGES, KEEPER_PLACES, KEEPER_PLACE_MERGE, KEEPER_URL_BAN
+from source_maps import KEEPER_VERIFIED as V, KEEPER_PEOPLE, KEEPER_EDGES, KEEPER_PLACES, KEEPER_PLACE_MERGE, KEEPER_URL_BAN, KEEPER_ALIAS_REDIRECTS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = lambda p: json.load(open(os.path.join(ROOT, p)))
 def W(p, d): f = os.path.join(ROOT, p); json.dump(d, open(f, 'w'), ensure_ascii=False, indent=1); open(f, 'a').write('\n')
@@ -85,5 +85,13 @@ for old in KEEPER_PLACE_MERGE:
     if old in CP['places']: del CP['places'][old]; n('contacts_dropped')
 W('wisegraph/place-contacts.json', CP)
 
-json.dump(redirects, open(os.path.join(ROOT, 'web-worker/redirects.json'), 'w'), indent=1)
+# pack ids deduped onto existing records at staging (wisegraph/ext-idmap.json) and hand aliases keep their slugs: 301 to the kept id
+PEOPLE_IDS = {x['id'] for x in J('wisegraph/people.json')['people']}
+IM = J('wisegraph/ext-idmap.json') if os.path.exists(os.path.join(ROOT, 'wisegraph/ext-idmap.json')) else {}
+ALIAS = {'people': dict(IM.get('people') or {}), 'places': dict(IM.get('places') or {})}
+for kind, m in KEEPER_ALIAS_REDIRECTS.items(): ALIAS.setdefault(kind, {}).update(m)
+for kind, route, ids in (('people', 'person', PEOPLE_IDS), ('places', 'place', set(P))):
+    for old, new in sorted(ALIAS.get(kind, {}).items()):
+        if old != new and new in ids and old not in ids: redirects.setdefault(f'/{route}/{old}', f'/{route}/{new}')
+json.dump(redirects, open(os.path.join(ROOT, 'web-worker/redirects.json'), 'w'), indent=1, sort_keys=True)
 print(json.dumps(log, ensure_ascii=False))

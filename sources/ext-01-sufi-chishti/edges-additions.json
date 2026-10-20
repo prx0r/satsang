@@ -5,13 +5,17 @@
    "from": "moinuddin-chishti",
    "to": "chishti",
    "type": "lineage_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Moinuddin_Chishti",
+   "checked": "2026-10-20"
   },
   {
    "from": "nizamuddin-auliya",
    "to": "amir-khusrau",
    "type": "teacher_of",
-   "conf": "high"
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Nizamuddin_Auliya",
+   "checked": "2026-10-20"
   }
  ]
 }

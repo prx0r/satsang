@@ -1,0 +1,38 @@
+{
+ "_note": "staged from satsang-extensions/20-tibetan-lineages",
+ "nodes": [
+  {
+   "blurb": "Drukpa (Thunder-Dragon) Kagyu of Tsangpa Gyare; Himalayan stronghold (Bhutan, Ladakh, Lahaul).",
+   "id": "drukpa",
+   "kind": "lineage",
+   "label": "Drukpa Kagyu",
+   "parent": "kagyu",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Drikung Kagyu of Jigten Sumgon; Gongchig and Fivefold Mahamudra; Drikung Thil.",
+   "id": "drikung",
+   "kind": "lineage",
+   "label": "Drikung Kagyu",
+   "parent": "kagyu",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "blurb": "Shangpa Kagyu of Niguma and Khyungpo Naljor; the 'secret lineage', one-to-one transmission; Kalu Rinpoche its modern holder.",
+   "id": "shangpa",
+   "kind": "lineage",
+   "label": "Shangpa Kagyu",
+   "parent": "kagyu",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

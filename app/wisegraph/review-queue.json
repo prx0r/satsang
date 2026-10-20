@@ -424,6 +424,198 @@
    "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.contemplativeoutreach.org/; shipped URL-less",
    "severity": "verify",
    "queued": "2026-10-20"
+  },
+  {
+   "pack": "18-global-faiths",
+   "kind": "contact-offdomain",
+   "subject": "place/palitana#phone",
+   "reason": "phone source off the official domain (https://www.prachintirth.org/t/shri-shatrunjay-mahatirth--palitana-bhavnagar-gujarat); dropped",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "19-red-flags",
+   "kind": "living-claim",
+   "subject": "person/sakyong-mipham",
+   "reason": "living:true claimed (en.wikipedia.org/wiki/Sakyong_Mipham + linked investigation); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "19-red-flags",
+   "kind": "living-claim",
+   "subject": "person/amrit-desai",
+   "reason": "living:true claimed (Orlando Sentinel 1994 + Kripalu timeline + Justia opinion); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "rangjung-dorje->longchenpa",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "chenga-chokyi-gyalpo->tsongkhapa",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "ling-repa->tsangpa-gyare",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "tulku-urgyen->tsoknyi-rinpoche",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "tulku-urgyen->chokyi-nyima-rinpoche",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "khenchen-appey->dzongsar-khyentse",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "20-tibetan-lineages",
+   "kind": "edge-medium-teacher",
+   "subject": "yizhin-norbu->kalu-rinpoche",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "edge-medium-teacher",
+   "subject": "garab-dorje->manjushrimitra",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "edge-medium-teacher",
+   "subject": "manjushrimitra->shri-simha",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "edge-medium-teacher",
+   "subject": "shri-simha->jnanasutra",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "edge-medium-teacher",
+   "subject": "jnanasutra->vimalamitra",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "living-claim",
+   "subject": "person/ronald-davidson",
+   "reason": "living:true claimed (Publisher bios (Columbia UP)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "work-check",
+   "subject": "person/james-mallinson#amritasiddhi",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "work-check",
+   "subject": "person/ronald-davidson#indian-esoteric-buddhism",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "work-check",
+   "subject": "person/ronald-davidson#tibetan-renaissance",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "21-roots-anthropology",
+   "kind": "work-check",
+   "subject": "person/geoffrey-samuel#civilized-shamans",
+   "reason": "work flagged check/verify by the pack",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "22-tantra-web",
+   "kind": "edge-medium-teacher",
+   "subject": "swami-rama->rajmani-tigunait",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "22-tantra-web",
+   "kind": "edge-medium-teacher",
+   "subject": "paranjyoti->meykandar",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "22-tantra-web",
+   "kind": "edge-medium-teacher",
+   "subject": "nandinatha->tirumular",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "23-vedic-roots",
+   "kind": "edge-medium-teacher",
+   "subject": "yajnavalkya->maitreyi",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "23-vedic-roots",
+   "kind": "edge-medium-teacher",
+   "subject": "vasugupta->kallata",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
   }
  ]
 }

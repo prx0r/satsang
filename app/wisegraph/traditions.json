@@ -1296,6 +1296,134 @@
    "parent": "esoteric",
    "wikidata": null,
    "blurb": "Renaissance learned magic: Ficino's Neoplatonic natural magic, Agrippa's three books, Dee's angelic conversations, Bruno's heroic frenzies. Studied, not practised, here."
+  },
+  {
+   "id": "shamanic",
+   "label": "Shamanic traditions",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "Shamanic and plant-medicine healing traditions of the Americas, entered only where lineage, teachers and screening are verifiable."
+  },
+  {
+   "id": "santo-daime",
+   "label": "Santo Daime",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": null,
+   "blurb": "Syncretic Amazonian religion founded by Raimundo Irineu Serra (1930s): Christianity, South American shamanism, African animism, Kardecist spiritism. Legal churches in Oregon, Los Angeles, Washington."
+  },
+  {
+   "id": "udv",
+   "label": "União do Vegetal (UDV)",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": null,
+   "blurb": "Christian Spiritist religion founded by José Gabriel da Costa; hoasca sacrament; US Supreme Court exemption 2006 (Gonzales v. O Centro). Núcleos across the US."
+  },
+  {
+   "id": "shipibo-curanderismo",
+   "label": "Shipibo curanderismo",
+   "kind": "lineage",
+   "parent": "shamanic",
+   "wikidata": null,
+   "blurb": "Shipibo-Conibo plant-spirit healing (curanderismo): onanya healers, ikaros songs, dietas. Entered via its longest-running centre, not via individual claims."
+  },
+  {
+   "id": "jain",
+   "label": "Jainism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "The Jain dharma: non-violence (ahimsa), non-possessiveness and many-sidedness (anekantavada) on the tirthankara path."
+  },
+  {
+   "id": "taoist",
+   "label": "Taoism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "The Chinese Way: Daodejing and Zhuangzi, inner alchemy, ritual and martial lineages (Quanzhen, Zhengyi, Wudang)."
+  },
+  {
+   "id": "bahai",
+   "label": "Baha'i Faith",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "The Baha'i Faith: unity of God, religion and humanity; no clergy, elected assemblies; Houses of Worship open to all."
+  },
+  {
+   "id": "african-diaspora",
+   "label": "African diaspora religions",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "African diaspora religions of the Americas, entered only via heritage-listed houses with published contacts."
+  },
+  {
+   "id": "candomble",
+   "label": "Candomblé",
+   "kind": "school",
+   "parent": "african-diaspora",
+   "wikidata": null,
+   "blurb": "Ketu-nation Candomblé of Bahia: orixá worship, entered via the IPHAN-listed Ilê Axé Opô Afonjá (1910)."
+  },
+  {
+   "id": "native-american-church",
+   "label": "Native American Church",
+   "kind": "lineage",
+   "parent": "shamanic",
+   "wikidata": null,
+   "blurb": "The peyote way of the North American tribes; pan-tribal church body (NACNA). Tribally rooted, not drop-in."
+  },
+  {
+   "id": "rigpa",
+   "label": "Rigpa",
+   "kind": "lineage",
+   "parent": "nyingma",
+   "wikidata": null,
+   "blurb": "Worldwide Buddhist network founded by Sogyal Rinpoche (Nyingma roots); commissioned the 2018 independent investigation into its founder."
+  },
+  {
+   "id": "drukpa",
+   "label": "Drukpa Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Drukpa (Thunder-Dragon) Kagyu of Tsangpa Gyare; Himalayan stronghold (Bhutan, Ladakh, Lahaul)."
+  },
+  {
+   "id": "drikung",
+   "label": "Drikung Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Drikung Kagyu of Jigten Sumgon; Gongchig and Fivefold Mahamudra; Drikung Thil."
+  },
+  {
+   "id": "shangpa",
+   "label": "Shangpa Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Shangpa Kagyu of Niguma and Khyungpo Naljor; the 'secret lineage', one-to-one transmission; Kalu Rinpoche its modern holder."
+  },
+  {
+   "id": "madhyamaka",
+   "label": "Madhyamaka",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Middle-Way philosophy of Nagarjuna and Aryadeva: emptiness (shunyata) via the tetralemma; root of Mahayana dialectics and, through Chandrakirti, of Tibetan debate."
+  },
+  {
+   "id": "vedic",
+   "label": "Vedic",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Vedic religion: Samhitas, Brahmanas, Aranyakas, principal Upanishads; Rishis and the Yajnavalkya dialogues that Vedanta inherits."
   }
  ]
 }

@@ -1,3 +1,16 @@
 {
- "/place/dhamma-khetta2": "/place/dhamma-khetta"
+ "/person/maezumi-taizan": "/person/taizan-maezumi",
+ "/person/uddalaka-aruni": "/person/uddalaka",
+ "/place/cac-albuquerque": "/place/cac",
+ "/place/deer-park": "/place/deer-park-monastery",
+ "/place/dhamma-khetta2": "/place/dhamma-khetta",
+ "/place/hillside-hermitage-lk": "/place/hillside-hermitage",
+ "/place/pendle-hill": "/place/pendle-hill-pa",
+ "/place/sfzc": "/place/sfzc-city-center",
+ "/place/siddha-ashram": "/place/shree-muktananda-ashram",
+ "/place/tushita-dharamkot": "/place/tushita-dharamsala",
+ "/place/upaya-zen": "/place/upaya",
+ "/place/vedanta-socal": "/place/vedanta-hollywood",
+ "/place/vedanta-society-new-york": "/place/vedanta-ny",
+ "/place/wudang": "/place/wudang-zixiao"
 }

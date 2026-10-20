@@ -1,0 +1,45 @@
+{
+ "_note": "staged from satsang-extensions/21-roots-anthropology",
+ "attach": [
+  {
+   "person": "james-mallinson",
+   "works": [
+    {
+     "id": "khecarividya-adinatha",
+     "kind": "book",
+     "title": "The Khecarividya of Adinatha",
+     "year": 2007
+    },
+    {
+     "id": "gheranda-samhita",
+     "kind": "book",
+     "title": "The Gheranda Samhita",
+     "year": 2004
+    },
+    {
+     "id": "shiva-samhita",
+     "kind": "book",
+     "title": "The Shiva Samhita",
+     "year": 2007
+    }
+   ]
+  },
+  {
+   "person": "david-gordon-white",
+   "works": [
+    {
+     "id": "kiss-of-the-yogini",
+     "kind": "book",
+     "title": "Kiss of the Yogini",
+     "year": 2003
+    },
+    {
+     "id": "tantra-in-practice",
+     "kind": "book",
+     "title": "Tantra in Practice (ed.)",
+     "year": 2000
+    }
+   ]
+  }
+ ]
+}

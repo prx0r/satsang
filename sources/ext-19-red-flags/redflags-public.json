@@ -1,0 +1,88 @@
+{
+ "_note": "Safety records published under the Satsang rule: a strong primary source (institutional statement, investigation, regulator), a deceased subject and a factual status; summaries are dry and attributed. Others stay internal for a human re-read.",
+ "records": [
+  {
+   "id": "yogi-bhajan-2020",
+   "subject": "person/yogi-bhajan",
+   "status": "addressed",
+   "happened": "1969–2004",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "After December 2019 allegations (incl. Dyson's memoir), Yogi Bhajan's own organization commissioned An Olive Branch. Interviewing 299 people, the August 2020 report found it more likely than not that he engaged in sexual battery, sexual abuse, harassment and unethical conduct with 36 followers (1969–2004), with organizational enablers named. SSSC published it unedited.",
+   "reports": [
+    {
+     "outlet": "SSSC letter publishing the An Olive Branch report",
+     "kind": "institutional",
+     "url": "https://ssscorp.org/sssc-aob-report-letter/",
+     "date": "2020-08-10"
+    },
+    {
+     "outlet": "Yoga Journal: A New Report Details Decades of Abuse",
+     "kind": "press",
+     "url": "https://www.yogajournal.com/yoga-101/types-of-yoga/kundalini/abuse-in-kundalini-yoga/",
+     "date": "2020-08-15"
+    }
+   ],
+   "updated": "2026-10-20",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "maezumi-1983",
+   "subject": "person/taizan-maezumi",
+   "status": "addressed",
+   "happened": "1970s–1983+",
+   "category": [
+    "sexual-misconduct",
+    "substance"
+   ],
+   "summary": "Maezumi admitted alcoholism and sexual relationships with students in 1983 (Betty Ford rehab); his own organization later published findings, reforms and an ongoing atonement process.",
+   "reports": [
+    {
+     "outlet": "White Plum Asanga Board statement",
+     "kind": "institutional",
+     "url": "https://whiteplum.org/a-statement-of-the-white-plum-asanga-regarding-allegations-of-sexual-misconduct/",
+     "date": "2017-11-03"
+    },
+    {
+     "outlet": "Tricycle: American Zen Community in Crisis (Cushman)",
+     "kind": "press",
+     "url": "https://tricycle.org/magazine/under-lens-american-zen-community-crisis/",
+     "date": "2003-09-01"
+    }
+   ],
+   "updated": "2026-10-20",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "rigpa-sogyal-2017",
+   "subject": "person/sogyal-rinpoche",
+   "status": "addressed",
+   "happened": "1990s–2017",
+   "category": [
+    "sexual-misconduct",
+    "physical-abuse"
+   ],
+   "summary": "After a July 2017 letter from eight former students, Rigpa commissioned an independent investigation (Lewis Silkin, led by Karen Baxter). The August 2018 report found, on the balance of probabilities, that some inner-circle students were subjected to serious physical, sexual and emotional abuse, and that senior Rigpa figures knew of some issues and failed to act. Not all allegations were upheld. Rigpa published the report and its boards' response.",
+   "reports": [
+    {
+     "outlet": "Lewis Silkin LLP (commissioned by Rigpa)",
+     "kind": "investigation",
+     "url": "https://www.rigpa.org/posts-rigpa-news/2018/9/5/ipy3htvslzlyj8vqjpuy1h82a43jfv",
+     "date": "2018-08-22"
+    },
+    {
+     "outlet": "UK Charity Commission inquiry: Rigpa Fellowship",
+     "kind": "regulator",
+     "url": "https://www.gov.uk/government/publications/charity-inquiry-rigpa-fellowship/charity-inquiry-rigpa-fellowship",
+     "date": "2020-11-20"
+    }
+   ],
+   "updated": "2026-10-20",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

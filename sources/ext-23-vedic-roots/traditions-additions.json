@@ -1,0 +1,16 @@
+{
+ "_note": "staged from satsang-extensions/23-vedic-roots",
+ "nodes": [
+  {
+   "blurb": "Vedic religion: Samhitas, Brahmanas, Aranyakas, principal Upanishads; Rishis and the Yajnavalkya dialogues that Vedanta inherits.",
+   "id": "vedic",
+   "kind": "school",
+   "label": "Vedic",
+   "parent": "hindu",
+   "wikidata": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

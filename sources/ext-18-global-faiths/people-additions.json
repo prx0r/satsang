@@ -1,0 +1,191 @@
+{
+ "_note": "staged from satsang-extensions/18-global-faiths",
+ "people": [
+  {
+   "aliases": [
+    "baba nanak"
+   ],
+   "bio": "Founder of Sikhism (1469–1539); taught one God, honest work and shared food; composed the Japji Sahib.",
+   "id": "guru-nanak",
+   "kind": "figure",
+   "living": false,
+   "name": "Guru Nanak",
+   "role": "figure",
+   "short": "Guru Nanak",
+   "source": "en.wikipedia.org/wiki/Guru_Nanak",
+   "tradition": "sikh",
+   "traditions": [
+    "sikh"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1469–1539",
+   "source_url": "https://en.wikipedia.org/wiki/Guru_Nanak",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "guru gobind singh ji"
+   ],
+   "bio": "Tenth Sikh Guru; founded the Khalsa (1699), closed the human Guruship in the Guru Granth Sahib.",
+   "id": "gobind-singh",
+   "kind": "figure",
+   "living": false,
+   "name": "Guru Gobind Singh",
+   "role": "figure",
+   "short": "Guru Gobind Singh",
+   "source": "en.wikipedia.org/wiki/Guru_Gobind_Singh",
+   "tradition": "sikh",
+   "traditions": [
+    "sikh"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1666–1708",
+   "source_url": "https://en.wikipedia.org/wiki/Guru_Gobind_Singh",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "siri singh sahib"
+   ],
+   "bio": "Brought Kundalini Yoga and Sikh Dharma to the West; founded the Espanola Mother Ashram (1970) and 3HO.",
+   "id": "yogi-bhajan",
+   "kind": "figure",
+   "living": false,
+   "name": "Yogi Bhajan",
+   "role": "figure",
+   "short": "Yogi Bhajan",
+   "source": "espanolaashram.com/pages/yogi-bhajan (read 2026-10-20)",
+   "tradition": "sikh",
+   "traditions": [
+    "sikh"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1929–2004",
+   "source_url": "https://espanolaashram.com/pages/yogi-bhajan",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "vardhamana",
+    "jina"
+   ],
+   "bio": "24th tirthankara (traditional dates); reformer of the Jain path; taught ahimsa and anekantavada in the Gangetic plain.",
+   "id": "mahavira",
+   "kind": "figure",
+   "living": false,
+   "name": "Mahavira (Vardhamana)",
+   "role": "figure",
+   "short": "Mahavira",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Mahavira",
+   "tradition": "jain",
+   "traditions": [
+    "jain"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 540–468 BCE (traditional)",
+   "source_url": "https://en.wikipedia.org/wiki/Mahavira",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "guruji sushil kumar"
+   ],
+   "bio": "Jain monk who carried Mahavira's message West from 1975; founded Siddhachalam (1983), the only Jain tirth outside India; taught Arhum Yoga. No successor.",
+   "id": "sushil-kumar",
+   "kind": "figure",
+   "living": false,
+   "name": "Acharya Sushil Kumarji",
+   "role": "figure",
+   "short": "Sushil Kumarji",
+   "source": "siddhachalam.org/about (read 2026-10-20)",
+   "tradition": "jain",
+   "traditions": [
+    "jain"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1926–1994",
+   "source_url": "https://siddhachalam.org/about",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "lao tse",
+    "li er"
+   ],
+   "bio": "Traditional author of the Daodejing (6th c. BCE, traditional); root figure of philosophical and religious Taoism.",
+   "id": "laozi",
+   "kind": "figure",
+   "living": false,
+   "name": "Laozi",
+   "role": "figure",
+   "short": "Laozi",
+   "source": "Traditional dates; en.wikipedia.org/wiki/Laozi",
+   "tradition": "taoist",
+   "traditions": [
+    "taoist"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "6th c. BCE (traditional)",
+   "source_url": "https://en.wikipedia.org/wiki/Laozi",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "mirza husayn-ali nuri"
+   ],
+   "bio": "Founder of the Baha'i Faith (1817–1892); Kitab-i-Aqdas; taught the oneness of God, religion and humanity.",
+   "id": "bahaullah",
+   "kind": "figure",
+   "living": false,
+   "name": "Baha'u'llah",
+   "role": "figure",
+   "short": "Baha'u'llah",
+   "source": "bahai.us (read 2026-10-20)",
+   "tradition": "bahai",
+   "traditions": [
+    "bahai"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1817–1892",
+   "source_url": "https://bahai.us",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "abbas effendi"
+   ],
+   "bio": "Son and appointed successor of Baha'u'llah (1844–1921); spread the Faith in the West; no clergy — elected order.",
+   "id": "abdu-l-baha",
+   "kind": "figure",
+   "living": false,
+   "name": "Abdu'l-Baha",
+   "role": "figure",
+   "short": "Abdu'l-Baha",
+   "source": "bahai.us (read 2026-10-20)",
+   "tradition": "bahai",
+   "traditions": [
+    "bahai"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1844–1921",
+   "source_url": "https://bahai.us",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

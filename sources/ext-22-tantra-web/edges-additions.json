@@ -1,0 +1,72 @@
+{
+ "_note": "staged from satsang-extensions/22-tantra-web",
+ "edges": [
+  {
+   "from": "matsyendranatha",
+   "to": "gorakhnath",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "sukhasiddhi",
+   "to": "khyungpo-naljor",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "yogaswami",
+   "to": "sivaya-subramuniyaswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://himalayanacademy.com",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sivaya-subramuniyaswami",
+   "to": "bodhinatha-veylanswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://himalayanacademy.com",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "swami-rama",
+   "to": "rajmani-tigunait",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Tigunait is Rama's successor at Himalayan Institute — confirm before treating as settled."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "jayaratha",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Commentator three centuries later; influence, not studentship."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "yogaraja",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Commentator on the Paramarthasara; influence, not studentship."
+  },
+  {
+   "from": "paranjyoti",
+   "to": "meykandar",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional diksha narrative (Meykandar hagiography).",
+   "src": "https://en.wikipedia.org/wiki/Meykandar",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "nandinatha",
+   "to": "tirumular",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional eight-disciple list (Kailasa Parampara).",
+   "src": "https://himalayanacademy.com",
+   "checked": "2026-10-20"
+  }
+ ]
+}

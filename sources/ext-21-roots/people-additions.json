@@ -1,0 +1,221 @@
+{
+ "_note": "staged from satsang-extensions/21-roots-anthropology",
+ "people": [
+  {
+   "aliases": [
+    "prahevajra"
+   ],
+   "bio": "First human holder of Dzogchen (traditional account); taught Mañjushrimitra; lineage root of the mind section.",
+   "id": "garab-dorje",
+   "kind": "figure",
+   "living": false,
+   "name": "Garab Dorje",
+   "role": "figure",
+   "short": "Garab Dorje",
+   "source": "Traditional (Thondup, Masters of Meditation)",
+   "tradition": "dzogchen",
+   "traditions": [
+    "dzogchen"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "aliases": [
+    "manjushrimitra"
+   ],
+   "bio": "Second Dzogchen holder (traditional); student of Garab Dorje, teacher of Shri Simha.",
+   "id": "manjushrimitra",
+   "kind": "figure",
+   "living": false,
+   "name": "Mañjushrimitra",
+   "role": "figure",
+   "short": "Mañjushrimitra",
+   "source": "Traditional (Thondup, Masters of Meditation)",
+   "tradition": "dzogchen",
+   "traditions": [
+    "dzogchen"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "aliases": [
+    "shri simha"
+   ],
+   "bio": "Third Dzogchen holder (traditional); student of Mañjushrimitra, teacher of Jñanasutra.",
+   "id": "shri-simha",
+   "kind": "figure",
+   "living": false,
+   "name": "Shri Simha",
+   "role": "figure",
+   "short": "Shri Simha",
+   "source": "Traditional (Thondup, Masters of Meditation)",
+   "tradition": "dzogchen",
+   "traditions": [
+    "dzogchen"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "aliases": [
+    "jnan sutra"
+   ],
+   "bio": "Fourth Dzogchen holder (traditional); student of Shri Simha, teacher of Vimalamitra.",
+   "id": "jnanasutra",
+   "kind": "figure",
+   "living": false,
+   "name": "Jñanasutra",
+   "role": "figure",
+   "short": "Jñanasutra",
+   "source": "Traditional (Thondup, Masters of Meditation)",
+   "tradition": "dzogchen",
+   "traditions": [
+    "dzogchen"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "aliases": [
+    "vimalamitra master"
+   ],
+   "bio": "Fifth Dzogchen holder (traditional); student of Jñanasutra; contemporary of Padmasambhava at Samye.",
+   "id": "vimalamitra",
+   "kind": "figure",
+   "living": false,
+   "name": "Vimalamitra",
+   "role": "figure",
+   "short": "Vimalamitra",
+   "source": "Traditional (Thondup, Masters of Meditation)",
+   "tradition": "dzogchen",
+   "traditions": [
+    "dzogchen"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "8th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (Thondup, Masters of Meditation)"
+  },
+  {
+   "aliases": [
+    "sarahapa"
+   ],
+   "bio": "Mahasiddha of the doha songs; Mahamudra root figure; inspiration-line for Maitripa and Marpa's second transmission.",
+   "id": "saraha",
+   "kind": "figure",
+   "living": false,
+   "name": "Saraha",
+   "role": "figure",
+   "short": "Saraha",
+   "source": "Traditional (doha lineage)",
+   "tradition": "mahamudra",
+   "traditions": [
+    "mahamudra"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 8th c. (traditional)",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional (doha lineage)"
+  },
+  {
+   "aliases": [
+    "advayavajra"
+   ],
+   "bio": "Mahamudra master (1007–1085); Marpa's second guru after Naropa; Amanasikara cycle.",
+   "id": "maitripa",
+   "kind": "figure",
+   "living": false,
+   "name": "Maitripa (Advayavajra)",
+   "role": "figure",
+   "short": "Maitripa",
+   "source": "Kagyu histories consensus",
+   "tradition": "mahamudra",
+   "traditions": [
+    "mahamudra"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1007–1085",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Kagyu histories consensus"
+  },
+  {
+   "aliases": [
+    "aryadeva philosopher"
+   ],
+   "bio": "Nagarjuna's direct disciple; Four Hundred Verses; carried Madhyamaka to the south (and, traditionally, to Sri Lanka).",
+   "id": "aryadeva",
+   "kind": "figure",
+   "living": false,
+   "name": "Aryadeva",
+   "role": "figure",
+   "short": "Aryadeva",
+   "source": "Traditional + scholarly consensus",
+   "tradition": "madhyamaka",
+   "traditions": [
+    "madhyamaka"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "c. 3rd c.",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Traditional + scholarly consensus"
+  },
+  {
+   "aliases": [
+    "ron davidson"
+   ],
+   "bio": "Fairfield historian of Indian esoteric Buddhism (Indian Esoteric Buddhism, Tibetan Renaissance); Vajrayana institutional history.",
+   "id": "ronald-davidson",
+   "kind": "figure",
+   "living": null,
+   "name": "Ronald Davidson",
+   "role": "figure",
+   "short": "Ronald Davidson",
+   "source": "Publisher bios (Columbia UP)",
+   "tradition": "tibetan",
+   "traditions": [
+    "tibetan"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "source_note": "Publisher bios (Columbia UP)"
+  }
+ ]
+}
