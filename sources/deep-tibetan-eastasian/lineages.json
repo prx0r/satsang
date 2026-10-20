@@ -1,0 +1,634 @@
+[
+ {
+  "source": "luis-gomez",
+  "target": "robert-sharf",
+  "type": "academic_supervisor_of",
+  "source_url": "https://sites.lsa.umich.edu/buddhiststudies/people/alumni",
+  "confidence": "high",
+  "note": "PhD Michigan 1991, Pao-tsang lun (advisor L. O. Gómez; also Deep Blue record)"
+ },
+ {
+  "source": "luis-gomez",
+  "target": "griffith-foulk",
+  "type": "academic_supervisor_of",
+  "source_url": "https://sites.lsa.umich.edu/buddhiststudies/people/alumni",
+  "confidence": "high",
+  "note": "PhD Michigan 1987"
+ },
+ {
+  "source": "donald-munro",
+  "target": "brook-ziporyn",
+  "type": "academic_supervisor_of",
+  "source_url": "https://divinity.uchicago.edu/sites/default/files/2023-06/Div%20Faculty%20CVs%202023/Brook%20Ziporyn.pdf",
+  "confidence": "high",
+  "note": "PhD Michigan 1996, Tiantai value/anti-value"
+ },
+ {
+  "source": "stanley-weinstein",
+  "target": "john-mcrae",
+  "type": "academic_supervisor_of",
+  "source_url": "https://buddhism.arts.ubc.ca/869-2/",
+  "confidence": "high",
+  "note": "PhD Yale 1983, Northern School of Chan"
+ },
+ {
+  "source": "yanagida-seizan",
+  "target": "john-mcrae",
+  "type": "influenced",
+  "source_url": "https://buddhism.arts.ubc.ca/869-2/",
+  "confidence": "high",
+  "note": "directed his Kyoto research"
+ },
+ {
+  "source": "francine-herail",
+  "target": "bernard-faure",
+  "type": "academic_supervisor_of",
+  "source_url": "https://www.sudoc.fr/041424565",
+  "confidence": "high",
+  "note": "Doctorat d'État Paris 7, 1984"
+ },
+ {
+  "source": "yanagida-seizan",
+  "target": "bernard-faure",
+  "type": "influenced",
+  "source_url": "https://docslib.org/doc/2713244/yanagida-seizans-lesson",
+  "confidence": "high",
+  "note": "worked under Yanagida in Kyoto 1976–83"
+ },
+ {
+  "source": "donald-lopez",
+  "target": "jacob-dalton",
+  "type": "academic_supervisor_of",
+  "source_url": "https://dokumen.pub/download/the-taming-of-the-demons-violence-and-liberation-in-tibetan-buddhism-9780300153958.html",
+  "confidence": "high",
+  "note": "PhD Michigan 2002; acknowledged as \"my advisor\" in his dissertation and in The Taming of the Demons"
+ },
+ {
+  "source": "paul-groner",
+  "target": "charles-jones",
+  "type": "academic_supervisor_of",
+  "source_url": "https://dlbs.liberal.ntu.edu.tw/museum/TAIWAN/md/bit/bit.htm",
+  "confidence": "high",
+  "note": "PhD Virginia 1996, Buddhism in Taiwan"
+ },
+ {
+  "source": "masatoshi-nagatomi",
+  "target": "robert-thurman",
+  "type": "academic_supervisor_of",
+  "source_url": "https://religion.columbia.edu/news/memoriam-robert-af-thurman-1941-2026",
+  "confidence": "high",
+  "note": "PhD Harvard 1972 on Tsongkhapa"
+ },
+ {
+  "source": "richard-robinson",
+  "target": "jeffrey-hopkins",
+  "type": "academic_supervisor_of",
+  "source_url": "https://networks.h-net.org/node/6060/pages/3914200/hopkins-jeffrey",
+  "confidence": "medium",
+  "note": "chaired his prelims; died before the dissertation was done"
+ },
+ {
+  "source": "geshe-lhundub-sopa",
+  "target": "jeffrey-hopkins",
+  "type": "academic_supervisor_of",
+  "source_url": "https://maitripa.org/jeffrey-hopkins/",
+  "confidence": "high",
+  "note": "oversaw completion of Meditation on Emptiness (Wisconsin 1973); also listed on the UW memorial page"
+ },
+ {
+  "source": "geshe-lhundub-sopa",
+  "target": "jose-cabezon",
+  "type": "academic_supervisor_of",
+  "source_url": "https://alc.wisc.edu/staff/sopa-geshe-lhundub/",
+  "confidence": "medium",
+  "note": "listed among those who completed PhDs under Geshe Sopa"
+ },
+ {
+  "source": "geshe-lhundub-sopa",
+  "target": "david-germano",
+  "type": "academic_supervisor_of",
+  "source_url": "https://alc.wisc.edu/staff/sopa-geshe-lhundub/",
+  "confidence": "medium",
+  "note": "listed among those who completed PhDs under Geshe Sopa (Wisconsin 1992)"
+ },
+ {
+  "source": "jeffrey-hopkins",
+  "target": "donald-lopez",
+  "type": "academic_supervisor_of",
+  "source_url": "https://tricycle.org/article/jeffrey-hopkins-obituary/",
+  "confidence": "medium",
+  "note": "graduate of Hopkins's UVA Tibetan studies PhD programme (PhD 1982); the page names the programme, not a formal advisor"
+ },
+ {
+  "source": "jeffrey-hopkins",
+  "target": "anne-klein",
+  "type": "academic_supervisor_of",
+  "source_url": "https://tricycle.org/article/jeffrey-hopkins-obituary/",
+  "confidence": "medium",
+  "note": "graduate of Hopkins's UVA programme; the page names the programme, not a formal advisor"
+ },
+ {
+  "source": "geshe-ngawang-wangyal",
+  "target": "robert-thurman",
+  "type": "teacher_of",
+  "source_url": "https://bobthurman.com/about",
+  "confidence": "high",
+  "note": "first guru, from 1962"
+ },
+ {
+  "source": "geshe-ngawang-wangyal",
+  "target": "jeffrey-hopkins",
+  "type": "teacher_of",
+  "source_url": "https://networks.h-net.org/group/announcements/20037841/jeffrey-hopkins-1940-2024",
+  "confidence": "high",
+  "note": "studied with him in Freewood Acres, NJ"
+ },
+ {
+  "source": "dalai-lama",
+  "target": "robert-thurman",
+  "type": "teacher_of",
+  "source_url": "https://bobthurman.com/about",
+  "confidence": "high",
+  "note": "ordained him in 1964, the first Western Tibetan Buddhist monk"
+ },
+ {
+  "source": "lama-yeshe",
+  "target": "jan-willis",
+  "type": "teacher_of",
+  "source_url": "https://www.sfzc.org/teachers/jan-willis",
+  "confidence": "high",
+  "note": "her mentor for fifteen years"
+ },
+ {
+  "source": "lama-yeshe",
+  "target": "lama-zopa",
+  "type": "teacher_of",
+  "source_url": "https://fpmt.org",
+  "confidence": "high",
+  "note": "heart disciple"
+ },
+ {
+  "source": "lama-yeshe",
+  "target": "fpmt",
+  "type": "founded",
+  "source_url": "https://fpmt.org",
+  "confidence": "high",
+  "note": "with Lama Zopa Rinpoche, 1975"
+ },
+ {
+  "source": "geshe-rabten",
+  "target": "alan-wallace",
+  "type": "teacher_of",
+  "source_url": "https://thus.org/faculty-friends/b-alan-wallace-ph-d",
+  "confidence": "high",
+  "note": "trained under him at the Tibet Institute, Switzerland"
+ },
+ {
+  "source": "dalai-lama",
+  "target": "alan-wallace",
+  "type": "teacher_of",
+  "source_url": "https://www.alanwallace.org/about-alan-wallace/",
+  "confidence": "high",
+  "note": "full ordination in 1975"
+ },
+ {
+  "source": "alan-wallace",
+  "target": "gyatrul-rinpoche",
+  "type": "translated",
+  "source_url": "https://www.alanwallace.org/about-alan-wallace/",
+  "confidence": "high",
+  "note": "principal interpreter 1992–97"
+ },
+ {
+  "source": "thupten-jinpa",
+  "target": "dalai-lama",
+  "type": "translated",
+  "source_url": "https://buddhanature.tsadra.org/index.php/People/Jinpa,_Thupten",
+  "confidence": "high",
+  "note": "principal English translator since 1985"
+ },
+ {
+  "source": "jeffrey-hopkins",
+  "target": "dalai-lama",
+  "type": "translated",
+  "source_url": "https://www.simonandschuster.com/books/Meditation-on-Emptiness/Jeffrey-Hopkins/9781614299134",
+  "confidence": "high",
+  "note": "chief interpreter 1979–89"
+ },
+ {
+  "source": "joan-rieck",
+  "target": "henry-shukman",
+  "type": "teacher_of",
+  "source_url": "https://sanbo-zen-international.org/en",
+  "confidence": "high",
+  "note": "primary teacher"
+ },
+ {
+  "source": "ruben-habito",
+  "target": "henry-shukman",
+  "type": "teacher_of",
+  "source_url": "https://sanbo-zen-international.org/en",
+  "confidence": "high",
+  "note": "primary teacher"
+ },
+ {
+  "source": "yamada-ryoun",
+  "target": "henry-shukman",
+  "type": "teacher_of",
+  "source_url": "https://sanbo-zen-international.org/en",
+  "confidence": "high",
+  "note": "Dharma transmission and appointment as Zen Master, 2020"
+ },
+ {
+  "source": "ruben-habito",
+  "target": "valerie-forstman",
+  "type": "teacher_of",
+  "source_url": "https://www.mountaincloud.org/about/teacher-valerie-forstman/",
+  "confidence": "high",
+  "note": "first teacher"
+ },
+ {
+  "source": "yamada-ryoun",
+  "target": "valerie-forstman",
+  "type": "teacher_of",
+  "source_url": "https://www.mountaincloud.org/about/teacher-valerie-forstman/",
+  "confidence": "high",
+  "note": "since 2003"
+ },
+ {
+  "source": "gudo-nishijima",
+  "target": "jundo-cohen",
+  "type": "teacher_of",
+  "source_url": "https://www.treeleaf.org/lineage/",
+  "confidence": "high",
+  "note": "ordination and Dharma transmission"
+ },
+ {
+  "source": "gudo-nishijima",
+  "target": "brad-warner",
+  "type": "teacher_of",
+  "source_url": "https://hardcorezen.info",
+  "confidence": "high",
+  "note": "Dharma heir, 1999"
+ },
+ {
+  "source": "sheng-yen",
+  "target": "guo-gu",
+  "type": "teacher_of",
+  "source_url": "https://tallahasseechan.org",
+  "confidence": "high",
+  "note": "Dharma heir"
+ },
+ {
+  "source": "sheng-yen",
+  "target": "dharma-drum",
+  "type": "founded",
+  "source_url": "https://www.dharmadrum.org",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "seung-sahn",
+  "target": "kwan-um",
+  "type": "founded",
+  "source_url": "https://www.kwanumzen.org",
+  "confidence": "high",
+  "note": "1983"
+ },
+ {
+  "source": "seung-sahn",
+  "target": "dae-bong",
+  "type": "teacher_of",
+  "source_url": "https://www.kwanumzen.org",
+  "confidence": "medium",
+  "note": "Dharma heir in the Kwan Um School"
+ },
+ {
+  "source": "charlotte-joko-beck",
+  "target": "barry-magid",
+  "type": "teacher_of",
+  "source_url": "https://ordinarymind.com",
+  "confidence": "high",
+  "note": "Dharma heir; founded Ordinary Mind Zendo"
+ },
+ {
+  "source": "eido-shimano",
+  "target": "shinge-roshi",
+  "type": "teacher_of",
+  "source_url": "https://zenstudies.org",
+  "confidence": "medium",
+  "note": "Dharma transmission in the Zen Studies Society line"
+ },
+ {
+  "source": "taizan-maezumi",
+  "target": "chozen-bays",
+  "type": "teacher_of",
+  "source_url": "https://zendust.org",
+  "confidence": "medium",
+  "note": "Dharma transmission"
+ },
+ {
+  "source": "taizan-maezumi",
+  "target": "bernie-glassman",
+  "type": "teacher_of",
+  "source_url": "https://zenpeacemakers.org",
+  "confidence": "medium",
+  "note": "first Dharma successor"
+ },
+ {
+  "source": "bernie-glassman",
+  "target": "joan-halifax",
+  "type": "teacher_of",
+  "source_url": "https://www.upaya.org",
+  "confidence": "medium",
+  "note": "inka"
+ },
+ {
+  "source": "shunryu-suzuki",
+  "target": "reb-anderson",
+  "type": "teacher_of",
+  "source_url": "https://www.sfzc.org",
+  "confidence": "medium",
+  "note": "ordained by Suzuki in 1970"
+ },
+ {
+  "source": "reb-anderson",
+  "target": "taigen-leighton",
+  "type": "teacher_of",
+  "source_url": "https://www.ancientdragon.org",
+  "confidence": "medium",
+  "note": "Dharma transmission"
+ },
+ {
+  "source": "dainin-katagiri",
+  "target": "dosho-port",
+  "type": "teacher_of",
+  "source_url": "https://www.vinesofobstacles.com",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "source": "jiyu-kennett",
+  "target": "ocb",
+  "type": "founded",
+  "source_url": "https://shastaabbey.org",
+  "confidence": "high",
+  "note": "Shasta Abbey 1970; OBC 1978"
+ },
+ {
+  "source": "thich-nhat-hanh",
+  "target": "phap-huu",
+  "type": "teacher_of",
+  "source_url": "https://plumvillage.org",
+  "confidence": "high",
+  "note": "ordained monastic disciple"
+ },
+ {
+  "source": "thich-nhat-hanh",
+  "target": "phap-hai",
+  "type": "teacher_of",
+  "source_url": "https://plumvillage.org",
+  "confidence": "high",
+  "note": "ordained monastic disciple"
+ },
+ {
+  "source": "thich-nhat-hanh",
+  "target": "phap-linh",
+  "type": "teacher_of",
+  "source_url": "https://plumvillage.org",
+  "confidence": "high",
+  "note": "ordained monastic disciple"
+ },
+ {
+  "source": "thich-nhat-hanh",
+  "target": "chan-duc",
+  "type": "teacher_of",
+  "source_url": "https://plumvillage.org",
+  "confidence": "high",
+  "note": "ordained monastic disciple"
+ },
+ {
+  "source": "thich-nhat-hanh",
+  "target": "chan-khong",
+  "type": "teacher_of",
+  "source_url": "https://plumvillage.org",
+  "confidence": "high",
+  "note": "student and lifelong collaborator"
+ },
+ {
+  "source": "chogyam-trungpa",
+  "target": "pema-chodron",
+  "type": "teacher_of",
+  "source_url": "https://pemachodronfoundation.org",
+  "confidence": "high",
+  "note": "root teacher from 1974"
+ },
+ {
+  "source": "dzigar-kongtrul",
+  "target": "pema-chodron",
+  "type": "teacher_of",
+  "source_url": "https://pemachodronfoundation.org",
+  "confidence": "high",
+  "note": "her principal teacher after Trungpa"
+ },
+ {
+  "source": "dilgo-khyentse",
+  "target": "dzongsar-khyentse",
+  "type": "teacher_of",
+  "source_url": "https://siddharthasintent.org",
+  "confidence": "medium",
+  "note": "principal teacher"
+ },
+ {
+  "source": "dilgo-khyentse",
+  "target": "dzigar-kongtrul",
+  "type": "teacher_of",
+  "source_url": "https://mangalashribhuti.org",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "source": "dzongsar-khyentse",
+  "target": "siddharthas-intent",
+  "type": "founded",
+  "source_url": "https://siddharthasintent.org",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "tulku-urgyen",
+  "target": "phakchok-rinpoche",
+  "type": "teacher_of",
+  "source_url": "https://samyeinstitute.org",
+  "confidence": "medium",
+  "note": "grandfather and early teacher"
+ },
+ {
+  "source": "lopon-tenzin-namdak",
+  "target": "tenzin-wangyal",
+  "type": "teacher_of",
+  "source_url": "https://ligmincha.org",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "tenzin-wangyal",
+  "target": "ligmincha",
+  "type": "founded",
+  "source_url": "https://ligmincha.org",
+  "confidence": "high",
+  "note": "1992"
+ },
+ {
+  "source": "wangdor-rinpoche",
+  "target": "lama-lena",
+  "type": "teacher_of",
+  "source_url": "https://lamalenateachings.com",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "source": "khenpo-munsel",
+  "target": "garchen-rinpoche",
+  "type": "teacher_of",
+  "source_url": "https://garchen.net",
+  "confidence": "medium",
+  "note": "taught him in prison camp"
+ },
+ {
+  "source": "lama-norlha",
+  "target": "lama-rod-owens",
+  "type": "teacher_of",
+  "source_url": "https://www.lamarod.com",
+  "confidence": "medium",
+  "note": "three-year retreat at Kagyu Thubten Chöling"
+ },
+ {
+  "source": "lama-norlha",
+  "target": "willa-blythe-baker",
+  "type": "teacher_of",
+  "source_url": "https://commons.tsadra.org/index.php/Miller,_W.",
+  "confidence": "high",
+  "note": "listed among her teachers"
+ },
+ {
+  "source": "kalu-rinpoche",
+  "target": "willa-blythe-baker",
+  "type": "teacher_of",
+  "source_url": "https://commons.tsadra.org/index.php/Miller,_W.",
+  "confidence": "high",
+  "note": "listed among her teachers"
+ },
+ {
+  "source": "karma-thinley",
+  "target": "lama-jampa-thaye",
+  "type": "teacher_of",
+  "source_url": "https://www.dechen.org",
+  "confidence": "medium",
+  "note": "principal teacher, who authorised him"
+ },
+ {
+  "source": "chogyal-namkhai-norbu",
+  "target": "tsultrim-allione",
+  "type": "teacher_of",
+  "source_url": "https://taramandala.org",
+  "confidence": "medium",
+  "note": ""
+ },
+ {
+  "source": "tsenzhab-serkong",
+  "target": "alexander-berzin",
+  "type": "teacher_of",
+  "source_url": "https://studybuddhism.com",
+  "confidence": "medium",
+  "note": "principal teacher"
+ },
+ {
+  "source": "robert-thurman",
+  "target": "tibet-house-us",
+  "type": "founded",
+  "source_url": "https://bobthurman.com/biography/",
+  "confidence": "high",
+  "note": "1987, with Tenzin Tethong, Richard Gere and Philip Glass"
+ },
+ {
+  "source": "dolpopa",
+  "target": "jonang",
+  "type": "influenced",
+  "source_url": "https://dzokden.org",
+  "confidence": "high",
+  "note": "systematised shentong"
+ },
+ {
+  "source": "zhiyi",
+  "target": "tiantai",
+  "type": "founded",
+  "source_url": "https://en.wikipedia.org/wiki/Tiantai",
+  "confidence": "high",
+  "note": "systematiser of the school"
+ },
+ {
+  "source": "saicho",
+  "target": "tendai",
+  "type": "founded",
+  "source_url": "https://www.tendai.org",
+  "confidence": "high",
+  "note": "806"
+ },
+ {
+  "source": "kukai",
+  "target": "shingon",
+  "type": "founded",
+  "source_url": "http://www.shingonbuddhism.org",
+  "confidence": "high",
+  "note": "Koyasan, 816"
+ },
+ {
+  "source": "honen",
+  "target": "jodo-shu",
+  "type": "founded",
+  "source_url": "https://en.wikipedia.org/wiki/J%C5%8Ddo-sh%C5%AB",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "shinran",
+  "target": "jodo-shinshu",
+  "type": "founded",
+  "source_url": "https://www.shinranworks.com/",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "fazang",
+  "target": "huayan",
+  "type": "founded",
+  "source_url": "https://plato.stanford.edu/entries/buddhism-huayan/",
+  "confidence": "medium",
+  "note": "third patriarch and main systematiser"
+ },
+ {
+  "source": "tsongkhapa",
+  "target": "gelug",
+  "type": "founded",
+  "source_url": "https://plato.stanford.edu/entries/tsongkhapa/",
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "source": "yamada-koun",
+  "target": "sanbo-zen",
+  "type": "influenced",
+  "source_url": "https://sanbo-zen-international.org/en/about/history",
+  "confidence": "high",
+  "note": "second abbot, who opened it to Christians and lay practitioners"
+ },
+ {
+  "source": "hakuun-yasutani",
+  "target": "sanbo-zen",
+  "type": "founded",
+  "source_url": "https://sanbo-zen-international.org/en/about/history",
+  "confidence": "high",
+  "note": "1954"
+ }
+]

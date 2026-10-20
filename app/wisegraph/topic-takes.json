@@ -1,0 +1,69 @@
+{
+ "_note": "wisegraph topic takes v2 (reviewed 2026-10-20): for the topic compare pages (#topic/<id>). One plain line per tradition node, in Wiser's own words, stating the textbook position only (no quotes, no transcript text, no ranking of traditions). `order` is the column order on the page; a talk sits under the first node in `order` that contains its tradition. 'vedanta' gathers Advaita, the direct path, Arsha Vidya, Inchegeri and the Ramakrishna Order; 'zen' gathers Sōtō, Rinzai and Plum Village; 'tibetan' gathers Gelug. A node with no talks yet shows its line and 'Talks arriving'.",
+ "topics": {
+  "rebirth": { "order": ["theravada", "tibetan", "vedanta", "platonic", "anthroposophy", "krishnamurti"], "takes": {
+   "theravada": "Craving and kamma drive a new birth, yet no unchanging self passes from life to life.",
+   "tibetan": "Between death and the next birth lies the bardo, where the mind meets its own nature and its habits.",
+   "vedanta": "The subtle body moves from life to life, carried by karma; the Self you are was never born and never dies.",
+   "platonic": "The soul is immortal and returns to new lives, choosing its next life by what it has become (the Myth of Er).",
+   "anthroposophy": "The human I returns through repeated earth lives, meeting the karma it has made and growing through it.",
+   "krishnamurti": "Asks what it is that would be reborn: the stream of memory called the self can end now, which matters more than a next life." } },
+  "kamma": { "order": ["theravada", "tibetan", "vedanta", "kashmir-shaivism", "kriya-yoga", "anthroposophy", "fourth-way"], "takes": {
+   "theravada": "Kamma is intention: what you will and do shapes what you meet and who you become.",
+   "tibetan": "Actions ripen across lives; purification and merit change how they ripen, and wisdom uproots them.",
+   "vedanta": "Action binds as long as it is done for its fruits; action offered without attachment frees.",
+   "kashmir-shaivism": "Karma is one of the three impurities that veil consciousness; recognising your nature as Śiva dissolves it.",
+   "kriya-yoga": "Right action and meditation work out past karma; Kriya practice is taught as a way to hasten it.",
+   "anthroposophy": "Karma is a just weaving of destiny across lives, worked out in the meetings and trials of each new life.",
+   "fourth-way": "Most of what we call action is mechanical; only conscious effort is truly ours." } },
+  "self": { "order": ["theravada", "zen", "tibetan", "vedanta", "kashmir-shaivism", "christian-mysticism", "fourth-way", "krishnamurti"], "takes": {
+   "theravada": "Nothing you can point to as yours is a lasting self; seeing this ends the conceit 'I am'.",
+   "zen": "Study the self to forget the self: the self, like all things, has no fixed essence apart from everything else.",
+   "tibetan": "The self is empty of inherent existence; it exists only as a label placed on body and mind.",
+   "vedanta": "Ask 'Who am I?': under every thought is the one Self, pure awareness, which is Brahman.",
+   "kashmir-shaivism": "The self is Śiva, free consciousness; awakening is recognising what you already are.",
+   "christian-mysticism": "Let go of the self that clings, and God is found in the ground of the soul.",
+   "fourth-way": "We have no single permanent I, only many passing 'I's; a real I has to be built through work on oneself.",
+   "krishnamurti": "The self is a bundle of memory and reaction; to see it clearly, without a watcher, is freedom." } },
+  "death": { "order": ["theravada", "zen", "tibetan", "vedanta", "platonic", "anthroposophy", "krishnamurti"], "takes": {
+   "theravada": "Recollect death daily: it loosens clinging and shows the urgency of the path.",
+   "zen": "Birth and death are the life of the way itself; seen clearly, they lose their grip on the mind.",
+   "tibetan": "Death is a doorway: rightly prepared, the moment of dying can be the moment of liberation.",
+   "vedanta": "Death belongs to the body and the mind; find out who it is that fears it.",
+   "platonic": "Philosophy is practice for dying: the soul's training in turning from the body toward what is real.",
+   "anthroposophy": "After death the soul looks back on its life, is purified (kamaloca) and prepares for a new birth.",
+   "krishnamurti": "Die each day to what you know and hold; then death is not at the far end of life but within it." } },
+  "meditation": { "order": ["theravada", "zen", "tibetan", "vedanta", "kashmir-shaivism", "kriya-yoga", "christian-mysticism", "fourth-way", "krishnamurti"], "takes": {
+   "theravada": "Restraint and right view first; then the mind settles and sees the arising and passing of things.",
+   "zen": "Just sit: practice is not a means to awakening but its expression.",
+   "tibetan": "Calm the mind, then recognise its nature: awareness itself, open and clear.",
+   "vedanta": "Quiet the mind through discipline or devotion, then rest as the awareness in which all experience comes and goes.",
+   "kashmir-shaivism": "Practices such as those of the Vijñāna Bhairava turn any moment of experience back to the consciousness it arises in.",
+   "kriya-yoga": "Breath and life-energy techniques still the mind and turn it inward, toward the divine.",
+   "christian-mysticism": "Contemplative prayer: rest in God beyond words and images.",
+   "fourth-way": "Self-remembering: be present to yourself in the middle of ordinary life.",
+   "krishnamurti": "Not a method but choiceless awareness: watching the movement of thought without a controller." } },
+  "awakening": { "order": ["theravada", "zen", "tibetan", "vedanta", "kashmir-shaivism", "neoplatonism", "christian-mysticism", "fourth-way"], "takes": {
+   "theravada": "Nibbāna is the ending of greed, hatred and delusion, reached through stages that cannot be lost.",
+   "zen": "Awakening is seeing your own nature, sudden or gradual, and then living it.",
+   "tibetan": "Buddhahood is the full recognition of the mind's own nature, wisdom and compassion inseparable.",
+   "vedanta": "Liberation is not gained; it is the end of the mistaken belief that you were ever bound.",
+   "kashmir-shaivism": "Liberation is recognition (pratyabhijñā): you have always been Śiva, free consciousness.",
+   "neoplatonism": "The soul turns inward and ascends until it is one with the One.",
+   "christian-mysticism": "Union with God, reached through love and letting go, in which the soul finds God in its own ground.",
+   "fourth-way": "We are asleep; waking up begins with seeing our own mechanicalness and remembering ourselves." } },
+  "craving": { "order": ["theravada", "zen", "vedanta", "platonic", "christian-mysticism"], "takes": {
+   "theravada": "Craving is the origin of suffering; when it fades, suffering ends.",
+   "zen": "Desire is met with open attention rather than fought; seen as empty, it loosens by itself.",
+   "vedanta": "Desire for the fruits of action keeps the wheel turning; the longing for liberation is the one desire worth keeping.",
+   "platonic": "Desire is redirected, not destroyed: love rises from beautiful things toward Beauty itself.",
+   "christian-mysticism": "Detachment: want nothing but God, and the soul is free." } },
+  "dukkha": { "order": ["theravada", "zen", "tibetan", "vedanta", "christian", "krishnamurti"], "takes": {
+   "theravada": "Life as we grasp it is unsatisfying; see its cause and it can end.",
+   "zen": "Suffering is met, not escaped: held in mindful attention, it can be transformed.",
+   "tibetan": "Suffering comes from grasping at a self; seeing others suffer as we do is the root of compassion.",
+   "vedanta": "Suffering comes from taking yourself to be the body and mind.",
+   "christian": "Suffering can be carried and transformed, in communion with Christ's own.",
+   "krishnamurti": "Sorrow ends when you meet it completely, without escaping into explanation." } }
+ }
+}

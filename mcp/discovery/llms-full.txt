@@ -1,0 +1,529 @@
+# Wiser
+
+> Wiser (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 927 documented lineage and influence links, 793 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+
+Licence: Wiser's curation is CC BY 4.0 (credit "Wiser, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
+
+## Connect (no sign-in)
+- [MCP server, Streamable HTTP](https://mcp.tantrafiles.xyz/mcp): add as a custom connector in ChatGPT (Settings > Connectors, developer mode) or Claude (Settings > Connectors > Add custom connector). Legacy SSE transport: https://mcp.tantrafiles.xyz/sse
+- [OpenAPI 3.1 / REST](https://mcp.tantrafiles.xyz/openapi.json): the same tools as GET endpoints under https://mcp.tantrafiles.xyz/api/ (CORS open, rate-limited); import as a Custom GPT Action
+- [Server card](https://tantrafiles.xyz/.well-known/mcp.json)
+- [Data dump manifest](https://tantrafiles.xyz/data/index.json): JSON, JSONL and JSON-LD per kind with checksums; [JSON Schemas](https://tantrafiles.xyz/schema/)
+- [Docs for agents and developers](https://tantrafiles.xyz/agents)
+- [Full summary for LLMs](https://tantrafiles.xyz/llms-full.txt)
+
+## Tools
+- `search`: Search the Wiser directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks.
+- `get_topic`: A topic seen across traditions: intro, sub-questions, one-line takes per tradition, the best talks chosen for diversity across traditions (MMR), practices, texts, teachers and related topics.
+- `get_teacher`: A person profile: bio, years, traditions, works, their best talks, talks about them, lineage neighbours and places tied to them.
+- `get_lineage`: Walk teacher-student (dharma) and/or academic lineage edges up and down from a person or tradition.
+- `list_practices`: Practices (meditation, visualisation, enquiry, chant, ritual, movement) with steps in plain words, sources and cautions.
+- `get_collection`: A curated set, journey, meditation series, visualisation cycle or syllabus with its ordered units and items.
+- `recommend`: Stateless recommendations.
+- `fetch`: Fetch one Wiser record by the id returned from search (e.g.
+- `find_places`: Monasteries, retreat centres, ashrams, temples, study centres and sacred sites.
+- `get_place`: One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.
+- `find_teachers`: People in Wiser filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video.
+- `get_resources`: Texts, books and libraries per tradition, person or topic.
+- `get_lineage_path`: Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges.
+- `what_to_study`: A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first).
+
+## Canonical URLs (cite these)
+- https://tantrafiles.xyz/person/<id>, /tradition/<id>, /topic/<id>, /practice/<id>, /collection/<id>, /place/<id>, /resource/<id>, /clip/<id>
+- Every API/MCP record carries `url` (canonical page), `source_url` (where the fact comes from), `verified_on` (YYYY-MM-DD) and `confidence` (high, medium, low).
+
+## Start here
+- [Topic flash](https://tantrafiles.xyz/): one question, teachers from different traditions
+- [Rebirth across traditions](https://tantrafiles.xyz/topic/rebirth)
+- [Places to practise](https://tantrafiles.xyz/#places)
+- [Journeys and practices](https://tantrafiles.xyz/#collections)
+
+## Rules for agents
+- Cite the `url` of every record you use; give `source_url` for contacts, dates and programmes.
+- Contacts are only those a place publishes on its own site; programme dates change, so send people to `scheduleUrl` and say when the record was verified.
+- Do not invent what a teacher said; quote talk titles. Wiser's one-line "takes" are its own summaries.
+- Practices are summaries: respect `contraindications` and `needsTeacher`, and link the `sources`.
+- "likely-living" is an inference (teaches on video, no death year recorded); say so when it matters.
+
+
+# Topics (Wiser curation, CC BY 4.0)
+
+## Rebirth (https://tantrafiles.xyz/topic/rebirth)
+Does anything carry on after death, and if so, what? The Buddha said a stream of becoming continues without a fixed self. The Upanishads said the Self is untouched while the subtle body moves on. Plato told the Myth of Er. Theosophy and Steiner rebuilt the idea for the modern West. Start anywhere and keep going.
+- What is reborn?: If there is no fixed self, what links one life to the next? Consciousness, karma, a subtle body, a soul.
+- Remembering past lives: The Buddha's first knowledge on the night of awakening, children's memories, and why most of us forget.
+- Karma and the next life: How intention shapes what comes next, and what it would mean to take that seriously now.
+- Between lives: the bardo: The Tibetan map of the passage from death to birth, and practices for meeting it awake.
+- The West: Er, Pythagoras, Steiner: Plato's Myth of Er, the Pythagoreans, Plotinus, Kabbalah's gilgul, Theosophy and Anthroposophy.
+- Dying and near-death: What the dying, the near-dead and the people who sit with them report.
+- Ending the round: Liberation as the end of rebirth: nibbana, moksha, the deathless, no coming and no going.
+- Theravāda: Craving and kamma drive a new birth, yet no unchanging self passes from life to life.
+- Tibetan Buddhism: Between death and the next birth lies the bardo, where the mind meets its own nature and its habits.
+- Vedānta: The subtle body moves from life to life, carried by karma; the Self you are was never born and never dies.
+- Platonic tradition: The soul is immortal and returns to new lives, choosing its next life by what it has become (the Myth of Er).
+- Anthroposophy: The human I returns through repeated earth lives, meeting the karma it has made and growing through it.
+- Krishnamurti: Asks what it is that would be reborn: the stream of memory called the self can end now, which matters more than a next life.
+
+## Karma (https://tantrafiles.xyz/topic/kamma)
+Karma is intention, said the Buddha. The Gita says act, and let go of the fruit. The West rebuilt it as moral law and destiny.
+- Karma as intention: What makes an action skilful.
+- Karma yoga: Acting without clinging to the result.
+- Results and destiny: Fate, free will and the ripening of deeds.
+- Theravāda: Kamma is intention: what you will and do shapes what you meet and who you become.
+- Tibetan Buddhism: Actions ripen across lives; purification and merit change how they ripen, and wisdom uproots them.
+- Vedānta: Action binds as long as it is done for its fruits; action offered without attachment frees.
+- Kashmir Shaivism: Karma is one of the three impurities that veil consciousness; recognising your nature as Śiva dissolves it.
+- Kriya Yoga: Right action and meditation work out past karma; Kriya practice is taught as a way to hasten it.
+- Anthroposophy: Karma is a just weaving of destiny across lives, worked out in the meetings and trials of each new life.
+- The Fourth Way: Most of what we call action is mechanical; only conscious effort is truly ours.
+
+## Self & not-self (https://tantrafiles.xyz/topic/self)
+Who am I? The Buddha said: not this, not this, not this. The Upanishads said: that thou art. Ramana said: ask, and find out.
+- Not-self: The Buddha's strategy of not identifying.
+- Self-enquiry: who am I?: Ramana's question, and those who teach it.
+- The Self (ātman): Vedānta's witness that was never born.
+- Ego and identity: How the sense of a separate me is built.
+- Theravāda: Nothing you can point to as yours is a lasting self; seeing this ends the conceit 'I am'.
+- Zen: Study the self to forget the self: the self, like all things, has no fixed essence apart from everything else.
+- Tibetan Buddhism: The self is empty of inherent existence; it exists only as a label placed on body and mind.
+- Vedānta: Ask 'Who am I?': under every thought is the one Self, pure awareness, which is Brahman.
+- Kashmir Shaivism: The self is Śiva, free consciousness; awakening is recognising what you already are.
+- Christian mysticism: Let go of the self that clings, and God is found in the ground of the soul.
+- The Fourth Way: We have no single permanent I, only many passing 'I's; a real I has to be built through work on oneself.
+- Krishnamurti: The self is a bundle of memory and reaction; to see it clearly, without a watcher, is freedom.
+
+## Meditation (https://tantrafiles.xyz/topic/meditation)
+Breath, mantra, koan, prayer, open awareness. The same question asked in many ways: how do we come home?
+- The breath: Mindfulness of breathing in every tradition.
+- Guided practice: Sit along with a teacher.
+- Open awareness: Resting as awareness itself.
+- Goodwill and compassion: Metta, tonglen, the heart practices.
+- When it's hard: Restlessness, doubt, sleepiness, pain.
+- Theravāda: Restraint and right view first; then the mind settles and sees the arising and passing of things.
+- Zen: Just sit: practice is not a means to awakening but its expression.
+- Tibetan Buddhism: Calm the mind, then recognise its nature: awareness itself, open and clear.
+- Vedānta: Quiet the mind through discipline or devotion, then rest as the awareness in which all experience comes and goes.
+- Kashmir Shaivism: Practices such as those of the Vijñāna Bhairava turn any moment of experience back to the consciousness it arises in.
+- Kriya Yoga: Breath and life-energy techniques still the mind and turn it inward, toward the divine.
+- Christian mysticism: Contemplative prayer: rest in God beyond words and images.
+- The Fourth Way: Self-remembering: be present to yourself in the middle of ordinary life.
+- Krishnamurti: Not a method but choiceless awareness: watching the movement of thought without a controller.
+
+## Jhāna (https://tantrafiles.xyz/topic/jhana)
+
+
+## Suffering (https://tantrafiles.xyz/topic/dukkha)
+
+- Theravāda: Life as we grasp it is unsatisfying; see its cause and it can end.
+- Zen: Suffering is met, not escaped: held in mindful attention, it can be transformed.
+- Tibetan Buddhism: Suffering comes from grasping at a self; seeing others suffer as we do is the root of compassion.
+- Vedānta: Suffering comes from taking yourself to be the body and mind.
+- Christian traditions: Suffering can be carried and transformed, in communion with Christ's own.
+- Krishnamurti: Sorrow ends when you meet it completely, without escaping into explanation.
+
+## Craving & desire (https://tantrafiles.xyz/topic/craving)
+
+- Theravāda: Craving is the origin of suffering; when it fades, suffering ends.
+- Zen: Desire is met with open attention rather than fought; seen as empty, it loosens by itself.
+- Vedānta: Desire for the fruits of action keeps the wheel turning; the longing for liberation is the one desire worth keeping.
+- Platonic tradition: Desire is redirected, not destroyed: love rises from beautiful things toward Beauty itself.
+- Christian mysticism: Detachment: want nothing but God, and the soul is free.
+
+## Mindfulness (https://tantrafiles.xyz/topic/mindfulness)
+
+
+## Virtue (https://tantrafiles.xyz/topic/virtue)
+
+
+## Renunciation (https://tantrafiles.xyz/topic/renunciation)
+
+
+## Death (https://tantrafiles.xyz/topic/death)
+Every tradition starts here. Remember death, the Buddha said, with every breath. The Stoics and Socrates practised it. The Tibetans mapped it. Ramana enacted it at sixteen.
+- Remembering death: Maranasati and memento mori as daily practice.
+- Fear of dying: Where the fear comes from, and what loosens it.
+- Grief and loss: Losing the people we love.
+- The moment of dying: What happens as we die, and how to meet it.
+- The deathless: What was never born and cannot die.
+- Theravāda: Recollect death daily: it loosens clinging and shows the urgency of the path.
+- Zen: Birth and death are the life of the way itself; seen clearly, they lose their grip on the mind.
+- Tibetan Buddhism: Death is a doorway: rightly prepared, the moment of dying can be the moment of liberation.
+- Vedānta: Death belongs to the body and the mind; find out who it is that fears it.
+- Platonic tradition: Philosophy is practice for dying: the soul's training in turning from the body toward what is real.
+- Anthroposophy: After death the soul looks back on its life, is purified (kamaloca) and prepares for a new birth.
+- Krishnamurti: Die each day to what you know and hold; then death is not at the far end of life but within it.
+
+## Emotions (https://tantrafiles.xyz/topic/emotions)
+
+
+## Relationships (https://tantrafiles.xyz/topic/relationships)
+
+
+## Impermanence (https://tantrafiles.xyz/topic/impermanence)
+
+
+## Right view (https://tantrafiles.xyz/topic/right-view)
+
+
+## Awakening (https://tantrafiles.xyz/topic/awakening)
+Nibbāna, moksha, satori, gnosis, the unitive life. What is it, and how does anyone arrive?
+- What is awakening?: Descriptions from those who speak of it.
+- Sudden or gradual?: Glimpses, stages and the long path.
+- After awakening: Embodiment, integration, ordinary life.
+- Theravāda: Nibbāna is the ending of greed, hatred and delusion, reached through stages that cannot be lost.
+- Zen: Awakening is seeing your own nature, sudden or gradual, and then living it.
+- Tibetan Buddhism: Buddhahood is the full recognition of the mind's own nature, wisdom and compassion inseparable.
+- Vedānta: Liberation is not gained; it is the end of the mistaken belief that you were ever bound.
+- Kashmir Shaivism: Liberation is recognition (pratyabhijñā): you have always been Śiva, free consciousness.
+- Neoplatonism: The soul turns inward and ascends until it is one with the One.
+- Christian mysticism: Union with God, reached through love and letting go, in which the soul finds God in its own ground.
+- The Fourth Way: We are asleep; waking up begins with seeing our own mechanicalness and remembering ourselves.
+
+## Feeling (https://tantrafiles.xyz/topic/feeling)
+
+
+## Thinking (https://tantrafiles.xyz/topic/thought)
+
+
+## Defilements & hindrances (https://tantrafiles.xyz/topic/defilements)
+
+
+## Kindness (https://tantrafiles.xyz/topic/kindness)
+
+
+## Faith & devotion (https://tantrafiles.xyz/topic/faith)
+Devotion is the path of the heart: love turned toward the divine, a teacher, or a name. Bhakti sings it, Pure Land entrusts itself to Amida, the Sufi remembers God with every breath, the Christian prays without ceasing. Here the traditions describe what surrender is, and how it is practised.
+- Bhakti: the love of God: Devotion in the Hindu traditions: the name, the song, the beloved.
+- Grace: What is given rather than earned.
+- Pure Land: other power: Entrusting oneself to Amida Buddha.
+- Prayer and remembrance: Centering prayer, the Jesus Prayer, dhikr.
+- Ritual, worship and initiation: Pūjā, mantra, empowerment: devotion in form.
+- Surrender: Letting go into something larger than oneself.
+
+## Everyday life (https://tantrafiles.xyz/topic/daily-life)
+
+
+## Reading the texts (https://tantrafiles.xyz/topic/texts)
+
+
+## Consciousness (https://tantrafiles.xyz/topic/consciousness)
+
+
+## Reality & illusion (https://tantrafiles.xyz/topic/reality)
+Not two. Advaita says the world is Brahman appearing as many; Kashmir Shaivism says it is consciousness recognising itself; Dzogchen and Zen point to a nature that was never divided; the philosophers of the sacred ask whether mind comes first. Here is nonduality, and the question of what is real.
+- Nonduality: Advaita, the direct path and modern nondual teachers.
+- Māyā: is the world an illusion?: The rope and the snake.
+- Recognition: consciousness knowing itself: Kashmir Shaivism's answer.
+- Does mind come first?: Idealism and the philosophers of the sacred.
+- Emptiness and interbeing: The Buddhist middle way between being and non-being.
+
+## The guru (https://tantrafiles.xyz/topic/guru)
+
+
+## The soul (https://tantrafiles.xyz/topic/soul)
+
+
+## Gnosis (https://tantrafiles.xyz/topic/gnosis)
+
+
+## The divine (https://tantrafiles.xyz/topic/divine)
+
+
+## The imaginal (https://tantrafiles.xyz/topic/imaginal)
+Between the world of the senses and the world of pure ideas lies a third: the imaginal, Henry Corbin's word for the realm where visions, angels and archetypes are real. Sufis, Renaissance Platonists, Jung and Hillman, and today's scholars of myth and cosmology explore it. Here is imagination taken seriously.
+- Corbin and the mundus imaginalis: The Persian Sufis and the third world.
+- The daimon: Socrates' sign and the guiding spirit.
+- Archetypes and the psyche: Jung, Hillman and archetypal cosmology.
+- Myth and cosmology: Reading the cosmos as meaningful.
+
+
+# Traditions
+
+- Buddhism (https://tantrafiles.xyz/tradition/buddhism): The path of the Buddha: seeing suffering, its cause in craving, and its ending, through virtue, meditation and wisdom.
+  - Theravāda (https://tantrafiles.xyz/tradition/theravada): The oldest surviving Buddhist school, rooted in the Pāli discourses and the monastic code; strong today in Sri Lanka and Southeast Asia.
+    - Early suttas (https://tantrafiles.xyz/tradition/early-suttas): Practice read straight from the early discourses, outside the commentarial mainstream; Hillside Hermitage belongs here, drawing on Ñāṇavīra Thera.
+    - Thai Forest (https://tantrafiles.xyz/tradition/thai-forest): The forest monastic lineage of Ajahn Mun and Ajahn Chah.
+      - Ajahn Chah line (Wat Nong Pah Pong) (https://tantrafiles.xyz/tradition/chah-line): Includes Amaravati, Chithurst/Cittaviveka, Abhayagiri, Bodhinyana/BSWA, Wat Pah Nanachat, Wat Marp Jan, Wat Boonyawad, Tisarana, Birken.
+      - Dhammayut forest line (Ajahn Mun → Maha Boowa / Ajaan Lee) (https://tantrafiles.xyz/tradition/mun-boowa-line): Note: Ajahn Dtun, listed by the brief under this line, was ordained by Ajahn Chah (Mahānikāya) and is filed under chah-line.
+    - Insight meditation (https://tantrafiles.xyz/tradition/insight): The modern vipassanā movement and its Western retreat centres.
+    - Burmese meditation lineages (https://tantrafiles.xyz/tradition/burmese): Myanmar's modern meditation schools: Mahasi noting, Pa-Auk samatha-vipassanā, U Ba Khin and Goenka.
+      - Goenka Vipassana (U Ba Khin line) (https://tantrafiles.xyz/tradition/goenka-vipassana): Lay Vipassana in the line of Ledi Sayadaw, Saya Thetgyi and U Ba Khin, taught by S. N. Goenka in 10-day dana-funded courses.
+      - Mahasi method (noting) (https://tantrafiles.xyz/tradition/mahasi)
+      - Pa-Auk (samatha-first, Abhidhamma) (https://tantrafiles.xyz/tradition/pa-auk): No usable official English short talks found this pass.
+      - Mogok Sayadaw (dependent origination) (https://tantrafiles.xyz/tradition/mogok): Official channel is Burmese-language only; no English clips.
+      - Shwe Oo Min (natural awareness) (https://tantrafiles.xyz/tradition/shwe-oo-min)
+    - Sri Lankan Theravāda (forest & scholastic) (https://tantrafiles.xyz/tradition/sri-lankan): Hillside Hermitage is already deep in app (early-suttas).
+  - Mahāyāna (https://tantrafiles.xyz/tradition/mahayana): The "great vehicle": the bodhisattva ideal of awakening for the sake of all beings, and the teaching of emptiness.
+    - Zen (https://tantrafiles.xyz/tradition/zen): Chan and Zen: awakening through sitting, direct pointing and the teacher–student encounter, more than through scripture.
+      - Plum Village (https://tantrafiles.xyz/tradition/plum-village): Thich Nhat Hanh's Vietnamese Thiền community of engaged, mindful living.
+      - Sōtō Zen (https://tantrafiles.xyz/tradition/soto-zen): Dōgen's school of just-sitting (shikantaza); San Francisco Zen Center, Sanshin.
+        - White Plum Asanga (https://tantrafiles.xyz/tradition/white-plum): Maezumi's lineage network (Soto with Rinzai koan study).
+        - Order of Buddhist Contemplatives (https://tantrafiles.xyz/tradition/ocb): Shasta Abbey tradition founded by Houn Jiyu-Kennett.
+        - Order of Buddhist Contemplatives (Serene Reflection) (https://tantrafiles.xyz/tradition/serene-reflection): Soto Zen order founded by Jiyu-Kennett, seated at Shasta Abbey and Throssel Hole.
+      - Rinzai Zen (https://tantrafiles.xyz/tradition/rinzai-zen): The koan school of Japanese Zen; Zen Studies Society.
+      - Sanbo Zen (Sanbo Kyodan) (https://tantrafiles.xyz/tradition/sanbo-zen): Lay-oriented school combining Soto and Rinzai koan curricula.
+      - Ordinary Mind Zen (https://tantrafiles.xyz/tradition/ordinary-mind): Joko Beck's psychologically oriented lineage.
+    - Chan (https://tantrafiles.xyz/tradition/chan): Chinese meditation school, root of Zen, Seon and Thiền.
+      - Linji (Rinzai) line of Chan (https://tantrafiles.xyz/tradition/linji): Huatou / gong'an practice.
+      - Caodong (Soto) line of Chan (https://tantrafiles.xyz/tradition/caodong): Silent illumination (mozhao).
+      - Dharma Drum Mountain (https://tantrafiles.xyz/tradition/dharma-drum): Taiwanese Chan organisation of Sheng Yen holding both Linji and Caodong lines.
+      - Seon (Korean Zen) (https://tantrafiles.xyz/tradition/seon): Korean Chan; Jogye order; Kwan Um School in the West.
+        - Kwan Um School of Zen (https://tantrafiles.xyz/tradition/kwan-um): International Seon school of Seung Sahn.
+      - Thiền (https://tantrafiles.xyz/tradition/plum-village-thien): Vietnamese Chan; Plum Village is its best-known modern form.
+    - Tiantai (https://tantrafiles.xyz/tradition/tiantai): Lotus Sutra school; threefold truth; zhiguan (calming and contemplation).
+      - Tendai (https://tantrafiles.xyz/tradition/tendai): Japanese Tiantai, which also includes esoteric (taimitsu), Pure Land and Zen elements.
+    - Huayan (Kegon) (https://tantrafiles.xyz/tradition/huayan): Avatamsaka school; interpenetration of all phenomena.
+    - Pure Land (https://tantrafiles.xyz/tradition/pure-land): Devotion to Amitabha and rebirth in Sukhavati.
+      - Jōdo-shū (https://tantrafiles.xyz/tradition/jodo-shu): Honen's school.
+      - Jōdo Shinshū (Shin Buddhism) (https://tantrafiles.xyz/tradition/jodo-shinshu): Shinran's school; Buddhist Churches of America in the US.
+    - Nipponzan-Myohoji (https://tantrafiles.xyz/tradition/nipponzan-myohoji): Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas.
+  - Vajrayāna (https://tantrafiles.xyz/tradition/vajrayana): Tantric Buddhism: deity practice, mantra and the teacher's transmission as a swift path to awakening.
+    - Tibetan Buddhism (https://tantrafiles.xyz/tradition/tibetan): The Buddhism of the Himalaya, joining monastic study and debate with Vajrayāna practice and guidance for the dying.
+      - Gelug (https://tantrafiles.xyz/tradition/gelug): The Tibetan school of Tsongkhapa, headed in practice by the Dalai Lamas.
+        - FPMT (Foundation for the Preservation of the Mahayana Tradition) (https://tantrafiles.xyz/tradition/fpmt): International Gelug network founded by Lama Yeshe and Lama Zopa.
+      - Kagyu (https://tantrafiles.xyz/tradition/kagyu): Tibetan school of the mahamudra lineage from Tilopa and Naropa through Marpa and Milarepa, led by the Karmapas.
+        - Karma Kagyu (https://tantrafiles.xyz/tradition/karma-kagyu): Largest Kagyu branch, led by the Karmapas.
+        - Drikung Kagyu (https://tantrafiles.xyz/tradition/drikung-kagyu): Founded by Jigten Sumgön.
+        - Drukpa Kagyu (https://tantrafiles.xyz/tradition/drukpa-kagyu): State tradition of Bhutan.
+        - Shangpa Kagyu (https://tantrafiles.xyz/tradition/shangpa-kagyu): Separate lineage from Niguma and Sukhasiddhi, revived by Kalu Rinpoche.
+        - Mahamudra (the Great Seal) (https://tantrafiles.xyz/tradition/mahamudra): Practice lineage at the heart of Kagyu, also taught in Gelug.
+        - Shambhala (https://tantrafiles.xyz/tradition/shambhala): Trungpa's secular "warrior" path; Pema Chödrön trained in it.
+      - Nyingma (https://tantrafiles.xyz/tradition/nyingma): The oldest Tibetan school, tracing to Padmasambhava, home of Dzogchen.
+        - Dzogchen (Great Perfection) (https://tantrafiles.xyz/tradition/dzogchen): Teaching and practice lineage, not a separate institution; also held in Bön and taught across Rimé.
+      - Sakya (https://tantrafiles.xyz/tradition/sakya): Lamdre (path and its fruit) teachings; led by the Khön family.
+      - Jonang (https://tantrafiles.xyz/tradition/jonang): Known for shentong (other-emptiness) and Kalachakra; suppressed in central Tibet in the 17th c. and survives in Amdo.
+      - Bön (Yungdrung Bön) (https://tantrafiles.xyz/tradition/bon): Tibet's indigenous religion. It is not a Buddhist school, but it shares its institutions and Dzogchen with Buddhism. Placed here for browsing only.
+      - Rimé (non-sectarian) movement (https://tantrafiles.xyz/tradition/rime): An ecumenical revival across Nyingma, Kagyu, Sakya and Jonang, not a school.
+      - New Kadampa Tradition (https://tantrafiles.xyz/tradition/new-kadampa): Movement founded by Kelsang Gyatso in England, presenting itself as independent of the Tibetan schools (Gelug-derived; contested).
+    - East Asian esoteric Buddhism (https://tantrafiles.xyz/tradition/east-asian-esoteric): Chinese Zhenyan and its Japanese heirs.
+      - Shingon (https://tantrafiles.xyz/tradition/shingon): Kukai's esoteric school.
+  - Buddhist studies (academic) (https://tantrafiles.xyz/tradition/buddhist-studies): Scholarly lineage node: edges are academic_supervisor_of.
+  - Triratna Buddhist Community (https://tantrafiles.xyz/tradition/triratna): Western Buddhist movement founded by Sangharakshita in London in 1967 (formerly FWBO).
+- Hindu traditions (https://tantrafiles.xyz/tradition/hindu): The many paths that grew from the Vedas and Upanishads: knowledge, devotion, yoga and action.
+  - Vedānta (https://tantrafiles.xyz/tradition/vedanta): Philosophy built on the Upanishads, the Bhagavad Gītā and the Brahma Sūtras, asking how the self relates to Brahman.
+    - Advaita Vedānta (https://tantrafiles.xyz/tradition/advaita): Non-dual Vedānta: the Self (ātman) is Brahman, and the world of separate selves is an appearance.
+      - Inchegeri Sampradaya (https://tantrafiles.xyz/tradition/inchegeri): The Navnath line of Siddharameshwar and Nisargadatta Maharaj.
+      - Direct path (https://tantrafiles.xyz/tradition/direct-path): The non-dual enquiry into experience taught by Atmananda Krishna Menon and carried on by Jean Klein, Francis Lucille and Rupert Spira.
+      - Arsha Vidya (https://tantrafiles.xyz/tradition/arsha-vidya): Traditional teaching of Advaita Vedanta through the texts, in the line of Swami Dayananda Saraswati (Arsha Vidya Gurukulam, Q4796497).
+      - Chinmaya Mission (https://tantrafiles.xyz/tradition/chinmaya-mission)
+    - Ramakrishna Order (https://tantrafiles.xyz/tradition/ramakrishna-order): The monastic order founded on Ramakrishna's teaching and Vivekananda's mission: Vedānta lived as service.
+    - Divine Life Society (https://tantrafiles.xyz/tradition/divine-life-society): The order founded by Swami Sivananda in Rishikesh, carried on by Swami Chidananda.
+      - Sivananda Yoga Vedanta Centres (https://tantrafiles.xyz/tradition/sivananda-yoga): Swami Vishnudevananda's international centres teaching his guru Sivananda's yoga.
+      - Bihar School of Yoga (Satyananda Yoga) (https://tantrafiles.xyz/tradition/bihar-yoga): Yoga of Swami Satyananda, disciple of Sivananda, and the Bihar School of Yoga.
+    - Transcendental Meditation (https://tantrafiles.xyz/tradition/transcendental-meditation): Mantra meditation of Maharishi Mahesh Yogi.
+  - Kriya Yoga (https://tantrafiles.xyz/tradition/kriya-yoga): The line of Mahavatar Babaji, Lahiri Mahasaya and Paramahansa Yogananda.
+  - Anandamayi Ma Sangha (https://tantrafiles.xyz/tradition/anandamayi-sangha): The ashrams and monastics around Anandamayi Ma (Shree Shree Anandamayee Sangha, Kankhal and Varanasi), devotional and non-sectarian.
+  - Siddha Yoga (https://tantrafiles.xyz/tradition/siddha-yoga): Guru-yoga path founded by Swami Muktananda in the line of Bhagawan Nityananda: shaktipat, chanting and meditation, drawing on Kashmir Shaiva texts.
+  - Śaivism (https://tantrafiles.xyz/tradition/shaivism): Umbrella for Śiva-centred traditions: the ascetic Atimārga and the initiatory Mantramārga.
+    - Kashmir Shaivism (https://tantrafiles.xyz/tradition/kashmir-shaivism): A non-dual Tantric philosophy in which the world is the free, conscious play of Shiva, recognised as one's own self.
+      - Trika (https://tantrafiles.xyz/tradition/trika): Abhinavagupta's synthesis around the Mālinīvijayottara; Tantrāloka.
+      - Pratyabhijñā (Recognition) (https://tantrafiles.xyz/tradition/pratyabhijna): Philosophical school: liberation as recognising oneself as Śiva.
+      - Spanda (Vibration) (https://tantrafiles.xyz/tradition/spanda): Śiva Sūtras and Spanda Kārikās: consciousness as pulsation.
+      - Krama / Kālīkula (Mahārtha) (https://tantrafiles.xyz/tradition/krama): Kālī-centred phases (krama) of cognition; Twelve Kālīs.
+    - Pāśupata (Atimārga) (https://tantrafiles.xyz/tradition/pashupata): Earliest Śaiva ascetic order; ash, feigned madness, provoking censure.
+    - Śaiva Siddhānta (https://tantrafiles.xyz/tradition/shaiva-siddhanta): Mainstream ritual Śaivism of the Mantramārga; Sanskrit āgamas, later the Tamil Śaiva temple tradition. Kauai Aadheenam teaches a monistic form.
+    - Nāth / Siddha Siddhānta (https://tantrafiles.xyz/tradition/siddha-siddhanta): Nāth yogī order (Gorakhnāth); Siddha Siddhānta Paddhati; alchemy and haṭha.
+      - Haṭha Yoga (premodern) (https://tantrafiles.xyz/tradition/hatha): Physical-yogic methods first set out in Vajrayāna and Śaiva circles (Amṛtasiddhi, Dattātreyayogaśāstra, Haṭhapradīpikā).
+  - Śāktism (https://tantrafiles.xyz/tradition/shaktism): Goddess-centred traditions; parent of Kaula, Śrī Vidyā and Kālī lines.
+    - Śākta practice (Kālī, Kāmākhyā, Bhairavī) (https://tantrafiles.xyz/tradition/shakta): Bucket for living goddess practice not tied to a single classical school (Kāmākhyā upāsanā, Linga Bhairavi, Daśa Mahāvidyā).
+    - Śrī Vidyā (https://tantrafiles.xyz/tradition/sri-vidya): Worship of Lalitā Tripurasundarī through the Śrī Chakra and the fifteen-syllable mantra.
+    - Kaula / Kula (https://tantrafiles.xyz/tradition/kaula): Clan (kula) cults of yoginīs and Bhairava; source of many later Śākta and haṭha practices.
+  - Tantra studies (academic) (https://tantrafiles.xyz/tradition/tantra-studies): Not a tradition: a field tag for scholarly lectures (philology, history).
+  - Modern yoga lineages (https://tantrafiles.xyz/tradition/yoga-traditions)
+    - Krishnamacharya line (Viniyoga / KYM) (https://tantrafiles.xyz/tradition/krishnamacharya-yoga)
+  - Vaishnava bhakti (https://tantrafiles.xyz/tradition/vaishnava)
+    - Gaudiya Vaishnava (Chaitanya / ISKCON) (https://tantrafiles.xyz/tradition/gaudiya): Krishna devotion in the line of Chaitanya Mahaprabhu.
+      - ISKCON (Hare Krishna) (https://tantrafiles.xyz/tradition/iskcon): International Society for Krishna Consciousness, founded by A. C. Bhaktivedanta Swami Prabhupada in 1966.
+  - Hindu studies (academic) (https://tantrafiles.xyz/tradition/hindu-studies): Scholarly lineage node.
+  - Swaminarayan Sampradaya (https://tantrafiles.xyz/tradition/swaminarayan): Vaishnava tradition of Swaminarayan, including BAPS.
+  - Brahma Kumaris (https://tantrafiles.xyz/tradition/brahma-kumaris): Spiritual movement founded in Sindh in the 1930s, teaching Raja Yoga meditation; headquarters at Mount Abu.
+- Christian traditions (https://tantrafiles.xyz/tradition/christian): The traditions that follow Jesus of Nazareth, from the Gospels and the early Church to the mystics.
+  - Christian mysticism (https://tantrafiles.xyz/tradition/christian-mysticism): Christians who sought direct union with God: detachment, contemplative prayer and the birth of God in the soul.
+    - Carmelites (https://tantrafiles.xyz/tradition/carmelite): Contemplative order of Teresa of Avila and John of the Cross.
+  - Gnosticism (https://tantrafiles.xyz/tradition/gnosticism): Early Christian and related movements of saving knowledge (gnosis); known mostly through texts such as the Nag Hammadi library.
+  - Christian Meditation (John Main / WCCM) (https://tantrafiles.xyz/tradition/christian-meditation-wccm): Contemplative prayer with a single prayer word, taught by John Main and the World Community for Christian Meditation.
+  - Franciscan contemplative (Rohr / CAC) (https://tantrafiles.xyz/tradition/franciscan): Followers of St Francis; in the UK including the Anglican Society of St Francis.
+  - Wisdom Christianity and Centering Prayer (https://tantrafiles.xyz/tradition/wisdom-christianity)
+  - Orthodox hesychasm (https://tantrafiles.xyz/tradition/hesychasm): Eastern Orthodox prayer of inner stillness and the Jesus Prayer.
+  - Quakers (Religious Society of Friends) (https://tantrafiles.xyz/tradition/quaker): Christian movement begun by George Fox in 1652, worshipping in expectant silence.
+  - Benedictine monasticism (https://tantrafiles.xyz/tradition/benedictine): Monastic life under the Rule of St Benedict.
+    - Cistercians (Trappists) (https://tantrafiles.xyz/tradition/cistercian): Reformed Benedictines; Trappists are the Strict Observance.
+  - Ignatian spirituality (https://tantrafiles.xyz/tradition/ignatian): The Jesuit way of the Spiritual Exercises of Ignatius of Loyola.
+  - Celtic Christianity (https://tantrafiles.xyz/tradition/celtic-christianity): The early Christianity of Britain and Ireland (Columba, Aidan, Cuthbert, David) and its modern revival.
+- Platonic tradition (https://tantrafiles.xyz/tradition/platonic): Philosophy as the care of the soul, turning from the world of change toward the eternal Forms and the Good.
+  - Neoplatonism (https://tantrafiles.xyz/tradition/neoplatonism): Late antique Platonism: everything flows from the One, and the soul can return to it through contemplation.
+    - Renaissance Platonism (https://tantrafiles.xyz/tradition/renaissance-platonism): The revival of Plato and Plotinus in fifteenth-century Florence, joining Platonic philosophy with Christian faith.
+    - Theurgy (Iamblichean Platonism) (https://tantrafiles.xyz/tradition/theurgy)
+  - Presocratic mysticism (Parmenides, Empedocles) (https://tantrafiles.xyz/tradition/presocratic-mysticism)
+- Western esotericism (https://tantrafiles.xyz/tradition/esoteric): Western paths of hidden knowledge: Hermeticism, Theosophy, Anthroposophy and the Fourth Way.
+  - Theosophy (https://tantrafiles.xyz/tradition/theosophy): The movement of Blavatsky and the Theosophical Society, joining Eastern ideas of karma and rebirth with Western occultism.
+  - Anthroposophy (https://tantrafiles.xyz/tradition/anthroposophy): Rudolf Steiner's spiritual science: a path of clear thinking toward knowledge of spiritual worlds, karma and repeated earth lives.
+  - The Fourth Way (https://tantrafiles.xyz/tradition/fourth-way): Gurdjieff's path of self-remembering and conscious effort in the middle of ordinary life.
+  - Hermeticism (https://tantrafiles.xyz/tradition/hermeticism)
+  - Alchemy (https://tantrafiles.xyz/tradition/alchemy)
+  - Western magic (https://tantrafiles.xyz/tradition/western-magic): Ritual and initiatory magic in the Hermetic and Qabalistic line: the Golden Dawn, Thelema, the Inner Light.
+    - Hermetic Order of the Golden Dawn (https://tantrafiles.xyz/tradition/golden-dawn): Initiatory order founded in London in 1888 that shaped modern Western magic.
+    - Thelema (https://tantrafiles.xyz/tradition/thelema): Aleister Crowley's religious and magical system ("Do what thou wilt").
+  - Christian theosophy (Böhme) (https://tantrafiles.xyz/tradition/christian-theosophy)
+  - Rosicrucianism (https://tantrafiles.xyz/tradition/rosicrucianism)
+  - Academic study of esotericism (Paris–Amsterdam–Exeter) (https://tantrafiles.xyz/tradition/western-esotericism-scholarship)
+  - The imaginal (Corbin, Hillman, Cheetham) (https://tantrafiles.xyz/tradition/imaginal)
+    - Jungian depth psychology (https://tantrafiles.xyz/tradition/jungian)
+    - Archetypal cosmology and divination (https://tantrafiles.xyz/tradition/archetypal-cosmology)
+  - Swedenborgianism (https://tantrafiles.xyz/tradition/swedenborgian): Thought and church following the visions of Emanuel Swedenborg.
+  - Spiritualism (https://tantrafiles.xyz/tradition/spiritualism): Movement based on communication with the dead through mediums.
+- Independent (https://tantrafiles.xyz/tradition/independent): Teachers who stand outside any tradition.
+  - Modern non-dual teachers (https://tantrafiles.xyz/tradition/modern-nondual): Contemporary teachers of awakening who draw on Zen, Advaita and other sources without belonging to one lineage.
+  - Krishnamurti (https://tantrafiles.xyz/tradition/krishnamurti): J. Krishnamurti's teaching after he left Theosophy in 1929: no path, no authority, freedom from the known.
+- Sufism (https://tantrafiles.xyz/tradition/sufism): The inner, mystical path of Islam: remembrance of God (dhikr), the master and the order, the poetry of love.
+  - Akbarian school (Ibn Arabi) (https://tantrafiles.xyz/tradition/akbarian): Study and practice centred on Ibn 'Arabi's teaching of the unity of being, as at Beshara.
+  - Mevlevi / Rumi tradition (https://tantrafiles.xyz/tradition/mevlevi-rumi)
+  - Naqshbandi-Haqqani order (https://tantrafiles.xyz/tradition/naqshbandi): Sufi order known for silent remembrance (dhikr) and tracing its chain through Abu Bakr.
+  - Inayatiyya (universal Sufism, Chishti roots) (https://tantrafiles.xyz/tradition/inayati): Universal Sufism of Hazrat Inayat Khan, founded in London around 1914-1917.
+  - Nimatullahi order (https://tantrafiles.xyz/tradition/nimatullahi)
+- Jewish mysticism (https://tantrafiles.xyz/tradition/jewish): Merkavah, Kabbalah, the Zohar and Hasidism: the contemplative and mystical currents of Judaism.
+  - Merkavah / Hekhalot mysticism (https://tantrafiles.xyz/tradition/merkavah)
+  - Kabbalah (theosophical and ecstatic) (https://tantrafiles.xyz/tradition/kabbalah): Jewish mystical tradition of the sefirot and the hidden meanings of Torah; also its modern popular forms.
+    - Zoharic Kabbalah (https://tantrafiles.xyz/tradition/zohar)
+  - Hasidism (https://tantrafiles.xyz/tradition/hasidism)
+    - Neo-Hasidism (https://tantrafiles.xyz/tradition/neo-hasidism)
+- Philosophy of the sacred (https://tantrafiles.xyz/tradition/philosophy-of-the-sacred): Contemporary philosophers and scientists on consciousness, meaning and the sacred: idealism, the divided brain, the meaning crisis, perennialism.
+  - Perennialism / Traditionalist school (https://tantrafiles.xyz/tradition/perennialism)
+  - Analytic idealism (https://tantrafiles.xyz/tradition/analytic-idealism)
+- Modern Paganism (https://tantrafiles.xyz/tradition/modern-paganism): Druidry, Wicca, Heathenry and goddess spirituality: nature-centred traditions revived or founded in the modern era.
+  - Druidry (https://tantrafiles.xyz/tradition/druidry): Modern Druid spirituality of nature, the seasonal festivals and bardic arts, as in OBOD.
+  - Wicca (https://tantrafiles.xyz/tradition/wicca): Modern pagan witchcraft publicised by Gerald Gardner from the 1950s, with covens, the Goddess and God and the wheel of the year.
+  - Heathenry (https://tantrafiles.xyz/tradition/heathenry): Modern revival of pre-Christian Germanic and Norse religion (Asatru, Odinism).
+  - Goddess spirituality (https://tantrafiles.xyz/tradition/goddess-spirituality): Devotion to the divine feminine as Goddess, centred in the UK on Glastonbury.
+- Sikhism (https://tantrafiles.xyz/tradition/sikh): The path of the ten Gurus and the Guru Granth Sahib: remembrance of the one Name, honest work and sharing.
+
+# Practices
+
+- The five remembrances (Theravāda; https://tantrafiles.xyz/practice/the-five-remembrances) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Mindfulness of death (maranasati) (Theravāda; https://tantrafiles.xyz/practice/mindfulness-of-death-maranasati) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Recollecting the round (Early suttas; https://tantrafiles.xyz/practice/recollecting-the-round) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell. Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Powa: an introduction to transference at death (Tibetan; https://tantrafiles.xyz/practice/powa-an-introduction-to-transference-at-death) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary. Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Preparing for the bardo (Tibetan; https://tantrafiles.xyz/practice/preparing-for-the-bardo) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Self-enquiry: who dies? (Advaita Vedānta; https://tantrafiles.xyz/practice/self-enquiry-who-dies) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Practising dying (melete thanatou) (Platonic; https://tantrafiles.xyz/practice/practising-dying-melete-thanatou) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Powa: an introduction (Tibetan; https://tantrafiles.xyz/practice/powa-an-introduction) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary. Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Analytic meditation on the stages of the path (Gelug; https://tantrafiles.xyz/practice/analytic-meditation-on-the-stages-of-the-path) Cautions: Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Self-enquiry (Advaita Vedānta; https://tantrafiles.xyz/practice/self-enquiry)
+- Contemplating not-self (Theravāda; https://tantrafiles.xyz/practice/contemplating-not-self)
+- Shiva Process self-inquiry (Kashmir Shaivism; https://tantrafiles.xyz/practice/shiva-process-self-inquiry)
+- "What am I? Don't know" (Seon (Korean Zen); https://tantrafiles.xyz/practice/what-am-i-don-t-know) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Owner of my actions (Theravāda; https://tantrafiles.xyz/practice/owner-of-my-actions)
+- Mindfulness of breathing (Theravāda; https://tantrafiles.xyz/practice/mindfulness-of-breathing) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Goodwill (metta) (Theravāda; https://tantrafiles.xyz/practice/goodwill-metta)
+- Resting in the gap between breaths (Vijñāna Bhairava dhāraṇā) (Kashmir Shaivism; https://tantrafiles.xyz/practice/resting-in-the-gap-between-breaths-vijnana-bhairava-dharana) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Recognition (pratyabhijñā) contemplation (Pratyabhijñā (Recognition); https://tantrafiles.xyz/practice/recognition-pratyabhijna-contemplation)
+- Drawing the Śrī Chakra as meditation (Śrī Vidyā; https://tantrafiles.xyz/practice/drawing-the-sri-chakra-as-meditation)
+- Basic Śaiva Siddhānta meditation (Śaiva Siddhānta; https://tantrafiles.xyz/practice/basic-saiva-siddhanta-meditation) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Mantra repetition (japa) (Śākta practice (Kālī, Kāmākhyā, Bhairavī); https://tantrafiles.xyz/practice/mantra-repetition-japa)
+- Ānāpānasati (breath meditation, "Method 2") (Dhammayut forest line (Ajahn Mun → Maha Boowa / Ajaan Lee); https://tantrafiles.xyz/practice/anapanasati-breath-meditation-method-2) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- "Buddho" recollection (Thai Forest; https://tantrafiles.xyz/practice/buddho-recollection) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Walking meditation (jongrom) (Ajahn Chah line (Wat Nong Pah Pong); https://tantrafiles.xyz/practice/walking-meditation-jongrom)
+- Mahasi noting (Mahasi method (noting); https://tantrafiles.xyz/practice/mahasi-noting)
+- Natural awareness (right attitude) (Shwe Oo Min (natural awareness); https://tantrafiles.xyz/practice/natural-awareness-right-attitude)
+- Satipaṭṭhāna (four establishings of mindfulness) (Early suttas; https://tantrafiles.xyz/practice/satipatthana-four-establishings-of-mindfulness)
+- RAIN (Insight meditation; https://tantrafiles.xyz/practice/rain)
+- Open awareness (shamatha without a support) (Tibetan Buddhism; https://tantrafiles.xyz/practice/open-awareness-shamatha-without-a-support)
+- Looking at the mind (Mahamudra) (Kagyu; https://tantrafiles.xyz/practice/looking-at-the-mind-mahamudra)
+- Resting in rigpa (Dzogchen), orientation only (Nyingma; https://tantrafiles.xyz/practice/resting-in-rigpa-dzogchen-orientation-only) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
+- Shikantaza (just sitting) (Sōtō Zen; https://tantrafiles.xyz/practice/shikantaza-just-sitting)
+- Koan practice with Mu (Rinzai Zen; https://tantrafiles.xyz/practice/koan-practice-with-mu) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Silent illumination (mozhao) (Chan; https://tantrafiles.xyz/practice/silent-illumination-mozhao)
+- Bhairavi Sadhana (Isha) (Śākta practice (Kālī, Kāmākhyā, Bhairavī); https://tantrafiles.xyz/practice/bhairavi-sadhana-isha) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
+- Śravaṇa–manana–nididhyāsana (Arsha Vidya; https://tantrafiles.xyz/practice/sravana-manana-nididhyasana)
+- Japa (repetition of a divine name) (Ramakrishna Order; https://tantrafiles.xyz/practice/japa-repetition-of-a-divine-name)
+- Hare Krishna mahāmantra (japa and kīrtan) (Gaudiya Vaishnava (Chaitanya / ISKCON); https://tantrafiles.xyz/practice/hare-krishna-mahamantra-japa-and-kirtan)
+- Nembutsu / nianfo (Pure Land; https://tantrafiles.xyz/practice/nembutsu-nianfo)
+- Christian meditation with a mantra (Maranatha) (Christian Meditation (John Main / WCCM); https://tantrafiles.xyz/practice/christian-meditation-with-a-mantra-maranatha)
+- Centering Prayer (Wisdom Christianity and Centering Prayer; https://tantrafiles.xyz/practice/centering-prayer)
+- Lectio Divina (Practice; https://tantrafiles.xyz/practice/lectio-divina)
+- The Jesus Prayer (prayer of the heart) (Orthodox hesychasm; https://tantrafiles.xyz/practice/the-jesus-prayer-prayer-of-the-heart)
+- Zikr (remembrance) in the Inayati way (Inayatiyya (universal Sufism, Chishti roots); https://tantrafiles.xyz/practice/zikr-remembrance-in-the-inayati-way) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Dhikr and breathwork (Sufism; https://tantrafiles.xyz/practice/dhikr-and-breathwork) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Khatm-i Khwajagan (Naqshbandi group dhikr) (Naqshbandi-Haqqani order; https://tantrafiles.xyz/practice/khatm-i-khwajagan-naqshbandi-group-dhikr)
+- Weekly parashah reflection (neo-Hasidic) (Neo-Hasidism; https://tantrafiles.xyz/practice/weekly-parashah-reflection-neo-hasidic)
+- Calming and contemplation (zhiguan) (Tiantai; https://tantrafiles.xyz/practice/calming-and-contemplation-zhiguan) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Rudi's double breath (Kashmir Shaivism; https://tantrafiles.xyz/practice/rudi-s-double-breath) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
+- Khecarī mudrā (historical description only) (Haṭha Yoga (premodern); https://tantrafiles.xyz/practice/khecari-mudra-historical-description-only) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
+- Dream yoga, first steps (Bön (Yungdrung Bön); https://tantrafiles.xyz/practice/dream-yoga-first-steps)
+- Feeding your demons (a modern adaptation of Chöd) (Nyingma; https://tantrafiles.xyz/practice/feeding-your-demons-a-modern-adaptation-of-chod)
+- The view from above (spiritual exercise) (Practice; https://tantrafiles.xyz/practice/the-view-from-above-spiritual-exercise)
+- Hermetic ascent and rebirth (Corpus Hermeticum XIII) (Hermeticism; https://tantrafiles.xyz/practice/hermetic-ascent-and-rebirth-corpus-hermeticum-xiii)
+- Active imagination / imaginal attention (The imaginal (Corbin, Hillman, Cheetham); https://tantrafiles.xyz/practice/active-imagination-imaginal-attention)
+- Neelakantha Meditation (mantra-based) (Kashmir Shaivism; https://tantrafiles.xyz/practice/neelakantha-meditation)
+- Nyāsa — placing mantra on the body (Śrī Vidyā; https://tantrafiles.xyz/practice/nyasa)
+- Contemplating the Twelve Kālīs (Krama) (Krama / Kālīkula (Mahārtha); https://tantrafiles.xyz/practice/twelve-kalis)
+- Mettā (loving-kindness) (Early suttas; https://tantrafiles.xyz/practice/metta-loving-kindness)
+- Body sweeping (Goenka vipassanā) (Goenka Vipassana (U Ba Khin line); https://tantrafiles.xyz/practice/body-sweeping-goenka-vipassana)
+- Yoga nidrā (Bihar School of Yoga (Satyananda Yoga); https://tantrafiles.xyz/practice/yoga-nidra) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Five points of yoga (Sivananda) (Sivananda Yoga Vedanta Centres; https://tantrafiles.xyz/practice/five-points-of-yoga-sivananda) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell. Reflections on death can stir grief. Go gently, and set the practice aside if it overwhelms you.
+- Breath-centred, individually adapted āsana (viniyoga) (Krishnamacharya line (Viniyoga / KYM); https://tantrafiles.xyz/practice/breath-centred-individually-adapted-asana-viniyoga) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Calm abiding with a support (Tibetan Buddhism; https://tantrafiles.xyz/practice/shamatha-with-object) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Tonglen (sending and taking) (Tibetan Buddhism; https://tantrafiles.xyz/practice/tonglen) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Mind training (lojong) slogans (Tibetan Buddhism; https://tantrafiles.xyz/practice/lojong-slogans)
+- Nine breathings of purification (Bön (Yungdrung Bön); https://tantrafiles.xyz/practice/nine-breathings) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Zazen posture and breath (Sōtō Zen; https://tantrafiles.xyz/practice/zazen) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Huatou (critical phrase) (Chan; https://tantrafiles.xyz/practice/huatou)
+- Mindful breathing with gathas (Plum Village; https://tantrafiles.xyz/practice/mindful-breathing-pv) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Walking meditation (Plum Village; https://tantrafiles.xyz/practice/walking-meditation) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+- Ajikan (A-syllable meditation) (Shingon; https://tantrafiles.xyz/practice/ajikan) [traditionally given by a teacher] Cautions: Orientation only: this practice is traditionally learned from a qualified teacher in its lineage. Read and listen; do not attempt it from a summary.
+- Video lectio (short contemplative reading) (Christian Meditation (John Main / WCCM); https://tantrafiles.xyz/practice/video-lectio)
+- Welcoming Practice (Wisdom Christianity and Centering Prayer; https://tantrafiles.xyz/practice/welcoming-practice)
+- Neoplatonic contemplation ("strip away everything") (Neoplatonism; https://tantrafiles.xyz/practice/neoplatonic-contemplation)
+- Letter-combination meditation (ecstatic Kabbalah) (Kabbalah (theosophical and ecstatic); https://tantrafiles.xyz/practice/unio-mystica-letters) Cautions: Keep the breath natural and unforced. Stop if you feel dizzy, anxious or unwell.
+
+# Places by country
+
+- GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
+- IN: 196 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- US: 59 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
+- MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
+- NP: 28 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
+- TH: 23 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
+- AU: 14 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; ...)
+- LK: 14 places (Island Hermitage; Forest Hermitage Udawattakele; Buddhist Publication Society; Nissaraṇa Monastery; Nā Uyana Monastery; Hillside Hermitage; Sri Maha Bodhi; Temple of the Tooth; ...)
+- FR: 13 places (Lerab Ling; Plum Village Monastery; Maison de l'Inspir; Taizé Community; Grande Chartreuse; Château du Prieuré; Centre Védantique Ramakrichna; Bonnevaux (WCCM international centre); ...)
+- CN: 10 places (Sera Monastery (Lhasa); Drepung Monastery; Ganden Monastery; Tsurphu Monastery; Jokhang; Potala Palace; Samye; Shaolin Monastery; ...)
+- CA: 9 places (Tisarana Buddhist Monastery; Birken Forest Buddhist Monastery; Gampo Abbey; Sivananda Ashram Yoga Camp; ...)
+- JP: 8 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple)
+- IT: 7 places (Santacittārāma; Istituto Lama Tzong Khapa; Bose Monastic Community; Basilica of San Francesco d'Assisi; Monastery of Saint Benedict; Villa Medici at Careggi)
+- DE: 5 places (Muttodaya; European Institute of Applied Buddhism; Predigerkirche Erfurt)
+- GR: 5 places (Mount Athos; Platonic Academy; Ancient Agora of Athens; Archaeological Site of Delphi; Pythagoreion)
+- BR: 5 places ()
+- ES: 4 places (Monastery of the Incarnation; Guhyaloka)
+- NZ: 3 places (Bodhinyanarama Monastery; Vimutti Monastery)
+- CH: 3 places (Kloster Dhammapala; Goetheanum)
+- EG: 3 places (Saint Catherine Monastery; Nag Hammadi; Coptic Museum)
+- ID: 3 places ()
+- VN: 2 places (Từ Hiếu pogoda)
+- PL: 2 places (Jakob Böhme House)
+- AR: 2 places ()
+- CO: 2 places ()
+- KH: 2 places ()
+- TW: 2 places ()
+- IE: 1 places (Dzogchen Beara)
+- PT: 1 places (Monte Sahaja)
+- AT: 1 places ()
+- BE: 1 places ()
+- CL: 1 places ()
+- CR: 1 places ()
+- HK: 1 places ()
+- IL: 1 places ()
+- IR: 1 places ()
+- KR: 1 places ()
+- LT: 1 places ()
+- LV: 1 places ()
+- MN: 1 places ()
+- MX: 1 places ()
+- MY: 1 places ()
+- NL: 1 places ()
+- PE: 1 places ()
+- PH: 1 places ()
+- RU: 1 places ()
+- SE: 1 places ()
+- VE: 1 places ()
+- ZA: 1 places ()

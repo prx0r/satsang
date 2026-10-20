@@ -1,0 +1,101 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/edge.json",
+ "title": "Lineage / relation edge",
+ "description": "A directed, sourced relation. Two lineage families are first-class: dharma (teacher_of, ordained_by, dharma_heir_of, studied_with) and academic (academic_supervisor_of, edited, translated). Direction always reads src -> dst: src teacher_of dst.",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "edge"
+  },
+  "id": {
+   "type": "string",
+   "description": "Deterministic: <src>~<type>~<dst> (slugs), so the same fact never gets two ids."
+  },
+  "src": {
+   "$ref": "common.json#/$defs/gid"
+  },
+  "dst": {
+   "$ref": "common.json#/$defs/gid"
+  },
+  "rel": {
+   "type": "string",
+   "enum": [
+    "teacher_of",
+    "studied_with",
+    "ordained_by",
+    "dharma_heir_of",
+    "academic_supervisor_of",
+    "influenced",
+    "translated",
+    "commented_on",
+    "edited",
+    "founded",
+    "lineage_of",
+    "member_of",
+    "abbot_of",
+    "teacher_at",
+    "expounds",
+    "parallels",
+    "sister_of"
+   ]
+  },
+  "lineage": {
+   "type": "string",
+   "enum": [
+    "dharma",
+    "academic",
+    "influence",
+    "institutional",
+    "textual",
+    "geographic"
+   ]
+  },
+  "when": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "conf": {
+   "type": "string",
+   "enum": [
+    "high",
+    "medium",
+    "low"
+   ]
+  },
+  "basis": {
+   "type": "string",
+   "enum": [
+    "documented",
+    "scholarly",
+    "traditional"
+   ]
+  },
+  "contested": {
+   "type": "string",
+   "description": "Short note when disputed; shown with the edge."
+  },
+  "note": {
+   "type": "string",
+   "maxLength": 300
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/source"
+   }
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "src",
+  "dst",
+  "rel",
+  "lineage",
+  "conf"
+ ],
+ "additionalProperties": true
+}

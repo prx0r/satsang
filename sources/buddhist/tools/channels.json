@@ -1,0 +1,194 @@
+[
+ {
+  "key": "bswa",
+  "name": "Buddhist Society of Western Australia",
+  "id": "UC6M_EhnSSdTG_SXUp6IAWmQ",
+  "tradition": "thai-forest",
+  "owner": "BSWA",
+  "default": "ajahn-brahm"
+ },
+ {
+  "key": "amaravati",
+  "name": "Amaravati Buddhist Monastery",
+  "id": "UCsgmmAelfZ2kfXZ08xlHpDw",
+  "tradition": "thai-forest",
+  "owner": "Amaravati Buddhist Monastery",
+  "default": null
+ },
+ {
+  "key": "abhayagiri",
+  "name": "Abhayagiri",
+  "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+  "tradition": "thai-forest",
+  "owner": "Abhayagiri Buddhist Monastery",
+  "default": null
+ },
+ {
+  "key": "thanissaro",
+  "name": "Dhamma Talks by Thanissaro Bhikkhu",
+  "id": "UC6FSq_ptJ-I6aTHT-XA_e0Q",
+  "tradition": "thai-forest",
+  "owner": "Metta Forest Monastery / dhammatalks.org",
+  "default": "thanissaro-bhikkhu"
+ },
+ {
+  "key": "thanissaro-short",
+  "name": "Short Dhamma Talks by Thanissaro Bhikkhu",
+  "id": "UCQRkIum1cnPNI5QZ0XtIMWw",
+  "tradition": "thai-forest",
+  "owner": "Metta Forest Monastery / dhammatalks.org",
+  "default": "thanissaro-bhikkhu"
+ },
+ {
+  "key": "plumvillage",
+  "name": "Plum Village",
+  "id": "UCcv7KJIAsiddB2YRegvrF7g",
+  "tradition": "plum-village",
+  "owner": "Plum Village Community of Engaged Buddhism",
+  "default": null
+ },
+ {
+  "key": "plumvillage-app",
+  "name": "Plum Village App",
+  "id": "UCytzR1tkUYoF5DjGYiYkhGQ",
+  "tradition": "plum-village",
+  "owner": "Plum Village Community of Engaged Buddhism",
+  "default": null
+ },
+ {
+  "key": "sfzc",
+  "name": "San Francisco Zen Center",
+  "id": "UCs0DppW7fgRWfUTMvdhLqHQ",
+  "tradition": "soto-zen",
+  "owner": "San Francisco Zen Center",
+  "default": null
+ },
+ {
+  "key": "sanshin",
+  "name": "Sanshin Zen Community",
+  "id": "UCoApt_ss-FbBqtNM4xyPx7A",
+  "tradition": "soto-zen",
+  "owner": "Sanshin Zen Community",
+  "default": "shohaku-okumura"
+ },
+ {
+  "key": "upaya",
+  "name": "Upaya Zen Center",
+  "id": "UCd3X5aUGZogMjdCMKoyk6tg",
+  "tradition": "zen",
+  "owner": "Upaya Zen Center",
+  "default": null
+ },
+ {
+  "key": "mingyur",
+  "name": "Yongey Mingyur Rinpoche",
+  "id": "UCv-oUk8x6SGHMOLrCMDNrsw",
+  "tradition": "tibetan",
+  "owner": "Tergar International",
+  "default": "mingyur-rinpoche"
+ },
+ {
+  "key": "tergar",
+  "name": "Tergar Meditation Community",
+  "id": "UCQPdChAO9IoHRio2WMGJJzA",
+  "tradition": "tibetan",
+  "owner": "Tergar International",
+  "default": "mingyur-rinpoche"
+ },
+ {
+  "key": "dalailama",
+  "name": "Dalai Lama",
+  "id": "UCiPJ_g02LuOgOG0ZNk5j1jA",
+  "tradition": "tibetan",
+  "owner": "Office of His Holiness the Dalai Lama",
+  "default": "dalai-lama"
+ },
+ {
+  "key": "pundarika",
+  "name": "Pundarika",
+  "id": "UCchLmxF7jugFQg-gXIyeyFA",
+  "tradition": "tibetan",
+  "owner": "Pundarika Foundation (Tsoknyi Rinpoche)",
+  "default": "tsoknyi-rinpoche"
+ },
+ {
+  "key": "pundarika-uk",
+  "name": "Pundarika UK",
+  "id": "UCgagX3IHAZ4xFGf_lZa3R4w",
+  "tradition": "tibetan",
+  "owner": "Pundarika Foundation (Tsoknyi Rinpoche)",
+  "default": "tsoknyi-rinpoche"
+ },
+ {
+  "key": "pamc",
+  "name": "Pa-Auk Meditation Centre Singapore",
+  "id": "UCUJYhS7U-1AnCxqlRJ42TeQ",
+  "tradition": "pa-auk",
+  "owner": "Pa-Auk Meditation Centre (Singapore)",
+  "default": null
+ },
+ {
+  "key": "tarabrach",
+  "name": "Tara Brach",
+  "id": "UCE3E-d8dUieqIbKYIO5-pFg",
+  "tradition": "insight",
+  "owner": "Tara Brach",
+  "default": "tara-brach"
+ },
+ {
+  "key": "kornfield",
+  "name": "Jack Kornfield",
+  "id": "UC5JayBKk-Bynk6XnUnU7vLA",
+  "tradition": "insight",
+  "owner": "Jack Kornfield",
+  "default": "jack-kornfield"
+ },
+ {
+  "key": "imc",
+  "name": "Insight Meditation Center",
+  "id": "UCGliqsod-tQoGiHahxS9Wig",
+  "tradition": "insight",
+  "owner": "Insight Meditation Center (Redwood City)",
+  "default": null
+ },
+ {
+  "key": "spiritrock",
+  "name": "Spirit Rock Meditation Center",
+  "id": "UCgzpI-67mXQuaPExO9HbnLw",
+  "tradition": "insight",
+  "owner": "Spirit Rock Meditation Center",
+  "default": null
+ },
+ {
+  "key": "ims",
+  "name": "Insight Meditation Society",
+  "id": "UCxJ3WKgW-VEry9v212-vEDw",
+  "tradition": "insight",
+  "owner": "Insight Meditation Society",
+  "default": null
+ },
+ {
+  "key": "hardcorezen",
+  "name": "Hardcore Zen",
+  "id": "UCav0RPngCHFrVUl8iGxnilw",
+  "tradition": "soto-zen",
+  "owner": "Brad Warner",
+  "default": "brad-warner"
+ },
+ {
+  "key": "zss",
+  "name": "The Zen Studies Society",
+  "id": "UCLLm2o606Q6Qjq5O9UdMuoQ",
+  "tradition": "rinzai-zen",
+  "owner": "Zen Studies Society",
+  "default": null
+ },
+ {
+  "key": "mountaincloud",
+  "name": "Mountain Cloud Zen Center",
+  "id": "UCeMfJn7LrgajSTSVf-z-iEw",
+  "tradition": "zen",
+  "owner": "Mountain Cloud Zen Center",
+  "default": null
+ }
+]

@@ -1,0 +1,1595 @@
+{
+ "_note": "places group people additions (2026-10-20). Same shape as app/wisegraph/people.json entries; all role/kind figure (official-video check not done in this pass). years and living from Wikidata P569/P570 where an item exists; living=true means no death date on Wikidata and born after 1915. Bios are Wiser's own words. Existing ids (anandamayi-ma, swami-sivananda, sri-ranjit-maharaj) are not duplicated.",
+ "people": [
+  {
+   "id": "ajahn-sao",
+   "name": "Ajahn Sao Kantasīlo",
+   "short": "Ajahn Sao Kantasīlo",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q4699505",
+   "years": "1859–1941",
+   "living": false,
+   "bio": "Thai forest monk who taught Ajahn Mun and is counted as a co-founder of the Thai Forest tradition.",
+   "aliases": [
+    "ajahn sao",
+    "luang pu sao"
+   ],
+   "works": [],
+   "source": "Wikidata Q4699505 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-fuang",
+   "name": "Ajaan Fuang Jotiko",
+   "short": "Ajaan Fuang Jotiko",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q86351758",
+   "years": "1915–1986",
+   "living": false,
+   "bio": "Student of Ajaan Lee who led Wat Dhammasathit and trained Thanissaro Bhikkhu.",
+   "aliases": [
+    "ajaan fuang",
+    "ajahn fuang"
+   ],
+   "works": [],
+   "source": "Wikidata Q86351758 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-maha-boowa",
+   "name": "Ajahn Mahā Boowa",
+   "short": "Ajahn Mahā Boowa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q352857",
+   "years": "1913–2011",
+   "living": false,
+   "bio": "Senior disciple of Ajahn Mun, founder of Wat Pa Ban Taad and author of Mun's best-known biography.",
+   "aliases": [
+    "ajahn maha boowa",
+    "luangta maha bua",
+    "maha bua"
+   ],
+   "works": [],
+   "source": "Wikidata Q352857 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-thate",
+   "name": "Ajahn Thate Desaransi",
+   "short": "Ajahn Thate Desaransi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q4699503",
+   "years": "1902–1994",
+   "living": false,
+   "bio": "Long-lived forest master and Mun disciple, abbot of Wat Hin Mak Peng on the Mekong.",
+   "aliases": [
+    "ajahn thate",
+    "luang pu thate"
+   ],
+   "works": [],
+   "source": "Wikidata Q4699503 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-liem",
+   "name": "Ajahn Liem Ṭhitadhammo",
+   "short": "Ajahn Liem Ṭhitadhammo",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Ajahn Chah's successor as abbot of Wat Nong Pah Pong.",
+   "aliases": [
+    "ajahn liem",
+    "luang por liem"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "ajahn-jayasaro",
+   "name": "Ajahn Jayasāro",
+   "short": "Ajahn Jayasāro",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q20045576",
+   "years": "1958–",
+   "living": true,
+   "bio": "English-born monk of Ajahn Chah's line, former abbot of Wat Pah Nanachat, who teaches widely in Thai.",
+   "aliases": [
+    "ajahn jayasaro"
+   ],
+   "works": [],
+   "source": "Wikidata Q20045576 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-viradhammo",
+   "name": "Ajahn Viradhammo",
+   "short": "Ajahn Viradhammo",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q11684699",
+   "years": "1947–",
+   "living": true,
+   "bio": "Canadian-born disciple of Ajahn Chah and abbot of Tisarana Monastery in Ontario.",
+   "aliases": [
+    "ajahn viradhammo"
+   ],
+   "works": [],
+   "source": "Wikidata Q11684699 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ajahn-munindo",
+   "name": "Ajahn Munindo",
+   "short": "Ajahn Munindo",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "New Zealand-born monk of Ajahn Chah's line who led Aruna Ratanagiri in Northumberland for decades.",
+   "aliases": [
+    "ajahn munindo"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "ajahn-sucitto",
+   "name": "Ajahn Sucitto",
+   "short": "Ajahn Sucitto",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q4699498",
+   "years": "1949–",
+   "living": true,
+   "bio": "English monk who trained with Ajahn Sumedho and was long abbot of Cittaviveka.",
+   "aliases": [
+    "ajahn sucitto"
+   ],
+   "works": [],
+   "source": "Wikidata Q4699498 (dates, 2026-10-20)"
+  },
+  {
+   "id": "buddhadasa",
+   "name": "Buddhadāsa Bhikkhu",
+   "short": "Buddhadāsa Bhikkhu",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": "Q714446",
+   "years": "1906–1993",
+   "living": false,
+   "bio": "Reforming Thai monk-scholar who founded Suan Mokkh and stressed emptiness and practice in daily life.",
+   "aliases": [
+    "buddhadasa",
+    "ajahn buddhadasa"
+   ],
+   "works": [],
+   "source": "Wikidata Q714446 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ledi-sayadaw",
+   "name": "Ledi Sayadaw",
+   "short": "Ledi Sayadaw",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q868763",
+   "years": "1846–1923",
+   "living": false,
+   "bio": "Burmese scholar-monk who began teaching insight meditation to lay people around 1900.",
+   "aliases": [
+    "ledi sayadaw"
+   ],
+   "works": [],
+   "source": "Wikidata Q868763 (dates, 2026-10-20)"
+  },
+  {
+   "id": "saya-thetgyi",
+   "name": "Saya Thetgyi",
+   "short": "Saya Thetgyi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q13076989",
+   "years": "1873–1945",
+   "living": false,
+   "bio": "Farmer and lay teacher, a student of Ledi Sayadaw, who taught U Ba Khin.",
+   "aliases": [
+    "saya thetgyi"
+   ],
+   "works": [],
+   "source": "Wikidata Q13076989 (dates, 2026-10-20)"
+  },
+  {
+   "id": "u-ba-khin",
+   "name": "Sayagyi U Ba Khin",
+   "short": "Sayagyi U Ba Khin",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q352360",
+   "years": "1899–1971",
+   "living": false,
+   "bio": "Burmese civil servant and lay meditation teacher whose students included S. N. Goenka.",
+   "aliases": [
+    "u ba khin",
+    "sayagyi u ba khin"
+   ],
+   "works": [],
+   "source": "Wikidata Q352360 (dates, 2026-10-20)"
+  },
+  {
+   "id": "sayamagyi",
+   "name": "Mother Sayamagyi",
+   "short": "Mother Sayamagyi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q6946695",
+   "years": "1925–2017",
+   "living": false,
+   "bio": "Senior disciple of U Ba Khin who carried his teaching to the International Meditation Centres abroad.",
+   "aliases": [
+    "sayamagyi",
+    "mother sayamagyi"
+   ],
+   "works": [],
+   "source": "Wikidata Q6946695 (dates, 2026-10-20)"
+  },
+  {
+   "id": "mingun-sayadaw",
+   "name": "Mingun Jetavana Sayadaw",
+   "short": "Mingun Jetavana Sayadaw",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Burmese meditation master who taught Mahasi Sayadaw.",
+   "aliases": [
+    "mingun sayadaw",
+    "jetavana sayadaw"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "sayadaw-u-pandita",
+   "name": "Sayadaw U Paṇḍita",
+   "short": "Sayadaw U Paṇḍita",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q3474715",
+   "years": "1921–2016",
+   "living": false,
+   "bio": "Strict successor in the Mahasi line who trained many Western insight teachers.",
+   "aliases": [
+    "u pandita",
+    "sayadaw u pandita"
+   ],
+   "works": [],
+   "source": "Wikidata Q3474715 (dates, 2026-10-20)"
+  },
+  {
+   "id": "chanmyay-sayadaw",
+   "name": "Chanmyay Sayadaw (U Janaka)",
+   "short": "Chanmyay Sayadaw (U Janaka)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q5072210",
+   "years": "1928–",
+   "living": true,
+   "bio": "Mahasi-lineage teacher who founded Chanmyay Yeiktha and taught abroad for decades.",
+   "aliases": [
+    "chanmyay sayadaw",
+    "u janaka"
+   ],
+   "works": [],
+   "source": "Wikidata Q5072210 (dates, 2026-10-20)"
+  },
+  {
+   "id": "anagarika-munindra",
+   "name": "Anagarika Munindra",
+   "short": "Anagarika Munindra",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q4750822",
+   "years": "1915–2003",
+   "living": false,
+   "bio": "Bengali meditation teacher trained under Mahasi Sayadaw who taught Goldstein, Dipa Ma and others in Bodh Gaya.",
+   "aliases": [
+    "munindra",
+    "munindra-ji"
+   ],
+   "works": [],
+   "source": "Wikidata Q4750822 (dates, 2026-10-20)"
+  },
+  {
+   "id": "dipa-ma",
+   "name": "Dipa Ma",
+   "short": "Dipa Ma",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q5279681",
+   "years": "1911–1989",
+   "living": false,
+   "bio": "Bengali householder and renowned meditator, a mentor to Sharon Salzberg and Joseph Goldstein.",
+   "aliases": [
+    "dipa ma"
+   ],
+   "works": [],
+   "source": "Wikidata Q5279681 (dates, 2026-10-20)"
+  },
+  {
+   "id": "shwe-oo-min-sayadaw",
+   "name": "Shwe Oo Min Sayadaw",
+   "short": "Shwe Oo Min Sayadaw",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q12514140",
+   "years": "1913–2002",
+   "living": false,
+   "bio": "Burmese master whose relaxed mindfulness approach Sayadaw U Tejaniya carries on.",
+   "aliases": [
+    "shwe oo min sayadaw"
+   ],
+   "works": [],
+   "source": "Wikidata Q12514140 (dates, 2026-10-20)"
+  },
+  {
+   "id": "sayadaw-u-tejaniya",
+   "name": "Sayadaw U Tejaniya",
+   "short": "Sayadaw U Tejaniya",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "burmese",
+   "traditions": [
+    "burmese"
+   ],
+   "wikidata": "Q7429084",
+   "years": "1962–",
+   "living": true,
+   "bio": "Burmese teacher known for a gentle 'awareness of the mind' style of insight practice.",
+   "aliases": [
+    "u tejaniya",
+    "sayadaw u tejaniya",
+    "ashin tejaniya"
+   ],
+   "works": [],
+   "source": "Wikidata Q7429084 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bhante-gunaratana",
+   "name": "Bhante Henepola Gunaratana",
+   "short": "Bhante Henepola Gunaratana",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": "Q724405",
+   "years": "1927–",
+   "living": true,
+   "bio": "Sri Lankan monk, author of Mindfulness in Plain English and founder of the Bhavana Society.",
+   "aliases": [
+    "bhante g",
+    "gunaratana",
+    "bhante gunaratana"
+   ],
+   "works": [],
+   "source": "Wikidata Q724405 (dates, 2026-10-20)"
+  },
+  {
+   "id": "nyanatiloka",
+   "name": "Nyanatiloka Mahathera",
+   "short": "Nyanatiloka Mahathera",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": "Q91609",
+   "years": "1878–1957",
+   "living": false,
+   "bio": "German pioneer monk who founded the Island Hermitage in Sri Lanka.",
+   "aliases": [
+    "nyanatiloka"
+   ],
+   "works": [],
+   "source": "Wikidata Q91609 (dates, 2026-10-20)"
+  },
+  {
+   "id": "nyanaponika",
+   "name": "Nyanaponika Thera",
+   "short": "Nyanaponika Thera",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": "Q74771",
+   "years": "1901–1994",
+   "living": false,
+   "bio": "German-born monk, author of The Heart of Buddhist Meditation and co-founder of the Buddhist Publication Society.",
+   "aliases": [
+    "nyanaponika"
+   ],
+   "works": [],
+   "source": "Wikidata Q74771 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bhikkhu-bodhi",
+   "name": "Bhikkhu Bodhi",
+   "short": "Bhikkhu Bodhi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": "Q854944",
+   "years": "1944–",
+   "living": true,
+   "bio": "American monk and translator of the Pali Nikayas, long editor at the Buddhist Publication Society.",
+   "aliases": [
+    "bhikkhu bodhi"
+   ],
+   "works": [],
+   "source": "Wikidata Q854944 (dates, 2026-10-20)"
+  },
+  {
+   "id": "tsongkhapa",
+   "name": "Je Tsongkhapa",
+   "short": "Je Tsongkhapa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gelug",
+   "traditions": [
+    "gelug"
+   ],
+   "wikidata": "Q323439",
+   "years": "1357–1419",
+   "living": false,
+   "bio": "Fourteenth-century Tibetan master whose reforms founded the Gelug school.",
+   "aliases": [
+    "tsongkhapa",
+    "je tsongkhapa"
+   ],
+   "works": [],
+   "source": "Wikidata Q323439 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ling-rinpoche",
+   "name": "Kyabje Ling Rinpoche (6th)",
+   "short": "Kyabje Ling Rinpoche (6th)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gelug",
+   "traditions": [
+    "gelug"
+   ],
+   "wikidata": "Q512927",
+   "years": "1903–1983",
+   "living": false,
+   "bio": "Senior tutor of the 14th Dalai Lama and Ganden Tripa.",
+   "aliases": [
+    "ling rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q512927 (dates, 2026-10-20)"
+  },
+  {
+   "id": "trijang-rinpoche",
+   "name": "Kyabje Trijang Rinpoche (3rd)",
+   "short": "Kyabje Trijang Rinpoche (3rd)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gelug",
+   "traditions": [
+    "gelug"
+   ],
+   "wikidata": "Q1389294",
+   "years": "1901–1981",
+   "living": false,
+   "bio": "Junior tutor of the 14th Dalai Lama.",
+   "aliases": [
+    "trijang rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q1389294 (dates, 2026-10-20)"
+  },
+  {
+   "id": "lama-yeshe",
+   "name": "Lama Thubten Yeshe",
+   "short": "Lama Thubten Yeshe",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gelug",
+   "traditions": [
+    "gelug"
+   ],
+   "wikidata": "Q3526010",
+   "years": "1935–1984",
+   "living": false,
+   "bio": "Tibetan lama who with Lama Zopa founded Kopan and the FPMT network.",
+   "aliases": [
+    "lama yeshe"
+   ],
+   "works": [],
+   "source": "Wikidata Q3526010 (dates, 2026-10-20)"
+  },
+  {
+   "id": "lama-zopa",
+   "name": "Lama Zopa Rinpoche",
+   "short": "Lama Zopa Rinpoche",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gelug",
+   "traditions": [
+    "gelug"
+   ],
+   "wikidata": "Q1320529",
+   "years": "1946–2023",
+   "living": false,
+   "bio": "Sherpa lama, co-founder of Kopan and long-time spiritual director of the FPMT.",
+   "aliases": [
+    "lama zopa",
+    "zopa rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q1320529 (dates, 2026-10-20)"
+  },
+  {
+   "id": "tilopa",
+   "name": "Tilopa",
+   "short": "Tilopa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q448793",
+   "years": "928–1009",
+   "living": false,
+   "bio": "Indian mahasiddha at the head of the Kagyu lineage of mahamudra.",
+   "aliases": [
+    "tilopa"
+   ],
+   "works": [],
+   "source": "Wikidata Q448793 (dates, 2026-10-20)"
+  },
+  {
+   "id": "naropa",
+   "name": "Naropa",
+   "short": "Naropa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q203060",
+   "years": "1016–1100",
+   "living": false,
+   "bio": "Nalanda scholar turned yogi, Tilopa's disciple and source of the Six Yogas.",
+   "aliases": [
+    "naropa"
+   ],
+   "works": [],
+   "source": "Wikidata Q203060 (dates, 2026-10-20)"
+  },
+  {
+   "id": "marpa",
+   "name": "Marpa the Translator",
+   "short": "Marpa the Translator",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q379577",
+   "years": "1012–1097",
+   "living": false,
+   "bio": "Tibetan householder-translator who brought Naropa's teachings to Tibet.",
+   "aliases": [
+    "marpa"
+   ],
+   "works": [],
+   "source": "Wikidata Q379577 (dates, 2026-10-20)"
+  },
+  {
+   "id": "milarepa",
+   "name": "Milarepa",
+   "short": "Milarepa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q58431",
+   "years": "1052–1135",
+   "living": false,
+   "bio": "Tibet's great yogi-poet, Marpa's disciple.",
+   "aliases": [
+    "milarepa"
+   ],
+   "works": [],
+   "source": "Wikidata Q58431 (dates, 2026-10-20)"
+  },
+  {
+   "id": "gampopa",
+   "name": "Gampopa",
+   "short": "Gampopa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q453191",
+   "years": "1079–1153",
+   "living": false,
+   "bio": "Physician-monk who joined Milarepa's yoga with Kadampa monasticism.",
+   "aliases": [
+    "gampopa"
+   ],
+   "works": [],
+   "source": "Wikidata Q453191 (dates, 2026-10-20)"
+  },
+  {
+   "id": "karmapa-1",
+   "name": "Düsum Khyenpa, 1st Karmapa",
+   "short": "Düsum Khyenpa, 1st Karmapa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q710175",
+   "years": "1110–1193",
+   "living": false,
+   "bio": "Gampopa's disciple and the first Karmapa, founder of Tsurphu.",
+   "aliases": [
+    "dusum khyenpa",
+    "first karmapa"
+   ],
+   "works": [],
+   "source": "Wikidata Q710175 (dates, 2026-10-20)"
+  },
+  {
+   "id": "karmapa-16",
+   "name": "Rangjung Rigpe Dorje, 16th Karmapa",
+   "short": "Rangjung Rigpe Dorje, 16th Karmapa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q464063",
+   "years": "1924–1981",
+   "living": false,
+   "bio": "Head of the Karma Kagyu who re-established the school in exile at Rumtek and brought it to the West.",
+   "aliases": [
+    "16th karmapa",
+    "sixteenth karmapa"
+   ],
+   "works": [],
+   "source": "Wikidata Q464063 (dates, 2026-10-20)"
+  },
+  {
+   "id": "karmapa-17",
+   "name": "Ogyen Trinley Dorje, 17th Karmapa",
+   "short": "Ogyen Trinley Dorje, 17th Karmapa",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q465033",
+   "years": "1985–",
+   "living": true,
+   "bio": "Recognised as the 17th Karmapa by the Dalai Lama and most Kagyu authorities; a rival candidate also exists.",
+   "aliases": [
+    "karmapa",
+    "17th karmapa",
+    "ogyen trinley dorje"
+   ],
+   "works": [],
+   "source": "Wikidata Q465033 (dates, 2026-10-20)"
+  },
+  {
+   "id": "akong-rinpoche",
+   "name": "Akong Tulku Rinpoche",
+   "short": "Akong Tulku Rinpoche",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q420512",
+   "years": "1940–2013",
+   "living": false,
+   "bio": "Co-founder and long-time abbot of Samye Ling in Scotland.",
+   "aliases": [
+    "akong rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q420512 (dates, 2026-10-20)"
+  },
+  {
+   "id": "chogyam-trungpa",
+   "name": "Chögyam Trungpa Rinpoche",
+   "short": "Chögyam Trungpa Rinpoche",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q548323",
+   "years": "1939–1987",
+   "living": false,
+   "bio": "Tibetan teacher who co-founded Samye Ling, then founded Naropa University and Shambhala in North America.",
+   "aliases": [
+    "trungpa",
+    "chogyam trungpa"
+   ],
+   "works": [],
+   "source": "Wikidata Q548323 (dates, 2026-10-20)"
+  },
+  {
+   "id": "pema-chodron",
+   "name": "Pema Chödrön",
+   "short": "Pema Chödrön",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q442384",
+   "years": "1936–",
+   "living": true,
+   "bio": "American nun and author, a student of Chögyam Trungpa, resident teacher at Gampo Abbey.",
+   "aliases": [
+    "pema chodron"
+   ],
+   "works": [],
+   "source": "Wikidata Q442384 (dates, 2026-10-20)"
+  },
+  {
+   "id": "chokyi-nyima-rinpoche",
+   "name": "Chökyi Nyima Rinpoche",
+   "short": "Chökyi Nyima Rinpoche",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "tibetan",
+   "traditions": [
+    "tibetan"
+   ],
+   "wikidata": "Q1982096",
+   "years": "1951–",
+   "living": true,
+   "bio": "Eldest son of Tulku Urgyen Rinpoche and abbot of Ka-Nying Shedrub Ling in Boudha.",
+   "aliases": [
+    "chokyi nyima rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q1982096 (dates, 2026-10-20)"
+  },
+  {
+   "id": "padmasambhava",
+   "name": "Padmasambhava (Guru Rinpoche)",
+   "short": "Padmasambhava (Guru Rinpoche)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "vajrayana",
+   "traditions": [
+    "vajrayana"
+   ],
+   "wikidata": "Q231582",
+   "years": "717–762",
+   "living": false,
+   "bio": "Eighth-century tantric master credited with establishing Buddhism in Tibet.",
+   "aliases": [
+    "padmasambhava",
+    "guru rinpoche"
+   ],
+   "works": [],
+   "source": "Wikidata Q231582 (dates, 2026-10-20)"
+  },
+  {
+   "id": "gyokujun-so-on",
+   "name": "Gyokujun So-on Suzuki",
+   "short": "Gyokujun So-on Suzuki",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Soto priest who ordained Shunryu Suzuki and gave him dharma transmission.",
+   "aliases": [
+    "so-on suzuki"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "kishizawa-ian",
+   "name": "Kishizawa Ian",
+   "short": "Kishizawa Ian",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q21699526",
+   "years": "1865–1955",
+   "living": false,
+   "bio": "Soto scholar-teacher who further trained Shunryu Suzuki in Dogen's Shobogenzo.",
+   "aliases": [
+    "kishizawa ian"
+   ],
+   "works": [],
+   "source": "Wikidata Q21699526 (dates, 2026-10-20)"
+  },
+  {
+   "id": "richard-baker",
+   "name": "Zentatsu Richard Baker",
+   "short": "Zentatsu Richard Baker",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q8069238",
+   "years": "1936–",
+   "living": true,
+   "bio": "Shunryu Suzuki's dharma heir and second abbot of San Francisco Zen Center.",
+   "aliases": [
+    "richard baker",
+    "baker roshi"
+   ],
+   "works": [],
+   "source": "Wikidata Q8069238 (dates, 2026-10-20)"
+  },
+  {
+   "id": "kodo-sawaki",
+   "name": "Kōdō Sawaki",
+   "short": "Kōdō Sawaki",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q503891",
+   "years": "1880–1965",
+   "living": false,
+   "bio": "Itinerant Soto master who stressed zazen alone ('homeless Kodo'); teacher of Kosho Uchiyama.",
+   "aliases": [
+    "kodo sawaki"
+   ],
+   "works": [],
+   "source": "Wikidata Q503891 (dates, 2026-10-20)"
+  },
+  {
+   "id": "muho-noelke",
+   "name": "Muhō Nölke",
+   "short": "Muhō Nölke",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q724932",
+   "years": "1968–",
+   "living": true,
+   "bio": "German-born former abbot of Antaiji.",
+   "aliases": [
+    "muho",
+    "muho noelke"
+   ],
+   "works": [],
+   "source": "Wikidata Q724932 (dates, 2026-10-20)"
+  },
+  {
+   "id": "gudo-nishijima",
+   "name": "Gudō Wafu Nishijima",
+   "short": "Gudō Wafu Nishijima",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q221919",
+   "years": "1919–2014",
+   "living": false,
+   "bio": "Japanese Zen teacher and Shobogenzo translator, Brad Warner's teacher.",
+   "aliases": [
+    "nishijima"
+   ],
+   "works": [],
+   "source": "Wikidata Q221919 (dates, 2026-10-20)"
+  },
+  {
+   "id": "hakuun-yasutani",
+   "name": "Hakuun Yasutani",
+   "short": "Hakuun Yasutani",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q5640677",
+   "years": "1885–1973",
+   "living": false,
+   "bio": "Founder of the Sanbo Kyodan, who taught Philip Kapleau and Taizan Maezumi.",
+   "aliases": [
+    "yasutani",
+    "yasutani roshi"
+   ],
+   "works": [],
+   "source": "Wikidata Q5640677 (dates, 2026-10-20)"
+  },
+  {
+   "id": "taizan-maezumi",
+   "name": "Taizan Maezumi",
+   "short": "Taizan Maezumi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen"
+   ],
+   "wikidata": "Q1952144",
+   "years": "1931–1995",
+   "living": false,
+   "bio": "Founder of the Zen Center of Los Angeles; many American teachers are his heirs.",
+   "aliases": [
+    "maezumi",
+    "maezumi roshi"
+   ],
+   "works": [],
+   "source": "Wikidata Q1952144 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bernie-glassman",
+   "name": "Bernie Glassman",
+   "short": "Bernie Glassman",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q822446",
+   "years": "1939–2018",
+   "living": false,
+   "bio": "Maezumi's first heir, founder of the Zen Peacemakers and teacher of Joan Halifax.",
+   "aliases": [
+    "bernie glassman"
+   ],
+   "works": [],
+   "source": "Wikidata Q822446 (dates, 2026-10-20)"
+  },
+  {
+   "id": "john-daido-loori",
+   "name": "John Daido Loori",
+   "short": "John Daido Loori",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q6228392",
+   "years": "1931–2009",
+   "living": false,
+   "bio": "Maezumi heir who founded Zen Mountain Monastery.",
+   "aliases": [
+    "daido loori"
+   ],
+   "works": [],
+   "source": "Wikidata Q6228392 (dates, 2026-10-20)"
+  },
+  {
+   "id": "philip-kapleau",
+   "name": "Philip Kapleau",
+   "short": "Philip Kapleau",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q1364675",
+   "years": "1912–2004",
+   "living": false,
+   "bio": "Author of The Three Pillars of Zen and founder of the Rochester Zen Center.",
+   "aliases": [
+    "kapleau",
+    "philip kapleau"
+   ],
+   "works": [],
+   "source": "Wikidata Q1364675 (dates, 2026-10-20)"
+  },
+  {
+   "id": "eido-shimano",
+   "name": "Eido Shimano",
+   "short": "Eido Shimano",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "rinzai-zen",
+   "traditions": [
+    "rinzai-zen"
+   ],
+   "wikidata": "Q5348807",
+   "years": "1932–2018",
+   "living": false,
+   "bio": "Rinzai teacher who founded Dai Bosatsu Zendo; he resigned in 2010 after misconduct revelations.",
+   "aliases": [
+    "eido shimano"
+   ],
+   "works": [],
+   "source": "Wikidata Q5348807 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bodhidharma",
+   "name": "Bodhidharma",
+   "short": "Bodhidharma",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q187172",
+   "years": "483–540",
+   "living": false,
+   "bio": "Legendary Indian monk honoured as the first patriarch of Chan.",
+   "aliases": [
+    "bodhidharma"
+   ],
+   "works": [],
+   "source": "Wikidata Q187172 (dates, 2026-10-20)"
+  },
+  {
+   "id": "huineng",
+   "name": "Huineng",
+   "short": "Huineng",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q345012",
+   "years": "638–713",
+   "living": false,
+   "bio": "Sixth Chan patriarch, figure of the Platform Sutra.",
+   "aliases": [
+    "huineng",
+    "hui neng"
+   ],
+   "works": [],
+   "source": "Wikidata Q345012 (dates, 2026-10-20)"
+  },
+  {
+   "id": "thich-chan-that",
+   "name": "Thích Chân Thật",
+   "short": "Thích Chân Thật",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Abbot of Tu Hieu Temple and Thich Nhat Hanh's root teacher.",
+   "aliases": [
+    "chan that"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "annamalai-swami",
+   "name": "Annamalai Swami",
+   "short": "Annamalai Swami",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "wikidata": "Q140523281",
+   "years": "1906–1995",
+   "living": false,
+   "bio": "Ramana Maharshi's attendant and builder who later taught self-enquiry from his small ashram.",
+   "aliases": [
+    "annamalai swami"
+   ],
+   "works": [],
+   "source": "Wikidata Q140523281 (dates, 2026-10-20)"
+  },
+  {
+   "id": "gangaji",
+   "name": "Gangaji",
+   "short": "Gangaji",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "wikidata": "Q1493422",
+   "years": "1942–",
+   "living": true,
+   "bio": "American teacher of self-enquiry who met Papaji in 1990.",
+   "aliases": [
+    "gangaji"
+   ],
+   "works": [],
+   "source": "Wikidata Q1493422 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bhausaheb-maharaj",
+   "name": "Bhausaheb Maharaj",
+   "short": "Bhausaheb Maharaj",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "inchegeri",
+   "traditions": [
+    "inchegeri"
+   ],
+   "wikidata": "Q18208923",
+   "years": null,
+   "living": false,
+   "bio": "Founder of the Inchegeri lineage at Inchgiri; teacher of Siddharameshwar.",
+   "aliases": [
+    "bhausaheb maharaj"
+   ],
+   "works": [],
+   "source": "Wikidata Q18208923 (dates, 2026-10-20)"
+  },
+  {
+   "id": "swami-ram-kashmir",
+   "name": "Swami Ram (Kashmir)",
+   "short": "Swami Ram (Kashmir)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Kashmiri Shaiva master of the late nineteenth century, root of Lakshmanjoo's lineage.",
+   "aliases": [
+    "swami ram"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "swami-mahtab-kak",
+   "name": "Swami Mahatab Kak",
+   "short": "Swami Mahatab Kak",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Disciple of Swami Ram and teacher of Swami Lakshmanjoo.",
+   "aliases": [
+    "mahatab kak",
+    "mehtab kak"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "john-hughes",
+   "name": "John Hughes",
+   "short": "John Hughes",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Long-time student of Lakshmanjoo who recorded and publishes his teachings.",
+   "aliases": [
+    "john hughes"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "alexis-sanderson",
+   "name": "Alexis Sanderson",
+   "short": "Alexis Sanderson",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q3610883",
+   "years": "1948–",
+   "living": true,
+   "bio": "Oxford Indologist of Shaiva tantra who read texts with Lakshmanjoo.",
+   "aliases": [
+    "alexis sanderson"
+   ],
+   "works": [],
+   "source": "Wikidata Q3610883 (dates, 2026-10-20)"
+  },
+  {
+   "id": "lakshmanagupta",
+   "name": "Lakṣmaṇagupta",
+   "short": "Lakṣmaṇagupta",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": null,
+   "bio": "Pratyabhijna teacher of Abhinavagupta.",
+   "aliases": [
+    "lakshmanagupta"
+   ],
+   "works": [],
+   "source": "no clean Wikidata item; dates not stated"
+  },
+  {
+   "id": "kshemaraja",
+   "name": "Kṣemarāja",
+   "short": "Kṣemarāja",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q3200157",
+   "years": "975–1025",
+   "living": false,
+   "bio": "Abhinavagupta's leading disciple, author of the Pratyabhijnahrdayam.",
+   "aliases": [
+    "kshemaraja"
+   ],
+   "works": [],
+   "source": "Wikidata Q3200157 (dates, 2026-10-20)"
+  },
+  {
+   "id": "vasugupta",
+   "name": "Vasugupta",
+   "short": "Vasugupta",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q2511208",
+   "years": "860–925",
+   "living": false,
+   "bio": "Ninth-century sage to whom the Shiva Sutras were revealed.",
+   "aliases": [
+    "vasugupta"
+   ],
+   "works": [],
+   "source": "Wikidata Q2511208 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bhagawan-nityananda",
+   "name": "Bhagawan Nityananda",
+   "short": "Bhagawan Nityananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "hindu",
+   "traditions": [
+    "hindu"
+   ],
+   "wikidata": "Q2900626",
+   "years": "1897–1961",
+   "living": false,
+   "bio": "Avadhuta saint of Ganeshpuri and guru of Muktananda.",
+   "aliases": [
+    "nityananda",
+    "bhagawan nityananda"
+   ],
+   "works": [],
+   "source": "Wikidata Q2900626 (dates, 2026-10-20)"
+  },
+  {
+   "id": "muktananda",
+   "name": "Swami Muktananda",
+   "short": "Swami Muktananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q3506415",
+   "years": "1908–1982",
+   "living": false,
+   "bio": "Founder of Siddha Yoga, who drew on Kashmir Shaiva texts.",
+   "aliases": [
+    "muktananda"
+   ],
+   "works": [],
+   "source": "Wikidata Q3506415 (dates, 2026-10-20)"
+  },
+  {
+   "id": "swami-chinmayananda",
+   "name": "Swami Chinmayananda",
+   "short": "Swami Chinmayananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "vedanta",
+   "traditions": [
+    "vedanta"
+   ],
+   "wikidata": "Q173273",
+   "years": "1916–1993",
+   "living": false,
+   "bio": "Vedanta teacher who founded Chinmaya Mission and taught Swami Dayananda.",
+   "aliases": [
+    "chinmayananda"
+   ],
+   "works": [],
+   "source": "Wikidata Q173273 (dates, 2026-10-20)"
+  },
+  {
+   "id": "swami-brahmananda",
+   "name": "Swami Brahmananda",
+   "short": "Swami Brahmananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "ramakrishna-order"
+   ],
+   "wikidata": "Q3269702",
+   "years": "1863–1922",
+   "living": false,
+   "bio": "Direct disciple of Ramakrishna and first president of the Ramakrishna Math and Mission.",
+   "aliases": [
+    "brahmananda",
+    "rakhal"
+   ],
+   "works": [],
+   "source": "Wikidata Q3269702 (dates, 2026-10-20)"
+  },
+  {
+   "id": "thomas-merton",
+   "name": "Thomas Merton",
+   "short": "Thomas Merton",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "traditions": [
+    "christian-mysticism"
+   ],
+   "wikidata": "Q335011",
+   "years": "1915–1968",
+   "living": false,
+   "bio": "Trappist monk of Gethsemani and writer on contemplation and interfaith dialogue.",
+   "aliases": [
+    "thomas merton",
+    "merton"
+   ],
+   "works": [],
+   "source": "Wikidata Q335011 (dates, 2026-10-20)"
+  },
+  {
+   "id": "thomas-keating",
+   "name": "Thomas Keating",
+   "short": "Thomas Keating",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "traditions": [
+    "christian-mysticism"
+   ],
+   "wikidata": "Q551244",
+   "years": "1923–2018",
+   "living": false,
+   "bio": "Trappist abbot who helped develop Centering Prayer.",
+   "aliases": [
+    "thomas keating",
+    "keating"
+   ],
+   "works": [],
+   "source": "Wikidata Q551244 (dates, 2026-10-20)"
+  },
+  {
+   "id": "brother-roger",
+   "name": "Brother Roger of Taizé",
+   "short": "Brother Roger of Taizé",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "wikidata": "Q123134",
+   "years": "1915–2005",
+   "living": false,
+   "bio": "Swiss founder of the ecumenical Taizé Community.",
+   "aliases": [
+    "brother roger",
+    "frère roger"
+   ],
+   "works": [],
+   "source": "Wikidata Q123134 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bede-griffiths",
+   "name": "Bede Griffiths",
+   "short": "Bede Griffiths",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "traditions": [
+    "christian-mysticism"
+   ],
+   "wikidata": "Q813829",
+   "years": "1906–1993",
+   "living": false,
+   "bio": "English Benedictine who led Shantivanam ashram and joined Christian and Hindu contemplation.",
+   "aliases": [
+    "bede griffiths"
+   ],
+   "works": [],
+   "source": "Wikidata Q813829 (dates, 2026-10-20)"
+  },
+  {
+   "id": "abhishiktananda",
+   "name": "Swami Abhishiktananda (Henri Le Saux)",
+   "short": "Swami Abhishiktananda (Henri Le Saux)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "traditions": [
+    "christian-mysticism"
+   ],
+   "wikidata": "Q3131453",
+   "years": "1910–1973",
+   "living": false,
+   "bio": "French Benedictine who co-founded Shantivanam and was transformed by meeting Ramana.",
+   "aliases": [
+    "abhishiktananda",
+    "henri le saux"
+   ],
+   "works": [],
+   "source": "Wikidata Q3131453 (dates, 2026-10-20)"
+  }
+ ],
+ "patches": [
+  {
+   "id": "thanissaro-bhikkhu",
+   "add_aliases": [
+    "geoffrey degraff",
+    "geoff degraff",
+    "ajaan geoff",
+    "than geoff"
+   ],
+   "note": "Thanissaro Bhikkhu was born Geoffrey DeGraff; aliases let clips that say \"Ajaan Geoff\" match."
+  }
+ ]
+}

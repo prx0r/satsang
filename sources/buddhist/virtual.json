@@ -1,0 +1,4302 @@
+[
+{
+"id": "-039SYi2a94@20",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Sensuality: Becoming Imperturbable",
+"ytTitle": "Becoming Imperturbable",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1389,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving/sensuality"
+],
+"style": [],
+"published": "2020-11-17",
+"year": 2020,
+"views": 6300,
+"tags": {
+"v": 1,
+"topics": [
+[
+"craving/sensuality",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Sensuality: Becoming Imperturbable",
+"start": 20,
+"end": 320,
+"parent": "-039SYi2a94",
+"code": "183hh",
+"virtual": true
+},
+{
+"id": "-039SYi2a94@560",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Breath: Becoming Imperturbable",
+"ytTitle": "Becoming Imperturbable",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1389,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"meditation/breath",
+"mindfulness"
+],
+"style": [],
+"published": "2020-11-17",
+"year": 2020,
+"views": 6300,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation/breath",
+0.75,
+"transcript"
+],
+[
+"mindfulness",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Breath: Becoming Imperturbable",
+"start": 560,
+"end": 860,
+"parent": "-039SYi2a94",
+"code": "183hh",
+"virtual": true
+},
+{
+"id": "-039SYi2a94@902",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Self & not-self: Becoming Imperturbable",
+"ytTitle": "Becoming Imperturbable",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1389,
+"sec": 298,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"emotions/anger",
+"self"
+],
+"style": [],
+"published": "2020-11-17",
+"year": 2020,
+"views": 6300,
+"tags": {
+"v": 1,
+"topics": [
+[
+"self",
+0.75,
+"transcript"
+],
+[
+"emotions/anger",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Self & not-self: Becoming Imperturbable",
+"start": 902,
+"end": 1200,
+"parent": "-039SYi2a94",
+"code": "183hh",
+"virtual": true
+},
+{
+"id": "61bWtzbHDTU@20",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Self & not-self: How To Overcome Your Personality Without Destroying It",
+"ytTitle": "How To Overcome Your Personality Without Destroying It | The Nature Of \"Sakkaya Ditthi\"",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3125,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving",
+"self"
+],
+"style": [],
+"published": "2019-11-23",
+"year": 2019,
+"views": 7000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"self",
+0.75,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Self & not-self: How To Overcome Your Personality Without Destroying It",
+"start": 20,
+"end": 320,
+"parent": "61bWtzbHDTU",
+"code": "111hh",
+"virtual": true
+},
+{
+"id": "61bWtzbHDTU@1700",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: How To Overcome Your Personality Without Destroying It",
+"ytTitle": "How To Overcome Your Personality Without Destroying It | The Nature Of \"Sakkaya Ditthi\"",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3125,
+"sec": 372,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha"
+],
+"style": [],
+"published": "2019-11-23",
+"year": 2019,
+"views": 7000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: How To Overcome Your Personality Without Destroying It",
+"start": 1700,
+"end": 2072,
+"parent": "61bWtzbHDTU",
+"code": "111hh",
+"virtual": true
+},
+{
+"id": "6FgiG7QY8f0@35",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Death: Nibbana Is The Ultimate Uncertainty",
+"ytTitle": "NIbbana Is The Ultimate Uncertainty",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2122,
+"sec": 338,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"awakening",
+"death",
+"impermanence",
+"meditation/breath"
+],
+"style": [],
+"published": "2021-03-30",
+"year": 2021,
+"views": 8100,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"meditation/breath",
+0.6,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+],
+[
+"impermanence",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: Nibbana Is The Ultimate Uncertainty",
+"start": 35,
+"end": 373,
+"parent": "6FgiG7QY8f0",
+"code": "202hh",
+"virtual": true
+},
+{
+"id": "6FgiG7QY8f0@385",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Fear & anxiety: Nibbana Is The Ultimate Uncertainty",
+"ytTitle": "NIbbana Is The Ultimate Uncertainty",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2122,
+"sec": 315,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"emotions/fear",
+"impermanence",
+"meditation"
+],
+"style": [],
+"published": "2021-03-30",
+"year": 2021,
+"views": 8100,
+"tags": {
+"v": 1,
+"topics": [
+[
+"emotions/fear",
+0.75,
+"transcript"
+],
+[
+"meditation",
+0.6,
+"transcript"
+],
+[
+"impermanence",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Fear & anxiety: Nibbana Is The Ultimate Uncertainty",
+"start": 385,
+"end": 700,
+"parent": "6FgiG7QY8f0",
+"code": "202hh",
+"virtual": true
+},
+{
+"id": "6FgiG7QY8f0@800",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: Nibbana Is The Ultimate Uncertainty",
+"ytTitle": "NIbbana Is The Ultimate Uncertainty",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2122,
+"sec": 321,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving/sensuality",
+"dukkha"
+],
+"style": [],
+"published": "2021-03-30",
+"year": 2021,
+"views": 8100,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"craving/sensuality",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: Nibbana Is The Ultimate Uncertainty",
+"start": 800,
+"end": 1121,
+"parent": "6FgiG7QY8f0",
+"code": "202hh",
+"virtual": true
+},
+{
+"id": "6FgiG7QY8f0@1680",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Meditation: Nibbana Is The Ultimate Uncertainty",
+"ytTitle": "NIbbana Is The Ultimate Uncertainty",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2122,
+"sec": 420,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"impermanence",
+"meditation"
+],
+"style": [],
+"published": "2021-03-30",
+"year": 2021,
+"views": 8100,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"impermanence",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Meditation: Nibbana Is The Ultimate Uncertainty",
+"start": 1680,
+"end": 2100,
+"parent": "6FgiG7QY8f0",
+"code": "202hh",
+"virtual": true
+},
+{
+"id": "6QvCj_YmUWE@40",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Death: What exists after death? (Sutta Study SN 22.85)",
+"ytTitle": "What exists after death? (Sutta Study SN 22.85)",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3111,
+"sec": 360,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [
+"sutta-study"
+],
+"published": "2023-05-09",
+"year": 2023,
+"views": 5600,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: What exists after death? (Sutta Study SN 22.85)",
+"start": 40,
+"end": 400,
+"parent": "6QvCj_YmUWE",
+"code": "319hh",
+"virtual": true
+},
+{
+"id": "6QvCj_YmUWE@2340",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Death: What exists after death? (Sutta Study SN 22.85)",
+"ytTitle": "What exists after death? (Sutta Study SN 22.85)",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3111,
+"sec": 312,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [
+"sutta-study"
+],
+"published": "2023-05-09",
+"year": 2023,
+"views": 5600,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: What exists after death? (Sutta Study SN 22.85)",
+"start": 2340,
+"end": 2652,
+"parent": "6QvCj_YmUWE",
+"code": "319hh",
+"virtual": true
+},
+{
+"id": "8Xy01jkEsnQ@93",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Death: APPOINTMENT WITH DEATH (Maranasati)",
+"ytTitle": "APPOINTMENT WITH DEATH (Maranasati) --- by Ajahn Nyanamoli Thero, Hillside Hermitage",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3839,
+"sec": 367,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2019-04-18",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: APPOINTMENT WITH DEATH (Maranasati)",
+"start": 93,
+"end": 460,
+"parent": "8Xy01jkEsnQ",
+"code": "75hh",
+"virtual": true
+},
+{
+"id": "8Xy01jkEsnQ@1420",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Death: APPOINTMENT WITH DEATH (Maranasati)",
+"ytTitle": "APPOINTMENT WITH DEATH (Maranasati) --- by Ajahn Nyanamoli Thero, Hillside Hermitage",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3839,
+"sec": 780,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2019-04-18",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Death: APPOINTMENT WITH DEATH (Maranasati)",
+"start": 1420,
+"end": 2200,
+"parent": "8Xy01jkEsnQ",
+"code": "75hh",
+"virtual": true
+},
+{
+"id": "8Xy01jkEsnQ@3220",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Meditation: APPOINTMENT WITH DEATH (Maranasati)",
+"ytTitle": "APPOINTMENT WITH DEATH (Maranasati) --- by Ajahn Nyanamoli Thero, Hillside Hermitage",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3839,
+"sec": 480,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"death",
+"defilements",
+"meditation"
+],
+"style": [],
+"published": "2019-04-18",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+],
+[
+"defilements",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Meditation: APPOINTMENT WITH DEATH (Maranasati)",
+"start": 3220,
+"end": 3700,
+"parent": "8Xy01jkEsnQ",
+"code": "75hh",
+"virtual": true
+},
+{
+"id": "9AtOQ3A55DM@1660",
+"teacher": "Joan Halifax",
+"speaker": "joan-halifax",
+"speakerFrom": "title",
+"title": "Suffering: Standing at the Edge",
+"ytTitle": "Roshi Joan - Standing at the Edge Dharma Talk",
+"channel": "Upaya Zen Center",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2769,
+"sec": 416,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "zen",
+"traditions": [
+"zen"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"virtue"
+],
+"style": [],
+"year": 2018,
+"yearFrom": "upload-relative",
+"views": 21318,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"virtue",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1660,
+"end": 2076,
+"parent": "9AtOQ3A55DM",
+"segTitle": "Suffering: Standing at the Edge",
+"virtual": true
+},
+{
+"id": "9AtOQ3A55DM@2340",
+"teacher": "Joan Halifax",
+"speaker": "joan-halifax",
+"speakerFrom": "title",
+"title": "Death: Standing at the Edge",
+"ytTitle": "Roshi Joan - Standing at the Edge Dharma Talk",
+"channel": "Upaya Zen Center",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2769,
+"sec": 322,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "zen",
+"traditions": [
+"zen"
+],
+"figures": [],
+"topics": [
+"death",
+"dukkha",
+"emotions/fear"
+],
+"style": [],
+"year": 2018,
+"yearFrom": "upload-relative",
+"views": 21318,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+],
+[
+"emotions/fear",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2340,
+"end": 2662,
+"parent": "9AtOQ3A55DM",
+"segTitle": "Death: Standing at the Edge",
+"virtual": true
+},
+{
+"id": "BZZupDuprhU@84",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Death: What Happens After You Die?",
+"ytTitle": "What Happens After You Die? | Ajahn Brahm | 08-04-2011",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3831,
+"sec": 356,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"meditation"
+],
+"style": [],
+"published": "2011-04-08",
+"year": 2011,
+"yearFrom": "title",
+"views": 433525,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"meditation",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 84,
+"end": 440,
+"parent": "BZZupDuprhU",
+"segTitle": "Death: What Happens After You Die?",
+"virtual": true
+},
+{
+"id": "BZZupDuprhU@1460",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Meditation: What Happens After You Die?",
+"ytTitle": "What Happens After You Die? | Ajahn Brahm | 08-04-2011",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3831,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"meditation"
+],
+"style": [],
+"published": "2011-04-08",
+"year": 2011,
+"yearFrom": "title",
+"views": 433525,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1460,
+"end": 1760,
+"parent": "BZZupDuprhU",
+"segTitle": "Meditation: What Happens After You Die?",
+"virtual": true
+},
+{
+"id": "BZZupDuprhU@2900",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Suffering: What Happens After You Die?",
+"ytTitle": "What Happens After You Die? | Ajahn Brahm | 08-04-2011",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3831,
+"sec": 360,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"dukkha"
+],
+"style": [],
+"published": "2011-04-08",
+"year": 2011,
+"yearFrom": "title",
+"views": 433525,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2900,
+"end": 3260,
+"parent": "BZZupDuprhU",
+"segTitle": "Suffering: What Happens After You Die?",
+"virtual": true
+},
+{
+"id": "BZZupDuprhU@3500",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Death: What Happens After You Die?",
+"ytTitle": "What Happens After You Die? | Ajahn Brahm | 08-04-2011",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3831,
+"sec": 296,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"dukkha"
+],
+"style": [],
+"published": "2011-04-08",
+"year": 2011,
+"yearFrom": "title",
+"views": 433525,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 3500,
+"end": 3796,
+"parent": "BZZupDuprhU",
+"segTitle": "Death: What Happens After You Die?",
+"virtual": true
+},
+{
+"id": "CVJQDoMHfeQ@400",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Craving & desire: The Birth of Self: Sutta Study - SN 22.81",
+"ytTitle": "The Birth of Self: Sutta Study - SN 22.81",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3432,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving",
+"texts"
+],
+"style": [
+"sutta-study"
+],
+"published": "2026-07-29",
+"year": 2026,
+"views": 4300,
+"tags": {
+"v": 1,
+"topics": [
+[
+"craving",
+0.75,
+"transcript"
+],
+[
+"texts",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Craving & desire: The Birth of Self: Sutta Study - SN 22.81",
+"start": 400,
+"end": 700,
+"parent": "CVJQDoMHfeQ",
+"code": "480hh",
+"virtual": true
+},
+{
+"id": "CVJQDoMHfeQ@2755",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: The Birth of Self: Sutta Study - SN 22.81",
+"ytTitle": "The Birth of Self: Sutta Study - SN 22.81",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3432,
+"sec": 310,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"right-view"
+],
+"style": [
+"sutta-study"
+],
+"published": "2026-07-29",
+"year": 2026,
+"views": 4300,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"right-view",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: The Birth of Self: Sutta Study - SN 22.81",
+"start": 2755,
+"end": 3065,
+"parent": "CVJQDoMHfeQ",
+"code": "480hh",
+"virtual": true
+},
+{
+"id": "EWFSAFHpx_U@440",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Death: The Process of Rebirth",
+"ytTitle": "The Process of Rebirth | Ajahn Brahm | 03-04-2009",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3869,
+"sec": 420,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2009-04-03",
+"year": 2009,
+"yearFrom": "title",
+"views": 146968,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 440,
+"end": 860,
+"parent": "EWFSAFHpx_U",
+"segTitle": "Death: The Process of Rebirth",
+"virtual": true
+},
+{
+"id": "EWFSAFHpx_U@900",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Meditation: The Process of Rebirth",
+"ytTitle": "The Process of Rebirth | Ajahn Brahm | 03-04-2009",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3869,
+"sec": 540,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"meditation",
+"rebirth"
+],
+"style": [],
+"published": "2009-04-03",
+"year": 2009,
+"yearFrom": "title",
+"views": 146968,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"rebirth",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 900,
+"end": 1440,
+"parent": "EWFSAFHpx_U",
+"segTitle": "Meditation: The Process of Rebirth",
+"virtual": true
+},
+{
+"id": "EWFSAFHpx_U@2500",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Compassion: The Process of Rebirth",
+"ytTitle": "The Process of Rebirth | Ajahn Brahm | 03-04-2009",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3869,
+"sec": 296,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"kindness",
+"kindness/compassion"
+],
+"style": [],
+"published": "2009-04-03",
+"year": 2009,
+"yearFrom": "title",
+"views": 146968,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kindness/compassion",
+0.75,
+"transcript"
+],
+[
+"kindness",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2500,
+"end": 2796,
+"parent": "EWFSAFHpx_U",
+"segTitle": "Compassion: The Process of Rebirth",
+"virtual": true
+},
+{
+"id": "EWFSAFHpx_U@3560",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Karma: The Process of Rebirth",
+"ytTitle": "The Process of Rebirth | Ajahn Brahm | 03-04-2009",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3869,
+"sec": 301,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"kamma"
+],
+"style": [],
+"published": "2009-04-03",
+"year": 2009,
+"yearFrom": "title",
+"views": 146968,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kamma",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 3560,
+"end": 3861,
+"parent": "EWFSAFHpx_U",
+"segTitle": "Karma: The Process of Rebirth",
+"virtual": true
+},
+{
+"id": "Ggc3aBwWx8Q@385",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Death: Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom",
+"ytTitle": "Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom | Ajahn Sumedho | 22.07.26",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1733,
+"sec": 438,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"awakening",
+"death"
+],
+"style": [],
+"year": 2026,
+"yearFrom": "upload-relative",
+"views": 7320,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 385,
+"end": 823,
+"parent": "Ggc3aBwWx8Q",
+"segTitle": "Death: Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom",
+"virtual": true
+},
+{
+"id": "Ggc3aBwWx8Q@1002",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Suffering: Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom",
+"ytTitle": "Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom | Ajahn Sumedho | 22.07.26",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1733,
+"sec": 374,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"awakening",
+"dukkha"
+],
+"style": [],
+"year": 2026,
+"yearFrom": "upload-relative",
+"views": 7320,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1002,
+"end": 1376,
+"parent": "Ggc3aBwWx8Q",
+"segTitle": "Suffering: Emptiness Is Not Oblivion—The Empty Mind Means Total Freedom",
+"virtual": true
+},
+{
+"id": "JDo2h6JZoTA@528",
+"teacher": "Thich Nhat Hanh",
+"speaker": "thich-nhat-hanh",
+"speakerFrom": "title",
+"title": "Craving & desire: Meditating on Emptiness, Signlessness & Aimlessness",
+"ytTitle": "Meditating on Emptiness, Signlessness & Aimlessness | Thich Nhat Hanh",
+"channel": "Plum Village",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 4862,
+"sec": 439,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "plum-village",
+"traditions": [
+"plum-village"
+],
+"figures": [],
+"topics": [
+"craving"
+],
+"style": [],
+"year": 2024,
+"yearFrom": "upload-relative",
+"views": 100408,
+"tags": {
+"v": 1,
+"topics": [
+[
+"craving",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 528,
+"end": 967,
+"parent": "JDo2h6JZoTA",
+"segTitle": "Craving & desire: Meditating on Emptiness, Signlessness & Aimlessness",
+"virtual": true
+},
+{
+"id": "JDo2h6JZoTA@2154",
+"teacher": "Thich Nhat Hanh",
+"speaker": "thich-nhat-hanh",
+"speakerFrom": "title",
+"title": "Meditation: Meditating on Emptiness, Signlessness & Aimlessness",
+"ytTitle": "Meditating on Emptiness, Signlessness & Aimlessness | Thich Nhat Hanh",
+"channel": "Plum Village",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 4862,
+"sec": 426,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "plum-village",
+"traditions": [
+"plum-village"
+],
+"figures": [],
+"topics": [
+"meditation"
+],
+"style": [],
+"year": 2024,
+"yearFrom": "upload-relative",
+"views": 100408,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 2154,
+"end": 2580,
+"parent": "JDo2h6JZoTA",
+"segTitle": "Meditation: Meditating on Emptiness, Signlessness & Aimlessness",
+"virtual": true
+},
+{
+"id": "JDo2h6JZoTA@2933",
+"teacher": "Thich Nhat Hanh",
+"speaker": "thich-nhat-hanh",
+"speakerFrom": "title",
+"title": "Death: Meditating on Emptiness, Signlessness & Aimlessness",
+"ytTitle": "Meditating on Emptiness, Signlessness & Aimlessness | Thich Nhat Hanh",
+"channel": "Plum Village",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 4862,
+"sec": 364,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "plum-village",
+"traditions": [
+"plum-village"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [],
+"year": 2024,
+"yearFrom": "upload-relative",
+"views": 100408,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2933,
+"end": 3297,
+"parent": "JDo2h6JZoTA",
+"segTitle": "Death: Meditating on Emptiness, Signlessness & Aimlessness",
+"virtual": true
+},
+{
+"id": "JDo2h6JZoTA@3353",
+"teacher": "Thich Nhat Hanh",
+"speaker": "thich-nhat-hanh",
+"speakerFrom": "title",
+"title": "Suffering: Meditating on Emptiness, Signlessness & Aimlessness",
+"ytTitle": "Meditating on Emptiness, Signlessness & Aimlessness | Thich Nhat Hanh",
+"channel": "Plum Village",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 4862,
+"sec": 303,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "plum-village",
+"traditions": [
+"plum-village"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"meditation"
+],
+"style": [],
+"year": 2024,
+"yearFrom": "upload-relative",
+"views": 100408,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"meditation",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 3353,
+"end": 3656,
+"parent": "JDo2h6JZoTA",
+"segTitle": "Suffering: Meditating on Emptiness, Signlessness & Aimlessness",
+"virtual": true
+},
+{
+"id": "Jynoirt7pvY@80",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Kindness: Metta, Goenka, Death and Samadhi",
+"ytTitle": "Metta, Goenka, Death and Samadhi",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2256,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"kindness",
+"meditation"
+],
+"style": [],
+"published": "2022-02-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kindness",
+0.75,
+"transcript"
+],
+[
+"meditation",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Kindness: Metta, Goenka, Death and Samadhi",
+"start": 80,
+"end": 380,
+"parent": "Jynoirt7pvY",
+"code": "255hh",
+"virtual": true
+},
+{
+"id": "Jynoirt7pvY@420",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Mindfulness: Metta, Goenka, Death and Samadhi",
+"ytTitle": "Metta, Goenka, Death and Samadhi",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2256,
+"sec": 540,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"emotions/anger",
+"meditation",
+"mindfulness"
+],
+"style": [],
+"published": "2022-02-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"mindfulness",
+0.75,
+"transcript"
+],
+[
+"meditation",
+0.6,
+"transcript"
+],
+[
+"emotions/anger",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Mindfulness: Metta, Goenka, Death and Samadhi",
+"start": 420,
+"end": 960,
+"parent": "Jynoirt7pvY",
+"code": "255hh",
+"virtual": true
+},
+{
+"id": "Jynoirt7pvY@1520",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: Metta, Goenka, Death and Samadhi",
+"ytTitle": "Metta, Goenka, Death and Samadhi",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2256,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha"
+],
+"style": [],
+"published": "2022-02-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: Metta, Goenka, Death and Samadhi",
+"start": 1520,
+"end": 1820,
+"parent": "Jynoirt7pvY",
+"code": "255hh",
+"virtual": true
+},
+{
+"id": "Jynoirt7pvY@1877",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Meditation: Metta, Goenka, Death and Samadhi",
+"ytTitle": "Metta, Goenka, Death and Samadhi",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2256,
+"sec": 363,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"death",
+"meditation"
+],
+"style": [],
+"published": "2022-02-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Meditation: Metta, Goenka, Death and Samadhi",
+"start": 1877,
+"end": 2240,
+"parent": "Jynoirt7pvY",
+"code": "255hh",
+"virtual": true
+},
+{
+"id": "UWpMHj-6mmo@385",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Mindfulness: How to Abandon the Self View",
+"ytTitle": "How to Abandon the Self View",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2862,
+"sec": 315,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [
+"nanavira-thera"
+],
+"topics": [
+"mindfulness"
+],
+"style": [],
+"published": "2022-10-03",
+"year": 2022,
+"views": 8400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"mindfulness",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Mindfulness: How to Abandon the Self View",
+"start": 385,
+"end": 700,
+"parent": "UWpMHj-6mmo",
+"code": "287hh",
+"virtual": true
+},
+{
+"id": "UWpMHj-6mmo@1980",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Mindfulness: How to Abandon the Self View",
+"ytTitle": "How to Abandon the Self View",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2862,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [
+"nanavira-thera"
+],
+"topics": [
+"mindfulness"
+],
+"style": [],
+"published": "2022-10-03",
+"year": 2022,
+"views": 8400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"mindfulness",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Mindfulness: How to Abandon the Self View",
+"start": 1980,
+"end": 2280,
+"parent": "UWpMHj-6mmo",
+"code": "287hh",
+"virtual": true
+},
+{
+"id": "VHJKQuhhazs@91",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Karma: The End of Kamma",
+"ytTitle": "The End of Kamma",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1980,
+"sec": 489,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"kamma",
+"self"
+],
+"style": [],
+"published": "2022-08-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kamma",
+0.75,
+"transcript"
+],
+[
+"self",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Karma: The End of Kamma",
+"start": 91,
+"end": 580,
+"parent": "VHJKQuhhazs",
+"code": "278hh",
+"virtual": true
+},
+{
+"id": "VHJKQuhhazs@940",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: The End of Kamma",
+"ytTitle": "The End of Kamma",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1980,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"kamma"
+],
+"style": [],
+"published": "2022-08-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"kamma",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: The End of Kamma",
+"start": 940,
+"end": 1240,
+"parent": "VHJKQuhhazs",
+"code": "278hh",
+"virtual": true
+},
+{
+"id": "VHJKQuhhazs@1360",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Karma: The End of Kamma",
+"ytTitle": "The End of Kamma",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1980,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving",
+"kamma"
+],
+"style": [],
+"published": "2022-08-08",
+"year": 2022,
+"views": 6200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kamma",
+0.75,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Karma: The End of Kamma",
+"start": 1360,
+"end": 1660,
+"parent": "VHJKQuhhazs",
+"code": "278hh",
+"virtual": true
+},
+{
+"id": "_Jt_GrMkL5o@1904",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Renunciation: Kosho Uchiyama's Life, Death, and Practice",
+"ytTitle": "Kosho Uchiyama's Life, Death, and Practice: Shohaku Okumura on Opening the Hand of Thought (#239)",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3367,
+"sec": 296,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"kosho-uchiyama"
+],
+"topics": [
+"renunciation",
+"thought"
+],
+"style": [],
+"year": 2022,
+"yearFrom": "upload-relative",
+"views": 8144,
+"tags": {
+"v": 1,
+"topics": [
+[
+"renunciation",
+0.75,
+"transcript"
+],
+[
+"thought",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1904,
+"end": 2200,
+"parent": "_Jt_GrMkL5o",
+"segTitle": "Renunciation: Kosho Uchiyama's Life, Death, and Practice",
+"virtual": true
+},
+{
+"id": "_Jt_GrMkL5o@2928",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Craving & desire: Kosho Uchiyama's Life, Death, and Practice",
+"ytTitle": "Kosho Uchiyama's Life, Death, and Practice: Shohaku Okumura on Opening the Hand of Thought (#239)",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3367,
+"sec": 312,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"kosho-uchiyama"
+],
+"topics": [
+"craving",
+"thought"
+],
+"style": [],
+"year": 2022,
+"yearFrom": "upload-relative",
+"views": 8144,
+"tags": {
+"v": 1,
+"topics": [
+[
+"craving",
+0.75,
+"transcript"
+],
+[
+"thought",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2928,
+"end": 3240,
+"parent": "_Jt_GrMkL5o",
+"segTitle": "Craving & desire: Kosho Uchiyama's Life, Death, and Practice",
+"virtual": true
+},
+{
+"id": "gJTCZ1izujg@800",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Karma: Kamma without Belief",
+"ytTitle": "Kamma without Belief | by Ajahn Brahm | 06 January 2012",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3758,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"kamma"
+],
+"style": [],
+"published": "2012-01-06",
+"year": 2012,
+"yearFrom": "title",
+"views": 103560,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kamma",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 800,
+"end": 1100,
+"parent": "gJTCZ1izujg",
+"segTitle": "Karma: Kamma without Belief",
+"virtual": true
+},
+{
+"id": "gJTCZ1izujg@2180",
+"teacher": "Ajahn Brahm",
+"speaker": "ajahn-brahm",
+"speakerFrom": "title",
+"title": "Karma: Kamma without Belief",
+"ytTitle": "Kamma without Belief | by Ajahn Brahm | 06 January 2012",
+"channel": "Buddhist Society of Western Australia",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3758,
+"sec": 438,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"kamma"
+],
+"style": [],
+"published": "2012-01-06",
+"year": 2012,
+"yearFrom": "title",
+"views": 103560,
+"tags": {
+"v": 1,
+"topics": [
+[
+"kamma",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 2180,
+"end": 2618,
+"parent": "gJTCZ1izujg",
+"segTitle": "Karma: Kamma without Belief",
+"virtual": true
+},
+{
+"id": "goMZEENFpmQ@440",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Death: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"ytTitle": "Shohaku Okumura on the Buddha conquering Mara-as-Death (Mṛtyu-māra): Enlightenment Day 2015",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3495,
+"sec": 298,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"the-buddha"
+],
+"topics": [
+"death"
+],
+"style": [],
+"year": 2016,
+"yearFrom": "upload-relative",
+"views": 419,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 440,
+"end": 738,
+"parent": "goMZEENFpmQ",
+"segTitle": "Death: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"virtual": true
+},
+{
+"id": "goMZEENFpmQ@796",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Awakening: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"ytTitle": "Shohaku Okumura on the Buddha conquering Mara-as-Death (Mṛtyu-māra): Enlightenment Day 2015",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3495,
+"sec": 364,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"the-buddha"
+],
+"topics": [
+"awakening"
+],
+"style": [],
+"year": 2016,
+"yearFrom": "upload-relative",
+"views": 419,
+"tags": {
+"v": 1,
+"topics": [
+[
+"awakening",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 796,
+"end": 1160,
+"parent": "goMZEENFpmQ",
+"segTitle": "Awakening: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"virtual": true
+},
+{
+"id": "goMZEENFpmQ@1653",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Suffering: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"ytTitle": "Shohaku Okumura on the Buddha conquering Mara-as-Death (Mṛtyu-māra): Enlightenment Day 2015",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3495,
+"sec": 308,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"the-buddha"
+],
+"topics": [
+"awakening",
+"death",
+"dukkha"
+],
+"style": [],
+"year": 2016,
+"yearFrom": "upload-relative",
+"views": 419,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1653,
+"end": 1961,
+"parent": "goMZEENFpmQ",
+"segTitle": "Suffering: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"virtual": true
+},
+{
+"id": "goMZEENFpmQ@2017",
+"teacher": "Shohaku Okumura",
+"speaker": "shohaku-okumura",
+"speakerFrom": "title",
+"title": "Death: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"ytTitle": "Shohaku Okumura on the Buddha conquering Mara-as-Death (Mṛtyu-māra): Enlightenment Day 2015",
+"channel": "Sanshin Zen Community",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3495,
+"sec": 810,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "soto-zen",
+"traditions": [
+"soto-zen"
+],
+"figures": [
+"the-buddha"
+],
+"topics": [
+"awakening",
+"death"
+],
+"style": [],
+"year": 2016,
+"yearFrom": "upload-relative",
+"views": 419,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"start": 2017,
+"end": 2827,
+"parent": "goMZEENFpmQ",
+"segTitle": "Death: The Buddha conquering Mara-as-Death (Mṛtyu-māra)",
+"virtual": true
+},
+{
+"id": "lyY9rq663kQ@60",
+"teacher": "Henry Shukman",
+"speaker": "henry-shukman",
+"speakerFrom": "title",
+"title": "Koan: Original Love 4 Retreat, Talk Three: Mu Koan",
+"ytTitle": "Original Love 4 Retreat, Talk Three: Mu Koan - with Henry Shukman",
+"channel": "Mountain Cloud Zen Center",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2190,
+"sec": 306,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "zen",
+"traditions": [
+"zen"
+],
+"figures": [],
+"topics": [
+"meditation/koan"
+],
+"style": [],
+"year": 2021,
+"yearFrom": "upload-relative",
+"views": 879,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation/koan",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 60,
+"end": 366,
+"parent": "lyY9rq663kQ",
+"segTitle": "Koan: Original Love 4 Retreat, Talk Three: Mu Koan",
+"virtual": true
+},
+{
+"id": "lyY9rq663kQ@1180",
+"teacher": "Henry Shukman",
+"speaker": "henry-shukman",
+"speakerFrom": "title",
+"title": "Mindfulness: Original Love 4 Retreat, Talk Three: Mu Koan",
+"ytTitle": "Original Love 4 Retreat, Talk Three: Mu Koan - with Henry Shukman",
+"channel": "Mountain Cloud Zen Center",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2190,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "zen",
+"traditions": [
+"zen"
+],
+"figures": [],
+"topics": [
+"kindness",
+"mindfulness"
+],
+"style": [],
+"year": 2021,
+"yearFrom": "upload-relative",
+"views": 879,
+"tags": {
+"v": 1,
+"topics": [
+[
+"mindfulness",
+0.75,
+"transcript"
+],
+[
+"kindness",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1180,
+"end": 1480,
+"parent": "lyY9rq663kQ",
+"segTitle": "Mindfulness: Original Love 4 Retreat, Talk Three: Mu Koan",
+"virtual": true
+},
+{
+"id": "lyY9rq663kQ@1723",
+"teacher": "Henry Shukman",
+"speaker": "henry-shukman",
+"speakerFrom": "title",
+"title": "Koan: Original Love 4 Retreat, Talk Three: Mu Koan",
+"ytTitle": "Original Love 4 Retreat, Talk Three: Mu Koan - with Henry Shukman",
+"channel": "Mountain Cloud Zen Center",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2190,
+"sec": 293,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "zen",
+"traditions": [
+"zen"
+],
+"figures": [],
+"topics": [
+"meditation/koan"
+],
+"style": [],
+"year": 2021,
+"yearFrom": "upload-relative",
+"views": 879,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation/koan",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1723,
+"end": 2016,
+"parent": "lyY9rq663kQ",
+"segTitle": "Koan: Original Love 4 Retreat, Talk Three: Mu Koan",
+"virtual": true
+},
+{
+"id": "mVqPSDxk1p4@357",
+"teacher": "Ajahn Pasanno",
+"speaker": "ajahn-pasanno",
+"speakerFrom": "title",
+"title": "Death: Freedom Beyond Death",
+"ytTitle": "Freedom Beyond Death | Luang Por Pasanno",
+"channel": "Abhayagiri",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2213,
+"sec": 307,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"craving",
+"death",
+"emotions/fear"
+],
+"style": [],
+"year": 2022,
+"yearFrom": "upload-relative",
+"views": 963,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+],
+[
+"emotions/fear",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 357,
+"end": 664,
+"parent": "mVqPSDxk1p4",
+"segTitle": "Death: Freedom Beyond Death",
+"virtual": true
+},
+{
+"id": "mVqPSDxk1p4@720",
+"teacher": "Ajahn Pasanno",
+"speaker": "ajahn-pasanno",
+"speakerFrom": "title",
+"title": "Death: Freedom Beyond Death",
+"ytTitle": "Freedom Beyond Death | Luang Por Pasanno",
+"channel": "Abhayagiri",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2213,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"craving",
+"death",
+"renunciation"
+],
+"style": [],
+"year": 2022,
+"yearFrom": "upload-relative",
+"views": 963,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+],
+[
+"renunciation",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 720,
+"end": 1020,
+"parent": "mVqPSDxk1p4",
+"segTitle": "Death: Freedom Beyond Death",
+"virtual": true
+},
+{
+"id": "mWFACL-aIoA@580",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Fear & anxiety: Welcoming fear, grief & anger, and not taking them personally",
+"ytTitle": "Welcoming fear, grief & anger, and not taking them personally | Ajahn Sumedho | 26.04.2020",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2758,
+"sec": 360,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"emotions/fear",
+"mindfulness"
+],
+"style": [],
+"published": "2020-04-26",
+"year": 2020,
+"yearFrom": "title",
+"views": 20375,
+"tags": {
+"v": 1,
+"topics": [
+[
+"emotions/fear",
+0.75,
+"transcript"
+],
+[
+"mindfulness",
+0.6,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 580,
+"end": 940,
+"parent": "mWFACL-aIoA",
+"segTitle": "Fear & anxiety: Welcoming fear, grief & anger, and not taking them personally",
+"virtual": true
+},
+{
+"id": "mWFACL-aIoA@1664",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Death: Welcoming fear, grief & anger, and not taking them personally",
+"ytTitle": "Welcoming fear, grief & anger, and not taking them personally | Ajahn Sumedho | 26.04.2020",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2758,
+"sec": 318,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2020-04-26",
+"year": 2020,
+"yearFrom": "title",
+"views": 20375,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1664,
+"end": 1982,
+"parent": "mWFACL-aIoA",
+"segTitle": "Death: Welcoming fear, grief & anger, and not taking them personally",
+"virtual": true
+},
+{
+"id": "mWFACL-aIoA@2010",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Anger: Welcoming fear, grief & anger, and not taking them personally",
+"ytTitle": "Welcoming fear, grief & anger, and not taking them personally | Ajahn Sumedho | 26.04.2020",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2758,
+"sec": 310,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"emotions/anger",
+"emotions/fear"
+],
+"style": [],
+"published": "2020-04-26",
+"year": 2020,
+"yearFrom": "title",
+"views": 20375,
+"tags": {
+"v": 1,
+"topics": [
+[
+"emotions/anger",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+],
+[
+"emotions/fear",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 2010,
+"end": 2320,
+"parent": "mWFACL-aIoA",
+"segTitle": "Anger: Welcoming fear, grief & anger, and not taking them personally",
+"virtual": true
+},
+{
+"id": "pQ87qzt7QyU@360",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Awakening: On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself",
+"ytTitle": "On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself | by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1976,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"awakening",
+"dukkha"
+],
+"style": [],
+"published": "2019-08-08",
+"year": 2019,
+"views": 4200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"awakening",
+0.75,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Awakening: On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself",
+"start": 360,
+"end": 660,
+"parent": "pQ87qzt7QyU",
+"code": "128hh",
+"virtual": true
+},
+{
+"id": "pQ87qzt7QyU@1500",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Meditation: On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself",
+"ytTitle": "On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself | by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1976,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"meditation"
+],
+"style": [],
+"published": "2019-08-08",
+"year": 2019,
+"views": 4200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Meditation: On Endurance, Timelessness in practice, Rebirth and Abandoning of yourself",
+"start": 1500,
+"end": 1800,
+"parent": "pQ87qzt7QyU",
+"code": "128hh",
+"virtual": true
+},
+{
+"id": "ph9RVBbxgtU@20",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: Suffering of Sotapannas",
+"ytTitle": "Suffering of Sotapannas",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2512,
+"sec": 303,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"awakening",
+"dukkha"
+],
+"style": [],
+"published": "2022-12-17",
+"year": 2022,
+"views": 9200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: Suffering of Sotapannas",
+"start": 20,
+"end": 323,
+"parent": "ph9RVBbxgtU",
+"code": "300hh",
+"virtual": true
+},
+{
+"id": "ph9RVBbxgtU@1100",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Meditation: Suffering of Sotapannas",
+"ytTitle": "Suffering of Sotapannas",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2512,
+"sec": 420,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"meditation"
+],
+"style": [],
+"published": "2022-12-17",
+"year": 2022,
+"views": 9200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "mid"
+},
+"segTitle": "Meditation: Suffering of Sotapannas",
+"start": 1100,
+"end": 1520,
+"parent": "ph9RVBbxgtU",
+"code": "300hh",
+"virtual": true
+},
+{
+"id": "ph9RVBbxgtU@1960",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Right view: Suffering of Sotapannas",
+"ytTitle": "Suffering of Sotapannas",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2512,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"right-view"
+],
+"style": [],
+"published": "2022-12-17",
+"year": 2022,
+"views": 9200,
+"tags": {
+"v": 1,
+"topics": [
+[
+"right-view",
+0.75,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Right view: Suffering of Sotapannas",
+"start": 1960,
+"end": 2260,
+"parent": "ph9RVBbxgtU",
+"code": "300hh",
+"virtual": true
+},
+{
+"id": "s2xvqFiWTRs@21",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Suffering: Ajahn Chah's \"die Before You Die\"",
+"ytTitle": "AJAHN CHAH'S \"DIE BEFORE YOU DIE\" --- by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3143,
+"sec": 319,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"dukkha"
+],
+"style": [],
+"published": "2019-04-07",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: Ajahn Chah's \"die Before You Die\"",
+"start": 21,
+"end": 340,
+"parent": "s2xvqFiWTRs",
+"code": "68hh",
+"virtual": true
+},
+{
+"id": "s2xvqFiWTRs@1100",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Death: Ajahn Chah's \"die Before You Die\"",
+"ytTitle": "AJAHN CHAH'S \"DIE BEFORE YOU DIE\" --- by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3143,
+"sec": 360,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2019-04-07",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: Ajahn Chah's \"die Before You Die\"",
+"start": 1100,
+"end": 1460,
+"parent": "s2xvqFiWTRs",
+"code": "68hh",
+"virtual": true
+},
+{
+"id": "s2xvqFiWTRs@1560",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Meditation: Ajahn Chah's \"die Before You Die\"",
+"ytTitle": "AJAHN CHAH'S \"DIE BEFORE YOU DIE\" --- by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3143,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"craving",
+"defilements",
+"meditation"
+],
+"style": [],
+"published": "2019-04-07",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"defilements",
+0.6,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Meditation: Ajahn Chah's \"die Before You Die\"",
+"start": 1560,
+"end": 1860,
+"parent": "s2xvqFiWTRs",
+"code": "68hh",
+"virtual": true
+},
+{
+"id": "s2xvqFiWTRs@1980",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "title",
+"title": "Virtue: Ajahn Chah's \"die Before You Die\"",
+"ytTitle": "AJAHN CHAH'S \"DIE BEFORE YOU DIE\" --- by Nyanamoli Thero",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3143,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas",
+"thai-forest"
+],
+"figures": [
+"ajahn-chah"
+],
+"topics": [
+"virtue"
+],
+"style": [],
+"published": "2019-04-07",
+"year": 2019,
+"views": 12000,
+"tags": {
+"v": 1,
+"topics": [
+[
+"virtue",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Virtue: Ajahn Chah's \"die Before You Die\"",
+"start": 1980,
+"end": 2280,
+"parent": "s2xvqFiWTRs",
+"code": "68hh",
+"virtual": true
+},
+{
+"id": "wGXX9mxnt8M@154",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Suffering: Death, Uncertainty and Aversion to Pain",
+"ytTitle": "Death, Uncertainty and Aversion to Pain",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3146,
+"sec": 306,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"virtue"
+],
+"style": [],
+"published": "2022-09-05",
+"year": 2022,
+"views": 6400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"virtue",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Suffering: Death, Uncertainty and Aversion to Pain",
+"start": 154,
+"end": 460,
+"parent": "wGXX9mxnt8M",
+"code": "283hh",
+"virtual": true
+},
+{
+"id": "wGXX9mxnt8M@580",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Death: Death, Uncertainty and Aversion to Pain",
+"ytTitle": "Death, Uncertainty and Aversion to Pain",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3146,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"craving",
+"death",
+"dukkha"
+],
+"style": [],
+"published": "2022-09-05",
+"year": 2022,
+"views": 6400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+],
+[
+"craving",
+0.6,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: Death, Uncertainty and Aversion to Pain",
+"start": 580,
+"end": 880,
+"parent": "wGXX9mxnt8M",
+"code": "283hh",
+"virtual": true
+},
+{
+"id": "wGXX9mxnt8M@1464",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Death: Death, Uncertainty and Aversion to Pain",
+"ytTitle": "Death, Uncertainty and Aversion to Pain",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3146,
+"sec": 296,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"death"
+],
+"style": [],
+"published": "2022-09-05",
+"year": 2022,
+"views": 6400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"death",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Death: Death, Uncertainty and Aversion to Pain",
+"start": 1464,
+"end": 1760,
+"parent": "wGXX9mxnt8M",
+"code": "283hh",
+"virtual": true
+},
+{
+"id": "wGXX9mxnt8M@1840",
+"teacher": "Ajahn Nyanamoli Thero",
+"speaker": "ajahn-nyanamoli",
+"speakerFrom": "channel-default",
+"title": "Meditation: Death, Uncertainty and Aversion to Pain",
+"ytTitle": "Death, Uncertainty and Aversion to Pain",
+"channel": "Hillside Hermitage",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 3146,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "early-suttas",
+"traditions": [
+"early-suttas"
+],
+"figures": [],
+"topics": [
+"death",
+"dukkha",
+"impermanence",
+"meditation"
+],
+"style": [],
+"published": "2022-09-05",
+"year": 2022,
+"views": 6400,
+"tags": {
+"v": 1,
+"topics": [
+[
+"meditation",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+],
+[
+"impermanence",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"segTitle": "Meditation: Death, Uncertainty and Aversion to Pain",
+"start": 1840,
+"end": 2140,
+"parent": "wGXX9mxnt8M",
+"code": "283hh",
+"virtual": true
+},
+{
+"id": "w_3vtb_yMgY@18",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Suffering: Chronic Pain, Ego and Liberation",
+"ytTitle": "Chronic Pain, Ego and Liberation | Ajahn Sumedho | 11.10.2025",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1970,
+"sec": 362,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"awakening",
+"dukkha"
+],
+"style": [],
+"published": "2025-10-11",
+"year": 2025,
+"yearFrom": "title",
+"views": 7070,
+"tags": {
+"v": 1,
+"topics": [
+[
+"dukkha",
+0.75,
+"transcript"
+],
+[
+"awakening",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 18,
+"end": 380,
+"parent": "w_3vtb_yMgY",
+"segTitle": "Suffering: Chronic Pain, Ego and Liberation",
+"virtual": true
+},
+{
+"id": "w_3vtb_yMgY@576",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Mindfulness: Chronic Pain, Ego and Liberation",
+"ytTitle": "Chronic Pain, Ego and Liberation | Ajahn Sumedho | 11.10.2025",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1970,
+"sec": 384,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"dukkha",
+"mindfulness"
+],
+"style": [],
+"published": "2025-10-11",
+"year": 2025,
+"yearFrom": "title",
+"views": 7070,
+"tags": {
+"v": 1,
+"topics": [
+[
+"mindfulness",
+0.75,
+"transcript"
+],
+[
+"dukkha",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 576,
+"end": 960,
+"parent": "w_3vtb_yMgY",
+"segTitle": "Mindfulness: Chronic Pain, Ego and Liberation",
+"virtual": true
+},
+{
+"id": "w_3vtb_yMgY@1075",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Self & not-self: Chronic Pain, Ego and Liberation",
+"ytTitle": "Chronic Pain, Ego and Liberation | Ajahn Sumedho | 11.10.2025",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1970,
+"sec": 304,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"death",
+"self"
+],
+"style": [],
+"published": "2025-10-11",
+"year": 2025,
+"yearFrom": "title",
+"views": 7070,
+"tags": {
+"v": 1,
+"topics": [
+[
+"self",
+0.75,
+"transcript"
+],
+[
+"death",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1075,
+"end": 1379,
+"parent": "w_3vtb_yMgY",
+"segTitle": "Self & not-self: Chronic Pain, Ego and Liberation",
+"virtual": true
+},
+{
+"id": "w_3vtb_yMgY@1403",
+"teacher": "Ajahn Sumedho",
+"speaker": "ajahn-sumedho",
+"speakerFrom": "title",
+"title": "Awakening: Chronic Pain, Ego and Liberation",
+"ytTitle": "Chronic Pain, Ego and Liberation | Ajahn Sumedho | 11.10.2025",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 1970,
+"sec": 328,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [],
+"topics": [
+"awakening"
+],
+"style": [],
+"published": "2025-10-11",
+"year": 2025,
+"yearFrom": "title",
+"views": 7070,
+"tags": {
+"v": 1,
+"topics": [
+[
+"awakening",
+0.75,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 1403,
+"end": 1731,
+"parent": "w_3vtb_yMgY",
+"segTitle": "Awakening: Chronic Pain, Ego and Liberation",
+"virtual": true
+},
+{
+"id": "zev51YF3m_E@900",
+"teacher": "Ajahn Amaro",
+"speaker": "ajahn-amaro",
+"speakerFrom": "title",
+"title": "Fear & anxiety: Awakened Before the Buddha's Name",
+"ytTitle": "Awakened Before the Buddha's Name | Ajahn Amaro | 10.11.2024",
+"channel": "Amaravati Buddhist Monastery",
+"kind": "human",
+"media": "youtube",
+"checked": "2026-10-20",
+"dur": 2052,
+"sec": 300,
+"format": "horizontal",
+"carrier": "own",
+"setting": "talk",
+"region": "buddhism",
+"tradition": "thai-forest",
+"traditions": [
+"thai-forest"
+],
+"figures": [
+"the-buddha"
+],
+"topics": [
+"emotions/anger",
+"emotions/fear"
+],
+"style": [],
+"published": "2024-11-10",
+"year": 2024,
+"yearFrom": "title",
+"views": 4762,
+"tags": {
+"v": 1,
+"topics": [
+[
+"emotions/fear",
+0.75,
+"transcript"
+],
+[
+"emotions/anger",
+0.6,
+"transcript"
+]
+],
+"lang": [
+"en",
+0.9,
+"rule"
+],
+"band": "short"
+},
+"start": 900,
+"end": 1200,
+"parent": "zev51YF3m_E",
+"segTitle": "Fear & anxiety: Awakened Before the Buddha's Name",
+"virtual": true
+}
+]

@@ -1,0 +1,2610 @@
+{
+ "people": [
+  {
+   "id": "dzogchen-ponlop",
+   "name": "Dzogchen Ponlop Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1965–",
+   "bio": "Kagyu and Nyingma lama, founder of Nalandabodhi, who presents mind training and the \"mindful gap\" to modern audiences with humour and an interest in art and popular culture.",
+   "site": "https://dpr.info",
+   "channels": [
+    "Ponlop Rinpoche",
+    "NalandabodhiVideos",
+    "Tergar Meditation Community"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "long": 2,
+    "natural": 381
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q15975813",
+    "label": "Dzogchen Pönlop Rinpoche",
+    "description": null,
+    "unverified": true
+   }
+  },
+  {
+   "id": "ringu-tulku",
+   "name": "Ringu Tulku Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1952–",
+   "bio": "Karma Kagyu lama and scholar of the Rimé movement, former professor of Tibetan studies in Sikkim, who founded Bodhicharya and teaches in a light, accessible style.",
+   "site": "https://bodhicharya.org",
+   "channels": [
+    "Bodhicharya Dharma Channel",
+    "Study Buddhism",
+    "Tergar Meditation Community"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "long": 1,
+    "natural": 163,
+    "whole": 111
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q329990",
+    "label": "ringu tulku",
+    "description": null,
+    "unverified": true
+   }
+  },
+  {
+   "id": "tenzin-wangyal",
+   "name": "Tenzin Wangyal Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "bon",
+   "years": "1961–",
+   "bio": "Bön lama trained at Menri under Lopön Tenzin Namdak, founder of Ligmincha International, who teaches Bön Dzogchen, dream yoga and the healing practices of sound and breath.",
+   "site": "https://ligmincha.org",
+   "channels": [
+    "Ligmincha International",
+    "Lama Lena Teachings",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "long": 29,
+    "natural": 231,
+    "whole": 82
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "brad-warner",
+   "name": "Brad Warner",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1964–",
+   "bio": "American Soto Zen teacher and author of Hardcore Zen, a Dharma heir of Gudo Wafu Nishijima, who talks about zazen, Dogen and everyday life with punk bluntness.",
+   "site": "https://hardcorezen.info",
+   "channels": [
+    "Hardcore Zen"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "natural": 131,
+    "whole": 126
+   },
+   "existing_app_clips": 6,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "valerie-forstman",
+   "name": "Valerie Forstman",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "sanbo-zen",
+   "years": null,
+   "bio": "Associate Zen Master of the Sanbo Zen lineage and guiding teacher of Mountain Cloud Zen Center, first a student of Ruben Habito.",
+   "site": "https://www.mountaincloud.org",
+   "channels": [
+    "Mountain Cloud Zen Center",
+    "Dosho Port"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "whole": 122,
+    "long": 1,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "shinge-roshi",
+   "name": "Shinge Roshi",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "rinzai-zen",
+   "years": null,
+   "bio": "Roko Sherry Chayat, abbot of the Zen Studies Society (Dai Bosatsu Zendo) in the Rinzai line of Eido Shimano.",
+   "site": "https://zenstudies.org",
+   "channels": [
+    "The Zen Studies Society",
+    "acalaacala"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "long": 26,
+    "whole": 66,
+    "natural": 9
+   },
+   "existing_app_clips": 12,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "chigan-roshi",
+   "name": "Chigan Roshi",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "rinzai-zen",
+   "years": null,
+   "bio": "Rinzai Zen teacher with the Zen Studies Society who gives teisho on koan collections at Dai Bosatsu Zendo and New York Zendo.",
+   "site": "https://zenstudies.org",
+   "channels": [
+    "The Zen Studies Society"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "whole": 69,
+    "natural": 5,
+    "long": 17
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "jeffrey-hopkins",
+   "name": "Jeffrey Hopkins",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1940–2024",
+   "bio": "Scholar and translator of Gelug Madhyamaka and tantra, founder of the Tibetan Buddhist studies doctoral programme at the University of Virginia and the Dalai Lama's chief English interpreter 1979–89.",
+   "site": "https://uma-tibet.org",
+   "channels": [
+    "UMA Institute",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "whole": 182,
+    "natural": 5,
+    "long": 33
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "lama-jampa-thaye",
+   "name": "Lama Jampa Thaye",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "sakya",
+   "years": "1952–",
+   "bio": "British-born lama authorised in the Sakya and Karma Kagyu traditions by Karma Thinley Rinpoche, founder of the Dechen community and a scholar of Tibetan Buddhism.",
+   "site": "https://www.dechen.org",
+   "channels": [
+    "LamaJampaThaye",
+    "Karmapa International Buddhist Institute"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "long": 30,
+    "natural": 67,
+    "whole": 17
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "kwan-um-school",
+   "name": "Kwan Um School of Zen (various Zen Masters)",
+   "role": "institution",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "seon",
+   "years": "1983–",
+   "bio": "The Kwan Um School of Zen, the international Korean Seon school founded by Zen Master Seung Sahn; the channel collects short talks by many of its Zen Masters.",
+   "site": "https://www.kwanumzen.org",
+   "channels": [
+    "Kwan Um School of Zen",
+    "Kwan Um School of Zen Europe"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "natural": 96,
+    "whole": 3,
+    "long": 1
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "tendai-buddhist-institute",
+   "name": "Tendai Buddhist Institute (weekly dharma talks)",
+   "role": "institution",
+   "family": "tiantai",
+   "tradition": "tiantai",
+   "school": "tendai",
+   "years": null,
+   "bio": "Tendai Buddhist Institute in New York state, the American branch of Japanese Tendai; its weekly Wednesday talks cover Tiantai/Tendai doctrine and practice.",
+   "site": "https://www.tendai.org",
+   "channels": [
+    "Tendai Buddhist Institute"
+   ],
+   "clip_count": 70,
+   "catalogue": {
+    "whole": 128,
+    "long": 4,
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "thich-nhat-hanh",
+   "name": "Thich Nhat Hanh",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": "1926–2022",
+   "bio": "Vietnamese Thiền master, poet and peace activist who founded Plum Village and the Order of Interbeing and taught mindful, engaged living.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village App",
+    "Plum Village",
+    "Upaya Zen Center"
+   ],
+   "clip_count": 66,
+   "catalogue": {
+    "natural": 126,
+    "long": 63,
+    "whole": 32
+   },
+   "existing_app_clips": 70,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "dalai-lama",
+   "name": "The 14th Dalai Lama",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1935–",
+   "bio": "Tenzin Gyatso, 14th Dalai Lama, Gelug monk and scholar whose teachings range from Lamrim and Madhyamaka to secular ethics and dialogue with science.",
+   "site": "https://www.dalailama.com",
+   "channels": [
+    "Dalai Lama",
+    "Tibet House US",
+    "Wisdom Publications Inc.",
+    "Study Buddhism",
+    "NalandabodhiVideos"
+   ],
+   "clip_count": 65,
+   "catalogue": {
+    "natural": 80,
+    "whole": 27,
+    "long": 60
+   },
+   "existing_app_clips": 50,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "henry-shukman",
+   "name": "Henry Shukman",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "sanbo-zen",
+   "years": "1962–",
+   "bio": "English poet and Sanbo Zen master, appointed teacher in 2010 and given Dharma transmission by Yamada Ryoun in 2020; spiritual director emeritus of Mountain Cloud Zen Center.",
+   "site": "https://henryshukman.com",
+   "channels": [
+    "Mountain Cloud Zen Center",
+    "Tibet House US",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 63,
+   "catalogue": {
+    "long": 3,
+    "whole": 61,
+    "natural": 2
+   },
+   "existing_app_clips": 8,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "shingon-foundation",
+   "name": "Foundation for Shingon Buddhism (classes and podcast)",
+   "role": "institution",
+   "family": "esoteric",
+   "tradition": "esoteric",
+   "school": "shingon",
+   "years": null,
+   "bio": "Foundation for Shingon Buddhism, which shares Shingon esoteric Buddhism, its texts and Koyasan culture in English.",
+   "site": "http://www.shingonbuddhism.org",
+   "channels": [
+    "Foundation for Shingon Buddhism"
+   ],
+   "clip_count": 62,
+   "catalogue": {
+    "long": 39,
+    "whole": 47,
+    "natural": 15
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "mingyur-rinpoche",
+   "name": "Yongey Mingyur Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1975–",
+   "bio": "Nepal-born Kagyu and Nyingma teacher, son of Tulku Urgyen Rinpoche, known for plain-language meditation teaching, neuroscience collaborations and a four-year wandering retreat; founder of Tergar.",
+   "site": "https://tergar.org",
+   "channels": [
+    "Yongey Mingyur Rinpoche",
+    "Tergar Meditation Community",
+    "Wisdom Publications Inc.",
+    "Garchen Buddhist Institute"
+   ],
+   "clip_count": 60,
+   "catalogue": {
+    "natural": 270,
+    "long": 21,
+    "whole": 16
+   },
+   "existing_app_clips": 60,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q3314967",
+    "label": "Yongey Mingyur Rinpoche",
+    "description": "Tibetan Lama"
+   }
+  },
+  {
+   "id": "dzongsar-khyentse",
+   "name": "Dzongsar Jamyang Khyentse Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "rime",
+   "years": "1961–",
+   "bio": "Bhutanese Rimé lama of the Sakya and Nyingma lines, recognised as an incarnation of Jamyang Khyentse Wangpo; filmmaker, author and founder of Siddhartha's Intent and Khyentse Foundation.",
+   "site": "https://siddharthasintent.org",
+   "channels": [
+    "Siddhartha's Intent",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 58,
+   "catalogue": {
+    "whole": 51,
+    "long": 13,
+    "natural": 7
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q730984",
+    "label": "Dzongsar Jamyang Khyentse Rinpoche",
+    "description": "Buddhist master, writer and filmmaker"
+   }
+  },
+  {
+   "id": "alan-wallace",
+   "name": "B. Alan Wallace",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1950–",
+   "bio": "American scholar-practitioner ordained by the Dalai Lama and trained by Geshe Rabten, later a Stanford PhD, who teaches shamatha and Dzogchen and argues for a \"contemplative science\" of mind.",
+   "site": "https://www.alanwallace.org",
+   "channels": [
+    "Wisdom Publications Inc.",
+    "Center for Contemplative Research",
+    "sbics"
+   ],
+   "clip_count": 57,
+   "catalogue": {
+    "whole": 14,
+    "natural": 43,
+    "long": 3
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "khentrul-rinpoche",
+   "name": "Khentrul Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "jonang",
+   "years": null,
+   "bio": "Shar Khentrul Jamphel Lodrö, a Jonang master trained in a non-sectarian (Rimé) way, who teaches Kalachakra and the shentong \"other-emptiness\" view through Dzokden.",
+   "site": "https://dzokden.org",
+   "channels": [
+    "Khentrul Rinpoche",
+    "Dzokden"
+   ],
+   "clip_count": 51,
+   "catalogue": {
+    "long": 12,
+    "natural": 51
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "robert-thurman",
+   "name": "Robert A. F. Thurman",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1941–2026",
+   "bio": "American scholar and translator, the first Westerner ordained a Tibetan Buddhist monk, Jey Tsong Khapa Professor at Columbia and co-founder of Tibet House US; died in June 2026.",
+   "site": "https://bobthurman.com",
+   "channels": [
+    "Tibet House US",
+    "Tsadra Foundation Media Channel",
+    "Wisdom Publications Inc.",
+    "Tara Mandala",
+    "Rangjung Yeshe Institute"
+   ],
+   "clip_count": 50,
+   "catalogue": {
+    "natural": 109,
+    "whole": 126,
+    "long": 173
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "sheng-yen",
+   "name": "Master Sheng Yen",
+   "role": "teacher",
+   "family": "chan",
+   "tradition": "chan",
+   "school": "chan",
+   "years": "1930–2009",
+   "bio": "Taiwanese Chan master of the Linji and Caodong lines and founder of Dharma Drum Mountain, who revived Chan practice and taught in the West; his Great Dharma Drum TV series answers short questions.",
+   "site": "https://www.dharmadrum.org",
+   "channels": [
+    "Master Sheng Yen"
+   ],
+   "clip_count": 50,
+   "catalogue": {
+    "whole": 29,
+    "natural": 1435
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "tsoknyi-rinpoche",
+   "name": "Tsoknyi Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1966–",
+   "bio": "Nyingma and Drukpa Kagyu teacher, son of Tulku Urgyen Rinpoche, who teaches \"essence love\", the subtle body and the open-hearted awareness of Dzogchen through the Pundarika Foundation.",
+   "site": "https://tsoknyirinpoche.org",
+   "channels": [
+    "Pundarika",
+    "Pundarika UK",
+    "Tergar Meditation Community"
+   ],
+   "clip_count": 48,
+   "catalogue": {
+    "long": 1,
+    "natural": 51,
+    "whole": 11
+   },
+   "existing_app_clips": 40,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q7849836",
+    "label": "Tsoknyi Rinpoche",
+    "description": "Buddhist teacher"
+   }
+  },
+  {
+   "id": "dzigar-kongtrul",
+   "name": "Dzigar Kongtrul Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1964–",
+   "bio": "Nyingma lama, son of Neten Chokling Rinpoche and former professor at Naropa, founder of Mangala Shri Bhuti, and teacher of Pema Chödrön.",
+   "site": "https://mangalashribhuti.org",
+   "channels": [
+    "Mangala Shri Bhuti"
+   ],
+   "clip_count": 48,
+   "catalogue": {
+    "long": 4,
+    "natural": 42,
+    "whole": 6
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "hokuto-sensei",
+   "name": "Hokuto Daniel Diffin",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "rinzai-zen",
+   "years": null,
+   "bio": "Rinzai Zen priest with the Zen Studies Society (Hokuto Osho) who gives Dharma talks on the Record of Linji.",
+   "site": "https://zenstudies.org",
+   "channels": [
+    "The Zen Studies Society"
+   ],
+   "clip_count": 48,
+   "catalogue": {
+    "long": 14,
+    "whole": 48
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "anne-klein",
+   "name": "Anne C. Klein (Lama Rigzin Drolma)",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "Professor of Religious Studies at Rice University and, as Lama Rigzin Drolma, co-founder of Dawn Mountain in Houston, teaching Nyingma Dzogchen.",
+   "site": "https://dawnmountain.org",
+   "channels": [
+    "Dawn Mountain Online",
+    "Tara Mandala",
+    "Wisdom Publications Inc.",
+    "Maitripa College",
+    "Sravasti Abbey"
+   ],
+   "clip_count": 44,
+   "catalogue": {
+    "long": 27,
+    "whole": 37,
+    "natural": 7
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "thupten-jinpa",
+   "name": "Thupten Jinpa",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1958–",
+   "bio": "Former Gelug monk with a Geshe Lharampa degree and a Cambridge PhD, principal English translator to the Dalai Lama since 1985, Tsongkhapa biographer and author of the Compassion Cultivation Training programme.",
+   "site": "https://www.compassioninstitute.com",
+   "channels": [
+    "Compassion Institute",
+    "Tsadra Foundation Media Channel",
+    "Wisdom Publications Inc.",
+    "Sacred Stream",
+    "Daniel Aitken"
+   ],
+   "clip_count": 42,
+   "catalogue": {
+    "long": 22,
+    "natural": 38,
+    "whole": 4
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q3104465",
+    "label": "Geshe Thupten Jinpa",
+    "description": "Tibetan philosopher"
+   }
+  },
+  {
+   "id": "jundo-cohen",
+   "name": "Jundo Cohen",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1960–",
+   "bio": "American Soto Zen priest living in Japan, Dharma heir of Gudo Wafu Nishijima and founder of the online Treeleaf Zendo.",
+   "site": "https://www.treeleaf.org",
+   "channels": [
+    "Treeleaf Sangha",
+    "Jundo Cohen"
+   ],
+   "clip_count": 35,
+   "catalogue": {
+    "whole": 182,
+    "natural": 44,
+    "long": 62
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "tsultrim-allione",
+   "name": "Lama Tsultrim Allione",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1947–",
+   "bio": "American teacher, one of the first Western women ordained in Tibetan Buddhism (1970), founder of Tara Mandala and author of Women of Wisdom and Feeding Your Demons, a modern adaptation of Chöd.",
+   "site": "https://taramandala.org",
+   "channels": [
+    "Tara Mandala",
+    "Tsadra Foundation Media Channel"
+   ],
+   "clip_count": 34,
+   "catalogue": {
+    "whole": 17,
+    "natural": 17,
+    "long": 86
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "chozen-bays",
+   "name": "Jan Chozen Bays",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1945–",
+   "bio": "Jan Chozen Bays, Dharma heir of Taizan Maezumi, paediatrician and co-abbot of Great Vow Zen Monastery in Oregon.",
+   "site": "https://zendust.org",
+   "channels": [
+    "Great Vow Zen Monastery"
+   ],
+   "clip_count": 24,
+   "catalogue": {
+    "whole": 21,
+    "natural": 3
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "pema-chodron",
+   "name": "Pema Chödrön",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1936–",
+   "bio": "American nun in the Shambhala and Karma Kagyu lines, student of Chögyam Trungpa and later Dzigar Kongtrul, whose teachings on fear, groundlessness and lojong reach a wide audience.",
+   "site": "https://pemachodronfoundation.org",
+   "channels": [
+    "Pema Chodron Foundation",
+    "Mangala Shri Bhuti"
+   ],
+   "clip_count": 22,
+   "catalogue": {
+    "natural": 22
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "shunryu-suzuki",
+   "name": "Shunryu Suzuki",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1904–1971",
+   "bio": "Soto Zen priest who founded San Francisco Zen Center and Tassajara; his talks became Zen Mind, Beginner's Mind.",
+   "site": "https://www.sfzc.org",
+   "channels": [
+    "San Francisco Zen Center"
+   ],
+   "clip_count": 21,
+   "catalogue": {
+    "whole": 18,
+    "long": 5,
+    "natural": 3
+   },
+   "existing_app_clips": 1,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "meian-elbert",
+   "name": "Rev. Meian Elbert",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Abbess of Shasta Abbey in the Order of Buddhist Contemplatives founded by Houn Jiyu-Kennett.",
+   "site": "https://shastaabbey.org",
+   "channels": [
+    "Shasta Abbey Dharma Talks"
+   ],
+   "clip_count": 21,
+   "catalogue": {
+    "whole": 8,
+    "natural": 13
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "jiryu-rutschman-byler",
+   "name": "Jiryu Rutschman-Byler",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Soto Zen priest and former abbot of Green Gulch Farm, San Francisco Zen Center.",
+   "site": "https://www.sfzc.org",
+   "channels": [
+    "San Francisco Zen Center"
+   ],
+   "clip_count": 21,
+   "catalogue": {
+    "whole": 21
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "anam-thubten",
+   "name": "Anam Thubten",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1968–",
+   "bio": "Tibetan teacher trained in the Nyingma tradition who leads the Dharmata Foundation in California and teaches a direct, non-sectarian approach to awakening.",
+   "site": "https://dharmata.org",
+   "channels": [
+    "Dharmata Foundation - Anam Thubten",
+    "Awakening Joy",
+    "Festival of Faiths",
+    "The Wisdom Seat",
+    "BDG: Buddhistdoor Global"
+   ],
+   "clip_count": 18,
+   "catalogue": {
+    "natural": 13,
+    "whole": 5,
+    "long": 6
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q132922573",
+    "label": "Anam Thubten",
+    "description": null,
+    "unverified": true
+   }
+  },
+  {
+   "id": "phakchok-rinpoche",
+   "name": "Phakchok Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1981–",
+   "bio": "Nyingma and Kagyu lineage holder, grandson of Tulku Urgyen Rinpoche, abbot of Ka-Nying Shedrub Ling and founder of the Samye Institute.",
+   "site": "https://samyeinstitute.org",
+   "channels": [
+    "Samye Institute",
+    "Rangjung Yeshe Institute"
+   ],
+   "clip_count": 18,
+   "catalogue": {
+    "natural": 11,
+    "long": 14,
+    "whole": 7
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "lama-zopa",
+   "name": "Lama Zopa Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1946–2023",
+   "bio": "Sherpa-born Gelug lama, heart disciple of Lama Thubten Yeshe and long-time spiritual director of FPMT, known for his devotion and extended oral teachings.",
+   "site": "https://fpmt.org",
+   "channels": [
+    "FPMT",
+    "Lama Yeshe Wisdom Archive",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 18,
+   "catalogue": {
+    "natural": 5,
+    "whole": 13,
+    "long": 18
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "guo-gu",
+   "name": "Guo Gu",
+   "role": "teacher",
+   "family": "chan",
+   "tradition": "chan",
+   "school": "chan",
+   "years": null,
+   "bio": "Guo Gu (Jimmy Yu), Dharma heir of Master Sheng Yen and professor of religion at Florida State University, who teaches silent illumination and huatou at the Tallahassee Chan Center.",
+   "site": "https://tallahasseechan.org",
+   "channels": [
+    "Tallahassee Chan Center",
+    "Rochester Zen Center",
+    "San Francisco Zen Center",
+    "Dharma Drum Retreat Center"
+   ],
+   "clip_count": 18,
+   "catalogue": {
+    "long": 15,
+    "whole": 9,
+    "natural": 9
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "david-germano",
+   "name": "David Germano",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "Professor of Tibetan and Buddhist Studies at the University of Virginia, a historian of the Great Perfection (Dzogchen) and founder of the Tibetan and Himalayan Library and UVA's Contemplative Sciences Center.",
+   "site": "https://religiousstudies.as.virginia.edu/david-germano",
+   "channels": [
+    "Tsadra Foundation Media Channel",
+    "Naropa University",
+    "The Ho Center for Buddhist Studies at Stanford",
+    "Rangjung Yeshe Institute",
+    "Mangalam Research Center"
+   ],
+   "clip_count": 17,
+   "catalogue": {
+    "natural": 14,
+    "long": 8,
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "barry-magid",
+   "name": "Barry Magid",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Psychiatrist and Dharma heir of Charlotte Joko Beck who founded Ordinary Mind Zendo in New York.",
+   "site": "https://ordinarymind.com",
+   "channels": [
+    "Ordinary Mind Zendo"
+   ],
+   "clip_count": 17,
+   "catalogue": {
+    "whole": 17,
+    "natural": 7
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "elizabeth-mattis-namgyel",
+   "name": "Elizabeth Mattis Namgyel",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "American teacher in the Nyingma line of Dzigar Kongtrul Rinpoche, author of The Power of an Open Question, who explores Madhyamaka \"not knowing\" in daily life.",
+   "site": "https://www.elizabethmattisnamgyel.com",
+   "channels": [
+    "Mangala Shri Bhuti",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 14,
+   "catalogue": {
+    "natural": 14
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "lama-lena",
+   "name": "Lama Lena",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "American teacher (Yeshe Kaytup) of Dzogchen and Mahamudra, a long-time student of Wangdor Rinpoche, known for informal, precise \"direct mind perception\" teachings streamed from many cities.",
+   "site": "https://lamalenateachings.com",
+   "channels": [
+    "Lama Lena Teachings"
+   ],
+   "clip_count": 13,
+   "catalogue": {
+    "long": 254,
+    "natural": 5,
+    "whole": 8
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": {
+    "qid": "Q654581",
+    "label": "Lena",
+    "description": "female given name",
+    "unverified": true
+   }
+  },
+  {
+   "id": "shenpen-hookham",
+   "name": "Lama Shenpen Hookham",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": null,
+   "bio": "British Kagyu and Nyingma teacher, Oxford DPhil on shentong buddha-nature, founder of the Awakened Heart Sangha.",
+   "site": "https://ahs.org.uk",
+   "channels": [
+    "Tsadra Foundation Media Channel"
+   ],
+   "clip_count": 13,
+   "catalogue": {
+    "natural": 11,
+    "whole": 2,
+    "long": 1
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "phap-hai",
+   "name": "Brother Phap Hai",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": null,
+   "bio": "Plum Village monastic (Brother Pháp Hải), Dharma teacher in Thich Nhat Hanh's tradition.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village"
+   ],
+   "clip_count": 13,
+   "catalogue": {
+    "long": 25,
+    "whole": 12,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "kokyo-henkel",
+   "name": "Kokyo Henkel",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Soto Zen priest from the San Francisco Zen Center lineage, guiding teacher of Santa Cruz Zen Center, with a strong interest in buddha-nature texts.",
+   "site": null,
+   "channels": [
+    "Tsadra Foundation Media Channel",
+    "San Francisco Zen Center"
+   ],
+   "clip_count": 13,
+   "catalogue": {
+    "whole": 1,
+    "natural": 12,
+    "long": 7
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "jetsunma-tenzin-palmo",
+   "name": "Jetsunma Tenzin Palmo",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1943–",
+   "bio": "British-born Drukpa Kagyu nun who spent twelve years in a Himalayan cave and founded Dongyu Gatsal Ling nunnery.",
+   "site": "https://tenzinpalmo.com",
+   "channels": [
+    "Tsadra Foundation Media Channel",
+    "Pundarika",
+    "Center for Contemplative Research"
+   ],
+   "clip_count": 12,
+   "catalogue": {
+    "whole": 1,
+    "long": 2,
+    "natural": 11
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "tulku-thondup",
+   "name": "Tulku Thondup Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1939–",
+   "bio": "Nyingma scholar trained at Dodrupchen monastery, former visiting scholar at Harvard, author of books on healing, the Longchen Nyingthig and the hidden treasure (terma) tradition.",
+   "site": "https://tulkuthondup.com",
+   "channels": [
+    "Tulku Thondup Rinpoche"
+   ],
+   "clip_count": 12,
+   "catalogue": {
+    "whole": 6,
+    "natural": 6
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "lama-rod-owens",
+   "name": "Lama Rod Owens",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": null,
+   "bio": "Black, queer Kagyu lama who completed a three-year retreat under Lama Norlha Rinpoche; teaches on anger, healing and collective liberation and leads Medicine Buddha practice online.",
+   "site": "https://www.lamarod.com",
+   "channels": [
+    "Lama Rod Owens",
+    "Sounds True",
+    "Thomas Hübl",
+    "Harvard Business School",
+    "The Conduit"
+   ],
+   "clip_count": 11,
+   "catalogue": {
+    "natural": 8,
+    "long": 8,
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "lama-yeshe",
+   "name": "Lama Thubten Yeshe",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1935–1984",
+   "bio": "Gelug lama from Sera monastery who, with Lama Zopa, founded Kopan Monastery and the FPMT and taught Westerners with warmth and humour; his talks are kept by the Lama Yeshe Wisdom Archive.",
+   "site": "https://www.lamayeshe.com",
+   "channels": [
+    "Lama Yeshe Wisdom Archive",
+    "Foundation for Developing Compassion and Wisdom"
+   ],
+   "clip_count": 11,
+   "catalogue": {
+    "natural": 8,
+    "long": 2,
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "menri-trizin",
+   "name": "34th Menri Trizin",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "bon",
+   "years": null,
+   "bio": "The 34th Menri Trizin, abbot of Menri Monastery in Dolanji and spiritual head of the Bön tradition, successor to Lungtok Tenpai Nyima (d. 2017).",
+   "site": "https://www.menri.org",
+   "channels": [
+    "Study Buddhism",
+    "Ligmincha International"
+   ],
+   "clip_count": 10,
+   "catalogue": {
+    "natural": 10
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "willa-blythe-baker",
+   "name": "Lama Willa Blythe Baker",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1965–",
+   "bio": "Kagyu lineage holder authorised after two three-year retreats, Harvard PhD (2013) and founder of Natural Dharma Fellowship and Wonderwell Mountain Refuge; teaches somatic mindfulness and Mahamudra.",
+   "site": "https://naturaldharma.org",
+   "channels": [
+    "Natural Dharma Fellowship",
+    "Sangha Live • Meditation",
+    "Tara Mandala",
+    "Tricycle",
+    "Somatic Primer Podcast"
+   ],
+   "clip_count": 10,
+   "catalogue": {
+    "natural": 5,
+    "long": 15,
+    "whole": 5
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "jan-willis",
+   "name": "Jan Willis",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1948–",
+   "bio": "Professor emerita of religion at Wesleyan and long-time student of Lama Thubten Yeshe, who writes on Tibetan hagiography, women and race in Buddhism.",
+   "site": "https://www.janwillis.com",
+   "channels": [
+    "Sravasti Abbey",
+    "San Francisco Zen Center",
+    "How to Train a Happy Mind",
+    "Yeshin Norbu",
+    "Tse Chen Ling Center"
+   ],
+   "clip_count": 10,
+   "catalogue": {
+    "whole": 8,
+    "long": 14,
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "reb-anderson",
+   "name": "Tenshin Reb Anderson",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1943–",
+   "bio": "Senior Dharma teacher at San Francisco Zen Center, ordained by Shunryu Suzuki, known for close readings of Dogen and the bodhisattva precepts.",
+   "site": "https://www.sfzc.org",
+   "channels": [
+    "San Francisco Zen Center"
+   ],
+   "clip_count": 10,
+   "catalogue": {
+    "whole": 10,
+    "long": 10
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "paul-swanson",
+   "name": "Paul L. Swanson",
+   "role": "scholar",
+   "family": "tiantai",
+   "tradition": "tiantai",
+   "school": "tiantai",
+   "years": null,
+   "bio": "Scholar and translator of Tiantai at the Nanzan Institute for Religion and Culture, translator of Zhiyi's Mohe zhiguan (Clear Serenity, Quiet Insight).",
+   "site": "https://nirc.nanzan-u.ac.jp",
+   "channels": [
+    "Tsadra Foundation Media Channel",
+    "Woodenfish Buddhism Science & Future",
+    "宗文研NIRC"
+   ],
+   "clip_count": 10,
+   "catalogue": {
+    "natural": 9,
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "shohaku-okumura",
+   "name": "Shohaku Okumura",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1948–",
+   "bio": "Japanese Soto Zen priest, disciple of Kosho Uchiyama, translator of Dogen and founder of Sanshin Zen Community in Indiana.",
+   "site": "https://sanshin.org",
+   "channels": [
+    "Sanshin Zen Community"
+   ],
+   "clip_count": 9,
+   "catalogue": {
+    "long": 42,
+    "whole": 9
+   },
+   "existing_app_clips": 7,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "joan-halifax",
+   "name": "Roshi Joan Halifax",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1942–",
+   "bio": "Zen teacher, anthropologist and founding abbot of Upaya Zen Center, known for work on dying, compassion and engaged Buddhism.",
+   "site": "https://www.upaya.org",
+   "channels": [
+    "Upaya Zen Center"
+   ],
+   "clip_count": 9,
+   "catalogue": {
+    "long": 5,
+    "whole": 2,
+    "natural": 7
+   },
+   "existing_app_clips": 7,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "donald-lopez",
+   "name": "Donald S. Lopez Jr.",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1952–",
+   "bio": "Arthur E. Link Distinguished University Professor at Michigan, a historian of Tibetan Buddhism and of the Western reception of Buddhism.",
+   "site": "https://lsa.umich.edu/asian/people/faculty/dlopez.html",
+   "channels": [
+    "HKUCBS",
+    "Religion Department",
+    "Tsadra Foundation Media Channel",
+    "Tricycle",
+    "Berkley Center"
+   ],
+   "clip_count": 9,
+   "catalogue": {
+    "whole": 9,
+    "long": 4
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "dae-bong",
+   "name": "Zen Master Dae Bong",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "seon",
+   "years": null,
+   "bio": "American Zen Master in Seung Sahn's Kwan Um School, guiding teacher at Hwagyesa International Zen Center in Seoul.",
+   "site": "https://www.kwanumzen.org",
+   "channels": [
+    "Hwagyesa International Zen Center"
+   ],
+   "clip_count": 9,
+   "catalogue": {
+    "whole": 7,
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "duncan-williams",
+   "name": "Duncan Ryūken Williams",
+   "role": "scholar",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Soto Zen priest and professor at the University of Southern California, author of American Sutra on Japanese American Buddhists in wartime incarceration.",
+   "site": "https://dornsife.usc.edu",
+   "channels": [
+    "BIPOC Sangha at East Bay Meditation Center",
+    "J-Sei",
+    "William Alanson White Institute",
+    "Religion, Race & Democracy Lab",
+    "UArizona Center for Buddhist Studies"
+   ],
+   "clip_count": 8,
+   "catalogue": {
+    "long": 7,
+    "whole": 8
+   },
+   "existing_app_clips": 0,
+   "set": "main",
+   "wikidata": null
+  },
+  {
+   "id": "alexander-berzin",
+   "name": "Alexander Berzin",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1944–",
+   "bio": "American scholar-translator who studied under Tsenzhab Serkong Rinpoche and the Dalai Lama in Dharamsala and created the Berzin Archives (now Study Buddhism), a large free library of Gelug and comparative teachings.",
+   "site": "https://studybuddhism.com",
+   "channels": [
+    "Study Buddhism"
+   ],
+   "clip_count": 7,
+   "catalogue": {
+    "natural": 7
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "phap-huu",
+   "name": "Brother Phap Huu",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": null,
+   "bio": "Plum Village monastic (Brother Pháp Hữu), long-time attendant of Thich Nhat Hanh and abbot of Upper Hamlet.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village"
+   ],
+   "clip_count": 7,
+   "catalogue": {
+    "long": 30,
+    "natural": 2,
+    "whole": 5
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "robert-sharf",
+   "name": "Robert H. Sharf",
+   "role": "scholar",
+   "family": "chan",
+   "tradition": "chan",
+   "school": "chan",
+   "years": null,
+   "bio": "D. H. Chen Distinguished Professor of Buddhist Studies at UC Berkeley, a historian of Chan and Japanese Buddhism and a critic of \"meditative experience\" rhetoric.",
+   "site": "https://buddhiststudies.berkeley.edu/people/robert-sharf",
+   "channels": [
+    "UArizona Center for Buddhist Studies",
+    "Rangjung Yeshe Institute",
+    "UBC FROGBEAR Project",
+    "Religion Department",
+    "Asian Art Museum"
+   ],
+   "clip_count": 7,
+   "catalogue": {
+    "whole": 5,
+    "natural": 2,
+    "long": 3
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "garchen-rinpoche",
+   "name": "Garchen Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1936–",
+   "bio": "Drikung Kagyu master who spent some twenty years in Chinese labour camps, where he trained under Khenpo Münsel; teaches love and compassion as the heart of Mahamudra through the Garchen Buddhist Institute in Arizona.",
+   "site": "https://garchen.net",
+   "channels": [
+    "Garchen Buddhist Institute"
+   ],
+   "clip_count": 6,
+   "catalogue": {
+    "long": 22,
+    "whole": 5,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": {
+    "qid": "Q3095334",
+    "label": "Garchen Rinpoche",
+    "description": "Tibetan lama"
+   }
+  },
+  {
+   "id": "sam-van-schaik",
+   "name": "Sam van Schaik",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "English Tibetologist at the British Library, author of Tibet: A History, Tibetan Zen and The Spirit of Zen, who works on Dunhuang manuscripts and early Dzogchen.",
+   "site": "https://earlytibet.com",
+   "channels": [
+    "UBC FROGBEAR Project",
+    "The Zen Gateway",
+    "Adrian Chian",
+    "Institute of Oriental Manuscripts RAS",
+    "BDG: Buddhistdoor Global"
+   ],
+   "clip_count": 6,
+   "catalogue": {
+    "whole": 5,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "brook-ziporyn",
+   "name": "Brook Ziporyn",
+   "role": "scholar",
+   "family": "tiantai",
+   "tradition": "tiantai",
+   "school": "tiantai",
+   "years": null,
+   "bio": "Mircea Eliade Professor at the University of Chicago Divinity School, philosopher of Tiantai Buddhism and Zhuangzi.",
+   "site": "https://voices.uchicago.edu/ziporyn/",
+   "channels": [
+    "University of Chicago Divinity School",
+    "acalaacala",
+    "The University of Chicago",
+    "The DemystifySci Podcast",
+    "School of History Tel Aviv University"
+   ],
+   "clip_count": 6,
+   "catalogue": {
+    "natural": 2,
+    "long": 12,
+    "whole": 4
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "geoffrey-samuel",
+   "name": "Geoffrey Samuel",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "Anthropologist of Tibetan religion, emeritus professor at Cardiff, author of Civilized Shamans and The Origins of Yoga and Tantra.",
+   "site": "https://profiles.cardiff.ac.uk/emeritus/samuelg",
+   "channels": [
+    "Ho Centre for Buddhist Studies",
+    "Transcultural Psychiatry",
+    "IASTAM",
+    "Center for Bhutan & GNH Studies"
+   ],
+   "clip_count": 4,
+   "catalogue": {
+    "whole": 4
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "bernard-faure",
+   "name": "Bernard Faure",
+   "role": "scholar",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "chan",
+   "years": "1948–",
+   "bio": "French historian of Chan/Zen and esoteric Buddhism, emeritus at Columbia and Stanford, trained under Yanagida Seizan in Kyoto.",
+   "site": "https://religion.columbia.edu/content/bernard-r-faure",
+   "channels": [
+    "Numata Chair in Buddhist Studies",
+    "慈濟論述Tzu Chi Studies",
+    "The Ho Center for Buddhist Studies at Stanford",
+    "Woodenfish Buddhism Science & Future",
+    "Monastère Bouddhiste Kanshōji"
+   ],
+   "clip_count": 4,
+   "catalogue": {
+    "long": 2,
+    "whole": 3,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "jacob-dalton",
+   "name": "Jacob P. Dalton",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1969–",
+   "bio": "Khyentse Foundation Distinguished Professor of Tibetan Buddhism at UC Berkeley, a historian of tantric ritual, the Nyingma school and the Dunhuang manuscripts.",
+   "site": "https://sseas.berkeley.edu/people/jacob-dalton",
+   "channels": [
+    "Rangjung Yeshe Institute",
+    "The Ho Center for Buddhist Studies at Stanford",
+    "Tang Center for Silk Road Studies, UC Berkeley",
+    "Nathan Hill"
+   ],
+   "clip_count": 3,
+   "catalogue": {
+    "long": 1,
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "phap-linh",
+   "name": "Brother Phap Linh",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": null,
+   "bio": "Plum Village monastic (Brother Pháp Linh), Dharma teacher and musician in Thich Nhat Hanh's tradition.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village",
+    "Plum Village App"
+   ],
+   "clip_count": 3,
+   "catalogue": {
+    "long": 15,
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "ruben-habito",
+   "name": "Ruben Habito",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "sanbo-zen",
+   "years": "1947–",
+   "bio": "Filipino former Jesuit, Sanbo Zen teacher authorised in 1988 and founder of Maria Kannon Zen Center in Dallas.",
+   "site": "https://mkzc.org",
+   "channels": [
+    "Mountain Cloud Zen Center"
+   ],
+   "clip_count": 3,
+   "catalogue": {
+    "whole": 3
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "jose-cabezon",
+   "name": "José Ignacio Cabezón",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "gelug",
+   "years": "1956–",
+   "bio": "Dalai Lama Professor emeritus at UC Santa Barbara and former monk of Sera, who writes on Gelug and Nyingma philosophy, Sera monastery and Buddhist sexual ethics.",
+   "site": "https://www.religion.ucsb.edu/people/jose-cabezon",
+   "channels": [
+    "University of California Television (UCTV)",
+    "International Campaign for Tibet",
+    "Shambhala Publications",
+    "Santa Barbara Museum of Art"
+   ],
+   "clip_count": 3,
+   "catalogue": {
+    "long": 1,
+    "whole": 1,
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "asanga-vajra",
+   "name": "H.E. Asanga Vajra Rinpoche",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "sakya",
+   "years": null,
+   "bio": "Sakya lama of the Phuntsok Phodrang line who teaches at Sakya Monastery of Tibetan Buddhism in Seattle.",
+   "site": "https://www.sakya.org",
+   "channels": [
+    "Sakya Monastery"
+   ],
+   "clip_count": 3,
+   "catalogue": {
+    "whole": 2,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "sakya-trizin",
+   "name": "Sakya Trizin (41st)",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "sakya",
+   "years": "1945–",
+   "bio": "Ngawang Kunga, 41st Sakya Trizin, head of the Sakya school for over five decades and now known as Sakya Trichen.",
+   "site": "https://www.hhthesakyatrizin.org",
+   "channels": [
+    "Sakya Monastery",
+    "Sakya Dolma Phodrang",
+    "Wisdom Publications Inc."
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2,
+    "long": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "john-daido-loori",
+   "name": "John Daido Loori",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1931–2009",
+   "bio": "Dharma heir of Taizan Maezumi who founded Zen Mountain Monastery and the Mountains and Rivers Order, combining zazen, koans and the arts.",
+   "site": "https://zmm.org",
+   "channels": [
+    "Zen Mountain Monastery"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "chan-duc",
+   "name": "Sister Chan Duc (Annabel Laity)",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": null,
+   "bio": "Sister Chân Đức (Annabel Laity), senior English-born Dharma teacher of Plum Village.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "long": 35,
+    "whole": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "seung-sahn",
+   "name": "Zen Master Seung Sahn",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "seon",
+   "years": "1927–2004",
+   "bio": "Korean Seon master of the Jogye order who founded the Kwan Um School of Zen and taught \"only don't know\".",
+   "site": "https://www.kwanumzen.org",
+   "channels": [
+    "Hardcore Zen",
+    "Kwan Um School of Zen"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "janet-gyatso",
+   "name": "Janet Gyatso",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": null,
+   "bio": "Hershey Professor of Buddhist Studies at Harvard, a scholar of Tibetan visionary autobiography, medicine and gender.",
+   "site": "https://hds.harvard.edu",
+   "channels": [
+    "Tsadra Foundation Media Channel",
+    "Wisdom Publications Inc.",
+    "慈濟論述Tzu Chi Studies",
+    "Tse Chen Ling Center",
+    "NICHE-Venice"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "whole": 1,
+    "natural": 1,
+    "long": 7
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "steven-heine",
+   "name": "Steven Heine",
+   "role": "scholar",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Scholar of Dogen and Zen koans at Florida International University.",
+   "site": null,
+   "channels": [
+    "Village Zendo",
+    "Treeleaf Sangha",
+    "Silent Thunder Order",
+    "Books & Books",
+    "dharmadrum926"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "long": 4,
+    "whole": 1,
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "taigen-leighton",
+   "name": "Taigen Dan Leighton",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": "1950–",
+   "bio": "Soto Zen priest and Dharma heir of Tenshin Reb Anderson, translator of Dogen and Hongzhi, guiding teacher of Ancient Dragon Zen Gate in Chicago.",
+   "site": "https://www.ancientdragon.org",
+   "channels": [
+    "Atlanta Soto Zen Center",
+    "Berkeley Zen Center",
+    "Zen Life & Meditation Center, Chicago",
+    "Carving the Divine"
+   ],
+   "clip_count": 2,
+   "catalogue": {
+    "long": 2,
+    "whole": 2
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "dosho-port",
+   "name": "Dosho Port",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Soto Zen teacher in the Dainin Katagiri line who hosts interviews with Zen teachers.",
+   "site": null,
+   "channels": [
+    "Mountain Cloud Zen Center"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "kenneth-tanaka",
+   "name": "Kenneth K. Tanaka",
+   "role": "scholar",
+   "family": "pure-land",
+   "tradition": "pure-land",
+   "school": "jodo-shinshu",
+   "years": null,
+   "bio": "Shin Buddhist priest and scholar, professor emeritus at Musashino University, writing on Pure Land thought and Buddhism in America.",
+   "site": null,
+   "channels": [
+    "Kenneth Tanaka"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "long": 22,
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "dennis-hirota",
+   "name": "Dennis Hirota",
+   "role": "scholar",
+   "family": "pure-land",
+   "tradition": "pure-land",
+   "school": "jodo-shinshu",
+   "years": null,
+   "bio": "Scholar and translator of Shinran, head translator of the Collected Works of Shinran.",
+   "site": null,
+   "channels": [
+    "BSC Hawaii",
+    "Theophaneia: Dispatches from the Eighth Clime"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "long": 2,
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "peter-gregory",
+   "name": "Peter N. Gregory",
+   "role": "scholar",
+   "family": "chan",
+   "tradition": "chan",
+   "school": "huayan",
+   "years": null,
+   "bio": "Scholar of Chinese Buddhism, author of Tsung-mi and the Sinification of Buddhism, a central study of Huayan and Chan.",
+   "site": null,
+   "channels": [
+    "The University of Chicago",
+    "The Ho Center for Buddhist Studies at Stanford",
+    "Theophaneia: Dispatches from the Eighth Clime"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "long": 2,
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "richard-payne",
+   "name": "Richard K. Payne",
+   "role": "scholar",
+   "family": "esoteric",
+   "tradition": "esoteric",
+   "school": "shingon",
+   "years": null,
+   "bio": "Scholar of Shingon ritual and tantric Buddhism, long-time dean of the Institute of Buddhist Studies in Berkeley.",
+   "site": "https://www.shin-ibs.edu",
+   "channels": [
+    "HKUCBS",
+    "The University of Chicago Graham School"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "long": 3,
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "john-mcrae",
+   "name": "John R. McRae",
+   "role": "scholar",
+   "family": "chan",
+   "tradition": "chan",
+   "school": "chan",
+   "years": "1947–2011",
+   "bio": "Historian of early Chinese Chan, author of The Northern School and Seeing through Zen, trained by Stanley Weinstein and Yanagida Seizan.",
+   "site": null,
+   "channels": [
+    "BDK America"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "natural": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "charles-jones",
+   "name": "Charles B. Jones",
+   "role": "scholar",
+   "family": "pure-land",
+   "tradition": "pure-land",
+   "school": "pure-land",
+   "years": "1957–",
+   "bio": "Scholar of Chinese Pure Land and Taiwanese Buddhism at the Catholic University of America, author of Pure Land: History, Tradition, and Practice.",
+   "site": "https://trs.catholic.edu",
+   "channels": [
+    "East West Center"
+   ],
+   "clip_count": 1,
+   "catalogue": {
+    "whole": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "karmapa-17",
+   "name": "17th Karmapa Ogyen Trinley Dorje",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": "1985–",
+   "bio": "Ogyen Trinley Dorje, one of the two claimants recognised as the 17th Gyalwang Karmapa, head of the Karma Kagyu, who teaches on compassion, environment and Kagyu history.",
+   "site": "https://kagyuoffice.org",
+   "channels": [
+    "Karmapa"
+   ],
+   "clip_count": 0,
+   "catalogue": {
+    "long": 5
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "karl-brunnholzl",
+   "name": "Karl Brunnhölzl",
+   "role": "scholar",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "kagyu",
+   "years": null,
+   "bio": "German physician-turned-scholar and translator of Kagyu texts on Madhyamaka, Mahamudra and buddha-nature.",
+   "site": "https://www.tsadra.org",
+   "channels": [],
+   "clip_count": 0,
+   "catalogue": {},
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "khenpo-sodargye",
+   "name": "Khenpo Sodargye",
+   "role": "teacher",
+   "family": "tibetan",
+   "tradition": "tibetan",
+   "school": "nyingma",
+   "years": "1962–",
+   "bio": "Nyingma scholar from Larung Gar in eastern Tibet who teaches widely in Chinese.",
+   "site": "https://www.khenposodargye.org",
+   "channels": [],
+   "clip_count": 0,
+   "catalogue": {},
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "chan-khong",
+   "name": "Sister Chan Khong",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "plum-village",
+   "years": "1938–",
+   "bio": "Vietnamese nun and social worker, Thich Nhat Hanh's closest collaborator in relief work and co-founder of Plum Village.",
+   "site": "https://plumvillage.org",
+   "channels": [
+    "Plum Village"
+   ],
+   "clip_count": 0,
+   "catalogue": {
+    "long": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "bodhin-kjolhede",
+   "name": "Bodhin Kjolhede",
+   "role": "teacher",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "sanbo-zen",
+   "years": "1948–",
+   "bio": "Abbot of the Rochester Zen Center and Dharma heir of Philip Kapleau.",
+   "site": "https://www.rzc.org",
+   "channels": [],
+   "clip_count": 0,
+   "catalogue": {},
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "mark-blum",
+   "name": "Mark L. Blum",
+   "role": "scholar",
+   "family": "pure-land",
+   "tradition": "pure-land",
+   "school": "jodo-shinshu",
+   "years": "1952–2020",
+   "bio": "Scholar of Japanese Pure Land Buddhism at UC Berkeley and translator of Honen and the Nirvana Sutra.",
+   "site": "https://ealc.berkeley.edu",
+   "channels": [
+    "BCA: Center for Buddhist Education"
+   ],
+   "clip_count": 0,
+   "catalogue": {
+    "long": 3
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  },
+  {
+   "id": "griffith-foulk",
+   "name": "T. Griffith Foulk",
+   "role": "scholar",
+   "family": "zen",
+   "tradition": "zen",
+   "school": "soto-zen",
+   "years": null,
+   "bio": "Scholar of Chan and Zen monastic institutions at Sarah Lawrence College and co-editor of the Soto Zen Text Project.",
+   "site": null,
+   "channels": [
+    "Village Zendo"
+   ],
+   "clip_count": 0,
+   "catalogue": {
+    "long": 1
+   },
+   "existing_app_clips": 0,
+   "set": "more-voices",
+   "wikidata": null
+  }
+ ],
+ "more_voices": [
+  {
+   "id": "alexander-berzin",
+   "name": "Alexander Berzin",
+   "school": "gelug",
+   "role": "scholar",
+   "clip_count": 7,
+   "catalogue": {
+    "natural": 7
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "phap-huu",
+   "name": "Brother Phap Huu",
+   "school": "plum-village",
+   "role": "teacher",
+   "clip_count": 7,
+   "catalogue": {
+    "long": 30,
+    "natural": 2,
+    "whole": 5
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "robert-sharf",
+   "name": "Robert H. Sharf",
+   "school": "chan",
+   "role": "scholar",
+   "clip_count": 7,
+   "catalogue": {
+    "whole": 5,
+    "natural": 2,
+    "long": 3
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "garchen-rinpoche",
+   "name": "Garchen Rinpoche",
+   "school": "kagyu",
+   "role": "teacher",
+   "clip_count": 6,
+   "catalogue": {
+    "long": 22,
+    "whole": 5,
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "sam-van-schaik",
+   "name": "Sam van Schaik",
+   "school": "nyingma",
+   "role": "scholar",
+   "clip_count": 6,
+   "catalogue": {
+    "whole": 5,
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "brook-ziporyn",
+   "name": "Brook Ziporyn",
+   "school": "tiantai",
+   "role": "scholar",
+   "clip_count": 6,
+   "catalogue": {
+    "natural": 2,
+    "long": 12,
+    "whole": 4
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "geoffrey-samuel",
+   "name": "Geoffrey Samuel",
+   "school": "nyingma",
+   "role": "scholar",
+   "clip_count": 4,
+   "catalogue": {
+    "whole": 4
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "bernard-faure",
+   "name": "Bernard Faure",
+   "school": "chan",
+   "role": "scholar",
+   "clip_count": 4,
+   "catalogue": {
+    "long": 2,
+    "whole": 3,
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "jacob-dalton",
+   "name": "Jacob P. Dalton",
+   "school": "nyingma",
+   "role": "scholar",
+   "clip_count": 3,
+   "catalogue": {
+    "long": 1,
+    "whole": 3
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "phap-linh",
+   "name": "Brother Phap Linh",
+   "school": "plum-village",
+   "role": "teacher",
+   "clip_count": 3,
+   "catalogue": {
+    "long": 15,
+    "whole": 3
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "ruben-habito",
+   "name": "Ruben Habito",
+   "school": "sanbo-zen",
+   "role": "teacher",
+   "clip_count": 3,
+   "catalogue": {
+    "whole": 3
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "jose-cabezon",
+   "name": "José Ignacio Cabezón",
+   "school": "gelug",
+   "role": "scholar",
+   "clip_count": 3,
+   "catalogue": {
+    "long": 1,
+    "whole": 1,
+    "natural": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "asanga-vajra",
+   "name": "H.E. Asanga Vajra Rinpoche",
+   "school": "sakya",
+   "role": "teacher",
+   "clip_count": 3,
+   "catalogue": {
+    "whole": 2,
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "sakya-trizin",
+   "name": "Sakya Trizin (41st)",
+   "school": "sakya",
+   "role": "teacher",
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2,
+    "long": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "john-daido-loori",
+   "name": "John Daido Loori",
+   "school": "soto-zen",
+   "role": "teacher",
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "chan-duc",
+   "name": "Sister Chan Duc (Annabel Laity)",
+   "school": "plum-village",
+   "role": "teacher",
+   "clip_count": 2,
+   "catalogue": {
+    "long": 35,
+    "whole": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "seung-sahn",
+   "name": "Zen Master Seung Sahn",
+   "school": "seon",
+   "role": "teacher",
+   "clip_count": 2,
+   "catalogue": {
+    "natural": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "janet-gyatso",
+   "name": "Janet Gyatso",
+   "school": "nyingma",
+   "role": "scholar",
+   "clip_count": 2,
+   "catalogue": {
+    "whole": 1,
+    "natural": 1,
+    "long": 7
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "steven-heine",
+   "name": "Steven Heine",
+   "school": "soto-zen",
+   "role": "scholar",
+   "clip_count": 2,
+   "catalogue": {
+    "long": 4,
+    "whole": 1,
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "taigen-leighton",
+   "name": "Taigen Dan Leighton",
+   "school": "soto-zen",
+   "role": "teacher",
+   "clip_count": 2,
+   "catalogue": {
+    "long": 2,
+    "whole": 2
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "dosho-port",
+   "name": "Dosho Port",
+   "school": "soto-zen",
+   "role": "teacher",
+   "clip_count": 1,
+   "catalogue": {
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "kenneth-tanaka",
+   "name": "Kenneth K. Tanaka",
+   "school": "jodo-shinshu",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "long": 22,
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "dennis-hirota",
+   "name": "Dennis Hirota",
+   "school": "jodo-shinshu",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "long": 2,
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "peter-gregory",
+   "name": "Peter N. Gregory",
+   "school": "huayan",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "long": 2,
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "richard-payne",
+   "name": "Richard K. Payne",
+   "school": "shingon",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "long": 3,
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "john-mcrae",
+   "name": "John R. McRae",
+   "school": "chan",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "natural": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "charles-jones",
+   "name": "Charles B. Jones",
+   "school": "pure-land",
+   "role": "scholar",
+   "clip_count": 1,
+   "catalogue": {
+    "whole": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "karmapa-17",
+   "name": "17th Karmapa Ogyen Trinley Dorje",
+   "school": "kagyu",
+   "role": "teacher",
+   "clip_count": 0,
+   "catalogue": {
+    "long": 5
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "karl-brunnholzl",
+   "name": "Karl Brunnhölzl",
+   "school": "kagyu",
+   "role": "scholar",
+   "clip_count": 0,
+   "catalogue": {},
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "khenpo-sodargye",
+   "name": "Khenpo Sodargye",
+   "school": "nyingma",
+   "role": "teacher",
+   "clip_count": 0,
+   "catalogue": {},
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "chan-khong",
+   "name": "Sister Chan Khong",
+   "school": "plum-village",
+   "role": "teacher",
+   "clip_count": 0,
+   "catalogue": {
+    "long": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "bodhin-kjolhede",
+   "name": "Bodhin Kjolhede",
+   "school": "sanbo-zen",
+   "role": "teacher",
+   "clip_count": 0,
+   "catalogue": {},
+   "reason": "fewer than 8 usable talks in this pass"
+  },
+  {
+   "id": "mark-blum",
+   "name": "Mark L. Blum",
+   "school": "jodo-shinshu",
+   "role": "scholar",
+   "clip_count": 0,
+   "catalogue": {
+    "long": 3
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  },
+  {
+   "id": "griffith-foulk",
+   "name": "T. Griffith Foulk",
+   "school": "soto-zen",
+   "role": "scholar",
+   "clip_count": 0,
+   "catalogue": {
+    "long": 1
+   },
+   "reason": "fewer than 8 usable talks in this pass (mostly >60 min)"
+  }
+ ]
+}

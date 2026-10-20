@@ -1,0 +1,27 @@
+name = "wiser-api"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+account_id = "954612afb5a97bb15dddcdc70176813d"
+
+# api.tantrafiles.xyz is a Worker custom domain (zone tantrafiles.xyz)
+routes = [{ pattern = "api.tantrafiles.xyz", custom_domain = true }]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[vars]
+# Public OAuth client id (Google Identity Services). Empty = /auth/google answers 503 "sign-in not configured".
+GOOGLE_CLIENT_ID = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wiser"
+database_id = "b4cb813f-9944-48e7-ac19-d3db9d030efd"
+
+# Secrets (never in this file): SESSION_SECRET, EXPORT_SALT  ->  npx wrangler secret put <NAME>
+
+# nightly freshness job (FORYOU §5): crowd stats -> clip_stats, the daily theme -> daily_theme. 19:17 UTC = 02:17 in Phnom Penh.
+[triggers]
+crons = ["17 19 * * *"]

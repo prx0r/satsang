@@ -1,0 +1,130 @@
+{
+ "_note": "Practices described in our own words with a source (clip or page). Initiated practices are summarised only so users know what clips refer to; no secret mantras given.",
+ "practices": [
+  {
+   "id": "vbt-breath-pause",
+   "name": "Resting in the gap between breaths (Vijñāna Bhairava dhāraṇā)",
+   "school": "kashmir-shaivism",
+   "howto": "Sit comfortably and breathe naturally. Notice the instant where the in-breath turns into the out-breath, and the instant where the out-breath turns back. Do not hold the breath; simply let attention fall into each turning point and rest there for its brief duration. Over time, notice the open awareness that is present in the pause.",
+   "sources": [
+    "https://www.youtube.com/watch?v=gLibOLm67oQ"
+   ],
+   "source_note": "Bettina Bäumer, Vijñāna Bhairava verses 24–27 (the breath dhāraṇās)."
+  },
+  {
+   "id": "recognition-contemplation",
+   "name": "Recognition (pratyabhijñā) contemplation",
+   "school": "pratyabhijna",
+   "howto": "Read one sūtra of the Pratyabhijñāhṛdayam slowly. Then look at present experience — a sound, a thought, a feeling — and ask whether anything appears outside awareness. Let the understanding \"this too is a form of the one consciousness\" settle as a felt recognition rather than an idea. Return to the text, then to experience, alternating.",
+   "sources": [
+    "https://www.youtube.com/watch?v=WGFfoBLIFNM"
+   ],
+   "source_note": "Christopher Wallis on the twenty sūtras of the Pratyabhijñāhṛdayam."
+  },
+  {
+   "id": "neelakantha-meditation",
+   "name": "Neelakantha Meditation (mantra-based)",
+   "school": "kashmir-shaivism",
+   "howto": "This is an initiated mantra practice: the mantra is received from an authorised teacher. In outline, one sits twice a day, repeats the given mantra inwardly and lets it become subtle, treating the body as a stable platform rather than an obstacle. Learn it from the school; we describe it only so users know what the clips refer to.",
+   "sources": [
+    "https://www.youtube.com/watch?v=kJ9w9Xvh-W4",
+    "https://www.bluethroatyoga.com"
+   ],
+   "source_note": "Blue Throat Yoga (Paul Muller-Ortega)."
+  },
+  {
+   "id": "shiva-process",
+   "name": "Shiva Process self-inquiry",
+   "school": "kashmir-shaivism",
+   "howto": "Bring to mind a situation that is troubling you. Describe what you feel in plain words, then ask \"what is the deeper feeling under this?\" and keep going, layer by layer, until something shifts and the contraction releases. Often done in pairs or with a guide.",
+   "sources": [
+    "https://www.youtube.com/watch?v=_13-8AHhxkk"
+   ],
+   "source_note": "Swami Shankarananda, Shiva Ashram."
+  },
+  {
+   "id": "double-breath",
+   "name": "Rudi's double breath",
+   "school": "kashmir-shaivism",
+   "howto": "Breathe in, bringing attention down from the throat into the heart, and then down to the navel and the base of the body. Breathing out, let the energy rise up the spine. Keep the movement gentle and continuous, and return to the heart when attention scatters.",
+   "sources": [
+    "https://www.youtube.com/watch?v=NOioVq5l6Yk",
+    "https://www.youtube.com/watch?v=qUlePRiP_ss"
+   ],
+   "source_note": "Swami Khecaranatha on Rudi's double breath."
+  },
+  {
+   "id": "sri-chakra-drawing",
+   "name": "Drawing the Śrī Chakra as meditation",
+   "school": "sri-vidya",
+   "howto": "Following a teacher's step-by-step construction, draw the Śrī Yantra slowly from the centre point (bindu) outward: the nine interlocking triangles, the lotus rings and the square gateways. Treat each stage as a contemplation of the goddess unfolding into the world, not as geometry homework.",
+   "sources": [
+    "https://www.youtube.com/watch?v=6olAX60szz4",
+    "https://www.youtube.com/watch?v=vM2ot7YACC4"
+   ],
+   "source_note": "Devipuram, \"How to Draw Sri Chakra\" parts 1–2."
+  },
+  {
+   "id": "bhairavi-sadhana",
+   "name": "Bhairavi Sadhana (Isha)",
+   "school": "shakta",
+   "howto": "A lay devotional observance offered by the Isha Foundation around Linga Bhairavi: for a set period the practitioner keeps simple disciplines (as given by Isha), offers daily devotion to the goddess, and completes it with an offering at a Linga Bhairavi abode. The exact rules come from the organisation each year.",
+   "sources": [
+    "https://www.youtube.com/watch?v=WV7XEev2arA",
+    "https://isha.sadhguru.org/linga-bhairavi/"
+   ],
+   "source_note": "Sadhguru / Linga Bhairavi channel."
+  },
+  {
+   "id": "nyasa",
+   "name": "Nyāsa — placing mantra on the body",
+   "school": "sri-vidya",
+   "howto": "Touch or attend to specific points of the body (heart, head, crown, arms) while silently repeating the syllables assigned to them, so the body is treated as a seat of the deity before worship or meditation. Traditionally learnt with the specific mantra from a teacher.",
+   "sources": [
+    "https://www.youtube.com/watch?v=Jj5G8ev3Hiw"
+   ],
+   "source_note": "Sthaneshwar Timalsina, \"What is Nyasa and why do we do it?\""
+  },
+  {
+   "id": "twelve-kalis",
+   "name": "Contemplating the Twelve Kālīs (Krama)",
+   "school": "krama",
+   "howto": "Take one Kālī of the Krama sequence at a time (e.g. Sṛṣṭikālī, the Kālī of creation). Study what phase of cognition she stands for — an object arising, being held, being withdrawn into the knower — and watch that phase in your own experience during the day.",
+   "sources": [
+    "https://www.youtube.com/watch?v=TgM_9d-fe-M"
+   ],
+   "source_note": "Yamajit, Twelve Kālīs of the Krama lineage, part I."
+  },
+  {
+   "id": "saiva-meditation-bodhinatha",
+   "name": "Basic Śaiva Siddhānta meditation",
+   "school": "shaiva-siddhanta",
+   "howto": "Sit upright, regulate the breath to a slow even count, then draw awareness inward from the senses to the spine and to the inner light, holding a single point of focus. Hinduism Today's monastery teaches it as part of daily worship and study.",
+   "sources": [
+    "https://www.youtube.com/watch?v=EMUCh4-ycUs"
+   ],
+   "source_note": "Bodhinatha Veylanswami, \"How Do We Meditate? Part 1\"."
+  },
+  {
+   "id": "mantra-japa",
+   "name": "Mantra repetition (japa)",
+   "school": "shakta",
+   "howto": "Choose a mantra received from your tradition, sit with a mala, and repeat it at an even pace, aloud, whispered or mentally. Let attention rest on the sound and its meaning; when the mind wanders, return to the next repetition.",
+   "sources": [
+    "https://www.youtube.com/watch?v=61Ei8vR-c5Y"
+   ],
+   "source_note": "Shambhavi Sarasvati, \"How Mantra Works\"."
+  },
+  {
+   "id": "khecari-mudra",
+   "name": "Khecarī mudrā (historical description only)",
+   "school": "hatha",
+   "howto": "Described in haṭha texts as turning the tongue back and up into the cavity above the soft palate, sometimes after gradually lengthening the tongue. We list it for context: the full form involves cutting the frenum and is not something to try from a video.",
+   "sources": [
+    "https://ora.ox.ac.uk/objects/uuid:945071bf-3282-4492-8f18-159417f5d554"
+   ],
+   "source_note": "Mallinson, The Khecarīvidyā (DPhil); no short clip on file.",
+   "caution": true
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/place.json",
+ "title": "Place",
+ "description": "A monastery, centre, ashram, retreat house, pilgrimage site or lodge. Contacts only as published, each with its source. schema.org: Place / PlaceOfWorship / Organization (with geo GeoCoordinates).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "place"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "name": {
+   "type": "string"
+  },
+  "placeType": {
+   "type": "string",
+   "enum": [
+    "monastery",
+    "centre",
+    "ashram",
+    "retreat",
+    "pilgrimage",
+    "temple",
+    "lodge",
+    "grove",
+    "hermitage",
+    "other"
+   ]
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "country": {
+   "type": "string",
+   "pattern": "^[A-Z]{2}$"
+  },
+  "city": {
+   "type": "string"
+  },
+  "geo": {
+   "type": "object",
+   "properties": {
+    "lat": {
+     "type": "number"
+    },
+    "lng": {
+     "type": "number"
+    },
+    "precision": {
+     "type": "string"
+    },
+    "public": {
+     "type": "boolean"
+    }
+   }
+  },
+  "founded": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "teachers": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   },
+   "description": "Founders or historically tied; not 'teaches here now'."
+  },
+  "url": {
+   "$ref": "common.json#/$defs/url"
+  },
+  "scheduleUrl": {
+   "$ref": "common.json#/$defs/url"
+  },
+  "description": {
+   "type": "string",
+   "maxLength": 600
+  },
+  "programmes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "typicalLength": {
+      "type": "string"
+     },
+     "format": {
+      "type": "string"
+     },
+     "costModel": {
+      "type": "string",
+      "enum": [
+       "dana",
+       "fixed",
+       "sliding",
+       "free",
+       "unknown"
+      ]
+     },
+     "scheduleUrl": {
+      "$ref": "common.json#/$defs/url"
+     }
+    }
+   }
+  },
+  "contact": {
+   "type": "object",
+   "properties": {
+    "checked": {
+     "$ref": "common.json#/$defs/date"
+    },
+    "page": {
+     "$ref": "common.json#/$defs/url"
+    },
+    "email": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "prefixItems": [
+       {
+        "type": "string"
+       },
+       {
+        "$ref": "common.json#/$defs/url"
+       }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+     }
+    },
+    "phone": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "prefixItems": [
+       {
+        "type": "string"
+       },
+       {
+        "$ref": "common.json#/$defs/url"
+       }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+     }
+    },
+    "address": {
+     "type": "array",
+     "prefixItems": [
+      {
+       "type": "string"
+      },
+      {
+       "$ref": "common.json#/$defs/url"
+      }
+     ]
+    }
+   }
+  },
+  "sisters": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "network": {
+   "type": "string",
+   "description": "e.g. dhamma.org, ajahn-chah-branch, ramakrishna-math."
+  },
+  "ids": {
+   "$ref": "common.json#/$defs/ids"
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "name",
+  "placeType",
+  "traditions",
+  "country"
+ ],
+ "additionalProperties": true
+}

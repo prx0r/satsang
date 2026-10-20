@@ -1,0 +1,1633 @@
+{
+ "_note": "Public contact details exactly as each place publishes them on its official site (tools/place-contacts.py). Every value has its source_url; checked = the date it was read. Never guessed. Hand-checked rows and free resources live in tools/source_maps.py (PLACE_CONTACT_FIX, PLACE_RESOURCES).",
+ "places": {
+  "wat-pah-pong": {
+   "checked": "2026-10-20",
+   "site": "https://www.watnongpahpong.org",
+   "contact_page": {
+    "url": "https://www.watnongpahpong.org/contact-us",
+    "source_url": "https://www.watnongpahpong.org"
+   },
+   "address": {
+    "value": "Ram Inthra 61 Alley, Lane 12 272, Khet Bang Khen, Krung Thep Maha Nakhon, 10220, TH",
+    "source_url": "https://www.watnongpahpong.org"
+   }
+  },
+  "wat-pah-nanachat": {
+   "checked": "2026-10-20",
+   "site": "https://www.watpahnanachat.org",
+   "contact_page": {
+    "url": "https://www.watpahnanachat.org/contact",
+    "source_url": "https://www.watpahnanachat.org"
+   },
+   "email": [
+    {
+     "value": "watpahnanachat20@gmail.com",
+     "source_url": "https://www.watpahnanachat.org/contact"
+    }
+   ]
+  },
+  "amaravati": {
+   "checked": "2026-10-20",
+   "site": "https://amaravati.org",
+   "contact_page": {
+    "url": "https://amaravati.org/about/contact-us/",
+    "source_url": "https://amaravati.org"
+   }
+  },
+  "cittaviveka": {
+   "checked": "2026-10-20",
+   "site": "https://www.cittaviveka.org/",
+   "contact_page": {
+    "url": "https://www.cittaviveka.org/contact",
+    "source_url": "https://www.cittaviveka.org/"
+   }
+  },
+  "aruna-ratanagiri": {
+   "checked": "2026-10-20",
+   "site": "https://www.ratanagiri.org.uk",
+   "contact_page": {
+    "url": "https://www.ratanagiri.org.uk/contact",
+    "source_url": "https://www.ratanagiri.org.uk"
+   },
+   "email": [
+    {
+     "value": "sangha@ratanagiri.org.uk",
+     "source_url": "https://www.ratanagiri.org.uk/contact"
+    },
+    {
+     "value": "secretary@ratanagiri.org.uk",
+     "source_url": "https://www.ratanagiri.org.uk/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+4401661881612",
+     "source_url": "https://www.ratanagiri.org.uk/contact"
+    },
+    {
+     "value": "01661881612",
+     "source_url": "https://www.ratanagiri.org.uk"
+    }
+   ]
+  },
+  "hartridge": {
+   "checked": "2026-10-20",
+   "site": "https://hartridgemonastery.org/index.html",
+   "contact_page": {
+    "url": "https://hartridgemonastery.org/contact.html",
+    "source_url": "https://hartridgemonastery.org/index.html"
+   }
+  },
+  "abhayagiri": {
+   "checked": "2026-10-20",
+   "site": "https://www.abhayagiri.org",
+   "contact_page": {
+    "url": "https://www.abhayagiri.org/contact",
+    "source_url": "https://www.abhayagiri.org"
+   },
+   "phone": [
+    {
+     "value": "+1-707-485-1630",
+     "source_url": "https://www.abhayagiri.org/contact"
+    }
+   ]
+  },
+  "metta-forest": {
+   "checked": "2026-10-20",
+   "site": "https://www.watmetta.org",
+   "contact_page": {
+    "url": "https://www.watmetta.org/contact/",
+    "source_url": "https://www.watmetta.org"
+   },
+   "email": [
+    {
+     "value": "website@watmetta.org",
+     "source_url": "https://www.watmetta.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+1-619-813-8461",
+     "source_url": "https://www.watmetta.org/contact/"
+    }
+   ]
+  },
+  "wat-asokaram": {
+   "checked": "2026-10-20",
+   "site": "https://www.watasokaram.org",
+   "contact_page": {
+    "url": "https://www.watasokaram.org/contact",
+    "source_url": "https://www.watasokaram.org"
+   },
+   "email": [
+    {
+     "value": "watasokaram.org@gmail.com",
+     "source_url": "https://www.watasokaram.org/contact"
+    }
+   ]
+  },
+  "bodhinyanarama": {
+   "checked": "2026-10-20",
+   "site": "https://bodhinyanarama.net.nz",
+   "contact_page": {
+    "url": "https://bodhinyanarama.net.nz/contact/",
+    "source_url": "https://bodhinyanarama.net.nz"
+   },
+   "email": [
+    {
+     "value": "office@bodhinyanarama.net.nz",
+     "source_url": "https://bodhinyanarama.net.nz/contact/"
+    }
+   ]
+  },
+  "dhammapala": {
+   "checked": "2026-10-20",
+   "site": "https://dhammapala.ch",
+   "email": [
+    {
+     "value": "info@dhammapala.ch",
+     "source_url": "https://dhammapala.ch"
+    }
+   ]
+  },
+  "birken": {
+   "checked": "2026-10-20",
+   "site": "https://birken.ca/",
+   "contact_page": {
+    "url": "https://birken.ca/contact/",
+    "source_url": "https://birken.ca/"
+   },
+   "email": [
+    {
+     "value": "bookings@birken.ca",
+     "source_url": "https://birken.ca/contact/"
+    },
+    {
+     "value": "meditate@birken.ca",
+     "source_url": "https://birken.ca/contact/"
+    }
+   ]
+  },
+  "bps-kandy": {
+   "checked": "2026-10-20",
+   "site": "https://www.bps.lk",
+   "contact_page": {
+    "url": "https://www.bps.lk/contact",
+    "source_url": "https://www.bps.lk"
+   },
+   "email": [
+    {
+     "value": "bps@bps.lk",
+     "source_url": "https://www.bps.lk/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+94 81 2237283",
+     "source_url": "https://www.bps.lk/contact"
+    }
+   ]
+  },
+  "nissarana-vanaya": {
+   "checked": "2026-10-20",
+   "site": "https://www.nissarana.lk",
+   "contact_page": {
+    "url": "https://www.nissarana.lk/contact/",
+    "source_url": "https://www.nissarana.lk"
+   },
+   "email": [
+    {
+     "value": "office@nissarana.lk",
+     "source_url": "https://www.nissarana.lk/contact/"
+    },
+    {
+     "value": "nissaranavanaya@gmail.com",
+     "source_url": "https://www.nissarana.lk/contact/"
+    }
+   ]
+  },
+  "na-uyana": {
+   "checked": "2026-10-20",
+   "site": "https://nauyana.org",
+   "contact_page": {
+    "url": "https://nauyana.org/contact-english/",
+    "source_url": "https://nauyana.org"
+   },
+   "email": [
+    {
+     "value": "nauyana@gmail.com",
+     "source_url": "https://nauyana.org/contact-english/"
+    },
+    {
+     "value": "nauyana1954@gmail.com",
+     "source_url": "https://nauyana.org/contact-english/"
+    }
+   ]
+  },
+  "temple-of-the-tooth": {
+   "checked": "2026-10-20",
+   "site": "https://sridaladamaligawa.lk/",
+   "contact_page": {
+    "url": "https://sridaladamaligawa.lk/contact/",
+    "source_url": "https://sridaladamaligawa.lk/"
+   },
+   "email": [
+    {
+     "value": "info@sridaladamaligawa.lk",
+     "source_url": "https://sridaladamaligawa.lk/contact/"
+    },
+    {
+     "value": "feedback@sridaladamaligawa.lk",
+     "source_url": "https://sridaladamaligawa.lk/contact/"
+    }
+   ]
+  },
+  "imc-uk": {
+   "checked": "2026-10-20",
+   "site": "https://internationalmeditationcentre.org/",
+   "contact_page": {
+    "url": "https://internationalmeditationcentre.org/contacts",
+    "source_url": "https://internationalmeditationcentre.org/"
+   }
+  },
+  "global-vipassana-pagoda": {
+   "checked": "2026-10-20",
+   "site": "https://www.globalpagoda.org",
+   "contact_page": {
+    "url": "https://www.globalpagoda.org/contact-us",
+    "source_url": "https://www.globalpagoda.org"
+   },
+   "email": [
+    {
+     "value": "pr@globalpagoda.org",
+     "source_url": "https://www.globalpagoda.org/contact-us"
+    },
+    {
+     "value": "chairman@globalpagoda.org",
+     "source_url": "https://www.globalpagoda.org/contact-us"
+    }
+   ]
+  },
+  "bcbs": {
+   "checked": "2026-10-20",
+   "site": "https://www.buddhistinquiry.org",
+   "contact_page": {
+    "url": "https://www.buddhistinquiry.org/contact-us/",
+    "source_url": "https://www.buddhistinquiry.org"
+   },
+   "email": [
+    {
+     "value": "contact@buddhistinquiry.org",
+     "source_url": "https://www.buddhistinquiry.org/contact-us/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "9783552347",
+     "source_url": "https://www.buddhistinquiry.org/contact-us/"
+    }
+   ]
+  },
+  "spirit-rock": {
+   "checked": "2026-10-20",
+   "site": "https://www.spiritrock.org",
+   "contact_page": {
+    "url": "https://www.spiritrock.org/contact-us",
+    "source_url": "https://www.spiritrock.org"
+   },
+   "phone": [
+    {
+     "value": "(415) 488-0164",
+     "source_url": "https://www.spiritrock.org/contact-us"
+    }
+   ],
+   "address": {
+    "value": "5000 Sir Francis Drake Boulevard, Woodacre, California, 94973, United States",
+    "source_url": "https://www.spiritrock.org/contact-us"
+   }
+  },
+  "gaia-house": {
+   "checked": "2026-10-20",
+   "site": "https://gaiahouse.co.uk",
+   "contact_page": {
+    "url": "https://gaiahouse.co.uk/contact/gaia-house-response-to-coronavirus-covid-19/",
+    "source_url": "https://gaiahouse.co.uk"
+   },
+   "email": [
+    {
+     "value": "info@gaiahouse.co.uk",
+     "source_url": "https://gaiahouse.co.uk/contact/gaia-house-response-to-coronavirus-covid-19/"
+    }
+   ]
+  },
+  "imc-redwood-city": {
+   "checked": "2026-10-20",
+   "site": "https://www.insightmeditationcenter.org",
+   "contact_page": {
+    "url": "https://www.insightmeditationcenter.org/contact/",
+    "source_url": "https://www.insightmeditationcenter.org"
+   },
+   "email": [
+    {
+     "value": "contact@insightmeditationcenter.org",
+     "source_url": "https://www.insightmeditationcenter.org/contact/"
+    }
+   ]
+  },
+  "imcw": {
+   "checked": "2026-10-20",
+   "site": "https://imcw.org",
+   "contact_page": {
+    "url": "https://imcw.org/contact/",
+    "source_url": "https://imcw.org"
+   }
+  },
+  "cloud-mountain": {
+   "checked": "2026-10-20",
+   "site": "https://cloudmountain.org",
+   "contact_page": {
+    "url": "https://cloudmountain.org/contact",
+    "source_url": "https://cloudmountain.org"
+   },
+   "email": [
+    {
+     "value": "info@cloudmountain.org",
+     "source_url": "https://cloudmountain.org/contact"
+    }
+   ]
+  },
+  "tushita-dharamsala": {
+   "checked": "2026-10-20",
+   "site": "https://tushita.info",
+   "contact_page": {
+    "url": "https://tushita.info/contact-us/",
+    "source_url": "https://tushita.info"
+   }
+  },
+  "kopan": {
+   "checked": "2026-10-20",
+   "site": "https://kopanmonastery.org/",
+   "email": [
+    {
+     "value": "info@kopanmonastery.org",
+     "source_url": "https://kopanmonastery.org/"
+    },
+    {
+     "value": "spc@kopanmonastery.org",
+     "source_url": "https://kopanmonastery.org/"
+    }
+   ]
+  },
+  "root-institute": {
+   "checked": "2026-10-20",
+   "site": "https://rootinstitute.ngo",
+   "contact_page": {
+    "url": "https://rootinstitute.ngo/social-service/shakyamuni-buddha-clinic/contact",
+    "source_url": "https://rootinstitute.ngo"
+   },
+   "phone": [
+    {
+     "value": "+91-9931-518-858",
+     "source_url": "https://rootinstitute.ngo/social-service/shakyamuni-buddha-clinic/contact"
+    }
+   ]
+  },
+  "chenrezig-institute": {
+   "checked": "2026-10-20",
+   "site": "https://chenrezig.com.au/",
+   "contact_page": {
+    "url": "https://chenrezig.com.au/contact",
+    "source_url": "https://chenrezig.com.au/"
+   },
+   "email": [
+    {
+     "value": "info@chenrezig.com.au",
+     "source_url": "https://chenrezig.com.au/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+61494302584",
+     "source_url": "https://chenrezig.com.au/"
+    }
+   ]
+  },
+  "jamyang-london": {
+   "checked": "2026-10-20",
+   "site": "https://jamyang.co.uk",
+   "contact_page": {
+    "url": "https://jamyang.co.uk/contact-us/",
+    "source_url": "https://jamyang.co.uk"
+   },
+   "email": [
+    {
+     "value": "gateway@jamyang.co.uk",
+     "source_url": "https://jamyang.co.uk/contact-us/"
+    },
+    {
+     "value": "people@jamyang.co.uk",
+     "source_url": "https://jamyang.co.uk/contact-us/"
+    }
+   ]
+  },
+  "tsuglagkhang": {
+   "checked": "2026-10-20",
+   "site": "https://namgyalmonastery.org",
+   "contact_page": {
+    "url": "https://namgyalmonastery.org/contact/",
+    "source_url": "https://namgyalmonastery.org"
+   },
+   "email": [
+    {
+     "value": "namgyalmonastery@gmail.com",
+     "source_url": "https://namgyalmonastery.org/contact/"
+    }
+   ]
+  },
+  "ltwa": {
+   "checked": "2026-10-20",
+   "site": "https://tibetanlibrary.org",
+   "contact_page": {
+    "url": "https://tibetanlibrary.org/contact/",
+    "source_url": "https://tibetanlibrary.org"
+   }
+  },
+  "namdroling": {
+   "checked": "2026-10-20",
+   "site": "https://www.namdroling.net/Portal/Home",
+   "contact_page": {
+    "url": "https://www.namdroling.net/Portal/Page/Contact-Us",
+    "source_url": "https://www.namdroling.net/Portal/Home"
+   }
+  },
+  "samye-ling": {
+   "checked": "2026-10-20",
+   "site": "https://samyeling.org/",
+   "contact_page": {
+    "url": "https://samyeling.org/contact/",
+    "source_url": "https://samyeling.org/"
+   },
+   "email": [
+    {
+     "value": "reception@samyeling.org",
+     "source_url": "https://samyeling.org/contact/"
+    },
+    {
+     "value": "bookings@samyeling.org",
+     "source_url": "https://samyeling.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+441387373232",
+     "source_url": "https://samyeling.org/contact/"
+    }
+   ]
+  },
+  "holy-isle": {
+   "checked": "2026-10-20",
+   "site": "https://holyisle.org/",
+   "contact_page": {
+    "url": "https://holyisle.org/contact/",
+    "source_url": "https://holyisle.org/"
+   },
+   "email": [
+    {
+     "value": "reception@holyisle.org",
+     "source_url": "https://holyisle.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+441770601100",
+     "source_url": "https://holyisle.org/contact/"
+    },
+    {
+     "value": "+441387373232",
+     "source_url": "https://holyisle.org/contact/"
+    }
+   ]
+  },
+  "kagyu-samye-dzong-london": {
+   "checked": "2026-10-20",
+   "site": "https://www.london.samye.org",
+   "email": [
+    {
+     "value": "ksdlondon@samye.org",
+     "source_url": "https://www.london.samye.org"
+    }
+   ],
+   "address": {
+    "value": "15 Spa Road, England, SE16 3SA, GB",
+    "source_url": "https://www.london.samye.org"
+   }
+  },
+  "ktd": {
+   "checked": "2026-10-20",
+   "site": "https://kagyu.org",
+   "email": [
+    {
+     "value": "office@kagyu.org",
+     "source_url": "https://kagyu.org"
+    },
+    {
+     "value": "finance@kagyu.org",
+     "source_url": "https://kagyu.org"
+    }
+   ]
+  },
+  "tergar-osel-ling": {
+   "checked": "2026-10-20",
+   "site": "https://tergar.org",
+   "contact_page": {
+    "url": "https://tergar.org/contact",
+    "source_url": "https://tergar.org"
+   },
+   "email": [
+    {
+     "value": "info@tergar.org",
+     "source_url": "https://tergar.org/contact"
+    },
+    {
+     "value": "practice@tergar.org",
+     "source_url": "https://tergar.org/contact"
+    }
+   ]
+  },
+  "tergar-bodhgaya": {
+   "checked": "2026-10-20",
+   "site": "https://tergar.org",
+   "contact_page": {
+    "url": "https://tergar.org/contact",
+    "source_url": "https://tergar.org"
+   },
+   "email": [
+    {
+     "value": "info@tergar.org",
+     "source_url": "https://tergar.org/contact"
+    },
+    {
+     "value": "practice@tergar.org",
+     "source_url": "https://tergar.org/contact"
+    }
+   ]
+  },
+  "ka-nying-shedrub-ling": {
+   "checked": "2026-10-20",
+   "site": "https://shedrub.org",
+   "contact_page": {
+    "url": "https://shedrub.org/contact/",
+    "source_url": "https://shedrub.org"
+   },
+   "email": [
+    {
+     "value": "mike@shedrub.org",
+     "source_url": "https://shedrub.org/contact/"
+    }
+   ]
+  },
+  "dzogchen-beara": {
+   "checked": "2026-10-20",
+   "site": "https://www.dzogchenbeara.org/",
+   "contact_page": {
+    "url": "https://www.dzogchenbeara.org/contact/",
+    "source_url": "https://www.dzogchenbeara.org/"
+   },
+   "phone": [
+    {
+     "value": "+353-27-73-032",
+     "source_url": "https://www.dzogchenbeara.org/contact/"
+    }
+   ]
+  },
+  "gampo-abbey": {
+   "checked": "2026-10-20",
+   "site": "https://gampoabbey.org",
+   "contact_page": {
+    "url": "https://gampoabbey.org/contact/",
+    "source_url": "https://gampoabbey.org"
+   },
+   "email": [
+    {
+     "value": "office@gampoabbey.org",
+     "source_url": "https://gampoabbey.org/contact/"
+    }
+   ]
+  },
+  "karme-choling": {
+   "checked": "2026-10-20",
+   "site": "https://www.karmecholing.org",
+   "email": [
+    {
+     "value": "info@karmecholing.org",
+     "source_url": "https://www.karmecholing.org"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+18026332384",
+     "source_url": "https://www.karmecholing.org"
+    }
+   ],
+   "address": {
+    "value": "369 Patneaude Ln, Barnet, Vermont, 05821, Unitied States",
+    "source_url": "https://www.karmecholing.org"
+   }
+  },
+  "shambhala-mountain": {
+   "checked": "2026-10-20",
+   "site": "https://www.dralamountain.org",
+   "contact_page": {
+    "url": "https://www.dralamountain.org/contact-us/",
+    "source_url": "https://www.dralamountain.org"
+   },
+   "email": [
+    {
+     "value": "frontdesk@dralamountain.org",
+     "source_url": "https://www.dralamountain.org/contact-us/"
+    },
+    {
+     "value": "registrar@dralamountain.org",
+     "source_url": "https://www.dralamountain.org/contact-us/"
+    }
+   ]
+  },
+  "deer-park-bir": {
+   "checked": "2026-10-20",
+   "site": "https://www.deerpark.in",
+   "contact_page": {
+    "url": "https://www.deerpark.in/contact-us/",
+    "source_url": "https://www.deerpark.in"
+   },
+   "email": [
+    {
+     "value": "info@deerpark.in",
+     "source_url": "https://www.deerpark.in/contact-us/"
+    }
+   ]
+  },
+  "mahabodhi": {
+   "checked": "2026-10-20",
+   "site": "https://bodhgayatemple.com",
+   "contact_page": {
+    "url": "https://bodhgayatemple.com/how-to-reach/",
+    "source_url": "https://bodhgayatemple.com"
+   },
+   "email": [
+    {
+     "value": "bodhgayatemple@gmail.com",
+     "source_url": "https://bodhgayatemple.com/how-to-reach/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "916312200735",
+     "source_url": "https://bodhgayatemple.com/how-to-reach/"
+    }
+   ]
+  },
+  "lumbini": {
+   "checked": "2026-10-20",
+   "site": "https://lumbinidevtrust.gov.np",
+   "contact_page": {
+    "url": "https://lumbinidevtrust.gov.np/contact",
+    "source_url": "https://lumbinidevtrust.gov.np"
+   },
+   "email": [
+    {
+     "value": "info@lumbinidevtrust.gov.np",
+     "source_url": "https://lumbinidevtrust.gov.np/contact"
+    },
+    {
+     "value": "contactlumbini1985@gmail.com",
+     "source_url": "https://lumbinidevtrust.gov.np/contact"
+    }
+   ]
+  },
+  "plum-village": {
+   "checked": "2026-10-20",
+   "site": "https://plumvillage.org",
+   "contact_page": {
+    "url": "https://plumvillage.org/contact-us",
+    "source_url": "https://plumvillage.org"
+   }
+  },
+  "deer-park-monastery": {
+   "checked": "2026-10-20",
+   "site": "https://deerparkmonastery.org",
+   "contact_page": {
+    "url": "https://deerparkmonastery.org/contact-us/",
+    "source_url": "https://deerparkmonastery.org"
+   }
+  },
+  "blue-cliff": {
+   "checked": "2026-10-20",
+   "site": "https://www.bluecliffmonastery.org",
+   "contact_page": {
+    "url": "https://www.bluecliffmonastery.org/new-page-3",
+    "source_url": "https://www.bluecliffmonastery.org"
+   },
+   "email": [
+    {
+     "value": "office@bluecliffmonastery.org",
+     "source_url": "https://www.bluecliffmonastery.org/new-page-3"
+    }
+   ]
+  },
+  "magnolia-grove": {
+   "checked": "2026-10-20",
+   "site": "https://magnoliagrovemonastery.org",
+   "contact_page": {
+    "url": "https://magnoliagrovemonastery.org/contact/",
+    "source_url": "https://magnoliagrovemonastery.org"
+   },
+   "email": [
+    {
+     "value": "office@magnoliagrovemonastery.org",
+     "source_url": "https://magnoliagrovemonastery.org/contact/"
+    },
+    {
+     "value": "office@magnoliagrovemonastery.org",
+     "source_url": "https://magnoliagrovemonastery.org/contact/"
+    }
+   ],
+   "address": {
+    "value": "123 Towles Rd., Batesville, MS, 38606, United States",
+    "source_url": "https://magnoliagrovemonastery.org"
+   }
+  },
+  "eiab": {
+   "checked": "2026-10-20",
+   "site": "https://www.eiab.eu/",
+   "contact_page": {
+    "url": "https://www.eiab.eu/contact-5",
+    "source_url": "https://www.eiab.eu/"
+   },
+   "email": [
+    {
+     "value": "info@eiab.eu",
+     "source_url": "https://www.eiab.eu/contact-5"
+    },
+    {
+     "value": "registrar@eiab.eu",
+     "source_url": "https://www.eiab.eu/contact-5"
+    }
+   ],
+   "phone": [
+    {
+     "value": "004922919071373",
+     "source_url": "https://www.eiab.eu/contact-5"
+    }
+   ],
+   "address": {
+    "value": "3 Schaumburgweg, Waldbröl, NW, 51545, DE",
+    "source_url": "https://www.eiab.eu/"
+   }
+  },
+  "thai-plum-village": {
+   "checked": "2026-10-20",
+   "site": "https://www.thaiplumvillage.org/",
+   "contact_page": {
+    "url": "https://www.thaiplumvillage.org/contact-us",
+    "source_url": "https://www.thaiplumvillage.org/"
+   },
+   "email": [
+    {
+     "value": "visitus@thaiplumvillage.org",
+     "source_url": "https://www.thaiplumvillage.org/contact-us"
+    },
+    {
+     "value": "info@thaiplumvillage.org",
+     "source_url": "https://www.thaiplumvillage.org/contact-us"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+66 96 306 6865",
+     "source_url": "https://www.thaiplumvillage.org/contact-us"
+    }
+   ]
+  },
+  "tu-hieu": {
+   "checked": "2026-10-20",
+   "site": "https://plumvillage.org",
+   "contact_page": {
+    "url": "https://plumvillage.org/contact-us",
+    "source_url": "https://plumvillage.org"
+   }
+  },
+  "sfzc-city-center": {
+   "checked": "2026-10-20",
+   "site": "https://www.sfzc.org/locations/city-center/",
+   "contact_page": {
+    "url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/",
+    "source_url": "https://www.sfzc.org/locations/city-center/"
+   },
+   "email": [
+    {
+     "value": "ccoffice@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    },
+    {
+     "value": "conference@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    }
+   ]
+  },
+  "tassajara": {
+   "checked": "2026-10-20",
+   "site": "https://www.sfzc.org/locations/tassajara/",
+   "contact_page": {
+    "url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/",
+    "source_url": "https://www.sfzc.org/locations/tassajara/"
+   },
+   "email": [
+    {
+     "value": "ccoffice@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    },
+    {
+     "value": "conference@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    }
+   ]
+  },
+  "green-gulch": {
+   "checked": "2026-10-20",
+   "site": "https://www.sfzc.org/locations/green-gulch-farm/",
+   "contact_page": {
+    "url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/"
+   },
+   "email": [
+    {
+     "value": "ccoffice@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    },
+    {
+     "value": "conference@sfzc.org",
+     "source_url": "https://www.sfzc.org/about-san-francisco-zen-center/contact/"
+    }
+   ]
+  },
+  "antaiji": {
+   "checked": "2026-10-20",
+   "site": "https://antaiji.org",
+   "contact_page": {
+    "url": "https://antaiji.org/ja/history/contact/",
+    "source_url": "https://antaiji.org"
+   }
+  },
+  "sanshin-zen": {
+   "checked": "2026-10-20",
+   "site": "https://www.sanshinji.org",
+   "contact_page": {
+    "url": "https://www.sanshinji.org/contact.html",
+    "source_url": "https://www.sanshinji.org"
+   }
+  },
+  "upaya": {
+   "checked": "2026-10-20",
+   "site": "https://www.upaya.org",
+   "contact_page": {
+    "url": "https://www.upaya.org/contact/",
+    "source_url": "https://www.upaya.org"
+   },
+   "email": [
+    {
+     "value": "upaya@upaya.org",
+     "source_url": "https://www.upaya.org/contact/"
+    },
+    {
+     "value": "zendofeedback@upaya.org",
+     "source_url": "https://www.upaya.org"
+    }
+   ],
+   "phone": [
+    {
+     "value": "505-986-8518",
+     "source_url": "https://www.upaya.org/contact/"
+    }
+   ]
+  },
+  "zcla": {
+   "checked": "2026-10-20",
+   "site": "https://zcla.org",
+   "contact_page": {
+    "url": "https://zcla.org/contact/",
+    "source_url": "https://zcla.org"
+   },
+   "email": [
+    {
+     "value": "info@zcla.org",
+     "source_url": "https://zcla.org/contact/"
+    },
+    {
+     "value": "bookstore@zcla.org",
+     "source_url": "https://zcla.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+12133872651",
+     "source_url": "https://zcla.org/contact/"
+    },
+    {
+     "value": "+12133873358",
+     "source_url": "https://zcla.org/contact/"
+    }
+   ]
+  },
+  "mountain-cloud": {
+   "checked": "2026-10-20",
+   "site": "https://www.mountaincloud.org",
+   "contact_page": {
+    "url": "https://www.mountaincloud.org/about/mczc-contact/",
+    "source_url": "https://www.mountaincloud.org"
+   }
+  },
+  "engakuji": {
+   "checked": "2026-10-20",
+   "site": "https://www.engakuji.or.jp",
+   "email": [
+    {
+     "value": "engaku@engakuji.or.jp",
+     "source_url": "https://www.engakuji.or.jp"
+    }
+   ]
+  },
+  "throssel-hole": {
+   "checked": "2026-10-20",
+   "site": "https://throssel.org.uk",
+   "contact_page": {
+    "url": "https://throssel.org.uk/contact/",
+    "source_url": "https://throssel.org.uk"
+   }
+  },
+  "sri-ramanasramam": {
+   "checked": "2026-10-20",
+   "site": "https://www.gururamana.org/",
+   "contact_page": {
+    "url": "https://www.gururamana.org/Ashram/contact",
+    "source_url": "https://www.gururamana.org/"
+   },
+   "email": [
+    {
+     "value": "ashram@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    },
+    {
+     "value": "stay@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 4175 237200",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ]
+  },
+  "virupaksha-cave": {
+   "checked": "2026-10-20",
+   "site": "https://www.gururamana.org/",
+   "contact_page": {
+    "url": "https://www.gururamana.org/Ashram/contact",
+    "source_url": "https://www.gururamana.org/"
+   },
+   "email": [
+    {
+     "value": "ashram@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    },
+    {
+     "value": "stay@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 4175 237200",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ]
+  },
+  "skandashram": {
+   "checked": "2026-10-20",
+   "site": "https://www.gururamana.org/",
+   "contact_page": {
+    "url": "https://www.gururamana.org/Ashram/contact",
+    "source_url": "https://www.gururamana.org/"
+   },
+   "email": [
+    {
+     "value": "ashram@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    },
+    {
+     "value": "stay@gururamana.org",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 4175 237200",
+     "source_url": "https://www.gururamana.org/Ashram/contact"
+    }
+   ]
+  },
+  "belur-math": {
+   "checked": "2026-10-20",
+   "site": "https://belurmath.org",
+   "email": [
+    {
+     "value": "guesthouse@belurmath.org",
+     "source_url": "https://belurmath.org"
+    },
+    {
+     "value": "webteam@belurmath.org",
+     "source_url": "https://belurmath.org"
+    }
+   ]
+  },
+  "dakshineswar": {
+   "checked": "2026-10-20",
+   "site": "https://www.dakshineswarkalitemple.org",
+   "email": [
+    {
+     "value": "dakshineswarkalitemple@yahoo.com",
+     "source_url": "https://www.dakshineswarkalitemple.org"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+913325645940",
+     "source_url": "https://www.dakshineswarkalitemple.org"
+    },
+    {
+     "value": "+913325645222",
+     "source_url": "https://www.dakshineswarkalitemple.org"
+    }
+   ]
+  },
+  "kamarpukur": {
+   "checked": "2026-10-20",
+   "site": "https://belurmath.org",
+   "email": [
+    {
+     "value": "guesthouse@belurmath.org",
+     "source_url": "https://belurmath.org"
+    },
+    {
+     "value": "webteam@belurmath.org",
+     "source_url": "https://belurmath.org"
+    }
+   ]
+  },
+  "jayrambati": {
+   "checked": "2026-10-20",
+   "site": "https://belurmath.org",
+   "email": [
+    {
+     "value": "guesthouse@belurmath.org",
+     "source_url": "https://belurmath.org"
+    },
+    {
+     "value": "webteam@belurmath.org",
+     "source_url": "https://belurmath.org"
+    }
+   ]
+  },
+  "rmic": {
+   "checked": "2026-10-20",
+   "site": "https://www.sriramakrishna.org",
+   "contact_page": {
+    "url": "https://sriramakrishna.org/contact-us/",
+    "source_url": "https://www.sriramakrishna.org"
+   }
+  },
+  "vedanta-ny": {
+   "checked": "2026-10-20",
+   "site": "https://www.vedantany.org",
+   "email": [
+    {
+     "value": "mail@vedantany.org",
+     "source_url": "https://www.vedantany.org"
+    }
+   ]
+  },
+  "vedanta-hollywood": {
+   "checked": "2026-10-20",
+   "site": "https://vedanta.org",
+   "contact_page": {
+    "url": "https://vedanta.org/contact/",
+    "source_url": "https://vedanta.org"
+   },
+   "email": [
+    {
+     "value": "hollywood@vedanta.org",
+     "source_url": "https://vedanta.org/contact/"
+    },
+    {
+     "value": "rkmtrabuco@vedanta.org",
+     "source_url": "https://vedanta.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "(323)465-7114",
+     "source_url": "https://vedanta.org/contact/"
+    },
+    {
+     "value": "(949)858-0342",
+     "source_url": "https://vedanta.org/contact/"
+    }
+   ]
+  },
+  "rvc-ny": {
+   "checked": "2026-10-20",
+   "site": "https://www.ramakrishna.org",
+   "contact_page": {
+    "url": "https://www.ramakrishna.org/contact.html",
+    "source_url": "https://www.ramakrishna.org"
+   },
+   "email": [
+    {
+     "value": "rvcenternewyork@gmail.com",
+     "source_url": "https://www.ramakrishna.org/contact.html"
+    }
+   ]
+  },
+  "satsang-bhavan-lucknow": {
+   "checked": "2026-10-20",
+   "site": "https://avadhuta.com/",
+   "contact_page": {
+    "url": "https://avadhuta.com/worldwide-contacts/",
+    "source_url": "https://avadhuta.com/"
+   }
+  },
+  "monte-sahaja": {
+   "checked": "2026-10-20",
+   "site": "https://mooji.org",
+   "contact_page": {
+    "url": "https://mooji.org/contact-us",
+    "source_url": "https://mooji.org"
+   }
+  },
+  "anandamayi-kankhal": {
+   "checked": "2026-10-20",
+   "site": "https://www.anandamayi.org",
+   "contact_page": {
+    "url": "https://www.anandamayi.org/ashram-contact-details/",
+    "source_url": "https://www.anandamayi.org"
+   },
+   "email": [
+    {
+     "value": "omma@anandamayi.org",
+     "source_url": "https://www.anandamayi.org/ashram-contact-details/"
+    },
+    {
+     "value": "anandamayeesanghabhimpura@gmail.com",
+     "source_url": "https://www.anandamayi.org/ashram-contact-details/"
+    }
+   ]
+  },
+  "anandamayi-varanasi": {
+   "checked": "2026-10-20",
+   "site": "https://www.anandamayi.org",
+   "contact_page": {
+    "url": "https://www.anandamayi.org/ashram-contact-details/",
+    "source_url": "https://www.anandamayi.org"
+   },
+   "email": [
+    {
+     "value": "omma@anandamayi.org",
+     "source_url": "https://www.anandamayi.org/ashram-contact-details/"
+    },
+    {
+     "value": "anandamayeesanghabhimpura@gmail.com",
+     "source_url": "https://www.anandamayi.org/ashram-contact-details/"
+    }
+   ]
+  },
+  "srf-mother-center": {
+   "checked": "2026-10-20",
+   "site": "https://yogananda.org",
+   "contact_page": {
+    "url": "https://yogananda.org/contact-us",
+    "source_url": "https://yogananda.org"
+   }
+  },
+  "srf-lake-shrine": {
+   "checked": "2026-10-20",
+   "site": "https://lakeshrine.org",
+   "contact_page": {
+    "url": "https://lakeshrine.org/connect/contact/",
+    "source_url": "https://lakeshrine.org"
+   }
+  },
+  "yss-ranchi": {
+   "checked": "2026-10-20",
+   "site": "https://yssofindia.org",
+   "contact_page": {
+    "url": "https://yssofindia.org/about/contact-us",
+    "source_url": "https://yssofindia.org"
+   },
+   "phone": [
+    {
+     "value": "+916516655555",
+     "source_url": "https://yssofindia.org/about/contact-us"
+    }
+   ]
+  },
+  "yss-dakshineswar": {
+   "checked": "2026-10-20",
+   "site": "https://yssofindia.org",
+   "contact_page": {
+    "url": "https://yssofindia.org/about/contact-us",
+    "source_url": "https://yssofindia.org"
+   },
+   "phone": [
+    {
+     "value": "+916516655555",
+     "source_url": "https://yssofindia.org/about/contact-us"
+    }
+   ]
+  },
+  "karar-ashram": {
+   "checked": "2026-10-20",
+   "site": "https://kararashram.org",
+   "contact_page": {
+    "url": "https://kararashram.org/contact.html",
+    "source_url": "https://kararashram.org"
+   },
+   "email": [
+    {
+     "value": "kararashram.puri@gmail.com",
+     "source_url": "https://kararashram.org/contact.html"
+    }
+   ]
+  },
+  "arsha-vidya-saylorsburg": {
+   "checked": "2026-10-20",
+   "site": "https://arshavidya.org",
+   "contact_page": {
+    "url": "https://arshavidya.org/contact-us/",
+    "source_url": "https://arshavidya.org"
+   },
+   "phone": [
+    {
+     "value": "+1570 992 2339",
+     "source_url": "https://arshavidya.org"
+    }
+   ]
+  },
+  "arsha-vidya-anaikatti": {
+   "checked": "2026-10-20",
+   "site": "https://arshavidya.in/",
+   "contact_page": {
+    "url": "https://arshavidya.in/contact-us/",
+    "source_url": "https://arshavidya.in/"
+   },
+   "email": [
+    {
+     "value": "office@arshavidya.in",
+     "source_url": "https://arshavidya.in/contact-us/"
+    },
+    {
+     "value": "books.cds@arshavidya.in",
+     "source_url": "https://arshavidya.in/contact-us/"
+    }
+   ]
+  },
+  "sringeri": {
+   "checked": "2026-10-20",
+   "site": "https://www.sringeri.net",
+   "contact_page": {
+    "url": "https://www.sringeri.net/contact/departments",
+    "source_url": "https://www.sringeri.net"
+   },
+   "email": [
+    {
+     "value": "adminoffice@sringeri.net",
+     "source_url": "https://www.sringeri.net"
+    },
+    {
+     "value": "rooms24x7@sringeri.net",
+     "source_url": "https://www.sringeri.net/contact/departments"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 8265 252525",
+     "source_url": "https://www.sringeri.net/contact/departments"
+    },
+    {
+     "value": "+91 8265 262626",
+     "source_url": "https://www.sringeri.net/contact/departments"
+    }
+   ]
+  },
+  "sivananda-rishikesh": {
+   "checked": "2026-10-20",
+   "site": "https://www.sivanandaonline.org",
+   "contact_page": {
+    "url": "https://www.sivanandaonline.org/?cmd=displaysubsection&section_id=973&format=html",
+    "source_url": "https://www.sivanandaonline.org"
+   },
+   "email": [
+    {
+     "value": "generalsecretary@sivanandaonline.org",
+     "source_url": "https://www.sivanandaonline.org/?cmd=displaysubsection&section_id=973&format=html"
+    },
+    {
+     "value": "gs@sivanandaonline.org",
+     "source_url": "https://www.sivanandaonline.org"
+    }
+   ]
+  },
+  "vasanta-vihar": {
+   "checked": "2026-10-20",
+   "site": "https://www.jkrishnamurti.in",
+   "contact_page": {
+    "url": "https://www.jkrishnamurti.in/contact-us",
+    "source_url": "https://www.jkrishnamurti.in"
+   },
+   "address": {
+    "value": "124 Greenways Road, Chennai, TN, 600028, IN",
+    "source_url": "https://www.jkrishnamurti.in"
+   }
+  },
+  "ishber-ashram": {
+   "checked": "2026-10-20",
+   "site": "https://www.ishwarashramtrust.com",
+   "contact_page": {
+    "url": "https://www.ishwarashramtrust.com/contactus.php",
+    "source_url": "https://www.ishwarashramtrust.com"
+   }
+  },
+  "gurudev-siddha-peeth": {
+   "checked": "2026-10-20",
+   "site": "https://www.siddhayoga.org",
+   "contact_page": {
+    "url": "https://www.siddhayoga.org/contact/",
+    "source_url": "https://www.siddhayoga.org"
+   }
+  },
+  "shree-muktananda-ashram": {
+   "checked": "2026-10-20",
+   "site": "https://www.siddhayoga.org",
+   "contact_page": {
+    "url": "https://www.siddhayoga.org/contact/",
+    "source_url": "https://www.siddhayoga.org"
+   }
+  },
+  "gethsemani": {
+   "checked": "2026-10-20",
+   "site": "https://monks.org",
+   "contact_page": {
+    "url": "https://monks.org/contact-us/",
+    "source_url": "https://monks.org"
+   },
+   "email": [
+    {
+     "value": "reservations@monks.org",
+     "source_url": "https://monks.org/contact-us/"
+    },
+    {
+     "value": "vocations@monks.org",
+     "source_url": "https://monks.org/contact-us/"
+    }
+   ]
+  },
+  "cac": {
+   "checked": "2026-10-20",
+   "site": "https://cac.org",
+   "contact_page": {
+    "url": "https://cac.org/contact-us/",
+    "source_url": "https://cac.org"
+   }
+  },
+  "taize": {
+   "checked": "2026-10-20",
+   "site": "https://www.taize.fr/en/",
+   "contact_page": {
+    "url": "https://www.taize.fr/en/registration-lodz",
+    "source_url": "https://www.taize.fr/en/"
+   },
+   "email": [
+    {
+     "value": "meetings@taize.fr",
+     "source_url": "https://www.taize.fr/en/registration-lodz"
+    },
+    {
+     "value": "community@taize.fr",
+     "source_url": "https://www.taize.fr/en/registration-lodz"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+330385503002",
+     "source_url": "https://www.taize.fr/en/registration-lodz"
+    },
+    {
+     "value": "+330385503030",
+     "source_url": "https://www.taize.fr/en/registration-lodz"
+    }
+   ]
+  },
+  "spencer-abbey": {
+   "checked": "2026-10-20",
+   "site": "https://spencerabbey.org",
+   "contact_page": {
+    "url": "https://spencerabbey.org/becoming-a-monk/",
+    "source_url": "https://spencerabbey.org"
+   },
+   "email": [
+    {
+     "value": "monks@spencerabbey.org",
+     "source_url": "https://spencerabbey.org/becoming-a-monk/"
+    },
+    {
+     "value": "retreats@spencerabbey.org",
+     "source_url": "https://spencerabbey.org/becoming-a-monk/"
+    }
+   ]
+  },
+  "st-catherine-sinai": {
+   "checked": "2026-10-20",
+   "site": "https://www.sinaimonastery.com/index.php/en/",
+   "contact_page": {
+    "url": "https://www.sinaimonastery.com/index.php/en/the-pilgrimage/contact-the-monastery",
+    "source_url": "https://www.sinaimonastery.com/index.php/en/"
+   },
+   "email": [
+    {
+     "value": "secretariat@sinaimonastery.com",
+     "source_url": "https://www.sinaimonastery.com/index.php/en/the-pilgrimage/contact-the-monastery"
+    }
+   ]
+  },
+  "iona-abbey": {
+   "checked": "2026-10-20",
+   "site": "https://www.historicenvironment.scot/visit/all/iona-abbey-and-nunnery/",
+   "contact_page": {
+    "url": "https://www.historicenvironment.scot/about-us/contact/",
+    "source_url": "https://www.historicenvironment.scot/visit/all/iona-abbey-and-nunnery/"
+   },
+   "phone": [
+    {
+     "value": "+44 (0)131 668 8600",
+     "source_url": "https://www.historicenvironment.scot/about-us/contact/"
+    }
+   ],
+   "address": {
+    "value": "Longmore House, Salisbury Place, Edinburgh, EH9 1SH, GB",
+    "source_url": "https://www.historicenvironment.scot/about-us/contact/"
+   }
+  },
+  "bose": {
+   "checked": "2026-10-20",
+   "site": "https://www.monasterodibose.it",
+   "contact_page": {
+    "url": "https://www.monasterodibose.it/ospitalita/informazioni-generali/per-contattarci",
+    "source_url": "https://www.monasterodibose.it"
+   }
+  },
+  "assisi": {
+   "checked": "2026-10-20",
+   "site": "https://basilica.sanfrancesco.org/",
+   "contact_page": {
+    "url": "https://basilica.sanfrancesco.org/contatti",
+    "source_url": "https://basilica.sanfrancesco.org/"
+   },
+   "email": [
+    {
+     "value": "info@sanfrancesco.org",
+     "source_url": "https://basilica.sanfrancesco.org/contatti"
+    }
+   ]
+  },
+  "subiaco": {
+   "checked": "2026-10-20",
+   "site": "https://monasterosanbenedettosubiaco.it/",
+   "email": [
+    {
+     "value": "info@monasterosanbenedettosubiaco.it",
+     "source_url": "https://monasterosanbenedettosubiaco.it/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+39077485039",
+     "source_url": "https://monasterosanbenedettosubiaco.it/"
+    },
+    {
+     "value": "+393274981885",
+     "source_url": "https://monasterosanbenedettosubiaco.it/"
+    }
+   ]
+  },
+  "goetheanum": {
+   "checked": "2026-10-20",
+   "site": "https://goetheanum.ch/en",
+   "email": [
+    {
+     "value": "info@goetheanum.ch",
+     "source_url": "https://goetheanum.ch/en"
+    },
+    {
+     "value": "tickets@goetheanum.ch",
+     "source_url": "https://goetheanum.ch/en"
+    }
+   ]
+  },
+  "rudolf-steiner-house": {
+   "checked": "2026-10-20",
+   "site": "https://rsh.anth.org.uk/",
+   "contact_page": {
+    "url": "https://rsh.anth.org.uk/contact/",
+    "source_url": "https://rsh.anth.org.uk/"
+   },
+   "email": [
+    {
+     "value": "adrian.rsh@anth.org.uk",
+     "source_url": "https://rsh.anth.org.uk/contact/"
+    },
+    {
+     "value": "doris.bailiss.rsh@anth.org.uk",
+     "source_url": "https://rsh.anth.org.uk/contact/"
+    }
+   ]
+  },
+  "ts-adyar": {
+   "checked": "2026-10-20",
+   "site": "https://www.ts-adyar.org",
+   "contact_page": {
+    "url": "https://www.ts-adyar.org/terms-conditions-policies-and-contact",
+    "source_url": "https://www.ts-adyar.org"
+   },
+   "email": [
+    {
+     "value": "intl.hq@ts-adyar.org",
+     "source_url": "https://www.ts-adyar.org/terms-conditions-policies-and-contact"
+    },
+    {
+     "value": "treasury.hq@ts-adyar.org",
+     "source_url": "https://www.ts-adyar.org/terms-conditions-policies-and-contact"
+    }
+   ]
+  },
+  "brockwood": {
+   "checked": "2026-10-20",
+   "site": "https://brockwood.org.uk/",
+   "contact_page": {
+    "url": "https://brockwood.org.uk/contact-us",
+    "source_url": "https://brockwood.org.uk/"
+   },
+   "email": [
+    {
+     "value": "enquiry@brockwood.org.uk",
+     "source_url": "https://brockwood.org.uk/contact-us"
+    },
+    {
+     "value": "admin@brockwood.org.uk",
+     "source_url": "https://brockwood.org.uk/contact-us"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+44 1962 771 744",
+     "source_url": "https://brockwood.org.uk/contact-us"
+    },
+    {
+     "value": "004401962771744",
+     "source_url": "https://brockwood.org.uk/"
+    }
+   ]
+  },
+  "rishi-valley": {
+   "checked": "2026-10-20",
+   "site": "https://www.rishivalley.org",
+   "contact_page": {
+    "url": "https://www.rishivalley.org/contactus",
+    "source_url": "https://www.rishivalley.org"
+   },
+   "email": [
+    {
+     "value": "office@rishivalley.org",
+     "source_url": "https://www.rishivalley.org/contactus"
+    }
+   ]
+  },
+  "coptic-museum": {
+   "checked": "2026-10-20",
+   "site": "https://egymonuments.gov.eg/en/museums/the-coptic-museum",
+   "contact_page": {
+    "url": "https://egymonuments.gov.eg/en/contact-us",
+    "source_url": "https://egymonuments.gov.eg/en/museums/the-coptic-museum"
+   }
+  }
+ }
+}

@@ -1,0 +1,101 @@
+[
+ {
+  "id": "meditation/dzogchen",
+  "parent": "meditation",
+  "keywords": [
+   "dzogchen",
+   "rigpa",
+   "great perfection",
+   "trekchö",
+   "trekcho"
+  ],
+  "note": "Tibetan open-awareness practice"
+ },
+ {
+  "id": "meditation/mahamudra",
+  "parent": "meditation",
+  "keywords": [
+   "mahamudra",
+   "great seal"
+  ],
+  "note": "Kagyu practice of looking at mind"
+ },
+ {
+  "id": "meditation/lojong",
+  "parent": "meditation",
+  "keywords": [
+   "lojong",
+   "mind training",
+   "tonglen",
+   "seven points"
+  ],
+  "note": "mind training"
+ },
+ {
+  "id": "meditation/silent-illumination",
+  "parent": "meditation",
+  "keywords": [
+   "silent illumination",
+   "mozhao",
+   "shikantaza",
+   "just sitting"
+  ],
+  "note": "objectless sitting"
+ },
+ {
+  "id": "faith/pure-land",
+  "parent": "faith",
+  "keywords": [
+   "amida",
+   "amitabha",
+   "nembutsu",
+   "nianfo",
+   "shinjin",
+   "other power"
+  ],
+  "note": "Pure Land devotion"
+ },
+ {
+  "id": "awakening/buddha-nature",
+  "parent": "awakening",
+  "keywords": [
+   "buddha nature",
+   "tathagatagarbha",
+   "shentong"
+  ],
+  "note": "buddha-nature debates (Tsadra symposium, Jinpa, Brunnhölzl)"
+ },
+ {
+  "id": "reality/threefold-truth",
+  "parent": "reality",
+  "keywords": [
+   "threefold truth",
+   "three truths",
+   "tiantai",
+   "zhiyi"
+  ],
+  "note": "Tiantai"
+ },
+ {
+  "id": "reality/interpenetration",
+  "parent": "reality",
+  "keywords": [
+   "indra's net",
+   "huayan",
+   "interbeing"
+  ],
+  "note": "Huayan / Plum Village interbeing"
+ },
+ {
+  "id": "guru/tantra",
+  "parent": "guru",
+  "keywords": [
+   "tantra",
+   "empowerment",
+   "deity yoga",
+   "vajrayana",
+   "guru yoga"
+  ],
+  "note": "Vajrayana teacher-student and ritual"
+ }
+]

@@ -1,0 +1,138 @@
+{
+ "name": "Wiser open data",
+ "version": "2026-10-20",
+ "publisher": "Wiser (tantrafiles.xyz)",
+ "license": {
+  "metadata": "CC-BY-4.0",
+  "attribution": "Wiser (tantrafiles.xyz)",
+  "notes": [
+   "Wiser curation (topic intros, takes, practice summaries, tags, lineage edges, collections): CC BY 4.0.",
+   "Wikidata identifiers: CC0. Portrait files: Wikimedia Commons, each under the licence in its image.license field.",
+   "Videos are not included; each clip points to the official upload on YouTube (YouTube Terms apply to playback).",
+   "Linked texts keep their publishers' terms; Wiser links and never rehosts. Dharma Seed audio (CC BY-NC-ND) is never cut or remixed.",
+   "Place contact details are as published on each place's own site, with a source link; do not use them for bulk mail.",
+   "Transcripts are never published."
+  ]
+ },
+ "schema": "https://tantrafiles.xyz/schema/",
+ "files": [
+  {
+   "kind": "person",
+   "count": 560,
+   "json": "person.json",
+   "jsonl": "person.jsonl",
+   "bytes": 372559,
+   "sha256": "ee2716542bdf80ddc0f6dc0ffdd7c8713ab8012d4ec9a358d72b288d291e92a0",
+   "schema": "https://tantrafiles.xyz/schema/person.json"
+  },
+  {
+   "kind": "tradition",
+   "count": 157,
+   "json": "tradition.json",
+   "jsonl": "tradition.jsonl",
+   "bytes": 43737,
+   "sha256": "a2ed4bb9024eda6e9e8687a715fec37665414ceba1e0aeda9e6ba2f23a8b64a4",
+   "schema": "https://tantrafiles.xyz/schema/tradition.json"
+  },
+  {
+   "kind": "clip",
+   "count": 9478,
+   "json": "clip.json",
+   "jsonl": "clip.jsonl",
+   "bytes": 6654674,
+   "sha256": "ce8735a0ca7c1ae84b38311f0e561faba980cb5293b8f0d8c470ccbc2b591b82",
+   "schema": "https://tantrafiles.xyz/schema/clip.json"
+  },
+  {
+   "kind": "text",
+   "count": 68,
+   "json": "text.json",
+   "jsonl": "text.jsonl",
+   "bytes": 31107,
+   "sha256": "ad86a16dd20ecc01e5ec72160c2ffa3a7a7066c04f9ec5e889529f06ed2c84d1",
+   "schema": "https://tantrafiles.xyz/schema/text.json"
+  },
+  {
+   "kind": "practice",
+   "count": 76,
+   "json": "practice.json",
+   "jsonl": "practice.jsonl",
+   "bytes": 84269,
+   "sha256": "0bcc88fb4580d09475d44f01a71a5234b006efc2bca18cd4256690bec9b78136",
+   "schema": "https://tantrafiles.xyz/schema/practice.json"
+  },
+  {
+   "kind": "topic",
+   "count": 68,
+   "json": "topic.json",
+   "jsonl": "topic.jsonl",
+   "bytes": 30697,
+   "sha256": "1de28381637e590c8f3c795f1329707208ca417c95e9b96629e2dd3a9ff5e43f",
+   "schema": "https://tantrafiles.xyz/schema/topic.json"
+  },
+  {
+   "kind": "collection",
+   "count": 17,
+   "json": "collection.json",
+   "jsonl": "collection.jsonl",
+   "bytes": 30357,
+   "sha256": "1a74cfba845b1b041cd711bd6b3878cb8336857583b13c52de032a1e54cbe378",
+   "schema": "https://tantrafiles.xyz/schema/collection.json"
+  },
+  {
+   "kind": "place",
+   "count": 793,
+   "json": "place.json",
+   "jsonl": "place.jsonl",
+   "bytes": 780235,
+   "sha256": "88b78a625e1c0ba50aec49d4ebc320154d4a6e74b24537b9a0bccc6e67f1a983",
+   "schema": "https://tantrafiles.xyz/schema/place.json"
+  },
+  {
+   "kind": "edge",
+   "count": 927,
+   "json": "edge.json",
+   "jsonl": "edge.jsonl",
+   "bytes": 257613,
+   "sha256": "d27c41930d2396313b4020e663b353afeec9bbccd0e89d68ce1a0f3b497e3ea9",
+   "schema": "https://tantrafiles.xyz/schema/edge.json"
+  },
+  {
+   "kind": "jsonld",
+   "count": 11217,
+   "file": "wiser.jsonld",
+   "bytes": 6559556,
+   "sha256": "22d82c80f3193764c1c0d7ec77cd776a1757cb4f85a706d81bdbd1f0f83b5c60"
+  },
+  {
+   "kind": "sitemap-topic",
+   "count": 65,
+   "file": "sitemap-topic.xml"
+  },
+  {
+   "kind": "sitemap-person",
+   "count": 560,
+   "file": "sitemap-person.xml"
+  },
+  {
+   "kind": "sitemap-tradition",
+   "count": 157,
+   "file": "sitemap-tradition.xml"
+  },
+  {
+   "kind": "sitemap-practice",
+   "count": 76,
+   "file": "sitemap-practice.xml"
+  },
+  {
+   "kind": "sitemap-collection",
+   "count": 17,
+   "file": "sitemap-collection.xml"
+  },
+  {
+   "kind": "sitemap-place",
+   "count": 520,
+   "file": "sitemap-place.xml"
+  }
+ ]
+}

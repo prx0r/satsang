@@ -1,0 +1,283 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/profile.json",
+ "title": "Practitioner profile (export shape)",
+ "description": "What a user owns and can export (GET /me/export). Private by default. See ../PROFILE.md.",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "profile"
+  },
+  "id": {
+   "type": "string",
+   "description": "user/<uuid> or d:<device id> before account merge"
+  },
+  "handle": {
+   "type": "string"
+  },
+  "displayName": {
+   "type": "string"
+  },
+  "visibility": {
+   "type": "object",
+   "properties": {
+    "profile": {
+     "$ref": "common.json#/$defs/visibility"
+    },
+    "taste": {
+     "$ref": "common.json#/$defs/visibility"
+    },
+    "practice": {
+     "$ref": "common.json#/$defs/visibility"
+    },
+    "curations": {
+     "$ref": "common.json#/$defs/visibility"
+    }
+   }
+  },
+  "taste": {
+   "type": "object",
+   "description": "Normalised weights in [-1,1] with counts. Derived; re-computable from events.",
+   "properties": {
+    "traditions": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    },
+    "topics": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    },
+    "teachers": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    },
+    "styles": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    },
+    "n": {
+     "type": "integer"
+    },
+    "updated": {
+     "type": "string"
+    }
+   }
+  },
+  "votes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "a": {
+      "$ref": "common.json#/$defs/clipId"
+     },
+     "b": {
+      "$ref": "common.json#/$defs/clipId"
+     },
+     "winner": {
+      "type": "string"
+     },
+     "at": {
+      "type": "string"
+     },
+     "lowWatch": {
+      "type": "boolean"
+     },
+     "context": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "resonates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "clip": {
+      "$ref": "common.json#/$defs/clipId"
+     },
+     "at": {
+      "type": "string"
+     },
+     "t": {
+      "type": "integer"
+     }
+    }
+   }
+  },
+  "saved": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "$ref": "common.json#/$defs/gid"
+     },
+     "at": {
+      "type": "string"
+     },
+     "list": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "practiceLog": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "practice",
+     "at",
+     "minutes"
+    ],
+    "properties": {
+     "practice": {
+      "$ref": "common.json#/$defs/slug"
+     },
+     "at": {
+      "type": "string"
+     },
+     "minutes": {
+      "type": "number"
+     },
+     "routine": {
+      "type": "string"
+     },
+     "journey": {
+      "type": "string"
+     },
+     "note": {
+      "type": "string",
+      "maxLength": 2000
+     },
+     "quality": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+     }
+    }
+   }
+  },
+  "routines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "blocks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "practice": {
+         "$ref": "common.json#/$defs/slug"
+        },
+        "minutes": {
+         "type": "number"
+        },
+        "bell": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "schedule": {
+      "type": "string",
+      "description": "RRULE"
+     },
+     "tz": {
+      "type": "string"
+     },
+     "remind": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "journeys": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "collection": {
+      "$ref": "common.json#/$defs/slug"
+     },
+     "started": {
+      "type": "string"
+     },
+     "unit": {
+      "type": "integer"
+     },
+     "done": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     },
+     "paused": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "worksLog": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "state": {
+      "type": "string",
+      "enum": [
+       "want",
+       "reading",
+       "read",
+       "heard"
+      ]
+     }
+    }
+   }
+  },
+  "places": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "place": {
+      "$ref": "common.json#/$defs/slug"
+     },
+     "state": {
+      "type": "string",
+      "enum": [
+       "wishlist",
+       "booked",
+       "been"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "required": [
+  "id",
+  "type"
+ ],
+ "additionalProperties": true
+}

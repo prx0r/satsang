@@ -1,0 +1,13 @@
+{
+  "name": "wiser-mcp",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Read-only MCP server over Wiser's open metadata (Streamable HTTP, Cloudflare Worker).",
+  "scripts": {
+    "data": "node build-data.mjs",
+    "dump": "node build-dump.mjs",
+    "serve": "node serve-local.mjs",
+    "test": "node test.mjs"
+  }
+}

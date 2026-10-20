@@ -1,0 +1,170 @@
+[
+ {
+  "id": "lotsawa-house",
+  "title": "Lotsawa House: free translations of Tibetan texts (Nyingma, Rimé, Kagyu, Sakya, Jonang)",
+  "school": "tibetan",
+  "url": "https://www.lotsawahouse.org/",
+  "license_note": "free translations from the publisher"
+ },
+ {
+  "id": "84000",
+  "title": "84000: Translating the Words of the Buddha (Kangyur and Tengyur)",
+  "school": "tibetan",
+  "url": "https://84000.co/translation",
+  "license_note": "free translations from the publisher"
+ },
+ {
+  "id": "study-buddhism",
+  "title": "Study Buddhism / Berzin Archives",
+  "school": "gelug",
+  "url": "https://studybuddhism.com/en",
+  "license_note": "free archive from the author"
+ },
+ {
+  "id": "lywa",
+  "title": "Lama Yeshe Wisdom Archive (free ebooks and transcripts of Lama Yeshe and Lama Zopa)",
+  "school": "fpmt",
+  "url": "https://www.lamayeshe.com/",
+  "license_note": "free from the official archive"
+ },
+ {
+  "id": "uma-hopkins",
+  "title": "UMA Institute for Tibetan Studies: Jeffrey Hopkins's translations and course materials",
+  "school": "gelug",
+  "url": "https://www.uma-tibet.org/edu/books/",
+  "license_note": "free from the official site"
+ },
+ {
+  "id": "wallace-writings",
+  "title": "Alan Wallace writings (articles and free PDFs)",
+  "school": "tibetan",
+  "url": "https://www.alanwallace.org/writings/books",
+  "license_note": "author's site"
+ },
+ {
+  "id": "dalailama-teachings",
+  "title": "Dalai Lama, teachings and messages",
+  "school": "gelug",
+  "url": "https://www.dalailama.com/messages/buddhism",
+  "license_note": "official site"
+ },
+ {
+  "id": "tsadra-buddhanature",
+  "title": "Tsadra Foundation Buddha-Nature resource (essays, texts, the 2019 symposium)",
+  "school": "tibetan",
+  "url": "https://buddhanature.tsadra.org/",
+  "license_note": "free from the publisher"
+ },
+ {
+  "id": "suzuki-transcripts",
+  "title": "Shunryu Suzuki lecture transcripts (cuke.com, with SFZC archives)",
+  "school": "soto-zen",
+  "url": "https://www.cuke.com/sztranscripts/",
+  "license_note": "free archive, SFZC-authorised"
+ },
+ {
+  "id": "soto-library",
+  "title": "Soto Zen Buddhism (official) library and practice pages",
+  "school": "soto-zen",
+  "url": "https://www.sotozen.com/eng/library/",
+  "license_note": "official site"
+ },
+ {
+  "id": "sheng-yen-books",
+  "title": "Chan Meditation Center publications (Sheng Yen free books)",
+  "school": "chan",
+  "url": "https://www.chancenter.org/en/publications",
+  "license_note": "official site; free distribution"
+ },
+ {
+  "id": "shinran-works",
+  "title": "The Collected Works of Shinran (Hongwanji translation)",
+  "school": "jodo-shinshu",
+  "url": "https://www.shinranworks.com/",
+  "license_note": "official, free online"
+ },
+ {
+  "id": "bdk-tripitaka",
+  "title": "BDK English Tripitaka free downloads (Lotus Sutra, Platform Sutra, Pure Land sutras, Kukai and more)",
+  "school": "mahayana",
+  "url": "https://www.bdkamerica.org/tripitaka-list/",
+  "license_note": "free PDFs from the publisher"
+ },
+ {
+  "id": "tendai-site",
+  "title": "Tendai Buddhist Institute",
+  "school": "tendai",
+  "url": "https://www.tendai.org",
+  "license_note": "official site"
+ },
+ {
+  "id": "shingon-site",
+  "title": "Foundation for Shingon Buddhism",
+  "school": "shingon",
+  "url": "http://www.shingonbuddhism.org",
+  "license_note": "official site"
+ },
+ {
+  "id": "kwanum-site",
+  "title": "Kwan Um School of Zen (teachings, Primary Point magazine)",
+  "school": "kwan-um",
+  "url": "https://www.kwanumzen.org",
+  "license_note": "official site"
+ },
+ {
+  "id": "plumvillage-site",
+  "title": "Plum Village articles and practice guides",
+  "school": "plum-village",
+  "url": "https://plumvillage.org",
+  "license_note": "official site"
+ },
+ {
+  "id": "plumvillage-app",
+  "title": "Plum Village app (free guided meditations and talks)",
+  "school": "plum-village",
+  "url": "https://www.plumvillage.app/",
+  "license_note": "official, free"
+ },
+ {
+  "id": "dharmata-site",
+  "title": "Dharmata Foundation (Anam Thubten)",
+  "school": "nyingma",
+  "url": "https://www.dharmata.org",
+  "license_note": "official site"
+ },
+ {
+  "id": "sep-tsongkhapa",
+  "title": "Stanford Encyclopedia of Philosophy: Tsongkhapa",
+  "school": "gelug",
+  "url": "https://plato.stanford.edu/entries/tsongkhapa/",
+  "license_note": "free scholarly reference"
+ },
+ {
+  "id": "sep-huayan",
+  "title": "Stanford Encyclopedia of Philosophy: Huayan Buddhism",
+  "school": "huayan",
+  "url": "https://plato.stanford.edu/entries/buddhism-huayan/",
+  "license_note": "free scholarly reference"
+ },
+ {
+  "id": "sep-chan",
+  "title": "Stanford Encyclopedia of Philosophy: Japanese Zen Buddhist Philosophy",
+  "school": "chan",
+  "url": "https://plato.stanford.edu/entries/japanese-zen/",
+  "license_note": "free scholarly reference"
+ },
+ {
+  "id": "jinpa-thesis",
+  "title": "Thupten Jinpa, 'Self', persons and Madhyamaka dialectics (Cambridge PhD, open repository)",
+  "school": "gelug",
+  "url": "https://www.repository.cam.ac.uk/handle/1810/272695",
+  "license_note": "university open repository"
+ },
+ {
+  "id": "chinese-buddhism-taiwan",
+  "title": "Charles B. Jones, Buddhism in Taiwan: A Historical Survey (dissertation, NTU open hosting)",
+  "school": "pure-land",
+  "url": "https://dlbs.liberal.ntu.edu.tw/museum/TAIWAN/md/bit/bit.htm",
+  "license_note": "free university hosting"
+ }
+]

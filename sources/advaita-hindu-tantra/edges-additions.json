@@ -1,0 +1,158 @@
+{
+ "_note": "edge additions (same shape as app/wisegraph/edges.json)",
+ "edges": [
+  {
+   "from": "ramana-maharshi",
+   "to": "papaji",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "papaji",
+   "to": "mooji",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Mooji met Papaji in Lucknow in 1993."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "david-godman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Godman has written on Ramana and his devotees since the 1980s."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "rupert-spira",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Spira reads and comments on I Am That."
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "direct-path",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "jean-klein",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jean-klein",
+   "to": "francis-lucille",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "francis-lucille",
+   "to": "rupert-spira",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "arsha-vidya",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-tadatmananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "adi-shankara",
+   "to": "advaita",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "swami-lakshmanjoo",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Lakshmanjoo taught Abhinavagupta's works line by line."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "kashmir-shaivism",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Last holder of the oral tradition."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "christopher-wallis",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Wallis draws on Lakshmanjoo's translations and lineage."
+  },
+  {
+   "from": "vijnana-bhairava",
+   "to": "kashmir-shaivism",
+   "type": "lineage_of",
+   "conf": "medium"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "sri-yukteswar",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "sri-yukteswar",
+   "to": "paramahansa-yogananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "sri-daya-mata",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "sri-mrinalini-mata",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "brother-anandamoy",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "kriya-yoga",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Brought Kriya Yoga to the West."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "sarada-devi",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Spiritual companions; Sarada Devi is revered as Holy Mother of the Ramakrishna Order."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "ramakrishna-order",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-vivekananda",
+   "to": "swami-sarvapriyananda",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Sarvapriyananda is a monk of the order Vivekananda founded."
+  }
+ ]
+}

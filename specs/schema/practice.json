@@ -1,0 +1,174 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/practice.json",
+ "title": "Practice",
+ "description": "Something you do, not watch. Steps are Wiser's own summary with a source link for the authoritative instruction. schema.org: HowTo (steps = HowToStep, duration = totalTime).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "practice"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "name": {
+   "type": "string"
+  },
+  "kind": {
+   "type": "string",
+   "enum": [
+    "meditation",
+    "visualisation",
+    "enquiry",
+    "chant",
+    "ritual",
+    "movement"
+   ]
+  },
+  "subkind": {
+   "type": "string",
+   "description": "Free label: breath, mantra, body-scan, metta, koan, prayer, asana, prostration ..."
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   },
+   "minItems": 1
+  },
+  "summary": {
+   "type": "string",
+   "maxLength": 400
+  },
+  "steps": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "n": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "text": {
+      "type": "string",
+      "maxLength": 600,
+      "description": "Wiser's own words."
+     },
+     "seconds": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Suggested time on this step (timer cue)."
+     },
+     "cue": {
+      "type": "string",
+      "enum": [
+       "bell",
+       "voice",
+       "silent",
+       "breath"
+      ]
+     },
+     "visual": {
+      "type": "string",
+      "description": "Visual spec id in the deitybody grammar (body locus, glyph, colour, motion)."
+     },
+     "clip": {
+      "$ref": "common.json#/$defs/ref"
+     }
+    }
+   },
+   "minItems": 1
+  },
+  "duration": {
+   "$ref": "common.json#/$defs/duration"
+  },
+  "level": {
+   "type": "string",
+   "enum": [
+    "first-steps",
+    "steady",
+    "deep"
+   ]
+  },
+  "posture": {
+   "type": "string",
+   "enum": [
+    "seated",
+    "lying",
+    "standing",
+    "walking",
+    "any"
+   ]
+  },
+  "eyes": {
+   "type": "string",
+   "enum": [
+    "closed",
+    "open",
+    "either"
+   ]
+  },
+  "needsTeacher": {
+   "type": "boolean",
+   "description": "Traditionally given only by a teacher / after initiation."
+  },
+  "contraindications": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Plain cautions, e.g. 'trauma: keep eyes open, short sits', 'pregnancy: no breath retention'."
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/source"
+   },
+   "minItems": 1
+  },
+  "teachers": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "clips": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/ref"
+   }
+  },
+  "texts": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/ref"
+   }
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "visual": {
+   "type": "string",
+   "description": "deitybody framework/practice id."
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "name",
+  "kind",
+  "traditions",
+  "steps",
+  "sources"
+ ],
+ "additionalProperties": true
+}

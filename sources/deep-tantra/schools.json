@@ -1,0 +1,291 @@
+{
+ "_note": "Proposed tradition nodes (wisegraph traditions shape: id, parent, name). kashmir-shaivism, vajrayana and siddha-yoga already exist; do not duplicate. Clip rows use these ids in tradition/traditions[].",
+ "schools": [
+  {
+   "id": "shaivism",
+   "parent": "hindu",
+   "name": "Śaivism",
+   "dates": "c. 2nd c. CE (Pāśupata) – present",
+   "key_figures": [
+    "lakulisha",
+    "abhinavagupta"
+   ],
+   "symbol": "trident (triśūla)",
+   "note": "Umbrella for Śiva-centred traditions: the ascetic Atimārga and the initiatory Mantramārga.",
+   "clips_here": 0
+  },
+  {
+   "id": "pashupata",
+   "parent": "shaivism",
+   "name": "Pāśupata (Atimārga)",
+   "dates": "c. 2nd–12th c.",
+   "key_figures": [
+    "lakulisha"
+   ],
+   "symbol": "ash-smeared ascetic / staff (lakuṭa)",
+   "note": "Earliest Śaiva ascetic order; ash, feigned madness, provoking censure.",
+   "clips_here": 4
+  },
+  {
+   "id": "shaiva-siddhanta",
+   "parent": "shaivism",
+   "name": "Śaiva Siddhānta",
+   "dates": "c. 5th c. – present",
+   "key_figures": [
+    "sivaya-subramuniyaswami",
+    "bodhinatha-veylanswami",
+    "dominic-goodall"
+   ],
+   "symbol": "Śiva liṅga with three lines of ash",
+   "note": "Mainstream ritual Śaivism of the Mantramārga; Sanskrit āgamas, later the Tamil Śaiva temple tradition. Kauai Aadheenam teaches a monistic form.",
+   "clips_here": 133
+  },
+  {
+   "id": "kashmir-shaivism",
+   "parent": "shaivism",
+   "name": "Kashmir Shaivism (non-dual Śaiva Tantra)",
+   "dates": "c. 9th c. – present",
+   "key_figures": [
+    "vasugupta",
+    "abhinavagupta",
+    "swami-lakshmanjoo"
+   ],
+   "symbol": "Śiva–Śakti in one (ardhanārīśvara) or trident of three goddesses",
+   "note": "EXISTING node (school under hindu). Proposed parent: shaivism. Covers Trika, Pratyabhijñā, Spanda and Krama as practised in Kashmir.",
+   "clips_here": 681
+  },
+  {
+   "id": "trika",
+   "parent": "kashmir-shaivism",
+   "name": "Trika",
+   "dates": "c. 9th–12th c. (texts); revived 20th c.",
+   "key_figures": [
+    "abhinavagupta",
+    "kshemaraja"
+   ],
+   "symbol": "triśūla with three goddesses Parā, Parāparā, Aparā",
+   "note": "Abhinavagupta's synthesis around the Mālinīvijayottara; Tantrāloka.",
+   "clips_here": 102
+  },
+  {
+   "id": "pratyabhijna",
+   "parent": "kashmir-shaivism",
+   "name": "Pratyabhijñā (Recognition)",
+   "dates": "c. 900–1050",
+   "key_figures": [
+    "somananda",
+    "utpaladeva",
+    "abhinavagupta",
+    "kshemaraja"
+   ],
+   "symbol": "mirror (pratibimba)",
+   "note": "Philosophical school: liberation as recognising oneself as Śiva.",
+   "clips_here": 26
+  },
+  {
+   "id": "spanda",
+   "parent": "kashmir-shaivism",
+   "name": "Spanda (Vibration)",
+   "dates": "c. 850 – present",
+   "key_figures": [
+    "vasugupta",
+    "kshemaraja"
+   ],
+   "symbol": "ripple / vibrating wave",
+   "note": "Śiva Sūtras and Spanda Kārikās: consciousness as pulsation.",
+   "clips_here": 23
+  },
+  {
+   "id": "krama",
+   "parent": "kashmir-shaivism",
+   "name": "Krama / Kālīkula (Mahārtha)",
+   "dates": "c. 9th–13th c.; living Kālī practice",
+   "key_figures": [
+    "abhinavagupta",
+    "yamajit"
+   ],
+   "symbol": "Kālī with the wheel of twelve Kālīs",
+   "note": "Kālī-centred phases (krama) of cognition; Twelve Kālīs.",
+   "clips_here": 126
+  },
+  {
+   "id": "kaula",
+   "parent": "shaktism",
+   "name": "Kaula / Kula",
+   "dates": "c. 9th c. – present",
+   "key_figures": [
+    "matsyendranatha",
+    "judit-torzsok",
+    "shaman-hatley"
+   ],
+   "symbol": "circle of yoginīs (yoginī-cakra)",
+   "note": "Clan (kula) cults of yoginīs and Bhairava; source of many later Śākta and haṭha practices.",
+   "clips_here": 26
+  },
+  {
+   "id": "shaktism",
+   "parent": "hindu",
+   "name": "Śāktism",
+   "dates": "c. 6th c. – present",
+   "key_figures": [
+    "anandamayi-ma",
+    "sravana-borkataky-varma"
+   ],
+   "symbol": "downward triangle / Devī",
+   "note": "Goddess-centred traditions; parent of Kaula, Śrī Vidyā and Kālī lines.",
+   "clips_here": 0
+  },
+  {
+   "id": "shakta",
+   "parent": "shaktism",
+   "name": "Śākta practice (Kālī, Kāmākhyā, Bhairavī)",
+   "dates": "living",
+   "key_figures": [
+    "rajarshi-nandy",
+    "sadhguru"
+   ],
+   "symbol": "Kālī's sword / Kāmākhyā yoni-pīṭha",
+   "note": "Bucket for living goddess practice not tied to a single classical school (Kāmākhyā upāsanā, Linga Bhairavi, Daśa Mahāvidyā).",
+   "clips_here": 319
+  },
+  {
+   "id": "sri-vidya",
+   "parent": "shaktism",
+   "name": "Śrī Vidyā",
+   "dates": "c. 11th c. – present",
+   "key_figures": [
+    "amritananda",
+    "rajmani-tigunait",
+    "douglas-brooks",
+    "om-swami"
+   ],
+   "symbol": "Śrī Yantra / Śrī Chakra",
+   "note": "Worship of Lalitā Tripurasundarī through the Śrī Chakra and the fifteen-syllable mantra.",
+   "clips_here": 239
+  },
+  {
+   "id": "siddha-siddhanta",
+   "parent": "shaivism",
+   "name": "Nāth / Siddha Siddhānta",
+   "dates": "c. 12th c. – present",
+   "key_figures": [
+    "gorakhnath",
+    "matsyendranatha",
+    "david-gordon-white"
+   ],
+   "symbol": "split earrings (kuṇḍala) and horn whistle",
+   "note": "Nāth yogī order (Gorakhnāth); Siddha Siddhānta Paddhati; alchemy and haṭha.",
+   "clips_here": 26
+  },
+  {
+   "id": "hatha",
+   "parent": "siddha-siddhanta",
+   "name": "Haṭha Yoga (premodern)",
+   "dates": "c. 11th c. – present",
+   "key_figures": [
+    "james-mallinson",
+    "jason-birch",
+    "mark-singleton"
+   ],
+   "symbol": "figure in a seated posture with mudrā",
+   "note": "Physical-yogic methods first set out in Vajrayāna and Śaiva circles (Amṛtasiddhi, Dattātreyayogaśāstra, Haṭhapradīpikā).",
+   "clips_here": 79
+  },
+  {
+   "id": "vajrayana",
+   "parent": "buddhism",
+   "name": "Vajrayāna (Indian tantric Buddhism)",
+   "dates": "c. 7th c. – present",
+   "key_figures": [
+    "harunaga-isaacson",
+    "peter-daniel-szanto"
+   ],
+   "symbol": "vajra and bell",
+   "note": "EXISTING node. Here: its Indian origins and its borrowings from Śaiva/Śākta tantra (Sanderson's thesis; Isaacson, Szántó, Mallinson on the Amṛtasiddhi).",
+   "clips_here": 9
+  },
+  {
+   "id": "siddha-yoga",
+   "parent": "kashmir-shaivism",
+   "name": "Siddha Yoga",
+   "dates": "1956 – present",
+   "key_figures": [
+    "muktananda"
+   ],
+   "symbol": "blue pearl",
+   "note": "EXISTING lineage node; kept as the modern channel through which Kashmir Shaiva texts reached Kempton, Shankarananda, Muller-Ortega.",
+   "clips_here": 0
+  },
+  {
+   "id": "tantra-studies",
+   "parent": null,
+   "name": "Academic study of tantra",
+   "dates": "19th c. – present",
+   "key_figures": [
+    "alexis-sanderson",
+    "andre-padoux",
+    "gavin-flood"
+   ],
+   "symbol": "palm-leaf manuscript",
+   "note": "Not a tradition: a field tag for scholarly lectures (philology, history).",
+   "clips_here": 34
+  }
+ ],
+ "organisations": [
+  {
+   "id": "tantra-illuminated",
+   "kind": "organisation",
+   "founder": "christopher-wallis",
+   "site": "https://tantrailluminated.com"
+  },
+  {
+   "id": "blue-throat-yoga",
+   "kind": "organisation",
+   "founder": "paul-muller-ortega",
+   "site": "https://www.bluethroatyoga.com",
+   "founded": 2006
+  },
+  {
+   "id": "jaya-kula",
+   "kind": "organisation",
+   "founder": "shambhavi-sarasvati",
+   "site": "https://jayakula.org"
+  },
+  {
+   "id": "devipuram",
+   "kind": "temple",
+   "founder": "amritananda",
+   "site": "https://devipuram.org"
+  },
+  {
+   "id": "rajanaka",
+   "kind": "organisation",
+   "founder": "douglas-brooks",
+   "site": "https://rajanaka.com"
+  },
+  {
+   "id": "vimarsha-foundation",
+   "kind": "organisation",
+   "founder": "sthaneshwar-timalsina",
+   "site": "https://www.vimarshafoundation.org"
+  },
+  {
+   "id": "hatha-yoga-project",
+   "kind": "research project",
+   "founder": "james-mallinson",
+   "site": "https://yoga.ames.ox.ac.uk/hyp"
+  },
+  {
+   "id": "universal-shaiva-fellowship",
+   "kind": "organisation",
+   "founder": "john-hughes",
+   "site": "https://www.universalshaivafellowship.org"
+  },
+  {
+   "id": "kauai-aadheenam",
+   "kind": "monastery",
+   "founder": "sivaya-subramuniyaswami",
+   "site": "https://www.himalayanacademy.com"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "_note": "buddhist group edges to add (2026-10-20). Same shape as app/wisegraph/edges.json.",
+ "edges": [
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-sumedho",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-brahm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-pasanno",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-amaro",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "ajahn-amaro",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Amaro trained under Sumedho in England after Thailand."
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "jack-kornfield",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "jack-kornfield",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Kornfield also practised with Mahasi Sayadaw."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "insight",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Noting method at the root of the Western Insight movement."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "joseph-goldstein",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jack-kornfield",
+   "to": "tara-brach",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajaan-lee",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajaan-lee",
+   "to": "thanissaro-bhikkhu",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Thanissaro trained under Ajaan Fuang, Ajaan Lee's student, and translated Lee's breath method."
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "plum-village",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "soto-zen",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "shunryu-suzuki",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "shohaku-okumura",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Okumura is a leading English translator of Dōgen."
+  },
+  {
+   "from": "kosho-uchiyama",
+   "to": "shohaku-okumura",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "brad-warner",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "zhaozhou",
+   "to": "henry-shukman",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Shukman teaches the Mu koan."
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "mingyur-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "tsoknyi-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dalai-lama",
+   "to": "gelug",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nagarjuna",
+   "to": "mahayana",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Madhyamaka emptiness teaching."
+  },
+  {
+   "from": "pa-auk-sayadaw",
+   "to": "burmese",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "goenka",
+   "to": "burmese",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-nyanamoli",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Hillside Hermitage talks repeatedly discuss Ajahn Chah (e.g. \"Die Before You Die\")."
+  }
+ ]
+}

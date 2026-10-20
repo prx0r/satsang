@@ -1,0 +1,3575 @@
+{
+ "_note": "Recurring retreat programmes per place (2026-10-20). No dates are stored: schedule_url points at the official page that lists current dates. cost_model is the usual model for that place; confirm on the page.",
+ "retreats": [
+  {
+   "id": "amaravati--retreat-centre-group-retreats",
+   "place_id": "amaravati",
+   "name": "Retreat Centre group retreats",
+   "typical_length": "weekend to 10 days",
+   "format": "silent residential retreat led by monks and nuns",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://amaravati.org/coming-on-retreat/",
+   "url_status": "ok"
+  },
+  {
+   "id": "amaravati--monastery-guest-stay",
+   "place_id": "amaravati",
+   "name": "Monastery guest stay",
+   "typical_length": "a few days to weeks",
+   "format": "stay as a lay guest following the monastic routine",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://amaravati.org/visiting/",
+   "url_status": "ok"
+  },
+  {
+   "id": "cittaviveka--guest-stay",
+   "place_id": "cittaviveka",
+   "name": "Guest stay",
+   "typical_length": "a few days to weeks",
+   "format": "lay guest stay in the monastic routine",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.cittaviveka.org/staying-overnight",
+   "url_status": "ok"
+  },
+  {
+   "id": "aruna-ratanagiri--kusala-house-retreats",
+   "place_id": "aruna-ratanagiri",
+   "name": "Kusala House retreats",
+   "typical_length": "weekend to 10 days",
+   "format": "silent residential retreat led by monastics",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.ratanagiri.org.uk/participate-retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "hartridge--guest-stay",
+   "place_id": "hartridge",
+   "name": "Guest stay",
+   "typical_length": "a few days",
+   "format": "lay guest stay",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://hartridgemonastery.org/coming-to-stay.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "abhayagiri--monastery-calendar-guest-stays-upasika-d",
+   "place_id": "abhayagiri",
+   "name": "Monastery calendar: guest stays, upasika days, retreats",
+   "typical_length": "day to multi-week",
+   "format": "guest stays and occasional lay retreats",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.abhayagiri.org/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "metta-forest--overnight-visits",
+   "place_id": "metta-forest",
+   "name": "Overnight visits",
+   "typical_length": "a few days to weeks",
+   "format": "lay guest stay with Q&A and evening talks",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.watmetta.org/overnight-visitors/",
+   "url_status": "ok"
+  },
+  {
+   "id": "wat-pah-nanachat--staying-at-wat-pah-nanachat",
+   "place_id": "wat-pah-nanachat",
+   "name": "Staying at Wat Pah Nanachat",
+   "typical_length": "3 days minimum, longer by arrangement",
+   "format": "lay guest stay in an international forest monastery",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.watpahnanachat.org/about",
+   "url_status": "ok"
+  },
+  {
+   "id": "birken--visiting-and-guest-stays",
+   "place_id": "birken",
+   "name": "Visiting and guest stays",
+   "typical_length": "a few days",
+   "format": "lay guest stay",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://birken.ca/visit/",
+   "url_status": "ok"
+  },
+  {
+   "id": "bodhinyanarama--retreats",
+   "place_id": "bodhinyanarama",
+   "name": "Retreats",
+   "typical_length": "weekend to a week",
+   "format": "residential meditation retreats",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://bodhinyanarama.net.nz/retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhammapala--events-and-guest-stays",
+   "place_id": "dhammapala",
+   "name": "Events and guest stays",
+   "typical_length": "varies",
+   "format": "retreats and guest stays in the Alps",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://dhammapala.ch/events",
+   "url_status": "ok"
+  },
+  {
+   "id": "tisarana--visiting-may-to-december",
+   "place_id": "tisarana",
+   "name": "Visiting (May to December)",
+   "typical_length": "overnight to weeks",
+   "format": "lay guest stay",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://tisarana.ca",
+   "url_status": "ok (verified via fetch; blocked from sandbox)"
+  },
+  {
+   "id": "jhana-grove--bswa-meditation-retreats",
+   "place_id": "jhana-grove",
+   "name": "BSWA meditation retreats",
+   "typical_length": "weekend to 9 days",
+   "format": "silent residential retreats taught by BSWA monastics",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://bswa.org/location/jhana-grove-meditation-retreat-centre/",
+   "url_status": "resolves (HTTP 202 bot protection)"
+  },
+  {
+   "id": "wat-suan-mokkh--international-dharma-hermitage-monthly-r",
+   "place_id": "wat-suan-mokkh",
+   "name": "International Dharma Hermitage monthly retreat",
+   "typical_length": "10 days",
+   "format": "silent anapanasati retreat in English",
+   "cost_model": "fee (small fixed fee)",
+   "schedule_url": "https://www.suanmokkh-idh.org",
+   "url_status": "ok"
+  },
+  {
+   "id": "nissarana-vanaya--retreat-schedule",
+   "place_id": "nissarana-vanaya",
+   "name": "Retreat schedule",
+   "typical_length": "varies",
+   "format": "residential meditation retreats",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.nissarana.lk/meditate-with-us/retreat-schedule/",
+   "url_status": "ok"
+  },
+  {
+   "id": "na-uyana--meditation-programmes-english",
+   "place_id": "na-uyana",
+   "name": "Meditation programmes (English)",
+   "typical_length": "varies, long stays possible",
+   "format": "residential samatha-vipassana training",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://nauyana.org/meditation-programs-english/",
+   "url_status": "ok"
+  },
+  {
+   "id": "panditarama-lumbini--retreats",
+   "place_id": "panditarama-lumbini",
+   "name": "Retreats",
+   "typical_length": "weeks to months",
+   "format": "intensive Mahasi-style noting retreats",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.panditarama-lumbini.info/retreats.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "pa-auk-tawya--residential-practice",
+   "place_id": "pa-auk-tawya",
+   "name": "Residential practice",
+   "typical_length": "months to years",
+   "format": "long-term samatha-vipassana training",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.paaukforestmonastery.org/",
+   "url_status": "ok"
+  },
+  {
+   "id": "mahasi-sasana-yeiktha--residential-practice",
+   "place_id": "mahasi-sasana-yeiktha",
+   "name": "Residential practice",
+   "typical_length": "weeks to months",
+   "format": "intensive Mahasi noting practice",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.mahasi.org.mm",
+   "url_status": "ok"
+  },
+  {
+   "id": "imc-uk--10-day-courses",
+   "place_id": "imc-uk",
+   "name": "10-day courses",
+   "typical_length": "10 days",
+   "format": "residential course in the U Ba Khin tradition",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://internationalmeditationcentre.org/",
+   "url_status": "ok"
+  },
+  {
+   "id": "ims-barre--ims-retreat-center-programme",
+   "place_id": "ims-barre",
+   "name": "IMS Retreat Center programme",
+   "typical_length": "weekend to 3 months",
+   "format": "silent residential insight retreats",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://www.dharma.org",
+   "url_status": "resolves (HTTP 202 bot protection)"
+  },
+  {
+   "id": "bcbs--bcbs-courses",
+   "place_id": "bcbs",
+   "name": "BCBS courses",
+   "typical_length": "day to week, plus online",
+   "format": "study and practice courses",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://www.buddhistinquiry.org/classes/",
+   "url_status": "ok"
+  },
+  {
+   "id": "spirit-rock--residential-retreats",
+   "place_id": "spirit-rock",
+   "name": "Residential retreats",
+   "typical_length": "weekend to 2 months",
+   "format": "silent insight retreats",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://www.spiritrock.org/calendar?programType=retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "gaia-house--group-retreats",
+   "place_id": "gaia-house",
+   "name": "Group retreats",
+   "typical_length": "weekend to several weeks",
+   "format": "silent group retreats",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://gaiahouse.co.uk/about-group-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "gaia-house--personal-retreats",
+   "place_id": "gaia-house",
+   "name": "Personal retreats",
+   "typical_length": "days to weeks",
+   "format": "self-guided silent stay",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://gaiahouse.co.uk/retreats/personal-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "imc-redwood-city--daylong-retreats",
+   "place_id": "imc-redwood-city",
+   "name": "Daylong retreats",
+   "typical_length": "1 day",
+   "format": "non-residential daylong retreats",
+   "cost_model": "free / donation",
+   "schedule_url": "https://www.insightmeditationcenter.org/daylong-meditation-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "imcw--retreats",
+   "place_id": "imcw",
+   "name": "Retreats",
+   "typical_length": "day to week",
+   "format": "residential and non-residential retreats",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://imcw.org/events/?categoryId=101",
+   "url_status": "ok"
+  },
+  {
+   "id": "cloud-mountain--retreat-schedule",
+   "place_id": "cloud-mountain",
+   "name": "Retreat schedule",
+   "typical_length": "weekend to 2 weeks",
+   "format": "residential retreats in several Buddhist traditions",
+   "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
+   "schedule_url": "https://cloudmountain.org/all-retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "tushita-dharamsala--introduction-to-buddhism-and-other-cours",
+   "place_id": "tushita-dharamsala",
+   "name": "Introduction to Buddhism and other courses",
+   "typical_length": "about 10 days",
+   "format": "residential course with teachings and meditation",
+   "cost_model": "fee",
+   "schedule_url": "https://tushita.info",
+   "url_status": "ok"
+  },
+  {
+   "id": "kopan--november-course-and-other-courses",
+   "place_id": "kopan",
+   "name": "November Course and other courses",
+   "typical_length": "about a month (November Course)",
+   "format": "residential lam-rim course with meditation",
+   "cost_model": "fee",
+   "schedule_url": "https://kopanmonastery.org/",
+   "url_status": "ok"
+  },
+  {
+   "id": "root-institute--spiritual-programme",
+   "place_id": "root-institute",
+   "name": "Spiritual programme",
+   "typical_length": "day to weeks",
+   "format": "courses and retreats in Bodh Gaya",
+   "cost_model": "fee",
+   "schedule_url": "https://rootinstitute.ngo/spiritual-programme",
+   "url_status": "ok"
+  },
+  {
+   "id": "chenrezig-institute--retreats",
+   "place_id": "chenrezig-institute",
+   "name": "Retreats",
+   "typical_length": "weekend to weeks",
+   "format": "residential retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://chenrezig.com.au/retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "samye-ling--courses-and-guest-stays",
+   "place_id": "samye-ling",
+   "name": "Courses and guest stays",
+   "typical_length": "weekend to weeks",
+   "format": "courses, retreats and guest stays",
+   "cost_model": "fee",
+   "schedule_url": "https://samyeling.org/visiting/",
+   "url_status": "ok"
+  },
+  {
+   "id": "holy-isle--courses",
+   "place_id": "holy-isle",
+   "name": "Courses",
+   "typical_length": "weekend to a week",
+   "format": "residential courses on the island",
+   "cost_model": "fee",
+   "schedule_url": "https://holyisle.org/courses/",
+   "url_status": "ok"
+  },
+  {
+   "id": "ktd--ktd-programme",
+   "place_id": "ktd",
+   "name": "KTD programme",
+   "typical_length": "weekend to week",
+   "format": "teachings and retreats at the Karmapa's seat",
+   "cost_model": "fee",
+   "schedule_url": "https://kagyu.org",
+   "url_status": "ok"
+  },
+  {
+   "id": "tergar-osel-ling--tergar-programmes-joy-of-living",
+   "place_id": "tergar-osel-ling",
+   "name": "Tergar programmes (Joy of Living)",
+   "typical_length": "3-day courses and online paths",
+   "format": "structured meditation programme of Mingyur Rinpoche",
+   "cost_model": "fee",
+   "schedule_url": "https://tergar.org",
+   "url_status": "ok"
+  },
+  {
+   "id": "ka-nying-shedrub-ling--seminars-and-calendar",
+   "place_id": "ka-nying-shedrub-ling",
+   "name": "Seminars and calendar",
+   "typical_length": "about 10 days (annual seminar)",
+   "format": "teachings in English at Boudha",
+   "cost_model": "fee",
+   "schedule_url": "https://shedrub.org/calendar/",
+   "url_status": "ok"
+  },
+  {
+   "id": "lerab-ling--retraites",
+   "place_id": "lerab-ling",
+   "name": "Retraites",
+   "typical_length": "weekend to week",
+   "format": "residential retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://lerabling.org/",
+   "url_status": "ok"
+  },
+  {
+   "id": "dzogchen-beara--retreats",
+   "place_id": "dzogchen-beara",
+   "name": "Retreats",
+   "typical_length": "weekend to week, plus online",
+   "format": "residential retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.dzogchenbeara.org/",
+   "url_status": "ok"
+  },
+  {
+   "id": "gampo-abbey--group-retreats",
+   "place_id": "gampo-abbey",
+   "name": "Group retreats",
+   "typical_length": "varies",
+   "format": "residential retreats at the abbey",
+   "cost_model": "fee",
+   "schedule_url": "https://gampoabbey.org/in-house-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "gampo-abbey--sopa-ch-ling-three-year-retreat",
+   "place_id": "gampo-abbey",
+   "name": "Sopa Chöling three-year retreat",
+   "typical_length": "3 years",
+   "format": "traditional closed retreat",
+   "cost_model": "fee",
+   "schedule_url": "https://gampoabbey.org/about-sopa-choling-three-year-retreat/",
+   "url_status": "ok"
+  },
+  {
+   "id": "karme-choling--retreats-workshops-and-programmes",
+   "place_id": "karme-choling",
+   "name": "Retreats, workshops and programmes",
+   "typical_length": "weekend to month",
+   "format": "residential programmes",
+   "cost_model": "fee",
+   "schedule_url": "https://www.karmecholing.org/programs/all",
+   "url_status": "ok"
+  },
+  {
+   "id": "shambhala-mountain--on-land-retreats",
+   "place_id": "shambhala-mountain",
+   "name": "On-land retreats",
+   "typical_length": "weekend to week",
+   "format": "residential retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.dralamountain.org/program-category/land/",
+   "url_status": "ok"
+  },
+  {
+   "id": "deer-park-bir--course-schedule",
+   "place_id": "deer-park-bir",
+   "name": "Course schedule",
+   "typical_length": "days to weeks",
+   "format": "study and meditation courses",
+   "cost_model": "fee (often low or by donation)",
+   "schedule_url": "https://www.deerpark.in/schedule/",
+   "url_status": "ok"
+  },
+  {
+   "id": "plum-village--retreats-and-online-courses",
+   "place_id": "plum-village",
+   "name": "Retreats and online courses",
+   "typical_length": "week-long retreats; 90-day rains retreat",
+   "format": "mindfulness retreats in the Plum Village tradition",
+   "cost_model": "fee",
+   "schedule_url": "https://plumvillage.org",
+   "url_status": "ok"
+  },
+  {
+   "id": "blue-cliff--retreats",
+   "place_id": "blue-cliff",
+   "name": "Retreats",
+   "typical_length": "weekend to week",
+   "format": "mindfulness retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.bluecliffmonastery.org/about-our-retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "magnolia-grove--retreats",
+   "place_id": "magnolia-grove",
+   "name": "Retreats",
+   "typical_length": "weekend to week; 90-day rains retreat",
+   "format": "mindfulness retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://magnoliagrovemonastery.org/about-our-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "deer-park-monastery--visits-and-online-courses",
+   "place_id": "deer-park-monastery",
+   "name": "Visits and online courses",
+   "typical_length": "day visits; online courses",
+   "format": "mindfulness practice",
+   "cost_model": "fee",
+   "schedule_url": "https://deerparkmonastery.org/visit/",
+   "url_status": "ok"
+  },
+  {
+   "id": "eiab--eiab-courses",
+   "place_id": "eiab",
+   "name": "EIAB courses",
+   "typical_length": "weekend to week",
+   "format": "courses and retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.eiab.eu",
+   "url_status": "ok"
+  },
+  {
+   "id": "maison-de-l-inspir--retraites-et-journ-es-de-pleine-conscien",
+   "place_id": "maison-de-l-inspir",
+   "name": "Retraites et journées de pleine conscience",
+   "typical_length": "day to weekend",
+   "format": "French-language weekend retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "tassajara--guest-season-retreats-april-to-september",
+   "place_id": "tassajara",
+   "name": "Guest season retreats (April to September)",
+   "typical_length": "weekend to week",
+   "format": "summer guest retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.sfzc.org/guest-season-reservations",
+   "url_status": "ok"
+  },
+  {
+   "id": "tassajara--practice-periods",
+   "place_id": "tassajara",
+   "name": "Practice periods",
+   "typical_length": "about 3 months (winter)",
+   "format": "monastic training period",
+   "cost_model": "fee",
+   "schedule_url": "https://www.sfzc.org/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "green-gulch--classes-and-retreats",
+   "place_id": "green-gulch",
+   "name": "Classes and retreats",
+   "typical_length": "day to week",
+   "format": "sittings, sesshin and classes",
+   "cost_model": "fee",
+   "schedule_url": "https://www.sfzc.org/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "sfzc-city-center--city-center-calendar",
+   "place_id": "sfzc-city-center",
+   "name": "City Center calendar",
+   "typical_length": "day to week",
+   "format": "sittings, classes, sesshin",
+   "cost_model": "fee",
+   "schedule_url": "https://www.sfzc.org/city-center-calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "antaiji--summer-zazen-retreat",
+   "place_id": "antaiji",
+   "name": "Summer zazen retreat",
+   "typical_length": "varies",
+   "format": "zazen and work retreat (Japanese)",
+   "cost_model": "see page",
+   "schedule_url": "https://antaiji.org/ja/practice/summer-retreat/",
+   "url_status": "ok"
+  },
+  {
+   "id": "eiheiji--annual-schedule",
+   "place_id": "eiheiji",
+   "name": "Annual schedule",
+   "typical_length": "varies",
+   "format": "temple events and lay training stays",
+   "cost_model": "see page",
+   "schedule_url": "https://daihonzan-eiheiji.com/en/schedule.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "sanshin-zen--schedules-and-sesshin",
+   "place_id": "sanshin-zen",
+   "name": "Schedules and sesshin",
+   "typical_length": "day to week",
+   "format": "zazen, sesshin and Dogen study",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.sanshinji.org/schedules-and-calendars.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "upaya--residential-zen-training",
+   "place_id": "upaya",
+   "name": "Residential Zen training",
+   "typical_length": "months",
+   "format": "live-in practice programme",
+   "cost_model": "fee",
+   "schedule_url": "https://www.upaya.org/being-at-upaya/residential-program/",
+   "url_status": "ok"
+  },
+  {
+   "id": "mountain-cloud--retreats-and-courses",
+   "place_id": "mountain-cloud",
+   "name": "Retreats and courses",
+   "typical_length": "weekend to week",
+   "format": "sesshin and courses",
+   "cost_model": "fee",
+   "schedule_url": "https://www.mountaincloud.org/calendar/",
+   "url_status": "ok"
+  },
+  {
+   "id": "zcla--sesshin-schedule",
+   "place_id": "zcla",
+   "name": "Sesshin schedule",
+   "typical_length": "weekend to week",
+   "format": "zazen retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://zcla.org/calendars/sesshin-schedule/",
+   "url_status": "ok"
+  },
+  {
+   "id": "throssel-hole--retreats-calendar",
+   "place_id": "throssel-hole",
+   "name": "Retreats calendar",
+   "typical_length": "weekend to week",
+   "format": "Soto Zen retreats",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://throssel.org.uk/calendar/",
+   "url_status": "ok"
+  },
+  {
+   "id": "sri-ramanasramam--ashram-accommodation-stay-by-request",
+   "place_id": "sri-ramanasramam",
+   "name": "Ashram accommodation (stay by request)",
+   "typical_length": "a few days",
+   "format": "stay at the ashram by written request",
+   "cost_model": "free / donation",
+   "schedule_url": "https://www.gururamana.org/Ashram/accommodation",
+   "url_status": "ok"
+  },
+  {
+   "id": "mayavati--advaitamritam-spiritual-retreat",
+   "place_id": "mayavati",
+   "name": "Advaitamritam spiritual retreat",
+   "typical_length": "days",
+   "format": "residential Vedanta retreat",
+   "cost_model": "fee",
+   "schedule_url": "https://advaitaashrama.org/advaitamritam/",
+   "url_status": "ok"
+  },
+  {
+   "id": "vedanta-hollywood--pujas-retreats-and-other-events",
+   "place_id": "vedanta-hollywood",
+   "name": "Pujas, retreats and other events",
+   "typical_length": "day to weekend",
+   "format": "retreats incl. Piñon Hills",
+   "cost_model": "free / donation",
+   "schedule_url": "https://vedanta.org/pujas-retreats-and-other-events/",
+   "url_status": "ok"
+  },
+  {
+   "id": "vedanta-sf--retreat",
+   "place_id": "vedanta-sf",
+   "name": "Retreat",
+   "typical_length": "varies",
+   "format": "retreat at the society's retreat property",
+   "cost_model": "free / donation",
+   "schedule_url": "https://sfvedanta.org/retreat/",
+   "url_status": "ok"
+  },
+  {
+   "id": "monte-sahaja--retreats-and-events",
+   "place_id": "monte-sahaja",
+   "name": "Retreats and events",
+   "typical_length": "days to weeks",
+   "format": "satsang retreats with Mooji",
+   "cost_model": "fee",
+   "schedule_url": "https://mooji.org/events",
+   "url_status": "ok"
+  },
+  {
+   "id": "srf-mother-center--srf-events-and-retreats",
+   "place_id": "srf-mother-center",
+   "name": "SRF events and retreats",
+   "typical_length": "weekend to week",
+   "format": "meditation retreats at SRF centres",
+   "cost_model": "free / donation",
+   "schedule_url": "https://yogananda.org/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "srf-encinitas--temple-schedule",
+   "place_id": "srf-encinitas",
+   "name": "Temple schedule",
+   "typical_length": "weekly",
+   "format": "services and meditations",
+   "cost_model": "free / donation",
+   "schedule_url": "https://encinitastemple.org/activities/",
+   "url_status": "ok"
+  },
+  {
+   "id": "arsha-vidya-saylorsburg--vedanta-courses",
+   "place_id": "arsha-vidya-saylorsburg",
+   "name": "Vedanta courses",
+   "typical_length": "weekend to 2 weeks",
+   "format": "residential Vedanta and Sanskrit courses",
+   "cost_model": "fee",
+   "schedule_url": "https://arshavidya.org/events/",
+   "url_status": "ok"
+  },
+  {
+   "id": "arsha-vidya-anaikatti--camps-and-retreats",
+   "place_id": "arsha-vidya-anaikatti",
+   "name": "Camps and retreats",
+   "typical_length": "days to weeks",
+   "format": "residential Vedanta camps",
+   "cost_model": "fee",
+   "schedule_url": "https://arshavidya.in/camps-retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "sivananda-rishikesh--yoga-vedanta-forest-academy-course",
+   "place_id": "sivananda-rishikesh",
+   "name": "Yoga Vedanta Forest Academy course",
+   "typical_length": "about 2 months",
+   "format": "residential yoga and Vedanta course",
+   "cost_model": "free / donation",
+   "schedule_url": "https://www.sivanandaonline.org?cmd=displayrightsection&section_id=1707&format=html",
+   "url_status": "ok"
+  },
+  {
+   "id": "shree-muktananda-ashram--siddha-yoga-calendar",
+   "place_id": "shree-muktananda-ashram",
+   "name": "Siddha Yoga calendar",
+   "typical_length": "varies",
+   "format": "events and retreats",
+   "cost_model": "fee",
+   "schedule_url": "https://www.siddhayoga.org/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "anandamayi-kankhal--calendar-and-visiting-sri-ma-s-ashrams",
+   "place_id": "anandamayi-kankhal",
+   "name": "Calendar and visiting Sri Ma's ashrams",
+   "typical_length": "varies",
+   "format": "ashram stays and festivals",
+   "cost_model": "free / donation",
+   "schedule_url": "https://www.anandamayi.org/calendar-visiting-sri-mas-ashrams/",
+   "url_status": "ok"
+  },
+  {
+   "id": "karar-ashram--events",
+   "place_id": "karar-ashram",
+   "name": "Events",
+   "typical_length": "varies",
+   "format": "Kriya Yoga events",
+   "cost_model": "free / donation",
+   "schedule_url": "https://kararashram.org/events.html",
+   "url_status": "ok"
+  },
+  {
+   "id": "gethsemani--retreat-house-stays",
+   "place_id": "gethsemani",
+   "name": "Retreat house stays",
+   "typical_length": "a few days",
+   "format": "silent guest retreat with the monks' offices",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://monks.org/visit-us/",
+   "url_status": "ok"
+  },
+  {
+   "id": "spencer-abbey--retreats-at-st-joseph-s-abbey",
+   "place_id": "spencer-abbey",
+   "name": "Retreats at St Joseph's Abbey",
+   "typical_length": "weekend",
+   "format": "silent guest retreat",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://spencerabbey.org/retreats/",
+   "url_status": "ok"
+  },
+  {
+   "id": "taize--weekly-international-meetings",
+   "place_id": "taize",
+   "name": "Weekly international meetings",
+   "typical_length": "one week (Sunday to Sunday)",
+   "format": "prayer, Bible study and work with the brothers",
+   "cost_model": "fee (contribution scaled by country)",
+   "schedule_url": "https://www.taize.fr/en/preliminary-information-and-program",
+   "url_status": "ok"
+  },
+  {
+   "id": "cac--cac-programmes",
+   "place_id": "cac",
+   "name": "CAC programmes",
+   "typical_length": "online courses and events",
+   "format": "contemplative teaching",
+   "cost_model": "fee",
+   "schedule_url": "https://cac.org/events/",
+   "url_status": "ok"
+  },
+  {
+   "id": "bose--calendario-dell-ospitalit",
+   "place_id": "bose",
+   "name": "Calendario dell'ospitalità",
+   "typical_length": "days",
+   "format": "guest stays and study weeks",
+   "cost_model": "free / donation",
+   "schedule_url": "https://www.monasterodibose.it/ospitalita/calendario-bose",
+   "url_status": "ok"
+  },
+  {
+   "id": "goetheanum--goetheanum-calendar",
+   "place_id": "goetheanum",
+   "name": "Goetheanum calendar",
+   "typical_length": "day to week",
+   "format": "conferences, performances, courses",
+   "cost_model": "fee",
+   "schedule_url": "https://goetheanum.ch/en/calendar",
+   "url_status": "ok"
+  },
+  {
+   "id": "rudolf-steiner-house--what-s-on",
+   "place_id": "rudolf-steiner-house",
+   "name": "What's on",
+   "typical_length": "evenings to weekends",
+   "format": "talks and courses",
+   "cost_model": "fee",
+   "schedule_url": "https://rsh.anth.org.uk/whats-on/",
+   "url_status": "ok"
+  },
+  {
+   "id": "ts-adyar--events-and-courses",
+   "place_id": "ts-adyar",
+   "name": "Events and courses",
+   "typical_length": "days to weeks",
+   "format": "study courses and conventions",
+   "cost_model": "fee",
+   "schedule_url": "https://www.ts-adyar.org/events",
+   "url_status": "ok"
+  },
+  {
+   "id": "vasanta-vihar--weekend-residential-retreat",
+   "place_id": "vasanta-vihar",
+   "name": "Weekend residential retreat",
+   "typical_length": "weekend",
+   "format": "study retreat on Krishnamurti's teachings",
+   "cost_model": "fee",
+   "schedule_url": "https://www.jkrishnamurti.in/retreats",
+   "url_status": "ok"
+  },
+  {
+   "id": "new-camaldoli--hermitage-retreats",
+   "place_id": "new-camaldoli",
+   "name": "Hermitage retreats",
+   "typical_length": "days to weeks",
+   "format": "silent guest retreat",
+   "cost_model": "dana (offered freely; donations welcome)",
+   "schedule_url": "https://www.contemplation.com/",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sukhada--10-day",
+   "place_id": "dhamma-sukhada",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsukhada",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-viriya--10-day",
+   "place_id": "dhamma-viriya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schviriya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mudita--10-day",
+   "place_id": "dhamma-mudita",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmudita",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-aloka--10-day",
+   "place_id": "dhamma-aloka",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schaloka",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhumi--10-day",
+   "place_id": "dhamma-bhumi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhumi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pabha--10-day",
+   "place_id": "dhamma-pabha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpabha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-padipa--10-day",
+   "place_id": "dhamma-padipa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpadipa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pasada--10-day",
+   "place_id": "dhamma-pasada",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpasada",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rasa--10-day",
+   "place_id": "dhamma-rasa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrasa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rasmi--10-day",
+   "place_id": "dhamma-rasmi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrasmi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ujjala--10-day",
+   "place_id": "dhamma-ujjala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schujjala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pajjota--10-day",
+   "place_id": "dhamma-pajjota",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpajjota",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-punnama--10-day",
+   "place_id": "dhamma-punnama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpunnama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-santi--10-day",
+   "place_id": "dhamma-santi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsanti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sarana--10-day",
+   "place_id": "dhamma-sarana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsarana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-uyyana--10-day",
+   "place_id": "dhamma-uyyana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schuyyana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-br--10-day",
+   "place_id": "dhamma-br",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbr",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-karuna--10-day",
+   "place_id": "dhamma-karuna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkaruna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-modana--10-day",
+   "place_id": "dhamma-modana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmodana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-surabhi--10-day",
+   "place_id": "dhamma-surabhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsurabhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suttama--10-day",
+   "place_id": "dhamma-suttama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuttama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-torana--10-day",
+   "place_id": "dhamma-torana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtorana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sumeru--10-day",
+   "place_id": "dhamma-sumeru",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsumeru",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pasanna--10-day",
+   "place_id": "dhamma-pasanna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpasanna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-gutti--10-day",
+   "place_id": "dhamma-gutti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgutti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nandanavana--10-day",
+   "place_id": "dhamma-nandanavana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnandanavana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ariya--10-day",
+   "place_id": "dhamma-ariya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schariya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dvara--10-day",
+   "place_id": "dhamma-dvara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdvara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sampatti--10-day",
+   "place_id": "dhamma-sampatti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsampatti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-neru--10-day",
+   "place_id": "dhamma-neru",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schneru",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sacca--10-day",
+   "place_id": "dhamma-sacca",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsacca",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mahi--10-day",
+   "place_id": "dhamma-mahi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmahi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nilaya--10-day",
+   "place_id": "dhamma-nilaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnilaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suriyarama--10-day",
+   "place_id": "dhamma-suriyarama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuriyarama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-fr--10-day",
+   "place_id": "dhamma-fr",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schfr",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dipa--10-day",
+   "place_id": "dhamma-dipa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdipa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-padhana--10-day",
+   "place_id": "dhamma-padhana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpadhana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sukhakari--10-day",
+   "place_id": "dhamma-sukhakari",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsukhakari",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mutta--10-day",
+   "place_id": "dhamma-mutta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmutta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-geha--10-day",
+   "place_id": "dhamma-geha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgeha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-id--10-day",
+   "place_id": "dhamma-id",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schid",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-java--10-day",
+   "place_id": "dhamma-java",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjava",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pamoda--10-day",
+   "place_id": "dhamma-pamoda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpamoda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ahobilam--10-day",
+   "place_id": "dhamma-ahobilam",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schahobilam",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ajanta--10-day",
+   "place_id": "dhamma-ajanta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schajanta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ajaya--10-day",
+   "place_id": "dhamma-ajaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schajaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-akkhara--10-day",
+   "place_id": "dhamma-akkhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schakkhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ambika--10-day",
+   "place_id": "dhamma-ambika",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schambika",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-amravati--10-day",
+   "place_id": "dhamma-amravati",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schamravati",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-anchal--10-day",
+   "place_id": "dhamma-anchal",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schanchal",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-anurakkhi--10-day",
+   "place_id": "dhamma-anurakkhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schanurakkhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-anakula--10-day",
+   "place_id": "dhamma-anakula",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schanakula",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-aranya--10-day",
+   "place_id": "dhamma-aranya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/scharanya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-aravalli--10-day",
+   "place_id": "dhamma-aravalli",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/scharavalli",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-aruna--10-day",
+   "place_id": "dhamma-aruna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/scharuna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-arunachala--10-day",
+   "place_id": "dhamma-arunachala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/scharunachala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-asama--10-day",
+   "place_id": "dhamma-asama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schasama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-avani--10-day",
+   "place_id": "dhamma-avani",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schavani",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bala--10-day",
+   "place_id": "dhamma-bala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-banga--10-day",
+   "place_id": "dhamma-banga",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbanga",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhandara--10-day",
+   "place_id": "dhamma-bhandara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhandara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhubaneshwar--10-day",
+   "place_id": "dhamma-bhubaneshwar",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhubaneshwar",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhusana--10-day",
+   "place_id": "dhamma-bhusana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhusana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bodhi--10-day",
+   "place_id": "dhamma-bodhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbodhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bavari--10-day",
+   "place_id": "dhamma-bavari",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbavari",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-cakka--10-day",
+   "place_id": "dhamma-cakka",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schcakka",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-chhavi--10-day",
+   "place_id": "dhamma-chhavi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schchhavi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-desa--10-day",
+   "place_id": "dhamma-desa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdesa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dhaja--10-day",
+   "place_id": "dhamma-dhaja",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdhaja",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-divakara--10-day",
+   "place_id": "dhamma-divakara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdivakara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-garh--10-day",
+   "place_id": "dhamma-garh",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgarh",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ganga--10-day",
+   "place_id": "dhamma-ganga",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schganga",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-gond--10-day",
+   "place_id": "dhamma-gond",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgond",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-guna--10-day",
+   "place_id": "dhamma-guna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schguna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-hitkari--10-day",
+   "place_id": "dhamma-hitkari",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schhitkari",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-jalgaon--10-day",
+   "place_id": "dhamma-jalgaon",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjalgaon",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-jalasaya--10-day",
+   "place_id": "dhamma-jalasaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjalasaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-junagadh--10-day",
+   "place_id": "dhamma-junagadh",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjunagadh",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kalyana--10-day",
+   "place_id": "dhamma-kalyana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkalyana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kanchi--10-day",
+   "place_id": "dhamma-kanchi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkanchi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kanheri--10-day",
+   "place_id": "dhamma-kanheri",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkanheri",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kaya--10-day",
+   "place_id": "dhamma-kaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ketana--10-day",
+   "place_id": "dhamma-ketana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schketana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ketu--10-day",
+   "place_id": "dhamma-ketu",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schketu",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-khetta2--10-day",
+   "place_id": "dhamma-khetta2",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkhetta2",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-khetta--10-day",
+   "place_id": "dhamma-khetta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkhetta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kiran--10-day",
+   "place_id": "dhamma-kiran",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkiran",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kondanna--10-day",
+   "place_id": "dhamma-kondanna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkondanna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kondanna2--10-day",
+   "place_id": "dhamma-kondanna2",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkondanna2",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kota--10-day",
+   "place_id": "dhamma-kota",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkota",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kuti--10-day",
+   "place_id": "dhamma-kuti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkuti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kanana--10-day",
+   "place_id": "dhamma-kanana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkanana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-karunika--10-day",
+   "place_id": "dhamma-karunika",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkarunika",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-laddha--10-day",
+   "place_id": "dhamma-laddha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schladdha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-lakkhana--10-day",
+   "place_id": "dhamma-lakkhana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlakkhana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-licchavi--10-day",
+   "place_id": "dhamma-licchavi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlicchavi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-madhura--10-day",
+   "place_id": "dhamma-madhura",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmadhura",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-madhuvana--10-day",
+   "place_id": "dhamma-madhuvana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmadhuvana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-malla--10-day",
+   "place_id": "dhamma-malla",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmalla",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-manamoda--10-day",
+   "place_id": "dhamma-manamoda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmanamoda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-manjusha--10-day",
+   "place_id": "dhamma-manjusha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmanjusha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-marudhara--10-day",
+   "place_id": "dhamma-marudhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmarudhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-malwa--10-day",
+   "place_id": "dhamma-malwa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmalwa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nadi--10-day",
+   "place_id": "dhamma-nadi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnadi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nagari--10-day",
+   "place_id": "dhamma-nagari",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnagari",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-narmada--10-day",
+   "place_id": "dhamma-narmada",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnarmada",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nijjhana--10-day",
+   "place_id": "dhamma-nijjhana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnijjhana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nilaya2--10-day",
+   "place_id": "dhamma-nilaya2",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnilaya2",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-niranjana--10-day",
+   "place_id": "dhamma-niranjana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schniranjana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-naga--10-day",
+   "place_id": "dhamma-naga",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnaga",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nagajjuna1--10-day",
+   "place_id": "dhamma-nagajjuna1",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnagajjuna1",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nagajjuna2--10-day",
+   "place_id": "dhamma-nagajjuna2",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnagajjuna2",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nasika--10-day",
+   "place_id": "dhamma-nasika",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnasika",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pades--10-day",
+   "place_id": "dhamma-pades",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpades",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-paduma--10-day",
+   "place_id": "dhamma-paduma",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpaduma",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-paphulla--10-day",
+   "place_id": "dhamma-paphulla",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpaphulla",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-parimala--10-day",
+   "place_id": "dhamma-parimala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schparimala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pattana--10-day",
+   "place_id": "dhamma-pattana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpattana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pathara--10-day",
+   "place_id": "dhamma-pathara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpathara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-patthana--10-day",
+   "place_id": "dhamma-patthana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpatthana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pubbaja--10-day",
+   "place_id": "dhamma-pubbaja",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpubbaja",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pubbottara--10-day",
+   "place_id": "dhamma-pubbottara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpubbottara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-puri--10-day",
+   "place_id": "dhamma-puri",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpuri",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pushkar--10-day",
+   "place_id": "dhamma-pushkar",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpushkar",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-punna--10-day",
+   "place_id": "dhamma-punna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpunna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pala--10-day",
+   "place_id": "dhamma-pala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pali--10-day",
+   "place_id": "dhamma-pali",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpali",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-patliputta--10-day",
+   "place_id": "dhamma-patliputta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpatliputta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pitha--10-day",
+   "place_id": "dhamma-pitha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpitha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rata--10-day",
+   "place_id": "dhamma-rata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rava--10-day",
+   "place_id": "dhamma-rava",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrava",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-salila--10-day",
+   "place_id": "dhamma-salila",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsalila",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sambodhi--10-day",
+   "place_id": "dhamma-sambodhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsambodhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sarita--10-day",
+   "place_id": "dhamma-sarita",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsarita",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sarovara--10-day",
+   "place_id": "dhamma-sarovara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsarovara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-setu--10-day",
+   "place_id": "dhamma-setu",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsetu",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-siddhapuri--10-day",
+   "place_id": "dhamma-siddhapuri",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsiddhapuri",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sikhara--10-day",
+   "place_id": "dhamma-sikhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsikhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sikkim--10-day",
+   "place_id": "dhamma-sikkim",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsikkim",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sindhu--10-day",
+   "place_id": "dhamma-sindhu",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsindhu",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sindhudurg--10-day",
+   "place_id": "dhamma-sindhudurg",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsindhudurg",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sineru--10-day",
+   "place_id": "dhamma-sineru",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsineru",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sota--10-day",
+   "place_id": "dhamma-sota",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsota",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sudha--10-day",
+   "place_id": "dhamma-sudha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsudha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sugandha--10-day",
+   "place_id": "dhamma-sugandha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsugandha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sugati--10-day",
+   "place_id": "dhamma-sugati",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsugati",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sukhalaya--10-day",
+   "place_id": "dhamma-sukhalaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsukhalaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suvatthi--10-day",
+   "place_id": "dhamma-suvatthi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuvatthi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-taposagara--10-day",
+   "place_id": "dhamma-taposagara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtaposagara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-tapovana--10-day",
+   "place_id": "dhamma-tapovana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtapovana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-tapovana2--10-day",
+   "place_id": "dhamma-tapovana2",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtapovana2",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-teera--10-day",
+   "place_id": "dhamma-teera",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schteera",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-thali--10-day",
+   "place_id": "dhamma-thali",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schthali",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-triveni--10-day",
+   "place_id": "dhamma-triveni",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtriveni",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-udaka--10-day",
+   "place_id": "dhamma-udaka",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schudaka",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-upavana--10-day",
+   "place_id": "dhamma-upavana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schupavana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-utkal--10-day",
+   "place_id": "dhamma-utkal",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schutkal",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vana--10-day",
+   "place_id": "dhamma-vana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vasudha--10-day",
+   "place_id": "dhamma-vasudha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvasudha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vata--10-day",
+   "place_id": "dhamma-vata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vesali--10-day",
+   "place_id": "dhamma-vesali",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvesali",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vijaya--10-day",
+   "place_id": "dhamma-vijaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvijaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vipula--10-day",
+   "place_id": "dhamma-vipula",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvipula",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vahini--10-day",
+   "place_id": "dhamma-vahini",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvahini",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vatika--10-day",
+   "place_id": "dhamma-vatika",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvatika",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-alaya--10-day",
+   "place_id": "dhamma-alaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schalaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ananda--10-day",
+   "place_id": "dhamma-ananda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schananda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rama--10-day",
+   "place_id": "dhamma-rama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-avasa--10-day",
+   "place_id": "dhamma-avasa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schavasa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-songadh--10-day",
+   "place_id": "dhamma-songadh",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsongadh",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-tata--10-day",
+   "place_id": "dhamma-tata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-acala--10-day",
+   "place_id": "dhamma-acala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schacala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-iran--10-day",
+   "place_id": "dhamma-iran",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schiran",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-atala--10-day",
+   "place_id": "dhamma-atala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schatala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhanu--10-day",
+   "place_id": "dhamma-bhanu",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhanu",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-adicca--10-day",
+   "place_id": "dhamma-adicca",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schadicca",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kamboja--10-day",
+   "place_id": "dhamma-kamboja",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkamboja",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-latthika--10-day",
+   "place_id": "dhamma-latthika",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlatthika",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-korea--10-day",
+   "place_id": "dhamma-korea",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkorea",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-anuradha--10-day",
+   "place_id": "dhamma-anuradha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schanuradha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-arana--10-day",
+   "place_id": "dhamma-arana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/scharana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dakkhina--10-day",
+   "place_id": "dhamma-dakkhina",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdakkhina",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dharani--10-day",
+   "place_id": "dhamma-dharani",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdharani",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kuta--10-day",
+   "place_id": "dhamma-kuta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkuta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sobha--10-day",
+   "place_id": "dhamma-sobha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsobha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-lilha--10-day",
+   "place_id": "dhamma-lilha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlilha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-latthi--10-day",
+   "place_id": "dhamma-latthi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlatthi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-cetiyapatthara--10-day",
+   "place_id": "dhamma-cetiyapatthara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schcetiyapatthara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-hitasukhageha--10-day",
+   "place_id": "dhamma-hitasukhageha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schhitasukhageha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-joti--10-day",
+   "place_id": "dhamma-joti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjoti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-labha--10-day",
+   "place_id": "dhamma-labha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schlabha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-magga--10-day",
+   "place_id": "dhamma-magga",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmagga",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mahimar--10-day",
+   "place_id": "dhamma-mahimar",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmahimar",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mahapabbata--10-day",
+   "place_id": "dhamma-mahapabbata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmahapabbata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-makuta--10-day",
+   "place_id": "dhamma-makuta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmakuta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mani--10-day",
+   "place_id": "dhamma-mani",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmani",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-manohara--10-day",
+   "place_id": "dhamma-manohara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmanohara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-manorama--10-day",
+   "place_id": "dhamma-manorama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmanorama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mayuradipa--10-day",
+   "place_id": "dhamma-mayuradipa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmayuradipa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mandala--10-day",
+   "place_id": "dhamma-mandala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmandala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mandapa--10-day",
+   "place_id": "dhamma-mandapa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmandapa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mittayana--10-day",
+   "place_id": "dhamma-mittayana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmittayana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nidhi--10-day",
+   "place_id": "dhamma-nidhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnidhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pabbata--10-day",
+   "place_id": "dhamma-pabbata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpabbata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rakkhita--10-day",
+   "place_id": "dhamma-rakkhita",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrakkhita",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-ratana--10-day",
+   "place_id": "dhamma-ratana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schratana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sangam--10-day",
+   "place_id": "dhamma-sangam",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsangam",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-shwe--10-day",
+   "place_id": "dhamma-shwe",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schshwe",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vimutti--10-day",
+   "place_id": "dhamma-vimutti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvimutti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nanadhaja--10-day",
+   "place_id": "dhamma-nanadhaja",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnanadhaja",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mahana--10-day",
+   "place_id": "dhamma-mahana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmahana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-makaranda--10-day",
+   "place_id": "dhamma-makaranda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmakaranda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-malaya--10-day",
+   "place_id": "dhamma-malaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmalaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-talaka--10-day",
+   "place_id": "dhamma-talaka",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtalaka",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-birata--10-day",
+   "place_id": "dhamma-birata",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbirata",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-citavana--10-day",
+   "place_id": "dhamma-citavana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schcitavana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dhama--10-day",
+   "place_id": "dhamma-dhama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdhama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-gama--10-day",
+   "place_id": "dhamma-gama",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgama",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-janani--10-day",
+   "place_id": "dhamma-janani",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schjanani",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kitti--10-day",
+   "place_id": "dhamma-kitti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkitti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nandana--10-day",
+   "place_id": "dhamma-nandana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnandana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-nibha--10-day",
+   "place_id": "dhamma-nibha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schnibha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-paraga--10-day",
+   "place_id": "dhamma-paraga",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schparaga",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pokhara--10-day",
+   "place_id": "dhamma-pokhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpokhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sagar--10-day",
+   "place_id": "dhamma-sagar",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsagar",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-shringa--10-day",
+   "place_id": "dhamma-shringa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schshringa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-surakhetta--10-day",
+   "place_id": "dhamma-surakhetta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsurakhetta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suriyo--10-day",
+   "place_id": "dhamma-suriyo",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuriyo",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sisa--10-day",
+   "place_id": "dhamma-sisa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsisa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-tarai--10-day",
+   "place_id": "dhamma-tarai",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schtarai",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-adhara--10-day",
+   "place_id": "dhamma-adhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schadhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-asaya--10-day",
+   "place_id": "dhamma-asaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schasaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-yana--10-day",
+   "place_id": "dhamma-yana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schyana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-agara--10-day",
+   "place_id": "dhamma-agara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schagara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-medini--10-day",
+   "place_id": "dhamma-medini",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schmedini",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suriya--10-day",
+   "place_id": "dhamma-suriya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuriya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-phala--10-day",
+   "place_id": "dhamma-phala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schphala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pallava--10-day",
+   "place_id": "dhamma-pallava",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpallava",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dullabha--10-day",
+   "place_id": "dhamma-dullabha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdullabha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sobhana--10-day",
+   "place_id": "dhamma-sobhana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsobhana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhuvana--10-day",
+   "place_id": "dhamma-bhuvana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhuvana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-candapabha--10-day",
+   "place_id": "dhamma-candapabha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schcandapabha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dhani--10-day",
+   "place_id": "dhamma-dhani",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schdhani",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kamala--10-day",
+   "place_id": "dhamma-kamala",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkamala",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kancana--10-day",
+   "place_id": "dhamma-kancana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schkancana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pathavi--10-day",
+   "place_id": "dhamma-pathavi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpathavi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-porano--10-day",
+   "place_id": "dhamma-porano",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schporano",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-puneti--10-day",
+   "place_id": "dhamma-puneti",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpuneti",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-rangsima--10-day",
+   "place_id": "dhamma-rangsima",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schrangsima",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sudhalaya--10-day",
+   "place_id": "dhamma-sudhalaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsudhalaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-suvanna--10-day",
+   "place_id": "dhamma-suvanna",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsuvanna",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-simanta--10-day",
+   "place_id": "dhamma-simanta",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schsimanta",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-abha--10-day",
+   "place_id": "dhamma-abha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schabha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vikasa--10-day",
+   "place_id": "dhamma-vikasa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvikasa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-udaya--10-day",
+   "place_id": "dhamma-udaya",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schudaya",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-dhara--10-day",
+   "place_id": "dhamma-dhara",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schdhara",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-kunja--10-day",
+   "place_id": "dhamma-kunja",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schkunja",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-mahavana--10-day",
+   "place_id": "dhamma-mahavana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schmahavana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-manda--10-day",
+   "place_id": "dhamma-manda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schmanda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pakasa--10-day",
+   "place_id": "dhamma-pakasa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schpakasa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pasava--10-day",
+   "place_id": "dhamma-pasava",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schpasava",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-patapa--10-day",
+   "place_id": "dhamma-patapa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schpatapa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pubbananda--10-day",
+   "place_id": "dhamma-pubbananda",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schpubbananda",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-santosa--10-day",
+   "place_id": "dhamma-santosa",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schsantosa",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sela--10-day",
+   "place_id": "dhamma-sela",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schsela",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-siri--10-day",
+   "place_id": "dhamma-siri",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schsiri",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-sukha--10-day",
+   "place_id": "dhamma-sukha",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schsukha",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-vaddhana--10-day",
+   "place_id": "dhamma-vaddhana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schvaddhana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-visuddhi--10-day",
+   "place_id": "dhamma-visuddhi",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en-US/schedules/schvisuddhi",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-venuvana--10-day",
+   "place_id": "dhamma-venuvana",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schvenuvana",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-bhasura--10-day",
+   "place_id": "dhamma-bhasura",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schbhasura",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-pataka--10-day",
+   "place_id": "dhamma-pataka",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schpataka",
+   "url_status": "ok"
+  },
+  {
+   "id": "dhamma-giri--10-day",
+   "place_id": "dhamma-giri",
+   "name": "10-day Vipassana course (Goenka)",
+   "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
+   "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
+   "cost_model": "dana: no charge; donations only from those who have completed a course",
+   "schedule_url": "https://www.dhamma.org/en/schedules/schgiri",
+   "url_status": "ok"
+  }
+ ]
+}

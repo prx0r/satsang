@@ -1,0 +1,191 @@
+{
+ "_note": "western group edges (2026-10-20), same shape as app/wisegraph/edges.json. Directed from -> to.",
+ "edges": [
+  {
+   "from": "socrates",
+   "to": "plato",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "pythagoras",
+   "to": "plato",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Transmigration and number mysticism, via the Pythagoreans."
+  },
+  {
+   "from": "plato",
+   "to": "plotinus",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "proclus",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Through Porphyry and Iamblichus."
+  },
+  {
+   "from": "proclus",
+   "to": "pseudo-dionysius",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Ficino translated the Enneads (1492)."
+  },
+  {
+   "from": "proclus",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "plato",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Ficino translated the complete dialogues (1484)."
+  },
+  {
+   "from": "pseudo-dionysius",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Through Augustine and Dionysius."
+  },
+  {
+   "from": "marguerite-porete",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Widely argued from parallels with the Mirror of Simple Souls."
+  },
+  {
+   "from": "meister-eckhart",
+   "to": "jakob-boehme",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jakob-boehme",
+   "to": "helena-blavatsky",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Through the Christian theosophical current."
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "theosophy",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "rudolf-steiner",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Steiner led the German section of the Theosophical Society, 1902–1912."
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "jiddu-krishnamurti",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Raised within the Theosophical Society (Besant, Leadbeater) as its World Teacher; left in 1929."
+  },
+  {
+   "from": "rudolf-steiner",
+   "to": "anthroposophy",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "pd-ouspensky",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "fourth-way",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "jacob-needleman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Needleman was a member of the Gurdjieff Foundation."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "cynthia-bourgeault",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Her Law of Three and Wisdom School draw on the Work."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "theodore-nottingham",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "jiddu-krishnamurti",
+   "to": "krishnamurti",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "neoplatonism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "plato",
+   "to": "platonism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "marsilio-ficino",
+   "to": "renaissance-platonism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nag-hammadi-library",
+   "to": "gnosticism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "nag-hammadi-library",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Opposition, not borrowing: Ennead II.9 Against the Gnostics."
+  },
+  {
+   "from": "jesus",
+   "to": "christianity",
+   "type": "lineage_of",
+   "conf": "high"
+  }
+ ]
+}

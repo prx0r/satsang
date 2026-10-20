@@ -1,0 +1,2125 @@
+{
+ "main": [
+  {
+   "id": "ajahn-brahm",
+   "name": "Ajahn Brahm",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Bodhinyana / BSWA)",
+   "years": "b. 1951",
+   "bio": "English-born monk of the Ajahn Chah line, abbot of Bodhinyana Monastery in Western Australia and spiritual director of the BSWA; known for humorous, story-driven talks on meditation, letting go and jhāna.",
+   "site": "https://bswa.org",
+   "wikidata": "Q411903",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Buddhist Society of Western Australia",
+     "id": "UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "url": "https://www.youtube.com/channel/UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-brahmali",
+   "name": "Ajahn Brahmali",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Bodhinyana / BSWA)",
+   "years": "b. 1964",
+   "bio": "Norwegian-born monk trained under Ajahn Brahm at Bodhinyana; teaches the early suttas and Vinaya closely, often co-teaching sutta courses with Bhante Sujato.",
+   "site": "https://bswa.org",
+   "wikidata": null,
+   "clip_count": 52,
+   "channels": [
+    {
+     "name": "Buddhist Society of Western Australia",
+     "id": "UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "url": "https://www.youtube.com/channel/UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "bhante-sujato",
+   "name": "Bhante Sujato",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "early-suttas",
+   "school": "early-suttas",
+   "schoolLabel": "Early-Buddhism scholar-monk (Santi / SuttaCentral; trained in the Chah line)",
+   "years": "b. 1966",
+   "bio": "Australian monk ordained in the Ajahn Chah tradition; founder of Santi Forest Monastery and co-founder of SuttaCentral, where he has published free English translations of the four main Nikāyas.",
+   "site": "https://suttacentral.net",
+   "wikidata": "Q67187678",
+   "clip_count": 15,
+   "channels": [
+    {
+     "name": "Buddhist Society of Western Australia",
+     "id": "UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "url": "https://www.youtube.com/channel/UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-hasapanna",
+   "name": "Ajahn Hasapanna",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Bodhinyana / BSWA)",
+   "years": null,
+   "bio": "Monk of the Bodhinyana / BSWA community in Western Australia, a student of Ajahn Brahm.",
+   "site": "https://bswa.org",
+   "wikidata": null,
+   "clip_count": 21,
+   "channels": [
+    {
+     "name": "Buddhist Society of Western Australia",
+     "id": "UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "url": "https://www.youtube.com/channel/UC6M_EhnSSdTG_SXUp6IAWmQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-sumedho",
+   "name": "Ajahn Sumedho",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Amaravati / Chithurst)",
+   "years": "b. 1934",
+   "bio": "American monk, one of Ajahn Chah's first Western disciples; founded Chithurst (Cittaviveka) and Amaravati monasteries in England and led the Forest Sangha in the West for decades.",
+   "site": "https://www.amaravati.org",
+   "wikidata": "Q2005455",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Amaravati Buddhist Monastery",
+     "id": "UCsgmmAelfZ2kfXZ08xlHpDw",
+     "url": "https://www.youtube.com/channel/UCsgmmAelfZ2kfXZ08xlHpDw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-amaro",
+   "name": "Ajahn Amaro",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Amaravati / Abhayagiri)",
+   "years": "b. 1956",
+   "bio": "English monk of the Ajahn Chah line; co-founded Abhayagiri in California and later became abbot of Amaravati.",
+   "site": "https://www.amaravati.org",
+   "wikidata": "Q4699496",
+   "clip_count": 20,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    },
+    {
+     "name": "Amaravati Buddhist Monastery",
+     "id": "UCsgmmAelfZ2kfXZ08xlHpDw",
+     "url": "https://www.youtube.com/channel/UCsgmmAelfZ2kfXZ08xlHpDw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-pasanno",
+   "name": "Ajahn Pasanno",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Abhayagiri / Wat Pah Nanachat)",
+   "years": "b. 1949",
+   "bio": "Canadian monk ordained under Ajahn Chah; former abbot of Wat Pah Nanachat and long-time co-abbot then abbot of Abhayagiri Buddhist Monastery.",
+   "site": "https://www.abhayagiri.org",
+   "wikidata": "Q16137180",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    },
+    {
+     "name": "Amaravati Buddhist Monastery",
+     "id": "UCsgmmAelfZ2kfXZ08xlHpDw",
+     "url": "https://www.youtube.com/channel/UCsgmmAelfZ2kfXZ08xlHpDw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-nyaniko",
+   "name": "Ajahn Ñāṇiko",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Abhayagiri)",
+   "years": null,
+   "bio": "Senior monk at Abhayagiri Buddhist Monastery in the Ajahn Chah tradition; gives many of the monastery's evening and retreat talks.",
+   "site": "https://www.abhayagiri.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-karunadhammo",
+   "name": "Ajahn Karuṇadhammo",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Abhayagiri)",
+   "years": null,
+   "bio": "American monk of the Ajahn Chah tradition and former abbot of Abhayagiri.",
+   "site": "https://www.abhayagiri.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-cunda",
+   "name": "Ajahn Cunda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Abhayagiri)",
+   "years": null,
+   "bio": "Monk of Abhayagiri Buddhist Monastery in the Ajahn Chah tradition.",
+   "site": "https://www.abhayagiri.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-sudhiro",
+   "name": "Ajahn Sudhīro",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Abhayagiri)",
+   "years": null,
+   "bio": "Monk of Abhayagiri Buddhist Monastery in the Ajahn Chah tradition.",
+   "site": "https://www.abhayagiri.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-sucitto",
+   "name": "Ajahn Sucitto",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Cittaviveka / Chithurst)",
+   "years": "b. 1949",
+   "bio": "English monk who trained in Thailand and with Ajahn Sumedho; long-time abbot of Cittaviveka (Chithurst) and author of books on the path and on embodied meditation.",
+   "site": "https://www.cittaviveka.org",
+   "wikidata": "Q4699498",
+   "clip_count": 59,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    },
+    {
+     "name": "Amaravati Buddhist Monastery",
+     "id": "UCsgmmAelfZ2kfXZ08xlHpDw",
+     "url": "https://www.youtube.com/channel/UCsgmmAelfZ2kfXZ08xlHpDw",
+     "official": true
+    },
+    {
+     "name": "Cittaviveka – Chithurst Buddhist Monastery",
+     "id": "UCP8UpUUNoK3vO_UgTbukdbQ",
+     "url": "https://www.youtube.com/channel/UCP8UpUUNoK3vO_UgTbukdbQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-ahimsako",
+   "name": "Ajahn Ahiṃsako",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Cittaviveka / Chithurst)",
+   "years": null,
+   "bio": "Monk of Cittaviveka (Chithurst) Buddhist Monastery in the Ajahn Chah tradition.",
+   "site": "https://www.cittaviveka.org",
+   "wikidata": null,
+   "clip_count": 20,
+   "channels": [
+    {
+     "name": "Cittaviveka – Chithurst Buddhist Monastery",
+     "id": "UCP8UpUUNoK3vO_UgTbukdbQ",
+     "url": "https://www.youtube.com/channel/UCP8UpUUNoK3vO_UgTbukdbQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-karuniko",
+   "name": "Ajahn Karuniko",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Cittaviveka / Chithurst)",
+   "years": null,
+   "bio": "Senior monk at Cittaviveka (Chithurst) in the Ajahn Chah tradition.",
+   "site": "https://www.cittaviveka.org",
+   "wikidata": null,
+   "clip_count": 12,
+   "channels": [
+    {
+     "name": "Cittaviveka – Chithurst Buddhist Monastery",
+     "id": "UCP8UpUUNoK3vO_UgTbukdbQ",
+     "url": "https://www.youtube.com/channel/UCP8UpUUNoK3vO_UgTbukdbQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-viradhammo",
+   "name": "Ajahn Viradhammo",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Tisarana, Canada)",
+   "years": "b. 1947",
+   "bio": "Latvian-Canadian monk ordained in Thailand under Ajahn Chah; founding abbot of Tisarana Buddhist Monastery in Ontario.",
+   "site": "https://tisarana.ca",
+   "wikidata": "Q11684699",
+   "clip_count": 24,
+   "channels": [
+    {
+     "name": "Cittaviveka – Chithurst Buddhist Monastery",
+     "id": "UCP8UpUUNoK3vO_UgTbukdbQ",
+     "url": "https://www.youtube.com/channel/UCP8UpUUNoK3vO_UgTbukdbQ",
+     "official": true
+    },
+    {
+     "name": "Tisarana Buddhist Monastery",
+     "id": "UCrFo1RJZlM-jnw_P0_yEsow",
+     "url": "https://www.youtube.com/channel/UCrFo1RJZlM-jnw_P0_yEsow",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-sona",
+   "name": "Ajahn Sona",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Birken Forest, Canada)",
+   "years": "b. 1954",
+   "bio": "Canadian monk and co-founder of Birken Forest Monastery in British Columbia, in the Thai forest tradition; known for practical talks on jhāna and daily life.",
+   "site": "https://birken.ca",
+   "wikidata": "Q108659355",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Ajahn Sona",
+     "id": "UCCRXOn6Tsrgm9gJR4z3qLZA",
+     "url": "https://www.youtube.com/channel/UCCRXOn6Tsrgm9gJR4z3qLZA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-anan",
+   "name": "Ajahn Anan",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Wat Marp Jan)",
+   "years": "b. 1954",
+   "bio": "Thai monk who ordained under Ajahn Chah in 1975 and founded Wat Marp Jan in Rayong; teaches weekly in Thai with English translation.",
+   "site": "https://watmarpjan.org/en/",
+   "wikidata": "Q133465081",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Ajahn Anan Dhamma",
+     "id": "UCMjcFLh8iiym-7Xgyf5tO3Q",
+     "url": "https://www.youtube.com/channel/UCMjcFLh8iiym-7Xgyf5tO3Q",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-kalyano",
+   "name": "Ajahn Kalyano",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line via Ajahn Anan (Buddha Bodhivana)",
+   "years": null,
+   "bio": "Australian monk, a long-time student and translator of Ajahn Anan; abbot of Buddha Bodhivana Monastery near Melbourne.",
+   "site": "https://www.bodhivana.org.au",
+   "wikidata": null,
+   "clip_count": 41,
+   "channels": [
+    {
+     "name": "Ajahn Kalyano Dhamma",
+     "id": "UC3O9CUlNpmFA-cAj-2oy8Hg",
+     "url": "https://www.youtube.com/channel/UC3O9CUlNpmFA-cAj-2oy8Hg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-chandako",
+   "name": "Ajahn Chandako",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Vimutti, NZ)",
+   "years": null,
+   "bio": "American-born monk of the Ajahn Chah tradition; abbot of Vimutti Buddhist Monastery in New Zealand.",
+   "site": "https://vimutti.org.nz",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Ajahn Chandako",
+     "id": "UC1-yHZcaml1m7T4VDzb_syQ",
+     "url": "https://www.youtube.com/channel/UC1-yHZcaml1m7T4VDzb_syQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "ajahn-jayasaro",
+   "name": "Ajahn Jayasaro",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (Wat Pah Nanachat, Panyaprateep)",
+   "years": "b. 1958",
+   "bio": "English monk ordained by Ajahn Chah, former abbot of Wat Pah Nanachat; teaches mostly in Thai, with some English retreats and talks.",
+   "site": "https://www.jayasaro.panyaprateep.org",
+   "wikidata": "Q20045576",
+   "clip_count": 41,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    },
+    {
+     "name": "ธรรมะ โดย พระอาจารย์ชยสาโร/ Dhamma by Ajahn Jayasaro",
+     "id": "UCi7TmX0tEjldN-O8PZDSdYQ",
+     "url": "https://www.youtube.com/channel/UCi7TmX0tEjldN-O8PZDSdYQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "thanissaro-bhikkhu",
+   "name": "Thanissaro Bhikkhu",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "mun-boowa-line",
+   "schoolLabel": "Thai Forest · Dhammayut line of Ajaan Lee / Ajaan Fuang (Metta Forest)",
+   "years": "b. 1949",
+   "bio": "American monk of the Thai Dhammayut forest tradition, trained under Ajaan Fuang (a student of Ajaan Lee); abbot of Metta Forest Monastery and prolific translator of the Pāli Canon.",
+   "site": "https://www.dhammatalks.org",
+   "wikidata": "Q7710407",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Dhamma Talks by Thanissaro Bhikkhu",
+     "id": "UC6FSq_ptJ-I6aTHT-XA_e0Q",
+     "url": "https://www.youtube.com/channel/UC6FSq_ptJ-I6aTHT-XA_e0Q",
+     "official": true
+    },
+    {
+     "name": "Short Dhamma Talks by Thanissaro Bhikkhu",
+     "id": "UCQRkIum1cnPNI5QZ0XtIMWw",
+     "url": "https://www.youtube.com/channel/UCQRkIum1cnPNI5QZ0XtIMWw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sayadaw-u-pandita",
+   "name": "Sayadaw U Paṇḍita",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "burmese",
+   "school": "mahasi",
+   "schoolLabel": "Burmese · Mahasi method (Panditarama)",
+   "years": "1921–2016",
+   "bio": "Burmese meditation master in the Mahasi Sayadaw lineage; abbot of Panditarama in Yangon and a major teacher of the first generation of Western insight teachers.",
+   "site": "https://www.panditarama.net",
+   "wikidata": "Q3474715",
+   "clip_count": 48,
+   "channels": [
+    {
+     "name": "Tathagata Meditation Center",
+     "id": "UCHF2BywKjf-nrN24cuMVreA",
+     "url": "https://www.youtube.com/channel/UCHF2BywKjf-nrN24cuMVreA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sayadaw-u-silananda",
+   "name": "Sayadaw U Sīlānanda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "burmese",
+   "school": "mahasi",
+   "schoolLabel": "Burmese · Mahasi method (Tathagata Meditation Center)",
+   "years": "1927–2005",
+   "bio": "Burmese scholar-monk trained in the Mahasi tradition; founded the Theravada Buddhist Society of America and taught Abhidhamma and satipaṭṭhāna in California.",
+   "site": "https://www.tathagata.org",
+   "wikidata": "Q7514071",
+   "clip_count": 9,
+   "channels": [
+    {
+     "name": "Tathagata Meditation Center",
+     "id": "UCHF2BywKjf-nrN24cuMVreA",
+     "url": "https://www.youtube.com/channel/UCHF2BywKjf-nrN24cuMVreA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sayadaw-u-thuzana",
+   "name": "Sayadaw U Thuzana",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "burmese",
+   "school": "mahasi",
+   "schoolLabel": "Burmese · Mahasi method",
+   "years": null,
+   "bio": "Burmese teacher in the Mahasi lineage who leads retreats at the Tathagata Meditation Center.",
+   "site": "https://www.tathagata.org",
+   "wikidata": null,
+   "clip_count": 43,
+   "channels": [
+    {
+     "name": "Tathagata Meditation Center",
+     "id": "UCHF2BywKjf-nrN24cuMVreA",
+     "url": "https://www.youtube.com/channel/UCHF2BywKjf-nrN24cuMVreA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sayadaw-u-nandasiri",
+   "name": "Sayadaw U Nandasiri",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "burmese",
+   "school": "mahasi",
+   "schoolLabel": "Burmese · Mahasi method",
+   "years": null,
+   "bio": "Burmese teacher in the Mahasi lineage who leads retreats at the Tathagata Meditation Center.",
+   "site": "https://www.tathagata.org",
+   "wikidata": null,
+   "clip_count": 25,
+   "channels": [
+    {
+     "name": "Tathagata Meditation Center",
+     "id": "UCHF2BywKjf-nrN24cuMVreA",
+     "url": "https://www.youtube.com/channel/UCHF2BywKjf-nrN24cuMVreA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "goenka",
+   "name": "S. N. Goenka",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "goenka-vipassana",
+   "school": "goenka-vipassana",
+   "schoolLabel": "Burmese · U Ba Khin / Goenka Vipassana",
+   "years": "1924–2013",
+   "bio": "Burmese-born Indian teacher of vipassanā in the lineage of Sayagyi U Ba Khin; founded the worldwide network of ten-day courses.",
+   "site": "https://www.dhamma.org",
+   "wikidata": "Q539048",
+   "clip_count": 37,
+   "channels": [
+    {
+     "name": "Vipassana Meditation",
+     "id": "UCkbM-Ugaf67nDicXhq31epg",
+     "url": "https://www.youtube.com/channel/UCkbM-Ugaf67nDicXhq31epg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sayadaw-u-tejaniya",
+   "name": "Sayadaw U Tejaniya",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "burmese",
+   "school": "shwe-oo-min",
+   "schoolLabel": "Burmese · Shwe Oo Min (natural awareness)",
+   "years": "b. 1962",
+   "bio": "Burmese teacher, student of the late Shwe Oo Min Sayadaw, known for a relaxed \"natural awareness\" approach to mindfulness in daily life.",
+   "site": "https://ashintejaniya.org",
+   "wikidata": "Q7429084",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Sayadaw U Tejaniya",
+     "id": "UCKvCnkIejnDdecj0BnkavJg",
+     "url": "https://www.youtube.com/channel/UCKvCnkIejnDdecj0BnkavJg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "bhante-gunaratana",
+   "name": "Bhante Gunaratana",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "theravada",
+   "school": "sri-lankan",
+   "schoolLabel": "Sri Lankan · Bhavana Society (West Virginia)",
+   "years": "b. 1927",
+   "bio": "Sri Lankan monk, founder of the Bhavana Society in West Virginia and author of \"Mindfulness in Plain English\".",
+   "site": "https://bhavanasociety.org",
+   "wikidata": "Q724405",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "The Bhavana Society of West Virginia",
+     "id": "UCjUZp1wSbSNkxP7SspfCf5w",
+     "url": "https://www.youtube.com/channel/UCjUZp1wSbSNkxP7SspfCf5w",
+     "official": true
+    },
+    {
+     "name": "Wisdom Publications Inc.",
+     "id": "UCKrdx4usaugOhLzjvYmzpIg",
+     "url": "https://www.youtube.com/channel/UCKrdx4usaugOhLzjvYmzpIg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "bhikkhu-analayo",
+   "name": "Bhikkhu Anālayo",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "early-suttas",
+   "school": "early-suttas",
+   "schoolLabel": "Early-Buddhism scholar-monk (comparative Āgama studies)",
+   "years": "b. 1962",
+   "bio": "German-born monk and scholar ordained in Sri Lanka; specialist in comparative study of the Pāli Nikāyas and Chinese Āgamas, and author of widely used books on satipaṭṭhāna.",
+   "site": "https://agamaresearch.dila.edu.tw",
+   "wikidata": "Q4901708",
+   "clip_count": 38,
+   "channels": [
+    {
+     "name": "Barre Center for Buddhist Studies",
+     "id": "UCQMZ7cpFDpZ_Wst2a-ITLwg",
+     "url": "https://www.youtube.com/channel/UCQMZ7cpFDpZ_Wst2a-ITLwg",
+     "official": true
+    },
+    {
+     "name": "Wisdom Publications Inc.",
+     "id": "UCKrdx4usaugOhLzjvYmzpIg",
+     "url": "https://www.youtube.com/channel/UCKrdx4usaugOhLzjvYmzpIg",
+     "official": true
+    },
+    {
+     "name": "Āgama Research Group",
+     "id": "UCHbMjzbN5KDehzH_ZtD-wbw",
+     "url": "https://www.youtube.com/channel/UCHbMjzbN5KDehzH_ZtD-wbw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "bhikkhu-bodhi",
+   "name": "Bhikkhu Bodhi",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "early-suttas",
+   "school": "early-suttas",
+   "schoolLabel": "Early-Buddhism scholar-monk (translator; BPS, Chuang Yen)",
+   "years": "b. 1944",
+   "bio": "American monk ordained in Sri Lanka, former president and editor of the Buddhist Publication Society; translator of the Majjhima, Saṃyutta and Aṅguttara Nikāyas and founder of Buddhist Global Relief.",
+   "site": "https://www.buddhistglobalrelief.org",
+   "wikidata": "Q854944",
+   "clip_count": 40,
+   "channels": [
+    {
+     "name": "Abhayagiri",
+     "id": "UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "url": "https://www.youtube.com/channel/UCFAuQ5fmYYVv5_Dim0EQpVA",
+     "official": true
+    },
+    {
+     "name": "BAUS Chuang Yen Monastery",
+     "id": "UC6hv_oxteMQcErpybAb73Lg",
+     "url": "https://www.youtube.com/channel/UC6hv_oxteMQcErpybAb73Lg",
+     "official": true
+    },
+    {
+     "name": "Wisdom Publications Inc.",
+     "id": "UCKrdx4usaugOhLzjvYmzpIg",
+     "url": "https://www.youtube.com/channel/UCKrdx4usaugOhLzjvYmzpIg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "joseph-goldstein",
+   "name": "Joseph Goldstein",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "insight",
+   "school": "insight",
+   "schoolLabel": "Insight Meditation (IMS co-founder)",
+   "years": "b. 1944",
+   "bio": "American insight meditation teacher, co-founder of the Insight Meditation Society; trained with Anagarika Munindra, Dipa Ma, S. N. Goenka and Sayadaw U Pandita.",
+   "site": "https://www.dharma.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Be Here Now Network",
+     "id": "UCc1lvEoC5PZWm-MzgUfJQfg",
+     "url": "https://www.youtube.com/channel/UCc1lvEoC5PZWm-MzgUfJQfg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "sharon-salzberg",
+   "name": "Sharon Salzberg",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "insight",
+   "school": "insight",
+   "schoolLabel": "Insight Meditation (IMS co-founder)",
+   "years": "b. 1952",
+   "bio": "American teacher and co-founder of the Insight Meditation Society, best known for teaching mettā (loving-kindness).",
+   "site": "https://www.sharonsalzberg.com",
+   "wikidata": "Q1775790",
+   "clip_count": 12,
+   "channels": [
+    {
+     "name": "Insight Meditation Society",
+     "id": "UCxJ3WKgW-VEry9v212-vEDw",
+     "url": "https://www.youtube.com/channel/UCxJ3WKgW-VEry9v212-vEDw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "tara-brach",
+   "name": "Tara Brach",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "insight",
+   "school": "insight",
+   "schoolLabel": "Insight Meditation (IMCW)",
+   "years": "b. 1953",
+   "bio": "American psychologist and insight meditation teacher, founder of the Insight Meditation Community of Washington.",
+   "site": "https://www.tarabrach.com",
+   "wikidata": "Q7685034",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Tara Brach",
+     "id": "UCE3E-d8dUieqIbKYIO5-pFg",
+     "url": "https://www.youtube.com/channel/UCE3E-d8dUieqIbKYIO5-pFg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-sarvapriyananda",
+   "name": "Swami Sarvapriyananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Advaita Vedanta · Ramakrishna Order (VSNY)",
+   "years": "b. 1969",
+   "bio": "Monk of the Ramakrishna Order and minister of the Vedanta Society of New York, known for clear lectures on Advaita Vedānta and consciousness.",
+   "site": "https://www.vedantany.org",
+   "wikidata": "Q99543109",
+   "clip_count": 49,
+   "channels": [
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of New York",
+     "id": "UCZOKv_xnTzyLD9RJmbBUV9Q",
+     "url": "https://www.youtube.com/channel/UCZOKv_xnTzyLD9RJmbBUV9Q",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of New York - Archives",
+     "id": "UCUjdjsoLz0vS9eqfDVCfkNA",
+     "url": "https://www.youtube.com/channel/UCUjdjsoLz0vS9eqfDVCfkNA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    },
+    {
+     "name": "VedantaSTL",
+     "id": "UCWkDmFo21gFw81TG_9xA8Eg",
+     "url": "https://www.youtube.com/channel/UCWkDmFo21gFw81TG_9xA8Eg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-pavitrananda",
+   "name": "Swami Pavitrananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSNY, archival)",
+   "years": "1896–1977",
+   "bio": "Monk of the Ramakrishna Order who led the Vedanta Society of New York from 1951; heard here in archival recordings.",
+   "site": "https://www.vedantany.org",
+   "wikidata": null,
+   "clip_count": 31,
+   "channels": [
+    {
+     "name": "Vedanta Society of New York - Archives",
+     "id": "UCUjdjsoLz0vS9eqfDVCfkNA",
+     "url": "https://www.youtube.com/channel/UCUjdjsoLz0vS9eqfDVCfkNA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-tathagatananda",
+   "name": "Swami Tathagatananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSNY, archival)",
+   "years": "1923–2016",
+   "bio": "Monk of the Ramakrishna Order and long-time head of the Vedanta Society of New York; heard here in archival recordings.",
+   "site": "https://www.vedantany.org",
+   "wikidata": null,
+   "clip_count": 14,
+   "channels": [
+    {
+     "name": "Vedanta Society of New York - Archives",
+     "id": "UCUjdjsoLz0vS9eqfDVCfkNA",
+     "url": "https://www.youtube.com/channel/UCUjdjsoLz0vS9eqfDVCfkNA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-sarvadevananda",
+   "name": "Swami Sarvadevananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSSC)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order and head of the Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-satyamayananda",
+   "name": "Swami Satyamayananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order who lectures at Vedanta Society centres.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 27,
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-atmavidyananda",
+   "name": "Swami Atmavidyananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSSC)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 11,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-vedarupananda",
+   "name": "Swami Vedarupananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSSC)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 58,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-mahayogananda",
+   "name": "Swami Mahayogananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSSC)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 29,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-dhyanayogananda",
+   "name": "Swami Dhyanayogananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (VSSC)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 21,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-medhananda",
+   "name": "Swami Medhananda (Ayon Maharaj)",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order · philosopher",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order and philosopher (Ayon Maharaj), author of studies of Ramakrishna's and Vivekananda's philosophy.",
+   "site": "https://vedanta.org",
+   "wikidata": "Q113846163",
+   "clip_count": 18,
+   "channels": [
+    {
+     "name": "Ramakrishna Monastery",
+     "id": "UCMCbD0-oHthnhqNl3k4-ZwA",
+     "url": "https://www.youtube.com/channel/UCMCbD0-oHthnhqNl3k4-ZwA",
+     "official": true
+    },
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "pravrajika-vrajaprana",
+   "name": "Pravrajika Vrajaprana",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (Sarada Convent)",
+   "years": null,
+   "bio": "Nun of the Sarada Convent (Vedanta Society of Southern California) and author of books on Vedanta.",
+   "site": "https://vedanta.org",
+   "wikidata": "Q7238892",
+   "clip_count": 16,
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "pravrajika-krishnaprana",
+   "name": "Pravrajika Krishnaprana",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (Sarada Convent)",
+   "years": null,
+   "bio": "Nun of the Sarada Convent, Vedanta Society of Southern California.",
+   "site": "https://vedanta.org",
+   "wikidata": null,
+   "clip_count": 13,
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-tyagananda",
+   "name": "Swami Tyagananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (Boston)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order, head of the Ramakrishna Vedanta Society of Boston and Hindu chaplain at Harvard and MIT.",
+   "site": "https://www.vedantasociety.net",
+   "wikidata": "Q16187353",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Vedanta Society, Boston",
+     "id": "UCa3x5SSgqzvnao_-WSkLFZg",
+     "url": "https://www.youtube.com/channel/UCa3x5SSgqzvnao_-WSkLFZg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-chetanananda",
+   "name": "Swami Chetanananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (St. Louis)",
+   "years": "b. 1929",
+   "bio": "Monk of the Ramakrishna Order, minister of the Vedanta Society of St. Louis and author of histories of Ramakrishna's disciples.",
+   "site": "https://www.vedantastl.org",
+   "wikidata": null,
+   "clip_count": 15,
+   "channels": [
+    {
+     "name": "VedantaSTL",
+     "id": "UCWkDmFo21gFw81TG_9xA8Eg",
+     "url": "https://www.youtube.com/channel/UCWkDmFo21gFw81TG_9xA8Eg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-shivarchanananda",
+   "name": "Swami Shivarchanananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (St. Louis)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of St. Louis.",
+   "site": "https://www.vedantastl.org",
+   "wikidata": null,
+   "clip_count": 9,
+   "channels": [
+    {
+     "name": "VedantaSTL",
+     "id": "UCWkDmFo21gFw81TG_9xA8Eg",
+     "url": "https://www.youtube.com/channel/UCWkDmFo21gFw81TG_9xA8Eg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-ishatmananda",
+   "name": "Swami Ishatmananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "school": "ramakrishna-order",
+   "schoolLabel": "Ramakrishna Order (Chicago)",
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order and head of the Vivekananda Vedanta Society of Chicago.",
+   "site": "https://www.chicagovedanta.org",
+   "wikidata": null,
+   "clip_count": 37,
+   "channels": [
+    {
+     "name": "Chicago Vedanta",
+     "id": "UC64nHa3IWptZ-KPlQxdfsbw",
+     "url": "https://www.youtube.com/channel/UC64nHa3IWptZ-KPlQxdfsbw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-chinmayananda",
+   "name": "Swami Chinmayananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "school": "chinmaya-mission",
+   "schoolLabel": "Advaita Vedanta · Chinmaya Mission (founder)",
+   "years": "1916–1993",
+   "bio": "Indian teacher who studied with Swami Sivananda and Swami Tapovan Maharaj and founded the Chinmaya Mission, popularising Vedānta lectures in English.",
+   "site": "https://www.chinmayamission.com",
+   "wikidata": "Q173273",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "ChinmayaChannel",
+     "id": "UCtDAJiFT4sy42oNPA8zo0sw",
+     "url": "https://www.youtube.com/channel/UCtDAJiFT4sy42oNPA8zo0sw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-tejomayananda",
+   "name": "Swami Tejomayananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "school": "chinmaya-mission",
+   "schoolLabel": "Advaita Vedanta · Chinmaya Mission",
+   "years": "b. 1950",
+   "bio": "Disciple of Swami Chinmayananda and former head of the Chinmaya Mission worldwide.",
+   "site": "https://www.chinmayamission.com",
+   "wikidata": "Q16145794",
+   "clip_count": 34,
+   "channels": [
+    {
+     "name": "ChinmayaChannel",
+     "id": "UCtDAJiFT4sy42oNPA8zo0sw",
+     "url": "https://www.youtube.com/channel/UCtDAJiFT4sy42oNPA8zo0sw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-swaroopananda-chinmaya",
+   "name": "Swami Swaroopananda (Chinmaya Mission)",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "school": "chinmaya-mission",
+   "schoolLabel": "Advaita Vedanta · Chinmaya Mission",
+   "years": null,
+   "bio": "Disciple of Swami Chinmayananda and current global head of the Chinmaya Mission.",
+   "site": "https://www.chinmayamission.com",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "ChinmayaChannel",
+     "id": "UCtDAJiFT4sy42oNPA8zo0sw",
+     "url": "https://www.youtube.com/channel/UCtDAJiFT4sy42oNPA8zo0sw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-dayananda-saraswati",
+   "name": "Swami Dayananda Saraswati",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "schoolLabel": "Advaita Vedanta · Arsha Vidya (founder)",
+   "years": "1930–2015",
+   "bio": "Indian teacher of Advaita Vedānta, founder of the Arsha Vidya Gurukulam and teacher of many traditional Vedānta teachers.",
+   "site": "https://www.arshavidya.org",
+   "wikidata": "Q5243052",
+   "clip_count": 20,
+   "channels": [
+    {
+     "name": "Arsha Vidya Pitham",
+     "id": "UCyurta_Rz_12SQqQE_hbBTg",
+     "url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swamini-svatmavidyananda",
+   "name": "Swamini Svatmavidyananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "schoolLabel": "Advaita Vedanta · Arsha Vidya",
+   "years": null,
+   "bio": "Traditional teacher of Vedānta in the line of Swami Dayananda Saraswati.",
+   "site": "https://www.youtube.com/channel/UCJ8VESdPB5X0FReFGz8YMOA",
+   "wikidata": null,
+   "clip_count": 54,
+   "channels": [
+    {
+     "name": "Arsha Vidya Pitham",
+     "id": "UCyurta_Rz_12SQqQE_hbBTg",
+     "url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+     "official": true
+    },
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    },
+    {
+     "name": "Svatmavidyananda Swaminiji",
+     "id": "UCJ8VESdPB5X0FReFGz8YMOA",
+     "url": "https://www.youtube.com/channel/UCJ8VESdPB5X0FReFGz8YMOA",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-tattvavidananda",
+   "name": "Swami Tattvavidananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "schoolLabel": "Advaita Vedanta · Arsha Vidya",
+   "years": null,
+   "bio": "Senior disciple of Swami Dayananda Saraswati teaching Vedānta and Sanskrit.",
+   "site": "https://www.arshavidya.org",
+   "wikidata": null,
+   "clip_count": 20,
+   "channels": [
+    {
+     "name": "Arsha Vidya Pitham",
+     "id": "UCyurta_Rz_12SQqQE_hbBTg",
+     "url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-viditatmananda",
+   "name": "Swami Viditatmananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "schoolLabel": "Advaita Vedanta · Arsha Vidya",
+   "years": null,
+   "bio": "Senior disciple of Swami Dayananda Saraswati, long associated with the Arsha Vidya Gurukulam.",
+   "site": "https://www.arshavidya.org",
+   "wikidata": null,
+   "clip_count": 12,
+   "channels": [
+    {
+     "name": "Arsha Vidya Pitham",
+     "id": "UCyurta_Rz_12SQqQE_hbBTg",
+     "url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-tadatmananda",
+   "name": "Swami Tadatmananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "schoolLabel": "Advaita Vedanta · Arsha Vidya (Arsha Bodha)",
+   "years": null,
+   "bio": "American-born disciple of Swami Dayananda Saraswati; founder of the Arsha Bodha Center in New Jersey.",
+   "site": "https://arshabodha.org",
+   "wikidata": null,
+   "clip_count": 59,
+   "channels": [
+    {
+     "name": "ArshaBodha - Swami Tadatmananda",
+     "id": "UC7i47784NqiOl244eGEJDew",
+     "url": "https://www.youtube.com/channel/UC7i47784NqiOl244eGEJDew",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "radhanath-swami",
+   "name": "Radhanath Swami",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "gaudiya",
+   "schoolLabel": "Gaudiya Vaishnava · ISKCON",
+   "years": "b. 1950",
+   "bio": "American-born Gaudiya Vaishnava teacher in ISKCON, a disciple of A. C. Bhaktivedanta Swami Prabhupada, and author of \"The Journey Home\".",
+   "site": "https://www.radhanathswami.com",
+   "wikidata": "Q2722564",
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "His Holiness Radhanath Swami",
+     "id": "UCzywp4-atthpp2FEKnhivYQ",
+     "url": "https://www.youtube.com/channel/UCzywp4-atthpp2FEKnhivYQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-niranjanananda",
+   "name": "Swami Niranjanananda Saraswati",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "bihar-yoga",
+   "schoolLabel": "Yoga · Bihar School (Satyananda line)",
+   "years": "b. 1960",
+   "bio": "Successor of Swami Satyananda Saraswati and long-time head of the Bihar School of Yoga in Munger.",
+   "site": "https://www.biharyoga.net",
+   "wikidata": null,
+   "clip_count": 8,
+   "channels": [
+    {
+     "name": "Bihar School of Yoga",
+     "id": "UCqe_Dy4AEPLcBkrSyvDclMQ",
+     "url": "https://www.youtube.com/channel/UCqe_Dy4AEPLcBkrSyvDclMQ",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-swaroopananda-sivananda",
+   "name": "Swami Swaroopananda (Sivananda)",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "schoolLabel": "Yoga Vedanta · Sivananda Yoga Vedanta Centres",
+   "years": null,
+   "bio": "Senior acharya of the Sivananda Yoga Vedanta Centres, a disciple of Swami Vishnudevananda.",
+   "site": "https://sivanandabahamas.org",
+   "wikidata": null,
+   "clip_count": 54,
+   "channels": [
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-sitaramananda",
+   "name": "Swami Sitaramananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "schoolLabel": "Yoga Vedanta · Sivananda Yoga Vedanta Centres",
+   "years": null,
+   "bio": "Acharya of the Sivananda Yoga Farm in California, a disciple of Swami Vishnudevananda.",
+   "site": "https://sivanandayogafarm.org",
+   "wikidata": null,
+   "clip_count": 60,
+   "channels": [
+    {
+     "name": "Sivananda Yoga Farm",
+     "id": "UCYfIGegbsw8JuY0z0OxKuVw",
+     "url": "https://www.youtube.com/channel/UCYfIGegbsw8JuY0z0OxKuVw",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-paramananda-sivananda",
+   "name": "Swami Paramananda (Sivananda)",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "schoolLabel": "Yoga Vedanta · Sivananda Yoga Vedanta Centres",
+   "years": null,
+   "bio": "Teacher of the Sivananda Yoga Vedanta Centres (not the Ramakrishna-order Swami Paramananda, 1884–1940).",
+   "site": "https://sivanandabahamas.org",
+   "wikidata": null,
+   "clip_count": 42,
+   "channels": [
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-shambhudevananda",
+   "name": "Swami Shambhudevananda",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "schoolLabel": "Yoga Vedanta · Sivananda Yoga Vedanta Centres",
+   "years": null,
+   "bio": "Teacher of the Sivananda Yoga Vedanta Centres.",
+   "site": "https://sivanandabahamas.org",
+   "wikidata": null,
+   "clip_count": 28,
+   "channels": [
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "swami-brahmananda-sivananda",
+   "name": "Swami Brahmananda (Sivananda)",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "schoolLabel": "Yoga Vedanta · Sivananda Yoga Vedanta Centres",
+   "years": null,
+   "bio": "Teacher of the Sivananda Yoga Vedanta Centres (not the Ramakrishna-order Swami Brahmananda).",
+   "site": "https://sivanandabahamas.org",
+   "wikidata": null,
+   "clip_count": 25,
+   "channels": [
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "gavin-flood",
+   "name": "Gavin Flood",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "schoolLabel": "Hindu studies · Oxford (OCHS)",
+   "years": "b. 1954",
+   "bio": "British scholar of Hinduism and comparative religion at Oxford; academic director of the Oxford Centre for Hindu Studies.",
+   "site": "https://www.ochs.org.uk",
+   "wikidata": "Q4490975",
+   "clip_count": 8,
+   "channels": [
+    {
+     "name": "HDS Center for the Study of World Religions",
+     "id": "UCxTtWZ-jyf5c6GLNtleme2g",
+     "url": "https://www.youtube.com/channel/UCxTtWZ-jyf5c6GLNtleme2g",
+     "official": true
+    },
+    {
+     "name": "Oxford Centre for Hindu Studies",
+     "id": "UCM70OPD8B3DX4XI93Mdts0Q",
+     "url": "https://www.youtube.com/channel/UCM70OPD8B3DX4XI93Mdts0Q",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  },
+  {
+   "id": "edwin-bryant",
+   "name": "Edwin Bryant",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "schoolLabel": "Hindu studies · Rutgers (Yoga Sutras, Bhagavata)",
+   "years": null,
+   "bio": "American scholar of Hinduism at Rutgers, translator of the Yoga Sūtras and the tenth book of the Bhāgavata Purāṇa.",
+   "site": "https://www.edwinbryant.org",
+   "wikidata": "Q4095737",
+   "clip_count": 13,
+   "channels": [
+    {
+     "name": "Edwin Bryant Official",
+     "id": "UCH3JiuEMooB_Ga_9nKq6Ldw",
+     "url": "https://www.youtube.com/channel/UCH3JiuEMooB_Ga_9nKq6Ldw",
+     "official": true
+    },
+    {
+     "name": "Sivananda Ashram Yoga Retreat Bahamas",
+     "id": "UCo4wYjUniSFrr18Cf5QB2Dg",
+     "url": "https://www.youtube.com/channel/UCo4wYjUniSFrr18Cf5QB2Dg",
+     "official": true
+    }
+   ],
+   "tier": "main"
+  }
+ ],
+ "more_voices": [
+  {
+   "id": "ajahn-dtun",
+   "name": "Ajahn Dtun",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "schoolLabel": "Thai Forest · Ajahn Chah line (ordained under Ajahn Chah; Wat Boonyawad)",
+   "years": "b. 1955",
+   "bio": "Thai monk ordained at Wat Nong Pah Pong with Ajahn Chah as preceptor (1978); trained with Ajahn Piak and Ajahn Anan and founded Wat Boonyawad in Chonburi.",
+   "site": "https://www.nigrodharamaforestmonastery.org/teachings",
+   "wikidata": "Q135975225",
+   "clip_count": 2,
+   "channels": [
+    {
+     "name": "วัดบุญญาวาส Watboonyawad - Official",
+     "id": "UCaABsDDXHh1GlQyao2BySIQ",
+     "url": "https://www.youtube.com/channel/UCaABsDDXHh1GlQyao2BySIQ",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "richard-gombrich",
+   "name": "Richard Gombrich",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "schoolLabel": "Buddhist studies · Oxford (OCBS founder)",
+   "years": "b. 1937",
+   "bio": "British Indologist, Boden Professor of Sanskrit at Oxford (1976–2004) and founder of the Oxford Centre for Buddhist Studies; supervised a generation of Buddhist-studies doctorates.",
+   "site": "https://ocbs.org",
+   "wikidata": "Q2149600",
+   "clip_count": 2,
+   "channels": [
+    {
+     "name": "Oxford Centre for Buddhist Studies",
+     "id": "UCznJ7Xzb2FvfwnAUp-8H5eA",
+     "url": "https://www.youtube.com/channel/UCznJ7Xzb2FvfwnAUp-8H5eA",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "alexander-wynne",
+   "name": "Alexander Wynne",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "schoolLabel": "Buddhist studies · OCBS (Gombrich student)",
+   "years": "b. 1974",
+   "bio": "British scholar of early Buddhism; Oxford DPhil under Richard Gombrich, author of \"The Origin of Buddhist Meditation\", and an editor of the Journal of the OCBS.",
+   "site": "https://ocbs.org",
+   "wikidata": "Q122701942",
+   "clip_count": 7,
+   "channels": [
+    {
+     "name": "Oxford Centre for Buddhist Studies",
+     "id": "UCznJ7Xzb2FvfwnAUp-8H5eA",
+     "url": "https://www.youtube.com/channel/UCznJ7Xzb2FvfwnAUp-8H5eA",
+     "official": true
+    },
+    {
+     "name": "WynneAlexander",
+     "id": "UCim0V7s7pSepzBOeaodBUrg",
+     "url": "https://www.youtube.com/channel/UCim0V7s7pSepzBOeaodBUrg",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "rupert-gethin",
+   "name": "Rupert Gethin",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "schoolLabel": "Buddhist studies · Bristol",
+   "years": "b. 1957",
+   "bio": "British scholar of the Nikāyas and Abhidhamma, emeritus professor at Bristol and president of the Pali Text Society; PhD at Manchester under Lance Cousins.",
+   "site": "https://www.bristol.ac.uk/people/person/Rupert-Gethin-7c32c26a-8f6f-42f8-aaae-a4fd97124ed5/",
+   "wikidata": "Q7380288",
+   "clip_count": 1,
+   "channels": [
+    {
+     "name": "The Ho Center for Buddhist Studies at Stanford",
+     "id": "UCkn7wpgMPWBoEyeLEn0vigA",
+     "url": "https://www.youtube.com/channel/UCkn7wpgMPWBoEyeLEn0vigA",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "steven-collins",
+   "name": "Steven Collins",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "schoolLabel": "Buddhist studies · Chicago (d. 2018)",
+   "years": "1951–2018",
+   "bio": "British scholar of Pāli Buddhism at Chicago, author of \"Selfless Persons\" and \"Nirvana and Other Buddhist Felicities\"; Oxford DPhil under Richard Gombrich.",
+   "site": "https://voices.uchicago.edu/collinssymposium/more-on-steven-collins",
+   "wikidata": null,
+   "clip_count": 1,
+   "channels": [
+    {
+     "name": "University of Chicago Center for Practical Wisdom",
+     "id": "UCaT5a5nYYbm4z5gTPKF6SXg",
+     "url": "https://www.youtube.com/channel/UCaT5a5nYYbm4z5gTPKF6SXg",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "jeffery-long",
+   "name": "Jeffery D. Long",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "schoolLabel": "Hindu studies · Elizabethtown College (Vedanta, Jainism)",
+   "years": "b. 1967",
+   "bio": "American scholar of Hindu and Jain traditions at Elizabethtown College, closely associated with the Vedanta Societies.",
+   "site": "https://www.etown.edu",
+   "wikidata": "Q6175751",
+   "clip_count": 5,
+   "channels": [
+    {
+     "name": "Vedanta Society of New York",
+     "id": "UCZOKv_xnTzyLD9RJmbBUV9Q",
+     "url": "https://www.youtube.com/channel/UCZOKv_xnTzyLD9RJmbBUV9Q",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "tkv-desikachar",
+   "name": "T. K. V. Desikachar",
+   "role": "teacher",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "krishnamacharya-yoga",
+   "schoolLabel": "Yoga · Krishnamacharya line (KYM)",
+   "years": "1938–2016",
+   "bio": "Son and student of T. Krishnamacharya; founded the Krishnamacharya Yoga Mandiram in Chennai and taught yoga adapted to the individual.",
+   "site": "https://www.kym.org",
+   "wikidata": "Q3511915",
+   "clip_count": 5,
+   "channels": [
+    {
+     "name": "Krishnamacharya Yoga Mandiram",
+     "id": "UC3jZUaHv1amxhx-XJE5QvBA",
+     "url": "https://www.youtube.com/channel/UC3jZUaHv1amxhx-XJE5QvBA",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "wendy-doniger",
+   "name": "Wendy Doniger",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "schoolLabel": "Hindu studies · Chicago",
+   "years": "b. 1940",
+   "bio": "American Indologist at the University of Chicago, translator of Sanskrit texts and author of \"The Hindus: An Alternative History\".",
+   "site": "https://divinity.uchicago.edu",
+   "wikidata": null,
+   "clip_count": 2,
+   "channels": [
+    {
+     "name": "American Council of Learned Societies (ACLS)",
+     "id": "UCN30Qk9j0bKuWF2ulC9CtVQ",
+     "url": "https://www.youtube.com/channel/UCN30Qk9j0bKuWF2ulC9CtVQ",
+     "official": true
+    },
+    {
+     "name": "The University of Chicago",
+     "id": "UCGINcKuFbysZAslgL46KeOA",
+     "url": "https://www.youtube.com/channel/UCGINcKuFbysZAslgL46KeOA",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  },
+  {
+   "id": "nick-sutton",
+   "name": "Nicholas Sutton",
+   "role": "scholar",
+   "kind": "speaker",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "schoolLabel": "Hindu studies · OCHS",
+   "years": null,
+   "bio": "Scholar of the Mahābhārata and Bhagavad Gītā who teaches the OCHS online courses.",
+   "site": "https://www.ochs.org.uk",
+   "wikidata": null,
+   "clip_count": 7,
+   "channels": [
+    {
+     "name": "Oxford Centre for Hindu Studies",
+     "id": "UCM70OPD8B3DX4XI93Mdts0Q",
+     "url": "https://www.youtube.com/channel/UCM70OPD8B3DX4XI93Mdts0Q",
+     "official": true
+    }
+   ],
+   "tier": "more-voices"
+  }
+ ],
+ "figures": [
+  {
+   "id": "lance-cousins",
+   "name": "Lance Cousins",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "years": "1942–2015",
+   "bio": "British scholar of Pāli and Abhidhamma (Manchester, Oxford) and samatha meditation teacher; supervised Rupert Gethin.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "paul-williams",
+   "name": "Paul Williams",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "buddhism",
+   "school": "buddhist-studies",
+   "years": "b. 1950",
+   "bio": "British scholar of Mahāyāna Buddhism at Bristol; taught Alexander Wynne and introduced Steven Collins to Gombrich.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "katukurunde-nanananda",
+   "name": "Katukurunde Ñāṇananda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "theravada",
+   "school": "sri-lankan",
+   "years": "1940–2018",
+   "bio": "Sri Lankan forest monk and author of \"Concept and Reality\" and the \"Nibbāna – The Mind Stilled\" sermons.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "balangoda-ananda-maitreya",
+   "name": "Balangoda Ānanda Maitreya",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "theravada",
+   "school": "sri-lankan",
+   "years": "1896–1998",
+   "bio": "Sri Lankan scholar-monk who was Bhikkhu Bodhi's preceptor.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "ajahn-piak",
+   "name": "Ajahn Piak",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "thai-forest",
+   "school": "chah-line",
+   "years": "b. 1950s",
+   "bio": "Thai disciple of Ajahn Chah and abbot of Wat Pah Cittabhavana; Ajahn Dtun and Ajahn Anan trained alongside him.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "tapovan-maharaj",
+   "name": "Swami Tapovan Maharaj",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "advaita",
+   "school": "advaita",
+   "years": "1889–1957",
+   "bio": "Himalayan Vedānta master at Uttarkashi; Swami Chinmayananda's teacher.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "swami-vishnudevananda",
+   "name": "Swami Vishnudevananda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "divine-life-society",
+   "school": "sivananda-yoga",
+   "years": "1927–1993",
+   "bio": "Disciple of Swami Sivananda who founded the Sivananda Yoga Vedanta Centres.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "swami-satyananda",
+   "name": "Swami Satyananda Saraswati",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "divine-life-society",
+   "school": "bihar-yoga",
+   "years": "1923–2009",
+   "bio": "Disciple of Swami Sivananda who founded the Bihar School of Yoga (1963).",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "krishnamacharya",
+   "name": "T. Krishnamacharya",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "krishnamacharya-yoga",
+   "years": "1888–1989",
+   "bio": "South Indian yoga teacher whose students (Desikachar, Iyengar, Pattabhi Jois, Indra Devi) shaped modern postural yoga.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "bks-iyengar",
+   "name": "B. K. S. Iyengar",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "krishnamacharya-yoga",
+   "years": "1918–2014",
+   "bio": "Student and brother-in-law of Krishnamacharya; founder of Iyengar Yoga.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "pattabhi-jois",
+   "name": "K. Pattabhi Jois",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "krishnamacharya-yoga",
+   "years": "1915–2009",
+   "bio": "Student of Krishnamacharya; founder of Ashtanga Vinyasa Yoga in Mysore.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "chaitanya-mahaprabhu",
+   "name": "Chaitanya Mahāprabhu",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "gaudiya",
+   "years": "1486–1534",
+   "bio": "Bengali saint whose ecstatic Krishna devotion founded the Gaudiya Vaishnava tradition.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "bhaktisiddhanta",
+   "name": "Bhaktisiddhānta Sarasvatī",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "gaudiya",
+   "years": "1874–1937",
+   "bio": "Founder of the Gaudiya Math and guru of A. C. Bhaktivedanta Swami Prabhupada.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "srila-prabhupada",
+   "name": "A. C. Bhaktivedanta Swami Prabhupāda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "gaudiya",
+   "years": "1896–1977",
+   "bio": "Founder of ISKCON (1966), who brought Gaudiya Vaishnavism to the West.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "daniel-ingalls",
+   "name": "Daniel H. H. Ingalls",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "hindu",
+   "school": "hindu-studies",
+   "years": "1916–1999",
+   "bio": "Harvard Sanskritist; supervised Wendy Doniger's Harvard PhD.",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  },
+  {
+   "id": "swami-paramarthananda",
+   "name": "Swami Paramarthananda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "arsha-vidya",
+   "school": "arsha-vidya",
+   "years": "b. 1950s",
+   "bio": "Chennai-based disciple of Swami Dayananda, known for systematic English Vedānta classes (no official YouTube channel found).",
+   "site": null,
+   "wikidata": null,
+   "clip_count": 0,
+   "tier": "figure"
+  }
+ ]
+}

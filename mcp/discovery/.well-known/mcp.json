@@ -1,0 +1,127 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "xyz.tantrafiles/wiser",
+  "title": "Wiser: an open directory of the wisdom traditions",
+  "version": "0.2.0",
+  "description": "Open, read-only directory of the world’s wisdom traditions: traditions, teachers and lineages, places to practise with published contacts, free texts, practices and talks. Every record has a canonical URL, source_url, verified_on and confidence.",
+  "websiteUrl": "https://tantrafiles.xyz/agents",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tantrafiles.xyz/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://mcp.tantrafiles.xyz/sse"
+    }
+  ],
+  "authentication": {
+    "required": false
+  },
+  "protocolVersions": [
+    "2025-06-18",
+    "2025-03-26",
+    "2024-11-05"
+  ],
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {}
+  },
+  "tools": [
+    {
+      "name": "search",
+      "title": "Search Wiser",
+      "description": "Search the Wiser directory: teachers, scholars and figures, traditions and schools, topics, practices, texts and books, collections, places to practise and talks. Returns {results:[{id,title,url}]}; pass an id to fetch (or to the get_* tools) for the full record with source_url, verified_on and confidence.",
+      "readOnly": true
+    },
+    {
+      "name": "get_topic",
+      "title": "Topic hub",
+      "description": "A topic seen across traditions: intro, sub-questions, one-line takes per tradition, the best talks chosen for diversity across traditions (MMR), practices, texts, teachers and related topics.",
+      "readOnly": true
+    },
+    {
+      "name": "get_teacher",
+      "title": "Teacher, scholar or figure",
+      "description": "A person profile: bio, years, traditions, works, their best talks, talks about them, lineage neighbours and places tied to them.",
+      "readOnly": true
+    },
+    {
+      "name": "get_lineage",
+      "title": "Lineage",
+      "description": "Walk teacher-student (dharma) and/or academic lineage edges up and down from a person or tradition. Every edge carries its confidence.",
+      "readOnly": true
+    },
+    {
+      "name": "list_practices",
+      "title": "Practices",
+      "description": "Practices (meditation, visualisation, enquiry, chant, ritual, movement) with steps in plain words, sources and cautions. Filter by tradition, kind or topic.",
+      "readOnly": true
+    },
+    {
+      "name": "get_collection",
+      "title": "Collection",
+      "description": "A curated set, journey, meditation series, visualisation cycle or syllabus with its ordered units and items. Omit id to list collections.",
+      "readOnly": true
+    },
+    {
+      "name": "recommend",
+      "title": "Recommend",
+      "description": "Stateless recommendations. Give ids the listener liked (clip ids, person/<id>, topic/<id>, tradition/<id>) and optionally disliked; returns diverse talks (taste x quality, MMR across traditions) and next topics to explore (graph neighbours + information gain). With no likes it returns a cold-start spread.",
+      "readOnly": true
+    },
+    {
+      "name": "fetch",
+      "title": "Fetch a record",
+      "description": "Fetch one Wiser record by the id returned from search (e.g. \"person/ajahn-chah\", \"place/tassajara\", \"resource/the-truth-of-rebirth-...\", \"topic/rebirth\") or its tantrafiles.xyz URL. Returns {id, title, text, url, metadata}; text is a readable summary, metadata carries kind, source_url, verified_on, confidence and licence.",
+      "readOnly": true
+    },
+    {
+      "name": "find_places",
+      "title": "Find places to practise",
+      "description": "Monasteries, retreat centres, ashrams, temples, study centres and sacred sites. Filter by tradition (includes its schools), school (exact), country (ISO code or name), region, type, status (active or heritage), living_teacher, and offers (e.g. \"residential\", \"10-day\", \"ordination\", \"online\", \"sanskrit\"; all must match). Every result carries source_url, verified_on and confidence.",
+      "readOnly": true
+    },
+    {
+      "name": "get_place",
+      "title": "Place details",
+      "description": "One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.",
+      "readOnly": true
+    },
+    {
+      "name": "find_teachers",
+      "title": "Find teachers, scholars and figures",
+      "description": "People in Wiser filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Wiser.",
+      "readOnly": true
+    },
+    {
+      "name": "get_resources",
+      "title": "Texts and books",
+      "description": "Texts, books and libraries per tradition, person or topic. access = free (publisher’s own free edition, linked never rehosted), paid-or-unknown (published works not known to be free), or no-link. Filter free=true for free reading only.",
+      "readOnly": true
+    },
+    {
+      "name": "get_lineage_path",
+      "title": "Lineage path between two people",
+      "description": "Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges. Each step says who taught/influenced whom, with confidence and a source link where recorded.",
+      "readOnly": true
+    },
+    {
+      "name": "what_to_study",
+      "title": "Study path for a tradition",
+      "description": "A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first). Every item carries source_url, verified_on, confidence and a canonical URL.",
+      "readOnly": true
+    }
+  ],
+  "openapi": "https://mcp.tantrafiles.xyz/openapi.json",
+  "llms": "https://tantrafiles.xyz/llms.txt",
+  "data": "https://tantrafiles.xyz/data/index.json",
+  "license": {
+    "data": "CC-BY-4.0",
+    "code": "MIT",
+    "attribution": "Wiser (tantrafiles.xyz)"
+  },
+  "updated": "2026-10-20"
+}

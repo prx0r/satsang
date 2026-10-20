@@ -1,0 +1,181 @@
+{
+ "_note": "Proposed new topic nodes for app/schema/topics.json from the advaita-hindu-tantra sourcing run (2026-10-20). root = existing or new root id; id = full slash path; keywords are case-insensitive regex fragments matched on word boundaries like the existing kw lists. Only nodes absent from topics.json v1.",
+ "additions": [
+  {
+   "root": "consciousness",
+   "id": "consciousness",
+   "label": "Consciousness",
+   "heat": "Consciousness: compare takes",
+   "keywords": [
+    "consciousness",
+    "awareness",
+    "aware(ness)? of (being )?aware",
+    "pure awareness",
+    "witness(ing)?",
+    "s[aā]k[sṣ]h?[iī]",
+    "chit",
+    "cit",
+    "chaitanya",
+    "caitanya",
+    "turiya",
+    "turīya",
+    "hard problem",
+    "being aware"
+   ]
+  },
+  {
+   "root": "consciousness",
+   "id": "consciousness/states",
+   "label": "Waking, dream & deep sleep",
+   "keywords": [
+    "deep sleep",
+    "dreamless sleep",
+    "dream state",
+    "waking state",
+    "three states",
+    "m[aā]ndukya",
+    "turiya",
+    "turīya",
+    "avasth[aā]"
+   ]
+  },
+  {
+   "root": "faith",
+   "id": "faith/bhakti",
+   "label": "Bhakti (devotion)",
+   "keywords": [
+    "bhakti",
+    "bhakta",
+    "devotion\\w*",
+    "devotee\\w*",
+    "love (of|for) god",
+    "divine mother",
+    "kirtan",
+    "surrender",
+    "prapatti",
+    "worship",
+    "ishta"
+   ]
+  },
+  {
+   "root": "faith",
+   "id": "faith/grace",
+   "label": "Grace",
+   "keywords": [
+    "grace",
+    "kripa",
+    "kṛpā",
+    "anugraha",
+    "shaktipat",
+    "śaktipāt",
+    "blessings?"
+   ]
+  },
+  {
+   "root": "guru",
+   "id": "guru",
+   "label": "The guru",
+   "heat": "The guru: compare takes",
+   "keywords": [
+    "guru\\w*",
+    "sadguru",
+    "satguru",
+    "(spiritual|the|a true|perfect) master",
+    "disciple\\w*",
+    "initiation",
+    "d[iī]k[sṣ]h?[aā]",
+    "spiritual teacher",
+    "lineage"
+   ]
+  },
+  {
+   "root": "self",
+   "id": "self/self-enquiry",
+   "label": "Self-enquiry",
+   "keywords": [
+    "self[- ]?enquiry",
+    "self[- ]?inquiry",
+    "[aā]tma[- ]?vich[aā]ra",
+    "who am i",
+    "nan yar",
+    "n[aā]n y[aā]r",
+    "i am that",
+    "sense of being",
+    "[‘'\"“]i am[’'\"”]"
+   ]
+  },
+  {
+   "root": "reality",
+   "id": "reality",
+   "label": "Reality & illusion",
+   "heat": "Is the world real? compare takes",
+   "keywords": [
+    "reality",
+    "real(ity)? of the world",
+    "brahman",
+    "non-?dual\\w*",
+    "advaita",
+    "oneness",
+    "illusion",
+    "unreal",
+    "absolute"
+   ]
+  },
+  {
+   "root": "reality",
+   "id": "reality/maya",
+   "label": "Maya",
+   "keywords": [
+    "m[aā]y[aā]",
+    "appearance",
+    "superimposition",
+    "adhy[aā]sa",
+    "rope and (the )?snake",
+    "snake and (the )?rope"
+   ]
+  },
+  {
+   "root": "meditation",
+   "id": "meditation/mantra",
+   "label": "Mantra & japa",
+   "keywords": [
+    "mantra\\w*",
+    "japa",
+    "om",
+    "aum",
+    "so-?ham",
+    "gayatri"
+   ]
+  },
+  {
+   "root": "meditation",
+   "id": "meditation/kriya",
+   "label": "Kriya, prana & kundalini",
+   "keywords": [
+    "kriya",
+    "kriyā",
+    "kundalini",
+    "kuṇḍalinī",
+    "pr[aā][nṇ]a",
+    "pranayama",
+    "prāṇāyāma",
+    "chakras?",
+    "spiritual eye",
+    "spine"
+   ]
+  },
+  {
+   "root": "kamma",
+   "id": "kamma/karma-yoga",
+   "label": "Karma yoga",
+   "keywords": [
+    "karma yoga",
+    "selfless (work|action|service)",
+    "nishkama",
+    "niṣkāma",
+    "work as worship",
+    "action without attachment"
+   ]
+  }
+ ]
+}

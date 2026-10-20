@@ -1,0 +1,98 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/curation.json",
+ "title": "User curation or essay",
+ "description": "User-authored. A curation is a Collection authored by a person (same item model), a hub-like page at /c/<handle>/<slug>. An essay is the user's own writing attached to a curation, topic, clip, text, practice or person. Public pages are CC BY 4.0 by default unless the author picks another licence; private ones never leave the account except in the author's own export. schema.org: Collection (curation) / Article or BlogPosting (essay), author Person.",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "curation"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9_-]{2,32}/[a-z0-9-]{1,80}$",
+   "description": "<handle>/<slug>"
+  },
+  "form": {
+   "type": "string",
+   "enum": [
+    "curation",
+    "essay"
+   ]
+  },
+  "author": {
+   "type": "string",
+   "description": "user/<handle>"
+  },
+  "title": {
+   "type": "string",
+   "maxLength": 140
+  },
+  "visibility": {
+   "$ref": "common.json#/$defs/visibility"
+  },
+  "body": {
+   "type": "string",
+   "maxLength": 40000,
+   "description": "Markdown (KaTeX allowed). Essays only; curations use intro."
+  },
+  "collection": {
+   "$ref": "collection.json"
+  },
+  "attachedTo": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/gid"
+   }
+  },
+  "license": {
+   "type": "string",
+   "enum": [
+    "CC-BY-4.0",
+    "CC-BY-SA-4.0",
+    "CC-BY-NC-4.0",
+    "all-rights-reserved"
+   ]
+  },
+  "moderation": {
+   "type": "object",
+   "properties": {
+    "state": {
+     "type": "string",
+     "enum": [
+      "ok",
+      "queued",
+      "hidden",
+      "removed"
+     ]
+    },
+    "reports": {
+     "type": "integer"
+    }
+   }
+  },
+  "stats": {
+   "type": "object",
+   "properties": {
+    "saves": {
+     "type": "integer"
+    },
+    "follows": {
+     "type": "integer"
+    }
+   }
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "form",
+  "author",
+  "title",
+  "visibility"
+ ],
+ "additionalProperties": true
+}

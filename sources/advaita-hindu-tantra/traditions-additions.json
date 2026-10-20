@@ -1,0 +1,29 @@
+{
+ "_note": "tradition node additions (same shape as app/wisegraph/traditions.json nodes)",
+ "nodes": [
+  {
+   "id": "direct-path",
+   "label": "Direct path",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": null,
+   "blurb": "The non-dual enquiry into experience taught by Atmananda Krishna Menon and carried on by Jean Klein, Francis Lucille and Rupert Spira."
+  },
+  {
+   "id": "arsha-vidya",
+   "label": "Arsha Vidya",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": null,
+   "blurb": "Traditional teaching of Advaita Vedanta through the texts, in the line of Swami Dayananda Saraswati (Arsha Vidya Gurukulam, Q4796497)."
+  },
+  {
+   "id": "modern-nondual",
+   "label": "Modern non-dual teachers",
+   "kind": "lineage",
+   "parent": "independent",
+   "wikidata": null,
+   "blurb": "Contemporary teachers of awakening who draw on Zen, Advaita and other sources without belonging to one lineage."
+  }
+ ]
+}

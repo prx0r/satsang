@@ -1,0 +1,108 @@
+{
+ "_note": "western group tradition nodes (2026-10-20), same shape as app/wisegraph/traditions.json.",
+ "nodes": [
+  {
+   "id": "hellenic",
+   "label": "Greek philosophy & Platonism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q193589",
+   "blurb": "Plato's philosophy and the schools that grew from it."
+  },
+  {
+   "id": "platonism",
+   "label": "Platonism",
+   "kind": "school",
+   "parent": "hellenic",
+   "wikidata": "Q193589",
+   "blurb": "Socrates, Pythagoras and Plato: the soul, the Forms and philosophy as preparation for death."
+  },
+  {
+   "id": "neoplatonism",
+   "label": "Neoplatonism",
+   "kind": "lineage",
+   "parent": "platonism",
+   "wikidata": "Q162145",
+   "blurb": "Plotinus, Porphyry, Iamblichus and Proclus: emanation from the One and the return of the soul."
+  },
+  {
+   "id": "renaissance-platonism",
+   "label": "Renaissance Platonism",
+   "kind": "lineage",
+   "parent": "platonism",
+   "wikidata": null,
+   "blurb": "Ficino and the Florentine revival of Plato and Plotinus."
+  },
+  {
+   "id": "christianity",
+   "label": "Christianity",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q5043"
+  },
+  {
+   "id": "christian-mysticism",
+   "label": "Christian mysticism",
+   "kind": "school",
+   "parent": "christianity",
+   "wikidata": "Q655970",
+   "blurb": "Dionysius, Eckhart, Porete and Böhme to Centering Prayer and today's contemplative teachers."
+  },
+  {
+   "id": "western-esotericism",
+   "label": "Western esotericism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q7988482",
+   "blurb": "Gnosticism, Hermeticism, Theosophy, Anthroposophy and the Fourth Way."
+  },
+  {
+   "id": "gnosticism",
+   "label": "Gnosticism",
+   "kind": "school",
+   "parent": "western-esotericism",
+   "wikidata": "Q48420",
+   "blurb": "Salvation through gnosis: the Nag Hammadi texts, Sethians and Valentinians."
+  },
+  {
+   "id": "theosophy",
+   "label": "Theosophy",
+   "kind": "school",
+   "parent": "western-esotericism",
+   "wikidata": "Q327625",
+   "blurb": "Blavatsky's Theosophical Society (1875) and its teachings on karma and reincarnation. Wikidata is the Society item."
+  },
+  {
+   "id": "anthroposophy",
+   "label": "Anthroposophy",
+   "kind": "lineage",
+   "parent": "theosophy",
+   "wikidata": "Q184719",
+   "blurb": "Rudolf Steiner's spiritual science, which split from the Theosophical Society in 1912–13."
+  },
+  {
+   "id": "fourth-way",
+   "label": "The Fourth Way",
+   "kind": "school",
+   "parent": "western-esotericism",
+   "wikidata": "Q470418",
+   "blurb": "Gurdjieff's Work: waking from sleep through self-remembering, carried on by Ouspensky and the Gurdjieff Foundations."
+  },
+  {
+   "id": "independent",
+   "label": "Independent teachers",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "Teachers outside any tradition or lineage."
+  },
+  {
+   "id": "krishnamurti",
+   "label": "Krishnamurti",
+   "kind": "school",
+   "parent": "independent",
+   "wikidata": null,
+   "blurb": "J. Krishnamurti's teaching after he left Theosophy in 1929: no path, no authority, freedom from the known."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wiser: which talk resonates?</title>
+<meta name="description" content="A journey through the questions people bring: teachers from the world's wisdom traditions speak to one topic in turn, and you keep the one that resonates. Compare how Theravāda, Advaita, Platonism and more answer rebirth, karma and the self.">
+<meta name="theme-color" content="#0a0d14">
+<meta property="og:site_name" content="Wiser"><meta property="og:title" content="Wiser: which talk resonates?"><meta property="og:description" content="Two talks, one quiet question: which resonates more? Compare the traditions on rebirth, karma and the self."><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="wiser-placemap" content="placemap.js">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<a id="brand" class="wordmark brand" href="#" aria-label="Wiser: back to the talks">WISER</a>
+<header class="top" id="chrome">
+  <nav>
+    <button data-tab="flash">Watch</button>
+    <button data-tab="foryou">For you</button>
+    <button data-tab="comics">Teachers</button>
+    <button data-tab="topics">Topics</button>
+    <button data-tab="places">Places</button>
+    <button data-tab="charts">Charts</button>
+    <button data-tab="me">Your model</button>
+  </nav>
+  <div id="daily" class="dailyhero" hidden></div>
+  <div class="usr">
+    <!-- Crowd laughs toggle: off with the laugh button (LAUGHS_ENABLED = false in src/app.js)
+    <button id="crowdbtn" class="fsbtn crowdbtn" type="button" aria-pressed="true" aria-label="Crowd laughs: on (tap to hide)" title="Crowd laughs on"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="13" r="6.2"/><path d="M6.4 11.6q1-1.3 2 0M9.6 11.6q1-1.3 2 0M6.2 14.4h5.6q-.6 2.6-2.8 2.6t-2.8-2.6z"/><path d="M16 9.5a3.4 3.4 0 1 1 3.5 5.6M17.5 5.5a2 2 0 1 1 2.4 2.6"/><path class="slash" d="M4 4l16 16"/></svg></button>
+    -->
+    <button id="userbtn" class="userbtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Your account"></button>
+    <div id="usermenu" class="usermenu" role="menu" hidden></div>
+  </div>
+</header>
+
+<main>
+  <section class="view" id="v-flash"><div id="flashview"></div><div id="fyrail" class="fyrail"></div></section>
+
+  <section class="view" id="v-foryou" hidden><div id="fyview"></div></section>
+
+  <section class="view" id="v-tv" hidden><div id="tvview"></div></section>
+
+  <section class="view" id="v-arena" hidden>
+    <div id="arena"><div id="feedbar" class="feedbar"></div><div id="stage" tabindex="-1" aria-live="polite"></div><div class="why" id="why"></div></div>
+    <div id="gest" class="gest" role="group" aria-label="Gestures">
+      <button type="button" id="gskip" class="gbtn gskip" aria-label="Skip this pair (swipe up, S)" title="Skip (swipe up)"><span class="gl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></span><span class="t">Skip</span></button>
+      <button type="button" id="gopp" class="gbtn gopp" aria-label="Next talk (swipe left, N)" title="Next talk (swipe left)" hidden><span class="gl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></span><span class="t">Next talk</span></button>
+    </div>
+    <div id="pullnext" class="pullnext" aria-hidden="true"><span class="pnvs">or</span><span class="pnt"><svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></svg>Next pair</span></div>
+  </section>
+
+  <section class="view" id="v-profile" hidden><div id="profileview"></div></section>
+
+  <section class="view" id="v-comics" hidden><div id="comicsview"></div></section>
+
+  <section class="view" id="v-topics" hidden><div id="topicsview"></div></section>
+
+  <section class="view" id="v-places" hidden><div id="placesview"></div></section>
+
+  <section class="view" id="v-me" hidden><div id="meview"></div></section>
+
+  <section class="view" id="v-col" hidden><div id="colview"></div></section>
+
+  <section class="view" id="v-charts" hidden>
+    <div class="head"><h2>Charts</h2></div>
+    <div class="boardsel"></div>
+    <div class="chartrow"><p class="boardmeta"></p><div id="chartbar" class="chartbar"></div></div>
+    <h3 class="shelf" id="comicshelf">Teachers and sources</h3><div id="comics" class="rail comics"></div>
+    <h3 class="shelf" id="clipshelf">Talks to start with</h3><div id="clips" class="rail"></div>
+  </section>
+
+  <section class="view" id="v-you" hidden>
+    <div class="subnav" role="tablist" aria-label="Your model and history"><button type="button" role="tab" data-sub="model" class="on" aria-selected="true">Your model</button><button type="button" role="tab" data-sub="history" aria-selected="false">History</button></div>
+    <div id="you"></div><div id="hist" hidden></div>
+  </section>
+</main>
+
+<footer>
+  <p>Talks play in YouTube’s official player, from the teachers’ own channels. By watching, you agree to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a> and the <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. Most resonant counts only picks made here.</p>
+  <p class="flinks"><a href="mailto:hello@tantrafiles.xyz?subject=Wiser%20takedown">Takedown request</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="credits.html">Credits</a></p>
+</footer>
+<div id="sheet" class="sheet" hidden></div>
+<div id="toast"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

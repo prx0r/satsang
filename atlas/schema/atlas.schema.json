@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tantrafiles.xyz/schema/atlas-v2.json",
+  "title": "Wiser Atlas: temporal knowledge graph v2 (extends wisegraph v1)",
+  "description": "Files: nodes.json {_meta, nodes[]}, edges.json {_meta, edges[]}, streams.json {groups[], lanes[], links[]}. Ids reuse wisegraph v1 ids (people.json, traditions.json) so v1 consumers keep working. See SCHEMA.md.",
+  "type": "object",
+  "$defs": {
+    "fuzzyTime": {
+      "type": ["object", "null"],
+      "description": "A fuzzy date. Years are integers, negative = BCE, there is no year 0. start/end are the widest plausible bounds of the estimate, not a point.",
+      "required": ["start", "end", "precision", "basis", "confidence", "label"],
+      "properties": {
+        "dsl": {"type": "string", "description": "the compact source form, e.g. 'c950..1016', 'C-6', 't:-563..-483', '1960..'"},
+        "start": {"type": ["integer", "null"]},
+        "end": {"type": ["integer", "null"], "description": "null with open=true means ongoing (living person, active school)"},
+        "open": {"type": "boolean"},
+        "start_unknown": {"type": "boolean"},
+        "circa": {"type": "boolean"},
+        "precision": {"enum": ["year", "circa", "century", "derived"]},
+        "basis": {"enum": ["historical", "traditional", "scholarly"], "description": "traditional = the tradition's own (often hagiographic) dating; scholarly = modern critical estimate where it differs from received history"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "label": {"type": "string", "description": "display string, e.g. 'c. 950–1016', '6th c. BCE', '563–483 BCE (traditional)'"},
+        "derived": {"type": "string", "description": "on edges: how the time was inferred when not stated (e.g. 'overlap of lives')"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["check"],
+      "anyOf": [{"required": ["cite"]}, {"required": ["url"]}],
+      "properties": {
+        "cite": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "doi": {"type": "string"},
+        "check": {"enum": ["work", "cited", "mentioned", "unverified", "needs_source", "reviewed"],
+          "description": "work = the scholar's own publication; cited = a source named by the curator; mentioned = the cited article names the other end (machine check, not proof of the relation); unverified = a relevant article cited but the link was not found in it; needs_source = curator assertion only; reviewed = a human checked the claim against the source"},
+        "match": {"type": "string", "description": "the name variant found by the mention check"}
+      }
+    },
+    "work": {
+      "type": "object",
+      "required": ["id", "title", "year", "kind"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "year": {"type": "integer", "description": "first publication year of this edition/translation"},
+        "kind": {"enum": ["book", "critical_edition", "translation", "article", "commentary"]},
+        "publisher": {"type": ["string", "null"]},
+        "doi": {"type": "string"},
+        "url": {"type": "string"},
+        "isbn": {"type": "string"},
+        "lang": {"type": "string"},
+        "treats": {"type": "array", "items": {"type": "string"}, "description": "node ids of the primary texts / figures the work edits, translates or studies"},
+        "note": {"type": "string"},
+        "ids": {"type": "object", "description": "openpatala / OpenAlex / Crossref ids when matched", "additionalProperties": {"type": "string"}}
+      }
+    },
+    "node": {
+      "type": "object",
+      "required": ["id", "kind", "label", "streams", "time", "ids"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "lowercase-hyphen; v1 ids kept verbatim; new non-person kinds use prefixes c- p- pl- d- ev-"},
+        "kind": {"enum": ["person", "scholar", "text", "school", "lineage", "concept", "practice", "place", "deity", "event"]},
+        "label": {"type": "string"},
+        "alt": {"type": "array", "items": {"type": "string"}},
+        "stream": {"type": ["string", "null"], "description": "primary swimlane (streams.json lanes[].id); concepts may have none"},
+        "streams": {"type": "array", "items": {"type": "string"}},
+        "time": {"$ref": "#/$defs/fuzzyTime", "description": "life for persons, composition for texts, floruit/activity for schools, date for events"},
+        "time_alt": {"type": "array", "items": {"$ref": "#/$defs/fuzzyTime"}, "description": "competing datings, e.g. traditional vs scholarly"},
+        "ids": {"type": "object", "properties": {"wikidata": {"type": "string"}, "enwiki": {"type": "string"}, "orcid": {"type": "string"}, "viaf": {"type": "string"}, "patala": {"type": "string"}, "pandit": {"type": "string"}, "gretil": {"type": "string"}, "cts": {"type": "string"}}},
+        "tradition": {"type": ["string", "null"], "description": "the most specific wisegraph v1 traditions.json id this node belongs to (v1 compatibility)"},
+        "legacy": {"type": ["object", "null"], "description": "{table: people|traditions, id, kind} when the node exists in wisegraph v1"},
+        "place": {"type": "string", "description": "id of a place node"},
+        "note": {"type": "string"},
+        "talks": {"type": "object", "description": "computed from app/clips.json: by (speaker), about (figures[]), topics"},
+        "works": {"type": "array", "items": {"$ref": "#/$defs/work"}, "description": "scholars only"}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["id", "from", "to", "type", "conf", "basis", "provenance"],
+      "properties": {
+        "id": {"type": "string"},
+        "from": {"type": "string"},
+        "to": {"type": "string"},
+        "type": {"enum": [
+          "teacher_of", "initiated", "influenced", "commented_on", "translated", "founded", "schism_from", "synthesis_of",
+          "opposed", "located_at", "expounds", "parallels", "part_of",
+          "studied", "critical_edition_of", "commentary_on", "doctoral_advisor_of", "academic_teacher_of"]},
+        "lineage": {"type": "string", "description": "name of the transmission line for teacher_of / initiated (e.g. 'kagyu', 'trika-line', 'thai-forest')"},
+        "conf": {"enum": ["high", "medium", "low"]},
+        "basis": {"enum": ["historical", "traditional"], "description": "traditional = asserted by the tradition (hagiographic lineage, revelation, attributed authorship)"},
+        "time": {"$ref": "#/$defs/fuzzyTime"},
+        "provenance": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/provenance"}},
+        "note": {"type": "string"},
+        "contested": {"type": "object", "properties": {"status": {"enum": ["contested", "rejected_by_most", "minority"]}, "note": {"type": "string"}, "positions": {"type": "array", "items": {"type": "object", "properties": {"holder": {"type": "string"}, "claim": {"type": "string"}, "cite": {"type": "string"}}}}}},
+        "work": {"type": "string", "description": "id of the scholar work this edge comes from"},
+        "legacy_type": {"enum": ["teacher_of", "influenced", "lineage_of"], "description": "how the edge projects into wisegraph v1 edges.json"},
+        "cross_stream": {"type": "boolean"}
+      }
+    },
+    "lane": {
+      "type": "object",
+      "required": ["id", "label", "group", "order", "span", "colour"],
+      "properties": {
+        "id": {"type": "string"}, "label": {"type": "string"}, "group": {"type": "string"}, "order": {"type": "integer"},
+        "span": {"$ref": "#/$defs/fuzzyTime"}, "colour": {"type": "string"},
+        "legacy": {"type": "object", "properties": {"family": {"type": "string"}, "school": {"type": ["string", "null"]}}},
+        "nodes": {"type": "integer"}
+      }
+    }
+  },
+  "properties": {
+    "nodes": {"type": "array", "items": {"$ref": "#/$defs/node"}},
+    "edges": {"type": "array", "items": {"$ref": "#/$defs/edge"}},
+    "lanes": {"type": "array", "items": {"$ref": "#/$defs/lane"}}
+  }
+}

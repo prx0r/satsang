@@ -1,0 +1,109 @@
+{
+ "_note": "Topic leaves used in deep-tantra rows that are NOT in app/schema/topics.json v1. Shape matches advaita-hindu-tantra/topics-additions.json.",
+ "additions": [
+  {
+   "root": "meditation",
+   "id": "meditation/kundalini",
+   "label": "Kundalini & the subtle body",
+   "keywords": [
+    "ku[nṇ][dḍ]alin[iī]",
+    "chakras?",
+    "cakras?",
+    "n[aā][dḍ][iī]s?",
+    "subtle body",
+    "energy body",
+    "pr[aā][nṇ]a",
+    "shaktipat",
+    "śaktipāt"
+   ]
+  },
+  {
+   "root": "meditation",
+   "id": "meditation/hatha",
+   "label": "Haṭha practice (posture, mudrā)",
+   "keywords": [
+    "ha[tṭ]ha",
+    "[aā]sanas?",
+    "postur\\w*",
+    "mudr[aā]s?",
+    "kh?ecar[iī]",
+    "bandhas?"
+   ]
+  },
+  {
+   "root": "divine",
+   "id": "divine/goddess",
+   "label": "The Goddess (Śakti, Devī, Kālī)",
+   "keywords": [
+    "goddess\\w*",
+    "devi",
+    "shakti",
+    "śakti",
+    "k[aā]l[iī]",
+    "lalit[aā]",
+    "tripura\\w*",
+    "durga",
+    "yogin[iī]s?",
+    "mah[aā]vidy\\w*",
+    "divine feminine",
+    "divine mother",
+    "bhairav[iī]"
+   ]
+  },
+  {
+   "root": "texts",
+   "id": "texts/tantra",
+   "label": "Tantras & Śaiva scriptures",
+   "keywords": [
+    "tantra\\w*",
+    "tantr[aā]loka",
+    "shiva ?s[uū]tras?",
+    "spanda",
+    "vij[nñ][aā]na[- ]?bhairava",
+    "pratyabhij\\w*",
+    "[aā]gamas?",
+    "k[aā]rik[aā]"
+   ]
+  },
+  {
+   "root": "texts",
+   "id": "texts/history",
+   "label": "History & manuscripts",
+   "keywords": [
+    "histor\\w*",
+    "manuscripts?",
+    "origins?",
+    "medieval",
+    "archaeolog\\w*",
+    "inscriptions?"
+   ]
+  },
+  {
+   "root": "ritual",
+   "id": "ritual",
+   "label": "Ritual, worship & initiation",
+   "heat": "Ritual: does form matter?",
+   "keywords": [
+    "ritual\\w*",
+    "puj[aā]",
+    "yantra",
+    "ma[nṇ][dḍ]ala",
+    "ny[aā]sa",
+    "initiation",
+    "d[iī]k[sṣ][aā]",
+    "worship",
+    "offering\\w*",
+    "homa"
+   ]
+  }
+ ],
+ "keyword_overrides_used": {
+  "emotions/sadness": "dropped sad\\w* (matched sādhana/Sadhguru)",
+  "relationships": "dropped mother/father (Divine Mother)",
+  "rebirth": "dropped bhava",
+  "kamma": "dropped intention/merit",
+  "meditation/kriya": "limited to Kriya Yoga terms; kundalini/chakra moved to meditation/kundalini",
+  "virtue": "dropped lie/lying",
+  "craving/sensuality": "sensual, kāma only"
+ }
+}

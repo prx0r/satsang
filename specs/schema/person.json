@@ -1,0 +1,159 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/person.json",
+ "title": "Person (teacher, scholar or figure)",
+ "description": "One human (or a personified source such as Hermes Trismegistus). Roles are not exclusive: Thanissaro is teacher + translator. schema.org: Person.",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "person"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "name": {
+   "type": "string"
+  },
+  "short": {
+   "type": "string",
+   "description": "Short display name, e.g. 'Ajaan Geoff'."
+  },
+  "roles": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "enum": [
+     "teacher",
+     "scholar",
+     "figure",
+     "translator",
+     "founder",
+     "author"
+    ]
+   },
+   "minItems": 1,
+   "uniqueItems": true
+  },
+  "onVideo": {
+   "type": "boolean",
+   "description": "Has talks of their own on Wiser (was k:'speaker')."
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   },
+   "description": "Tradition node ids, most specific first. traditions[0] is the home node."
+  },
+  "years": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "living": {
+   "type": "boolean",
+   "description": "true only when no death date anywhere and nothing contradicts it."
+  },
+  "bio": {
+   "type": "string",
+   "maxLength": 600,
+   "description": "1–2 sentences, Wiser's own words."
+  },
+  "tagline": {
+   "type": "string",
+   "maxLength": 140
+  },
+  "image": {
+   "$ref": "common.json#/$defs/image"
+  },
+  "ids": {
+   "$ref": "common.json#/$defs/ids"
+  },
+  "links": {
+   "$ref": "common.json#/$defs/links"
+  },
+  "works": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "title"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "year": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "kind": {
+      "type": "string",
+      "description": "Open vocabulary; common: book, talk series, retreat, text, critical_edition, translation, article, thesis, dialogues."
+     },
+     "publisher": {
+      "type": "string"
+     },
+     "doi": {
+      "type": "string"
+     },
+     "url": {
+      "$ref": "common.json#/$defs/url"
+     },
+     "free": {
+      "type": "boolean"
+     },
+     "treats": {
+      "type": "array",
+      "items": {
+       "$ref": "common.json#/$defs/gid"
+      }
+     }
+    }
+   }
+  },
+  "depth": {
+   "type": "object",
+   "description": "Computed, never hand-set.",
+   "properties": {
+    "clips": {
+     "type": "integer"
+    },
+    "fullTalks": {
+     "type": "integer"
+    },
+    "about": {
+     "type": "integer"
+    },
+    "topics": {
+     "type": "integer"
+    },
+    "tier": {
+     "type": "string",
+     "enum": [
+      "main",
+      "more-voices",
+      "figure"
+     ]
+    },
+    "minutes": {
+     "type": "number"
+    }
+   }
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "name",
+  "roles",
+  "traditions"
+ ],
+ "additionalProperties": true
+}

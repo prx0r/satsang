@@ -1,0 +1,21 @@
+{
+ "_note": "advaita-extra tradition node additions. Wikidata null where not verified.",
+ "nodes": [
+  {
+   "id": "anandamayi-sangha",
+   "label": "Anandamayi Ma Sangha",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "The ashrams and monastics around Anandamayi Ma (Shree Shree Anandamayee Sangha, Kankhal and Varanasi), devotional and non-sectarian."
+  },
+  {
+   "id": "divine-life-society",
+   "label": "Divine Life Society",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": null,
+   "blurb": "The order founded by Swami Sivananda in Rishikesh, carried on by Swami Chidananda."
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "_note": "places-uk tradition nodes (2026-10-20). Same shape as app/wisegraph/traditions.json additions. Wikidata ids checked against their English labels (trad_wd.json); a failed check leaves wikidata null.",
+ "nodes": [
+  {
+   "id": "modern-paganism",
+   "label": "Modern Paganism",
+   "kind": "tradition",
+   "parent": null,
+   "wikidata": "Q189753",
+   "blurb": "Contemporary nature religions reviving or reimagining pre-Christian European traditions.",
+   "wikidata_label": "modern paganism"
+  },
+  {
+   "id": "druidry",
+   "label": "Druidry",
+   "kind": "tradition",
+   "parent": "modern-paganism",
+   "wikidata": "Q1541838",
+   "blurb": "Modern Druid spirituality of nature, the seasonal festivals and bardic arts, as in OBOD.",
+   "wikidata_label": "Druidry"
+  },
+  {
+   "id": "wicca",
+   "label": "Wicca",
+   "kind": "tradition",
+   "parent": "modern-paganism",
+   "wikidata": "Q59774",
+   "blurb": "Modern pagan witchcraft publicised by Gerald Gardner from the 1950s, with covens, the Goddess and God and the wheel of the year.",
+   "wikidata_label": "Wicca"
+  },
+  {
+   "id": "heathenry",
+   "label": "Heathenry",
+   "kind": "tradition",
+   "parent": "modern-paganism",
+   "wikidata": null,
+   "blurb": "Modern revival of pre-Christian Germanic and Norse religion (Asatru, Odinism)."
+  },
+  {
+   "id": "goddess-spirituality",
+   "label": "Goddess spirituality",
+   "kind": "tradition",
+   "parent": "modern-paganism",
+   "wikidata": "Q3866624",
+   "blurb": "Devotion to the divine feminine as Goddess, centred in the UK on Glastonbury.",
+   "wikidata_label": "Goddess movement"
+  },
+  {
+   "id": "western-magic",
+   "label": "Western ceremonial magic",
+   "kind": "tradition",
+   "parent": "esoteric",
+   "wikidata": "Q2155334",
+   "blurb": "Ritual and initiatory magic in the Hermetic and Qabalistic line: the Golden Dawn, Thelema, the Inner Light.",
+   "wikidata_label": "ceremonial magick"
+  },
+  {
+   "id": "golden-dawn",
+   "label": "Hermetic Order of the Golden Dawn",
+   "kind": "lineage",
+   "parent": "western-magic",
+   "wikidata": "Q368173",
+   "blurb": "Initiatory order founded in London in 1888 that shaped modern Western magic.",
+   "wikidata_label": "Hermetic Order of the Golden Dawn"
+  },
+  {
+   "id": "thelema",
+   "label": "Thelema",
+   "kind": "lineage",
+   "parent": "western-magic",
+   "wikidata": "Q745955",
+   "blurb": "Aleister Crowley's religious and magical system (\"Do what thou wilt\").",
+   "wikidata_label": "Thelema"
+  },
+  {
+   "id": "sufism",
+   "label": "Sufism",
+   "kind": "tradition",
+   "parent": null,
+   "wikidata": "Q9603",
+   "blurb": "The inward, mystical dimension of Islam, transmitted through orders (tariqas) of masters and disciples.",
+   "wikidata_label": "Sufism"
+  },
+  {
+   "id": "naqshbandi",
+   "label": "Naqshbandi order",
+   "kind": "lineage",
+   "parent": "sufism",
+   "wikidata": "Q32078",
+   "blurb": "Sufi order known for silent remembrance (dhikr) and tracing its chain through Abu Bakr.",
+   "wikidata_label": "Naqshbandi"
+  },
+  {
+   "id": "inayati",
+   "label": "Inayati Order",
+   "kind": "lineage",
+   "parent": "sufism",
+   "wikidata": "Q5734123",
+   "blurb": "Universal Sufism of Hazrat Inayat Khan, founded in London around 1914-1917.",
+   "wikidata_label": "Inayati Order"
+  },
+  {
+   "id": "akbarian",
+   "label": "Akbarian school (Ibn 'Arabi)",
+   "kind": "lineage",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": "Study and practice centred on Ibn 'Arabi's teaching of the unity of being, as at Beshara."
+  },
+  {
+   "id": "kabbalah",
+   "label": "Kabbalah",
+   "kind": "tradition",
+   "parent": null,
+   "wikidata": "Q123006",
+   "blurb": "Jewish mystical tradition of the sefirot and the hidden meanings of Torah; also its modern popular forms.",
+   "wikidata_label": "Kabbalah"
+  },
+  {
+   "id": "quaker",
+   "label": "Quakers (Religious Society of Friends)",
+   "kind": "tradition",
+   "parent": "christian",
+   "wikidata": "Q170208",
+   "blurb": "Christian movement begun by George Fox in 1652, worshipping in expectant silence.",
+   "wikidata_label": "Quakers"
+  },
+  {
+   "id": "christian-meditation",
+   "label": "Christian meditation (WCCM)",
+   "kind": "lineage",
+   "parent": "christian-mysticism",
+   "wikidata": "Q8035558",
+   "blurb": "Contemplative prayer with a single prayer word, taught by John Main and the World Community for Christian Meditation.",
+   "wikidata_label": "World Community for Christian Meditation"
+  },
+  {
+   "id": "benedictine",
+   "label": "Benedictine monasticism",
+   "kind": "lineage",
+   "parent": "christian",
+   "wikidata": "Q131132",
+   "blurb": "Monastic life under the Rule of St Benedict.",
+   "wikidata_label": "Benedictines"
+  },
+  {
+   "id": "cistercian",
+   "label": "Cistercians (Trappists)",
+   "kind": "lineage",
+   "parent": "benedictine",
+   "wikidata": "Q166861",
+   "blurb": "Reformed Benedictines; Trappists are the Strict Observance.",
+   "wikidata_label": "Cistercians"
+  },
+  {
+   "id": "franciscan",
+   "label": "Franciscans",
+   "kind": "lineage",
+   "parent": "christian",
+   "wikidata": "Q165005",
+   "blurb": "Followers of St Francis; in the UK including the Anglican Society of St Francis.",
+   "wikidata_label": "Franciscans"
+  },
+  {
+   "id": "carmelite",
+   "label": "Carmelites",
+   "kind": "lineage",
+   "parent": "christian-mysticism",
+   "wikidata": "Q186277",
+   "blurb": "Contemplative order of Teresa of Avila and John of the Cross.",
+   "wikidata_label": "Carmelites"
+  },
+  {
+   "id": "ignatian",
+   "label": "Ignatian spirituality",
+   "kind": "lineage",
+   "parent": "christian",
+   "wikidata": "Q5992682",
+   "blurb": "The Jesuit way of the Spiritual Exercises of Ignatius of Loyola.",
+   "wikidata_label": "Ignatian spirituality"
+  },
+  {
+   "id": "celtic-christianity",
+   "label": "Celtic Christianity",
+   "kind": "lineage",
+   "parent": "christian",
+   "wikidata": "Q1258552",
+   "blurb": "The early Christianity of Britain and Ireland (Columba, Aidan, Cuthbert, David) and its modern revival.",
+   "wikidata_label": "Celtic Christianity"
+  },
+  {
+   "id": "orthodox-hesychasm",
+   "label": "Orthodox hesychasm",
+   "kind": "lineage",
+   "parent": "christian-mysticism",
+   "wikidata": "Q629589",
+   "blurb": "Eastern Orthodox prayer of inner stillness and the Jesus Prayer.",
+   "wikidata_label": "hesychasm"
+  },
+  {
+   "id": "triratna",
+   "label": "Triratna Buddhist Community",
+   "kind": "lineage",
+   "parent": "buddhism",
+   "wikidata": "Q463420",
+   "blurb": "Western Buddhist movement founded by Sangharakshita in London in 1967 (formerly FWBO).",
+   "wikidata_label": "Triratna Buddhist Community"
+  },
+  {
+   "id": "fpmt",
+   "label": "FPMT",
+   "kind": "lineage",
+   "parent": "gelug",
+   "wikidata": "Q1439860",
+   "blurb": "Gelug network of Lama Yeshe and Lama Zopa Rinpoche.",
+   "wikidata_label": "Foundation for the Preservation of the Mahayana Tradition"
+  },
+  {
+   "id": "new-kadampa",
+   "label": "New Kadampa Tradition",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q1979669",
+   "blurb": "Movement founded by Kelsang Gyatso in England, presenting itself as independent of the Tibetan schools (Gelug-derived; contested).",
+   "wikidata_label": "New Kadampa Tradition"
+  },
+  {
+   "id": "sakya",
+   "label": "Sakya",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q650035",
+   "blurb": "One of the four main Tibetan schools, known for the Lamdre.",
+   "wikidata_label": "Sakya"
+  },
+  {
+   "id": "shambhala",
+   "label": "Shambhala",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": "Q7487456",
+   "blurb": "Chogyam Trungpa's secular and Buddhist path of warriorship.",
+   "wikidata_label": "Shambhala Buddhism"
+  },
+  {
+   "id": "serene-reflection",
+   "label": "Order of Buddhist Contemplatives (Serene Reflection)",
+   "kind": "lineage",
+   "parent": "soto-zen",
+   "wikidata": "Q99399713",
+   "blurb": "Soto Zen order founded by Jiyu-Kennett, seated at Shasta Abbey and Throssel Hole.",
+   "wikidata_label": "Order of Buddhist Contemplatives"
+  },
+  {
+   "id": "nipponzan-myohoji",
+   "label": "Nipponzan-Myohoji",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": "Q1993340",
+   "blurb": "Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas.",
+   "wikidata_label": "Nipponzan-Myōhōji-Daisanga"
+  },
+  {
+   "id": "sikh",
+   "label": "Sikhism",
+   "kind": "tradition",
+   "parent": null,
+   "wikidata": "Q9316",
+   "blurb": "The path of the ten Gurus and the Guru Granth Sahib.",
+   "wikidata_label": "Sikhism"
+  },
+  {
+   "id": "iskcon",
+   "label": "ISKCON (Hare Krishna)",
+   "kind": "lineage",
+   "parent": "gaudiya-vaishnava",
+   "wikidata": "Q190193",
+   "blurb": "International Society for Krishna Consciousness, founded by A. C. Bhaktivedanta Swami Prabhupada in 1966.",
+   "wikidata_label": "International Society for Krishna Consciousness"
+  },
+  {
+   "id": "gaudiya-vaishnava",
+   "label": "Gaudiya Vaishnavism",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": "Q1144575",
+   "blurb": "Krishna devotion in the line of Chaitanya Mahaprabhu.",
+   "wikidata_label": "Gaudiya Vaishnavism"
+  },
+  {
+   "id": "swaminarayan",
+   "label": "Swaminarayan Sampradaya",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": "Q4155728",
+   "blurb": "Vaishnava tradition of Swaminarayan, including BAPS.",
+   "wikidata_label": "Swaminarayan Hinduism"
+  },
+  {
+   "id": "sivananda-yoga-vedanta",
+   "label": "Sivananda Yoga Vedanta",
+   "kind": "lineage",
+   "parent": "divine-life-society",
+   "wikidata": "Q2369406",
+   "blurb": "Swami Vishnudevananda's international centres teaching his guru Sivananda's yoga.",
+   "wikidata_label": "International Sivananda Yoga Vedanta Centres"
+  },
+  {
+   "id": "satyananda-yoga",
+   "label": "Satyananda Yoga",
+   "kind": "lineage",
+   "parent": "divine-life-society",
+   "wikidata": "Q14907106",
+   "blurb": "Yoga of Swami Satyananda, disciple of Sivananda, and the Bihar School of Yoga.",
+   "wikidata_label": "Satyananda-yoga"
+  },
+  {
+   "id": "brahma-kumaris",
+   "label": "Brahma Kumaris",
+   "kind": "tradition",
+   "parent": "hindu",
+   "wikidata": "Q897299",
+   "blurb": "Spiritual movement founded in Sindh in the 1930s, teaching Raja Yoga meditation; headquarters at Mount Abu.",
+   "wikidata_label": "Brahma Kumaris"
+  },
+  {
+   "id": "transcendental-meditation",
+   "label": "Transcendental Meditation",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": "Q558571",
+   "blurb": "Mantra meditation of Maharishi Mahesh Yogi.",
+   "wikidata_label": "Transcendental Meditation"
+  },
+  {
+   "id": "swedenborgian",
+   "label": "Swedenborgianism",
+   "kind": "lineage",
+   "parent": "esoteric",
+   "wikidata": "Q1755789",
+   "blurb": "Thought and church following the visions of Emanuel Swedenborg.",
+   "wikidata_label": "The New Church"
+  },
+  {
+   "id": "spiritualism",
+   "label": "Spiritualism",
+   "kind": "tradition",
+   "parent": "esoteric",
+   "wikidata": "Q829348",
+   "blurb": "Movement based on communication with the dead through mediums.",
+   "wikidata_label": "spiritualism"
+  }
+ ]
+}

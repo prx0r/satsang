@@ -1,0 +1,447 @@
+{
+ "_note": "Directed from -> to. Types: teacher_of (spiritual), academic_supervisor_of (PhD/MA), influenced, translated, founded. Every edge carries the URL I checked (2026-10-20) unless the note says otherwise.",
+ "edges": [
+  {
+   "from": "alexander-altmann",
+   "to": "arthur-green",
+   "type": "academic_supervisor_of",
+   "source": "https://en.wikipedia.org/wiki/Arthur_Green",
+   "confidence": "high",
+   "note": "Doctoral advisor (Brandeis)."
+  },
+  {
+   "from": "alexander-altmann",
+   "to": "elliot-wolfson",
+   "type": "academic_supervisor_of",
+   "source": "https://en.wikipedia.org/wiki/Elliot_R._Wolfson",
+   "confidence": "high",
+   "note": "PhD 1986 on Sefer ha-Rimmon."
+  },
+  {
+   "from": "alexander-altmann",
+   "to": "daniel-matt",
+   "type": "academic_supervisor_of",
+   "source": "https://en.wikipedia.org/wiki/Alexander_Altmann",
+   "confidence": "high",
+   "note": "Listed among Brandeis students whose work Altmann supervised."
+  },
+  {
+   "from": "shlomo-pines",
+   "to": "moshe-idel",
+   "type": "academic_supervisor_of",
+   "source": "https://library.oapen.org/rest/bitstreams/e915c1d2-d281-48e0-b933-153103f68fe2/retrieve",
+   "confidence": "high",
+   "note": "PhD Hebrew University 1976 on Abulafia, under Pines and Gottlieb."
+  },
+  {
+   "from": "ephraim-gottlieb",
+   "to": "moshe-idel",
+   "type": "academic_supervisor_of",
+   "source": "https://library.oapen.org/rest/bitstreams/e915c1d2-d281-48e0-b933-153103f68fe2/retrieve",
+   "confidence": "high"
+  },
+  {
+   "from": "gershom-scholem",
+   "to": "moshe-idel",
+   "type": "influenced",
+   "source": "https://en.wikipedia.org/wiki/Moshe_Idel",
+   "confidence": "medium",
+   "note": "Idel later succeeded to Scholem's chair; also his critic."
+  },
+  {
+   "from": "abraham-joshua-heschel",
+   "to": "arthur-green",
+   "type": "teacher_of",
+   "source": "https://en.wikipedia.org/wiki/Arthur_Green",
+   "confidence": "high",
+   "note": "Studied privately with Heschel at JTS."
+  },
+  {
+   "from": "zalman-schachter-shalomi",
+   "to": "arthur-green",
+   "type": "influenced",
+   "source": "https://en.wikipedia.org/wiki/Arthur_Green",
+   "confidence": "high",
+   "note": "\"Lifelong friend and mentor\"."
+  },
+  {
+   "from": "seyyed-hossein-nasr",
+   "to": "william-chittick",
+   "type": "academic_supervisor_of",
+   "source": "https://en.wikipedia.org/wiki/William_Chittick",
+   "confidence": "high",
+   "note": "PhD Tehran 1974 under Nasr."
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "martin-lings",
+   "type": "teacher_of",
+   "source": "https://en.wikipedia.org/wiki/Martin_Lings",
+   "confidence": "high",
+   "note": "Disciple from 1938."
+  },
+  {
+   "from": "rene-guenon",
+   "to": "martin-lings",
+   "type": "influenced",
+   "source": "https://en.wikipedia.org/wiki/Martin_Lings",
+   "confidence": "high",
+   "note": "Lings was Guénon's assistant in Cairo."
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "seyyed-hossein-nasr",
+   "type": "teacher_of",
+   "source": "https://religioperennis.org/documents/laude/NasrSchuon.pdf",
+   "confidence": "high",
+   "note": "Member of Schuon's Maryamiyya; acknowledges direct debt."
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "huston-smith",
+   "type": "influenced",
+   "source": "https://worldwisdom.com/wp-content/uploads/2025/05/L392-Is_There_a_Perennial_Philosophy.pdf",
+   "confidence": "medium",
+   "note": "Smith names Schuon among the perennialists his Forgotten Truth draws on."
+  },
+  {
+   "from": "henry-corbin",
+   "to": "william-chittick",
+   "type": "influenced",
+   "source": "https://en.wikipedia.org/wiki/William_Chittick",
+   "confidence": "medium",
+   "note": "Wikipedia infobox influence."
+  },
+  {
+   "from": "abdullah-daghestani",
+   "to": "nazim-al-haqqani",
+   "type": "teacher_of",
+   "source": "https://naqshbandi.org/tariqa/living-masters/hajjah-naziha-adil/",
+   "confidence": "high",
+   "note": "Nazim was Grandshaykh Abdullah's deputy and successor."
+  },
+  {
+   "from": "nazim-al-haqqani",
+   "to": "hisham-kabbani",
+   "type": "teacher_of",
+   "source": "https://naqshbandi.org/tariqa/living-masters/shaykh-muhammad-hisham-kabbani",
+   "confidence": "high",
+   "note": "Deputy and son-in-law."
+  },
+  {
+   "from": "hisham-kabbani",
+   "to": "nour-kabbani",
+   "type": "teacher_of",
+   "source": "https://sufilive.com/dnk/index.cfm",
+   "confidence": "high",
+   "note": "Son; authorised 2018."
+  },
+  {
+   "from": "munes-ali-shah",
+   "to": "javad-nurbakhsh",
+   "type": "teacher_of",
+   "source": "https://www.nimatullahi.org/dr-javad-nurbakhsh",
+   "confidence": "high",
+   "note": "Succeeded his master in 1953."
+  },
+  {
+   "from": "javad-nurbakhsh",
+   "to": "alireza-nurbakhsh",
+   "type": "teacher_of",
+   "source": "https://www.nimatullahi.org/masters-of-the-path",
+   "confidence": "high",
+   "note": "Son and successor, 2008."
+  },
+  {
+   "from": "hazrat-inayat-khan",
+   "to": "inayatiyya",
+   "type": "founded",
+   "source": "https://en.wikipedia.org/wiki/Inayati_Order",
+   "confidence": "high"
+  },
+  {
+   "from": "hazrat-inayat-khan",
+   "to": "vilayat-inayat-khan",
+   "type": "teacher_of",
+   "source": "https://inayatiyya.org/our-lineage",
+   "confidence": "high",
+   "note": "Eldest son and successor."
+  },
+  {
+   "from": "vilayat-inayat-khan",
+   "to": "pir-zia-inayat-khan",
+   "type": "teacher_of",
+   "source": "https://pirzia.org/bio/",
+   "confidence": "high",
+   "note": "Trained by his father; confirmed successor 2000/2001."
+  },
+  {
+   "from": "john-main",
+   "to": "laurence-freeman",
+   "type": "teacher_of",
+   "source": "https://wccm.org/people/laurence-freeman/",
+   "confidence": "high"
+  },
+  {
+   "from": "john-main",
+   "to": "wccm",
+   "type": "founded",
+   "source": "https://wccm.org/about",
+   "confidence": "high",
+   "note": "WCCM named 1991; site credits Main and Freeman as founders."
+  },
+  {
+   "from": "laurence-freeman",
+   "to": "wccm",
+   "type": "founded",
+   "source": "https://wccm-usa.org/about-wccm-usa/about-fr-laurence-freeman-osb",
+   "confidence": "high",
+   "note": "Established the international centre 1991."
+  },
+  {
+   "from": "thomas-keating",
+   "to": "cynthia-bourgeault",
+   "type": "teacher_of",
+   "source": "https://www.cynthiabourgeault.org/meet-cynthia",
+   "confidence": "high",
+   "note": "Student then colleague for 30+ years."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "cynthia-bourgeault",
+   "type": "influenced",
+   "source": "https://www.cynthiabourgeault.org/meet-cynthia",
+   "confidence": "high",
+   "note": "Student of the Gurdjieff Work for nearly three decades."
+  },
+  {
+   "from": "thomas-merton",
+   "to": "james-finley",
+   "type": "teacher_of",
+   "source": "https://cac.org/about/cac-faculty/james-finley",
+   "confidence": "high",
+   "note": "Novice master and spiritual director at Gethsemani, 1962–67."
+  },
+  {
+   "from": "richard-rohr",
+   "to": "cac",
+   "type": "founded",
+   "source": "https://www.youtube.com/channel/UCMkqKAtSgijU439fJUNHnkA",
+   "confidence": "high",
+   "note": "\"Founded by Richard Rohr in 1987\" (CAC channel about text)."
+  },
+  {
+   "from": "henry-corbin",
+   "to": "tom-cheetham",
+   "type": "influenced",
+   "source": "https://www.springpublications.com/cheetham.html",
+   "confidence": "high",
+   "note": "Cheetham's books are studies of Corbin."
+  },
+  {
+   "from": "henry-corbin",
+   "to": "james-hillman",
+   "type": "influenced",
+   "source": "https://www.kosmosinstitute.org/james-hillman-studies",
+   "confidence": "high",
+   "note": "Hillman named Corbin the \"second father\" of archetypal psychology."
+  },
+  {
+   "from": "carl-jung",
+   "to": "james-hillman",
+   "type": "influenced",
+   "source": "https://www.kosmosinstitute.org/james-hillman-studies",
+   "confidence": "high",
+   "note": "\"First father\" of archetypal psychology."
+  },
+  {
+   "from": "james-hillman",
+   "to": "tom-cheetham",
+   "type": "influenced",
+   "source": "https://www.springpublications.com/cheetham.html",
+   "confidence": "medium",
+   "note": "Cheetham, Imaginal Love: Corbin and Hillman."
+  },
+  {
+   "from": "henry-corbin",
+   "to": "john-vervaeke",
+   "type": "influenced",
+   "source": "https://www.youtube.com/watch?v=mrnpZhWqdcA",
+   "confidence": "medium",
+   "note": "Meaning Crisis eps. 48–49 build on Corbin."
+  },
+  {
+   "from": "pierre-hadot",
+   "to": "michel-foucault",
+   "type": "influenced",
+   "source": "https://pages.charlotte.edu/pact/wp-content/uploads/sites/1333/2023/08/Davidson-SpiritualExercisesAncient-1990.pdf",
+   "confidence": "high"
+  },
+  {
+   "from": "pierre-hadot",
+   "to": "john-vervaeke",
+   "type": "influenced",
+   "source": "https://summify.io/discover/john-vervaeke-how-to-build-a-life-of-wisdom-flow-and-contemp-PMBSiW",
+   "confidence": "low",
+   "note": "Secondary podcast summary only; confirm."
+  },
+  {
+   "from": "antoine-faivre",
+   "to": "wouter-hanegraaff",
+   "type": "influenced",
+   "source": "https://brill.com/view/journals/arie/22/2/article-p167_1.xml",
+   "confidence": "high",
+   "note": "Collaborator; Hanegraaff co-wrote Faivre's Aries obituary and built on his definition."
+  },
+  {
+   "from": "wouter-hanegraaff",
+   "to": "egil-asprem",
+   "type": "academic_supervisor_of",
+   "source": "https://www.wouterjhanegraaff.net/about",
+   "confidence": "medium",
+   "note": "Asprem: PhD 2013 at Hanegraaff's HHP centre; Hanegraaff calls him \"one of our former PhD students\"; formal supervisor not named."
+  },
+  {
+   "from": "marco-pasi",
+   "to": "egil-asprem",
+   "type": "academic_supervisor_of",
+   "source": "https://cre8ivemindset.com/wp-content/uploads/2024/03/arguing-with-angels-enochian-magic-and-modern-occulture.pdf",
+   "confidence": "high",
+   "note": "MA supervisor (Amsterdam 2006–08), per Asprem's acknowledgments."
+  },
+  {
+   "from": "wouter-hanegraaff",
+   "to": "hhp-amsterdam",
+   "type": "founded",
+   "source": "https://hermetica.uva.nl/about-hhp/about-hhp.html",
+   "confidence": "high",
+   "note": "Chair held since 1999."
+  },
+  {
+   "from": "nicholas-goodrick-clarke",
+   "to": "exeseso",
+   "type": "founded",
+   "source": "https://en.wikipedia.org/wiki/Nicholas_Goodrick-Clarke",
+   "confidence": "high",
+   "note": "2005; closed 2014 after his death."
+  },
+  {
+   "from": "angela-voss",
+   "to": "ma-myth-cosmology-sacred",
+   "type": "founded",
+   "source": "https://mythcosmologysacred.com/about/",
+   "confidence": "high",
+   "note": "Created with Geoffrey Cornelius."
+  },
+  {
+   "from": "geoffrey-cornelius",
+   "to": "ma-myth-cosmology-sacred",
+   "type": "founded",
+   "source": "https://mythcosmologysacred.com/about/",
+   "confidence": "high"
+  },
+  {
+   "from": "angela-voss",
+   "to": "cmcs",
+   "type": "founded",
+   "source": "https://mythcosmologysacred.com/",
+   "confidence": "high",
+   "note": "Co-founded 2019 with Mary Attwood and Louise Livingstone."
+  },
+  {
+   "from": "mary-attwood",
+   "to": "cmcs",
+   "type": "founded",
+   "source": "https://mythcosmologysacred.com/",
+   "confidence": "high"
+  },
+  {
+   "from": "louise-livingstone",
+   "to": "cmcs",
+   "type": "founded",
+   "source": "https://mythcosmologysacred.com/",
+   "confidence": "high"
+  },
+  {
+   "from": "simon-wilson",
+   "to": "louise-livingstone",
+   "type": "academic_supervisor_of",
+   "source": "https://www.canterbury.ac.uk/people/simon-wilson",
+   "confidence": "high",
+   "note": "Doctoral supervisor with Linden West."
+  },
+  {
+   "from": "linden-west",
+   "to": "louise-livingstone",
+   "type": "academic_supervisor_of",
+   "source": "https://www.canterbury.ac.uk/people/simon-wilson",
+   "confidence": "high"
+  },
+  {
+   "from": "tim-addey",
+   "to": "prometheus-trust-org",
+   "type": "founded",
+   "source": "https://prometheustrust.co.uk/about-the-trust/",
+   "confidence": "high",
+   "note": "1986, with Donald and Monica Skilling."
+  },
+  {
+   "from": "thomas-taylor",
+   "to": "prometheus-trust-org",
+   "type": "influenced",
+   "source": "https://www.temenosacademy.org/events-programme/thomastaylor",
+   "confidence": "high",
+   "note": "Trust published the 33-volume Thomas Taylor Series (ed. Tim Addey)."
+  },
+  {
+   "from": "thomas-taylor",
+   "to": "iamblichus",
+   "type": "translated",
+   "source": "https://www.gutenberg.org/ebooks/72815",
+   "confidence": "high",
+   "note": "On the Mysteries (1821)."
+  },
+  {
+   "from": "thomas-taylor",
+   "to": "proclus",
+   "type": "translated",
+   "source": "https://www.gutenberg.org/ebooks/77393",
+   "confidence": "high",
+   "note": "The Theology of Plato (1816)."
+  },
+  {
+   "from": "plotinus",
+   "to": "porphyry",
+   "type": "teacher_of",
+   "source": "https://en.wikipedia.org/wiki/Porphyry_(philosopher)",
+   "confidence": "high",
+   "note": "Not re-checked this session."
+  },
+  {
+   "from": "syrianus",
+   "to": "proclus",
+   "type": "teacher_of",
+   "source": "https://en.wikipedia.org/wiki/Syrianus",
+   "confidence": "high",
+   "note": "Not re-checked this session."
+  }
+ ],
+ "notes_not_edges": [
+  {
+   "text": "John M. Dillon is a Patron of the Prometheus Trust; Dr Crystal Addey sits on its Editorial Board.",
+   "source": "https://prometheustrust.co.uk/about-the-trust/"
+  },
+  {
+   "text": "Crystal Addey: doctorate in Classics, University of Bristol (2009); member of the International Society for Neoplatonic Studies. Supervisor not found.",
+   "source": "https://www.routledge.com/Divination-and-Theurgy-in-Neoplatonism-Oracles-of-the-Gods/Addey/p/book/9780367882198"
+  },
+  {
+   "text": "Angela Voss taught the Alexandrian Hermeticism and Neoplatonism module for the Exeter MA in Western Esotericism (EXESESO) 2006–2012, which links the Canterbury circle and Exeter.",
+   "source": "https://canterbury.academia.edu/AngelaVoss/CurriculumVitae"
+  },
+  {
+   "text": "No source found tying Gregory Shaw (Stonehill College) to the Canterbury MA or to Voss as teacher or student; left as a gap.",
+   "source": "https://stonehill.academia.edu/GregoryShaw"
+  }
+ ]
+}

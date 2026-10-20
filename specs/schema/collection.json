@@ -1,0 +1,216 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/collection.json",
+ "title": "Collection",
+ "description": "An editorial or user-made grouping. kind decides how it plays: a set (unordered), a journey (ordered, multi-day, resumable), a meditation series, a visualisation cycle, a syllabus (theory + practice tracks). schema.org: set = ItemList / CreativeWork; journey/syllabus = Course with CourseInstance hasCourseInstance(courseSchedule); series = CreativeWorkSeries.",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "collection"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "kind": {
+   "type": "string",
+   "enum": [
+    "set",
+    "journey",
+    "meditation-series",
+    "visualisation-cycle",
+    "syllabus"
+   ]
+  },
+  "title": {
+   "type": "string"
+  },
+  "subtitle": {
+   "type": "string"
+  },
+  "intro": {
+   "type": "string",
+   "maxLength": 4000
+  },
+  "cover": {
+   "$ref": "common.json#/$defs/image"
+  },
+  "author": {
+   "type": "string",
+   "description": "'wiser' for editorial, else user/<handle>."
+  },
+  "visibility": {
+   "$ref": "common.json#/$defs/visibility"
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "ordered": {
+   "type": "boolean"
+  },
+  "units": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "title",
+     "items"
+    ],
+    "properties": {
+     "n": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "title": {
+      "type": "string"
+     },
+     "day": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Journey day (1-based)."
+     },
+     "track": {
+      "type": "string",
+      "enum": [
+       "theory",
+       "practice",
+       "both"
+      ]
+     },
+     "intro": {
+      "type": "string",
+      "maxLength": 1200
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "ref"
+       ],
+       "properties": {
+        "ref": {
+         "$ref": "common.json#/$defs/ref"
+        },
+        "role": {
+         "type": "string",
+         "enum": [
+          "watch",
+          "read",
+          "practise",
+          "listen",
+          "visit",
+          "reflect"
+         ]
+        },
+        "note": {
+         "type": "string",
+         "maxLength": 1200
+        },
+        "optional": {
+         "type": "boolean"
+        },
+        "group": {
+         "type": "string",
+         "description": "Grouping label, e.g. a tradition column."
+        }
+       }
+      }
+     },
+     "practice": {
+      "type": "object",
+      "description": "The daily practice for this unit.",
+      "properties": {
+       "id": {
+        "$ref": "common.json#/$defs/slug"
+       },
+       "minutes": {
+        "type": "number"
+       },
+       "timesPerDay": {
+        "type": "integer"
+       },
+       "days": {
+        "type": "integer"
+       }
+      }
+     },
+     "checkpoint": {
+      "type": "string",
+      "description": "A short reflection prompt or self-check, openpatala-style."
+     }
+    }
+   },
+   "minItems": 1
+  },
+  "cadence": {
+   "type": "object",
+   "properties": {
+    "days": {
+     "type": "integer"
+    },
+    "minutesPerDay": {
+     "type": "number"
+    },
+    "restDays": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     }
+    }
+   }
+  },
+  "level": {
+   "type": "string",
+   "enum": [
+    "first-steps",
+    "steady",
+    "deep"
+   ]
+  },
+  "license": {
+   "type": "string",
+   "description": "Default CC-BY-4.0 for editorial; author's choice for user collections."
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "kind",
+  "title",
+  "units"
+ ],
+ "additionalProperties": true,
+ "allOf": [
+  {
+   "if": {
+    "properties": {
+     "kind": {
+      "enum": [
+       "journey",
+       "syllabus"
+      ]
+     }
+    }
+   },
+   "then": {
+    "properties": {
+     "ordered": {
+      "const": true
+     }
+    }
+   }
+  }
+ ]
+}

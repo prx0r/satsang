@@ -1,0 +1,219 @@
+[
+ {
+  "id": "dzogchen",
+  "name": "Dzogchen (Great Perfection)",
+  "parent": "nyingma",
+  "dates": "8th c.–",
+  "note": "Teaching and practice lineage, not a separate institution; also held in Bön and taught across Rimé."
+ },
+ {
+  "id": "karma-kagyu",
+  "name": "Karma Kagyu",
+  "parent": "kagyu",
+  "dates": "12th c.–",
+  "note": "Largest Kagyu branch, led by the Karmapas."
+ },
+ {
+  "id": "drikung-kagyu",
+  "name": "Drikung Kagyu",
+  "parent": "kagyu",
+  "dates": "1179–",
+  "note": "Founded by Jigten Sumgön."
+ },
+ {
+  "id": "drukpa-kagyu",
+  "name": "Drukpa Kagyu",
+  "parent": "kagyu",
+  "dates": "12th c.–",
+  "note": "State tradition of Bhutan."
+ },
+ {
+  "id": "shangpa-kagyu",
+  "name": "Shangpa Kagyu",
+  "parent": "kagyu",
+  "dates": "11th c.–",
+  "note": "Separate lineage from Niguma and Sukhasiddhi, revived by Kalu Rinpoche."
+ },
+ {
+  "id": "mahamudra",
+  "name": "Mahamudra (the Great Seal)",
+  "parent": "kagyu",
+  "dates": "11th c.–",
+  "note": "Practice lineage at the heart of Kagyu, also taught in Gelug."
+ },
+ {
+  "id": "sakya",
+  "name": "Sakya",
+  "parent": "tibetan",
+  "dates": "1073–",
+  "note": "Lamdre (path and its fruit) teachings; led by the Khön family."
+ },
+ {
+  "id": "fpmt",
+  "name": "FPMT (Foundation for the Preservation of the Mahayana Tradition)",
+  "parent": "gelug",
+  "dates": "1975–",
+  "note": "International Gelug network founded by Lama Yeshe and Lama Zopa."
+ },
+ {
+  "id": "jonang",
+  "name": "Jonang",
+  "parent": "tibetan",
+  "dates": "13th c.–",
+  "note": "Known for shentong (other-emptiness) and Kalachakra; suppressed in central Tibet in the 17th c. and survives in Amdo."
+ },
+ {
+  "id": "bon",
+  "name": "Bön (Yungdrung Bön)",
+  "parent": "tibetan",
+  "dates": "pre-Buddhist roots; organised 11th c.–",
+  "note": "Tibet's indigenous religion. It is not a Buddhist school, but it shares its institutions and Dzogchen with Buddhism. Placed here for browsing only."
+ },
+ {
+  "id": "rime",
+  "name": "Rimé (non-sectarian) movement",
+  "parent": "tibetan",
+  "dates": "19th c.–",
+  "note": "An ecumenical revival across Nyingma, Kagyu, Sakya and Jonang, not a school."
+ },
+ {
+  "id": "shambhala",
+  "name": "Shambhala",
+  "parent": "kagyu",
+  "dates": "1976–",
+  "note": "Trungpa's secular \"warrior\" path; Pema Chödrön trained in it."
+ },
+ {
+  "id": "chan",
+  "name": "Chan",
+  "parent": "mahayana",
+  "dates": "6th c.–",
+  "note": "Chinese meditation school, root of Zen, Seon and Thiền."
+ },
+ {
+  "id": "linji",
+  "name": "Linji (Rinzai) line of Chan",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "note": "Huatou / gong'an practice."
+ },
+ {
+  "id": "caodong",
+  "name": "Caodong (Soto) line of Chan",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "note": "Silent illumination (mozhao)."
+ },
+ {
+  "id": "dharma-drum",
+  "name": "Dharma Drum Mountain",
+  "parent": "chan",
+  "dates": "1989–",
+  "note": "Taiwanese Chan organisation of Sheng Yen holding both Linji and Caodong lines."
+ },
+ {
+  "id": "sanbo-zen",
+  "name": "Sanbo Zen (Sanbo Kyodan)",
+  "parent": "zen",
+  "dates": "1954–",
+  "note": "Lay-oriented school combining Soto and Rinzai koan curricula."
+ },
+ {
+  "id": "white-plum",
+  "name": "White Plum Asanga",
+  "parent": "soto-zen",
+  "dates": "1976–",
+  "note": "Maezumi's lineage network (Soto with Rinzai koan study)."
+ },
+ {
+  "id": "seon",
+  "name": "Seon (Korean Zen)",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "note": "Korean Chan; Jogye order; Kwan Um School in the West."
+ },
+ {
+  "id": "kwan-um",
+  "name": "Kwan Um School of Zen",
+  "parent": "seon",
+  "dates": "1983–",
+  "note": "International Seon school of Seung Sahn."
+ },
+ {
+  "id": "thien",
+  "name": "Thiền (Vietnamese Zen)",
+  "parent": "chan",
+  "dates": "6th c.–",
+  "note": "Vietnamese Chan; Plum Village is its best-known modern form."
+ },
+ {
+  "id": "ocb",
+  "name": "Order of Buddhist Contemplatives",
+  "parent": "soto-zen",
+  "dates": "1978–",
+  "note": "Shasta Abbey tradition founded by Houn Jiyu-Kennett."
+ },
+ {
+  "id": "ordinary-mind",
+  "name": "Ordinary Mind Zen",
+  "parent": "zen",
+  "dates": "1995–",
+  "note": "Joko Beck's psychologically oriented lineage."
+ },
+ {
+  "id": "tiantai",
+  "name": "Tiantai",
+  "parent": "mahayana",
+  "dates": "6th c.–",
+  "note": "Lotus Sutra school; threefold truth; zhiguan (calming and contemplation)."
+ },
+ {
+  "id": "tendai",
+  "name": "Tendai",
+  "parent": "tiantai",
+  "dates": "806–",
+  "note": "Japanese Tiantai, which also includes esoteric (taimitsu), Pure Land and Zen elements."
+ },
+ {
+  "id": "huayan",
+  "name": "Huayan (Kegon)",
+  "parent": "mahayana",
+  "dates": "7th c.–",
+  "note": "Avatamsaka school; interpenetration of all phenomena."
+ },
+ {
+  "id": "pure-land",
+  "name": "Pure Land",
+  "parent": "mahayana",
+  "dates": "4th c.–",
+  "note": "Devotion to Amitabha and rebirth in Sukhavati."
+ },
+ {
+  "id": "jodo-shu",
+  "name": "Jōdo-shū",
+  "parent": "pure-land",
+  "dates": "1175–",
+  "note": "Honen's school."
+ },
+ {
+  "id": "jodo-shinshu",
+  "name": "Jōdo Shinshū (Shin Buddhism)",
+  "parent": "pure-land",
+  "dates": "1224–",
+  "note": "Shinran's school; Buddhist Churches of America in the US."
+ },
+ {
+  "id": "east-asian-esoteric",
+  "name": "East Asian esoteric Buddhism",
+  "parent": "vajrayana",
+  "dates": "8th c.–",
+  "note": "Chinese Zhenyan and its Japanese heirs."
+ },
+ {
+  "id": "shingon",
+  "name": "Shingon",
+  "parent": "east-asian-esoteric",
+  "dates": "816–",
+  "note": "Kukai's esoteric school."
+ }
+]

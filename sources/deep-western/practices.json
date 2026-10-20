@@ -1,0 +1,125 @@
+{
+ "_note": "How-tos are short summaries in my own words; follow the source link for the teacher's full instruction.",
+ "practices": [
+  {
+   "id": "christian-meditation-mantra",
+   "name": "Christian meditation with a mantra (Maranatha)",
+   "tradition": "christian",
+   "school": "christian-meditation-wccm",
+   "howto": "Sit still and upright with your eyes lightly closed. Silently repeat one prayer-word, \"Ma-ra-na-tha\", in four equal syllables, listening to it rather than thinking about its meaning. When thoughts or images arrive, return to the word, without force. Sit for 20–30 minutes, morning and evening.",
+   "source": "https://wccm.org/meditate/how-to-meditate/"
+  },
+  {
+   "id": "video-lectio",
+   "name": "Video lectio (short contemplative reading)",
+   "tradition": "christian",
+   "school": "christian-meditation-wccm",
+   "howto": "Watch a short image or text slowly, then sit with a single phrase that stays with you before meditating.",
+   "source": "https://www.youtube.com/watch?v=YzoDzlP0mYk"
+  },
+  {
+   "id": "centering-prayer",
+   "name": "Centering Prayer",
+   "tradition": "christian",
+   "school": "wisdom-christianity",
+   "howto": "Choose a sacred word as a sign of consent to God's presence. Sit comfortably and bring it in gently. When you notice you are engaged with a thought, return ever so gently to the word. End by resting in silence for a couple of minutes. Twice daily, 20 minutes.",
+   "source": "https://www.cynthiabourgeault.org/meet-cynthia"
+  },
+  {
+   "id": "welcoming-practice",
+   "name": "Welcoming Practice",
+   "tradition": "christian",
+   "school": "wisdom-christianity",
+   "howto": "When a strong reaction arises, feel it as a sensation in the body; say \"welcome\" to it instead of resisting; then let go of the desire for security, approval or control, and so release it into presence.",
+   "source": "https://www.youtube.com/watch?v=_bClyhR2ZPc"
+  },
+  {
+   "id": "lectio-divina",
+   "name": "Lectio Divina",
+   "tradition": "christian",
+   "school": "franciscan-contemplative",
+   "howto": "Read a short scripture passage slowly, then again; notice the word that catches you; respond to it in prayer; rest in silence. Read, ponder, pray, rest.",
+   "source": "https://www.youtube.com/watch?v=YHtsSE2-nOI"
+  },
+  {
+   "id": "jesus-prayer",
+   "name": "The Jesus Prayer (prayer of the heart)",
+   "tradition": "christian",
+   "school": "hesychasm",
+   "howto": "Repeat \"Lord Jesus Christ, Son of God, have mercy on me\" slowly and attentively, often with a prayer rope, keeping the mind in the words and letting it descend into the heart. Begin with a fixed time each day; humility and stillness come before technique.",
+   "source": "https://www.youtube.com/watch?v=03TkFLFTbhk"
+  },
+  {
+   "id": "zikr-inayati",
+   "name": "Zikr (remembrance) in the Inayati way",
+   "tradition": "sufism",
+   "school": "inayati",
+   "howto": "Sitting quietly, repeat the phrase of divine unity (La ilaha illa'llah) aloud or silently, letting the breath and a gentle movement of the head carry it, until the remembrance continues on its own in the heart.",
+   "source": "https://www.youtube.com/watch?v=0E9efdH7hBQ"
+  },
+  {
+   "id": "dhikr-breath",
+   "name": "Dhikr and breathwork",
+   "tradition": "sufism",
+   "school": "sufism",
+   "howto": "Join a short divine name or phrase to the in- and out-breath; keep attention on the heart; finish with silence and a prayer.",
+   "source": "https://www.youtube.com/watch?v=SiO6IKavFUA"
+  },
+  {
+   "id": "naqshbandi-khatm",
+   "name": "Khatm-i Khwajagan (Naqshbandi group dhikr)",
+   "tradition": "sufism",
+   "school": "naqshbandi",
+   "howto": "A set Naqshbandi litany of Qur'an recitation, blessings on the Prophet and silent or vocal remembrance, recited together under a shaykh's guidance.",
+   "source": "https://www.youtube.com/watch?v=HVOW77p_j3o"
+  },
+  {
+   "id": "neoplatonic-contemplation",
+   "name": "Neoplatonic contemplation (\"strip away everything\")",
+   "tradition": "platonic",
+   "school": "neoplatonism",
+   "howto": "Following Plotinus, turn attention from objects to the activity of knowing, then let even that subtle self-image fall away, resting in the simple presence it comes from. Usually practised after a period of calming meditation.",
+   "source": "https://www.youtube.com/watch?v=s22FBKKmpwQ"
+  },
+  {
+   "id": "view-from-above",
+   "name": "The view from above (spiritual exercise)",
+   "tradition": "platonic",
+   "school": "platonism",
+   "howto": "In imagination, rise above your situation until your concerns appear in the scale of the cosmos; return with a lighter, more just sense of what matters. One of the ancient \"spiritual exercises\" Pierre Hadot described.",
+   "source": "https://iep.utm.edu/hadot"
+  },
+  {
+   "id": "hermetic-ascent",
+   "name": "Hermetic ascent and rebirth (Corpus Hermeticum XIII)",
+   "tradition": "esoteric",
+   "school": "hermeticism",
+   "howto": "Read slowly and as contemplation, not just as information: the treatise guides the reader to put away the \"torments\" of matter and be reborn as the intellect praising God in silence.",
+   "source": "https://en.wikisource.org/wiki/The_Divine_Pymander"
+  },
+  {
+   "id": "active-imagination",
+   "name": "Active imagination / imaginal attention",
+   "tradition": "esoteric",
+   "school": "imaginal",
+   "howto": "Stay with an image (from a dream, a text or a place) as a living presence; let it speak and move; respond to it honestly rather than interpreting it away. In Corbin's terms it is a perception of the mundus imaginalis.",
+   "source": "https://www.youtube.com/watch?v=E-sFVUF5FQQ"
+  },
+  {
+   "id": "torah-from-the-heart",
+   "name": "Weekly parashah reflection (neo-Hasidic)",
+   "tradition": "jewish",
+   "school": "neo-hasidism",
+   "howto": "Each week read the Torah portion with a Hasidic commentary in mind and look for the inward, devotional teaching it holds for this week of your life.",
+   "source": "https://www.youtube.com/watch?v=bBfGhEOzXcU"
+  },
+  {
+   "id": "unio-mystica-letters",
+   "name": "Letter-combination meditation (ecstatic Kabbalah)",
+   "tradition": "jewish",
+   "school": "kabbalah",
+   "howto": "Abulafia's path: combine and permute the Hebrew letters of divine names, with breath and pronunciation, to loosen ordinary thinking. Historically taught only under a teacher. Listed here for context, not as instruction.",
+   "source": "https://www.youtube.com/watch?v=PXL_OYU3IqM"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/topic.json",
+ "title": "Topic",
+ "description": "A question people bring, seen across traditions. Hierarchical (root/leaf), with sub-questions. Keywords and transcript matching are INTERNAL build inputs and are not part of the public record. schema.org: DefinedTerm (+ CollectionPage for the hub).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "topic"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/topicPath"
+  },
+  "label": {
+   "type": "string"
+  },
+  "parent": {
+   "oneOf": [
+    {
+     "$ref": "common.json#/$defs/topicPath"
+    },
+    {
+     "type": "null"
+    }
+   ]
+  },
+  "children": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "intro": {
+   "type": "string",
+   "maxLength": 900
+  },
+  "questions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "label"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "common.json#/$defs/slug"
+     },
+     "label": {
+      "type": "string"
+     },
+     "blurb": {
+      "type": "string",
+      "maxLength": 300
+     },
+     "order": {
+      "type": "integer"
+     }
+    }
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "terms": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "term": {
+      "type": "string"
+     },
+     "lang": {
+      "type": "string"
+     },
+     "tradition": {
+      "$ref": "common.json#/$defs/slug"
+     }
+    }
+   },
+   "description": "Source-language terms: punabbhava, saṃsāra, gilgul."
+  },
+  "takes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string",
+    "maxLength": 200
+   },
+   "description": "tradition id -> Wiser's one-line take (never a quote)."
+  },
+  "atlas": {
+   "type": "string",
+   "description": "Atlas concept node id, e.g. c-rebirth."
+  },
+  "state": {
+   "type": "string",
+   "enum": [
+    "seed",
+    "proposed",
+    "growing",
+    "published",
+    "merged",
+    "retired"
+   ]
+  },
+  "mergedInto": {
+   "$ref": "common.json#/$defs/topicPath"
+  },
+  "depth": {
+   "type": "object",
+   "description": "Computed.",
+   "properties": {
+    "clips": {
+     "type": "integer"
+    },
+    "traditions": {
+     "type": "integer"
+    },
+    "teachers": {
+     "type": "integer"
+    },
+    "practices": {
+     "type": "integer"
+    },
+    "texts": {
+     "type": "integer"
+    },
+    "places": {
+     "type": "integer"
+    }
+   }
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "label"
+ ],
+ "additionalProperties": true
+}

@@ -1,0 +1,1000 @@
+{
+ "_note": "INTERNAL work list, not candidates: official talks longer than 20 min worth cutting into 1-20 min virtual clips once transcripts can be fetched (analyze_video failed twice this run). Embeddability not yet checked.",
+ "videos": [
+  {
+   "id": "MxUXl2YXXL4",
+   "title": "|| Maya || by Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 4776,
+   "views": 989876,
+   "topics": [
+    "reality/maya"
+   ],
+   "figures": [
+    "swami-vivekananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "R9pemPIBhLE",
+   "title": "Advaita: Non-Dual Spirituality - from Ancient India to our Global Age",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 4336,
+   "views": 847728,
+   "topics": [
+    "reality"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "jevWr3IIIfc",
+   "title": "Who am I? The Teachings of Sri Ramana Maharshi",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 3763,
+   "views": 693000,
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "UDVQC_uHRCI",
+   "title": "Talks on Sri Ramana Maharshi: Narrated by David Godman - Self-Enquiry",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 2528,
+   "views": 634000,
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "0DsiJz6OETg",
+   "title": "Seeing God in Everything | Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 4832,
+   "views": 532685,
+   "topics": [],
+   "figures": [
+    "swami-vivekananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "fnZoItTt2WE",
+   "title": "Teachings of Sri Ramakrishna | Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 4646,
+   "views": 516706,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "o45LO_G145g",
+   "title": "Atma Bodha–Self-Knowledge: Shankara's Teachings for Enlightenment",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 4246,
+   "views": 348304,
+   "topics": [
+    "awakening"
+   ],
+   "figures": [
+    "adi-shankara"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "8WRnjJCGJ7o",
+   "title": "|| Realization || by Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 4664,
+   "views": 314425,
+   "topics": [],
+   "figures": [
+    "swami-vivekananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "-BGSEtZNAlk",
+   "title": "Swami Vivekananda on Karma & Freedom | Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 5378,
+   "views": 263290,
+   "topics": [
+    "kamma"
+   ],
+   "figures": [
+    "swami-vivekananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "v8wDe4ngpDw",
+   "title": "Talks on Sri Ramana Maharshi: Narrated by David Godman - The Power of the Guru (Part I)",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 2429,
+   "views": 243000,
+   "topics": [
+    "guru"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "e5bG-X1yTgU",
+   "title": "(1/3) Avatara - Story of Sri Ramakrishna by Swami Sarvapriyananda",
+   "channel": "Vedanta Society of New York",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 1602,
+   "views": 237750,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "nLfhK4GhX90",
+   "title": "Living In The Light of Sri Ramakrishna - Swami Sarvapriyananda",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-sarvapriyananda",
+   "sec": 3707,
+   "views": 191739,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "LBflwS3IzjM",
+   "title": "Talks on Sri Ramana Maharshi: Narrated by David Godman - Recognising Enlightenment",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 1513,
+   "views": 189000,
+   "topics": [
+    "awakening"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "7lUBsFohUAM",
+   "title": "Talks on Sri Ramana Maharshi: Narrated by David Godman - Papaji (Part I)",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 2514,
+   "views": 185000,
+   "topics": [],
+   "figures": [
+    "ramana-maharshi",
+    "papaji"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "QlKPA35xGJ8",
+   "title": "Atma Bodha - Self-Knowledge - lecture 1",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 3795,
+   "views": 157962,
+   "topics": [],
+   "figures": [
+    "adi-shankara"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "SLM6wPY7p9A",
+   "title": "Bhagavan Sri Ramana Maharshi Devotee - Kanakammal - Interview | Sri Ramanasramam",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 1842,
+   "views": 153014,
+   "topics": [
+    "faith/bhakti"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "JLQfH7c42U0",
+   "title": "Self-Enquiry is Always the Same Practice",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 1330,
+   "views": 151538,
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "Pz-KNGbec30",
+   "title": "Talks on Sri Ramana Maharshi: Narrated by David Godman - The Power of the Guru (Part II)",
+   "channel": "David Godman",
+   "speaker": "david-godman",
+   "sec": 1953,
+   "views": 130000,
+   "topics": [
+    "guru"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "laWDhxhwh7w",
+   "title": "The Archival Films - Sri Ramanasramam",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 3579,
+   "views": 123000,
+   "topics": [],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "rIies2lCzIU",
+   "title": "Q&A with David Godman on 17/Jan/2021 | Teachings of Sri Ramana Maharshi|",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 4350,
+   "views": 106000,
+   "topics": [],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "B7pimil_1E4",
+   "title": "A Blessing From Mahavatar Babaji | Sri Daya Mata",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "sri-daya-mata",
+   "sec": 3371,
+   "views": 95372,
+   "topics": [
+    "faith/grace"
+   ],
+   "figures": [
+    "mahavatar-babaji",
+    "paramahansa-yogananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "OSbvhcy0_qQ",
+   "title": "Bhagavan Sri Ramana Maharshi Devotee - Rajapalayam Ramani ammal Interview | Sri Ramanasramam",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 1230,
+   "views": 82018,
+   "topics": [
+    "faith/bhakti"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "NtTO7nI_vFc",
+   "title": "Life's Spiritual Journey in Forty Steps - Sadhana Panchakam",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 1215,
+   "views": 81571,
+   "topics": [
+    "emotions/sadness"
+   ],
+   "figures": [
+    "adi-shankara"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "RoatnmEiyXQ",
+   "title": "The Purest Truth",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 1349,
+   "views": 80000,
+   "topics": [],
+   "figures": [
+    "nisargadatta-maharaj"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "_Ida67gz62M",
+   "title": "Atma Bodha - Self-Knowledge - lecture 2",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 3535,
+   "views": 70109,
+   "topics": [],
+   "figures": [
+    "adi-shankara"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "DvILSOn_Wdw",
+   "title": "From Sri Ramanasramam to Skandasramam, Walking in Meditation - Home of Bhagavan Ramana Maharshi",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 2069,
+   "views": 62000,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "ZQJ6yMPKjsY",
+   "title": "Guided Meditation: Your Being Is God's Being",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 1810,
+   "views": 50456,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [
+    "ramana-maharshi",
+    "bhagavad-gita"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "bfwKkn-S9xQ",
+   "title": "Daily Meditation Practice Timer - Old Hall Video of Bhagavan Ramana Maharishi's ashram.",
+   "channel": "Sri Ramanasramam",
+   "speaker": "sri-ramanasramam",
+   "sec": 3001,
+   "views": 50000,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "h3Z5mNPGJUk",
+   "title": "Atma Bodha - Self-knowledge - lecture 4",
+   "channel": "ArshaBodha - Swami Tadatmananda",
+   "speaker": "swami-tadatmananda",
+   "sec": 3400,
+   "views": 44820,
+   "topics": [],
+   "figures": [
+    "adi-shankara"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "k9y4TzEeWyg",
+   "title": "Vivekananda & Kali by Swami Mahayogananda",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-mahayogananda",
+   "sec": 3121,
+   "views": 40000,
+   "topics": [],
+   "figures": [
+    "swami-vivekananda"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "EdNv_dYjGLQ",
+   "title": "Gospel of Sri Ramakrishna by Swami Atmapriyananda on 2nd Nov 2016",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-atmapriyananda",
+   "sec": 3082,
+   "views": 26000,
+   "topics": [
+    "texts"
+   ],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "IO40GARzC48",
+   "title": "I Googled, 'Who Am I?' and found Ramana and Mooji",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 6583,
+   "views": 23197,
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "figures": [
+    "ramana-maharshi"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "jSTigD8udeM",
+   "title": "Brahma Satyam Jagat Satyam: Swami Turiyananda on Sri Ramakrishna's Philosophy | Swami Medhananda",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-turiyananda",
+   "sec": 5371,
+   "views": 21352,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "1mgSw2L69fo",
+   "title": "Form and Formless by Swami Atmapriyananda",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-atmapriyananda",
+   "sec": 3910,
+   "views": 15000,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "xbBcdfegG18",
+   "title": "Spiritual Discourse Sri Ramakrishna Sampradaya by Swami Atmapriyananda",
+   "channel": "Vedanta Society of Southern California",
+   "speaker": "swami-atmapriyananda",
+   "sec": 4202,
+   "views": 12000,
+   "topics": [],
+   "figures": [
+    "ramakrishna"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "cI_I8MqcW9U",
+   "title": "Why Lord Shiva has created this universe, which is shakti, His supreme energy?",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 1698,
+   "views": 5419,
+   "topics": [],
+   "figures": [
+    "abhinavagupta"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "PkCmktCwYVY",
+   "title": "In this highest state of supreme God consciousness (anuttara) Abhinavagupta's Anuttarastika",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 2977,
+   "views": 1700,
+   "topics": [
+    "consciousness"
+   ],
+   "figures": [
+    "abhinavagupta"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "XzOlhRmhl90",
+   "title": "Weekly Sangha - Shiva Sutras #76",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 3565,
+   "views": 743,
+   "topics": [],
+   "figures": [
+    "shiva-sutras"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "Q0LoxxeHjpI",
+   "title": "Weekly Sangha - Shiva Sutras #83",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 3652,
+   "views": 686,
+   "topics": [],
+   "figures": [
+    "shiva-sutras"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "UaoqoDU6NWs",
+   "title": "Weekly Sangha - Shiva Sutras #82 - yoginis, and siddhas in the teachings of Kashmir Shaivism.",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 3610,
+   "views": 527,
+   "topics": [],
+   "figures": [
+    "shiva-sutras"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "tmrwZINx2dg",
+   "title": "Weekly Sangha - Shiva Sutras #78",
+   "channel": "Lakshmanjoo Academy",
+   "speaker": "swami-lakshmanjoo",
+   "sec": 3782,
+   "views": 395,
+   "topics": [],
+   "figures": [
+    "shiva-sutras"
+   ],
+   "why": "rare-figure"
+  },
+  {
+   "id": "VD7Brg0geVA",
+   "title": "*BEAUTIFUL GUIDED MEDITATION WITH MOOJI*: A Peaceful Life Is Priceless",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 1365,
+   "views": 1200000,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Esbrnzoirk4",
+   "title": "A Profound Guided Meditation ~ The Boundless Ocean of Being",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 2619,
+   "views": 780000,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "HJqgTkjM91M",
+   "title": "Guided Meditation with Mooji — Just Be!",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 1979,
+   "views": 683000,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "MHxNx1U3tgI",
+   "title": "The Power of Clear Seeing ~ Mooji on Self Inquiry",
+   "channel": "Moojiji",
+   "speaker": "mooji",
+   "sec": 2054,
+   "views": 616000,
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "tYGK_sFIqdI",
+   "title": "Meditation: Nothing Can Make You Happy",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 3245,
+   "views": 582576,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "OZ8tQYYNIg0",
+   "title": "Meditation: Being Aware of Being Aware is the Highest Meditation",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 2586,
+   "views": 531674,
+   "topics": [
+    "meditation",
+    "consciousness"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "CsXtSDk67_A",
+   "title": "Meditation: A Dream in God's Infinite Mind | Rupert Spira",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 5283,
+   "views": 445841,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Rn6x_7pVRPo",
+   "title": "The Search for Enlightenment",
+   "channel": "Rupert Spira",
+   "speaker": "rupert-spira",
+   "sec": 1483,
+   "views": 436044,
+   "topics": [
+    "awakening"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "TObCIKn0XXA",
+   "title": "Guided Meditation - The Unconditioned Nature of Being",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 1826,
+   "views": 331533,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Kogjn884kq8",
+   "title": "Adyashanti Guided Meditation - The Art of Listening",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 2113,
+   "views": 318308,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "KdTSeYFVnb4",
+   "title": "Guided Meditation — Resting in Being",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 1489,
+   "views": 305214,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "zQ2mImvrZxg",
+   "title": "Guided Meditation on Inner Peace from Paramahansa Yogananda",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "brother-sevananda",
+   "sec": 2057,
+   "views": 261563,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [
+    "paramahansa-yogananda"
+   ],
+   "why": "priority-topic"
+  },
+  {
+   "id": "hmNM8lzWzMY",
+   "title": "Adyashanti Guided Meditation - What Is the Nature of Self?",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 1832,
+   "views": 220370,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "uQhYKN2L7oQ",
+   "title": "Adyashanti Guided Meditation - Attending to the Breath",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 1201,
+   "views": 174806,
+   "topics": [
+    "meditation/breath",
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "BuWHfyWh2vw",
+   "title": "Guided Meditation – Unknowing Meditation",
+   "channel": "Adyashanti",
+   "speaker": "adyashanti",
+   "sec": 1642,
+   "views": 161418,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "XB9WRTcFlow",
+   "title": "Kriya Yoga: Science of Spiritual Living for the Modern Age | How-to-Live Inspirational Service",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "brother-chidananda",
+   "sec": 3349,
+   "views": 141381,
+   "topics": [
+    "meditation/kriya"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "2Q-Ln683IAs",
+   "title": "The Cosmic Mystery of Karma and Reincarnation | How-to-Live Inspirational Talk",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "brother-sevananda",
+   "sec": 3732,
+   "views": 133272,
+   "topics": [
+    "rebirth",
+    "kamma"
+   ],
+   "figures": [
+    "paramahansa-yogananda"
+   ],
+   "why": "priority-topic"
+  },
+  {
+   "id": "WQI6LwVQQvg",
+   "title": "True Devotion: Living in God’s Presence Moment to Moment | How-to-Live Inspirational Service",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "brother-vishwananda",
+   "sec": 3846,
+   "views": 121582,
+   "topics": [
+    "faith/bhakti"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "xBNYFdU8skA",
+   "title": "Cultivating Deeper Faith | How-to-Live Inspirational Service",
+   "channel": "Self-Realization Fellowship",
+   "speaker": "brother-achalananda",
+   "sec": 3824,
+   "views": 110674,
+   "topics": [
+    "faith"
+   ],
+   "figures": [
+    "paramahansa-yogananda"
+   ],
+   "why": "priority-topic"
+  },
+  {
+   "id": "WtktMlgrr44",
+   "title": "How to Get Established in Happiness | Francis Lucille on Meditation, Desire & Liberation",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 7196,
+   "views": 98000,
+   "topics": [
+    "meditation",
+    "craving",
+    "awakening"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "sgkQqYajipI",
+   "title": "Non Duality Meditation: The Flow. Non Duality Guided Meditation, Experiment with Francis Lucille",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 1581,
+   "views": 62000,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "KKVLTXxSMmw",
+   "title": "Awakening Through Grace: The Spiritual Initiation. Think, Feel, and Act According to the Truth.",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 1489,
+   "views": 60000,
+   "topics": [
+    "awakening",
+    "faith/grace",
+    "guru"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Zwzt9XtSq5Q",
+   "title": "What is Kuṇḍalinī?",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 3731,
+   "views": 51739,
+   "topics": [
+    "meditation/kriya"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "xoolf5pdU_8",
+   "title": "Non Duality Meditation: Effortlessness is Our True Nature",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 1718,
+   "views": 48000,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "-hynNd1hlMc",
+   "title": "The Root Cause of Suffering, Fear, and Freedom | Dialogues with Francis Lucille",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 5642,
+   "views": 45000,
+   "topics": [
+    "dukkha",
+    "emotions/fear"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "smYYlrDK5-I",
+   "title": "Non Duality Meditation: Can I Contemplate The Sense Of Lack?",
+   "channel": "Francis Lucille",
+   "speaker": "francis-lucille",
+   "sec": 1612,
+   "views": 41000,
+   "topics": [
+    "meditation"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Xi2X0xQ62XQ",
+   "title": "Powerful 24 minute guided meditation ~ Vijñāna-bhairava-tantra / Vigyan Bhairav Tantra Yukti #1",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 1678,
+   "views": 32584,
+   "topics": [
+    "meditation/guided"
+   ],
+   "figures": [
+    "vijnana-bhairava"
+   ],
+   "why": "priority-topic"
+  },
+  {
+   "id": "-luS9fMUOFY",
+   "title": "THE EGO ~ What it is and Why you don't Need It",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 3298,
+   "views": 21865,
+   "topics": [
+    "self"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "EhfiRhrMJTY",
+   "title": "The Blossoming of Awareness, verse one",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 1995,
+   "views": 13700,
+   "topics": [
+    "consciousness"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "MbfBaQzdkzQ",
+   "title": "The Consciousness-only View and How it Explains Everything (excerpt)",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 2176,
+   "views": 9595,
+   "topics": [
+    "consciousness"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  },
+  {
+   "id": "Lnx4pR-pcBU",
+   "title": "Awakening vs. Liberation",
+   "channel": "Christopher Wallis (Hareesh)",
+   "speaker": "christopher-wallis",
+   "sec": 1586,
+   "views": 8657,
+   "topics": [
+    "awakening"
+   ],
+   "figures": [],
+   "why": "priority-topic"
+  }
+ ]
+}

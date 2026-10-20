@@ -1,0 +1,561 @@
+[
+ {
+  "id": "vajrayana",
+  "name": "Vajrayana",
+  "parent": "mahayana",
+  "dates": "c. 7th c. CE–",
+  "key_figures": [
+   "padmasambhava",
+   "tilopa",
+   "naropa"
+  ],
+  "symbol": "vajra and bell (dorje, drilbu)",
+  "note": "Tantric Buddhism; umbrella for the Tibetan schools and for East Asian esoteric lines.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "tibetan",
+  "name": "Tibetan Buddhism",
+  "parent": "vajrayana",
+  "dates": "7th c.–",
+  "key_figures": [
+   "padmasambhava",
+   "tsongkhapa",
+   "dalai-lama"
+  ],
+  "symbol": "endless knot",
+  "note": "Umbrella for the Tibetan schools.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "nyingma",
+  "name": "Nyingma (the Old Translation school)",
+  "parent": "tibetan",
+  "dates": "8th c.–",
+  "key_figures": [
+   "padmasambhava",
+   "longchenpa",
+   "jigme-lingpa",
+   "dilgo-khyentse"
+  ],
+  "symbol": "Guru Rinpoche (Padmasambhava)",
+  "note": "Oldest Tibetan school; nine vehicles, terma revelation, Dzogchen as summit.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "dzogchen",
+  "name": "Dzogchen (Great Perfection)",
+  "parent": "nyingma",
+  "dates": "8th c.–",
+  "key_figures": [
+   "garab-dorje",
+   "longchenpa",
+   "jigme-lingpa",
+   "tulku-urgyen"
+  ],
+  "symbol": "white A in a rainbow sphere (thigle)",
+  "note": "Teaching and practice lineage, not a separate institution; also held in Bön and taught across Rimé.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "kagyu",
+  "name": "Kagyu",
+  "parent": "tibetan",
+  "dates": "11th c.–",
+  "key_figures": [
+   "tilopa",
+   "naropa",
+   "marpa",
+   "milarepa",
+   "gampopa"
+  ],
+  "symbol": "Vajradhara",
+  "note": "Oral-transmission school; Mahamudra and the six yogas of Naropa.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "karma-kagyu",
+  "name": "Karma Kagyu",
+  "parent": "kagyu",
+  "dates": "12th c.–",
+  "key_figures": [
+   "karmapa-1",
+   "karmapa-16",
+   "karmapa-17"
+  ],
+  "symbol": "Black Crown of the Karmapa",
+  "note": "Largest Kagyu branch, led by the Karmapas.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "drikung-kagyu",
+  "name": "Drikung Kagyu",
+  "parent": "kagyu",
+  "dates": "1179–",
+  "key_figures": [
+   "jigten-sumgon",
+   "garchen-rinpoche"
+  ],
+  "symbol": "Drikung Thil monastery",
+  "note": "Founded by Jigten Sumgön.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "drukpa-kagyu",
+  "name": "Drukpa Kagyu",
+  "parent": "kagyu",
+  "dates": "12th c.–",
+  "key_figures": [
+   "tsangpa-gyare",
+   "tenzin-palmo"
+  ],
+  "symbol": "thunder dragon (druk)",
+  "note": "State tradition of Bhutan.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "shangpa-kagyu",
+  "name": "Shangpa Kagyu",
+  "parent": "kagyu",
+  "dates": "11th c.–",
+  "key_figures": [
+   "khyungpo-naljor",
+   "niguma",
+   "kalu-rinpoche"
+  ],
+  "symbol": "Niguma",
+  "note": "Separate lineage from Niguma and Sukhasiddhi, revived by Kalu Rinpoche.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "mahamudra",
+  "name": "Mahamudra (the Great Seal)",
+  "parent": "kagyu",
+  "dates": "11th c.–",
+  "key_figures": [
+   "saraha",
+   "gampopa",
+   "wangchuk-dorje"
+  ],
+  "symbol": "—",
+  "note": "Practice lineage at the heart of Kagyu, also taught in Gelug.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "sakya",
+  "name": "Sakya",
+  "parent": "tibetan",
+  "dates": "1073–",
+  "key_figures": [
+   "khon-konchog-gyalpo",
+   "sakya-pandita",
+   "sakya-trizin"
+  ],
+  "symbol": "grey earth (sa skya), Sakya Monastery",
+  "note": "Lamdre (path and its fruit) teachings; led by the Khön family.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "gelug",
+  "name": "Gelug",
+  "parent": "tibetan",
+  "dates": "1409–",
+  "key_figures": [
+   "tsongkhapa",
+   "dalai-lama",
+   "panchen-lama"
+  ],
+  "symbol": "yellow hat",
+  "note": "Reform school of Tsongkhapa; Lamrim, monastic debate, Madhyamaka.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "fpmt",
+  "name": "FPMT (Foundation for the Preservation of the Mahayana Tradition)",
+  "parent": "gelug",
+  "dates": "1975–",
+  "key_figures": [
+   "lama-yeshe",
+   "lama-zopa"
+  ],
+  "symbol": "—",
+  "note": "International Gelug network founded by Lama Yeshe and Lama Zopa.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "jonang",
+  "name": "Jonang",
+  "parent": "tibetan",
+  "dates": "13th c.–",
+  "key_figures": [
+   "kunpang-thukje-tsondru",
+   "dolpopa",
+   "taranatha",
+   "khentrul-rinpoche"
+  ],
+  "symbol": "Kalachakra",
+  "note": "Known for shentong (other-emptiness) and Kalachakra; suppressed in central Tibet in the 17th c. and survives in Amdo.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "bon",
+  "name": "Bön (Yungdrung Bön)",
+  "parent": "tibetan",
+  "dates": "pre-Buddhist roots; organised 11th c.–",
+  "key_figures": [
+   "tonpa-shenrab",
+   "lopon-tenzin-namdak",
+   "tenzin-wangyal",
+   "menri-trizin"
+  ],
+  "symbol": "left-turning swastika (yungdrung)",
+  "note": "Tibet's indigenous religion. It is not a Buddhist school, but it shares its institutions and Dzogchen with Buddhism. Placed here for browsing only.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "rime",
+  "name": "Rimé (non-sectarian) movement",
+  "parent": "tibetan",
+  "dates": "19th c.–",
+  "key_figures": [
+   "jamyang-khyentse-wangpo",
+   "jamgon-kongtrul",
+   "dzongsar-khyentse"
+  ],
+  "symbol": "—",
+  "note": "An ecumenical revival across Nyingma, Kagyu, Sakya and Jonang, not a school.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "shambhala",
+  "name": "Shambhala",
+  "parent": "kagyu",
+  "dates": "1976–",
+  "key_figures": [
+   "chogyam-trungpa",
+   "pema-chodron"
+  ],
+  "symbol": "Great Eastern Sun",
+  "note": "Trungpa's secular \"warrior\" path; Pema Chödrön trained in it.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "chan",
+  "name": "Chan",
+  "parent": "mahayana",
+  "dates": "6th c.–",
+  "key_figures": [
+   "bodhidharma",
+   "huineng",
+   "linji",
+   "dongshan"
+  ],
+  "symbol": "enso",
+  "note": "Chinese meditation school, root of Zen, Seon and Thiền.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "linji",
+  "name": "Linji (Rinzai) line of Chan",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "key_figures": [
+   "linji",
+   "dahui",
+   "sheng-yen"
+  ],
+  "symbol": "—",
+  "note": "Huatou / gong'an practice.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "caodong",
+  "name": "Caodong (Soto) line of Chan",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "key_figures": [
+   "dongshan",
+   "caoshan",
+   "hongzhi",
+   "sheng-yen"
+  ],
+  "symbol": "—",
+  "note": "Silent illumination (mozhao).",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "dharma-drum",
+  "name": "Dharma Drum Mountain",
+  "parent": "chan",
+  "dates": "1989–",
+  "key_figures": [
+   "sheng-yen",
+   "guo-gu"
+  ],
+  "symbol": "Dharma Drum",
+  "note": "Taiwanese Chan organisation of Sheng Yen holding both Linji and Caodong lines.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "zen",
+  "name": "Zen",
+  "parent": "mahayana",
+  "dates": "12th c.–",
+  "key_figures": [
+   "eisai",
+   "dogen",
+   "hakuin"
+  ],
+  "symbol": "enso",
+  "note": "Japanese Chan.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "soto-zen",
+  "name": "Soto Zen",
+  "parent": "zen",
+  "dates": "1227–",
+  "key_figures": [
+   "dogen",
+   "keizan",
+   "kodo-sawaki",
+   "shunryu-suzuki"
+  ],
+  "symbol": "—",
+  "note": "Shikantaza (just sitting).",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "rinzai-zen",
+  "name": "Rinzai Zen",
+  "parent": "zen",
+  "dates": "1191–",
+  "key_figures": [
+   "eisai",
+   "hakuin",
+   "eido-shimano"
+  ],
+  "symbol": "—",
+  "note": "Koan training.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "sanbo-zen",
+  "name": "Sanbo Zen (Sanbo Kyodan)",
+  "parent": "zen",
+  "dates": "1954–",
+  "key_figures": [
+   "hakuun-yasutani",
+   "yamada-koun",
+   "yamada-ryoun",
+   "ruben-habito",
+   "henry-shukman"
+  ],
+  "symbol": "—",
+  "note": "Lay-oriented school combining Soto and Rinzai koan curricula.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "white-plum",
+  "name": "White Plum Asanga",
+  "parent": "soto-zen",
+  "dates": "1976–",
+  "key_figures": [
+   "taizan-maezumi",
+   "john-daido-loori",
+   "chozen-bays",
+   "joan-halifax"
+  ],
+  "symbol": "—",
+  "note": "Maezumi's lineage network (Soto with Rinzai koan study).",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "seon",
+  "name": "Seon (Korean Zen)",
+  "parent": "chan",
+  "dates": "9th c.–",
+  "key_figures": [
+   "jinul",
+   "seung-sahn",
+   "dae-bong"
+  ],
+  "symbol": "—",
+  "note": "Korean Chan; Jogye order; Kwan Um School in the West.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "kwan-um",
+  "name": "Kwan Um School of Zen",
+  "parent": "seon",
+  "dates": "1983–",
+  "key_figures": [
+   "seung-sahn",
+   "dae-bong"
+  ],
+  "symbol": "circle with the Korean character for \"Kwan Um\"",
+  "note": "International Seon school of Seung Sahn.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "thien",
+  "name": "Thiền (Vietnamese Zen)",
+  "parent": "chan",
+  "dates": "6th c.–",
+  "key_figures": [
+   "thich-nhat-hanh"
+  ],
+  "symbol": "—",
+  "note": "Vietnamese Chan; Plum Village is its best-known modern form.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "plum-village",
+  "name": "Plum Village / Order of Interbeing",
+  "parent": "thien",
+  "dates": "1966/1982–",
+  "key_figures": [
+   "thich-nhat-hanh",
+   "chan-khong"
+  ],
+  "symbol": "lotus with calligraphy",
+  "note": "Thich Nhat Hanh's community.",
+  "exists_in_wisegraph": true
+ },
+ {
+  "id": "ocb",
+  "name": "Order of Buddhist Contemplatives",
+  "parent": "soto-zen",
+  "dates": "1978–",
+  "key_figures": [
+   "jiyu-kennett",
+   "meian-elbert"
+  ],
+  "symbol": "—",
+  "note": "Shasta Abbey tradition founded by Houn Jiyu-Kennett.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "ordinary-mind",
+  "name": "Ordinary Mind Zen",
+  "parent": "zen",
+  "dates": "1995–",
+  "key_figures": [
+   "charlotte-joko-beck",
+   "barry-magid"
+  ],
+  "symbol": "—",
+  "note": "Joko Beck's psychologically oriented lineage.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "tiantai",
+  "name": "Tiantai",
+  "parent": "mahayana",
+  "dates": "6th c.–",
+  "key_figures": [
+   "zhiyi",
+   "zhanran",
+   "zhili"
+  ],
+  "symbol": "Lotus Sutra",
+  "note": "Lotus Sutra school; threefold truth; zhiguan (calming and contemplation).",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "tendai",
+  "name": "Tendai",
+  "parent": "tiantai",
+  "dates": "806–",
+  "key_figures": [
+   "saicho",
+   "ennin",
+   "ryogen"
+  ],
+  "symbol": "Mount Hiei",
+  "note": "Japanese Tiantai, which also includes esoteric (taimitsu), Pure Land and Zen elements.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "huayan",
+  "name": "Huayan (Kegon)",
+  "parent": "mahayana",
+  "dates": "7th c.–",
+  "key_figures": [
+   "dushun",
+   "zhiyan",
+   "fazang",
+   "chengguan",
+   "zongmi"
+  ],
+  "symbol": "Indra's net",
+  "note": "Avatamsaka school; interpenetration of all phenomena.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "pure-land",
+  "name": "Pure Land",
+  "parent": "mahayana",
+  "dates": "4th c.–",
+  "key_figures": [
+   "huiyuan",
+   "shandao",
+   "honen",
+   "shinran"
+  ],
+  "symbol": "Amitabha Buddha",
+  "note": "Devotion to Amitabha and rebirth in Sukhavati.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "jodo-shu",
+  "name": "Jōdo-shū",
+  "parent": "pure-land",
+  "dates": "1175–",
+  "key_figures": [
+   "honen"
+  ],
+  "symbol": "—",
+  "note": "Honen's school.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "jodo-shinshu",
+  "name": "Jōdo Shinshū (Shin Buddhism)",
+  "parent": "pure-land",
+  "dates": "1224–",
+  "key_figures": [
+   "shinran",
+   "rennyo"
+  ],
+  "symbol": "—",
+  "note": "Shinran's school; Buddhist Churches of America in the US.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "east-asian-esoteric",
+  "name": "East Asian esoteric Buddhism",
+  "parent": "vajrayana",
+  "dates": "8th c.–",
+  "key_figures": [
+   "amoghavajra",
+   "huiguo",
+   "kukai"
+  ],
+  "symbol": "—",
+  "note": "Chinese Zhenyan and its Japanese heirs.",
+  "exists_in_wisegraph": false
+ },
+ {
+  "id": "shingon",
+  "name": "Shingon",
+  "parent": "east-asian-esoteric",
+  "dates": "816–",
+  "key_figures": [
+   "kukai"
+  ],
+  "symbol": "Koyasan; the syllable A on a moon disc",
+  "note": "Kukai's esoteric school.",
+  "exists_in_wisegraph": false
+ }
+]

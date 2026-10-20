@@ -1,0 +1,121 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/text.json",
+ "title": "Text (scripture, treatise, book, essay)",
+ "description": "A work. Wiser links to legitimate free copies; it never rehosts. schema.org: Book / CreativeWork (scripture: CreativeWork + genre).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "text"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "title": {
+   "type": "string"
+  },
+  "altTitles": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "authors": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "kind": {
+   "type": "string",
+   "enum": [
+    "scripture",
+    "sutta",
+    "tantra",
+    "treatise",
+    "commentary",
+    "book",
+    "essay",
+    "translation",
+    "critical_edition",
+    "article",
+    "poem"
+   ]
+  },
+  "years": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "lang": {
+   "type": "string",
+   "description": "Original language, e.g. sa, pi, bo, zh, grc, ar, en."
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "commentaryOn": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "translationOf": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "editions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "url"
+    ],
+    "properties": {
+     "title": {
+      "type": "string"
+     },
+     "translator": {
+      "type": "string"
+     },
+     "year": {
+      "type": "integer"
+     },
+     "url": {
+      "$ref": "common.json#/$defs/url"
+     },
+     "free": {
+      "type": "boolean"
+     },
+     "licence": {
+      "type": "string"
+     },
+     "publisher": {
+      "type": "string"
+     },
+     "doi": {
+      "type": "string"
+     },
+     "checked": {
+      "$ref": "common.json#/$defs/date"
+     }
+    }
+   }
+  },
+  "ids": {
+   "$ref": "common.json#/$defs/ids"
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "title"
+ ],
+ "additionalProperties": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "wiser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --format=esm --minify --target=es2022 --outfile=site/app.js \"--banner:js=/*! Wiser. Bundles mascot-avatars 0.2.0 (https://github.com/otatechie/mascot-avatars), MIT License, Copyright (c) 2026 s1dashu; package by Ato Augustine. Full notice: credits.html */\" && esbuild src/placemap.js --bundle --format=esm --minify --target=es2022 --outfile=site/placemap.js \"--banner:js=/*! Wiser place map. Bundles Leaflet 1.9.4 (BSD-2-Clause, (c) Vladimir Agafonkin, CloudMade) and Leaflet.markercluster 1.5.3 (MIT, (c) Dave Leaver). Full notice: credits.html */\" && cp clips.json site/clips.json",
+    "data": "python3 tools/build-clips.py ../raw ../transcripts-internal"
+  },
+  "devDependencies": {
+    "@atproto/oauth-client-browser": "^0.5.9",
+    "esbuild": "^0.28.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "mascot-avatars": "0.2.0"
+  }
+}

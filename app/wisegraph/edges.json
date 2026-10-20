@@ -1,0 +1,2868 @@
+{
+ "_note": "wisegraph edges v1. type: teacher_of (direct teacher -> student), influenced (documented influence, from -> to), lineage_of (person/text -> tradition node they found or define), member_of is implied by people[].tradition. conf: high = textbook fact, medium = widely stated. Directed from -> to.",
+ "edges": [
+  {
+   "from": "the-buddha",
+   "to": "buddhism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nanavira-thera",
+   "to": "ajahn-nyanamoli",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Hillside Hermitage talks repeatedly comment on Notes on Dhamma."
+  },
+  {
+   "from": "ajahn-nyanamoli",
+   "to": "bhikkhu-anigha",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-nyanamoli",
+   "to": "thaniyo-thero",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-nyanamoli",
+   "to": "sister-medhini",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-chah",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "thai-forest",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "zen",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Founder of Sōtō Zen."
+  },
+  {
+   "from": "siddharameshwar-maharaj",
+   "to": "nisargadatta-maharaj",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "advaita",
+   "type": "influenced",
+   "conf": "high",
+   "note": "The main modern source of self-enquiry in Advaita teaching."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "advaita",
+   "type": "influenced",
+   "conf": "high",
+   "note": "I Am That shaped contemporary Western non-dual teachers."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "swami-vivekananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-vivekananda",
+   "to": "ramakrishna-order",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "shiva-sutras",
+   "to": "kashmir-shaivism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "kashmir-shaivism",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "mahavatar-babaji",
+   "to": "lahiri-mahasaya",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "paramahansa-yogananda",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Via Sri Yukteswar, Yogananda's guru and Lahiri's disciple."
+  },
+  {
+   "from": "jesus",
+   "to": "christian",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "jesus",
+   "to": "nag-hammadi",
+   "type": "influenced",
+   "conf": "high",
+   "note": "The Gnostic gospels present sayings and dialogues of Jesus."
+  },
+  {
+   "from": "valentinus",
+   "to": "gnosticism",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plato",
+   "to": "plotinus",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "proclus",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "proclus",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plato",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Ficino made the first complete Latin translation of Plato (1484)."
+  },
+  {
+   "from": "plotinus",
+   "to": "marsilio-ficino",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Ficino translated the Enneads (1492)."
+  },
+  {
+   "from": "plato",
+   "to": "gnosticism",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "The Timaeus' demiurge reappears, recast, in Gnostic myth."
+  },
+  {
+   "from": "neoplatonism",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "theosophy",
+   "to": "rudolf-steiner",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Steiner led the German section of the Theosophical Society before founding Anthroposophy (1912–13)."
+  },
+  {
+   "from": "rudolf-steiner",
+   "to": "anthroposophy",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "pd-ouspensky",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "fourth-way",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "theosophy",
+   "to": "jiddu-krishnamurti",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Raised by the Theosophical Society as its 'World Teacher'; he dissolved the Order of the Star in 1929."
+  },
+  {
+   "from": "theravada",
+   "to": "rob-burbea",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Trained in the Theravāda-rooted insight tradition; resident teacher at Gaia House."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "papaji",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "papaji",
+   "to": "mooji",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Mooji met Papaji in Lucknow in 1993."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "david-godman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Godman has written on Ramana and his devotees since the 1980s."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "rupert-spira",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Spira reads and comments on I Am That."
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "direct-path",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "jean-klein",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jean-klein",
+   "to": "francis-lucille",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "francis-lucille",
+   "to": "rupert-spira",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "arsha-vidya",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-tadatmananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "adi-shankara",
+   "to": "advaita",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "swami-lakshmanjoo",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Lakshmanjoo taught Abhinavagupta's works line by line."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "kashmir-shaivism",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Last holder of the oral tradition."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "christopher-wallis",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Wallis draws on Lakshmanjoo's translations and lineage."
+  },
+  {
+   "from": "vijnana-bhairava",
+   "to": "kashmir-shaivism",
+   "type": "lineage_of",
+   "conf": "medium"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "sri-yukteswar",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "sri-yukteswar",
+   "to": "paramahansa-yogananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "sri-daya-mata",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "sri-mrinalini-mata",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "brother-anandamoy",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "kriya-yoga",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Brought Kriya Yoga to the West."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "sarada-devi",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Spiritual companions; Sarada Devi is revered as Holy Mother of the Ramakrishna Order."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "ramakrishna-order",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-vivekananda",
+   "to": "swami-sarvapriyananda",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Sarvapriyananda is a monk of the order Vivekananda founded."
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-sumedho",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-brahm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-pasanno",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-amaro",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "ajahn-amaro",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Amaro trained under Sumedho in England after Thailand."
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "jack-kornfield",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "jack-kornfield",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Kornfield also practised with Mahasi Sayadaw."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "insight",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Noting method at the root of the Western Insight movement."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "joseph-goldstein",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jack-kornfield",
+   "to": "tara-brach",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajaan-lee",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajaan-lee",
+   "to": "thanissaro-bhikkhu",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Thanissaro trained under Ajaan Fuang, Ajaan Lee's student, and translated Lee's breath method."
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "plum-village",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "soto-zen",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "shunryu-suzuki",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "shohaku-okumura",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Okumura is a leading English translator of Dōgen."
+  },
+  {
+   "from": "kosho-uchiyama",
+   "to": "shohaku-okumura",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dogen",
+   "to": "brad-warner",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "zhaozhou",
+   "to": "henry-shukman",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Shukman teaches the Mu koan."
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "mingyur-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "tsoknyi-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dalai-lama",
+   "to": "gelug",
+   "type": "influenced",
+   "conf": "high",
+   "note": "The Gelug school was founded by Tsongkhapa; the Dalai Lama is its best-known teacher today."
+  },
+  {
+   "from": "nagarjuna",
+   "to": "mahayana",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Madhyamaka emptiness teaching."
+  },
+  {
+   "from": "pa-auk-sayadaw",
+   "to": "burmese",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "goenka",
+   "to": "burmese",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-nyanamoli",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Hillside Hermitage talks repeatedly discuss Ajahn Chah (e.g. \"Die Before You Die\")."
+  },
+  {
+   "from": "socrates",
+   "to": "plato",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "pythagoras",
+   "to": "plato",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Transmigration and number mysticism, via the Pythagoreans."
+  },
+  {
+   "from": "proclus",
+   "to": "pseudo-dionysius",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "pseudo-dionysius",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Through Augustine and Dionysius."
+  },
+  {
+   "from": "marguerite-porete",
+   "to": "meister-eckhart",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Widely argued from parallels with the Mirror of Simple Souls."
+  },
+  {
+   "from": "meister-eckhart",
+   "to": "jakob-boehme",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "jakob-boehme",
+   "to": "helena-blavatsky",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Through the Christian theosophical current."
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "theosophy",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "rudolf-steiner",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Steiner led the German section of the Theosophical Society, 1902–1912."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "jacob-needleman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Needleman was a member of the Gurdjieff Foundation."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "cynthia-bourgeault",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Her Law of Three and Wisdom School draw on the Work."
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "theodore-nottingham",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "jiddu-krishnamurti",
+   "to": "krishnamurti",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "plotinus",
+   "to": "neoplatonism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "plato",
+   "to": "platonic",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "marsilio-ficino",
+   "to": "renaissance-platonism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nag-hammadi",
+   "to": "gnosticism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "siddharameshwar-maharaj",
+   "to": "sri-ranjit-maharaj",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "ramesh-balsekar",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Ramesh translated for Maharaj from 1978 and was acknowledged by him."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "jean-dunn",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "She recorded and edited his last talks."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "stephen-wolinsky",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "s-k-mullarpattan",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Interpreter and devotee."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "vanaja-narayanswamy",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "ramesh-balsekar",
+   "to": "wayne-liquorman",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramesh-balsekar",
+   "to": "gautam-sachdeva",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "siddharameshwar-maharaj",
+   "to": "gautam-sachdeva",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Gautam's podcast series on Siddharameshwar's talks."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "atmananda-blanca-schlamm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-vijayananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-kedarnath",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Monk of Anandamayi Peeth; teaches her philosophy."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-chidananda-saraswati",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Long association; Chidananda describes her as a guide."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "anandamayi-sangha",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "divine-life-society",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-chidananda-saraswati",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-sao",
+   "to": "ajahn-mun",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajaan-lee",
+   "to": "ajahn-fuang",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-fuang",
+   "to": "thanissaro-bhikkhu",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-liem",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-viradhammo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-munindo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "ajahn-sucitto",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-maha-boowa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-thate",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ledi-sayadaw",
+   "to": "saya-thetgyi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "saya-thetgyi",
+   "to": "u-ba-khin",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "goenka",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "sayamagyi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mingun-sayadaw",
+   "to": "mahasi-sayadaw",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "sayadaw-u-pandita",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "chanmyay-sayadaw",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "anagarika-munindra",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anagarika-munindra",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anagarika-munindra",
+   "to": "dipa-ma",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dipa-ma",
+   "to": "sharon-salzberg",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "jack-kornfield",
+   "type": "studied_with",
+   "conf": "medium"
+  },
+  {
+   "from": "shwe-oo-min-sayadaw",
+   "to": "sayadaw-u-tejaniya",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nyanatiloka",
+   "to": "nyanaponika",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nyanatiloka",
+   "to": "nanavira-thera",
+   "type": "studied_with",
+   "conf": "medium"
+  },
+  {
+   "from": "nyanaponika",
+   "to": "bhikkhu-bodhi",
+   "type": "studied_with",
+   "conf": "medium"
+  },
+  {
+   "from": "tilopa",
+   "to": "naropa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "naropa",
+   "to": "marpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "marpa",
+   "to": "milarepa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "milarepa",
+   "to": "gampopa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gampopa",
+   "to": "karmapa-1",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "chogyam-trungpa",
+   "to": "pema-chodron",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "chokyi-nyima-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ling-rinpoche",
+   "to": "dalai-lama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "trijang-rinpoche",
+   "to": "dalai-lama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "lama-zopa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gyokujun-so-on",
+   "to": "shunryu-suzuki",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kishizawa-ian",
+   "to": "shunryu-suzuki",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "shunryu-suzuki",
+   "to": "richard-baker",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kodo-sawaki",
+   "to": "kosho-uchiyama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gudo-nishijima",
+   "to": "brad-warner",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "hakuun-yasutani",
+   "to": "philip-kapleau",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "hakuun-yasutani",
+   "to": "taizan-maezumi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "taizan-maezumi",
+   "to": "bernie-glassman",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "taizan-maezumi",
+   "to": "john-daido-loori",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bernie-glassman",
+   "to": "joan-halifax",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "thich-chan-that",
+   "to": "thich-nhat-hanh",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "annamalai-swami",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "papaji",
+   "to": "gangaji",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "siddharameshwar-maharaj",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-ram-kashmir",
+   "to": "swami-mahtab-kak",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-mahtab-kak",
+   "to": "swami-lakshmanjoo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "john-hughes",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "lakshmanagupta",
+   "to": "abhinavagupta",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "kshemaraja",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhagawan-nityananda",
+   "to": "muktananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "swami-brahmananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-chinmayananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-chinmayananda",
+   "to": "swami-dayananda-saraswati",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "thomas-keating",
+   "to": "cynthia-bourgeault",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Le Saux met Ramana in 1949; it reshaped his life"
+  },
+  {
+   "from": "abhishiktananda",
+   "to": "bede-griffiths",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Griffiths took over Shantivanam after Le Saux"
+  },
+  {
+   "from": "tsongkhapa",
+   "to": "gelug",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "karmapa-1",
+   "to": "kagyu",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "padmasambhava",
+   "to": "nyingma",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bodhidharma",
+   "to": "zen",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "vasugupta",
+   "to": "kashmir-shaivism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "goenka",
+   "to": "goenka-vipassana",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "inchegeri",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "siddha-yoga",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Muktananda taught from the Shiva Sutras and other Kashmir Shaiva texts."
+  },
+  {
+   "from": "muktananda",
+   "to": "siddha-yoga",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "dominic-goodall",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 1995/96 on Rāmakaṇṭha's Kiraṇavṛtti; Goodall thanks Sanderson as supervisor in the published edition.",
+   "src": "https://www.efeo.fr/membre/dominic-goodall/?lang=en"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "judit-torzsok",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 1999 on the Siddhayogeśvarīmata.",
+   "src": "https://ephe.academia.edu/JuditTorzsok"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "james-mallinson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 2001/2002, edition of the Khecarīvidyā.",
+   "src": "https://yoga.ames.ox.ac.uk/hyp/team"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "jason-birch",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 2013 on the Amanaska; ORA lists Sanderson as supervisor.",
+   "src": "https://ora.ox.ac.uk/objects/uuid:4edd5abe-0aa6-4c52-96d2-c4acfce1ad60"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "csaba-kiss",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Kiss: Matsyendrasaṃhitā edited \"for my PhD studies under the supervision of Professor Alexis Sanderson\" (DPhil Oxford 2009).",
+   "src": "https://brill.com/display/book/edcoll/9789004432802/BP000023.xml?language=en"
+  },
+  {
+   "from": "harunaga-isaacson",
+   "to": "shaman-hatley",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Pennsylvania 2007 \"under the direction of Harunaga Isaacson\" (not Sanderson).",
+   "src": "https://www.concordia.ca/faculty/shaman-hatley.html"
+  },
+  {
+   "from": "robert-goldman",
+   "to": "christopher-wallis",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Co-chair, UC Berkeley PhD 2014.",
+   "src": "https://escholarship.org/uc/item/4p0666qj"
+  },
+  {
+   "from": "alexander-von-rospatt",
+   "to": "christopher-wallis",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Co-chair, UC Berkeley PhD 2014.",
+   "src": "https://escholarship.org/uc/item/4p0666qj"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "mark-dyczkowski",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Oxford DPhil 1979 (published as The Doctrine of Vibration); Dyczkowski also names Gombrich as supervisor in his Tantrāloka acknowledgements.",
+   "src": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski"
+  },
+  {
+   "from": "elizabeth-de-michelis",
+   "to": "mark-singleton",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Cambridge 2007.",
+   "src": "https://en.wikipedia.org/wiki/Mark_Singleton_%28yoga_scholar%29"
+  },
+  {
+   "from": "tilmann-vetter",
+   "to": "harunaga-isaacson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Leiden 1995 (Vaiśeṣika); co-supervisor A. Wezler. Not a Sanderson student, though a postdoc at Oxford 1995–2000.",
+   "src": "https://www.dutchstudies-satsea.nl/deelnemers/isaacson-harunaga/"
+  },
+  {
+   "from": "louis-renou",
+   "to": "lilian-silburn",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Thèse d'État 1949, Instant et cause.",
+   "src": "https://fr.wikipedia.org/wiki/Lilian_Silburn"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "christopher-wallis",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Wallis did an Oxford MPhil and \"studied with Professor Sanderson formally and informally at Oxford, Leipzig, Kyoto, and Portland\"; Sanderson was NOT his PhD supervisor.",
+   "src": "https://vishvasa.github.io/AgamaH_shaivaH/meta/articles/shaivism_and_the_Tantric_Traditions/0/Notes_on_Contributors/"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "mark-dyczkowski",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Researched Kashmir Shaivism at Oxford \"under the guidance of\" Sanderson; formal supervisor was Gombrich.",
+   "src": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "harunaga-isaacson",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Postdoctoral fellow at Oxford 1995–2000 and later co-editor of the Sanderson Festschrift (2020).",
+   "src": "https://www.aai.uni-hamburg.de/indtib/personen/isaacson.html"
+  },
+  {
+   "from": "louis-renou",
+   "to": "andre-padoux",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Studied Sanskrit under Renou from 1940s.",
+   "src": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux"
+  },
+  {
+   "from": "lilian-silburn",
+   "to": "andre-padoux",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Silburn encouraged Padoux to study Abhinavagupta.",
+   "src": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux"
+  },
+  {
+   "from": "david-gordon-white",
+   "to": "tantra-studies",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "PhD Chicago 1988; dissertation advisor not confirmed today (Doniger wrote the foreword to the published thesis).",
+   "src": "https://www.religion.ucsb.edu/people/david-gordon-white"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "mark-dyczkowski",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Initiated 1976.",
+   "src": "https://muktabodha.org/dr-mark-dyczkowski"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "lilian-silburn",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Studied Trika under Lakshmanjoo 1949–54 and later.",
+   "src": "https://whowaswho-indology.info/5788/silburn-liliane/"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "andre-padoux",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Read the Parātrīśikā with Lakshmanjoo in Srinagar 1958–59.",
+   "src": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "bettina-baumer",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Long-time student; edited the Lakshmanjoo centenary volume Saṃvidullāsaḥ (2007).",
+   "src": "https://en.wikipedia.org/wiki/Bettina_Baumer"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "jaideva-singh",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Worked through his translations with Lakshmanjoo (standard account in his prefaces; not re-checked today)."
+  },
+  {
+   "from": "muktananda",
+   "to": "sally-kempton",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Initiated as Swami Durgananda, 1982.",
+   "src": "https://www.sallykempton.com/about/biography"
+  },
+  {
+   "from": "muktananda",
+   "to": "swami-shankarananda",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Disciple of Muktananda (ashram site; not re-read today).",
+   "src": "https://www.shivaashram.org.au"
+  },
+  {
+   "from": "gopala-aiyar-sundaramoorthy",
+   "to": "douglas-brooks",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Student from 1977 until Appa's death in 1994.",
+   "src": "https://rajanaka.com/about"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "shambhavi-sarasvati",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Root guru (devotional relationship; Ma died 1982).",
+   "src": "https://jayakula.org/about-shambhavi"
+  },
+  {
+   "from": "yogaswami",
+   "to": "sivaya-subramuniyaswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Initiated in Jaffna, 1949 (Himalayan Academy lineage page).",
+   "src": "https://www.himalayanacademy.com"
+  },
+  {
+   "from": "sivaya-subramuniyaswami",
+   "to": "bodhinatha-veylanswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Named successor; head of the monastery since 2001.",
+   "src": "https://www.himalayanacademy.com"
+  },
+  {
+   "from": "swami-rama",
+   "to": "rajmani-tigunait",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Successor as spiritual head of the Himalayan Institute.",
+   "src": "https://www.himalayaninstitute.org"
+  },
+  {
+   "from": "swami-rudrananda",
+   "to": "swami-khecaranatha",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Khecaranatha teaches in Rudi's line (titles: \"Swami Khecaranatha on Rudi's Double-Breath\").",
+   "src": "https://www.youtube.com/watch?v=NOioVq5l6Yk"
+  },
+  {
+   "from": "somananda",
+   "to": "utpaladeva",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Utpaladeva"
+  },
+  {
+   "from": "utpaladeva",
+   "to": "lakshmanagupta",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Utpaladeva"
+  },
+  {
+   "from": "matsyendranatha",
+   "to": "gorakhnath",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Traditional Nāth account (hagiographic)."
+  },
+  {
+   "from": "lakulisha",
+   "to": "pashupata",
+   "type": "lineage_of",
+   "conf": "medium",
+   "note": "Traditional attribution."
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "shiva-sutras",
+   "type": "translated",
+   "conf": "medium"
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "medium"
+  },
+  {
+   "from": "lilian-silburn",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Lilian_Silburn"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "shiva-sutras",
+   "type": "translated",
+   "conf": "high",
+   "src": "https://www.lakshmanjooacademy.org"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "high",
+   "src": "https://www.lakshmanjooacademy.org"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-chah",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Chah spent a short, formative period with Ajahn Mun.",
+   "src": "https://en.wikipedia.org/wiki/Ajahn_Chah"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-jayasaro",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Ajahn_Jayasaro"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-anan",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Ordained under Ajahn Chah in 1975.",
+   "src": "https://watmarpjan.org/en/ajahn-anan/biography"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-dtun",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Preceptor at Wat Nong Pah Pong, 1978.",
+   "src": "https://www.nigrodharamaforestmonastery.org/teachings"
+  },
+  {
+   "from": "ajahn-piak",
+   "to": "ajahn-dtun",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Stayed four years with Ajahn Piak and Ajahn Anan.",
+   "src": "https://satisaraniya.ca/2013/05/25/ajahn-dtuns-visit-to-sati-saraniya-hermitage"
+  },
+  {
+   "from": "ajahn-anan",
+   "to": "ajahn-kalyano",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Long-time student and translator.",
+   "src": "https://watmarpjan.org/en/feed/podcast/ajahn-anan"
+  },
+  {
+   "from": "ajahn-brahm",
+   "to": "ajahn-brahmali",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://bswa.org"
+  },
+  {
+   "from": "ajahn-brahm",
+   "to": "ajahn-hasapanna",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://bswa.org"
+  },
+  {
+   "from": "ajahn-brahm",
+   "to": "bhante-sujato",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Trained at Bodhinyana; ordained in the Chah tradition in Thailand.",
+   "src": "https://en.wikipedia.org/wiki/Sujato"
+  },
+  {
+   "from": "ajahn-pasanno",
+   "to": "ajahn-nyaniko",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.abhayagiri.org"
+  },
+  {
+   "from": "ajahn-pasanno",
+   "to": "ajahn-karunadhammo",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.abhayagiri.org"
+  },
+  {
+   "from": "ledi-sayadaw",
+   "to": "u-ba-khin",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Via Saya Thetgyi.",
+   "src": "https://en.wikipedia.org/wiki/U_Ba_Khin"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "sayadaw-u-silananda",
+   "type": "influenced",
+   "conf": "medium",
+   "src": "https://en.wikipedia.org/wiki/Sayadaw_U_Silananda"
+  },
+  {
+   "from": "dipa-ma",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Dipa_Ma"
+  },
+  {
+   "from": "goenka",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Bodh Gaya courses, early 1970s.",
+   "src": "https://en.wikipedia.org/wiki/Joseph_Goldstein_(writer)"
+  },
+  {
+   "from": "goenka",
+   "to": "sharon-salzberg",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://en.wikipedia.org/wiki/Sharon_Salzberg"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Sayadaw_U_Pandita"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "sharon-salzberg",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Sayadaw_U_Pandita"
+  },
+  {
+   "from": "joseph-goldstein",
+   "to": "insight",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Co-founded IMS (1975) with Salzberg and Kornfield.",
+   "src": "https://en.wikipedia.org/wiki/Insight_Meditation_Society"
+  },
+  {
+   "from": "balangoda-ananda-maitreya",
+   "to": "bhikkhu-bodhi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Preceptor.",
+   "src": "https://en.wikipedia.org/wiki/Bhikkhu_Bodhi"
+  },
+  {
+   "from": "nyanaponika",
+   "to": "bhikkhu-bodhi",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Succeeded him as BPS editor and president.",
+   "src": "https://en.wikipedia.org/wiki/Bhikkhu_Bodhi"
+  },
+  {
+   "from": "bhikkhu-analayo",
+   "to": "katukurunde-nanananda",
+   "type": "translated",
+   "conf": "medium",
+   "note": "Anālayo transcribed/edited the English Nibbāna sermons.",
+   "src": "https://en.wikipedia.org/wiki/Katukurunde_Nanananda_Thera"
+  },
+  {
+   "from": "lance-cousins",
+   "to": "rupert-gethin",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Manchester 1987.",
+   "src": "https://doi.org/10.1558/bsrv.36754"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "steven-collins",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 1979.",
+   "src": "https://palitextsociety.org/wp-content/uploads/2024/12/01-Gethin-JPTS-34-2021.pdf"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "alexander-wynne",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DPhil Oxford 2003 (acknowledgements).",
+   "src": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf"
+  },
+  {
+   "from": "rupert-gethin",
+   "to": "alexander-wynne",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Undergraduate teacher at Bristol.",
+   "src": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf"
+  },
+  {
+   "from": "paul-williams",
+   "to": "alexander-wynne",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Undergraduate teacher at Bristol.",
+   "src": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf"
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "buddhist-studies",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Founded the Oxford Centre for Buddhist Studies (2004).",
+   "src": "https://ocbs.org"
+  },
+  {
+   "from": "tapovan-maharaj",
+   "to": "swami-chinmayananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Chinmayananda_Saraswati"
+  },
+  {
+   "from": "swami-chinmayananda",
+   "to": "chinmaya-mission",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Chinmaya_Mission"
+  },
+  {
+   "from": "swami-chinmayananda",
+   "to": "swami-tejomayananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Tejomayananda"
+  },
+  {
+   "from": "swami-chinmayananda",
+   "to": "swami-swaroopananda-chinmaya",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.chinmayamission.com"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swamini-svatmavidyananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://www.youtube.com/channel/UCJ8VESdPB5X0FReFGz8YMOA"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-viditatmananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://www.arshavidya.org"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-tattvavidananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://www.arshavidya.org"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-paramarthananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Dayananda_Saraswati_(Arsha_Vidya)"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-vishnudevananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+  },
+  {
+   "from": "swami-vishnudevananda",
+   "to": "sivananda-yoga",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+  },
+  {
+   "from": "swami-vishnudevananda",
+   "to": "swami-swaroopananda-sivananda",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://sivanandabahamas.org"
+  },
+  {
+   "from": "swami-vishnudevananda",
+   "to": "swami-sitaramananda",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://sivanandayogafarm.org"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-satyananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Satyananda_Saraswati"
+  },
+  {
+   "from": "swami-satyananda",
+   "to": "bihar-yoga",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Bihar_School_of_Yoga"
+  },
+  {
+   "from": "swami-satyananda",
+   "to": "swami-niranjanananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Swami_Niranjanananda_Saraswati"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "tkv-desikachar",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Father and teacher.",
+   "src": "https://en.wikipedia.org/wiki/T._K._V._Desikachar"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "bks-iyengar",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/B._K._S._Iyengar"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "pattabhi-jois",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/K._Pattabhi_Jois"
+  },
+  {
+   "from": "tkv-desikachar",
+   "to": "krishnamacharya-yoga",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Founded Krishnamacharya Yoga Mandiram, 1976.",
+   "src": "https://en.wikipedia.org/wiki/T._K._V._Desikachar"
+  },
+  {
+   "from": "chaitanya-mahaprabhu",
+   "to": "gaudiya",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Gaudiya_Vaishnavism"
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "bhaktivedanta-swami-prabhupada",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/A._C._Bhaktivedanta_Swami_Prabhupada"
+  },
+  {
+   "from": "bhaktivedanta-swami-prabhupada",
+   "to": "radhanath-swami",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/Radhanath_Swami"
+  },
+  {
+   "from": "daniel-ingalls",
+   "to": "wendy-doniger",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "Harvard PhD (1968); supervisor named in secondary sources, not re-checked in the thesis.",
+   "src": "https://en.wikipedia.org/wiki/Wendy_Doniger"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "jeffery-long",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Long describes coming to Vedanta through the Ramakrishna tradition (VSNY talk \"How I Came to Vedanta\").",
+   "src": "https://www.youtube.com/watch?v=GLeU557CGDw"
+  },
+  {
+   "from": "donald-lopez",
+   "to": "jacob-dalton",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Michigan 2002; acknowledged as \"my advisor\" in his dissertation and in The Taming of the Demons",
+   "src": "https://dokumen.pub/download/the-taming-of-the-demons-violence-and-liberation-in-tibetan-buddhism-9780300153958.html"
+  },
+  {
+   "from": "jeffrey-hopkins",
+   "to": "donald-lopez",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "graduate of Hopkins's UVA Tibetan studies PhD programme (PhD 1982); the page names the programme, not a formal advisor",
+   "src": "https://tricycle.org/article/jeffrey-hopkins-obituary/"
+  },
+  {
+   "from": "jeffrey-hopkins",
+   "to": "anne-klein",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "graduate of Hopkins's UVA programme; the page names the programme, not a formal advisor",
+   "src": "https://tricycle.org/article/jeffrey-hopkins-obituary/"
+  },
+  {
+   "from": "dalai-lama",
+   "to": "robert-thurman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordained him in 1964, the first Western Tibetan Buddhist monk",
+   "src": "https://bobthurman.com/about"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "jan-willis",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "her mentor for fifteen years",
+   "src": "https://www.sfzc.org/teachers/jan-willis"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "fpmt",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "with Lama Zopa Rinpoche, 1975",
+   "src": "https://fpmt.org"
+  },
+  {
+   "from": "dalai-lama",
+   "to": "alan-wallace",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "full ordination in 1975",
+   "src": "https://www.alanwallace.org/about-alan-wallace/"
+  },
+  {
+   "from": "thupten-jinpa",
+   "to": "dalai-lama",
+   "type": "translated",
+   "conf": "high",
+   "note": "principal English translator since 1985",
+   "src": "https://buddhanature.tsadra.org/index.php/People/Jinpa,_Thupten"
+  },
+  {
+   "from": "jeffrey-hopkins",
+   "to": "dalai-lama",
+   "type": "translated",
+   "conf": "high",
+   "note": "chief interpreter 1979–89",
+   "src": "https://www.simonandschuster.com/books/Meditation-on-Emptiness/Jeffrey-Hopkins/9781614299134"
+  },
+  {
+   "from": "ruben-habito",
+   "to": "henry-shukman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "primary teacher",
+   "src": "https://sanbo-zen-international.org/en"
+  },
+  {
+   "from": "ruben-habito",
+   "to": "valerie-forstman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "first teacher",
+   "src": "https://www.mountaincloud.org/about/teacher-valerie-forstman/"
+  },
+  {
+   "from": "gudo-nishijima",
+   "to": "jundo-cohen",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordination and Dharma transmission",
+   "src": "https://www.treeleaf.org/lineage/"
+  },
+  {
+   "from": "sheng-yen",
+   "to": "guo-gu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Dharma heir",
+   "src": "https://tallahasseechan.org"
+  },
+  {
+   "from": "sheng-yen",
+   "to": "dharma-drum",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.dharmadrum.org"
+  },
+  {
+   "from": "seung-sahn",
+   "to": "kwan-um",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "1983",
+   "src": "https://www.kwanumzen.org"
+  },
+  {
+   "from": "seung-sahn",
+   "to": "dae-bong",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Dharma heir in the Kwan Um School",
+   "src": "https://www.kwanumzen.org"
+  },
+  {
+   "from": "eido-shimano",
+   "to": "shinge-roshi",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Dharma transmission in the Zen Studies Society line",
+   "src": "https://zenstudies.org"
+  },
+  {
+   "from": "taizan-maezumi",
+   "to": "chozen-bays",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Dharma transmission",
+   "src": "https://zendust.org"
+  },
+  {
+   "from": "shunryu-suzuki",
+   "to": "reb-anderson",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "ordained by Suzuki in 1970",
+   "src": "https://www.sfzc.org"
+  },
+  {
+   "from": "reb-anderson",
+   "to": "taigen-leighton",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Dharma transmission",
+   "src": "https://www.ancientdragon.org"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "ocb",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Shasta Abbey 1970; OBC 1978",
+   "src": "https://shastaabbey.org"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "phap-huu",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordained monastic disciple",
+   "src": "https://plumvillage.org"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "phap-hai",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordained monastic disciple",
+   "src": "https://plumvillage.org"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "phap-linh",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordained monastic disciple",
+   "src": "https://plumvillage.org"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "chan-duc",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "ordained monastic disciple",
+   "src": "https://plumvillage.org"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "chan-khong",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "student and lifelong collaborator",
+   "src": "https://plumvillage.org"
+  },
+  {
+   "from": "dzigar-kongtrul",
+   "to": "pema-chodron",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "her principal teacher after Trungpa",
+   "src": "https://pemachodronfoundation.org"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "phakchok-rinpoche",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "grandfather and early teacher",
+   "src": "https://samyeinstitute.org"
+  },
+  {
+   "from": "hakuun-yasutani",
+   "to": "sanbo-zen",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "1954",
+   "src": "https://sanbo-zen-international.org/en/about/history"
+  },
+  {
+   "from": "seyyed-hossein-nasr",
+   "to": "william-chittick",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Tehran 1974 under Nasr.",
+   "src": "https://en.wikipedia.org/wiki/William_Chittick"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "martin-lings",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Disciple from 1938.",
+   "src": "https://en.wikipedia.org/wiki/Martin_Lings"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "seyyed-hossein-nasr",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Member of Schuon's Maryamiyya; acknowledges direct debt.",
+   "src": "https://religioperennis.org/documents/laude/NasrSchuon.pdf"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "huston-smith",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Smith names Schuon among the perennialists his Forgotten Truth draws on.",
+   "src": "https://worldwisdom.com/wp-content/uploads/2025/05/L392-Is_There_a_Perennial_Philosophy.pdf"
+  },
+  {
+   "from": "nazim-al-haqqani",
+   "to": "hisham-kabbani",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Deputy and son-in-law.",
+   "src": "https://naqshbandi.org/tariqa/living-masters/shaykh-muhammad-hisham-kabbani"
+  },
+  {
+   "from": "hisham-kabbani",
+   "to": "nour-kabbani",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Son; authorised 2018.",
+   "src": "https://sufilive.com/dnk/index.cfm"
+  },
+  {
+   "from": "javad-nurbakhsh",
+   "to": "alireza-nurbakhsh",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Son and successor, 2008.",
+   "src": "https://www.nimatullahi.org/masters-of-the-path"
+  },
+  {
+   "from": "john-main",
+   "to": "laurence-freeman",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://wccm.org/people/laurence-freeman/"
+  },
+  {
+   "from": "thomas-merton",
+   "to": "james-finley",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Novice master and spiritual director at Gethsemani, 1962–67.",
+   "src": "https://cac.org/about/cac-faculty/james-finley"
+  },
+  {
+   "from": "simon-wilson",
+   "to": "louise-livingstone",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Doctoral supervisor with Linden West.",
+   "src": "https://www.canterbury.ac.uk/people/simon-wilson"
+  },
+  {
+   "from": "ross-nichols",
+   "to": "philip-carr-gomm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ross-nichols",
+   "to": "druidry",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "gerald-gardner",
+   "to": "doreen-valiente",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gerald-gardner",
+   "to": "wicca",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "samuel-liddell-macgregor-mathers",
+   "to": "golden-dawn",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "samuel-liddell-macgregor-mathers",
+   "to": "aleister-crowley",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "aleister-crowley",
+   "to": "thelema",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dion-fortune",
+   "to": "western-magic",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "triratna",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "daishin-morgan",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "serene-reflection",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "akong-rinpoche",
+   "to": "lama-yeshe-losal",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "john-main",
+   "to": "christian-meditation-wccm",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-khemadhammo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "bulent-rauf",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "akbarian",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nazim-al-haqqani",
+   "to": "naqshbandi",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "inayati",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-fox",
+   "to": "quaker",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "kelsang-gyatso",
+   "to": "new-kadampa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhaktivedanta-swami-prabhupada",
+   "to": "iskcon",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "christina-feldman",
+   "to": "rob-burbea",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "christopher-titmuss",
+   "to": "rob-burbea",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "emma-restall-orr",
+   "to": "druidry",
+   "type": "lineage_of",
+   "conf": "medium"
+  },
+  {
+   "from": "kathy-jones",
+   "to": "goddess-spirituality",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "luis-gomez",
+   "to": "robert-sharf",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Michigan 1991, Pao-tsang lun (advisor L. O. Gómez; also Deep Blue record)",
+   "src": "https://sites.lsa.umich.edu/buddhiststudies/people/alumni"
+  },
+  {
+   "from": "luis-gomez",
+   "to": "griffith-foulk",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Michigan 1987",
+   "src": "https://sites.lsa.umich.edu/buddhiststudies/people/alumni"
+  },
+  {
+   "from": "donald-munro",
+   "to": "brook-ziporyn",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Michigan 1996, Tiantai value/anti-value",
+   "src": "https://divinity.uchicago.edu/sites/default/files/2023-06/Div%20Faculty%20CVs%202023/Brook%20Ziporyn.pdf"
+  },
+  {
+   "from": "stanley-weinstein",
+   "to": "john-mcrae",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Yale 1983, Northern School of Chan",
+   "src": "https://buddhism.arts.ubc.ca/869-2/"
+  },
+  {
+   "from": "yanagida-seizan",
+   "to": "john-mcrae",
+   "type": "influenced",
+   "conf": "high",
+   "note": "directed his Kyoto research",
+   "src": "https://buddhism.arts.ubc.ca/869-2/"
+  },
+  {
+   "from": "francine-herail",
+   "to": "bernard-faure",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Doctorat d'État Paris 7, 1984",
+   "src": "https://www.sudoc.fr/041424565"
+  },
+  {
+   "from": "yanagida-seizan",
+   "to": "bernard-faure",
+   "type": "influenced",
+   "conf": "high",
+   "note": "worked under Yanagida in Kyoto 1976–83",
+   "src": "https://docslib.org/doc/2713244/yanagida-seizans-lesson"
+  },
+  {
+   "from": "paul-groner",
+   "to": "charles-jones",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Virginia 1996, Buddhism in Taiwan",
+   "src": "https://dlbs.liberal.ntu.edu.tw/museum/TAIWAN/md/bit/bit.htm"
+  },
+  {
+   "from": "masatoshi-nagatomi",
+   "to": "robert-thurman",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Harvard 1972 on Tsongkhapa",
+   "src": "https://religion.columbia.edu/news/memoriam-robert-af-thurman-1941-2026"
+  },
+  {
+   "from": "richard-robinson",
+   "to": "jeffrey-hopkins",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "chaired his prelims; died before the dissertation was done",
+   "src": "https://networks.h-net.org/node/6060/pages/3914200/hopkins-jeffrey"
+  },
+  {
+   "from": "geshe-lhundub-sopa",
+   "to": "jeffrey-hopkins",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "oversaw completion of Meditation on Emptiness (Wisconsin 1973); also listed on the UW memorial page",
+   "src": "https://maitripa.org/jeffrey-hopkins/"
+  },
+  {
+   "from": "geshe-lhundub-sopa",
+   "to": "jose-cabezon",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "listed among those who completed PhDs under Geshe Sopa",
+   "src": "https://alc.wisc.edu/staff/sopa-geshe-lhundub/"
+  },
+  {
+   "from": "geshe-lhundub-sopa",
+   "to": "david-germano",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "listed among those who completed PhDs under Geshe Sopa (Wisconsin 1992)",
+   "src": "https://alc.wisc.edu/staff/sopa-geshe-lhundub/"
+  },
+  {
+   "from": "geshe-ngawang-wangyal",
+   "to": "robert-thurman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "first guru, from 1962",
+   "src": "https://bobthurman.com/about"
+  },
+  {
+   "from": "geshe-ngawang-wangyal",
+   "to": "jeffrey-hopkins",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "studied with him in Freewood Acres, NJ",
+   "src": "https://networks.h-net.org/group/announcements/20037841/jeffrey-hopkins-1940-2024"
+  },
+  {
+   "from": "geshe-rabten",
+   "to": "alan-wallace",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "trained under him at the Tibet Institute, Switzerland",
+   "src": "https://thus.org/faculty-friends/b-alan-wallace-ph-d"
+  },
+  {
+   "from": "alan-wallace",
+   "to": "gyatrul-rinpoche",
+   "type": "translated",
+   "conf": "high",
+   "note": "principal interpreter 1992–97",
+   "src": "https://www.alanwallace.org/about-alan-wallace/"
+  },
+  {
+   "from": "joan-rieck",
+   "to": "henry-shukman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "primary teacher",
+   "src": "https://sanbo-zen-international.org/en"
+  },
+  {
+   "from": "yamada-ryoun",
+   "to": "henry-shukman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Dharma transmission and appointment as Zen Master, 2020",
+   "src": "https://sanbo-zen-international.org/en"
+  },
+  {
+   "from": "yamada-ryoun",
+   "to": "valerie-forstman",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "since 2003",
+   "src": "https://www.mountaincloud.org/about/teacher-valerie-forstman/"
+  },
+  {
+   "from": "charlotte-joko-beck",
+   "to": "barry-magid",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Dharma heir; founded Ordinary Mind Zendo",
+   "src": "https://ordinarymind.com"
+  },
+  {
+   "from": "dainin-katagiri",
+   "to": "dosho-port",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.vinesofobstacles.com"
+  },
+  {
+   "from": "dilgo-khyentse",
+   "to": "dzongsar-khyentse",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "principal teacher",
+   "src": "https://siddharthasintent.org"
+  },
+  {
+   "from": "dilgo-khyentse",
+   "to": "dzigar-kongtrul",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://mangalashribhuti.org"
+  },
+  {
+   "from": "lopon-tenzin-namdak",
+   "to": "tenzin-wangyal",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://ligmincha.org"
+  },
+  {
+   "from": "wangdor-rinpoche",
+   "to": "lama-lena",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://lamalenateachings.com"
+  },
+  {
+   "from": "khenpo-munsel",
+   "to": "garchen-rinpoche",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "taught him in prison camp",
+   "src": "https://garchen.net"
+  },
+  {
+   "from": "lama-norlha",
+   "to": "lama-rod-owens",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "three-year retreat at Kagyu Thubten Chöling",
+   "src": "https://www.lamarod.com"
+  },
+  {
+   "from": "lama-norlha",
+   "to": "willa-blythe-baker",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "listed among her teachers",
+   "src": "https://commons.tsadra.org/index.php/Miller,_W."
+  },
+  {
+   "from": "kalu-rinpoche",
+   "to": "willa-blythe-baker",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "listed among her teachers",
+   "src": "https://commons.tsadra.org/index.php/Miller,_W."
+  },
+  {
+   "from": "karma-thinley",
+   "to": "lama-jampa-thaye",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "principal teacher, who authorised him",
+   "src": "https://www.dechen.org"
+  },
+  {
+   "from": "chogyal-namkhai-norbu",
+   "to": "tsultrim-allione",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://taramandala.org"
+  },
+  {
+   "from": "tsenzhab-serkong",
+   "to": "alexander-berzin",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "principal teacher",
+   "src": "https://studybuddhism.com"
+  },
+  {
+   "from": "dolpopa",
+   "to": "jonang",
+   "type": "influenced",
+   "conf": "high",
+   "note": "systematised shentong",
+   "src": "https://dzokden.org"
+  },
+  {
+   "from": "zhiyi",
+   "to": "tiantai",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "systematiser of the school",
+   "src": "https://en.wikipedia.org/wiki/Tiantai"
+  },
+  {
+   "from": "saicho",
+   "to": "tendai",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "806",
+   "src": "https://www.tendai.org"
+  },
+  {
+   "from": "kukai",
+   "to": "shingon",
+   "type": "lineage_of",
+   "conf": "high",
+   "note": "Koyasan, 816",
+   "src": "http://www.shingonbuddhism.org"
+  },
+  {
+   "from": "honen",
+   "to": "jodo-shu",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://en.wikipedia.org/wiki/J%C5%8Ddo-sh%C5%AB"
+  },
+  {
+   "from": "shinran",
+   "to": "jodo-shinshu",
+   "type": "lineage_of",
+   "conf": "high",
+   "src": "https://www.shinranworks.com/"
+  },
+  {
+   "from": "fazang",
+   "to": "huayan",
+   "type": "lineage_of",
+   "conf": "medium",
+   "note": "third patriarch and main systematiser",
+   "src": "https://plato.stanford.edu/entries/buddhism-huayan/"
+  },
+  {
+   "from": "yamada-koun",
+   "to": "sanbo-zen",
+   "type": "influenced",
+   "conf": "high",
+   "note": "second abbot, who opened it to Christians and lay practitioners",
+   "src": "https://sanbo-zen-international.org/en/about/history"
+  },
+  {
+   "from": "alexander-altmann",
+   "to": "arthur-green",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Doctoral advisor (Brandeis).",
+   "src": "https://en.wikipedia.org/wiki/Arthur_Green"
+  },
+  {
+   "from": "alexander-altmann",
+   "to": "elliot-wolfson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD 1986 on Sefer ha-Rimmon.",
+   "src": "https://en.wikipedia.org/wiki/Elliot_R._Wolfson"
+  },
+  {
+   "from": "alexander-altmann",
+   "to": "daniel-matt",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "Listed among Brandeis students whose work Altmann supervised.",
+   "src": "https://en.wikipedia.org/wiki/Alexander_Altmann"
+  },
+  {
+   "from": "shlomo-pines",
+   "to": "moshe-idel",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "PhD Hebrew University 1976 on Abulafia, under Pines and Gottlieb.",
+   "src": "https://library.oapen.org/rest/bitstreams/e915c1d2-d281-48e0-b933-153103f68fe2/retrieve"
+  },
+  {
+   "from": "ephraim-gottlieb",
+   "to": "moshe-idel",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "src": "https://library.oapen.org/rest/bitstreams/e915c1d2-d281-48e0-b933-153103f68fe2/retrieve"
+  },
+  {
+   "from": "gershom-scholem",
+   "to": "moshe-idel",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Idel later succeeded to Scholem's chair; also his critic.",
+   "src": "https://en.wikipedia.org/wiki/Moshe_Idel"
+  },
+  {
+   "from": "abraham-joshua-heschel",
+   "to": "arthur-green",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Studied privately with Heschel at JTS.",
+   "src": "https://en.wikipedia.org/wiki/Arthur_Green"
+  },
+  {
+   "from": "zalman-schachter-shalomi",
+   "to": "arthur-green",
+   "type": "influenced",
+   "conf": "high",
+   "note": "\"Lifelong friend and mentor\".",
+   "src": "https://en.wikipedia.org/wiki/Arthur_Green"
+  },
+  {
+   "from": "rene-guenon",
+   "to": "martin-lings",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Lings was Guénon's assistant in Cairo.",
+   "src": "https://en.wikipedia.org/wiki/Martin_Lings"
+  },
+  {
+   "from": "henry-corbin",
+   "to": "william-chittick",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Wikipedia infobox influence.",
+   "src": "https://en.wikipedia.org/wiki/William_Chittick"
+  },
+  {
+   "from": "abdullah-daghestani",
+   "to": "nazim-al-haqqani",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Nazim was Grandshaykh Abdullah's deputy and successor.",
+   "src": "https://naqshbandi.org/tariqa/living-masters/hajjah-naziha-adil/"
+  },
+  {
+   "from": "munes-ali-shah",
+   "to": "javad-nurbakhsh",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Succeeded his master in 1953.",
+   "src": "https://www.nimatullahi.org/dr-javad-nurbakhsh"
+  },
+  {
+   "from": "hazrat-inayat-khan",
+   "to": "vilayat-inayat-khan",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Eldest son and successor.",
+   "src": "https://inayatiyya.org/our-lineage"
+  },
+  {
+   "from": "vilayat-inayat-khan",
+   "to": "pir-zia-inayat-khan",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Trained by his father; confirmed successor 2000/2001.",
+   "src": "https://pirzia.org/bio/"
+  },
+  {
+   "from": "henry-corbin",
+   "to": "tom-cheetham",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Cheetham's books are studies of Corbin.",
+   "src": "https://www.springpublications.com/cheetham.html"
+  },
+  {
+   "from": "henry-corbin",
+   "to": "james-hillman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Hillman named Corbin the \"second father\" of archetypal psychology.",
+   "src": "https://www.kosmosinstitute.org/james-hillman-studies"
+  },
+  {
+   "from": "carl-jung",
+   "to": "james-hillman",
+   "type": "influenced",
+   "conf": "high",
+   "note": "\"First father\" of archetypal psychology.",
+   "src": "https://www.kosmosinstitute.org/james-hillman-studies"
+  },
+  {
+   "from": "james-hillman",
+   "to": "tom-cheetham",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Cheetham, Imaginal Love: Corbin and Hillman.",
+   "src": "https://www.springpublications.com/cheetham.html"
+  },
+  {
+   "from": "henry-corbin",
+   "to": "john-vervaeke",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Meaning Crisis eps. 48–49 build on Corbin.",
+   "src": "https://www.youtube.com/watch?v=mrnpZhWqdcA"
+  },
+  {
+   "from": "antoine-faivre",
+   "to": "wouter-hanegraaff",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Collaborator; Hanegraaff co-wrote Faivre's Aries obituary and built on his definition.",
+   "src": "https://brill.com/view/journals/arie/22/2/article-p167_1.xml"
+  },
+  {
+   "from": "wouter-hanegraaff",
+   "to": "egil-asprem",
+   "type": "academic_supervisor_of",
+   "conf": "medium",
+   "note": "Asprem: PhD 2013 at Hanegraaff's HHP centre; Hanegraaff calls him \"one of our former PhD students\"; formal supervisor not named.",
+   "src": "https://www.wouterjhanegraaff.net/about"
+  },
+  {
+   "from": "marco-pasi",
+   "to": "egil-asprem",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "MA supervisor (Amsterdam 2006–08), per Asprem's acknowledgments.",
+   "src": "https://cre8ivemindset.com/wp-content/uploads/2024/03/arguing-with-angels-enochian-magic-and-modern-occulture.pdf"
+  },
+  {
+   "from": "linden-west",
+   "to": "louise-livingstone",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "src": "https://www.canterbury.ac.uk/people/simon-wilson"
+  },
+  {
+   "from": "thomas-taylor",
+   "to": "iamblichus",
+   "type": "translated",
+   "conf": "high",
+   "note": "On the Mysteries (1821).",
+   "src": "https://www.gutenberg.org/ebooks/72815"
+  },
+  {
+   "from": "thomas-taylor",
+   "to": "proclus",
+   "type": "translated",
+   "conf": "high",
+   "note": "The Theology of Plato (1816).",
+   "src": "https://www.gutenberg.org/ebooks/77393"
+  },
+  {
+   "from": "plotinus",
+   "to": "porphyry",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Not re-checked this session.",
+   "src": "https://en.wikipedia.org/wiki/Porphyry_(philosopher)"
+  },
+  {
+   "from": "syrianus",
+   "to": "proclus",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Not re-checked this session.",
+   "src": "https://en.wikipedia.org/wiki/Syrianus"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "alexis-sanderson",
+   "type": "studied_with",
+   "conf": "medium"
+  }
+ ]
+}

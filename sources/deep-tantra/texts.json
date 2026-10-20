@@ -1,0 +1,219 @@
+{
+ "_note": "Links only; free and legitimate (public domain, open access, author- or publisher-posted). No copies stored.",
+ "texts": [
+  {
+   "id": "shiva-sutras",
+   "title": "Śiva Sūtras with Kṣemarāja's Vimarśinī (KSTS vol. 1, 1911)",
+   "school": "spanda",
+   "lang": "sa",
+   "kind": "primary",
+   "link": "https://archive.org/details/in.ernet.dli.2015.242354",
+   "licence": "public domain (Digital Library of India scan)",
+   "note": "Sanskrit only. For English, Jaideva Singh / Lakshmanjoo translations are copyrighted, so no link is given."
+  },
+  {
+   "id": "shiva-sutras-en-kak",
+   "title": "Śiva Sūtras, English translation by Subhash Kak",
+   "school": "spanda",
+   "lang": "en",
+   "kind": "translation",
+   "link": "https://sanskritdocuments.org/doc_shiva/shivasuutra.html",
+   "licence": "free online (sanskritdocuments.org, posted with the translator's introduction)"
+  },
+  {
+   "id": "malinivijayottara-tantra",
+   "title": "Mālinīvijayottaratantra (e-text, GRETIL)",
+   "school": "trika",
+   "lang": "sa",
+   "kind": "primary",
+   "link": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mAlinIvijayottaratantra.htm",
+   "licence": "GRETIL research e-text"
+  },
+  {
+   "id": "gretil",
+   "title": "GRETIL — Göttingen Register of Electronic Texts in Indian Languages (Śaiva and Śākta sections)",
+   "school": "tantra-studies",
+   "lang": "sa",
+   "kind": "library",
+   "link": "https://gretil.sub.uni-goettingen.de/gretil.htm",
+   "licence": "free e-texts"
+  },
+  {
+   "id": "muktabodha",
+   "title": "Muktabodha Digital Library (Śaiva and Śākta manuscripts and e-texts; Dyczkowski academic adviser)",
+   "school": "tantra-studies",
+   "lang": "sa",
+   "kind": "library",
+   "link": "https://muktabodha.org",
+   "licence": "free with registration"
+  },
+  {
+   "id": "saivism-and-the-tantric-traditions",
+   "title": "Śaivism and the Tantric Traditions: Essays in Honour of Alexis Sanderson (Brill 2020)",
+   "school": "tantra-studies",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://library.oapen.org/handle/20.500.12657/42543",
+   "licence": "open access (OAPEN)"
+  },
+  {
+   "id": "sanderson-papers",
+   "title": "Alexis Sanderson — collected papers (incl. \"The Śaiva Age\", 2009)",
+   "school": "tantra-studies",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://oxford.academia.edu/AlexisSanderson",
+   "licence": "author-posted PDFs"
+  },
+  {
+   "id": "wallis-dissertation",
+   "title": "Christopher Wallis, \"To Enter, To Be Initiated\" (PhD UC Berkeley, 2014)",
+   "school": "trika",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://escholarship.org/uc/item/4p0666qj",
+   "licence": "open access (eScholarship)"
+  },
+  {
+   "id": "khecarividya",
+   "title": "James Mallinson, The Khecarīvidyā of Ādinātha (Oxford DPhil)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://ora.ox.ac.uk/objects/uuid:945071bf-3282-4492-8f18-159417f5d554",
+   "licence": "Oxford Research Archive"
+  },
+  {
+   "id": "amanaska",
+   "title": "Jason Birch, The Amanaska: King of All Yogas (Oxford DPhil 2013)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://ora.ox.ac.uk/objects/uuid:4edd5abe-0aa6-4c52-96d2-c4acfce1ad60",
+   "licence": "Oxford Research Archive"
+  },
+  {
+   "id": "dattatreyayogashastra",
+   "title": "The Dattātreyayogaśāstra, ed. & tr. James Mallinson (IFP/EFEO 2024)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "primary+translation",
+   "link": "https://www.academia.edu/144142644/The_Datt%C4%81treyayoga%C5%9B%C4%81stra_in_full_open_access_",
+   "licence": "open access (per HYP publications page)"
+  },
+  {
+   "id": "amrtasiddhi",
+   "title": "The Amṛtasiddhi and Amṛtasiddhimūla: The Earliest Texts of the Haṭhayoga Tradition (Mallinson & Szántó, 2022)",
+   "school": "vajrayana",
+   "lang": "en",
+   "kind": "primary+translation",
+   "link": "https://www.academia.edu/100432728/The_Am%E1%B9%9Btasiddhi_and_Am%E1%B9%9Btasiddhim%C5%ABla_the_Earliest_Texts_of_the_Ha%E1%B9%ADhayoga_Tradition",
+   "licence": "author-posted (HYP publications page)",
+   "note": "The Shaiva–Buddhist overlap in one text: a Vajrayāna work that founds haṭha."
+  },
+  {
+   "id": "amaraugha",
+   "title": "The Amaraugha and Amaraughaprabodha of Gorakṣanātha (Birch, IFP 2023)",
+   "school": "siddha-siddhanta",
+   "lang": "en",
+   "kind": "primary+translation",
+   "link": "https://hal.science/hal-05306873",
+   "licence": "open access (HAL)"
+  },
+  {
+   "id": "yogacintamani",
+   "title": "Āsanas of the Yogacintāmaṇi (Birch, IFP 2024)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "primary+translation",
+   "link": "https://hal.science/hal-05306877",
+   "licence": "open access (HAL)"
+  },
+  {
+   "id": "hathabhyasapaddhati",
+   "title": "A Manual on the Practice of Haṭhayoga: the Haṭhābhyāsapaddhati (Birch, Singleton, Mallinson, 2025)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "primary+translation",
+   "link": "https://hal.science/hal-05432677",
+   "licence": "open access (HAL)"
+  },
+  {
+   "id": "hathapradipika-online",
+   "title": "Haṭhapradīpikā Online (Haṭha Yoga Project)",
+   "school": "hatha",
+   "lang": "sa/en",
+   "kind": "primary",
+   "link": "https://yoga.ames.ox.ac.uk/hp/",
+   "licence": "free online edition"
+  },
+  {
+   "id": "mallinson-vajrayana-hatha",
+   "title": "Mallinson, \"Haṭhayoga's early history: from Vajrayāna sexual restraint to universal somatic soteriology\" (2020)",
+   "school": "vajrayana",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://www.academia.edu/44326659/Ha%E1%B9%ADhayogas_Early_History_From_Vajray%C4%81na_Sexual_Restraint_to_Universal_Somatic_Soteriology",
+   "licence": "author-posted"
+  },
+  {
+   "id": "yoga-in-transformation",
+   "title": "Yoga in Transformation (V&R unipress 2018; Birch, Mallinson chapters)",
+   "school": "hatha",
+   "lang": "en",
+   "kind": "scholarship",
+   "link": "https://www.vandenhoeck-ruprecht-verlage.com/media/pdf/9f/78/68/OA_978-3-7370-0862-4.pdf",
+   "licence": "open access PDF"
+  },
+  {
+   "id": "mahanirvana-tantra",
+   "title": "Mahānirvāṇa Tantra, tr. Arthur Avalon (1913)",
+   "school": "shakta",
+   "lang": "en",
+   "kind": "translation",
+   "link": "https://sacred-texts.com/book/mahanirvana-tantra-tantra-of-the-great-liberation",
+   "licence": "public domain",
+   "note": "Late (18th c.?) text; Woodroffe-era framing. Historical interest."
+  },
+  {
+   "id": "shakti-and-shakta",
+   "title": "Shakti and Shâkta, Arthur Avalon (1918)",
+   "school": "shakta",
+   "lang": "en",
+   "kind": "essays",
+   "link": "https://sacred-texts.com/book/shakti-and-shakta",
+   "licence": "public domain"
+  },
+  {
+   "id": "karpuradi-stotra",
+   "title": "Hymn to Kālī: Karpūrādi-stotra, tr. Arthur Avalon (1922)",
+   "school": "krama",
+   "lang": "en",
+   "kind": "translation",
+   "link": "https://sacred-texts.com/book/hymn-to-kali",
+   "licence": "public domain"
+  },
+  {
+   "id": "hymns-to-the-goddess",
+   "title": "Hymns to the Goddess, tr. Woodroffe (1913)",
+   "school": "shakta",
+   "lang": "en",
+   "kind": "translation",
+   "link": "https://sacred-texts.com/book/hymns-to-the-goddess",
+   "licence": "public domain"
+  },
+  {
+   "id": "himalayan-academy-books",
+   "title": "Himalayan Academy free books (Subramuniyaswami: Dancing with Siva, Living with Siva, Merging with Siva)",
+   "school": "shaiva-siddhanta",
+   "lang": "en",
+   "kind": "teacher-published",
+   "link": "https://www.himalayanacademy.com/readlearn/books",
+   "licence": "free to read online (publisher)"
+  }
+ ],
+ "gaps": [
+  "Vijñāna Bhairava, Spanda Kārikās, Pratyabhijñāhṛdayam, Tantrāloka: no free legitimate English translation found (Jaideva Singh, Lakshmanjoo, Dyczkowski, Wallis are all in copyright). Only Sanskrit KSTS scans are free.",
+  "Brahmayāmala (Hatley; Kiss) and Niśvāsatattvasaṃhitā (Goodall et al.) are IFP/EFEO print books; not confirmed open access today."
+ ]
+}

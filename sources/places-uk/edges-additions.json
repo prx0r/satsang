@@ -1,0 +1,940 @@
+{
+ "_note": "places-uk edges (2026-10-20). Person->place edges carry target_kind 'place' and type founded | abbot_of | teaches_at (with years and a source URL) or associated_with (from a place's teacher_ids). Person->person/tradition edges use the app types. Only edges not already in app/ or another sources/ group.",
+ "edges": [
+  {
+   "from": "ajahn-sumedho",
+   "to": "cittaviveka",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1979",
+   "source": "https://en.wikipedia.org/wiki/Chithurst_Buddhist_Monastery"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "amaravati",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1984",
+   "source": "https://amaravati.org/about/male-monastic-community"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "amaravati",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1984–2010",
+   "source": "https://amaravati.org/about/male-monastic-community"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "aruna-ratanagiri",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1981",
+   "source": "https://en.wikipedia.org/wiki/Aruna_Ratanagiri"
+  },
+  {
+   "from": "ajahn-amaro",
+   "to": "amaravati",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "2010–",
+   "source": "https://amaravati.org/about/male-monastic-community"
+  },
+  {
+   "from": "ajahn-sucitto",
+   "to": "cittaviveka",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1992–2014",
+   "source": "https://en.wikipedia.org/wiki/Aruna_Ratanagiri"
+  },
+  {
+   "from": "ajahn-munindo",
+   "to": "aruna-ratanagiri",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1991–",
+   "source": "https://www.ratanagiri.org.uk/about-residents"
+  },
+  {
+   "from": "ajahn-khemadhammo",
+   "to": "forest-hermitage-uk",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "source": "https://foresthermitage.org.uk"
+  },
+  {
+   "from": "christina-feldman",
+   "to": "gaia-house",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1983",
+   "source": "https://gaiahouse.co.uk/about/gaia-house-story/"
+  },
+  {
+   "from": "christopher-titmuss",
+   "to": "gaia-house",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1983",
+   "source": "https://gaiahouse.co.uk/about/gaia-house-story/"
+  },
+  {
+   "from": "rob-burbea",
+   "to": "gaia-house",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "2005–2015",
+   "source": "https://gaiahouse.co.uk/retreats/about-the-teachers/"
+  },
+  {
+   "from": "stephen-batchelor",
+   "to": "gaia-house",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "source": "https://gaiahouse.co.uk/retreats/about-the-teachers/"
+  },
+  {
+   "from": "martine-batchelor",
+   "to": "gaia-house",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "source": "https://gaiahouse.co.uk/retreats/about-the-teachers/"
+  },
+  {
+   "from": "akong-rinpoche",
+   "to": "samye-ling",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1967",
+   "source": "https://samyeling.org/about/history"
+  },
+  {
+   "from": "chogyam-trungpa",
+   "to": "samye-ling",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1967",
+   "source": "https://samyeling.org/about/history"
+  },
+  {
+   "from": "lama-yeshe-losal",
+   "to": "samye-ling",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1995–",
+   "source": "https://samyeling.org/about/the-kagyu-lineage/choje-lama-yeshe-losal-rinpoche/"
+  },
+  {
+   "from": "lama-yeshe-losal",
+   "to": "holy-isle",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1992",
+   "source": "https://samyeling.org/about/the-kagyu-lineage/choje-lama-yeshe-losal-rinpoche/"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "throssel-hole",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1972",
+   "source": "https://throssel.org.uk/about-throssel-hole-buddhist-abbey/"
+  },
+  {
+   "from": "daishin-morgan",
+   "to": "throssel-hole",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1982–2019",
+   "source": "https://throssel.org.uk/news/january-2019/"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "shasta-abbey",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1970",
+   "source": "https://shastaabbey.org"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "london-buddhist-centre",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1978",
+   "source": "https://londonbuddhistcentre.com"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "adhisthana",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "2015–2018",
+   "source": "https://thebuddhistcentre.com/triratna/making-a-difference"
+  },
+  {
+   "from": "kelsang-gyatso",
+   "to": "manjushri-kmc",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1976",
+   "source": "https://manjushri.org"
+  },
+  {
+   "from": "john-main",
+   "to": "ealing-abbey",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1975",
+   "source": "https://www.christian-meditation.org.uk"
+  },
+  {
+   "from": "laurence-freeman",
+   "to": "bonnevaux",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "2019–",
+   "source": "https://bonnevauxwccm.org"
+  },
+  {
+   "from": "bede-griffiths",
+   "to": "prinknash-abbey",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1932–1940s",
+   "source": "https://en.wikipedia.org/wiki/Bede_Griffiths"
+  },
+  {
+   "from": "bede-griffiths",
+   "to": "pluscarden-abbey",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1940s–1950s",
+   "source": "https://en.wikipedia.org/wiki/Bede_Griffiths"
+  },
+  {
+   "from": "bhaktivedanta-swami-prabhupada",
+   "to": "bhaktivedanta-manor",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1973",
+   "source": "https://www.krishnatemple.com"
+  },
+  {
+   "from": "pramukh-swami-maharaj",
+   "to": "baps-neasden",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1995",
+   "source": "https://londonmandir.baps.org/"
+  },
+  {
+   "from": "swami-vishnudevananda",
+   "to": "sivananda-london",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "source": "https://www.sivananda.co.uk"
+  },
+  {
+   "from": "sophrony-sakharov",
+   "to": "tolleshunt-knights",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1959",
+   "source": "https://en.wikipedia.org/wiki/Sophrony_(Sakharov)"
+  },
+  {
+   "from": "george-fox",
+   "to": "swarthmoor-hall",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1652–1691",
+   "source": "https://www.swarthmoorhall.co.uk"
+  },
+  {
+   "from": "george-fox",
+   "to": "pendle-hill-uk",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1652",
+   "source": "https://en.wikipedia.org/wiki/Pendle_Hill"
+  },
+  {
+   "from": "george-fox",
+   "to": "firbank-fell",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1652",
+   "source": "https://en.wikipedia.org/wiki/Firbank_Fell"
+  },
+  {
+   "from": "julian-of-norwich",
+   "to": "julian-centre-norwich",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "late 14th–early 15th c. (anchoress)",
+   "source": "https://julianofnorwich.org"
+  },
+  {
+   "from": "bulent-rauf",
+   "to": "beshara-chisholme",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1975",
+   "source": "https://www.beshara.org"
+  },
+  {
+   "from": "nazim-al-haqqani",
+   "to": "naqshbandi-st-anns",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1970s–2014",
+   "source": "https://en.wikipedia.org/wiki/Nazim_Al-Haqqani"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "fazal-manzil",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1920s",
+   "source": "https://en.wikipedia.org/wiki/Inayat_Khan"
+  },
+  {
+   "from": "ross-nichols",
+   "to": "obod",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1964",
+   "source": "https://druidry.org"
+  },
+  {
+   "from": "philip-carr-gomm",
+   "to": "obod",
+   "type": "abbot_of",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1988–2020",
+   "source": "https://en.wikipedia.org/wiki/Philip_Carr-Gomm"
+  },
+  {
+   "from": "emma-restall-orr",
+   "to": "druid-network",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "2003",
+   "source": "https://druidnetwork.org"
+  },
+  {
+   "from": "kathy-jones",
+   "to": "goddess-temple",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "source": "https://www.goddesstemple.co.uk"
+  },
+  {
+   "from": "dion-fortune",
+   "to": "society-inner-light",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1924",
+   "source": "https://www.innerlight.org.uk"
+  },
+  {
+   "from": "dion-fortune",
+   "to": "chalice-orchard",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1920s–1946",
+   "source": "https://en.wikipedia.org/wiki/Dion_Fortune"
+  },
+  {
+   "from": "aleister-crowley",
+   "to": "boleskine-house",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1899–1913 (owner)",
+   "source": "https://www.boleskinehouse.org"
+  },
+  {
+   "from": "samuel-liddell-macgregor-mathers",
+   "to": "blythe-road",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1900",
+   "source": "https://en.wikipedia.org/wiki/Battle_of_Blythe_Road"
+  },
+  {
+   "from": "aleister-crowley",
+   "to": "blythe-road",
+   "type": "teaches_at",
+   "conf": "medium",
+   "target_kind": "place",
+   "years": "1900",
+   "source": "https://en.wikipedia.org/wiki/Battle_of_Blythe_Road"
+  },
+  {
+   "from": "cecil-williamson",
+   "to": "museum-witchcraft-magic",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1960 (Boscastle)",
+   "source": "https://museumofwitchcraftandmagic.co.uk"
+  },
+  {
+   "from": "doreen-valiente",
+   "to": "doreen-valiente-foundation",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "source": "https://www.doreenvaliente.org"
+  },
+  {
+   "from": "karl-koenig",
+   "to": "camphill-aberdeen",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1939–1940",
+   "source": "https://www.camphillschools.org.uk"
+  },
+  {
+   "from": "rudolf-steiner",
+   "to": "rudolf-steiner-house",
+   "type": "teaches_at",
+   "conf": "low",
+   "target_kind": "place",
+   "source": "https://www.rsh.anth.org.uk"
+  },
+  {
+   "from": "jiddu-krishnamurti",
+   "to": "brockwood",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1969",
+   "source": "https://www.brockwood.org.uk"
+  },
+  {
+   "from": "douglas-harding",
+   "to": "headless-way",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "source": "https://www.headless.org"
+  },
+  {
+   "from": "christmas-humphreys",
+   "to": "buddhist-society",
+   "type": "founded",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "1924",
+   "source": "https://www.thebuddhistsociety.org"
+  },
+  {
+   "from": "john-crook",
+   "to": "maenllwyd",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "source": "https://westernchanfellowship.org"
+  },
+  {
+   "from": "rupert-spira",
+   "to": "the-vedanta-branston",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "recurring retreats",
+   "source": "https://rupertspira.com/events/listing-by-type?type=retreat"
+  },
+  {
+   "from": "rupert-spira",
+   "to": "colet-house",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "day meetings",
+   "source": "https://rupertspira.com/events/one-day-meeting"
+  },
+  {
+   "from": "rupert-spira",
+   "to": "rudolf-steiner-house",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "weekend meetings",
+   "source": "https://rupertspira.com/events/weekend"
+  },
+  {
+   "from": "adyashanti",
+   "to": "mount-madonna",
+   "type": "teaches_at",
+   "conf": "high",
+   "target_kind": "place",
+   "years": "silent retreats, until 2020",
+   "source": "https://www.opengatesangha.org/retreat-at-home"
+  },
+  {
+   "from": "ajahn-brahm",
+   "to": "bodhinyana",
+   "type": "abbot_of",
+   "conf": "medium",
+   "target_kind": "place",
+   "source": "https://bswa.org"
+  },
+  {
+   "from": "goenka",
+   "to": "dhamma-dipa",
+   "type": "founded",
+   "conf": "medium",
+   "target_kind": "place",
+   "source": "https://dipa.dhamma.org"
+  },
+  {
+   "from": "ross-nichols",
+   "to": "philip-carr-gomm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ross-nichols",
+   "to": "druidry",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "gerald-gardner",
+   "to": "doreen-valiente",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gerald-gardner",
+   "to": "wicca",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "samuel-liddell-macgregor-mathers",
+   "to": "golden-dawn",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "samuel-liddell-macgregor-mathers",
+   "to": "aleister-crowley",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "aleister-crowley",
+   "to": "thelema",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "dion-fortune",
+   "to": "western-magic",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "triratna",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "daishin-morgan",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "jiyu-kennett",
+   "to": "serene-reflection",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "akong-rinpoche",
+   "to": "lama-yeshe-losal",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "john-main",
+   "to": "laurence-freeman",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "john-main",
+   "to": "christian-meditation",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bede-griffiths",
+   "to": "john-main",
+   "type": "influenced",
+   "conf": "low"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-vishnudevananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-satyananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-khemadhammo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "bulent-rauf",
+   "type": "influenced",
+   "conf": "high"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "akbarian",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "nazim-al-haqqani",
+   "to": "naqshbandi",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "inayati",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "george-fox",
+   "to": "quaker",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "kelsang-gyatso",
+   "to": "new-kadampa",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhaktivedanta-swami-prabhupada",
+   "to": "iskcon",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "christina-feldman",
+   "to": "rob-burbea",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "christopher-titmuss",
+   "to": "rob-burbea",
+   "type": "influenced",
+   "conf": "medium"
+  },
+  {
+   "from": "karl-koenig",
+   "to": "rudolf-steiner",
+   "type": "studied_with",
+   "conf": "low"
+  },
+  {
+   "from": "emma-restall-orr",
+   "to": "druidry",
+   "type": "lineage_of",
+   "conf": "medium"
+  },
+  {
+   "from": "kathy-jones",
+   "to": "goddess-spirituality",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "imc-uk",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "goenka",
+   "to": "dhamma-padhana",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "goenka",
+   "to": "dhamma-sukhakari",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "stephen-batchelor",
+   "to": "sharpham-trust",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "martine-batchelor",
+   "to": "sharpham-trust",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "lama-yeshe-losal",
+   "to": "kagyu-samye-dzong-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "jamyang-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "lama-zopa",
+   "to": "jamyang-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "chogyam-trungpa",
+   "to": "shambhala-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "padmaloka",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "pv-uk",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "swami-vivekananda",
+   "to": "vedanta-uk",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "bhaktivedanta-swami-prabhupada",
+   "to": "radha-krishna-temple-soho",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "sivananda-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "swami-satyananda",
+   "to": "satyananda-yoga-uk",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "srf-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "jiddu-krishnamurti",
+   "to": "krishnamurti-centre",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "pd-ouspensky",
+   "to": "colet-house",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "george-gurdjieff",
+   "to": "gurdjieff-society-london",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "john-main",
+   "to": "wccm-meditatio-house",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "laurence-freeman",
+   "to": "wccm-meditatio-house",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "george-fox",
+   "to": "brigflatts",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "beshara-chisholme",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "ibn-arabi",
+   "to": "ibn-arabi-society",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "inayati-uk",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "ts-england-hq",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "helena-blavatsky",
+   "to": "blavatsky-house",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "rudolf-steiner",
+   "to": "emerson-college",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "sangharakshita",
+   "to": "buddhist-society-bookshop",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "bede-griffiths",
+   "to": "bede-griffiths-sangha",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  },
+  {
+   "from": "george-fox",
+   "to": "pardshaw",
+   "type": "associated_with",
+   "conf": "medium",
+   "target_kind": "place"
+  }
+ ]
+}

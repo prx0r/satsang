@@ -1,0 +1,551 @@
+[
+ {
+  "from": "ajahn-mun",
+  "to": "ajahn-maha-boowa",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Maha_Bua"
+ },
+ {
+  "from": "ajahn-mun",
+  "to": "ajaan-lee",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Lee"
+ },
+ {
+  "from": "ajaan-lee",
+  "to": "ajahn-fuang",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://www.dhammatalks.org/books/AwarenessItself/Section0003.html"
+ },
+ {
+  "from": "ajahn-fuang",
+  "to": "thanissaro-bhikkhu",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Thanissaro_Bhikkhu"
+ },
+ {
+  "from": "ajahn-mun",
+  "to": "ajahn-chah",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Chah",
+  "note": "Chah spent a short, formative period with Ajahn Mun."
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-sumedho",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Sumedho"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-brahm",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Brahm"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-pasanno",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Pasanno"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-amaro",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Amaro"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-viradhammo",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://tisarana.ca"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-jayasaro",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Jayasaro"
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-anan",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://watmarpjan.org/en/ajahn-anan/biography",
+  "note": "Ordained under Ajahn Chah in 1975."
+ },
+ {
+  "from": "ajahn-chah",
+  "to": "ajahn-dtun",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://www.nigrodharamaforestmonastery.org/teachings",
+  "note": "Preceptor at Wat Nong Pah Pong, 1978."
+ },
+ {
+  "from": "ajahn-piak",
+  "to": "ajahn-dtun",
+  "type": "influenced",
+  "conf": "medium",
+  "source": "https://satisaraniya.ca/2013/05/25/ajahn-dtuns-visit-to-sati-saraniya-hermitage",
+  "note": "Stayed four years with Ajahn Piak and Ajahn Anan."
+ },
+ {
+  "from": "ajahn-anan",
+  "to": "ajahn-kalyano",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://watmarpjan.org/en/feed/podcast/ajahn-anan",
+  "note": "Long-time student and translator."
+ },
+ {
+  "from": "ajahn-sumedho",
+  "to": "ajahn-sucitto",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ajahn_Sucitto"
+ },
+ {
+  "from": "ajahn-brahm",
+  "to": "ajahn-brahmali",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://bswa.org"
+ },
+ {
+  "from": "ajahn-brahm",
+  "to": "ajahn-hasapanna",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://bswa.org"
+ },
+ {
+  "from": "ajahn-brahm",
+  "to": "bhante-sujato",
+  "type": "influenced",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Sujato",
+  "note": "Trained at Bodhinyana; ordained in the Chah tradition in Thailand."
+ },
+ {
+  "from": "ajahn-pasanno",
+  "to": "ajahn-nyaniko",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://www.abhayagiri.org"
+ },
+ {
+  "from": "ajahn-pasanno",
+  "to": "ajahn-karunadhammo",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://www.abhayagiri.org"
+ },
+ {
+  "from": "ledi-sayadaw",
+  "to": "u-ba-khin",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/U_Ba_Khin",
+  "note": "Via Saya Thetgyi."
+ },
+ {
+  "from": "u-ba-khin",
+  "to": "goenka",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/S._N._Goenka"
+ },
+ {
+  "from": "mahasi-sayadaw",
+  "to": "sayadaw-u-pandita",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Sayadaw_U_Pandita"
+ },
+ {
+  "from": "mahasi-sayadaw",
+  "to": "sayadaw-u-silananda",
+  "type": "influenced",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Sayadaw_U_Silananda"
+ },
+ {
+  "from": "shwe-oo-min-sayadaw",
+  "to": "sayadaw-u-tejaniya",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Sayadaw_U_Tejaniya"
+ },
+ {
+  "from": "anagarika-munindra",
+  "to": "joseph-goldstein",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Joseph_Goldstein_(writer)"
+ },
+ {
+  "from": "dipa-ma",
+  "to": "joseph-goldstein",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Dipa_Ma"
+ },
+ {
+  "from": "dipa-ma",
+  "to": "sharon-salzberg",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Dipa_Ma"
+ },
+ {
+  "from": "goenka",
+  "to": "joseph-goldstein",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Joseph_Goldstein_(writer)",
+  "note": "Bodh Gaya courses, early 1970s."
+ },
+ {
+  "from": "goenka",
+  "to": "sharon-salzberg",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Sharon_Salzberg"
+ },
+ {
+  "from": "sayadaw-u-pandita",
+  "to": "joseph-goldstein",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Sayadaw_U_Pandita"
+ },
+ {
+  "from": "sayadaw-u-pandita",
+  "to": "sharon-salzberg",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Sayadaw_U_Pandita"
+ },
+ {
+  "from": "jack-kornfield",
+  "to": "tara-brach",
+  "type": "influenced",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Tara_Brach"
+ },
+ {
+  "from": "joseph-goldstein",
+  "to": "insight",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Insight_Meditation_Society",
+  "note": "Co-founded IMS (1975) with Salzberg and Kornfield."
+ },
+ {
+  "from": "balangoda-ananda-maitreya",
+  "to": "bhikkhu-bodhi",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Bhikkhu_Bodhi",
+  "note": "Preceptor."
+ },
+ {
+  "from": "nyanaponika",
+  "to": "bhikkhu-bodhi",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Bhikkhu_Bodhi",
+  "note": "Succeeded him as BPS editor and president."
+ },
+ {
+  "from": "bhikkhu-analayo",
+  "to": "katukurunde-nanananda",
+  "type": "translated",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Katukurunde_Nanananda_Thera",
+  "note": "Anālayo transcribed/edited the English Nibbāna sermons."
+ },
+ {
+  "from": "lance-cousins",
+  "to": "rupert-gethin",
+  "type": "academic_supervisor_of",
+  "conf": "high",
+  "source": "https://doi.org/10.1558/bsrv.36754",
+  "note": "PhD Manchester 1987."
+ },
+ {
+  "from": "richard-gombrich",
+  "to": "steven-collins",
+  "type": "academic_supervisor_of",
+  "conf": "high",
+  "source": "https://palitextsociety.org/wp-content/uploads/2024/12/01-Gethin-JPTS-34-2021.pdf",
+  "note": "DPhil Oxford 1979."
+ },
+ {
+  "from": "richard-gombrich",
+  "to": "alexander-wynne",
+  "type": "academic_supervisor_of",
+  "conf": "high",
+  "source": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf",
+  "note": "DPhil Oxford 2003 (acknowledgements)."
+ },
+ {
+  "from": "rupert-gethin",
+  "to": "alexander-wynne",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf",
+  "note": "Undergraduate teacher at Bristol."
+ },
+ {
+  "from": "paul-williams",
+  "to": "alexander-wynne",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://www.ahandfulofleaves.org/documents/The%20Origin%20of%20Buddhist%20Meditation_Alexande%20Wynne.pdf",
+  "note": "Undergraduate teacher at Bristol."
+ },
+ {
+  "from": "richard-gombrich",
+  "to": "buddhist-studies",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://ocbs.org",
+  "note": "Founded the Oxford Centre for Buddhist Studies (2004)."
+ },
+ {
+  "from": "ramakrishna",
+  "to": "swami-vivekananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Swami_Vivekananda"
+ },
+ {
+  "from": "swami-vivekananda",
+  "to": "ramakrishna-order",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Ramakrishna_Mission"
+ },
+ {
+  "from": "swami-sivananda",
+  "to": "swami-chinmayananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Chinmayananda_Saraswati",
+  "note": "Sannyāsa initiation, 1949."
+ },
+ {
+  "from": "tapovan-maharaj",
+  "to": "swami-chinmayananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Chinmayananda_Saraswati"
+ },
+ {
+  "from": "swami-chinmayananda",
+  "to": "chinmaya-mission",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Chinmaya_Mission"
+ },
+ {
+  "from": "swami-chinmayananda",
+  "to": "swami-tejomayananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Tejomayananda"
+ },
+ {
+  "from": "swami-chinmayananda",
+  "to": "swami-swaroopananda-chinmaya",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://www.chinmayamission.com"
+ },
+ {
+  "from": "swami-chinmayananda",
+  "to": "swami-dayananda-saraswati",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Dayananda_Saraswati_(Arsha_Vidya)",
+  "note": "Studied with him before teaching independently."
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "arsha-vidya",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Dayananda_Saraswati_(Arsha_Vidya)"
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "swami-tadatmananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://arshabodha.org"
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "swamini-svatmavidyananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://www.youtube.com/channel/UCJ8VESdPB5X0FReFGz8YMOA"
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "swami-viditatmananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://www.arshavidya.org"
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "swami-tattvavidananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://www.arshavidya.org"
+ },
+ {
+  "from": "swami-dayananda-saraswati",
+  "to": "swami-paramarthananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Dayananda_Saraswati_(Arsha_Vidya)"
+ },
+ {
+  "from": "swami-sivananda",
+  "to": "divine-life-society",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Divine_Life_Society"
+ },
+ {
+  "from": "swami-sivananda",
+  "to": "swami-vishnudevananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+ },
+ {
+  "from": "swami-vishnudevananda",
+  "to": "sivananda-yoga",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+ },
+ {
+  "from": "swami-vishnudevananda",
+  "to": "swami-swaroopananda-sivananda",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://sivanandabahamas.org"
+ },
+ {
+  "from": "swami-vishnudevananda",
+  "to": "swami-sitaramananda",
+  "type": "teacher_of",
+  "conf": "medium",
+  "source": "https://sivanandayogafarm.org"
+ },
+ {
+  "from": "swami-sivananda",
+  "to": "swami-satyananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Satyananda_Saraswati"
+ },
+ {
+  "from": "swami-satyananda",
+  "to": "bihar-yoga",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Bihar_School_of_Yoga"
+ },
+ {
+  "from": "swami-satyananda",
+  "to": "swami-niranjanananda",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Swami_Niranjanananda_Saraswati"
+ },
+ {
+  "from": "krishnamacharya",
+  "to": "tkv-desikachar",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/T._K._V._Desikachar",
+  "note": "Father and teacher."
+ },
+ {
+  "from": "krishnamacharya",
+  "to": "bks-iyengar",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/B._K._S._Iyengar"
+ },
+ {
+  "from": "krishnamacharya",
+  "to": "pattabhi-jois",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/K._Pattabhi_Jois"
+ },
+ {
+  "from": "tkv-desikachar",
+  "to": "krishnamacharya-yoga",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/T._K._V._Desikachar",
+  "note": "Founded Krishnamacharya Yoga Mandiram, 1976."
+ },
+ {
+  "from": "chaitanya-mahaprabhu",
+  "to": "gaudiya",
+  "type": "founded",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Gaudiya_Vaishnavism"
+ },
+ {
+  "from": "bhaktisiddhanta",
+  "to": "srila-prabhupada",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/A._C._Bhaktivedanta_Swami_Prabhupada"
+ },
+ {
+  "from": "srila-prabhupada",
+  "to": "radhanath-swami",
+  "type": "teacher_of",
+  "conf": "high",
+  "source": "https://en.wikipedia.org/wiki/Radhanath_Swami"
+ },
+ {
+  "from": "daniel-ingalls",
+  "to": "wendy-doniger",
+  "type": "academic_supervisor_of",
+  "conf": "medium",
+  "source": "https://en.wikipedia.org/wiki/Wendy_Doniger",
+  "note": "Harvard PhD (1968); supervisor named in secondary sources, not re-checked in the thesis."
+ },
+ {
+  "from": "ramakrishna",
+  "to": "jeffery-long",
+  "type": "influenced",
+  "conf": "high",
+  "source": "https://www.youtube.com/watch?v=GLeU557CGDw",
+  "note": "Long describes coming to Vedanta through the Ramakrishna tradition (VSNY talk \"How I Came to Vedanta\")."
+ }
+]

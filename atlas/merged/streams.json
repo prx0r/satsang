@@ -1,0 +1,1000 @@
+{
+ "_note": "Swimlanes for the Wiser Atlas timeline. Lanes are ordered top to bottom; groups band them. 'links' counts cross-stream edges (influence, transmission, commentary, translation) between lanes.",
+ "groups": [
+  {
+   "id": "indic",
+   "label": "Vedic and Hindu"
+  },
+  {
+   "id": "tantra",
+   "label": "Tantra"
+  },
+  {
+   "id": "buddhist",
+   "label": "Buddhist"
+  },
+  {
+   "id": "sramana",
+   "label": "Jain"
+  },
+  {
+   "id": "chinese",
+   "label": "Chinese"
+  },
+  {
+   "id": "western",
+   "label": "Greek and Western"
+  },
+  {
+   "id": "occult",
+   "label": "Occult and Pagan"
+  },
+  {
+   "id": "islamic",
+   "label": "Islamic"
+  },
+  {
+   "id": "jewish",
+   "label": "Jewish"
+  },
+  {
+   "id": "modern",
+   "label": "Modern"
+  }
+ ],
+ "lanes": [
+  {
+   "id": "vedic",
+   "label": "Vedic",
+   "group": "indic",
+   "order": 0,
+   "span": {
+    "dsl": "-1500..-500",
+    "start": -1500,
+    "end": -500,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "1500–500 BCE"
+   },
+   "colour": "#c09a4a",
+   "ink": "#a86f14",
+   "symbol": "agni",
+   "legacy": {
+    "family": "hindu",
+    "school": null
+   },
+   "nodes": 7
+  },
+  {
+   "id": "upanishadic",
+   "label": "Upaniṣadic",
+   "group": "indic",
+   "order": 1,
+   "span": {
+    "dsl": "-800..200",
+    "start": -800,
+    "end": 200,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "800 BCE–200"
+   },
+   "colour": "#c9a45c",
+   "ink": "#9a7414",
+   "symbol": "bindu",
+   "legacy": {
+    "family": "hindu",
+    "school": "vedanta"
+   },
+   "nodes": 9
+  },
+  {
+   "id": "vedanta",
+   "label": "Vedānta · Advaita",
+   "group": "indic",
+   "order": 2,
+   "span": {
+    "dsl": "-200..",
+    "start": -200,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "200 BCE–",
+    "open": true
+   },
+   "colour": "#e8cf96",
+   "ink": "#8a5a0c",
+   "symbol": "purna",
+   "legacy": {
+    "family": "hindu",
+    "school": "vedanta"
+   },
+   "nodes": 67
+  },
+  {
+   "id": "yoga",
+   "label": "Sāṃkhya · Yoga · Haṭha · Kriyā",
+   "group": "indic",
+   "order": 3,
+   "span": {
+    "dsl": "-400..",
+    "start": -400,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "400 BCE–",
+    "open": true
+   },
+   "colour": "#d9b26a",
+   "ink": "#b07a2a",
+   "symbol": "lotus",
+   "legacy": {
+    "family": "hindu",
+    "school": "kriya-yoga"
+   },
+   "nodes": 29
+  },
+  {
+   "id": "shaiva-tantra",
+   "label": "Early Śaiva tantra",
+   "group": "tantra",
+   "order": 4,
+   "span": {
+    "dsl": "200..1200",
+    "start": 200,
+    "end": 1200,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "200–1200"
+   },
+   "colour": "#d0653a",
+   "ink": "#c0502a",
+   "symbol": "trident",
+   "legacy": {
+    "family": "hindu",
+    "school": "kashmir-shaivism"
+   },
+   "nodes": 10
+  },
+  {
+   "id": "kaula-krama",
+   "label": "Kaula · Krama",
+   "group": "tantra",
+   "order": 5,
+   "span": {
+    "dsl": "800..1400",
+    "start": 800,
+    "end": 1400,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "800–1400"
+   },
+   "colour": "#c4553f",
+   "ink": "#a8382a",
+   "symbol": "yoni",
+   "legacy": {
+    "family": "hindu",
+    "school": "kashmir-shaivism"
+   },
+   "nodes": 7
+  },
+  {
+   "id": "trika",
+   "label": "Trika · Pratyabhijñā (Kashmir Śaivism)",
+   "group": "tantra",
+   "order": 6,
+   "span": {
+    "dsl": "800..",
+    "start": 800,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "800–",
+    "open": true
+   },
+   "colour": "#e07a4f",
+   "ink": "#d0653a",
+   "symbol": "triad",
+   "legacy": {
+    "family": "hindu",
+    "school": "kashmir-shaivism"
+   },
+   "nodes": 39
+  },
+  {
+   "id": "shri-vidya",
+   "label": "Śrī Vidyā",
+   "group": "tantra",
+   "order": 7,
+   "span": {
+    "dsl": "900..",
+    "start": 900,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "900–",
+    "open": true
+   },
+   "colour": "#d4899a",
+   "ink": "#b04a5a",
+   "symbol": "yantra",
+   "legacy": {
+    "family": "hindu",
+    "school": "kashmir-shaivism"
+   },
+   "nodes": 9
+  },
+  {
+   "id": "early-buddhist",
+   "label": "Early Buddhism",
+   "group": "buddhist",
+   "order": 8,
+   "span": {
+    "dsl": "-500..-100",
+    "start": -500,
+    "end": -100,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "500–100 BCE"
+   },
+   "colour": "#5ec4b6",
+   "ink": "#1f7a6e",
+   "symbol": "wheel",
+   "legacy": {
+    "family": "buddhism",
+    "school": "early-suttas"
+   },
+   "nodes": 10
+  },
+  {
+   "id": "theravada",
+   "label": "Theravāda",
+   "group": "buddhist",
+   "order": 9,
+   "span": {
+    "dsl": "-250..",
+    "start": -250,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "250 BCE–",
+    "open": true
+   },
+   "colour": "#4fb3a5",
+   "ink": "#23866f",
+   "symbol": "wheel",
+   "legacy": {
+    "family": "buddhism",
+    "school": "theravada"
+   },
+   "nodes": 62
+  },
+  {
+   "id": "mahayana",
+   "label": "Mahāyāna (Madhyamaka · Yogācāra)",
+   "group": "buddhist",
+   "order": 10,
+   "span": {
+    "dsl": "-100..1200",
+    "start": -100,
+    "end": 1200,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "100 BCE–1200"
+   },
+   "colour": "#6fbf8f",
+   "ink": "#3f8f5a",
+   "symbol": "wheel-hub",
+   "legacy": {
+    "family": "buddhism",
+    "school": "mahayana"
+   },
+   "nodes": 19
+  },
+  {
+   "id": "vajrayana",
+   "label": "Vajrayāna · Tibetan",
+   "group": "buddhist",
+   "order": 11,
+   "span": {
+    "dsl": "600..",
+    "start": 600,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "600–",
+    "open": true
+   },
+   "colour": "#9a8bd0",
+   "ink": "#6a5aa8",
+   "symbol": "vajra",
+   "legacy": {
+    "family": "buddhism",
+    "school": "vajrayana"
+   },
+   "nodes": 35
+  },
+  {
+   "id": "chan-zen",
+   "label": "Chan · Zen · Thiền",
+   "group": "buddhist",
+   "order": 12,
+   "span": {
+    "dsl": "450..",
+    "start": 450,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "450–",
+    "open": true
+   },
+   "colour": "#5a9ab0",
+   "ink": "#3a7a9a",
+   "symbol": "enso",
+   "legacy": {
+    "family": "buddhism",
+    "school": "zen"
+   },
+   "nodes": 45
+  },
+  {
+   "id": "jain",
+   "label": "Jain",
+   "group": "sramana",
+   "order": 13,
+   "span": {
+    "dsl": "-800..",
+    "start": -800,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "800 BCE–",
+    "open": true
+   },
+   "colour": "#b8c47a",
+   "ink": "#7a8a2a",
+   "symbol": "siddhashila",
+   "legacy": {
+    "family": "independent",
+    "school": null
+   },
+   "nodes": 15
+  },
+  {
+   "id": "taoist",
+   "label": "Taoist",
+   "group": "chinese",
+   "order": 14,
+   "span": {
+    "dsl": "-500..",
+    "start": -500,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "500 BCE–",
+    "open": true
+   },
+   "colour": "#7fb8a0",
+   "ink": "#2f7f6a",
+   "symbol": "taiji",
+   "legacy": {
+    "family": "independent",
+    "school": null
+   },
+   "nodes": 12
+  },
+  {
+   "id": "greek",
+   "label": "Greek · Platonic",
+   "group": "western",
+   "order": 15,
+   "span": {
+    "dsl": "-600..-100",
+    "start": -600,
+    "end": -100,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "600–100 BCE"
+   },
+   "colour": "#e8cf96",
+   "ink": "#8a6a2a",
+   "symbol": "monad",
+   "legacy": {
+    "family": "platonic",
+    "school": "platonic"
+   },
+   "nodes": 14
+  },
+  {
+   "id": "neoplatonic",
+   "label": "Neoplatonic",
+   "group": "western",
+   "order": 16,
+   "span": {
+    "dsl": "200..600",
+    "start": 200,
+    "end": 600,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "200–600"
+   },
+   "colour": "#d9b26a",
+   "ink": "#9a7a3a",
+   "symbol": "emanation",
+   "legacy": {
+    "family": "platonic",
+    "school": "neoplatonism"
+   },
+   "nodes": 21
+  },
+  {
+   "id": "christian-mystic",
+   "label": "Christian mysticism",
+   "group": "western",
+   "order": 17,
+   "span": {
+    "dsl": "100..",
+    "start": 100,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "100–",
+    "open": true
+   },
+   "colour": "#c9a45c",
+   "ink": "#7a5a3a",
+   "symbol": "cross",
+   "legacy": {
+    "family": "christian",
+    "school": "christian-mysticism"
+   },
+   "nodes": 35
+  },
+  {
+   "id": "hermetic",
+   "label": "Hermetic · Renaissance",
+   "group": "western",
+   "order": 18,
+   "span": {
+    "dsl": "100..1700",
+    "start": 100,
+    "end": 1700,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "100–1700"
+   },
+   "colour": "#b08a3e",
+   "ink": "#8a6f3c",
+   "symbol": "mercury",
+   "legacy": {
+    "family": "esoteric",
+    "school": "renaissance-platonism"
+   },
+   "nodes": 11
+  },
+  {
+   "id": "modern-esoteric",
+   "label": "Modern esotericism · Theosophy",
+   "group": "western",
+   "order": 19,
+   "span": {
+    "dsl": "1700..",
+    "start": 1700,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "1700–",
+    "open": true
+   },
+   "colour": "#a87f6a",
+   "ink": "#7a5c3e",
+   "symbol": "ouroboros",
+   "legacy": {
+    "family": "esoteric",
+    "school": "theosophy"
+   },
+   "nodes": 22
+  },
+  {
+   "id": "occult",
+   "label": "Western occult (Rosicrucian · Masonic · Golden Dawn · Thelema)",
+   "group": "occult",
+   "order": 20,
+   "span": {
+    "dsl": "1600..",
+    "start": 1600,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "1600–",
+    "open": true
+   },
+   "colour": "#b04a5a",
+   "ink": "#9a2f4a",
+   "symbol": "pentagram",
+   "legacy": {
+    "family": "esoteric",
+    "school": null
+   },
+   "nodes": 18
+  },
+  {
+   "id": "pagan",
+   "label": "Modern Paganism (Druidry · Wicca · Heathenry)",
+   "group": "occult",
+   "order": 21,
+   "span": {
+    "dsl": "1700..",
+    "start": 1700,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "1700–",
+    "open": true
+   },
+   "colour": "#6fbf8f",
+   "ink": "#3f7a3a",
+   "symbol": "triple-moon",
+   "legacy": {
+    "family": "esoteric",
+    "school": null
+   },
+   "nodes": 16
+  },
+  {
+   "id": "sufi",
+   "label": "Sufi",
+   "group": "islamic",
+   "order": 22,
+   "span": {
+    "dsl": "650..",
+    "start": 650,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "650–",
+    "open": true
+   },
+   "colour": "#5ec4b6",
+   "ink": "#1f7a7a",
+   "symbol": "spiral",
+   "legacy": {
+    "family": "independent",
+    "school": null
+   },
+   "nodes": 19
+  },
+  {
+   "id": "ishraqi",
+   "label": "Falsafa · Ishrāqī · Ṣadrian",
+   "group": "islamic",
+   "order": 23,
+   "span": {
+    "dsl": "800..",
+    "start": 800,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "800–",
+    "open": true
+   },
+   "colour": "#7fd0c4",
+   "ink": "#2a8a8a",
+   "symbol": "sun",
+   "legacy": {
+    "family": "independent",
+    "school": null
+   },
+   "nodes": 18
+  },
+  {
+   "id": "kabbalah",
+   "label": "Jewish mysticism · Kabbalah",
+   "group": "jewish",
+   "order": 24,
+   "span": {
+    "dsl": "-50..",
+    "start": -50,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "50 BCE–",
+    "open": true
+   },
+   "colour": "#9a8bd0",
+   "ink": "#5a4aa0",
+   "symbol": "tree",
+   "legacy": {
+    "family": "independent",
+    "school": null
+   },
+   "nodes": 19
+  },
+  {
+   "id": "modern-nondual",
+   "label": "Modern non-dual teachers",
+   "group": "modern",
+   "order": 25,
+   "span": {
+    "dsl": "1850..",
+    "start": 1850,
+    "end": null,
+    "circa": false,
+    "precision": "year",
+    "basis": "historical",
+    "confidence": "high",
+    "label": "1850–",
+    "open": true
+   },
+   "colour": "#f0ebe0",
+   "ink": "#44495a",
+   "symbol": "vesica",
+   "legacy": {
+    "family": "independent",
+    "school": "modern-nondual"
+   },
+   "nodes": 14
+  }
+ ],
+ "links": [
+  {
+   "from": "trika",
+   "to": "shaiva-tantra",
+   "edges": 9
+  },
+  {
+   "from": "shaiva-tantra",
+   "to": "trika",
+   "edges": 8
+  },
+  {
+   "from": "theravada",
+   "to": "early-buddhist",
+   "edges": 8
+  },
+  {
+   "from": "occult",
+   "to": "pagan",
+   "edges": 6
+  },
+  {
+   "from": "vedanta",
+   "to": "modern-nondual",
+   "edges": 5
+  },
+  {
+   "from": "hermetic",
+   "to": "occult",
+   "edges": 5
+  },
+  {
+   "from": "neoplatonic",
+   "to": "greek",
+   "edges": 4
+  },
+  {
+   "from": "vedic",
+   "to": "upanishadic",
+   "edges": 3
+  },
+  {
+   "from": "mahayana",
+   "to": "vajrayana",
+   "edges": 3
+  },
+  {
+   "from": "greek",
+   "to": "neoplatonic",
+   "edges": 3
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "occult",
+   "edges": 3
+  },
+  {
+   "from": "kabbalah",
+   "to": "occult",
+   "edges": 3
+  },
+  {
+   "from": "sufi",
+   "to": "ishraqi",
+   "edges": 3
+  },
+  {
+   "from": "sufi",
+   "to": "taoist",
+   "edges": 3
+  },
+  {
+   "from": "upanishadic",
+   "to": "vedanta",
+   "edges": 2
+  },
+  {
+   "from": "vedanta",
+   "to": "upanishadic",
+   "edges": 2
+  },
+  {
+   "from": "kaula-krama",
+   "to": "trika",
+   "edges": 2
+  },
+  {
+   "from": "trika",
+   "to": "shri-vidya",
+   "edges": 2
+  },
+  {
+   "from": "mahayana",
+   "to": "chan-zen",
+   "edges": 2
+  },
+  {
+   "from": "neoplatonic",
+   "to": "christian-mystic",
+   "edges": 2
+  },
+  {
+   "from": "christian-mystic",
+   "to": "modern-esoteric",
+   "edges": 2
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "modern-nondual",
+   "edges": 2
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "christian-mystic",
+   "edges": 2
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "ishraqi",
+   "edges": 2
+  },
+  {
+   "from": "ishraqi",
+   "to": "sufi",
+   "edges": 2
+  },
+  {
+   "from": "trika",
+   "to": "kaula-krama",
+   "edges": 2
+  },
+  {
+   "from": "shaiva-tantra",
+   "to": "kaula-krama",
+   "edges": 2
+  },
+  {
+   "from": "chan-zen",
+   "to": "mahayana",
+   "edges": 2
+  },
+  {
+   "from": "upanishadic",
+   "to": "shaiva-tantra",
+   "edges": 1
+  },
+  {
+   "from": "vedanta",
+   "to": "shri-vidya",
+   "edges": 1
+  },
+  {
+   "from": "vedanta",
+   "to": "yoga",
+   "edges": 1
+  },
+  {
+   "from": "yoga",
+   "to": "vedanta",
+   "edges": 1
+  },
+  {
+   "from": "kaula-krama",
+   "to": "yoga",
+   "edges": 1
+  },
+  {
+   "from": "kaula-krama",
+   "to": "shri-vidya",
+   "edges": 1
+  },
+  {
+   "from": "upanishadic",
+   "to": "early-buddhist",
+   "edges": 1
+  },
+  {
+   "from": "early-buddhist",
+   "to": "theravada",
+   "edges": 1
+  },
+  {
+   "from": "chan-zen",
+   "to": "early-buddhist",
+   "edges": 1
+  },
+  {
+   "from": "taoist",
+   "to": "chan-zen",
+   "edges": 1
+  },
+  {
+   "from": "greek",
+   "to": "kabbalah",
+   "edges": 1
+  },
+  {
+   "from": "kabbalah",
+   "to": "christian-mystic",
+   "edges": 1
+  },
+  {
+   "from": "greek",
+   "to": "christian-mystic",
+   "edges": 1
+  },
+  {
+   "from": "chan-zen",
+   "to": "christian-mystic",
+   "edges": 1
+  },
+  {
+   "from": "greek",
+   "to": "hermetic",
+   "edges": 1
+  },
+  {
+   "from": "hermetic",
+   "to": "greek",
+   "edges": 1
+  },
+  {
+   "from": "hermetic",
+   "to": "neoplatonic",
+   "edges": 1
+  },
+  {
+   "from": "hermetic",
+   "to": "kabbalah",
+   "edges": 1
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "kabbalah",
+   "edges": 1
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "sufi",
+   "edges": 1
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "chan-zen",
+   "edges": 1
+  },
+  {
+   "from": "neoplatonic",
+   "to": "ishraqi",
+   "edges": 1
+  },
+  {
+   "from": "ishraqi",
+   "to": "neoplatonic",
+   "edges": 1
+  },
+  {
+   "from": "greek",
+   "to": "ishraqi",
+   "edges": 1
+  },
+  {
+   "from": "hermetic",
+   "to": "ishraqi",
+   "edges": 1
+  },
+  {
+   "from": "neoplatonic",
+   "to": "kabbalah",
+   "edges": 1
+  },
+  {
+   "from": "chan-zen",
+   "to": "modern-nondual",
+   "edges": 1
+  },
+  {
+   "from": "christian-mystic",
+   "to": "occult",
+   "edges": 1
+  },
+  {
+   "from": "occult",
+   "to": "kabbalah",
+   "edges": 1
+  },
+  {
+   "from": "neoplatonic",
+   "to": "occult",
+   "edges": 1
+  },
+  {
+   "from": "upanishadic",
+   "to": "vedic",
+   "edges": 1
+  },
+  {
+   "from": "modern-esoteric",
+   "to": "hermetic",
+   "edges": 1
+  },
+  {
+   "from": "vajrayana",
+   "to": "trika",
+   "edges": 1
+  },
+  {
+   "from": "kaula-krama",
+   "to": "occult",
+   "edges": 1
+  }
+ ]
+}

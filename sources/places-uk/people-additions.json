@@ -1,0 +1,767 @@
+{
+ "_note": "places-uk people additions (2026-10-20): UK founders and the main teachers attached to UK places. Wisegraph shape; all kind 'figure' (official-video check not done). Dates from Wikidata. Bios are Wiser's own words. Ids already in app/ or another sources/ group are not repeated.",
+ "people": [
+  {
+   "id": "christopher-titmuss",
+   "name": "Christopher Titmuss",
+   "short": "Christopher Titmuss",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "insight",
+   "traditions": [
+    "insight"
+   ],
+   "wikidata": "Q5113332",
+   "years": "1944–",
+   "living": true,
+   "bio": "British insight meditation teacher, former Thai monk, who co-founded Gaia House in 1983.",
+   "aliases": [
+    "titmuss"
+   ],
+   "works": [],
+   "source": "Wikidata Q5113332 (dates, 2026-10-20)"
+  },
+  {
+   "id": "christina-feldman",
+   "name": "Christina Feldman",
+   "short": "Christina Feldman",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "insight",
+   "traditions": [
+    "insight"
+   ],
+   "wikidata": "Q112482429",
+   "years": "1952–",
+   "living": true,
+   "bio": "Insight meditation teacher and author who co-founded Gaia House in 1983 and is now one of its patrons.",
+   "aliases": [
+    "feldman"
+   ],
+   "works": [],
+   "source": "Wikidata Q112482429 (dates, 2026-10-20)"
+  },
+  {
+   "id": "stephen-batchelor",
+   "name": "Stephen Batchelor",
+   "short": "Stephen Batchelor",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "insight",
+   "traditions": [
+    "insight",
+    "zen"
+   ],
+   "wikidata": "Q353544",
+   "years": "1953–",
+   "living": true,
+   "bio": "British former Tibetan and Zen monk, author of secular Buddhist books such as \"Buddhism Without Beliefs\"; long linked with Gaia House.",
+   "aliases": [
+    "batchelor"
+   ],
+   "works": [],
+   "source": "Wikidata Q353544 (dates, 2026-10-20)"
+  },
+  {
+   "id": "martine-batchelor",
+   "name": "Martine Batchelor",
+   "short": "Martine Batchelor",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen",
+    "insight"
+   ],
+   "wikidata": "Q6777085",
+   "years": "1953–",
+   "living": true,
+   "bio": "French former Korean Seon nun and meditation teacher, a patron of Gaia House.",
+   "aliases": [
+    "martine"
+   ],
+   "works": [],
+   "source": "Wikidata Q6777085 (dates, 2026-10-20)"
+  },
+  {
+   "id": "lama-yeshe-losal",
+   "name": "Lama Yeshe Losal Rinpoche",
+   "short": "Lama Yeshe Losal Rinpoche",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kagyu",
+   "traditions": [
+    "kagyu"
+   ],
+   "wikidata": "Q6480752",
+   "years": "1943–",
+   "living": true,
+   "bio": "Akong Rinpoche's younger brother; retreat master of Samye Ling from 1988 and its abbot since 1995.",
+   "aliases": [
+    "lama yeshe",
+    "yeshe losal"
+   ],
+   "works": [],
+   "source": "Wikidata Q6480752 (dates, 2026-10-20)"
+  },
+  {
+   "id": "jiyu-kennett",
+   "name": "Houn Jiyu-Kennett",
+   "short": "Houn Jiyu-Kennett",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen",
+    "serene-reflection"
+   ],
+   "wikidata": "Q16013659",
+   "years": "1924–1996",
+   "living": false,
+   "bio": "English Soto Zen roshi trained at Sojiji who founded Shasta Abbey (1970), Throssel Hole (1972) and the Order of Buddhist Contemplatives.",
+   "aliases": [
+    "jiyu kennett",
+    "rev. master jiyu"
+   ],
+   "works": [],
+   "source": "Wikidata Q16013659 (dates, 2026-10-20)"
+  },
+  {
+   "id": "daishin-morgan",
+   "name": "Daishin Morgan",
+   "short": "Daishin Morgan",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "soto-zen",
+   "traditions": [
+    "soto-zen",
+    "serene-reflection"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": false,
+   "bio": "Disciple of Jiyu-Kennett and abbot of Throssel Hole Buddhist Abbey from 1982 to 2019.",
+   "aliases": [
+    "rev. master daishin"
+   ],
+   "works": [],
+   "source": "no Wikidata item found; dates left blank"
+  },
+  {
+   "id": "ajahn-khemadhammo",
+   "name": "Ajahn Khemadhammo",
+   "short": "Ajahn Khemadhammo",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thai-forest",
+   "traditions": [
+    "thai-forest"
+   ],
+   "wikidata": "Q2882670",
+   "years": "1944–",
+   "living": true,
+   "bio": "English disciple of Ajahn Chah who founded the Forest Hermitage in Warwickshire and the Angulimala prison chaplaincy.",
+   "aliases": [
+    "khemadhammo"
+   ],
+   "works": [],
+   "source": "Wikidata Q2882670 (dates, 2026-10-20)"
+  },
+  {
+   "id": "sangharakshita",
+   "name": "Sangharakshita",
+   "short": "Sangharakshita",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "triratna",
+   "traditions": [
+    "triratna"
+   ],
+   "wikidata": "Q2164559",
+   "years": "1925–2018",
+   "living": false,
+   "bio": "English monk (Dennis Lingwood) who founded the Triratna Buddhist Community (formerly FWBO) in London in 1967.",
+   "aliases": [
+    "urgyen sangharakshita",
+    "bhante"
+   ],
+   "works": [],
+   "source": "Wikidata Q2164559 (dates, 2026-10-20)"
+  },
+  {
+   "id": "john-main",
+   "name": "John Main",
+   "short": "John Main",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-meditation",
+   "traditions": [
+    "christian-meditation"
+   ],
+   "wikidata": "Q610095",
+   "years": "1926–1982",
+   "living": false,
+   "bio": "Benedictine monk who taught Christian meditation with a prayer word and founded the first Christian Meditation Centre at Ealing Abbey in 1975.",
+   "aliases": [
+    "dom john main"
+   ],
+   "works": [],
+   "source": "Wikidata Q610095 (dates, 2026-10-20)"
+  },
+  {
+   "id": "laurence-freeman",
+   "name": "Laurence Freeman",
+   "short": "Laurence Freeman",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-meditation",
+   "traditions": [
+    "christian-meditation"
+   ],
+   "wikidata": "Q3209059",
+   "years": "1951–",
+   "living": true,
+   "bio": "Benedictine monk, John Main's successor and director of the World Community for Christian Meditation.",
+   "aliases": [
+    "father laurence"
+   ],
+   "works": [],
+   "source": "Wikidata Q3209059 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bhaktivedanta-swami-prabhupada",
+   "name": "A. C. Bhaktivedanta Swami Prabhupada",
+   "short": "A. C. Bhaktivedanta Swami Prabhupada",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "iskcon",
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava"
+   ],
+   "wikidata": "Q234898",
+   "years": "1896–1977",
+   "living": false,
+   "bio": "Founder of ISKCON (1966), who opened its London temple and received Bhaktivedanta Manor in 1973.",
+   "aliases": [
+    "prabhupada",
+    "srila prabhupada"
+   ],
+   "works": [],
+   "source": "Wikidata Q234898 (dates, 2026-10-20)"
+  },
+  {
+   "id": "pramukh-swami-maharaj",
+   "name": "Pramukh Swami Maharaj",
+   "short": "Pramukh Swami Maharaj",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "swaminarayan",
+   "traditions": [
+    "swaminarayan"
+   ],
+   "wikidata": "Q7238282",
+   "years": "1921–2016",
+   "living": false,
+   "bio": "Guru and president of BAPS who inaugurated the Neasden mandir in 1995.",
+   "aliases": [
+    "pramukh swami"
+   ],
+   "works": [],
+   "source": "Wikidata Q7238282 (dates, 2026-10-20)"
+  },
+  {
+   "id": "swami-vishnudevananda",
+   "name": "Swami Vishnudevananda",
+   "short": "Swami Vishnudevananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "sivananda-yoga-vedanta",
+   "traditions": [
+    "sivananda-yoga-vedanta"
+   ],
+   "wikidata": "Q173267",
+   "years": "1927–1993",
+   "living": false,
+   "bio": "Disciple of Swami Sivananda who founded the International Sivananda Yoga Vedanta Centres.",
+   "aliases": [
+    "vishnudevananda"
+   ],
+   "works": [],
+   "source": "Wikidata Q173267 (dates, 2026-10-20)"
+  },
+  {
+   "id": "swami-satyananda",
+   "name": "Swami Satyananda Saraswati",
+   "short": "Swami Satyananda Saraswati",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "satyananda-yoga",
+   "traditions": [
+    "satyananda-yoga"
+   ],
+   "wikidata": "Q1085793",
+   "years": "1923–2009",
+   "living": false,
+   "bio": "Disciple of Swami Sivananda who founded the Bihar School of Yoga in 1964.",
+   "aliases": [
+    "satyananda"
+   ],
+   "works": [],
+   "source": "Wikidata Q1085793 (dates, 2026-10-20)"
+  },
+  {
+   "id": "kelsang-gyatso",
+   "name": "Kelsang Gyatso",
+   "short": "Kelsang Gyatso",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "new-kadampa",
+   "traditions": [
+    "new-kadampa"
+   ],
+   "wikidata": "Q1353874",
+   "years": "1931–2022",
+   "living": false,
+   "bio": "Tibetan lama who founded the New Kadampa Tradition and its mother centre at Conishead Priory, Cumbria.",
+   "aliases": [
+    "geshe kelsang"
+   ],
+   "works": [],
+   "source": "Wikidata Q1353874 (dates, 2026-10-20)"
+  },
+  {
+   "id": "sophrony-sakharov",
+   "name": "Sophrony (Sakharov)",
+   "short": "Sophrony (Sakharov)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "orthodox-hesychasm",
+   "traditions": [
+    "orthodox-hesychasm"
+   ],
+   "wikidata": "Q2749853",
+   "years": "1896–1993",
+   "living": false,
+   "bio": "Russian Orthodox elder, disciple and biographer of St Silouan the Athonite, who founded the monastery at Tolleshunt Knights in 1959.",
+   "aliases": [
+    "elder sophrony",
+    "st sophrony"
+   ],
+   "works": [],
+   "source": "Wikidata Q2749853 (dates, 2026-10-20)"
+  },
+  {
+   "id": "julian-of-norwich",
+   "name": "Julian of Norwich",
+   "short": "Julian of Norwich",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "traditions": [
+    "christian-mysticism"
+   ],
+   "wikidata": "Q236699",
+   "years": "c. 1343–after 1416",
+   "living": false,
+   "bio": "English anchoress whose \"Revelations of Divine Love\" is the earliest surviving book in English known to be written by a woman.",
+   "aliases": [
+    "mother julian"
+   ],
+   "works": [],
+   "source": "Wikidata Q236699 (dates, 2026-10-20)"
+  },
+  {
+   "id": "george-fox",
+   "name": "George Fox",
+   "short": "George Fox",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "quaker",
+   "traditions": [
+    "quaker"
+   ],
+   "wikidata": "Q310439",
+   "years": "1624–1691",
+   "living": false,
+   "bio": "English dissenter whose preaching from 1652 began the Religious Society of Friends (Quakers).",
+   "aliases": [
+    "fox"
+   ],
+   "works": [],
+   "source": "Wikidata Q310439 (dates, 2026-10-20)"
+  },
+  {
+   "id": "bulent-rauf",
+   "name": "Bulent Rauf",
+   "short": "Bulent Rauf",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "akbarian",
+   "traditions": [
+    "akbarian",
+    "sufism"
+   ],
+   "wikidata": "Q1020686",
+   "years": "1911–1987",
+   "living": false,
+   "bio": "Turkish-born teacher around whom the Beshara School for the study of Ibn 'Arabi formed in the 1970s.",
+   "aliases": [
+    "rauf"
+   ],
+   "works": [],
+   "source": "Wikidata Q1020686 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ibn-arabi",
+   "name": "Ibn 'Arabi",
+   "short": "Ibn 'Arabi",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "akbarian",
+   "traditions": [
+    "akbarian",
+    "sufism"
+   ],
+   "wikidata": "Q46420",
+   "years": "1165–1240",
+   "living": false,
+   "bio": "Andalusian Sufi master (1165-1240), \"the greatest master\", whose teaching on the unity of being shaped later Sufism.",
+   "aliases": [
+    "ibn arabi",
+    "muhyiddin",
+    "shaykh al-akbar"
+   ],
+   "works": [],
+   "source": "Wikidata Q46420 (dates, 2026-10-20)"
+  },
+  {
+   "id": "nazim-al-haqqani",
+   "name": "Nazim al-Haqqani",
+   "short": "Nazim al-Haqqani",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "naqshbandi",
+   "traditions": [
+    "naqshbandi",
+    "sufism"
+   ],
+   "wikidata": "Q1275426",
+   "years": "1922–2014",
+   "living": false,
+   "bio": "Cypriot shaykh of the Naqshbandi-Haqqani order who built a large following in London from the 1970s.",
+   "aliases": [
+    "shaykh nazim",
+    "sheikh nazim"
+   ],
+   "works": [],
+   "source": "Wikidata Q1275426 (dates, 2026-10-20)"
+  },
+  {
+   "id": "inayat-khan",
+   "name": "Inayat Khan",
+   "short": "Inayat Khan",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "inayati",
+   "traditions": [
+    "inayati",
+    "sufism"
+   ],
+   "wikidata": "Q120411",
+   "years": "1882–1927",
+   "living": false,
+   "bio": "Indian musician and Sufi teacher who brought Sufism to the West, founding his order in London around 1914-1917.",
+   "aliases": [
+    "hazrat inayat khan"
+   ],
+   "works": [],
+   "source": "Wikidata Q120411 (dates, 2026-10-20)"
+  },
+  {
+   "id": "ross-nichols",
+   "name": "Ross Nichols",
+   "short": "Ross Nichols",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "druidry",
+   "traditions": [
+    "druidry"
+   ],
+   "wikidata": "Q1570821",
+   "years": "1902–1975",
+   "living": false,
+   "bio": "English poet and teacher who founded the Order of Bards, Ovates and Druids in 1964.",
+   "aliases": [
+    "nuinn"
+   ],
+   "works": [],
+   "source": "Wikidata Q1570821 (dates, 2026-10-20)"
+  },
+  {
+   "id": "gerald-gardner",
+   "name": "Gerald Gardner",
+   "short": "Gerald Gardner",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "wicca",
+   "traditions": [
+    "wicca"
+   ],
+   "wikidata": "Q350708",
+   "years": "1884–1964",
+   "living": false,
+   "bio": "English civil servant who publicised the religion of Wicca from the 1950s.",
+   "aliases": [
+    "gardner"
+   ],
+   "works": [],
+   "source": "Wikidata Q350708 (dates, 2026-10-20)"
+  },
+  {
+   "id": "doreen-valiente",
+   "name": "Doreen Valiente",
+   "short": "Doreen Valiente",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "wicca",
+   "traditions": [
+    "wicca"
+   ],
+   "wikidata": "Q272601",
+   "years": "1922–1999",
+   "living": false,
+   "bio": "English Wiccan priestess and poet, author of much of the Wiccan liturgy including the \"Charge of the Goddess\".",
+   "aliases": [
+    "valiente"
+   ],
+   "works": [],
+   "source": "Wikidata Q272601 (dates, 2026-10-20)"
+  },
+  {
+   "id": "dion-fortune",
+   "name": "Dion Fortune",
+   "short": "Dion Fortune",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "western-magic",
+   "traditions": [
+    "western-magic"
+   ],
+   "wikidata": "Q260670",
+   "years": "1890–1946",
+   "living": false,
+   "bio": "British occultist (Violet Firth), founder of the Society (Fraternity) of the Inner Light and author of \"The Mystical Qabalah\".",
+   "aliases": [
+    "violet firth"
+   ],
+   "works": [],
+   "source": "Wikidata Q260670 (dates, 2026-10-20)"
+  },
+  {
+   "id": "aleister-crowley",
+   "name": "Aleister Crowley",
+   "short": "Aleister Crowley",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "thelema",
+   "traditions": [
+    "thelema",
+    "western-magic"
+   ],
+   "wikidata": "Q172684",
+   "years": "1875–1947",
+   "living": false,
+   "bio": "English occultist, founder of Thelema, initiated in the Golden Dawn; owned Boleskine House.",
+   "aliases": [
+    "crowley",
+    "to mega therion"
+   ],
+   "works": [],
+   "source": "Wikidata Q172684 (dates, 2026-10-20)"
+  },
+  {
+   "id": "samuel-liddell-macgregor-mathers",
+   "name": "Samuel Liddell MacGregor Mathers",
+   "short": "Samuel Liddell MacGregor Mathers",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "golden-dawn",
+   "traditions": [
+    "golden-dawn",
+    "western-magic"
+   ],
+   "wikidata": "Q705702",
+   "years": "1854–1918",
+   "living": false,
+   "bio": "Co-founder of the Hermetic Order of the Golden Dawn (1888) and translator of grimoires.",
+   "aliases": [
+    "mathers",
+    "macgregor mathers"
+   ],
+   "works": [],
+   "source": "Wikidata Q705702 (dates, 2026-10-20)"
+  },
+  {
+   "id": "emma-restall-orr",
+   "name": "Emma Restall Orr",
+   "short": "Emma Restall Orr",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "druidry",
+   "traditions": [
+    "druidry"
+   ],
+   "wikidata": "Q5372932",
+   "years": "1965–",
+   "living": true,
+   "bio": "English druid and writer who founded The Druid Network.",
+   "aliases": [
+    "bobcat"
+   ],
+   "works": [],
+   "source": "Wikidata Q5372932 (dates, 2026-10-20)"
+  },
+  {
+   "id": "philip-carr-gomm",
+   "name": "Philip Carr-Gomm",
+   "short": "Philip Carr-Gomm",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "druidry",
+   "traditions": [
+    "druidry"
+   ],
+   "wikidata": "Q2086102",
+   "years": "1945–",
+   "living": true,
+   "bio": "Chosen Chief of OBOD from 1988 to 2020, pupil of Ross Nichols.",
+   "aliases": [
+    "carr-gomm"
+   ],
+   "works": [],
+   "source": "Wikidata Q2086102 (dates, 2026-10-20)"
+  },
+  {
+   "id": "kathy-jones",
+   "name": "Kathy Jones",
+   "short": "Kathy Jones",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "goddess-spirituality",
+   "traditions": [
+    "goddess-spirituality"
+   ],
+   "wikidata": null,
+   "years": null,
+   "living": false,
+   "bio": "Founder of the Glastonbury Goddess Temple and the Glastonbury Goddess Conference.",
+   "aliases": [
+    "kathy jones"
+   ],
+   "works": [],
+   "source": "no Wikidata item found; dates left blank"
+  },
+  {
+   "id": "cecil-williamson",
+   "name": "Cecil Williamson",
+   "short": "Cecil Williamson",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "wicca",
+   "traditions": [
+    "wicca",
+    "western-magic"
+   ],
+   "wikidata": "Q5056102",
+   "years": "1909–1999",
+   "living": false,
+   "bio": "Founder of the Museum of Witchcraft, which settled in Boscastle in 1960.",
+   "aliases": [
+    "williamson"
+   ],
+   "works": [],
+   "source": "Wikidata Q5056102 (dates, 2026-10-20)"
+  },
+  {
+   "id": "karl-koenig",
+   "name": "Karl König",
+   "short": "Karl König",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "anthroposophy",
+   "traditions": [
+    "anthroposophy"
+   ],
+   "wikidata": "Q85037",
+   "years": "1902–1966",
+   "living": false,
+   "bio": "Austrian paediatrician who founded the Camphill movement near Aberdeen in 1939-40.",
+   "aliases": [
+    "karl konig"
+   ],
+   "works": [],
+   "source": "Wikidata Q85037 (dates, 2026-10-20)"
+  },
+  {
+   "id": "douglas-harding",
+   "name": "Douglas Harding",
+   "short": "Douglas Harding",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "modern-nondual",
+   "traditions": [
+    "modern-nondual"
+   ],
+   "wikidata": "Q2672827",
+   "years": "1909–2007",
+   "living": false,
+   "bio": "English philosopher whose \"On Having No Head\" launched the Headless Way.",
+   "aliases": [
+    "harding"
+   ],
+   "works": [],
+   "source": "Wikidata Q2672827 (dates, 2026-10-20)"
+  },
+  {
+   "id": "christmas-humphreys",
+   "name": "Christmas Humphreys",
+   "short": "Christmas Humphreys",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "buddhism",
+   "traditions": [
+    "buddhism"
+   ],
+   "wikidata": "Q741873",
+   "years": "1901–1983",
+   "living": false,
+   "bio": "English barrister who founded the Buddhist Society in London in 1924.",
+   "aliases": [
+    "toby humphreys"
+   ],
+   "works": [],
+   "source": "Wikidata Q741873 (dates, 2026-10-20)"
+  },
+  {
+   "id": "john-crook",
+   "name": "John Crook",
+   "short": "John Crook",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "zen",
+   "traditions": [
+    "zen"
+   ],
+   "wikidata": "Q323480",
+   "years": "1930–2011",
+   "living": false,
+   "bio": "British ethologist and Chan teacher, dharma heir of Sheng Yen, who founded the Western Chan Fellowship.",
+   "aliases": [
+    "john hurrell crook"
+   ],
+   "works": [],
+   "source": "Wikidata Q323480 (dates, 2026-10-20)"
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+[
+ {
+  "id": "shamatha-with-object",
+  "name": "Calm abiding with a support",
+  "school": "tibetan",
+  "topics": [
+   "meditation",
+   "meditation/breath"
+  ],
+  "how_to": "Sit upright and relaxed. Rest your attention lightly on a simple support, such as the breath at the nostrils, a pebble, or a sound. When you notice the mind has wandered, return to the support without scolding yourself. Aim for many short, clear sessions rather than a few long, dull ones. Over time, loosen your grip until attention rests on its own.",
+  "source_url": "https://tergar.org",
+  "source": "Mingyur Rinpoche / Tergar"
+ },
+ {
+  "id": "shamatha-without-object",
+  "name": "Open awareness (shamatha without a support)",
+  "school": "tibetan",
+  "topics": [
+   "meditation",
+   "awakening"
+  ],
+  "how_to": "After a few minutes with a support, let it go. Leave the eyes open and the gaze soft. Let sights, sounds and thoughts come and go, and do not follow them or push them away. When you get caught up, simply notice it and relax again. The point is to rest as the knowing that is already present.",
+  "source_url": "https://tergar.org",
+  "source": "Mingyur Rinpoche / Tergar"
+ },
+ {
+  "id": "tonglen",
+  "name": "Tonglen (sending and taking)",
+  "school": "tibetan",
+  "topics": [
+   "kindness/compassion",
+   "meditation"
+  ],
+  "how_to": "Flash briefly on open, spacious mind. Then breathe in a feeling of heaviness and heat, and breathe out a feeling of coolness and light. Start with a real person who is suffering, perhaps yourself, and breathe in their pain while breathing out relief. Widen this to everyone who feels the same. Keep it simple and close to how you actually feel.",
+  "source_url": "https://pemachodronfoundation.org",
+  "source": "Pema Chödrön"
+ },
+ {
+  "id": "lojong-slogans",
+  "name": "Mind training (lojong) slogans",
+  "school": "tibetan",
+  "topics": [
+   "kindness",
+   "daily-life"
+  ],
+  "how_to": "Choose one of the 59 slogans of Atisha's Seven Points, such as \"Drive all blames into one\". Carry it through the day. When irritation or self-cherishing comes up, recall the slogan and look again at the situation. Review the day each evening.",
+  "source_url": "https://www.lotsawahouse.org/topics/lojong/",
+  "source": "Lotsawa House (texts)"
+ },
+ {
+  "id": "lamrim-analytic",
+  "name": "Analytic meditation on the stages of the path",
+  "school": "gelug",
+  "topics": [
+   "meditation",
+   "death",
+   "texts"
+  ],
+  "how_to": "Pick one Lamrim topic, such as the preciousness of this human life or the certainty of death. Think it through step by step, using reasons and examples, until a felt conviction comes. Then rest single-pointedly on that conviction for a while. Alternate thinking and resting.",
+  "source_url": "https://studybuddhism.com",
+  "source": "Study Buddhism (Berzin)"
+ },
+ {
+  "id": "mahamudra-looking",
+  "name": "Looking at the mind (Mahamudra)",
+  "school": "kagyu",
+  "topics": [
+   "meditation",
+   "awakening",
+   "thought"
+  ],
+  "how_to": "Once the mind is calm, turn and look for the one who is looking. Ask where a thought comes from, where it stays, and where it goes. Do not reason about it; just look and rest in whatever is seen or not found. This practice is traditionally done under a qualified teacher's guidance.",
+  "source_url": "https://www.lotsawahouse.org/topics/mahamudra/",
+  "source": "Lotsawa House (texts)"
+ },
+ {
+  "id": "dzogchen-introduction",
+  "name": "Resting in rigpa (Dzogchen), orientation only",
+  "school": "nyingma",
+  "topics": [
+   "awakening",
+   "meditation"
+  ],
+  "how_to": "In Dzogchen, the student is introduced to the nature of mind (rigpa) by a teacher. Between sessions, practitioners recall that recognition, leave it uncontrived for short moments, many times, and release any effort to improve it. This entry describes the practice and is not a substitute for the introduction itself.",
+  "source_url": "https://tsoknyirinpoche.org",
+  "source": "Tsoknyi Rinpoche / Pundarika"
+ },
+ {
+  "id": "nine-breathings",
+  "name": "Nine breathings of purification",
+  "school": "bon",
+  "topics": [
+   "meditation/breath",
+   "meditation/pranayama"
+  ],
+  "how_to": "Visualise the three channels: a central blue channel with a white one on the right and a red one on the left. Breathe in through the right nostril and out through the left three times, releasing anger. Then breathe in through the left and out through the right three times, releasing attachment. Finally, breathe in through both and push the breath up the central channel three times, releasing ignorance. Rest afterwards.",
+  "source_url": "https://ligmincha.org",
+  "source": "Tenzin Wangyal Rinpoche / Ligmincha"
+ },
+ {
+  "id": "dream-yoga",
+  "name": "Dream yoga, first steps",
+  "school": "bon",
+  "topics": [
+   "meditation",
+   "consciousness"
+  ],
+  "how_to": "During the day, keep reminding yourself \"this is a dream\" so that the habit carries into sleep. Before sleep, set a strong intention to recognise dreams. Visualise a luminous syllable at the throat as you fall asleep. Each morning, review whether you recognised a dream, and renew the intention.",
+  "source_url": "https://ligmincha.org",
+  "source": "Tenzin Wangyal Rinpoche / Ligmincha"
+ },
+ {
+  "id": "feeding-demons",
+  "name": "Feeding your demons (a modern adaptation of Chöd)",
+  "school": "nyingma",
+  "topics": [
+   "emotions",
+   "defilements"
+  ],
+  "how_to": "Find a struggle, such as fear or a craving, and feel where it lives in the body. Picture it as a figure in front of you and ask what it wants and what it really needs. Then imagine dissolving your body into nectar that gives it exactly that, until it is satisfied. Rest in the open space that remains.",
+  "source_url": "https://taramandala.org",
+  "source": "Tsultrim Allione / Tara Mandala"
+ },
+ {
+  "id": "zazen",
+  "name": "Zazen posture and breath",
+  "school": "soto-zen",
+  "topics": [
+   "meditation"
+  ],
+  "how_to": "Sit on a cushion with your knees on the floor, or on a chair, with the spine upright. Rest the hands in the cosmic mudra, left on right with the thumbs lightly touching, and keep the eyes half-open and lowered. Breathe naturally through the nose. Beginners can count breaths from one to ten and start again whenever they lose count.",
+  "source_url": "https://www.sotozen.com/eng/practice/zazen/howto/",
+  "source": "Soto Zen (official)"
+ },
+ {
+  "id": "shikantaza",
+  "name": "Shikantaza (just sitting)",
+  "school": "soto-zen",
+  "topics": [
+   "meditation",
+   "awakening"
+  ],
+  "how_to": "Sit as in zazen, but drop counting and any object. Simply sit, aware of the whole posture and the whole field of experience, without chasing or suppressing anything. When you find yourself lost in thought, come back to the posture. Dogen treats the sitting itself as realisation, not as a means to it.",
+  "source_url": "https://sanshin.org",
+  "source": "Shohaku Okumura / Sanshin"
+ },
+ {
+  "id": "koan-mu",
+  "name": "Koan practice with Mu",
+  "school": "rinzai-zen",
+  "topics": [
+   "meditation/koan",
+   "awakening"
+  ],
+  "how_to": "Take up \"Does a dog have buddha nature? Mu\" (Zhaozhou). Breathe Mu on each exhalation and put your whole doubt into it. Do not interpret it. Present your understanding to a teacher in private interview (dokusan). Koan work depends on that meeting with a teacher.",
+  "source_url": "https://www.mountaincloud.org",
+  "source": "Mountain Cloud / Sanbo Zen"
+ },
+ {
+  "id": "huatou",
+  "name": "Huatou (critical phrase)",
+  "school": "chan",
+  "topics": [
+   "meditation/koan"
+  ],
+  "how_to": "Take up a short question, such as \"What is wu?\" or \"Before my parents were born, what was my original face?\" Keep asking it with a sense of genuine not-knowing until a \"great doubt\" gathers. Return to the question whenever you lose it. This is Sheng Yen's method, best done in retreat with guidance.",
+  "source_url": "https://www.chancenter.org/en/publications",
+  "source": "Sheng Yen / Chan Meditation Center"
+ },
+ {
+  "id": "silent-illumination",
+  "name": "Silent illumination (mozhao)",
+  "school": "chan",
+  "topics": [
+   "meditation",
+   "awakening"
+  ],
+  "how_to": "Relax the body and be aware of the whole body sitting. Widen that awareness to include the environment, without any centre or edge. Silence means not adding commentary; illumination means remaining clearly aware. Rest there, and return whenever you get caught.",
+  "source_url": "https://tallahasseechan.org",
+  "source": "Guo Gu / Tallahassee Chan Center"
+ },
+ {
+  "id": "dont-know",
+  "name": "\"What am I? Don't know\"",
+  "school": "seon",
+  "topics": [
+   "meditation/koan",
+   "self"
+  ],
+  "how_to": "Ask \"What am I?\" deeply on the in-breath. On the out-breath, hold \"Don't know...\" as long as the breath lasts. Return to this don't-know mind in every activity, and keep clear about the next correct action. This is Seung Sahn's Kwan Um teaching.",
+  "source_url": "https://www.kwanumzen.org",
+  "source": "Kwan Um School of Zen"
+ },
+ {
+  "id": "mindful-breathing-pv",
+  "name": "Mindful breathing with gathas",
+  "school": "plum-village",
+  "topics": [
+   "mindfulness",
+   "meditation/breath"
+  ],
+  "how_to": "Breathe in and silently say \"In\"; breathe out and say \"Out\". As you settle, shorten it to \"Deep / Slow\", \"Calm / Ease\" or \"Smile / Release\". Use a bell or a phone chime as a reminder to stop, breathe three times and come back to the body.",
+  "source_url": "https://plumvillage.org",
+  "source": "Plum Village"
+ },
+ {
+  "id": "walking-meditation",
+  "name": "Walking meditation",
+  "school": "plum-village",
+  "topics": [
+   "mindfulness",
+   "daily-life"
+  ],
+  "how_to": "Walk slowly and coordinate your steps with your breath, for example two steps on the in-breath and three on the out-breath. Feel each foot touching the earth as if kissing it. You are not trying to arrive anywhere; every step is the arrival.",
+  "source_url": "https://plumvillage.org",
+  "source": "Plum Village"
+ },
+ {
+  "id": "zhiguan",
+  "name": "Calming and contemplation (zhiguan)",
+  "school": "tiantai",
+  "topics": [
+   "meditation",
+   "reality"
+  ],
+  "how_to": "First calm the mind (zhi) by settling the breath and posture. Then contemplate (guan) any present thought as simultaneously empty, provisionally existing, and the middle, which are the threefold truth. Zhiyi's Mohe zhiguan sets out four kinds of samadhi practice (constant sitting, constant walking, half-walking half-sitting, and neither).",
+  "source_url": "https://www.tendai.org",
+  "source": "Tendai Buddhist Institute"
+ },
+ {
+  "id": "nembutsu",
+  "name": "Nembutsu / nianfo",
+  "school": "pure-land",
+  "topics": [
+   "faith",
+   "meditation/mantra"
+  ],
+  "how_to": "Recite \"Namu Amida Butsu\" (Japanese) or \"Namo Amituofo\" (Chinese), aloud or silently, with a mala if you like. In Chinese Pure Land, recitation is a practice of concentration and aspiration for rebirth. In Shin Buddhism, it is an expression of gratitude for Amida's vow, not a means of earning anything.",
+  "source_url": "https://www.shinranworks.com/",
+  "source": "Collected Works of Shinran"
+ },
+ {
+  "id": "ajikan",
+  "name": "Ajikan (A-syllable meditation)",
+  "school": "shingon",
+  "topics": [
+   "meditation",
+   "divine"
+  ],
+  "how_to": "Shingon practitioners visualise the Sanskrit syllable A on a moon disc above a lotus. The A signifies the unborn source of all things. They join it with the breath and expand the moon until it fills the universe, then contract it into the heart. Formal ajikan is taught after initiation; this entry is an orientation only.",
+  "source_url": "http://www.shingonbuddhism.org",
+  "source": "Foundation for Shingon Buddhism"
+ }
+]

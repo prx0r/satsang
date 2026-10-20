@@ -1,0 +1,15 @@
+name = "wiser-web"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = false
+routes = [
+  { pattern = "tantrafiles.xyz", custom_domain = true },
+  { pattern = "www.tantrafiles.xyz", custom_domain = true },
+]
+
+
+# open data dumps (/data/*.json|jsonl|jsonld), uploaded by deploy.sh from ../mcp/dist-data
+[[kv_namespaces]]
+binding = "DATA"
+id = "9b56fc85eabf4f07bf3ba4639c74da84"

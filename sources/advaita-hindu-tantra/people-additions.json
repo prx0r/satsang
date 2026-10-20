@@ -1,0 +1,1704 @@
+{
+ "_note": "people additions from advaita-hindu-tantra sourcing 2026-10-20. role = speaker|figure (mirrors kind). Entries with existing:true are already in people.json: merge works/aliases/channels. wikidata checked via wbsearchentities 2026-10-20; null = no clean item.",
+ "people": [
+  {
+   "id": "rupert-spira",
+   "name": "Rupert Spira",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "direct-path",
+   "traditions": [
+    "advaita",
+    "direct-path"
+   ],
+   "wikidata": "Q7380364",
+   "years": "b. 1960",
+   "bio": "English potter turned teacher of the direct path, who points to awareness as the one reality behind all experience; a student of Francis Lucille.",
+   "works": [
+    {
+     "id": "spira-transparency-of-things",
+     "title": "The Transparency of Things",
+     "kind": "book",
+     "year": 2008
+    },
+    {
+     "id": "spira-nature-of-consciousness",
+     "title": "The Nature of Consciousness",
+     "kind": "book",
+     "year": 2017
+    },
+    {
+     "id": "spira-being-aware-of-being-aware",
+     "title": "Being Aware of Being Aware",
+     "kind": "book",
+     "year": 2017
+    },
+    {
+     "id": "spira-happiness-you-seek",
+     "title": "You Are the Happiness You Seek",
+     "kind": "book",
+     "year": 2022
+    }
+   ],
+   "aliases": [
+    "rupert spira",
+    "spira"
+   ],
+   "channels": [
+    {
+     "name": "Rupert Spira",
+     "id": "UCxXWjjtATq3OM545gMh9PUg",
+     "url": "https://www.youtube.com/@rupertspira",
+     "official": true
+    }
+   ],
+   "links": {
+    "Website": "https://rupertspira.com"
+   }
+  },
+  {
+   "id": "francis-lucille",
+   "name": "Francis Lucille",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "direct-path",
+   "traditions": [
+    "advaita",
+    "direct-path"
+   ],
+   "wikidata": "Q56314924",
+   "years": "b. 1944",
+   "bio": "French-born non-dual teacher in the line of Jean Klein, known for dialogues that test every claim against direct experience.",
+   "works": [
+    {
+     "id": "lucille-eternity-now",
+     "title": "Eternity Now",
+     "kind": "book",
+     "year": 1996
+    },
+    {
+     "id": "lucille-perfume-of-silence",
+     "title": "The Perfume of Silence",
+     "kind": "book",
+     "year": 2006
+    },
+    {
+     "id": "lucille-truth-love-beauty",
+     "title": "Truth Love Beauty",
+     "kind": "book"
+    }
+   ],
+   "aliases": [
+    "francis lucille",
+    "lucille"
+   ],
+   "channels": [
+    {
+     "name": "Francis Lucille",
+     "id": "UCAYslZlNuBDD7FMvpjWLtoQ",
+     "url": "https://www.youtube.com/channel/UCAYslZlNuBDD7FMvpjWLtoQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "mooji",
+   "name": "Mooji",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "wikidata": "Q5015394",
+   "years": "b. 1954",
+   "bio": "Jamaican-born teacher of self-enquiry who met Papaji in Lucknow in 1993 and now teaches from Monte Sahaja in Portugal.",
+   "works": [
+    {
+     "id": "mooji-before-i-am",
+     "title": "Before I Am",
+     "kind": "book",
+     "year": 2012
+    },
+    {
+     "id": "mooji-white-fire",
+     "title": "White Fire",
+     "kind": "book",
+     "year": 2014
+    },
+    {
+     "id": "mooji-vaster-than-sky",
+     "title": "Vaster Than Sky, Greater Than Space",
+     "kind": "book",
+     "year": 2016
+    }
+   ],
+   "aliases": [
+    "mooji",
+    "moojibaba",
+    "moojiji"
+   ],
+   "channels": [
+    {
+     "name": "Moojiji",
+     "id": "UCpw2gh99XM6Mwsbksv0feEg",
+     "url": "https://www.youtube.com/channel/UCpw2gh99XM6Mwsbksv0feEg",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "adyashanti",
+   "name": "Adyashanti",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "modern-nondual",
+   "traditions": [
+    "independent",
+    "modern-nondual",
+    "zen"
+   ],
+   "wikidata": "Q5543094",
+   "years": "b. 1962",
+   "bio": "American teacher trained in Zen who now teaches awakening outside any one tradition through his Open Gate Sangha.",
+   "works": [
+    {
+     "id": "adya-emptiness-dancing",
+     "title": "Emptiness Dancing",
+     "kind": "book",
+     "year": 2004
+    },
+    {
+     "id": "adya-end-of-your-world",
+     "title": "The End of Your World",
+     "kind": "book",
+     "year": 2008
+    },
+    {
+     "id": "adya-falling-into-grace",
+     "title": "Falling into Grace",
+     "kind": "book",
+     "year": 2011
+    },
+    {
+     "id": "adya-most-important-thing",
+     "title": "The Most Important Thing",
+     "kind": "book",
+     "year": 2019
+    }
+   ],
+   "aliases": [
+    "adyashanti",
+    "adya"
+   ],
+   "channels": [
+    {
+     "name": "Adyashanti",
+     "id": "UCBj2I1l_ubQuWrdJV2Ns_Tg",
+     "url": "https://www.youtube.com/channel/UCBj2I1l_ubQuWrdJV2Ns_Tg",
+     "official": true
+    }
+   ],
+   "note": "Most uploads on this channel have embedding disabled (oEmbed 401); only embeddable ones are in candidates."
+  },
+  {
+   "id": "swami-tadatmananda",
+   "name": "Swami Tadatmananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "arsha-vidya",
+   "traditions": [
+    "vedanta",
+    "advaita",
+    "arsha-vidya"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "American-born monk and teacher of Advaita Vedanta and meditation at the Arsha Bodha Center in New Jersey, a disciple of Swami Dayananda Saraswati.",
+   "works": [
+    {
+     "id": "tadatmananda-inner-journey",
+     "title": "The Inner Journey: A Course in Meditation",
+     "kind": "talk series",
+     "url": "https://www.youtube.com/channel/UC7i47784NqiOl244eGEJDew"
+    },
+    {
+     "id": "tadatmananda-deep-dive",
+     "title": "Advaita Vedanta \"Deep Dive\" talks",
+     "kind": "talk series"
+    },
+    {
+     "id": "tadatmananda-gita-verse",
+     "title": "Bhagavad Gita in English verse",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "tadatmananda"
+   ],
+   "channels": [
+    {
+     "name": "ArshaBodha - Swami Tadatmananda",
+     "id": "UC7i47784NqiOl244eGEJDew",
+     "url": "https://www.youtube.com/channel/UC7i47784NqiOl244eGEJDew",
+     "official": true
+    }
+   ],
+   "note": "No clean Wikidata item found (wbsearchentities 2026-10-20)."
+  },
+  {
+   "id": "christopher-wallis",
+   "name": "Christopher Wallis (Hareesh)",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": null,
+   "years": "b. 1975",
+   "bio": "Sanskrit scholar and practitioner of classical Śaiva Tantra who translates and teaches the non-dual texts of Kashmir Shaivism for modern practice.",
+   "works": [
+    {
+     "id": "wallis-tantra-illuminated",
+     "title": "Tantra Illuminated",
+     "kind": "book",
+     "year": 2013
+    },
+    {
+     "id": "wallis-recognition-sutras",
+     "title": "The Recognition Sutras",
+     "kind": "book",
+     "year": 2017
+    },
+    {
+     "id": "wallis-near-enemies",
+     "title": "Near Enemies of the Truth",
+     "kind": "book",
+     "year": 2023
+    },
+    {
+     "id": "wallis-vbt-videos",
+     "title": "Vijñāna-bhairava-tantra verse-by-verse videos",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "christopher wallis",
+    "hareesh"
+   ],
+   "short": "Hareesh",
+   "channels": [
+    {
+     "name": "Christopher Wallis (Hareesh)",
+     "id": "UCpESGVz_4KaI3duvhfedf7g",
+     "url": "https://www.youtube.com/channel/UCpESGVz_4KaI3duvhfedf7g",
+     "official": true
+    }
+   ],
+   "note": "Wikidata search returns only namesakes; left null."
+  },
+  {
+   "id": "swami-lakshmanjoo",
+   "name": "Swami Lakshmanjoo",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q6479820",
+   "years": "1907–1991",
+   "bio": "Kashmiri master regarded as the last living holder of the oral tradition of Kashmir Shaivism; his recorded teachings are kept by the Lakshmanjoo Academy.",
+   "works": [
+    {
+     "id": "lj-secret-supreme",
+     "title": "Kashmir Shaivism: The Secret Supreme",
+     "kind": "book",
+     "year": 1985
+    },
+    {
+     "id": "lj-shiva-sutras",
+     "title": "Shiva Sutras: The Supreme Awakening",
+     "kind": "book",
+     "year": 2002
+    },
+    {
+     "id": "lj-vijnana-bhairava",
+     "title": "Vijñāna Bhairava: The Practice of Centring Awareness",
+     "kind": "book",
+     "year": 2007
+    },
+    {
+     "id": "lj-self-realization",
+     "title": "Self Realization in Kashmir Shaivism",
+     "kind": "book",
+     "year": 1995
+    }
+   ],
+   "aliases": [
+    "lakshmanjoo",
+    "lakshman joo",
+    "swamiji"
+   ],
+   "channels": [
+    {
+     "name": "Lakshmanjoo Academy",
+     "id": "UCKYC_hMs3JRWaM_dfi_BnxA",
+     "url": "https://www.youtube.com/channel/UCKYC_hMs3JRWaM_dfi_BnxA",
+     "official": true
+    }
+   ],
+   "note": "Channel is the official Lakshmanjoo Academy (publisher of his archive); clips are archival recordings of him."
+  },
+  {
+   "id": "david-godman",
+   "name": "David Godman",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": "b. 1953",
+   "bio": "English writer who has lived at Tiruvannamalai since the 1970s and has written the standard books on Ramana Maharshi, his devotees and Papaji.",
+   "works": [
+    {
+     "id": "godman-be-as-you-are",
+     "title": "Be As You Are: The Teachings of Sri Ramana Maharshi",
+     "kind": "book",
+     "year": 1985
+    },
+    {
+     "id": "godman-living-by-the-words",
+     "title": "Living by the Words of Bhagavan",
+     "kind": "book",
+     "year": 1994
+    },
+    {
+     "id": "godman-nothing-ever-happened",
+     "title": "Nothing Ever Happened",
+     "kind": "book",
+     "year": 1998
+    }
+   ],
+   "aliases": [
+    "david godman",
+    "godman"
+   ],
+   "channels": [
+    {
+     "name": "David Godman",
+     "id": "UCBcqQGNwcSEwlv6gJXP-U9A",
+     "url": "https://www.youtube.com/channel/UCBcqQGNwcSEwlv6gJXP-U9A",
+     "official": true
+    }
+   ],
+   "note": "Wikidata Q5234180 is labelled David Godman but described as \"Indian sage\"; not used until verified."
+  },
+  {
+   "id": "swami-sarvapriyananda",
+   "name": "Swami Sarvapriyananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "advaita",
+    "ramakrishna-order"
+   ],
+   "wikidata": "Q99543109",
+   "years": "b. 1969",
+   "bio": "Monk of the Ramakrishna Order and head of the Vedanta Society of New York, known for clear lectures on Advaita Vedanta and consciousness.",
+   "works": [
+    {
+     "id": "sarvapriyananda-ask-swami",
+     "title": "Ask Swami (Q&A series)",
+     "kind": "talk series",
+     "url": "https://www.youtube.com/channel/UCZOKv_xnTzyLD9RJmbBUV9Q"
+    },
+    {
+     "id": "sarvapriyananda-mandukya",
+     "title": "Mandukya Upanishad lectures",
+     "kind": "talk series"
+    },
+    {
+     "id": "sarvapriyananda-vivekachudamani",
+     "title": "Vivekachudamani classes",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "sarvapriyananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of New York",
+     "id": "UCZOKv_xnTzyLD9RJmbBUV9Q",
+     "url": "https://www.youtube.com/@VedantaNY",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-chidananda",
+   "name": "Brother Chidananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q42428676",
+   "years": null,
+   "bio": "President and spiritual head of Self-Realization Fellowship / Yogoda Satsanga Society of India since 2017, teaching Yogananda's Kriya Yoga path.",
+   "works": [
+    {
+     "id": "chidananda-srf-talks",
+     "title": "SRF Convocation and online meditation talks",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "chidananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "sri-mrinalini-mata",
+   "name": "Sri Mrinalini Mata",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q111450511",
+   "years": "1931–2017",
+   "bio": "Direct disciple of Paramahansa Yogananda, trained by him to edit his writings, and fourth president of Self-Realization Fellowship.",
+   "works": [
+    {
+     "id": "mrinalini-manifesting",
+     "title": "Manifesting Divine Consciousness in Daily Life",
+     "kind": "book"
+    }
+   ],
+   "aliases": [
+    "mrinalini mata"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "sri-daya-mata",
+   "name": "Sri Daya Mata",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q5243001",
+   "years": "1914–2010",
+   "bio": "Direct disciple of Paramahansa Yogananda who led Self-Realization Fellowship as its president for more than fifty years.",
+   "works": [
+    {
+     "id": "daya-only-love",
+     "title": "Only Love",
+     "kind": "book",
+     "year": 1976
+    },
+    {
+     "id": "daya-finding-the-joy",
+     "title": "Finding the Joy Within You",
+     "kind": "book",
+     "year": 1990
+    },
+    {
+     "id": "daya-enter-quiet-heart",
+     "title": "Enter the Quiet Heart",
+     "kind": "book",
+     "year": 1998
+    }
+   ],
+   "aliases": [
+    "daya mata"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-anandamoy",
+   "name": "Brother Anandamoy",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q113762258",
+   "years": null,
+   "bio": "Swiss-born monk and direct disciple of Paramahansa Yogananda who lectured for Self-Realization Fellowship for decades.",
+   "works": [],
+   "aliases": [
+    "anandamoy"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-bhumananda",
+   "name": "Brother Bhumananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Self-Realization Fellowship order who gives talks and guided practice on Yogananda's teachings.",
+   "works": [],
+   "aliases": [
+    "bhumananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-achalananda",
+   "name": "Brother Achalananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Self-Realization Fellowship order who gives talks and guided practice on Yogananda's teachings.",
+   "works": [],
+   "aliases": [
+    "achalananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-satyananda",
+   "name": "Brother Satyananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Self-Realization Fellowship order who gives talks and guided practice on Yogananda's teachings.",
+   "works": [],
+   "aliases": [
+    "satyananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-kamalananda",
+   "name": "Brother Kamalananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Self-Realization Fellowship order who gives talks and guided practice on Yogananda's teachings.",
+   "works": [],
+   "aliases": [
+    "kamalananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "brother-prafullananda",
+   "name": "Brother Prafullananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Self-Realization Fellowship order who gives talks and guided practice on Yogananda's teachings.",
+   "works": [],
+   "aliases": [
+    "prafullananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "sister-usha",
+   "name": "Sister Usha",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Nun of the Self-Realization Fellowship order who gives short talks on Yogananda's teachings.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-sarvadevananda",
+   "name": "Swami Sarvadevananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order and minister of the Vedanta Society of Southern California in Hollywood.",
+   "works": [
+    {
+     "id": "sarvadevananda-qa",
+     "title": "Vedanta short answers (VSSC)",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "sarvadevananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-mahayogananda",
+   "name": "Swami Mahayogananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order at the Vedanta Society of Southern California who speaks on Vedanta, near-death experience and rebirth.",
+   "works": [],
+   "aliases": [
+    "mahayogananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-satyamayananda",
+   "name": "Swami Satyamayananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order whose talks are published by the Vedanta Society of Southern California.",
+   "works": [],
+   "aliases": [
+    "satyamayananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-atmaghanananda",
+   "name": "Swami Atmaghanananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order whose talks are published by the Vedanta Society of Southern California.",
+   "works": [],
+   "aliases": [
+    "atmaghanananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-atmavidyananda",
+   "name": "Swami Atmavidyananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order whose talks are published by the Vedanta Society of Southern California.",
+   "works": [],
+   "aliases": [
+    "atmavidyananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "swami-vedarupananda",
+   "name": "Swami Vedarupananda",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Monk of the Ramakrishna Order whose talks are published by the Vedanta Society of Southern California.",
+   "works": [],
+   "aliases": [
+    "vedarupananda"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "pravrajika-vidyaprana",
+   "name": "Pravrajika Vidyaprana",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Nun of the Sarada Convent of the Vedanta Society of Southern California who answers questions on Vedanta.",
+   "works": [],
+   "aliases": [
+    "vidyaprana"
+   ],
+   "channels": [
+    {
+     "name": "Vedanta Society of Southern California",
+     "id": "UCoeQClkDRaj9uABKHfHJUdw",
+     "url": "https://www.youtube.com/channel/UCoeQClkDRaj9uABKHfHJUdw",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "venkat-s-ramanan",
+   "name": "Dr. Venkat S. Ramanan",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "President of Sri Ramanasramam in Tiruvannamalai (also known as Dr. Anand Ramanan), who speaks on Ramana Maharshi's teaching at the ashram's celebrations.",
+   "works": [],
+   "aliases": [
+    "anand ramanan",
+    "venkat ramanan"
+   ],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "nochur-venkataraman",
+   "name": "Sri Nochur Venkataraman",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Vedanta teacher from Kerala known for long talk series on Ramana Maharshi's poems, several given in English at Sri Ramanasramam.",
+   "works": [
+    {
+     "id": "nochur-aksharamanamalai",
+     "title": "Aksharamanamalai talks at Sri Ramanasramam",
+     "kind": "talk series"
+    }
+   ],
+   "aliases": [
+    "nochur"
+   ],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "aparna-krishnamoorthy",
+   "name": "Aparna Krishnamoorthy",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Speaker on the Advaitic meaning of Ramana Maharshi's hymns, in a talk published by Sri Ramanasramam.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "ganapathi-raman",
+   "name": "Ganapathi Raman",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Devotee of Ramana Maharshi interviewed for Sri Ramanasramam's devotee-interview series.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "dhiruben-patel",
+   "name": "Dhiruben Patel",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Devotee of Ramana Maharshi whose recollections were recorded by Sri Ramanasramam.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "santa-ramachandran",
+   "name": "Dr. Santa Ramachandran",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Devotee who recalls moments with Ramana Maharshi in a recording published by Sri Ramanasramam.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "mangalam-kalyanam",
+   "name": "Mangalam Kalyanam",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Granddaughter of Niranjanananda Swami, the ashram's first sarvadhikari and Ramana Maharshi's younger brother, recorded by Sri Ramanasramam.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "sethulakshmi",
+   "name": "Sethulakshmi",
+   "role": "speaker",
+   "kind": "speaker",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": null,
+   "years": null,
+   "bio": "Devotee of Ramana Maharshi interviewed for Sri Ramanasramam's devotee-interview series.",
+   "works": [],
+   "aliases": [],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "ramana-maharshi",
+   "name": "Ramana Maharshi",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": "Q288441",
+   "years": "1879–1950",
+   "bio": "Sage of Arunachala who woke to the Self at sixteen and taught self-enquiry, the question \"Who am I?\", mostly in silence and short replies.",
+   "works": [
+    {
+     "id": "ramana-who-am-i",
+     "title": "Who Am I? (Nan Yar)",
+     "kind": "text"
+    },
+    {
+     "id": "ramana-upadesa-saram",
+     "title": "Upadesa Saram",
+     "kind": "text",
+     "year": 1927
+    },
+    {
+     "id": "ramana-ulladu-narpadu",
+     "title": "Ulladu Narpadu (Forty Verses on Reality)",
+     "kind": "text",
+     "year": 1928
+    },
+    {
+     "id": "ramana-aksharamanamalai",
+     "title": "Aksharamanamalai (Marital Garland of Letters)",
+     "kind": "text"
+    },
+    {
+     "id": "ramana-talks",
+     "title": "Talks with Sri Ramana Maharshi",
+     "kind": "book",
+     "year": 1955
+    }
+   ],
+   "aliases": [
+    "ramana",
+    "maharshi",
+    "bhagavan sri ramana"
+   ],
+   "channels": [
+    {
+     "name": "Sri Ramanasramam",
+     "id": "UCeNlB-eW4MP1syhRGcYcEmA",
+     "url": "https://www.youtube.com/@SriRamanasramam",
+     "official": true
+    }
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred",
+   "note": "Sri Ramanasramam holds his archival film; one archival clip (Bhagavan With Squirrel) is in candidates with speaker=ramana-maharshi."
+  },
+  {
+   "id": "nisargadatta-maharaj",
+   "name": "Nisargadatta Maharaj",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "inchegeri",
+   "traditions": [
+    "advaita",
+    "inchegeri"
+   ],
+   "wikidata": "Q175532",
+   "years": "1897–1981",
+   "bio": "Bombay shopkeeper and teacher of the Inchegeri line whose blunt dialogues about the sense \"I am\" became the book I Am That.",
+   "works": [
+    {
+     "id": "nisargadatta-i-am-that",
+     "title": "I Am That",
+     "kind": "book",
+     "year": 1973
+    },
+    {
+     "id": "nisargadatta-seeds",
+     "title": "Seeds of Consciousness",
+     "kind": "book",
+     "year": 1982
+    },
+    {
+     "id": "nisargadatta-prior",
+     "title": "Prior to Consciousness",
+     "kind": "book",
+     "year": 1985
+    }
+   ],
+   "aliases": [
+    "nisargadatta",
+    "nisarga"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred",
+   "note": "No official estate YouTube channel found; met through talks by Rupert Spira, David Godman, Mooji and others on their own channels."
+  },
+  {
+   "id": "ramakrishna",
+   "name": "Sri Ramakrishna",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": "Q183126",
+   "years": "1836–1886",
+   "bio": "Bengali mystic and priest at Dakshineswar who practised many paths to God and taught that they reach one truth.",
+   "works": [
+    {
+     "id": "gospel-of-sri-ramakrishna",
+     "title": "The Gospel of Sri Ramakrishna (Kathamrita, recorded by M.)",
+     "kind": "book",
+     "year": 1942
+    }
+   ],
+   "aliases": [
+    "ramakrishna",
+    "thakur"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred"
+  },
+  {
+   "id": "swami-vivekananda",
+   "name": "Swami Vivekananda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": "Q47478",
+   "years": "1863–1902",
+   "bio": "Chief disciple of Ramakrishna who brought Vedanta to the West at Chicago in 1893 and founded the Ramakrishna Mission.",
+   "works": [
+    {
+     "id": "vivekananda-chicago",
+     "title": "Chicago Addresses",
+     "kind": "talk",
+     "year": 1893
+    },
+    {
+     "id": "vivekananda-raja-yoga",
+     "title": "Raja Yoga",
+     "kind": "book",
+     "year": 1896
+    },
+    {
+     "id": "vivekananda-karma-yoga",
+     "title": "Karma Yoga",
+     "kind": "book",
+     "year": 1896
+    },
+    {
+     "id": "vivekananda-jnana-yoga",
+     "title": "Jnana Yoga",
+     "kind": "book",
+     "year": 1899
+    }
+   ],
+   "aliases": [
+    "vivekananda"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred"
+  },
+  {
+   "id": "sarada-devi",
+   "name": "Sri Sarada Devi (Holy Mother)",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "ramakrishna-order",
+   "traditions": [
+    "vedanta",
+    "ramakrishna-order"
+   ],
+   "wikidata": "Q3278399",
+   "years": "1853–1920",
+   "bio": "Wife and spiritual companion of Ramakrishna, revered in the Ramakrishna Order as the Holy Mother.",
+   "works": [
+    {
+     "id": "gospel-of-holy-mother",
+     "title": "The Gospel of the Holy Mother (sayings)",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "holy mother",
+    "sarada devi"
+   ]
+  },
+  {
+   "id": "paramahansa-yogananda",
+   "name": "Paramahansa Yogananda",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q312549",
+   "years": "1893–1952",
+   "bio": "Indian yogi who brought Kriya Yoga to America in 1920, founded Self-Realization Fellowship and wrote Autobiography of a Yogi.",
+   "works": [
+    {
+     "id": "autobiography-of-a-yogi",
+     "title": "Autobiography of a Yogi",
+     "kind": "book",
+     "year": 1946
+    },
+    {
+     "id": "yogananda-god-talks-with-arjuna",
+     "title": "God Talks with Arjuna: The Bhagavad Gita",
+     "kind": "book",
+     "year": 1995
+    },
+    {
+     "id": "yogananda-second-coming",
+     "title": "The Second Coming of Christ",
+     "kind": "book",
+     "year": 2004
+    }
+   ],
+   "aliases": [
+    "yogananda"
+   ],
+   "channels": [
+    {
+     "name": "Self-Realization Fellowship",
+     "id": "UCqr3sDl5CzjQwOHiVLal4gQ",
+     "url": "https://www.youtube.com/channel/UCqr3sDl5CzjQwOHiVLal4gQ",
+     "official": true
+    }
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred"
+  },
+  {
+   "id": "mahavatar-babaji",
+   "name": "Mahavatar Babaji",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q741358",
+   "years": null,
+   "bio": "Deathless Himalayan master who, in the Kriya Yoga lineage told in Autobiography of a Yogi, revived Kriya Yoga by initiating Lahiri Mahasaya in 1861.",
+   "works": [],
+   "aliases": [
+    "babaji"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred",
+   "note": "No writings; known through Autobiography of a Yogi."
+  },
+  {
+   "id": "lahiri-mahasaya",
+   "name": "Lahiri Mahasaya",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q471036",
+   "years": "1828–1895",
+   "bio": "Householder yogi of Benares who received Kriya Yoga from Babaji and taught it widely while living a family life.",
+   "works": [],
+   "aliases": [
+    "lahiri",
+    "shyama charan lahiri"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred"
+  },
+  {
+   "id": "sri-yukteswar",
+   "name": "Swami Sri Yukteswar Giri",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kriya-yoga",
+   "traditions": [
+    "kriya-yoga"
+   ],
+   "wikidata": "Q380790",
+   "years": "1855–1936",
+   "bio": "Disciple of Lahiri Mahasaya and the guru of Paramahansa Yogananda.",
+   "works": [
+    {
+     "id": "yukteswar-holy-science",
+     "title": "The Holy Science",
+     "kind": "book",
+     "year": 1894
+    }
+   ],
+   "aliases": [
+    "yukteswar",
+    "yukteshwar"
+   ]
+  },
+  {
+   "id": "abhinavagupta",
+   "name": "Abhinavagupta",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q320619",
+   "years": "c. 950–1016",
+   "bio": "Kashmiri philosopher who drew the Tantric schools into one non-dual system in which everything is the free self-awareness of Shiva.",
+   "works": [
+    {
+     "id": "tantraloka",
+     "title": "Tantrāloka",
+     "kind": "text"
+    },
+    {
+     "id": "tantrasara",
+     "title": "Tantrasāra",
+     "kind": "text"
+    },
+    {
+     "id": "paramarthasara",
+     "title": "Paramārthasāra",
+     "kind": "text"
+    },
+    {
+     "id": "gitartha-sangraha",
+     "title": "Gītārtha-saṅgraha (commentary on the Bhagavad Gita)",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "abhinavagupta",
+    "abhinava"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred"
+  },
+  {
+   "id": "shiva-sutras",
+   "name": "Shiva Sutras of Vasugupta",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q1136787",
+   "years": "c. 9th century",
+   "bio": "Seventy-seven terse aphorisms, said to have been revealed to Vasugupta, that open the non-dual teaching of Kashmir Shaivism with \"Consciousness is the Self\".",
+   "works": [
+    {
+     "id": "shiva-sutras-text",
+     "title": "Śiva Sūtras",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "shiva sutras",
+    "śiva sūtras"
+   ],
+   "existing": true,
+   "_merge": "union works/aliases/channels into the existing people.json entry; keep its bio unless this one is preferred",
+   "note": "kind in people.json is text; role here figure because the schema only allows speaker|figure."
+  },
+  {
+   "id": "vijnana-bhairava",
+   "name": "Vijñāna Bhairava Tantra",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "wikidata": "Q2005649",
+   "years": "c. 7th–9th century",
+   "bio": "Tantric dialogue between Shiva and the Goddess listing 112 ways of entering awareness, much taught in Kashmir Shaivism.",
+   "works": [
+    {
+     "id": "vbt-text",
+     "title": "Vijñāna Bhairava Tantra",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "vijnana bhairava",
+    "vijñāna-bhairava",
+    "vbt"
+   ],
+   "note": "Treat as kind=text."
+  },
+  {
+   "id": "bhagavad-gita",
+   "name": "Bhagavad Gita",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "vedanta",
+   "traditions": [
+    "vedanta"
+   ],
+   "wikidata": "Q46802",
+   "years": null,
+   "bio": "Dialogue between Krishna and Arjuna in the Mahabharata on duty, devotion and knowledge of the Self; a root text of Vedanta.",
+   "works": [
+    {
+     "id": "gita-text",
+     "title": "Bhagavad Gita",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "bhagavad gita"
+   ],
+   "note": "Treat as kind=text."
+  },
+  {
+   "id": "adi-shankara",
+   "name": "Ādi Śaṅkara",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "advaita",
+   "traditions": [
+    "vedanta",
+    "advaita"
+   ],
+   "wikidata": "Q180967",
+   "years": "c. 8th century",
+   "bio": "Philosopher who set out Advaita Vedanta in commentaries on the Upanishads, Gita and Brahma Sutras.",
+   "works": [
+    {
+     "id": "shankara-brahma-sutra-bhashya",
+     "title": "Brahma Sūtra Bhāṣya",
+     "kind": "text"
+    },
+    {
+     "id": "shankara-upadesa-sahasri",
+     "title": "Upadeśa Sāhasrī",
+     "kind": "text"
+    },
+    {
+     "id": "vivekachudamani",
+     "title": "Vivekacūḍāmaṇi (attributed)",
+     "kind": "text"
+    }
+   ],
+   "aliases": [
+    "shankara",
+    "shankaracharya",
+    "śaṅkara"
+   ]
+  },
+  {
+   "id": "papaji",
+   "name": "H. W. L. Poonja (Papaji)",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "wikidata": "Q1033977",
+   "years": "1910–1997",
+   "bio": "Disciple of Ramana Maharshi who taught self-enquiry in Lucknow and inspired many Western teachers, Mooji among them.",
+   "works": [
+    {
+     "id": "papaji-wake-up-and-roar",
+     "title": "Wake Up and Roar",
+     "kind": "book",
+     "year": 1992
+    },
+    {
+     "id": "papaji-the-truth-is",
+     "title": "The Truth Is",
+     "kind": "book",
+     "year": 2000
+    }
+   ],
+   "aliases": [
+    "papaji",
+    "poonja",
+    "poonjaji"
+   ]
+  },
+  {
+   "id": "jean-klein",
+   "name": "Jean Klein",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "direct-path",
+   "traditions": [
+    "advaita",
+    "direct-path"
+   ],
+   "wikidata": "Q1682182",
+   "years": "1912–1998",
+   "bio": "French musicologist and doctor who taught non-dual listening and body work in Europe and America; teacher of Francis Lucille.",
+   "works": [
+    {
+     "id": "klein-be-who-you-are",
+     "title": "Be Who You Are",
+     "kind": "book",
+     "year": 1978
+    },
+    {
+     "id": "klein-i-am",
+     "title": "I Am",
+     "kind": "book",
+     "year": 1989
+    }
+   ],
+   "aliases": [
+    "jean klein"
+   ]
+  },
+  {
+   "id": "atmananda-krishna-menon",
+   "name": "Atmananda Krishna Menon",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "direct-path",
+   "traditions": [
+    "advaita",
+    "direct-path"
+   ],
+   "wikidata": "Q4817058",
+   "years": "1883–1959",
+   "bio": "Kerala lawyer and sage whose \"direct path\" of enquiry into consciousness shaped Jean Klein, Francis Lucille and Rupert Spira.",
+   "works": [
+    {
+     "id": "atmananda-atma-darshan",
+     "title": "Atma Darshan",
+     "kind": "book",
+     "year": 1946
+    },
+    {
+     "id": "atmananda-atma-nirvriti",
+     "title": "Atma Nirvriti",
+     "kind": "book",
+     "year": 1952
+    },
+    {
+     "id": "atmananda-notes",
+     "title": "Notes on Spiritual Discourses",
+     "kind": "book",
+     "year": 1963
+    }
+   ],
+   "aliases": [
+    "atmananda"
+   ]
+  },
+  {
+   "id": "swami-dayananda-saraswati",
+   "name": "Swami Dayananda Saraswati",
+   "role": "figure",
+   "kind": "figure",
+   "tradition": "arsha-vidya",
+   "traditions": [
+    "vedanta",
+    "advaita",
+    "arsha-vidya"
+   ],
+   "wikidata": "Q5243052",
+   "years": "1930–2015",
+   "bio": "Teacher of traditional Advaita Vedanta who founded the Arsha Vidya Gurukulams and trained Swami Tadatmananda among many others.",
+   "works": [
+    {
+     "id": "dayananda-value-of-values",
+     "title": "The Value of Values",
+     "kind": "book"
+    }
+   ],
+   "aliases": [
+    "swami dayananda"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,586 @@
+{
+ "version": 1,
+ "_note": "Editorial collections (Wiser's own words). Items: {select: {topic, trad, notTrad, speaker, rx}} resolves to a talk at build time (tools/build-collections.py), {practice: <id>} to a practice. Kinds: set | journey | meditation-series | visualisation-cycle | syllabus (DATA-MODEL §2.4).",
+ "collections": [
+  {
+   "id": "seven-days-with-death",
+   "kind": "journey",
+   "title": "Seven days with death",
+   "topic": "death",
+   "intro": "One short talk and one practice a day for a week. The traditions agree on little, but they agree that remembering death changes how we live. Go gently; skip a day whenever you need to.",
+   "cadence": "daily",
+   "author": "Wiser",
+   "units": [
+    {
+     "n": 1,
+     "day": 1,
+     "title": "The one certainty",
+     "intro": "Start with the plain fact: everyone who is born dies.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "trad": "thai-forest"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "the-five-remembrances"
+      },
+      {
+       "role": "reflect",
+       "note": "What would I stop putting off if I took this seriously?"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "day": 2,
+     "title": "Mindfulness of death",
+     "intro": "The Buddha asked monks to recall death with every breath.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "rx": "mindful|maranasati|recollect|contemplat"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "mindfulness-of-death-maranasati"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "day": 3,
+     "title": "Who dies?",
+     "intro": "Advaita turns the question around: find who it is that is afraid.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "trad": "advaita"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "self-enquiry-who-dies"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "day": 4,
+     "title": "The moment of death and after",
+     "intro": "Tibetan teachers map the dying process and the bardo in detail.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "trad": "tibetan"
+       }
+      },
+      {
+       "role": "read",
+       "note": "Preparing for the bardo, a short orientation on the Rebirth hub.",
+       "ref": "topic:rebirth"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "day": 5,
+     "title": "Grief and loss",
+     "intro": "Death is also what happens to the people we love.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "rx": "grief|loss|griev|loved one|mourning"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "goodwill-metta"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "day": 6,
+     "title": "Practising dying",
+     "intro": "Plato called philosophy a rehearsal for death.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "notTrad": "buddhism",
+        "rx": "plato|socrat|phaedo|dying|death|die"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "practising-dying-melete-thanatou"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "day": 7,
+     "title": "What remains",
+     "intro": "End where the traditions point: the deathless, the Self, the open sky of mind.",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "topic": "death",
+        "rx": "deathless|beyond death|never born|unborn|freedom|liberat"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "open-awareness-shamatha-without-a-support"
+      },
+      {
+       "role": "reflect",
+       "note": "What did this week change, if anything?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rebirth-across-traditions",
+   "kind": "set",
+   "title": "Rebirth across traditions",
+   "topic": "rebirth",
+   "intro": "Does anything carry on after death? One talk from each tradition that answers, then the classic texts to read for free.",
+   "items": [
+    {
+     "role": "watch",
+     "group": "Theravāda",
+     "select": {
+      "topic": "rebirth",
+      "trad": "theravada"
+     }
+    },
+    {
+     "role": "watch",
+     "group": "Tibetan Buddhism",
+     "select": {
+      "topic": "rebirth",
+      "trad": "tibetan"
+     }
+    },
+    {
+     "role": "watch",
+     "group": "Advaita and Vedānta",
+     "select": {
+      "topic": "rebirth",
+      "trad": "hindu",
+      "rx": "rebirth|reincarnat|death|die|soul|subtle body|karma|after"
+     }
+    },
+    {
+     "role": "watch",
+     "group": "Zen and Mahāyāna",
+     "select": {
+      "topic": "rebirth",
+      "trad": "mahayana"
+     }
+    },
+    {
+     "role": "watch",
+     "group": "The West",
+     "select": {
+      "topic": "rebirth",
+      "notTrad": "buddhism",
+      "rx": "reincarnat|plato|steiner|soul|er\\b|pythagor|afterlife|theosoph"
+     }
+    },
+    {
+     "role": "watch",
+     "group": "Independent voices",
+     "select": {
+      "topic": "rebirth",
+      "trad": "independent"
+     }
+    },
+    {
+     "role": "practise",
+     "group": "Practise",
+     "practice": "recollecting-the-round"
+    },
+    {
+     "role": "read",
+     "group": "Read",
+     "ref": "topic:rebirth",
+     "note": "Nineteen free essays and texts on the Rebirth hub, from the suttas to the Myth of Er."
+    }
+   ]
+  },
+  {
+   "id": "kashmir-shaivism-first-syllabus",
+   "kind": "syllabus",
+   "title": "Kashmir Shaivism: a first syllabus",
+   "topic": "self",
+   "intro": "The nondual Śaiva tradition of Kashmir, in six steps: a theory track of short talks from scholars and teachers, and a practice track of simple contemplations from the Vijñāna Bhairava and the Pratyabhijñā.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What is Kashmir Shaivism?",
+     "track": "theory",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "kashmir-shaivism",
+        "rx": "what is|introduc|overview|history|kashmir shaiv"
+       }
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Consciousness is all there is",
+     "track": "theory",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "kashmir-shaivism",
+        "rx": "conscious|awareness|shiva|chit"
+       }
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The gap between breaths",
+     "track": "practice",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "kashmir-shaivism",
+        "rx": "vijnana|vijñāna|bhairava|breath|dharana"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "resting-in-the-gap-between-breaths-vijnana-bhairava-dharana"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Recognition",
+     "track": "theory",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "kashmir-shaivism",
+        "rx": "recogni|pratyabhij|utpala|abhinava"
+       }
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Recognition as practice",
+     "track": "practice",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "recognition-pratyabhijna-contemplation"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Grace and the teacher",
+     "track": "both",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "kashmir-shaivism",
+        "rx": "grace|shaktipat|guru|teacher|anugraha"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "shiva-process-self-inquiry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thai-forest-basics",
+   "kind": "syllabus",
+   "title": "Thai Forest: the basics",
+   "topic": "meditation",
+   "intro": "The forest tradition of Ajahn Mun and Ajahn Chah, as its Western monks teach it today: virtue, the breath, Buddho, walking, and how to bring it into a life.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Where the tradition comes from",
+     "track": "theory",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "thai-forest",
+        "rx": "ajahn chah|ajahn mun|forest|tradition|history"
+       }
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Virtue first",
+     "track": "theory",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "thai-forest",
+        "topic": "virtue"
+       }
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The breath",
+     "track": "practice",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "thai-forest",
+        "rx": "breath|anapanasati"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "anapanasati-breath-meditation-method-2"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Buddho",
+     "track": "practice",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "thai-forest",
+        "rx": "buddho|recollect"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "buddho-recollection"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Walking",
+     "track": "practice",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "walking-meditation-jongrom"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Practice in daily life",
+     "track": "both",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "thai-forest",
+        "topic": "daily-life"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tibetan-deity-practice-primer",
+   "kind": "visualisation-cycle",
+   "title": "Visualisations: the Tibetan deity practice primer",
+   "topic": "meditation",
+   "orientationOnly": true,
+   "intro": "Orientation only. Deity yoga is taught in Tibetan Buddhism after an empowerment and with a teacher; this primer explains what it is and why it is practised, through talks by teachers of the tradition. It does not teach the visualisations themselves.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What is visualisation for?",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "vajrayana",
+        "rx": "visuali[sz]"
+       }
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Choosing a yidam",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "vajrayana",
+        "rx": "yidam|deity"
+       }
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Seeing, feeling, trusting",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "speaker": "tulku-thondup",
+        "rx": "visuali"
+       }
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "The mandala",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "vajrayana",
+        "rx": "mandala"
+       }
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Tantra and emptiness",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "rx": "tantras and emptiness|tantra.*empt"
+       }
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "The ground: calm abiding",
+     "items": [
+      {
+       "role": "practise",
+       "practice": "shamatha-with-object"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metta-in-four-traditions",
+   "kind": "meditation-series",
+   "title": "Metta in four traditions",
+   "topic": "kindness",
+   "intro": "Goodwill, loving-kindness, compassion: four ways of growing a kind heart, one sit at a time.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Goodwill (Theravāda)",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "theravada",
+        "rx": "metta|goodwill|loving[- ]?kindness"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "goodwill-metta"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Taking and sending (Tibetan)",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "trad": "tibetan",
+        "rx": "tonglen|compassion"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "tonglen"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Mindful breathing with kindness (Plum Village)",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "speaker": "thich-nhat-hanh",
+        "rx": "love|compassion|kind"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "mindful-breathing-pv"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Recognise, allow, investigate, nurture (Insight)",
+     "items": [
+      {
+       "role": "watch",
+       "select": {
+        "rx": "\\bRAIN\\b|self-compassion"
+       }
+      },
+      {
+       "role": "practise",
+       "practice": "rain"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

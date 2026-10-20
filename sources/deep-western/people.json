@@ -1,0 +1,1434 @@
+{
+ "_note": "deep-western people (2026-10-20). main = 8+ usable embeddable official clips in clips.json; more_voices = fewer (kept). figures = lineage nodes with no clips here. clip_count counts this folder only (excludes clips already in app/site/clips.json and sources/western).",
+ "main": [
+  {
+   "id": "justin-sledge",
+   "name": "Justin Sledge",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "western-esotericism-scholarship",
+   "schoolsInClips": {
+    "western-esotericism-scholarship": 33,
+    "gnosticism": 16,
+    "learned-magic": 21,
+    "merkavah": 5,
+    "hermeticism": 8,
+    "alchemy": 8,
+    "christian-mysticism": 4,
+    "kabbalah": 9,
+    "theurgy": 1,
+    "rosicrucianism": 1,
+    "platonism": 4
+   },
+   "years": null,
+   "bio": "Philosopher and historian of Western esotericism who presents ESOTERICA, a long-running lecture series on Hermeticism, Kabbalah, Neoplatonism, alchemy and magic.",
+   "site": "https://www.youtube.com/@TheEsotericaChannel",
+   "channels": [
+    {
+     "name": "ESOTERICA",
+     "id": "UCoydhtfFSk1fZXNRnkGnneQ",
+     "url": "https://www.youtube.com/channel/UCoydhtfFSk1fZXNRnkGnneQ"
+    }
+   ],
+   "clip_count": 110,
+   "hosts": [
+    "ESOTERICA"
+   ]
+  },
+  {
+   "id": "laurence-freeman",
+   "name": "Laurence Freeman OSB",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-meditation-wccm",
+   "schoolsInClips": {
+    "christian-meditation-wccm": 80
+   },
+   "years": "1951–",
+   "bio": "Benedictine monk, student and successor of John Main, and director of the World Community for Christian Meditation.",
+   "site": "https://wccm.org/people/laurence-freeman/",
+   "channels": [
+    {
+     "name": "meditatiowccm",
+     "id": "UCVyZr8UvruQcx05H7TYnA_g",
+     "url": "https://www.youtube.com/channel/UCVyZr8UvruQcx05H7TYnA_g"
+    }
+   ],
+   "clip_count": 80,
+   "hosts": [
+    "meditatiowccm"
+   ]
+  },
+  {
+   "id": "iain-mcgilchrist",
+   "name": "Iain McGilchrist",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "philosophy-of-the-sacred",
+   "schoolsInClips": {
+    "philosophy-of-the-sacred": 73
+   },
+   "years": "1953–",
+   "bio": "Psychiatrist and philosopher, author of The Master and His Emissary and The Matter with Things, on the hemispheres and the sacred.",
+   "site": "https://channelmcgilchrist.com",
+   "channels": [
+    {
+     "name": "Dr Iain McGilchrist",
+     "id": "UCW0LCKUFTTtgitH33Mx6u-A",
+     "url": "https://www.youtube.com/channel/UCW0LCKUFTTtgitH33Mx6u-A"
+    }
+   ],
+   "clip_count": 73,
+   "hosts": [
+    "Dr Iain McGilchrist",
+    "Essentia Foundation"
+   ]
+  },
+  {
+   "id": "bernardo-kastrup",
+   "name": "Bernardo Kastrup",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "analytic-idealism",
+   "schoolsInClips": {
+    "analytic-idealism": 72
+   },
+   "years": null,
+   "bio": "Philosopher and computer engineer who argues for analytic idealism, the view that reality is fundamentally mental.",
+   "site": "https://www.bernardokastrup.com",
+   "channels": [
+    {
+     "name": "Bernardo Kastrup 🇪🇺",
+     "id": "UCeDZCa3VrRQvzBlVR-oVVmA",
+     "url": "https://www.youtube.com/channel/UCeDZCa3VrRQvzBlVR-oVVmA"
+    }
+   ],
+   "clip_count": 72,
+   "hosts": [
+    "Bernardo Kastrup 🇪🇺",
+    "Centre for Myth Cosmology and the Sacred",
+    "Essentia Foundation"
+   ]
+  },
+  {
+   "id": "arthur-green",
+   "name": "Arthur Green",
+   "role": "scholar",
+   "tradition": "jewish",
+   "traditionLabel": "Kabbalah & Hasidism",
+   "school": "neo-hasidism",
+   "schoolsInClips": {
+    "neo-hasidism": 70
+   },
+   "years": "1941–",
+   "bio": "Scholar of Hasidism and neo-Hasidic theologian; doctorate under Alexander Altmann at Brandeis, founding dean of Hebrew College's rabbinical school.",
+   "site": "https://artgreen26.com",
+   "channels": [
+    {
+     "name": "Neo Hasidim by Art Green",
+     "id": "UCIDDMQ5-1S8KTunpeXzDDDA",
+     "url": "https://www.youtube.com/channel/UCIDDMQ5-1S8KTunpeXzDDDA"
+    }
+   ],
+   "clip_count": 70,
+   "hosts": [
+    "Hebrew College",
+    "Neo Hasidim by Art Green",
+    "Seekers of Unity"
+   ]
+  },
+  {
+   "id": "john-vervaeke",
+   "name": "John Vervaeke",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "philosophy-of-the-sacred",
+   "schoolsInClips": {
+    "philosophy-of-the-sacred": 55,
+    "imaginal": 2,
+    "platonism": 3
+   },
+   "years": null,
+   "bio": "Cognitive scientist at the University of Toronto whose Awakening from the Meaning Crisis traces wisdom traditions from Plato and Plotinus to Corbin.",
+   "site": "https://johnvervaeke.com",
+   "channels": [
+    {
+     "name": "John Vervaeke’s Lectern",
+     "id": "UCpqDUjTsof-kTNpnyWper_Q",
+     "url": "https://www.youtube.com/channel/UCpqDUjTsof-kTNpnyWper_Q"
+    }
+   ],
+   "clip_count": 60,
+   "hosts": [
+    "John Vervaeke’s Lectern"
+   ]
+  },
+  {
+   "id": "pir-zia-inayat-khan",
+   "name": "Pir Zia Inayat Khan",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "inayati",
+   "schoolsInClips": {
+    "inayati": 55
+   },
+   "years": "1971–",
+   "bio": "Head of the Inayatiyya since 2004, grandson of Hazrat Inayat Khan and founder of Suluk Academy; PhD in religion from Duke.",
+   "site": "https://pirzia.org",
+   "channels": [
+    {
+     "name": "Inayatiyya",
+     "id": "UCiOe1WaP3UQkJx2G-j2Po_A",
+     "url": "https://www.youtube.com/channel/UCiOe1WaP3UQkJx2G-j2Po_A"
+    }
+   ],
+   "clip_count": 55,
+   "hosts": [
+    "Inayatiyya"
+   ]
+  },
+  {
+   "id": "omid-safi",
+   "name": "Omid Safi",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "sufism",
+   "schoolsInClips": {
+    "sufism": 45
+   },
+   "years": null,
+   "bio": "Duke University scholar of Islam who teaches Rumi, radical love and Sufi practice through his own courses and talks.",
+   "site": null,
+   "channels": [
+    {
+     "name": "Omid Safi",
+     "id": "UCjZGXu2lKLNlEh02mi3hkJA",
+     "url": "https://www.youtube.com/channel/UCjZGXu2lKLNlEh02mi3hkJA"
+    }
+   ],
+   "clip_count": 45,
+   "hosts": [
+    "Omid Safi"
+   ]
+  },
+  {
+   "id": "hisham-kabbani",
+   "name": "Shaykh Muhammad Hisham Kabbani",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "naqshbandi",
+   "schoolsInClips": {
+    "naqshbandi": 45
+   },
+   "years": "1945–2024",
+   "bio": "Lebanese-American Naqshbandi-Haqqani shaykh, deputy and son-in-law of Shaykh Nazim, who founded the order's centres in North America.",
+   "site": "https://hishamkabbani.com",
+   "channels": [
+    {
+     "name": "SufiLive",
+     "id": "UC6_L-INyWa1S6A7oTeVFOiA",
+     "url": "https://www.youtube.com/channel/UC6_L-INyWa1S6A7oTeVFOiA"
+    }
+   ],
+   "clip_count": 45,
+   "hosts": [
+    "SufiLive"
+   ]
+  },
+  {
+   "id": "nour-kabbani",
+   "name": "Shaykh Dr. Nour Kabbani",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "naqshbandi",
+   "schoolsInClips": {
+    "naqshbandi": 45
+   },
+   "years": "1971–",
+   "bio": "Naqshbandi teacher, son and successor of Shaykh Hisham Kabbani and grandson of Shaykh Nazim.",
+   "site": "https://sufilive.com/dnk/",
+   "channels": [
+    {
+     "name": "SufiLive",
+     "id": "UC6_L-INyWa1S6A7oTeVFOiA",
+     "url": "https://www.youtube.com/channel/UC6_L-INyWa1S6A7oTeVFOiA"
+    }
+   ],
+   "clip_count": 45,
+   "hosts": [
+    "SufiLive"
+   ]
+  },
+  {
+   "id": "baraka-blue",
+   "name": "Baraka Blue",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "mevlevi-rumi",
+   "schoolsInClips": {
+    "mevlevi-rumi": 40
+   },
+   "years": null,
+   "bio": "Poet and teacher at the Rumi Center whose series Mirror of the Infinite teaches Rumi's Masnavi and the Sufi path of the heart.",
+   "site": null,
+   "channels": [],
+   "clip_count": 40,
+   "hosts": [
+    "Rumi Center for Spirituality & the Arts"
+   ]
+  },
+  {
+   "id": "father-spyridon",
+   "name": "Father Spyridon",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "hesychasm",
+   "schoolsInClips": {
+    "hesychasm": 40
+   },
+   "years": null,
+   "bio": "Orthodox priest who teaches the Jesus Prayer, repentance and the ascetic teaching of the Fathers in short talks.",
+   "site": "https://www.youtube.com/channel/UCkpBmkoZ6yToHhB8uFDp46Q",
+   "channels": [
+    {
+     "name": "Father Spyridon",
+     "id": "UCkpBmkoZ6yToHhB8uFDp46Q",
+     "url": "https://www.youtube.com/channel/UCkpBmkoZ6yToHhB8uFDp46Q"
+    }
+   ],
+   "clip_count": 40,
+   "hosts": [
+    "Father Spyridon"
+   ]
+  },
+  {
+   "id": "angela-puca",
+   "name": "Angela Puca",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "western-esotericism-scholarship",
+   "schoolsInClips": {
+    "learned-magic": 14,
+    "theurgy": 4,
+    "merkavah": 2,
+    "hermeticism": 3,
+    "sufism": 1,
+    "rosicrucianism": 3,
+    "western-esotericism-scholarship": 2,
+    "theosophy": 1
+   },
+   "years": null,
+   "bio": "Scholar of Western esotericism and magic who runs Angela's Symposium, an academic channel on theurgy, Hermetic magic and the grimoire tradition.",
+   "site": "https://www.youtube.com/@AngelasSymposium",
+   "channels": [
+    {
+     "name": "Angela's Symposium",
+     "id": "UCPSbip_LX2AxbGeAQfLp-Ig",
+     "url": "https://www.youtube.com/channel/UCPSbip_LX2AxbGeAQfLp-Ig"
+    }
+   ],
+   "clip_count": 30,
+   "hosts": [
+    "Angela's Symposium"
+   ]
+  },
+  {
+   "id": "richard-rohr",
+   "name": "Richard Rohr OFM",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "franciscan-contemplative",
+   "schoolsInClips": {
+    "franciscan-contemplative": 30
+   },
+   "years": "1943–",
+   "bio": "Franciscan friar who founded the Center for Action and Contemplation (1987); teaches non-dual Christian contemplation and the path of descent.",
+   "site": "https://cac.org",
+   "channels": [
+    {
+     "name": "Center for Action and Contemplation",
+     "id": "UCMkqKAtSgijU439fJUNHnkA",
+     "url": "https://www.youtube.com/channel/UCMkqKAtSgijU439fJUNHnkA"
+    }
+   ],
+   "clip_count": 30,
+   "hosts": [
+    "Center for Action and Contemplation"
+   ]
+  },
+  {
+   "id": "john-main",
+   "name": "John Main OSB",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-meditation-wccm",
+   "schoolsInClips": {
+    "christian-meditation-wccm": 22
+   },
+   "years": "1926–1982",
+   "bio": "Irish Benedictine who recovered mantra meditation from John Cassian and the desert tradition; founding inspiration of the WCCM.",
+   "site": "https://wccm.org/about/our-teachers/",
+   "channels": [],
+   "clip_count": 22,
+   "hosts": [
+    "meditatiowccm"
+   ]
+  },
+  {
+   "id": "moshe-idel",
+   "name": "Moshe Idel",
+   "role": "scholar",
+   "tradition": "jewish",
+   "traditionLabel": "Kabbalah & Hasidism",
+   "school": "kabbalah",
+   "schoolsInClips": {
+    "kabbalah": 13
+   },
+   "years": "1947–",
+   "bio": "Hebrew University scholar of Kabbalah who reframed the field around ecstatic Kabbalah and Abraham Abulafia.",
+   "site": null,
+   "channels": [],
+   "clip_count": 13,
+   "hosts": [
+    "Seekers of Unity"
+   ]
+  },
+  {
+   "id": "nimatullahi-order",
+   "name": "Nimatullahi Sufi Order",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "nimatullahi",
+   "schoolsInClips": {
+    "nimatullahi": 10
+   },
+   "years": null,
+   "bio": "Official channel of the Nimatullahi order: illustrated classical Sufi teaching stories.",
+   "site": "https://www.nimatullahi.org",
+   "channels": [],
+   "clip_count": 10,
+   "hosts": [
+    "Nimatullahi Sufi Order سلسله نعمت‌اللهی"
+   ]
+  },
+  {
+   "id": "william-rowlandson",
+   "name": "William Rowlandson",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "imaginal",
+   "schoolsInClips": {
+    "imaginal": 9
+   },
+   "years": null,
+   "bio": "Scholar of Borges, Swedenborg and the imaginal who supported the Kent MA in Myth, Cosmology and the Sacred.",
+   "site": null,
+   "channels": [],
+   "clip_count": 9,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "cynthia-bourgeault",
+   "name": "Cynthia Bourgeault",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "wisdom-christianity",
+   "schoolsInClips": {
+    "wisdom-christianity": 9
+   },
+   "years": "1947–",
+   "bio": "Episcopal priest and teacher of Centering Prayer and Wisdom Christianity, long a student and colleague of Thomas Keating.",
+   "site": "https://www.cynthiabourgeault.org",
+   "channels": [
+    {
+     "name": "Wisdom Way of Knowing",
+     "id": "UCkQOtYKee6GBY6y4vol3FNg",
+     "url": "https://www.youtube.com/channel/UCkQOtYKee6GBY6y4vol3FNg"
+    }
+   ],
+   "clip_count": 9,
+   "hosts": [
+    "Center for Action and Contemplation",
+    "Wisdom Way of Knowing"
+   ]
+  },
+  {
+   "id": "angela-voss",
+   "name": "Angela Voss",
+   "role": "scholar",
+   "tradition": "platonic",
+   "traditionLabel": "Platonism",
+   "school": "renaissance-platonism",
+   "schoolsInClips": {
+    "renaissance-platonism": 8
+   },
+   "years": "1957–",
+   "bio": "Scholar of Marsilio Ficino and the symbolic imagination who created the Kent and Canterbury MAs in Myth, Cosmology and the Sacred with Geoffrey Cornelius.",
+   "site": "https://mythcosmologysacred.com/about/angela-voss-phd-sfhea",
+   "channels": [
+    {
+     "name": "Centre for Myth Cosmology and the Sacred",
+     "id": "UCQ9JFwGV4qWxTfKn9mse2fA",
+     "url": "https://www.youtube.com/channel/UCQ9JFwGV4qWxTfKn9mse2fA"
+    }
+   ],
+   "clip_count": 8,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "sarah-bachelard",
+   "name": "Sarah Bachelard",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-meditation-wccm",
+   "schoolsInClips": {
+    "christian-meditation-wccm": 8
+   },
+   "years": null,
+   "bio": "Australian Anglican priest and theologian teaching contemplative Christianity in the WCCM.",
+   "site": null,
+   "channels": [],
+   "clip_count": 8,
+   "hosts": [
+    "meditatiowccm"
+   ]
+  }
+ ],
+ "more_voices": [
+  {
+   "id": "becca-tarnas",
+   "name": "Becca Tarnas",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "archetypal-cosmology",
+   "schoolsInClips": {
+    "archetypal-cosmology": 7
+   },
+   "years": null,
+   "bio": "Scholar of archetypal cosmology, Jung and Tolkien, teaching on the Centre for Myth, Cosmology and the Sacred diploma.",
+   "site": null,
+   "channels": [],
+   "clip_count": 7,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "peter-kingsley",
+   "name": "Peter Kingsley",
+   "role": "scholar",
+   "tradition": "platonic",
+   "traditionLabel": "Platonism",
+   "school": "presocratic-mysticism",
+   "schoolsInClips": {
+    "presocratic-mysticism": 7
+   },
+   "years": "1953–",
+   "bio": "Scholar of the Presocratics who reads Parmenides and Empedocles as mystics and healers, and writes on Jung's Red Book.",
+   "site": "https://www.peterkingsley.org",
+   "channels": [
+    {
+     "name": "peterkingsleyvideo",
+     "id": "UC2mDubqDzuKPtUoS_B_rj1w",
+     "url": "https://www.youtube.com/channel/UC2mDubqDzuKPtUoS_B_rj1w"
+    }
+   ],
+   "clip_count": 7,
+   "hosts": [
+    "peterkingsleyvideo"
+   ]
+  },
+  {
+   "id": "tom-cheetham",
+   "name": "Tom Cheetham",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "imaginal",
+   "schoolsInClips": {
+    "imaginal": 7
+   },
+   "years": null,
+   "bio": "Philosopher and poet, the leading English-language interpreter of Henry Corbin and of the imaginal in Corbin and Hillman.",
+   "site": "https://www.springpublications.com/cheetham.html",
+   "channels": [
+    {
+     "name": "Tom Cheetham",
+     "id": "UC14mAo2PipF5-n_Wz_Wxxew",
+     "url": "https://www.youtube.com/channel/UC14mAo2PipF5-n_Wz_Wxxew"
+    }
+   ],
+   "clip_count": 7,
+   "hosts": [
+    "Tom Cheetham"
+   ]
+  },
+  {
+   "id": "seyyed-hossein-nasr",
+   "name": "Seyyed Hossein Nasr",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 7
+   },
+   "years": "1933–",
+   "bio": "Iranian philosopher of Islam and the perennial philosophy, a leading Traditionalist author and teacher of Chittick.",
+   "site": null,
+   "channels": [],
+   "clip_count": 7,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "huston-smith",
+   "name": "Huston Smith",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 7
+   },
+   "years": "1919–2016",
+   "bio": "American scholar of world religions, author of The World's Religions and Forgotten Truth.",
+   "site": null,
+   "channels": [],
+   "clip_count": 7,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "james-cutsinger",
+   "name": "James S. Cutsinger",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 7
+   },
+   "years": "1953–2020",
+   "bio": "American scholar of the perennial philosophy and Eastern Orthodox spirituality, editor of Schuon.",
+   "site": null,
+   "channels": [],
+   "clip_count": 7,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "james-finley",
+   "name": "James Finley",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-mysticism",
+   "schoolsInClips": {
+    "christian-mysticism": 7
+   },
+   "years": "1943–",
+   "bio": "Clinical psychologist and former Trappist novice under Thomas Merton; CAC faculty and host of Turning to the Mystics.",
+   "site": "https://cac.org/about/cac-faculty/james-finley",
+   "channels": [],
+   "clip_count": 7,
+   "hosts": [
+    "Center for Action and Contemplation"
+   ]
+  },
+  {
+   "id": "louise-livingstone",
+   "name": "Louise Livingstone",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "imaginal",
+   "schoolsInClips": {
+    "imaginal": 6
+   },
+   "years": null,
+   "bio": "Scholar of the heart and Goethean enquiry, co-founder of the Centre for Myth, Cosmology and the Sacred (2019).",
+   "site": null,
+   "channels": [],
+   "clip_count": 6,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "william-chittick",
+   "name": "William C. Chittick",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "akbarian",
+   "schoolsInClips": {
+    "akbarian": 6
+   },
+   "years": "1943–",
+   "bio": "Scholar and translator of Ibn Arabi and Rumi; doctorate at Tehran University under Seyyed Hossein Nasr (1974).",
+   "site": "https://www.williamcchittick.com",
+   "channels": [],
+   "clip_count": 6,
+   "hosts": [
+    "Rumi Center for Spirituality & the Arts",
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "nazim-al-haqqani",
+   "name": "Shaykh Nazim al-Haqqani",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "naqshbandi",
+   "schoolsInClips": {
+    "naqshbandi": 6
+   },
+   "years": "1922–2014",
+   "bio": "Turkish Cypriot Grand Shaykh of the Naqshbandi-Haqqani order.",
+   "site": "https://naqshbandi.org",
+   "channels": [
+    {
+     "name": "SufiLive",
+     "id": "UC6_L-INyWa1S6A7oTeVFOiA",
+     "url": "https://www.youtube.com/channel/UC6_L-INyWa1S6A7oTeVFOiA"
+    }
+   ],
+   "clip_count": 6,
+   "hosts": [
+    "SufiLive"
+   ]
+  },
+  {
+   "id": "geoffrey-cornelius",
+   "name": "Geoffrey Cornelius",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "archetypal-cosmology",
+   "schoolsInClips": {
+    "archetypal-cosmology": 5
+   },
+   "years": null,
+   "bio": "Astrologer and scholar of divination, co-creator of the Kent and Canterbury MAs in Myth, Cosmology and the Sacred.",
+   "site": null,
+   "channels": [],
+   "clip_count": 5,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "elliot-wolfson",
+   "name": "Elliot R. Wolfson",
+   "role": "scholar",
+   "tradition": "jewish",
+   "traditionLabel": "Kabbalah & Hasidism",
+   "school": "kabbalah",
+   "schoolsInClips": {
+    "kabbalah": 5
+   },
+   "years": "1956–",
+   "bio": "Scholar of Kabbalah and Jewish philosophy; doctorate under Alexander Altmann at Brandeis (1986).",
+   "site": "https://www.religion.ucsb.edu/people/elliot-wolfson",
+   "channels": [
+    {
+     "name": "Elliot R Wolfson media",
+     "id": "UCg-daPQIdYbW-EFn-i1pLfw",
+     "url": "https://www.youtube.com/channel/UCg-daPQIdYbW-EFn-i1pLfw"
+    }
+   ],
+   "clip_count": 5,
+   "hosts": [
+    "Elliot R Wolfson media"
+   ]
+  },
+  {
+   "id": "daniel-matt",
+   "name": "Daniel C. Matt",
+   "role": "scholar",
+   "tradition": "jewish",
+   "traditionLabel": "Kabbalah & Hasidism",
+   "school": "zohar",
+   "schoolsInClips": {
+    "zohar": 5
+   },
+   "years": null,
+   "bio": "Scholar of Kabbalah and translator of the Pritzker Edition of the Zohar; studied under Alexander Altmann at Brandeis.",
+   "site": null,
+   "channels": [],
+   "clip_count": 5,
+   "hosts": [
+    "CSP - Community Scholar Program"
+   ]
+  },
+  {
+   "id": "prometheus-trust",
+   "name": "The Prometheus Trust",
+   "role": "scholar",
+   "tradition": "platonic",
+   "traditionLabel": "Platonism",
+   "school": "neoplatonism",
+   "schoolsInClips": {
+    "neoplatonism": 4
+   },
+   "years": null,
+   "bio": "UK charity founded in 1986 by Tim Addey and others to keep the Platonic tradition alive as a way of life; publisher of the Thomas Taylor Series.",
+   "site": "https://prometheustrust.co.uk",
+   "channels": [
+    {
+     "name": "Prometheus Trust",
+     "id": "UChMOmyABTeihzDbllhW0zZA",
+     "url": "https://www.youtube.com/channel/UChMOmyABTeihzDbllhW0zZA"
+    }
+   ],
+   "clip_count": 4,
+   "hosts": [
+    "Prometheus Trust"
+   ]
+  },
+  {
+   "id": "medina-tenour",
+   "name": "Medina Tenour",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "sufism",
+   "schoolsInClips": {
+    "sufism": 4
+   },
+   "years": null,
+   "bio": "Teacher on Sufi women saints and nature contemplation at the Rumi Center.",
+   "site": null,
+   "channels": [],
+   "clip_count": 4,
+   "hosts": [
+    "Rumi Center for Spirituality & the Arts"
+   ]
+  },
+  {
+   "id": "martin-lings",
+   "name": "Martin Lings",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 4
+   },
+   "years": "1909–2005",
+   "bio": "English Sufi author and Shakespeare scholar, disciple of Frithjof Schuon and onetime assistant to René Guénon in Cairo.",
+   "site": null,
+   "channels": [],
+   "clip_count": 4,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "rowan-williams",
+   "name": "Rowan Williams",
+   "role": "scholar",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-mysticism",
+   "schoolsInClips": {
+    "christian-mysticism": 4
+   },
+   "years": "1950–",
+   "bio": "Theologian of Christian spirituality and former Archbishop of Canterbury (2002–2012).",
+   "site": null,
+   "channels": [],
+   "clip_count": 4,
+   "hosts": [
+    "The Archbishop of Canterbury"
+   ]
+  },
+  {
+   "id": "mary-attwood",
+   "name": "Mary Attwood",
+   "role": "scholar",
+   "tradition": "platonic",
+   "traditionLabel": "Platonism",
+   "school": "renaissance-platonism",
+   "schoolsInClips": {
+    "renaissance-platonism": 3
+   },
+   "years": null,
+   "bio": "Art historian of the Renaissance imagination and director of the Centre for Myth, Cosmology and the Sacred.",
+   "site": "https://mythcosmologysacred.com",
+   "channels": [],
+   "clip_count": 3,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "william-stoddart",
+   "name": "William Stoddart",
+   "role": "scholar",
+   "tradition": "philosophy-of-the-sacred",
+   "traditionLabel": "Philosophers of the sacred",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 3
+   },
+   "years": "1925–2023",
+   "bio": "Scottish Traditionalist author on Sufism and the perennial philosophy.",
+   "site": null,
+   "channels": [],
+   "clip_count": 3,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "alireza-nurbakhsh",
+   "name": "Alireza Nurbakhsh",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "nimatullahi",
+   "schoolsInClips": {
+    "nimatullahi": 3
+   },
+   "years": "1955–",
+   "bio": "Master of the Nimatullahi Sufi Order since 2008, succeeding his father Javad Nurbakhsh.",
+   "site": "https://www.nimatullahi.org",
+   "channels": [
+    {
+     "name": "Nimatullahi Sufi Order سلسله نعمت‌اللهی",
+     "id": "UCzFCBeFr6QvOYRFbq2CjvTw",
+     "url": "https://www.youtube.com/channel/UCzFCBeFr6QvOYRFbq2CjvTw"
+    }
+   ],
+   "clip_count": 3,
+   "hosts": [
+    "Nimatullahi Sufi Order سلسله نعمت‌اللهی"
+   ]
+  },
+  {
+   "id": "cyprian-consiglio",
+   "name": "Cyprian Consiglio OSB Cam",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-meditation-wccm",
+   "schoolsInClips": {
+    "christian-meditation-wccm": 3
+   },
+   "years": null,
+   "bio": "Camaldolese monk and musician teaching Christian meditation and interreligious contemplation.",
+   "site": null,
+   "channels": [],
+   "clip_count": 3,
+   "hosts": [
+    "meditatiowccm"
+   ]
+  },
+  {
+   "id": "mirabai-starr",
+   "name": "Mirabai Starr",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-mysticism",
+   "schoolsInClips": {
+    "christian-mysticism": 3
+   },
+   "years": null,
+   "bio": "Translator of the Spanish mystics and teacher of contemplative practice and grief.",
+   "site": null,
+   "channels": [],
+   "clip_count": 3,
+   "hosts": [
+    "Center for Action and Contemplation"
+   ]
+  },
+  {
+   "id": "embassy-curators",
+   "name": "Embassy of the Free Mind curators",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "hermeticism",
+   "schoolsInClips": {
+    "hermeticism": 2
+   },
+   "years": null,
+   "bio": "Curators of the Bibliotheca Philosophica Hermetica (Ritman Library) in Amsterdam, giving guided talks on its Hermetic and Böhme collections.",
+   "site": "https://embassyofthefreemind.com",
+   "channels": [
+    {
+     "name": "Embassy of the Free Mind",
+     "id": "UCDiIP9YyTduTvsiPMzN0VCg",
+     "url": "https://www.youtube.com/channel/UCDiIP9YyTduTvsiPMzN0VCg"
+    }
+   ],
+   "clip_count": 2,
+   "hosts": [
+    "Embassy of the Free Mind"
+   ]
+  },
+  {
+   "id": "arthur-versluis",
+   "name": "Arthur Versluis",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "western-esotericism-scholarship",
+   "schoolsInClips": {
+    "western-esotericism-scholarship": 2
+   },
+   "years": null,
+   "bio": "American scholar of Western esotericism and mysticism, founding editor of the journal Esoterica and author on Platonic mysticism and Gnosticism.",
+   "site": null,
+   "channels": [],
+   "clip_count": 2,
+   "hosts": [
+    "New Thinking Allowed with Jeffrey Mishlove"
+   ]
+  },
+  {
+   "id": "patrick-curry",
+   "name": "Patrick Curry",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "imaginal",
+   "schoolsInClips": {
+    "imaginal": 2
+   },
+   "years": null,
+   "bio": "Writer on enchantment, divination and ecology who taught on the Kent MA programme.",
+   "site": null,
+   "channels": [],
+   "clip_count": 2,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "charles-stang",
+   "name": "Charles Stang",
+   "role": "scholar",
+   "tradition": "platonic",
+   "traditionLabel": "Platonism",
+   "school": "neoplatonism",
+   "schoolsInClips": {
+    "neoplatonism": 2
+   },
+   "years": null,
+   "bio": "Harvard scholar of early Christian and Neoplatonic thought, author on the divine double and Dionysius the Areopagite.",
+   "site": null,
+   "channels": [],
+   "clip_count": 2,
+   "hosts": [
+    "John Vervaeke’s Lectern"
+   ]
+  },
+  {
+   "id": "barbara-holmes",
+   "name": "Barbara Holmes",
+   "role": "teacher",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-mysticism",
+   "schoolsInClips": {
+    "christian-mysticism": 2
+   },
+   "years": null,
+   "bio": "Scholar of African American contemplative traditions and CAC faculty.",
+   "site": null,
+   "channels": [],
+   "clip_count": 2,
+   "hosts": [
+    "Center for Action and Contemplation"
+   ]
+  },
+  {
+   "id": "wouter-hanegraaff",
+   "name": "Wouter J. Hanegraaff",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "hermeticism",
+   "schoolsInClips": {
+    "hermeticism": 1
+   },
+   "years": "1961–",
+   "bio": "Professor of History of Hermetic Philosophy and Related Currents at the University of Amsterdam and a founder of Western esotericism as an academic field.",
+   "site": "https://www.wouterjhanegraaff.net",
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "Angela's Symposium"
+   ]
+  },
+  {
+   "id": "simon-wilson",
+   "name": "Simon Wilson",
+   "role": "scholar",
+   "tradition": "esoteric",
+   "traditionLabel": "Western esotericism",
+   "school": "imaginal",
+   "schoolsInClips": {
+    "imaginal": 1
+   },
+   "years": null,
+   "bio": "Canterbury Christ Church lecturer and course director of the MA in Myth, Cosmology and the Sacred (2019–2021).",
+   "site": "https://www.canterbury.ac.uk/people/simon-wilson",
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "Centre for Myth Cosmology and the Sacred"
+   ]
+  },
+  {
+   "id": "frithjof-schuon",
+   "name": "Frithjof Schuon",
+   "role": "figure",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 1
+   },
+   "years": "1907–1998",
+   "bio": "Metaphysician of the transcendent unity of religions and founder of the Maryamiyya Sufi order.",
+   "site": "http://www.frithjofschuon.com",
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "reza-shah-kazemi",
+   "name": "Reza Shah-Kazemi",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 1
+   },
+   "years": null,
+   "bio": "Scholar of comparative mysticism and Islamic spirituality.",
+   "site": null,
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "jean-louis-michon",
+   "name": "Jean-Louis Michon",
+   "role": "scholar",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "perennialism",
+   "schoolsInClips": {
+    "perennialism": 1
+   },
+   "years": "1924–2013",
+   "bio": "French scholar of Sufism and Islamic art.",
+   "site": null,
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "WorldWisdomInc"
+   ]
+  },
+  {
+   "id": "javad-nurbakhsh",
+   "name": "Javad Nurbakhsh",
+   "role": "teacher",
+   "tradition": "sufism",
+   "traditionLabel": "Sufism",
+   "school": "nimatullahi",
+   "schoolsInClips": {
+    "nimatullahi": 1
+   },
+   "years": "1926–2008",
+   "bio": "Psychiatrist and master of the Nimatullahi Sufi Order for 55 years (1953–2008).",
+   "site": "https://www.nimatullahi.org/dr-javad-nurbakhsh",
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "Nimatullahi Sufi Order سلسله نعمت‌اللهی"
+   ]
+  },
+  {
+   "id": "bernard-mcginn",
+   "name": "Bernard McGinn",
+   "role": "scholar",
+   "tradition": "christian",
+   "traditionLabel": "Christian mysticism",
+   "school": "christian-mysticism",
+   "schoolsInClips": {
+    "christian-mysticism": 1
+   },
+   "years": "1937–",
+   "bio": "University of Chicago historian of Christian mysticism, author of the multi-volume The Presence of God.",
+   "site": null,
+   "channels": [],
+   "clip_count": 1,
+   "hosts": [
+    "Lumen Christi Institute"
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "id": "alexander-altmann",
+   "name": "Alexander Altmann",
+   "role": "figure"
+  },
+  {
+   "id": "shlomo-pines",
+   "name": "Shlomo Pines",
+   "role": "figure"
+  },
+  {
+   "id": "ephraim-gottlieb",
+   "name": "Ephraim Gottlieb",
+   "role": "figure"
+  },
+  {
+   "id": "gershom-scholem",
+   "name": "Gershom Scholem",
+   "role": "figure"
+  },
+  {
+   "id": "abraham-joshua-heschel",
+   "name": "Abraham Joshua Heschel",
+   "role": "figure"
+  },
+  {
+   "id": "zalman-schachter-shalomi",
+   "name": "Zalman Schachter-Shalomi",
+   "role": "figure"
+  },
+  {
+   "id": "rene-guenon",
+   "name": "René Guénon",
+   "role": "figure"
+  },
+  {
+   "id": "hazrat-inayat-khan",
+   "name": "Hazrat Inayat Khan",
+   "role": "figure"
+  },
+  {
+   "id": "vilayat-inayat-khan",
+   "name": "Pir Vilayat Inayat Khan",
+   "role": "figure"
+  },
+  {
+   "id": "thomas-keating",
+   "name": "Thomas Keating",
+   "role": "figure"
+  },
+  {
+   "id": "thomas-merton",
+   "name": "Thomas Merton",
+   "role": "figure"
+  },
+  {
+   "id": "george-gurdjieff",
+   "name": "G. I. Gurdjieff",
+   "role": "figure"
+  },
+  {
+   "id": "henry-corbin",
+   "name": "Henry Corbin",
+   "role": "figure"
+  },
+  {
+   "id": "james-hillman",
+   "name": "James Hillman",
+   "role": "figure"
+  },
+  {
+   "id": "carl-jung",
+   "name": "C. G. Jung",
+   "role": "figure"
+  },
+  {
+   "id": "pierre-hadot",
+   "name": "Pierre Hadot",
+   "role": "figure"
+  },
+  {
+   "id": "michel-foucault",
+   "name": "Michel Foucault",
+   "role": "figure"
+  },
+  {
+   "id": "antoine-faivre",
+   "name": "Antoine Faivre",
+   "role": "figure"
+  },
+  {
+   "id": "egil-asprem",
+   "name": "Egil Asprem",
+   "role": "figure"
+  },
+  {
+   "id": "nicholas-goodrick-clarke",
+   "name": "Nicholas Goodrick-Clarke",
+   "role": "figure"
+  },
+  {
+   "id": "linden-west",
+   "name": "Linden West",
+   "role": "figure"
+  },
+  {
+   "id": "tim-addey",
+   "name": "Tim Addey",
+   "role": "figure"
+  },
+  {
+   "id": "thomas-taylor",
+   "name": "Thomas Taylor",
+   "role": "figure"
+  },
+  {
+   "id": "iamblichus",
+   "name": "Iamblichus",
+   "role": "figure"
+  },
+  {
+   "id": "proclus",
+   "name": "Proclus",
+   "role": "figure"
+  },
+  {
+   "id": "plotinus",
+   "name": "Plotinus",
+   "role": "figure"
+  },
+  {
+   "id": "porphyry",
+   "name": "Porphyry",
+   "role": "figure"
+  },
+  {
+   "id": "syrianus",
+   "name": "Syrianus",
+   "role": "figure"
+  },
+  {
+   "id": "john-dillon",
+   "name": "John Dillon",
+   "role": "figure"
+  },
+  {
+   "id": "crystal-addey",
+   "name": "Crystal Addey",
+   "role": "figure"
+  },
+  {
+   "id": "gregory-shaw",
+   "name": "Gregory Shaw",
+   "role": "figure"
+  },
+  {
+   "id": "ibn-arabi",
+   "name": "Ibn Arabi",
+   "role": "figure"
+  },
+  {
+   "id": "rumi",
+   "name": "Rumi",
+   "role": "figure"
+  },
+  {
+   "id": "marco-pasi",
+   "name": "Marco Pasi",
+   "role": "figure"
+  },
+  {
+   "id": "abdullah-daghestani",
+   "name": "Grandshaykh Abdullah ad-Daghestani",
+   "role": "figure"
+  },
+  {
+   "id": "munes-ali-shah",
+   "name": "Munes Ali Shah",
+   "role": "figure"
+  }
+ ],
+ "orgs": [
+  {
+   "id": "wccm",
+   "name": "World Community for Christian Meditation",
+   "role": "organisation"
+  },
+  {
+   "id": "cac",
+   "name": "Center for Action and Contemplation",
+   "role": "organisation"
+  },
+  {
+   "id": "exeseso",
+   "name": "Exeter Centre for the Study of Esotericism (EXESESO)",
+   "role": "organisation"
+  },
+  {
+   "id": "ma-myth-cosmology-sacred",
+   "name": "MA in Myth, Cosmology and the Sacred (Kent 2006–11; Canterbury Christ Church 2014–21)",
+   "role": "organisation"
+  },
+  {
+   "id": "cmcs",
+   "name": "Centre for Myth, Cosmology and the Sacred",
+   "role": "organisation"
+  },
+  {
+   "id": "prometheus-trust-org",
+   "name": "The Prometheus Trust",
+   "role": "organisation"
+  },
+  {
+   "id": "hhp-amsterdam",
+   "name": "Center for History of Hermetic Philosophy and Related Currents (Amsterdam)",
+   "role": "organisation"
+  },
+  {
+   "id": "inayatiyya",
+   "name": "Inayatiyya (Inayati Order)",
+   "role": "organisation"
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "atharvaveda": {
+  "patala_work": "atharvavedasaunaka",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Whitney & Lanman",
+    "tier": "C",
+    "url": "https://archive.org/details/atharvavedasamhi01whituoft",
+    "type": "scholarly"
+   },
+   {
+    "translator": "Ralph T. H. Griffith",
+    "tier": "C",
+    "url": "https://sacred-texts.com/hin/av/",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "PUBLIC_DOMAIN"
+ },
+ "katha-upanishad": {
+  "patala_work": "kathaupanisad",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Max Müller",
+    "tier": "C",
+    "url": "https://archive.org/details/p2upanishads00mluoft",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "PUBLIC_DOMAIN"
+ },
+ "svetasvatara": {
+  "patala_work": "svetasvataraupanisad",
+  "author": null,
+  "has_english": false,
+  "translations": [],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "bhagavad-gita": {
+  "patala_work": "bhagavadgita_sarvatobhadra",
+  "author": null,
+  "has_english": false,
+  "translations": [],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "nisvasa": {
+  "patala_work": "nisvasaguhyasutra",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Goodall et al.",
+    "tier": "A",
+    "url": "https://publications.efeo.fr/en/livres/828_the-ni-v-satattvasa-hit--the-earliest-surviving-aiva-tantra",
+    "type": "scholarly"
+   },
+   {
+    "translator": "Goodall",
+    "tier": "A",
+    "url": "https://ifpindia.org/bookstore/ci145/",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "IN_COPYRIGHT"
+ },
+ "malinivijayottara": {
+  "patala_work": "malinivijayottara",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Somadeva Vasudeva",
+    "tier": "A",
+    "url": "http://www.ifpindia.org/bookstore/ci97/",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "IN_COPYRIGHT"
+ },
+ "svacchanda-tantra": {
+  "patala_work": "svacchandatantra",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "William Arraj",
+    "tier": "A",
+    "url": "https://www.wisdomlib.org/hinduism/book/svacchandatantra-history-and-structure",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "PUBLIC_DOMAIN"
+ },
+ "vijnana-bhairava": {
+  "patala_work": "vijnanabhairava",
+  "author": "",
+  "has_english": true,
+  "translations": [
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL3332215M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL3332430M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL676557M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL9070094M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "C",
+    "url": "https://archive.org/details/de-vijnanabhairava-tantra-translation-by-ai-ai-hypertuned-by-dilip",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://archive.org/details/VijnanabhairavaWithSanskritHindiVyakhyasVrajvallabhaDwivedi",
+    "type": null
+   }
+  ],
+  "copyright_hint": "CC-BY-NC-4.0"
+ },
+ "kularnava": {
+  "patala_work": "kularnavatantra",
+  "author": "matsyendranātha",
+  "has_english": true,
+  "translations": [
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL2829165M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL58038968M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL1910466M",
+    "type": null
+   }
+  ],
+  "copyright_hint": "CC-BY-NC-4.0"
+ },
+ "shiva-sutras": {
+  "patala_work": "sivasutra",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Jaideva Singh",
+    "tier": "A",
+    "url": "http://www.motilalbanarsidass.com/products/siva-sutras-the-yoga-of-supreme-identity-jaideva-singh",
+    "type": "traditional"
+   },
+   {
+    "translator": "Swami Lakshman Joo",
+    "tier": "A",
+    "url": "http://books.google.com/books?id=XIPXAAAAMAAJ",
+    "type": "traditional"
+   },
+   {
+    "translator": "Subhash Kak",
+    "tier": "D",
+    "url": "http://sanskritdocuments.org/doc_shiva/shivasuutra.html",
+    "type": "independent"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "spanda-karika": {
+  "patala_work": "spandakarika",
+  "author": "vasiṣṭha (attrib.) / kallaṭa bhaṭṭa",
+  "has_english": true,
+  "translations": [
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL1610215M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL61421042M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL60589931M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://archive.org/details/spanda-karika-shyamakanta-dwivedi-ananda-text",
+    "type": null
+   }
+  ],
+  "copyright_hint": "CC-BY-NC-4.0 (Dyczkowski ©)"
+ },
+ "shivadrishti": {
+  "patala_work": "sivadrsti",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "John Nemec",
+    "tier": "A",
+    "url": "https://books.google.com/books/about/The_Ubiquitous_Siva.html?id=GweFnybyP4gC",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "ipk": {
+  "patala_work": "isvarapratyabhijnakarika",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Raffaele Torella",
+    "tier": "A",
+    "url": "https://iris.uniroma1.it/handle/11573/155566",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "tantraloka": {
+  "patala_work": "tantraloka",
+  "author": "abhinavagupta",
+  "has_english": true,
+  "translations": [
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL18519227M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "A",
+    "url": "https://openlibrary.org/books/OL39214726M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL14044620M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL30809048M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://archive.org/details/gpiu-shri-tantraloka-hindi-translation-ii-paramhansa-mi",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://archive.org/details/shri-tantraloka-hindi-translation-iii-paramhansa-mishra_202412",
+    "type": null
+   }
+  ],
+  "copyright_hint": "CC-BY-NC-4.0"
+ },
+ "tantrasara": {
+  "patala_work": "tantrasara",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "H. N. Chakravarty",
+    "tier": "A",
+    "url": "http://www.indicabooks.com/product/tantrasara-of-abhinavagupta-copy/",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "ptv": {
+  "patala_work": "paratrisikavivarana",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Jaideva Singh",
+    "tier": "A",
+    "url": "http://www.motilalbanarsidass.com/products/para-trisika-vivarana-of-abhinavagupta-the-secret-of-tantric-mysticism",
+    "type": "traditional"
+   },
+   {
+    "translator": "Raniero Gnoli",
+    "tier": "",
+    "url": "",
+    "type": "scholarly"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ },
+ "ipv": {
+  "patala_work": "isvarapratyabhijnavimarsini",
+  "author": "abhinavagupta",
+  "has_english": true,
+  "translations": [
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL58360347M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://openlibrary.org/books/OL50443089M",
+    "type": null
+   },
+   {
+    "translator": null,
+    "tier": "B",
+    "url": "https://archive.org/details/iswarapratyabhij02utpauoft",
+    "type": null
+   }
+  ],
+  "copyright_hint": "CC-BY-NC-4.0"
+ },
+ "pratyabhijnahridayam": {
+  "patala_work": "pratyabhijnahrdaya",
+  "author": null,
+  "has_english": true,
+  "translations": [
+   {
+    "translator": "Jaideva Singh",
+    "tier": "A",
+    "url": "https://www.motilalbanarsidass.com/products/pratyabhijnahrdayam-the-secret-of-self-recognition-sanskrit-text-with-english-translation-notes-and-introduction",
+    "type": "traditional"
+   }
+  ],
+  "copyright_hint": "UNDETERMINED"
+ }
+}

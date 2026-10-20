@@ -1,0 +1,33 @@
+# Wiser MCP (read-only), live on mcp.tantrafiles.xyz. Deploy: sh ../app/deploy.sh mcp
+# (= build-data.mjs, slim-data.mjs, build-discovery.mjs, test.mjs, wrangler deploy)
+name = "wiser-mcp"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = false
+routes = [{ pattern = "mcp.tantrafiles.xyz", custom_domain = true }]
+
+[[rules]]
+type = "Text"
+globs = ["**/*.txt"]
+fallthrough = true
+
+# legacy SSE transport: one Durable Object per session holds the stream (SQLite-backed class: available on Workers Free)
+[[durable_objects.bindings]]
+name = "SSE"
+class_name = "SseSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SseSession"]
+
+# REST/MCP rate limits (Workers Rate Limiting binding; per-isolate token bucket is the fallback)
+[[ratelimits]]
+name = "RL_API"
+namespace_id = "7311"
+simple = { limit = 120, period = 60 }
+
+[[ratelimits]]
+name = "RL_MCP"
+namespace_id = "7312"
+simple = { limit = 600, period = 60 }

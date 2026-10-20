@@ -1,0 +1,73 @@
+{
+ "seed": 11,
+ "users": 150,
+ "rounds": 15,
+ "hub": {
+  "random": {
+   "mean_util": 0.719,
+   "hits": 0.104,
+   "best_in_list": 1.621,
+   "schools": 5.833,
+   "teachers": 6.75,
+   "thin_share": 0.007
+  },
+  "most viewed": {
+   "mean_util": 0.639,
+   "hits": 0.091,
+   "best_in_list": 1.573,
+   "schools": 5.25,
+   "teachers": 5.667,
+   "thin_share": 0.007
+  },
+  "quality only": {
+   "mean_util": 0.755,
+   "hits": 0.146,
+   "best_in_list": 1.692,
+   "schools": 5,
+   "teachers": 5.75,
+   "thin_share": 0.0
+  },
+  "quality + MMR (Wiser)": {
+   "mean_util": 1.091,
+   "hits": 0.216,
+   "best_in_list": 1.829,
+   "schools": 9.833,
+   "teachers": 10.917,
+   "thin_share": 0.021
+  }
+ },
+ "loop": {
+  "random": {
+   "hit_rate_all": 0.104,
+   "hit_rate_r1_3": 0.15,
+   "hit_rate_r11_15": 0.072,
+   "mean_util": 0.73,
+   "families_with_a_hit": 2.31,
+   "favourite_family_found_by_round5": 0.64
+  },
+  "quality only (no profile)": {
+   "hit_rate_all": 0.129,
+   "hit_rate_r1_3": 0.209,
+   "hit_rate_r11_15": 0.08,
+   "mean_util": 0.656,
+   "families_with_a_hit": 2.51,
+   "favourite_family_found_by_round5": 0.827
+  },
+  "exploit only (no info gain)": {
+   "hit_rate_all": 0.153,
+   "hit_rate_r1_3": 0.21,
+   "hit_rate_r11_15": 0.115,
+   "mean_util": 0.894,
+   "families_with_a_hit": 2.59,
+   "favourite_family_found_by_round5": 0.76
+  },
+  "Wiser (taste x quality, MMR, info gain)": {
+   "hit_rate_all": 0.211,
+   "hit_rate_r1_3": 0.296,
+   "hit_rate_r11_15": 0.164,
+   "mean_util": 1.059,
+   "families_with_a_hit": 2.79,
+   "favourite_family_found_by_round5": 0.92
+  }
+ }
+}

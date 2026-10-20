@@ -1,0 +1,432 @@
+{
+ "_note": "Sub-school tree for the deep-western group. ids match clips.json tradition/school; families match clips.json region. App traditions.json already holds platonic, neoplatonism, renaissance-platonism, christian, christian-mysticism, gnosticism and esoteric; the rest are proposed additions.",
+ "schools": [
+  {
+   "id": "platonic",
+   "name": "Platonism",
+   "parent": null,
+   "dates": "5th c. BCE–",
+   "figures": [
+    "plato",
+    "plotinus",
+    "proclus"
+   ],
+   "symbol": "a sun over a cave mouth"
+  },
+  {
+   "id": "presocratic-mysticism",
+   "name": "Presocratic mysticism (Parmenides, Empedocles)",
+   "parent": "platonic",
+   "dates": "6th–5th c. BCE",
+   "figures": [
+    "peter-kingsley"
+   ],
+   "symbol": "a cave and incubation lamp"
+  },
+  {
+   "id": "platonism",
+   "name": "Platonism / philosophy as a way of life",
+   "parent": "platonic",
+   "dates": "4th c. BCE–",
+   "figures": [
+    "plato",
+    "pierre-hadot",
+    "prometheus-trust"
+   ],
+   "symbol": "the winged soul-chariot"
+  },
+  {
+   "id": "neoplatonism",
+   "name": "Neoplatonism",
+   "parent": "platonic",
+   "dates": "3rd–6th c.",
+   "figures": [
+    "plotinus",
+    "porphyry",
+    "proclus",
+    "charles-stang",
+    "john-vervaeke"
+   ],
+   "symbol": "concentric circles radiating from a point"
+  },
+  {
+   "id": "theurgy",
+   "name": "Theurgy (Iamblichean Platonism)",
+   "parent": "neoplatonism",
+   "dates": "4th c.–",
+   "figures": [
+    "iamblichus",
+    "gregory-shaw",
+    "crystal-addey"
+   ],
+   "symbol": "a flame on an altar"
+  },
+  {
+   "id": "renaissance-platonism",
+   "name": "Renaissance Platonism (Ficino)",
+   "parent": "neoplatonism",
+   "dates": "15th–16th c.",
+   "figures": [
+    "marsilio-ficino",
+    "angela-voss",
+    "mary-attwood"
+   ],
+   "symbol": "a lyre with planets"
+  },
+  {
+   "id": "esoteric",
+   "name": "Western esotericism",
+   "parent": null,
+   "dates": "antiquity–",
+   "figures": [
+    "wouter-hanegraaff",
+    "antoine-faivre",
+    "justin-sledge"
+   ],
+   "symbol": "a seven-pointed star"
+  },
+  {
+   "id": "hermeticism",
+   "name": "Hermeticism",
+   "parent": "esoteric",
+   "dates": "1st–3rd c.; revived 1460s",
+   "figures": [
+    "hermes-trismegistus",
+    "wouter-hanegraaff"
+   ],
+   "symbol": "the caduceus"
+  },
+  {
+   "id": "alchemy",
+   "name": "Alchemy",
+   "parent": "esoteric",
+   "dates": "antiquity–",
+   "figures": [
+    "justin-sledge"
+   ],
+   "symbol": "the ouroboros"
+  },
+  {
+   "id": "gnosticism",
+   "name": "Gnosticism",
+   "parent": "esoteric",
+   "dates": "2nd c.–",
+   "figures": [
+    "justin-sledge"
+   ],
+   "symbol": "a spark inside a sphere"
+  },
+  {
+   "id": "learned-magic",
+   "name": "Learned magic and the grimoire tradition",
+   "parent": "esoteric",
+   "dates": "medieval–",
+   "figures": [
+    "angela-puca",
+    "justin-sledge"
+   ],
+   "symbol": "a sigil in a circle"
+  },
+  {
+   "id": "christian-theosophy",
+   "name": "Christian theosophy (Böhme)",
+   "parent": "esoteric",
+   "dates": "17th c.–",
+   "figures": [
+    "jakob-boehme"
+   ],
+   "symbol": "a heart inside a triangle"
+  },
+  {
+   "id": "rosicrucianism",
+   "name": "Rosicrucianism",
+   "parent": "esoteric",
+   "dates": "1614–",
+   "figures": [],
+   "symbol": "a rose on a cross"
+  },
+  {
+   "id": "western-esotericism-scholarship",
+   "name": "Academic study of esotericism (Paris–Amsterdam–Exeter)",
+   "parent": "esoteric",
+   "dates": "1979–",
+   "figures": [
+    "antoine-faivre",
+    "wouter-hanegraaff",
+    "nicholas-goodrick-clarke",
+    "arthur-versluis",
+    "egil-asprem"
+   ],
+   "symbol": "an open book with a key"
+  },
+  {
+   "id": "imaginal",
+   "name": "The imaginal (Corbin, Hillman, Cheetham)",
+   "parent": "esoteric",
+   "dates": "20th c.–",
+   "figures": [
+    "henry-corbin",
+    "james-hillman",
+    "tom-cheetham",
+    "william-rowlandson"
+   ],
+   "symbol": "an angel facing a mirror"
+  },
+  {
+   "id": "jungian",
+   "name": "Jungian depth psychology",
+   "parent": "imaginal",
+   "dates": "1913–",
+   "figures": [
+    "carl-jung"
+   ],
+   "symbol": "a mandala"
+  },
+  {
+   "id": "archetypal-cosmology",
+   "name": "Archetypal cosmology and divination",
+   "parent": "imaginal",
+   "dates": "20th c.–",
+   "figures": [
+    "becca-tarnas",
+    "geoffrey-cornelius"
+   ],
+   "symbol": "a zodiac wheel"
+  },
+  {
+   "id": "sufism",
+   "name": "Sufism",
+   "parent": null,
+   "dates": "8th c.–",
+   "figures": [
+    "rumi",
+    "ibn-arabi",
+    "omid-safi"
+   ],
+   "symbol": "a reed flute"
+  },
+  {
+   "id": "akbarian",
+   "name": "Akbarian school (Ibn Arabi)",
+   "parent": "sufism",
+   "dates": "13th c.–",
+   "figures": [
+    "ibn-arabi",
+    "william-chittick"
+   ],
+   "symbol": "a polished mirror"
+  },
+  {
+   "id": "mevlevi-rumi",
+   "name": "Mevlevi / Rumi tradition",
+   "parent": "sufism",
+   "dates": "13th c.–",
+   "figures": [
+    "rumi",
+    "baraka-blue"
+   ],
+   "symbol": "a whirling dervish's hat (sikke)"
+  },
+  {
+   "id": "naqshbandi",
+   "name": "Naqshbandi-Haqqani order",
+   "parent": "sufism",
+   "dates": "14th c.; Haqqani branch 20th c.–",
+   "figures": [
+    "abdullah-daghestani",
+    "nazim-al-haqqani",
+    "hisham-kabbani",
+    "nour-kabbani"
+   ],
+   "symbol": "a heart inscribed with \"Allah\""
+  },
+  {
+   "id": "inayati",
+   "name": "Inayatiyya (universal Sufism, Chishti roots)",
+   "parent": "sufism",
+   "dates": "1910–",
+   "figures": [
+    "hazrat-inayat-khan",
+    "vilayat-inayat-khan",
+    "pir-zia-inayat-khan"
+   ],
+   "symbol": "a winged heart"
+  },
+  {
+   "id": "nimatullahi",
+   "name": "Nimatullahi order",
+   "parent": "sufism",
+   "dates": "14th c.–",
+   "figures": [
+    "javad-nurbakhsh",
+    "alireza-nurbakhsh"
+   ],
+   "symbol": "a dervish bowl (kashkul)"
+  },
+  {
+   "id": "perennialism",
+   "name": "Perennialism / Traditionalist school",
+   "parent": "sufism",
+   "dates": "1920s–",
+   "figures": [
+    "rene-guenon",
+    "frithjof-schuon",
+    "martin-lings",
+    "seyyed-hossein-nasr",
+    "huston-smith"
+   ],
+   "symbol": "many rays from one sun"
+  },
+  {
+   "id": "christian",
+   "name": "Christian mysticism",
+   "parent": null,
+   "dates": "1st c.–",
+   "figures": [
+    "bernard-mcginn"
+   ],
+   "symbol": "a cross in a circle of light"
+  },
+  {
+   "id": "christian-mysticism",
+   "name": "Christian contemplative tradition (general)",
+   "parent": "christian",
+   "dates": "desert fathers–",
+   "figures": [
+    "thomas-merton",
+    "james-finley",
+    "rowan-williams",
+    "bernard-mcginn"
+   ],
+   "symbol": "a cloud"
+  },
+  {
+   "id": "christian-meditation-wccm",
+   "name": "Christian Meditation (John Main / WCCM)",
+   "parent": "christian",
+   "dates": "1975–",
+   "figures": [
+    "john-main",
+    "laurence-freeman",
+    "sarah-bachelard"
+   ],
+   "symbol": "two birds on a chalice (WCCM logo)"
+  },
+  {
+   "id": "franciscan-contemplative",
+   "name": "Franciscan contemplative (Rohr / CAC)",
+   "parent": "christian",
+   "dates": "1987–",
+   "figures": [
+    "richard-rohr",
+    "james-finley",
+    "barbara-holmes"
+   ],
+   "symbol": "a tau cross"
+  },
+  {
+   "id": "wisdom-christianity",
+   "name": "Wisdom Christianity and Centering Prayer",
+   "parent": "christian",
+   "dates": "1970s–",
+   "figures": [
+    "thomas-keating",
+    "cynthia-bourgeault"
+   ],
+   "symbol": "a three-strand braid (Law of Three)"
+  },
+  {
+   "id": "hesychasm",
+   "name": "Orthodox hesychasm",
+   "parent": "christian",
+   "dates": "4th–14th c.–",
+   "figures": [
+    "father-spyridon"
+   ],
+   "symbol": "a prayer rope"
+  },
+  {
+   "id": "jewish",
+   "name": "Kabbalah and Hasidism",
+   "parent": null,
+   "dates": "12th c.–",
+   "figures": [
+    "gershom-scholem",
+    "moshe-idel"
+   ],
+   "symbol": "the tree of the sefirot"
+  },
+  {
+   "id": "merkavah",
+   "name": "Merkavah / Hekhalot mysticism",
+   "parent": "jewish",
+   "dates": "late antiquity",
+   "figures": [],
+   "symbol": "a chariot wheel"
+  },
+  {
+   "id": "kabbalah",
+   "name": "Kabbalah (theosophical and ecstatic)",
+   "parent": "jewish",
+   "dates": "12th c.–",
+   "figures": [
+    "moshe-idel",
+    "elliot-wolfson"
+   ],
+   "symbol": "ten linked circles"
+  },
+  {
+   "id": "zohar",
+   "name": "Zoharic Kabbalah",
+   "parent": "kabbalah",
+   "dates": "13th c.–",
+   "figures": [
+    "daniel-matt"
+   ],
+   "symbol": "a radiant open book"
+  },
+  {
+   "id": "hasidism",
+   "name": "Hasidism",
+   "parent": "jewish",
+   "dates": "18th c.–",
+   "figures": [],
+   "symbol": "a niggun (wordless melody) staff"
+  },
+  {
+   "id": "neo-hasidism",
+   "name": "Neo-Hasidism",
+   "parent": "hasidism",
+   "dates": "20th c.–",
+   "figures": [
+    "abraham-joshua-heschel",
+    "zalman-schachter-shalomi",
+    "arthur-green"
+   ],
+   "symbol": "a flame above a book"
+  },
+  {
+   "id": "philosophy-of-the-sacred",
+   "name": "Philosophers of the sacred",
+   "parent": null,
+   "dates": "20th c.–",
+   "figures": [
+    "john-vervaeke",
+    "iain-mcgilchrist",
+    "huston-smith",
+    "bernardo-kastrup"
+   ],
+   "symbol": "two hemispheres joined by a bridge"
+  },
+  {
+   "id": "analytic-idealism",
+   "name": "Analytic idealism",
+   "parent": "philosophy-of-the-sacred",
+   "dates": "2010s–",
+   "figures": [
+    "bernardo-kastrup"
+   ],
+   "symbol": "a whirlpool in a stream"
+  }
+ ]
+}

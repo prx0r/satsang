@@ -1,0 +1,1360 @@
+{
+ "_note": "Sister places layer (2026-10-20): each UK place's parent and sibling network abroad. edges: branch_of (formal affiliation to a mother house) or sister_of (same lineage/network, or a documented founder link). Place ids resolve to places-uk/places.json, the places array below (new abroad places), or sources/places/places.json.",
+ "places": [
+  {
+   "id": "shasta-abbey",
+   "name": "Shasta Abbey",
+   "type": "monastery",
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Mount Shasta, California",
+   "lat": 41.3507,
+   "lng": -122.354,
+   "coord_source": "Wikidata Q7490590 P625",
+   "coord_precision": "as recorded on Wikidata",
+   "teacher_ids": [
+    "jiyu-kennett"
+   ],
+   "url": "https://shastaabbey.org",
+   "url_status": "ok",
+   "wikidata": "Q7490590",
+   "description": "Mother monastery of the Order of Buddhist Contemplatives, founded by Jiyu-Kennett in 1970.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "iskcon-mayapur",
+   "name": "Sri Mayapur Chandrodaya Mandir (ISKCON Mayapur)",
+   "type": "temple",
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Mayapur, West Bengal",
+   "lat": 23.42497,
+   "lng": 88.390412,
+   "coord_source": "OpenStreetMap via Photon ('Sri Chandrodaya Mandir')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "bhaktivedanta-swami-prabhupada"
+   ],
+   "url": "https://www.mayapur.com",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "ISKCON's world headquarters at the birthplace of Chaitanya Mahaprabhu.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "krishna-balaram-mandir",
+   "name": "Krishna Balaram Mandir (ISKCON Vrindavan)",
+   "type": "temple",
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Vrindavan, Uttar Pradesh",
+   "lat": 27.572419,
+   "lng": 77.677753,
+   "coord_source": "Wikidata Q4500831 P625",
+   "coord_precision": "as recorded on Wikidata",
+   "teacher_ids": [
+    "bhaktivedanta-swami-prabhupada"
+   ],
+   "url": "https://iskconvrindavan.com",
+   "url_status": "ok",
+   "wikidata": "Q4500831",
+   "description": "ISKCON temple in Vrindavan opened by Prabhupada in 1975; his samadhi is here.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "bihar-school-of-yoga",
+   "name": "Bihar School of Yoga",
+   "type": "ashram",
+   "traditions": [
+    "satyananda-yoga"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Munger, Bihar",
+   "lat": 25.385106,
+   "lng": 86.467699,
+   "coord_source": "OpenStreetMap via Photon ('Bihar School of Yoga')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "swami-satyananda"
+   ],
+   "url": "https://www.biharyoga.net",
+   "url_status": "ok",
+   "wikidata": "Q3636051",
+   "description": "Yoga school founded by Swami Satyananda in 1964; root of Satyananda Yoga.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "sivananda-val-morin",
+   "name": "Sivananda Ashram Yoga Camp",
+   "type": "ashram",
+   "traditions": [
+    "sivananda-yoga-vedanta"
+   ],
+   "country": "CA",
+   "country_name": "Canada",
+   "city": "Val-Morin, Quebec",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [
+    "swami-vishnudevananda"
+   ],
+   "url": "https://sivananda.org/camp",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Headquarters ashram of the International Sivananda Yoga Vedanta Centres, founded by Swami Vishnudevananda.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "sivananda-neyyar-dam",
+   "name": "Sivananda Yoga Vedanta Dhanwantari Ashram",
+   "type": "ashram",
+   "traditions": [
+    "sivananda-yoga-vedanta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Neyyar Dam, Kerala",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [
+    "swami-vishnudevananda"
+   ],
+   "url": "https://sivananda.org.in/neyyardam",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Sivananda Yoga Vedanta ashram in Kerala.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "akshardham-delhi",
+   "name": "Swaminarayan Akshardham, New Delhi",
+   "type": "temple",
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "New Delhi",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [
+    "pramukh-swami-maharaj"
+   ],
+   "url": "https://akshardham.com",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "BAPS temple complex opened in 2005 under Pramukh Swami Maharaj.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "bk-mount-abu",
+   "name": "Brahma Kumaris headquarters (Pandav Bhawan / Shantivan), Mount Abu",
+   "type": "ashram",
+   "traditions": [
+    "brahma-kumaris"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Mount Abu, Rajasthan",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [],
+   "url": "https://www.brahmakumaris.com",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "World headquarters of the Brahma Kumaris.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "gretz",
+   "name": "Centre Védantique Ramakrichna",
+   "type": "ashram",
+   "traditions": [
+    "ramakrishna-order",
+    "vedanta"
+   ],
+   "country": "FR",
+   "country_name": "France",
+   "city": "Gretz-Armainvilliers",
+   "lat": 48.740353,
+   "lng": 2.721767,
+   "coord_source": "OpenStreetMap via Photon ('Centre Védantique Ramakrishna')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [],
+   "url": "https://www.centre-vedantique.fr",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Ramakrishna Order centre in France, founded 1948.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "vedanta-chicago",
+   "name": "Vivekananda Vedanta Society of Chicago",
+   "type": "ashram",
+   "traditions": [
+    "ramakrishna-order",
+    "vedanta"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Chicago, Illinois",
+   "lat": 41.950188,
+   "lng": -87.731906,
+   "coord_source": "OpenStreetMap via Photon ('Home of Harmony, Vivekananda Vedanta Society of Chicago')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "swami-vivekananda"
+   ],
+   "url": "https://www.vedantachicago.org",
+   "url_status": "not live-checked (sister layer)",
+   "wikidata": null,
+   "description": "Ramakrishna Order society in the city of Vivekananda's 1893 Parliament speech.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "bonnevaux",
+   "name": "Bonnevaux (WCCM international centre)",
+   "type": "retreat-centre",
+   "traditions": [
+    "christian-meditation"
+   ],
+   "country": "FR",
+   "country_name": "France",
+   "city": "Marçay, Vienne",
+   "lat": 46.484706,
+   "lng": 0.231497,
+   "coord_source": "OpenStreetMap via Photon ('Bonnevaux')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "laurence-freeman",
+    "john-main"
+   ],
+   "url": "https://bonnevauxwccm.org",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "International retreat centre of the World Community for Christian Meditation, opened 2019.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "pendle-hill-pa",
+   "name": "Pendle Hill (Quaker study centre)",
+   "type": "study-centre",
+   "traditions": [
+    "quaker"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Wallingford, Pennsylvania",
+   "lat": 39.908,
+   "lng": -75.366,
+   "coord_source": "Wikidata Q7162443 P625",
+   "coord_precision": "as recorded on Wikidata",
+   "teacher_ids": [],
+   "url": "https://pendlehill.org",
+   "url_status": "ok",
+   "wikidata": "Q7162443",
+   "description": "Quaker study and retreat centre founded in 1930, named after the Lancashire hill of Fox's vision.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "parmarth-niketan",
+   "name": "Parmarth Niketan",
+   "type": "ashram",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Rishikesh, Uttarakhand",
+   "lat": 30.1192,
+   "lng": 78.3122,
+   "coord_source": "Wikidata Q7139173 P625",
+   "coord_precision": "as recorded on Wikidata",
+   "teacher_ids": [],
+   "url": "https://www.parmarth.org",
+   "url_status": "ok",
+   "wikidata": "Q7139173",
+   "description": "Large ashram on the Ganges in Rishikesh, known for its evening Ganga Aarti.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "kashi-vishwanath",
+   "name": "Kashi Vishwanath Temple",
+   "type": "pilgrimage",
+   "traditions": [
+    "hindu",
+    "kashmir-shaivism"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Varanasi, Uttar Pradesh",
+   "lat": 25.310775,
+   "lng": 83.010614,
+   "coord_source": "Wikidata Q3675 P625",
+   "coord_precision": "as recorded on Wikidata",
+   "teacher_ids": [],
+   "url": "https://shrikashivishwanath.org",
+   "url_status": "ok",
+   "wikidata": "Q3675",
+   "description": "Varanasi's principal Shiva temple, one of the twelve jyotirlingas.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "osho-pune",
+   "name": "Osho International Meditation Resort",
+   "type": "ashram",
+   "traditions": [
+    "independent"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Pune, Maharashtra",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [],
+   "url": "https://www.osho.com",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Meditation resort on the site of Osho's Pune ashram.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "guhyaloka",
+   "name": "Guhyaloka",
+   "type": "retreat-centre",
+   "traditions": [
+    "triratna"
+   ],
+   "country": "ES",
+   "country_name": "Spain",
+   "city": "Sella, Alicante",
+   "lat": 38.624175,
+   "lng": -0.195407,
+   "coord_source": "OpenStreetMap via Photon ('Comunidad Budista Guhyaloka')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "sangharakshita"
+   ],
+   "url": "https://guhyaloka.org",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Triratna men's ordination retreat centre in the Spanish mountains.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "fazal-manzil",
+   "name": "Fazal Manzil",
+   "type": "study-centre",
+   "traditions": [
+    "inayati",
+    "sufism"
+   ],
+   "country": "FR",
+   "country_name": "France",
+   "city": "Suresnes",
+   "lat": null,
+   "lng": null,
+   "coord_source": null,
+   "coord_precision": null,
+   "teacher_ids": [
+    "inayat-khan"
+   ],
+   "url": null,
+   "url_status": null,
+   "wikidata": null,
+   "description": "Inayat Khan's house in Suresnes, centre of his Sufi summer schools.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "dargah-inayat-khan",
+   "name": "Dargah of Hazrat Inayat Khan",
+   "type": "pilgrimage",
+   "traditions": [
+    "inayati",
+    "sufism"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Nizamuddin, Delhi",
+   "lat": 28.590773,
+   "lng": 77.241692,
+   "coord_source": "OpenStreetMap via Photon ('Inayat Khan Dargah')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "inayat-khan"
+   ],
+   "url": null,
+   "url_status": null,
+   "wikidata": null,
+   "description": "Tomb of Inayat Khan in Delhi, near the shrine of Nizamuddin Auliya.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "mount-madonna",
+   "name": "Mount Madonna Center",
+   "type": "retreat-centre",
+   "traditions": [
+    "independent"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Watsonville, California",
+   "lat": 37.025021,
+   "lng": -121.747233,
+   "coord_source": "OpenStreetMap via Photon ('Mount Madonna Center')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "adyashanti"
+   ],
+   "url": "https://www.mountmadonna.org",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Retreat centre where Adyashanti held silent retreats until 2020.",
+   "source": "curated (places-uk sisters)"
+  },
+  {
+   "id": "nagaloka",
+   "name": "Nagaloka",
+   "type": "study-centre",
+   "traditions": [
+    "triratna"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Nagpur, Maharashtra",
+   "lat": 21.199774,
+   "lng": 79.143486,
+   "coord_source": "OpenStreetMap via Photon ('Nagaloka')",
+   "coord_precision": "building/locality",
+   "teacher_ids": [
+    "sangharakshita"
+   ],
+   "url": "https://nagaloka.org",
+   "url_status": "ok",
+   "wikidata": null,
+   "description": "Training institute of Triratna's Indian wing (Ambedkarite Buddhism).",
+   "source": "curated (places-uk sisters)"
+  }
+ ],
+ "edges": [
+  {
+   "from": "amaravati",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "cittaviveka",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "aruna-ratanagiri",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "hartridge",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "abhayagiri",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "bodhinyana",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "santacittarama",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "dhammapala",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "tisarana",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "birken",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "bodhivana",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "muttodaya",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "wat-pah-nanachat",
+   "to": "wat-pah-pong",
+   "type": "branch_of",
+   "note": "Wat Pah Pong affiliated branch monastery (forestsangha.org)"
+  },
+  {
+   "from": "forest-hermitage-uk",
+   "to": "wat-pah-pong",
+   "type": "sister_of",
+   "note": "founded by Ajahn Chah disciple Ajahn Khemadhammo; not a formal forestsangha branch"
+  },
+  {
+   "from": "amaravati",
+   "to": "cittaviveka",
+   "type": "sister_of",
+   "note": "both founded by Ajahn Sumedho; Amaravati began as a branch of Cittaviveka"
+  },
+  {
+   "from": "amaravati",
+   "to": "abhayagiri",
+   "type": "sister_of",
+   "note": "Ajahn Amaro co-founded Abhayagiri (1996) before becoming abbot of Amaravati (2010)"
+  },
+  {
+   "from": "amaravati",
+   "to": "wat-pah-nanachat",
+   "type": "sister_of",
+   "note": "Ajahn Amaro ordained at Wat Pah Nanachat (1979)"
+  },
+  {
+   "from": "vedanta-uk",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "branch centre of the Ramakrishna Math, Belur"
+  },
+  {
+   "from": "vedanta-ny",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "vedanta-sf",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "vedanta-hollywood",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "gretz",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "vedanta-chicago",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "mayavati",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "rmic",
+   "to": "belur-math",
+   "type": "branch_of",
+   "note": "Ramakrishna Order centre"
+  },
+  {
+   "from": "vedanta-uk",
+   "to": "gretz",
+   "type": "sister_of",
+   "note": "Ramakrishna Order centres in Europe"
+  },
+  {
+   "from": "bhaktivedanta-manor",
+   "to": "iskcon-mayapur",
+   "type": "branch_of",
+   "note": "ISKCON world headquarters"
+  },
+  {
+   "from": "radha-krishna-temple-soho",
+   "to": "iskcon-mayapur",
+   "type": "branch_of",
+   "note": "ISKCON world headquarters"
+  },
+  {
+   "from": "iskcon-leicester",
+   "to": "iskcon-mayapur",
+   "type": "branch_of",
+   "note": "ISKCON"
+  },
+  {
+   "from": "iskcon-manchester",
+   "to": "iskcon-mayapur",
+   "type": "branch_of",
+   "note": "ISKCON"
+  },
+  {
+   "from": "karuna-bhavan",
+   "to": "iskcon-mayapur",
+   "type": "branch_of",
+   "note": "ISKCON"
+  },
+  {
+   "from": "bhaktivedanta-manor",
+   "to": "krishna-balaram-mandir",
+   "type": "sister_of",
+   "note": "both opened under Prabhupada"
+  },
+  {
+   "from": "telford-priory",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "portobello-priory",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "norwich-zen-priory",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "great-ocean-dharma-refuge",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "dragon-bell-temple",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "turning-wheel-temple",
+   "to": "throssel-hole",
+   "type": "branch_of",
+   "note": "Order of Buddhist Contemplatives temple"
+  },
+  {
+   "from": "throssel-hole",
+   "to": "shasta-abbey",
+   "type": "sister_of",
+   "note": "the two main monasteries of the Order of Buddhist Contemplatives, both founded by Jiyu-Kennett"
+  },
+  {
+   "from": "shasta-abbey",
+   "to": "sojiji",
+   "type": "sister_of",
+   "note": "Jiyu-Kennett trained at Sojiji"
+  },
+  {
+   "from": "kagyu-samye-dzong-london",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "ksd-edinburgh",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "ksd-glasgow",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "ksd-cardiff",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "ksd-scarborough",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "ksd-highlands",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "holy-isle",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "purelands",
+   "to": "samye-ling",
+   "type": "branch_of",
+   "note": "Kagyu Samye Dzong / Rokpa Trust branch"
+  },
+  {
+   "from": "samye-ling",
+   "to": "rumtek",
+   "type": "sister_of",
+   "note": "Karma Kagyu seat of the 16th Karmapa in exile"
+  },
+  {
+   "from": "samye-ling",
+   "to": "tsurphu",
+   "type": "sister_of",
+   "note": "historic seat of the Karmapas"
+  },
+  {
+   "from": "samye-ling",
+   "to": "sherab-ling",
+   "type": "sister_of",
+   "note": "seat of Tai Situ Rinpoche, who confirmed Lama Yeshe Losal as abbot (1995)"
+  },
+  {
+   "from": "palpung-wales",
+   "to": "sherab-ling",
+   "type": "branch_of",
+   "note": "Palpung lineage of Tai Situ Rinpoche"
+  },
+  {
+   "from": "shambhala-london",
+   "to": "shambhala-mountain",
+   "type": "sister_of",
+   "note": "Shambhala network founded by Chogyam Trungpa"
+  },
+  {
+   "from": "shambhala-london",
+   "to": "karme-choling",
+   "type": "sister_of",
+   "note": "Shambhala network"
+  },
+  {
+   "from": "jamyang-london",
+   "to": "kopan",
+   "type": "sister_of",
+   "note": "FPMT centres founded under Lama Yeshe and Lama Zopa"
+  },
+  {
+   "from": "jamyang-leeds",
+   "to": "kopan",
+   "type": "sister_of",
+   "note": "FPMT centres founded under Lama Yeshe and Lama Zopa"
+  },
+  {
+   "from": "land-of-joy",
+   "to": "kopan",
+   "type": "sister_of",
+   "note": "FPMT centres founded under Lama Yeshe and Lama Zopa"
+  },
+  {
+   "from": "jamyang-london",
+   "to": "tushita-dharamsala",
+   "type": "sister_of",
+   "note": "FPMT"
+  },
+  {
+   "from": "jamyang-london",
+   "to": "ilt-pomaia",
+   "type": "sister_of",
+   "note": "FPMT study centre (Masters Program)"
+  },
+  {
+   "from": "rigpa-london",
+   "to": "lerab-ling",
+   "type": "branch_of",
+   "note": "Rigpa international retreat centre"
+  },
+  {
+   "from": "london-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "padmaloka",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "taraloka",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "dhanakosa",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "rivendell",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "vajrasana",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "vajraloka",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "tiratanaloka",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "alfoxton-park",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "birmingham-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "brighton-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "bristol-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "brixton-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "cambridge-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "cardiff-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "colchester-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "croydon-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "edinburgh-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "glasgow-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "ipswich-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "leeds-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "liverpool-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "llangollen-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "manchester-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "mid-essex-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "newcastle-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "north-london-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "norwich-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "nottingham-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "oxford-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "sheffield-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "southampton-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "west-london-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "worcester-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "york-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "shrewsbury-buddhist-centre",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "buddhafield",
+   "to": "adhisthana",
+   "type": "branch_of",
+   "note": "Triratna centre; Adhisthana is the movement's central retreat centre"
+  },
+  {
+   "from": "adhisthana",
+   "to": "guhyaloka",
+   "type": "sister_of",
+   "note": "Triratna ordination retreat centre in Spain"
+  },
+  {
+   "from": "adhisthana",
+   "to": "nagaloka",
+   "type": "sister_of",
+   "note": "Triratna training institute in India"
+  },
+  {
+   "from": "sivananda-london",
+   "to": "sivananda-val-morin",
+   "type": "branch_of",
+   "note": "International Sivananda Yoga Vedanta Centres headquarters"
+  },
+  {
+   "from": "sivananda-london",
+   "to": "sivananda-neyyar-dam",
+   "type": "sister_of",
+   "note": "Sivananda Yoga Vedanta ashram"
+  },
+  {
+   "from": "sivananda-london",
+   "to": "sivananda-rishikesh",
+   "type": "sister_of",
+   "note": "Swami Sivananda's own ashram (Divine Life Society) in Rishikesh"
+  },
+  {
+   "from": "satyananda-yoga-uk",
+   "to": "bihar-school-of-yoga",
+   "type": "branch_of",
+   "note": "Satyananda Yoga root school"
+  },
+  {
+   "from": "sivananda-val-morin",
+   "to": "sivananda-rishikesh",
+   "type": "sister_of",
+   "note": "founder Vishnudevananda was Sivananda's disciple"
+  },
+  {
+   "from": "baps-neasden",
+   "to": "akshardham-delhi",
+   "type": "sister_of",
+   "note": "BAPS"
+  },
+  {
+   "from": "baps-leicester",
+   "to": "baps-neasden",
+   "type": "sister_of",
+   "note": "BAPS"
+  },
+  {
+   "from": "bk-global-retreat-centre",
+   "to": "bk-mount-abu",
+   "type": "branch_of",
+   "note": "Brahma Kumaris world headquarters"
+  },
+  {
+   "from": "bk-global-cooperation-house",
+   "to": "bk-mount-abu",
+   "type": "branch_of",
+   "note": "Brahma Kumaris world headquarters"
+  },
+  {
+   "from": "wccm-meditatio-house",
+   "to": "bonnevaux",
+   "type": "branch_of",
+   "note": "WCCM international centre"
+  },
+  {
+   "from": "ealing-abbey",
+   "to": "bonnevaux",
+   "type": "sister_of",
+   "note": "John Main began at Ealing; WCCM now centred at Bonnevaux"
+  },
+  {
+   "from": "prinknash-abbey",
+   "to": "shantivanam",
+   "type": "sister_of",
+   "note": "Bede Griffiths moved from Prinknash (and Pluscarden) to Shantivanam in India"
+  },
+  {
+   "from": "woodbrooke",
+   "to": "pendle-hill-pa",
+   "type": "sister_of",
+   "note": "Quaker study centres; Pendle Hill is named after the Lancashire hill"
+  },
+  {
+   "from": "pendle-hill-uk",
+   "to": "pendle-hill-pa",
+   "type": "sister_of",
+   "note": "namesake"
+  },
+  {
+   "from": "iona-abbey",
+   "to": "taize",
+   "type": "sister_of",
+   "note": "ecumenical communities with shared worship and youth weeks (link, not a formal affiliation)"
+  },
+  {
+   "from": "tolleshunt-knights",
+   "to": "mount-athos",
+   "type": "sister_of",
+   "note": "Elder Sophrony was a monk of Mount Athos"
+  },
+  {
+   "from": "ts-england-hq",
+   "to": "ts-adyar",
+   "type": "branch_of",
+   "note": "Theosophical Society international headquarters, Adyar"
+  },
+  {
+   "from": "ts-scotland",
+   "to": "ts-adyar",
+   "type": "branch_of",
+   "note": "Theosophical Society (Adyar)"
+  },
+  {
+   "from": "ts-nottingham",
+   "to": "ts-england-hq",
+   "type": "branch_of",
+   "note": "lodge of the English section"
+  },
+  {
+   "from": "ts-bristol",
+   "to": "ts-england-hq",
+   "type": "branch_of",
+   "note": "lodge of the English section"
+  },
+  {
+   "from": "rudolf-steiner-house",
+   "to": "goetheanum",
+   "type": "branch_of",
+   "note": "Anthroposophical Society world centre"
+  },
+  {
+   "from": "emerson-college",
+   "to": "goetheanum",
+   "type": "sister_of",
+   "note": "anthroposophy"
+  },
+  {
+   "from": "colet-house",
+   "to": "prieure",
+   "type": "sister_of",
+   "note": "Fourth Way (Gurdjieff/Ouspensky) heritage"
+  },
+  {
+   "from": "gurdjieff-society-london",
+   "to": "prieure",
+   "type": "sister_of",
+   "note": "Gurdjieff Work"
+  },
+  {
+   "from": "inayati-uk",
+   "to": "fazal-manzil",
+   "type": "sister_of",
+   "note": "Inayat Khan's Suresnes centre"
+  },
+  {
+   "from": "inayati-uk",
+   "to": "dargah-inayat-khan",
+   "type": "sister_of",
+   "note": "Inayat Khan's tomb, Delhi"
+  },
+  {
+   "from": "kmc-london",
+   "to": "manjushri-kmc",
+   "type": "branch_of",
+   "note": "New Kadampa Tradition mother centre"
+  },
+  {
+   "from": "dhamma-padhana",
+   "to": "dhamma-giri",
+   "type": "branch_of",
+   "note": "Goenka centres follow the Dhamma Giri (Igatpuri) model"
+  },
+  {
+   "from": "dhamma-dipa",
+   "to": "dhamma-giri",
+   "type": "branch_of",
+   "note": "Goenka"
+  },
+  {
+   "from": "dhamma-sukhakari",
+   "to": "dhamma-giri",
+   "type": "branch_of",
+   "note": "Goenka"
+  },
+  {
+   "from": "imc-uk",
+   "to": "imc-yangon",
+   "type": "branch_of",
+   "note": "International Meditation Centre of Sayagyi U Ba Khin, Yangon"
+  },
+  {
+   "from": "gaia-house",
+   "to": "ims-barre",
+   "type": "sister_of",
+   "note": "insight meditation centres; Christina Feldman is a guiding teacher of IMS"
+  }
+ ],
+ "india_hotspots": [
+  {
+   "hotspot": "Rishikesh",
+   "place_ids": [
+    "sivananda-rishikesh",
+    "parmarth-niketan"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Tiruvannamalai",
+   "place_ids": [
+    "sri-ramanasramam",
+    "arunachala",
+    "skandashram",
+    "virupaksha-cave",
+    "arunachaleswarar"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Belur / Kolkata",
+   "place_ids": [
+    "belur-math",
+    "dakshineswar"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Dharamsala",
+   "place_ids": [
+    "tsuglagkhang",
+    "tushita-dharamsala",
+    "ltwa"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Bodh Gaya",
+   "place_ids": [
+    "mahabodhi",
+    "root-institute",
+    "tergar-bodhgaya"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Varanasi",
+   "place_ids": [
+    "kashi-vishwanath",
+    "sarnath",
+    "anandamayi-varanasi"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Igatpuri",
+   "place_ids": [
+    "dhamma-giri"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Pune",
+   "place_ids": [
+    "osho-pune"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Srinagar (Kashmir Shaivism)",
+   "place_ids": [
+    "ishber-ashram",
+    "shankaracharya-temple"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Mayapur / Vrindavan",
+   "place_ids": [
+    "iskcon-mayapur",
+    "krishna-balaram-mandir"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Munger",
+   "place_ids": [
+    "bihar-school-of-yoga"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Mount Abu",
+   "place_ids": [
+    "bk-mount-abu"
+   ],
+   "missing": []
+  },
+  {
+   "hotspot": "Nagpur",
+   "place_ids": [
+    "nagaloka"
+   ],
+   "missing": []
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/clip.json",
+ "title": "Clip (a talk or a passage of one)",
+ "description": "A playable talk on an official upload. Natural clip = whole video; virtual clip = start/end passage of a longer official video (id videoId@start). Orientation is VERIFIED, never assumed. schema.org: VideoObject (virtual clips: Clip with isPartOf VideoObject).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "clip"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/clipId"
+  },
+  "title": {
+   "type": "string"
+  },
+  "sourceTitle": {
+   "type": "string",
+   "description": "The upload's own title (was ytTitle)."
+  },
+  "talk": {
+   "type": "string",
+   "description": "Parent talk title for virtual clips."
+  },
+  "media": {
+   "type": "object",
+   "required": [
+    "provider",
+    "videoId"
+   ],
+   "properties": {
+    "provider": {
+     "type": "string",
+     "enum": [
+      "youtube",
+      "vimeo",
+      "archive",
+      "dharmaseed-audio"
+     ]
+    },
+    "videoId": {
+     "type": "string"
+    },
+    "parent": {
+     "$ref": "common.json#/$defs/clipId"
+    },
+    "start": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "end": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "channel": {
+     "type": "string"
+    },
+    "channelId": {
+     "type": "string"
+    },
+    "carrier": {
+     "type": "string",
+     "enum": [
+      "own",
+      "foundation",
+      "estate",
+      "publisher",
+      "host"
+     ]
+    },
+    "embeddable": {
+     "type": "boolean"
+    },
+    "embedChecked": {
+     "$ref": "common.json#/$defs/date"
+    }
+   }
+  },
+  "orientation": {
+   "type": "object",
+   "required": [
+    "value",
+    "verified"
+   ],
+   "properties": {
+    "value": {
+     "type": "string",
+     "enum": [
+      "horizontal",
+      "vertical",
+      "square"
+     ]
+    },
+    "verified": {
+     "type": "boolean"
+    },
+    "method": {
+     "type": "string",
+     "enum": [
+      "oembed",
+      "shorts-redirect",
+      "player-probe",
+      "data-api"
+     ]
+    },
+    "checked": {
+     "$ref": "common.json#/$defs/date"
+    },
+    "w": {
+     "type": "integer"
+    },
+    "h": {
+     "type": "integer"
+    }
+   }
+  },
+  "seconds": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "Played length (the passage for virtual clips)."
+  },
+  "videoSeconds": {
+   "type": "integer",
+   "description": "Whole upload length."
+  },
+  "lengthClass": {
+   "type": "string",
+   "enum": [
+    "short",
+    "talk",
+    "full"
+   ]
+  },
+  "delivery": {
+   "type": "string",
+   "enum": [
+    "talk",
+    "reading",
+    "footage",
+    "guided",
+    "dialogue",
+    "lecture",
+    "chant"
+   ]
+  },
+  "speaker": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "figures": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   },
+   "minItems": 1
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "conf"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "common.json#/$defs/topicPath"
+     },
+     "conf": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+     },
+     "src": {
+      "type": "string",
+      "enum": [
+       "title",
+       "desc",
+       "transcript",
+       "human",
+       "llm",
+       "chapter"
+      ]
+     },
+     "question": {
+      "type": "string",
+      "description": "Hub sub-question id this clip answers."
+     }
+    }
+   }
+  },
+  "practices": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   },
+   "description": "Practices this clip instructs or guides."
+  },
+  "texts": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/ref"
+   },
+   "description": "Texts expounded, optionally with passage refs."
+  },
+  "published": {
+   "$ref": "common.json#/$defs/date"
+  },
+  "lang": {
+   "type": "string"
+  },
+  "views": {
+   "type": "integer"
+  },
+  "inBallot": {
+   "type": "boolean",
+   "description": "Computed: eligible for resonance pairing."
+  },
+  "hasTranscript": {
+   "type": "boolean",
+   "description": "Internal flag only. Transcript text, URL or path is NEVER published."
+  },
+  "stats": {
+   "type": "object",
+   "description": "Computed public aggregates.",
+   "properties": {
+    "bt": {
+     "type": "number"
+    },
+    "btSe": {
+     "type": "number"
+    },
+    "resonates": {
+     "type": "integer"
+    },
+    "completion": {
+     "type": "number"
+    },
+    "picks": {
+     "type": "integer"
+    }
+   }
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "title",
+  "media",
+  "orientation",
+  "seconds",
+  "speaker",
+  "traditions"
+ ],
+ "additionalProperties": true
+}

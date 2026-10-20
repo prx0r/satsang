@@ -1,0 +1,89 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/tradition.json",
+ "title": "Tradition / school / lineage node",
+ "description": "A node of the tradition tree. family > school > lineage (> order/branch). Scholarly 'streams' (Atlas lanes) map onto nodes. schema.org: DefinedTerm in DefinedTermSet 'wiser-traditions' (+ Organization when it is a living order).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "tradition"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "label": {
+   "type": "string"
+  },
+  "kind": {
+   "type": "string",
+   "enum": [
+    "family",
+    "school",
+    "lineage",
+    "order",
+    "stream"
+   ]
+  },
+  "parent": {
+   "oneOf": [
+    {
+     "$ref": "common.json#/$defs/slug"
+    },
+    {
+     "type": "null"
+    }
+   ]
+  },
+  "children": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "blurb": {
+   "type": "string",
+   "maxLength": 400
+  },
+  "years": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "founders": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "keyFigures": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "symbol": {
+   "type": "object",
+   "properties": {
+    "glyph": {
+     "type": "string",
+     "description": "Glyph id in the Wiser symbol set."
+    },
+    "ink": {
+     "type": "string",
+     "pattern": "^#[0-9a-fA-F]{6}$"
+    }
+   }
+  },
+  "ids": {
+   "$ref": "common.json#/$defs/ids"
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "label",
+  "kind"
+ ],
+ "additionalProperties": true
+}

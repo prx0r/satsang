@@ -1,0 +1,29 @@
+{
+ "_note": "Proposed topic leaves for app/schema/topics.json from the 'western' sourcing round (2026-10-20). root = parent node in the existing tree (or a new root when root == id). keywords are case-insensitive regex fragments, word-bounded, same convention as topics.json kw. 'leaf' only tells the sourcer's tagger which confidence to use. Not yet merged into the app vocabulary.",
+ "topics": [
+  {"root": "soul", "id": "soul", "label": "The soul", "heat": "The soul: compare takes", "leaf": true,
+   "keywords": ["soul", "souls", "psyche", "immortal soul", "immortality of the soul", "anima", "world.soul", "astral body", "higher self", "essence"],
+   "why": "Platonism, Neoplatonism, Gnosticism, Christian mysticism, Theosophy/Anthroposophy and the Fourth Way all argue about the soul; it is the Western counterpart to the existing 'self' (anatta) node and should sit beside it so heats can compare an immortal soul against not-self."},
+  {"root": "gnosis", "id": "gnosis", "label": "Gnosis", "heat": "Gnosis: compare takes", "leaf": true,
+   "keywords": ["gnosis", "gnostic\\w*", "self.knowledge", "secret knowledge", "saving knowledge", "nag hammadi", "sophia", "demiurge", "archons?"],
+   "why": "Knowing by transformation (Gnostic, Platonic and Vervaeke's participatory knowing). Close to 'awakening' but a distinct claim: liberation through knowledge."},
+  {"root": "meditation", "id": "meditation/prayer", "label": "Prayer & contemplation", "leaf": true,
+   "keywords": ["prayer", "prayers", "pray\\w*", "centering prayer", "contemplative prayer", "lectio divina", "jesus prayer", "prayer of the heart", "hesychas\\w*", "chant\\w*", "welcoming prayer", "theurgy"],
+   "why": "Christian and Neoplatonic practice lands here, so cross-tradition 'Meditation' heats can include it without forcing it into 'breath' or 'guided'."},
+  {"root": "divine", "id": "divine", "label": "The divine", "heat": "God and the divine: compare takes", "leaf": false,
+   "keywords": ["god", "gods", "godhead", "divine", "divinity", "the sacred", "theosis", "deification", "union with god", "mystical union"],
+   "why": "No node for God or the divine exists; Western clips need one. Krishnamurti clips on 'Does God exist?' meet Eckhart, Proclus and Dionysius here."},
+  {"root": "divine", "id": "divine/the-one", "label": "The One", "leaf": true,
+   "keywords": ["the one", "monad", "henads?", "oneness", "emanation", "the good beyond being", "alone with the alone", "first principle"],
+   "why": "Plotinus' and Proclus' first principle, Parmenides' One, Eckhart's ground."},
+  {"root": "rebirth", "id": "rebirth/western", "label": "Reincarnation in Western thought", "leaf": true,
+   "keywords": ["reincarnat\\w*", "metempsychosis", "transmigration", "myth of er", "between death and (a )?new birth", "kamaloca", "past lives?", "rebirth", "reborn", "orphic\\w*", "next life"],
+   "why": "Myth of Er, Pythagoras and the Orphics, Plotinus, Steiner and Theosophy on karma and reincarnation, and Krishnamurti's rejection of it; a sibling of rebirth/samsara so Buddhist and Western rebirth clips can share a heat but still be told apart."},
+  {"root": "kamma", "id": "kamma/western", "label": "Karma in Western esotericism", "leaf": true,
+   "keywords": ["karma in (theosophy|anthroposophy)", "karmic connections?", "destiny", "the lot", "choice of (a )?life"],
+   "why": "Steiner's karma lectures and Theosophy borrow the word with a different mechanism; tag separately, roll up to 'Karma'."},
+  {"root": "freedom", "id": "freedom", "label": "Freedom", "heat": "Freedom: compare takes", "leaf": true,
+   "keywords": ["freedom", "free", "liberation from the known", "choiceless", "conditioning", "conditioned"],
+   "why": "A main Krishnamurti theme (freedom from the known, conditioning) with no current node."}
+ ]
+}

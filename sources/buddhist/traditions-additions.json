@@ -1,0 +1,45 @@
+{
+ "_note": "buddhist group tradition nodes to add (2026-10-20). Wikidata via wbsearchentities; burmese has no clean item.",
+ "nodes": [
+  {
+   "id": "plum-village",
+   "label": "Plum Village",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q60763315",
+   "blurb": "Thich Nhat Hanh's Vietnamese Thiền community of engaged, mindful living."
+  },
+  {
+   "id": "soto-zen",
+   "label": "Sōtō Zen",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q749085",
+   "blurb": "Dōgen's school of just-sitting (shikantaza); San Francisco Zen Center, Sanshin."
+  },
+  {
+   "id": "rinzai-zen",
+   "label": "Rinzai Zen",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q639625",
+   "blurb": "The koan school of Japanese Zen; Zen Studies Society."
+  },
+  {
+   "id": "gelug",
+   "label": "Gelug",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q319218",
+   "blurb": "The Tibetan school of Tsongkhapa, headed in practice by the Dalai Lamas."
+  },
+  {
+   "id": "burmese",
+   "label": "Burmese meditation lineages",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": null,
+   "blurb": "Myanmar's modern meditation schools: Mahasi noting, Pa-Auk samatha-vipassanā, U Ba Khin and Goenka."
+  }
+ ]
+}

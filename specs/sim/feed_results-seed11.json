@@ -1,0 +1,32 @@
+{
+ "seed": 11,
+ "users": 30,
+ "days": 14,
+ "open": 4,
+ "results": {
+  "best-first": {
+   "jaccard_top20_day_to_day": 0.299,
+   "hit_rate_top20": 0.26,
+   "hits_among_opened": 0.24,
+   "teachers_seen": 37.8,
+   "families_seen": 4.733,
+   "families_with_a_hit": 1.6
+  },
+  "best-first+MMR": {
+   "jaccard_top20_day_to_day": 0.382,
+   "hit_rate_top20": 0.359,
+   "hits_among_opened": 0.292,
+   "teachers_seen": 50.667,
+   "families_seen": 9,
+   "families_with_a_hit": 2.9
+  },
+  "Wiser feed": {
+   "jaccard_top20_day_to_day": 0.076,
+   "hit_rate_top20": 0.37,
+   "hits_among_opened": 0.364,
+   "teachers_seen": 63.1,
+   "families_seen": 9,
+   "families_with_a_hit": 3.7
+  }
+ }
+}

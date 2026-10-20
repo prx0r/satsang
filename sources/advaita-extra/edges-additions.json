@@ -1,0 +1,102 @@
+{
+ "_note": "advaita-extra edge additions (same shape as app/wisegraph/edges.json).",
+ "edges": [
+  {
+   "from": "siddharameshwar-maharaj",
+   "to": "sri-ranjit-maharaj",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "ramesh-balsekar",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Ramesh translated for Maharaj from 1978 and was acknowledged by him."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "jean-dunn",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "She recorded and edited his last talks."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "stephen-wolinsky",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "s-k-mullarpattan",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Interpreter and devotee."
+  },
+  {
+   "from": "nisargadatta-maharaj",
+   "to": "vanaja-narayanswamy",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "ramesh-balsekar",
+   "to": "wayne-liquorman",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramesh-balsekar",
+   "to": "gautam-sachdeva",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "siddharameshwar-maharaj",
+   "to": "gautam-sachdeva",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Gautam's podcast series on Siddharameshwar's talks."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "atmananda-blanca-schlamm",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-vijayananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-kedarnath",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Monk of Anandamayi Peeth; teaches her philosophy."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "swami-chidananda-saraswati",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Long association; Chidananda describes her as a guide."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "anandamayi-sangha",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "conf": "low",
+   "note": "Not influence: he met her in 1936 and wrote the chapter \"The Bengali Joy-Permeated Mother\"; consider a \"met\" edge type instead."
+  }
+ ]
+}

@@ -1,0 +1,962 @@
+{
+ "_note": "Wiser controlled topic vocabulary v1 (dharma / contemplative). Ids are slash paths (root/leaf). `label` is the public name, `heat` the compare-takes title. `kw` are case-insensitive regex fragments matched on word boundaries against the clip title, the YouTube description snippet and (internally only, never published) a matched transcript. `pali` lists source-language terms folded in so cross-tradition clips meet on the same node. See TAGS.md. | v2 (2026-10-20): merged the sourcing groups' topics-additions (tools/merge-sources.py); rebirth stays the cross-tradition root with Western reincarnation as a leaf, karma likewise (kamma/western).",
+ "version": 2,
+ "tree": {
+  "rebirth": {
+   "label": "Rebirth",
+   "heat": "Rebirth: compare takes",
+   "kw": [
+    "rebirth",
+    "reborn",
+    "re-?birth",
+    "reincarnat\\w*",
+    "past lives?",
+    "previous lives?",
+    "next life",
+    "future lives?",
+    "samsara",
+    "saṃsāra",
+    "afterlife",
+    "transmigration",
+    "metempsychosis",
+    "myth of er",
+    "punabbhava",
+    "bhava"
+   ],
+   "samsara": {
+    "label": "Samsara",
+    "kw": [
+     "samsara",
+     "saṃsāra",
+     "round of (birth|existence)",
+     "wandering on"
+    ]
+   },
+   "western": {
+    "label": "Western reincarnation",
+    "kw": [
+     "metempsychosis",
+     "transmigration of (the )?souls?",
+     "myth of er",
+     "between death and (a )?new birth",
+     "kamaloca",
+     "orphic\\w*"
+    ]
+   }
+  },
+  "kamma": {
+   "label": "Karma",
+   "heat": "Karma: compare takes",
+   "kw": [
+    "kamma",
+    "karma\\w*",
+    "intention",
+    "cetana",
+    "cetanā",
+    "results? of (actions?|deeds?)",
+    "vipaka",
+    "vipāka",
+    "wholesome and unwholesome",
+    "merit",
+    "puñña"
+   ],
+   "karma-yoga": {
+    "label": "Karma yoga",
+    "kw": [
+     "karma yoga",
+     "selfless (work|action|service)",
+     "nishkama",
+     "niṣkāma",
+     "work as worship"
+    ]
+   },
+   "western": {
+    "label": "Karma in Western esotericism",
+    "kw": [
+     "karma in (theosophy|anthroposophy)",
+     "karmic connections?"
+    ]
+   }
+  },
+  "self": {
+   "label": "Self & not-self",
+   "heat": "The self: compare takes",
+   "kw": [
+    "anatta",
+    "anattā",
+    "not-?self",
+    "no-?self",
+    "self-?view",
+    "sakkaya",
+    "sakkāya",
+    "\"?i am\"?",
+    "conceit",
+    "māna",
+    "ego",
+    "identity",
+    "personality view",
+    "atman",
+    "ātman",
+    "who am i",
+    "small self",
+    "big self",
+    "selflessness"
+   ],
+   "self-enquiry": {
+    "label": "Self-enquiry",
+    "kw": [
+     "self[- ]?enquiry",
+     "self[- ]?inquiry",
+     "[aā]tma[- ]?vich[aā]ra",
+     "nan yar",
+     "n[aā]n y[aā]r",
+     "i am that"
+    ]
+   },
+   "emptiness": {
+    "label": "Emptiness",
+    "kw": [
+     "emptiness",
+     "sunyata",
+     "suññatā",
+     "śūnyatā",
+     "shunyata",
+     "interbeing",
+     "madhyamaka",
+     "heart sutra",
+     "form is emptiness"
+    ]
+   }
+  },
+  "meditation": {
+   "label": "Meditation",
+   "heat": "Meditation: compare takes",
+   "kw": [
+    "meditat\\w*",
+    "samadhi",
+    "samādhi",
+    "composure",
+    "concentration",
+    "samatha",
+    "vipassana",
+    "vipassanā",
+    "insight",
+    "contemplat\\w*",
+    "bhavana",
+    "bhāvanā",
+    "zazen",
+    "shikantaza",
+    "just sitting",
+    "sesshin",
+    "dzogchen",
+    "mahamudra"
+   ],
+   "breath": {
+    "label": "Breath",
+    "kw": [
+     "breath\\w*",
+     "anapanasati",
+     "ānāpānasati"
+    ]
+   },
+   "guided": {
+    "label": "Guided contemplation",
+    "kw": [
+     "guided (contemplation|meditation)"
+    ]
+   },
+   "mantra": {
+    "label": "Mantra & japa",
+    "kw": [
+     "mantra\\w*",
+     "japa",
+     "so-?ham",
+     "gayatri"
+    ]
+   },
+   "kriya": {
+    "label": "Kriya Yoga",
+    "kw": [
+     "kriya",
+     "kriyā",
+     "pranayama",
+     "prāṇāyāma",
+     "spiritual eye"
+    ]
+   },
+   "koan": {
+    "label": "Koan",
+    "kw": [
+     "koans?",
+     "kōans?",
+     "gateless (gate|barrier)",
+     "mumonkan",
+     "blue cliff",
+     "hua ?tou",
+     "mu koan",
+     "joshu",
+     "zhaozhou",
+     "genjo ?koan",
+     "genjōkōan"
+    ]
+   },
+   "prayer": {
+    "label": "Prayer & contemplation",
+    "kw": [
+     "centering prayer",
+     "contemplative prayer",
+     "lectio divina",
+     "jesus prayer",
+     "prayer of the heart",
+     "hesychas\\w*",
+     "welcoming prayer",
+     "theurgy"
+    ]
+   },
+   "kundalini": {
+    "label": "Kundalini & the subtle body",
+    "kw": [
+     "ku[nṇ][dḍ]alin[iī]",
+     "chakras?",
+     "cakras?",
+     "n[aā][dḍ][iī]s",
+     "subtle body",
+     "energy body",
+     "shaktipat",
+     "śaktipāt",
+     "serpent power"
+    ]
+   },
+   "hatha": {
+    "label": "Haṭha yoga",
+    "kw": [
+     "ha[tṭ]ha ?yoga",
+     "ha[tṭ]hayoga",
+     "[aā]sanas?",
+     "mudr[aā]s?",
+     "kh?ecar[iī]",
+     "bandhas?"
+    ]
+   },
+   "dzogchen": {
+    "label": "Dzogchen",
+    "kw": [
+     "dzogchen",
+     "rigpa",
+     "great perfection",
+     "trekch[oö]",
+     "th[oö]gal"
+    ]
+   },
+   "lojong": {
+    "label": "Lojong (mind training)",
+    "kw": [
+     "lojong",
+     "mind training",
+     "seven points",
+     "tonglen"
+    ]
+   },
+   "silent-illumination": {
+    "label": "Silent illumination & just sitting",
+    "kw": [
+     "silent illumination",
+     "mozhao",
+     "shikantaza",
+     "just sitting",
+     "zazen"
+    ]
+   }
+  },
+  "sense-restraint": {
+   "label": "Sense restraint",
+   "heat": "Guarding the senses: compare takes",
+   "kw": [
+    "sense restraint",
+    "restrain\\w*",
+    "guard(ing)? the (senses|sense doors?)",
+    "sense doors?",
+    "sense faculties",
+    "indriya",
+    "indriyasaṃvara",
+    "sense bases"
+   ]
+  },
+  "jhana": {
+   "label": "Jhāna",
+   "heat": "Jhāna and absorption: compare takes",
+   "kw": [
+    "jhana\\w*",
+    "jhāna\\w*",
+    "absorption",
+    "first jhana",
+    "rapture",
+    "piti",
+    "pīti"
+   ]
+  },
+  "dependent-origination": {
+   "label": "Dependent origination",
+   "heat": "Dependent origination: compare takes",
+   "kw": [
+    "dependent origination",
+    "paticcasamuppada",
+    "paṭiccasamuppāda",
+    "paticca",
+    "conditionality",
+    "dependently arisen",
+    "nidana",
+    "nidāna"
+   ]
+  },
+  "dukkha": {
+   "label": "Suffering",
+   "heat": "Suffering: compare takes",
+   "kw": [
+    "dukkha",
+    "suffering",
+    "four noble truths",
+    "noble truths?",
+    "pain",
+    "unsatisfactor\\w*",
+    "distress",
+    "dissatisfaction"
+   ]
+  },
+  "craving": {
+   "label": "Craving & desire",
+   "heat": "Desire: compare takes",
+   "kw": [
+    "craving",
+    "tanha",
+    "taṇhā",
+    "desire",
+    "lust",
+    "passion",
+    "addiction",
+    "attachment",
+    "clinging",
+    "upadana",
+    "upādāna"
+   ],
+   "sensuality": {
+    "label": "Sensuality",
+    "kw": [
+     "sensual\\w*",
+     "kama",
+     "kāma",
+     "sensual pleasures?",
+     "pleasures?",
+     "porn\\w*",
+     "sex\\w*"
+    ]
+   }
+  },
+  "mindfulness": {
+   "label": "Mindfulness",
+   "heat": "Mindfulness: compare takes",
+   "kw": [
+    "mindful\\w*",
+    "sati",
+    "awareness",
+    "attention",
+    "yoniso",
+    "satipatthana",
+    "satipaṭṭhāna",
+    "peripheral awareness"
+   ]
+  },
+  "virtue": {
+   "label": "Virtue",
+   "heat": "Virtue and ethics: compare takes",
+   "kw": [
+    "virtue",
+    "virtuous",
+    "sila",
+    "sīla",
+    "precepts?",
+    "moral\\w*",
+    "ethic\\w*",
+    "shame",
+    "hiri",
+    "ottappa",
+    "fear of wrongdoing",
+    "integrity",
+    "honest\\w*",
+    "lying",
+    "lie"
+   ]
+  },
+  "renunciation": {
+   "label": "Renunciation",
+   "heat": "Renunciation: compare takes",
+   "kw": [
+    "renunciation",
+    "renounc\\w*",
+    "nekkhamma",
+    "seclusion",
+    "solitude",
+    "monastic\\w*",
+    "ordination",
+    "ordain\\w*",
+    "robes?",
+    "hermit\\w*",
+    "letting go",
+    "relinquish\\w*",
+    "giving up",
+    "monastic life",
+    "becoming a monk",
+    "going forth"
+   ]
+  },
+  "death": {
+   "label": "Death",
+   "heat": "Death: compare takes",
+   "kw": [
+    "death",
+    "dying",
+    "die",
+    "mortality",
+    "maraṇa",
+    "marana",
+    "dead",
+    "loss",
+    "grief",
+    "grieving",
+    "bereave\\w*"
+   ],
+   "bardo": {
+    "label": "Bardo",
+    "kw": [
+     "bardo\\w*",
+     "intermediate state",
+     "between (death and rebirth|lives)",
+     "book of the dead",
+     "clear light of death",
+     "phowa"
+    ]
+   }
+  },
+  "emotions": {
+   "label": "Emotions",
+   "heat": "Hard emotions: compare takes",
+   "kw": [
+    "emotions?",
+    "emotional\\w*",
+    "moods?",
+    "feelings? of"
+   ],
+   "anger": {
+    "label": "Anger",
+    "kw": [
+     "anger",
+     "angry",
+     "aversion",
+     "hatred",
+     "ill-?will",
+     "irritat\\w*",
+     "resentment",
+     "dosa"
+    ]
+   },
+   "fear": {
+    "label": "Fear & anxiety",
+    "kw": [
+     "fear\\w*",
+     "anxi\\w*",
+     "worry",
+     "worries",
+     "panic",
+     "dread",
+     "afraid"
+    ]
+   },
+   "sadness": {
+    "label": "Sadness",
+    "kw": [
+     "depress\\w*",
+     "sad\\w*",
+     "sorrow",
+     "despair",
+     "lonel\\w*",
+     "melanchol\\w*"
+    ]
+   },
+   "boredom": {
+    "label": "Boredom",
+    "kw": [
+     "bored\\w*",
+     "restless\\w*",
+     "agitation"
+    ]
+   }
+  },
+  "relationships": {
+   "label": "Relationships",
+   "heat": "Love and relationships: compare takes",
+   "kw": [
+    "relationships?",
+    "parents?",
+    "mother",
+    "father",
+    "family",
+    "friends?hip",
+    "friends",
+    "marriage",
+    "married",
+    "partner",
+    "romantic",
+    "children",
+    "gratitude",
+    "kalyanamitta",
+    "kalyāṇamitta",
+    "good friend"
+   ]
+  },
+  "impermanence": {
+   "label": "Impermanence",
+   "heat": "Impermanence: compare takes",
+   "kw": [
+    "impermanen\\w*",
+    "anicca",
+    "change",
+    "changing",
+    "transien\\w*",
+    "uncertain\\w*"
+   ]
+  },
+  "right-view": {
+   "label": "Right view",
+   "heat": "Right view: compare takes",
+   "kw": [
+    "right view",
+    "wrong views?",
+    "views? of self",
+    "ditthi",
+    "diṭṭhi",
+    "wisdom",
+    "panna",
+    "paññā",
+    "discernment",
+    "yoniso manasikara",
+    "proper attention"
+   ]
+  },
+  "awakening": {
+   "label": "Awakening",
+   "heat": "Enlightenment: compare takes",
+   "kw": [
+    "nibbana",
+    "nibbāna",
+    "nirvana",
+    "arahant\\w*",
+    "arahat",
+    "sotapann\\w*",
+    "stream[- ]entry",
+    "stream[- ]enterer",
+    "awaken\\w*",
+    "enlighten\\w*",
+    "liberation",
+    "freedom",
+    "deathless",
+    "noble one",
+    "moksha",
+    "satori",
+    "kensho",
+    "theosis",
+    "buddha[- ]nature",
+    "true nature",
+    "big mind",
+    "original face",
+    "rigpa"
+   ],
+   "buddha-nature": {
+    "label": "Buddha-nature",
+    "kw": [
+     "buddha[- ]nature",
+     "tath[aā]gatagarbha",
+     "shentong"
+    ]
+   }
+  },
+  "feeling": {
+   "label": "Feeling",
+   "heat": "Feeling and the body: compare takes",
+   "kw": [
+    "vedana",
+    "vedanā",
+    "feelings?",
+    "pleasant",
+    "painful",
+    "neither-painful",
+    "body",
+    "bodily",
+    "kaya",
+    "kāya"
+   ]
+  },
+  "thought": {
+   "label": "Thinking",
+   "heat": "Thought and the mind: compare takes",
+   "kw": [
+    "thoughts?",
+    "thinking",
+    "overthinking",
+    "papanca",
+    "papañca",
+    "proliferat\\w*",
+    "citta",
+    "monkey mind",
+    "(calm|still|quiet)\\w* (your |the |my )?mind",
+    "state of mind",
+    "mind states?"
+   ]
+  },
+  "defilements": {
+   "label": "Defilements & hindrances",
+   "heat": "Inner obstacles: compare takes",
+   "kw": [
+    "defilements?",
+    "kilesa",
+    "hindrances?",
+    "nivarana",
+    "nīvaraṇa",
+    "greed",
+    "delusion",
+    "ignorance",
+    "avijja",
+    "avijjā",
+    "unwholesome",
+    "akusala",
+    "laziness",
+    "sloth"
+   ]
+  },
+  "kindness": {
+   "label": "Kindness",
+   "heat": "Love and compassion: compare takes",
+   "kw": [
+    "metta",
+    "mettā",
+    "loving-?kindness",
+    "friendliness",
+    "compassion",
+    "karuna",
+    "karuṇā",
+    "kindness",
+    "brahmavihara\\w*",
+    "brahmavihāra\\w*",
+    "goodwill",
+    "agape",
+    "love"
+   ],
+   "compassion": {
+    "label": "Compassion",
+    "kw": [
+     "compassion\\w*",
+     "karuna",
+     "karuṇā",
+     "bodhicitta",
+     "bodhichitta",
+     "tonglen",
+     "bodhisattva\\w*",
+     "self-compassion"
+    ]
+   }
+  },
+  "faith": {
+   "label": "Faith & devotion",
+   "heat": "Faith: compare takes",
+   "kw": [
+    "faith",
+    "saddha",
+    "saddhā",
+    "devotion",
+    "prayer",
+    "bhakti",
+    "grace",
+    "god",
+    "refuge"
+   ],
+   "bhakti": {
+    "label": "Bhakti (devotion)",
+    "kw": [
+     "bhakti",
+     "bhakta",
+     "love (of|for) god",
+     "divine mother",
+     "kirtan",
+     "prapatti",
+     "ishta"
+    ]
+   },
+   "grace": {
+    "label": "Grace",
+    "kw": [
+     "grace",
+     "kripa",
+     "kṛpā",
+     "anugraha",
+     "shaktipat",
+     "śaktipāt"
+    ]
+   },
+   "pure-land": {
+    "label": "Pure Land",
+    "kw": [
+     "pure land",
+     "amida",
+     "amitabha",
+     "amitābha",
+     "nembutsu",
+     "nianfo",
+     "shinjin",
+     "other power"
+    ]
+   },
+   "ritual": {
+    "label": "Ritual, worship & initiation",
+    "kw": [
+     "ritual\\w*",
+     "puj[aā]",
+     "yantras?",
+     "ma[nṇ][dḍ]alas?",
+     "ny[aā]sa",
+     "worship",
+     "homa",
+     "empowerments?",
+     "deity yoga"
+    ]
+   }
+  },
+  "daily-life": {
+   "label": "Everyday life",
+   "heat": "Practice in daily life: compare takes",
+   "kw": [
+    "lay ?(life|people|person|practitioner|man|men|follower)s?",
+    "layman",
+    "laymen",
+    "laypeople",
+    "householders?",
+    "daily life",
+    "everyday life",
+    "day job",
+    "at work",
+    "your job",
+    "careers?",
+    "psychotherapy",
+    "therapy"
+   ]
+  },
+  "texts": {
+   "label": "Reading the texts",
+   "heat": "Reading the scriptures: compare takes",
+   "kw": [
+    "sutta\\w*",
+    "suttas?",
+    "majjhima",
+    "samyutta",
+    "saṃyutta",
+    "anguttara",
+    "aṅguttara",
+    "dhammapada",
+    "nanavira",
+    "ñāṇavīra",
+    "notes on dhamma",
+    "scripture\\w*",
+    "gospel",
+    "upanishads?",
+    "sutra"
+   ],
+   "tantra": {
+    "label": "The tantras",
+    "kw": [
+     "tantras",
+     "tantra[- ]s[aā]stra",
+     "tantr[aā]loka",
+     "shiva ?s[uū]tras?",
+     "śiva ?s[uū]tras?",
+     "spanda",
+     "vij[nñ][aā]na[- ]?bhairava",
+     "pratyabhij\\w*",
+     "[aā]gamas",
+     "k[aā]rik[aā]s?"
+    ]
+   }
+  },
+  "consciousness": {
+   "label": "Consciousness",
+   "heat": "Consciousness: compare takes",
+   "kw": [
+    "consciousness",
+    "aware(ness)? of (being )?aware",
+    "pure awareness",
+    "witness(ing)? (consciousness|awareness)",
+    "s[aā]k[sṣ]h?[iī]",
+    "chaitanya",
+    "caitanya",
+    "turiya",
+    "turīya",
+    "hard problem",
+    "being aware"
+   ],
+   "states": {
+    "label": "Waking, dream & deep sleep",
+    "kw": [
+     "deep sleep",
+     "dreamless sleep",
+     "dream state",
+     "waking state",
+     "three states",
+     "m[aā]ndukya",
+     "avasth[aā]"
+    ]
+   }
+  },
+  "reality": {
+   "label": "Reality & illusion",
+   "heat": "Is the world real? compare takes",
+   "kw": [
+    "reality",
+    "real(ity)? of the world",
+    "brahman",
+    "non-?dual\\w*",
+    "advaita",
+    "illusion",
+    "unreal"
+   ],
+   "maya": {
+    "label": "Maya",
+    "kw": [
+     "m[aā]y[aā]",
+     "superimposition",
+     "adhy[aā]sa",
+     "rope and (the )?snake",
+     "snake and (the )?rope"
+    ]
+   },
+   "nonduality": {
+    "label": "Nonduality",
+    "kw": [
+     "non-?dual\\w*",
+     "advaita",
+     "not[- ]two",
+     "oneness",
+     "no separation"
+    ]
+   }
+  },
+  "guru": {
+   "label": "The guru",
+   "heat": "The guru: compare takes",
+   "kw": [
+    "guru\\w*",
+    "sadguru",
+    "satguru",
+    "(spiritual|the|a true|perfect) master",
+    "disciple\\w*",
+    "initiation",
+    "d[iī]k[sṣ]h?[aā]",
+    "spiritual teacher"
+   ]
+  },
+  "soul": {
+   "label": "The soul",
+   "heat": "The soul: compare takes",
+   "kw": [
+    "soul",
+    "souls",
+    "psyche",
+    "immortal soul",
+    "immortality of the soul",
+    "world.soul",
+    "astral body"
+   ]
+  },
+  "gnosis": {
+   "label": "Gnosis",
+   "heat": "Gnosis: compare takes",
+   "kw": [
+    "gnosis",
+    "gnostic\\w*",
+    "secret knowledge",
+    "saving knowledge",
+    "nag hammadi",
+    "demiurge",
+    "archons?"
+   ]
+  },
+  "divine": {
+   "label": "The divine",
+   "heat": "God and the divine: compare takes",
+   "kw": [
+    "godhead",
+    "divine",
+    "divinity",
+    "the sacred",
+    "theosis",
+    "deification",
+    "union with god",
+    "mystical union",
+    "does god exist"
+   ],
+   "the-one": {
+    "label": "The One",
+    "kw": [
+     "monad",
+     "henads?",
+     "emanation",
+     "the good beyond being",
+     "alone with the alone",
+     "plotinus' one"
+    ]
+   },
+   "goddess": {
+    "label": "The Goddess",
+    "kw": [
+     "goddess\\w*",
+     "devi",
+     "dev[iī]",
+     "shakti",
+     "śakti",
+     "k[aā]l[iī]",
+     "lalit[aā]",
+     "tripura\\w*",
+     "durga",
+     "yogin[iī]s",
+     "mah[aā]vidy\\w*",
+     "divine feminine",
+     "divine mother",
+     "bhairav[iī]"
+    ]
+   }
+  },
+  "freedom": {
+   "label": "Freedom",
+   "heat": "Freedom: compare takes",
+   "kw": [
+    "freedom from the known",
+    "choiceless",
+    "conditioning",
+    "total freedom"
+   ]
+  },
+  "imaginal": {
+   "label": "The imaginal",
+   "heat": "The imaginal: compare takes",
+   "kw": [
+    "imaginal",
+    "mundus imaginalis",
+    "active imagination",
+    "archetyp\\w*",
+    "daimon\\w*",
+    "imagination",
+    "corbin",
+    "hillman",
+    "visionary",
+    "world soul",
+    "anima mundi"
+   ]
+  }
+ }
+}

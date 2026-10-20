@@ -1,0 +1,88 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/event.json",
+ "title": "Event",
+ "description": "A dated happening: historical (a council, a founding) or upcoming (a retreat run, a live session). Upcoming events link out; dates are not cached long-term. schema.org: Event (EventSeries for recurring).",
+ "type": "object",
+ "properties": {
+  "type": {
+   "const": "event"
+  },
+  "id": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "name": {
+   "type": "string"
+  },
+  "eventKind": {
+   "type": "string",
+   "enum": [
+    "historical",
+    "retreat",
+    "course",
+    "talk",
+    "sit",
+    "festival",
+    "session"
+   ]
+  },
+  "when": {
+   "$ref": "common.json#/$defs/fuzzyTime"
+  },
+  "startsAt": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "endsAt": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "tz": {
+   "type": "string"
+  },
+  "place": {
+   "$ref": "common.json#/$defs/slug"
+  },
+  "online": {
+   "type": "boolean"
+  },
+  "joinUrl": {
+   "$ref": "common.json#/$defs/url"
+  },
+  "url": {
+   "$ref": "common.json#/$defs/url"
+  },
+  "teachers": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/slug"
+   }
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "$ref": "common.json#/$defs/topicPath"
+   }
+  },
+  "recurrence": {
+   "type": "string",
+   "description": "RFC 5545 RRULE when recurring."
+  },
+  "meta": {
+   "$ref": "common.json#/$defs/meta"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "name",
+  "eventKind"
+ ],
+ "additionalProperties": true
+}

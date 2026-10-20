@@ -1,0 +1,621 @@
+{
+ "_note": "Edges typed teacher_of | academic_supervisor_of | influenced | translated | founded. conf high = stated in the cited source; medium = standard account, source not re-read today; low = plausible but UNVERIFIED (keep out of the public graph until checked). academic_supervisor_of only where a thesis supervisor is documented. Targets that are texts/orgs (shiva-sutras, blue-throat-yoga...) are node ids proposed in schools.json/texts.json.",
+ "edges": [
+  {
+   "from": "alexis-sanderson",
+   "to": "dominic-goodall",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://www.efeo.fr/membre/dominic-goodall/?lang=en",
+   "note": "DPhil Oxford 1995/96 on Rāmakaṇṭha's Kiraṇavṛtti; Goodall thanks Sanderson as supervisor in the published edition."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "judit-torzsok",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://ephe.academia.edu/JuditTorzsok",
+   "note": "DPhil Oxford 1999 on the Siddhayogeśvarīmata."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "james-mallinson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://yoga.ames.ox.ac.uk/hyp/team",
+   "note": "DPhil Oxford 2001/2002, edition of the Khecarīvidyā."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "jason-birch",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://ora.ox.ac.uk/objects/uuid:4edd5abe-0aa6-4c52-96d2-c4acfce1ad60",
+   "note": "DPhil Oxford 2013 on the Amanaska; ORA lists Sanderson as supervisor."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "csaba-kiss",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://brill.com/display/book/edcoll/9789004432802/BP000023.xml?language=en",
+   "note": "Kiss: Matsyendrasaṃhitā edited \"for my PhD studies under the supervision of Professor Alexis Sanderson\" (DPhil Oxford 2009)."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "somadeva-vasudeva",
+   "type": "academic_supervisor_of",
+   "conf": "low",
+   "source": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mAlinIvijayottaratantra.htm",
+   "note": "UNVERIFIED: Vasudeva's Oxford DPhil (Wolfson, c. 2000) on the Mālinīvijayottara is in Sanderson's field, but no source read today names the supervisor."
+  },
+  {
+   "from": "harunaga-isaacson",
+   "to": "shaman-hatley",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://www.concordia.ca/faculty/shaman-hatley.html",
+   "note": "PhD Pennsylvania 2007 \"under the direction of Harunaga Isaacson\" (not Sanderson)."
+  },
+  {
+   "from": "robert-goldman",
+   "to": "christopher-wallis",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://escholarship.org/uc/item/4p0666qj",
+   "note": "Co-chair, UC Berkeley PhD 2014."
+  },
+  {
+   "from": "alexander-von-rospatt",
+   "to": "christopher-wallis",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://escholarship.org/uc/item/4p0666qj",
+   "note": "Co-chair, UC Berkeley PhD 2014."
+  },
+  {
+   "from": "richard-gombrich",
+   "to": "mark-dyczkowski",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski",
+   "note": "Oxford DPhil 1979 (published as The Doctrine of Vibration); Dyczkowski also names Gombrich as supervisor in his Tantrāloka acknowledgements."
+  },
+  {
+   "from": "elizabeth-de-michelis",
+   "to": "mark-singleton",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Mark_Singleton_%28yoga_scholar%29",
+   "note": "PhD Cambridge 2007."
+  },
+  {
+   "from": "tilmann-vetter",
+   "to": "harunaga-isaacson",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://www.dutchstudies-satsea.nl/deelnemers/isaacson-harunaga/",
+   "note": "PhD Leiden 1995 (Vaiśeṣika); co-supervisor A. Wezler. Not a Sanderson student, though a postdoc at Oxford 1995–2000."
+  },
+  {
+   "from": "louis-renou",
+   "to": "lilian-silburn",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "source": "https://fr.wikipedia.org/wiki/Lilian_Silburn",
+   "note": "Thèse d'État 1949, Instant et cause."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "christopher-wallis",
+   "type": "influenced",
+   "conf": "high",
+   "source": "https://vishvasa.github.io/AgamaH_shaivaH/meta/articles/shaivism_and_the_Tantric_Traditions/0/Notes_on_Contributors/",
+   "note": "Wallis did an Oxford MPhil and \"studied with Professor Sanderson formally and informally at Oxford, Leipzig, Kyoto, and Portland\"; Sanderson was NOT his PhD supervisor."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "mark-dyczkowski",
+   "type": "influenced",
+   "conf": "high",
+   "source": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski",
+   "note": "Researched Kashmir Shaivism at Oxford \"under the guidance of\" Sanderson; formal supervisor was Gombrich."
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "harunaga-isaacson",
+   "type": "influenced",
+   "conf": "medium",
+   "source": "https://www.aai.uni-hamburg.de/indtib/personen/isaacson.html",
+   "note": "Postdoctoral fellow at Oxford 1995–2000 and later co-editor of the Sanderson Festschrift (2020)."
+  },
+  {
+   "from": "louis-renou",
+   "to": "andre-padoux",
+   "type": "influenced",
+   "conf": "high",
+   "source": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux",
+   "note": "Studied Sanskrit under Renou from 1940s."
+  },
+  {
+   "from": "lilian-silburn",
+   "to": "andre-padoux",
+   "type": "influenced",
+   "conf": "high",
+   "source": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux",
+   "note": "Silburn encouraged Padoux to study Abhinavagupta."
+  },
+  {
+   "from": "david-gordon-white",
+   "to": "tantra-studies",
+   "type": "influenced",
+   "conf": "medium",
+   "source": "https://www.religion.ucsb.edu/people/david-gordon-white",
+   "note": "PhD Chicago 1988; dissertation advisor not confirmed today (Doniger wrote the foreword to the published thesis)."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "alexis-sanderson",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": "https://en.wikipedia.org/wiki/Alexis_Sanderson",
+   "note": "Six years of textual study in Kashmir (1970s); no formal initiation documented."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "mark-dyczkowski",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://muktabodha.org/dr-mark-dyczkowski",
+   "note": "Initiated 1976."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "lilian-silburn",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://whowaswho-indology.info/5788/silburn-liliane/",
+   "note": "Studied Trika under Lakshmanjoo 1949–54 and later."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "andre-padoux",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux",
+   "note": "Read the Parātrīśikā with Lakshmanjoo in Srinagar 1958–59."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "bettina-baumer",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": "https://en.wikipedia.org/wiki/Bettina_Baumer",
+   "note": "Long-time student; edited the Lakshmanjoo centenary volume Saṃvidullāsaḥ (2007)."
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "jaideva-singh",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": null,
+   "note": "Worked through his translations with Lakshmanjoo (standard account in his prefaces; not re-checked today)."
+  },
+  {
+   "from": "muktananda",
+   "to": "sally-kempton",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://www.sallykempton.com/about/biography",
+   "note": "Initiated as Swami Durgananda, 1982."
+  },
+  {
+   "from": "muktananda",
+   "to": "swami-shankarananda",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": "https://www.shivaashram.org.au",
+   "note": "Disciple of Muktananda (ashram site; not re-read today)."
+  },
+  {
+   "from": "muktananda",
+   "to": "paul-muller-ortega",
+   "type": "influenced",
+   "conf": "low",
+   "source": "https://en.wikipedia.org/wiki/Siddha_Yoga",
+   "note": "Co-author of Meditation Revolution: A History and Theology of the Siddha Yoga Lineage (1997); formal discipleship not verified."
+  },
+  {
+   "from": "muktananda",
+   "to": "douglas-brooks",
+   "type": "influenced",
+   "conf": "low",
+   "source": "https://en.wikipedia.org/wiki/Siddha_Yoga",
+   "note": "Lead author of Meditation Revolution (1997); his own guru is Sundaramoorthy."
+  },
+  {
+   "from": "gopala-aiyar-sundaramoorthy",
+   "to": "douglas-brooks",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://rajanaka.com/about",
+   "note": "Student from 1977 until Appa's death in 1994."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "shambhavi-sarasvati",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://jayakula.org/about-shambhavi",
+   "note": "Root guru (devotional relationship; Ma died 1982)."
+  },
+  {
+   "from": "yogaswami",
+   "to": "sivaya-subramuniyaswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://www.himalayanacademy.com",
+   "note": "Initiated in Jaffna, 1949 (Himalayan Academy lineage page)."
+  },
+  {
+   "from": "sivaya-subramuniyaswami",
+   "to": "bodhinatha-veylanswami",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://www.himalayanacademy.com",
+   "note": "Named successor; head of the monastery since 2001."
+  },
+  {
+   "from": "swami-rama",
+   "to": "rajmani-tigunait",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://www.himalayaninstitute.org",
+   "note": "Successor as spiritual head of the Himalayan Institute."
+  },
+  {
+   "from": "swami-rudrananda",
+   "to": "swami-khecaranatha",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": "https://www.youtube.com/watch?v=NOioVq5l6Yk",
+   "note": "Khecaranatha teaches in Rudi's line (titles: \"Swami Khecaranatha on Rudi's Double-Breath\")."
+  },
+  {
+   "from": "bhagawan-nityananda",
+   "to": "muktananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": null,
+   "note": "Already in edges.json; repeated for completeness."
+  },
+  {
+   "from": "somananda",
+   "to": "utpaladeva",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Utpaladeva",
+   "note": null
+  },
+  {
+   "from": "utpaladeva",
+   "to": "lakshmanagupta",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Utpaladeva",
+   "note": null
+  },
+  {
+   "from": "lakshmanagupta",
+   "to": "abhinavagupta",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": null,
+   "note": "Already in edges.json."
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "kshemaraja",
+   "type": "teacher_of",
+   "conf": "high",
+   "source": null,
+   "note": "Already in edges.json."
+  },
+  {
+   "from": "matsyendranatha",
+   "to": "gorakhnath",
+   "type": "teacher_of",
+   "conf": "medium",
+   "source": null,
+   "note": "Traditional Nāth account (hagiographic)."
+  },
+  {
+   "from": "lakulisha",
+   "to": "pashupata",
+   "type": "founded",
+   "conf": "medium",
+   "source": null,
+   "note": "Traditional attribution."
+  },
+  {
+   "from": "christopher-wallis",
+   "to": "tantra-illuminated",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://tantrailluminated.com",
+   "note": null
+  },
+  {
+   "from": "paul-muller-ortega",
+   "to": "blue-throat-yoga",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://www.bluethroatyoga.com/about-paul-muller-ortega",
+   "note": "2006."
+  },
+  {
+   "from": "shambhavi-sarasvati",
+   "to": "jaya-kula",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://jayakula.org/about-jaya-kula",
+   "note": null
+  },
+  {
+   "from": "amritananda",
+   "to": "devipuram",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://devipuram.org/guruji-amritananda/",
+   "note": null
+  },
+  {
+   "from": "douglas-brooks",
+   "to": "rajanaka",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://rajanaka.com/about",
+   "note": "Publicly taught since 1999."
+  },
+  {
+   "from": "sthaneshwar-timalsina",
+   "to": "vimarsha-foundation",
+   "type": "founded",
+   "conf": "medium",
+   "source": "https://www.vimarshafoundation.org",
+   "note": null
+  },
+  {
+   "from": "james-mallinson",
+   "to": "hatha-yoga-project",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://yoga.ames.ox.ac.uk/hyp",
+   "note": "ERC-funded project at SOAS (2015–2020), PI Mallinson; Birch and Singleton senior researchers."
+  },
+  {
+   "from": "john-hughes",
+   "to": "universal-shaiva-fellowship",
+   "type": "founded",
+   "conf": "medium",
+   "source": "https://www.universalshaivafellowship.org",
+   "note": "Publishes Lakshmanjoo's recordings (Lakshmanjoo Academy)."
+  },
+  {
+   "from": "sivaya-subramuniyaswami",
+   "to": "kauai-aadheenam",
+   "type": "founded",
+   "conf": "high",
+   "source": "https://www.himalayanacademy.com",
+   "note": null
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "shiva-sutras",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "spanda-karika",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "jaideva-singh",
+   "to": "pratyabhijna-hrdayam",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "lilian-silburn",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Lilian_Silburn",
+   "note": null
+  },
+  {
+   "from": "lilian-silburn",
+   "to": "tantraloka",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux",
+   "note": null
+  },
+  {
+   "from": "andre-padoux",
+   "to": "tantraloka",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Padoux",
+   "note": null
+  },
+  {
+   "from": "mark-dyczkowski",
+   "to": "tantraloka",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski",
+   "note": null
+  },
+  {
+   "from": "mark-dyczkowski",
+   "to": "spanda-karika",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "christopher-wallis",
+   "to": "pratyabhijna-hrdayam",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://hareesh.org",
+   "note": null
+  },
+  {
+   "from": "christopher-wallis",
+   "to": "spanda-karika",
+   "type": "translated",
+   "conf": "medium",
+   "source": null,
+   "note": null
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "shiva-sutras",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://www.lakshmanjooacademy.org",
+   "note": null
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "vijnana-bhairava",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://www.lakshmanjooacademy.org",
+   "note": null
+  },
+  {
+   "from": "somadeva-vasudeva",
+   "to": "malinivijayottara-tantra",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mAlinIvijayottaratantra.htm",
+   "note": null
+  },
+  {
+   "from": "shaman-hatley",
+   "to": "brahmayamala",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://www.ifpindia.org/bookstore/ci133/",
+   "note": null
+  },
+  {
+   "from": "csaba-kiss",
+   "to": "brahmayamala",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://www.ifpindia.org/bookstore/ci130/",
+   "note": null
+  },
+  {
+   "from": "judit-torzsok",
+   "to": "siddhayogeshvarimata",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://ephe.academia.edu/JuditTorzsok",
+   "note": null
+  },
+  {
+   "from": "dominic-goodall",
+   "to": "kiranavrtti",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://publications.efeo.fr/en/editeur/7_goodall-dominic",
+   "note": null
+  },
+  {
+   "from": "dominic-goodall",
+   "to": "nisvasatattvasamhita",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://publications.efeo.fr/en/livres/828_the-ni-v-satattvasa-hit--the-earliest-surviving-aiva-tantra",
+   "note": null
+  },
+  {
+   "from": "james-mallinson",
+   "to": "khecarividya",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://ora.ox.ac.uk/objects/uuid:945071bf-3282-4492-8f18-159417f5d554",
+   "note": null
+  },
+  {
+   "from": "james-mallinson",
+   "to": "dattatreyayogashastra",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://yoga.ames.ox.ac.uk/hyp/publications",
+   "note": null
+  },
+  {
+   "from": "james-mallinson",
+   "to": "amrtasiddhi",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://yoga.ames.ox.ac.uk/hyp/publications",
+   "note": null
+  },
+  {
+   "from": "jason-birch",
+   "to": "amanaska",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://ora.ox.ac.uk/objects/uuid:4edd5abe-0aa6-4c52-96d2-c4acfce1ad60",
+   "note": null
+  },
+  {
+   "from": "jason-birch",
+   "to": "amaraugha",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://hal.science/hal-05306873",
+   "note": null
+  },
+  {
+   "from": "jason-birch",
+   "to": "yogacintamani",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://hal.science/hal-05306877",
+   "note": null
+  },
+  {
+   "from": "csaba-kiss",
+   "to": "matsyendrasamhita",
+   "type": "translated",
+   "conf": "high",
+   "source": "https://brill.com/display/book/edcoll/9789004432802/BP000023.xml?language=en",
+   "note": null
+  }
+ ]
+}

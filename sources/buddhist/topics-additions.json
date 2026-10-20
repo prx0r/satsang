@@ -1,0 +1,104 @@
+{
+ "_note": "Proposed topic leaves (2026-10-20). Each is a new leaf under an existing root in app/schema/topics.json; keywords are regex fragments in the same style as kw. kwAdd proposes extra cues for existing nodes (used by this sourcer internally).",
+ "leaves": [
+  {
+   "root": "self",
+   "id": "self/emptiness",
+   "label": "Emptiness",
+   "keywords": [
+    "emptiness",
+    "empty of",
+    "sunyata",
+    "suññatā",
+    "śūnyatā",
+    "shunyata",
+    "sunnata",
+    "interbeing",
+    "madhyamaka",
+    "nagarjuna",
+    "nāgārjuna",
+    "heart sutra",
+    "form is emptiness",
+    "dependent arising and emptiness"
+   ]
+  },
+  {
+   "root": "kindness",
+   "id": "kindness/compassion",
+   "label": "Compassion",
+   "keywords": [
+    "compassion\\w*",
+    "karuna",
+    "karuṇā",
+    "bodhicitta",
+    "bodhichitta",
+    "tonglen",
+    "bodhisattva\\w*",
+    "self-compassion"
+   ]
+  },
+  {
+   "root": "death",
+   "id": "death/bardo",
+   "label": "Bardo",
+   "keywords": [
+    "bardo\\w*",
+    "intermediate state",
+    "between (death and rebirth|lives)",
+    "book of the dead",
+    "clear light of death",
+    "phowa"
+   ]
+  },
+  {
+   "root": "meditation",
+   "id": "meditation/koan",
+   "label": "Koan",
+   "keywords": [
+    "koans?",
+    "kōans?",
+    "gateless (gate|barrier)",
+    "mumonkan",
+    "blue cliff",
+    "hua ?tou",
+    "mu koan",
+    "mu",
+    "joshu",
+    "zhaozhou",
+    "genjo ?koan",
+    "genjōkōan"
+   ]
+  }
+ ],
+ "kwAdd": {
+  "meditation": [
+   "zazen",
+   "shikantaza",
+   "just sitting",
+   "sesshin",
+   "dzogchen",
+   "mahamudra"
+  ],
+  "awakening": [
+   "buddha[- ]nature",
+   "true nature",
+   "big mind",
+   "original face",
+   "rigpa"
+  ],
+  "self": [
+   "small self",
+   "big self",
+   "selflessness"
+  ],
+  "dukkha": [
+   "dissatisfaction"
+  ]
+ },
+ "kwRemove": {
+  "death": [
+   "deathless"
+  ],
+  "_why": "\"deathless\" is an awakening term (amata) and mis-tags awakening passages as death; keep it under awakening only."
+ }
+}

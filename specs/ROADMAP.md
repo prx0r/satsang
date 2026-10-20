@@ -1,0 +1,34 @@
+# Wiser: implementation roadmap (for the integrator, after wiser-organise finishes)
+
+Ordered, each step shippable on its own, each with screenshots before deploy (user rule) and **no restyle: the current dark
+design (serif headings, gold) throughout**. Tags: **[app]** = needs only `app/` (site, tools, static data, API code without
+schema change) · **[D1]** = needs a D1 migration (apply with `npx wrangler d1 execute wiser --remote --file …`).
+Before step 1: merge the deep sourcers (`sources/deep-*`) per BRIEF "Merging the sourcing folders", extending
+`merge-sources.py` to read `practices.json`, `texts.json`, `schools.json` and `lineages.json` (types incl.
+`academic_supervisor_of`), so the later steps have practices, texts and scholarly edges to show.
+
+| # | step | tag | what ships | done when |
+|---|---|---|---|---|
+| 1 | **Unified data build** | [app] | Move `mcp/build-data.mjs` to `app/tools/build-unified.mjs`; run after `build-wise.py`; writes `site/data/wiser.json` (+ `schema/` copy); add `specs/schema/validate.py` to `deploy.sh` (fail on invalid). Ingest deep `practices.json` → Practice (kind, steps, sources, cautions), `texts.json` → Text, `lineages.json` → Edge with `lineage: dharma|academic`. | 0 schema errors; counts in BRIEF |
+| 2 | **Topic gate + tiers in the client** | [app] | Port `rank.mjs` to `src/rank-topics.js`: quality q, MMR, tiering (DEEP_MIN = 8 already exists), the TOPICS §6 gate. Topics tab shows only published topics; others "Talks arriving". Hub "Watch" rails per sub-question ordered by MMR. | 28 roots published; hub screenshots |
+| 3 | **Live quality signals** | [D1] `0016_clip_stats.sql` | `clip_stats(clip, bt, bt_se, picks, completion, resonates, updated_at)` filled by the nightly tally (exists for BT) + `/resonate/counts` + watch events; published as `site/data/stats.json`; `quality()` reads it. | stats.json in dist; q uses bt when picks ≥ 30 |
+| 4 | **Topic flash v1 (phone + desktop)** | [app] | LOOP §1–3: title card, 2–3 teachers from different schools, 3-card ballot (A>B, A>C votes with `context: flash:<topic>`; existing `votes` table), bridge card with reason, explore slot, session fatigue, vertical-first per slot on touch, horizontal-only on desktop (existing `vertOK()`). Classic pair stays on hubs and `#clash`. Teacher pages: topic-overlap `sim`. | screenshots phone + desktop approved by the user before deploy |
+| 5 | **Flash events + offline replay** | [app] | `/events` kinds `flash_shown`, `flash_pick`, `bridge` (lexicon additions; existing table accepts JSON signals); a `tools/replay.py` that re-scores logged sessions for λ / explore-share tuning. | events visible in D1 |
+| 6 | **TV lean-back mode** | [app] | LOOP §4: `#tv`, auto-continue, OK = "This resonates", D-pad focus with `--glow`, sit interlude. | TV-size screenshots |
+| 7 | **Path URLs + JSON-LD + sitemap + llms.txt + /data** | [app] (web-worker) | Worker serves `/person/…` etc. with server-filled title/description/JSON-LD (`mcp/src/jsonld.mjs`), client router reads pathname; `/data/*` from `build-dump.mjs`; `/schema/*`; `/llms.txt`; `/sitemap.xml`; robots. Transcript guard also scans `dist-data/`. | Rich Results test passes on a topic, a person, a practice |
+| 8 | **MCP server live** | [app] (new Worker, no D1) | Deploy `mcp/` as `wiser-mcp` on `mcp.tantrafiles.xyz` after review (data = step 1's `wiser.json`). Add Atlas tools (`get_concept_thread`, `find_path`) and `find_places` when the Atlas lands. | MCP Inspector lists 7 tools; a Claude/ChatGPT connector call works |
+| 9 | **Practices + timer (device only)** | [app] | `#practice/<id>` page (steps, cautions above step 1, needsTeacher gate, source link, related talks), the dark timer (gold ring, bells at step cues), log to `localStorage wiser.practice`; Practise tab on hubs. | timer + log screenshots |
+| 10 | **Profile store + device claim** | [D1] `0017_profile.sql` | PROFILE §7 tables (`saves`, `practice_log`, `routines`, `journeys`, `taste`, `device_claims`, `profile_settings`); endpoints `/me/claim-device`, `/saves`, `/practice/log`, `/me/practice`, `/me/routines`, `/journeys/:id/progress`, `/me/export`, `DELETE /me`. Anonymous `who = 'd:<device>'`. | export JSON validates vs `profile.json`; claim test merges a device |
+| 11 | **Taste vector + "What resonates with you"** | [app] (uses 10 for sync) | PROFILE §2 Beta facets computed client-side from picks/resonates/practice; "Your model" tab shows chips + "Still exploring"; recommend/flash use it. Server copy in `taste` when signed in. | chips appear after 5 picks |
+| 12 | **Collections: sets, journeys, series, cycles, syllabi** | [app] for editorial (static JSON) · [D1] (step 10 `journeys`) for progress | `#collection/<id>` player per kind (DATA-MODEL §2.4); editorial collections authored as JSON in `wisegraph/collections/`; first three: "Rebirth: read and practise" (exists), "Seven days with death" (journey), "Metta in four traditions" (meditation-series). Journey resume + one reminder a day max. | a 7-day journey resumes across devices |
+| 13 | **Topic pipeline: segmentation + LLM labels + review queues** | [app] (tools, internal) · [D1] `0018_topic_review.sql` (`topic_reviews`, `topic_proposals`) | TOPICS §3–5: internal segmentation on transcripts (build machine only), LLM labelling constrained to ids, admin queues (dark design), merge/split jobs, virtual-clip proposals. "Suggest a topic" with +1s. | 50 reviewed tags; one merge and one promotion applied |
+| 14 | **Curations and essays** | [D1] `0019_curations.sql` | `curations`, `curation_items`, `reports`; `/c/<handle>/<slug>` pages styled like topic hubs; drafts, publish, licence choice, report flow, public profile `/u/<handle>` (off by default). | a public curation renders + appears in `/data` |
+| 15 | **Visualisation cycles with deitybody** | [app] | Practice `visual` ids render via the deitybody grammar inside the timer; first cycle: Middle Pillar week. | user review |
+| 16 | **Gather phase 1** | [D1] | GATHER-SPEC sessions/rsvps/reminders + MCP `list_sessions` etc. | later |
+
+Notes for the integrator
+- Steps 1–9 need no D1 change except step 3; 1, 2, 4 are the critical path for the new main loop.
+- Keep `RESONANCE = true`, `GATE_SEC`, the footage/reading exclusions and the vertical HARD rule exactly as they are.
+- Every step re-runs the transcript guards; nothing in `specs/` or `mcp/` contains transcript text (checked: the
+  normaliser never reads `transcripts-internal/`).
+- If something loops more than twice, move on and note it in BRIEF.

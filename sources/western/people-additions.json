@@ -1,0 +1,1192 @@
+{
+ "_note": "western group additions (2026-10-20). kind: speaker | figure | text (role mirrors kind for the sourcing spec). Wikidata ids from wbsearchentities 2026-10-20; null = no clean item found or not checked. Bios in our own words.",
+ "people": [
+  {
+   "id": "plato",
+   "name": "Plato",
+   "short": "Plato",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "platonism",
+   "wikidata": "Q859",
+   "years": "c. 428–348 BCE",
+   "bio": "Athenian philosopher and student of Socrates whose dialogues set out the Forms, the immortal soul and the turn of the soul toward the Good.",
+   "aliases": [
+    "plato",
+    "platonic",
+    "platonist"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "plato-republic",
+     "title": "Republic",
+     "kind": "text"
+    },
+    {
+     "id": "plato-phaedo",
+     "title": "Phaedo",
+     "kind": "text"
+    },
+    {
+     "id": "plato-symposium",
+     "title": "Symposium",
+     "kind": "text"
+    },
+    {
+     "id": "plato-phaedrus",
+     "title": "Phaedrus",
+     "kind": "text"
+    },
+    {
+     "id": "plato-meno",
+     "title": "Meno",
+     "kind": "text"
+    },
+    {
+     "id": "plato-timaeus",
+     "title": "Timaeus",
+     "kind": "text"
+    },
+    {
+     "id": "plato-myth-of-er",
+     "title": "The Myth of Er (Republic X)",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "socrates",
+   "name": "Socrates",
+   "short": "Socrates",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "platonism",
+   "wikidata": "Q913",
+   "years": "c. 470–399 BCE",
+   "bio": "Athenian philosopher known through Plato and Xenophon; made self-examination and the care of the soul the work of philosophy.",
+   "aliases": [
+    "socrates",
+    "socratic"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "plato-apology",
+     "title": "Apology (Plato)",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "pythagoras",
+   "name": "Pythagoras",
+   "short": "Pythagoras",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "platonism",
+   "wikidata": "Q10261",
+   "years": "c. 570–495 BCE",
+   "bio": "Founder of a religious-philosophical community in southern Italy, remembered for number mysticism and the transmigration of souls.",
+   "aliases": [
+    "pythagoras",
+    "pythagorean",
+    "pythagoreans"
+   ],
+   "channels": [],
+   "links": {},
+   "works": []
+  },
+  {
+   "id": "plotinus",
+   "name": "Plotinus",
+   "short": "Plotinus",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "neoplatonism",
+   "wikidata": "Q134189",
+   "years": "c. 204–270",
+   "bio": "Founder of Neoplatonism; taught that all things flow from the One and that the soul can return to it through contemplation.",
+   "aliases": [
+    "plotinus",
+    "plotinian",
+    "enneads"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "plotinus-enneads",
+     "title": "Enneads",
+     "kind": "text",
+     "year": 270
+    }
+   ]
+  },
+  {
+   "id": "proclus",
+   "name": "Proclus",
+   "short": "Proclus",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "neoplatonism",
+   "wikidata": "Q271809",
+   "years": "412–485",
+   "bio": "Head of the Platonic Academy in Athens who systematised late Neoplatonism and joined philosophy to theurgic ritual.",
+   "aliases": [
+    "proclus"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "proclus-elements-of-theology",
+     "title": "Elements of Theology",
+     "kind": "text"
+    },
+    {
+     "id": "proclus-platonic-theology",
+     "title": "Platonic Theology",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "marsilio-ficino",
+   "name": "Marsilio Ficino",
+   "short": "Marsilio Ficino",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "renaissance-platonism",
+   "wikidata": "Q192374",
+   "years": "1433–1499",
+   "bio": "Florentine priest who translated Plato and Plotinus into Latin and led the Renaissance revival of Platonism.",
+   "aliases": [
+    "ficino",
+    "marsilio ficino"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "ficino-platonic-theology",
+     "title": "Platonic Theology",
+     "kind": "text",
+     "year": 1482
+    },
+    {
+     "id": "ficino-de-amore",
+     "title": "De Amore (Commentary on the Symposium)",
+     "kind": "text",
+     "year": 1469
+    }
+   ]
+  },
+  {
+   "id": "jesus",
+   "name": "Jesus of Nazareth",
+   "short": "Jesus",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christianity",
+   "wikidata": "Q302",
+   "years": "c. 4 BCE – c. 30 CE",
+   "bio": "Jewish teacher from Galilee whose sayings and death are the root of Christianity; read here through contemplative and Gnostic eyes.",
+   "aliases": [
+    "jesus",
+    "christ",
+    "jesus of nazareth"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "sermon-on-the-mount",
+     "title": "Sermon on the Mount",
+     "kind": "text"
+    },
+    {
+     "id": "gospel-of-thomas",
+     "title": "Gospel of Thomas (attributed sayings)",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "meister-eckhart",
+   "name": "Meister Eckhart",
+   "short": "Meister Eckhart",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q76548",
+   "years": "c. 1260–1328",
+   "bio": "Dominican friar and preacher who taught detachment, the ground of the soul and the birth of God in the soul.",
+   "aliases": [
+    "eckhart",
+    "meister eckhart"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "eckhart-german-sermons",
+     "title": "German Sermons",
+     "kind": "text"
+    },
+    {
+     "id": "eckhart-on-detachment",
+     "title": "On Detachment",
+     "kind": "text"
+    },
+    {
+     "id": "eckhart-book-of-divine-consolation",
+     "title": "The Book of Divine Consolation",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "pseudo-dionysius",
+   "name": "Pseudo-Dionysius the Areopagite",
+   "short": "Pseudo-Dionysius",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q312816",
+   "years": "late 5th – early 6th c.",
+   "bio": "Anonymous Christian Neoplatonist whose writings on the divine names and knowing God by unknowing shaped Christian mysticism.",
+   "aliases": [
+    "dionysius",
+    "pseudo-dionysius",
+    "areopagite"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "dionysius-mystical-theology",
+     "title": "The Mystical Theology",
+     "kind": "text"
+    },
+    {
+     "id": "dionysius-divine-names",
+     "title": "The Divine Names",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "marguerite-porete",
+   "name": "Marguerite Porete",
+   "short": "Marguerite Porete",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q255132",
+   "years": "d. 1310",
+   "bio": "Beguine mystic burned for heresy in Paris; her book describes the soul annihilated in divine love.",
+   "aliases": [
+    "porete",
+    "marguerite porete"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "porete-mirror-of-simple-souls",
+     "title": "The Mirror of Simple Souls",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "jakob-boehme",
+   "name": "Jakob Böhme",
+   "short": "Jakob Böhme",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q77017",
+   "years": "1575–1624",
+   "bio": "Shoemaker of Görlitz whose visionary writings on the divine abyss founded Christian theosophy.",
+   "aliases": [
+    "boehme",
+    "böhme",
+    "jacob boehme"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "boehme-aurora",
+     "title": "Aurora",
+     "kind": "text",
+     "year": 1612
+    }
+   ]
+  },
+  {
+   "id": "rudolf-steiner",
+   "name": "Rudolf Steiner",
+   "short": "Rudolf Steiner",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "anthroposophy",
+   "wikidata": "Q78484",
+   "years": "1861–1925",
+   "bio": "Austrian esotericist who left the Theosophical Society to found Anthroposophy, teaching karma, reincarnation and a path of spiritual knowledge.",
+   "aliases": [
+    "steiner",
+    "rudolf steiner",
+    "anthroposophy",
+    "anthroposophical"
+   ],
+   "channels": [],
+   "links": {
+    "Rudolf Steiner Archive": "https://rsarchive.org"
+   },
+   "works": [
+    {
+     "id": "steiner-theosophy",
+     "title": "Theosophy",
+     "kind": "book",
+     "year": 1904
+    },
+    {
+     "id": "steiner-how-to-know-higher-worlds",
+     "title": "How to Know Higher Worlds",
+     "kind": "book",
+     "year": 1904
+    },
+    {
+     "id": "steiner-philosophy-of-freedom",
+     "title": "The Philosophy of Freedom",
+     "kind": "book",
+     "year": 1894
+    },
+    {
+     "id": "steiner-karmic-relationships",
+     "title": "Karmic Relationships (lectures)",
+     "kind": "talk",
+     "year": 1924
+    }
+   ]
+  },
+  {
+   "id": "helena-blavatsky",
+   "name": "Helena Blavatsky",
+   "short": "Helena Blavatsky",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "theosophy",
+   "wikidata": "Q189454",
+   "years": "1831–1891",
+   "bio": "Russian-born occultist who co-founded the Theosophical Society and spread ideas of karma and reincarnation in the West.",
+   "aliases": [
+    "blavatsky",
+    "h.p.b.",
+    "hpb"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "blavatsky-isis-unveiled",
+     "title": "Isis Unveiled",
+     "kind": "book",
+     "year": 1877
+    },
+    {
+     "id": "blavatsky-secret-doctrine",
+     "title": "The Secret Doctrine",
+     "kind": "book",
+     "year": 1888
+    },
+    {
+     "id": "blavatsky-voice-of-the-silence",
+     "title": "The Voice of the Silence",
+     "kind": "book",
+     "year": 1889
+    }
+   ]
+  },
+  {
+   "id": "george-gurdjieff",
+   "name": "G. I. Gurdjieff",
+   "short": "Gurdjieff",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "fourth-way",
+   "wikidata": "Q217771",
+   "years": "c. 1866/77–1949",
+   "bio": "Armenian-Greek teacher of the Fourth Way, who held that people live asleep and can wake through self-remembering and conscious work.",
+   "aliases": [
+    "gurdjieff",
+    "g.i. gurdjieff",
+    "fourth way",
+    "the work"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "gurdjieff-beelzebubs-tales",
+     "title": "Beelzebub's Tales to His Grandson",
+     "kind": "book",
+     "year": 1950
+    },
+    {
+     "id": "gurdjieff-meetings-with-remarkable-men",
+     "title": "Meetings with Remarkable Men",
+     "kind": "book",
+     "year": 1963
+    }
+   ]
+  },
+  {
+   "id": "pd-ouspensky",
+   "name": "P. D. Ouspensky",
+   "short": "Ouspensky",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "fourth-way",
+   "wikidata": "Q434266",
+   "years": "1878–1947",
+   "bio": "Russian writer who studied with Gurdjieff and set out the Fourth Way system for Western readers.",
+   "aliases": [
+    "ouspensky"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "ouspensky-in-search-of-the-miraculous",
+     "title": "In Search of the Miraculous",
+     "kind": "book",
+     "year": 1949
+    },
+    {
+     "id": "ouspensky-fourth-way",
+     "title": "The Fourth Way",
+     "kind": "book",
+     "year": 1957
+    }
+   ]
+  },
+  {
+   "id": "mary-magdalene",
+   "name": "Mary Magdalene",
+   "short": "Mary Magdalene",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "gnosticism",
+   "wikidata": "Q63070",
+   "years": "1st c.",
+   "bio": "Follower of Jesus and witness of the resurrection; the Gospel of Mary presents her as receiver of secret teaching on the soul's ascent.",
+   "aliases": [
+    "mary magdalene",
+    "gospel of mary"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "gospel-of-mary",
+     "title": "Gospel of Mary",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "nag-hammadi-library",
+   "name": "Nag Hammadi library",
+   "short": "Nag Hammadi",
+   "kind": "text",
+   "role": "figure",
+   "tradition": "gnosticism",
+   "wikidata": "Q222999",
+   "years": "codices c. 350–400 CE; found 1945",
+   "bio": "Thirteen Coptic codices found in Upper Egypt in 1945, holding Gnostic and early Christian texts.",
+   "aliases": [
+    "nag hammadi",
+    "apocryphon of john",
+    "thunder perfect mind",
+    "gospel of thomas",
+    "holy book of the great invisible spirit"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "apocryphon-of-john",
+     "title": "Apocryphon of John",
+     "kind": "text"
+    },
+    {
+     "id": "gospel-of-thomas-nh",
+     "title": "Gospel of Thomas",
+     "kind": "text"
+    },
+    {
+     "id": "thunder-perfect-mind",
+     "title": "Thunder, Perfect Mind",
+     "kind": "text"
+    },
+    {
+     "id": "great-invisible-spirit",
+     "title": "Holy Book of the Great Invisible Spirit",
+     "kind": "text"
+    }
+   ]
+  },
+  {
+   "id": "jiddu-krishnamurti",
+   "name": "J. Krishnamurti",
+   "short": "Krishnamurti",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "krishnamurti",
+   "wikidata": "Q179266",
+   "years": "1895–1986",
+   "bio": "Raised by the Theosophical Society as its World Teacher, he dissolved its order in 1929 and spent six decades speaking on freedom from the known.",
+   "aliases": [
+    "krishnamurti",
+    "jiddu krishnamurti",
+    "j. krishnamurti",
+    "k"
+   ],
+   "channels": [
+    {
+     "name": "J. Krishnamurti - Official Channel",
+     "id": "UC88A5W9XyWx7WSwthd5ykhw",
+     "url": "https://www.youtube.com/@kfoundation",
+     "official": true
+    },
+    {
+     "name": "Krishnamurti Foundation Trust",
+     "id": "UCX8wFEiD_FaLPgHM6wPD0Wg",
+     "url": "https://www.youtube.com/channel/UCX8wFEiD_FaLPgHM6wPD0Wg",
+     "official": true
+    }
+   ],
+   "links": {
+    "Website": "https://kfoundation.org",
+    "KFT": "https://kfoundation.org"
+   },
+   "works": [
+    {
+     "id": "k-freedom-from-the-known",
+     "title": "Freedom from the Known",
+     "kind": "book",
+     "year": 1969
+    },
+    {
+     "id": "k-first-and-last-freedom",
+     "title": "The First and Last Freedom",
+     "kind": "book",
+     "year": 1954
+    },
+    {
+     "id": "k-truth-is-a-pathless-land",
+     "title": "Truth is a Pathless Land (dissolution speech)",
+     "kind": "talk",
+     "year": 1929
+    },
+    {
+     "id": "k-ending-of-time",
+     "title": "The Ending of Time (with David Bohm)",
+     "kind": "book",
+     "year": 1985
+    }
+   ]
+  },
+  {
+   "id": "justin-sledge",
+   "name": "Justin Sledge",
+   "short": "Justin Sledge",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "western-esotericism",
+   "wikidata": null,
+   "years": null,
+   "bio": "Historian of philosophy and religion who presents ESOTERICA, a channel on the history of mysticism, Gnosticism and Hermeticism.",
+   "aliases": [
+    "sledge",
+    "dr justin sledge",
+    "esoterica"
+   ],
+   "channels": [
+    {
+     "name": "ESOTERICA",
+     "id": "UCoydhtfFSk1fZXNRnkGnneQ",
+     "url": "https://www.youtube.com/@TheEsotericaChannel",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "esoterica-middle-platonism",
+     "title": "Being and Logos: Introduction to Middle Platonism",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "filip-holm",
+   "name": "Filip Holm",
+   "short": "Filip Holm",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q134521272",
+   "years": null,
+   "bio": "Swedish scholar of religion and educator who runs Let's Talk Religion, long-form videos on mysticism across traditions.",
+   "aliases": [
+    "filip holm",
+    "let's talk religion"
+   ],
+   "channels": [
+    {
+     "name": "Let's Talk Religion",
+     "id": "UC9dRb4fbJQIbQ3KHJZF_z0g",
+     "url": "https://www.youtube.com/@LetsTalkReligion",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "ltr-christmas-with-eckhart",
+     "title": "Christmas with Meister Eckhart",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "john-vervaeke",
+   "name": "John Vervaeke",
+   "short": "John Vervaeke",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "platonism",
+   "wikidata": "Q109279267",
+   "years": null,
+   "bio": "Cognitive scientist at the University of Toronto whose lecture series traces wisdom from Socrates and Plato through Gnosis and Neoplatonism.",
+   "aliases": [
+    "vervaeke"
+   ],
+   "channels": [
+    {
+     "name": "John Vervaeke’s Lectern",
+     "id": "UCpqDUjTsof-kTNpnyWper_Q",
+     "url": "https://www.youtube.com/@johnvervaeke",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "vervaeke-awakening-from-the-meaning-crisis",
+     "title": "Awakening from the Meaning Crisis",
+     "kind": "talk series",
+     "year": 2019
+    }
+   ]
+  },
+  {
+   "id": "charles-stang",
+   "name": "Charles Stang",
+   "short": "Charles Stang",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "platonism",
+   "wikidata": null,
+   "years": null,
+   "bio": "Harvard Divinity School scholar of early Christian mysticism, heard here in dialogue with John Vervaeke on daimons and the higher self.",
+   "aliases": [
+    "stang"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "stang-our-divine-double",
+     "title": "Our Divine Double",
+     "kind": "book",
+     "year": 2016
+    }
+   ]
+  },
+  {
+   "id": "gregory-sadler",
+   "name": "Gregory B. Sadler",
+   "short": "Gregory B. Sadler",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "platonism",
+   "wikidata": null,
+   "years": null,
+   "bio": "Philosophy educator whose short 'Core Concepts' lectures walk through Plato's dialogues passage by passage.",
+   "aliases": [
+    "sadler"
+   ],
+   "channels": [
+    {
+     "name": "Gregory B. Sadler - That Philosophy Guy",
+     "id": "UCEtxsMx4qsoitFwjBdLU_gA",
+     "url": "https://www.youtube.com/@gbsadler",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "sadler-core-concepts",
+     "title": "Philosophy Core Concepts",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "pierre-grimes",
+   "name": "Pierre Grimes",
+   "short": "Pierre Grimes",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "platonism",
+   "wikidata": null,
+   "years": "1924–2023",
+   "bio": "Platonist philosopher and founder of the Noetic Society, who read Plato, Plotinus and Proclus as a living practice he called philosophical midwifery.",
+   "aliases": [
+    "grimes"
+   ],
+   "channels": [
+    {
+     "name": "Pierre Grimes and the Noetic Society",
+     "id": "UCwpMRCoVgSJ-rKyV1yhWljg",
+     "url": "https://www.youtube.com/channel/UCwpMRCoVgSJ-rKyV1yhWljg",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "grimes-noetic-society-seminars",
+     "title": "Noetic Society Friday seminars",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "michael-sugrue",
+   "name": "Michael Sugrue",
+   "short": "Michael Sugrue",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "platonism",
+   "wikidata": "Q114232273",
+   "years": "1957–2024",
+   "bio": "American historian whose Great Minds lectures on Plato and the Western canon became widely watched online.",
+   "aliases": [
+    "sugrue"
+   ],
+   "channels": [
+    {
+     "name": "Michael Sugrue",
+     "id": "UCFaYLR_1aryjfB7hLrKGRaQ",
+     "url": "https://www.youtube.com/channel/UCFaYLR_1aryjfB7hLrKGRaQ",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "sugrue-great-minds",
+     "title": "Great Minds of the Western Intellectual Tradition",
+     "kind": "talk series",
+     "year": 1992
+    }
+   ]
+  },
+  {
+   "id": "eric-steinhart",
+   "name": "Eric Steinhart",
+   "short": "Eric Steinhart",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "neoplatonism",
+   "wikidata": "Q60334246",
+   "years": null,
+   "bio": "Philosophy professor whose short lectures explain Plotinus' One, emanation and the soul's fall and return.",
+   "aliases": [
+    "steinhart"
+   ],
+   "channels": [
+    {
+     "name": "Eric Steinhart",
+     "id": "UCy7OHMeM4GulufLYodVwxsQ",
+     "url": "https://www.youtube.com/channel/UCy7OHMeM4GulufLYodVwxsQ",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "steinhart-plotinus-lectures",
+     "title": "Plotinus lectures",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "denis-robichaud",
+   "name": "Denis Robichaud",
+   "short": "Denis Robichaud",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "renaissance-platonism",
+   "wikidata": null,
+   "years": null,
+   "bio": "Historian of Renaissance philosophy and author of a study of Ficino's Plato, speaking at the Lumen Christi Institute.",
+   "aliases": [
+    "robichaud"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "robichaud-platos-persona",
+     "title": "Plato's Persona: Marsilio Ficino, Renaissance Humanism, and Platonic Traditions",
+     "kind": "book",
+     "year": 2018
+    }
+   ]
+  },
+  {
+   "id": "richard-rohr",
+   "name": "Richard Rohr",
+   "short": "Richard Rohr",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q320767",
+   "years": "b. 1943",
+   "bio": "Franciscan friar and founder of the Center for Action and Contemplation, teaching the contemplative mind and the Universal Christ.",
+   "aliases": [
+    "rohr",
+    "richard rohr"
+   ],
+   "channels": [
+    {
+     "name": "Center for Action and Contemplation",
+     "id": "UCMkqKAtSgijU439fJUNHnkA",
+     "url": "https://www.youtube.com/@CACRadicalGrace",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "rohr-universal-christ",
+     "title": "The Universal Christ",
+     "kind": "book",
+     "year": 2019
+    },
+    {
+     "id": "rohr-falling-upward",
+     "title": "Falling Upward",
+     "kind": "book",
+     "year": 2011
+    }
+   ]
+  },
+  {
+   "id": "cynthia-bourgeault",
+   "name": "Cynthia Bourgeault",
+   "short": "Cynthia Bourgeault",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q88863043",
+   "years": "b. 1947",
+   "bio": "Episcopal priest and teacher of Centering Prayer and Wisdom Christianity who draws openly on Gurdjieff's Work.",
+   "aliases": [
+    "bourgeault",
+    "cynthia bourgeault"
+   ],
+   "channels": [
+    {
+     "name": "Wisdom Way of Knowing",
+     "id": "UCkQOtYKee6GBY6y4vol3FNg",
+     "url": "https://www.youtube.com/channel/UCkQOtYKee6GBY6y4vol3FNg",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "bourgeault-wisdom-jesus",
+     "title": "The Wisdom Jesus",
+     "kind": "book",
+     "year": 2008
+    },
+    {
+     "id": "bourgeault-centering-prayer",
+     "title": "Centering Prayer and Inner Awakening",
+     "kind": "book",
+     "year": 2004
+    },
+    {
+     "id": "bourgeault-law-of-three",
+     "title": "The Holy Trinity and the Law of Three",
+     "kind": "book",
+     "year": 2013
+    }
+   ]
+  },
+  {
+   "id": "barbara-holmes",
+   "name": "Barbara A. Holmes",
+   "short": "Barbara A. Holmes",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "christian-mysticism",
+   "wikidata": "Q113585746",
+   "years": null,
+   "bio": "Writer and teacher on African American mysticism and contemplative practice, a CAC core faculty member.",
+   "aliases": [
+    "barbara holmes"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "holmes-joy-unspeakable",
+     "title": "Joy Unspeakable: Contemplative Practices of the Black Church",
+     "kind": "book",
+     "year": 2004
+    }
+   ]
+  },
+  {
+   "id": "theodore-nottingham",
+   "name": "Theodore Nottingham",
+   "short": "Theodore Nottingham",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "fourth-way",
+   "wikidata": null,
+   "years": null,
+   "bio": "Author and teacher who presents Gurdjieff's Fourth Way alongside the Christian contemplative tradition on his own channel.",
+   "aliases": [
+    "nottingham"
+   ],
+   "channels": [
+    {
+     "name": "Theodore Nottingham",
+     "id": "UCe4MMC-2xAHvKDPxQo_A1YA",
+     "url": "https://www.youtube.com/channel/UCe4MMC-2xAHvKDPxQo_A1YA",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "nottingham-fourth-way-videos",
+     "title": "Fourth Way and inner Christianity talks",
+     "kind": "talk series"
+    }
+   ]
+  },
+  {
+   "id": "jacob-needleman",
+   "name": "Jacob Needleman",
+   "short": "Jacob Needleman",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "fourth-way",
+   "wikidata": "Q15458882",
+   "years": "1934–2022",
+   "bio": "Philosopher at San Francisco State and long-time member of the Gurdjieff Work, writer on lost Christianity and the inner life.",
+   "aliases": [
+    "needleman"
+   ],
+   "channels": [
+    {
+     "name": "Jacob Needleman",
+     "id": "UCdwPlk0ofvoxbo9PB_1aQ3Q",
+     "url": "https://www.youtube.com/channel/UCdwPlk0ofvoxbo9PB_1aQ3Q",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "needleman-lost-christianity",
+     "title": "Lost Christianity",
+     "kind": "book",
+     "year": 1980
+    },
+    {
+     "id": "needleman-what-is-god",
+     "title": "What Is God?",
+     "kind": "book",
+     "year": 2009
+    }
+   ]
+  },
+  {
+   "id": "gary-lachman",
+   "name": "Gary Lachman",
+   "short": "Gary Lachman",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "fourth-way",
+   "wikidata": "Q742923",
+   "years": "b. 1955",
+   "bio": "Writer on consciousness and the Western esoteric tradition, author of studies of Ouspensky, Steiner and Blavatsky.",
+   "aliases": [
+    "lachman"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "lachman-in-search-of-pd-ouspensky",
+     "title": "In Search of P. D. Ouspensky",
+     "kind": "book",
+     "year": 2004
+    },
+    {
+     "id": "lachman-rudolf-steiner",
+     "title": "Rudolf Steiner: An Introduction to His Life and Work",
+     "kind": "book",
+     "year": 2007
+    }
+   ]
+  },
+  {
+   "id": "mitch-horowitz",
+   "name": "Mitch Horowitz",
+   "short": "Mitch Horowitz",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "western-esotericism",
+   "wikidata": "Q6880902",
+   "years": "b. 1965",
+   "bio": "Historian of alternative spirituality and writer on New Thought, Gnosticism and Gurdjieff.",
+   "aliases": [
+    "horowitz"
+   ],
+   "channels": [
+    {
+     "name": "Mitch Horowitz",
+     "id": "UCrh57VATxMZhMLz36ztIokg",
+     "url": "https://www.youtube.com/channel/UCrh57VATxMZhMLz36ztIokg",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": [
+    {
+     "id": "horowitz-occult-america",
+     "title": "Occult America",
+     "kind": "book",
+     "year": 2009
+    }
+   ]
+  },
+  {
+   "id": "pablo-sender",
+   "name": "Pablo Sender",
+   "short": "Pablo Sender",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "theosophy",
+   "wikidata": null,
+   "years": null,
+   "bio": "Theosophical Society speaker and author who teaches Blavatsky's approach to meditation and the inner self.",
+   "aliases": [
+    "pablo sender"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "sender-evolution-of-the-higher-consciousness",
+     "title": "Evolution of the Higher Consciousness",
+     "kind": "book"
+    }
+   ]
+  },
+  {
+   "id": "john-dalton",
+   "name": "John Dalton",
+   "short": "John Dalton",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "anthroposophy",
+   "wikidata": null,
+   "years": null,
+   "bio": "Speaker at the Theosophical Society in England and Wales on Rudolf Steiner's indications for the future.",
+   "aliases": [
+    "john dalton"
+   ],
+   "channels": [],
+   "links": {},
+   "works": []
+  },
+  {
+   "id": "bart-ehrman",
+   "name": "Bart D. Ehrman",
+   "short": "Bart D. Ehrman",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "gnosticism",
+   "wikidata": "Q127876",
+   "years": "b. 1955",
+   "bio": "New Testament scholar at UNC Chapel Hill who writes on early Christian diversity, including the Gnostics.",
+   "aliases": [
+    "ehrman"
+   ],
+   "channels": [],
+   "links": {},
+   "works": [
+    {
+     "id": "ehrman-lost-christianities",
+     "title": "Lost Christianities",
+     "kind": "book",
+     "year": 2003
+    }
+   ]
+  },
+  {
+   "id": "rudolf-steiner-press",
+   "name": "Rudolf Steiner Press (audio readings)",
+   "short": "Rudolf Steiner Press (audio readings)",
+   "kind": "speaker",
+   "role": "speaker",
+   "tradition": "anthroposophy",
+   "wikidata": null,
+   "years": null,
+   "bio": "UK publisher of Steiner's works whose channel posts narrated readings of his lectures; the voice is a reader, not Steiner.",
+   "aliases": [
+    "rudolf steiner press"
+   ],
+   "channels": [
+    {
+     "name": "Rudolf Steiner Press Audio",
+     "id": "UCTuPXQlrmPfDB7YLJWywnAg",
+     "url": "https://www.youtube.com/channel/UCTuPXQlrmPfDB7YLJWywnAg",
+     "official": true
+    }
+   ],
+   "links": {},
+   "works": []
+  }
+ ]
+}

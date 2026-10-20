@@ -1,0 +1,445 @@
+{
+ "_note": "places group edges (2026-10-20). Same shape as app/wisegraph/edges.json. Only edges not already in app/wisegraph/edges.json or another sources/*/edges-additions.json.",
+ "edges": [
+  {
+   "from": "ajahn-sao",
+   "to": "ajahn-mun",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajaan-lee",
+   "to": "ajahn-fuang",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-fuang",
+   "to": "thanissaro-bhikkhu",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-liem",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-jayasaro",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-viradhammo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-chah",
+   "to": "ajahn-munindo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-sumedho",
+   "to": "ajahn-sucitto",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-maha-boowa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ajahn-mun",
+   "to": "ajahn-thate",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ledi-sayadaw",
+   "to": "saya-thetgyi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "saya-thetgyi",
+   "to": "u-ba-khin",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "goenka",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "sayamagyi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mingun-sayadaw",
+   "to": "mahasi-sayadaw",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "sayadaw-u-pandita",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "chanmyay-sayadaw",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "anagarika-munindra",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anagarika-munindra",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "anagarika-munindra",
+   "to": "dipa-ma",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dipa-ma",
+   "to": "sharon-salzberg",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "dipa-ma",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "joseph-goldstein",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "sharon-salzberg",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "sayadaw-u-pandita",
+   "to": "jack-kornfield",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "shwe-oo-min-sayadaw",
+   "to": "sayadaw-u-tejaniya",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nyanatiloka",
+   "to": "nyanaponika",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "nyanatiloka",
+   "to": "nanavira-thera",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "nyanaponika",
+   "to": "bhikkhu-bodhi",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "tilopa",
+   "to": "naropa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "naropa",
+   "to": "marpa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "marpa",
+   "to": "milarepa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "milarepa",
+   "to": "gampopa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gampopa",
+   "to": "karmapa-1",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "chogyam-trungpa",
+   "to": "pema-chodron",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "tulku-urgyen",
+   "to": "chokyi-nyima-rinpoche",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ling-rinpoche",
+   "to": "dalai-lama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "trijang-rinpoche",
+   "to": "dalai-lama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "lama-yeshe",
+   "to": "lama-zopa",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gyokujun-so-on",
+   "to": "shunryu-suzuki",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kishizawa-ian",
+   "to": "shunryu-suzuki",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "shunryu-suzuki",
+   "to": "richard-baker",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "kodo-sawaki",
+   "to": "kosho-uchiyama",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "gudo-nishijima",
+   "to": "brad-warner",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "hakuun-yasutani",
+   "to": "philip-kapleau",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "hakuun-yasutani",
+   "to": "taizan-maezumi",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "taizan-maezumi",
+   "to": "bernie-glassman",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "taizan-maezumi",
+   "to": "john-daido-loori",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bernie-glassman",
+   "to": "joan-halifax",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "thich-chan-that",
+   "to": "thich-nhat-hanh",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "annamalai-swami",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "papaji",
+   "to": "gangaji",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "siddharameshwar-maharaj",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-ram-kashmir",
+   "to": "swami-mahtab-kak",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-mahtab-kak",
+   "to": "swami-lakshmanjoo",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "john-hughes",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "alexis-sanderson",
+   "type": "teacher_of",
+   "conf": "medium"
+  },
+  {
+   "from": "lakshmanagupta",
+   "to": "abhinavagupta",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "abhinavagupta",
+   "to": "kshemaraja",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhagawan-nityananda",
+   "to": "muktananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "swami-brahmananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-sivananda",
+   "to": "swami-chinmayananda",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "swami-chinmayananda",
+   "to": "swami-dayananda-saraswati",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "thomas-keating",
+   "to": "cynthia-bourgeault",
+   "type": "teacher_of",
+   "conf": "high"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "conf": "high",
+   "note": "Le Saux met Ramana in 1949; it reshaped his life"
+  },
+  {
+   "from": "abhishiktananda",
+   "to": "bede-griffiths",
+   "type": "influenced",
+   "conf": "medium",
+   "note": "Griffiths took over Shantivanam after Le Saux"
+  },
+  {
+   "from": "tsongkhapa",
+   "to": "gelug",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "karmapa-1",
+   "to": "kagyu",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "padmasambhava",
+   "to": "nyingma",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bodhidharma",
+   "to": "zen",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "vasugupta",
+   "to": "kashmir-shaivism",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "goenka",
+   "to": "goenka-vipassana",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "inchegeri",
+   "type": "lineage_of",
+   "conf": "high"
+  }
+ ]
+}

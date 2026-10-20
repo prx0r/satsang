@@ -1,0 +1,26 @@
+import json,re,ssl,urllib.request,urllib.parse,concurrent.futures as cf
+ctx=ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
+H={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
+homes={'amaravati':'https://amaravati.org','cittaviveka':'https://www.cittaviveka.org/','abhayagiri':'https://www.abhayagiri.org','metta-forest':'https://www.watmetta.org','wat-pah-nanachat':'https://www.watpahnanachat.org','aruna-ratanagiri':'https://www.ratanagiri.org.uk','birken':'https://birken.ca/','bodhinyanarama':'https://bodhinyanarama.net.nz/','muttodaya':'https://muttodaya.org/muttodaya/','dhammapala':'https://dhammapala.ch','hartridge':'https://hartridgemonastery.org/index.html',
+'wat-suan-mokkh':'https://www.suanmokkh-idh.org','pa-auk-tawya':'https://www.paaukforestmonastery.org/','mahasi-sasana-yeiktha':'https://www.mahasi.org.mm','panditarama-lumbini':'https://www.panditarama-lumbini.info','imc-uk':'https://internationalmeditationcentre.org/','na-uyana':'https://nauyana.org','nissarana-vanaya':'https://www.nissarana.lk',
+'ims-barre':'https://www.dharma.org','bcbs':'https://www.buddhistinquiry.org','spirit-rock':'https://www.spiritrock.org','gaia-house':'https://gaiahouse.co.uk','imc-redwood-city':'https://www.insightmeditationcenter.org','imcw':'https://imcw.org','cloud-mountain':'https://cloudmountain.org',
+'tushita-dharamsala':'https://tushita.info','kopan':'https://kopanmonastery.org/','root-institute':'https://rootinstitute.ngo','jamyang-london':'https://jamyang.co.uk','chenrezig-institute':'https://chenrezig.com.au/','samye-ling':'https://samyeling.org/','holy-isle':'https://holyisle.org/','kagyu-samye-dzong-london':'https://www.london.samye.org','ktd':'https://kagyu.org','tergar-osel-ling':'https://tergar.org','ka-nying-shedrub-ling':'https://shedrub.org','lerab-ling':'https://lerabling.org/','dzogchen-beara':'https://www.dzogchenbeara.org/','gampo-abbey':'https://gampoabbey.org','karme-choling':'https://www.karmecholing.org','shambhala-mountain':'https://www.dralamountain.org','deer-park-bir':'https://www.deerpark.in','ltwa':'https://tibetanlibrary.org',
+'plum-village':'https://plumvillage.org','deer-park-monastery':'https://deerparkmonastery.org','blue-cliff':'https://www.bluecliffmonastery.org','magnolia-grove':'https://magnoliagrovemonastery.org','eiab':'https://www.eiab.eu/','thai-plum-village':'https://www.thaiplumvillage.org/','tassajara':'https://www.sfzc.org/locations/tassajara/','green-gulch':'https://www.sfzc.org/locations/green-gulch-farm/','sfzc-city-center':'https://www.sfzc.org/locations/city-center/','antaiji':'https://antaiji.org','eiheiji':'https://daihonzan-eiheiji.com/en/','sanshin-zen':'https://www.sanshinji.org','upaya':'https://www.upaya.org','mountain-cloud':'https://www.mountaincloud.org','zcla':'https://zcla.org','throssel-hole':'https://throssel.org.uk',
+'sri-ramanasramam':'https://www.gururamana.org/','belur-math':'https://belurmath.org','mayavati':'https://advaitaashrama.org','vedanta-ny':'https://www.vedantany.org','vedanta-hollywood':'https://vedanta.org','rvc-ny':'https://www.ramakrishna.org','monte-sahaja':'https://mooji.org','srf-mother-center':'https://yogananda.org','srf-lake-shrine':'https://lakeshrine.org','srf-encinitas':'https://encinitastemple.org','yss-ranchi':'https://yssofindia.org','karar-ashram':'https://kararashram.org','arsha-vidya-saylorsburg':'https://arshavidya.org','arsha-vidya-anaikatti':'https://arshavidya.in/','sivananda-rishikesh':'https://www.sivanandaonline.org','shree-muktananda-ashram':'https://www.siddhayoga.org','anandamayi-kankhal':'https://www.anandamayi.org',
+'gethsemani':'https://monks.org','spencer-abbey':'https://spencerabbey.org','new-camaldoli':'https://www.contemplation.com/','taize':'https://www.taize.fr/en/','cac':'https://cac.org','bose':'https://www.monasterodibose.it','goetheanum':'https://goetheanum.ch/en','brockwood':'https://brockwood.org.uk/','ts-adyar':'https://www.ts-adyar.org','rudolf-steiner-house':'https://rsh.anth.org.uk/','vasanta-vihar':'https://www.jkrishnamurti.in','tisarana':'https://tisarana.ca','vedanta-sf':'https://sfvedanta.org'}
+KW=re.compile(r'retreat|course|program|schedule|calendar|visit|stay|guest|event|veranstalt|retraite|kurs|accommodation|ritiri|curso|summer',re.I)
+def go(item):
+    k,u=item
+    try:
+        b=urllib.request.urlopen(urllib.request.Request(u,headers=H),timeout=25,context=ctx).read(400000).decode('utf-8','ignore')
+    except Exception as e: return k,[]
+    links=set()
+    for m in re.finditer(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>',b,re.S|re.I):
+        href,txt=m.group(1),re.sub('<[^>]+>','',m.group(2)).strip()
+        full=urllib.parse.urljoin(u,href)
+        if urllib.parse.urlparse(full).netloc.replace('www.','')!=urllib.parse.urlparse(u).netloc.replace('www.',''): continue
+        if KW.search(href) or KW.search(txt): links.add((full,txt[:40]))
+    return k,sorted(links)[:14]
+with cf.ThreadPoolExecutor(16) as ex: R=dict(ex.map(go,homes.items()))
+json.dump({k:[list(x) for x in v] for k,v in R.items()},open('../cache/sched_links.json','w'),indent=0,ensure_ascii=False)
+for k,v in R.items(): print(k,'|',' ; '.join(f"{a} [{t}]" for a,t in v[:8]))

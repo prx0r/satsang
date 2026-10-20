@@ -1,0 +1,29 @@
+{
+ "_note": "places group tradition nodes (2026-10-20).",
+ "nodes": [
+  {
+   "id": "goenka-vipassana",
+   "label": "Goenka Vipassana (U Ba Khin line)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": "Lay Vipassana in the line of Ledi Sayadaw, Saya Thetgyi and U Ba Khin, taught by S. N. Goenka in 10-day dana-funded courses."
+  },
+  {
+   "id": "kagyu",
+   "label": "Kagyu",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q471187",
+   "blurb": "Tibetan school of the mahamudra lineage from Tilopa and Naropa through Marpa and Milarepa, led by the Karmapas."
+  },
+  {
+   "id": "nyingma",
+   "label": "Nyingma",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q848771",
+   "blurb": "The oldest Tibetan school, tracing to Padmasambhava, home of Dzogchen."
+  }
+ ]
+}

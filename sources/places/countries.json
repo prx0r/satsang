@@ -1,0 +1,2134 @@
+{
+ "_note": "Per-country counts (2026-10-20) from places.json (curated + Goenka centres) and vipassana-centres.json non-centre sites. traditions counts a place once per tradition it lists; families rolls up to the top-level tradition family.",
+ "countries": [
+  {
+   "iso2": "IN",
+   "name": "India",
+   "places": 185,
+   "traditions": {
+    "goenka-vipassana": 131,
+    "gelug": 5,
+    "tibetan": 12,
+    "nyingma": 2,
+    "kagyu": 3,
+    "hindu": 8,
+    "buddhism": 6,
+    "mahayana": 1,
+    "advaita": 10,
+    "ramakrishna-order": 7,
+    "inchegeri": 2,
+    "anandamayi-sangha": 2,
+    "kriya-yoga": 4,
+    "arsha-vidya": 1,
+    "divine-life-society": 1,
+    "krishnamurti": 2,
+    "kashmir-shaivism": 5,
+    "christian-mysticism": 1,
+    "theosophy": 1
+   },
+   "families": {
+    "buddhism": 149,
+    "hindu": 34,
+    "independent": 2,
+    "christian": 1,
+    "esoteric": 1
+   },
+   "types": {
+    "retreat-centre": 132,
+    "pilgrimage": 21,
+    "temple": 4,
+    "study-centre": 6,
+    "monastery": 9,
+    "ashram": 13
+   },
+   "vipassana_centres": 130,
+   "place_ids": [
+    "dhamma-giri",
+    "global-vipassana-pagoda",
+    "tushita-dharamsala",
+    "root-institute",
+    "tsuglagkhang",
+    "ltwa",
+    "sera-bylakuppe",
+    "namdroling",
+    "rumtek",
+    "gyuto",
+    "tergar-bodhgaya",
+    "deer-park-bir",
+    "sherab-ling",
+    "tso-pema",
+    "mahabodhi",
+    "sarnath",
+    "kushinagar",
+    "vulture-peak",
+    "jetavana",
+    "nalanda",
+    "sri-ramanasramam",
+    "arunachala",
+    "virupaksha-cave",
+    "skandashram",
+    "arunachaleswarar",
+    "annamalai-swami-ashram",
+    "belur-math",
+    "dakshineswar",
+    "kamarpukur",
+    "jayrambati",
+    "mayavati",
+    "rmic",
+    "vivekananda-rock",
+    "vanmali-bhavan",
+    "inchegiri-math",
+    "satsang-bhavan-lucknow",
+    "anandamayi-kankhal",
+    "anandamayi-varanasi",
+    "yss-ranchi",
+    "yss-dakshineswar",
+    "babaji-cave",
+    "karar-ashram",
+    "arsha-vidya-anaikatti",
+    "sringeri",
+    "kalady",
+    "jyotirmath",
+    "sivananda-rishikesh",
+    "vasanta-vihar",
+    "ishber-ashram",
+    "shankaracharya-temple",
+    "amarnath",
+    "bhairav-gufa-beerwah",
+    "gurudev-siddha-peeth",
+    "shantivanam",
+    "ts-adyar",
+    "rishi-valley",
+    "dhamma-ahobilam",
+    "dhamma-ajanta",
+    "dhamma-ajaya",
+    "dhamma-akkhara",
+    "dhamma-ambika",
+    "dhamma-amravati",
+    "dhamma-anchal",
+    "dhamma-anurakkhi",
+    "dhamma-anakula",
+    "dhamma-aranya",
+    "dhamma-aravalli",
+    "dhamma-aruna",
+    "dhamma-arunachala",
+    "dhamma-asama",
+    "dhamma-avani",
+    "dhamma-bala",
+    "dhamma-banga",
+    "dhamma-bhandara",
+    "dhamma-bhubaneshwar",
+    "dhamma-bhusana",
+    "dhamma-bodhi",
+    "dhamma-bavari",
+    "dhamma-cakka",
+    "dhamma-chhavi",
+    "dhamma-desa",
+    "dhamma-dhaja",
+    "dhamma-divakara",
+    "dhamma-garh",
+    "dhamma-ganga",
+    "dhamma-gond",
+    "dhamma-guna",
+    "dhamma-hitkari",
+    "dhamma-jalgaon",
+    "dhamma-jalasaya",
+    "dhamma-junagadh",
+    "dhamma-kalyana",
+    "dhamma-kanchi",
+    "dhamma-kanheri",
+    "dhamma-kaya",
+    "dhamma-ketana",
+    "dhamma-ketu",
+    "dhamma-khetta2",
+    "dhamma-khetta",
+    "dhamma-kiran",
+    "dhamma-kondanna",
+    "dhamma-kondanna2",
+    "dhamma-kota",
+    "dhamma-kuti",
+    "dhamma-kanana",
+    "dhamma-karunika",
+    "dhamma-laddha",
+    "dhamma-lakkhana",
+    "dhamma-licchavi",
+    "dhamma-madhura",
+    "dhamma-madhuvana",
+    "dhamma-malla",
+    "dhamma-manamoda",
+    "dhamma-manjusha",
+    "dhamma-marudhara",
+    "dhamma-malwa",
+    "dhamma-nadi",
+    "dhamma-nagari",
+    "dhamma-narmada",
+    "dhamma-nijjhana",
+    "dhamma-nilaya2",
+    "dhamma-niranjana",
+    "dhamma-naga",
+    "dhamma-nagajjuna1",
+    "dhamma-nagajjuna2",
+    "dhamma-nasika",
+    "dhamma-pades",
+    "dhamma-paduma",
+    "dhamma-paphulla",
+    "dhamma-parimala",
+    "dhamma-pattana",
+    "dhamma-pathara",
+    "dhamma-patthana",
+    "dhamma-pubbaja",
+    "dhamma-pubbottara",
+    "dhamma-puri",
+    "dhamma-pushkar",
+    "dhamma-punna",
+    "dhamma-pala",
+    "dhamma-pali",
+    "dhamma-patliputta",
+    "dhamma-pitha",
+    "dhamma-rata",
+    "dhamma-rava",
+    "dhamma-salila",
+    "dhamma-sambodhi",
+    "dhamma-sarita",
+    "dhamma-sarovara",
+    "dhamma-setu",
+    "dhamma-siddhapuri",
+    "dhamma-sikhara",
+    "dhamma-sikkim",
+    "dhamma-sindhu",
+    "dhamma-sindhudurg",
+    "dhamma-sineru",
+    "dhamma-sota",
+    "dhamma-sudha",
+    "dhamma-sugandha",
+    "dhamma-sugati",
+    "dhamma-sukhalaya",
+    "dhamma-suvatthi",
+    "dhamma-taposagara",
+    "dhamma-tapovana",
+    "dhamma-tapovana2",
+    "dhamma-teera",
+    "dhamma-thali",
+    "dhamma-triveni",
+    "dhamma-udaka",
+    "dhamma-upavana",
+    "dhamma-utkal",
+    "dhamma-vana",
+    "dhamma-vasudha",
+    "dhamma-vata",
+    "dhamma-vesali",
+    "dhamma-vijaya",
+    "dhamma-vipula",
+    "dhamma-vahini",
+    "dhamma-vatika",
+    "dhamma-alaya",
+    "dhamma-ananda",
+    "dhamma-rama",
+    "dhamma-avasa",
+    "dhamma-songadh",
+    "dhamma-tata",
+    "dhamma-acala"
+   ],
+   "vipassana_noncentre_sites": 15
+  },
+  {
+   "iso2": "US",
+   "name": "United States",
+   "places": 55,
+   "traditions": {
+    "thai-forest": 2,
+    "insight": 7,
+    "theravada": 1,
+    "kagyu": 3,
+    "tibetan": 3,
+    "plum-village": 3,
+    "soto-zen": 5,
+    "zen": 4,
+    "rinzai-zen": 2,
+    "ramakrishna-order": 4,
+    "kriya-yoga": 3,
+    "arsha-vidya": 1,
+    "kashmir-shaivism": 1,
+    "hindu": 1,
+    "christian-mysticism": 5,
+    "krishnamurti": 1,
+    "goenka-vipassana": 14
+   },
+   "families": {
+    "buddhism": 40,
+    "hindu": 9,
+    "christian": 5,
+    "independent": 1
+   },
+   "types": {
+    "monastery": 14,
+    "retreat-centre": 23,
+    "study-centre": 5,
+    "temple": 9,
+    "ashram": 4
+   },
+   "vipassana_centres": 14,
+   "place_ids": [
+    "abhayagiri",
+    "metta-forest",
+    "ims-barre",
+    "bcbs",
+    "spirit-rock",
+    "imc-redwood-city",
+    "imcw",
+    "cloud-mountain",
+    "bhavana-society",
+    "ktd",
+    "karme-choling",
+    "shambhala-mountain",
+    "deer-park-monastery",
+    "blue-cliff",
+    "magnolia-grove",
+    "sfzc-city-center",
+    "tassajara",
+    "green-gulch",
+    "sanshin-zen",
+    "upaya",
+    "zen-mountain-monastery",
+    "rochester-zen-center",
+    "zcla",
+    "mountain-cloud",
+    "dai-bosatsu",
+    "hoen-ji",
+    "vedanta-ny",
+    "vedanta-sf",
+    "vedanta-hollywood",
+    "rvc-ny",
+    "srf-mother-center",
+    "srf-lake-shrine",
+    "srf-encinitas",
+    "arsha-vidya-saylorsburg",
+    "shree-muktananda-ashram",
+    "gethsemani",
+    "cac",
+    "snowmass",
+    "spencer-abbey",
+    "new-camaldoli",
+    "kf-ojai",
+    "dhamma-dhara",
+    "dhamma-kunja",
+    "dhamma-mahavana",
+    "dhamma-manda",
+    "dhamma-pakasa",
+    "dhamma-pasava",
+    "dhamma-patapa",
+    "dhamma-pubbananda",
+    "dhamma-santosa",
+    "dhamma-sela",
+    "dhamma-siri",
+    "dhamma-sukha",
+    "dhamma-vaddhana",
+    "dhamma-visuddhi"
+   ],
+   "vipassana_noncentre_sites": 6
+  },
+  {
+   "iso2": "MM",
+   "name": "Myanmar",
+   "places": 31,
+   "traditions": {
+    "burmese": 8,
+    "buddhism": 1,
+    "goenka-vipassana": 23
+   },
+   "families": {
+    "buddhism": 31
+   },
+   "types": {
+    "monastery": 2,
+    "retreat-centre": 28,
+    "pilgrimage": 1
+   },
+   "vipassana_centres": 23,
+   "place_ids": [
+    "pa-auk-tawya",
+    "mahasi-sasana-yeiktha",
+    "chanmyay-yeiktha",
+    "panditarama",
+    "shwe-oo-min",
+    "imc-yangon",
+    "ledi-tawya",
+    "shwedagon",
+    "dhamma-cetiyapatthara",
+    "dhamma-hitasukhageha",
+    "dhamma-joti",
+    "dhamma-labha",
+    "dhamma-magga",
+    "dhamma-mahimar",
+    "dhamma-mahapabbata",
+    "dhamma-makuta",
+    "dhamma-mani",
+    "dhamma-manohara",
+    "dhamma-manorama",
+    "dhamma-mayuradipa",
+    "dhamma-mandala",
+    "dhamma-mandapa",
+    "dhamma-mittayana",
+    "dhamma-nidhi",
+    "dhamma-pabbata",
+    "dhamma-rakkhita",
+    "dhamma-ratana",
+    "dhamma-sangam",
+    "dhamma-shwe",
+    "dhamma-vimutti",
+    "dhamma-nanadhaja"
+   ]
+  },
+  {
+   "iso2": "NP",
+   "name": "Nepal",
+   "places": 28,
+   "traditions": {
+    "burmese": 1,
+    "gelug": 1,
+    "tibetan": 5,
+    "kagyu": 2,
+    "nyingma": 2,
+    "buddhism": 3,
+    "goenka-vipassana": 20
+   },
+   "families": {
+    "buddhism": 28
+   },
+   "types": {
+    "retreat-centre": 21,
+    "monastery": 4,
+    "pilgrimage": 3
+   },
+   "vipassana_centres": 20,
+   "place_ids": [
+    "panditarama-lumbini",
+    "kopan",
+    "tergar-osel-ling",
+    "ka-nying-shedrub-ling",
+    "nagi-gompa",
+    "boudhanath",
+    "swayambhunath",
+    "lumbini",
+    "dhamma-birata",
+    "dhamma-citavana",
+    "dhamma-dhama",
+    "dhamma-gama",
+    "dhamma-janani",
+    "dhamma-kitti",
+    "dhamma-nandana",
+    "dhamma-nibha",
+    "dhamma-paraga",
+    "dhamma-pokhara",
+    "dhamma-sagar",
+    "dhamma-shringa",
+    "dhamma-surakhetta",
+    "dhamma-suriyo",
+    "dhamma-sisa",
+    "dhamma-tarai",
+    "dhamma-adhara",
+    "dhamma-asaya",
+    "dhamma-yana",
+    "dhamma-agara"
+   ]
+  },
+  {
+   "iso2": "TH",
+   "name": "Thailand",
+   "places": 23,
+   "traditions": {
+    "thai-forest": 7,
+    "theravada": 2,
+    "plum-village": 1,
+    "goenka-vipassana": 13
+   },
+   "families": {
+    "buddhism": 23
+   },
+   "types": {
+    "monastery": 10,
+    "retreat-centre": 13
+   },
+   "vipassana_centres": 13,
+   "place_ids": [
+    "wat-pah-pong",
+    "wat-pah-nanachat",
+    "wat-dhammasathit",
+    "wat-asokaram",
+    "wat-pah-ban-taad",
+    "wat-pa-sutthawat",
+    "wat-hin-mak-peng",
+    "wat-suan-mokkh",
+    "wat-ram-poeng",
+    "thai-plum-village",
+    "dhamma-bhuvana",
+    "dhamma-candapabha",
+    "dhamma-dhani",
+    "dhamma-kamala",
+    "dhamma-kancana",
+    "dhamma-pathavi",
+    "dhamma-porano",
+    "dhamma-puneti",
+    "dhamma-rangsima",
+    "dhamma-sudhalaya",
+    "dhamma-suvanna",
+    "dhamma-simanta",
+    "dhamma-abha"
+   ]
+  },
+  {
+   "iso2": "GB",
+   "name": "United Kingdom",
+   "places": 19,
+   "traditions": {
+    "thai-forest": 4,
+    "burmese": 1,
+    "insight": 1,
+    "gelug": 1,
+    "tibetan": 4,
+    "kagyu": 3,
+    "soto-zen": 1,
+    "ramakrishna-order": 1,
+    "christian": 2,
+    "anthroposophy": 1,
+    "krishnamurti": 1,
+    "goenka-vipassana": 3
+   },
+   "families": {
+    "buddhism": 14,
+    "hindu": 1,
+    "christian": 2,
+    "esoteric": 1,
+    "independent": 1
+   },
+   "types": {
+    "monastery": 6,
+    "retreat-centre": 6,
+    "study-centre": 4,
+    "temple": 1,
+    "pilgrimage": 2
+   },
+   "vipassana_centres": 3,
+   "place_ids": [
+    "amaravati",
+    "cittaviveka",
+    "aruna-ratanagiri",
+    "hartridge",
+    "imc-uk",
+    "gaia-house",
+    "jamyang-london",
+    "samye-ling",
+    "holy-isle",
+    "kagyu-samye-dzong-london",
+    "throssel-hole",
+    "vedanta-uk",
+    "iona-abbey",
+    "lindisfarne",
+    "rudolf-steiner-house",
+    "brockwood",
+    "dhamma-dipa",
+    "dhamma-padhana",
+    "dhamma-sukhakari"
+   ],
+   "vipassana_noncentre_sites": 3
+  },
+  {
+   "iso2": "AU",
+   "name": "Australia",
+   "places": 14,
+   "traditions": {
+    "thai-forest": 5,
+    "gelug": 1,
+    "tibetan": 1,
+    "goenka-vipassana": 8
+   },
+   "families": {
+    "buddhism": 14
+   },
+   "types": {
+    "monastery": 3,
+    "retreat-centre": 10,
+    "temple": 1
+   },
+   "vipassana_centres": 8,
+   "place_ids": [
+    "bodhinyana",
+    "dhammasara",
+    "jhana-grove",
+    "dhammaloka",
+    "bodhivana",
+    "chenrezig-institute",
+    "dhamma-aloka",
+    "dhamma-bhumi",
+    "dhamma-pabha",
+    "dhamma-padipa",
+    "dhamma-pasada",
+    "dhamma-rasa",
+    "dhamma-rasmi",
+    "dhamma-ujjala"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "LK",
+   "name": "Sri Lanka",
+   "places": 14,
+   "traditions": {
+    "theravada": 7,
+    "early-suttas": 2,
+    "buddhism": 2,
+    "goenka-vipassana": 6
+   },
+   "families": {
+    "buddhism": 14
+   },
+   "types": {
+    "monastery": 5,
+    "study-centre": 1,
+    "pilgrimage": 2,
+    "retreat-centre": 6
+   },
+   "vipassana_centres": 6,
+   "place_ids": [
+    "island-hermitage",
+    "forest-hermitage-kandy",
+    "bps-kandy",
+    "nissarana-vanaya",
+    "na-uyana",
+    "hillside-hermitage",
+    "sri-maha-bodhi",
+    "temple-of-the-tooth",
+    "dhamma-anuradha",
+    "dhamma-arana",
+    "dhamma-dakkhina",
+    "dhamma-dharani",
+    "dhamma-kuta",
+    "dhamma-sobha"
+   ]
+  },
+  {
+   "iso2": "CN",
+   "name": "People's Republic of China",
+   "places": 10,
+   "traditions": {
+    "gelug": 4,
+    "tibetan": 7,
+    "kagyu": 1,
+    "nyingma": 1,
+    "zen": 3
+   },
+   "families": {
+    "buddhism": 10
+   },
+   "types": {
+    "monastery": 5,
+    "pilgrimage": 4,
+    "temple": 1
+   },
+   "vipassana_centres": 0,
+   "place_ids": [
+    "sera-je",
+    "drepung",
+    "ganden",
+    "tsurphu",
+    "jokhang",
+    "potala",
+    "samye",
+    "shaolin",
+    "nanhua",
+    "bailin"
+   ]
+  },
+  {
+   "iso2": "FR",
+   "name": "France",
+   "places": 10,
+   "traditions": {
+    "nyingma": 1,
+    "tibetan": 1,
+    "plum-village": 2,
+    "christian": 1,
+    "christian-mysticism": 1,
+    "fourth-way": 1,
+    "goenka-vipassana": 4
+   },
+   "families": {
+    "buddhism": 7,
+    "christian": 2,
+    "esoteric": 1
+   },
+   "types": {
+    "retreat-centre": 5,
+    "monastery": 4,
+    "pilgrimage": 1
+   },
+   "vipassana_centres": 4,
+   "place_ids": [
+    "lerab-ling",
+    "plum-village",
+    "maison-de-l-inspir",
+    "taize",
+    "grande-chartreuse",
+    "prieure",
+    "dhamma-mahi",
+    "dhamma-nilaya",
+    "dhamma-suriyarama",
+    "dhamma-fr"
+   ],
+   "vipassana_noncentre_sites": 5
+  },
+  {
+   "iso2": "CA",
+   "name": "Canada",
+   "places": 8,
+   "traditions": {
+    "thai-forest": 2,
+    "kagyu": 1,
+    "tibetan": 1,
+    "goenka-vipassana": 5
+   },
+   "families": {
+    "buddhism": 8
+   },
+   "types": {
+    "monastery": 3,
+    "retreat-centre": 5
+   },
+   "vipassana_centres": 5,
+   "place_ids": [
+    "tisarana",
+    "birken",
+    "gampo-abbey",
+    "dhamma-karuna",
+    "dhamma-modana",
+    "dhamma-surabhi",
+    "dhamma-suttama",
+    "dhamma-torana"
+   ],
+   "vipassana_noncentre_sites": 3
+  },
+  {
+   "iso2": "JP",
+   "name": "Japan",
+   "places": 8,
+   "traditions": {
+    "soto-zen": 3,
+    "rinzai-zen": 3,
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 8
+   },
+   "types": {
+    "monastery": 6,
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "antaiji",
+    "eiheiji",
+    "sojiji",
+    "engakuji",
+    "myoshinji",
+    "daitokuji",
+    "dhamma-bhanu",
+    "dhamma-adicca"
+   ]
+  },
+  {
+   "iso2": "IT",
+   "name": "Italy",
+   "places": 7,
+   "traditions": {
+    "thai-forest": 1,
+    "gelug": 1,
+    "tibetan": 1,
+    "christian": 3,
+    "neoplatonism": 1,
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 3,
+    "christian": 3,
+    "platonic": 1
+   },
+   "types": {
+    "monastery": 2,
+    "study-centre": 1,
+    "pilgrimage": 3,
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "santacittarama",
+    "ilt-pomaia",
+    "bose",
+    "assisi",
+    "subiaco",
+    "careggi",
+    "dhamma-atala"
+   ]
+  },
+  {
+   "iso2": "DE",
+   "name": "Germany",
+   "places": 5,
+   "traditions": {
+    "thai-forest": 1,
+    "plum-village": 1,
+    "christian-mysticism": 1,
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 4,
+    "christian": 1
+   },
+   "types": {
+    "monastery": 2,
+    "pilgrimage": 1,
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "muttodaya",
+    "eiab",
+    "erfurt-predigerkirche",
+    "dhamma-dvara",
+    "dhamma-sampatti"
+   ],
+   "vipassana_noncentre_sites": 4
+  },
+  {
+   "iso2": "GR",
+   "name": "Greece",
+   "places": 5,
+   "traditions": {
+    "christian-mysticism": 1,
+    "platonic": 4
+   },
+   "families": {
+    "christian": 1,
+    "platonic": 4
+   },
+   "types": {
+    "pilgrimage": 5
+   },
+   "vipassana_centres": 0,
+   "place_ids": [
+    "mount-athos",
+    "plato-academy",
+    "ancient-agora-athens",
+    "delphi",
+    "pythagoreion"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BR",
+   "name": "Brazil",
+   "places": 5,
+   "traditions": {
+    "goenka-vipassana": 5
+   },
+   "families": {
+    "buddhism": 5
+   },
+   "types": {
+    "retreat-centre": 5
+   },
+   "vipassana_centres": 5,
+   "place_ids": [
+    "dhamma-punnama",
+    "dhamma-santi",
+    "dhamma-sarana",
+    "dhamma-uyyana",
+    "dhamma-br"
+   ],
+   "vipassana_noncentre_sites": 4
+  },
+  {
+   "iso2": "NZ",
+   "name": "New Zealand",
+   "places": 3,
+   "traditions": {
+    "thai-forest": 2,
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 3
+   },
+   "types": {
+    "monastery": 2,
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "bodhinyanarama",
+    "vimutti",
+    "dhamma-medini"
+   ]
+  },
+  {
+   "iso2": "CH",
+   "name": "Switzerland",
+   "places": 3,
+   "traditions": {
+    "thai-forest": 1,
+    "anthroposophy": 1,
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 2,
+    "esoteric": 1
+   },
+   "types": {
+    "monastery": 1,
+    "study-centre": 1,
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhammapala",
+    "goetheanum",
+    "dhamma-sumeru"
+   ]
+  },
+  {
+   "iso2": "EG",
+   "name": "Egypt",
+   "places": 3,
+   "traditions": {
+    "christian-mysticism": 1,
+    "gnosticism": 2
+   },
+   "families": {
+    "christian": 3
+   },
+   "types": {
+    "monastery": 1,
+    "pilgrimage": 2
+   },
+   "vipassana_centres": 0,
+   "place_ids": [
+    "st-catherine-sinai",
+    "nag-hammadi-site",
+    "coptic-museum"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "ES",
+   "name": "Spain",
+   "places": 3,
+   "traditions": {
+    "christian-mysticism": 1,
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "christian": 1,
+    "buddhism": 2
+   },
+   "types": {
+    "pilgrimage": 1,
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "avila-encarnacion",
+    "dhamma-neru",
+    "dhamma-sacca"
+   ],
+   "vipassana_noncentre_sites": 3
+  },
+  {
+   "iso2": "ID",
+   "name": "Indonesia",
+   "places": 3,
+   "traditions": {
+    "goenka-vipassana": 3
+   },
+   "families": {
+    "buddhism": 3
+   },
+   "types": {
+    "retreat-centre": 3
+   },
+   "vipassana_centres": 3,
+   "place_ids": [
+    "dhamma-geha",
+    "dhamma-id",
+    "dhamma-java"
+   ]
+  },
+  {
+   "iso2": "VN",
+   "name": "Vietnam",
+   "places": 2,
+   "traditions": {
+    "plum-village": 1,
+    "zen": 1,
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 2
+   },
+   "types": {
+    "temple": 1,
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "tu-hieu",
+    "dhamma-bhasura"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PL",
+   "name": "Poland",
+   "places": 2,
+   "traditions": {
+    "christian-mysticism": 1,
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "christian": 1,
+    "buddhism": 1
+   },
+   "types": {
+    "pilgrimage": 1,
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "goerlitz-boehme",
+    "dhamma-pallava"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "AR",
+   "name": "Argentina",
+   "places": 2,
+   "traditions": {
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 2
+   },
+   "types": {
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "dhamma-sukhada",
+    "dhamma-viriya"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "CO",
+   "name": "Colombia",
+   "places": 2,
+   "traditions": {
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 2
+   },
+   "types": {
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "dhamma-gutti",
+    "dhamma-nandanavana"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "KH",
+   "name": "Cambodia",
+   "places": 2,
+   "traditions": {
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 2
+   },
+   "types": {
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "dhamma-kamboja",
+    "dhamma-latthika"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "TW",
+   "name": "Taiwan",
+   "places": 2,
+   "traditions": {
+    "goenka-vipassana": 2
+   },
+   "families": {
+    "buddhism": 2
+   },
+   "types": {
+    "retreat-centre": 2
+   },
+   "vipassana_centres": 2,
+   "place_ids": [
+    "dhamma-vikasa",
+    "dhamma-udaya"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "IE",
+   "name": "Ireland",
+   "places": 1,
+   "traditions": {
+    "nyingma": 1,
+    "tibetan": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 0,
+   "place_ids": [
+    "dzogchen-beara"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PT",
+   "name": "Portugal",
+   "places": 1,
+   "traditions": {
+    "advaita": 1
+   },
+   "families": {
+    "hindu": 1
+   },
+   "types": {
+    "ashram": 1
+   },
+   "vipassana_centres": 0,
+   "place_ids": [
+    "monte-sahaja"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "AT",
+   "name": "Austria",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-mudita"
+   ]
+  },
+  {
+   "iso2": "BE",
+   "name": "Belgium",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-pajjota"
+   ]
+  },
+  {
+   "iso2": "CL",
+   "name": "Chile",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-pasanna"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "CR",
+   "name": "Costa Rica",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-ariya"
+   ]
+  },
+  {
+   "iso2": "HK",
+   "name": "Hong Kong",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-mutta"
+   ]
+  },
+  {
+   "iso2": "IL",
+   "name": "Israel",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-pamoda"
+   ]
+  },
+  {
+   "iso2": "IR",
+   "name": "Iran",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-iran"
+   ]
+  },
+  {
+   "iso2": "KR",
+   "name": "South Korea",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-korea"
+   ],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "LT",
+   "name": "Lithuania",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-lilha"
+   ]
+  },
+  {
+   "iso2": "LV",
+   "name": "Latvia",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-latthi"
+   ]
+  },
+  {
+   "iso2": "MN",
+   "name": "Mongolia",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-mahana"
+   ]
+  },
+  {
+   "iso2": "MX",
+   "name": "Mexico",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-makaranda"
+   ],
+   "vipassana_noncentre_sites": 6
+  },
+  {
+   "iso2": "MY",
+   "name": "Malaysia",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-malaya"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "NL",
+   "name": "Kingdom of the Netherlands",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-talaka"
+   ]
+  },
+  {
+   "iso2": "PE",
+   "name": "Peru",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-suriya"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "PH",
+   "name": "Philippines",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-phala"
+   ]
+  },
+  {
+   "iso2": "RU",
+   "name": "Russia",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-dullabha"
+   ],
+   "vipassana_noncentre_sites": 5
+  },
+  {
+   "iso2": "SE",
+   "name": "Sweden",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-sobhana"
+   ]
+  },
+  {
+   "iso2": "VE",
+   "name": "Venezuela",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-venuvana"
+   ],
+   "vipassana_noncentre_sites": 2
+  },
+  {
+   "iso2": "ZA",
+   "name": "South Africa",
+   "places": 1,
+   "traditions": {
+    "goenka-vipassana": 1
+   },
+   "families": {
+    "buddhism": 1
+   },
+   "types": {
+    "retreat-centre": 1
+   },
+   "vipassana_centres": 1,
+   "place_ids": [
+    "dhamma-pataka"
+   ]
+  },
+  {
+   "iso2": "AE",
+   "name": "United Arab Emirates",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "AM",
+   "name": "Armenia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BD",
+   "name": "Bangladesh",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BG",
+   "name": "Bulgaria",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BH",
+   "name": "Bahrain",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BO",
+   "name": "Bolivia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "BY",
+   "name": "Belarus",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "CI",
+   "name": "Ivory Coast",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "CU",
+   "name": "Cuba",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "CW",
+   "name": "Curaçao",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "CZ",
+   "name": "Czech Republic",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "DK",
+   "name": "Denmark",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "DO",
+   "name": "Dominican Republic",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "EC",
+   "name": "Ecuador",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 3
+  },
+  {
+   "iso2": "EE",
+   "name": "Estonia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "ET",
+   "name": "Ethiopia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "FI",
+   "name": "Finland",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "GE",
+   "name": "Georgia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "GT",
+   "name": "Guatemala",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "HN",
+   "name": "Honduras",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "HR",
+   "name": "Croatia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "HT",
+   "name": "Haiti",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "HU",
+   "name": "Hungary",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "JO",
+   "name": "Jordan",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "KE",
+   "name": "Kenya",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "LB",
+   "name": "Lebanon",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MA",
+   "name": "Morocco",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MD",
+   "name": "Moldova",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MG",
+   "name": "Madagascar",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MK",
+   "name": "North Macedonia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MU",
+   "name": "Mauritius",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "MZ",
+   "name": "Mozambique",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "NA",
+   "name": "Namibia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "NC",
+   "name": "New Caledonia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "NI",
+   "name": "Nicaragua",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "NO",
+   "name": "Norway",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "OM",
+   "name": "Oman",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PA",
+   "name": "Panama",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PF",
+   "name": "French Polynesia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PR",
+   "name": "Puerto Rico",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PS",
+   "name": "Palestine",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "PY",
+   "name": "Paraguay",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "RE",
+   "name": "Réunion",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "RO",
+   "name": "Romania",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "RS",
+   "name": "Serbia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SG",
+   "name": "Singapore",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SI",
+   "name": "Slovenia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SK",
+   "name": "Slovakia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SN",
+   "name": "Senegal",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SR",
+   "name": "Suriname",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SV",
+   "name": "El Salvador",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "TN",
+   "name": "Tunisia",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "TR",
+   "name": "Turkey",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "UA",
+   "name": "Ukraine",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "UG",
+   "name": "Uganda",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "UY",
+   "name": "Uruguay",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "UZ",
+   "name": "Uzbekistan",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  },
+  {
+   "iso2": "SS",
+   "name": "South Sudan",
+   "places": 0,
+   "traditions": {},
+   "families": {},
+   "types": {},
+   "vipassana_centres": 0,
+   "place_ids": [],
+   "vipassana_noncentre_sites": 1
+  }
+ ]
+}

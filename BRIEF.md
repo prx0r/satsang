@@ -1,0 +1,206 @@
+# Wiser: brief
+
+Live: https://tantrafiles.xyz (www too) · API: https://api.tantrafiles.xyz · Code: `work/wiser/app` (cloned from Funnier, not in git; tarball backups in `work/wiser/backups/`).
+
+## What it is
+Two talks from the world's wisdom traditions, one quiet question: **Which resonates more?** The listener takes their time.
+Every pick feeds a pairwise Bradley–Terry model (the crowd chart "Most resonant" and the listener's own model). Profiles
+for teachers, figures and traditions, and topic pages that set the traditions side by side, sit around the screening.
+
+## The mechanic (resonance, since 2026-10-20)
+- Flow: a calm face-off ("A *or* B") → talk #1 full screen → talk #2 → the ballot "Which resonates more?" with two
+  **Resonates** buttons (heart) and **Pass**. No countdown, no ring, no auto-pass, no timing multipliers (`RESONANCE = true`
+  in `src/app.js`; `timingWeight()` returns 1). `decisionMs` is still logged, never weighed.
+- A pick counts fully once **both talks played ≥ 60 s or to their end** (`GATE_SEC`, `Screen.enough()`). Otherwise it is
+  kept with `lowWatch: 1` and **half weight** (applied after the skip adjustments). The ballot says so quietly and offers
+  "Listen to #N again" (`backTo()`), which resumes that talk and returns to the ballot when it ends or you move on.
+- **Next talk / Choose** (rail, swipe left, N / →): after the 60 s gate it is a neutral move-on; before it, the old
+  "didn't land" skip (0.4 of a loss). Skip pair (swipe up, S) and Pass (P) as before.
+- **This resonates** (heart on the playing talk, H): a light single-talk save, separate from pairs. Stored in
+  `localStorage wiser.resonates {clip: {at, t, sec}}`, sent to `POST /resonate` (device id or session; `on:false` removes).
+  `GET /resonate/counts` = public per-clip counts (not yet used by the tally).
+- After a pick: "Resonated: <title>", the crowd split when there is one, Send to a friend; the next pair rises after ~2.2 s.
+
+## Lengths, full talks, virtual clips
+- 1–20 min talks play whole (start → end). `LONG_SEC = FULL_SEC = 1200`.
+- **Full talk** = over 20 min and not a virtual clip (`clip.full: true`, set by `tools/build-clips.py`). Full talks leave
+  the ballot pool (`inBallot()`) and the daily, and appear on profiles under **Full talks** (#watch plays them whole).
+- **Virtual clip** = a 1–20 min passage of a longer official video: `{ id: "${videoId}@${start}", parent: videoId,
+  start, end, segTitle? }`. Plays the parent with YouTube `start`/`end` player params, progress and `m:ss / m:ss` run against
+  the passage, finished at its end. Two passages of one parent never face each other (`ytId(A) === ytId(B)` is rejected in
+  `openPair`, `takeClash`, `watchOpponent`, `playFrom`). `#watch/<id>` accepts `videoId@start` (URL-encoded `%40`).
+  The API's clip-id regex accepts `@`.
+- Fallback (the old "240 s passage from 20 %" hack): every full talk carries `passage: [s, s+240]`. Only when **no virtual
+  clips exist and fewer than 40 clips are 1–20 min** (`PASSAGE_FALLBACK`), full talks screen that passage. Virtual clips now exist
+  (178), so the fallback can never switch on.
+
+## Pages (routes)
+- `#teacher/<wisegraph id>`: speakers AND figures/texts. Hero (Commons portrait, else the speaker's own talk still, else
+  a monogram), years, line, tradition chips, stats, "Play a resonance round", links; About; **Works** (book-cover cards,
+  "+ Read/Heard" log on device); **Talks by**; **Full talks**; **Talks about** (clips' `figures[]`); **Influenced by /
+  Influenced** (wisegraph edges, people and tradition nodes); **For seekers of** (neighbours). Empty sections are hidden;
+  a figure with no clips shows a calm "on their way" line. Old name slugs still fall back to the Funnier-style profile.
+- `#tradition/<id>`: hero with a portrait collage, family › school breadcrumb, blurb, stats; **Lineage** tree (the whole
+  family, current node highlighted, people counts); Key figures; Influenced by / Influenced; Top topics (chips → topic
+  pages); Best talks.
+- `#teachers` / `#traditions`: the Teachers tab with a Teachers · Traditions switch. Teachers = On video + every figure
+  grouped by family. Traditions = one card per family with its schools and lineages.
+- `#topic/<topic id>`: "Rebirth" + "Theravāda · Advaita Vedānta · Platonic tradition · Anthroposophy · …", portrait
+  collage, one column per tradition (Wiser's one-line take from `wisegraph/topic-takes.json` + its talks, or "Talks
+  arriving"), **Compare two takes** (a resonance round on that topic from two different columns; different teachers while
+  only one tradition has talks) and **Play this topic** (the topic feed). Topics tab cards link here.
+- `#places` (nav tab **Places**): Leaflet map on OpenStreetMap tiles (no key; attribution always shown; tiles darkened by a CSS
+  filter), filters by family (chips), type, country, search, and a **Goenka centres** switch (272 dhamma.org centres, clustered
+  layer, off by default). Tap a point -> place panel (type, country, traditions, description, lineage of its first teacher,
+  up to 3 retreats with the official schedule link, Open place / Official site). Map | List switch; places without coordinates
+  (18, incl. Hillside Hermitage, whose location is not public) are list-only (dashed card). By-country chips.
+- `#place/<id>`: hero with a small map (+ nearest same-family places), type/country, tradition chain, Founded/Programmes/Teachers,
+  Official site / Retreat schedule / **Directions** (Google Maps dir URL from coords, else from name+city+country); **Retreats
+  and programmes** (length, format, cost model, Official schedule; no dates stored); **Lineage**; **Founded by or taught here**
+  (`teachers` = founders or teachers historically tied, not "teaches here now"); **Talks by teachers of <place>**; **Contact**
+  (official site, contact page, emails/phones exactly as published, each with a "source" link, "checked <date>", address +
+  Directions); **Free books** (publisher's own page, linked never rehosted); **Nearby in the same family**.
+- `#country/<code>`: map of the country's places (Goenka included), stats, tradition chips, places by type, dhamma.org
+  non-centre site count.
+- Teacher profiles: **Lineage** (teacher_of only: longest line above + students; Mun -> Lee -> Fuang -> Thanissaro renders on
+  Thanissaro, Sao -> Mun on Ajahn Mun), "Living teacher" badge only when `living:true`, **Where to practise** (places tied to
+  the teacher first, then their lineage node, widening to the parent if < 3; nearest first using `/geo.json`), and **Contact:
+  <org>** + **Free books** when a tied place has them. Tradition profiles: **Where to practise** (places in the subtree).
+  Relations read Teacher / Student / Influence, and `studied_with` always reads **Studied with** (never heir).
+- `/geo.json` (wiser-web worker): Cloudflare's approximate request location `{lat,lng,country}` rounded to 0.1 deg, no-store,
+  never logged. Used only to sort "Where to practise".
+- Charts: crowd board is **Most resonant** ("% resonant" under tiles).
+- Labels: `delivery:'reading'` (Steiner Press narrated readings) shows "Reading"; `delivery:'footage'` (archival darshan/event film) shows "Footage" and stays out of every pairing.
+
+## Data shapes
+- `clips.json` row (`app/clips.json`, copied to `site/` by `npm run build`): `id, teacher, speaker (wisegraph id), title,
+  ytTitle, channel, kind:'human', media:'youtube', checked, dur, sec, format, carrier, setting:'talk', region (family),
+  tradition, traditions[], figures[], topics[], style[], published, year, views, tier, transcript (bool only), tags{v,topics:
+  [[topic,conf,src]],lang,band}` + `full`, `passage` for full talks + `parent, start, end, segTitle` for virtual clips.
+- `site/data/wisegraph/wise.json` (built by `tools/build-wise.py`): `people{id:{n,short,k,t,years,bio,tagline,wd,works[],
+  links,img{src,face,page,artist,license,licenseUrl},by[[id,type]],inf[[id,type]],seek[]}}`, `traditions{id:{label,kind,
+  parent,blurb,wd,kids[],by,inf,founders[]}}`, `takes{topic:{order[],takes{tradition:line}}}`. Everything clip-related
+  (talks by/about, counts, topics per tradition) is computed in the browser from clips.json (`src/wise.js`).
+- `site/data/wisegraph/places.json` (built by `tools/build-wise.py` from `wisegraph/places.json` + `wisegraph/place-contacts.json`
+  + `source_maps.PLACE_RESOURCES`): `{meta, places:[{id,name,type,traditions[],country,city,lat,lng,coord_precision,founded,
+  teachers[],url,schedule_url,wikidata,description,offers[],goenka,retreats[{id,name,typical_length,format,cost_model,
+  schedule_url}],contact{checked,page,page_src,email[[v,src]],phone[[v,src]],address[v,src]},resources[{title,url,free,licence,
+  source_url,checked}]}], countries{code:{name,places,goenka,traditions{},goenka_sites}}}`. Map bundle: `site/placemap.js`
+  (Leaflet 1.9.4 + markercluster 1.5.3, built by `npm run build`, versioned via `<meta name="wiser-placemap">` in deploy.sh).
+- D1: `wg_places`, `wg_place_links (place, kind tradition|teacher, ref)`, `wg_retreats` (`api/migrations/0015_places.sql`,
+  applied remotely 2026-10-20), filled by `wisegraph/seed.sql`.
+- Votes / events / watches: unchanged from Funnier (D1 `wiser`). New table `resonates(who, clip, t, sec, created_at)`
+  (`api/migrations/0014_resonates.sql`, applied remotely 2026-10-20).
+
+## Library (2026-10-20, after the overnight sourcing merge)
+**1,513 clips** = 1,335 natural + 178 virtual; 296 full talks (profile only), 10 archival footage rows (profile/topic only), so
+**1,207 in the ballot pool**. By family: Buddhism 906 (Hillside 549 incl. 38 new passages), Hindu 360, Independent 82
+(Krishnamurti 59), Christian 66, Platonic 64, Esoteric 35. Wisegraph (after the Place merge): 222 people (91 speakers, 126 figures, 5 texts), 42
+tradition nodes, 192 edges (93 teacher_of high, 8 studied_with), 126 portraits, topic vocabulary v2 (32 roots), takes for 8 topics (v2, reviewed).
+Sources merged: advaita-hindu-tantra 307, buddhist 386, western 224, advaita-extra 76 (3 archive uploads dropped by choice).
+
+## Place layer (merged 2026-10-20)
+476 places (203 curated + 273 Goenka; 458 mapped, 18 list-only) in 49 countries, 357 programmes. 106 curated places have published
+contact details (70 with email, 30 with phone, 93 contact pages), 3 free-book resources (dlshq.org, dhammatalks.org, bps.lk).
+Decisions: `siddha-yoga` lineage node (parent hindu, influenced by kashmir-shaivism, Muktananda its founder, his two ashrams
+retagged); the 8 medium-confidence "teacher_of" edges from the places group became `studied_with`; `christian` id kept; `living`
+only when Wikidata has no death date and nothing contradicts it (13 people; Chanmyay Sayadaw NOT living: Wikidata has no death
+date but English Wikipedia gives 19 Sep 2026, so years 1928–2026; Bhante Gunaratana living, checked on both).
+Contacts: `python3 tools/place-contacts.py` (homepage -> its contact link; mailto/plain emails on the org's own domain or a
+free-mail box named after it, tel: links, schema.org address; cache in tools/cache-contacts/; `--refresh` to re-read). Hand drops
+of personal addresses: `source_maps.PLACE_CONTACT_DROP`. Free books: `source_maps.PLACE_RESOURCES` (checked by hand).
+
+## Merging the sourcing folders (`work/wiser/sources/<group>/`, only groups with a REPORT.md)
+```
+cd work/wiser/app
+python3 tools/merge-sources.py                                 # people/traditions/edges -> wisegraph/*.json, topics-additions -> schema/topics.json (idempotent)
+python3 tools/build-clips.py ../raw ../transcripts-internal    # Hillside rows + every group's candidates.json -> clips.json, teachers.json, boards/profiles/graph, seed.sql
+python3 tools/place-contacts.py                                # (when places change) public contacts from official sites
+python3 tools/portraits.py && python3 tools/build-wise.py      # portraits (resumable; --refresh to redo all) + wise.json + places.json + credits
+sh deploy.sh && (cd api && npx wrangler d1 execute wiser --remote --file ../wisegraph/seed.sql --yes)
+```
+- Id maps and review decisions live in `tools/source_maps.py`: tradition ids (hellenic/platonism -> platonic, christianity ->
+  christian, western-esotericism -> esoteric), person ids (nag-hammadi-library -> nag-hammadi), Steiner Press readings credited
+  to `rudolf-steiner` with `delivery:'reading'`, untrusted channels (CHANNEL_DROP), edge fixes/drops, extra people
+  (swami-sivananda), per-clip tradition fixes, the v2 topic nodes and TOPIC_ALIAS (karma -> kamma, reincarnation ->
+  rebirth/western ...). Editorial titles for mechanical virtual titles: `tools/virtual-titles.json`.
+- Candidate rows: deduped by id (Hillside first, then groups A-Z), shape-checked, `sec` = played length (passage for virtual
+  clips), `dur` = full video (`parentDur` when given), topics validated against the vocabulary with roots added for leaves,
+  `talk` = the parent talk's title for virtual clips whose title doesn't already name it. `setting:'footage'` -> setting talk +
+  `delivery:'footage'` ("Footage" label; never in the ballot: `inBallot()` excludes it and `vote()` refuses a pick on it).
+- v2 roots (guru, reality, the divine, ...) are not read from Hillside transcripts (TR_SKIP), only from titles/descriptions.
+- merge-sources.py also reads `lineages.json` (teacher_of chains, influenced, lineage_of), `patches` (alias adds) and, for the
+  places group, writes `wisegraph/places.json` (place tradition retags: `PLACE_TRADS`; never-pinned: `PLACE_NO_COORDS`).
+- Screenshots: `sh ../shot-setup.sh` (rebuilds the /tmp toolchain), then `node ../shot3.mjs <outdir> [views]` (`LIVE=1` for the live site).
+  Place views: places, placespick (Goenka on + a pick), place, placeforest, hillside, country, sivananda, mun, forest. The
+  overflow check ignores Leaflet panes; "A.tile" overflow on teacher pages is the horizontal talk rail (scrolls inside itself).
+
+## Build and deploy
+```
+cd work/wiser/app
+python3 tools/merge-sources.py                                 # (only when sources changed)
+python3 tools/build-clips.py ../raw ../transcripts-internal   # clips.json, teachers.json, data/wisegraph/{boards,profiles,graph}.json, seed.sql
+python3 tools/portraits.py                                     # wisegraph/portraits.json (Wikidata P18 -> Commons, PD/CC only)
+python3 tools/build-wise.py                                    # data/wisegraph/wise.json + the Portraits block in site/credits.html
+sh deploy.sh                                                   # site: esbuild -> site/app.js, dist/, guards, embed, wrangler deploy wiser-web
+sh deploy.sh api                                               # API: wiser-api (api.tantrafiles.xyz)
+```
+The Cloudflare token is injected on the wire for api.cloudflare.com. The site ships inline inside the Worker
+(`web-worker/embed.mjs`, text files only; images are hotlinked: YouTube stills, Commons thumbnails).
+
+## Rules
+- Transcripts are internal only (`work/wiser/transcripts-internal/`). No transcript text, URL or path is ever published.
+  `deploy.sh` has two guards: the name grep, then `tools/check-no-transcripts.py` (samples 9-word runs from every internal
+  transcript and fails if any appears in dist).
+- Official uploads only (teacher, foundation, estate, publisher); embeddable; YouTube's own player; nothing downloaded.
+- Portraits: Wikimedia Commons via the Wikidata P18 image only: public domain, Creative Commons, or Commons' own
+  "Attribution" licence (enabled 2026-10-20 for Nisargadatta), credited on the profile and on credits.html.
+- Topic takes are Wiser's own one-line summaries of textbook positions, never quotes.
+- Never buy anything (domains included). The sourcing folders `work/wiser/sources/<group>/` are written by the sourcing
+  agents; integration is a separate step (merge their people/traditions/edges into `app/wisegraph/`, their candidates into
+  the clip build, then re-run the three tools).
+- Plain words in the UI: no jargon, no "battle", no "VS", no clocks.
+
+## State 2026-10-20 05:00
+- USER RULE: the white redesign was REJECTED. Keep the current dark design (serif headings, gold). Show screenshots before deploying any design change. wiser-redesign was cancelled and never deployed; app/ is restored from backups/app-pre-redesign-20261020-0425.tgz (rejected work: backups/app-redesign-rejected-2156.tgz).
+- UK pass done, not merged: sources/places-uk/ (316 places, 39 traditions, 37 people, 131 sister links, 27 events). Merging needs merge-sources extended plus a place-edges table.
+- satsang.digital: Cloudflare zone 708de8d4 (pending); NS ariadne/burt.ns.cloudflare.com at Porkbun.
+- 05:20: wiser-organise is running on app/ locally (orientation check, featuring teachers with ≥8 clips, the deep Rebirth hub; no deploy). Overnight deep sourcers write to sources/deep-{tibetan-eastasian,theravada-hindu,tantra,western}/ per sources/DEEP-SPEC.md (scholarly lineages first-class). Next: merge them after organise, keeping the dark design.
+
+## Organise pass 2026-10-20 (local, NOT deployed): see ORGANISE-REPORT.md
+- Orientation verified for every clip (`tools/orient.py` -> `tools/format-cache.json`, applied by build-clips.py): 117 vertical / 1,836 horizontal.
+- Depth rule `DEEP_MIN = 8` (src/app.js, src/wise.js): rotation, charts and the Teachers grid feature deep teachers; thin speakers fold into "More voices" and stay in topics.
+- +440 clips from `sources/teachers-deep/` (built with WISER_SOURCES limited to advaita-extra, advaita-hindu-tantra, buddhist, western, teachers-deep).
+- Topic hubs: `wisegraph/hubs.json` -> `tools/build-hubs.py` -> `site/data/wisegraph/hubs.json`; #topic/<id> = takes + questions + tradition rails + essays + practices + Atlas thread + teachers + places + Keep going.
+- 06:10 DEPLOYED the organise pass (wiser-web 668bab25): 1,953 clips with verified orientation (117 vertical), ≥8-talk teacher grid (35) + More voices, topic hubs (rebirth, death, self, karma, meditation, awakening) from wisegraph/hubs.json via tools/build-hubs.py. D1 seed not run. deep-western (1,004) and deep-theravada-hindu (2,574) are done but NOT merged (build-clips.py reads only 5 folders; add the deep-* folders). Report: ORGANISE-REPORT.md.
+- 07:58 DEPLOYED deep merge (wiser-web 5f4ab68f): 9,478 clips (~5,760 ballot, ~3,700 full talks hub/profile-only), 565 people (125 scholars), 157 tradition nodes, 412 lineage edges (40 academic), 793 places. Teachers grouped by tradition→school + Scholars section. D1 seed NOT run (seed.sql is destructive). Next: implement specs/ROADMAP.md (Topic flash loop, profile D1 0016, MCP).
+
+## Implementation pass 2026-10-20 (specs/ROADMAP.md): see the lines below
+- Backup before: backups/app-pre-impl-20261020-0057.tgz.
+- 08:06 API wiser-api 54c53e16: D1 migration 0016_profile.sql applied (additive: saves, practice_log, routines, journeys, taste, device_claims, profile_settings, flash_events). New endpoints (anonymous with device id): /profile/sync, /saves, /me/saves, /practice/log, /me/practice, /me/routines/:id, /journeys/:id/progress, /taste (GET/PUT), /flash/events, /me/export, /me/forget-device, /me/claim-device (auth), /me/visibility (auth), /stats/clips (public crowd quality). /votes stores `context` (flash:<topic>) inside signals JSON. DELETE /me also clears the profile tables.
+- 08:27 SITE wiser-web f623593b: Topic flash is the home (Watch tab; src/flash.js + src/rank-topics.js port of mcp/src/rank.mjs + src/taste.js Beta facets): title card, 2-3 teachers from different schools (MMR, main-tier fronts, explore slot from the least-certain family, session fatigue, vertical-first per slot on phones, desktop horizontal-only via servable), calm "Which resonated?" (None of these, Listen again, keys 1/2/3/0/L), bridge card with reason (adjacency/infoGain/fit), Go deeper, Choose a topic, rest card every 4th. Pick among 3 = votes A>B, A>C with context flash:<topic> (verified in D1, test rows removed). Old pair ballot: #pair, "Two talks" link, #clash/#watch/invites, hub "Compare two takes". Hub "Play this topic" = flash locked to the topic (3 flashes). Hub question rails ordered by MMR (railOrder). Topics tab applies the TOPICS §6 gate (30 published, 3 "Talks arriving"). #me (Your model tab): taste chips + Still exploring + Not for me + Reset, journeys in progress, practice log (week dots, no streak pressure), saved talks/practices/collections, history link, Download my data (JSON + practice CSV), Delete everything (local + /me/forget-device). #collections, #collection/<id> (6 editorial: seven-days-with-death journey, rebirth-across-traditions set, kashmir-shaivism-first-syllabus, thai-forest-basics, tibetan-deity-practice-primer (orientation only), metta-in-four-traditions), #practice/<id> (76 practices from hubs + deep sourcers, 7 orientation-only; cautions above step 1; dark timer with gold ring, synthesised bells, log to device + API). Data: wisegraph/collections.json -> tools/build-collections.py -> site/data/wisegraph/collections.json. Worker: 6.37 MB raw / 1.32 MB gzip.
+- Screenshots: shots-impl/ (local, a stand-in player because the sandbox Chromium cannot decode YouTube: shot-impl.mjs / shot-impl-run.sh; LIVE=1 FAKEYT=1 for the live site, POSTs to the API are stubbed in LIVE runs).
+- 08:40 MCP wiser-mcp 5c286e01 -> bf9ae5ff LIVE at https://mcp.tantrafiles.xyz/mcp (custom domain; no other DNS record touched). 7 tools (search, get_topic, get_teacher, get_lineage, list_practices, get_collection, recommend). Bundles mcp/data/wiser.mcp.json (slim-data.mjs: 7,297 clips = every ballot talk + 12 full talks per teacher, 840 KB gzip), index built at startup (~80 ms) for the FREE plan's CPU budget (account is on Workers Free: 3 MB gzip script limit, 10 ms CPU). build-data.mjs now ingests collections.json (76 practices with steps/cautions/needsTeacher, 6 editorial collections), crowd stats (site/data/stats.json from tools/build-stats.mjs <- api /stats/clips) and applies the TOPICS §6 gate to topic.state (58 published incl. leaves). 12,144 records, 0 schema errors (pip install jsonschema for validate.py).
+- 08:55 SITE wiser-web a41c90c4 -> a7a39165: open data LIVE. /data/index.json + /data/<kind>.json|.jsonl + /data/wiser.jsonld served from KV namespace wiser-open-data (9b56fc85…, binding DATA; 22.6 MB, outside the script size), /schema/*.json, /llms.txt, /robots.txt, /sitemap.xml + per-kind sitemaps (embedded), path pages /person|topic|tradition|practice|collection|place/<id> with server-filled title/description/canonical/JSON-LD (web-worker/build-meta.mjs -> meta.gen.js, 1,395 pages) that open the in-app route. Site Worker 7.5 MB raw / 1.49 MB gzip (limit 3 MB gzip on Free: clips.json + meta.gen.js are the big parts; next lever = move clips.json to KV like the dumps).
+- deploy.sh now: build-stats -> build -> open data (build-data, dump, slim, schema check that fails on errors, llms/robots/sitemaps/schemas, build-meta) -> both transcript guards over dist AND mcp/data/wiser.json (+ grep over mcp/data, mcp/dist-data) -> KV upload -> embed -> deploy. `sh deploy.sh mcp` deploys the MCP. In this sandbox the full script can pass the 120 s tool limit (the 9-gram guard alone is ~33 s), so today's deploys ran the same steps in two calls.
+- NOT done (next): teacher pages with topic-overlap MMR (RANKING §8); TV lean-back mode (LOOP §4); signed-in claim-device flow in the client (API ready; Google sign-in is not configured, GOOGLE_CLIENT_ID empty); routines UI; visualisation cycles with deitybody; topic review queues / LLM labelling / curations (ROADMAP 13-14); nightly stats job (stats refresh at each deploy, and the client reads /stats/clips live; D1 has 0 real votes so far, quality uses static terms).
+
+## For You + intentions + TV mode, 2026-10-20 18:35 (spec + numbers: specs/FORYOU.md)
+- Backup before: backups/app-pre-tv-20261020-1800.tgz. Dark design kept (fy-*/int-*/tv-* rules appended to site/style.css; nav gains "For you").
+- API wiser-api 1a53b74b: D1 migration 0017_foryou.sql applied remotely (additive: intentions, clip_stats, daily_theme; seed.sql NOT run). New: PUT/GET /intentions, GET /feed/theme; /profile/sync and /me/export return intentions; forget/claim/DELETE cover them. Cron Trigger `17 19 * * *` (02:17 Phnom Penh) = nightly(): clip_stats + daily_theme; /stats/clips serves the nightly table when < 36 h old. First cron run: tonight (not triggered by hand).
+- SITE wiser-web 66b70b6e (7.64 MB raw / 1.48 MB gzip, under the 3 MB Free cap; clips.json stays embedded): #foryou (src/feedrank.js + src/foryou.js), For You rail under the Topic flash, intentions in Your model (src/intentions.js), daily theme (src/themes.js + tools/build-anniversaries.mjs -> site/data/wisegraph/anniversaries.json, run by deploy.sh), TV mode #tv (src/tv.js; also #tv/topic|teacher|collection|from/<id>, ?tv=1). taste.js reads feedLess/feedMore/completions; rank-topics nextTopics has an intent term; flash cold start follows intentions.
+- clips.site.json now keeps `published` (tools/build-clips.py SITE_DROP edited) so "New this week" works live.
+- Sim (specs/sim/feed_sim.py): top-20 day-to-day Jaccard 0.075 (target < 0.5); hit rate 0.388 vs best-first 0.258 (+MMR 0.348); hits among opened 0.416 vs 0.236.
+- Screenshots: shots-tv/ (local) and shots-tv/live, shots-tv/live-cold (LIVE=1 FAKEYT=1): `sh shot-tv-run.sh foryou tv metint flashrail flash rebirth teachers` (shot-tv.mjs seeds intentions for foryou/tv/metint/flashrail; TASTE=0 for cold).
+- Known: topic tags are noisy, so some "On your mind" / theme matches are loose (tagging, not ranking); phone overflow flags on #topic/rebirth and #teachers are the existing horizontal rails; the big-screen TV hint shows in headless Chromium (pointer: none) but not on mouse desktops.
+
+## Open directory for agents (MCP v0.2.0 + REST + discovery), 2026-10-20 ~19:45
+- Backup before: backups/mcp-pre-agents-20261020-1144.tgz (mcp/ + web-worker worker/build-meta/embed/wrangler + deploy.sh). app/src, the design, sources/ untouched; seed.sql not run; app.js not rebuilt (site redeployed from the existing dist + new discovery files).
+- MCP wiser-mcp f7192b4a LIVE (898 KB gzip, startup 96 ms): 14 tools = the 7 originals + OpenAI-shaped `search` ({results:[{id,title,url}]}, ids now `<kind>/<id>`) and `fetch` ({id,title,text,url,metadata}) + find_places, get_place, find_teachers, get_resources, get_lineage_path, what_to_study. All read-only-annotated; every record carries url (canonical tantrafiles.xyz), source_url, verified_on, confidence. Legacy tools accept `person/<id>` ids and URLs. Transports: Streamable HTTP POST /mcp (no auth) + legacy SSE GET /sse / POST /messages (Durable Object SseSession, SQLite class, works on Free). REST mirror /api/* + OpenAPI 3.1 /openapi.json (Custom GPT Action), CORS *, Workers Rate Limiting RL_API 120/min + RL_MCP 600/min (verified: 429s after the burst). Discovery on both hosts: /llms.txt, /llms-full.txt, /.well-known/mcp.json (+ /.well-known/mcp/server-card.json).
+- Data: build-data.mjs now keeps place offers/kind/events/resources/sisters/contact page source + meta.updated/confidence/sources, edge source URLs, people's free texts, death years from anniversaries.json, and any app/site/data/wisegraph/resources*.json (no hard-coded counts anywhere; llms/agents numbers are computed). 12,144 records, 0 schema errors. Resources derived in mcp/src/resources.mjs (305, 69 free).
+- SITE wiser-web 5159a722 (1.57 MB gzip): /agents (plain dark docs page), /llms-full.txt, /.well-known/mcp.json, /resource/<id> (305 plain pages with JSON-LD), every /place/<id> (incl. Goenka directory) and every /topic/<id> resolve, /text/<id> 301 -> /resource, /clip/<id> 302 -> player, /openapi.json 302 -> MCP. Open-data KV re-uploaded. 182 sampled canonical URLs: all 200. Transcript guards passed (0 found).
+- Tests: `node mcp/test.mjs` all passed locally; `node mcp/test-client.mjs https://mcp.tantrafiles.xyz` 35/35 passed live (handshake 2025-06-18 + 2024-11-05, tools/list, OpenAI shapes, SSE round trip, directory tools, REST, CORS, discovery).
+- Licences: mcp/LICENSE-DATA (CC BY 4.0 for Wiser curation; third-party = metadata under its own terms; contacts not for bulk mail) and mcp/LICENSE-CODE (MIT).
+- USER TODO: create a public GitHub repo (e.g. github.com/<you>/wiser-open) and push mcp/ (code + LICENSE-*; data via the /data dump or a dated release, Zenodo DOI later). The connector cannot create repos. Then add `repository` to mcp/build-discovery.mjs card.
+- Add it: ChatGPT > Settings > Apps & Connectors > Advanced > Developer mode > Create connector, URL https://mcp.tantrafiles.xyz/mcp, no auth. Claude > Settings > Connectors > Add custom connector, same URL. Not tested from inside ChatGPT/Claude UIs themselves (no accounts here); tested with a protocol-level client.
+- Known: teacher location = tied places; "likely-living" and place status are inferred (flagged in results); shortest lineage path may prefer an influence edge over a longer teacher chain (pass lineage=dharma); fetch of clips outside the slim bundle returns isError; /agents screenshot skipped (sandbox puppeteer missing).

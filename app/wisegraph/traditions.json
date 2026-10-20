@@ -1,0 +1,1261 @@
+{
+ "_note": "wisegraph tradition graph v1. kind: family (top level, the site's tradition filter) > school > lineage. parent is a node id. Wikidata ids checked via wbsearchentities 2026-10-20; null = no clean item.",
+ "nodes": [
+  {
+   "id": "buddhism",
+   "label": "Buddhism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q748",
+   "blurb": "The path of the Buddha: seeing suffering, its cause in craving, and its ending, through virtue, meditation and wisdom."
+  },
+  {
+   "id": "theravada",
+   "label": "Theravāda",
+   "kind": "school",
+   "parent": "buddhism",
+   "wikidata": "Q132265",
+   "blurb": "The oldest surviving Buddhist school, rooted in the Pāli discourses and the monastic code; strong today in Sri Lanka and Southeast Asia."
+  },
+  {
+   "id": "early-suttas",
+   "label": "Early suttas",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": "Q3073049",
+   "blurb": "Practice read straight from the early discourses, outside the commentarial mainstream; Hillside Hermitage belongs here, drawing on Ñāṇavīra Thera."
+  },
+  {
+   "id": "thai-forest",
+   "label": "Thai Forest",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": "Q1473142",
+   "blurb": "The forest monastic lineage of Ajahn Mun and Ajahn Chah."
+  },
+  {
+   "id": "insight",
+   "label": "Insight meditation",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": "Q17015142",
+   "blurb": "The modern vipassanā movement and its Western retreat centres."
+  },
+  {
+   "id": "mahayana",
+   "label": "Mahāyāna",
+   "kind": "school",
+   "parent": "buddhism",
+   "wikidata": "Q48362",
+   "blurb": "The \"great vehicle\": the bodhisattva ideal of awakening for the sake of all beings, and the teaching of emptiness."
+  },
+  {
+   "id": "zen",
+   "label": "Zen",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": "Q7953",
+   "blurb": "Chan and Zen: awakening through sitting, direct pointing and the teacher–student encounter, more than through scripture."
+  },
+  {
+   "id": "vajrayana",
+   "label": "Vajrayāna",
+   "kind": "school",
+   "parent": "buddhism",
+   "wikidata": "Q172175",
+   "blurb": "Tantric Buddhism: deity practice, mantra and the teacher's transmission as a swift path to awakening."
+  },
+  {
+   "id": "tibetan",
+   "label": "Tibetan Buddhism",
+   "kind": "lineage",
+   "parent": "vajrayana",
+   "wikidata": "Q483889",
+   "blurb": "The Buddhism of the Himalaya, joining monastic study and debate with Vajrayāna practice and guidance for the dying."
+  },
+  {
+   "id": "hindu",
+   "label": "Hindu traditions",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q9089",
+   "blurb": "The many paths that grew from the Vedas and Upanishads: knowledge, devotion, yoga and action."
+  },
+  {
+   "id": "vedanta",
+   "label": "Vedānta",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": "Q2512051",
+   "blurb": "Philosophy built on the Upanishads, the Bhagavad Gītā and the Brahma Sūtras, asking how the self relates to Brahman."
+  },
+  {
+   "id": "advaita",
+   "label": "Advaita Vedānta",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": "Q2348383",
+   "blurb": "Non-dual Vedānta: the Self (ātman) is Brahman, and the world of separate selves is an appearance."
+  },
+  {
+   "id": "inchegeri",
+   "label": "Inchegeri Sampradaya",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": "Q6014394",
+   "blurb": "The Navnath line of Siddharameshwar and Nisargadatta Maharaj."
+  },
+  {
+   "id": "ramakrishna-order",
+   "label": "Ramakrishna Order",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": "Q17010088",
+   "blurb": "The monastic order founded on Ramakrishna's teaching and Vivekananda's mission: Vedānta lived as service."
+  },
+  {
+   "id": "kashmir-shaivism",
+   "label": "Kashmir Shaivism",
+   "kind": "lineage",
+   "parent": "shaivism",
+   "wikidata": "Q1734884",
+   "blurb": "A non-dual Tantric philosophy in which the world is the free, conscious play of Shiva, recognised as one's own self."
+  },
+  {
+   "id": "kriya-yoga",
+   "label": "Kriya Yoga",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": "Q180678",
+   "blurb": "The line of Mahavatar Babaji, Lahiri Mahasaya and Paramahansa Yogananda."
+  },
+  {
+   "id": "christian",
+   "label": "Christian traditions",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q5043",
+   "blurb": "The traditions that follow Jesus of Nazareth, from the Gospels and the early Church to the mystics."
+  },
+  {
+   "id": "christian-mysticism",
+   "label": "Christian mysticism",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q655970",
+   "blurb": "Christians who sought direct union with God: detachment, contemplative prayer and the birth of God in the soul."
+  },
+  {
+   "id": "gnosticism",
+   "label": "Gnosticism",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q48420",
+   "blurb": "Early Christian and related movements of saving knowledge (gnosis); known mostly through texts such as the Nag Hammadi library."
+  },
+  {
+   "id": "platonic",
+   "label": "Platonic tradition",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q193589",
+   "blurb": "Philosophy as the care of the soul, turning from the world of change toward the eternal Forms and the Good."
+  },
+  {
+   "id": "neoplatonism",
+   "label": "Neoplatonism",
+   "kind": "school",
+   "parent": "platonic",
+   "wikidata": "Q162145",
+   "blurb": "Late antique Platonism: everything flows from the One, and the soul can return to it through contemplation."
+  },
+  {
+   "id": "renaissance-platonism",
+   "label": "Renaissance Platonism",
+   "kind": "lineage",
+   "parent": "neoplatonism",
+   "wikidata": "Q7202435",
+   "blurb": "The revival of Plato and Plotinus in fifteenth-century Florence, joining Platonic philosophy with Christian faith."
+  },
+  {
+   "id": "esoteric",
+   "label": "Western esotericism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q7988482",
+   "blurb": "Western paths of hidden knowledge: Hermeticism, Theosophy, Anthroposophy and the Fourth Way."
+  },
+  {
+   "id": "theosophy",
+   "label": "Theosophy",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q178671",
+   "blurb": "The movement of Blavatsky and the Theosophical Society, joining Eastern ideas of karma and rebirth with Western occultism."
+  },
+  {
+   "id": "anthroposophy",
+   "label": "Anthroposophy",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q184719",
+   "blurb": "Rudolf Steiner's spiritual science: a path of clear thinking toward knowledge of spiritual worlds, karma and repeated earth lives."
+  },
+  {
+   "id": "fourth-way",
+   "label": "The Fourth Way",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q470418",
+   "blurb": "Gurdjieff's path of self-remembering and conscious effort in the middle of ordinary life."
+  },
+  {
+   "id": "independent",
+   "label": "Independent",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "Teachers who stand outside any tradition."
+  },
+  {
+   "id": "direct-path",
+   "label": "Direct path",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": null,
+   "blurb": "The non-dual enquiry into experience taught by Atmananda Krishna Menon and carried on by Jean Klein, Francis Lucille and Rupert Spira."
+  },
+  {
+   "id": "arsha-vidya",
+   "label": "Arsha Vidya",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": null,
+   "blurb": "Traditional teaching of Advaita Vedanta through the texts, in the line of Swami Dayananda Saraswati (Arsha Vidya Gurukulam, Q4796497)."
+  },
+  {
+   "id": "modern-nondual",
+   "label": "Modern non-dual teachers",
+   "kind": "lineage",
+   "parent": "independent",
+   "wikidata": null,
+   "blurb": "Contemporary teachers of awakening who draw on Zen, Advaita and other sources without belonging to one lineage."
+  },
+  {
+   "id": "plum-village",
+   "label": "Plum Village",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q60763315",
+   "blurb": "Thich Nhat Hanh's Vietnamese Thiền community of engaged, mindful living."
+  },
+  {
+   "id": "soto-zen",
+   "label": "Sōtō Zen",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q749085",
+   "blurb": "Dōgen's school of just-sitting (shikantaza); San Francisco Zen Center, Sanshin."
+  },
+  {
+   "id": "rinzai-zen",
+   "label": "Rinzai Zen",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": "Q639625",
+   "blurb": "The koan school of Japanese Zen; Zen Studies Society."
+  },
+  {
+   "id": "gelug",
+   "label": "Gelug",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q319218",
+   "blurb": "The Tibetan school of Tsongkhapa, headed in practice by the Dalai Lamas."
+  },
+  {
+   "id": "burmese",
+   "label": "Burmese meditation lineages",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": null,
+   "blurb": "Myanmar's modern meditation schools: Mahasi noting, Pa-Auk samatha-vipassanā, U Ba Khin and Goenka."
+  },
+  {
+   "id": "krishnamurti",
+   "label": "Krishnamurti",
+   "kind": "school",
+   "parent": "independent",
+   "wikidata": null,
+   "blurb": "J. Krishnamurti's teaching after he left Theosophy in 1929: no path, no authority, freedom from the known."
+  },
+  {
+   "id": "anandamayi-sangha",
+   "label": "Anandamayi Ma Sangha",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "The ashrams and monastics around Anandamayi Ma (Shree Shree Anandamayee Sangha, Kankhal and Varanasi), devotional and non-sectarian."
+  },
+  {
+   "id": "divine-life-society",
+   "label": "Divine Life Society",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": null,
+   "blurb": "The order founded by Swami Sivananda in Rishikesh, carried on by Swami Chidananda."
+  },
+  {
+   "id": "siddha-yoga",
+   "label": "Siddha Yoga",
+   "kind": "lineage",
+   "parent": "hindu",
+   "wikidata": "Q3483106",
+   "blurb": "Guru-yoga path founded by Swami Muktananda in the line of Bhagawan Nityananda: shaktipat, chanting and meditation, drawing on Kashmir Shaiva texts."
+  },
+  {
+   "id": "goenka-vipassana",
+   "label": "Goenka Vipassana (U Ba Khin line)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": "Lay Vipassana in the line of Ledi Sayadaw, Saya Thetgyi and U Ba Khin, taught by S. N. Goenka in 10-day dana-funded courses."
+  },
+  {
+   "id": "kagyu",
+   "label": "Kagyu",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q471187",
+   "blurb": "Tibetan school of the mahamudra lineage from Tilopa and Naropa through Marpa and Milarepa, led by the Karmapas."
+  },
+  {
+   "id": "nyingma",
+   "label": "Nyingma",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q848771",
+   "blurb": "The oldest Tibetan school, tracing to Padmasambhava, home of Dzogchen."
+  },
+  {
+   "id": "sufism",
+   "label": "Sufism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q9603",
+   "blurb": "The inner, mystical path of Islam: remembrance of God (dhikr), the master and the order, the poetry of love."
+  },
+  {
+   "id": "jewish",
+   "label": "Jewish mysticism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "Merkavah, Kabbalah, the Zohar and Hasidism: the contemplative and mystical currents of Judaism."
+  },
+  {
+   "id": "philosophy-of-the-sacred",
+   "label": "Philosophy of the sacred",
+   "kind": "family",
+   "parent": null,
+   "wikidata": null,
+   "blurb": "Contemporary philosophers and scientists on consciousness, meaning and the sacred: idealism, the divided brain, the meaning crisis, perennialism."
+  },
+  {
+   "id": "modern-paganism",
+   "label": "Modern Paganism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q189753",
+   "blurb": "Druidry, Wicca, Heathenry and goddess spirituality: nature-centred traditions revived or founded in the modern era."
+  },
+  {
+   "id": "sikh",
+   "label": "Sikhism",
+   "kind": "family",
+   "parent": null,
+   "wikidata": "Q9316",
+   "blurb": "The path of the ten Gurus and the Guru Granth Sahib: remembrance of the one Name, honest work and sharing."
+  },
+  {
+   "id": "shaivism",
+   "label": "Śaivism",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Umbrella for Śiva-centred traditions: the ascetic Atimārga and the initiatory Mantramārga."
+  },
+  {
+   "id": "pashupata",
+   "label": "Pāśupata (Atimārga)",
+   "kind": "lineage",
+   "parent": "shaivism",
+   "wikidata": null,
+   "blurb": "Earliest Śaiva ascetic order; ash, feigned madness, provoking censure."
+  },
+  {
+   "id": "shaiva-siddhanta",
+   "label": "Śaiva Siddhānta",
+   "kind": "lineage",
+   "parent": "shaivism",
+   "wikidata": null,
+   "blurb": "Mainstream ritual Śaivism of the Mantramārga; Sanskrit āgamas, later the Tamil Śaiva temple tradition. Kauai Aadheenam teaches a monistic form."
+  },
+  {
+   "id": "trika",
+   "label": "Trika",
+   "kind": "lineage",
+   "parent": "kashmir-shaivism",
+   "wikidata": null,
+   "blurb": "Abhinavagupta's synthesis around the Mālinīvijayottara; Tantrāloka."
+  },
+  {
+   "id": "pratyabhijna",
+   "label": "Pratyabhijñā (Recognition)",
+   "kind": "lineage",
+   "parent": "kashmir-shaivism",
+   "wikidata": null,
+   "blurb": "Philosophical school: liberation as recognising oneself as Śiva."
+  },
+  {
+   "id": "spanda",
+   "label": "Spanda (Vibration)",
+   "kind": "lineage",
+   "parent": "kashmir-shaivism",
+   "wikidata": null,
+   "blurb": "Śiva Sūtras and Spanda Kārikās: consciousness as pulsation."
+  },
+  {
+   "id": "krama",
+   "label": "Krama / Kālīkula (Mahārtha)",
+   "kind": "lineage",
+   "parent": "kashmir-shaivism",
+   "wikidata": null,
+   "blurb": "Kālī-centred phases (krama) of cognition; Twelve Kālīs."
+  },
+  {
+   "id": "shaktism",
+   "label": "Śāktism",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Goddess-centred traditions; parent of Kaula, Śrī Vidyā and Kālī lines."
+  },
+  {
+   "id": "shakta",
+   "label": "Śākta practice (Kālī, Kāmākhyā, Bhairavī)",
+   "kind": "lineage",
+   "parent": "shaktism",
+   "wikidata": null,
+   "blurb": "Bucket for living goddess practice not tied to a single classical school (Kāmākhyā upāsanā, Linga Bhairavi, Daśa Mahāvidyā)."
+  },
+  {
+   "id": "sri-vidya",
+   "label": "Śrī Vidyā",
+   "kind": "lineage",
+   "parent": "shaktism",
+   "wikidata": null,
+   "blurb": "Worship of Lalitā Tripurasundarī through the Śrī Chakra and the fifteen-syllable mantra."
+  },
+  {
+   "id": "siddha-siddhanta",
+   "label": "Nāth / Siddha Siddhānta",
+   "kind": "lineage",
+   "parent": "shaivism",
+   "wikidata": null,
+   "blurb": "Nāth yogī order (Gorakhnāth); Siddha Siddhānta Paddhati; alchemy and haṭha."
+  },
+  {
+   "id": "hatha",
+   "label": "Haṭha Yoga (premodern)",
+   "kind": "lineage",
+   "parent": "siddha-siddhanta",
+   "wikidata": null,
+   "blurb": "Physical-yogic methods first set out in Vajrayāna and Śaiva circles (Amṛtasiddhi, Dattātreyayogaśāstra, Haṭhapradīpikā)."
+  },
+  {
+   "id": "tantra-studies",
+   "label": "Tantra studies (academic)",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Not a tradition: a field tag for scholarly lectures (philology, history)."
+  },
+  {
+   "id": "chah-line",
+   "label": "Ajahn Chah line (Wat Nong Pah Pong)",
+   "kind": "lineage",
+   "parent": "thai-forest",
+   "wikidata": null,
+   "blurb": "Includes Amaravati, Chithurst/Cittaviveka, Abhayagiri, Bodhinyana/BSWA, Wat Pah Nanachat, Wat Marp Jan, Wat Boonyawad, Tisarana, Birken."
+  },
+  {
+   "id": "mun-boowa-line",
+   "label": "Dhammayut forest line (Ajahn Mun → Maha Boowa / Ajaan Lee)",
+   "kind": "lineage",
+   "parent": "thai-forest",
+   "wikidata": null,
+   "blurb": "Note: Ajahn Dtun, listed by the brief under this line, was ordained by Ajahn Chah (Mahānikāya) and is filed under chah-line."
+  },
+  {
+   "id": "mahasi",
+   "label": "Mahasi method (noting)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "pa-auk",
+   "label": "Pa-Auk (samatha-first, Abhidhamma)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": "No usable official English short talks found this pass."
+  },
+  {
+   "id": "mogok",
+   "label": "Mogok Sayadaw (dependent origination)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": "Official channel is Burmese-language only; no English clips."
+  },
+  {
+   "id": "shwe-oo-min",
+   "label": "Shwe Oo Min (natural awareness)",
+   "kind": "lineage",
+   "parent": "burmese",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "sri-lankan",
+   "label": "Sri Lankan Theravāda (forest & scholastic)",
+   "kind": "lineage",
+   "parent": "theravada",
+   "wikidata": null,
+   "blurb": "Hillside Hermitage is already deep in app (early-suttas)."
+  },
+  {
+   "id": "buddhist-studies",
+   "label": "Buddhist studies (academic)",
+   "kind": "school",
+   "parent": "buddhism",
+   "wikidata": null,
+   "blurb": "Scholarly lineage node: edges are academic_supervisor_of."
+  },
+  {
+   "id": "chinmaya-mission",
+   "label": "Chinmaya Mission",
+   "kind": "lineage",
+   "parent": "advaita",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "sivananda-yoga",
+   "label": "Sivananda Yoga Vedanta Centres",
+   "kind": "lineage",
+   "parent": "divine-life-society",
+   "wikidata": "Q2369406",
+   "blurb": "Swami Vishnudevananda's international centres teaching his guru Sivananda's yoga."
+  },
+  {
+   "id": "bihar-yoga",
+   "label": "Bihar School of Yoga (Satyananda Yoga)",
+   "kind": "lineage",
+   "parent": "divine-life-society",
+   "wikidata": "Q14907106",
+   "blurb": "Yoga of Swami Satyananda, disciple of Sivananda, and the Bihar School of Yoga."
+  },
+  {
+   "id": "yoga-traditions",
+   "label": "Modern yoga lineages",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "krishnamacharya-yoga",
+   "label": "Krishnamacharya line (Viniyoga / KYM)",
+   "kind": "lineage",
+   "parent": "yoga-traditions",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "vaishnava",
+   "label": "Vaishnava bhakti",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "gaudiya",
+   "label": "Gaudiya Vaishnava (Chaitanya / ISKCON)",
+   "kind": "lineage",
+   "parent": "vaishnava",
+   "wikidata": "Q1144575",
+   "blurb": "Krishna devotion in the line of Chaitanya Mahaprabhu."
+  },
+  {
+   "id": "hindu-studies",
+   "label": "Hindu studies (academic)",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Scholarly lineage node."
+  },
+  {
+   "id": "dzogchen",
+   "label": "Dzogchen (Great Perfection)",
+   "kind": "lineage",
+   "parent": "nyingma",
+   "wikidata": null,
+   "blurb": "Teaching and practice lineage, not a separate institution; also held in Bön and taught across Rimé."
+  },
+  {
+   "id": "karma-kagyu",
+   "label": "Karma Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Largest Kagyu branch, led by the Karmapas."
+  },
+  {
+   "id": "drikung-kagyu",
+   "label": "Drikung Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Founded by Jigten Sumgön."
+  },
+  {
+   "id": "drukpa-kagyu",
+   "label": "Drukpa Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "State tradition of Bhutan."
+  },
+  {
+   "id": "shangpa-kagyu",
+   "label": "Shangpa Kagyu",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Separate lineage from Niguma and Sukhasiddhi, revived by Kalu Rinpoche."
+  },
+  {
+   "id": "mahamudra",
+   "label": "Mahamudra (the Great Seal)",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": null,
+   "blurb": "Practice lineage at the heart of Kagyu, also taught in Gelug."
+  },
+  {
+   "id": "sakya",
+   "label": "Sakya",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q650035",
+   "blurb": "Lamdre (path and its fruit) teachings; led by the Khön family."
+  },
+  {
+   "id": "fpmt",
+   "label": "FPMT (Foundation for the Preservation of the Mahayana Tradition)",
+   "kind": "lineage",
+   "parent": "gelug",
+   "wikidata": "Q1439860",
+   "blurb": "International Gelug network founded by Lama Yeshe and Lama Zopa."
+  },
+  {
+   "id": "jonang",
+   "label": "Jonang",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": null,
+   "blurb": "Known for shentong (other-emptiness) and Kalachakra; suppressed in central Tibet in the 17th c. and survives in Amdo."
+  },
+  {
+   "id": "bon",
+   "label": "Bön (Yungdrung Bön)",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": null,
+   "blurb": "Tibet's indigenous religion. It is not a Buddhist school, but it shares its institutions and Dzogchen with Buddhism. Placed here for browsing only."
+  },
+  {
+   "id": "rime",
+   "label": "Rimé (non-sectarian) movement",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": null,
+   "blurb": "An ecumenical revival across Nyingma, Kagyu, Sakya and Jonang, not a school."
+  },
+  {
+   "id": "shambhala",
+   "label": "Shambhala",
+   "kind": "lineage",
+   "parent": "kagyu",
+   "wikidata": "Q7487456",
+   "blurb": "Trungpa's secular \"warrior\" path; Pema Chödrön trained in it."
+  },
+  {
+   "id": "chan",
+   "label": "Chan",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Chinese meditation school, root of Zen, Seon and Thiền."
+  },
+  {
+   "id": "linji",
+   "label": "Linji (Rinzai) line of Chan",
+   "kind": "lineage",
+   "parent": "chan",
+   "wikidata": null,
+   "blurb": "Huatou / gong'an practice."
+  },
+  {
+   "id": "caodong",
+   "label": "Caodong (Soto) line of Chan",
+   "kind": "lineage",
+   "parent": "chan",
+   "wikidata": null,
+   "blurb": "Silent illumination (mozhao)."
+  },
+  {
+   "id": "dharma-drum",
+   "label": "Dharma Drum Mountain",
+   "kind": "lineage",
+   "parent": "chan",
+   "wikidata": null,
+   "blurb": "Taiwanese Chan organisation of Sheng Yen holding both Linji and Caodong lines."
+  },
+  {
+   "id": "sanbo-zen",
+   "label": "Sanbo Zen (Sanbo Kyodan)",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": null,
+   "blurb": "Lay-oriented school combining Soto and Rinzai koan curricula."
+  },
+  {
+   "id": "white-plum",
+   "label": "White Plum Asanga",
+   "kind": "lineage",
+   "parent": "soto-zen",
+   "wikidata": null,
+   "blurb": "Maezumi's lineage network (Soto with Rinzai koan study)."
+  },
+  {
+   "id": "seon",
+   "label": "Seon (Korean Zen)",
+   "kind": "lineage",
+   "parent": "chan",
+   "wikidata": null,
+   "blurb": "Korean Chan; Jogye order; Kwan Um School in the West."
+  },
+  {
+   "id": "kwan-um",
+   "label": "Kwan Um School of Zen",
+   "kind": "lineage",
+   "parent": "seon",
+   "wikidata": null,
+   "blurb": "International Seon school of Seung Sahn."
+  },
+  {
+   "id": "plum-village-thien",
+   "label": "Thiền",
+   "kind": "lineage",
+   "parent": "chan",
+   "wikidata": null,
+   "blurb": "Vietnamese Chan; Plum Village is its best-known modern form."
+  },
+  {
+   "id": "ocb",
+   "label": "Order of Buddhist Contemplatives",
+   "kind": "lineage",
+   "parent": "soto-zen",
+   "wikidata": "Q99399713",
+   "blurb": "Shasta Abbey tradition founded by Houn Jiyu-Kennett."
+  },
+  {
+   "id": "ordinary-mind",
+   "label": "Ordinary Mind Zen",
+   "kind": "lineage",
+   "parent": "zen",
+   "wikidata": null,
+   "blurb": "Joko Beck's psychologically oriented lineage."
+  },
+  {
+   "id": "tiantai",
+   "label": "Tiantai",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Lotus Sutra school; threefold truth; zhiguan (calming and contemplation)."
+  },
+  {
+   "id": "tendai",
+   "label": "Tendai",
+   "kind": "lineage",
+   "parent": "tiantai",
+   "wikidata": null,
+   "blurb": "Japanese Tiantai, which also includes esoteric (taimitsu), Pure Land and Zen elements."
+  },
+  {
+   "id": "huayan",
+   "label": "Huayan (Kegon)",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Avatamsaka school; interpenetration of all phenomena."
+  },
+  {
+   "id": "pure-land",
+   "label": "Pure Land",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Devotion to Amitabha and rebirth in Sukhavati."
+  },
+  {
+   "id": "jodo-shu",
+   "label": "Jōdo-shū",
+   "kind": "lineage",
+   "parent": "pure-land",
+   "wikidata": null,
+   "blurb": "Honen's school."
+  },
+  {
+   "id": "jodo-shinshu",
+   "label": "Jōdo Shinshū (Shin Buddhism)",
+   "kind": "lineage",
+   "parent": "pure-land",
+   "wikidata": null,
+   "blurb": "Shinran's school; Buddhist Churches of America in the US."
+  },
+  {
+   "id": "east-asian-esoteric",
+   "label": "East Asian esoteric Buddhism",
+   "kind": "lineage",
+   "parent": "vajrayana",
+   "wikidata": null,
+   "blurb": "Chinese Zhenyan and its Japanese heirs."
+  },
+  {
+   "id": "shingon",
+   "label": "Shingon",
+   "kind": "lineage",
+   "parent": "east-asian-esoteric",
+   "wikidata": null,
+   "blurb": "Kukai's esoteric school."
+  },
+  {
+   "id": "presocratic-mysticism",
+   "label": "Presocratic mysticism (Parmenides, Empedocles)",
+   "kind": "school",
+   "parent": "platonic",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "theurgy",
+   "label": "Theurgy (Iamblichean Platonism)",
+   "kind": "lineage",
+   "parent": "neoplatonism",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "hermeticism",
+   "label": "Hermeticism",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "alchemy",
+   "label": "Alchemy",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "western-magic",
+   "label": "Western magic",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q2155334",
+   "blurb": "Ritual and initiatory magic in the Hermetic and Qabalistic line: the Golden Dawn, Thelema, the Inner Light."
+  },
+  {
+   "id": "christian-theosophy",
+   "label": "Christian theosophy (Böhme)",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "rosicrucianism",
+   "label": "Rosicrucianism",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "western-esotericism-scholarship",
+   "label": "Academic study of esotericism (Paris–Amsterdam–Exeter)",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "imaginal",
+   "label": "The imaginal (Corbin, Hillman, Cheetham)",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "jungian",
+   "label": "Jungian depth psychology",
+   "kind": "lineage",
+   "parent": "imaginal",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "archetypal-cosmology",
+   "label": "Archetypal cosmology and divination",
+   "kind": "lineage",
+   "parent": "imaginal",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "akbarian",
+   "label": "Akbarian school (Ibn Arabi)",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": "Study and practice centred on Ibn 'Arabi's teaching of the unity of being, as at Beshara."
+  },
+  {
+   "id": "mevlevi-rumi",
+   "label": "Mevlevi / Rumi tradition",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "naqshbandi",
+   "label": "Naqshbandi-Haqqani order",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": "Q32078",
+   "blurb": "Sufi order known for silent remembrance (dhikr) and tracing its chain through Abu Bakr."
+  },
+  {
+   "id": "inayati",
+   "label": "Inayatiyya (universal Sufism, Chishti roots)",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": "Q5734123",
+   "blurb": "Universal Sufism of Hazrat Inayat Khan, founded in London around 1914-1917."
+  },
+  {
+   "id": "nimatullahi",
+   "label": "Nimatullahi order",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "perennialism",
+   "label": "Perennialism / Traditionalist school",
+   "kind": "school",
+   "parent": "philosophy-of-the-sacred",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "christian-meditation-wccm",
+   "label": "Christian Meditation (John Main / WCCM)",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q8035558",
+   "blurb": "Contemplative prayer with a single prayer word, taught by John Main and the World Community for Christian Meditation."
+  },
+  {
+   "id": "franciscan",
+   "label": "Franciscan contemplative (Rohr / CAC)",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q165005",
+   "blurb": "Followers of St Francis; in the UK including the Anglican Society of St Francis."
+  },
+  {
+   "id": "wisdom-christianity",
+   "label": "Wisdom Christianity and Centering Prayer",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "hesychasm",
+   "label": "Orthodox hesychasm",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q629589",
+   "blurb": "Eastern Orthodox prayer of inner stillness and the Jesus Prayer."
+  },
+  {
+   "id": "merkavah",
+   "label": "Merkavah / Hekhalot mysticism",
+   "kind": "school",
+   "parent": "jewish",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "kabbalah",
+   "label": "Kabbalah (theosophical and ecstatic)",
+   "kind": "school",
+   "parent": "jewish",
+   "wikidata": "Q123006",
+   "blurb": "Jewish mystical tradition of the sefirot and the hidden meanings of Torah; also its modern popular forms."
+  },
+  {
+   "id": "zohar",
+   "label": "Zoharic Kabbalah",
+   "kind": "lineage",
+   "parent": "kabbalah",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "hasidism",
+   "label": "Hasidism",
+   "kind": "school",
+   "parent": "jewish",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "neo-hasidism",
+   "label": "Neo-Hasidism",
+   "kind": "lineage",
+   "parent": "hasidism",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "analytic-idealism",
+   "label": "Analytic idealism",
+   "kind": "school",
+   "parent": "philosophy-of-the-sacred",
+   "wikidata": null,
+   "blurb": null
+  },
+  {
+   "id": "druidry",
+   "label": "Druidry",
+   "kind": "school",
+   "parent": "modern-paganism",
+   "wikidata": "Q1541838",
+   "blurb": "Modern Druid spirituality of nature, the seasonal festivals and bardic arts, as in OBOD."
+  },
+  {
+   "id": "wicca",
+   "label": "Wicca",
+   "kind": "school",
+   "parent": "modern-paganism",
+   "wikidata": "Q59774",
+   "blurb": "Modern pagan witchcraft publicised by Gerald Gardner from the 1950s, with covens, the Goddess and God and the wheel of the year."
+  },
+  {
+   "id": "heathenry",
+   "label": "Heathenry",
+   "kind": "school",
+   "parent": "modern-paganism",
+   "wikidata": null,
+   "blurb": "Modern revival of pre-Christian Germanic and Norse religion (Asatru, Odinism)."
+  },
+  {
+   "id": "goddess-spirituality",
+   "label": "Goddess spirituality",
+   "kind": "school",
+   "parent": "modern-paganism",
+   "wikidata": "Q3866624",
+   "blurb": "Devotion to the divine feminine as Goddess, centred in the UK on Glastonbury."
+  },
+  {
+   "id": "golden-dawn",
+   "label": "Hermetic Order of the Golden Dawn",
+   "kind": "lineage",
+   "parent": "western-magic",
+   "wikidata": "Q368173",
+   "blurb": "Initiatory order founded in London in 1888 that shaped modern Western magic."
+  },
+  {
+   "id": "thelema",
+   "label": "Thelema",
+   "kind": "lineage",
+   "parent": "western-magic",
+   "wikidata": "Q745955",
+   "blurb": "Aleister Crowley's religious and magical system (\"Do what thou wilt\")."
+  },
+  {
+   "id": "quaker",
+   "label": "Quakers (Religious Society of Friends)",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q170208",
+   "blurb": "Christian movement begun by George Fox in 1652, worshipping in expectant silence."
+  },
+  {
+   "id": "benedictine",
+   "label": "Benedictine monasticism",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q131132",
+   "blurb": "Monastic life under the Rule of St Benedict."
+  },
+  {
+   "id": "cistercian",
+   "label": "Cistercians (Trappists)",
+   "kind": "lineage",
+   "parent": "benedictine",
+   "wikidata": "Q166861",
+   "blurb": "Reformed Benedictines; Trappists are the Strict Observance."
+  },
+  {
+   "id": "carmelite",
+   "label": "Carmelites",
+   "kind": "lineage",
+   "parent": "christian-mysticism",
+   "wikidata": "Q186277",
+   "blurb": "Contemplative order of Teresa of Avila and John of the Cross."
+  },
+  {
+   "id": "ignatian",
+   "label": "Ignatian spirituality",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q5992682",
+   "blurb": "The Jesuit way of the Spiritual Exercises of Ignatius of Loyola."
+  },
+  {
+   "id": "celtic-christianity",
+   "label": "Celtic Christianity",
+   "kind": "school",
+   "parent": "christian",
+   "wikidata": "Q1258552",
+   "blurb": "The early Christianity of Britain and Ireland (Columba, Aidan, Cuthbert, David) and its modern revival."
+  },
+  {
+   "id": "triratna",
+   "label": "Triratna Buddhist Community",
+   "kind": "school",
+   "parent": "buddhism",
+   "wikidata": "Q463420",
+   "blurb": "Western Buddhist movement founded by Sangharakshita in London in 1967 (formerly FWBO)."
+  },
+  {
+   "id": "new-kadampa",
+   "label": "New Kadampa Tradition",
+   "kind": "lineage",
+   "parent": "tibetan",
+   "wikidata": "Q1979669",
+   "blurb": "Movement founded by Kelsang Gyatso in England, presenting itself as independent of the Tibetan schools (Gelug-derived; contested)."
+  },
+  {
+   "id": "serene-reflection",
+   "label": "Order of Buddhist Contemplatives (Serene Reflection)",
+   "kind": "lineage",
+   "parent": "soto-zen",
+   "wikidata": "Q99399713",
+   "blurb": "Soto Zen order founded by Jiyu-Kennett, seated at Shasta Abbey and Throssel Hole."
+  },
+  {
+   "id": "nipponzan-myohoji",
+   "label": "Nipponzan-Myohoji",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": "Q1993340",
+   "blurb": "Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas."
+  },
+  {
+   "id": "iskcon",
+   "label": "ISKCON (Hare Krishna)",
+   "kind": "lineage",
+   "parent": "gaudiya",
+   "wikidata": "Q190193",
+   "blurb": "International Society for Krishna Consciousness, founded by A. C. Bhaktivedanta Swami Prabhupada in 1966."
+  },
+  {
+   "id": "swaminarayan",
+   "label": "Swaminarayan Sampradaya",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": "Q4155728",
+   "blurb": "Vaishnava tradition of Swaminarayan, including BAPS."
+  },
+  {
+   "id": "brahma-kumaris",
+   "label": "Brahma Kumaris",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": "Q897299",
+   "blurb": "Spiritual movement founded in Sindh in the 1930s, teaching Raja Yoga meditation; headquarters at Mount Abu."
+  },
+  {
+   "id": "transcendental-meditation",
+   "label": "Transcendental Meditation",
+   "kind": "lineage",
+   "parent": "vedanta",
+   "wikidata": "Q558571",
+   "blurb": "Mantra meditation of Maharishi Mahesh Yogi."
+  },
+  {
+   "id": "swedenborgian",
+   "label": "Swedenborgianism",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q1755789",
+   "blurb": "Thought and church following the visions of Emanuel Swedenborg."
+  },
+  {
+   "id": "spiritualism",
+   "label": "Spiritualism",
+   "kind": "school",
+   "parent": "esoteric",
+   "wikidata": "Q829348",
+   "blurb": "Movement based on communication with the dead through mediums."
+  },
+  {
+   "id": "kaula",
+   "label": "Kaula / Kula",
+   "kind": "lineage",
+   "parent": "shaktism",
+   "wikidata": null,
+   "blurb": "Clan (kula) cults of yoginīs and Bhairava; source of many later Śākta and haṭha practices."
+  }
+ ]
+}

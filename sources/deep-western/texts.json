@@ -1,0 +1,283 @@
+{
+ "_note": "Links only, never rehosted. All URLs returned HTTP 200 on 2026-10-20. sacred-texts.com was skipped because it sits behind a Cloudflare check that blocked my checker.",
+ "texts": [
+  {
+   "id": "iamblichus-mysteries-taylor",
+   "title": "On the Mysteries of the Egyptians, Chaldeans and Assyrians",
+   "author": "Iamblichus",
+   "translator": "Thomas Taylor (1821)",
+   "school": "theurgy",
+   "topics": [
+    "divine",
+    "soul",
+    "meditation/prayer"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/72815",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "iamblichus-life-pythagoras",
+   "title": "Iamblichus' Life of Pythagoras",
+   "author": "Iamblichus",
+   "translator": "Thomas Taylor",
+   "school": "platonism",
+   "topics": [
+    "virtue",
+    "soul"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/63300",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "proclus-theology-plato",
+   "title": "The Six Books of Proclus on the Theology of Plato",
+   "author": "Proclus",
+   "translator": "Thomas Taylor (1816)",
+   "school": "neoplatonism",
+   "topics": [
+    "divine/the-one",
+    "divine"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/77393",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "proclus-euclid-taylor",
+   "title": "Philosophical and Mathematical Commentaries of Proclus on Euclid",
+   "author": "Proclus",
+   "translator": "Thomas Taylor",
+   "school": "neoplatonism",
+   "topics": [
+    "reality"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/74253",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "plotinus-guthrie",
+   "title": "Plotinos: Complete Works (4 vols)",
+   "author": "Plotinus",
+   "translator": "Kenneth Sylvan Guthrie (1918)",
+   "school": "neoplatonism",
+   "topics": [
+    "divine/the-one",
+    "soul",
+    "meditation"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/42930",
+   "also": [
+    "https://www.gutenberg.org/ebooks/42931",
+    "https://www.gutenberg.org/ebooks/42932",
+    "https://www.gutenberg.org/ebooks/42933"
+   ],
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "plotinus-beautiful-taylor",
+   "title": "An Essay on the Beautiful (Ennead I.6)",
+   "author": "Plotinus",
+   "translator": "Thomas Taylor",
+   "school": "neoplatonism",
+   "topics": [
+    "divine/the-one",
+    "soul"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/29510",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "divine-pymander",
+   "title": "The Divine Pymander (Corpus Hermeticum)",
+   "author": "Hermes Trismegistus (attrib.)",
+   "translator": "John Everard (1650)",
+   "school": "hermeticism",
+   "topics": [
+    "gnosis",
+    "divine"
+   ],
+   "url": "https://en.wikisource.org/wiki/The_Divine_Pymander",
+   "license": "public domain (Wikisource)"
+  },
+  {
+   "id": "dionysius-mystical-theology",
+   "title": "The Mystic Theology",
+   "author": "Dionysius the Areopagite",
+   "translator": "John Parker (1897)",
+   "school": "christian-mysticism",
+   "topics": [
+    "divine",
+    "meditation/prayer"
+   ],
+   "url": "https://en.wikisource.org/wiki/Mystical_Theology",
+   "license": "public domain (Wikisource)"
+  },
+  {
+   "id": "cloud-of-unknowing",
+   "title": "The Cloud of Unknowing",
+   "author": "Anonymous (14th c.)",
+   "translator": null,
+   "school": "christian-mysticism",
+   "topics": [
+    "meditation/prayer",
+    "divine"
+   ],
+   "url": "https://en.wikisource.org/wiki/The_Cloud_of_Unknowing",
+   "license": "public domain (Wikisource)"
+  },
+  {
+   "id": "julian-revelations",
+   "title": "Revelations of Divine Love",
+   "author": "Julian of Norwich",
+   "translator": null,
+   "school": "christian-mysticism",
+   "topics": [
+    "kindness",
+    "divine"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/52958",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "brother-lawrence",
+   "title": "The Practice of the Presence of God",
+   "author": "Brother Lawrence",
+   "translator": null,
+   "school": "christian-mysticism",
+   "topics": [
+    "meditation/prayer",
+    "daily-life"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/5657",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "imitation-of-christ",
+   "title": "The Imitation of Christ",
+   "author": "Thomas à Kempis",
+   "translator": null,
+   "school": "christian-mysticism",
+   "topics": [
+    "virtue",
+    "faith"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/1653",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "underhill-practical-mysticism",
+   "title": "Practical Mysticism",
+   "author": "Evelyn Underhill (1914)",
+   "translator": null,
+   "school": "christian-mysticism",
+   "topics": [
+    "meditation",
+    "awakening"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/21774",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "boehme-supersensual",
+   "title": "Dialogues on the Supersensual Life",
+   "author": "Jakob Böhme",
+   "translator": null,
+   "school": "christian-theosophy",
+   "topics": [
+    "gnosis",
+    "self"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/33742",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "rumi-mesnevi-redhouse",
+   "title": "The Mesnevi (Book I)",
+   "author": "Jalal al-Din Rumi",
+   "translator": "James Redhouse (1881)",
+   "school": "mevlevi-rumi",
+   "topics": [
+    "texts",
+    "kindness",
+    "divine"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/61724",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "rumi-persian-mystics",
+   "title": "The Persian Mystics: Jalálu'd-dín Rúmí",
+   "author": "Rumi",
+   "translator": "F. Hadland Davis (1907)",
+   "school": "mevlevi-rumi",
+   "topics": [
+    "texts",
+    "divine"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/45159",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "hafiz-divan",
+   "title": "Poems from the Divan of Hafiz",
+   "author": "Hafiz",
+   "translator": "Gertrude Bell (1897)",
+   "school": "sufism",
+   "topics": [
+    "kindness",
+    "divine"
+   ],
+   "url": "https://www.gutenberg.org/ebooks/74883",
+   "license": "public domain (Project Gutenberg)"
+  },
+  {
+   "id": "chittick-presence-with-god",
+   "title": "Presence with God in Ibn Arabi's Teaching",
+   "author": "William C. Chittick",
+   "translator": null,
+   "school": "akbarian",
+   "topics": [
+    "divine",
+    "meditation/prayer"
+   ],
+   "url": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
+   "license": "free on the Muhyiddin Ibn Arabi Society's site"
+  },
+  {
+   "id": "zohar-sefaria",
+   "title": "Zohar (Aramaic text with English)",
+   "author": "Moses de León circle (13th c.)",
+   "translator": "see each version on Sefaria",
+   "school": "zohar",
+   "topics": [
+    "texts",
+    "divine"
+   ],
+   "url": "https://www.sefaria.org/Zohar",
+   "license": "free on Sefaria; check each version's licence before reusing it"
+  },
+  {
+   "id": "wccm-how-to-meditate",
+   "title": "How to Meditate (Christian meditation with a mantra)",
+   "author": "WCCM",
+   "translator": null,
+   "school": "christian-meditation-wccm",
+   "topics": [
+    "meditation/mantra"
+   ],
+   "url": "https://wccm.org/meditate/how-to-meditate/",
+   "license": "free on WCCM's site"
+  },
+  {
+   "id": "cac-daily-meditations",
+   "title": "Daily Meditations (Richard Rohr and CAC faculty)",
+   "author": "Center for Action and Contemplation",
+   "translator": null,
+   "school": "franciscan-contemplative",
+   "topics": [
+    "meditation/prayer"
+   ],
+   "url": "https://cac.org/daily-meditations/",
+   "license": "free on CAC's site"
+  }
+ ]
+}

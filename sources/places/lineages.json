@@ -1,0 +1,1172 @@
+{
+ "_note": "Lineage trees (2026-10-20) as teacher_of chains. status: in-app = already in app/wisegraph/edges.json; in-other-source = proposed by another sources/ group; new = in edges-additions.json here. *_years from the person records (Wikidata dates). conf: high = textbook, medium = widely stated but looser (e.g. studied with rather than formal heir).",
+ "lineages": [
+  {
+   "id": "thai-forest-mun-lee",
+   "label": "Thai Forest: Ajahn Mun → Ajaan Lee → Ajaan Fuang → Thanissaro",
+   "tradition": "thai-forest",
+   "members": [
+    "ajahn-sao",
+    "ajahn-mun",
+    "ajaan-lee",
+    "ajahn-fuang",
+    "thanissaro-bhikkhu"
+   ],
+   "edges": [
+    {
+     "from": "ajahn-sao",
+     "to": "ajahn-mun",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1859–1941",
+     "to_years": "1870–1949",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-mun",
+     "to": "ajaan-lee",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1870–1949",
+     "to_years": "1907–1961",
+     "status": "in-app"
+    },
+    {
+     "from": "ajaan-lee",
+     "to": "ajahn-fuang",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1907–1961",
+     "to_years": "1915–1986",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-fuang",
+     "to": "thanissaro-bhikkhu",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1915–1986",
+     "to_years": "1949–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "thai-forest-mun-chah",
+   "label": "Thai Forest: Ajahn Mun → Ajahn Chah and his Western disciples",
+   "tradition": "thai-forest",
+   "members": [
+    "ajahn-mun",
+    "ajahn-chah",
+    "ajahn-sumedho",
+    "ajahn-pasanno",
+    "ajahn-brahm",
+    "ajahn-amaro",
+    "ajahn-liem",
+    "ajahn-jayasaro",
+    "ajahn-viradhammo",
+    "ajahn-munindo",
+    "ajahn-sucitto",
+    "jack-kornfield"
+   ],
+   "edges": [
+    {
+     "from": "ajahn-mun",
+     "to": "ajahn-chah",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1870–1949",
+     "to_years": "1918–1992",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-sumedho",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1934–",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-pasanno",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1949–",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-brahm",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1951–",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-amaro",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1956–",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-sumedho",
+     "to": "ajahn-amaro",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1934–",
+     "to_years": "1956–",
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-liem",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": null,
+     "status": "new"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-jayasaro",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1918–1992",
+     "to_years": "1958–",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-viradhammo",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1947–",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "ajahn-munindo",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": null,
+     "status": "new"
+    },
+    {
+     "from": "ajahn-sumedho",
+     "to": "ajahn-sucitto",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1934–",
+     "to_years": "1949–",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-chah",
+     "to": "jack-kornfield",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1918–1992",
+     "to_years": "1945–",
+     "status": "in-app"
+    }
+   ]
+  },
+  {
+   "id": "thai-forest-mun-other",
+   "label": "Thai Forest: other disciples of Ajahn Mun",
+   "tradition": "thai-forest",
+   "members": [
+    "ajahn-mun",
+    "ajahn-maha-boowa",
+    "ajahn-thate"
+   ],
+   "edges": [
+    {
+     "from": "ajahn-mun",
+     "to": "ajahn-maha-boowa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1870–1949",
+     "to_years": "1913–2011",
+     "status": "new"
+    },
+    {
+     "from": "ajahn-mun",
+     "to": "ajahn-thate",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1870–1949",
+     "to_years": "1902–1994",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "ledi-goenka",
+   "label": "Ledi Sayadaw → Saya Thetgyi → U Ba Khin → S. N. Goenka",
+   "tradition": "goenka-vipassana",
+   "members": [
+    "ledi-sayadaw",
+    "saya-thetgyi",
+    "u-ba-khin",
+    "goenka",
+    "sayamagyi"
+   ],
+   "edges": [
+    {
+     "from": "ledi-sayadaw",
+     "to": "saya-thetgyi",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1846–1923",
+     "to_years": "1873–1945",
+     "status": "new"
+    },
+    {
+     "from": "saya-thetgyi",
+     "to": "u-ba-khin",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1873–1945",
+     "to_years": "1899–1971",
+     "status": "new"
+    },
+    {
+     "from": "u-ba-khin",
+     "to": "goenka",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1899–1971",
+     "to_years": "1924–2013",
+     "status": "new"
+    },
+    {
+     "from": "u-ba-khin",
+     "to": "sayamagyi",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1899–1971",
+     "to_years": "1925–2017",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "mahasi",
+   "label": "Mingun Jetavana Sayadaw → Mahasi Sayadaw → U Pandita / Chanmyay / Munindra → Western Insight",
+   "tradition": "burmese",
+   "members": [
+    "mingun-sayadaw",
+    "mahasi-sayadaw",
+    "sayadaw-u-pandita",
+    "chanmyay-sayadaw",
+    "anagarika-munindra",
+    "joseph-goldstein",
+    "dipa-ma",
+    "sharon-salzberg",
+    "jack-kornfield"
+   ],
+   "edges": [
+    {
+     "from": "mingun-sayadaw",
+     "to": "mahasi-sayadaw",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1904–1982",
+     "status": "new"
+    },
+    {
+     "from": "mahasi-sayadaw",
+     "to": "sayadaw-u-pandita",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1904–1982",
+     "to_years": "1921–2016",
+     "status": "new"
+    },
+    {
+     "from": "mahasi-sayadaw",
+     "to": "chanmyay-sayadaw",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1904–1982",
+     "to_years": "1928–",
+     "status": "new"
+    },
+    {
+     "from": "mahasi-sayadaw",
+     "to": "anagarika-munindra",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1904–1982",
+     "to_years": "1915–2003",
+     "status": "new"
+    },
+    {
+     "from": "anagarika-munindra",
+     "to": "joseph-goldstein",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1915–2003",
+     "to_years": "1944–",
+     "status": "new"
+    },
+    {
+     "from": "anagarika-munindra",
+     "to": "dipa-ma",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1915–2003",
+     "to_years": "1911–1989",
+     "status": "new"
+    },
+    {
+     "from": "dipa-ma",
+     "to": "sharon-salzberg",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1911–1989",
+     "to_years": "1952–",
+     "status": "new"
+    },
+    {
+     "from": "dipa-ma",
+     "to": "joseph-goldstein",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1911–1989",
+     "to_years": "1944–",
+     "status": "new"
+    },
+    {
+     "from": "sayadaw-u-pandita",
+     "to": "joseph-goldstein",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1921–2016",
+     "to_years": "1944–",
+     "status": "new"
+    },
+    {
+     "from": "sayadaw-u-pandita",
+     "to": "sharon-salzberg",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1921–2016",
+     "to_years": "1952–",
+     "status": "new"
+    },
+    {
+     "from": "sayadaw-u-pandita",
+     "to": "jack-kornfield",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1921–2016",
+     "to_years": "1945–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "shwe-oo-min",
+   "label": "Shwe Oo Min Sayadaw → Sayadaw U Tejaniya",
+   "tradition": "burmese",
+   "members": [
+    "shwe-oo-min-sayadaw",
+    "sayadaw-u-tejaniya"
+   ],
+   "edges": [
+    {
+     "from": "shwe-oo-min-sayadaw",
+     "to": "sayadaw-u-tejaniya",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1913–2002",
+     "to_years": "1962–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "island-hermitage",
+   "label": "Nyanatiloka and the Island Hermitage line",
+   "tradition": "theravada",
+   "members": [
+    "nyanatiloka",
+    "nyanaponika",
+    "nanavira-thera",
+    "bhikkhu-bodhi"
+   ],
+   "edges": [
+    {
+     "from": "nyanatiloka",
+     "to": "nyanaponika",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1878–1957",
+     "to_years": "1901–1994",
+     "status": "new"
+    },
+    {
+     "from": "nyanatiloka",
+     "to": "nanavira-thera",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1878–1957",
+     "to_years": "1920–1965",
+     "status": "new"
+    },
+    {
+     "from": "nyanaponika",
+     "to": "bhikkhu-bodhi",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1901–1994",
+     "to_years": "1944–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "hillside",
+   "label": "Hillside Hermitage: Ajahn Nyanamoli and students",
+   "tradition": "early-suttas",
+   "members": [
+    "ajahn-nyanamoli",
+    "bhikkhu-anigha",
+    "thaniyo-thero",
+    "sister-medhini"
+   ],
+   "edges": [
+    {
+     "from": "ajahn-nyanamoli",
+     "to": "bhikkhu-anigha",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": null,
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-nyanamoli",
+     "to": "thaniyo-thero",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": null,
+     "status": "in-app"
+    },
+    {
+     "from": "ajahn-nyanamoli",
+     "to": "sister-medhini",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": null,
+     "status": "in-app"
+    }
+   ]
+  },
+  {
+   "id": "kagyu-golden-rosary",
+   "label": "Kagyu: Tilopa → Naropa → Marpa → Milarepa → Gampopa → 1st Karmapa",
+   "tradition": "kagyu",
+   "members": [
+    "tilopa",
+    "naropa",
+    "marpa",
+    "milarepa",
+    "gampopa",
+    "karmapa-1"
+   ],
+   "edges": [
+    {
+     "from": "tilopa",
+     "to": "naropa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "928–1009",
+     "to_years": "1016–1100",
+     "status": "new"
+    },
+    {
+     "from": "naropa",
+     "to": "marpa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1016–1100",
+     "to_years": "1012–1097",
+     "status": "new"
+    },
+    {
+     "from": "marpa",
+     "to": "milarepa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1012–1097",
+     "to_years": "1052–1135",
+     "status": "new"
+    },
+    {
+     "from": "milarepa",
+     "to": "gampopa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1052–1135",
+     "to_years": "1079–1153",
+     "status": "new"
+    },
+    {
+     "from": "gampopa",
+     "to": "karmapa-1",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1079–1153",
+     "to_years": "1110–1193",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "kagyu-west",
+   "label": "Kagyu and Nyingma teachers in the West",
+   "tradition": "kagyu",
+   "members": [
+    "chogyam-trungpa",
+    "pema-chodron",
+    "tulku-urgyen",
+    "mingyur-rinpoche",
+    "tsoknyi-rinpoche",
+    "chokyi-nyima-rinpoche"
+   ],
+   "edges": [
+    {
+     "from": "chogyam-trungpa",
+     "to": "pema-chodron",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1939–1987",
+     "to_years": "1936–",
+     "status": "new"
+    },
+    {
+     "from": "tulku-urgyen",
+     "to": "mingyur-rinpoche",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1920–1996",
+     "to_years": "1975–",
+     "status": "in-app"
+    },
+    {
+     "from": "tulku-urgyen",
+     "to": "tsoknyi-rinpoche",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1920–1996",
+     "to_years": "1966–",
+     "status": "in-app"
+    },
+    {
+     "from": "tulku-urgyen",
+     "to": "chokyi-nyima-rinpoche",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1920–1996",
+     "to_years": "1951–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "gelug",
+   "label": "Gelug: tutors of the 14th Dalai Lama; FPMT founders",
+   "tradition": "gelug",
+   "members": [
+    "ling-rinpoche",
+    "dalai-lama",
+    "trijang-rinpoche",
+    "lama-yeshe",
+    "lama-zopa"
+   ],
+   "edges": [
+    {
+     "from": "ling-rinpoche",
+     "to": "dalai-lama",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1903–1983",
+     "to_years": "1935–",
+     "status": "new"
+    },
+    {
+     "from": "trijang-rinpoche",
+     "to": "dalai-lama",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1901–1981",
+     "to_years": "1935–",
+     "status": "new"
+    },
+    {
+     "from": "lama-yeshe",
+     "to": "lama-zopa",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1935–1984",
+     "to_years": "1946–2023",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "soto-suzuki",
+   "label": "Soto Zen: Shunryu Suzuki line (San Francisco Zen Center)",
+   "tradition": "soto-zen",
+   "members": [
+    "gyokujun-so-on",
+    "shunryu-suzuki",
+    "kishizawa-ian",
+    "richard-baker"
+   ],
+   "edges": [
+    {
+     "from": "gyokujun-so-on",
+     "to": "shunryu-suzuki",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1904–1971",
+     "status": "new"
+    },
+    {
+     "from": "kishizawa-ian",
+     "to": "shunryu-suzuki",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1865–1955",
+     "to_years": "1904–1971",
+     "status": "new"
+    },
+    {
+     "from": "shunryu-suzuki",
+     "to": "richard-baker",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1904–1971",
+     "to_years": "1936–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "soto-sawaki",
+   "label": "Soto Zen: Kodo Sawaki → Kosho Uchiyama → Shohaku Okumura (Antaiji)",
+   "tradition": "soto-zen",
+   "members": [
+    "kodo-sawaki",
+    "kosho-uchiyama",
+    "shohaku-okumura",
+    "gudo-nishijima",
+    "brad-warner"
+   ],
+   "edges": [
+    {
+     "from": "kodo-sawaki",
+     "to": "kosho-uchiyama",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1880–1965",
+     "to_years": "1912–1998",
+     "status": "new"
+    },
+    {
+     "from": "kosho-uchiyama",
+     "to": "shohaku-okumura",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1912–1998",
+     "to_years": "1948–",
+     "status": "in-app"
+    },
+    {
+     "from": "gudo-nishijima",
+     "to": "brad-warner",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1919–2014",
+     "to_years": "1964–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "sanbo-maezumi",
+   "label": "Yasutani → Kapleau / Maezumi → Glassman, Loori → Halifax",
+   "tradition": "zen",
+   "members": [
+    "hakuun-yasutani",
+    "philip-kapleau",
+    "taizan-maezumi",
+    "bernie-glassman",
+    "john-daido-loori",
+    "joan-halifax"
+   ],
+   "edges": [
+    {
+     "from": "hakuun-yasutani",
+     "to": "philip-kapleau",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1885–1973",
+     "to_years": "1912–2004",
+     "status": "new"
+    },
+    {
+     "from": "hakuun-yasutani",
+     "to": "taizan-maezumi",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1885–1973",
+     "to_years": "1931–1995",
+     "status": "new"
+    },
+    {
+     "from": "taizan-maezumi",
+     "to": "bernie-glassman",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1931–1995",
+     "to_years": "1939–2018",
+     "status": "new"
+    },
+    {
+     "from": "taizan-maezumi",
+     "to": "john-daido-loori",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1931–1995",
+     "to_years": "1931–2009",
+     "status": "new"
+    },
+    {
+     "from": "bernie-glassman",
+     "to": "joan-halifax",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1939–2018",
+     "to_years": "1942–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "plum-village",
+   "label": "Tu Hieu Temple → Thich Nhat Hanh",
+   "tradition": "plum-village",
+   "members": [
+    "thich-chan-that",
+    "thich-nhat-hanh"
+   ],
+   "edges": [
+    {
+     "from": "thich-chan-that",
+     "to": "thich-nhat-hanh",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1926–2022",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "ramana",
+   "label": "Ramana Maharshi → Papaji, Annamalai Swami → Mooji, Gangaji",
+   "tradition": "advaita",
+   "members": [
+    "ramana-maharshi",
+    "papaji",
+    "annamalai-swami",
+    "mooji",
+    "gangaji"
+   ],
+   "edges": [
+    {
+     "from": "ramana-maharshi",
+     "to": "papaji",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1879–1950",
+     "to_years": "1910–1997",
+     "status": "in-app"
+    },
+    {
+     "from": "ramana-maharshi",
+     "to": "annamalai-swami",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1879–1950",
+     "to_years": "1906–1995",
+     "status": "new"
+    },
+    {
+     "from": "papaji",
+     "to": "mooji",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1910–1997",
+     "to_years": "b. 1954",
+     "status": "in-app"
+    },
+    {
+     "from": "papaji",
+     "to": "gangaji",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1910–1997",
+     "to_years": "1942–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "inchegeri",
+   "label": "Inchegeri: Bhausaheb → Siddharameshwar → Nisargadatta, Ranjit",
+   "tradition": "inchegeri",
+   "members": [
+    "bhausaheb-maharaj",
+    "siddharameshwar-maharaj",
+    "nisargadatta-maharaj",
+    "sri-ranjit-maharaj",
+    "ramesh-balsekar"
+   ],
+   "edges": [
+    {
+     "from": "bhausaheb-maharaj",
+     "to": "siddharameshwar-maharaj",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1888–1936",
+     "status": "new"
+    },
+    {
+     "from": "siddharameshwar-maharaj",
+     "to": "nisargadatta-maharaj",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1888–1936",
+     "to_years": "1897–1981",
+     "status": "in-app"
+    },
+    {
+     "from": "siddharameshwar-maharaj",
+     "to": "sri-ranjit-maharaj",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1888–1936",
+     "to_years": "1913–2000",
+     "status": "in-app"
+    },
+    {
+     "from": "nisargadatta-maharaj",
+     "to": "ramesh-balsekar",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1897–1981",
+     "to_years": "1917–2009",
+     "status": "in-app"
+    }
+   ]
+  },
+  {
+   "id": "lakshmanjoo",
+   "label": "Kashmir Shaivism: Swami Ram → Mahatab Kak → Lakshmanjoo",
+   "tradition": "kashmir-shaivism",
+   "members": [
+    "swami-ram-kashmir",
+    "swami-mahtab-kak",
+    "swami-lakshmanjoo",
+    "john-hughes",
+    "alexis-sanderson"
+   ],
+   "edges": [
+    {
+     "from": "swami-ram-kashmir",
+     "to": "swami-mahtab-kak",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": null,
+     "status": "new"
+    },
+    {
+     "from": "swami-mahtab-kak",
+     "to": "swami-lakshmanjoo",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1907–1991",
+     "status": "new"
+    },
+    {
+     "from": "swami-lakshmanjoo",
+     "to": "john-hughes",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1907–1991",
+     "to_years": null,
+     "status": "new"
+    },
+    {
+     "from": "swami-lakshmanjoo",
+     "to": "alexis-sanderson",
+     "type": "teacher_of",
+     "conf": "medium",
+     "from_years": "1907–1991",
+     "to_years": "1948–",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "trika-classical",
+   "label": "Kashmir Shaivism (classical): Lakshmanagupta → Abhinavagupta → Kshemaraja",
+   "tradition": "kashmir-shaivism",
+   "members": [
+    "lakshmanagupta",
+    "abhinavagupta",
+    "kshemaraja"
+   ],
+   "edges": [
+    {
+     "from": "lakshmanagupta",
+     "to": "abhinavagupta",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "c. 950–1016",
+     "status": "new"
+    },
+    {
+     "from": "abhinavagupta",
+     "to": "kshemaraja",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "c. 950–1016",
+     "to_years": "975–1025",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "siddha-yoga",
+   "label": "Bhagawan Nityananda → Swami Muktananda (Siddha Yoga)",
+   "tradition": "kashmir-shaivism",
+   "members": [
+    "bhagawan-nityananda",
+    "muktananda"
+   ],
+   "edges": [
+    {
+     "from": "bhagawan-nityananda",
+     "to": "muktananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1897–1961",
+     "to_years": "1908–1982",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "ramakrishna",
+   "label": "Ramakrishna → Vivekananda, Brahmananda",
+   "tradition": "ramakrishna-order",
+   "members": [
+    "ramakrishna",
+    "swami-vivekananda",
+    "swami-brahmananda"
+   ],
+   "edges": [
+    {
+     "from": "ramakrishna",
+     "to": "swami-vivekananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1836–1886",
+     "to_years": "1863–1902",
+     "status": "in-app"
+    },
+    {
+     "from": "ramakrishna",
+     "to": "swami-brahmananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1836–1886",
+     "to_years": "1863–1922",
+     "status": "new"
+    }
+   ]
+  },
+  {
+   "id": "sivananda-chinmaya",
+   "label": "Sivananda → Chinmayananda → Dayananda → Tadatmananda",
+   "tradition": "vedanta",
+   "members": [
+    "swami-sivananda",
+    "swami-chinmayananda",
+    "swami-dayananda-saraswati",
+    "swami-tadatmananda"
+   ],
+   "edges": [
+    {
+     "from": "swami-sivananda",
+     "to": "swami-chinmayananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1887–1963",
+     "to_years": "1916–1993",
+     "status": "new"
+    },
+    {
+     "from": "swami-chinmayananda",
+     "to": "swami-dayananda-saraswati",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1916–1993",
+     "to_years": "1930–2015",
+     "status": "new"
+    },
+    {
+     "from": "swami-dayananda-saraswati",
+     "to": "swami-tadatmananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1930–2015",
+     "to_years": null,
+     "status": "in-app"
+    }
+   ]
+  },
+  {
+   "id": "kriya",
+   "label": "Kriya Yoga: Babaji → Lahiri Mahasaya → Sri Yukteswar → Yogananda",
+   "tradition": "kriya-yoga",
+   "members": [
+    "mahavatar-babaji",
+    "lahiri-mahasaya",
+    "sri-yukteswar",
+    "paramahansa-yogananda"
+   ],
+   "edges": [
+    {
+     "from": "mahavatar-babaji",
+     "to": "lahiri-mahasaya",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": null,
+     "to_years": "1828–1895",
+     "status": "in-app"
+    },
+    {
+     "from": "lahiri-mahasaya",
+     "to": "sri-yukteswar",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1828–1895",
+     "to_years": "1855–1936",
+     "status": "in-app"
+    },
+    {
+     "from": "sri-yukteswar",
+     "to": "paramahansa-yogananda",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1855–1936",
+     "to_years": "1893–1952",
+     "status": "in-app"
+    }
+   ]
+  },
+  {
+   "id": "christian-contemplative",
+   "label": "Christian contemplative: Centering Prayer and Shantivanam",
+   "tradition": "christian-mysticism",
+   "members": [
+    "thomas-keating",
+    "cynthia-bourgeault"
+   ],
+   "edges": [
+    {
+     "from": "thomas-keating",
+     "to": "cynthia-bourgeault",
+     "type": "teacher_of",
+     "conf": "high",
+     "from_years": "1923–2018",
+     "to_years": "b. 1947",
+     "status": "new"
+    }
+   ]
+  }
+ ],
+ "influenced": [
+  {
+   "from": "ramana-maharshi",
+   "to": "abhishiktananda",
+   "conf": "high",
+   "note": "Le Saux met Ramana in 1949; it reshaped his life"
+  },
+  {
+   "from": "abhishiktananda",
+   "to": "bede-griffiths",
+   "conf": "medium",
+   "note": "Griffiths took over Shantivanam after Le Saux"
+  }
+ ],
+ "lineage_of": [
+  {
+   "from": "tsongkhapa",
+   "to": "gelug"
+  },
+  {
+   "from": "karmapa-1",
+   "to": "kagyu"
+  },
+  {
+   "from": "padmasambhava",
+   "to": "nyingma"
+  },
+  {
+   "from": "bodhidharma",
+   "to": "zen"
+  },
+  {
+   "from": "vasugupta",
+   "to": "kashmir-shaivism"
+  },
+  {
+   "from": "goenka",
+   "to": "goenka-vipassana"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "plum-village"
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "inchegeri"
+  }
+ ]
+}
