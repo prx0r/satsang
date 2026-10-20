@@ -32,7 +32,7 @@ jobs:
           node-version: '20'
       - name: Restore keeper state
         run: |
-          git fetch --depth 1 origin keeper-state && git checkout origin/keeper-state -- keeper/state keeper/REPORT.md && git reset -q || echo "no keeper-state yet: starting fresh"
+          git fetch --depth 1 origin keeper-state && git checkout FETCH_HEAD -- keeper/state keeper/REPORT.md && git reset -q || echo "no keeper-state yet: starting fresh"
       - name: Run checks
         env:
           CADENCE: ${{ github.event.inputs.cadence || 'weekly' }}
