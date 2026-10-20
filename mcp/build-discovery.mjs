@@ -162,6 +162,6 @@ fs.writeFileSync(new URL('schema-index.html', out), schemaIndex)
 
 // resource pages data (served by the site worker as plain HTML at /resource/<id>)
 const res = {}
-for (const r of Object.values(ctx.resource)) { const p = prov(ctx, 'resource', r); res[r.id] = { t: r.title, k: r.kind, a: r.access, u: r.url, l: r.licence, pub: r.publisher, au: (r.authors || []).map((x) => [x, data.person[x]?.name || x]), an: r.authorName, tr: (r.traditions || []).map((x) => [x, data.tradition[x]?.label || x]), s: r.summary, n: r.note, src: p.source_url, v: p.verified_on, c: p.confidence } }
+for (const r of Object.values(ctx.resource)) { const p = prov(ctx, 'resource', r); res[r.id] = { t: r.title, k: r.kind, a: r.access, u: r.url, l: r.licence, ...(r.licenceUrl ? { lu: r.licenceUrl } : {}), pub: r.publisher, au: (r.authors || []).map((x) => [x, data.person[x]?.name || x]), an: r.authorName, tr: (r.traditions || []).map((x) => [x, data.tradition[x]?.label || x]), s: r.summary, n: r.note, src: p.source_url, v: p.verified_on, c: p.confidence } }
 fs.writeFileSync(new URL('resources.json', out), JSON.stringify(res))
 console.log('discovery:', { tools: TOOLS.length, resources: nRes, free: nFree, llms: llms.length, llmsFull: fs.statSync(new URL('llms-full.txt', out)).size })

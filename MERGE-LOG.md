@@ -141,3 +141,39 @@ place birken, /agents) — dark design unchanged.
   995 KB gzip (keeper limit 3 MB). Live: /place/devipatan-shaktipeeth-tulsipur, /person/yogi-matsyendranath-maharaj, /place/ltwa 200.
 - Screenshots: shots-merge/india/ (place devipatan, person matsyendranath, #country/IN; desktop + phone) — dark design unchanged.
   shot-merge.mjs gains `WAIT=<ms>` (desktop shots at 1.5 s can catch the loading skeleton, as b5 desktop-place-rampoeng did).
+
+## Main-teacher check + licence registry (deployed wiser-web 05a3c9ed, wiser-mcp 24c05a86; 2026-10-21 ~01:30 +07)
+Main teachers (the 5 medium ones), checked on each place's OFFICIAL site 2026-10-21 (`source_maps.MAIN_TEACHER_CHECK`, applied by merge-sources):
+| place | teacher | verdict | official page |
+|---|---|---|---|
+| amaravati | Ajahn Amaro | PUBLISHED (high) | amaravati.org/about/male-monastic-community/ "Luang Por Amaro – Abbot" (since Nov 2010) |
+| aruna-ratanagiri | Ajahn Munindo | PUBLISHED (high) | ratanagiri.org.uk home: "The abbot, Ajahn Munindo" |
+| cittaviveka | Ajahn Sucitto | held | cittaviveka.org/guiding-elders: abbot 1992–2014, now Guiding Elder (not current abbot) |
+| spirit-rock | Jack Kornfield | held | spiritrock.org/teachers/jack-kornfield: "a founding teacher"; no single current main teacher stated |
+| patanjali-yogpeeth | Swami Ramdev | held | divyayoga.com/trustees/swami-ramdev-ji/: trustee + co-founder; no page names a main teacher |
+Published rows carry `main_teacher_src` + `main_teacher_verified` -> MCP/REST `mainTeacher.sourceUrl/verifiedOn`. Held rows -> review queue kind
+`main-teacher-held` with the reason (the old `main-teacher-medium` items for these 5 left the queue). Live main teachers 17 (15 + 2).
+
+Licence registry (`app/wisegraph/licence-registry.json`, every new entry with `evidenceUrl`; shared gate `app/tools/licence_gate.py` used by
+merge-sources.py AND build-wise.py; registry gains `urls` (prefix) and `held` sections):
+- Now linked (evidence read 2026-10-21): accesstoinsight.org (FAQ "Copyright and terms of use", verify flag cleared), suttacentral.net (licensing page:
+  free of charge, own material CC0, legacy per asserter), bps-pariyatti (bps.lk "E-Books: Free to Read"), Muktabodha (CC BY-NC 4.0), GRETIL
+  (free for scholarly reference, no commercial use; noSale), Zenodo 4395629 (CC BY 4.0), OAPEN Sanderson festschrift (CC BY-NC 4.0), SOAS Mallinson
+  "Nāth Saṃpradāya" (open-access repository, link only; URL -> eprints.soas.ac.uk/17972/), nathas.org articles + paramparā (footer: use allowed with
+  reference), LTWA free downloads (URL -> tibetanlibrary.org/free-download-resources/), gutenberg.org (licence page), ashintejaniya.org.
+  Staged texts shown 14 (was 11); India free-text claims: 7 of 19 now linked.
+- Still held (terms read, unclear or restrictive; reason in registry `held` + queue): path-press-shop, Lakshmanjoo Academy blog, utpaladeva.in,
+  IFP digital collections (terms page JS-only), alexissanderson.com (unreachable), swarayoga.org x2 (terms forbid reproduction), Arsha Vidya x3
+  (arshavidya.org/.in: no content licence), Vishnusahasranama PDF (arshavidyananda.in terms: no reproduction), Anuttara Trika Kula (all rights reserved).
+- Person free texts (20) now gated in build-wise: 19 linked (gutenberg, wikisource, ATI, dhammatalks, abhayagiri, suttacentral, ashintejaniya), 1 held
+  (Chittick on ibnarabisociety.org: © the Society, no permission statement) -> queue kind `text-licence-person`. Place resource links (3) gated: all 3 linked
+  (dlshq, dhammatalks, bps.lk/online-library via a `urls` entry) -> `resource-licence-place` for any future hold.
+- Review queue: `text-licence`, `main-teacher-*`, `place-dropped` items are recomputed every run (resolved ones leave); now 104 items.
+- The batch-4 404s: /resource/access-to-insight-theravada-library, /resource/suttacentral-early-buddhist-texts,
+  /resource/buddhist-publication-society-free-booklets are 200 again (with a "Licence evidence" row); /resource/path-press-nanavira-collected-writings
+  (and every other held text) answers 200 with a plain noindex "held while its licence is checked" page, no outbound link (worker `HELD`, built by
+  web-worker/build-meta.mjs from the review queue).
+- Known gap (not in scope): topic-hub essays (63 edition links in hubs.json -> text records) are not under the licence gate yet; e.g. the Chittick essay
+  is held as a person text but still linked as a hub essay.
+Validation: schema 13,082 failing none; transcript guards 0 found; mcp/test.mjs + test-client all passed; bundles 561 KB / 997 KB gzip.
+Screenshots: shots-merge/verify/ (place amaravati, held resource page, ATI resource page) — dark design unchanged.

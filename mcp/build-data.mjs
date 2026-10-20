@@ -59,7 +59,7 @@ for (const [id, p] of Object.entries(wise.people)) {
   if (/scholar|professor|indologist|historian|translator/i.test(p.bio || '')) roles.push('scholar')
   person[id] = { id, type: 'person', name: p.n, short: p.short, roles, onVideo: p.k === 'speaker', traditions: p.t ? [p.t] : [],
     years: years(p.years), living: p.living === true ? true : undefined, bio: p.bio, tagline: p.tagline,
-    freeTexts: (p.texts || []).filter((x) => /^https?:/.test(x.url || '')).map((x) => ({ title: x.title, url: x.url, site: x.site, free: x.free !== false, licence: x.licence })),
+    freeTexts: (p.texts || []).filter((x) => /^https?:/.test(x.url || '')).map((x) => ({ title: x.title, url: x.url, site: x.site, free: x.free !== false, licence: x.licence, ...(x.licenceUrl ? { licenceUrl: x.licenceUrl } : {}), ...(x.noSale ? { noSale: true } : {}) })),
     image: p.img?.src ? { src: p.img.src, face: p.img.face, page: p.img.page, artist: p.img.artist, license: p.img.license, licenseUrl: p.img.licenseUrl } : undefined,
     ids: p.wd ? { wikidata: p.wd } : undefined,
     links: Object.entries(p.links || {}).filter(([, u]) => /^https?:/.test(u)).map(([label, url]) => ({ label, url, kind: /web|site|official/i.test(label) ? 'official' : 'other' })),
@@ -235,14 +235,14 @@ for (const p of placesRaw.places) {
   place[p.id] = { id: p.id, type: 'place', name: p.name, placeType: ['monastery', 'centre', 'ashram', 'retreat', 'pilgrimage', 'temple', 'lodge', 'grove', 'hermitage'].includes(p.type) ? p.type : PLACE_TYPE[p.type] || 'other',
     traditions: p.traditions || [], country: p.country, city: p.city,
     geo: p.lat != null ? { lat: p.lat, lng: p.lng, precision: p.coord_precision, public: true } : { public: false },
-    founded: years(p.founded), teachers: p.teachers || [], ...(p.main_teacher ? { mainTeacher: p.main_teacher, teacherModel: p.teacher_model || 'single', mainTeacherConfidence: p.main_teacher_conf } : {}), ...(p.status ? { status: p.status } : {}), url: p.url, scheduleUrl: p.schedule_url, description: p.description,
+    founded: years(p.founded), teachers: p.teachers || [], ...(p.main_teacher ? { mainTeacher: p.main_teacher, teacherModel: p.teacher_model || 'single', mainTeacherConfidence: p.main_teacher_conf, ...(p.main_teacher_src ? { mainTeacherSource: p.main_teacher_src, mainTeacherVerified: p.main_teacher_verified } : {}) } : {}), ...(p.status ? { status: p.status } : {}), url: p.url, scheduleUrl: p.schedule_url, description: p.description,
     network: p.goenka ? 'dhamma.org' : undefined,
     programmes: (p.retreats || []).map((r) => ({ id: r.id, name: r.name, typicalLength: r.typical_length, format: r.format, costModel: ['dana', 'fixed', 'sliding', 'free'].includes(r.cost_model) ? r.cost_model : 'unknown', scheduleUrl: r.schedule_url, ...(r.recurrence ? { recurrence: r.recurrence } : {}), ...(r.teachers ? { teachers: r.teachers } : {}), ...(r.checked ? { checked: r.checked } : {}) })),
     contact: p.contact ? { checked: p.contact.checked, page: p.contact.page, pageSource: p.contact.page_src, email: p.contact.email, phone: p.contact.phone, address: p.contact.address } : undefined,
     kindLabel: p.type, offers: p.offers || [], sisters: (p.sisters || []).map((x) => (Array.isArray(x) ? x[0] : x)).filter((x) => typeof x === 'string'),
     sisterLinks: (p.sisters || []).filter(Array.isArray).map(([id, rel, note]) => ({ id, rel, ...(note ? { note } : {}) })),
     events: (p.events || []).map((e) => ({ name: e.name, kind: e.kind, when: e.when, url: e.url, note: e.note })),
-    resources: (p.resources || []).filter((r) => /^https?:/.test(r.url || '')).map((r) => ({ title: r.title, url: r.url, free: r.free, licence: r.licence, sourceUrl: r.source_url, checked: r.checked })),
+    resources: (p.resources || []).filter((r) => /^https?:/.test(r.url || '')).map((r) => ({ title: r.title, url: r.url, free: r.free, licence: r.licence, ...(r.licenceClass ? { licenceClass: r.licenceClass } : {}), ...(r.licenceUrl ? { licenceUrl: r.licenceUrl } : {}), sourceUrl: r.source_url, checked: r.checked })),
     ids: p.wikidata ? { wikidata: p.wikidata } : undefined, meta: { license: LIC, ...(p.aliases ? { aliases: p.aliases } : {}), updated: p.verified_on || p.contact?.checked || p.checked || placesRaw.meta?.built, confidence: p.confidence || (p.contact?.checked && p.contact?.page ? 'high' : (p.url || p.wikidata) ? 'medium' : 'low'),
       sources: [...new Set([p.source_url, p.contact?.page, p.url, p.goenka && p.url ? null : null].filter((u) => /^https?:/.test(u || '')))].slice(0, p.source_url ? 3 : 2).map((url) => ({ url, check: p.contact?.page === url || p.source_url === url ? 'reviewed' : 'cited', ...(p.source_url === url && p.verified_on ? { checked: p.verified_on } : p.contact?.page === url && p.contact?.checked ? { checked: p.contact.checked } : {}) })) } }
 }
@@ -269,7 +269,7 @@ const resourceExtra = []
 try {
   for (const f of fs.readdirSync(path.join(APP, 'site/data/wisegraph')).filter((f) => /^resources.*\.json$/.test(f))) {
     const j = rd('site/data/wisegraph/' + f), rows = Array.isArray(j) ? j : j.resources || []
-    for (const r of rows) if (r && r.title && /^https?:/.test(r.url || '')) resourceExtra.push({ title: r.title, url: r.url, free: r.free, licence: r.licence, ...(r.licenceClass ? { licenceClass: r.licenceClass, noSale: !!r.noSale } : {}), kind: r.kind,
+    for (const r of rows) if (r && r.title && /^https?:/.test(r.url || '')) resourceExtra.push({ title: r.title, url: r.url, free: r.free, licence: r.licence, ...(r.id ? { id: r.id } : {}), ...(r.licenceClass ? { licenceClass: r.licenceClass, noSale: !!r.noSale } : {}), ...(r.licenceEvidenceUrl ? { licenceUrl: r.licenceEvidenceUrl } : {}), kind: r.kind,
       traditions: (r.traditions || []).filter((t) => tradition[t]), people: (r.people || []).filter((x) => person[x]), sourceUrl: r.source_url || r.url, checked: r.checked, file: f })
   }
 } catch { /* none */ }

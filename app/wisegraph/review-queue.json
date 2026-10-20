@@ -162,30 +162,6 @@
    "queued": "2026-10-20"
   },
   {
-   "pack": "12-minimal-entries",
-   "kind": "main-teacher-medium",
-   "subject": "place/amaravati",
-   "reason": "main teacher ajahn-amaro (medium): Abbot 2010–2024 era; re-check current post.",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "12-minimal-entries",
-   "kind": "main-teacher-medium",
-   "subject": "place/aruna-ratanagiri",
-   "reason": "main teacher ajahn-munindo (medium): Founder/abbot; re-check (post may have changed).",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "12-minimal-entries",
-   "kind": "main-teacher-medium",
-   "subject": "place/cittaviveka",
-   "reason": "main teacher ajahn-sucitto (medium): Long-time abbot; re-check current post.",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
    "pack": "14-lineage-clusters",
    "kind": "living-claim",
    "subject": "person/christopher-wallis",
@@ -382,14 +358,6 @@
    "kind": "url-unverified",
    "subject": "thomas-keating->contemplative-outreach",
    "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.contemplativeoutreach.org/; shipped URL-less",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "16-usa-places",
-   "kind": "main-teacher-medium",
-   "subject": "place/spirit-rock",
-   "reason": "main teacher jack-kornfield (medium): Founder; current guiding role re-check.",
    "severity": "verify",
    "queued": "2026-10-20"
   },
@@ -635,14 +603,6 @@
   },
   {
    "pack": "27-teaching-hotspots",
-   "kind": "main-teacher-medium",
-   "subject": "place/patanjali-yogpeeth",
-   "reason": "main teacher swami-ramdev (medium): Co-founder, public face; confirm current role.",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "27-teaching-hotspots",
    "kind": "living-claim",
    "subject": "person/swami-ramdev",
    "reason": "living:true claimed (divyayoga.com (read 2026-10-20)); not set live until checked",
@@ -706,38 +666,6 @@
    "queued": "2026-10-20"
   },
   {
-   "pack": "ext-09-texts-freebooks",
-   "kind": "text-licence",
-   "subject": "text/accesstoinsight-library",
-   "reason": "licence gate: unregistered (domain accesstoinsight.org: default unconfirmed (verify)); held citation-only until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "ext-09-texts-freebooks",
-   "kind": "text-licence",
-   "subject": "text/suttacentral-early-texts",
-   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "ext-09-texts-freebooks",
-   "kind": "text-licence",
-   "subject": "text/bps-pariyatti",
-   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "ext-15-niche-hermitages",
-   "kind": "text-licence",
-   "subject": "text/path-press-shop",
-   "reason": "licence gate: unregistered (no registry entry for the book or its domain); held citation-only until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
    "pack": "deep-india-study",
    "kind": "resource-low-confidence",
    "subject": "resource/sarit",
@@ -771,163 +699,163 @@
   },
   {
    "pack": "deep-india-study",
+   "kind": "place-dropped",
+   "subject": "place/nathas-org-natha-tradition",
+   "reason": "country \"INT\" is not ISO 3166; nathas.org (about/contacts/disciples, checked 2026-10-21) states no headquarters country; schema requires one, so the record is removed (people and resources kept)",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "12-minimal-entries",
+   "kind": "main-teacher-held",
+   "subject": "place/cittaviveka",
+   "reason": "main teacher ajahn-sucitto: checked on the official site 2026-10-21: Guiding Elders page: Luang Por Sucitto \"was the abbot ... from 1992 until 2014\" and is now a Guiding Elder, not the current abbot (https://www.cittaviveka.org/guiding-elders); held",
+   "severity": "verify",
+   "queued": "2026-10-21"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "main-teacher-held",
+   "subject": "place/spirit-rock",
+   "reason": "main teacher jack-kornfield: checked on the official site 2026-10-21: teacher page calls him \"a founding teacher of ... Spirit Rock\"; the site names no single current main teacher (a teachers community) (https://www.spiritrock.org/teachers/jack-kornfield); held",
+   "severity": "verify",
+   "queued": "2026-10-21"
+  },
+  {
+   "pack": "27-teaching-hotspots",
+   "kind": "main-teacher-held",
+   "subject": "place/patanjali-yogpeeth",
+   "reason": "main teacher swami-ramdev: checked on the official site 2026-10-21: official trust site lists him as a trustee and co-founder of Divya Yog Mandir Trust (with Acharya Balkrishna, under Swami Shankar Dev); no page states a main teacher of Patanjali Yogpeeth (https://divyayoga.com/trustees/swami-ramdev-ji/); held",
+   "severity": "verify",
+   "queued": "2026-10-21"
+  },
+  {
+   "pack": "ext-15-niche-hermitages",
+   "kind": "text-licence",
+   "subject": "text/path-press-shop",
+   "reason": "licence gate: unregistered (checked 2026-10-21: Path Press holds the copyrights of Nanavira Thera's writings; the link is its shop; no terms evidence free reading or redistribution of the site texts); held citation-only until the registry evidences a linkable licence",
+   "severity": "verify",
+   "title": "Path Press — Ñāṇavīra collected writings",
+   "evidenceUrl": "https://pathpress.org/about-2/",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/dyczkowski-video-note",
    "reason": "licence gate: free text claimed, registry says mixed-free-watch-paid-course (domain anuttaratrikakula.org: Free lectures watch-only; $150 courses + translations sold); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "Video: no official Dyczkowski YouTube channel found; institutional uploads (BHU Dept. of Philosophy and Religion, Science and Nonduality) are already in sources/deep-tantra (11 clips, 7 long lectures)",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/lja-blog",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Copyright (c) Lakshmanjoo Academy, no terms or free-reading statement found); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "“Swamiji Says” blog: transcribed passages from Lakshmanjoo’s teachings",
+   "evidenceUrl": "https://www.lakshmanjooacademy.org/blog",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/baumer-articles",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: No terms or licence statement found on the site); held until the registry evidences a linkable licence",
    "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/muktabodha-digital-library",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/gretil",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
+   "title": "Bäumer: selected articles and online publications (utpaladeva.in) and Academia profile",
+   "evidenceUrl": "https://www.utpaladeva.in/",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/ifp-digital-collections",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Terms page renders only with JavaScript (empty to a plain fetch); terms not read); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "IFP Digital Collections — Indology manuscripts (Śaiva palm-leaf, 2,284 transcripts), Siddha medicine, temple art photo archive",
+   "evidenceUrl": "https://digitalcollections.ifpindia.org/s/ifp/page/terms-of-use",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/sanderson-site",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Site unreachable on 2026-10-20 and 2026-10-21; terms not read); held until the registry evidences a linkable licence",
    "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/sanderson-saiva-age-zenodo",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/sanderson-festschrift-oapen",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/nathas-articles",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/nathas-parampara",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/mallinson-nath-sampradaya",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
-   "severity": "verify",
+   "title": "alexissanderson.com — personal site with PDFs of most published articles",
+   "evidenceUrl": "https://alexissanderson.com/",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/swarayoga-shastra",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Terms s.8: all content is Swara Yoga Peeth's intellectual property, no reproduction without consent; free reading not stated); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "swarayoga.org Śiva Svarodaya pages and Shastra Library",
+   "evidenceUrl": "https://www.swarayoga.org/terms",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/swarayoga-practice",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: As swarayoga-shastra); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "swarayoga.org practice guides: morning sādhanā, nāḍī-śodhana, bhrāmarī, bhastrikā, kapālabhāti, bandhas, svara meditation, trāṭaka, ṣaṭkarma",
+   "evidenceUrl": "https://www.swarayoga.org/terms",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/avg-saylorsburg-teachings",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Copyright 2021 Arsha Vidya Gurukulam; no terms or free-reading statement found); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "AVG Saylorsburg: free transcribed teachings of Swami Dayananda (articles, Gurupūrṇimā, Vākyavṛtti extracts) and video courses (Nirvāṇa Ṣaṭkam, Essence of the Gītā)",
+   "evidenceUrl": "https://arshavidya.org/swami-dayananda-saraswati/3/",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/avg-anaikatti-resources",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Website terms carry no content licence or free-reading statement); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "AVG Anaikatti free articles (PDFs e.g. “Who am I”, “Bliss”, “Four Paths”), MP3 classes, newsletter archive",
+   "evidenceUrl": "https://arshavidya.in/terms-and-conditions/",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/arsha-vidya-newsletter",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: As avg-anaikatti-resources); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "Arsha Vidya monthly newsletter/journal (PDF archive)",
+   "evidenceUrl": "https://arshavidya.in/terms-and-conditions/",
    "queued": "2026-10-20"
   },
   {
    "pack": "deep-india-study",
    "kind": "text-licence",
    "subject": "resource/vishnusahasranama-sruti-seva",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "reason": "licence gate: free text claimed, registry says unregistered (checked 2026-10-21: Terms s.4: materials are the author's copyright, no reproduction or distribution without written consent); held until the registry evidences a linkable licence",
    "severity": "verify",
+   "title": "The Teaching of Viṣṇusahasranāma (based on Swami Dayananda), digital edition published with Sruti Seva Trust permission",
+   "evidenceUrl": "https://arshavidyananda.in/terms-of-service/",
    "queued": "2026-10-20"
   },
   {
-   "pack": "deep-india-study",
-   "kind": "text-licence",
-   "subject": "resource/ltwa-free-downloads",
-   "reason": "licence gate: free text claimed, registry says unregistered (no registry entry for the book or its domain); held until the registry evidences a linkable licence",
+   "pack": "deep-texts",
+   "kind": "text-licence-person",
+   "subject": "person/william-chittick:ibnarabisociety.org/presence-with-god-william-chittick",
+   "reason": "licence gate: free text \"Presence with God in Ibn Arabi's Teaching\" (https://ibnarabisociety.org/presence-with-god-william-chittick/); registry says unregistered (no registry entry for the book or its domain); link held off the profile",
    "severity": "verify",
-   "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-india-study",
-   "kind": "place-dropped",
-   "subject": "place/nathas-org-natha-tradition",
-   "reason": "country \"INT\" is not ISO 3166; nathas.org (about/contacts/disciples, checked 2026-10-21) states no headquarters country; schema requires one, so the record is removed (people and resources kept)",
-   "severity": "verify",
-   "queued": "2026-10-20"
+   "title": "Presence with God in Ibn Arabi's Teaching",
+   "queued": "2026-10-21"
   }
  ]
 }

@@ -3,7 +3,7 @@
 import SITE from './site.gen.js'
 import KVSITE from './site.kv.gen.js' // large data files served from KV (embed.mjs, kv-paths.json)
 import META from './meta.gen.js' // path pages: title, description, JSON-LD (build-meta.mjs)
-import RES from './resources.gen.js' // /resource/<id> plain pages (build-meta.mjs <- mcp/discovery/resources.json)
+import RES, { HELD } from './resources.gen.js' // /resource/<id> plain pages (build-meta.mjs <- mcp/discovery/resources.json)
 import { withoutDeadClips } from './keeper-dead.mjs' // keeper: hide dead clips (fail-open; keeper/AGENTS.md)
 import REDIRECTS from './redirects.json' // keeper: merged duplicate records, /place/<old> -> /place/<kept> (tools/apply-keeper-fixes.py)
 import { BASE, HOST, MCP_BASE, SITE_ORIGINS } from '../../domain.mjs' // public hostnames (one place)
@@ -30,7 +30,7 @@ export default {
     if (/^\/clip\/.+/.test(p)) return Response.redirect(u.origin + '/#watch/' + encodeURIComponent(p.slice(6).replace(/\/$/, '')), 302)
     if (p === '/openapi.json' || p === '/.well-known/openapi.json') return Response.redirect(MCP_BASE + '/openapi.json', 302)
     const rm = p.match(/^\/resource\/([^/]+)\/?$/)
-    if (rm) { const r = RES[rm[1]]; return new Response(req.method === 'HEAD' ? null : resourcePage(rm[1], r), { status: r ? 200 : 404, headers: hdr('text/html; charset=utf-8', { 'cache-control': 'public, max-age=3600' }) }) }
+    if (rm) { const r = RES[rm[1]], held = !r && HELD[rm[1]]; return new Response(req.method === 'HEAD' ? null : resourcePage(rm[1], r, held), { status: r || held ? 200 : 404, headers: hdr('text/html; charset=utf-8', { 'cache-control': 'public, max-age=3600' }) }) }
     // path pages: /person/<id> etc. serve the app with server-filled metadata; the client opens the in-app route
     const pm = p.match(/^\/(person|topic|tradition|practice|collection|place)\/(.+?)\/?$/)
     if (pm && META[`/${pm[1]}/${pm[2]}`] && SITE['/index.html']) {
@@ -73,10 +73,14 @@ async function fromKV(req, env, ctx, p, kv) {
 }
 
 // /resource/<id>: a citable plain page in the site's dark static-page style (as credits.html), with schema.org JSON-LD.
-function resourcePage(id, r) {
+function resourcePage(id, r, held) {
   const e = (x) => String(x ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
   const canon = BASE + '/resource/' + encodeURIComponent(id)
   const head = (t, d) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${e(t)} \u00b7 Satsang</title><meta name="theme-color" content="#0a0d14"><meta name="description" content="${e(d)}"><link rel="canonical" href="${canon}"><style>body{margin:0;background:#0a0d14;color:#efe9dd;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:720px;margin:0 auto;padding:40px 22px 60px}a{color:#e9b764}.brand{font:600 22px/1 Georgia,serif;letter-spacing:.18em;color:#e9b764;text-decoration:none}h1{font-size:32px;margin:28px 0 6px;font-family:Georgia,serif;font-weight:500}.muted{color:#929aab;font-size:14px}.btn{display:inline-block;margin:14px 0;padding:10px 16px;border:1px solid #e9b764;border-radius:8px;text-decoration:none}dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:14px}dt{color:#929aab}</style>`
+  if (!r && held) return head(held.t, 'Held while its licence is checked.') + `<meta name="robots" content="noindex"></head><body><main><a class="brand" href="/">SATSANG</a><h1>${e(held.t)}</h1>
+<p>This link is <strong>held</strong> while its licence is checked. Satsang links a text only when the publisher’s own terms show it may be read freely; until then it is listed by title only.</p>
+<dl><dt>Status</dt><dd>Held (citation only)${held.q ? ' since ' + e(held.q) : ''}</dd><dt>Why</dt><dd>${e(held.why)}</dd>${held.lu ? `<dt>Terms read</dt><dd>${e(held.lu)}</dd>` : ''}</dl>
+<p class="muted"><a href="/agents">For agents and developers</a></p></main></body></html>`
   if (!r) return head('Not found', 'Unknown resource') + '</head><body><main><a class="brand" href="/">SATSANG</a><h1>Resource not found</h1><p class="muted"><a href="/agents">Search it through the API</a></p></main></body></html>'
   const ld = { '@context': 'https://schema.org', '@type': r.k === 'book' ? 'Book' : 'CreativeWork', '@id': canon, url: canon, name: r.t, author: r.au.length ? r.au.map(([pid, n]) => ({ '@type': 'Person', name: n, url: BASE + '/person/' + pid })) : r.an ? { '@type': 'Person', name: r.an } : undefined,
     isAccessibleForFree: r.a === 'free' ? true : undefined, sameAs: r.u || undefined, about: r.tr.map(([tid, l]) => ({ '@type': 'DefinedTerm', name: l, url: BASE + '/tradition/' + tid })), license: r.l || undefined, dateModified: r.v }
@@ -85,6 +89,6 @@ function resourcePage(id, r) {
 <h1>${e(r.t)}</h1><p class="muted">${e(r.k)}${r.au.length ? ' \u00b7 ' + r.au.map(([pid, n]) => `<a href="/person/${e(pid)}">${e(n)}</a>`).join(', ') : r.an ? ' \u00b7 ' + e(r.an) : ''}${r.tr.length ? ' \u00b7 ' + r.tr.map(([tid, l]) => `<a href="/tradition/${e(tid)}">${e(l)}</a>`).join(', ') : ''}</p>
 ${r.s ? `<p>${e(r.s)}</p>` : ''}${r.n ? `<p class="muted">${e(r.n)}</p>` : ''}
 ${r.u ? `<a class="btn" href="${e(r.u)}" rel="noopener">${r.a === 'free' ? 'Read it free' : 'Open'} on ${e(r.pub || new URL(r.u).hostname)}</a>` : ''}
-<dl><dt>Access</dt><dd>${e(access)}</dd>${r.l ? `<dt>Terms</dt><dd>${e(r.l)}</dd>` : ''}<dt>Source</dt><dd>${r.src ? `<a href="${e(r.src)}" rel="noopener">${e(r.src)}</a>` : 'n/a'}</dd><dt>Verified</dt><dd>${e(r.v || '')} \u00b7 confidence ${e(r.c || '')}</dd></dl>
+<dl><dt>Access</dt><dd>${e(access)}</dd>${r.l ? `<dt>Terms</dt><dd>${e(r.l)}</dd>` : ''}${r.lu ? `<dt>Licence evidence</dt><dd><a href="${e(r.lu)}" rel="noopener">${e(r.lu)}</a></dd>` : ''}<dt>Source</dt><dd>${r.src ? `<a href="${e(r.src)}" rel="noopener">${e(r.src)}</a>` : 'n/a'}</dd><dt>Verified</dt><dd>${e(r.v || '')} \u00b7 confidence ${e(r.c || '')}</dd></dl>
 <p class="muted">Satsang links to the publisher\u2019s own edition and never rehosts texts. Data: CC BY 4.0 (Satsang curation). <a href="/agents">For agents and developers</a></p></main></body></html>`
 }

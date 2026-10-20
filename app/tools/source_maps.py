@@ -305,3 +305,24 @@ KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maak
 # headquarters country (disciples "in different countries"; teachers listed in Moscow, Chelyabinsk...), so no honest ISO code exists.
 PLACE_DROP = {'nathas-org-natha-tradition': 'country "INT" is not ISO 3166; nathas.org (about/contacts/disciples, checked 2026-10-21) states no headquarters country; schema requires one, so the record is removed (people and resources kept)'}
 KEEPER_URL_MOVED = {'https://sanshin.org': 'https://www.sanshinji.org/'}
+
+# ---------- main teachers checked on each place's OFFICIAL site (2026-10-21) ----------
+# (place, teacher) -> verdict. 'publish' = the official page states it now (published with conf high + source); 'hold' = it does not
+# (kept in the review queue with the reason). Applied by merge-sources.py over the packs' medium-confidence main-teacher rows.
+MAIN_TEACHER_CHECK = {
+    ('amaravati', 'ajahn-amaro'): {'verdict': 'publish', 'verified_on': '2026-10-21', 'source_url': 'https://amaravati.org/about/male-monastic-community/',
+        'why': 'Male Monastic Community page lists "Luang Por Amaro – Abbot" (abbot since November 2010).'},
+    ('aruna-ratanagiri', 'ajahn-munindo'): {'verdict': 'publish', 'verified_on': '2026-10-21', 'source_url': 'https://ratanagiri.org.uk/',
+        'why': 'Home page: "The abbot, Ajahn Munindo, received bhikkhu precepts from ... Ajahn Chah ... in 1976."'},
+    ('cittaviveka', 'ajahn-sucitto'): {'verdict': 'hold', 'verified_on': '2026-10-21', 'source_url': 'https://www.cittaviveka.org/guiding-elders',
+        'why': 'Guiding Elders page: Luang Por Sucitto "was the abbot ... from 1992 until 2014" and is now a Guiding Elder, not the current abbot'},
+    ('spirit-rock', 'jack-kornfield'): {'verdict': 'hold', 'verified_on': '2026-10-21', 'source_url': 'https://www.spiritrock.org/teachers/jack-kornfield',
+        'why': 'teacher page calls him "a founding teacher of ... Spirit Rock"; the site names no single current main teacher (a teachers community)'},
+    ('patanjali-yogpeeth', 'swami-ramdev'): {'verdict': 'hold', 'verified_on': '2026-10-21', 'source_url': 'https://divyayoga.com/trustees/swami-ramdev-ji/',
+        'why': 'official trust site lists him as a trustee and co-founder of Divya Yog Mandir Trust (with Acharya Balkrishna, under Swami Shankar Dev); no page states a main teacher of Patanjali Yogpeeth'},
+}
+# India study resource links replaced by the publisher's own current page (old link moved / pointed at a home page)
+RESOURCE_URL_FIX = {
+    'mallinson-nath-sampradaya': 'https://eprints.soas.ac.uk/17972/',  # old eprints PDF path; the record now lives on SOAS Research Online (this URL redirects there)
+    'ltwa-free-downloads': 'https://tibetanlibrary.org/free-download-resources/',  # was the LTWA home page; this is the Library's free-downloads page
+}

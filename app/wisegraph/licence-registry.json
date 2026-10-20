@@ -1,5 +1,5 @@
 {
- "_note": "Licence registry (satsang-extensions 28, merged 2026-10-20): per-book licences (book always wins) and per-domain defaults, each with evidence. Gates which text records are shown: tools/merge-sources.py links a text only when this file evidences a linkable licence (RIGHTS.md taxonomy); verify-flagged defaults do not count. Edit here after checking a copyright page or terms URL; never assume free.",
+ "_note": "Licence registry (satsang-extensions 28, merged 2026-10-20): per-book licences (book always wins) and per-domain defaults, each with evidence. Gates which text records are shown: tools/merge-sources.py links a text only when this file evidences a linkable licence (RIGHTS.md taxonomy); verify-flagged defaults do not count. Edit here after checking a copyright page or terms URL; never assume free. | 2026-10-21: evidence URLs added (evidenceUrl), accesstoinsight verified, new domains/books, a urls (prefix) section for place resource links, and held (checked, unclear) entries.",
  "books": {
   "accesstoinsight-dhp": {
    "evidence": "accesstoinsight.org author-posted translations",
@@ -44,6 +44,36 @@
   "vivekananda-complete-works": {
    "evidence": "Wikisource transcription (public domain text)",
    "licence": "public-domain"
+  },
+  "bps-pariyatti": {
+   "checked": "2026-10-21",
+   "licence": "publisher-free",
+   "evidence": "bps.lk home: \"E-Books ... Free to Read\" with \"Read Online\" for Wheel publications; printed books are sold",
+   "evidenceUrl": "https://www.bps.lk/"
+  },
+  "sanderson-saiva-age-zenodo": {
+   "checked": "2026-10-21",
+   "licence": "cc-by-4.0",
+   "evidence": "Zenodo record 4395629: access open, licence CC BY 4.0",
+   "evidenceUrl": "https://zenodo.org/records/4395629"
+  },
+  "sanderson-festschrift-oapen": {
+   "checked": "2026-10-21",
+   "licence": "cc-by-nc-4.0",
+   "evidence": "OAPEN item record: Rights CC BY-NC 4.0 (Brill, Gonda Indological Studies 22, 2020)",
+   "evidenceUrl": "https://library.oapen.org/handle/20.500.12657/42543"
+  },
+  "mallinson-nath-sampradaya": {
+   "checked": "2026-10-21",
+   "licence": "publisher-free",
+   "evidence": "SOAS Research Online record: full text publicly available since 2025-02-28 (open-access repository deposit); no reuse licence stated, so linked only",
+   "evidenceUrl": "https://eprints.soas.ac.uk/17972/"
+  },
+  "ltwa-free-downloads": {
+   "checked": "2026-10-21",
+   "licence": "publisher-free",
+   "evidence": "LTWA \"Free Download Resources\" page (Tibet Journal issues, science books) offered as free downloads by the Library",
+   "evidenceUrl": "https://tibetanlibrary.org/free-download-resources/"
   }
  },
  "domains": {
@@ -53,10 +83,10 @@
    "evidence": "Small Boat colophon"
   },
   "accesstoinsight.org": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "default": "publisher-free",
-   "evidence": "Free-translation ethos; VERIFY terms page",
-   "verify": true
+   "evidence": "Site \"Terms of use\" link -> FAQ \"Copyright and terms of use\": texts are on the site because their copyright holders provided them for free distribution; pages may be copied and reposted free of charge, never sold or modified; site documents CC BY 4.0",
+   "evidenceUrl": "https://www.accesstoinsight.org/faq.html#copyright"
   },
   "amaravati.org": {
    "checked": "2026-10-20",
@@ -99,6 +129,45 @@
    "wholeOnly": true,
    "evidence": "Dharma Seed talk pages + DATABASES.md (satsang-extensions 37): CC BY-NC-ND 4.0, unabridged and unmodified playback only, credit teacher + title + Dharma Seed, non-commercial; no transcripts exist",
    "rule": "Never cut: Dharma Seed talks are played or linked whole, never clipped, trimmed or made into virtual clips (owner rule)."
+  },
+  "suttacentral.net": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "evidence": "Licensing page: texts made available to everyone free of charge; all original SuttaCentral material (incl. its own translations) dedicated to the public domain under CC0 1.0; legacy translations under the terms of their copyright asserters, used by permission",
+   "evidenceUrl": "https://suttacentral.net/licensing",
+   "evidenceSource": "https://github.com/suttacentral/bilara-data/blob/published/root/en/site/licensing_root-en-site.json"
+  },
+  "gutenberg.org": {
+   "checked": "2026-10-21",
+   "default": "public-domain",
+   "evidence": "Project Gutenberg licence page: \"for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions\"; texts not restricted by US copyright",
+   "evidenceUrl": "https://www.gutenberg.org/policy/license.html"
+  },
+  "muktabodha-digital-library.org": {
+   "checked": "2026-10-21",
+   "default": "cc-by-nc-4.0",
+   "evidence": "About > Data Licenses > E-Text Library: use of e-text material is covered by CC BY-NC 4.0, credit Muktabodha Indological Research Institute (IFP co-produced I000## texts carry their own terms)",
+   "evidenceUrl": "https://muktabodha-digital-library.org/about#license-etext"
+  },
+  "nathas.org": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "evidence": "Site footer on every page: \"Using of this site content is allowed with a mandatory reference to it.\" (shop items are paid and not covered)",
+   "evidenceUrl": "https://nathas.org/en/contacts/"
+  },
+  "ashintejaniya.org": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "evidence": "Books page: \"Click on the links below to download or request a free copy where available.\"",
+   "evidenceUrl": "https://ashintejaniya.org/"
+  },
+  "gretil.sub.uni-goettingen.de": {
+   "checked": "2026-10-21",
+   "default": "publisher-free",
+   "noSale": true,
+   "evidence": "GRETIL registers only e-texts freely available for scholarly purposes; notice: files strictly for scholarly reference, any commercial use excluded, copyright stays with the original holders (many files now CC BY-NC-SA 4.0)",
+   "evidenceUrl": "https://gretil.sub.uni-goettingen.de/gret_utfbk.htm",
+   "evidenceSource": "http://gretil.sub.uni-goettingen.de/gretinfobk.htm"
   }
  },
  "traditions": {
@@ -109,6 +178,81 @@
   "theravada": {
    "default": "gift-of-dhamma",
    "evidence": "Forest/Thai norm (dhammatalks, Amaravati, ForestDhamma colophons)"
+  }
+ },
+ "urls": {
+  "https://www.bps.lk/online-library": {
+   "checked": "2026-10-21",
+   "licence": "publisher-free",
+   "evidence": "bps.lk home: \"E-Books ... Free to Read ... Read Online\" (the online library); printed books are sold",
+   "evidenceUrl": "https://www.bps.lk/"
+  }
+ },
+ "held": {
+  "path-press-shop": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://pathpress.org/about-2/",
+   "why": "Path Press holds the copyrights of Nanavira Thera's writings; the link is its shop; no terms evidence free reading or redistribution of the site texts"
+  },
+  "lja-blog": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://www.lakshmanjooacademy.org/blog",
+   "why": "Copyright (c) Lakshmanjoo Academy, no terms or free-reading statement found"
+  },
+  "baumer-articles": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://www.utpaladeva.in/",
+   "why": "No terms or licence statement found on the site"
+  },
+  "ifp-digital-collections": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://digitalcollections.ifpindia.org/s/ifp/page/terms-of-use",
+   "why": "Terms page renders only with JavaScript (empty to a plain fetch); terms not read"
+  },
+  "sanderson-site": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://alexissanderson.com/",
+   "why": "Site unreachable on 2026-10-20 and 2026-10-21; terms not read"
+  },
+  "swarayoga-shastra": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://www.swarayoga.org/terms",
+   "why": "Terms s.8: all content is Swara Yoga Peeth's intellectual property, no reproduction without consent; free reading not stated"
+  },
+  "swarayoga-practice": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://www.swarayoga.org/terms",
+   "why": "As swarayoga-shastra"
+  },
+  "avg-saylorsburg-teachings": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://arshavidya.org/swami-dayananda-saraswati/3/",
+   "why": "Copyright 2021 Arsha Vidya Gurukulam; no terms or free-reading statement found"
+  },
+  "avg-anaikatti-resources": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://arshavidya.in/terms-and-conditions/",
+   "why": "Website terms carry no content licence or free-reading statement"
+  },
+  "arsha-vidya-newsletter": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://arshavidya.in/terms-and-conditions/",
+   "why": "As avg-anaikatti-resources"
+  },
+  "vishnusahasranama-sruti-seva": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://arshavidyananda.in/terms-of-service/",
+   "why": "Terms s.4: materials are the author's copyright, no reproduction or distribution without written consent"
+  },
+  "dyczkowski-video-note": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://www.anuttaratrikakula.org/",
+   "why": "All rights reserved; free lectures watch-only, courses and translations sold (mixed)"
+  },
+  "ibnarabisociety-chittick": {
+   "checked": "2026-10-21",
+   "evidenceUrl": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
+   "why": "Copyright Muhyiddin Ibn Arabi Society; article readable online but no permission or licence statement"
   }
  }
 }

@@ -7,7 +7,9 @@
 import json, os, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from source_maps import TRAD_MAP, PERSON_MAP, PERSON_SKIP, TEXT_IDS, TOPIC_NODES, TOPIC_KW_DROP, EDGE_FIX, EDGE_DROP, groups
-from source_maps import TRAD_ADD, STUDIED_WITH_FROM_MEDIUM, PLACE_TRADS, PLACE_NO_COORDS
+from source_maps import TRAD_ADD, STUDIED_WITH_FROM_MEDIUM, PLACE_TRADS, PLACE_NO_COORDS, PLACE_DROP, MAIN_TEACHER_CHECK, RESOURCE_URL_FIX
+MAIN_TEACHER_CHECK_PLACES = {p for p, _ in MAIN_TEACHER_CHECK}
+TODAY = '2026-10-21'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '..', 'sources')
 J = lambda p: json.load(open(p))
@@ -497,8 +499,14 @@ def merge_ext_places(out):
             P0, t = BYID.get(m['place']), PERSON_MAP.get(m['teacher'], m['teacher'])
             if P0 and not t and m.get('model') in ('rotating', 'none'): P0['teacher_model'] = m['model']; log['teacher_model_set'] += 1; continue  # no single teacher by design
             if not P0 or t not in PB: log['main_teacher_unknown'] += 1; notes.append(f'main teacher {m["teacher"]} @ {m["place"]}: unknown'); continue
+            chk = MAIN_TEACHER_CHECK.get((m['place'], t))
+            if chk and chk['verdict'] == 'hold':
+                log['main_teacher_held_checked'] += 1
+                REVIEW.append({'pack': g.replace('ext-', ''), 'kind': 'main-teacher-held', 'subject': 'place/' + m['place'], 'reason': f'main teacher {t}: checked on the official site {chk["verified_on"]}: {chk["why"]} ({chk["source_url"]}); held', 'severity': 'verify'}); continue
+            if chk: m = {**m, 'conf': 'high'}  # verified on the place's official page (source_maps.MAIN_TEACHER_CHECK)
             if (m.get('conf') or 'medium') != 'high': log['main_teacher_medium_held'] += 1; continue  # owner rule 2026-10-20: medium main teachers stay in the review queue, never live
             P0['main_teacher'] = t; P0['teacher_model'] = m.get('model') or 'single'; P0['main_teacher_conf'] = m.get('conf') or 'medium'
+            if chk: P0['main_teacher_src'] = chk['source_url']; P0['main_teacher_verified'] = chk['verified_on']; log['main_teachers_verified'] += 1
             if t not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [t]
             log['main_teachers'] += 1
 from source_maps import KEEPER_URL_BAN, PLACE_DROP
@@ -549,46 +557,41 @@ RES = []
 # Licence gate (satsang-extensions 28 + RIGHTS.md): a text is shown (linked) only when the licence registry evidences a licence that allows
 # linking: the book's own registry entry wins, else its link's domain default (a verify-flagged default does not count). No registry
 # evidence, or a copyrighted / paid-course / mixed default -> held (citation-only, review queue). Default is copyrighted, never assumed free.
-LREG = J(os.path.join(ROOT, 'wisegraph/licence-registry.json')) if os.path.exists(os.path.join(ROOT, 'wisegraph/licence-registry.json')) else {'books': {}, 'domains': {}}
-LINKABLE = {'public-domain', 'publisher-free', 'gift-of-dhamma', 'monastery-free-reprint', 'permissioned'}
+from licence_gate import licence_for, linkable, no_sale
 def licence_of(t):
-    b = (LREG.get('books') or {}).get(t['id'])
-    if b: return b['licence'], 'book: ' + b.get('evidence', '')
-    h = re.sub(r'^www\.', '', (re.match(r'https?://([^/]+)', t.get('link') or '') or [None, ''])[1].lower())
-    for dom, dd in (LREG.get('domains') or {}).items():
-        if h == dom or h.endswith('.' + dom):
-            if dd.get('verify'): return None, f'domain {dom}: default unconfirmed (verify)'
-            return dd.get('default'), f'domain {dom}: ' + dd.get('evidence', '')
-    return None, 'no registry entry for the book or its domain'
+    lic, why, _, _ = licence_for(t['id'], t.get('link'))
+    return lic, why
 TEXT_KINDS = {'book', 'books', 'text', 'texts', 'article', 'articles', 'e-text-library', 'note', 'journal', 'manuscript-library', 'bibliography', 'ebook', 'pdf'}
-def linkable(lic): return bool(lic) and (lic in LINKABLE or lic.startswith('cc-'))
 log['texts_licence_shown'] = log['texts_licence_held'] = 0
 for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older deep groups' texts.json are not wired; unchanged)
     f = os.path.join(SRC, g, 'texts.json')
     for t in (items(J(f), 'texts') if os.path.exists(f) else []):
         if not t.get('link'): log['texts_linkless_held'] += 1; continue
-        lic, why = licence_of(t)
+        lic, why, evu, ent = licence_for(t['id'], t.get('link'))
         if not linkable(lic):
             log['texts_licence_held'] += 1
-            REVIEW.append({'pack': g, 'kind': 'text-licence', 'subject': 'text/' + t['id'], 'reason': f'licence gate: {lic or "unregistered"} ({why}); held citation-only until the registry evidences a linkable licence', 'severity': 'verify'}); continue
+            REVIEW.append({'pack': g, 'kind': 'text-licence', 'subject': 'text/' + t['id'], 'reason': f'licence gate: {lic or "unregistered"} ({why}); held citation-only until the registry evidences a linkable licence', 'severity': 'verify', 'title': t['title'], **({'evidenceUrl': evu} if evu else {})}); continue
         log['texts_licence_shown'] += 1
         sch = TRAD_MAP.get(t.get('school'), t.get('school'))
         RES.append({'id': t['id'], 'title': t['title'], 'url': t['link'], 'kind': t.get('kind') or 'book', 'free': True,
-                    'licence': t.get('licence') or lic, 'licenceClass': lic, 'licenceEvidence': why[:200], 'noSale': lic in ('gift-of-dhamma', 'monastery-free-reprint') or 'nc' in lic,
+                    'licence': t.get('licence') or lic, 'licenceClass': lic, 'licenceEvidence': why[:200], **({'licenceEvidenceUrl': evu} if evu else {}), 'noSale': no_sale(lic, ent),
                     'traditions': [sch] if sch in TR else [], 'people': [x for x in [PERSON_MAP.get(t.get('author') or '', t.get('author'))] if x in PB],
                     'note': t.get('note'), 'source_url': t['link'], 'checked': t.get('checked') or '2026-10-20', 'group': g})
 f = os.path.join(SRC, 'deep-india-study', 'resources.json')
 if 'deep-india-study' in G and os.path.exists(f):
     for r in items(J(f), 'resources'):
+        if r['id'] in RESOURCE_URL_FIX: r = {**r, 'url': RESOURCE_URL_FIX[r['id']]}
         if not str(r.get('url') or '').startswith('http'): continue
         if str(r.get('confidence') or '').lower().startswith('low'):
             REVIEW.append({'pack': 'deep-india-study', 'kind': 'resource-low-confidence', 'subject': 'resource/' + r['id'], 'reason': r.get('notes') or 'low confidence (permission unconfirmed)', 'severity': 'check'}); continue
         if r.get('kind') in TEXT_KINDS and r.get('access') == 'free':  # licence gate for texts: a free-text claim needs registry evidence (book or domain default)
-            lic, why = licence_of({'id': r['id'], 'link': r['url']})
+            lic, why, evu, ent = licence_for(r['id'], r['url'])
             if not linkable(lic):
                 log['texts_licence_held'] += 1
-                REVIEW.append({'pack': 'deep-india-study', 'kind': 'text-licence', 'subject': 'resource/' + r['id'], 'reason': f'licence gate: free text claimed, registry says {lic or "unregistered"} ({why}); held until the registry evidences a linkable licence', 'severity': 'verify'}); continue
+                REVIEW.append({'pack': 'deep-india-study', 'kind': 'text-licence', 'subject': 'resource/' + r['id'], 'reason': f'licence gate: free text claimed, registry says {lic or "unregistered"} ({why}); held until the registry evidences a linkable licence', 'severity': 'verify', 'title': r['title'], **({'evidenceUrl': evu} if evu else {})}); continue
+        else: lic = evu = ent = why = None
         RES.append({'id': r['id'], 'title': r['title'], 'url': r['url'], 'kind': r.get('kind'), 'free': r.get('access') == 'free', 'licence': {'free': 'free from the publisher', 'paid': 'paid', 'mixed': 'mixed: some free, some paid'}.get(r.get('access'), r.get('access')),
+                    **({'licenceClass': lic, 'licenceEvidence': why[:200], 'noSale': no_sale(lic, ent)} if lic else {}), **({'licenceEvidenceUrl': evu} if lic and evu else {}),
                     'traditions': [t for t in (r.get('traditions') or []) if t in TR], 'people': [x for x in [DEEP_PERSON_MAP.get(r.get('person') or '', r.get('person'))] if x in PB],
                     'note': r.get('notes'), 'source_url': r.get('source_url') or r['url'], 'checked': r.get('verified_on'), 'confidence': r.get('confidence'), 'group': 'deep-india-study'})
 os.makedirs(os.path.join(ROOT, 'site/data/wisegraph'), exist_ok=True)
@@ -605,9 +608,14 @@ log['redflags_public'] = len(RF)
 # review queue: merge this run's held claims into wisegraph/review-queue.json (stage-extensions.py writes the staged packs' items)
 qp = os.path.join(ROOT, 'wisegraph/review-queue.json')
 Q = J(qp) if os.path.exists(qp) else {'_note': 'Satsang review queue: claims held back from the live site until a human checks them.', 'items': []}
+REFRESH_KINDS = {'text-licence', 'main-teacher-medium', 'main-teacher-held', 'place-dropped'}  # recomputed every run: a resolved claim leaves the queue
+_old = {(i['pack'], i['kind'], i['subject']): i for i in Q['items']}
+Q['items'] = [i for i in Q['items'] if i['kind'] not in REFRESH_KINDS or (i['kind'] == 'main-teacher-medium' and i['subject'].split('/', 1)[1] not in MAIN_TEACHER_CHECK_PLACES)]
+for i in REVIEW:
+    if i['kind'] in REFRESH_KINDS and (i['pack'], i['kind'], i['subject']) in _old: i['queued'] = _old[(i['pack'], i['kind'], i['subject'])].get('queued')
 QK = {(i['pack'], i['kind'], i['subject']) for i in Q['items']}
 for i in REVIEW:
-    if (i['pack'], i['kind'], i['subject']) not in QK: QK.add((i['pack'], i['kind'], i['subject'])); Q['items'].append({**i, 'queued': '2026-10-20'})
+    if (i['pack'], i['kind'], i['subject']) not in QK: QK.add((i['pack'], i['kind'], i['subject'])); Q['items'].append({**i, 'queued': i.get('queued') or TODAY})
 W(qp, Q); log['review_queue'] = len(Q['items'])
 print(json.dumps({'groups': G, **log, 'traditions': len(TR), 'people': len(PB), 'edges': len(ED['edges']), 'topic_roots': len(tree), 'notes': notes}, ensure_ascii=False))
 # keeper fixes last (source_maps.KEEPER_*), so a re-merge never brings back a corrected fact

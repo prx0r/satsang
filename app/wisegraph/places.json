@@ -240,7 +240,12 @@
      "url": "https://amaravati.org/news",
      "note": "Sunday afternoon Dhamma talks (see \"Sunday Talks\" posts)."
     }
-   ]
+   ],
+   "main_teacher": "ajahn-amaro",
+   "teacher_model": "single",
+   "main_teacher_conf": "high",
+   "main_teacher_src": "https://amaravati.org/about/male-monastic-community/",
+   "main_teacher_verified": "2026-10-21"
   },
   {
    "id": "cittaviveka",
@@ -342,7 +347,12 @@
      "amaravati",
      "sister_of"
     ]
-   ]
+   ],
+   "main_teacher": "ajahn-munindo",
+   "teacher_model": "single",
+   "main_teacher_conf": "high",
+   "main_teacher_src": "https://ratanagiri.org.uk/",
+   "main_teacher_verified": "2026-10-21"
   },
   {
    "id": "hartridge",

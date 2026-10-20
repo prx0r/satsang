@@ -28,15 +28,15 @@ export function buildResources(data) {
       confidence: ed ? 'high' : 'medium', origin: 'text' })
   }
   for (const p of Object.values(data.person || {})) for (const x of p.freeTexts || []) add({
-    title: x.title, kind: 'text', url: x.url, free: x.free !== false, access: x.free !== false ? 'free' : 'paid-or-unknown', licence: x.licence, publisher: x.site,
+    title: x.title, kind: 'text', url: x.url, free: x.free !== false, access: x.free !== false ? 'free' : 'paid-or-unknown', licence: x.licence, ...(x.licenceUrl ? { licenceUrl: x.licenceUrl } : {}), publisher: x.site,
     authors: [p.id], authorName: p.name, traditions: p.traditions || [], topics: [], sourceUrl: x.url, verifiedOn: peopleDate, confidence: 'high', origin: 'person' })
   for (const pl of Object.values(data.place || {})) for (const x of pl.resources || []) add({
-    title: x.title, kind: 'library', url: x.url, free: x.free === true, access: x.free === true ? 'free' : 'paid-or-unknown', licence: x.licence,
+    title: x.title, kind: 'library', url: x.url, free: x.free === true, access: x.free === true ? 'free' : 'paid-or-unknown', licence: x.licence, ...(x.licenceClass ? { licenceClass: x.licenceClass } : {}), ...(x.licenceUrl ? { licenceUrl: x.licenceUrl } : {}),
     authors: [], places: [pl.id], traditions: pl.traditions || [], topics: [], sourceUrl: x.sourceUrl || x.url, verifiedOn: dateOf(x.checked) || dateOf(pl.meta?.updated) || built,
     confidence: x.checked ? 'high' : 'medium', origin: 'place' })
   for (const x of data.resourceExtra || []) add({
     title: x.title, kind: x.kind || 'text', url: x.url, free: x.free === true, access: x.free === true ? 'free' : x.free === false ? 'paid' : 'paid-or-unknown', licence: x.licence,
-    ...(x.licenceClass ? { licenceClass: x.licenceClass, ...(x.noSale ? { terms: 'Free to read and share unchanged; not for sale (licence on the book\u2019s copyright page).' } : {}) } : {}),
+    ...(x.licenceUrl ? { licenceUrl: x.licenceUrl } : {}), ...(x.licenceClass ? { licenceClass: x.licenceClass, ...(x.noSale ? { terms: 'Free to read and share unchanged; not for sale (licence on the book\u2019s copyright page).' } : {}) } : {}),
     authors: x.people || [], traditions: x.traditions || [], topics: [], sourceUrl: x.sourceUrl || x.url, verifiedOn: dateOf(x.checked) || built, confidence: x.checked ? 'high' : 'medium', origin: 'extra' })
   for (const p of Object.values(data.person || {})) for (const w of p.works || []) {
     if (!w.title) continue

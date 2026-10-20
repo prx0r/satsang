@@ -20,6 +20,17 @@ for (const r of Object.values(data.place)) add('place', r, `${r.name} \u00b7 Sat
 fs.writeFileSync(new URL('meta.gen.js', import.meta.url), 'export default ' + JSON.stringify(out) + '\n')
 // /resource/<id> pages (plain HTML, rendered by worker.js) from ../../mcp/discovery/resources.json (mcp/build-discovery.mjs)
 let res = {}; try { res = JSON.parse(fs.readFileSync(new URL('../../mcp/discovery/resources.json', import.meta.url), 'utf8')) } catch { console.warn('no mcp/discovery/resources.json: run node build-discovery.mjs in mcp/') }
-fs.writeFileSync(new URL('resources.gen.js', import.meta.url), 'export default ' + JSON.stringify(res) + '\n')
+// held links (licence gate: wisegraph/review-queue.json text-licence*/resource-licence-place items): /resource/<id> answers with a plain
+// "held while its licence is checked" page (noindex, no outbound link) instead of a bare 404, under the id the shown record would have.
+import { slugify } from '../../mcp/src/resources.mjs'
+const HELD = {}
+try {
+  const q = JSON.parse(fs.readFileSync(new URL('../wisegraph/review-queue.json', import.meta.url), 'utf8')).items || []
+  for (const i of q) if (/^(text-licence|text-licence-person|resource-licence-place)$/.test(i.kind) && i.title) {
+    const id = slugify(i.title); if (!res[id] && !HELD[id]) HELD[id] = { t: i.title, why: String(i.reason || '').replace(/^licence gate: /, '').slice(0, 300), lu: i.evidenceUrl || null, q: i.queued }
+  }
+} catch (e) { console.warn('review queue unreadable', e.message) }
+fs.writeFileSync(new URL('resources.gen.js', import.meta.url), 'export default ' + JSON.stringify(res) + '\nexport const HELD = ' + JSON.stringify(HELD) + '\n')
+console.log('held resource pages', Object.keys(HELD).length)
 console.log('resource pages', Object.keys(res).length)
 console.log('meta pages', Object.keys(out).length, (fs.statSync(new URL('meta.gen.js', import.meta.url)).size / 1e6).toFixed(2), 'MB')

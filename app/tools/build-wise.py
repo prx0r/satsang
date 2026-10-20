@@ -3,7 +3,7 @@
 # The site computes everything clip-related (Talks by / Talks about / Full talks / topics per tradition) from clips.json,
 # so new clips light up profiles without rebuilding this file. Run after tools/build-clips.py and tools/portraits.py.
 # usage: python3 tools/build-wise.py
-import json, os, re, html, datetime, collections
+import json, os, re, html, datetime, collections, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = lambda p: json.load(open(os.path.join(ROOT, p)))
 TRAD = {n['id']: n for n in J('wisegraph/traditions.json')['nodes']}
@@ -62,10 +62,19 @@ def deep_texts():
                    'licence': t.get('license') or t.get('licence') or t.get('rights') or t.get('license_note')}
 TEXTS = list(deep_texts())
 TEXTS_BY = collections.defaultdict(list)
+# licence gate (tools/licence_gate.py, the registry merge-sources.py uses): a person's free text is linked only with registry evidence
+sys.path.insert(0, os.path.join(ROOT, 'tools'))
+from licence_gate import licence_for, linkable, no_sale, queue_refresh
+LHELD = []
 for t in TEXTS:
     a = _nk(re.split(r'\s*\(|,| tr\.| trans', t.get('author') or '')[0])
     pid = NAMEK.get(a)
-    if pid: TEXTS_BY[pid].append({k: v for k, v in t.items() if k in ('title', 'url', 'site', 'note') and v})
+    if not pid: continue
+    tid = re.sub(r'^https?://(www\.)?', '', t['url']).rstrip('/')
+    lic, why, evu, ent = licence_for(None, t['url'])
+    if not linkable(lic):
+        LHELD.append({'pack': 'deep-texts', 'kind': 'text-licence-person', 'subject': f'person/{pid}:{tid}', 'reason': f'licence gate: free text "{t["title"][:80]}" ({t["url"]}); registry says {lic or "unregistered"} ({why[:160]}); link held off the profile', 'severity': 'verify', 'title': t['title'], **({'evidenceUrl': evu} if evu else {})}); continue
+    TEXTS_BY[pid].append({**{k: v for k, v in t.items() if k in ('title', 'url', 'site', 'note') and v}, 'licence': lic, **({'licenceUrl': evu} if evu else {}), **({'noSale': True} if no_sale(lic, ent) else {})})
 people = {}
 RF = {}  # public safety records (wisegraph/redflags.json): shown to agents as a dated, sourced note; never a verdict
 if os.path.exists(os.path.join(ROOT, 'wisegraph/redflags.json')):
@@ -105,7 +114,7 @@ json.dump(out, open(os.path.join(wg, 'wise.json'), 'w'), ensure_ascii=False, sep
 pp = os.path.join(ROOT, 'wisegraph/places.json')
 if os.path.exists(pp):
     PLS = json.load(open(pp))
-    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases', 'main_teacher', 'teacher_model', 'main_teacher_conf', 'status')
+    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases', 'main_teacher', 'teacher_model', 'main_teacher_conf', 'main_teacher_src', 'main_teacher_verified', 'status')
     import sys as _s; _s.path.insert(0, os.path.join(ROOT, 'tools'))
     from source_maps import PLACE_CONTACT_DROP, PLACE_RESOURCES
     cp_ = os.path.join(ROOT, 'wisegraph/place-contacts.json')
@@ -130,7 +139,14 @@ if os.path.exists(pp):
             if len(k) > 1: x = {**x, 'contact': k}
         if not x.get('contact') and x.get('contact_page') and not x.get('goenka'):  # places-uk: the contact link as published on the homepage
             x = {**x, 'contact': {'checked': x.get('url_checked') or '2026-10-20', 'page': x['contact_page'], 'page_src': x.get('url') or x['contact_page']}}
-        if x['id'] in PLACE_RESOURCES: x = {**x, 'resources': PLACE_RESOURCES[x['id']]}
+        if x['id'] in PLACE_RESOURCES:  # hand-checked free-book links, under the same licence gate
+            keep = []
+            for y in PLACE_RESOURCES[x['id']]:
+                lic, why, evu, ent = licence_for(None, y['url'])
+                if not linkable(lic):
+                    LHELD.append({'pack': 'place-resources', 'kind': 'resource-licence-place', 'subject': f'place/{x["id"]}:{y["url"]}', 'reason': f'licence gate: registry says {lic or "unregistered"} ({why[:160]}); link held off the place page', 'severity': 'verify', 'title': y['title'], **({'evidenceUrl': evu} if evu else {})}); continue
+                keep.append({**y, 'licenceClass': lic, **({'licenceUrl': evu} if evu else {})})
+            if keep: x = {**x, 'resources': keep}
         r = {k: x[k] for k in KEEP if x.get(k) is not None}
         r['name'] = r['name'][:1].upper() + r['name'][1:]  # Wikidata labels can start lower-case ('archaeological Site of Delphi')
         if r.get('lat') is not None: r['lat'], r['lng'] = round(r['lat'], 5), round(r['lng'], 5)
@@ -152,4 +168,5 @@ block = ('<!--portraits--><h2>Portraits</h2><p class="muted">From Wikimedia Comm
 if '<!--portraits-->' in s: s = re.sub(r'<!--portraits-->.*?<!--/portraits-->', lambda m: block, s, flags=re.S)
 else: s = s.replace('<p class="muted"><a href="./">Back to Wiser</a>', block + '\n<p class="muted"><a href="./">Back to Wiser</a>')
 open(cp, 'w').write(s)
-print(json.dumps({'people': len(people), 'portraits': len(PORT), 'traditions': len(traditions), 'takes': len(TAKES)}))
+nq = queue_refresh(os.path.join(ROOT, 'wisegraph/review-queue.json'), {'text-licence-person', 'resource-licence-place'}, LHELD, '2026-10-21')  # held links -> review queue
+print(json.dumps({'people': len(people), 'portraits': len(PORT), 'traditions': len(traditions), 'takes': len(TAKES), 'licence_held_links': len(LHELD), 'person_texts': sum(len(v) for v in TEXTS_BY.values()), 'review_queue': nq}))
