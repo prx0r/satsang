@@ -21,6 +21,8 @@ export default {
       else if (v.verdict === 'unknown') unknown++
       else findings.push({ target: u, message: `External link failing: ${v.status ? 'HTTP ' + v.status : v.error}`, evidence: { status: v.status, error: v.error, refs: byUrl.get(u)?.refs } })
     })
+    // a URL no record cites any more (fixed at the source) closes its finding; guarded so an empty dump never mass-closes
+    if (urls.length > 100) for (const o of Object.values(ctx.state.findings)) if (o.check === 'linkrot' && o.status === 'open' && !byUrl.has(o.target)) passed.push(o.target)
     return { findings, passed, checked: batch.length, unknown, total: urls.length }
   },
 }

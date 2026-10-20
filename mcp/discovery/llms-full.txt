@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 927 documented lineage and influence links, 793 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 157 traditions and schools, 560 teachers, scholars and historical figures with 926 documented lineage and influence links, 792 places to practise in 49 countries (contacts exactly as each place publishes them, 242 checked against the place's own site), 305 texts and books (69 free from their publishers), 76 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -27,6 +27,9 @@ Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); co
 - `get_resources`: Texts, books and libraries per tradition, person or topic.
 - `get_lineage_path`: Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges.
 - `what_to_study`: A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first).
+- `site_health`: Satsang’s own health from its keeper (GitHub Actions checks): uptime over 30 days per probe (site, API, MCP, sitemap, llms.txt, openapi), what is down now, open maintenance findings by severity and check, dead clips/links, and the re-verify queue size.
+- `list_findings`: Open keeper findings (broken links, dead YouTube embeds, sitemap/JSON-LD problems, stale or unsourced records, data conflicts, leak guards), highest priority first.
+- `next_maintenance_task`: The highest-priority unclaimed keeper finding with how to fix it and how to claim it (keeper/claims.json in a PR to github.com/prx0r/satsang).
 
 ## Canonical URLs (cite these)
 - https://tantrafiles.xyz/person/<id>, /tradition/<id>, /topic/<id>, /practice/<id>, /collection/<id>, /place/<id>, /resource/<id>, /clip/<id>
@@ -479,7 +482,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 # Places by country
 
 - GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 196 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- IN: 195 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
 - US: 59 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
 - NP: 28 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)

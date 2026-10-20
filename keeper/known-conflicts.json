@@ -6,21 +6,38 @@
       "record": "person/mark-dyczkowski",
       "field": "years.end",
       "claims": [
-        { "value": null, "source": "sources/deep-tantra/people.json (b. 1951, no death)" },
-        { "value": 2025, "source": "sources/deep-india-study (died 2025-02-02)" }
+        {
+          "value": null,
+          "source": "sources/deep-tantra/people.json (b. 1951, no death)"
+        },
+        {
+          "value": 2025,
+          "source": "https://link.springer.com/article/10.1007/s42240-025-00218-y ; https://list.indology.info/pipermail/indology/2025-February/060196.html (died 2025-02-02, Varanasi)"
+        }
       ],
-      "resolvedWhen": { "field": "years.end", "equals": 2025 },
-      "resolved": false
+      "resolvedWhen": {
+        "field": "years.end",
+        "equals": 2025
+      },
+      "resolved": true,
+      "decision": "Died 2 February 2025 in Varanasi: years 1951–2025, living false (app/tools/source_maps.py KEEPER_PEOPLE). Verified 2026-10-20."
     },
     {
       "id": "dyczkowski-supervisor",
       "record": "person/mark-dyczkowski",
       "field": "academic_supervisor_of (incoming)",
       "claims": [
-        { "value": "richard-gombrich", "source": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski (deep-tantra lineages)" },
-        { "value": "alexis-sanderson", "source": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski (his own site, per deep-india-study)" }
+        {
+          "value": "richard-gombrich",
+          "source": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski; also https://link.springer.com/article/10.1007/s42240-025-00218-y (\"under the guidance of Alexis Sanderson ... and with Richard Gombrich as his supervisor\")"
+        },
+        {
+          "value": "alexis-sanderson",
+          "source": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski/ (his own site: \"under the guidance of Professor Alexis Sanderson\")"
+        }
       ],
-      "resolved": false
+      "resolved": true,
+      "decision": "Both kept as academic_supervisor_of: alexis-sanderson high (his own site), richard-gombrich low with a \"disputed\" note (app/tools/source_maps.py KEEPER_EDGES). The 2025 obituary supports Gombrich as the formal supervisor, so co-supervision is likely; revisit if a primary source (the thesis) is found. Verified 2026-10-20."
     }
   ]
 }

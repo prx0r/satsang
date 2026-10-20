@@ -4,6 +4,7 @@ import SITE from './site.gen.js'
 import META from './meta.gen.js' // path pages: title, description, JSON-LD (build-meta.mjs)
 import RES from './resources.gen.js' // /resource/<id> plain pages (build-meta.mjs <- mcp/discovery/resources.json)
 import { withoutDeadClips } from './keeper-dead.mjs' // keeper: hide dead clips (fail-open; keeper/AGENTS.md)
+import REDIRECTS from './redirects.json' // keeper: merged duplicate records, /place/<old> -> /place/<kept> (tools/apply-keeper-fixes.py)
 import { BASE, HOST, MCP_BASE, SITE_ORIGINS } from '../../domain.mjs' // public hostnames (one place)
 const OUR_HOSTS = SITE_ORIGINS.map((o) => new URL(o).host)
 const hdr = (type, extra = {}) => ({ 'content-type': type, 'x-content-type-options': 'nosniff', 'referrer-policy': 'strict-origin-when-cross-origin', ...extra })
@@ -17,6 +18,7 @@ export default {
       return new Response(JSON.stringify(isFinite(lat) && isFinite(lng) && cf.latitude ? { lat: Math.round(lat * 10) / 10, lng: Math.round(lng * 10) / 10, country: cf.country || null } : {}), { headers: hdr('application/json; charset=utf-8', { 'cache-control': 'private, no-store' }) })
     }
     let p = decodeURIComponent(u.pathname); if (p.endsWith('/')) p += 'index.html'
+    const moved = REDIRECTS[p.replace(/\/(index\.html)?$/, '')]; if (moved) return Response.redirect(u.origin + moved + u.search, 301)
     // open data dumps (KV wiser-open-data; mcp/build-dump.mjs): /data/index.json, /data/<kind>.json|.jsonl, /data/wiser.jsonld
     if (/^\/data\/[a-z]+\.(json|jsonl|jsonld)$/.test(p) && !SITE[p] && env && env.DATA) {
       const body = await env.DATA.get(p.slice(1), 'stream')

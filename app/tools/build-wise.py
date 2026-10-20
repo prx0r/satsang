@@ -81,6 +81,7 @@ for p in PEOPLE:
         'by': by.get(p['id']) or None, 'inf': inf.get(p['id']) or None, 'seek': seek or None,
         'ro': p.get('role') if p.get('role') in ('scholar', 'teacher') else None, 'lo': True if p.get('lineageOnly') else None,
         'texts': TEXTS_BY.get(p['id']) or None,
+        'src': p.get('sources') or ([p['source_url']] if p.get('source_url') else None), 'vo': p.get('verified_on'), 'cf': p.get('confidence'),  # keeper fixes: provenance of hand-checked facts
     }.items() if v not in (None, [], {})}
 
 traditions = {}
@@ -99,7 +100,7 @@ json.dump(out, open(os.path.join(wg, 'wise.json'), 'w'), ensure_ascii=False, sep
 pp = os.path.join(ROOT, 'wisegraph/places.json')
 if os.path.exists(pp):
     PLS = json.load(open(pp))
-    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events')
+    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases')
     import sys as _s; _s.path.insert(0, os.path.join(ROOT, 'tools'))
     from source_maps import PLACE_CONTACT_DROP, PLACE_RESOURCES
     cp_ = os.path.join(ROOT, 'wisegraph/place-contacts.json')

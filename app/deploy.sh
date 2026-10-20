@@ -19,7 +19,7 @@ rm -rf dist && cp -r site dist
 if [ -d ../mcp ] && [ "$SKIP_DATA" != "1" ]; then
   (cd ../mcp && node build-data.mjs >/dev/null && node build-dump.mjs >/dev/null && node slim-data.mjs >/dev/null && node build-discovery.mjs >/dev/null)
   if python3 -c "import jsonschema" 2>/dev/null; then (cd ../mcp && python3 ../specs/schema/validate.py | tail -1 | grep -q "failing: none") || { echo "open data fails specs/schema (python3 ../specs/schema/validate.py in mcp/)" >&2; exit 1; }; else echo "jsonschema missing: schema check skipped (pip install jsonschema)"; fi
-  cp ../mcp/llms.txt dist/llms.txt; cp ../mcp/discovery/llms-full.txt ../mcp/discovery/agents.html dist/; mkdir -p dist/.well-known/mcp; cp ../mcp/discovery/.well-known/mcp.json dist/.well-known/; cp ../mcp/discovery/.well-known/mcp/server-card.json dist/.well-known/mcp/; cp ../mcp/dist-data/sitemap*.xml dist/; mkdir -p dist/schema; cp ../specs/schema/*.json dist/schema/
+  cp ../mcp/llms.txt dist/llms.txt; cp ../mcp/discovery/llms-full.txt ../mcp/discovery/agents.html dist/; mkdir -p dist/.well-known/mcp; cp ../mcp/discovery/.well-known/mcp.json dist/.well-known/; cp ../mcp/discovery/.well-known/mcp/server-card.json dist/.well-known/mcp/; cp ../mcp/dist-data/sitemap*.xml dist/; mkdir -p dist/schema; cp ../specs/schema/*.json dist/schema/; cp ../mcp/discovery/schema-index.html dist/schema/index.html
   printf 'User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' "$SITE_BASE" > dist/robots.txt
   (cd web-worker && node build-meta.mjs >/dev/null)
 fi

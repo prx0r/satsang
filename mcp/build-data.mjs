@@ -63,7 +63,8 @@ for (const [id, p] of Object.entries(wise.people)) {
     image: p.img?.src ? { src: p.img.src, face: p.img.face, page: p.img.page, artist: p.img.artist, license: p.img.license, licenseUrl: p.img.licenseUrl } : undefined,
     ids: p.wd ? { wikidata: p.wd } : undefined,
     links: Object.entries(p.links || {}).filter(([, u]) => /^https?:/.test(u)).map(([label, url]) => ({ label, url, kind: /web|site|official/i.test(label) ? 'official' : 'other' })),
-    works: (p.works || []).map((w) => ({ id: w.id, title: w.title, year: w.year ?? null, kind: w.kind })), meta: { license: LIC } }
+    works: (p.works || []).map((w) => ({ id: w.id, title: w.title, year: w.year ?? null, kind: w.kind })),
+    meta: { license: LIC, ...(p.vo ? { updated: p.vo } : {}), ...(p.cf ? { confidence: p.cf } : {}), ...(p.src ? { sources: p.src.filter((u) => /^https?:/.test(u)).map((url) => ({ url, check: 'reviewed', ...(p.vo ? { checked: p.vo } : {}) })) } : {}) } }
 }
 
 // death years from Wikidata P570 (tools/build-anniversaries.mjs -> site/data/wisegraph/anniversaries.json), for living status
@@ -240,8 +241,8 @@ for (const p of placesRaw.places) {
     sisterLinks: (p.sisters || []).filter(Array.isArray).map(([id, rel, note]) => ({ id, rel, ...(note ? { note } : {}) })),
     events: (p.events || []).map((e) => ({ name: e.name, kind: e.kind, when: e.when, url: e.url, note: e.note })),
     resources: (p.resources || []).filter((r) => /^https?:/.test(r.url || '')).map((r) => ({ title: r.title, url: r.url, free: r.free, licence: r.licence, sourceUrl: r.source_url, checked: r.checked })),
-    ids: p.wikidata ? { wikidata: p.wikidata } : undefined, meta: { license: LIC, updated: p.contact?.checked || p.checked || placesRaw.meta?.built, confidence: p.contact?.checked && p.contact?.page ? 'high' : (p.url || p.wikidata) ? 'medium' : 'low',
-      sources: [...new Set([p.contact?.page, p.url, p.goenka && p.url ? null : null].filter((u) => /^https?:/.test(u || '')))].slice(0, 2).map((url) => ({ url, check: p.contact?.page === url ? 'reviewed' : 'cited', ...(p.contact?.page === url && p.contact?.checked ? { checked: p.contact.checked } : {}) })) } }
+    ids: p.wikidata ? { wikidata: p.wikidata } : undefined, meta: { license: LIC, ...(p.aliases ? { aliases: p.aliases } : {}), updated: p.verified_on || p.contact?.checked || p.checked || placesRaw.meta?.built, confidence: p.confidence || (p.contact?.checked && p.contact?.page ? 'high' : (p.url || p.wikidata) ? 'medium' : 'low'),
+      sources: [...new Set([p.source_url, p.contact?.page, p.url, p.goenka && p.url ? null : null].filter((u) => /^https?:/.test(u || '')))].slice(0, p.source_url ? 3 : 2).map((url) => ({ url, check: p.contact?.page === url || p.source_url === url ? 'reviewed' : 'cited', ...(p.source_url === url && p.verified_on ? { checked: p.verified_on } : p.contact?.page === url && p.contact?.checked ? { checked: p.contact.checked } : {}) })) } }
 }
 
 // ---------- edges ----------
@@ -253,7 +254,7 @@ for (const e of graph.edges) {
   const src = gidOf(e.from), dst = gidOf(e.to); if (!src || !dst) continue
   const id = `${e.from}~${e.type}~${e.to}`
   edge[id] = { id, type: 'edge', src, dst, rel: e.type, lineage: LINEAGE[e.type] || 'influence', conf: e.conf || 'medium', basis: 'documented', note: e.note,
-    ...(/^https?:/.test(e.src || '') ? { sources: [{ url: e.src, check: 'cited' }] } : {}), meta: { license: LIC } }
+    ...(/^https?:/.test(e.src || '') ? { sources: [{ url: e.src, check: e.checked ? 'reviewed' : 'cited', ...(e.checked ? { checked: e.checked } : {}) }] } : {}), meta: { license: LIC, ...(e.checked ? { updated: e.checked } : {}) } }
 }
 // place teacher_at-ish ties from places
 for (const p of Object.values(place)) for (const t of p.teachers) if (person[t]) {

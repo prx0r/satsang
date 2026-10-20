@@ -93,7 +93,7 @@ export function prov(ctx, kind, r) {
   switch (kind) {
     case 'person': {
       const off = (r.links || []).find((l) => l.kind === 'official')?.url
-      return { url: canon('person', r.id), source_url: off || wd(r.ids?.wikidata) || canon('person', r.id), verified_on: ctx.peopleDate, confidence: r.ids?.wikidata && (off || r.bio) ? 'high' : r.ids?.wikidata || off ? 'medium' : 'low' }
+      return { url: canon('person', r.id), source_url: r.meta?.sources?.[0]?.url || off || wd(r.ids?.wikidata) || canon('person', r.id), verified_on: dateOf(r.meta?.updated) || ctx.peopleDate, confidence: r.meta?.confidence || (r.ids?.wikidata && (off || r.bio) ? 'high' : r.ids?.wikidata || off ? 'medium' : 'low') }
     }
     case 'place': return { url: canon('place', r.id), source_url: r.meta?.sources?.[0]?.url || r.contact?.page || r.url || wd(r.ids?.wikidata) || canon('place', r.id), verified_on: dateOf(r.contact?.checked) || dateOf(r.meta?.updated) || built, confidence: r.meta?.confidence || (r.url ? 'medium' : 'low') }
     case 'tradition': return { url: canon('tradition', r.id), source_url: wd(r.ids?.wikidata) || canon('tradition', r.id), verified_on: ctx.peopleDate, confidence: r.ids?.wikidata ? 'high' : 'medium' }
@@ -102,7 +102,7 @@ export function prov(ctx, kind, r) {
     case 'collection': return { url: canon('collection', r.id), source_url: canon('collection', r.id), verified_on: built, confidence: 'medium' }
     case 'resource': return { url: canon('resource', r.id), source_url: r.sourceUrl || r.url || canon('resource', r.id), verified_on: r.verifiedOn || built, confidence: r.confidence || 'medium' }
     case 'clip': return { url: canon('clip', r.id), source_url: `https://www.youtube.com/watch?v=${r.media.videoId}${r.media.start ? `&t=${r.media.start}s` : ''}`, verified_on: dateOf(r.orientation?.checked) || built, confidence: 'high' }
-    case 'edge': return { source_url: r.sources?.[0]?.url || null, verified_on: built, confidence: r.conf || 'medium' }
+    case 'edge': return { source_url: r.sources?.[0]?.url || null, verified_on: dateOf(r.sources?.[0]?.checked) || built, confidence: r.conf || 'medium' }
     default: return { verified_on: built, confidence: 'low' }
   }
 }

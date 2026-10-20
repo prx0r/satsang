@@ -2729,7 +2729,7 @@
     }
    ],
    "links": {
-    "Website": "https://sanshin.org"
+    "Website": "https://www.sanshinji.org"
    },
    "works": [
     {
@@ -2745,7 +2745,10 @@
      "year": 2012
     }
    ],
-   "role": "teacher"
+   "role": "teacher",
+   "source_url": "https://www.sanshinji.org/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "joan-halifax",
@@ -6755,8 +6758,8 @@
    "kind": "speaker",
    "role": "scholar",
    "tradition": "kashmir-shaivism",
-   "years": "b. 1951",
-   "bio": "English Indologist and sitarist in Varanasi, initiated by Lakshmanjoo in 1976; translator of the Spanda texts, the 11-volume Tantrāloka and the Manthānabhairava Tantra.",
+   "years": "1951–2025",
+   "bio": "English Indologist and sitarist who lived four decades in Varanasi; initiated by Lakshmanjoo in 1976; translator of the Spanda texts, the Manthānabhairava Tantra and the 11-volume Tantrāloka. Died in Varanasi on 2 February 2025. Since April 2026 his students Arjun Seernels and Brian Campbell lead the Anuttara Trika Kula Reading Circles.",
    "channels": [
     {
      "name": "DEPARTMENT OF PHILOSOPHY AND RELIGION BHU VARANASI"
@@ -6769,7 +6772,18 @@
     "Website": "https://www.anuttaratrikakula.org"
    },
    "aliases": [],
-   "works": []
+   "works": [],
+   "living": false,
+   "died": "2025-02-02",
+   "died_place": "Varanasi",
+   "source_url": "https://link.springer.com/article/10.1007/s42240-025-00218-y",
+   "sources": [
+    "https://link.springer.com/article/10.1007/s42240-025-00218-y",
+    "https://list.indology.info/pipermail/indology/2025-February/060196.html",
+    "https://www.anuttaratrikakula.org/reading-circles/"
+   ],
+   "confidence": "high",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "mark-singleton",

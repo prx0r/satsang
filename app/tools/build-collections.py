@@ -10,6 +10,8 @@ No transcripts are read. Run after build-hubs.py:  python3 tools/build-collectio
 """
 import json, re, os, unicodedata, glob, math, collections
 HERE = os.path.dirname(os.path.abspath(__file__)); APP = os.path.dirname(HERE); WISER = os.path.dirname(APP)
+import sys; sys.path.insert(0, HERE)
+from source_maps import KEEPER_URL_MOVED
 J = lambda p: json.load(open(p))
 def slug(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
@@ -44,6 +46,7 @@ def add_practice(p, topic=None):
     BYNAME.setdefault(slug(name), pid)
     how = p.get('how') or p.get('howto') or p.get('how_to') or ''
     src = p.get('url') or p.get('source_url') or (p.get('sources') or [None])[0] or (p.get('source') if str(p.get('source', '')).startswith('http') else None)
+    src = KEEPER_URL_MOVED.get(src, src)  # keeper fixes (tools/source_maps.py)
     srcl = p.get('src') or p.get('source_note') or (p.get('source') if not str(p.get('source', '')).startswith('http') else '') or ''
     trad = p.get('school') or p.get('tradition') or LABEL_TO_TRAD.get(str(p.get('trad', '')).lower()) or ''
     trad_label = p.get('trad') or TR.get(trad, {}).get('label', '')

@@ -22,7 +22,9 @@ def thread(cid):
     return out
 # ---------- deep pass: the groups' free texts and practices (sources/deep-*/{texts,practices}.json, links only) folded into
 # the hubs they bear on: their own topic ids first, else cue words in the title / how-to. Capped per hub; the curated ones lead.
-import re, glob
+import re, glob, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from source_maps import KEEPER_URL_MOVED
 TR = {n['id']: n for n in json.load(open(os.path.join(ROOT, 'wisegraph/traditions.json')))['nodes']}
 def tlabel(x):
     x = {'christian-meditation': 'christian-meditation-wccm', 'learned-magic': 'western-magic', 'serene-reflection': 'ocb'}.get(x, x)
@@ -55,6 +57,7 @@ for t in deep_rows('texts.json'):
 for x in deep_rows('practices.json'):
     srcs = x.get('sources') or []
     url = x.get('source_url') or (x.get('source') if str(x.get('source', '')).startswith('http') else None) or (srcs[0] if srcs else None)
+    url = KEEPER_URL_MOVED.get(url, url)  # keeper fixes (tools/source_maps.py)
     how = x.get('howto') or x.get('how_to') or ''
     PRACT.append({'name': x['name'], 'trad': tlabel(x.get('school') or x.get('tradition') or '') or 'Practice', 'how': how,
                   'src': (x.get('source') if x.get('source') and not str(x['source']).startswith('http') else None) or x.get('source_note') or (re.sub(r'^https?://(www\.)?([^/]+).*$', r'\2', url) if url else None),

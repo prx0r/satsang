@@ -150,6 +150,16 @@ table{border-collapse:collapse;width:100%;font-size:14px} td{border-top:1px soli
 `
 fs.writeFileSync(new URL('agents.html', out), agents)
 
+// /schema/ index (keeper links check: llms.txt and /agents link to it): the JSON Schemas in ../specs/schema, served at /schema/<file>
+const schemaDir = new URL('../specs/schema/', dir)
+const schemas = fs.existsSync(schemaDir) ? fs.readdirSync(schemaDir).filter((f) => f.endsWith('.json')).sort().map((f) => { let j = {}; try { j = JSON.parse(fs.readFileSync(new URL(f, schemaDir), 'utf8')) } catch { /* listed without a title */ } return { f, title: j.title || f.replace(/\.json$/, ''), d: String(j.description || '').split('. ')[0] } }) : []
+const schemaIndex = agents.slice(0, agents.indexOf('<style>')).replace(/<title>[^<]*<\/title>/, '<title>JSON Schemas · Satsang</title>')
+  .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="JSON Schemas (draft 2020-12) for Satsang\'s open data records.">')
+  .replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${SITE}/schema/">`)
+  + agents.slice(agents.indexOf('<style>'), agents.indexOf('</style>') + 8)
+  + `\n</head><body><main><a class="brand" href="/">SATSANG</a>\n<h1>JSON Schemas</h1>\n<p class="muted">JSON Schema draft 2020-12 for every record kind in the <a href="/data/index.json">open data dumps</a> and the MCP results. Licence: CC BY 4.0.</p>\n<table>${schemas.map((x) => `<tr><td><a href="/schema/${esc(x.f)}"><code>${esc(x.f)}</code></a></td><td>${esc(x.title)}${x.d ? `<br><span class="muted">${esc(x.d.replace(/\.$/, ''))}.</span>` : ''}</td></tr>`).join('')}</table>\n<p class="muted"><a href="/agents">For agents and developers</a></p>\n</main></body></html>\n`
+fs.writeFileSync(new URL('schema-index.html', out), schemaIndex)
+
 // resource pages data (served by the site worker as plain HTML at /resource/<id>)
 const res = {}
 for (const r of Object.values(ctx.resource)) { const p = prov(ctx, 'resource', r); res[r.id] = { t: r.title, k: r.kind, a: r.access, u: r.url, l: r.licence, pub: r.publisher, au: (r.authors || []).map((x) => [x, data.person[x]?.name || x]), an: r.authorName, tr: (r.traditions || []).map((x) => [x, data.tradition[x]?.label || x]), s: r.summary, n: r.note, src: p.source_url, v: p.verified_on, c: p.confidence } }

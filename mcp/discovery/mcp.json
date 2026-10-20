@@ -113,6 +113,24 @@
       "title": "Study path for a tradition",
       "description": "A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first). Every item carries source_url, verified_on, confidence and a canonical URL.",
       "readOnly": true
+    },
+    {
+      "name": "site_health",
+      "title": "Site health",
+      "description": "Satsang’s own health from its keeper (GitHub Actions checks): uptime over 30 days per probe (site, API, MCP, sitemap, llms.txt, openapi), what is down now, open maintenance findings by severity and check, dead clips/links, and the re-verify queue size.",
+      "readOnly": true
+    },
+    {
+      "name": "list_findings",
+      "title": "Maintenance findings",
+      "description": "Open keeper findings (broken links, dead YouTube embeds, sitemap/JSON-LD problems, stale or unsourced records, data conflicts, leak guards), highest priority first. Filter by severity (error, warn, info), check (uptime, sitemap, links, linkrot, oembed, jsonld, provenance, integrity, leaks, robots, bundle, perf) or status.",
+      "readOnly": true
+    },
+    {
+      "name": "next_maintenance_task",
+      "title": "Next maintenance task",
+      "description": "The highest-priority unclaimed keeper finding with how to fix it and how to claim it (keeper/claims.json in a PR to github.com/prx0r/satsang). For agents that help maintain Satsang; read-only here, fixes go through pull requests.",
+      "readOnly": true
     }
   ],
   "openapi": "https://mcp.tantrafiles.xyz/openapi.json",

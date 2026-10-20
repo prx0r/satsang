@@ -1237,9 +1237,10 @@
    "from": "richard-gombrich",
    "to": "mark-dyczkowski",
    "type": "academic_supervisor_of",
-   "conf": "high",
-   "note": "Oxford DPhil 1979 (published as The Doctrine of Vibration); Dyczkowski also names Gombrich as supervisor in his Tantrāloka acknowledgements.",
-   "src": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski"
+   "conf": "low",
+   "note": "Disputed: Wikipedia and the 2025 Journal of Dharma Studies obituary name Gombrich as his formal Oxford supervisor; his own site names only Alexis Sanderson (see keeper/known-conflicts.json dyczkowski-supervisor).",
+   "src": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski",
+   "checked": "2026-10-20"
   },
   {
    "from": "elizabeth-de-michelis",
@@ -1276,10 +1277,11 @@
   {
    "from": "alexis-sanderson",
    "to": "mark-dyczkowski",
-   "type": "influenced",
+   "type": "academic_supervisor_of",
    "conf": "high",
-   "note": "Researched Kashmir Shaivism at Oxford \"under the guidance of\" Sanderson; formal supervisor was Gombrich.",
-   "src": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski"
+   "note": "Oxford DPhil on Kashmir Shaivism \"under the guidance of Professor Alexis Sanderson\" (his own site).",
+   "src": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski/",
+   "checked": "2026-10-20"
   },
   {
    "from": "alexis-sanderson",
@@ -1544,7 +1546,8 @@
    "type": "influenced",
    "conf": "medium",
    "note": "Trained at Bodhinyana; ordained in the Chah tradition in Thailand.",
-   "src": "https://en.wikipedia.org/wiki/Sujato"
+   "src": "https://en.wikipedia.org/wiki/Bhante_Sujato",
+   "checked": "2026-10-20"
   },
   {
    "from": "ajahn-pasanno",
@@ -1573,7 +1576,9 @@
    "to": "sayadaw-u-silananda",
    "type": "influenced",
    "conf": "medium",
-   "src": "https://en.wikipedia.org/wiki/Sayadaw_U_Silananda"
+   "src": "https://tbsa.org/usilananda/biography-uslnd",
+   "note": "Taught Vipassanā in the Mahāsi tradition; came to the US with Mahāsi Sayadaw in 1979 and stayed (TBSA).",
+   "checked": "2026-10-20"
   },
   {
    "from": "dipa-ma",
@@ -1752,14 +1757,16 @@
    "to": "swami-vishnudevananda",
    "type": "teacher_of",
    "conf": "high",
-   "src": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+   "src": "https://en.wikipedia.org/wiki/Vishnudevananda_Saraswati",
+   "checked": "2026-10-20"
   },
   {
    "from": "swami-vishnudevananda",
    "to": "sivananda-yoga",
    "type": "lineage_of",
    "conf": "high",
-   "src": "https://en.wikipedia.org/wiki/Swami_Vishnudevananda_Saraswati"
+   "src": "https://en.wikipedia.org/wiki/Vishnudevananda_Saraswati",
+   "checked": "2026-10-20"
   },
   {
    "from": "swami-vishnudevananda",
@@ -1794,7 +1801,8 @@
    "to": "swami-niranjanananda",
    "type": "teacher_of",
    "conf": "high",
-   "src": "https://en.wikipedia.org/wiki/Swami_Niranjanananda_Saraswati"
+   "src": "https://en.wikipedia.org/wiki/Niranjanananda_Saraswati",
+   "checked": "2026-10-20"
   },
   {
    "from": "krishnamacharya",

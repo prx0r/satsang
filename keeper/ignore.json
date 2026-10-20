@@ -1,1 +1,16 @@
-{ "_note": "Finding ids (or {check, target regex} patterns) that are known and accepted. Edit by PR on main.", "ids": [], "patterns": [] }
+{
+ "_note": "Finding ids (or {check, target regex} patterns) that are known and accepted. Edit by PR on main.",
+ "ids": [
+  "d5ac8f0d6d24"
+ ],
+ "patterns": [
+  {
+   "check": "linkrot",
+   "target": "^https://networks\\.h-net\\.org/",
+   "reason": "H-Net pages answer 302 to themselves until a session cookie is set (the keeper client keeps no cookies); both cited pages load (200) with cookies, re-checked 2026-10-20. Not dead."
+  }
+ ],
+ "_reasons": {
+  "d5ac8f0d6d24": "integrity two-supervisors on person/mark-dyczkowski: both supervisors recorded on purpose (Sanderson high per his own site, Gombrich low/disputed); see known-conflicts dyczkowski-supervisor. 2026-10-20."
+ }
+}

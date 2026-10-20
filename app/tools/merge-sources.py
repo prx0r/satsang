@@ -402,3 +402,5 @@ TP['_note'] = (TP.get('_note', '').split(' | v2')[0] + ' | v2 (2026-10-20): merg
                'rebirth stays the cross-tradition root with Western reincarnation as a leaf, karma likewise (kamma/western).')
 W(tpp, TP)
 print(json.dumps({'groups': G, **log, 'traditions': len(TR), 'people': len(PB), 'edges': len(ED['edges']), 'topic_roots': len(tree), 'notes': notes}, ensure_ascii=False))
+# keeper fixes last (source_maps.KEEPER_*), so a re-merge never brings back a corrected fact
+import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'apply-keeper-fixes.py')], check=True)

@@ -1508,7 +1508,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://giri.dhamma.org",
+   "url": "https://giri.vridhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schgiri",
    "description": "The main centre of S. N. Goenka's Vipassana network, also home of the Vipassana Research Institute.",
    "offers": [
@@ -1540,7 +1540,11 @@
      "dhamma-sukhakari",
      "branch"
     ]
-   ]
+   ],
+   "source_url": "https://www.dhamma.org/en/schedules/schgiri",
+   "confidence": "high",
+   "url_checked": "2026-10-20",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "global-vipassana-pagoda",
@@ -2153,7 +2157,11 @@
     "study",
     "courses"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://tibetanlibrary.org",
+   "confidence": "high",
+   "url_checked": "2026-10-20",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "sera-je",
@@ -3468,7 +3476,7 @@
    "teachers": [
     "thich-nhat-hanh"
    ],
-   "url": "https://www.maisondelinspir.org",
+   "url": "https://maisondelinspir.org/",
    "description": "Plum Village practice centre east of Paris.",
    "offers": [
     "residential retreats"
@@ -3483,7 +3491,11 @@
      "cost_model": "fee",
      "schedule_url": "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html"
     }
-   ]
+   ],
+   "source_url": "https://maisondelinspir.org/",
+   "confidence": "high",
+   "url_checked": "2026-10-20",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "thai-plum-village",
@@ -6340,9 +6352,7 @@
    "lat": 26.05,
    "lng": 32.25,
    "coord_precision": "as recorded on Wikidata",
-   "teachers": [
-    "nag-hammadi"
-   ],
+   "teachers": [],
    "wikidata": "Q270754",
    "description": "Upper Egyptian town near which the Gnostic codices were found in 1945.",
    "offers": [
@@ -6363,9 +6373,7 @@
    "lat": 30.005917,
    "lng": 31.230667,
    "coord_precision": "as recorded on Wikidata",
-   "teachers": [
-    "nag-hammadi"
-   ],
+   "teachers": [],
    "url": "https://egymonuments.gov.eg/en/museums/the-coptic-museum",
    "wikidata": "Q1784177",
    "description": "Cairo museum that holds the Nag Hammadi codices.",
@@ -9298,7 +9306,7 @@
    "teachers": [
     "goenka"
    ],
-   "url": "https://kanheri.dhamma.org/",
+   "url": "https://kanheri.vridhamma.org/",
    "schedule_url": "https://www.dhamma.org/en/schedules/schkanheri",
    "description": "Dhamma Kanheri: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
    "offers": [
@@ -9315,7 +9323,11 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schkanheri"
     }
-   ]
+   ],
+   "source_url": "https://www.dhamma.org/en/schedules/schkanheri",
+   "confidence": "high",
+   "url_checked": "2026-10-20",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "dhamma-kaya",
@@ -9425,42 +9437,6 @@
    ]
   },
   {
-   "id": "dhamma-khetta2",
-   "name": "Dhamma Khetta",
-   "type": "retreat-centre",
-   "traditions": [
-    "goenka-vipassana"
-   ],
-   "country": "IN",
-   "country_name": "India",
-   "city": "Hyderabad - 500 070",
-   "lat": 17.3129,
-   "lng": 78.5756,
-   "coord_precision": "site (dhamma.org map pin)",
-   "founded": 2025,
-   "teachers": [
-    "goenka"
-   ],
-   "url": "https://www.khetta.dhamma.org",
-   "schedule_url": "https://www.dhamma.org/en/schedules/schkhetta2",
-   "description": "Dhamma Khetta: a centre in S. N. Goenka's Vipassana network running 10-day residential courses on a donation basis.",
-   "offers": [
-    "residential retreats",
-    "10-day courses"
-   ],
-   "goenka": true,
-   "retreats": [
-    {
-     "id": "dhamma-khetta2--10-day",
-     "name": "10-day Vipassana course (Goenka)",
-     "typical_length": "10 days (also 3-day, Satipatthana, 20- to 60-day for old students where offered)",
-     "format": "silent residential course with recorded instructions by S. N. Goenka, conducted by assistant teachers",
-     "cost_model": "dana: no charge; donations only from those who have completed a course",
-     "schedule_url": "https://www.dhamma.org/en/schedules/schkhetta2"
-    }
-   ]
-  },
-  {
    "id": "dhamma-khetta",
    "name": "Dhamma Khetta",
    "type": "retreat-centre",
@@ -9494,7 +9470,12 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schkhetta"
     }
-   ]
+   ],
+   "aliases": [
+    "dhamma-khetta2"
+   ],
+   "verified_on": "2026-10-20",
+   "source_url": "https://www.dhamma.org/en/schedules/schkhetta"
   },
   {
    "id": "dhamma-kiran",
@@ -16549,7 +16530,7 @@
    "lat": 50.680769,
    "lng": -3.553211,
    "coord_precision": "village",
-   "url": "https://dragonbelltemple.org",
+   "url": "https://dragonbelltemple.org.uk/",
    "url_checked": "2026-10-20",
    "description": "Order of Buddhist Contemplatives temple near Exeter.",
    "offers": [
@@ -16562,7 +16543,10 @@
      "branch_of",
      "Order of Buddhist Contemplatives temple"
     ]
-   ]
+   ],
+   "source_url": "https://obcon.org/dragon-bell-temple/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "turning-wheel-temple",
@@ -19071,13 +19055,16 @@
    "teachers": [
     "paramahansa-yogananda"
    ],
-   "url": "https://srflondon.org.uk",
+   "url": "https://yoganandalondon.org/",
    "url_checked": "2026-10-20",
    "description": "SRF meditation centre in London (Yogananda's Kriya Yoga).",
    "offers": [
     "group meditations"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://yogananda.org/locations/london-meditation-center",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "maharishi-garden-village",
@@ -23275,13 +23262,16 @@
    "teachers": [
     "bede-griffiths"
    ],
-   "url": "https://bedegriffithssangha.org",
+   "url": "https://bedegriffithssangha.org.uk/",
    "url_checked": "2026-10-20",
-   "description": "UK network of meditation groups in the spirit of Bede Griffiths.",
+   "description": "UK community founded after Bede Griffiths’ death; it no longer meets in person and now gathers monthly online (Zoom Ashram) and keeps his resources.",
    "offers": [
-    "meditation groups"
+    "online meditation (monthly Zoom Ashram)"
    ],
-   "language": "en"
+   "language": "en",
+   "source_url": "https://bedegriffithssangha.org.uk/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
   },
   {
    "id": "quaker-meeting-lancaster",
@@ -24486,10 +24476,10 @@
   {
    "code": "IN",
    "name": "India",
-   "places": 196,
-   "goenka": 130,
+   "places": 195,
+   "goenka": 129,
    "traditions": {
-    "goenka-vipassana": 131,
+    "goenka-vipassana": 130,
     "tibetan": 12,
     "hindu": 12,
     "advaita": 10,

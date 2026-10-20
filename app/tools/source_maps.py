@@ -238,3 +238,62 @@ TOPIC_NODES.update({
 })
 TOPIC_ALIAS.update({'ritual': 'faith/ritual', 'goddess': 'divine/goddess', 'kundalini': 'meditation/kundalini', 'nonduality': 'reality/nonduality'})
 DEEP_TOPIC_HELD = {'meditation/mahamudra': '6 clips (below 12)', 'texts/history': 'too broad (history/origins match everything)', 'reality/threefold-truth': 'too few', 'reality/interpenetration': 'too few', 'guru/tantra': 'folded into faith/ritual (empowerment, deity yoga)'}
+
+# ---------- keeper fixes (keeper/REPORT.md findings, reviewed 2026-10-20) ----------
+# Applied to wisegraph/*.json by tools/apply-keeper-fixes.py (idempotent; merge-sources.py runs it last, so a re-merge keeps them).
+# Every changed fact carries source_url + verified_on + confidence.
+KEEPER_VERIFIED = '2026-10-20'
+KEEPER_PEOPLE = {
+    'mark-dyczkowski': {
+        'years': '1951–2025', 'living': False, 'died': '2025-02-02', 'died_place': 'Varanasi',
+        'bio': 'English Indologist and sitarist who lived four decades in Varanasi; initiated by Lakshmanjoo in 1976; translator of the Spanda texts, '
+               'the Manthānabhairava Tantra and the 11-volume Tantrāloka. Died in Varanasi on 2 February 2025. Since April 2026 his students '
+               'Arjun Seernels and Brian Campbell lead the Anuttara Trika Kula Reading Circles.',
+        'source_url': 'https://link.springer.com/article/10.1007/s42240-025-00218-y',
+        'sources': ['https://link.springer.com/article/10.1007/s42240-025-00218-y',
+                    'https://list.indology.info/pipermail/indology/2025-February/060196.html',
+                    'https://www.anuttaratrikakula.org/reading-circles/'],
+        'confidence': 'high',
+    },
+    # official site: sanshin.org (an old domain that no longer answers) -> the Sanshin Zen Community's own site
+    'shohaku-okumura': {'links': {'Website': 'https://www.sanshinji.org'}, 'source_url': 'https://www.sanshinji.org/', 'confidence': 'high'},
+}
+# edges matched on (from, to); 'type' may change. Wikipedia moved pages; dead source URLs replaced.
+KEEPER_EDGES = [
+    # Dyczkowski's doctorate (Oxford): his own site says he researched "under the guidance of Professor Alexis Sanderson";
+    # Wikipedia (and the 2025 Journal of Dharma Studies obituary) name Richard Gombrich as his supervisor. Kept both, Gombrich disputed.
+    {'match': ('alexis-sanderson', 'mark-dyczkowski'), 'set': {'type': 'academic_supervisor_of', 'conf': 'high',
+        'note': 'Oxford DPhil on Kashmir Shaivism "under the guidance of Professor Alexis Sanderson" (his own site).',
+        'src': 'https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski/'}},
+    {'match': ('richard-gombrich', 'mark-dyczkowski'), 'set': {'type': 'academic_supervisor_of', 'conf': 'low',
+        'note': 'Disputed: Wikipedia and the 2025 Journal of Dharma Studies obituary name Gombrich as his formal Oxford supervisor; '
+                'his own site names only Alexis Sanderson (see keeper/known-conflicts.json dyczkowski-supervisor).',
+        'src': 'https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski'}},
+    {'match': ('ajahn-brahm', 'bhante-sujato'), 'set': {'src': 'https://en.wikipedia.org/wiki/Bhante_Sujato'}},
+    {'match': ('mahasi-sayadaw', 'sayadaw-u-silananda'), 'set': {'src': 'https://tbsa.org/usilananda/biography-uslnd',
+        'note': 'Taught Vipassanā in the Mahāsi tradition; came to the US with Mahāsi Sayadaw in 1979 and stayed (TBSA).'}},
+    {'match': ('swami-sivananda', 'swami-vishnudevananda'), 'set': {'src': 'https://en.wikipedia.org/wiki/Vishnudevananda_Saraswati'}},
+    {'match': ('swami-vishnudevananda', 'sivananda-yoga'), 'set': {'src': 'https://en.wikipedia.org/wiki/Vishnudevananda_Saraswati'}},
+    {'match': ('swami-satyananda', 'swami-niranjanananda'), 'set': {'src': 'https://en.wikipedia.org/wiki/Niranjanananda_Saraswati'}},
+]
+KEEPER_PLACES = {
+    'bede-griffiths-sangha': {'url': 'https://bedegriffithssangha.org.uk/', 'offers': ['online meditation (monthly Zoom Ashram)'],
+        'description': 'UK community founded after Bede Griffiths\u2019 death; it no longer meets in person and now gathers monthly online (Zoom Ashram) and keeps his resources.',
+        'source_url': 'https://bedegriffithssangha.org.uk/', 'confidence': 'high'},
+    'dragon-bell-temple': {'url': 'https://dragonbelltemple.org.uk/', 'source_url': 'https://obcon.org/dragon-bell-temple/', 'confidence': 'high'},
+    'srf-london': {'url': 'https://yoganandalondon.org/', 'source_url': 'https://yogananda.org/locations/london-meditation-center', 'confidence': 'high'},
+    'dhamma-giri': {'url': 'https://giri.vridhamma.org/', 'source_url': 'https://www.dhamma.org/en/schedules/schgiri', 'confidence': 'high'},
+    'dhamma-kanheri': {'url': 'https://kanheri.vridhamma.org/', 'source_url': 'https://www.dhamma.org/en/schedules/schkanheri', 'confidence': 'high'},
+    'maison-de-l-inspir': {'url': 'https://maisondelinspir.org/', 'source_url': 'https://maisondelinspir.org/', 'confidence': 'high'},
+    # 'nag-hammadi' is the codices (a text), not a teacher: places tie to people only
+    'coptic-museum': {'teachers': []},
+    'nag-hammadi-site': {'teachers': []},
+    # India study: Library of Tibetan Works and Archives = tibetanlibrary.org (ltwa.net is not its site)
+    'ltwa': {'url': 'https://tibetanlibrary.org', 'source_url': 'https://tibetanlibrary.org', 'confidence': 'high'},
+}
+# duplicate places: old id -> kept id (/place/<old> 301s to the kept page)
+KEEPER_PLACE_MERGE = {'dhamma-khetta2': 'dhamma-khetta'}   # same centre, same dhamma.org page text; schkhetta (1976) kept
+# India study bad URLs, applied wherever these places exist (none of them are in the live data on 2026-10-20)
+KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maakamakhya.org', 'ltwa.net': 'https://tibetanlibrary.org'}
+# cited URLs that moved (practices/texts read straight from sources/deep-*): old -> current official page
+KEEPER_URL_MOVED = {'https://sanshin.org': 'https://www.sanshinji.org/'}
