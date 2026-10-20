@@ -2,13 +2,13 @@
 const lastHit = new Map() // host -> ms of the last request start
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-export function makeHttp({ userAgent, perHostMs = 1000, timeoutMs = 20000 } = {}) {
+export function makeHttp({ userAgent, perHostMs = 1000, timeoutMs = 20000, hostMs = {} } = {}) {
   async function polite(url) {
-    const host = new URL(url).host
+    const host = new URL(url).host, gap = hostMs[host] ?? perHostMs
     for (;;) {
       const now = Date.now(), last = lastHit.get(host) || 0
-      if (now - last >= perHostMs) { lastHit.set(host, now); return }
-      await sleep(perHostMs - (now - last) + Math.random() * 50)
+      if (now - last >= gap) { lastHit.set(host, now); return }
+      await sleep(gap - (now - last) + Math.random() * 20)
     }
   }
   // fetch with timing; body: 'text' | 'none' | 'json'. Never throws: returns {ok,status,ms,ttfb,error,headers,text,url}

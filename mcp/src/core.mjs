@@ -3,6 +3,7 @@
 import { quality, mmr, tasteFrom, affinity, nextTopics, familyOf, uncertainty } from './rank.mjs'
 import { AGENT_TOOLS, callAgentTool, extendIndex, resourceDocs, canon, prov, titleOf, LICENSE } from './agents.mjs'
 import { restHandler, openapi } from './rest.mjs'
+import { KEEPER_TOOLS, keeperTool, ensureKeeper } from './keeper.mjs' // keeper: site health + maintenance queue (read-only)
 import { BASE, HOST, SITE_URL_RE } from '../../domain.mjs'
 const SITE_RE = new RegExp(SITE_URL_RE)
 
@@ -97,7 +98,7 @@ const LEGACY_TOOLS = [
       maxMinutes: { type: 'number' }, k: { type: 'integer', minimum: 1, maximum: 30, default: 8 } } } },
 ]
 const RO = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false }
-export const TOOLS = [...LEGACY_TOOLS.map((t) => ({ ...t, annotations: RO })), ...AGENT_TOOLS]
+export const TOOLS = [...LEGACY_TOOLS.map((t) => ({ ...t, annotations: RO })), ...AGENT_TOOLS, ...KEEPER_TOOLS]
 // ids may come prefixed ("person/x", "topic/death/bardo") or as canonical URLs, straight from search results
 const bare = (kind, id) => String(id ?? '').replace(SITE_RE, '').replace(/^#/, '').replace(kind === 'person' ? /^(person|teacher)\// : new RegExp('^' + kind + '\\/'), '')
 
@@ -208,7 +209,7 @@ export function callTool(ctx, name, a = {}) {
       return { coldStart: !taste.n, taste: { traditions: taste.traditions, topics: taste.topics }, talks: talks.map((c, i) => clipOut(c, ctx, { score: +rel(c).toFixed(3), slot: taste.n && k > 2 && i === talks.length - 1 ? 'explore' : 'fit' })),
         nextTopics: nextTopics(a.topic || null, taste, ctx, 5) }
     }
-    default: { const r = callAgentTool(ctx, name, a); if (r !== undefined) return r; throw Object.assign(new Error(`Unknown tool: ${name}`), { code: -32602 }) }
+    default: { const kr = keeperTool(ctx, name, a); if (kr !== undefined) return kr; const r = callAgentTool(ctx, name, a); if (r !== undefined) return r; throw Object.assign(new Error(`Unknown tool: ${name}`), { code: -32602 }) }
   }
 }
 
@@ -305,6 +306,7 @@ export function makeFetch(ctx, extras = {}) {
       const sid = u.searchParams.get('sessionId') || u.searchParams.get('session_id')
       if (!sid) return json({ error: 'missing sessionId' }, 400)
       let body; try { body = await request.json() } catch { return json({ jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Parse error' } }, 400) }
+      await ensureKeeper(ctx, body)
       const { replies } = rpcReply(body)
       if (replies.length && !(await sessions.push(sid, replies, env))) return json({ error: 'unknown or closed session; reconnect to /sse' }, 404)
       return new Response('Accepted', { status: 202, headers: CORS })
@@ -318,6 +320,7 @@ export function makeFetch(ctx, extras = {}) {
     if (origin && extras.allowOrigin && !extras.allowOrigin(origin)) return json({ error: 'forbidden_origin' }, 403)  // DNS-rebinding guard
     let body
     try { body = await request.json() } catch { return json({ jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Parse error' } }, 400) }
+    await ensureKeeper(ctx, body)
     const { batch, replies } = rpcReply(body)
     if (!replies.length) return new Response(null, { status: 202, headers: CORS })
     const out = batch ? replies : replies[0]

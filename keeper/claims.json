@@ -1,0 +1,1 @@
+{ "_note": "Claim a finding before working on it: add {\"<finding id>\": {\"claimed_by\": \"<agent or person>\", \"claimed_at\": \"<ISO time>\", \"pr\": \"<url, optional>\"}} in a PR to main. Claims older than 7 days without a PR are treated as free.", "claims": {} }

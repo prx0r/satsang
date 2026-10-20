@@ -1,5 +1,6 @@
 // Findings state: merge a run into keeper/state/findings.json with consecutive-failure counts, auto-close on pass,
 // ignore/claim overlays from keeper/ignore.json and keeper/claims.json (both edited on main, by PR).
+import fs from 'node:fs'
 import path from 'node:path'
 import { STATE, KEEPER, readJson, writeJson, nowIso, sha, SEV, daysBetween } from './util.mjs'
 
@@ -49,4 +50,10 @@ export function prune(state, days = 30) {
 
 export const rank = (o) => (SEV[o.severity] || 0) * 1e6 + Math.min(o.fails || 0, 999) * 1e3 - (o.autofix ? 500 : 0)
 
-export function save(state) { state.updated = nowIso(); writeJson(FINDINGS, state, false) }
+export function save(state) { // one finding per line: small, readable git diffs on the keeper-state branch
+  state.updated = nowIso()
+  const ids = Object.keys(state.findings).sort()
+  const body = ids.map((id) => `  ${JSON.stringify(id)}: ${JSON.stringify(state.findings[id])}`).join(',\n')
+  fs.mkdirSync(STATE, { recursive: true })
+  fs.writeFileSync(FINDINGS, `{"updated": ${JSON.stringify(state.updated)}, "count": ${ids.length}, "findings": {\n${body}\n}}\n`)
+}

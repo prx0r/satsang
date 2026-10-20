@@ -1,0 +1,26 @@
+{
+  "_note": "Conflicting claims the integrity check keeps open until the data matches a decision. Add one by PR; set resolved:true with the decision and its source to close it.",
+  "conflicts": [
+    {
+      "id": "dyczkowski-death",
+      "record": "person/mark-dyczkowski",
+      "field": "years.end",
+      "claims": [
+        { "value": null, "source": "sources/deep-tantra/people.json (b. 1951, no death)" },
+        { "value": 2025, "source": "sources/deep-india-study (died 2025-02-02)" }
+      ],
+      "resolvedWhen": { "field": "years.end", "equals": 2025 },
+      "resolved": false
+    },
+    {
+      "id": "dyczkowski-supervisor",
+      "record": "person/mark-dyczkowski",
+      "field": "academic_supervisor_of (incoming)",
+      "claims": [
+        { "value": "richard-gombrich", "source": "https://en.wikipedia.org/wiki/Mark_S._G._Dyczkowski (deep-tantra lineages)" },
+        { "value": "alexis-sanderson", "source": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski (his own site, per deep-india-study)" }
+      ],
+      "resolved": false
+    }
+  ]
+}

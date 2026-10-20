@@ -19,8 +19,11 @@ export function loadConfig() {
 }
 export const sha = (s, n = 12) => crypto.createHash('sha1').update(String(s)).digest('hex').slice(0, n)
 export const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
-export const today = () => new Date().toISOString().slice(0, 10)
-export const nowIso = () => new Date().toISOString().replace(/\.\d+Z$/, 'Z')
+// ISO strings built from UTC parts (some sandboxes patch Date#toISOString)
+const p2 = (n) => String(n).padStart(2, '0')
+export const iso = (d = new Date()) => `${d.getUTCFullYear()}-${p2(d.getUTCMonth() + 1)}-${p2(d.getUTCDate())}T${p2(d.getUTCHours())}:${p2(d.getUTCMinutes())}:${p2(d.getUTCSeconds())}Z`
+export const today = () => iso().slice(0, 10)
+export const nowIso = () => iso()
 export const daysBetween = (a, b = new Date()) => Math.floor((new Date(b) - new Date(a)) / 86400000)
 export const readJson = (f, dflt) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')) } catch { return dflt } }
 export const writeJson = (f, o, pretty = true) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(o, null, pretty ? 1 : 0) + '\n') }

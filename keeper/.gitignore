@@ -1,0 +1,4 @@
+# machine state lives on the keeper-state branch, not main
+state/*.json
+REPORT.md
+state/.lock

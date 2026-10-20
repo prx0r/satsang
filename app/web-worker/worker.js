@@ -3,6 +3,7 @@
 import SITE from './site.gen.js'
 import META from './meta.gen.js' // path pages: title, description, JSON-LD (build-meta.mjs)
 import RES from './resources.gen.js' // /resource/<id> plain pages (build-meta.mjs <- mcp/discovery/resources.json)
+import { withoutDeadClips } from './keeper-dead.mjs' // keeper: hide dead clips (fail-open; keeper/AGENTS.md)
 import { BASE, HOST, MCP_BASE, SITE_ORIGINS } from '../../domain.mjs' // public hostnames (one place)
 const OUR_HOSTS = SITE_ORIGINS.map((o) => new URL(o).host)
 const hdr = (type, extra = {}) => ({ 'content-type': type, 'x-content-type-options': 'nosniff', 'referrer-policy': 'strict-origin-when-cross-origin', ...extra })
@@ -42,6 +43,7 @@ export default {
     }
     const f = SITE[p] || SITE[p + '.html']
     if (!f) { const nf = SITE['/404.html']; return new Response(nf ? nf[1] : 'Not found', { status: 404, headers: hdr('text/html; charset=utf-8') }) }
+    if (p === '/clips.json' && req.method !== 'HEAD') return new Response(await withoutDeadClips(f[1], SITE['/index.html']?.[1]?.length), { headers: hdr(f[0], { 'cache-control': 'public, max-age=300', 'access-control-allow-origin': '*' }) }) // keeper hook
     const cache = p === '/index.html' ? 'no-cache' : /\.json$/.test(p) ? 'public, max-age=300' : u.searchParams.has('v') ? 'public, max-age=31536000, immutable' : 'public, max-age=3600'
     return new Response(req.method === 'HEAD' ? null : f[1], { headers: hdr(f[0], { 'cache-control': cache, ...(/\.json$/.test(p) ? { 'access-control-allow-origin': '*' } : {}) }) })
   },

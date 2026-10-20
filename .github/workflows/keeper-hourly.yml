@@ -1,0 +1,53 @@
+# Satsang keeper, hourly checks (keeper/README.md). State is committed to the keeper-state branch, never main.
+name: keeper-hourly
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: 'hourly | daily | weekly | all'
+        required: false
+        default: 'hourly'
+      only:
+        description: 'comma list of check ids (optional)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: keeper
+  cancel-in-progress: false
+jobs:
+  keeper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Restore keeper state
+        run: |
+          git fetch --depth 1 origin keeper-state && git checkout origin/keeper-state -- keeper/state keeper/REPORT.md && git reset -q || echo "no keeper-state yet: starting fresh"
+      - name: Run checks
+        env:
+          CADENCE: ${{ github.event.inputs.cadence || 'hourly' }}
+          ONLY: ${{ github.event.inputs.only || '' }}
+        run: node keeper/run.mjs --cadence "$CADENCE" --budget 600 ${ONLY:+--only "$ONLY"}
+      - name: Outage issue (open/close one keeper-outage issue)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node keeper/outage.mjs
+      - name: Publish state to keeper-state
+        if: always()
+        env:
+          KEEPER_CADENCE: hourly
+        run: sh keeper/publish.sh
+      - name: Summary
+        if: always()
+        run: cat keeper/REPORT.md >> "$GITHUB_STEP_SUMMARY" || true
