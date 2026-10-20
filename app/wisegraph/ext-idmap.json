@@ -1,0 +1,16 @@
+{
+ "_note": "Pack id -> existing id, decided by tools/stage-extensions.py dedupe (normalised name / Wikidata / name + distance).",
+ "people": {},
+ "places": {
+  "vedanta-society-new-york": "vedanta-ny",
+  "tushita-dharamkot": "tushita-dharamsala",
+  "hillside-hermitage-lk": "hillside-hermitage",
+  "sfzc": "sfzc-city-center",
+  "upaya-zen": "upaya",
+  "deer-park": "deer-park-monastery",
+  "vedanta-socal": "vedanta-hollywood",
+  "siddha-ashram": "shree-muktananda-ashram",
+  "cac-albuquerque": "cac",
+  "pendle-hill": "pendle-hill-pa"
+ }
+}

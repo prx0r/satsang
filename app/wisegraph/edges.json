@@ -2931,6 +2931,15 @@
    "note": "Bruno's heroic frenzies and infinite worlds work Ficino's Hermetic-Neoplatonic sources."
   },
   {
+   "from": "pa-auk-sayadaw",
+   "to": "sayalay-dipankara",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Ordained and trained as a meditation teacher at Pa-Auk Tawya (1990).",
+   "src": "https://www.cakkavala.org/Teacher.html",
+   "checked": "2026-10-20"
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",

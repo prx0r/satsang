@@ -1,0 +1,81 @@
+{
+ "_note": "staged from satsang-extensions/16-usa-places",
+ "links": [
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "metta-forest",
+   "teacher": "thanissaro-bhikkhu"
+  },
+  {
+   "conf": "medium",
+   "model": "single",
+   "note": "Founder; current guiding role re-check.",
+   "place": "spirit-rock",
+   "teacher": "jack-kornfield"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "upaya",
+   "teacher": "joan-halifax"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "bhavana-society",
+   "teacher": "bhante-gunaratana"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "sravasti-abbey",
+   "teacher": "thubten-chodron"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "isha-institute",
+   "teacher": "sadhguru"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "amma-ma-center",
+   "teacher": "amma"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "cac",
+   "teacher": "richard-rohr"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "inayati-abode",
+   "teacher": "pir-zia-inayat-khan"
+  },
+  {
+   "conf": "high",
+   "model": "rotating",
+   "note": "Goenka doctrine: assistant teachers rotate, no guru.",
+   "place": "dhamma-dhara",
+   "teacher": null
+  },
+  {
+   "conf": "high",
+   "model": "rotating",
+   "note": "Goenka doctrine.",
+   "place": "dhamma-siri",
+   "teacher": null
+  },
+  {
+   "conf": "high",
+   "model": "none",
+   "note": "Quaker doctrine: no clergy.",
+   "place": "pendle-hill-pa",
+   "teacher": null
+  }
+ ]
+}

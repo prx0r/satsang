@@ -18,11 +18,11 @@
  "files": [
   {
    "kind": "person",
-   "count": 572,
+   "count": 578,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 381192,
-   "sha256": "13cd7affb7f1598ddf8a47f3073cc0b7e66724ca7a1f50007b684441c1665c36",
+   "bytes": 384300,
+   "sha256": "494202db79c8259134a8bcc0fd41553dd69f9dc74c7418be29349426df9f4453",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
@@ -57,8 +57,8 @@
    "count": 77,
    "json": "practice.json",
    "jsonl": "practice.jsonl",
-   "bytes": 86269,
-   "sha256": "3c752564603cf9a510762b01b0db8bfd09f7bc11d31105662226f4d830525bf4",
+   "bytes": 86329,
+   "sha256": "52444a29307bb268497aa153baf6556acb558b72d31158795da50ef7e88d2f5f",
    "schema": "https://tantrafiles.xyz/schema/practice.json"
   },
   {
@@ -81,28 +81,28 @@
   },
   {
    "kind": "place",
-   "count": 794,
+   "count": 820,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 782162,
-   "sha256": "de3e27643b88e9a082bb3b75ef981f7b9cb2fbed7918d4bbd42b432ab6543f7c",
+   "bytes": 806294,
+   "sha256": "825716c36b16c50f6b49f1c828b53864eaae2a02097e5c7331ddd464c362d849",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
    "kind": "edge",
-   "count": 941,
+   "count": 960,
    "json": "edge.json",
    "jsonl": "edge.jsonl",
-   "bytes": 261924,
-   "sha256": "6012e453be913bb04fb14998a740b529ad21fe205c32d578128504a63da8a2ea",
+   "bytes": 267294,
+   "sha256": "3e1caee009cbfa5d511a4990ff3035c31d6fa497f5624ff304d1777bdbb89b02",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {
    "kind": "jsonld",
-   "count": 11237,
+   "count": 11269,
    "file": "wiser.jsonld",
-   "bytes": 6573515,
-   "sha256": "67c0a4546247a5594cd4214573d3d365fffb40b72431ad025b438894c8f3fc9a"
+   "bytes": 6589191,
+   "sha256": "9addfd93801dc94dc37d2798e9e6352e3195d6d428e6f8b8988603c56e2e72ca"
   },
   {
    "kind": "sitemap-topic",
@@ -111,7 +111,7 @@
   },
   {
    "kind": "sitemap-person",
-   "count": 572,
+   "count": 578,
    "file": "sitemap-person.xml"
   },
   {
@@ -131,7 +131,7 @@
   },
   {
    "kind": "sitemap-place",
-   "count": 522,
+   "count": 548,
    "file": "sitemap-place.xml"
   }
  ]

@@ -1,4 +1,229 @@
 {
  "_note": "Hand-checked contacts from staged sourcing groups (sources/ext-*/place-contacts.json, deep-india-study places). Exactly as published, each value with its source_url. Layered over place-contacts.json by tools/build-wise.py (curated wins).",
- "places": {}
+ "places": {
+  "brahma-vihari-penang": {
+   "checked": "2026-10-20",
+   "site": "https://sites.google.com/site/penangbrahmavihari/"
+  },
+  "hillside-hermitage": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://www.hillsidehermitage.org/",
+    "url": "https://www.hillsidehermitage.org/"
+   },
+   "site": "https://www.hillsidehermitage.org/"
+  },
+  "mbmc-penang": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://www.mbmcmalaysia.org/",
+    "url": "https://www.mbmcmalaysia.org/p/contact-us.html"
+   },
+   "email": [
+    {
+     "source_url": "https://www.mbmcmalaysia.org/p/contact-us.html",
+     "value": "mbmc.malaysia@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.mbmcmalaysia.org/p/contact-us.html",
+     "value": "+604-2401698"
+    }
+   ],
+   "site": "https://www.mbmcmalaysia.org/"
+  },
+  "meetirigala-nissarana-vanaya": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "nissaranavanaya@gmail.com"
+    },
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "office@nissarana.lk"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "+94 332253295"
+    },
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "+94 77 722 3468"
+    }
+   ],
+   "site": "https://www.nissarana.lk"
+  },
+  "na-uyana": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://nauyana.org/",
+    "url": "https://nauyana.org/contact-english/"
+   },
+   "email": [
+    {
+     "source_url": "https://nauyana.org/contact-english/",
+     "value": "nauyana@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://nauyana.org/na-uyana-english/",
+     "value": "+94 71 8455332"
+    }
+   ],
+   "site": "https://nauyana.org/"
+  },
+  "sasanarakkha-taiping": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://sasanarakkha.org/about/",
+     "value": "+60 11 1601 1198"
+    }
+   ],
+   "site": "https://sasanarakkha.org/"
+  },
+  "bhavana-society": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://bhavanasociety.org/contact-us/",
+     "value": "Info@BhavanaSociety.Org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://bhavanasociety.org/contact-us/",
+     "value": "304-856-3241"
+    }
+   ],
+   "site": "https://bhavanasociety.org/"
+  },
+  "cac": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://cac.org/about/frequently-asked-questions/",
+     "value": "hello@cac.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://cac.org/about/frequently-asked-questions/",
+     "value": "505-247-1636"
+    }
+   ],
+   "site": "https://cac.org/"
+  },
+  "contemplative-outreach": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.contemplativeoutreach.org/",
+     "value": "office@coutreach.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.contemplativeoutreach.org/",
+     "value": "973.838.3384"
+    }
+   ],
+   "site": "https://www.contemplativeoutreach.org/"
+  },
+  "dharma-drum-retreat": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://dharmadrumretreat.org/contact-us/",
+     "value": "(845) 744-8114"
+    }
+   ],
+   "site": "https://dharmadrumretreat.org/"
+  },
+  "ims-barre": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dharma.org/contact-us/",
+     "value": "rc@dharma.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dharma.org/contact-us/",
+     "value": "978-355-4378"
+    }
+   ],
+   "site": "https://www.dharma.org/"
+  },
+  "mevlevi-usa": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://hayatidede.org/contactus/",
+     "value": "info@hayatidede.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://hayatidede.org/contactus/",
+     "value": "541.521.8655"
+    }
+   ],
+   "site": "https://hayatidede.org/"
+  },
+  "sakya-seattle": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.sakya.org/contact-us/",
+     "value": "Monastery@Sakya.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.sakya.org/contact-us/",
+     "value": "(206) 789-2573"
+    }
+   ],
+   "site": "https://www.sakya.org/"
+  },
+  "sravasti-abbey": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://sravastiabbey.org/visit/",
+     "value": "office.sravasti@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://sravastiabbey.org/visit/",
+     "value": "509-447-5549"
+    }
+   ],
+   "site": "https://sravastiabbey.org/"
+  },
+  "zen-mountain-monastery": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://zmm.org/contact/",
+     "value": "registrar@dharma.net"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://zmm.org/contact/",
+     "value": "845.688.2228"
+    }
+   ],
+   "site": "https://zmm.org/"
+  }
+ }
 }

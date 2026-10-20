@@ -212,6 +212,7 @@ if (colData) {
     practice[id] = { id, type: 'practice', name: pr.name, kind: prev?.kind || kindOf(pr.name + ' ' + (pr.how || '')), traditions: [tr], traditionLabel: pr.tradLabel || prev?.traditionLabel,
       summary: String(pr.how || '').slice(0, 400), steps: st, duration: pr.minutes ? { min: Math.min(5, pr.minutes), max: 30, default: pr.minutes } : undefined,
       needsTeacher: !!pr.needsTeacher, contraindications: pr.cautions?.length ? pr.cautions : undefined,
+      ...((pr.teachers || []).filter((t) => person[t]).length ? { teachers: pr.teachers.filter((t) => person[t]) } : prev?.teachers ? { teachers: prev.teachers } : {}),
       sources: pr.source ? [{ url: pr.source, cite: pr.sourceLabel || undefined }] : prev?.sources || [{ url: `${SITE}/#practice/${id}`, cite: 'Satsang summary' }],
       topics: [...new Set([...(prev?.topics || []), ...(pr.topics || []).filter((t) => topic[t])])], url: `${SITE}/#practice/${id}`, meta: { license: LIC } }
   }

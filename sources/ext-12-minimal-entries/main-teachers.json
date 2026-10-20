@@ -1,0 +1,44 @@
+{
+ "_note": "staged from satsang-extensions/12-minimal-entries",
+ "links": [
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "abhayagiri",
+   "teacher": "ajahn-pasanno"
+  },
+  {
+   "conf": "medium",
+   "model": "single",
+   "note": "Abbot 2010–2024 era; re-check current post.",
+   "place": "amaravati",
+   "teacher": "ajahn-amaro"
+  },
+  {
+   "conf": "medium",
+   "model": "single",
+   "note": "Founder/abbot; re-check (post may have changed).",
+   "place": "aruna-ratanagiri",
+   "teacher": "ajahn-munindo"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "forest-hermitage-uk",
+   "teacher": "ajahn-khemadhammo"
+  },
+  {
+   "conf": "medium",
+   "model": "single",
+   "note": "Long-time abbot; re-check current post.",
+   "place": "cittaviveka",
+   "teacher": "ajahn-sucitto"
+  },
+  {
+   "conf": "high",
+   "model": "single",
+   "place": "vedanta-ny",
+   "teacher": "swami-sarvapriyananda"
+  }
+ ]
+}

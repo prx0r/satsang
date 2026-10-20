@@ -1,0 +1,72 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "links": [
+  {
+   "from": "aggacitta",
+   "to": "sasanarakkha-taiping",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://sasanarakkha.org/about/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ajahn-nyanamoli",
+   "to": "hillside-hermitage",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.hillsidehermitage.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "hillside-hermitage",
+   "to": "hillside-hermitage-slovenia",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Association branch houses (Samanadipa org, Bodhi Tree Foundation).",
+   "src": "https://www.hillsidehermitage.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "hillside-hermitage",
+   "to": "samanadipa",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Association branch houses.",
+   "src": "https://www.hillsidehermitage.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "hillside-hermitage",
+   "to": "vihara-pod-lasem",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Association branch houses.",
+   "src": "https://www.hillsidehermitage.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ariyananda",
+   "to": "na-uyana",
+   "type": "teaches_at",
+   "conf": "high",
+   "src": "https://nauyana.org/na-uyana-english/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "dhammajiva",
+   "to": "meetirigala-nissarana-vanaya",
+   "type": "abbot_of",
+   "conf": "high",
+   "src": "https://www.nissarana.lk/about-us/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sayalay-dipankara",
+   "to": "brahma-vihari-penang",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://brahmavihari.org/about/",
+   "checked": "2026-10-20"
+  }
+ ]
+}

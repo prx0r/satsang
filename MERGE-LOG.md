@@ -41,3 +41,21 @@ Post-merge gates: ids-unique "collisions" are the merged records themselves (exp
 Live: 18 key/new pages 200; KV-served JSON 200, ETag 304 works; MCP test.mjs all passed, test-client all passed live.
 Screenshots: shots-merge/b1/ (desktop + phone: topic, place, teacher, mun) — dark design unchanged.
 Keeper: 0 error; 2 linkrot warns on pre-existing h-net.org edge sources (fetch failed, not from this merge); info 165 (was 164).
+
+## Batch 2: 06, 07, 10, 12, 13, 14, 15, 16 (deployed wiser-web cb5c733d, wiser-mcp 6e9c01dd)
+| pack | result | counts / notes |
+|---|---|---|
+| 06-gather-phase1 | skipped (archived) | 5 MCP tools need D1 sessions/RSVPs (write paths; the MCP is read-only); migration 0021_sessions.sql NOT applied |
+| 07-mcp-atlas-tools | skipped (archived) | find_path is covered by the live get_lineage_path (lineage-class filter); get_concept_thread needs concept ingestion + /concept routes (ROADMAP-7) |
+| 10-golden-path | merged | 3 teaches_at ties (2 medium -> re-check queue via teacher ties), 6 practice->teacher attributions (2 check:true held), NEW MCP tool `guide_me` |
+| 12-minimal-entries | merged (partial) | 6 main-teacher links (3 medium queued); scoreboard/backlog/minimal_entry.py archived (builder outputs, not data) |
+| 13-atlas-population | skipped (archived) | builder outputs only (INTEGRATION §5: do not merge); populate_places.py archived |
+| 14-lineage-clusters | partial | 13 living:true proposals -> review queue (mark-dyczkowski flagged CONTRADICTED: died 2025-02-02); cluster.py + inception notes archived |
+| 15-niche-hermitages | merged | 7 new places + 2 gap-filled (hillside-hermitage-lk -> hillside-hermitage), 4 people (living held), 6 contact rows (1 off-domain email dropped), 2 Path Press texts, 1 nissarana edge source re-checked |
+| 16-usa-places | merged | 19 new US places + 17 gap-filled (7 deduped: sfzc, upaya, deer-park, vedanta-socal, siddha-ashram, cac, pendle-hill), 2 people (living held), 9 contacts (1 off-domain dropped), 12 main teachers (medium queued), WAF edge sources re-curled |
+
+Places 795 -> 821 (773 mapped); people 577 -> 583; main teachers on 15 places, teacher_model on 3 more. Review queue 53.
+Gates post-merge: only ids-unique self-collisions. Live: new place/person pages 200, guide_me live via MCP, test-client all passed.
+Screenshots: shots-merge/b2/ (places map + pick, desktop + phone) — design unchanged.
+Keeper: 0 error; linkrot warns 12 = pre-existing UK/AU/NZ sites reached by the rotating linkrot cursor this run (TLS errors / no
+connection; curl from this sandbox returns 000 for them too), none from merged records; provenance info 168.

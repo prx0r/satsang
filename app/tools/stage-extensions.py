@@ -114,13 +114,15 @@ def pack_files(pdir):
         out.append((m.group(1) if m else None, f))
     return out
 
+IMP = os.path.join(ROOT, 'wisegraph/ext-idmap.json')  # dedupe decisions, cumulative across packs (later packs reference earlier packs' ids)
+IDMAP = J(IMP) if os.path.exists(IMP) else {'_note': 'Pack id -> existing id, decided by tools/stage-extensions.py dedupe (normalised name / Wikidata / name + distance).', 'people': {}, 'places': {}}
 summary = {}
 for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
     pdir = os.path.join(A.ext, pack)
     if not os.path.isdir(pdir): print('missing pack', pack, file=sys.stderr); continue
     nn = pack.split('-')[0]
     G = {}  # group dir -> data
-    PMAP, PLMAP = {}, {}  # this pack's deduped ids -> existing ids (applied to every reference at write time)
+    PMAP, PLMAP = dict(IDMAP['people']), dict(IDMAP['places'])  # deduped ids -> existing ids, from every pack staged so far (applied at write time)
     def grp(sub):
         gid = f'ext-{pack}' if not sub else f'ext-{nn}-{sub}'
         return G.setdefault(gid, {'traditions': [], 'people': [], 'edges': [], 'places': [], 'contacts': {}, 'main': [], 'works': [], 'texts': [], 'place_links': [], 'years': {}})
@@ -220,6 +222,11 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
             g.setdefault('practices', []).extend(d.get('practices') or []); inc('practices', len(d.get('practices') or []))
         elif os.sep + 'visuals' + os.sep in f:  # practice visual specs: no consumer yet (engine/ grammar v1.1 will read them)
             dst = os.path.join(ROOT, 'wisegraph', 'visuals', base); os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(f, dst); inc('visuals')
+        elif base == 'practice-links.json':  # practice -> teachers/texts attributions (golden path); check:true held
+            for pid, l in (d.get('links') or {}).items():
+                if l.get('check'): queue(pack, 'practice-link-check', 'practice/' + pid, l.get('note') or 'attribution flagged check by the pack', 'check'); continue
+                if l.get('teachers'): g.setdefault('practice_links', {})[pid] = {'teachers': [PERSON_MAP.get(t, t) for t in l['teachers']], 'texts': l.get('texts') or []}
+            inc('practice_links', len(g.get('practice_links') or {}))
         elif base == 'years.json':
             g['years'].update(d.get('set_years') or {}); inc('years_fixes', len(d.get('set_years') or {}))
         elif base == 'living-flags.json':
@@ -258,10 +265,13 @@ for pack in [p.strip() for p in A.packs.split(',') if p.strip()]:
         if g['place_links']: W(os.path.join(gd, 'place-links.json'), {'_note': f'staged from satsang-extensions/{pack}', 'links': g['place_links']})
         if g.get('collections'): W(os.path.join(gd, 'collections.json'), {'_note': f'staged from satsang-extensions/{pack}', 'collections': g['collections']})
         if g.get('practices'): W(os.path.join(gd, 'practices.json'), {'_note': f'staged from satsang-extensions/{pack}', 'practices': g['practices']})
+        if g.get('practice_links'): W(os.path.join(gd, 'practice-links.json'), {'_note': f'staged from satsang-extensions/{pack}', 'links': g['practice_links']})
         if g['years']: W(os.path.join(gd, 'years-fix.json'), {'_note': f'staged from satsang-extensions/{pack}', 'set_years': g['years']})
         rep = os.path.join(pdir, 'REPORT.md') if not os.path.exists(os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')) else os.path.join(pdir, 'sources', gid.split('-', 2)[-1], 'REPORT.md')
         hdr = f'# {gid}: staged from prx0r/satsang-extensions/{pack} on {DATE}\n\nStaged by app/tools/stage-extensions.py (dedupe, living/low-confidence claims to app/wisegraph/review-queue.json). Pack docs: specs/extensions/{pack}/.\n\n'
         open(os.path.join(gd, 'REPORT.md'), 'w').write(hdr + (open(rep).read() if os.path.exists(rep) else ''))
     st['groups'] = sorted(k for k, g in G.items() if any(g.values()))
+    IDMAP['people'].update({k: v for k, v in PMAP.items() if k != v}); IDMAP['places'].update({k: v for k, v in PLMAP.items() if k != v})
+    W(IMP, IDMAP)
 W(QP, QUEUE)
 print(json.dumps({'packs': summary, 'queue': len(QUEUE['items'])}, ensure_ascii=False))

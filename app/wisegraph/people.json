@@ -12274,6 +12274,103 @@
    "verified_on": "2026-10-20",
    "confidence": "medium",
    "role": "figure"
+  },
+  {
+   "id": "sayalay-dipankara",
+   "name": "Sayalay Dipankara",
+   "short": "Sayalay Dipankara",
+   "kind": "figure",
+   "tradition": "pa-auk",
+   "years": "1964–",
+   "bio": "Pa-Auk-trained Burmese nun (b. 1964); teaches the 40 kammatthana and vipassana worldwide; founder/abbess of the Brahma Vihari centres.",
+   "aliases": [
+    "sayalay daw dipankara"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "ariyananda",
+   "name": "Ven. Ariyananda",
+   "short": "Ven. Ariyananda",
+   "kind": "figure",
+   "tradition": "pa-auk",
+   "years": "",
+   "bio": "Senior meditation teacher of Na Uyana Monastery; gives the weekly English Dhamma talks and retreat interviews in the Pa-Auk system.",
+   "aliases": [
+    "angulgamuwe ariyananda"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "dhammajiva",
+   "name": "Uda Eriyagama Dhammajiva",
+   "short": "Ven. Dhammajiva",
+   "kind": "figure",
+   "tradition": "theravada",
+   "years": "",
+   "bio": "Abbot and chief preceptor of Meetirigala Nissarana Vanaya; scholar-practitioner of samatha and vipassana, author of 40+ publications.",
+   "aliases": [
+    "uda eriyagama dhammajiva"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "aggacitta",
+   "name": "Ven. Aggacitta",
+   "short": "Ven. Aggacitta",
+   "kind": "figure",
+   "tradition": "theravada",
+   "years": "",
+   "bio": "Malaysian monk; founder and guiding teacher of Sasanarakkha Buddhist Sanctuary (Taiping), answering the shortage of trained local monks.",
+   "aliases": [
+    "aggacitta bhikkhu"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "thubten-chodron",
+   "name": "Bhikshuni Thubten Chodron",
+   "short": "Thubten Chodron",
+   "kind": "figure",
+   "tradition": "tibetan",
+   "years": "",
+   "bio": "American-born Tibetan Buddhist nun (bhikshuni); founder and abbess of Sravasti Abbey; author and imprison-chaplaincy pioneer.",
+   "aliases": [
+    "tibetan nun thubten chodron"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
+  },
+  {
+   "id": "amma",
+   "name": "Mata Amritanandamayi (Amma)",
+   "short": "Amma",
+   "kind": "figure",
+   "tradition": "hindu",
+   "years": "1953–",
+   "bio": "Hugging saint of Kerala; heads the Mata Amritanandamayi Math and its worldwide charities; gives darshan to millions.",
+   "aliases": [
+    "mata amritanandamayi",
+    "amma chi"
+   ],
+   "works": [],
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "role": "figure"
   }
  ]
 }

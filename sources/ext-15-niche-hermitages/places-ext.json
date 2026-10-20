@@ -1,0 +1,278 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "places": [
+  {
+   "city": "George Town, Penang",
+   "coord_precision": "approximate (unverified)",
+   "country": "MY",
+   "country_name": "Malaysia",
+   "description": "Premier Mahasi-method vipassana centre (est. 1969); year-round intensive retreats, resident Sangha, English-speaking.",
+   "founded": 1969,
+   "founded_source": "mbmcmalaysia.org/about (read 2026-10-20)",
+   "id": "mbmc-penang",
+   "language": "en",
+   "lat": 5.41,
+   "lng": 100.31,
+   "name": "Malaysian Buddhist Meditation Centre",
+   "offers": [
+    "residential retreats",
+    "weekly classes",
+    "library"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [],
+   "traditions": [
+    "mahasi"
+   ],
+   "type": "retreat",
+   "url": "https://www.mbmcmalaysia.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.mbmcmalaysia.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Taiping, Perak",
+   "contact_page": "https://sasanarakkha.org/about/",
+   "contact_page_source": "link published on https://sasanarakkha.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "MY",
+   "country_name": "Malaysia",
+   "description": "Theravada monk training centre (est. 2000) with a lay retreat centre; DhammaVinaya study, forest setting.",
+   "founded": 2000,
+   "founded_source": "sasanarakkha.org/about (read 2026-10-20)",
+   "id": "sasanarakkha-taiping",
+   "language": "en",
+   "lat": 4.85,
+   "lng": 100.74,
+   "name": "Sasanarakkha Buddhist Sanctuary",
+   "offers": [
+    "monk training",
+    "residential retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "aggacitta"
+   ],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "monastery",
+   "url": "https://sasanarakkha.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://sasanarakkha.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Central Province",
+   "contact_page": "https://www.hillsidehermitage.org/",
+   "contact_page_source": "link published on https://www.hillsidehermitage.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "LK",
+   "country_name": "Sri Lanka",
+   "description": "Original hermitage of the Hillside association: solitary monks following the early suttas and Ñāṇavīra's teachings. 400+ Dhamma talks on YouTube.",
+   "id": "hillside-hermitage",
+   "language": "en",
+   "lat": 7.3,
+   "lng": 80.7,
+   "name": "Hillside Hermitage (Sri Lanka)",
+   "offers": [
+    "solitary retreat",
+    "writings",
+    "talks"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-nyanamoli"
+   ],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "hermitage",
+   "url": "https://www.hillsidehermitage.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.hillsidehermitage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "coord_precision": "approximate (unverified)",
+   "country": "SI",
+   "country_name": "Slovenia",
+   "description": "Hillside association hermitage in the Slovenian mountain forests; solitary sutta-based practice.",
+   "id": "hillside-hermitage-slovenia",
+   "language": "en",
+   "lat": 46.1,
+   "lng": 14.5,
+   "name": "Hillside Hermitage Slovenija",
+   "offers": [
+    "solitary retreat"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-nyanamoli"
+   ],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "hermitage",
+   "url": "https://www.hillsidehermitage.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.hillsidehermitage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "coord_precision": "approximate (unverified)",
+   "country": "SI",
+   "country_name": "Slovenia",
+   "description": "Sister hermitage under the Hillside association (registered via Samanadipa religious organisation).",
+   "id": "samanadipa",
+   "language": "en",
+   "lat": 46.0,
+   "lng": 14.4,
+   "name": "Samanadipa",
+   "offers": [
+    "solitary retreat"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-nyanamoli"
+   ],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "hermitage",
+   "url": "https://www.samanadipa.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.samanadipa.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "coord_precision": "approximate (unverified)",
+   "country": "PL",
+   "country_name": "Poland",
+   "description": "Hillside association vihara in Poland (Bodhi Tree Foundation); solitary sutta-based practice.",
+   "id": "vihara-pod-lasem",
+   "language": "en",
+   "lat": 52.2,
+   "lng": 21.0,
+   "name": "Vihara Pod Lasem",
+   "offers": [
+    "solitary retreat"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ajahn-nyanamoli"
+   ],
+   "traditions": [
+    "early-suttas"
+   ],
+   "type": "hermitage",
+   "url": "https://www.fundacjadrzewobodhi.pl/en",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://www.fundacjadrzewobodhi.pl/en",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Melsiripura, Kurunegala",
+   "contact_page": "https://nauyana.org/contact-english/",
+   "contact_page_source": "link published on https://nauyana.org (read 2026-10-20)",
+   "coord_precision": "approximate (unverified)",
+   "country": "LK",
+   "country_name": "Sri Lanka",
+   "description": "5000-acre Galduwa forest monastery; Pa-Auk samatha-vipassana with published interview times; extensive English technique library on site.",
+   "id": "na-uyana",
+   "language": "en",
+   "lat": 7.6,
+   "lng": 80.5,
+   "name": "Na Uyana Monastery",
+   "offers": [
+    "residential retreats",
+    "interviews",
+    "technique library"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "ariyananda"
+   ],
+   "traditions": [
+    "pa-auk"
+   ],
+   "type": "monastery",
+   "url": "https://nauyana.org",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://nauyana.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "city": "Meetirigala",
+   "coord_precision": "approximate (unverified)",
+   "country": "LK",
+   "country_name": "Sri Lanka",
+   "description": "Strict forest monastery (est. 1967), motto Nibbana in this very life; abbot Dhammajiva, 40+ publications; male yogis up to 3 months by application.",
+   "founded": 1967,
+   "founded_source": "nissarana.lk/about-us (read 2026-10-20)",
+   "id": "meetirigala-nissarana-vanaya",
+   "language": "en",
+   "lat": 7.0,
+   "lng": 80.1,
+   "name": "Meetirigala Nissarana Vanaya",
+   "offers": [
+    "residential retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20, no verified URL; site WAF-blocks checkers)",
+   "teacher_ids": [
+    "dhammajiva"
+   ],
+   "traditions": [
+    "theravada"
+   ],
+   "type": "monastery",
+   "url": null,
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "city": "Kulim, Kedah",
+   "coord_precision": "approximate (unverified)",
+   "country": "MY",
+   "country_name": "Malaysia",
+   "description": "Pa-Auk-trained nun Sayalay Dipankara's Penang centre; jhana-capable kammatthana teaching, retreats by schedule.",
+   "id": "brahma-vihari-penang",
+   "language": "en",
+   "lat": 5.4,
+   "lng": 100.58,
+   "name": "Brahma Vihari Meditation Centre (Penang)",
+   "offers": [
+    "residential retreats"
+   ],
+   "source": "curated (extension pack 2026-10-20)",
+   "teacher_ids": [
+    "sayalay-dipankara"
+   ],
+   "traditions": [
+    "pa-auk"
+   ],
+   "type": "retreat",
+   "url": "https://sites.google.com/site/penangbrahmavihari/",
+   "url_checked": "2026-10-20",
+   "url_status": "ok",
+   "source_url": "https://sites.google.com/site/penangbrahmavihari/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  }
+ ]
+}

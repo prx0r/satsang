@@ -1,0 +1,143 @@
+{
+ "_note": "staged from satsang-extensions/16-usa-places",
+ "places": {
+  "bhavana-society": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://bhavanasociety.org/contact-us/",
+     "value": "Info@BhavanaSociety.Org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://bhavanasociety.org/contact-us/",
+     "value": "304-856-3241"
+    }
+   ],
+   "site": "https://bhavanasociety.org/"
+  },
+  "cac": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://cac.org/about/frequently-asked-questions/",
+     "value": "hello@cac.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://cac.org/about/frequently-asked-questions/",
+     "value": "505-247-1636"
+    }
+   ],
+   "site": "https://cac.org/"
+  },
+  "contemplative-outreach": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.contemplativeoutreach.org/",
+     "value": "office@coutreach.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.contemplativeoutreach.org/",
+     "value": "973.838.3384"
+    }
+   ],
+   "site": "https://www.contemplativeoutreach.org/"
+  },
+  "dharma-drum-retreat": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://dharmadrumretreat.org/contact-us/",
+     "value": "(845) 744-8114"
+    }
+   ],
+   "site": "https://dharmadrumretreat.org/"
+  },
+  "ims-barre": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.dharma.org/contact-us/",
+     "value": "rc@dharma.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.dharma.org/contact-us/",
+     "value": "978-355-4378"
+    }
+   ],
+   "site": "https://www.dharma.org/"
+  },
+  "mevlevi-usa": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://hayatidede.org/contactus/",
+     "value": "info@hayatidede.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://hayatidede.org/contactus/",
+     "value": "541.521.8655"
+    }
+   ],
+   "site": "https://hayatidede.org/"
+  },
+  "sakya-seattle": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.sakya.org/contact-us/",
+     "value": "Monastery@Sakya.org"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.sakya.org/contact-us/",
+     "value": "(206) 789-2573"
+    }
+   ],
+   "site": "https://www.sakya.org/"
+  },
+  "sravasti-abbey": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://sravastiabbey.org/visit/",
+     "value": "office.sravasti@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://sravastiabbey.org/visit/",
+     "value": "509-447-5549"
+    }
+   ],
+   "site": "https://sravastiabbey.org/"
+  },
+  "zen-mountain-monastery": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://zmm.org/contact/",
+     "value": "registrar@dharma.net"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://zmm.org/contact/",
+     "value": "845.688.2228"
+    }
+   ],
+   "site": "https://zmm.org/"
+  }
+ }
+}

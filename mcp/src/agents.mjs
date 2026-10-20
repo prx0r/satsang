@@ -237,6 +237,10 @@ export const AGENT_TOOLS = [
   { name: 'what_to_study', title: 'Study path for a tradition', annotations: RO,
     description: 'A study path for one tradition or school: orientation, then free online resources (texts, practices with cautions, journeys, best talks), then teachers (living first), then places to go (active, residential first, with verified contacts first). Every item carries source_url, verified_on, confidence and a canonical URL.',
     inputSchema: { type: 'object', properties: { tradition: { type: 'string', description: 'e.g. "thai-forest", "Kashmir Shaivism", "Zen", "Advaita Vedanta".' }, limit: { type: 'integer', minimum: 3, maximum: 20, default: 6 } }, required: ['tradition'] } },
+  // satsang-extensions 10-golden-path
+  { name: 'guide_me', title: 'Guided path: teacher, method, contact', annotations: RO,
+    description: 'Walk the golden path for a tradition or a teacher: living teachers, each one’s methods (practices with cautions and needsTeacher; never initiated detail), the syllabuses that contain them, and the places tied to them with contacts exactly as published. For a historical figure or a text it returns the study path (works, free texts, syllabuses, living students) instead of a contact. Start here for "how do I learn X" or "who teaches Y".',
+    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'tradition (e.g. "thai-forest") or person (e.g. "ajahn-chah", "person/thanissaro-bhikkhu")' }, limit: { type: 'integer', minimum: 1, maximum: 10, default: 5 } }, required: ['id'] } },
 ]
 
 function personId(ctx, x) {
@@ -286,6 +290,7 @@ export function callAgentTool(ctx, name, a = {}) {
       return { ...placeCard(ctx, p), description: p.description, founded: p.founded?.label, geo: p.geo?.public ? { lat: p.geo.lat, lng: p.geo.lng, precision: p.geo.precision } : null, scheduleUrl: p.scheduleUrl,
         contact: p.contact ? { as_published: true, checked: p.contact.checked, page: p.contact.page, email: (p.contact.email || []).map(([value, source]) => ({ value, source })), phone: (p.contact.phone || []).map(([value, source]) => ({ value, source })), address: p.contact.address?.[0] ? { value: p.contact.address[0], source: p.contact.address[1] } : null } : null,
         programmes: (p.programmes || []).map((x) => ({ name: x.name, typicalLength: x.typicalLength, format: x.format, costModel: x.costModel, scheduleUrl: x.scheduleUrl, as_of: asOf, note: 'Typical shape as published; dates change, use scheduleUrl for the current calendar.' })),
+        mainTeacher: p.mainTeacher && ctx.person[p.mainTeacher] ? { id: p.mainTeacher, name: ctx.person[p.mainTeacher].name, model: p.teacherModel || 'single', confidence: p.mainTeacherConfidence || 'medium', url: canon('person', p.mainTeacher), note: 'One teacher responsible now, as published; re-check on the official site.' } : p.teacherModel ? { model: p.teacherModel, note: p.teacherModel === 'rotating' ? 'Teachers rotate (e.g. course conductors); no single main teacher.' : 'No single teacher by design.' } : undefined,
         teachers: (p.teachers || []).map((t) => ctx.person[t] ? { id: t, name: ctx.person[t].name, living: livingStatus(ctx.person[t]).status, relation: 'founder or historically tied', url: canon('person', t) } : null).filter(Boolean),
         sisters: (p.sisterLinks?.length ? p.sisterLinks : (p.sisters || []).map((id) => ({ id }))).map((s) => ({ ...s, name: ctx.place[s.id]?.name, url: ctx.place[s.id] ? canon('place', s.id) : undefined })),
         events: p.events || [], resources: Object.values(ctx.resource).filter((r) => r.places?.includes(p.id)).map((r) => resourceCard(ctx, r)),
@@ -357,6 +362,33 @@ export function callAgentTool(ctx, name, a = {}) {
         ],
         more: { resources: res.length, freeResources: res.filter((r) => r.access === 'free').length, teachers: people.length, places: Object.values(ctx.place).filter((p) => inT(p.traditions)).length },
         caution: 'A study path, not instruction: for initiation-only practices go through a qualified teacher.', license: LICENSE }
+    }
+    case 'guide_me': {
+      const n = lim(a.limit, 5, 10), q = String(a.id || '').replace(SITE_RE, '').replace(/^#?(person|teacher)\//, '')
+      const pid = personId(ctx, q), tid = pid ? null : resolveTradition(ctx, a.id)
+      if (!pid && !tid) throw err(`unknown tradition or person "${a.id}"; try search`)
+      const lstat = (p) => livingStatus(p).status, isLiving = (p) => ['living', 'likely-living'].includes(lstat(p))
+      const practicesOf = (id) => Object.values(ctx.practice).filter((x) => (x.teachers || []).includes(id))
+      const colsOf = (prs) => { const ids = new Set(prs.map((x) => 'practice/' + x.id)); return Object.values(ctx.collection).filter((c) => c.units.some((u) => u.items.some((it) => ids.has(it.ref.id)))).map((c) => ({ id: c.id, title: c.title, kind: c.kind, ...prov(ctx, 'collection', c) })) }
+      const contactOf = (pl) => pl.contact ? { as_published: true, checked: pl.contact.checked, page: pl.contact.page, email: (pl.contact.email || []).map(([value, source]) => ({ value, source })), phone: (pl.contact.phone || []).map(([value, source]) => ({ value, source })) } : null
+      const placesOf = (id) => [...new Set([...(ctx.placesOf.get(id) || []), ...Object.values(ctx.place).filter((pl) => pl.mainTeacher === id).map((pl) => pl.id)])].map((x) => ctx.place[x]).filter(Boolean)
+        .sort((x, y) => (y.mainTeacher === id) - (x.mainTeacher === id)).slice(0, n)
+        .map((pl) => ({ ...placeCard(ctx, pl), relation: pl.mainTeacher === id ? `main teacher (${pl.mainTeacherConfidence || 'medium'} confidence; ${pl.teacherModel || 'single'})` : 'founder or historically tied', contact: contactOf(pl), scheduleUrl: pl.scheduleUrl }))
+      const teacherStep = (p) => { const prs = practicesOf(p.id); return { teacher: personCard(ctx, p), methods: prs.map((x) => ({ ...practiceCard(ctx, x), how: x.needsTeacher ? 'Orientation only: learn it from the teacher or their lineage; not taught here.' : 'Steps on the practice page; follow the source for the full instruction.' })), syllabuses: colsOf(prs), places: placesOf(p.id) } }
+      if (pid) {
+        const p = ctx.person[pid]
+        if (isLiving(p)) return { kind: 'teacher', ...teacherStep(p), caution: 'Contacts are those the place publishes; confirm dates and current teachers on the official site.', license: LICENSE }
+        const students = (ctx.adj.get('person/' + pid) || []).filter((x) => x.dir === 'forward' && ['teacher_of', 'studied_with'].includes(x.e.rel) && x.to.startsWith('person/')).map((x) => ctx.person[x.to.slice(7)]).filter((s) => s && isLiving(s)).slice(0, n)
+        const res = Object.values(ctx.resource).filter((r) => (r.authors || []).includes(pid)).slice(0, n)
+        return { kind: 'study-path', figure: personCard(ctx, p), works: (p.works || []).slice(0, 12), resources: res.map((r) => resourceCard(ctx, r)), syllabuses: colsOf(practicesOf(pid)),
+          livingStudents: students.map((s) => teacherStep(s)), places: placesOf(pid), note: 'A historical figure or text: the path is study, then a living teacher in the line. No personal contacts are given.', license: LICENSE }
+      }
+      const t = ctx.tradition[tid], set = descendants(ctx, tid)
+      const people = Object.values(ctx.person).filter((p) => p.traditions.some((x) => set.has(x)) && isLiving(p))
+      const score = (p) => practicesOf(p.id).length * 3 + placesOf(p.id).length * 2 + Math.min(10, p.depth?.clips || 0) / 5 + (lstat(p) === 'living' ? 1 : 0)
+      const top = people.sort((x, y) => score(y) - score(x)).slice(0, n)
+      return { kind: 'tradition', tradition: { id: tid, label: t.label, ...prov(ctx, 'tradition', t) }, teachers: top.map((p) => teacherStep(p)),
+        more: { livingTeachers: people.length }, caution: 'A path, not instruction: anything marked needsTeacher is learned from a qualified teacher. Contacts are exactly as each place publishes them.', license: LICENSE }
     }
     default: return undefined
   }

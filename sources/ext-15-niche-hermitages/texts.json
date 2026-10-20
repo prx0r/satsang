@@ -1,0 +1,25 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "texts": [
+  {
+   "id": "nanavira-notes-free",
+   "kind": "book",
+   "lang": "en",
+   "licence": "free PDFs (1987 edition, nanavira.org)",
+   "link": "https://www.nanavira.org/",
+   "note": "Notes on Dhamma + letters, free PDFs on site. Print: Path Press Clearing the Path / Seeking the Path (paid, linked as publisher). Pairs with nanavira-thera figure + Hillside lineage.",
+   "school": "early-suttas",
+   "title": "Notes on Dhamma — Ñāṇavīra Thera (free edition)"
+  },
+  {
+   "id": "path-press-shop",
+   "kind": "library",
+   "lang": "en",
+   "licence": "publisher shop (paid print, free site content)",
+   "link": "https://pathpress.org/",
+   "note": "Publisher of the Ñāṇavīra collected writings; site carries essays and letters free. Entry point, not a single text.",
+   "school": "early-suttas",
+   "title": "Path Press — Ñāṇavīra collected writings"
+  }
+ ]
+}

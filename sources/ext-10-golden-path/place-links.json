@@ -1,0 +1,30 @@
+{
+ "_note": "staged from satsang-extensions/10-golden-path",
+ "links": [
+  {
+   "from": "ajahn-pasanno",
+   "to": "abhayagiri",
+   "type": "teaches_at",
+   "conf": "high",
+   "note": "Pasanno is abbot of Abhayagiri.",
+   "src": "https://abhayagiri.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "ajahn-amaro",
+   "to": "amaravati",
+   "type": "teaches_at",
+   "conf": "medium",
+   "note": "Abbot of Amaravati 2010–2024 era; re-check current post before deploy.",
+   "src": "https://amaravati.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "christopher-titmuss",
+   "to": "gaia-house",
+   "type": "teaches_at",
+   "conf": "medium",
+   "note": "Co-founder; teaches retreats at Gaia House. Re-check current schedule before deploy."
+  }
+ ]
+}

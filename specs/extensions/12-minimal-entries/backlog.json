@@ -1,0 +1,4366 @@
+{
+ "type": "review-queue",
+ "items": [
+  {
+   "id": "entry-hartridge-teacher",
+   "kind": "coverage-gap",
+   "file": "hartridge",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-buddhapadipa-teacher",
+   "kind": "coverage-gap",
+   "file": "wat-buddhapadipa",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-buddhapadipa-contact",
+   "kind": "coverage-gap",
+   "file": "wat-buddhapadipa",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-london-buddhist-vihara-teacher",
+   "kind": "coverage-gap",
+   "file": "london-buddhist-vihara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-birmingham-buddhist-vihara-teacher",
+   "kind": "coverage-gap",
+   "file": "birmingham-buddhist-vihara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-birmingham-buddhist-vihara-contact",
+   "kind": "coverage-gap",
+   "file": "birmingham-buddhist-vihara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-imc-uk-contact",
+   "kind": "coverage-gap",
+   "file": "imc-uk",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-samatha-trust-greenstreete-teacher",
+   "kind": "coverage-gap",
+   "file": "samatha-trust-greenstreete",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhamma-padhana-contact",
+   "kind": "coverage-gap",
+   "file": "dhamma-padhana",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buddhist-society-contact",
+   "kind": "coverage-gap",
+   "file": "buddhist-society",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-battersea-teacher",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-battersea",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-battersea-contact",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-battersea",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-battersea-url",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-battersea",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-mk-teacher",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-mk",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-mk-contact",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-mk",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-peace-pagoda-mk-url",
+   "kind": "coverage-gap",
+   "file": "peace-pagoda-mk",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-sanghathan-teacher",
+   "kind": "coverage-gap",
+   "file": "wat-sanghathan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-sanghathan-contact",
+   "kind": "coverage-gap",
+   "file": "wat-sanghathan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-telford-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "telford-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-portobello-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "portobello-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-portobello-priory-contact",
+   "kind": "coverage-gap",
+   "file": "portobello-priory",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-norwich-zen-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "norwich-zen-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-great-ocean-dharma-refuge-teacher",
+   "kind": "coverage-gap",
+   "file": "great-ocean-dharma-refuge",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-great-ocean-dharma-refuge-contact",
+   "kind": "coverage-gap",
+   "file": "great-ocean-dharma-refuge",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-great-ocean-dharma-refuge-url",
+   "kind": "coverage-gap",
+   "file": "great-ocean-dharma-refuge",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dragon-bell-temple-teacher",
+   "kind": "coverage-gap",
+   "file": "dragon-bell-temple",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dragon-bell-temple-contact",
+   "kind": "coverage-gap",
+   "file": "dragon-bell-temple",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-turning-wheel-temple-teacher",
+   "kind": "coverage-gap",
+   "file": "turning-wheel-temple",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-purelands-teacher",
+   "kind": "coverage-gap",
+   "file": "purelands",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kagyu-samye-dzong-london-contact",
+   "kind": "coverage-gap",
+   "file": "kagyu-samye-dzong-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ksd-edinburgh-contact",
+   "kind": "coverage-gap",
+   "file": "ksd-edinburgh",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ksd-cardiff-contact",
+   "kind": "coverage-gap",
+   "file": "ksd-cardiff",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ksd-highlands-contact",
+   "kind": "coverage-gap",
+   "file": "ksd-highlands",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jamyang-london-contact",
+   "kind": "coverage-gap",
+   "file": "jamyang-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-land-of-joy-teacher",
+   "kind": "coverage-gap",
+   "file": "land-of-joy",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rigpa-london-contact",
+   "kind": "coverage-gap",
+   "file": "rigpa-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-palpung-wales-contact",
+   "kind": "coverage-gap",
+   "file": "palpung-wales",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lam-rim-wales-teacher",
+   "kind": "coverage-gap",
+   "file": "lam-rim-wales",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-diamond-way-london-contact",
+   "kind": "coverage-gap",
+   "file": "diamond-way-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dzogchen-community-uk-teacher",
+   "kind": "coverage-gap",
+   "file": "dzogchen-community-uk",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dzogchen-community-uk-contact",
+   "kind": "coverage-gap",
+   "file": "dzogchen-community-uk",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-adhisthana-contact",
+   "kind": "coverage-gap",
+   "file": "adhisthana",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-london-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "london-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-taraloka-teacher",
+   "kind": "coverage-gap",
+   "file": "taraloka",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhanakosa-teacher",
+   "kind": "coverage-gap",
+   "file": "dhanakosa",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rivendell-teacher",
+   "kind": "coverage-gap",
+   "file": "rivendell",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rivendell-contact",
+   "kind": "coverage-gap",
+   "file": "rivendell",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vajrasana-teacher",
+   "kind": "coverage-gap",
+   "file": "vajrasana",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vajrasana-contact",
+   "kind": "coverage-gap",
+   "file": "vajrasana",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vajraloka-teacher",
+   "kind": "coverage-gap",
+   "file": "vajraloka",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tiratanaloka-teacher",
+   "kind": "coverage-gap",
+   "file": "tiratanaloka",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-alfoxton-park-teacher",
+   "kind": "coverage-gap",
+   "file": "alfoxton-park",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-birmingham-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "birmingham-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brighton-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "brighton-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brixton-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "brixton-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cardiff-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "cardiff-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-croydon-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "croydon-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-edinburgh-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "edinburgh-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glasgow-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "glasgow-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ipswich-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "ipswich-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-leeds-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "leeds-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-manchester-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "manchester-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-north-london-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "north-london-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-norwich-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "norwich-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sheffield-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "sheffield-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-west-london-buddhist-centre-contact",
+   "kind": "coverage-gap",
+   "file": "west-london-buddhist-centre",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buddhafield-teacher",
+   "kind": "coverage-gap",
+   "file": "buddhafield",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buddhafield-contact",
+   "kind": "coverage-gap",
+   "file": "buddhafield",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vedanta-uk-contact",
+   "kind": "coverage-gap",
+   "file": "vedanta-uk",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-radha-krishna-temple-soho-contact",
+   "kind": "coverage-gap",
+   "file": "radha-krishna-temple-soho",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iskcon-leicester-teacher",
+   "kind": "coverage-gap",
+   "file": "iskcon-leicester",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iskcon-manchester-teacher",
+   "kind": "coverage-gap",
+   "file": "iskcon-manchester",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iskcon-manchester-contact",
+   "kind": "coverage-gap",
+   "file": "iskcon-manchester",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-karuna-bhavan-teacher",
+   "kind": "coverage-gap",
+   "file": "karuna-bhavan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-karuna-bhavan-contact",
+   "kind": "coverage-gap",
+   "file": "karuna-bhavan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-baps-leicester-teacher",
+   "kind": "coverage-gap",
+   "file": "baps-leicester",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-baps-leicester-contact",
+   "kind": "coverage-gap",
+   "file": "baps-leicester",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-willesden-teacher",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-willesden",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-willesden-contact",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-willesden",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shri-venkateswara-tividale-teacher",
+   "kind": "coverage-gap",
+   "file": "shri-venkateswara-tividale",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shri-venkateswara-tividale-contact",
+   "kind": "coverage-gap",
+   "file": "shri-venkateswara-tividale",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-highgatehill-murugan-teacher",
+   "kind": "coverage-gap",
+   "file": "highgatehill-murugan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mahalakshmi-east-ham-teacher",
+   "kind": "coverage-gap",
+   "file": "mahalakshmi-east-ham",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mahalakshmi-east-ham-contact",
+   "kind": "coverage-gap",
+   "file": "mahalakshmi-east-ham",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-london-sri-murugan-teacher",
+   "kind": "coverage-gap",
+   "file": "london-sri-murugan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-london-sri-murugan-contact",
+   "kind": "coverage-gap",
+   "file": "london-sri-murugan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sanatan-mandir-wembley-teacher",
+   "kind": "coverage-gap",
+   "file": "sanatan-mandir-wembley",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sanatan-mandir-wembley-contact",
+   "kind": "coverage-gap",
+   "file": "sanatan-mandir-wembley",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-skanda-vale-teacher",
+   "kind": "coverage-gap",
+   "file": "skanda-vale",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sivananda-london-contact",
+   "kind": "coverage-gap",
+   "file": "sivananda-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-satyananda-yoga-uk-contact",
+   "kind": "coverage-gap",
+   "file": "satyananda-yoga-uk",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bk-global-retreat-centre-teacher",
+   "kind": "coverage-gap",
+   "file": "bk-global-retreat-centre",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bk-global-retreat-centre-contact",
+   "kind": "coverage-gap",
+   "file": "bk-global-retreat-centre",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-srf-london-contact",
+   "kind": "coverage-gap",
+   "file": "srf-london",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-maharishi-garden-village-contact",
+   "kind": "coverage-gap",
+   "file": "maharishi-garden-village",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-maharishi-garden-village-url",
+   "kind": "coverage-gap",
+   "file": "maharishi-garden-village",
+   "reason": "place missing url (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-amma-uk-contact",
+   "kind": "coverage-gap",
+   "file": "amma-uk",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brockwood-contact",
+   "kind": "coverage-gap",
+   "file": "brockwood",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-krishnamurti-centre-contact",
+   "kind": "coverage-gap",
+   "file": "krishnamurti-centre",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-central-gurdwara-london-teacher",
+   "kind": "coverage-gap",
+   "file": "central-gurdwara-london",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-central-gurdwara-london-contact",
+   "kind": "coverage-gap",
+   "file": "central-gurdwara-london",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-southall-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "southall-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-southall-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "southall-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gravesend-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "gravesend-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gravesend-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "gravesend-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-smethwick-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "smethwick-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-smethwick-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "smethwick-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nishkam-soho-road-teacher",
+   "kind": "coverage-gap",
+   "file": "nishkam-soho-road",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-leicester-guru-nanak-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "leicester-guru-nanak-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-leicester-guru-nanak-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "leicester-guru-nanak-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-leicester-guru-nanak-gurdwara-url",
+   "kind": "coverage-gap",
+   "file": "leicester-guru-nanak-gurdwara",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glasgow-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "glasgow-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glasgow-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "glasgow-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glasgow-gurdwara-url",
+   "kind": "coverage-gap",
+   "file": "glasgow-gurdwara",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wolverhampton-gurdwara-teacher",
+   "kind": "coverage-gap",
+   "file": "wolverhampton-gurdwara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wolverhampton-gurdwara-contact",
+   "kind": "coverage-gap",
+   "file": "wolverhampton-gurdwara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wolverhampton-gurdwara-url",
+   "kind": "coverage-gap",
+   "file": "wolverhampton-gurdwara",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iona-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "iona-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lindisfarne-teacher",
+   "kind": "coverage-gap",
+   "file": "lindisfarne",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lindisfarne-contact",
+   "kind": "coverage-gap",
+   "file": "lindisfarne",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lindisfarne-url",
+   "kind": "coverage-gap",
+   "file": "lindisfarne",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-marygate-house-teacher",
+   "kind": "coverage-gap",
+   "file": "marygate-house",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-marygate-house-contact",
+   "kind": "coverage-gap",
+   "file": "marygate-house",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-aidans-lindisfarne-teacher",
+   "kind": "coverage-gap",
+   "file": "st-aidans-lindisfarne",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-aidans-lindisfarne-contact",
+   "kind": "coverage-gap",
+   "file": "st-aidans-lindisfarne",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-aidans-lindisfarne-url",
+   "kind": "coverage-gap",
+   "file": "st-aidans-lindisfarne",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-julian-centre-norwich-contact",
+   "kind": "coverage-gap",
+   "file": "julian-centre-norwich",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ealing-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "ealing-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ealing-abbey-url",
+   "kind": "coverage-gap",
+   "file": "ealing-abbey",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pluscarden-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "pluscarden-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-worth-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "worth-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-worth-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "worth-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buckfast-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "buckfast-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buckfast-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "buckfast-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-quarr-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "quarr-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-quarr-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "quarr-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-downside-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "downside-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-downside-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "downside-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-downside-abbey-url",
+   "kind": "coverage-gap",
+   "file": "downside-abbey",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ampleforth-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "ampleforth-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mount-st-bernard-teacher",
+   "kind": "coverage-gap",
+   "file": "mount-st-bernard",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nunraw-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "nunraw-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nunraw-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "nunraw-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-caldey-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "caldey-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-caldey-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "caldey-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-stanbrook-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "stanbrook-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-malling-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "malling-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mirfield-teacher",
+   "kind": "coverage-gap",
+   "file": "mirfield",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-beunos-teacher",
+   "kind": "coverage-gap",
+   "file": "st-beunos",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aylesford-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "aylesford-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aylesford-priory-contact",
+   "kind": "coverage-gap",
+   "file": "aylesford-priory",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tolleshunt-knights-contact",
+   "kind": "coverage-gap",
+   "file": "tolleshunt-knights",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tolleshunt-knights-url",
+   "kind": "coverage-gap",
+   "file": "tolleshunt-knights",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-little-gidding-teacher",
+   "kind": "coverage-gap",
+   "file": "little-gidding",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glasshampton-teacher",
+   "kind": "coverage-gap",
+   "file": "glasshampton",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hilfield-friary-teacher",
+   "kind": "coverage-gap",
+   "file": "hilfield-friary",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hilfield-friary-contact",
+   "kind": "coverage-gap",
+   "file": "hilfield-friary",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-alnmouth-friary-teacher",
+   "kind": "coverage-gap",
+   "file": "alnmouth-friary",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-alnmouth-friary-contact",
+   "kind": "coverage-gap",
+   "file": "alnmouth-friary",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-northumbria-community-teacher",
+   "kind": "coverage-gap",
+   "file": "northumbria-community",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-northumbria-community-contact",
+   "kind": "coverage-gap",
+   "file": "northumbria-community",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lee-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "lee-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-launde-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "launde-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-scargill-house-teacher",
+   "kind": "coverage-gap",
+   "file": "scargill-house",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-minsteracres-teacher",
+   "kind": "coverage-gap",
+   "file": "minsteracres",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-davids-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "st-davids-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-davids-cathedral-contact",
+   "kind": "coverage-gap",
+   "file": "st-davids-cathedral",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-winefrides-well-teacher",
+   "kind": "coverage-gap",
+   "file": "st-winefrides-well",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-winefrides-well-contact",
+   "kind": "coverage-gap",
+   "file": "st-winefrides-well",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-winefrides-well-url",
+   "kind": "coverage-gap",
+   "file": "st-winefrides-well",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-walsingham-anglican-teacher",
+   "kind": "coverage-gap",
+   "file": "walsingham-anglican",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-walsingham-catholic-teacher",
+   "kind": "coverage-gap",
+   "file": "walsingham-catholic",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-walsingham-catholic-contact",
+   "kind": "coverage-gap",
+   "file": "walsingham-catholic",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-canterbury-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "canterbury-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-durham-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "durham-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-albans-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "st-albans-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glastonbury-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "glastonbury-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glastonbury-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "glastonbury-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bardsey-island-teacher",
+   "kind": "coverage-gap",
+   "file": "bardsey-island",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-whithorn-teacher",
+   "kind": "coverage-gap",
+   "file": "whithorn",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-whithorn-contact",
+   "kind": "coverage-gap",
+   "file": "whithorn",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-whithorn-url",
+   "kind": "coverage-gap",
+   "file": "whithorn",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pennant-melangell-teacher",
+   "kind": "coverage-gap",
+   "file": "pennant-melangell",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pennant-melangell-contact",
+   "kind": "coverage-gap",
+   "file": "pennant-melangell",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-downpatrick-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "downpatrick-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-downpatrick-cathedral-contact",
+   "kind": "coverage-gap",
+   "file": "downpatrick-cathedral",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ely-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "ely-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ely-cathedral-contact",
+   "kind": "coverage-gap",
+   "file": "ely-cathedral",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-westminster-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "westminster-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jarrow-st-pauls-teacher",
+   "kind": "coverage-gap",
+   "file": "jarrow-st-pauls",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jarrow-st-pauls-contact",
+   "kind": "coverage-gap",
+   "file": "jarrow-st-pauls",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jarrow-st-pauls-url",
+   "kind": "coverage-gap",
+   "file": "jarrow-st-pauls",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-whitby-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "whitby-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-friends-house-contact",
+   "kind": "coverage-gap",
+   "file": "friends-house",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swarthmoor-hall-contact",
+   "kind": "coverage-gap",
+   "file": "swarthmoor-hall",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brigflatts-contact",
+   "kind": "coverage-gap",
+   "file": "brigflatts",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brigflatts-url",
+   "kind": "coverage-gap",
+   "file": "brigflatts",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pendle-hill-uk-contact",
+   "kind": "coverage-gap",
+   "file": "pendle-hill-uk",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pendle-hill-uk-url",
+   "kind": "coverage-gap",
+   "file": "pendle-hill-uk",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-firbank-fell-contact",
+   "kind": "coverage-gap",
+   "file": "firbank-fell",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-firbank-fell-url",
+   "kind": "coverage-gap",
+   "file": "firbank-fell",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glenthorne-contact",
+   "kind": "coverage-gap",
+   "file": "glenthorne",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-charney-manor-contact",
+   "kind": "coverage-gap",
+   "file": "charney-manor",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-naqshbandi-st-anns-contact",
+   "kind": "coverage-gap",
+   "file": "naqshbandi-st-anns",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-naqshbandi-st-anns-url",
+   "kind": "coverage-gap",
+   "file": "naqshbandi-st-anns",
+   "reason": "place missing url (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rumis-cave-contact",
+   "kind": "coverage-gap",
+   "file": "rumis-cave",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cambridge-central-mosque-teacher",
+   "kind": "coverage-gap",
+   "file": "cambridge-central-mosque",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kabbalah-society-teacher",
+   "kind": "coverage-gap",
+   "file": "kabbalah-society",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kabbalah-society-contact",
+   "kind": "coverage-gap",
+   "file": "kabbalah-society",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-scotland-teacher",
+   "kind": "coverage-gap",
+   "file": "ts-scotland",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-scotland-contact",
+   "kind": "coverage-gap",
+   "file": "ts-scotland",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-nottingham-teacher",
+   "kind": "coverage-gap",
+   "file": "ts-nottingham",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-nottingham-contact",
+   "kind": "coverage-gap",
+   "file": "ts-nottingham",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-bristol-teacher",
+   "kind": "coverage-gap",
+   "file": "ts-bristol",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-bristol-contact",
+   "kind": "coverage-gap",
+   "file": "ts-bristol",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ts-bristol-url",
+   "kind": "coverage-gap",
+   "file": "ts-bristol",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tekels-park-teacher",
+   "kind": "coverage-gap",
+   "file": "tekels-park",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tekels-park-contact",
+   "kind": "coverage-gap",
+   "file": "tekels-park",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tekels-park-url",
+   "kind": "coverage-gap",
+   "file": "tekels-park",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blavatsky-house-contact",
+   "kind": "coverage-gap",
+   "file": "blavatsky-house",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-emerson-college-contact",
+   "kind": "coverage-gap",
+   "file": "emerson-college",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-botton-village-teacher",
+   "kind": "coverage-gap",
+   "file": "botton-village",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swedenborg-society-teacher",
+   "kind": "coverage-gap",
+   "file": "swedenborg-society",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-college-of-psychic-studies-teacher",
+   "kind": "coverage-gap",
+   "file": "college-of-psychic-studies",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-college-of-psychic-studies-contact",
+   "kind": "coverage-gap",
+   "file": "college-of-psychic-studies",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-arthur-findlay-college-teacher",
+   "kind": "coverage-gap",
+   "file": "arthur-findlay-college",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boleskine-house-contact",
+   "kind": "coverage-gap",
+   "file": "boleskine-house",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chalice-orchard-contact",
+   "kind": "coverage-gap",
+   "file": "chalice-orchard",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chalice-orchard-url",
+   "kind": "coverage-gap",
+   "file": "chalice-orchard",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-doreen-valiente-foundation-contact",
+   "kind": "coverage-gap",
+   "file": "doreen-valiente-foundation",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-warburg-institute-teacher",
+   "kind": "coverage-gap",
+   "file": "warburg-institute",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-warburg-institute-contact",
+   "kind": "coverage-gap",
+   "file": "warburg-institute",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pagan-federation-teacher",
+   "kind": "coverage-gap",
+   "file": "pagan-federation",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-british-druid-order-teacher",
+   "kind": "coverage-gap",
+   "file": "british-druid-order",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-british-druid-order-contact",
+   "kind": "coverage-gap",
+   "file": "british-druid-order",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-odinist-fellowship-temple-teacher",
+   "kind": "coverage-gap",
+   "file": "odinist-fellowship-temple",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-odinist-fellowship-temple-contact",
+   "kind": "coverage-gap",
+   "file": "odinist-fellowship-temple",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-asatru-uk-teacher",
+   "kind": "coverage-gap",
+   "file": "asatru-uk",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-asatru-uk-contact",
+   "kind": "coverage-gap",
+   "file": "asatru-uk",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-children-of-artemis-teacher",
+   "kind": "coverage-gap",
+   "file": "children-of-artemis",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chalice-well-teacher",
+   "kind": "coverage-gap",
+   "file": "chalice-well",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-glastonbury-tor-teacher",
+   "kind": "coverage-gap",
+   "file": "glastonbury-tor",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-stonehenge-teacher",
+   "kind": "coverage-gap",
+   "file": "stonehenge",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-avebury-teacher",
+   "kind": "coverage-gap",
+   "file": "avebury",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-silbury-hill-teacher",
+   "kind": "coverage-gap",
+   "file": "silbury-hill",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-west-kennet-teacher",
+   "kind": "coverage-gap",
+   "file": "west-kennet",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rollright-stones-teacher",
+   "kind": "coverage-gap",
+   "file": "rollright-stones",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-uffington-white-horse-teacher",
+   "kind": "coverage-gap",
+   "file": "uffington-white-horse",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-waylands-smithy-teacher",
+   "kind": "coverage-gap",
+   "file": "waylands-smithy",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cerne-abbas-giant-teacher",
+   "kind": "coverage-gap",
+   "file": "cerne-abbas-giant",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-castlerigg-teacher",
+   "kind": "coverage-gap",
+   "file": "castlerigg",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-meg-teacher",
+   "kind": "coverage-gap",
+   "file": "long-meg",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-meg-contact",
+   "kind": "coverage-gap",
+   "file": "long-meg",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-meg-url",
+   "kind": "coverage-gap",
+   "file": "long-meg",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-callanish-teacher",
+   "kind": "coverage-gap",
+   "file": "callanish",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ring-of-brodgar-teacher",
+   "kind": "coverage-gap",
+   "file": "ring-of-brodgar",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-maeshowe-teacher",
+   "kind": "coverage-gap",
+   "file": "maeshowe",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-clava-cairns-teacher",
+   "kind": "coverage-gap",
+   "file": "clava-cairns",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bryn-celli-ddu-teacher",
+   "kind": "coverage-gap",
+   "file": "bryn-celli-ddu",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pentre-ifan-teacher",
+   "kind": "coverage-gap",
+   "file": "pentre-ifan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-men-an-tol-teacher",
+   "kind": "coverage-gap",
+   "file": "men-an-tol",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-men-an-tol-contact",
+   "kind": "coverage-gap",
+   "file": "men-an-tol",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-men-an-tol-url",
+   "kind": "coverage-gap",
+   "file": "men-an-tol",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boscawen-un-teacher",
+   "kind": "coverage-gap",
+   "file": "boscawen-un",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boscawen-un-contact",
+   "kind": "coverage-gap",
+   "file": "boscawen-un",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boscawen-un-url",
+   "kind": "coverage-gap",
+   "file": "boscawen-un",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-madron-well-teacher",
+   "kind": "coverage-gap",
+   "file": "madron-well",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-madron-well-contact",
+   "kind": "coverage-gap",
+   "file": "madron-well",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-madron-well-url",
+   "kind": "coverage-gap",
+   "file": "madron-well",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-arbor-low-teacher",
+   "kind": "coverage-gap",
+   "file": "arbor-low",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-stanton-drew-teacher",
+   "kind": "coverage-gap",
+   "file": "stanton-drew",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tintagel-teacher",
+   "kind": "coverage-gap",
+   "file": "tintagel",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-nectans-glen-teacher",
+   "kind": "coverage-gap",
+   "file": "st-nectans-glen",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-nectans-glen-contact",
+   "kind": "coverage-gap",
+   "file": "st-nectans-glen",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-michaels-mount-teacher",
+   "kind": "coverage-gap",
+   "file": "st-michaels-mount",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isle-of-man-tynwald-teacher",
+   "kind": "coverage-gap",
+   "file": "isle-of-man-tynwald",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isle-of-man-tynwald-contact",
+   "kind": "coverage-gap",
+   "file": "isle-of-man-tynwald",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isle-of-man-tynwald-url",
+   "kind": "coverage-gap",
+   "file": "isle-of-man-tynwald",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-watkins-books-teacher",
+   "kind": "coverage-gap",
+   "file": "watkins-books",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-watkins-books-contact",
+   "kind": "coverage-gap",
+   "file": "watkins-books",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-treadwells-teacher",
+   "kind": "coverage-gap",
+   "file": "treadwells",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-treadwells-contact",
+   "kind": "coverage-gap",
+   "file": "treadwells",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-atlantis-bookshop-teacher",
+   "kind": "coverage-gap",
+   "file": "atlantis-bookshop",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wisdom-books-teacher",
+   "kind": "coverage-gap",
+   "file": "wisdom-books",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wisdom-books-contact",
+   "kind": "coverage-gap",
+   "file": "wisdom-books",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-housmans-teacher",
+   "kind": "coverage-gap",
+   "file": "housmans",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gothic-image-teacher",
+   "kind": "coverage-gap",
+   "file": "gothic-image",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gothic-image-contact",
+   "kind": "coverage-gap",
+   "file": "gothic-image",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-buddhist-society-bookshop-contact",
+   "kind": "coverage-gap",
+   "file": "buddhist-society-bookshop",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aeon-books-teacher",
+   "kind": "coverage-gap",
+   "file": "aeon-books",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aeon-books-contact",
+   "kind": "coverage-gap",
+   "file": "aeon-books",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mandrake-oxford-teacher",
+   "kind": "coverage-gap",
+   "file": "mandrake-oxford",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-findhorn-teacher",
+   "kind": "coverage-gap",
+   "file": "findhorn",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-findhorn-contact",
+   "kind": "coverage-gap",
+   "file": "findhorn",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-schumacher-college-teacher",
+   "kind": "coverage-gap",
+   "file": "schumacher-college",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-schumacher-college-contact",
+   "kind": "coverage-gap",
+   "file": "schumacher-college",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-library-of-avalon-teacher",
+   "kind": "coverage-gap",
+   "file": "library-of-avalon",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-library-of-avalon-contact",
+   "kind": "coverage-gap",
+   "file": "library-of-avalon",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isle-of-avalon-foundation-teacher",
+   "kind": "coverage-gap",
+   "file": "isle-of-avalon-foundation",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isle-of-avalon-foundation-contact",
+   "kind": "coverage-gap",
+   "file": "isle-of-avalon-foundation",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blythe-road-contact",
+   "kind": "coverage-gap",
+   "file": "blythe-road",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blythe-road-url",
+   "kind": "coverage-gap",
+   "file": "blythe-road",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sasana-ramsi-teacher",
+   "kind": "coverage-gap",
+   "file": "sasana-ramsi",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sasana-ramsi-contact",
+   "kind": "coverage-gap",
+   "file": "sasana-ramsi",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sasana-ramsi-url",
+   "kind": "coverage-gap",
+   "file": "sasana-ramsi",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-santimiterama-teacher",
+   "kind": "coverage-gap",
+   "file": "santimiterama",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-santimiterama-contact",
+   "kind": "coverage-gap",
+   "file": "santimiterama",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-santimiterama-url",
+   "kind": "coverage-gap",
+   "file": "santimiterama",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhammakaya-london-teacher",
+   "kind": "coverage-gap",
+   "file": "dhammakaya-london",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhammakaya-london-contact",
+   "kind": "coverage-gap",
+   "file": "dhammakaya-london",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhammakaya-london-url",
+   "kind": "coverage-gap",
+   "file": "dhammakaya-london",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-charoen-bhavana-teacher",
+   "kind": "coverage-gap",
+   "file": "wat-charoen-bhavana",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-charoen-bhavana-contact",
+   "kind": "coverage-gap",
+   "file": "wat-charoen-bhavana",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-charoen-bhavana-url",
+   "kind": "coverage-gap",
+   "file": "wat-charoen-bhavana",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-oxford-buddha-vihara-teacher",
+   "kind": "coverage-gap",
+   "file": "oxford-buddha-vihara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-oxford-buddha-vihara-contact",
+   "kind": "coverage-gap",
+   "file": "oxford-buddha-vihara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sakya-ling-reading-contact",
+   "kind": "coverage-gap",
+   "file": "sakya-ling-reading",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sakya-ling-reading-url",
+   "kind": "coverage-gap",
+   "file": "sakya-ling-reading",
+   "reason": "place missing url (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-belmont-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "belmont-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-douai-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "douai-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-douai-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "douai-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-farnborough-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "farnborough-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-minster-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "minster-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-minster-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "minster-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-turvey-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "turvey-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lichfield-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "lichfield-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lichfield-cathedral-contact",
+   "kind": "coverage-gap",
+   "file": "lichfield-cathedral",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hereford-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "hereford-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-winchester-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "winchester-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chichester-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "chichester-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chichester-cathedral-contact",
+   "kind": "coverage-gap",
+   "file": "chichester-cathedral",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-andrews-cathedral-teacher",
+   "kind": "coverage-gap",
+   "file": "st-andrews-cathedral",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dunfermline-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "dunfermline-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lastingham-teacher",
+   "kind": "coverage-gap",
+   "file": "lastingham",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lastingham-contact",
+   "kind": "coverage-gap",
+   "file": "lastingham",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lastingham-url",
+   "kind": "coverage-gap",
+   "file": "lastingham",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hexham-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "hexham-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hexham-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "hexham-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-melrose-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "melrose-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bury-st-edmunds-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "bury-st-edmunds-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iona-community-camas-teacher",
+   "kind": "coverage-gap",
+   "file": "iona-community-camas",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-iona-community-camas-contact",
+   "kind": "coverage-gap",
+   "file": "iona-community-camas",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-merry-maidens-teacher",
+   "kind": "coverage-gap",
+   "file": "merry-maidens",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-merry-maidens-contact",
+   "kind": "coverage-gap",
+   "file": "merry-maidens",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-merry-maidens-url",
+   "kind": "coverage-gap",
+   "file": "merry-maidens",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-stones-of-stenness-teacher",
+   "kind": "coverage-gap",
+   "file": "stones-of-stenness",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-seahenge-lynn-museum-teacher",
+   "kind": "coverage-gap",
+   "file": "seahenge-lynn-museum",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-seahenge-lynn-museum-contact",
+   "kind": "coverage-gap",
+   "file": "seahenge-lynn-museum",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-knowlton-church-teacher",
+   "kind": "coverage-gap",
+   "file": "knowlton-church",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bede-griffiths-sangha-contact",
+   "kind": "coverage-gap",
+   "file": "bede-griffiths-sangha",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-quaker-meeting-lancaster-contact",
+   "kind": "coverage-gap",
+   "file": "quaker-meeting-lancaster",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-quaker-meeting-lancaster-url",
+   "kind": "coverage-gap",
+   "file": "quaker-meeting-lancaster",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pardshaw-contact",
+   "kind": "coverage-gap",
+   "file": "pardshaw",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pardshaw-url",
+   "kind": "coverage-gap",
+   "file": "pardshaw",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gurdwara-sri-guru-tegh-bahadur-leicester-teacher",
+   "kind": "coverage-gap",
+   "file": "gurdwara-sri-guru-tegh-bahadur-leicester",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gurdwara-sri-guru-tegh-bahadur-leicester-contact",
+   "kind": "coverage-gap",
+   "file": "gurdwara-sri-guru-tegh-bahadur-leicester",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gurdwara-sri-guru-tegh-bahadur-leicester-url",
+   "kind": "coverage-gap",
+   "file": "gurdwara-sri-guru-tegh-bahadur-leicester",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-guru-har-rai-west-bromwich-teacher",
+   "kind": "coverage-gap",
+   "file": "guru-har-rai-west-bromwich",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-guru-har-rai-west-bromwich-contact",
+   "kind": "coverage-gap",
+   "file": "guru-har-rai-west-bromwich",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-guru-har-rai-west-bromwich-url",
+   "kind": "coverage-gap",
+   "file": "guru-har-rai-west-bromwich",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shree-ghanapathy-teacher",
+   "kind": "coverage-gap",
+   "file": "shree-ghanapathy",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jalaram-leicester-teacher",
+   "kind": "coverage-gap",
+   "file": "jalaram-leicester",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jalaram-leicester-contact",
+   "kind": "coverage-gap",
+   "file": "jalaram-leicester",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-jalaram-leicester-url",
+   "kind": "coverage-gap",
+   "file": "jalaram-leicester",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mandir-leicester-sanatan-teacher",
+   "kind": "coverage-gap",
+   "file": "mandir-leicester-sanatan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mandir-leicester-sanatan-contact",
+   "kind": "coverage-gap",
+   "file": "mandir-leicester-sanatan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mandir-leicester-sanatan-url",
+   "kind": "coverage-gap",
+   "file": "mandir-leicester-sanatan",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-the-vedanta-branston-contact",
+   "kind": "coverage-gap",
+   "file": "the-vedanta-branston",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-the-vedanta-branston-url",
+   "kind": "coverage-gap",
+   "file": "the-vedanta-branston",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lam-rim-bristol-contact",
+   "kind": "coverage-gap",
+   "file": "lam-rim-bristol",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-thames-buddhist-vihara-teacher",
+   "kind": "coverage-gap",
+   "file": "thames-buddhist-vihara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-thames-buddhist-vihara-contact",
+   "kind": "coverage-gap",
+   "file": "thames-buddhist-vihara",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-thames-buddhist-vihara-url",
+   "kind": "coverage-gap",
+   "file": "thames-buddhist-vihara",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-saddhatissa-centre-teacher",
+   "kind": "coverage-gap",
+   "file": "saddhatissa-centre",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-saddhatissa-centre-contact",
+   "kind": "coverage-gap",
+   "file": "saddhatissa-centre",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-saddhatissa-centre-url",
+   "kind": "coverage-gap",
+   "file": "saddhatissa-centre",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hindu-mandir-glasgow-teacher",
+   "kind": "coverage-gap",
+   "file": "hindu-mandir-glasgow",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hindu-temple-scotland-teacher",
+   "kind": "coverage-gap",
+   "file": "hindu-temple-scotland",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hindu-temple-scotland-contact",
+   "kind": "coverage-gap",
+   "file": "hindu-temple-scotland",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-cardiff-teacher",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-cardiff",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-cardiff-contact",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-cardiff",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-cardiff-url",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-cardiff",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-oldham-teacher",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-oldham",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-oldham-contact",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-oldham",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-oldham-url",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-oldham",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-bolton-teacher",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-bolton",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-bolton-contact",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-bolton",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swaminarayan-bolton-url",
+   "kind": "coverage-gap",
+   "file": "swaminarayan-bolton",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lindisfarne-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "lindisfarne-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mount-grace-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "mount-grace-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-nons-well-teacher",
+   "kind": "coverage-gap",
+   "file": "st-nons-well",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-nons-well-contact",
+   "kind": "coverage-gap",
+   "file": "st-nons-well",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-st-nons-well-url",
+   "kind": "coverage-gap",
+   "file": "st-nons-well",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-penmon-priory-teacher",
+   "kind": "coverage-gap",
+   "file": "penmon-priory",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-penmon-priory-contact",
+   "kind": "coverage-gap",
+   "file": "penmon-priory",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-penmon-priory-url",
+   "kind": "coverage-gap",
+   "file": "penmon-priory",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-oxford-friends-meeting-house-contact",
+   "kind": "coverage-gap",
+   "file": "oxford-friends-meeting-house",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-oxford-friends-meeting-house-url",
+   "kind": "coverage-gap",
+   "file": "oxford-friends-meeting-house",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-come-to-good-contact",
+   "kind": "coverage-gap",
+   "file": "come-to-good",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-come-to-good-url",
+   "kind": "coverage-gap",
+   "file": "come-to-good",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-idol-contact",
+   "kind": "coverage-gap",
+   "file": "blue-idol",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-idol-url",
+   "kind": "coverage-gap",
+   "file": "blue-idol",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swinside-teacher",
+   "kind": "coverage-gap",
+   "file": "swinside",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swinside-contact",
+   "kind": "coverage-gap",
+   "file": "swinside",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-swinside-url",
+   "kind": "coverage-gap",
+   "file": "swinside",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nine-ladies-teacher",
+   "kind": "coverage-gap",
+   "file": "nine-ladies",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kilmartin-glen-teacher",
+   "kind": "coverage-gap",
+   "file": "kilmartin-glen",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-machrie-moor-teacher",
+   "kind": "coverage-gap",
+   "file": "machrie-moor",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-man-wilmington-teacher",
+   "kind": "coverage-gap",
+   "file": "long-man-wilmington",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-man-wilmington-contact",
+   "kind": "coverage-gap",
+   "file": "long-man-wilmington",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-long-man-wilmington-url",
+   "kind": "coverage-gap",
+   "file": "long-man-wilmington",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dartington-hall-teacher",
+   "kind": "coverage-gap",
+   "file": "dartington-hall",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-santacittarama-contact",
+   "kind": "coverage-gap",
+   "file": "santacittarama",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-santacittarama-url",
+   "kind": "coverage-gap",
+   "file": "santacittarama",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-pah-nanachat-contact",
+   "kind": "coverage-gap",
+   "file": "wat-pah-nanachat",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-belur-math-contact",
+   "kind": "coverage-gap",
+   "file": "belur-math",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-advaita-ashrama-contact",
+   "kind": "coverage-gap",
+   "file": "advaita-ashrama",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-advaita-ashrama-url",
+   "kind": "coverage-gap",
+   "file": "advaita-ashrama",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vedanta-society-new-york-contact",
+   "kind": "coverage-gap",
+   "file": "vedanta-society-new-york",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tushita-dharamkot-contact",
+   "kind": "coverage-gap",
+   "file": "tushita-dharamkot",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tushita-dharamkot-url",
+   "kind": "coverage-gap",
+   "file": "tushita-dharamkot",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-divine-life-society-contact",
+   "kind": "coverage-gap",
+   "file": "divine-life-society",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sri-ramanasramam-contact",
+   "kind": "coverage-gap",
+   "file": "sri-ramanasramam",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-root-institute-contact",
+   "kind": "coverage-gap",
+   "file": "root-institute",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mbmc-penang-teacher",
+   "kind": "coverage-gap",
+   "file": "mbmc-penang",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mbmc-penang-contact",
+   "kind": "coverage-gap",
+   "file": "mbmc-penang",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-hillside-hermitage-slovenia-contact",
+   "kind": "coverage-gap",
+   "file": "hillside-hermitage-slovenia",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-samanadipa-contact",
+   "kind": "coverage-gap",
+   "file": "samanadipa",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vihara-pod-lasem-contact",
+   "kind": "coverage-gap",
+   "file": "vihara-pod-lasem",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-meetirigala-nissarana-vanaya-contact",
+   "kind": "coverage-gap",
+   "file": "meetirigala-nissarana-vanaya",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-meetirigala-nissarana-vanaya-url",
+   "kind": "coverage-gap",
+   "file": "meetirigala-nissarana-vanaya",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-brahma-vihari-penang-contact",
+   "kind": "coverage-gap",
+   "file": "brahma-vihari-penang",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-metta-forest-contact",
+   "kind": "coverage-gap",
+   "file": "metta-forest",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ims-barre-url",
+   "kind": "coverage-gap",
+   "file": "ims-barre",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-spirit-rock-contact",
+   "kind": "coverage-gap",
+   "file": "spirit-rock",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sfzc-teacher",
+   "kind": "coverage-gap",
+   "file": "sfzc",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sfzc-contact",
+   "kind": "coverage-gap",
+   "file": "sfzc",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-zen-mountain-monastery-url",
+   "kind": "coverage-gap",
+   "file": "zen-mountain-monastery",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-upaya-zen-contact",
+   "kind": "coverage-gap",
+   "file": "upaya-zen",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kwan-um-us-contact",
+   "kind": "coverage-gap",
+   "file": "kwan-um-us",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-deer-park-contact",
+   "kind": "coverage-gap",
+   "file": "deer-park",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-cliff-contact",
+   "kind": "coverage-gap",
+   "file": "blue-cliff",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bhavana-society-url",
+   "kind": "coverage-gap",
+   "file": "bhavana-society",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sakya-seattle-teacher",
+   "kind": "coverage-gap",
+   "file": "sakya-seattle",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sakya-seattle-url",
+   "kind": "coverage-gap",
+   "file": "sakya-seattle",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sravasti-abbey-url",
+   "kind": "coverage-gap",
+   "file": "sravasti-abbey",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-land-medicine-buddha-contact",
+   "kind": "coverage-gap",
+   "file": "land-medicine-buddha",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cttb-city-teacher",
+   "kind": "coverage-gap",
+   "file": "cttb-city",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cttb-city-contact",
+   "kind": "coverage-gap",
+   "file": "cttb-city",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dharma-drum-retreat-url",
+   "kind": "coverage-gap",
+   "file": "dharma-drum-retreat",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhamma-dhara-contact",
+   "kind": "coverage-gap",
+   "file": "dhamma-dhara",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dhamma-siri-contact",
+   "kind": "coverage-gap",
+   "file": "dhamma-siri",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-vedanta-socal-contact",
+   "kind": "coverage-gap",
+   "file": "vedanta-socal",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-srf-mother-center-contact",
+   "kind": "coverage-gap",
+   "file": "srf-mother-center",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sivananda-ranch-teacher",
+   "kind": "coverage-gap",
+   "file": "sivananda-ranch",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sivananda-ranch-contact",
+   "kind": "coverage-gap",
+   "file": "sivananda-ranch",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-isha-institute-contact",
+   "kind": "coverage-gap",
+   "file": "isha-institute",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-amma-ma-center-contact",
+   "kind": "coverage-gap",
+   "file": "amma-ma-center",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-siddha-ashram-contact",
+   "kind": "coverage-gap",
+   "file": "siddha-ashram",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kripalu-teacher",
+   "kind": "coverage-gap",
+   "file": "kripalu",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-kripalu-contact",
+   "kind": "coverage-gap",
+   "file": "kripalu",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-himalayan-institute-contact",
+   "kind": "coverage-gap",
+   "file": "himalayan-institute",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-himalayan-institute-url",
+   "kind": "coverage-gap",
+   "file": "himalayan-institute",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-gethsemani-contact",
+   "kind": "coverage-gap",
+   "file": "gethsemani",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-contemplative-outreach-url",
+   "kind": "coverage-gap",
+   "file": "contemplative-outreach",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-cac-albuquerque-url",
+   "kind": "coverage-gap",
+   "file": "cac-albuquerque",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pendle-hill-contact",
+   "kind": "coverage-gap",
+   "file": "pendle-hill",
+   "reason": "place missing contact (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-pendle-hill-url",
+   "kind": "coverage-gap",
+   "file": "pendle-hill",
+   "reason": "place missing url (model none)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-saint-johns-abbey-teacher",
+   "kind": "coverage-gap",
+   "file": "saint-johns-abbey",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-saint-johns-abbey-contact",
+   "kind": "coverage-gap",
+   "file": "saint-johns-abbey",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-inayati-abode-contact",
+   "kind": "coverage-gap",
+   "file": "inayati-abode",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mevlevi-usa-teacher",
+   "kind": "coverage-gap",
+   "file": "mevlevi-usa",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-mevlevi-usa-contact",
+   "kind": "coverage-gap",
+   "file": "mevlevi-usa",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aleph-renewal-teacher",
+   "kind": "coverage-gap",
+   "file": "aleph-renewal",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-aleph-renewal-contact",
+   "kind": "coverage-gap",
+   "file": "aleph-renewal",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-theosophical-wheaton-teacher",
+   "kind": "coverage-gap",
+   "file": "theosophical-wheaton",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-theosophical-wheaton-contact",
+   "kind": "coverage-gap",
+   "file": "theosophical-wheaton",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-adf-druidry-teacher",
+   "kind": "coverage-gap",
+   "file": "adf-druidry",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-adf-druidry-contact",
+   "kind": "coverage-gap",
+   "file": "adf-druidry",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lily-dale-teacher",
+   "kind": "coverage-gap",
+   "file": "lily-dale",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lily-dale-contact",
+   "kind": "coverage-gap",
+   "file": "lily-dale",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-chlq-ashland-contact",
+   "kind": "coverage-gap",
+   "file": "chlq-ashland",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-fdmd-socal-contact",
+   "kind": "coverage-gap",
+   "file": "fdmd-socal",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-fdmd-socal-url",
+   "kind": "coverage-gap",
+   "file": "fdmd-socal",
+   "reason": "place missing url (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ceu-do-mapia-contact",
+   "kind": "coverage-gap",
+   "file": "ceu-do-mapia",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-udv-santa-fe-contact",
+   "kind": "coverage-gap",
+   "file": "udv-santa-fe",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-temple-way-of-light-teacher",
+   "kind": "coverage-gap",
+   "file": "temple-way-of-light",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-temple-way-of-light-contact",
+   "kind": "coverage-gap",
+   "file": "temple-way-of-light",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-temple-way-of-light-url",
+   "kind": "coverage-gap",
+   "file": "temple-way-of-light",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-spirit-teacher",
+   "kind": "coverage-gap",
+   "file": "blue-spirit",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-spirit-contact",
+   "kind": "coverage-gap",
+   "file": "blue-spirit",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-blue-spirit-url",
+   "kind": "coverage-gap",
+   "file": "blue-spirit",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bodhi-tree-cr-teacher",
+   "kind": "coverage-gap",
+   "file": "bodhi-tree-cr",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-anamaya-cr-teacher",
+   "kind": "coverage-gap",
+   "file": "anamaya-cr",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-anamaya-cr-contact",
+   "kind": "coverage-gap",
+   "file": "anamaya-cr",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-golden-temple-url",
+   "kind": "coverage-gap",
+   "file": "golden-temple",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-espanola-ashram-contact",
+   "kind": "coverage-gap",
+   "file": "espanola-ashram",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-palitana-contact",
+   "kind": "coverage-gap",
+   "file": "palitana",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wudang-zixiao-contact",
+   "kind": "coverage-gap",
+   "file": "wudang-zixiao",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-plum-village-france-contact",
+   "kind": "coverage-gap",
+   "file": "plum-village-france",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nacna-teacher",
+   "kind": "coverage-gap",
+   "file": "nacna",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-nacna-contact",
+   "kind": "coverage-gap",
+   "file": "nacna",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ile-axe-opo-afonja-teacher",
+   "kind": "coverage-gap",
+   "file": "ile-axe-opo-afonja",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ile-axe-opo-afonja-contact",
+   "kind": "coverage-gap",
+   "file": "ile-axe-opo-afonja",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-ile-axe-opo-afonja-url",
+   "kind": "coverage-gap",
+   "file": "ile-axe-opo-afonja",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bodh-gaya-teacher",
+   "kind": "coverage-gap",
+   "file": "bodh-gaya",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sarnath-teacher",
+   "kind": "coverage-gap",
+   "file": "sarnath",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-sarnath-contact",
+   "kind": "coverage-gap",
+   "file": "sarnath",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-tsuglagkhang-contact",
+   "kind": "coverage-gap",
+   "file": "tsuglagkhang",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shechen-boudha-contact",
+   "kind": "coverage-gap",
+   "file": "shechen-boudha",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boudhanath-teacher",
+   "kind": "coverage-gap",
+   "file": "boudhanath",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-boudhanath-contact",
+   "kind": "coverage-gap",
+   "file": "boudhanath",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shwedagon-teacher",
+   "kind": "coverage-gap",
+   "file": "shwedagon",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shwedagon-contact",
+   "kind": "coverage-gap",
+   "file": "shwedagon",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-pho-teacher",
+   "kind": "coverage-gap",
+   "file": "wat-pho",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-mahathat-teacher",
+   "kind": "coverage-gap",
+   "file": "wat-mahathat",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-mahathat-contact",
+   "kind": "coverage-gap",
+   "file": "wat-mahathat",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-koyasan-contact",
+   "kind": "coverage-gap",
+   "file": "koyasan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-eiheiji-contact",
+   "kind": "coverage-gap",
+   "file": "eiheiji",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-haeinsa-teacher",
+   "kind": "coverage-gap",
+   "file": "haeinsa",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-haeinsa-contact",
+   "kind": "coverage-gap",
+   "file": "haeinsa",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-haeinsa-url",
+   "kind": "coverage-gap",
+   "file": "haeinsa",
+   "reason": "place missing url (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-fgs-kaohsiung-contact",
+   "kind": "coverage-gap",
+   "file": "fgs-kaohsiung",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lerab-ling-teacher",
+   "kind": "coverage-gap",
+   "file": "lerab-ling",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-lerab-ling-contact",
+   "kind": "coverage-gap",
+   "file": "lerab-ling",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dzogchen-beara-teacher",
+   "kind": "coverage-gap",
+   "file": "dzogchen-beara",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-geeta-bhawan-teacher",
+   "kind": "coverage-gap",
+   "file": "geeta-bhawan",
+   "reason": "place missing teacher (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-geeta-bhawan-contact",
+   "kind": "coverage-gap",
+   "file": "geeta-bhawan",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-dayananda-ashram-contact",
+   "kind": "coverage-gap",
+   "file": "dayananda-ashram",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-rajghat-varanasi-contact",
+   "kind": "coverage-gap",
+   "file": "rajghat-varanasi",
+   "reason": "place missing contact (model rotating)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-patanjali-yogpeeth-contact",
+   "kind": "coverage-gap",
+   "file": "patanjali-yogpeeth",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-shantikunj-contact",
+   "kind": "coverage-gap",
+   "file": "shantikunj",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-wat-chom-tong-contact",
+   "kind": "coverage-gap",
+   "file": "wat-chom-tong",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-suan-mokkh-contact",
+   "kind": "coverage-gap",
+   "file": "suan-mokkh",
+   "reason": "place missing contact (model single)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-advaita",
+   "kind": "coverage-gap",
+   "file": "advaita",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-akbarian",
+   "kind": "coverage-gap",
+   "file": "akbarian",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-anthroposophy",
+   "kind": "coverage-gap",
+   "file": "anthroposophy",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-bahai",
+   "kind": "coverage-gap",
+   "file": "bahai",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-benedictine",
+   "kind": "coverage-gap",
+   "file": "benedictine",
+   "reason": "16 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-brahma-kumaris",
+   "kind": "coverage-gap",
+   "file": "brahma-kumaris",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-buddhism",
+   "kind": "coverage-gap",
+   "file": "buddhism",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-burmese",
+   "kind": "coverage-gap",
+   "file": "burmese",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-candomble",
+   "kind": "coverage-gap",
+   "file": "candomble",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-carmelite",
+   "kind": "coverage-gap",
+   "file": "carmelite",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-celtic-christianity",
+   "kind": "coverage-gap",
+   "file": "celtic-christianity",
+   "reason": "14 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-chan",
+   "kind": "coverage-gap",
+   "file": "chan",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-christian",
+   "kind": "coverage-gap",
+   "file": "christian",
+   "reason": "71 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-christian-meditation",
+   "kind": "coverage-gap",
+   "file": "christian-meditation",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-christian-mysticism",
+   "kind": "coverage-gap",
+   "file": "christian-mysticism",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-cistercian",
+   "kind": "coverage-gap",
+   "file": "cistercian",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-divine-life-society",
+   "kind": "coverage-gap",
+   "file": "divine-life-society",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-druidry",
+   "kind": "coverage-gap",
+   "file": "druidry",
+   "reason": "15 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-early-suttas",
+   "kind": "coverage-gap",
+   "file": "early-suttas",
+   "reason": "6 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-fourth-way",
+   "kind": "coverage-gap",
+   "file": "fourth-way",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-fpmt",
+   "kind": "coverage-gap",
+   "file": "fpmt",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-franciscan",
+   "kind": "coverage-gap",
+   "file": "franciscan",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-gaudiya-vaishnava",
+   "kind": "coverage-gap",
+   "file": "gaudiya-vaishnava",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-gelug",
+   "kind": "coverage-gap",
+   "file": "gelug",
+   "reason": "9 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-goddess-spirituality",
+   "kind": "coverage-gap",
+   "file": "goddess-spirituality",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-goenka-vipassana",
+   "kind": "coverage-gap",
+   "file": "goenka-vipassana",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-golden-dawn",
+   "kind": "coverage-gap",
+   "file": "golden-dawn",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-heathenry",
+   "kind": "coverage-gap",
+   "file": "heathenry",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-hindu",
+   "kind": "coverage-gap",
+   "file": "hindu",
+   "reason": "34 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-ignatian",
+   "kind": "coverage-gap",
+   "file": "ignatian",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-inayati",
+   "kind": "coverage-gap",
+   "file": "inayati",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-independent",
+   "kind": "coverage-gap",
+   "file": "independent",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-insight",
+   "kind": "coverage-gap",
+   "file": "insight",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-iskcon",
+   "kind": "coverage-gap",
+   "file": "iskcon",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-jain",
+   "kind": "coverage-gap",
+   "file": "jain",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-kabbalah",
+   "kind": "coverage-gap",
+   "file": "kabbalah",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-kagyu",
+   "kind": "coverage-gap",
+   "file": "kagyu",
+   "reason": "13 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-krishnamurti",
+   "kind": "coverage-gap",
+   "file": "krishnamurti",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-kriya-yoga",
+   "kind": "coverage-gap",
+   "file": "kriya-yoga",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-kwan-um",
+   "kind": "coverage-gap",
+   "file": "kwan-um",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-mahasi",
+   "kind": "coverage-gap",
+   "file": "mahasi",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-mahayana",
+   "kind": "coverage-gap",
+   "file": "mahayana",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-mevlevi-rumi",
+   "kind": "coverage-gap",
+   "file": "mevlevi-rumi",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-modern-nondual",
+   "kind": "coverage-gap",
+   "file": "modern-nondual",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-modern-paganism",
+   "kind": "coverage-gap",
+   "file": "modern-paganism",
+   "reason": "38 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-naqshbandi",
+   "kind": "coverage-gap",
+   "file": "naqshbandi",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-native-american-church",
+   "kind": "coverage-gap",
+   "file": "native-american-church",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-neo-hasidism",
+   "kind": "coverage-gap",
+   "file": "neo-hasidism",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-new-kadampa",
+   "kind": "coverage-gap",
+   "file": "new-kadampa",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-nipponzan-myohoji",
+   "kind": "coverage-gap",
+   "file": "nipponzan-myohoji",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-nyingma",
+   "kind": "coverage-gap",
+   "file": "nyingma",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-orthodox-hesychasm",
+   "kind": "coverage-gap",
+   "file": "orthodox-hesychasm",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-pa-auk",
+   "kind": "coverage-gap",
+   "file": "pa-auk",
+   "reason": "2 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-plum-village",
+   "kind": "coverage-gap",
+   "file": "plum-village",
+   "reason": "4 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-quaker",
+   "kind": "coverage-gap",
+   "file": "quaker",
+   "reason": "16 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-ramakrishna-order",
+   "kind": "coverage-gap",
+   "file": "ramakrishna-order",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-rinzai-zen",
+   "kind": "coverage-gap",
+   "file": "rinzai-zen",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-sakya",
+   "kind": "coverage-gap",
+   "file": "sakya",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-santo-daime",
+   "kind": "coverage-gap",
+   "file": "santo-daime",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-satyananda-yoga",
+   "kind": "coverage-gap",
+   "file": "satyananda-yoga",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-seon",
+   "kind": "coverage-gap",
+   "file": "seon",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-serene-reflection",
+   "kind": "coverage-gap",
+   "file": "serene-reflection",
+   "reason": "7 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-shambhala",
+   "kind": "coverage-gap",
+   "file": "shambhala",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-shingon",
+   "kind": "coverage-gap",
+   "file": "shingon",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-shipibo-curanderismo",
+   "kind": "coverage-gap",
+   "file": "shipibo-curanderismo",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-siddha-yoga",
+   "kind": "coverage-gap",
+   "file": "siddha-yoga",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-sikh",
+   "kind": "coverage-gap",
+   "file": "sikh",
+   "reason": "12 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-sivananda-yoga-vedanta",
+   "kind": "coverage-gap",
+   "file": "sivananda-yoga-vedanta",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-soto-zen",
+   "kind": "coverage-gap",
+   "file": "soto-zen",
+   "reason": "9 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-spiritualism",
+   "kind": "coverage-gap",
+   "file": "spiritualism",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-sri-lankan",
+   "kind": "coverage-gap",
+   "file": "sri-lankan",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-sufism",
+   "kind": "coverage-gap",
+   "file": "sufism",
+   "reason": "6 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-swaminarayan",
+   "kind": "coverage-gap",
+   "file": "swaminarayan",
+   "reason": "6 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-swedenborgian",
+   "kind": "coverage-gap",
+   "file": "swedenborgian",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-taoist",
+   "kind": "coverage-gap",
+   "file": "taoist",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-thai-forest",
+   "kind": "coverage-gap",
+   "file": "thai-forest",
+   "reason": "11 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-thelema",
+   "kind": "coverage-gap",
+   "file": "thelema",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-theosophy",
+   "kind": "coverage-gap",
+   "file": "theosophy",
+   "reason": "7 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-theravada",
+   "kind": "coverage-gap",
+   "file": "theravada",
+   "reason": "18 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-tibetan",
+   "kind": "coverage-gap",
+   "file": "tibetan",
+   "reason": "22 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-transcendental-meditation",
+   "kind": "coverage-gap",
+   "file": "transcendental-meditation",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-triratna",
+   "kind": "coverage-gap",
+   "file": "triratna",
+   "reason": "39 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-udv",
+   "kind": "coverage-gap",
+   "file": "udv",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-vedanta",
+   "kind": "coverage-gap",
+   "file": "vedanta",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-western-esotericism",
+   "kind": "coverage-gap",
+   "file": "western-esotericism",
+   "reason": "5 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-western-magic",
+   "kind": "coverage-gap",
+   "file": "western-magic",
+   "reason": "8 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-white-plum",
+   "kind": "coverage-gap",
+   "file": "white-plum",
+   "reason": "1 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-wicca",
+   "kind": "coverage-gap",
+   "file": "wicca",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  },
+  {
+   "id": "entry-bio-zen",
+   "kind": "coverage-gap",
+   "file": "zen",
+   "reason": "3 descriptions need source marking (official|wiser)",
+   "severity": "backlog"
+  }
+ ]
+}

@@ -144,6 +144,286 @@
    "reason": "founded 1976 not sourced (traditional; lead agent verifies); held back",
    "severity": "verify",
    "queued": "2026-10-20"
+  },
+  {
+   "pack": "10-golden-path",
+   "kind": "practice-link-check",
+   "subject": "practice/neelakantha-meditation",
+   "reason": "Muller-Ortega teaches Neelakantha Meditation publicly; verify lineage authorisation before merge.",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "10-golden-path",
+   "kind": "practice-link-check",
+   "subject": "practice/torah-from-the-heart",
+   "reason": "Green's neo-Hasidic teaching context; verify this specific practice attribution.",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "12-minimal-entries",
+   "kind": "main-teacher-medium",
+   "subject": "place/amaravati",
+   "reason": "main teacher ajahn-amaro (medium): Abbot 2010–2024 era; re-check current post.",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "12-minimal-entries",
+   "kind": "main-teacher-medium",
+   "subject": "place/aruna-ratanagiri",
+   "reason": "main teacher ajahn-munindo (medium): Founder/abbot; re-check (post may have changed).",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "12-minimal-entries",
+   "kind": "main-teacher-medium",
+   "subject": "place/cittaviveka",
+   "reason": "main teacher ajahn-sucitto (medium): Long-time abbot; re-check current post.",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/christopher-wallis",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/bettina-baumer",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/mark-dyczkowski",
+   "reason": "pack proposes living:true; held for review (CONTRADICTED: died 2025-02-02, keeper fix)",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/paul-muller-ortega",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/daniel-odier",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/eric-baret",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/igor-kufayev",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/shambhavi-sarasvati",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/lorin-roche",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/loriliai-biernacki",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/sthaneshwar-timalsina",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/gavin-flood",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "14-lineage-clusters",
+   "kind": "living-claim",
+   "subject": "person/ben-williams",
+   "reason": "pack proposes living:true; held for review",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "edge-medium-teacher",
+   "subject": "pa-auk-sayadaw->sayalay-dipankara",
+   "reason": "medium teacher_of: shown as \"studied with\" until checked",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "living-claim",
+   "subject": "person/sayalay-dipankara",
+   "reason": "living:true claimed (cakkavala.org/Teacher.html (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "living-claim",
+   "subject": "person/ariyananda",
+   "reason": "living:true claimed (nauyana.org English pages (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "living-claim",
+   "subject": "person/dhammajiva",
+   "reason": "living:true claimed (nissarana.lk/about-us (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "living-claim",
+   "subject": "person/aggacitta",
+   "reason": "living:true claimed (sasanarakkha.org/about (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "15-niche-hermitages",
+   "kind": "contact-offdomain",
+   "subject": "place/brahma-vihari-penang#email",
+   "reason": "email source off the official domain (https://cakkavala.org/SayalaySchedule.html); dropped",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "sharon-salzberg->ims-barre",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.dharma.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "joseph-goldstein->ims-barre",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.dharma.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "jack-kornfield->ims-barre",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.dharma.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "john-daido-loori->zen-mountain-monastery",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://zmm.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "bhante-gunaratana->bhavana-society",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://bhavanasociety.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "thomas-keating->contemplative-outreach",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.contemplativeoutreach.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "main-teacher-medium",
+   "subject": "place/spirit-rock",
+   "reason": "main teacher jack-kornfield (medium): Founder; current guiding role re-check.",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "living-claim",
+   "subject": "person/thubten-chodron",
+   "reason": "living:true claimed (sravastiabbey.org (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "living-claim",
+   "subject": "person/amma",
+   "reason": "living:true claimed (amma.org (read 2026-10-20)); not set live until checked",
+   "severity": "check",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "contact-offdomain",
+   "subject": "place/dharma-drum-retreat#email",
+   "reason": "email source off the official domain (https://ddm.dharmadrum.org/content/global_affiliates/global_affiliate.aspx); dropped",
+   "severity": "verify",
+   "queued": "2026-10-20"
+  },
+  {
+   "pack": "16-usa-places",
+   "kind": "url-unverified",
+   "subject": "place/contemplative-outreach#contact",
+   "reason": "URL not confirmed (WAF or down on 2026-10-20): https://www.contemplativeoutreach.org/; shipped URL-less",
+   "severity": "verify",
+   "queued": "2026-10-20"
   }
  ]
 }

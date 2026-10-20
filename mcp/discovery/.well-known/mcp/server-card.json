@@ -115,6 +115,12 @@
       "readOnly": true
     },
     {
+      "name": "guide_me",
+      "title": "Guided path: teacher, method, contact",
+      "description": "Walk the golden path for a tradition or a teacher: living teachers, each one’s methods (practices with cautions and needsTeacher; never initiated detail), the syllabuses that contain them, and the places tied to them with contacts exactly as published. For a historical figure or a text it returns the study path (works, free texts, syllabuses, living students) instead of a contact. Start here for \"how do I learn X\" or \"who teaches Y\".",
+      "readOnly": true
+    },
+    {
       "name": "site_health",
       "title": "Site health",
       "description": "Satsang’s own health from its keeper (GitHub Actions checks): uptime over 30 days per probe (site, API, MCP, sitemap, llms.txt, openapi), what is down now, open maintenance findings by severity and check, dead clips/links, and the re-verify queue size.",

@@ -1,0 +1,138 @@
+{
+ "_note": "staged from satsang-extensions/16-usa-places",
+ "links": [
+  {
+   "from": "thanissaro-bhikkhu",
+   "to": "metta-forest",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://mettaforest.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sharon-salzberg",
+   "to": "ims-barre",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "joseph-goldstein",
+   "to": "ims-barre",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "jack-kornfield",
+   "to": "ims-barre",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "jack-kornfield",
+   "to": "spirit-rock",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://spiritrock.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "john-daido-loori",
+   "to": "zen-mountain-monastery",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "joan-halifax",
+   "to": "upaya",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.upaya.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "deer-park-monastery",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://deerparkmonastery.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "thich-nhat-hanh",
+   "to": "blue-cliff",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://bluecliffmonastery.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "bhante-gunaratana",
+   "to": "bhavana-society",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "thubten-chodron",
+   "to": "sravasti-abbey",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://sravastiabbey.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "paramahansa-yogananda",
+   "to": "srf-mother-center",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.yogananda.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "sadhguru",
+   "to": "isha-institute",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.ishausa.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "amma",
+   "to": "amma-ma-center",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://www.amma.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "thomas-merton",
+   "to": "gethsemani",
+   "type": "associated_with",
+   "conf": "high",
+   "src": "https://www.monks.org",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "thomas-keating",
+   "to": "contemplative-outreach",
+   "type": "founded",
+   "conf": "high"
+  },
+  {
+   "from": "richard-rohr",
+   "to": "cac",
+   "type": "founded",
+   "conf": "high",
+   "src": "https://cac.org/",
+   "checked": "2026-10-20"
+  },
+  {
+   "from": "deer-park-monastery",
+   "to": "blue-cliff",
+   "type": "sister_of",
+   "conf": "medium",
+   "note": "Same Plum Village order, US east/west houses.",
+   "src": "https://deerparkmonastery.org",
+   "checked": "2026-10-20"
+  }
+ ]
+}

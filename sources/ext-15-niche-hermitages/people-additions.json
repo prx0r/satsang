@@ -1,0 +1,97 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "people": [
+  {
+   "aliases": [
+    "sayalay daw dipankara"
+   ],
+   "bio": "Pa-Auk-trained Burmese nun (b. 1964); teaches the 40 kammatthana and vipassana worldwide; founder/abbess of the Brahma Vihari centres.",
+   "id": "sayalay-dipankara",
+   "kind": "figure",
+   "living": null,
+   "name": "Sayalay Dipankara",
+   "role": "figure",
+   "short": "Sayalay Dipankara",
+   "source": "cakkavala.org/Teacher.html (read 2026-10-20)",
+   "tradition": "pa-auk",
+   "traditions": [
+    "pa-auk"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1964–",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "angulgamuwe ariyananda"
+   ],
+   "bio": "Senior meditation teacher of Na Uyana Monastery; gives the weekly English Dhamma talks and retreat interviews in the Pa-Auk system.",
+   "id": "ariyananda",
+   "kind": "figure",
+   "living": null,
+   "name": "Ven. Ariyananda",
+   "role": "figure",
+   "short": "Ven. Ariyananda",
+   "source": "nauyana.org English pages (read 2026-10-20)",
+   "tradition": "pa-auk",
+   "traditions": [
+    "pa-auk"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "uda eriyagama dhammajiva"
+   ],
+   "bio": "Abbot and chief preceptor of Meetirigala Nissarana Vanaya; scholar-practitioner of samatha and vipassana, author of 40+ publications.",
+   "id": "dhammajiva",
+   "kind": "figure",
+   "living": null,
+   "name": "Uda Eriyagama Dhammajiva",
+   "role": "figure",
+   "short": "Ven. Dhammajiva",
+   "source": "nissarana.lk/about-us (read 2026-10-20)",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "aggacitta bhikkhu"
+   ],
+   "bio": "Malaysian monk; founder and guiding teacher of Sasanarakkha Buddhist Sanctuary (Taiping), answering the shortage of trained local monks.",
+   "id": "aggacitta",
+   "kind": "figure",
+   "living": null,
+   "name": "Ven. Aggacitta",
+   "role": "figure",
+   "short": "Ven. Aggacitta",
+   "source": "sasanarakkha.org/about (read 2026-10-20)",
+   "tradition": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

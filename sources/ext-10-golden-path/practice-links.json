@@ -1,0 +1,43 @@
+{
+ "_note": "staged from satsang-extensions/10-golden-path",
+ "links": {
+  "centering-prayer": {
+   "teachers": [
+    "thomas-keating"
+   ],
+   "texts": []
+  },
+  "christian-meditation-mantra": {
+   "teachers": [
+    "john-main"
+   ],
+   "texts": []
+  },
+  "recognition-contemplation": {
+   "teachers": [
+    "christopher-wallis"
+   ],
+   "texts": []
+  },
+  "vbt-breath-pause": {
+   "teachers": [
+    "bettina-baumer"
+   ],
+   "texts": [
+    "text/vijnana-bhairava"
+   ]
+  },
+  "welcoming-practice": {
+   "teachers": [
+    "thomas-keating"
+   ],
+   "texts": []
+  },
+  "zikr-inayati": {
+   "teachers": [
+    "inayat-khan"
+   ],
+   "texts": []
+  }
+ }
+}

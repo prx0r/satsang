@@ -1,0 +1,6004 @@
+{
+ "totals": {
+  "places": 414,
+  "complete": 0
+ },
+ "by_tradition": {
+  "thai-forest": {
+   "places": 11,
+   "complete": 0,
+   "missing": {
+    "bio-source": 11,
+    "teacher": 2,
+    "contact": 4,
+    "url": 1
+   }
+  },
+  "theravada": {
+   "places": 18,
+   "complete": 0,
+   "missing": {
+    "teacher": 14,
+    "contact": 13,
+    "bio-source": 18,
+    "url": 7
+   }
+  },
+  "burmese": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "teacher": 2,
+    "contact": 3,
+    "bio-source": 3,
+    "url": 1
+   }
+  },
+  "goenka-vipassana": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "bio-source": 5,
+    "contact": 3
+   }
+  },
+  "insight": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "bio-source": 4,
+    "url": 1,
+    "contact": 1
+   }
+  },
+  "buddhism": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "contact": 2,
+    "bio-source": 2,
+    "teacher": 1
+   }
+  },
+  "nipponzan-myohoji": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "teacher": 2,
+    "contact": 2,
+    "url": 2,
+    "bio-source": 2
+   }
+  },
+  "serene-reflection": {
+   "places": 7,
+   "complete": 0,
+   "missing": {
+    "bio-source": 7,
+    "teacher": 6,
+    "contact": 3,
+    "url": 1
+   }
+  },
+  "soto-zen": {
+   "places": 9,
+   "complete": 0,
+   "missing": {
+    "bio-source": 9,
+    "teacher": 7,
+    "contact": 5,
+    "url": 1
+   }
+  },
+  "zen": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "bio-source": 3,
+    "contact": 1
+   }
+  },
+  "rinzai-zen": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "bio-source": 1
+   }
+  },
+  "kagyu": {
+   "places": 13,
+   "complete": 0,
+   "missing": {
+    "bio-source": 13,
+    "teacher": 1,
+    "contact": 6
+   }
+  },
+  "tibetan": {
+   "places": 22,
+   "complete": 0,
+   "missing": {
+    "bio-source": 22,
+    "teacher": 5,
+    "contact": 12,
+    "url": 2
+   }
+  },
+  "gelug": {
+   "places": 9,
+   "complete": 0,
+   "missing": {
+    "contact": 6,
+    "bio-source": 9,
+    "teacher": 2,
+    "url": 1
+   }
+  },
+  "fpmt": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 3,
+    "teacher": 1
+   }
+  },
+  "new-kadampa": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2
+   }
+  },
+  "nyingma": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "contact": 4,
+    "bio-source": 5,
+    "teacher": 3
+   }
+  },
+  "sakya": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "bio-source": 3,
+    "contact": 1,
+    "url": 2,
+    "teacher": 1
+   }
+  },
+  "shambhala": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "bio-source": 1
+   }
+  },
+  "triratna": {
+   "places": 39,
+   "complete": 0,
+   "missing": {
+    "contact": 20,
+    "bio-source": 39,
+    "teacher": 8
+   }
+  },
+  "plum-village": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "bio-source": 4,
+    "contact": 3
+   }
+  },
+  "ramakrishna-order": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "contact": 5,
+    "bio-source": 5,
+    "url": 1
+   }
+  },
+  "vedanta": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 2,
+    "bio-source": 3
+   }
+  },
+  "iskcon": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "bio-source": 5,
+    "contact": 3,
+    "teacher": 3
+   }
+  },
+  "gaudiya-vaishnava": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "bio-source": 5,
+    "contact": 3,
+    "teacher": 3
+   }
+  },
+  "hindu": {
+   "places": 34,
+   "complete": 0,
+   "missing": {
+    "bio-source": 34,
+    "contact": 25,
+    "teacher": 24,
+    "url": 7
+   }
+  },
+  "swaminarayan": {
+   "places": 6,
+   "complete": 0,
+   "missing": {
+    "bio-source": 6,
+    "teacher": 5,
+    "contact": 5,
+    "url": 3
+   }
+  },
+  "sivananda-yoga-vedanta": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "divine-life-society": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 3,
+    "bio-source": 3,
+    "teacher": 1
+   }
+  },
+  "satyananda-yoga": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "brahma-kumaris": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "bio-source": 2
+   }
+  },
+  "kriya-yoga": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "contact": 2,
+    "bio-source": 2
+   }
+  },
+  "transcendental-meditation": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "krishnamurti": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 3,
+    "bio-source": 3
+   }
+  },
+  "modern-nondual": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "contact": 1,
+    "url": 1
+   }
+  },
+  "fourth-way": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2
+   }
+  },
+  "sikh": {
+   "places": 12,
+   "complete": 0,
+   "missing": {
+    "teacher": 10,
+    "contact": 10,
+    "bio-source": 12,
+    "url": 6
+   }
+  },
+  "christian": {
+   "places": 71,
+   "complete": 0,
+   "missing": {
+    "teacher": 66,
+    "bio-source": 71,
+    "contact": 33,
+    "url": 13
+   }
+  },
+  "celtic-christianity": {
+   "places": 14,
+   "complete": 0,
+   "missing": {
+    "teacher": 14,
+    "bio-source": 14,
+    "contact": 10,
+    "url": 5
+   }
+  },
+  "christian-mysticism": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "contact": 2,
+    "bio-source": 2,
+    "url": 1
+   }
+  },
+  "benedictine": {
+   "places": 16,
+   "complete": 0,
+   "missing": {
+    "contact": 9,
+    "url": 2,
+    "bio-source": 16,
+    "teacher": 13
+   }
+  },
+  "christian-meditation": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 2,
+    "url": 1,
+    "bio-source": 3
+   }
+  },
+  "cistercian": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "teacher": 3,
+    "bio-source": 4,
+    "contact": 3
+   }
+  },
+  "ignatian": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "bio-source": 1
+   }
+  },
+  "carmelite": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "orthodox-hesychasm": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "franciscan": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "teacher": 3,
+    "bio-source": 3,
+    "contact": 2
+   }
+  },
+  "quaker": {
+   "places": 16,
+   "complete": 0,
+   "missing": {
+    "contact": 13,
+    "bio-source": 16,
+    "url": 9
+   }
+  },
+  "akbarian": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2
+   }
+  },
+  "sufism": {
+   "places": 6,
+   "complete": 0,
+   "missing": {
+    "bio-source": 6,
+    "contact": 2,
+    "url": 1,
+    "teacher": 1
+   }
+  },
+  "naqshbandi": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "inayati": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "contact": 1
+   }
+  },
+  "kabbalah": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "teacher": 1,
+    "contact": 1
+   }
+  },
+  "theosophy": {
+   "places": 7,
+   "complete": 0,
+   "missing": {
+    "bio-source": 7,
+    "teacher": 5,
+    "contact": 6,
+    "url": 2
+   }
+  },
+  "anthroposophy": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "bio-source": 4,
+    "contact": 1,
+    "teacher": 1
+   }
+  },
+  "swedenborgian": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "bio-source": 1
+   }
+  },
+  "spiritualism": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "teacher": 3,
+    "contact": 2,
+    "bio-source": 3
+   }
+  },
+  "western-magic": {
+   "places": 8,
+   "complete": 0,
+   "missing": {
+    "bio-source": 8,
+    "contact": 4,
+    "url": 2,
+    "teacher": 3
+   }
+  },
+  "thelema": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "wicca": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "bio-source": 3,
+    "contact": 1,
+    "teacher": 1
+   }
+  },
+  "western-esotericism": {
+   "places": 5,
+   "complete": 0,
+   "missing": {
+    "teacher": 5,
+    "contact": 5,
+    "bio-source": 5
+   }
+  },
+  "druidry": {
+   "places": 15,
+   "complete": 0,
+   "missing": {
+    "bio-source": 15,
+    "teacher": 13,
+    "contact": 3,
+    "url": 1
+   }
+  },
+  "modern-paganism": {
+   "places": 38,
+   "complete": 0,
+   "missing": {
+    "teacher": 37,
+    "bio-source": 38,
+    "contact": 12,
+    "url": 6
+   }
+  },
+  "heathenry": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "teacher": 4,
+    "contact": 3,
+    "bio-source": 4,
+    "url": 1
+   }
+  },
+  "goddess-spirituality": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "teacher": 1,
+    "contact": 1
+   }
+  },
+  "independent": {
+   "places": 4,
+   "complete": 0,
+   "missing": {
+    "teacher": 4,
+    "bio-source": 4,
+    "contact": 2
+   }
+  },
+  "golden-dawn": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "advaita": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "mahasi": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 2,
+    "bio-source": 3
+   }
+  },
+  "early-suttas": {
+   "places": 6,
+   "complete": 0,
+   "missing": {
+    "bio-source": 6,
+    "contact": 4,
+    "teacher": 2
+   }
+  },
+  "pa-auk": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "contact": 1
+   }
+  },
+  "white-plum": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "kwan-um": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "sri-lankan": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "mahayana": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 2,
+    "bio-source": 3
+   }
+  },
+  "chan": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "siddha-yoga": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "mevlevi-rumi": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "bio-source": 2
+   }
+  },
+  "neo-hasidism": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "santo-daime": {
+   "places": 3,
+   "complete": 0,
+   "missing": {
+    "contact": 3,
+    "bio-source": 3,
+    "url": 1
+   }
+  },
+  "udv": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "shipibo-curanderismo": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "jain": {
+   "places": 2,
+   "complete": 0,
+   "missing": {
+    "bio-source": 2,
+    "contact": 1
+   }
+  },
+  "taoist": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "bahai": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "bio-source": 1
+   }
+  },
+  "native-american-church": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "candomble": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  },
+  "shingon": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "contact": 1,
+    "bio-source": 1
+   }
+  },
+  "seon": {
+   "places": 1,
+   "complete": 0,
+   "missing": {
+    "teacher": 1,
+    "contact": 1,
+    "url": 1,
+    "bio-source": 1
+   }
+  }
+ },
+ "places": {
+  "amaravati": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-amaro",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "cittaviveka": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-sucitto",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "aruna-ratanagiri": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-munindo",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "hartridge": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "forest-hermitage-uk": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-khemadhammo",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "wat-buddhapadipa": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "london-buddhist-vihara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "birmingham-buddhist-vihara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada",
+    "burmese"
+   ]
+  },
+  "imc-uk": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "burmese"
+   ]
+  },
+  "samatha-trust-greenstreete": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "samatha-manchester": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "dhamma-dipa": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "goenka-vipassana"
+   ]
+  },
+  "dhamma-padhana": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "goenka-vipassana"
+   ]
+  },
+  "dhamma-sukhakari": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "goenka-vipassana"
+   ]
+  },
+  "gaia-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "insight"
+   ]
+  },
+  "sharpham-trust": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "insight"
+   ]
+  },
+  "buddhist-society": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "buddhism"
+   ]
+  },
+  "peace-pagoda-battersea": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nipponzan-myohoji"
+   ]
+  },
+  "peace-pagoda-mk": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nipponzan-myohoji"
+   ]
+  },
+  "wat-sanghathan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "throssel-hole": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "telford-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "portobello-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "norwich-zen-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "great-ocean-dharma-refuge": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "dragon-bell-temple": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "turning-wheel-temple": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "serene-reflection",
+    "soto-zen"
+   ]
+  },
+  "maenllwyd": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "zen"
+   ]
+  },
+  "zenways": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "rinzai-zen"
+   ]
+  },
+  "kwan-um-london": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "zen"
+   ]
+  },
+  "samye-ling": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "holy-isle": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "purelands": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "kagyu-samye-dzong-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "ksd-edinburgh": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "ksd-glasgow": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "ksd-cardiff": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "ksd-scarborough": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "ksd-highlands": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "jamyang-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "gelug",
+    "fpmt",
+    "tibetan"
+   ]
+  },
+  "jamyang-leeds": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "gelug",
+    "fpmt",
+    "tibetan"
+   ]
+  },
+  "land-of-joy": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "gelug",
+    "fpmt",
+    "tibetan"
+   ]
+  },
+  "manjushri-kmc": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "new-kadampa"
+   ]
+  },
+  "kmc-london": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "new-kadampa"
+   ]
+  },
+  "rigpa-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "nyingma",
+    "tibetan"
+   ]
+  },
+  "palpung-wales": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "lam-rim-wales": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "gelug",
+    "tibetan"
+   ]
+  },
+  "dechen-sheffield": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "sakya",
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "diamond-way-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kagyu",
+    "tibetan"
+   ]
+  },
+  "shambhala-london": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "shambhala",
+    "kagyu"
+   ]
+  },
+  "dzogchen-community-uk": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nyingma",
+    "tibetan"
+   ]
+  },
+  "adhisthana": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "london-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "padmaloka": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "taraloka": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "dhanakosa": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "rivendell": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "vajrasana": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "vajraloka": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "tiratanaloka": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "alfoxton-park": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "birmingham-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "brighton-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "bristol-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "brixton-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "cambridge-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "cardiff-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "colchester-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "croydon-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "edinburgh-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "glasgow-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "ipswich-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "leeds-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "liverpool-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "llangollen-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "manchester-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "mid-essex-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "newcastle-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "north-london-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "norwich-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "nottingham-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "oxford-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "sheffield-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "southampton-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "west-london-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "worcester-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "york-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "shrewsbury-buddhist-centre": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "buddhafield": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "pv-uk": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "plum-village"
+   ]
+  },
+  "vedanta-uk": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "ramakrishna-order",
+    "vedanta"
+   ]
+  },
+  "bhaktivedanta-manor": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ]
+  },
+  "radha-krishna-temple-soho": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ]
+  },
+  "iskcon-leicester": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ]
+  },
+  "iskcon-manchester": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ]
+  },
+  "karuna-bhavan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "iskcon",
+    "gaudiya-vaishnava",
+    "hindu"
+   ]
+  },
+  "baps-neasden": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "baps-leicester": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "swaminarayan-willesden": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "shri-venkateswara-tividale": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "highgatehill-murugan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "mahalakshmi-east-ham": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "london-sri-murugan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "sanatan-mandir-wembley": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "skanda-vale": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "sivananda-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "sivananda-yoga-vedanta",
+    "divine-life-society"
+   ]
+  },
+  "satyananda-yoga-uk": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "satyananda-yoga"
+   ]
+  },
+  "chinmaya-uk": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "vedanta"
+   ]
+  },
+  "bk-global-retreat-centre": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "brahma-kumaris"
+   ]
+  },
+  "bk-global-cooperation-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "brahma-kumaris"
+   ]
+  },
+  "srf-london": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kriya-yoga"
+   ]
+  },
+  "maharishi-garden-village": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "transcendental-meditation"
+   ]
+  },
+  "amma-uk": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "brockwood": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "krishnamurti"
+   ]
+  },
+  "krishnamurti-centre": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "krishnamurti"
+   ]
+  },
+  "headless-way": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-nondual"
+   ]
+  },
+  "colet-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "fourth-way"
+   ]
+  },
+  "gurdjieff-society-london": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "fourth-way"
+   ]
+  },
+  "central-gurdwara-london": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "southall-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "gravesend-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "smethwick-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "nishkam-soho-road": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "leicester-guru-nanak-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "glasgow-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "wolverhampton-gurdwara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "iona-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "lindisfarne": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "marygate-house": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "st-aidans-lindisfarne": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "julian-centre-norwich": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian-mysticism"
+   ]
+  },
+  "ealing-abbey": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine",
+    "christian-meditation"
+   ]
+  },
+  "wccm-meditatio-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian-meditation"
+   ]
+  },
+  "prinknash-abbey": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "pluscarden-abbey": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "worth-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "buckfast-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "quarr-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "downside-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "ampleforth-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "mount-st-bernard": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "cistercian"
+   ]
+  },
+  "nunraw-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "cistercian"
+   ]
+  },
+  "caldey-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "cistercian"
+   ]
+  },
+  "stanbrook-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "malling-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "mirfield": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-beunos": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "ignatian"
+   ]
+  },
+  "aylesford-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "carmelite"
+   ]
+  },
+  "tolleshunt-knights": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "orthodox-hesychasm",
+    "christian-mysticism"
+   ]
+  },
+  "little-gidding": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "glasshampton": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "franciscan"
+   ]
+  },
+  "hilfield-friary": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "franciscan"
+   ]
+  },
+  "alnmouth-friary": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "franciscan"
+   ]
+  },
+  "northumbria-community": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "celtic-christianity"
+   ]
+  },
+  "lee-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "launde-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "scargill-house": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "minsteracres": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-davids-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-winefrides-well": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "walsingham-anglican": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "walsingham-catholic": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "canterbury-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "durham-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-albans-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "glastonbury-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "bardsey-island": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "whithorn": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "pennant-melangell": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "downpatrick-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "ely-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "westminster-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "jarrow-st-pauls": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "whitby-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "friends-house": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "woodbrooke": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "swarthmoor-hall": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "brigflatts": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "jordans": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "pendle-hill-uk": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "firbank-fell": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "glenthorne": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "claridge-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "charney-manor": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "beshara-chisholme": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "akbarian",
+    "sufism"
+   ]
+  },
+  "ibn-arabi-society": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "akbarian",
+    "sufism"
+   ]
+  },
+  "naqshbandi-st-anns": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "naqshbandi",
+    "sufism"
+   ]
+  },
+  "inayati-uk": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "inayati",
+    "sufism"
+   ]
+  },
+  "rumis-cave": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "sufism"
+   ]
+  },
+  "cambridge-central-mosque": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sufism"
+   ]
+  },
+  "kabbalah-centre-london": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "kabbalah"
+   ]
+  },
+  "kabbalah-society": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kabbalah"
+   ]
+  },
+  "ts-england-hq": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "ts-scotland": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "ts-nottingham": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "ts-bristol": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "tekels-park": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "blavatsky-house": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "rudolf-steiner-house": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "anthroposophy"
+   ]
+  },
+  "emerson-college": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "anthroposophy"
+   ]
+  },
+  "camphill-aberdeen": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "anthroposophy"
+   ]
+  },
+  "botton-village": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "anthroposophy"
+   ]
+  },
+  "swedenborg-society": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swedenborgian"
+   ]
+  },
+  "college-of-psychic-studies": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "spiritualism"
+   ]
+  },
+  "arthur-findlay-college": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "spiritualism"
+   ]
+  },
+  "society-inner-light": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-magic"
+   ]
+  },
+  "boleskine-house": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "thelema",
+    "western-magic"
+   ]
+  },
+  "chalice-orchard": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-magic"
+   ]
+  },
+  "museum-witchcraft-magic": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "wicca",
+    "western-magic"
+   ]
+  },
+  "doreen-valiente-foundation": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "wicca"
+   ]
+  },
+  "warburg-institute": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-esotericism"
+   ]
+  },
+  "obod": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "druid-network": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "pagan-federation": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "british-druid-order": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "odinist-fellowship-temple": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "heathenry"
+   ]
+  },
+  "asatru-uk": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "heathenry"
+   ]
+  },
+  "children-of-artemis": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "wicca"
+   ]
+  },
+  "goddess-temple": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "goddess-spirituality",
+    "modern-paganism"
+   ]
+  },
+  "chalice-well": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "christian"
+   ]
+  },
+  "glastonbury-tor": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "christian"
+   ]
+  },
+  "stonehenge": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "avebury": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "silbury-hill": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "west-kennet": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "druidry"
+   ]
+  },
+  "rollright-stones": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "uffington-white-horse": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "waylands-smithy": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "heathenry"
+   ]
+  },
+  "cerne-abbas-giant": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "castlerigg": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "long-meg": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "callanish": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "ring-of-brodgar": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "maeshowe": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "clava-cairns": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "bryn-celli-ddu": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "pentre-ifan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "men-an-tol": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "boscawen-un": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "madron-well": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "christian"
+   ]
+  },
+  "arbor-low": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "stanton-drew": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry",
+    "modern-paganism"
+   ]
+  },
+  "tintagel": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "celtic-christianity"
+   ]
+  },
+  "st-nectans-glen": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "christian"
+   ]
+  },
+  "st-michaels-mount": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "isle-of-man-tynwald": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "heathenry"
+   ]
+  },
+  "watkins-books": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-esotericism"
+   ]
+  },
+  "treadwells": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-magic",
+    "modern-paganism"
+   ]
+  },
+  "atlantis-bookshop": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-magic"
+   ]
+  },
+  "wisdom-books": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "buddhism"
+   ]
+  },
+  "housmans": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "independent"
+   ]
+  },
+  "gothic-image": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "western-esotericism"
+   ]
+  },
+  "buddhist-society-bookshop": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "triratna"
+   ]
+  },
+  "aeon-books": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-esotericism"
+   ]
+  },
+  "mandrake-oxford": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-magic"
+   ]
+  },
+  "findhorn": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "independent"
+   ]
+  },
+  "schumacher-college": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "independent"
+   ]
+  },
+  "library-of-avalon": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "western-esotericism",
+    "modern-paganism"
+   ]
+  },
+  "isle-of-avalon-foundation": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "goddess-spirituality"
+   ]
+  },
+  "blythe-road": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "golden-dawn",
+    "western-magic"
+   ]
+  },
+  "sasana-ramsi": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada",
+    "burmese"
+   ]
+  },
+  "santimiterama": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "dhammakaya-london": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "wat-charoen-bhavana": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "oxford-buddha-vihara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "sakya-ling-reading": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "sakya",
+    "tibetan"
+   ]
+  },
+  "belmont-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "douai-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "farnborough-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "minster-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "turvey-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "benedictine"
+   ]
+  },
+  "lichfield-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "hereford-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "winchester-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "chichester-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-andrews-cathedral": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "dunfermline-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "lastingham": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "hexham-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "melrose-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "bury-st-edmunds-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "iona-community-camas": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "celtic-christianity"
+   ]
+  },
+  "merry-maidens": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "stones-of-stenness": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "seahenge-lynn-museum": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "knowlton-church": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "christian"
+   ]
+  },
+  "bede-griffiths-sangha": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian-meditation"
+   ]
+  },
+  "quaker-meeting-lancaster": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "pardshaw": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "gurdwara-sri-guru-tegh-bahadur-leicester": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "guru-har-rai-west-bromwich": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "shree-ghanapathy": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "jalaram-leicester": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "mandir-leicester-sanatan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "the-vedanta-branston": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-nondual"
+   ]
+  },
+  "lam-rim-bristol": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "gelug",
+    "tibetan"
+   ]
+  },
+  "thames-buddhist-vihara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "saddhatissa-centre": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "hindu-mandir-glasgow": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "hindu-temple-scotland": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "swaminarayan-cardiff": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "swaminarayan-oldham": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "swaminarayan-bolton": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "swaminarayan",
+    "hindu"
+   ]
+  },
+  "lindisfarne-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "mount-grace-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "st-nons-well": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "penmon-priory": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian",
+    "celtic-christianity"
+   ]
+  },
+  "oxford-friends-meeting-house": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "come-to-good": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "blue-idol": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "swinside": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "nine-ladies": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism",
+    "druidry"
+   ]
+  },
+  "kilmartin-glen": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "machrie-moor": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "long-man-wilmington": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "modern-paganism"
+   ]
+  },
+  "dartington-hall": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "independent"
+   ]
+  },
+  "santacittarama": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "wat-pah-nanachat": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "abhayagiri": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-pasanno",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "belur-math": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "ramakrishna-order"
+   ]
+  },
+  "advaita-ashrama": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "ramakrishna-order"
+   ]
+  },
+  "vedanta-society-new-york": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "swami-sarvapriyananda",
+   "traditions": [
+    "ramakrishna-order"
+   ]
+  },
+  "tushita-dharamkot": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "gelug"
+   ]
+  },
+  "divine-life-society": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "divine-life-society"
+   ]
+  },
+  "sri-ramanasramam": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "advaita"
+   ]
+  },
+  "root-institute": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "gelug"
+   ]
+  },
+  "mbmc-penang": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mahasi"
+   ]
+  },
+  "sasanarakkha-taiping": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "hillside-hermitage-lk": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "hillside-hermitage-slovenia": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "samanadipa": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "vihara-pod-lasem": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "na-uyana": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "pa-auk"
+   ]
+  },
+  "meetirigala-nissarana-vanaya": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "brahma-vihari-penang": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "pa-auk"
+   ]
+  },
+  "metta-forest": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "thanissaro-bhikkhu",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "ims-barre": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "insight"
+   ]
+  },
+  "spirit-rock": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "jack-kornfield",
+   "traditions": [
+    "insight"
+   ]
+  },
+  "sfzc": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "soto-zen"
+   ]
+  },
+  "zen-mountain-monastery": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "white-plum"
+   ]
+  },
+  "upaya-zen": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "joan-halifax",
+   "traditions": [
+    "zen"
+   ]
+  },
+  "kwan-um-us": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kwan-um"
+   ]
+  },
+  "deer-park": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "plum-village"
+   ]
+  },
+  "blue-cliff": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "plum-village"
+   ]
+  },
+  "bhavana-society": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "bhante-gunaratana",
+   "traditions": [
+    "sri-lankan"
+   ]
+  },
+  "sakya-seattle": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sakya"
+   ]
+  },
+  "sravasti-abbey": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "thubten-chodron",
+   "traditions": [
+    "tibetan"
+   ]
+  },
+  "land-medicine-buddha": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "gelug"
+   ]
+  },
+  "cttb-city": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mahayana"
+   ]
+  },
+  "dharma-drum-retreat": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "chan"
+   ]
+  },
+  "dhamma-dhara": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "goenka-vipassana"
+   ]
+  },
+  "dhamma-siri": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "goenka-vipassana"
+   ]
+  },
+  "vedanta-socal": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "ramakrishna-order"
+   ]
+  },
+  "srf-mother-center": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "kriya-yoga"
+   ]
+  },
+  "sivananda-ranch": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "divine-life-society"
+   ]
+  },
+  "isha-institute": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "sadhguru",
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "amma-ma-center": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "amma",
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "siddha-ashram": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "siddha-yoga"
+   ]
+  },
+  "kripalu": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "himalayan-institute": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "gethsemani": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "cistercian"
+   ]
+  },
+  "contemplative-outreach": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "christian"
+   ]
+  },
+  "cac-albuquerque": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "richard-rohr",
+   "traditions": [
+    "christian"
+   ]
+  },
+  "pendle-hill": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "none",
+   "main_teacher": null,
+   "traditions": [
+    "quaker"
+   ]
+  },
+  "saint-johns-abbey": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "benedictine"
+   ]
+  },
+  "inayati-abode": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "pir-zia-inayat-khan",
+   "traditions": [
+    "inayati"
+   ]
+  },
+  "mevlevi-usa": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mevlevi-rumi"
+   ]
+  },
+  "aleph-renewal": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "neo-hasidism"
+   ]
+  },
+  "theosophical-wheaton": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theosophy"
+   ]
+  },
+  "adf-druidry": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "druidry"
+   ]
+  },
+  "lily-dale": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "spiritualism"
+   ]
+  },
+  "chlq-ashland": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "santo-daime"
+   ]
+  },
+  "fdmd-socal": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "santo-daime"
+   ]
+  },
+  "ceu-do-mapia": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "santo-daime"
+   ]
+  },
+  "udv-santa-fe": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "udv"
+   ]
+  },
+  "temple-way-of-light": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "shipibo-curanderismo"
+   ]
+  },
+  "blue-spirit": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "bodhi-tree-cr": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "anamaya-cr": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "golden-temple": {
+   "complete": false,
+   "missing": [
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "espanola-ashram": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "sikh"
+   ]
+  },
+  "siddhachalam": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "jain"
+   ]
+  },
+  "palitana": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "jain"
+   ]
+  },
+  "wudang-zixiao": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "taoist"
+   ]
+  },
+  "bahai-wilmette": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "bahai"
+   ]
+  },
+  "plum-village-france": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "plum-village"
+   ]
+  },
+  "nacna": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "native-american-church"
+   ]
+  },
+  "ile-axe-opo-afonja": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "candomble"
+   ]
+  },
+  "bodh-gaya": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "sarnath": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "early-suttas"
+   ]
+  },
+  "tsuglagkhang": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "dalai-lama",
+   "traditions": [
+    "gelug"
+   ]
+  },
+  "shechen-boudha": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nyingma"
+   ]
+  },
+  "boudhanath": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "tibetan"
+   ]
+  },
+  "shwedagon": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "wat-pho": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "wat-mahathat": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "koyasan": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "shingon"
+   ]
+  },
+  "eiheiji": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "soto-zen"
+   ]
+  },
+  "haeinsa": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "url",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "seon"
+   ]
+  },
+  "fgs-kaohsiung": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mahayana"
+   ]
+  },
+  "nan-tien": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mahayana"
+   ]
+  },
+  "konya-museum": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mevlevi-rumi"
+   ]
+  },
+  "lerab-ling": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nyingma"
+   ]
+  },
+  "dzogchen-beara": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "nyingma"
+   ]
+  },
+  "parmarth-niketan": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "chidanand-saraswati",
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "geeta-bhawan": {
+   "complete": false,
+   "missing": [
+    "teacher",
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "dayananda-ashram": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "vedanta"
+   ]
+  },
+  "rajghat-varanasi": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "rotating",
+   "main_teacher": null,
+   "traditions": [
+    "krishnamurti"
+   ]
+  },
+  "patanjali-yogpeeth": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "swami-ramdev",
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "shantikunj": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "hindu"
+   ]
+  },
+  "wat-chom-tong": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "mahasi"
+   ]
+  },
+  "wat-phu-kong-tong": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-martin",
+   "traditions": [
+    "thai-forest"
+   ]
+  },
+  "suan-mokkh": {
+   "complete": false,
+   "missing": [
+    "contact",
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": null,
+   "traditions": [
+    "theravada"
+   ]
+  },
+  "wat-ram-poeng": {
+   "complete": false,
+   "missing": [
+    "bio-source"
+   ],
+   "model": "single",
+   "main_teacher": "ajahn-suphan",
+   "traditions": [
+    "mahasi"
+   ]
+  }
+ }
+}

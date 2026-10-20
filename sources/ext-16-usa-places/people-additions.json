@@ -1,0 +1,52 @@
+{
+ "_note": "staged from satsang-extensions/16-usa-places",
+ "people": [
+  {
+   "aliases": [
+    "tibetan nun thubten chodron"
+   ],
+   "bio": "American-born Tibetan Buddhist nun (bhikshuni); founder and abbess of Sravasti Abbey; author and imprison-chaplaincy pioneer.",
+   "id": "thubten-chodron",
+   "kind": "figure",
+   "living": null,
+   "name": "Bhikshuni Thubten Chodron",
+   "role": "figure",
+   "short": "Thubten Chodron",
+   "source": "sravastiabbey.org (read 2026-10-20)",
+   "tradition": "tibetan",
+   "traditions": [
+    "tibetan"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "mata amritanandamayi",
+    "amma chi"
+   ],
+   "bio": "Hugging saint of Kerala; heads the Mata Amritanandamayi Math and its worldwide charities; gives darshan to millions.",
+   "id": "amma",
+   "kind": "figure",
+   "living": null,
+   "name": "Mata Amritanandamayi (Amma)",
+   "role": "figure",
+   "short": "Amma",
+   "source": "amma.org (read 2026-10-20)",
+   "tradition": "hindu",
+   "traditions": [
+    "hindu"
+   ],
+   "wikidata": null,
+   "works": [],
+   "years": "1953–",
+   "source_url": null,
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  }
+ ]
+}

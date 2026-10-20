@@ -240,7 +240,10 @@
      "url": "https://amaravati.org/news",
      "note": "Sunday afternoon Dhamma talks (see \"Sunday Talks\" posts)."
     }
-   ]
+   ],
+   "main_teacher": "ajahn-amaro",
+   "teacher_model": "single",
+   "main_teacher_conf": "medium"
   },
   {
    "id": "cittaviveka",
@@ -291,7 +294,10 @@
      "amaravati",
      "sister_of"
     ]
-   ]
+   ],
+   "main_teacher": "ajahn-sucitto",
+   "teacher_model": "single",
+   "main_teacher_conf": "medium"
   },
   {
    "id": "aruna-ratanagiri",
@@ -342,7 +348,10 @@
      "amaravati",
      "sister_of"
     ]
-   ]
+   ],
+   "main_teacher": "ajahn-munindo",
+   "teacher_model": "single",
+   "main_teacher_conf": "medium"
   },
   {
    "id": "hartridge",
@@ -438,7 +447,10 @@
    "url_checked": "2026-10-20",
    "source_url": "https://abhayagiri.org",
    "verified_on": "2026-10-20",
-   "confidence": "high"
+   "confidence": "high",
+   "main_teacher": "ajahn-pasanno",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "metta-forest",
@@ -476,7 +488,14 @@
      "cost_model": "dana (offered freely; donations welcome)",
      "schedule_url": "https://www.watmetta.org/overnight-visitors/"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://mettaforest.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "thanissaro-bhikkhu",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "wat-dhammasathit",
@@ -1158,7 +1177,9 @@
    "lng": 80.516575,
    "coord_precision": "as recorded on Wikidata",
    "founded": 1954,
-   "teachers": [],
+   "teachers": [
+    "ariyananda"
+   ],
    "url": "https://nauyana.org",
    "wikidata": "Q6956453",
    "description": "Forest monastery in Sri Lanka known for Pa-Auk style meditation training and foreign monks.",
@@ -1176,7 +1197,12 @@
      "cost_model": "dana (offered freely; donations welcome)",
      "schedule_url": "https://nauyana.org/meditation-programs-english/"
     }
-   ]
+   ],
+   "contact_page": "https://nauyana.org/contact-english/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://nauyana.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "hillside-hermitage",
@@ -1197,7 +1223,29 @@
     "ordination",
     "online"
    ],
-   "language": "en"
+   "language": "en",
+   "contact_page": "https://www.hillsidehermitage.org/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.hillsidehermitage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "hillside-hermitage-slovenia",
+     "sister_of",
+     "Association branch houses (Samanadipa org, Bodhi Tree Foundation)."
+    ],
+    [
+     "samanadipa",
+     "sister_of",
+     "Association branch houses."
+    ],
+    [
+     "vihara-pod-lasem",
+     "sister_of",
+     "Association branch houses."
+    ]
+   ]
   },
   {
    "id": "sri-maha-bodhi",
@@ -1645,7 +1693,11 @@
      "gaia-house",
      "sister_of"
     ]
-   ]
+   ],
+   "contact_page": "https://www.dharma.org/contact-us/",
+   "source_url": "https://www.dharma.org/contact-us/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
   },
   {
    "id": "bcbs",
@@ -1716,7 +1768,14 @@
      "cost_model": "fee (sliding scale or set rate; teachers usually supported by dana)",
      "schedule_url": "https://www.spiritrock.org/calendar?programType=retreats"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://spiritrock.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "jack-kornfield",
+   "teacher_model": "single",
+   "main_teacher_conf": "medium"
   },
   {
    "id": "gaia-house",
@@ -1899,7 +1958,18 @@
     "ordination",
     "visits"
    ],
-   "language": "en"
+   "language": "en",
+   "lat": 39.21,
+   "lng": -78.32,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1982,
+   "contact_page": "https://bhavanasociety.org/contact-us/",
+   "source_url": "https://bhavanasociety.org/contact-us/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "main_teacher": "bhante-gunaratana",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "tushita-dharamsala",
@@ -3389,6 +3459,17 @@
      "cost_model": "fee",
      "schedule_url": "https://deerparkmonastery.org/visit/"
     }
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://deerparkmonastery.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "blue-cliff",
+     "sister_of",
+     "Same Plum Village order, US east/west houses."
+    ]
    ]
   },
   {
@@ -3425,6 +3506,16 @@
      "cost_model": "fee",
      "schedule_url": "https://www.bluecliffmonastery.org/about-our-retreats"
     }
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://bluecliffmonastery.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "deer-park-monastery",
+     "sister_of"
+    ]
    ]
   },
   {
@@ -3618,7 +3709,11 @@
      "cost_model": "fee",
      "schedule_url": "https://www.sfzc.org/city-center-calendar"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.sfzc.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "tassajara",
@@ -3876,7 +3971,14 @@
      "cost_model": "fee",
      "schedule_url": "https://www.upaya.org/being-at-upaya/residential-program/"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.upaya.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "joan-halifax",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "zen-mountain-monastery",
@@ -3902,7 +4004,11 @@
     "residential retreats",
     "ordination"
    ],
-   "language": "en"
+   "language": "en",
+   "contact_page": "https://zmm.org/contact/",
+   "source_url": "https://zmm.org/contact/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
   },
   {
    "id": "rochester-zen-center",
@@ -4673,7 +4779,8 @@
    "lng": -73.978,
    "coord_precision": "as recorded on Wikidata",
    "teachers": [
-    "swami-vivekananda"
+    "swami-vivekananda",
+    "swami-sarvapriyananda"
    ],
    "url": "https://www.vedantany.org",
    "wikidata": "Q14947267",
@@ -4693,7 +4800,10 @@
    "url_checked": "2026-10-20",
    "source_url": "https://vedantany.org",
    "verified_on": "2026-10-20",
-   "confidence": "high"
+   "confidence": "high",
+   "main_teacher": "swami-sarvapriyananda",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "vedanta-sf",
@@ -4751,7 +4861,9 @@
    "lng": -118.3274,
    "coord_precision": "site",
    "founded": 1930,
-   "teachers": [],
+   "teachers": [
+    "swami-vivekananda"
+   ],
    "url": "https://vedanta.org",
    "wikidata": "Q7917917",
    "description": "Hollywood Vedanta temple and convent, long linked with Isherwood and Huxley.",
@@ -4777,7 +4889,11 @@
      "branch_of",
      "Ramakrishna Order centre"
     ]
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://vedanta.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "vedanta-uk",
@@ -5026,7 +5142,11 @@
      "cost_model": "free / donation",
      "schedule_url": "https://yogananda.org/calendar"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.yogananda.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "srf-lake-shrine",
@@ -5560,7 +5680,14 @@
      "cost_model": "fee",
      "schedule_url": "https://www.siddhayoga.org/calendar"
     }
-   ]
+   ],
+   "lat": 41.73,
+   "lng": -74.64,
+   "coord_precision": "approximate (unverified)",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.siddhayoga.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "gethsemani",
@@ -5596,7 +5723,11 @@
      "cost_model": "dana (offered freely; donations welcome)",
      "schedule_url": "https://monks.org/visit-us/"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.monks.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "cac",
@@ -5631,7 +5762,14 @@
      "cost_model": "fee",
      "schedule_url": "https://cac.org/events/"
     }
-   ]
+   ],
+   "contact_page": "https://cac.org/contact-us/",
+   "source_url": "https://cac.org/contact-us/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "main_teacher": "richard-rohr",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "taize",
@@ -15607,7 +15745,13 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en-US/schedules/schdhara"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "language": "en",
+   "source_url": "https://dhara.dhamma.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "teacher_model": "rotating"
   },
   {
    "id": "dhamma-kunja",
@@ -15966,7 +16110,13 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en-US/schedules/schsiri"
     }
-   ]
+   ],
+   "url_checked": "2026-10-20",
+   "language": "en",
+   "source_url": "https://siri.dhamma.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "teacher_model": "rotating"
   },
   {
    "id": "dhamma-sukha",
@@ -16215,7 +16365,10 @@
      "sister_of",
      "founded by Ajahn Chah disciple Ajahn Khemadhammo; not a formal forestsangha branch"
     ]
-   ]
+   ],
+   "main_teacher": "ajahn-khemadhammo",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
   },
   {
    "id": "wat-buddhapadipa",
@@ -24285,7 +24438,16 @@
      "pendle-hill-uk",
      "sister_of"
     ]
-   ]
+   ],
+   "offers": [
+    "courses",
+    "retreats",
+    "residencies"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "teacher_model": "none"
   },
   {
    "id": "parmarth-niketan",
@@ -24510,6 +24672,715 @@
    "source_url": "https://dlshq.org",
    "verified_on": "2026-10-20",
    "confidence": "high"
+  },
+  {
+   "id": "mbmc-penang",
+   "name": "Malaysian Buddhist Meditation Centre",
+   "type": "retreat",
+   "traditions": [
+    "mahasi"
+   ],
+   "country": "MY",
+   "country_name": "Malaysia",
+   "city": "George Town, Penang",
+   "lat": 5.41,
+   "lng": 100.31,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1969,
+   "url": "https://www.mbmcmalaysia.org",
+   "url_checked": "2026-10-20",
+   "description": "Premier Mahasi-method vipassana centre (est. 1969); year-round intensive retreats, resident Sangha, English-speaking.",
+   "offers": [
+    "residential retreats",
+    "weekly classes",
+    "library"
+   ],
+   "language": "en",
+   "source_url": "https://www.mbmcmalaysia.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "sasanarakkha-taiping",
+   "name": "Sasanarakkha Buddhist Sanctuary",
+   "type": "monastery",
+   "traditions": [
+    "theravada"
+   ],
+   "country": "MY",
+   "country_name": "Malaysia",
+   "city": "Taiping, Perak",
+   "lat": 4.85,
+   "lng": 100.74,
+   "coord_precision": "approximate (unverified)",
+   "founded": 2000,
+   "teachers": [
+    "aggacitta"
+   ],
+   "url": "https://sasanarakkha.org",
+   "contact_page": "https://sasanarakkha.org/about/",
+   "url_checked": "2026-10-20",
+   "description": "Theravada monk training centre (est. 2000) with a lay retreat centre; DhammaVinaya study, forest setting.",
+   "offers": [
+    "monk training",
+    "residential retreats"
+   ],
+   "language": "en",
+   "source_url": "https://sasanarakkha.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "hillside-hermitage-slovenia",
+   "name": "Hillside Hermitage Slovenija",
+   "type": "hermitage",
+   "traditions": [
+    "early-suttas"
+   ],
+   "country": "SI",
+   "country_name": "Slovenia",
+   "lat": 46.1,
+   "lng": 14.5,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "ajahn-nyanamoli"
+   ],
+   "url": "https://www.hillsidehermitage.org",
+   "url_checked": "2026-10-20",
+   "description": "Hillside association hermitage in the Slovenian mountain forests; solitary sutta-based practice.",
+   "offers": [
+    "solitary retreat"
+   ],
+   "language": "en",
+   "source_url": "https://www.hillsidehermitage.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "hillside-hermitage",
+     "sister_of"
+    ]
+   ]
+  },
+  {
+   "id": "samanadipa",
+   "name": "Samanadipa",
+   "type": "hermitage",
+   "traditions": [
+    "early-suttas"
+   ],
+   "country": "SI",
+   "country_name": "Slovenia",
+   "lat": 46.0,
+   "lng": 14.4,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "ajahn-nyanamoli"
+   ],
+   "url": "https://www.samanadipa.org",
+   "url_checked": "2026-10-20",
+   "description": "Sister hermitage under the Hillside association (registered via Samanadipa religious organisation).",
+   "offers": [
+    "solitary retreat"
+   ],
+   "language": "en",
+   "source_url": "https://www.samanadipa.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "hillside-hermitage",
+     "sister_of"
+    ]
+   ]
+  },
+  {
+   "id": "vihara-pod-lasem",
+   "name": "Vihara Pod Lasem",
+   "type": "hermitage",
+   "traditions": [
+    "early-suttas"
+   ],
+   "country": "PL",
+   "country_name": "Poland",
+   "lat": 52.2,
+   "lng": 21.0,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "ajahn-nyanamoli"
+   ],
+   "url": "https://www.fundacjadrzewobodhi.pl/en",
+   "url_checked": "2026-10-20",
+   "description": "Hillside association vihara in Poland (Bodhi Tree Foundation); solitary sutta-based practice.",
+   "offers": [
+    "solitary retreat"
+   ],
+   "language": "en",
+   "source_url": "https://www.fundacjadrzewobodhi.pl/en",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "sisters": [
+    [
+     "hillside-hermitage",
+     "sister_of"
+    ]
+   ]
+  },
+  {
+   "id": "meetirigala-nissarana-vanaya",
+   "name": "Meetirigala Nissarana Vanaya",
+   "type": "monastery",
+   "traditions": [
+    "theravada"
+   ],
+   "country": "LK",
+   "country_name": "Sri Lanka",
+   "city": "Meetirigala",
+   "lat": 7.0,
+   "lng": 80.1,
+   "coord_precision": "approximate (unverified)",
+   "founded": 1967,
+   "teachers": [
+    "dhammajiva"
+   ],
+   "description": "Strict forest monastery (est. 1967), motto Nibbana in this very life; abbot Dhammajiva, 40+ publications; male yogis up to 3 months by application.",
+   "offers": [
+    "residential retreats"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "brahma-vihari-penang",
+   "name": "Brahma Vihari Meditation Centre (Penang)",
+   "type": "retreat",
+   "traditions": [
+    "pa-auk"
+   ],
+   "country": "MY",
+   "country_name": "Malaysia",
+   "city": "Kulim, Kedah",
+   "lat": 5.4,
+   "lng": 100.58,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "sayalay-dipankara"
+   ],
+   "url": "https://sites.google.com/site/penangbrahmavihari/",
+   "url_checked": "2026-10-20",
+   "description": "Pa-Auk-trained nun Sayalay Dipankara's Penang centre; jhana-capable kammatthana teaching, retreats by schedule.",
+   "offers": [
+    "residential retreats"
+   ],
+   "language": "en",
+   "source_url": "https://sites.google.com/site/penangbrahmavihari/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "kwan-um-us",
+   "name": "Providence Zen Center (Kwan Um)",
+   "type": "monastery",
+   "traditions": [
+    "kwan-um"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Cumberland, Rhode Island",
+   "lat": 41.97,
+   "lng": -71.43,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "seung-sahn"
+   ],
+   "url": "https://kwanumzen.org",
+   "url_checked": "2026-10-20",
+   "description": "US head temple of the Kwan Um School of Zen (Seung Sahn line); kong-an interviews, kyol che retreats.",
+   "offers": [
+    "residential practice",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://kwanumzen.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "sakya-seattle",
+   "name": "Sakya Monastery of Tibetan Buddhism",
+   "type": "monastery",
+   "traditions": [
+    "sakya"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Seattle, Washington",
+   "lat": 47.69,
+   "lng": -122.36,
+   "coord_precision": "approximate (unverified)",
+   "contact_page": "https://www.sakya.org/contact-us/",
+   "description": "Sakya school monastery founded by Dagchen Rinpoche; Tibetan shrine, teachings, community practice.",
+   "offers": [
+    "teachings",
+    "practice"
+   ],
+   "language": "en",
+   "source_url": "https://www.sakya.org/contact-us/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "sravasti-abbey",
+   "name": "Sravasti Abbey",
+   "type": "monastery",
+   "traditions": [
+    "tibetan"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Newport, Washington",
+   "lat": 48.18,
+   "lng": -117.04,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "thubten-chodron"
+   ],
+   "contact_page": "https://sravastiabbey.org/visit/",
+   "description": "Bhikshuni Thubten Chodron's Tibetan Buddhist abbey; visits by appointment, bhikshuni ordination lineage.",
+   "offers": [
+    "visits by appointment",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://sravastiabbey.org/visit/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "main_teacher": "thubten-chodron",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
+  },
+  {
+   "id": "land-medicine-buddha",
+   "name": "Land of Medicine Buddha",
+   "type": "retreat",
+   "traditions": [
+    "gelug"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Soquel, California",
+   "lat": 37.05,
+   "lng": -121.83,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "lama-zopa"
+   ],
+   "url": "https://www.landofmedicinebuddha.org",
+   "url_checked": "2026-10-20",
+   "description": "FPMT retreat centre in the redwoods; lam-rim courses in the Lama Yeshe/Zopa lineage.",
+   "offers": [
+    "residential retreats",
+    "courses"
+   ],
+   "language": "en",
+   "source_url": "https://www.landofmedicinebuddha.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "cttb-city",
+   "name": "City of Ten Thousand Buddhas",
+   "type": "monastery",
+   "traditions": [
+    "mahayana"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Ukiah, California",
+   "lat": 39.13,
+   "lng": -123.16,
+   "coord_precision": "approximate (unverified)",
+   "url": "http://www.cttb.org",
+   "url_checked": "2026-10-20",
+   "description": "Hsuan Hua's City of Ten Thousand Buddhas; Chan/Pure Land monastic city, schools, university.",
+   "offers": [
+    "visits",
+    "study",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "http://www.cttb.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "dharma-drum-retreat",
+   "name": "Dharma Drum Retreat Center",
+   "type": "retreat",
+   "traditions": [
+    "chan"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Pine Bush, New York",
+   "lat": 41.65,
+   "lng": -74.33,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "sheng-yen"
+   ],
+   "contact_page": "https://dharmadrumretreat.org/contact-us/",
+   "description": "Sheng Yen's Chan retreat centre (Linji/Caodong); silent illumination and hua-tou retreats.",
+   "offers": [
+    "residential retreats"
+   ],
+   "language": "en",
+   "source_url": "https://dharmadrumretreat.org/contact-us/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "sivananda-ranch",
+   "name": "Sivananda Ashram Yoga Ranch",
+   "type": "ashram",
+   "traditions": [
+    "divine-life-society"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Woodbourne, New York",
+   "lat": 41.75,
+   "lng": -74.6,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.sivananda.org",
+   "url_checked": "2026-10-20",
+   "description": "Sivananda Yoga Ranch (Catskills); TTC/ATTC teacher trainings, yoga vacations, Vishnudevananda lineage.",
+   "offers": [
+    "teacher training",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://www.sivananda.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "isha-institute",
+   "name": "Isha Institute of Inner Sciences",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "McMinnville, Tennessee",
+   "lat": 35.68,
+   "lng": -85.77,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "sadhguru"
+   ],
+   "url": "https://www.ishausa.org",
+   "url_checked": "2026-10-20",
+   "description": "Sadhguru's Isha Institute of Inner Sciences; Inner Engineering, advanced yoga programmes.",
+   "offers": [
+    "programmes",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://www.ishausa.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "sadhguru",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
+  },
+  {
+   "id": "amma-ma-center",
+   "name": "MA Center (Amma)",
+   "type": "ashram",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "San Ramon, California",
+   "lat": 37.78,
+   "lng": -121.98,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "amma"
+   ],
+   "url": "https://www.amma.org",
+   "url_checked": "2026-10-20",
+   "description": "Amma's US ashram (Mata Amritanandamayi Math); darshan tours, retreats, humanitarian programmes.",
+   "offers": [
+    "darshan",
+    "retreats",
+    "seva"
+   ],
+   "language": "en",
+   "source_url": "https://www.amma.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "amma",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
+  },
+  {
+   "id": "kripalu",
+   "name": "Kripalu Center",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Stockbridge, Massachusetts",
+   "lat": 42.29,
+   "lng": -73.32,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://kripalu.org",
+   "url_checked": "2026-10-20",
+   "description": "Yoga and mindfulness retreat centre (Kripalu lineage); R&R, workshops, trainings.",
+   "offers": [
+    "retreats",
+    "trainings"
+   ],
+   "language": "en",
+   "source_url": "https://kripalu.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "himalayan-institute",
+   "name": "Himalayan Institute",
+   "type": "retreat",
+   "traditions": [
+    "hindu"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "lat": 41.58,
+   "lng": -75.26,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "swami-rama"
+   ],
+   "description": "Swami Rama's Himalayan Institute (Honesdale PA); yoga teacher training, wellness, mission programmes.",
+   "offers": [
+    "trainings",
+    "retreats"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "contemplative-outreach",
+   "name": "Contemplative Outreach",
+   "type": "organisation",
+   "traditions": [
+    "christian"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "West Milford, New Jersey",
+   "lat": 41.13,
+   "lng": -74.36,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "thomas-keating"
+   ],
+   "description": "Keating's Centering Prayer network HQ; chapters, intensives, online sits worldwide.",
+   "offers": [
+    "chapters",
+    "retreats"
+   ],
+   "language": "en",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "saint-johns-abbey",
+   "name": "Saint John's Abbey",
+   "type": "monastery",
+   "traditions": [
+    "benedictine"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Collegeville, Minnesota",
+   "lat": 45.59,
+   "lng": -94.39,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.saintjohnsabbey.org",
+   "url_checked": "2026-10-20",
+   "description": "Benedictine abbey and university; liturgy, guesthouse, Hill Museum & Manuscript Library.",
+   "offers": [
+    "visits",
+    "retreats",
+    "study"
+   ],
+   "language": "en",
+   "source_url": "https://www.saintjohnsabbey.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "inayati-abode",
+   "name": "Abode of the Message (Inayati)",
+   "type": "retreat",
+   "traditions": [
+    "inayati"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "New Lebanon, New York",
+   "lat": 42.47,
+   "lng": -73.41,
+   "coord_precision": "approximate (unverified)",
+   "teachers": [
+    "pir-zia-inayat-khan"
+   ],
+   "url": "https://inayatiorder.org",
+   "url_checked": "2026-10-20",
+   "description": "Inayati Order headquarters (Abode of the Message); Pir Zia's retreats, Suluk academy, community.",
+   "offers": [
+    "retreats",
+    "academy"
+   ],
+   "language": "en",
+   "source_url": "https://inayatiorder.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "main_teacher": "pir-zia-inayat-khan",
+   "teacher_model": "single",
+   "main_teacher_conf": "high"
+  },
+  {
+   "id": "mevlevi-usa",
+   "name": "Dervish Retreat Center (Mevlevi)",
+   "type": "retreat",
+   "traditions": [
+    "mevlevi-rumi"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Spencer, New York",
+   "lat": 42.21,
+   "lng": -76.49,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://hayatidede.org",
+   "url_checked": "2026-10-20",
+   "description": "Mevlevi whirling-dervish retreat centre; workshops, performances, Rumi studies.",
+   "offers": [
+    "workshops",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://hayatidede.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "aleph-renewal",
+   "name": "Aleph Alliance for Jewish Renewal",
+   "type": "organisation",
+   "traditions": [
+    "neo-hasidism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "lat": 40.0,
+   "lng": -75.2,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://aleph.org",
+   "url_checked": "2026-10-20",
+   "description": "Jewish Renewal network (Aleph); neo-Hasidic retreats, ordination, ecstatic practice.",
+   "offers": [
+    "retreats",
+    "ordination"
+   ],
+   "language": "en",
+   "source_url": "https://aleph.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "theosophical-wheaton",
+   "name": "Theosophical Society (Wheaton)",
+   "type": "organisation",
+   "traditions": [
+    "theosophy"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Wheaton, Illinois",
+   "lat": 41.86,
+   "lng": -88.11,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.theosophical.org",
+   "url_checked": "2026-10-20",
+   "description": "Theosophical Society in America HQ (Olcott campus); library, courses, Quest books.",
+   "offers": [
+    "library",
+    "courses"
+   ],
+   "language": "en",
+   "source_url": "https://www.theosophical.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "adf-druidry",
+   "name": "Ár nDraíocht Féin (ADF)",
+   "type": "organisation",
+   "traditions": [
+    "druidry"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "lat": 39.0,
+   "lng": -98.0,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.adf.org",
+   "url_checked": "2026-10-20",
+   "description": "Modern Druid fellowship (Ár nDraíocht Féin); groves, liturgy, clergy training across the US.",
+   "offers": [
+    "groves",
+    "training"
+   ],
+   "language": "en",
+   "source_url": "https://www.adf.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "lily-dale",
+   "name": "Lily Dale Assembly",
+   "type": "retreat",
+   "traditions": [
+    "spiritualism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Lily Dale, New York",
+   "lat": 42.35,
+   "lng": -79.33,
+   "coord_precision": "approximate (unverified)",
+   "url": "https://www.lilydaleassembly.org",
+   "url_checked": "2026-10-20",
+   "description": "Spiritualist assembly and summer camp; mediumship, healing temple, lake services since 1879.",
+   "offers": [
+    "services",
+    "courses"
+   ],
+   "language": "en",
+   "source_url": "https://www.lilydaleassembly.org",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   }
  ],
  "countries": [
@@ -24631,7 +25502,7 @@
   {
    "code": "US",
    "name": "United States",
-   "places": 59,
+   "places": 78,
    "goenka": 14,
    "traditions": {
     "goenka-vipassana": 14,
@@ -24639,9 +25510,10 @@
     "soto-zen": 6,
     "ramakrishna-order": 5,
     "christian-mysticism": 5,
+    "tibetan": 4,
     "zen": 4,
+    "hindu": 4,
     "kagyu": 3,
-    "tibetan": 3,
     "plum-village": 3,
     "kriya-yoga": 3,
     "thai-forest": 2,
@@ -24653,7 +25525,21 @@
     "ocb": 1,
     "vedanta": 1,
     "quaker": 1,
-    "independent": 1
+    "independent": 1,
+    "kwan-um": 1,
+    "sakya": 1,
+    "gelug": 1,
+    "mahayana": 1,
+    "chan": 1,
+    "divine-life-society": 1,
+    "christian": 1,
+    "benedictine": 1,
+    "inayati": 1,
+    "mevlevi-rumi": 1,
+    "neo-hasidism": 1,
+    "theosophy": 1,
+    "druidry": 1,
+    "spiritualism": 1
    },
    "goenka_sites": 6
   },
@@ -24696,6 +25582,18 @@
    }
   },
   {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "places": 15,
+   "goenka": 6,
+   "traditions": {
+    "theravada": 8,
+    "goenka-vipassana": 6,
+    "early-suttas": 2,
+    "buddhism": 2
+   }
+  },
+  {
    "code": "AU",
    "name": "Australia",
    "places": 14,
@@ -24707,18 +25605,6 @@
     "tibetan": 1
    },
    "goenka_sites": 2
-  },
-  {
-   "code": "LK",
-   "name": "Sri Lanka",
-   "places": 14,
-   "goenka": 6,
-   "traditions": {
-    "theravada": 7,
-    "goenka-vipassana": 6,
-    "early-suttas": 2,
-    "buddhism": 2
-   }
   },
   {
    "code": "FR",
@@ -24840,6 +25726,19 @@
    "goenka_sites": 3
   },
   {
+   "code": "MY",
+   "name": "Malaysia",
+   "places": 4,
+   "goenka": 1,
+   "traditions": {
+    "goenka-vipassana": 1,
+    "mahasi": 1,
+    "theravada": 1,
+    "pa-auk": 1
+   },
+   "goenka_sites": 2
+  },
+  {
    "code": "NZ",
    "name": "New Zealand",
    "places": 3,
@@ -24872,6 +25771,18 @@
    "goenka_sites": 1
   },
   {
+   "code": "PL",
+   "name": "Poland",
+   "places": 3,
+   "goenka": 1,
+   "traditions": {
+    "christian-mysticism": 1,
+    "goenka-vipassana": 1,
+    "early-suttas": 1
+   },
+   "goenka_sites": 1
+  },
+  {
    "code": "ID",
    "name": "Indonesia",
    "places": 3,
@@ -24888,17 +25799,6 @@
    "traditions": {
     "plum-village": 1,
     "zen": 1,
-    "goenka-vipassana": 1
-   },
-   "goenka_sites": 1
-  },
-  {
-   "code": "PL",
-   "name": "Poland",
-   "places": 2,
-   "goenka": 1,
-   "traditions": {
-    "christian-mysticism": 1,
     "goenka-vipassana": 1
    },
    "goenka_sites": 1
@@ -24940,6 +25840,16 @@
    "goenka": 2,
    "traditions": {
     "goenka-vipassana": 2
+   },
+   "goenka_sites": 1
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia",
+   "places": 2,
+   "goenka": 0,
+   "traditions": {
+    "early-suttas": 2
    },
    "goenka_sites": 1
   },
@@ -25074,16 +25984,6 @@
     "goenka-vipassana": 1
    },
    "goenka_sites": 6
-  },
-  {
-   "code": "MY",
-   "name": "Malaysia",
-   "places": 1,
-   "goenka": 1,
-   "traditions": {
-    "goenka-vipassana": 1
-   },
-   "goenka_sites": 2
   },
   {
    "code": "NL",

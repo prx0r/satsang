@@ -1,0 +1,91 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "places": {
+  "brahma-vihari-penang": {
+   "checked": "2026-10-20",
+   "site": "https://sites.google.com/site/penangbrahmavihari/"
+  },
+  "hillside-hermitage": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://www.hillsidehermitage.org/",
+    "url": "https://www.hillsidehermitage.org/"
+   },
+   "site": "https://www.hillsidehermitage.org/"
+  },
+  "mbmc-penang": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://www.mbmcmalaysia.org/",
+    "url": "https://www.mbmcmalaysia.org/p/contact-us.html"
+   },
+   "email": [
+    {
+     "source_url": "https://www.mbmcmalaysia.org/p/contact-us.html",
+     "value": "mbmc.malaysia@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.mbmcmalaysia.org/p/contact-us.html",
+     "value": "+604-2401698"
+    }
+   ],
+   "site": "https://www.mbmcmalaysia.org/"
+  },
+  "meetirigala-nissarana-vanaya": {
+   "checked": "2026-10-20",
+   "email": [
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "nissaranavanaya@gmail.com"
+    },
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "office@nissarana.lk"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "+94 332253295"
+    },
+    {
+     "source_url": "https://www.nissarana.lk/contact/",
+     "value": "+94 77 722 3468"
+    }
+   ],
+   "site": "https://www.nissarana.lk"
+  },
+  "na-uyana": {
+   "checked": "2026-10-20",
+   "contact_page": {
+    "source_url": "https://nauyana.org/",
+    "url": "https://nauyana.org/contact-english/"
+   },
+   "email": [
+    {
+     "source_url": "https://nauyana.org/contact-english/",
+     "value": "nauyana@gmail.com"
+    }
+   ],
+   "phone": [
+    {
+     "source_url": "https://nauyana.org/na-uyana-english/",
+     "value": "+94 71 8455332"
+    }
+   ],
+   "site": "https://nauyana.org/"
+  },
+  "sasanarakkha-taiping": {
+   "checked": "2026-10-20",
+   "phone": [
+    {
+     "source_url": "https://sasanarakkha.org/about/",
+     "value": "+60 11 1601 1198"
+    }
+   ],
+   "site": "https://sasanarakkha.org/"
+  }
+ }
+}

@@ -473,6 +473,7 @@ def merge_ext_places(out):
         f = os.path.join(SRC, g, 'main-teachers.json')
         for m in (items(J(f), 'links') if os.path.exists(f) else []):
             P0, t = BYID.get(m['place']), PERSON_MAP.get(m['teacher'], m['teacher'])
+            if P0 and not t and m.get('model') in ('rotating', 'none'): P0['teacher_model'] = m['model']; log['teacher_model_set'] += 1; continue  # no single teacher by design
             if not P0 or t not in PB: log['main_teacher_unknown'] += 1; notes.append(f'main teacher {m["teacher"]} @ {m["place"]}: unknown'); continue
             P0['main_teacher'] = t; P0['teacher_model'] = m.get('model') or 'single'; P0['main_teacher_conf'] = m.get('conf') or 'medium'
             if t not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [t]

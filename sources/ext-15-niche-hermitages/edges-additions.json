@@ -1,0 +1,14 @@
+{
+ "_note": "staged from satsang-extensions/15-niche-hermitages",
+ "edges": [
+  {
+   "from": "pa-auk-sayadaw",
+   "to": "sayalay-dipankara",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "Ordained and trained as a meditation teacher at Pa-Auk Tawya (1990).",
+   "src": "https://www.cakkavala.org/Teacher.html",
+   "checked": "2026-10-20"
+  }
+ ]
+}

@@ -72,6 +72,10 @@ for f in sorted(glob.glob(os.path.join(WISER, 'sources', 'deep-*', 'practices.js
     d = J(f); L = d if isinstance(d, list) else d.get('practices', [])
     for p in L: add_practice(p)
 
+# practice attributions from staged packs (sources/ext-*/practice-links.json): teachers who teach the method publicly
+for f in sorted(glob.glob(os.path.join(WISER, 'sources', 'ext-*', 'practice-links.json'))):
+    for pid, l in (J(f).get('links') or {}).items():
+        if pid in practices: practices[pid]['teachers'] = sorted(set(practices[pid].get('teachers', []) + [t for t in l.get('teachers') or [] if t in PEOPLE]))
 # ---------- clip selection ----------
 DEEP = collections.Counter(c['speaker'] for c in clips if not c.get('full') and c.get('delivery') != 'footage' and not c.get('hubOnly'))
 def ballot(c): return not c.get('full') and c.get('delivery') != 'footage' and not c.get('hubOnly')
