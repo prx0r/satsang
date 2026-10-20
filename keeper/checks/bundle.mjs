@@ -20,7 +20,7 @@ export default {
     for (const [k, v] of Object.entries(out)) {
       if (!v.files) continue
       const pct = Math.round((v.gzip / lim) * 100)
-      const est = !/build output/.test(v.basis) && k === 'site' // the site estimate over-counts (not every file under app/site is embedded)
+      const est = v.basis !== 'build output' && k === 'site' // the site estimate over-counts (not every file under app/site is embedded)
       if (v.gzip > lim) F.push({ target: 'worker:' + k, severity: est ? 'info' : 'error', message: `${k} Worker ~${(v.gzip / 1e6).toFixed(2)} MB gzip, over the ${(lim / 1e6).toFixed(0)} MB limit (${v.basis})`, evidence: v })
       else if (pct >= 85) F.push({ target: 'worker:' + k, severity: est ? 'info' : 'warn', message: `${k} Worker ~${(v.gzip / 1e6).toFixed(2)} MB gzip = ${pct}% of the limit (${v.basis})`, evidence: v })
     }
