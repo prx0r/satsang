@@ -1,34 +1,17 @@
 {
- "sitemap": {
-  "at": "2026-10-20T13:10:12Z",
-  "cadence": "hourly",
-  "ms": 1089,
-  "failing": 0,
-  "passed": 127,
-  "checked": 120,
-  "total": 1395
- },
- "uptime": {
-  "at": "2026-10-20T13:10:12Z",
-  "cadence": "hourly",
-  "ms": 520,
-  "failing": 0,
-  "passed": 12,
-  "checked": 12
- },
  "bundle": {
-  "at": "2026-10-20T13:10:33Z",
+  "at": "2026-10-20T13:16:21Z",
   "cadence": "all",
-  "ms": 379,
-  "failing": 0,
+  "ms": 513,
+  "failing": 1,
   "passed": 0,
   "checked": 2,
   "sizes": {
    "site": {
-    "raw": 8991266,
-    "gzip": 1622355,
-    "files": 4,
-    "basis": "build output"
+    "raw": 15691089,
+    "gzip": 2554269,
+    "files": 24,
+    "basis": "estimate from tracked inputs (build output absent)"
    },
    "mcp": {
     "raw": 6267537,
@@ -39,79 +22,100 @@
   }
  },
  "integrity": {
-  "at": "2026-10-20T13:10:13Z",
+  "at": "2026-10-20T13:16:21Z",
   "cadence": "all",
-  "ms": 234,
-  "failing": 13,
+  "ms": 134,
+  "failing": 11,
   "passed": 0,
   "checked": 2280
  },
  "jsonld": {
-  "at": "2026-10-20T13:10:14Z",
+  "at": "2026-10-20T13:16:22Z",
   "cadence": "all",
-  "ms": 523,
+  "ms": 817,
   "failing": 0,
   "passed": 44,
   "checked": 44
  },
  "leaks": {
-  "at": "2026-10-20T13:10:19Z",
+  "at": "2026-10-20T13:16:26Z",
   "cadence": "all",
-  "ms": 5036,
+  "ms": 4190,
   "failing": 0,
   "passed": 0,
-  "checked": 576,
-  "grams": 300
+  "checked": 581,
+  "grams": 0
+ },
+ "linkrot": {
+  "at": "2026-10-20T13:18:02Z",
+  "cadence": "all",
+  "ms": 96422,
+  "failing": 16,
+  "passed": 662,
+  "checked": 700,
+  "unknown": 22,
+  "total": 1694
  },
  "links": {
-  "at": "2026-10-20T13:10:21Z",
+  "at": "2026-10-20T13:18:05Z",
   "cadence": "all",
-  "ms": 2009,
+  "ms": 3038,
   "failing": 2,
   "passed": 321,
   "checked": 323,
   "total": 323,
   "pages": 47
  },
- "perf": {
-  "at": "2026-10-20T13:10:21Z",
+ "oembed": {
+  "at": "2026-10-20T13:24:28Z",
   "cadence": "all",
-  "ms": 487,
+  "ms": 382653,
+  "failing": 0,
+  "passed": 2500,
+  "checked": 2500,
+  "unknown": 0,
+  "throttled": false,
+  "total": 9269
+ },
+ "perf": {
+  "at": "2026-10-20T13:24:29Z",
+  "cadence": "all",
+  "ms": 1147,
   "failing": 0,
   "passed": 0,
   "checked": 5,
   "perf": {
    "/": {
-    "ttfb": 32,
+    "ttfb": 154,
     "weight": 651942,
     "assets": 2
    },
    "/topic/rebirth": {
-    "ttfb": 11,
+    "ttfb": 31,
     "weight": 653878,
     "assets": 2
    },
    "/person/ajahn-chah": {
-    "ttfb": 12,
+    "ttfb": 29,
     "weight": 653714,
     "assets": 2
    },
    "/place/amaravati": {
-    "ttfb": 11,
+    "ttfb": 32,
     "weight": 652561,
     "assets": 2
    },
    "/agents": {
-    "ttfb": 12,
+    "ttfb": 30,
     "weight": 8654,
     "assets": 0
    }
   }
  },
  "provenance": {
-  "at": "2026-10-20T13:10:21Z",
+  "at": "2026-10-20T13:24:29Z",
   "cadence": "all",
-  "ms": 120,
+  "ms": 114,
   "failing": 158,
   "passed": 0,
   "checked": 1976,
@@ -123,32 +127,28 @@
   }
  },
  "robots": {
-  "at": "2026-10-20T13:12:40Z",
+  "at": "2026-10-20T13:24:29Z",
   "cadence": "all",
-  "ms": 343,
+  "ms": 151,
   "failing": 0,
   "passed": 14,
   "checked": 18
  },
- "oembed": {
-  "at": "2026-10-20T13:12:14Z",
+ "sitemap": {
+  "at": "2026-10-20T13:24:30Z",
   "cadence": "all",
-  "ms": 91932,
+  "ms": 604,
   "failing": 0,
-  "passed": 600,
-  "checked": 600,
-  "unknown": 0,
-  "throttled": false,
-  "total": 9269
+  "passed": 127,
+  "checked": 120,
+  "total": 1395
  },
- "linkrot": {
-  "at": "2026-10-20T13:14:56Z",
+ "uptime": {
+  "at": "2026-10-20T13:24:31Z",
   "cadence": "all",
-  "ms": 69298,
-  "failing": 10,
-  "passed": 423,
-  "checked": 450,
-  "unknown": 17,
-  "total": 1694
+  "ms": 884,
+  "failing": 0,
+  "passed": 12,
+  "checked": 12
  }
 }
