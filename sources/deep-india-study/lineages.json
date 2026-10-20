@@ -1,0 +1,431 @@
+{
+ "_note": "Edges typed teacher_of | academic_supervisor_of | influenced | translated | founded (person->org/place) | abbot_of (head/director/president of a place) | teaches_at. conf high = stated in the cited source; medium = secondary or inferred; source_url on every edge.",
+ "edges": [
+  {
+   "source": "alexis-sanderson",
+   "target": "mark-dyczkowski",
+   "type": "academic_supervisor_of",
+   "source_url": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "Oxford PhD on Kashmir Shaivism \"under the guidance of Professor Alexis Sanderson\". CONFLICT: deep-tantra/lineages.json has richard-gombrich → mark-dyczkowski academic_supervisor_of; reconcile (Gombrich may have been the formal Boden-era supervisor) before publishing either."
+  },
+  {
+   "source": "mark-dyczkowski",
+   "target": "arjun-seernels",
+   "type": "teacher_of",
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "\"two of the closest students of Markji\""
+  },
+  {
+   "source": "mark-dyczkowski",
+   "target": "brian-campbell",
+   "type": "teacher_of",
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "rameshwar-jha",
+   "target": "mark-dyczkowski",
+   "type": "teacher_of",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "conf": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "hemendra-chakravarti",
+   "target": "mark-dyczkowski",
+   "type": "teacher_of",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "conf": "medium",
+   "verified_on": "2026-10-20",
+   "note": "met 1971 in Varanasi"
+  },
+  {
+   "source": "gopinath-kaviraj",
+   "target": "hemendra-chakravarti",
+   "type": "teacher_of",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "conf": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "mark-dyczkowski",
+   "target": "manthanabhairava-tantra",
+   "type": "translated",
+   "source_url": "https://www.anuttaratrikakula.org/about-sadaasaya-mark-dyczkowski/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "mark-dyczkowski",
+   "target": "anuttara-trika-kula-varanasi",
+   "type": "founded",
+   "source_url": "https://www.anuttaratrikakula.org/",
+   "conf": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-lakshmanjoo",
+   "target": "ishwar-ashram-srinagar",
+   "type": "founded",
+   "source_url": "https://www.lakshmanjooacademy.org/kashmir-ashram",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1962"
+  },
+  {
+   "source": "swami-lakshmanjoo",
+   "target": "kashmir-shaiva-institute-jammu",
+   "type": "founded",
+   "source_url": "https://ishwarashram.in/affiliates-kashmir-shaiva-institute/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1969 (Guptganga); revived 2013"
+  },
+  {
+   "source": "bettina-baumer",
+   "target": "samvidalaya-varanasi",
+   "type": "abbot_of",
+   "source_url": "https://www.utpaladeva.in/cv-vita/curriculum-vita",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "Director, Samvidalaya – Abhinavagupta Research Library (2006–present)"
+  },
+  {
+   "source": "gurumayi-chidvilasananda",
+   "target": "muktabodha-indological-research-institute",
+   "type": "founded",
+   "source_url": "https://muktabodha.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1997"
+  },
+  {
+   "source": "yogi-kamalnath",
+   "target": "yogi-mithileshnath",
+   "type": "teacher_of",
+   "source_url": "https://nathas.org/en/parampara/gurus/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "yogi-mithileshnath",
+   "target": "yogi-matsyendranath-maharaj",
+   "type": "teacher_of",
+   "source_url": "https://nathas.org/en/parampara/gurus/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "\"his main disciple - Guruji Matsyendranath\""
+  },
+  {
+   "source": "yogi-matsyendranath-maharaj",
+   "target": "nathas-org-natha-tradition",
+   "type": "founded",
+   "source_url": "https://nathas.org/en/about/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "yogi-mithileshnath",
+   "target": "devipatan-shaktipeeth-tulsipur",
+   "type": "abbot_of",
+   "source_url": "https://nathas.org/en/parampara/gurus/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2011–"
+  },
+  {
+   "source": "yogi-adityanath",
+   "target": "gorakhnath-math-gorakhpur",
+   "type": "abbot_of",
+   "source_url": "https://www.gorakhnathmandir.in/peethadhishwar.aspx",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2014–"
+  },
+  {
+   "source": "yogi-adityanath",
+   "target": "yogi-mahasabha-haridwar",
+   "type": "abbot_of",
+   "source_url": "https://weeklyblitz.net/2023/05/21/apex-organization-of-nath-panth-all-india-avdhoot-disguise-twelve-panth-yogi-mahasabha-meeting-cm-yogi-took-decision/",
+   "conf": "medium",
+   "verified_on": "2026-10-20",
+   "note": "elected president 25 Sep 2014"
+  },
+  {
+   "source": "yogi-nirmalnath",
+   "target": "kadri-jogi-mutt-mangaluru",
+   "type": "abbot_of",
+   "source_url": "https://www.mangaloretoday.com/main/Sri-Yogi-Nirmalnathji-anointed-as-new-Raja-of-Kadali-Jogi-Mutt.html",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2016–"
+  },
+  {
+   "source": "gorakhnath",
+   "target": "gorakhnath-math-gorakhpur",
+   "type": "influenced",
+   "source_url": "https://www.gorakhnathmandir.in/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "tapasthali/seat named for Gorakhnath"
+  },
+  {
+   "source": "swami-niranjanananda",
+   "target": "swami-charanashrit-giri",
+   "type": "teacher_of",
+   "source_url": "https://www.swarayoga.org/about",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "karma-sannyāsa initiation"
+  },
+  {
+   "source": "swami-charanashrit-giri",
+   "target": "swara-yoga-peeth-rishikesh",
+   "type": "founded",
+   "source_url": "https://www.swarayoga.org/courses",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2004"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "swami-brahmatmananda",
+   "type": "teacher_of",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-brahmatmananda",
+   "target": "swami-sadatmananda",
+   "type": "teacher_of",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1986"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "swami-sadatmananda",
+   "type": "influenced",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "courses run \"under the guidance of Pujya Swamiji\""
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "swami-shankarananda-avg",
+   "type": "teacher_of",
+   "source_url": "https://arshavidya.in/teachers/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "swamini-brahmaprakasananda",
+   "type": "teacher_of",
+   "source_url": "https://avgnagpur.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "arsha-vidya-pitham-rishikesh",
+   "type": "founded",
+   "source_url": "https://www.dayananda.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1960s"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "arsha-vidya-anaikatti",
+   "type": "founded",
+   "source_url": "https://arshavidya.in/gurukulam",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1990"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "arsha-vijnana-gurukulam-nagpur",
+   "type": "founded",
+   "source_url": "https://avgnagpur.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-dayananda-saraswati",
+   "target": "arsha-vidya-saylorsburg",
+   "type": "founded",
+   "source_url": "https://arshavidya.org/2024-five-week-vedanta-course",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1986"
+  },
+  {
+   "source": "swami-sadatmananda",
+   "target": "arsha-vidya-anaikatti",
+   "type": "abbot_of",
+   "source_url": "https://arshavidya.in/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2014–"
+  },
+  {
+   "source": "swami-viditatmananda",
+   "target": "arsha-vidya-saylorsburg",
+   "type": "abbot_of",
+   "source_url": "https://arshavidya.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "President"
+  },
+  {
+   "source": "swamini-brahmaprakasananda",
+   "target": "arsha-vijnana-gurukulam-nagpur",
+   "type": "abbot_of",
+   "source_url": "https://avgnagpur.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "swami-satyananda",
+   "target": "bihar-school-of-yoga",
+   "type": "founded",
+   "source_url": "https://www.biharyoga.net/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1963"
+  },
+  {
+   "source": "swami-sivananda",
+   "target": "sivananda-rishikesh",
+   "type": "founded",
+   "source_url": "https://en.wikipedia.org/wiki/Divine_Life_Society",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1936"
+  },
+  {
+   "source": "swami-kuvalayananda",
+   "target": "kaivalyadhama-lonavla",
+   "type": "founded",
+   "source_url": "https://kdham.com/campus/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1924"
+  },
+  {
+   "source": "tkv-desikachar",
+   "target": "krishnamacharya-yoga-mandiram",
+   "type": "founded",
+   "source_url": "https://www.kym.org/about-kym",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1976"
+  },
+  {
+   "source": "venkat-s-ramanan",
+   "target": "sri-ramanasramam",
+   "type": "abbot_of",
+   "source_url": "https://www.youtube.com/watch?v=KVF8-erTeCA",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "President of Sri Ramanasramam (video title)"
+  },
+  {
+   "source": "amritananda",
+   "target": "devipuram",
+   "type": "founded",
+   "source_url": "https://devipuram.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "1983–1994"
+  },
+  {
+   "source": "bharati-tirtha",
+   "target": "vidhushekhara-bharati",
+   "type": "teacher_of",
+   "source_url": "https://www.sringeri.net/",
+   "conf": "medium",
+   "verified_on": "2026-10-20",
+   "note": "successor-designate (sannyāsa 2015)"
+  },
+  {
+   "source": "bharati-tirtha",
+   "target": "sringeri",
+   "type": "abbot_of",
+   "source_url": "https://www.sringeri.net/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "dominic-goodall",
+   "target": "efeo-pondicherry",
+   "type": "abbot_of",
+   "source_url": "https://publications.efeo.fr/en/livres/840_tantric-studies",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "years": "2002–2011",
+   "note": "Head of the Pondicherry Centre"
+  },
+  {
+   "source": "dominic-goodall",
+   "target": "ifp-pondicherry",
+   "type": "teaches_at",
+   "source_url": "https://www.ifpindia.org/projects/critical-edition-of-the-karanagama",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "PI, critical edition of the Kāraṇāgama"
+  },
+  {
+   "source": "geshe-lhakdor",
+   "target": "ltwa-dharamsala",
+   "type": "abbot_of",
+   "source_url": "https://tibetanlibrary.org/",
+   "conf": "high",
+   "verified_on": "2026-10-20",
+   "note": "Director"
+  },
+  {
+   "source": "lama-yeshe",
+   "target": "kopan",
+   "type": "founded",
+   "source_url": "https://kopanmonastery.org/november-course/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "lama-zopa",
+   "target": "kopan",
+   "type": "founded",
+   "source_url": "https://kopanmonastery.org/november-course/",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "chokyi-nyima-rinpoche",
+   "target": "rangjung-yeshe-institute",
+   "type": "founded",
+   "source_url": "https://ryi.org/about-us/vision-and-mission",
+   "conf": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "source": "goenka",
+   "target": "dhamma-giri-igatpuri",
+   "type": "founded",
+   "source_url": "https://www.dhamma.org/en/schedules/schgiri",
+   "conf": "medium",
+   "verified_on": "2026-10-20",
+   "note": "Golden Jubilee 6 Dec 2026 implies 1976"
+  }
+ ]
+}

@@ -300,4 +300,8 @@ KEEPER_PLACE_MERGE = {'dhamma-khetta2': 'dhamma-khetta'}   # same centre, same d
 # India study bad URLs, applied wherever these places exist (none of them are in the live data on 2026-10-20)
 KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maakamakhya.org', 'ltwa.net': 'https://tibetanlibrary.org'}
 # cited URLs that moved (practices/texts read straight from sources/deep-*): old -> current official page
+# India study places removed before merge (reason recorded in the review queue). Schema requires an ISO-3166 alpha-2 country.
+# nathas-org-natha-tradition: pack gave country "INT"; nathas.org (about, contacts, disciples pages, checked 2026-10-21) names no
+# headquarters country (disciples "in different countries"; teachers listed in Moscow, Chelyabinsk...), so no honest ISO code exists.
+PLACE_DROP = {'nathas-org-natha-tradition': 'country "INT" is not ISO 3166; nathas.org (about/contacts/disciples, checked 2026-10-21) states no headquarters country; schema requires one, so the record is removed (people and resources kept)'}
 KEEPER_URL_MOVED = {'https://sanshin.org': 'https://www.sanshinji.org/'}

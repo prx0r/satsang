@@ -6240,10 +6240,16 @@
    "channels": [
     {
      "name": "Bettina Sharada Bäumer"
+    },
+    {
+     "name": "https://www.youtube.com/@bettinasharadabaumer174"
     }
    ],
    "aliases": [],
-   "works": []
+   "works": [],
+   "links": {
+    "Website": "https://www.utpaladeva.in/"
+   }
   },
   {
    "id": "bjarne-wernicke-olesen",
@@ -6841,7 +6847,7 @@
    "name": "Mark Dyczkowski",
    "kind": "speaker",
    "role": "scholar",
-   "tradition": "kashmir-shaivism",
+   "tradition": "trika",
    "years": "1951–2025",
    "bio": "English Indologist and sitarist who lived four decades in Varanasi; initiated by Lakshmanjoo in 1976; translator of the Spanda texts, the Manthānabhairava Tantra and the 11-volume Tantrāloka. Died in Varanasi on 2 February 2025. Since April 2026 his students Arjun Seernels and Brian Campbell lead the Anuttara Trika Kula Reading Circles.",
    "channels": [
@@ -14572,6 +14578,450 @@
    "verified_on": "2026-10-20",
    "confidence": "medium",
    "role": "text"
+  },
+  {
+   "id": "arjun-seernels",
+   "name": "Arjun Seernels",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "trika",
+   "bio": "Close student of Mark Dyczkowski who co-leads the Anuttara Trika Kula online Reading Circles on the Tantrāloka (from April 2026).",
+   "links": {
+    "Website": "https://www.anuttaratrikakula.org/reading-circles/"
+   },
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "brian-campbell",
+   "name": "Brian Campbell",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "trika",
+   "bio": "Student of Mark Dyczkowski and Sanskritist who co-leads the Anuttara Trika Kula Reading Circles; announced Dyczkowski’s death and the completed Tantrāloka translation on the INDOLOGY list.",
+   "links": {
+    "Website": "https://www.anuttaratrikakula.org/reading-circles/"
+   },
+   "source_url": "https://list.indology.info/pipermail/indology/2025-February/060196.html",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "rameshwar-jha",
+   "name": "Acharya Rameshwar Jha",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "trika",
+   "bio": "Varanasi pandit and Kashmir Śaiva teacher under whom the young Mark Dyczkowski studied.",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "hemendra-chakravarti",
+   "name": "Pandit Hemendra (Hemant) Nath Chakravarti",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "trika",
+   "bio": "Varanasi scholar, disciple of Gopinath Kaviraj, editor of a Tantrasāra translation; teacher of Mark Dyczkowski from 1971.",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "gopinath-kaviraj",
+   "name": "Gopinath Kaviraj",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "shakta",
+   "years": "1887–1976",
+   "bio": "Varanasi Sanskrit scholar and Tantric adept, disciple of Vishuddhananda and close to Anandamayi Ma.",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "gurumayi-chidvilasananda",
+   "name": "Gurumayi Chidvilasananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "siddha-yoga",
+   "bio": "Head of Siddha Yoga who inaugurated the Muktabodha Indological Research Institute in 1997.",
+   "source_url": "https://muktabodha.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "yogi-matsyendranath-maharaj",
+   "name": "Guru Yogi Matsyendranath Maharaj (Matsyeshvarnath)",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "siddha-siddhanta",
+   "bio": "Russian-born Nāth yogi who lived long among Nāths in India, received full initiation and guru status, and teaches Nāth haṭha and tantric sādhanā internationally through nathas.org.",
+   "channels": [
+    {
+     "name": "https://www.youtube.com/user/NathaChannel"
+    }
+   ],
+   "links": {
+    "Website": "https://nathas.org/en/"
+   },
+   "source_url": "https://nathas.org/en/about/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "yogi-lakshminath",
+   "name": "Yogi Lakshminath Maharaj",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "siddha-siddhanta",
+   "bio": "Teacher in the nathas.org community who leads online courses on prāṇāyāma, meditation, āsana and Śiva Sūtra satsangs.",
+   "links": {
+    "Website": "https://nathas.org/en/news/"
+   },
+   "source_url": "https://nathas.org/en/news/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "yogi-allamanath",
+   "name": "Yogi Allamanath",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "siddha-siddhanta",
+   "bio": "Teacher in the nathas.org community (tea satsangs and talks on the NathaChannel).",
+   "source_url": "https://nathas.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "yogi-kamalnath",
+   "name": "Yogi Kamalnath",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "siddha-siddhanta",
+   "bio": "Main pujari of the Gorakhnath Mandir, Gorakhpur; teacher of Yogi Mithileshnath.",
+   "source_url": "https://nathas.org/en/parampara/gurus/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-sadatmananda",
+   "name": "Swami Sadatmananda Saraswati",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Chief ācārya of Arsha Vidya Gurukulam, Anaikatti, since 2014 and paramount trustee of Sruti Seva Trust; trained under Swami Brahmatmananda (Baroda, 1986) and taught at Arsha Vidya Kendra Bangalore 1994–2014.",
+   "channels": [
+    {
+     "name": "https://www.youtube.com/@avganaikatti"
+    }
+   ],
+   "links": {
+    "Website": "https://arshavidya.in/swami-sadatmananda-sarswati"
+   },
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-brahmatmananda",
+   "name": "Swami Brahmatmananda",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "arsha-vidya",
+   "bio": "Student of Swami Dayananda who ran a three-year Vedānta course in Baroda (1986) attended by Swami Sadatmananda.",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-shankarananda-avg",
+   "name": "Swami Shankarananda Saraswati (Arsha Vidya)",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Disciple of Swami Dayananda teaching online Vedānta classes and retreats for AVG Anaikatti; ācārya of its Jan–Mar 2027 residential course. Distinct from Swami Shankarananda of Shiva Ashram (Kashmir Shaivism).",
+   "source_url": "https://arshavidya.in/teachers/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-sakshatkrtananda",
+   "name": "Swami Sakshatkrtananda Saraswati",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Senior Arsha Vidya teacher associated with Swami Dayananda Ashram, Rishikesh (listed in its About menu; ashram contact address sakshat1949@).",
+   "source_url": "https://www.dayananda.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swamini-brahmaprakasananda",
+   "name": "Mahamahopadhyaya Swamini Brahmaprakasananda Saraswati",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Senior disciple of Swami Dayananda and chief ācārya of Arsha Vijnana Gurukulam, Nagpur.",
+   "source_url": "https://avgnagpur.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swamini-vedarthananda",
+   "name": "Swamini Vedarthananda Saraswati",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Faculty member at AVG Anaikatti who also looks after its temples.",
+   "source_url": "https://arshavidya.in/teachers/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swamini-saradananda",
+   "name": "Swamini Saradananda Saraswati",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Faculty member at AVG Anaikatti who also looks after its temples.",
+   "source_url": "https://arshavidya.in/teachers/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-muktatmananda",
+   "name": "Swami Muktatmananda Saraswati",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Arsha Vidya teacher (Vedānta-sāra, Significance of OM series) at AVG Saylorsburg.",
+   "source_url": "https://arshavidya.org/live",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-sachidananda-avg",
+   "name": "Swami Sachidananda (AVG)",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Arsha Vidya teacher and chanter at AVG Saylorsburg (Yoga of Objectivity series, satsangs).",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-advayatmananda",
+   "name": "Swami Advayatmananda",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Arsha Vidya teacher (Hastāmalakīyam course, guided meditations) at AVG Saylorsburg, 2025.",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-pratyagbodhananda",
+   "name": "Swami Pratyagbodhananda",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Arsha Vidya teacher whose talks appear on the AVG channel.",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swamini-paraprajnananda",
+   "name": "Swamini Paraprajnananda",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "arsha-vidya",
+   "bio": "Arsha Vidya teacher whose classes appear on the AVG channel.",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-atmaswarupananda",
+   "name": "Swami Atmaswarupananda",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "divine-life-society",
+   "bio": "Senior Divine Life Society monk who gives the morning meditation talks at the Christmas–New Year retreats, Sivananda Ashram.",
+   "source_url": "https://www.youtube.com/channel/UCDvqCbXY7BietQqqDrZgzOA",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-krishnananda",
+   "name": "Swami Krishnananda",
+   "kind": "speaker",
+   "role": "figure",
+   "tradition": "divine-life-society",
+   "years": "1922–2001",
+   "bio": "General secretary of the Divine Life Society for decades and prolific Vedānta lecturer (archival recordings).",
+   "source_url": "https://www.youtube.com/channel/UCDvqCbXY7BietQqqDrZgzOA",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "kym-faculty",
+   "name": "KYM faculty (Krishnamacharya Yoga Mandiram)",
+   "kind": "speaker",
+   "role": "figure",
+   "tradition": "krishnamacharya-yoga",
+   "bio": "Collective teaching uploads of the Krishnamacharya Yoga Mandiram: chanting, Dhanur-dhyāna sādhanā, prāṇa lecture series.",
+   "source_url": "https://www.kym.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "geshe-lhakdor",
+   "name": "Geshe Lhakdor (Lobsang Jordhen)",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "gelug",
+   "bio": "Director of the Library of Tibetan Works and Archives, former English translator to the Dalai Lama; teaches introductory Buddhism and Atiśa at LTWA.",
+   "source_url": "https://tibetanlibrary.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "tenzin-gache",
+   "name": "Ven. Tenzin Gache",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "tibetan",
+   "bio": "FPMT teacher presenting Nāgārjuna’s Seventy Stanzas and Sixty Stanzas at Root Institute.",
+   "source_url": "https://www.youtube.com/channel/UCh7Knf7AkgL-Cv-zV98qCDQ",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "tenzin-legtsok",
+   "name": "Ven. Tenzin Legtsok",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "tibetan",
+   "bio": "FPMT teacher (\"Exploring the Mind Itself\") at Root Institute.",
+   "source_url": "https://www.youtube.com/channel/UCh7Knf7AkgL-Cv-zV98qCDQ",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "geshe-tenzin-zopa",
+   "name": "Geshe Tenzin Zopa",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "tibetan",
+   "bio": "Gelug geshe teaching Atiśa’s Lamp for the Path and the Wheel of Sharp Weapons at Root Institute.",
+   "source_url": "https://www.rootinstitute.ngo/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium",
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "yogi-mithileshnath",
+   "name": "Guru Yogi Mithileshnath Maharaj",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "siddha-siddhanta",
+   "lineageOnly": true,
+   "aliases": [],
+   "works": [],
+   "bio": "Dharmanāth-panthī sadhu of Gorakhpur, student of Yogi Kamalnath and Yogi Dasharathnath, appointed head of the Nāth temple at Devi Patan in 2011; guru of Yogi Matsyendranath."
+  },
+  {
+   "id": "gorakhnath-math-gorakhpur",
+   "name": "Gorakhnath Math Gorakhpur",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "siddha-siddhanta",
+   "lineageOnly": true,
+   "aliases": [],
+   "works": []
+  },
+  {
+   "id": "swami-charanashrit-giri",
+   "name": "Swami (Sannyasi) Charanashrit Giri",
+   "kind": "speaker",
+   "role": "teacher",
+   "tradition": "bihar-yoga",
+   "lineageOnly": true,
+   "aliases": [],
+   "works": [],
+   "bio": "Founder-guru of Swara Yoga Peeth, Rishikesh; karma-sannyāsin of Paramahamsa Niranjanananda (Bihar School of Yoga), teaching the Śiva Svarodaya since 1993; titled Mahamandaleshwar in recent videos.",
+   "channels": [
+    {
+     "name": "https://www.youtube.com/@SwaraYogaPeeth"
+    }
+   ],
+   "links": {
+    "Website": "https://www.swarayoga.org/charan"
+   }
   }
  ]
 }

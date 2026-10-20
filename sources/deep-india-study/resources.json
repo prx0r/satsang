@@ -1,0 +1,587 @@
+{
+ "_note": "deep-india-study resources: legitimate links only (official sites, publishers, author-posted or open-access PDFs). access free|paid|mixed. Unauthorised archive.org/scribd/pdfcoffee uploads of Dyczkowski books were seen and deliberately NOT listed.",
+ "resources": [
+  {
+   "id": "dyczkowski-anuttaratrikakula",
+   "person": "mark-dyczkowski",
+   "title": "The Trika Shaivism of Kashmir — Anuttara Trika Kula (Dyczkowski’s official site)",
+   "kind": "website",
+   "access": "mixed",
+   "url": "https://www.anuttaratrikakula.org/",
+   "notes": "Hundreds of hours of lectures; most courses paid after registration; a free-lecture set and Tantrāloka Ch.1 Lesson 1 free.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-free-lectures",
+   "person": "mark-dyczkowski",
+   "title": "Free lectures (How to Chant OM, The Heart Lecture, Meaning of Anuttara, Locating Trika, Sources of the Tantrāloka, Bhairava Stava, Kashi Sacred Space, Vyomavāpin mantra, Karma and Rebirth, Tantras–Buddhism–Upaniṣads, Yoginīs, Kuṇḍalinī)",
+   "kind": "lecture-audio",
+   "access": "free",
+   "url": "https://www.anuttaratrikakula.org/the-heart-lecture/",
+   "notes": "Each listed under the site’s “Free Lectures” menu.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-tantraloka-ch1-lesson1",
+   "person": "mark-dyczkowski",
+   "title": "Tantrāloka Chapter 1 Lesson 1 (free sample lesson)",
+   "kind": "lecture-audio",
+   "access": "free",
+   "url": "https://www.anuttaratrikakula.org/tantraloka-chapter-1-lesson-1-overview/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-tantraloka-translation",
+   "person": "mark-dyczkowski",
+   "title": "Tantrāloka — The Light on and of the Tantras, with Jayaratha’s commentary (11 vols, chs 1–37), tr. Mark Dyczkowski (2023–24)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/tantraloka-translation/",
+   "notes": "Sold on Amazon (e.g. Vol. 1: https://www.amazon.com/dp/B0BW2GDPPP). Free per-volume contents PDFs on the same page (e.g. http://www.anuttaratrikakula.org/wp-content/uploads/2023/08/Content-Volume-1.pdf). An introduction volume and a sources volume were announced.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-tantraloka-courses",
+   "person": "mark-dyczkowski",
+   "title": "Tantrāloka chapter courses (Ch. 1–13 detailed; “A journey through Tantrāloka 1–37”; Tantrasāra and Tantrāloka lectures)",
+   "kind": "course",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/tantraloka-chapters-detailed-course/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-other-courses",
+   "person": "mark-dyczkowski",
+   "title": "Courses: Vijñānabhairava (history & text), Śiva Sūtras, Doctrine of Vibration revisited, Spanda Saṃdoha, Sixteen Amṛtarudras, World of the Yoginīs, Vātūlanāthasūtra, Niṣkriyānanda, Prāṇa; workshops on Chummāsaṃketaprakāśa and the Twelve Kālīs; Kubjikā lectures; Rāga and Recitation",
+   "kind": "course",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/doctrine-of-vibration/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-reading-circles",
+   "person": "mark-dyczkowski",
+   "title": "Reading Circles (online, from 5 Apr 2026): Tantrāloka Ch. 28, led by Arjun Seernels and Brian Campbell",
+   "kind": "live-course",
+   "access": "see page",
+   "url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-doctrine-of-vibration",
+   "person": "mark-dyczkowski",
+   "title": "The Doctrine of Vibration: An Analysis of the Doctrines and Practices of Kashmir Shaivism (SUNY Press, 1987)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.degruyterbrill.com/document/doi/10.1515/9781438401744/html?lang=en",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-stanzas-on-vibration",
+   "person": "mark-dyczkowski",
+   "title": "The Stanzas on Vibration (Spandakārikā with four commentaries) (SUNY, 1992)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/libraries-links/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-aphorisms-of-siva",
+   "person": "mark-dyczkowski",
+   "title": "The Aphorisms of Śiva: the Śiva Sūtra with Bhāskara’s Vārttika (SUNY, 1992)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/libraries-links/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-canon",
+   "person": "mark-dyczkowski",
+   "title": "The Canon of the Śaivāgama and the Kubjikā Tantras of the Western Kaula Tradition (SUNY, 1988)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/libraries-links/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-manthanabhairava",
+   "person": "mark-dyczkowski",
+   "title": "Manthānabhairavatantram (Kumārikākhaṇḍa), critical edition and translation, multi-volume (IGNCA / D.K. Printworld, 2009)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.anuttaratrikakula.org/libraries-links/",
+   "notes": "Site bio says 12 volumes.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-kubjika-kali-tripura",
+   "person": "mark-dyczkowski",
+   "title": "Kubjikā, Kālī, Tripurā and Trika (Nepal Research Centre / Franz Steiner, 2000); The Cult of the Goddess Kubjikā (2001)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://en.wikipedia.org/wiki/Mark_Dyczkowski",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-journey",
+   "person": "mark-dyczkowski",
+   "title": "A Journey in the World of the Tantras (Indica Books, Varanasi, 2004); Self Awareness, Own Being and Egoity (1990)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://en.wikipedia.org/wiki/Mark_Dyczkowski",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-obituary-jds",
+   "person": "mark-dyczkowski",
+   "title": "Rajan, “Remembering the Devoted Kashmir Śaivist: Mark Dyczkowski”, Journal of Dharma Studies (2025)",
+   "kind": "article",
+   "access": "see publisher",
+   "url": "https://link.springer.com/article/10.1007/s42240-025-00218-y",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dyczkowski-video-note",
+   "person": "mark-dyczkowski",
+   "title": "Video: no official Dyczkowski YouTube channel found; institutional uploads (BHU Dept. of Philosophy and Religion, Science and Nonduality) are already in sources/deep-tantra (11 clips, 7 long lectures)",
+   "kind": "note",
+   "access": "free",
+   "url": "https://www.anuttaratrikakula.org/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "lja-weekly-sangha",
+   "person": "swami-lakshmanjoo",
+   "title": "Lakshmanjoo Academy free weekly online sangha (Sat) and puja (Sun), with recordings",
+   "kind": "live-course",
+   "access": "free",
+   "url": "https://www.lakshmanjooacademy.org/free-weekly-sangha",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "lja-meditation-webinar",
+   "person": "swami-lakshmanjoo",
+   "title": "“Meditation in Kashmir Shaivism” four-week webinar (free) + monthly Zoom meetings",
+   "kind": "course",
+   "access": "free",
+   "url": "https://www.lakshmanjooacademy.org/Meditation-in-Kashmir-Shaivism",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "lja-blog",
+   "person": "swami-lakshmanjoo",
+   "title": "“Swamiji Says” blog: transcribed passages from Lakshmanjoo’s teachings",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://www.lakshmanjooacademy.org/blog",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "lja-books-courses",
+   "person": "swami-lakshmanjoo",
+   "title": "Lakshmanjoo Academy books (Śiva Sūtras, Vijñāna Bhairava, Tantrāloka revelations…) and video courses",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.lakshmanjooacademy.org/books",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "lja-youtube",
+   "person": "swami-lakshmanjoo",
+   "title": "Lakshmanjoo Academy YouTube channel",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/@LakshmanjooAcademy",
+   "notes": "Already harvested in app + deep-tantra.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "iat-audio",
+   "person": "swami-lakshmanjoo",
+   "title": "Ishwar Ashram Trust: audio/video files of Lakshmanjoo’s teachings (1968 lecture on Kashmir Shaivism; 1965 Kundalini lecture at Varanasi)",
+   "kind": "lecture-audio",
+   "access": "free",
+   "url": "https://www.ishwarashramtrust.com/aboutIAT.php",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "iat-publications",
+   "person": "swami-lakshmanjoo",
+   "title": "Ishwar Ashram Trust publications and the quarterly journal Malini",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://www.ishwarashramtrust.com/pub.php",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "baumer-youtube",
+   "person": "bettina-baumer",
+   "title": "Bettina Sharada Bäumer YouTube channel (retreat teachings)",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/@bettinasharadabaumer174/playlists",
+   "notes": "78 clips already in sources/deep-tantra.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "baumer-articles",
+   "person": "bettina-baumer",
+   "title": "Bäumer: selected articles and online publications (utpaladeva.in) and Academia profile",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://www.utpaladeva.in/",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "muktabodha-digital-library",
+   "person": null,
+   "title": "Muktabodha Digital Library — 570+ searchable Sanskrit e-texts (Kashmir Śaiva, Śaiva Siddhānta, Vīraśaiva), IFP paper transcripts, Gokarna Vedic manuscripts",
+   "kind": "e-text-library",
+   "access": "free",
+   "license": "E-texts CC BY-NC 4.0",
+   "url": "https://muktabodha-digital-library.org/",
+   "notes": "Legacy site muktalib7.com remains online.",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "gretil",
+   "person": null,
+   "title": "GRETIL — Göttingen Register of Electronic Texts in Indian Languages (Veda, epics, Śaiva and Buddhist texts, śāstra; cumulative download)",
+   "kind": "e-text-library",
+   "access": "free",
+   "url": "https://gretil.sub.uni-goettingen.de/gretil.html",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "sarit",
+   "person": null,
+   "title": "SARIT — Search and Retrieval of Indic Texts (TEI-encoded Sanskrit texts)",
+   "kind": "e-text-library",
+   "access": "free",
+   "url": "https://sarit.indology.info/",
+   "notes": "Returned HTTP 502 on 2026-10-20; re-check.",
+   "confidence": "low",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "ifp-digital-collections",
+   "person": null,
+   "title": "IFP Digital Collections — Indology manuscripts (Śaiva palm-leaf, 2,284 transcripts), Siddha medicine, temple art photo archive",
+   "kind": "manuscript-library",
+   "access": "free",
+   "url": "https://digitalcollections.ifpindia.org/s/ifp/page/portal",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "efeo-collection-indologie",
+   "person": "dominic-goodall",
+   "title": "Collection Indologie (IFP/EFEO) — critical editions incl. The Niśvāsatattvasaṃhitā vol.1 (2015)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://publications.efeo.fr/en/livres/828_the-ni-v-satattvasa-hit--the-earliest-surviving-aiva-tantra",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "sanderson-site",
+   "person": "alexis-sanderson",
+   "title": "alexissanderson.com — personal site with PDFs of most published articles",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://alexissanderson.com/",
+   "notes": "Linked as official by the Hamburg Centre for Tantric Studies; unreachable (502) on 2026-10-20 — use the mirrors below meanwhile.",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "sanderson-academia",
+   "person": "alexis-sanderson",
+   "title": "Alexis Sanderson on Academia.edu (free PDFs: The Śaiva Exegesis of Kashmir; The Śaiva Age; How Public was Śaivism?; WSC 2018 keynote handout; Outline of Brahmanism lectures)",
+   "kind": "articles",
+   "access": "free (login may be requested)",
+   "url": "https://oxford.academia.edu/AlexisSanderson",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "sanderson-saiva-age-zenodo",
+   "person": "alexis-sanderson",
+   "title": "“The Śaiva Age: The Rise and Dominance of Śaivism during the Early Medieval Period” (2009), PDF on Zenodo",
+   "kind": "article",
+   "access": "free",
+   "url": "https://zenodo.org/records/4395629",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "sanderson-festschrift-oapen",
+   "person": "alexis-sanderson",
+   "title": "Goodall, Hatley, Isaacson, Raman (eds), Śaivism and the Tantric Traditions: Essays in Honour of Alexis Sanderson (Brill 2020) — open access, with his bibliography 1983–2019",
+   "kind": "book",
+   "access": "free",
+   "url": "https://library.oapen.org/bitstream/20.500.12657/42543/1/9789004432802.pdf",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "nathas-articles",
+   "person": "yogi-matsyendranath-maharaj",
+   "title": "nathas.org articles (Gorakṣanātha, amnāyas, Spanda, kanda–kuṇḍalinī–cakras, saptasindhu, dhyāna-ślokas) and Nāth dictionary",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://nathas.org/en/articles/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "nathas-parampara",
+   "person": "yogi-matsyendranath-maharaj",
+   "title": "nathas.org guru-paramparā pages: patriarchs, nine Nāths, 84 siddhas, living gurus",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://nathas.org/en/parampara/patriarchs/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "nathas-shop",
+   "person": "yogi-matsyendranath-maharaj",
+   "title": "nathas.org shop: Siddha-siddhānta-paddhati (Russian), Philosophy of Gorakhnath, “Introduction to Natha Yoga. Shiva-tattva”, journal Adesh, seminar videos",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://nathas.org/shop/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "nathas-youtube",
+   "person": "yogi-matsyendranath-maharaj",
+   "title": "NathaChannel (official YouTube of nathas.org; mostly Russian, some EN/FR subtitles)",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/user/NathaChannel",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "gorakhnath-mandir-publications",
+   "person": "gorakhnath",
+   "title": "Gorakhnath Mandir: list of Gorakhnath’s works (Gorakṣa-śataka, Siddha-siddhānta-paddhati, Amanaska-yoga, Gorakhbānī ed. Barthwal…) and temple publications",
+   "kind": "bibliography",
+   "access": "free (info) / paid (books)",
+   "url": "https://gorakhnathmandir.in/publication.aspx",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "mallinson-nath-sampradaya",
+   "person": "james-mallinson",
+   "title": "James Mallinson, “Nāth Saṃpradāya”, Brill’s Encyclopedia of Hinduism (author’s PDF on SOAS Research Online)",
+   "kind": "article",
+   "access": "free",
+   "url": "https://eprints.soas.ac.uk/17972/1/Nath%20Sampradaya.FP.pdf",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-tools",
+   "person": "swami-charanashrit-giri",
+   "title": "swarayoga.org free tools: Daily Svara, svara cycles, pañcāṅga, Vedic clock, nāḍī-śodhana timer, agnihotra clock",
+   "kind": "tool",
+   "access": "free",
+   "url": "https://www.swarayoga.org/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-shastra",
+   "person": "swami-charanashrit-giri",
+   "title": "swarayoga.org Śiva Svarodaya pages and Shastra Library",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://www.swarayoga.org/s/shastra",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-practice",
+   "person": "swami-charanashrit-giri",
+   "title": "swarayoga.org practice guides: morning sādhanā, nāḍī-śodhana, bhrāmarī, bhastrikā, kapālabhāti, bandhas, svara meditation, trāṭaka, ṣaṭkarma",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://www.swarayoga.org/morning-sadhana",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-audio-books",
+   "person": "swami-charanashrit-giri",
+   "title": "swarayoga.org audio library and books page",
+   "kind": "audio",
+   "access": "free/paid (see page)",
+   "url": "https://www.swarayoga.org/books",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-courses",
+   "person": "swami-charanashrit-giri",
+   "title": "Swara Yoga Peeth four-level courses (online/offline)",
+   "kind": "course",
+   "access": "paid (fees not published)",
+   "url": "https://www.swarayoga.org/courses",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "swarayoga-youtube",
+   "person": "swami-charanashrit-giri",
+   "title": "Swara Yoga Peeth YouTube channel",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/@SwaraYogaPeeth",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "avg-saylorsburg-teachings",
+   "person": "swami-dayananda-saraswati",
+   "title": "AVG Saylorsburg: free transcribed teachings of Swami Dayananda (articles, Gurupūrṇimā, Vākyavṛtti extracts) and video courses (Nirvāṇa Ṣaṭkam, Essence of the Gītā)",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://arshavidya.org/swami-dayananda-saraswati/3",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "avg-saylorsburg-youtube",
+   "person": "swami-dayananda-saraswati",
+   "title": "Arsha Vidya YouTube channel linked from arshavidya.org (Saylorsburg courses, Sunday Gītā classes, archival Dayananda)",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/c/ArshaVidyaGurukulam",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "avg-anaikatti-resources",
+   "person": "swami-sadatmananda",
+   "title": "AVG Anaikatti free articles (PDFs e.g. “Who am I”, “Bliss”, “Four Paths”), MP3 classes, newsletter archive",
+   "kind": "articles",
+   "access": "free",
+   "url": "https://arshavidya.in/resources/",
+   "notes": "Example: https://arshavidya.in/wp-content/uploads/2016/04/Article1-WhoAmI.pdf",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "avg-anaikatti-youtube",
+   "person": "swami-sadatmananda",
+   "title": "AVG Anaikatti YouTube (Vicāra Sāgara, Gītā, Śivamahimna classes)",
+   "kind": "video",
+   "access": "free",
+   "url": "https://www.youtube.com/@avganaikatti",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "arsha-vidya-newsletter",
+   "person": "swami-dayananda-saraswati",
+   "title": "Arsha Vidya monthly newsletter/journal (PDF archive)",
+   "kind": "journal",
+   "access": "free",
+   "url": "https://www.arshavidya.in/Newsletter/Aug2025/Aug2025.pdf",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "avrpt",
+   "person": "swami-dayananda-saraswati",
+   "title": "Arsha Vidya Research and Publication Trust — sole authorised publisher (80+ books; thousands of hours of class audio)",
+   "kind": "book",
+   "access": "paid",
+   "url": "https://avrpt.com/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "vishnusahasranama-sruti-seva",
+   "person": "swami-dayananda-saraswati",
+   "title": "The Teaching of Viṣṇusahasranāma (based on Swami Dayananda), digital edition published with Sruti Seva Trust permission",
+   "kind": "book",
+   "access": "free",
+   "url": "https://arshavidyananda.in/wp-content/uploads/2024/09/The-Teaching-of-Vi%E1%B9%A3%E1%B9%87usahasranama-Final.pdf",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "arsha-vidya-uk-downloads",
+   "person": null,
+   "title": "Arsha Vidya UK free downloads (Vedānta talks by Swamini Atmaprakashananda, mantras, study notes)",
+   "kind": "audio",
+   "access": "free",
+   "url": "https://www.arshavidya.org.uk/downloads.php",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "gita-home-study-jnanapravaha",
+   "person": "swami-dayananda-saraswati",
+   "title": "Bhagavad Gita Home Study (9 vols) readable online at Jñānapravāha Open Archive",
+   "kind": "book",
+   "access": "free (authorisation not stated)",
+   "url": "https://jnanapravaha.in/resources-bhagavad-gita-home-study/",
+   "notes": "FLAG: AVRPT sells this set; confirm Jñānapravāha has permission before listing publicly.",
+   "confidence": "low",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "dls-free-books",
+   "person": "swami-sivananda",
+   "title": "Divine Life Society free e-books (Sivananda, Chidananda, Krishnananda)",
+   "kind": "book",
+   "access": "free",
+   "url": "https://www.dlshq.org/download/",
+   "confidence": "high",
+   "verified_on": "2026-10-20"
+  },
+  {
+   "id": "ltwa-free-downloads",
+   "person": "geshe-lhakdor",
+   "title": "LTWA free download resources and Manuscript Digital Library",
+   "kind": "e-text-library",
+   "access": "free",
+   "url": "https://tibetanlibrary.org/",
+   "confidence": "medium",
+   "verified_on": "2026-10-20"
+  }
+ ]
+}

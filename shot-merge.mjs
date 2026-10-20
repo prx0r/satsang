@@ -24,7 +24,7 @@ for (const v of views) {
     const errs = []; pg.on('pageerror', e => errs.push(String(e).slice(0, 120)))
     let status = 0
     try { const r = await pg.goto(BASE + path, { waitUntil: 'networkidle2', timeout: 30000 }); status = r ? r.status() : 0 } catch (e) { errs.push('goto ' + String(e).slice(0, 80)) }
-    await new Promise(r => setTimeout(r, 1500))
+    await new Promise(r => setTimeout(r, +(process.env.WAIT || 1500)))  // WAIT=6000 when desktop shots catch the loading skeleton
     const bg = await pg.evaluate(() => getComputedStyle(document.body).backgroundColor).catch(() => '?')
     const title = await pg.title().catch(() => '')
     await pg.screenshot({ path: `${out}/${dev}-${name}.png` })

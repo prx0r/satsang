@@ -566,6 +566,504 @@
     }
    ],
    "site": "https://www.watrampoeng.com/"
+  },
+  "ishwar-ashram-srinagar": {
+   "checked": "2026-10-20",
+   "site": "https://www.kashmirshaivainstitute.com/",
+   "contact_page": {
+    "url": "https://www.kashmirshaivainstitute.com/contact",
+    "source_url": "https://www.kashmirshaivainstitute.com/contact"
+   },
+   "email": [
+    {
+     "value": "iatsrinagar@gmail.com",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    },
+    {
+     "value": "srinagar@ishwarashram.com",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 93116 11344",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    },
+    {
+     "value": "0194-553295",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    },
+    {
+     "value": "+91 94190 05689 (Srinagar desk)",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    }
+   ]
+  },
+  "kashmir-shaiva-institute-jammu": {
+   "checked": "2026-10-20",
+   "site": "https://www.kashmirshaivainstitute.com/",
+   "contact_page": {
+    "url": "https://www.kashmirshaivainstitute.com/contact",
+    "source_url": "https://ishwarashram.in/affiliates-kashmir-shaiva-institute/"
+   },
+   "email": [
+    {
+     "value": "kashmirshaivainstitute@gmail.com",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    }
+   ],
+   "phone": [
+    {
+     "value": "0191-2501199",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    },
+    {
+     "value": "0191-2555755",
+     "source_url": "https://www.kashmirshaivainstitute.com/contact"
+    }
+   ]
+  },
+  "ishwar-ashram-trust-delhi": {
+   "checked": "2026-10-20",
+   "site": "https://www.ishwarashramtrust.com/",
+   "contact_page": {
+    "url": "https://www.ishwarashramtrust.com/contactus.php",
+    "source_url": "https://www.ishwarashramtrust.com/cente.php"
+   },
+   "email": [
+    {
+     "value": "iatdelhi@gmail.com",
+     "source_url": "https://www.ishwarashramtrust.com/contactus.php"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 11-46510874",
+     "source_url": "https://www.ishwarashramtrust.com/contactus.php"
+    },
+    {
+     "value": "+91 9910440680",
+     "source_url": "https://www.ishwarashramtrust.com/contactus.php"
+    },
+    {
+     "value": "+91 9643003626",
+     "source_url": "https://www.ishwarashramtrust.com/contactus.php"
+    }
+   ]
+  },
+  "anuttara-trika-kula-varanasi": {
+   "checked": "2026-10-20",
+   "site": "https://www.anuttaratrikakula.org/",
+   "contact_page": {
+    "url": "https://www.anuttaratrikakula.org/contact-us/",
+    "source_url": "https://www.anuttaratrikakula.org/reading-circles/"
+   },
+   "email": [
+    {
+     "value": "info@anuttaratrikakula.org",
+     "source_url": "https://www.anuttaratrikakula.org/contact-us/"
+    }
+   ]
+  },
+  "samvidalaya-varanasi": {
+   "checked": "2026-10-20",
+   "site": "https://www.utpaladeva.in/",
+   "contact_page": {
+    "url": "https://www.utpaladeva.in/contact",
+    "source_url": "https://www.utpaladeva.in/news/news-archive"
+   },
+   "email": [
+    {
+     "value": "baeumer.bettina@gmail.com",
+     "source_url": "https://www.utpaladeva.in/contact"
+    }
+   ]
+  },
+  "muktabodha-indological-research-institute": {
+   "checked": "2026-10-20",
+   "site": "https://muktabodha.org/",
+   "contact_page": {
+    "url": "https://muktabodha.org/contact-2/",
+    "source_url": "https://muktabodha-digital-library.org/about"
+   },
+   "email": [
+    {
+     "value": "info@muktabodha.org",
+     "source_url": "https://muktabodha.org/contact-2/"
+    }
+   ]
+  },
+  "gorakhnath-math-gorakhpur": {
+   "checked": "2026-10-20",
+   "site": "https://www.gorakhnathmandir.in/",
+   "contact_page": {
+    "url": "https://www.gorakhnathmandir.in/contactus.aspx",
+    "source_url": "https://www.gorakhnathmandir.in/"
+   },
+   "phone": [
+    {
+     "value": "0551-2255453",
+     "source_url": "https://www.gorakhnathmandir.in/contactus.aspx"
+    },
+    {
+     "value": "0551-2255454",
+     "source_url": "https://www.gorakhnathmandir.in/contactus.aspx"
+    }
+   ]
+  },
+  "arsha-vidya-pitham-rishikesh": {
+   "checked": "2026-10-20",
+   "site": "https://www.dayananda.org/",
+   "contact_page": {
+    "url": "https://www.dayananda.org/",
+    "source_url": "https://www.dayananda.org/"
+   },
+   "email": [
+    {
+     "value": "sakshat1949@gmail.com",
+     "source_url": "https://www.dayananda.org/"
+    },
+    {
+     "value": "dayas1088@gmail.com",
+     "source_url": "https://www.dayananda.org/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "0135-2430769",
+     "source_url": "https://www.dayananda.org/"
+    },
+    {
+     "value": "0135-2438769",
+     "source_url": "https://www.dayananda.org/"
+    }
+   ]
+  },
+  "arsha-vidya-anaikatti": {
+   "checked": "2026-10-20",
+   "site": "https://arshavidya.in/",
+   "contact_page": {
+    "url": "https://arshavidya.in/contact-us/",
+    "source_url": "https://arshavidya.in/upcoming-course/"
+   },
+   "email": [
+    {
+     "value": "office@arshavidya.in",
+     "source_url": "https://arshavidya.in/contact-us/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91-9442646701",
+     "source_url": "https://arshavidya.in/contact-us/"
+    },
+    {
+     "value": "+91-422-2657001",
+     "source_url": "https://arshavidya.in/contact-us/"
+    }
+   ]
+  },
+  "arsha-vijnana-gurukulam-nagpur": {
+   "checked": "2026-10-20",
+   "site": "https://avgnagpur.org/",
+   "contact_page": {
+    "url": "https://www.arshavidya.in/Newsletter/Aug2025/Aug2025.pdf",
+    "source_url": "https://avgnagpur.org/"
+   },
+   "email": [
+    {
+     "value": "brahmapra@gmail.com",
+     "source_url": "https://www.arshavidya.in/Newsletter/Aug2025/Aug2025.pdf"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 98902 93641",
+     "source_url": "https://www.arshavidya.in/Newsletter/Aug2025/Aug2025.pdf"
+    }
+   ]
+  },
+  "arsha-vidya-saylorsburg": {
+   "checked": "2026-10-20",
+   "site": "https://arshavidya.org/",
+   "contact_page": {
+    "url": "https://arshavidya.org/register",
+    "source_url": "https://arshavidya.org/"
+   },
+   "phone": [
+    {
+     "value": "570-992-2339",
+     "source_url": "https://arshavidya.org/register"
+    }
+   ]
+  },
+  "bihar-school-of-yoga": {
+   "checked": "2026-10-20",
+   "site": "https://www.biharyoga.net/",
+   "contact_page": {
+    "url": "https://www.biharyoga.net/",
+    "source_url": "https://www.biharyoga.net/bihar-school-of-yoga/bsy-calendar/"
+   },
+   "email": [
+    {
+     "value": "messages@biharyoga.net",
+     "source_url": "https://www.biharyoga.net/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 9835 892831",
+     "source_url": "https://www.biharyoga.net/"
+    }
+   ]
+  },
+  "krishnamacharya-yoga-mandiram": {
+   "checked": "2026-10-20",
+   "site": "https://www.kym.org/",
+   "contact_page": {
+    "url": "https://www.kym.org/",
+    "source_url": "https://www.kym.org/yoga-programmes-and-workshops"
+   },
+   "email": [
+    {
+     "value": "mails@kym.org",
+     "source_url": "https://www.kym.org/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 96000 98829",
+     "source_url": "https://www.kym.org/"
+    },
+    {
+     "value": "+91 44 46900953",
+     "source_url": "https://www.kym.org/"
+    }
+   ]
+  },
+  "sivananda-rishikesh": {
+   "checked": "2026-10-20",
+   "site": "https://www.sivanandaonline.org/",
+   "contact_page": {
+    "url": "https://www.sivanandaonline.org/admin/media/pdf/YVFA_application.pdf",
+    "source_url": "https://www.sivanandaonline.org/newsupdates/yoga-certificate-course/"
+   },
+   "email": [
+    {
+     "value": "yvfacademy@gmail.com",
+     "source_url": "https://www.sivanandaonline.org/admin/media/pdf/YVFA_application.pdf"
+    }
+   ],
+   "phone": [
+    {
+     "value": "0135-2433541",
+     "source_url": "https://www.sivanandaonline.org/admin/media/pdf/YVFA_application.pdf"
+    }
+   ]
+  },
+  "sri-ramanasramam": {
+   "checked": "2026-10-20",
+   "site": "https://www.sriramanamaharshi.org/",
+   "contact_page": {
+    "url": "https://www.sriramanamaharshi.org/",
+    "source_url": "https://www.sriramanamaharshi.org/"
+   },
+   "email": [
+    {
+     "value": "ashram@gururamana.org",
+     "source_url": "https://www.sriramanamaharshi.org/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 4175 237200",
+     "source_url": "https://www.sriramanamaharshi.org/"
+    },
+    {
+     "value": "+91 4175 236624",
+     "source_url": "https://www.sriramanamaharshi.org/"
+    }
+   ]
+  },
+  "devipuram": {
+   "checked": "2026-10-20",
+   "site": "https://devipuram.org/",
+   "contact_page": {
+    "url": "https://devipuram.org/sri-vidya-courses",
+    "source_url": "https://devipuram.org/sri-vidya-courses"
+   },
+   "email": [
+    {
+     "value": "info@devipuram.org",
+     "source_url": "https://devipuram.org/sri-vidya-courses"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 9440845333",
+     "source_url": "https://devipuram.org/sri-vidya-courses"
+    },
+    {
+     "value": "+91 9010445333",
+     "source_url": "https://devipuram.org/sri-vidya-courses"
+    }
+   ]
+  },
+  "sringeri": {
+   "checked": "2026-10-20",
+   "site": "https://www.sringeri.net/",
+   "contact_page": {
+    "url": "https://www.sringeri.net/",
+    "source_url": "https://www.sringeri.net/"
+   },
+   "email": [
+    {
+     "value": "adminoffice@sringeri.net",
+     "source_url": "https://www.sringeri.net/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91-08265-252525",
+     "source_url": "https://www.sringeri.net/"
+    },
+    {
+     "value": "+91-8265-262626",
+     "source_url": "https://www.sringeri.net/"
+    },
+    {
+     "value": "+91-8265-272727",
+     "source_url": "https://www.sringeri.net/"
+    }
+   ]
+  },
+  "ifp-pondicherry": {
+   "checked": "2026-10-20",
+   "site": "https://www.ifpindia.org/research/indology/",
+   "contact_page": {
+    "url": "https://www.ifpindia.org/",
+    "source_url": "https://www.ifpindia.org/resources/manuscripts"
+   },
+   "email": [
+    {
+     "value": "library@ifpindia.org",
+     "source_url": "https://www.ifpindia.org/"
+    }
+   ]
+  },
+  "efeo-pondicherry": {
+   "checked": "2026-10-20",
+   "site": "https://www.efeo.fr/",
+   "contact_page": {
+    "url": "https://publications.efeo.fr/en/livres/840_tantric-studies",
+    "source_url": "https://www.ifpindia.org/research/indology/"
+   },
+   "email": [
+    {
+     "value": "library@efeo-pondicherry.org",
+     "source_url": "https://publications.efeo.fr/en/livres/840_tantric-studies"
+    }
+   ]
+  },
+  "ltwa-dharamsala": {
+   "checked": "2026-10-20",
+   "site": "https://tibetanlibrary.org/",
+   "contact_page": {
+    "url": "https://tibetanlibrary.org/contact/",
+    "source_url": "https://tibetanlibrary.org/registration-fees-accommodation/"
+   },
+   "email": [
+    {
+     "value": "office@tibetanlibrary.org",
+     "source_url": "https://tibetanlibrary.org/contact/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "01892-297513",
+     "source_url": "https://tibetanlibrary.org/contact/"
+    },
+    {
+     "value": "+91 9882255047",
+     "source_url": "https://tibetanlibrary.org/contact/"
+    }
+   ]
+  },
+  "cihts-sarnath": {
+   "checked": "2026-10-20",
+   "site": "https://cihts.ac.in/",
+   "contact_page": {
+    "url": "https://cihts.ac.in/admission_",
+    "source_url": "https://cihts.ac.in/admission_"
+   },
+   "email": [
+    {
+     "value": "vcoffice@cihts.ac.in",
+     "source_url": "https://cihts.ac.in/admission_"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+91 542 2585242",
+     "source_url": "https://cihts.ac.in/admission_"
+    },
+    {
+     "value": "+91 542 2581737",
+     "source_url": "https://cihts.ac.in/admission_"
+    }
+   ]
+  },
+  "root-institute-bodhgaya": {
+   "checked": "2026-10-20",
+   "site": "https://www.rootinstitute.ngo/",
+   "contact_page": {
+    "url": "https://rootinstitute.ngo/spiritual-programme",
+    "source_url": "https://www.rootinstitute.ngo/"
+   },
+   "phone": [
+    {
+     "value": "+91 9931 518 858 (SMS/WhatsApp preferred)",
+     "source_url": "https://rootinstitute.ngo/spiritual-programme"
+    }
+   ]
+  },
+  "dhamma-giri-igatpuri": {
+   "checked": "2026-10-20",
+   "site": "https://www.dhamma.org/en/schedules/schgiri",
+   "contact_page": {
+    "url": "https://www.dhamma.org/en/schedules/schgiri",
+    "source_url": "https://www.dhamma.org/en/schedules/schgiri"
+   },
+   "phone": [
+    {
+     "value": "(02553) 244076",
+     "source_url": "https://www.dhamma.org/en/schedules/schgiri"
+    },
+    {
+     "value": "244086",
+     "source_url": "https://www.dhamma.org/en/schedules/schgiri"
+    }
+   ]
+  },
+  "kopan": {
+   "checked": "2026-10-20",
+   "site": "https://www.kopanmonastery.org/",
+   "contact_page": {
+    "url": "https://www.kopanmonastery.org/",
+    "source_url": "https://kopanmonastery.org/november-course/"
+   },
+   "email": [
+    {
+     "value": "info@kopanmonastery.org",
+     "source_url": "https://www.kopanmonastery.org/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+977 1 4821 268",
+     "source_url": "https://www.kopanmonastery.org/"
+    }
+   ]
   }
  }
 }

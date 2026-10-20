@@ -2109,7 +2109,12 @@
      "land-of-joy",
      "sister_of"
     ]
-   ]
+   ],
+   "contact_page": "https://www.kopanmonastery.org/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://kopanmonastery.org/november-course/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
   },
   {
    "id": "root-institute",
@@ -4468,7 +4473,8 @@
    "lng": 79.05677,
    "coord_precision": "site",
    "teachers": [
-    "ramana-maharshi"
+    "ramana-maharshi",
+    "venkat-s-ramanan"
    ],
    "url": "https://www.sriramanamaharshi.org",
    "wikidata": "Q9340897",
@@ -4490,7 +4496,8 @@
    "url_checked": "2026-10-20",
    "source_url": "https://www.sriramanamaharshi.org",
    "verified_on": "2026-10-20",
-   "confidence": "high"
+   "confidence": "high",
+   "contact_page": "https://www.sriramanamaharshi.org/"
   },
   {
    "id": "arunachala",
@@ -5406,7 +5413,9 @@
    "lng": -75.313649,
    "coord_precision": "site",
    "teachers": [
-    "swami-dayananda-saraswati"
+    "swami-dayananda-saraswati",
+    "swami-viditatmananda",
+    "swami-tattvavidananda"
    ],
    "url": "https://arshavidya.org",
    "wikidata": "Q108661907",
@@ -5426,7 +5435,12 @@
      "cost_model": "fee",
      "schedule_url": "https://arshavidya.org/events/"
     }
-   ]
+   ],
+   "contact_page": "https://arshavidya.org/register",
+   "url_checked": "2026-10-20",
+   "source_url": "https://arshavidya.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "arsha-vidya-anaikatti",
@@ -5442,7 +5456,11 @@
    "lng": 76.748041,
    "coord_precision": "village (Anaikatti)",
    "teachers": [
-    "swami-dayananda-saraswati"
+    "swami-dayananda-saraswati",
+    "swami-sadatmananda",
+    "swami-shankarananda-avg",
+    "swamini-vedarthananda",
+    "swamini-saradananda"
    ],
    "url": "https://www.arshavidya.in",
    "description": "Swami Dayananda's ashram in the hills near Coimbatore, home of long Vedanta courses.",
@@ -5460,7 +5478,12 @@
      "cost_model": "fee",
      "schedule_url": "https://arshavidya.in/camps-retreats/"
     }
-   ]
+   ],
+   "contact_page": "https://arshavidya.in/contact-us/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://arshavidya.in/upcoming-course/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "sringeri",
@@ -5484,7 +5507,12 @@
    "offers": [
     "visits"
    ],
-   "language": "kn"
+   "language": "kn",
+   "contact_page": "https://www.sringeri.net/",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.sringeri.net/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "kalady",
@@ -5547,7 +5575,10 @@
    "coord_precision": "site",
    "founded": 1936,
    "teachers": [
-    "swami-sivananda"
+    "swami-sivananda",
+    "swami-chidananda-saraswati",
+    "swami-krishnananda",
+    "swami-atmaswarupananda"
    ],
    "url": "https://www.sivanandaonline.org",
    "wikidata": "Q2745607",
@@ -5577,7 +5608,12 @@
      "sivananda-val-morin",
      "sister_of"
     ]
-   ]
+   ],
+   "contact_page": "https://www.sivanandaonline.org/admin/media/pdf/YVFA_application.pdf",
+   "url_checked": "2026-10-20",
+   "source_url": "https://www.sivanandaonline.org/newsupdates/yoga-certificate-course/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "vasanta-vihar",
@@ -8986,7 +9022,13 @@
      "cost_model": "dana: no charge; donations only from those who have completed a course",
      "schedule_url": "https://www.dhamma.org/en/schedules/schbodhi"
     }
-   ]
+   ],
+   "contact_page": "https://www.dhamma.org/en/schedules/schbodhi",
+   "url_checked": "2026-10-20",
+   "language": "en",
+   "source_url": "https://www.dhamma.org/en/schedules/schbodhi",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "dhamma-bavari",
@@ -24322,7 +24364,8 @@
    "lng": 86.467699,
    "coord_precision": "building/locality",
    "teachers": [
-    "swami-satyananda"
+    "swami-satyananda",
+    "swami-niranjanananda"
    ],
    "url": "https://www.biharyoga.net",
    "wikidata": "Q3636051",
@@ -24332,7 +24375,13 @@
      "satyananda-yoga-uk",
      "branch"
     ]
-   ]
+   ],
+   "contact_page": "https://www.biharyoga.net/",
+   "url_checked": "2026-10-20",
+   "language": "en",
+   "source_url": "https://www.biharyoga.net/bihar-school-of-yoga/bsy-calendar/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
   },
   {
    "id": "sivananda-val-morin",
@@ -26389,6 +26438,588 @@
    "main_teacher": "ajahn-martin",
    "teacher_model": "single",
    "main_teacher_conf": "high"
+  },
+  {
+   "id": "ishwar-ashram-srinagar",
+   "name": "Ishwar Ashram (Ishber), Srinagar — Ishwar Ashram Trust",
+   "type": "ashram",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Srinagar (Ishber, Nishat), Jammu & Kashmir",
+   "lat": 34.125347,
+   "lng": 74.881531,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "swami-lakshmanjoo"
+   ],
+   "url": "https://www.kashmirshaivainstitute.com/",
+   "contact_page": "https://www.kashmirshaivainstitute.com/contact",
+   "url_checked": "2026-10-20",
+   "description": "Swami Lakshmanjoo’s ashram (built 1962) with the Amriteshwar Bhairava temple",
+   "language": "en",
+   "source_url": "https://www.kashmirshaivainstitute.com/contact",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "kashmir-shaiva-institute-jammu",
+   "name": "Kashmir Shaiva Institute (Ishwar Ashram Trust), Jammu",
+   "type": "institute",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Jammu",
+   "lat": 32.727296,
+   "lng": 74.852298,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "swami-lakshmanjoo"
+   ],
+   "url": "https://www.kashmirshaivainstitute.com/",
+   "contact_page": "https://www.kashmirshaivainstitute.com/contact",
+   "url_checked": "2026-10-20",
+   "description": "The Trust’s education wing: workshops, seminars and residential programmes on Kashmir Shaiva texts; publications (Lakshmanjoo’s works, the journal Malini).",
+   "language": "en",
+   "source_url": "https://ishwarashram.in/affiliates-kashmir-shaiva-institute/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "ishwar-ashram-trust-delhi",
+   "name": "Ishwar Ashram Trust — Delhi Ashram (Sarita Vihar)",
+   "type": "ashram",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "New Delhi",
+   "lat": 28.538158,
+   "lng": 77.288556,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "swami-lakshmanjoo"
+   ],
+   "url": "https://www.ishwarashramtrust.com/",
+   "contact_page": "https://www.ishwarashramtrust.com/contactus.php",
+   "url_checked": "2026-10-20",
+   "description": "Weekly Sunday puja (Gurustuti and Lakshmanjoo recordings), birthday and Mahasamadhi functions, seminars; library and bookshop",
+   "language": "en",
+   "status": "unknown",
+   "source_url": "https://www.ishwarashramtrust.com/cente.php",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "lakshmanjoo-academy",
+   "name": "Lakshmanjoo Academy / Universal Shaiva Fellowship (online, Oregon; Kashmir retreats)",
+   "type": "institute",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Oregon (USA) and online",
+   "teachers": [
+    "swami-lakshmanjoo"
+   ],
+   "url": "https://www.lakshmanjooacademy.org/",
+   "contact_page": "https://www.lakshmanjooacademy.org/contact",
+   "url_checked": "2026-10-20",
+   "description": "Publishes Lakshmanjoo’s recorded teachings; free weekly online sangha (Sat) and puja (Sun); four-week free webinar \"Meditation in Kashmir Shaivism\"; spring and fall online study retreats; an annual in",
+   "language": "en",
+   "source_url": "https://www.lakshmanjooacademy.org/upcoming-events",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "anuttara-trika-kula-varanasi",
+   "name": "Anuttara Trika Kula — Mark Dyczkowski’s teaching (Varanasi / online)",
+   "type": "institute",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism",
+    "kaula",
+    "krama"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Varanasi, Uttar Pradesh (online)",
+   "teachers": [
+    "mark-dyczkowski",
+    "arjun-seernels",
+    "brian-campbell"
+   ],
+   "url": "https://www.anuttaratrikakula.org/",
+   "contact_page": "https://www.anuttaratrikakula.org/contact-us/",
+   "url_checked": "2026-10-20",
+   "description": "Archive of Dyczkowski’s lectures and courses (Tantrāloka chapter courses, Spanda, Śiva Sūtras, Vijñānabhairava, Kubjikā); free lectures; online Reading Circles continuing the Tantrāloka (Ch",
+   "language": "en",
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "samvidalaya-varanasi",
+   "name": "Samvidalaya — Abhinavagupta Research Library (Bettina Bäumer), Varanasi and Ishvar Parvat",
+   "type": "institute",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Varanasi (Samne Ghat) / Phulchatti, Pauri Garhwal",
+   "lat": 25.268596,
+   "lng": 83.016577,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "bettina-baumer"
+   ],
+   "url": "https://www.utpaladeva.in/",
+   "contact_page": "https://www.utpaladeva.in/contact",
+   "url_checked": "2026-10-20",
+   "description": "Research library on Kashmir Śaivism and Tantra",
+   "language": "en",
+   "source_url": "https://www.utpaladeva.in/news/news-archive",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "muktabodha-indological-research-institute",
+   "name": "Muktabodha Indological Research Institute (New Delhi office; Varanasi digitisation)",
+   "type": "institute",
+   "traditions": [
+    "kashmir-shaivism",
+    "shaiva-siddhanta",
+    "vedic"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "New Delhi",
+   "lat": 28.613895,
+   "lng": 77.209006,
+   "coord_precision": "osm-area (approximate)",
+   "url": "https://muktabodha.org/",
+   "contact_page": "https://muktabodha.org/contact-2/",
+   "url_checked": "2026-10-20",
+   "description": "Free digital library: 3,000+ digitised manuscripts and 570+ searchable Sanskrit e-texts (Kashmir Śaiva, Śaiva Siddhānta, IFP paper transcripts, Gokarna Vedic manuscripts); translation series; joint pr",
+   "language": "en",
+   "source_url": "https://muktabodha-digital-library.org/about",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "teachers": [
+    "gurumayi-chidvilasananda"
+   ]
+  },
+  {
+   "id": "gorakhnath-math-gorakhpur",
+   "name": "Shri Gorakhnath Mandir (Gorakhnath Math), Gorakhpur",
+   "type": "math",
+   "traditions": [
+    "siddha-siddhanta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Gorakhpur, Uttar Pradesh",
+   "lat": 26.774145,
+   "lng": 83.357743,
+   "coord_precision": "published (bhaktibharat.com listing)",
+   "teachers": [
+    "gorakhnath",
+    "yogi-kamalnath"
+   ],
+   "url": "https://www.gorakhnathmandir.in/",
+   "contact_page": "https://www.gorakhnathmandir.in/contactus.aspx",
+   "url_checked": "2026-10-20",
+   "description": "Chief seat of the Nāth order: daily aarti (3–4 am, 11 am, 6–8 pm), samādhi shrines of Brahmanath, Gambhirnath, Digvijaynath and Avedyanath, akhand dhuni and bhandara; the temple publishes Gorakhnath l",
+   "language": "hi",
+   "source_url": "https://www.gorakhnathmandir.in/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "devipatan-shaktipeeth-tulsipur",
+   "name": "Devi Patan Shaktipeeth (Nāth temple), Tulsipur",
+   "type": "temple",
+   "traditions": [
+    "shakta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Tulsipur, Balrampur district, Uttar Pradesh",
+   "lat": 27.536724,
+   "lng": 82.395293,
+   "coord_precision": "osm-building",
+   "teachers": [
+    "yogi-mithileshnath"
+   ],
+   "url_checked": "2026-10-20",
+   "description": "Ancient Śakti-pīṭha administered by the Nāth order; guru of Guru Yogi Matsyendranath (nathas.org)",
+   "language": "hi",
+   "status": "unknown",
+   "source_url": "https://nathas.org/en/parampara/gurus/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "arsha-vidya-pitham-rishikesh",
+   "name": "Swami Dayananda Ashram — Arsha Vidya Pitham, Rishikesh",
+   "type": "ashram",
+   "traditions": [
+    "arsha-vidya"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Swami Dayananda Nagar, Muni Ki Reti, Rishikesh",
+   "lat": 30.119828,
+   "lng": 78.306292,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "swami-dayananda-saraswati",
+    "swami-sakshatkrtananda"
+   ],
+   "url": "https://www.dayananda.org/",
+   "contact_page": "https://www.dayananda.org/",
+   "url_checked": "2026-10-20",
+   "description": "Traditional Vedānta and Sanskrit: 3-year long-term residential course, 3-month short course, 6-month courses (Vidya Varshini; Hindi), Dayananda Memorial Retreats; Dakshinamurti shrine and Ganga ghat.",
+   "language": "en",
+   "source_url": "https://www.dayananda.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "arsha-vijnana-gurukulam-nagpur",
+   "name": "Dr. Shrikant Jichkar Memorial Arsha Vijnana Gurukulam, Vedapuri (Nagpur)",
+   "type": "gurukul",
+   "traditions": [
+    "arsha-vidya"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Vedapuri, Bazargaon, Nagpur district, Maharashtra",
+   "lat": 21.138758,
+   "lng": 78.771145,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "swamini-brahmaprakasananda",
+    "swami-dayananda-saraswati"
+   ],
+   "url": "https://avgnagpur.org/",
+   "contact_page": "https://www.arshavidya.in/Newsletter/Aug2025/Aug2025.pdf",
+   "url_checked": "2026-10-20",
+   "description": "Indian philosophy, Vedānta, Sanskrit and yoga in a forest campus; past 3- and 6-month residential Vedānta/Sanskrit courses; Dakshinamurti temple (renovation appeal).",
+   "language": "en",
+   "status": "unknown",
+   "source_url": "https://avgnagpur.org/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "krishnamacharya-yoga-mandiram",
+   "name": "Krishnamacharya Yoga Mandiram (KYM), Chennai",
+   "type": "institute",
+   "traditions": [
+    "krishnamacharya-yoga"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Mandaveli, Chennai, Tamil Nadu",
+   "lat": 13.025844,
+   "lng": 80.262788,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "krishnamacharya",
+    "tkv-desikachar",
+    "kym-faculty"
+   ],
+   "url": "https://www.kym.org/",
+   "contact_page": "https://www.kym.org/",
+   "url_checked": "2026-10-20",
+   "description": "Yoga therapy, teacher training, Vedic chanting (Healing Chants TTC 2026–27 with SKWC Bengaluru), Yoga Sūtra immersion with Vyāsa-bhāṣya and Yogavallī, Heart of Yoga intensive, online practice sessions",
+   "language": "en",
+   "source_url": "https://www.kym.org/yoga-programmes-and-workshops",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "devipuram",
+   "name": "Devipuram (Sri Vidya Trust), near Visakhapatnam",
+   "type": "temple",
+   "traditions": [
+    "sri-vidya",
+    "shakta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Devipuram, Anakapalli district, Andhra Pradesh",
+   "lat": 17.762992,
+   "lng": 83.090477,
+   "coord_precision": "osm-building",
+   "teachers": [
+    "amritananda"
+   ],
+   "url": "https://devipuram.org/",
+   "contact_page": "https://devipuram.org/sri-vidya-courses",
+   "url_checked": "2026-10-20",
+   "description": "Śrī Vidyā courses online and residential (mandatory Starter Regime and assessment before the Beginner’s course), Sri Meru Nilayam temple, festivals.",
+   "language": "en",
+   "source_url": "https://devipuram.org/sri-vidya-courses",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "kamakhya-temple",
+   "name": "Maa Kamakhya Devalaya, Nilachal Hill, Guwahati",
+   "type": "temple",
+   "traditions": [
+    "shakta",
+    "kaula"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Guwahati, Assam",
+   "lat": 26.165107,
+   "lng": 91.70593,
+   "coord_precision": "osm-building",
+   "url": "https://maakamakhya.org/",
+   "contact_page": "https://maakamakhya.org/administration",
+   "url_checked": "2026-10-20",
+   "description": "Foremost Tantric Śākta pīṭha (Kālikā Purāṇa, Yoni-pīṭha); Daśamahāvidyā shrines; no formal courses (practitioners study with local lineages privately).",
+   "language": "as",
+   "source_url": "https://www.maakamakhya.org/festival",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "bhu-svdv",
+   "name": "Banaras Hindu University — Faculty of Sanskrit Vidya Dharma Vijnan (SVDV)",
+   "type": "university",
+   "traditions": [
+    "vedic"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Varanasi, Uttar Pradesh",
+   "lat": 25.266375,
+   "lng": 82.990465,
+   "coord_precision": "osm-building",
+   "url": "https://www.bhu.ac.in/",
+   "contact_page": "https://www.bhu.ac.in/",
+   "url_checked": "2026-10-20",
+   "description": "Traditional Śāstra and Veda departments (Vedānta, Dharmaśāstra, Jyotiṣa, Vyākaraṇa, Sāhitya, Āgama-Tantra); also the Dept of Philosophy and Religion (Arts) which hosted Dyczkowski lectures.",
+   "language": "sa",
+   "status": "unknown",
+   "source_url": "https://www.bhu.ac.in/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "ifp-pondicherry",
+   "name": "French Institute of Pondicherry (IFP) — Indology Department & Śaiva manuscripts",
+   "type": "institute",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Puducherry",
+   "lat": 11.928904,
+   "lng": 79.831348,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "dominic-goodall"
+   ],
+   "url": "https://www.ifpindia.org/research/indology/",
+   "contact_page": "https://www.ifpindia.org/",
+   "url_checked": "2026-10-20",
+   "description": "UNESCO Memory of the World “Śaiva manuscripts of Pondicherry” (≈8,187 palm-leaf bundles + transcripts), digitised online; critical editions (Collection Indologie with EFEO); library of 75,000 books; W",
+   "language": "en",
+   "source_url": "https://www.ifpindia.org/resources/manuscripts",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "efeo-pondicherry",
+   "name": "École française d’Extrême-Orient — Pondicherry Centre",
+   "type": "institute",
+   "traditions": [
+    "shaiva-siddhanta"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Puducherry",
+   "lat": 11.928904,
+   "lng": 79.831348,
+   "coord_precision": "osm-area (approximate)",
+   "teachers": [
+    "dominic-goodall"
+   ],
+   "url": "https://www.efeo.fr/",
+   "contact_page": "https://publications.efeo.fr/en/livres/840_tantric-studies",
+   "url_checked": "2026-10-20",
+   "description": "Indological library (11,000+ titles) and 1,662 palm-leaf bundles; Early Tantra and Śaiva Siddhānta editions (Niśvāsatattvasaṃhitā, Kāraṇāgama); Sanskrit/Tamil reading workshops for researchers.",
+   "language": "en",
+   "source_url": "https://www.ifpindia.org/research/indology/",
+   "verified_on": "2026-10-20",
+   "confidence": "medium"
+  },
+  {
+   "id": "maharaja-sanskrit-college-mysore",
+   "name": "Maharaja’s Sanskrit College (Srimanmaharaja Samskrita PG Centre), Mysuru",
+   "type": "university",
+   "traditions": [
+    "vedic"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Mysuru, Karnataka",
+   "lat": 12.305183,
+   "lng": 76.655361,
+   "coord_precision": "osm-city",
+   "url_checked": "2026-10-20",
+   "description": "Traditional Veda, Āgama and Śāstra courses (2 to 13 years); historic manuscript collection.",
+   "language": "sa",
+   "status": "unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Maharaja%27s_Sanskrit_College,_Mysore",
+   "verified_on": "2026-10-20",
+   "confidence": "low"
+  },
+  {
+   "id": "ltwa-dharamsala",
+   "name": "Library of Tibetan Works and Archives (LTWA), Dharamsala",
+   "type": "institute",
+   "traditions": [
+    "tibetan",
+    "gelug"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Gangchen Kyishong, Dharamsala, Himachal Pradesh",
+   "teachers": [
+    "geshe-lhakdor"
+   ],
+   "url": "https://tibetanlibrary.org/",
+   "contact_page": "https://tibetanlibrary.org/contact/",
+   "url_checked": "2026-10-20",
+   "description": "Daily Buddhist philosophy classes by geshes with English translation (Mar–Dec), Tibetan language, one-year special philosophy course, six-year diploma, Intensive Translation Programme (Jul–Sep).",
+   "language": "en",
+   "source_url": "https://tibetanlibrary.org/registration-fees-accommodation/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "cihts-sarnath",
+   "name": "Central Institute of Higher Tibetan Studies (deemed university), Sarnath",
+   "type": "university",
+   "traditions": [
+    "tibetan"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Sarnath, Varanasi",
+   "lat": 25.377627,
+   "lng": 83.0276,
+   "coord_precision": "osm-area (approximate)",
+   "url": "https://cihts.ac.in/",
+   "contact_page": "https://cihts.ac.in/admission_",
+   "url_checked": "2026-10-20",
+   "description": "Shastri/Acharya/PhD in Buddhist philosophy, Tibetan language and literature, Sowa Rigpa, Bhot Jyotish, fine arts; SWAYAM MOOCs",
+   "language": "bo",
+   "source_url": "https://cihts.ac.in/admission_",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "root-institute-bodhgaya",
+   "name": "Root Institute for Wisdom Culture (FPMT), Bodh Gaya",
+   "type": "retreat",
+   "traditions": [
+    "tibetan",
+    "gelug",
+    "fpmt"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Bodh Gaya, Bihar",
+   "lat": 24.693826,
+   "lng": 84.976308,
+   "coord_precision": "osm-building",
+   "teachers": [
+    "lama-zopa",
+    "tenzin-gache",
+    "tenzin-legtsok",
+    "geshe-tenzin-zopa"
+   ],
+   "url": "https://www.rootinstitute.ngo/",
+   "contact_page": "https://rootinstitute.ngo/spiritual-programme",
+   "url_checked": "2026-10-20",
+   "description": "Seasonal programme (Oct–Feb): introductory meditation and Buddhism courses, Lamrim, Nāgārjuna, retreats; some sessions streamed on YouTube.",
+   "language": "en",
+   "source_url": "https://www.rootinstitute.ngo/",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "dhamma-giri-igatpuri",
+   "name": "Dhamma Giri — Vipassana International Academy, Igatpuri",
+   "type": "retreat",
+   "traditions": [
+    "goenka-vipassana",
+    "theravada"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Igatpuri, Nashik district, Maharashtra",
+   "lat": 19.702455,
+   "lng": 73.553963,
+   "coord_precision": "osm-building",
+   "teachers": [
+    "goenka"
+   ],
+   "url": "https://www.dhamma.org/en/schedules/schgiri",
+   "contact_page": "https://www.dhamma.org/en/schedules/schgiri",
+   "url_checked": "2026-10-20",
+   "description": "One of the largest Vipassana centres: 10-day, teenager, short and long courses; Vipassana Research Institute (Pāli texts).",
+   "language": "en",
+   "source_url": "https://www.dhamma.org/en/schedules/schgiri",
+   "verified_on": "2026-10-20",
+   "confidence": "high"
+  },
+  {
+   "id": "rangjung-yeshe-institute",
+   "name": "Rangjung Yeshe Institute — Kathmandu University Centre for Buddhist Studies, Boudha",
+   "type": "university",
+   "traditions": [
+    "tibetan",
+    "nyingma",
+    "kagyu"
+   ],
+   "country": "NP",
+   "country_name": "Nepal",
+   "city": "Boudha, Kathmandu",
+   "lat": 27.724406,
+   "lng": 85.363194,
+   "coord_precision": "osm-building",
+   "url": "https://ryi.org/",
+   "contact_page": "https://ryi.org/admissions",
+   "url_checked": "2026-10-20",
+   "description": "BA/MA/PhD in Buddhist Studies; Classical Tibetan, Sanskrit, Nepali and Chinese (on campus and online); 8-week summer intensives; translator training.",
+   "language": "en",
+   "source_url": "https://ryi.org/admissions",
+   "verified_on": "2026-10-20",
+   "confidence": "high",
+   "teachers": [
+    "chokyi-nyima-rinpoche"
+   ]
   }
  ],
  "countries": [
@@ -26471,28 +27102,33 @@
   {
    "code": "IN",
    "name": "India",
-   "places": 204,
+   "places": 225,
    "goenka": 129,
    "traditions": {
-    "goenka-vipassana": 130,
+    "goenka-vipassana": 131,
+    "tibetan": 15,
     "hindu": 15,
-    "tibetan": 12,
+    "kashmir-shaivism": 11,
     "advaita": 10,
     "ramakrishna-order": 8,
+    "gelug": 7,
     "buddhism": 6,
-    "gelug": 5,
-    "kashmir-shaivism": 5,
     "kriya-yoga": 4,
+    "trika": 4,
     "kagyu": 3,
+    "arsha-vidya": 3,
     "krishnamurti": 3,
+    "shaiva-siddhanta": 3,
+    "vedic": 3,
+    "shakta": 3,
     "nyingma": 2,
     "inchegeri": 2,
     "anandamayi-sangha": 2,
     "divine-life-society": 2,
     "iskcon": 2,
     "gaudiya": 2,
+    "kaula": 2,
     "mahayana": 1,
-    "arsha-vidya": 1,
     "siddha-yoga": 1,
     "christian-mysticism": 1,
     "theosophy": 1,
@@ -26506,14 +27142,20 @@
     "triratna": 1,
     "sikh": 1,
     "jain": 1,
-    "vedanta": 1
+    "vedanta": 1,
+    "krama": 1,
+    "siddha-siddhanta": 1,
+    "krishnamacharya-yoga": 1,
+    "sri-vidya": 1,
+    "fpmt": 1,
+    "theravada": 1
    },
    "goenka_sites": 15
   },
   {
    "code": "US",
    "name": "United States",
-   "places": 85,
+   "places": 86,
    "goenka": 14,
    "traditions": {
     "goenka-vipassana": 14,
@@ -26556,7 +27198,9 @@
     "sikh": 1,
     "jain": 1,
     "bahai": 1,
-    "native-american-church": 1
+    "native-american-church": 1,
+    "kashmir-shaivism": 1,
+    "trika": 1
    },
    "goenka_sites": 6
   },
@@ -26574,14 +27218,14 @@
   {
    "code": "NP",
    "name": "Nepal",
-   "places": 29,
+   "places": 30,
    "goenka": 20,
    "traditions": {
     "goenka-vipassana": 20,
-    "tibetan": 5,
-    "nyingma": 3,
+    "tibetan": 6,
+    "nyingma": 4,
+    "kagyu": 3,
     "buddhism": 3,
-    "kagyu": 2,
     "burmese": 1,
     "gelug": 1
    }

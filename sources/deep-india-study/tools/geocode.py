@@ -11,10 +11,10 @@ for p in PLACES:
     if not q or q in cache: continue
     url = 'https://photon.komoot.io/api/?' + urllib.parse.urlencode({'q': q + ', ' + p.get('country_name', 'India'), 'limit': 1})
     try:
-        d = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'wiser-sourcing/1.0'}), timeout=20))
+        import subprocess; d = json.loads(subprocess.run(['curl','-s','-m','12','-A','wiser-sourcing/1.0',url],capture_output=True,text=True).stdout)
         f = (d.get('features') or [None])[0]
         cache[q] = {'lat': f['geometry']['coordinates'][1], 'lng': f['geometry']['coordinates'][0], 'name': f['properties'].get('name'), 'type': f['properties'].get('osm_value'), 'city': f['properties'].get('city')} if f else None
     except Exception as e:
         cache[q] = {'err': str(e)[:80]}
-    print(q, '->', cache[q]); time.sleep(1.1)
+    print(q, '->', cache[q], flush=True); json.dump(cache, open(C, 'w'), ensure_ascii=False, indent=1); time.sleep(1.1)
 json.dump(cache, open(C, 'w'), ensure_ascii=False, indent=1)

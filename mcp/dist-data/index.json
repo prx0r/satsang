@@ -18,11 +18,11 @@
  "files": [
   {
    "kind": "person",
-   "count": 692,
+   "count": 724,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 457886,
-   "sha256": "7567669b10f5f69fc68c5c10e42e86b8f280c4d5802699d668579b2b5b65600d",
+   "bytes": 476645,
+   "sha256": "5dbdb2e2bfc2cd4468d52804d07de7dbe5f910729a0dee1a5d0c40d126e96dbb",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
@@ -36,11 +36,11 @@
   },
   {
    "kind": "clip",
-   "count": 9478,
+   "count": 9947,
    "json": "clip.json",
    "jsonl": "clip.jsonl",
-   "bytes": 6654781,
-   "sha256": "a5609529ce7212b243c61bdbd09c1524c68b08e605645d5a472a96196c0243aa",
+   "bytes": 6982157,
+   "sha256": "6aef2ae93a9ee6a0635df97a1d6ef1876a068f99d22cfa44b5fca608a0ed6c1f",
    "schema": "https://tantrafiles.xyz/schema/clip.json"
   },
   {
@@ -66,8 +66,8 @@
    "count": 68,
    "json": "topic.json",
    "jsonl": "topic.jsonl",
-   "bytes": 30697,
-   "sha256": "1de28381637e590c8f3c795f1329707208ca417c95e9b96629e2dd3a9ff5e43f",
+   "bytes": 30700,
+   "sha256": "8dc798c8fa1b6e09522edb1957202b574bbcd7b648f47ec9d8ad5a27106e70d1",
    "schema": "https://tantrafiles.xyz/schema/topic.json"
   },
   {
@@ -81,28 +81,28 @@
   },
   {
    "kind": "place",
-   "count": 852,
+   "count": 875,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 836928,
-   "sha256": "3515b9533c7d62824efe9bf156d37ea09ffea5e1064c1670a681e43125754d9a",
+   "bytes": 865598,
+   "sha256": "3b9eebb284fc19883b2cdbec8e760116e195a4869a93adc49aa4d153385d0336",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
    "kind": "edge",
-   "count": 1064,
+   "count": 1118,
    "json": "edge.json",
    "jsonl": "edge.jsonl",
-   "bytes": 296670,
-   "sha256": "669b27ce5713bd96ac98e5d689d877e8079ff7f27fff9765ba0686344358b62d",
+   "bytes": 313561,
+   "sha256": "fa8e192391d2d82d5f085adb5c1f8a882fa18dad290c6d47419af5dd4fa853f7",
    "schema": "https://tantrafiles.xyz/schema/edge.json"
   },
   {
    "kind": "jsonld",
-   "count": 11440,
+   "count": 11964,
    "file": "wiser.jsonld",
-   "bytes": 6668045,
-   "sha256": "dc8d69600428fd67c861337046df784c29c5080d3e0f0fac3a38c9fe658e8446"
+   "bytes": 6988117,
+   "sha256": "929148e74d935392ecff926cee21855fde7ea21970088bac69c6d0d9d2019591"
   },
   {
    "kind": "sitemap-topic",
@@ -111,7 +111,7 @@
   },
   {
    "kind": "sitemap-person",
-   "count": 692,
+   "count": 724,
    "file": "sitemap-person.xml"
   },
   {
@@ -131,7 +131,7 @@
   },
   {
    "kind": "sitemap-place",
-   "count": 580,
+   "count": 603,
    "file": "sitemap-place.xml"
   }
  ]

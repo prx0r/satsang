@@ -127,3 +127,17 @@ MCP: 22 tools (14 directory + 4 retreat + 3 keeper + fetch...), all read-only an
 Validation: schema 12,504 failing none; transcript guards 0 found; mcp/test.mjs all passed (7 new retreat checks); test-client all
 passed live. Gates: ALL PASS except 39 (2 verify-severity WAF URLs, expected). Screenshots: shots-merge/b5/ (place wat-ram-poeng,
 place birken, /agents) — dark design unchanged.
+
+## India study live (deployed wiser-web 24b2c410, wiser-mcp 832d2214; 2026-10-21 ~00:45 +07)
+- Blocker fixed: `nathas-org-natha-tradition` had country "INT" (schema needs ISO 3166 alpha-2). nathas.org (about, contacts,
+  disciples pages, checked 2026-10-21) names no headquarters country (disciples "in different countries"; teachers listed in
+  Moscow, Chelyabinsk...), so no honest code exists: the record is REMOVED via `source_maps.PLACE_DROP` (merge-sources skips it
+  and queues a `place-dropped` review item); its people, clips and resources stay. It was never live, so no redirect.
+- Merge: plain `python3 tools/merge-sources.py` (every group with a REPORT.md is now merged, India included); run twice, the
+  second run is byte-identical. build-clips (clips identical, 9,947; seed.sql no longer names the dropped place), build-wise,
+  build-collections. Graph: people 738, places 875 (825 mapped), edges 516, tradition nodes 178, review queue 94 items.
+- Validation: schema 13,082 records failing none (jsonschema reinstalled in the sandbox); transcript guards 0 found (243
+  transcripts, 9,665 samples); mcp/test.mjs all passed; test-client all passed live. Bundles: wiser-web 556 KB gzip, wiser-mcp
+  995 KB gzip (keeper limit 3 MB). Live: /place/devipatan-shaktipeeth-tulsipur, /person/yogi-matsyendranath-maharaj, /place/ltwa 200.
+- Screenshots: shots-merge/india/ (place devipatan, person matsyendranath, #country/IN; desktop + phone) — dark design unchanged.
+  shot-merge.mjs gains `WAIT=<ms>` (desktop shots at 1.5 s can catch the loading skeleton, as b5 desktop-place-rampoeng did).

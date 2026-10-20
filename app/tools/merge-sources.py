@@ -20,7 +20,8 @@ def items(d, *keys):
 G = groups(SRC)
 log = collections.Counter(); notes = []
 REVIEW = []  # claims held back (living, low confidence) -> wisegraph/review-queue.json (merged with tools/stage-extensions.py's items)
-REVIEW_LIVING_GROUPS = {'deep-india-study'}  # deep groups merged under the review rules (2026-10-20); staged ext-* groups are gated by stage-extensions.py
+REVIEW_LIVING_GROUPS = {'deep-india-study'}
+LIVING_TXT = __import__('re').compile(r'^\s*(b\.|born)|\balive\b|\bliving\b|present|[–-]\s*$', __import__('re').I)  # deep groups merged under the review rules (2026-10-20); staged ext-* groups are gated by stage-extensions.py
 
 # ---------- traditions ----------
 tp = os.path.join(ROOT, 'wisegraph/traditions.json'); TD = J(tp); TR = {n['id']: n for n in TD['nodes']}
@@ -164,6 +165,7 @@ for g, p in deep_people():
         q = PB[pid]
         if role != 'figure' or not q.get('role'): q['role'] = role if role != 'figure' or q.get('role') is None else q['role']
         for k in ('wikidata', 'years', 'bio'):
+            if k == 'years' and g in REVIEW_LIVING_GROUPS and LIVING_TXT.search(str(p.get(k) or '')): continue  # a living claim never fills in silently
             if not q.get(k) and p.get(k): q[k] = p[k]
         if chans: q['channels'] = union(q.get('channels'), chans, lambda c: c.get('id') or c.get('url') or c.get('name'))
         if links: q['links'] = {**links, **(q.get('links') or {})}
@@ -171,8 +173,10 @@ for g, p in deep_people():
         if trad and trad != q['tradition'] and q['tradition'] in [TR[trad]['parent'], TR.get(TR[trad]['parent'] or '', {}).get('parent')]: q['tradition'] = trad
         log['deep_people_merged'] += 1; continue
     if not trad: notes.append(f'person {pid} ({g}): no known tradition, skipped'); continue
-    held = g in REVIEW_LIVING_GROUPS and p.get('living') is True
-    if held: REVIEW.append({'pack': g, 'kind': 'living-claim', 'subject': 'person/' + pid, 'reason': 'living:true claimed by the sourcer; not set live until checked', 'severity': 'check'})
+    ytxt = g in REVIEW_LIVING_GROUPS and bool(LIVING_TXT.search(str(p.get('years') or '')))  # "b. 1962", "(alive ...)": an implied living claim
+    held = g in REVIEW_LIVING_GROUPS and (p.get('living') is True or ytxt)
+    if held: REVIEW.append({'pack': g, 'kind': 'living-claim', 'subject': 'person/' + pid, 'reason': f'living claimed by the sourcer (living:{p.get("living")}, years "{p.get("years") or ""}"); years and living flag held until checked', 'severity': 'check'})
+    if ytxt: p = {**p, 'years': None}
     q = {'id': pid, 'name': p['name'], 'short': p.get('short'), 'kind': 'speaker' if n_clips else 'figure', 'role': role, 'tradition': trad,
          'wikidata': p.get('wikidata'), 'years': p.get('years'), 'bio': p.get('bio'), 'aliases': p.get('aliases') or [],
          'channels': chans or None, 'links': links or None, 'works': p.get('works') or [],
@@ -229,7 +233,9 @@ for _pass in range(3):
                 rec = SKIPPED.get(me) or {}
                 role = 'scholar' if e['type'] == 'academic_supervisor_of' or rec.get('role') == 'scholar' else 'figure'
                 PB[me] = {'id': me, 'name': nm or NAMES.get(me) or _tc(me), 'kind': 'figure', 'role': role, 'tradition': tr, 'lineageOnly': True,
-                          'aliases': [], 'works': [], **{k: rec[k] for k in ('years', 'bio', 'wikidata') if rec.get(k)}}
+                          'aliases': [], 'works': [], **{k: rec[k] for k in ('years', 'bio', 'wikidata') if rec.get(k) and not (k == 'years' and LIVING_TXT.search(str(rec[k])))}}
+                if rec.get('years') and LIVING_TXT.search(str(rec['years'])):
+                    REVIEW.append({'pack': 'deep-india-study' if rec.get('clip_count') is not None or rec.get('tier') else 'deep', 'kind': 'living-claim', 'subject': 'person/' + me, 'reason': f'living implied by years "{rec["years"]}" on a lineage stub; years held until checked', 'severity': 'check'})
                 log['deep_people_stubs'] += 1
 PLACE_TEACH.clear(); log.pop('deep_edges_low_conf_held', None)
 # people referenced but not written by a sourcer, then hand corrections (source_maps.PEOPLE_ADD / PEOPLE_FIX)
@@ -436,6 +442,9 @@ def merge_ext_places(out):
     f = os.path.join(SRC, 'deep-india-study', 'places.json')
     if 'deep-india-study' in G and os.path.exists(f):
         for p in items(J(f), 'places'):
+            if p['id'] in PLACE_DROP:
+                REVIEW.append({'pack': 'deep-india-study', 'kind': 'place-dropped', 'subject': 'place/' + p['id'], 'reason': PLACE_DROP[p['id']], 'severity': 'verify'})
+                log['places_dropped'] += 1; continue
             trads = PLACE_TRADS.get(p['id']) or trads_of(p)
             if not trads and p['id'] not in BYID: notes.append(f'place {p["id"]} (deep-india-study): no known tradition, skipped'); continue
             url = p.get('url')
@@ -492,7 +501,7 @@ def merge_ext_places(out):
             P0['main_teacher'] = t; P0['teacher_model'] = m.get('model') or 'single'; P0['main_teacher_conf'] = m.get('conf') or 'medium'
             if t not in (P0.get('teachers') or []): P0['teachers'] = (P0.get('teachers') or []) + [t]
             log['main_teachers'] += 1
-from source_maps import KEEPER_URL_BAN
+from source_maps import KEEPER_URL_BAN, PLACE_DROP
 
 PL = merge_places()
 if PL: W(os.path.join(ROOT, 'wisegraph/places.json'), PL)
@@ -551,6 +560,7 @@ def licence_of(t):
             if dd.get('verify'): return None, f'domain {dom}: default unconfirmed (verify)'
             return dd.get('default'), f'domain {dom}: ' + dd.get('evidence', '')
     return None, 'no registry entry for the book or its domain'
+TEXT_KINDS = {'book', 'books', 'text', 'texts', 'article', 'articles', 'e-text-library', 'note', 'journal', 'manuscript-library', 'bibliography', 'ebook', 'pdf'}
 def linkable(lic): return bool(lic) and (lic in LINKABLE or lic.startswith('cc-'))
 log['texts_licence_shown'] = log['texts_licence_held'] = 0
 for g in [g for g in G if g.startswith('ext-')]:  # staged packs only (the older deep groups' texts.json are not wired; unchanged)
@@ -573,6 +583,11 @@ if 'deep-india-study' in G and os.path.exists(f):
         if not str(r.get('url') or '').startswith('http'): continue
         if str(r.get('confidence') or '').lower().startswith('low'):
             REVIEW.append({'pack': 'deep-india-study', 'kind': 'resource-low-confidence', 'subject': 'resource/' + r['id'], 'reason': r.get('notes') or 'low confidence (permission unconfirmed)', 'severity': 'check'}); continue
+        if r.get('kind') in TEXT_KINDS and r.get('access') == 'free':  # licence gate for texts: a free-text claim needs registry evidence (book or domain default)
+            lic, why = licence_of({'id': r['id'], 'link': r['url']})
+            if not linkable(lic):
+                log['texts_licence_held'] += 1
+                REVIEW.append({'pack': 'deep-india-study', 'kind': 'text-licence', 'subject': 'resource/' + r['id'], 'reason': f'licence gate: free text claimed, registry says {lic or "unregistered"} ({why}); held until the registry evidences a linkable licence', 'severity': 'verify'}); continue
         RES.append({'id': r['id'], 'title': r['title'], 'url': r['url'], 'kind': r.get('kind'), 'free': r.get('access') == 'free', 'licence': {'free': 'free from the publisher', 'paid': 'paid', 'mixed': 'mixed: some free, some paid'}.get(r.get('access'), r.get('access')),
                     'traditions': [t for t in (r.get('traditions') or []) if t in TR], 'people': [x for x in [DEEP_PERSON_MAP.get(r.get('person') or '', r.get('person'))] if x in PB],
                     'note': r.get('notes'), 'source_url': r.get('source_url') or r['url'], 'checked': r.get('verified_on'), 'confidence': r.get('confidence'), 'group': 'deep-india-study'})

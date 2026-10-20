@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 692 teachers, scholars and historical figures with 1,064 documented lineage and influence links, 852 places to practise in 51 countries (contacts exactly as each place publishes them, 276 checked against the place's own site), 348 texts and books (77 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,478 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 724 teachers, scholars and historical figures with 1,118 documented lineage and influence links, 875 places to practise in 51 countries (contacts exactly as each place publishes them, 298 checked against the place's own site), 379 texts and books (90 free from their publishers), 77 practices with cautions, 68 topics compared across traditions and 9,947 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -509,10 +509,10 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 # Places by country
 
 - GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 204 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
-- US: 85 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
+- IN: 225 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- US: 86 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
-- NP: 29 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
+- NP: 30 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
 - TH: 27 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
 - AU: 15 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; Nan Tien Temple; ...)
 - LK: 15 places (Island Hermitage; Forest Hermitage Udawattakele; Buddhist Publication Society; Nissaraṇa Monastery; Nā Uyana Monastery; Hillside Hermitage; Sri Maha Bodhi; Temple of the Tooth; ...)

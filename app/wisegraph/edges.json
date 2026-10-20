@@ -3495,6 +3495,110 @@
    "note": "Tantric consort-disciple (traditional terma histories)."
   },
   {
+   "from": "mark-dyczkowski",
+   "to": "arjun-seernels",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "\"two of the closest students of Markji\"",
+   "src": "https://www.anuttaratrikakula.org/reading-circles/"
+  },
+  {
+   "from": "mark-dyczkowski",
+   "to": "brian-campbell",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://www.anuttaratrikakula.org/reading-circles/"
+  },
+  {
+   "from": "rameshwar-jha",
+   "to": "mark-dyczkowski",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski"
+  },
+  {
+   "from": "hemendra-chakravarti",
+   "to": "mark-dyczkowski",
+   "type": "teacher_of",
+   "conf": "medium",
+   "note": "met 1971 in Varanasi",
+   "src": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski"
+  },
+  {
+   "from": "gopinath-kaviraj",
+   "to": "hemendra-chakravarti",
+   "type": "teacher_of",
+   "conf": "medium",
+   "src": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski"
+  },
+  {
+   "from": "yogi-kamalnath",
+   "to": "yogi-mithileshnath",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://nathas.org/en/parampara/gurus/"
+  },
+  {
+   "from": "yogi-mithileshnath",
+   "to": "yogi-matsyendranath-maharaj",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "\"his main disciple - Guruji Matsyendranath\"",
+   "src": "https://nathas.org/en/parampara/gurus/"
+  },
+  {
+   "from": "gorakhnath",
+   "to": "gorakhnath-math-gorakhpur",
+   "type": "influenced",
+   "conf": "high",
+   "note": "tapasthali/seat named for Gorakhnath",
+   "src": "https://www.gorakhnathmandir.in/"
+  },
+  {
+   "from": "swami-niranjanananda",
+   "to": "swami-charanashrit-giri",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "karma-sannyāsa initiation",
+   "src": "https://www.swarayoga.org/about"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-brahmatmananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://arshavidya.in/swami-sadatmananda-sarswati"
+  },
+  {
+   "from": "swami-brahmatmananda",
+   "to": "swami-sadatmananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://arshavidya.in/swami-sadatmananda-sarswati"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-sadatmananda",
+   "type": "influenced",
+   "conf": "high",
+   "note": "courses run \"under the guidance of Pujya Swamiji\"",
+   "src": "https://arshavidya.in/swami-sadatmananda-sarswati"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swami-shankarananda-avg",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://arshavidya.in/teachers/"
+  },
+  {
+   "from": "swami-dayananda-saraswati",
+   "to": "swamini-brahmaprakasananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "src": "https://avgnagpur.org/"
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",
