@@ -7,3 +7,4 @@ raw/
 *.tgz
 pylib/
 internal/
+!app/tools/check-no-transcripts.py

@@ -252,3 +252,17 @@ Validation: schema 13,078 failing none; transcript guards 0 found (243 / 9,665);
 Live: /practice/vbt-mind-between-objects, /practice/vbt-twelve-centres, /collection/vbt-foundations, /collection/trika-prep-week, /resource/tantra112-full-vbt-text-all-112-practices-free 200.
 No screenshots this batch (no UI change; existing practice/collection templates). MCP get_resources: VBT texts match "VBT"/"Hareesh" queries, not "vijnana bhairava" (titles abbreviate).
 Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated site.gen.js excluded; secret scan clean).
+
+## Batch 7: 46–54 (Nibbāna series) from prx0r/satsang-extensions @ 2b2a37f (2026-10-22 ~00:40 +07)
+Corrections are code: `app/tools/patch-ext-46-54.py <copy>` → `stage-extensions.py --packs 51-nibbana-movie --date 2026-10-22` → merge-sources → build-wise → build-hubs → build-collections (places/wise byte-identical bar build stamp; collections +6 practices). check_pack: 46–54 ALL PASS; schema 13,078 failing none.
+| pack | result | notes |
+|---|---|---|
+| 46-nibbana-path | merged (data) | app/wisegraph/nibbana-path.md. No consumer yet (client runtime is the next build) |
+| 47-nandi | merged (data) | app/wisegraph/nandi-stages.md. Game engine not built; stage 12 never "complete" |
+| 48-nibbana-visual | merged (live) | app/site/nibbana/twelve-link-machine/ + sermons-map/ (static, self-contained) |
+| 49-dhamma-visual | archived (spec) | specs/extensions/49-dhamma-visual (visual grammar) |
+| 50-sermons-graph | merged (data) | app/wisegraph/sermons-graph.md, sermons-01-33-graph.md, sermon-01-graph.md |
+| 51-nibbana-movie | merged (live) | 6 practices. Corrected: the pack cited nanavira.org (Ven. Ñāṇavīra) for Ven. Ñāṇananda's sermons → seeingthroughthenet.net/books (licence registry gift-of-dhamma); contraindications + teacher pointer added to every record; needsTeacher false. Movie manual + level-1 script + PLAIN-ENGLISH law archived in specs/extensions/51-nibbana-movie |
+| 52-nibbana-arguments | merged (data) | app/wisegraph/nibbana-arguments.md |
+| 53-nibbana-scaffold | partial | scaffold archived in specs/extensions/53-nibbana-scaffold. The 33 sermon excavations (3–4k words each, heavy verbatim) HELD in the private extensions repo: transcript-class material stays out of this public repo |
+| 54-excavation-skill | archived | specs/extensions/54-excavation-skill/SKILL.md |

@@ -1,6 +1,6 @@
 {
  "name": "Satsang open data",
- "version": "2026-10-20",
+ "version": "2026-10-21",
  "publisher": "Satsang (tantrafiles.xyz)",
  "license": {
   "metadata": "CC-BY-4.0",
@@ -54,11 +54,11 @@
   },
   {
    "kind": "practice",
-   "count": 84,
+   "count": 90,
    "json": "practice.json",
    "jsonl": "practice.jsonl",
-   "bytes": 101100,
-   "sha256": "88f45f88b30c1899c99b758353faf5343350b19a0814cfd32de772edc80ff997",
+   "bytes": 112563,
+   "sha256": "1ecf7696dbfbe7444d30c8801e649fcecebb2d37dfd943b0bb4f6393afb7201f",
    "schema": "https://tantrafiles.xyz/schema/practice.json"
   },
   {
@@ -99,10 +99,10 @@
   },
   {
    "kind": "jsonld",
-   "count": 11960,
+   "count": 11966,
    "file": "wiser.jsonld",
-   "bytes": 6998084,
-   "sha256": "15e1a124e7c26a93ae0a2873052943250d57771e7eff3c95124af44ff1374076"
+   "bytes": 7007925,
+   "sha256": "ca3e752a1934744410ec28059173f56db8c343aa6104579ffa5466853b954494"
   },
   {
    "kind": "sitemap-topic",
@@ -121,7 +121,7 @@
   },
   {
    "kind": "sitemap-practice",
-   "count": 84,
+   "count": 90,
    "file": "sitemap-practice.xml"
   },
   {
