@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Breath · Satsang</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #fff; overflow: hidden; overscroll-behavior: none; }
+  body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; touch-action: none; cursor: default;
+    font: 300 15px/1.4 "Cormorant Garamond", Georgia, serif; color: #8a7a62; }
+  canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  #line { position: fixed; left: 0; right: 0; bottom: calc(18px + env(safe-area-inset-bottom)); text-align: center; letter-spacing: .04em;
+    font-size: 17px; font-style: italic; opacity: 0; transition: opacity 2.4s ease; pointer-events: none; padding: 0 20px; }
+  @media (max-width: 480px) { #line { font-size: 15px; } }
+  #line.on { opacity: .72; }
+  #ui { position: fixed; top: calc(12px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); display: flex; gap: 6px; }
+  #ui button { width: 40px; height: 40px; border-radius: 50%; border: 0; background: transparent; padding: 0; cursor: pointer;
+    color: #b8a888; opacity: .55; transition: opacity .4s, color .4s; display: grid; place-items: center; -webkit-tap-highlight-color: transparent; }
+  #ui button:hover, #ui button:focus-visible { opacity: 1; outline: none; }
+  #ui button[aria-pressed="true"] { color: #b08a3e; opacity: .95; }
+  #ui svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+  #nogl { position: fixed; inset: 0; display: none; place-items: center; text-align: center; padding: 2em; }
+</style>
+</head>
+<body>
+<canvas id="c" aria-label="A seated body made of light, breathing. Hold anywhere to breathe in, release to breathe out."></canvas>
+<div id="ui">
+  <button id="mic" aria-pressed="false" aria-label="Follow my breath with the microphone" title="Follow my breath (microphone)">
+    <svg viewBox="0 0 24 24"><rect x="9" y="3.5" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v2.5"/></svg></button>
+  <button id="snd" aria-pressed="false" aria-label="Breath sound" title="Breath sound">
+    <svg viewBox="0 0 24 24"><path d="M4 12c2-4 4-4 6 0s4 4 6 0 3-3 4-1"/></svg></button>
+  <button id="stop" aria-label="Stop" title="Stop">
+    <svg viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg></button>
+</div>
+<div id="line" role="status" aria-live="polite"></div>
+<div id="nogl">This needs WebGL2. Breathe slowly anyway: about four seconds in, six out.</div>
+<script type="module">
+import { createBreath } from './breath.js'
+import { createBody } from './body.js'
+
+const q = new URLSearchParams(location.search)
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches || q.has('reduce')
+const small = q.has('lq') || (!q.has('hq') && (Math.min(innerWidth, innerHeight) < 600 || (navigator.hardwareConcurrency || 8) <= 2))
+const $ = id => document.getElementById(id)
+
+/* breath sound: band-passed noise per phase, after deitybody's breathSound; off until asked for */
+let ac = null, soundOn = false, noise = null, cur = null
+const audio = () => { if (!ac) ac = new (window.AudioContext || window.webkitAudioContext)(); if (ac.state === 'suspended') ac.resume(); return ac }
+function breathSound(phase, dur) {
+  if (cur) { try { const t = ac.currentTime; cur.g.gain.cancelScheduledValues(t); cur.g.gain.setTargetAtTime(0.0001, t, 0.12); cur.s.stop(t + 0.6) } catch (e) {} cur = null }
+  if (!soundOn || !ac || breath.state.micOn) return
+  dur = Math.max(1, Math.min(dur, 12))
+  if (!noise) { noise = ac.createBuffer(1, ac.sampleRate * 2, ac.sampleRate); const d = noise.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1 }
+  const s = ac.createBufferSource(); s.buffer = noise; s.loop = true
+  const f = ac.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = phase === 'in' ? 620 : 400; f.Q.value = 0.8
+  const lp = ac.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 1800
+  const g = ac.createGain(), t = ac.currentTime, peak = breath.state.rest ? 0.035 : 0.07
+  g.gain.setValueAtTime(0.0001, t)
+  if (phase === 'in') { g.gain.exponentialRampToValueAtTime(peak, t + dur * 0.75); g.gain.exponentialRampToValueAtTime(0.0001, t + dur) }
+  else { g.gain.exponentialRampToValueAtTime(peak * 0.85, t + Math.min(0.5, dur * 0.2)); g.gain.exponentialRampToValueAtTime(0.0001, t + dur) }
+  s.connect(f); f.connect(lp); lp.connect(g); g.connect(ac.destination); s.start(t); s.stop(t + dur + 0.1)
+  cur = { s, g }
+}
+
+const breath = createBreath({ onPhase: (p, dur) => breathSound(p, dur) })
+window.__breath = breath
+
+/* one quiet line at a time, then it fades */
+let lineTimer = 0
+function say(text, ms = 6000) { const el = $('line'); el.textContent = text; el.classList.add('on'); clearTimeout(lineTimer); lineTimer = setTimeout(() => el.classList.remove('on'), ms) }
+
+const canvas = $('c')
+let body = null
+try { body = createBody(canvas, { small, reduce }) } catch (e) { console.error(e) }
+if (!body) { $('nogl').style.display = 'grid'; canvas.style.display = 'none' }
+window.__body = body
+
+/* hold anywhere = inhale, release = exhale */
+const down = e => { if (e.target.closest('#ui')) return; e.preventDefault(); if (soundOn) audio(); breath.press() }
+const up = e => { if (e.target.closest && e.target.closest('#ui')) return; breath.release() }
+addEventListener('pointerdown', down, { passive: false })
+addEventListener('pointerup', up); addEventListener('pointercancel', up)
+addEventListener('blur', () => breath.release())
+addEventListener('keydown', e => { if (e.repeat) return; if (e.code === 'Space') { e.preventDefault(); breath.press() } if (e.key === 'Escape') stop() })
+addEventListener('keyup', e => { if (e.code === 'Space') breath.release() })
+addEventListener('contextmenu', e => e.preventDefault())
+
+$('snd').onclick = () => { soundOn = !soundOn; $('snd').setAttribute('aria-pressed', soundOn); if (soundOn) audio(); else breathSound('in', 0) }
+$('mic').onclick = async () => {
+  if (breath.state.micOn) { breath.micStop(); $('mic').setAttribute('aria-pressed', 'false'); return }
+  try { await breath.micStart(audio()); $('mic').setAttribute('aria-pressed', 'true'); breathSound('in', 0); say('breathe as you are · the light follows', 5500) }
+  catch (e) { say('the microphone was not allowed · hold anywhere to breathe in', 6000) }
+}
+function stop() { breath.stop(); $('mic').setAttribute('aria-pressed', 'false'); soundOn = false; $('snd').setAttribute('aria-pressed', 'false'); breathSound('in', 0); say('resting · hold anywhere to breathe again', 4500) }
+$('stop').onclick = stop
+
+let quietSaid = false, last = performance.now()
+function loop(now) {
+  const dt = Math.min(0.25, (now - last) / 1000); last = now
+  const s = breath.tick(dt, now / 1000)
+  if (s.quiet && !quietSaid) { quietSaid = true; say('breathe a little audibly, near the microphone', 5000) }
+  if (body) body.frame(dt, s)
+  requestAnimationFrame(loop)
+}
+requestAnimationFrame(loop)
+setTimeout(() => say('hold to breathe in · let go to breathe out'), 1600)
+</script>
+</body>
+</html>
