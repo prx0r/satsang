@@ -135,18 +135,18 @@
   "checked": 18
  },
  "sitemap": {
-  "at": "2026-10-20T21:36:56Z",
+  "at": "2026-10-21T00:37:06Z",
   "cadence": "hourly",
-  "ms": 2509,
+  "ms": 1087,
   "failing": 0,
   "passed": 127,
   "checked": 120,
   "total": 1674
  },
  "uptime": {
-  "at": "2026-10-20T21:36:57Z",
+  "at": "2026-10-21T00:37:07Z",
   "cadence": "hourly",
-  "ms": 1340,
+  "ms": 1024,
   "failing": 0,
   "passed": 12,
   "checked": 12
