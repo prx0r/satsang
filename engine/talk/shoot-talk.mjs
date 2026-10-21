@@ -23,7 +23,7 @@ let fail = 0; const ok = (c, m) => { console.log(c ? 'ok  ' : 'FAIL', m); if (!c
 try {
   const pg = await b.newPage(); const errs = []
   pg.on('pageerror', e => errs.push(String(e))); pg.on('console', m => { if (m.type() === 'error' && !/favicon|fonts\.g|ERR_|status of 404/.test(m.text() + (m.location()?.url || ''))) errs.push(m.text() + ' ' + (m.location()?.url || '')) })
-  pg.on('requestfailed', r => { if (!/fonts\.g|favicon/.test(r.url())) errs.push('requestfailed ' + r.url()) })
+  pg.on('requestfailed', r => { if (!/fonts\.g|favicon|cdn-cgi\/rum/.test(r.url())) errs.push('requestfailed ' + r.url()) })
   pg.on('response', r => { if (r.status() >= 400 && !/favicon|fonts\.g/.test(r.url())) errs.push(r.status() + ' ' + r.url()) })
   await pg.setViewport({ width: 1440, height: 900 })
   await pg.goto(`${base}/talk/`, { waitUntil: 'domcontentloaded' })
