@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "rule": "verified_on > 90 days, past programme dates, living status unknown or inferred, low-confidence places",
- "count": 424,
+ "count": 482,
  "items": [
   {
    "kind": "person",
@@ -98,12 +98,6 @@
    "id": "elizabeth-de-michelis",
    "reason": "alive-unknown",
    "source_url": "https://tantrafiles.xyz/person/elizabeth-de-michelis"
-  },
-  {
-   "kind": "person",
-   "id": "gorakhnath",
-   "reason": "alive-unknown",
-   "source_url": "https://tantrafiles.xyz/person/gorakhnath"
   },
   {
    "kind": "person",
@@ -568,6 +562,240 @@
    "source_url": "https://tantrafiles.xyz/person/syrianus"
   },
   {
+   "kind": "person",
+   "id": "sayalay-dipankara",
+   "reason": "alive-unknown",
+   "source_url": "https://cakkavala.org/Teacher.html"
+  },
+  {
+   "kind": "person",
+   "id": "ariyananda",
+   "reason": "alive-unknown",
+   "source_url": "https://nauyana.org"
+  },
+  {
+   "kind": "person",
+   "id": "dhammajiva",
+   "reason": "alive-unknown",
+   "source_url": "https://nissarana.lk/about-us"
+  },
+  {
+   "kind": "person",
+   "id": "aggacitta",
+   "reason": "alive-unknown",
+   "source_url": "https://sasanarakkha.org/about"
+  },
+  {
+   "kind": "person",
+   "id": "thubten-chodron",
+   "reason": "alive-unknown",
+   "source_url": "https://sravastiabbey.org"
+  },
+  {
+   "kind": "person",
+   "id": "amma",
+   "reason": "alive-unknown",
+   "source_url": "https://amma.org"
+  },
+  {
+   "kind": "person",
+   "id": "sakyong-mipham",
+   "reason": "alive-unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Sakyong_Mipham"
+  },
+  {
+   "kind": "person",
+   "id": "amrit-desai",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/amrit-desai"
+  },
+  {
+   "kind": "person",
+   "id": "yizhin-norbu",
+   "reason": "alive-unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Shangpa_Kagyu"
+  },
+  {
+   "kind": "person",
+   "id": "chenga-chokyi-gyalpo",
+   "reason": "alive-unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Tsongkhapa"
+  },
+  {
+   "kind": "person",
+   "id": "garab-dorje",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/garab-dorje"
+  },
+  {
+   "kind": "person",
+   "id": "manjushrimitra",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/manjushrimitra"
+  },
+  {
+   "kind": "person",
+   "id": "shri-simha",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/shri-simha"
+  },
+  {
+   "kind": "person",
+   "id": "jnanasutra",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/jnanasutra"
+  },
+  {
+   "kind": "person",
+   "id": "ronald-davidson",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/ronald-davidson"
+  },
+  {
+   "kind": "person",
+   "id": "nandinatha",
+   "reason": "alive-unknown",
+   "source_url": "https://himalayanacademy.com"
+  },
+  {
+   "kind": "person",
+   "id": "nachiketa",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/nachiketa"
+  },
+  {
+   "kind": "person",
+   "id": "vashistha",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/vashistha"
+  },
+  {
+   "kind": "person",
+   "id": "vishvamitra",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/vishvamitra"
+  },
+  {
+   "kind": "person",
+   "id": "vyasa",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/vyasa"
+  },
+  {
+   "kind": "person",
+   "id": "valmiki",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/valmiki"
+  },
+  {
+   "kind": "person",
+   "id": "agastya",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/agastya"
+  },
+  {
+   "kind": "person",
+   "id": "swami-ramdev",
+   "reason": "alive-unknown",
+   "source_url": "https://divyayoga.com"
+  },
+  {
+   "kind": "person",
+   "id": "chidanand-saraswati",
+   "reason": "alive-unknown",
+   "source_url": "https://parmarth.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-martin",
+   "reason": "alive-unknown",
+   "source_url": "https://forestdhammatalks.org"
+  },
+  {
+   "kind": "person",
+   "id": "ajahn-suphan",
+   "reason": "alive-unknown",
+   "source_url": "https://watrampoeng.com"
+  },
+  {
+   "kind": "person",
+   "id": "arjun-seernels",
+   "reason": "alive-unknown",
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/"
+  },
+  {
+   "kind": "person",
+   "id": "brian-campbell",
+   "reason": "alive-unknown",
+   "source_url": "https://list.indology.info/pipermail/indology/2025-February/060196.html"
+  },
+  {
+   "kind": "person",
+   "id": "rameshwar-jha",
+   "reason": "alive-unknown",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski"
+  },
+  {
+   "kind": "person",
+   "id": "hemendra-chakravarti",
+   "reason": "alive-unknown",
+   "source_url": "https://www.academia.edu/128984170/Remembering_the_Devoted_Kashmir_%C5%9Aaivist_Mark_Dyczkowski"
+  },
+  {
+   "kind": "person",
+   "id": "gurumayi-chidvilasananda",
+   "reason": "alive-unknown",
+   "source_url": "https://muktabodha.org/"
+  },
+  {
+   "kind": "person",
+   "id": "yogi-kamalnath",
+   "reason": "alive-unknown",
+   "source_url": "https://nathas.org/en/parampara/gurus/"
+  },
+  {
+   "kind": "person",
+   "id": "swami-brahmatmananda",
+   "reason": "alive-unknown",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sakshatkrtananda",
+   "reason": "alive-unknown",
+   "source_url": "https://www.dayananda.org/"
+  },
+  {
+   "kind": "person",
+   "id": "swamini-brahmaprakasananda",
+   "reason": "alive-unknown",
+   "source_url": "https://avgnagpur.org/"
+  },
+  {
+   "kind": "person",
+   "id": "swamini-vedarthananda",
+   "reason": "alive-unknown",
+   "source_url": "https://arshavidya.in/teachers/"
+  },
+  {
+   "kind": "person",
+   "id": "swamini-saradananda",
+   "reason": "alive-unknown",
+   "source_url": "https://arshavidya.in/teachers/"
+  },
+  {
+   "kind": "person",
+   "id": "yogi-mithileshnath",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/yogi-mithileshnath"
+  },
+  {
+   "kind": "person",
+   "id": "gorakhnath-math-gorakhpur",
+   "reason": "alive-unknown",
+   "source_url": "https://tantrafiles.xyz/person/gorakhnath-math-gorakhpur"
+  },
+  {
    "kind": "place",
    "id": "wat-dhammasathit",
    "reason": "low-confidence",
@@ -737,6 +965,18 @@
   },
   {
    "kind": "place",
+   "id": "dzogchen-community-uk",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/dzogchen-community-uk"
+  },
+  {
+   "kind": "place",
+   "id": "satyananda-yoga-uk",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/satyananda-yoga-uk"
+  },
+  {
+   "kind": "place",
    "id": "maharishi-garden-village",
    "reason": "low-confidence",
    "source_url": "https://tantrafiles.xyz/place/maharishi-garden-village"
@@ -809,6 +1049,12 @@
   },
   {
    "kind": "place",
+   "id": "blavatsky-house",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/blavatsky-house"
+  },
+  {
+   "kind": "place",
    "id": "chalice-orchard",
    "reason": "low-confidence",
    "source_url": "https://tantrafiles.xyz/place/chalice-orchard"
@@ -818,6 +1064,12 @@
    "id": "madron-well",
    "reason": "low-confidence",
    "source_url": "https://tantrafiles.xyz/place/madron-well"
+  },
+  {
+   "kind": "place",
+   "id": "isle-of-avalon-foundation",
+   "reason": "low-confidence",
+   "source_url": "https://tantrafiles.xyz/place/isle-of-avalon-foundation"
   },
   {
    "kind": "place",
@@ -950,6 +1202,12 @@
    "id": "dargah-inayat-khan",
    "reason": "low-confidence",
    "source_url": "https://tantrafiles.xyz/place/dargah-inayat-khan"
+  },
+  {
+   "kind": "place",
+   "id": "maharaja-sanskrit-college-mysore",
+   "reason": "low-confidence",
+   "source_url": "https://en.wikipedia.org/wiki/Maharaja%27s_Sanskrit_College,_Mysore"
   },
   {
    "kind": "person",
@@ -1195,7 +1453,7 @@
    "kind": "person",
    "id": "shohaku-okumura",
    "reason": "likely-living-inferred",
-   "source_url": "https://sanshin.org"
+   "source_url": "https://www.sanshinji.org/"
   },
   {
    "kind": "person",
@@ -1429,7 +1687,7 @@
    "kind": "person",
    "id": "bettina-baumer",
    "reason": "likely-living-inferred",
-   "source_url": "https://tantrafiles.xyz/person/bettina-baumer"
+   "source_url": "https://www.utpaladeva.in/"
   },
   {
    "kind": "person",
@@ -1559,12 +1817,6 @@
   },
   {
    "kind": "person",
-   "id": "mark-dyczkowski",
-   "reason": "likely-living-inferred",
-   "source_url": "https://www.anuttaratrikakula.org"
-  },
-  {
-   "kind": "person",
    "id": "mark-singleton",
    "reason": "likely-living-inferred",
    "source_url": "https://yoga.ames.ox.ac.uk/hyp/team"
@@ -1657,7 +1909,7 @@
    "kind": "person",
    "id": "swami-shankarananda",
    "reason": "likely-living-inferred",
-   "source_url": "https://www.shivaashram.org.au"
+   "source_url": "https://www.theashram.com.au/"
   },
   {
    "kind": "person",
@@ -1741,13 +1993,13 @@
    "kind": "person",
    "id": "ajahn-kalyano",
    "reason": "likely-living-inferred",
-   "source_url": "https://www.bodhivana.org.au"
+   "source_url": "https://www.buddhabodhivana.org/about/ajahn-kalyano"
   },
   {
    "kind": "person",
    "id": "ajahn-chandako",
    "reason": "likely-living-inferred",
-   "source_url": "https://vimutti.org.nz"
+   "source_url": "https://atba.nz/about/"
   },
   {
    "kind": "person",
@@ -2111,12 +2363,6 @@
   },
   {
    "kind": "person",
-   "id": "tulku-thondup",
-   "reason": "likely-living-inferred",
-   "source_url": "https://tulkuthondup.com"
-  },
-  {
-   "kind": "person",
    "id": "lama-rod-owens",
    "reason": "likely-living-inferred",
    "source_url": "https://www.lamarod.com"
@@ -2371,7 +2617,7 @@
    "kind": "person",
    "id": "angela-puca",
    "reason": "likely-living-inferred",
-   "source_url": "https://www.youtube.com/@AngelasSymposium"
+   "source_url": "https://www.youtube.com/channel/UCPSbip_LX2AxbGeAQfLp-Ig"
   },
   {
    "kind": "person",
@@ -2443,7 +2689,7 @@
    "kind": "person",
    "id": "william-chittick",
    "reason": "likely-living-inferred",
-   "source_url": "https://www.williamcchittick.com"
+   "source_url": "http://www.williamcchittick.com/"
   },
   {
    "kind": "person",
@@ -2546,6 +2792,108 @@
    "id": "bernard-mcginn",
    "reason": "likely-living-inferred",
    "source_url": "https://tantrafiles.xyz/person/bernard-mcginn"
+  },
+  {
+   "kind": "person",
+   "id": "yogi-matsyendranath-maharaj",
+   "reason": "likely-living-inferred",
+   "source_url": "https://nathas.org/en/about/"
+  },
+  {
+   "kind": "person",
+   "id": "yogi-lakshminath",
+   "reason": "likely-living-inferred",
+   "source_url": "https://nathas.org/en/news/"
+  },
+  {
+   "kind": "person",
+   "id": "yogi-allamanath",
+   "reason": "likely-living-inferred",
+   "source_url": "https://nathas.org/"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sadatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://arshavidya.in/swami-sadatmananda-sarswati"
+  },
+  {
+   "kind": "person",
+   "id": "swami-shankarananda-avg",
+   "reason": "likely-living-inferred",
+   "source_url": "https://arshavidya.in/teachers/"
+  },
+  {
+   "kind": "person",
+   "id": "swami-muktatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://arshavidya.org/live"
+  },
+  {
+   "kind": "person",
+   "id": "swami-sachidananda-avg",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg"
+  },
+  {
+   "kind": "person",
+   "id": "swami-advayatmananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg"
+  },
+  {
+   "kind": "person",
+   "id": "swami-pratyagbodhananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg"
+  },
+  {
+   "kind": "person",
+   "id": "swamini-paraprajnananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCyurta_Rz_12SQqQE_hbBTg"
+  },
+  {
+   "kind": "person",
+   "id": "swami-atmaswarupananda",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCDvqCbXY7BietQqqDrZgzOA"
+  },
+  {
+   "kind": "person",
+   "id": "kym-faculty",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.kym.org/"
+  },
+  {
+   "kind": "person",
+   "id": "geshe-lhakdor",
+   "reason": "likely-living-inferred",
+   "source_url": "https://tibetanlibrary.org/"
+  },
+  {
+   "kind": "person",
+   "id": "tenzin-gache",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCh7Knf7AkgL-Cv-zV98qCDQ"
+  },
+  {
+   "kind": "person",
+   "id": "tenzin-legtsok",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/channel/UCh7Knf7AkgL-Cv-zV98qCDQ"
+  },
+  {
+   "kind": "person",
+   "id": "geshe-tenzin-zopa",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.rootinstitute.ngo/"
+  },
+  {
+   "kind": "person",
+   "id": "swami-charanashrit-giri",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.swarayoga.org/charan"
   }
  ]
 }

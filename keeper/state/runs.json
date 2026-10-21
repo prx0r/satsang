@@ -22,60 +22,60 @@
   }
  },
  "integrity": {
-  "at": "2026-10-20T13:16:21Z",
-  "cadence": "all",
-  "ms": 134,
-  "failing": 11,
+  "at": "2026-10-21T08:52:12Z",
+  "cadence": "daily",
+  "ms": 138,
+  "failing": 7,
   "passed": 0,
-  "checked": 2280
+  "checked": 2717
  },
  "jsonld": {
-  "at": "2026-10-20T13:16:22Z",
-  "cadence": "all",
-  "ms": 817,
+  "at": "2026-10-21T08:52:13Z",
+  "cadence": "daily",
+  "ms": 896,
   "failing": 0,
-  "passed": 44,
-  "checked": 44
+  "passed": 45,
+  "checked": 45
  },
  "leaks": {
-  "at": "2026-10-20T13:16:26Z",
-  "cadence": "all",
-  "ms": 4190,
+  "at": "2026-10-21T08:52:18Z",
+  "cadence": "daily",
+  "ms": 5328,
   "failing": 0,
   "passed": 0,
-  "checked": 581,
+  "checked": 1052,
   "grams": 0
  },
  "linkrot": {
-  "at": "2026-10-20T13:18:02Z",
-  "cadence": "all",
-  "ms": 96422,
-  "failing": 16,
-  "passed": 662,
+  "at": "2026-10-21T08:57:26Z",
+  "cadence": "daily",
+  "ms": 308295,
+  "failing": 8,
+  "passed": 699,
   "checked": 700,
-  "unknown": 22,
-  "total": 1694
+  "unknown": 4,
+  "total": 1816
  },
  "links": {
-  "at": "2026-10-20T13:18:05Z",
-  "cadence": "all",
-  "ms": 3038,
-  "failing": 2,
-  "passed": 321,
-  "checked": 323,
-  "total": 323,
-  "pages": 47
+  "at": "2026-10-21T08:57:29Z",
+  "cadence": "daily",
+  "ms": 2393,
+  "failing": 0,
+  "passed": 354,
+  "checked": 353,
+  "total": 353,
+  "pages": 48
  },
  "oembed": {
-  "at": "2026-10-20T13:24:28Z",
-  "cadence": "all",
-  "ms": 382653,
+  "at": "2026-10-21T09:03:51Z",
+  "cadence": "daily",
+  "ms": 382436,
   "failing": 0,
   "passed": 2500,
   "checked": 2500,
   "unknown": 0,
   "throttled": false,
-  "total": 9269
+  "total": 9738
  },
  "perf": {
   "at": "2026-10-20T13:24:29Z",
@@ -113,23 +113,23 @@
   }
  },
  "provenance": {
-  "at": "2026-10-20T13:24:29Z",
-  "cadence": "all",
-  "ms": 114,
-  "failing": 158,
+  "at": "2026-10-21T09:03:51Z",
+  "cadence": "daily",
+  "ms": 136,
+  "failing": 209,
   "passed": 0,
-  "checked": 1976,
+  "checked": 2342,
   "selfSourced": {
-   "person": 182,
-   "tradition": 86,
-   "place": 64,
+   "person": 243,
+   "tradition": 107,
+   "place": 77,
    "practice": 0
   }
  },
  "robots": {
-  "at": "2026-10-20T13:24:29Z",
-  "cadence": "all",
-  "ms": 151,
+  "at": "2026-10-21T09:03:51Z",
+  "cadence": "daily",
+  "ms": 328,
   "failing": 0,
   "passed": 14,
   "checked": 18
