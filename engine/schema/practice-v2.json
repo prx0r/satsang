@@ -2,105 +2,679 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://tantrafiles.xyz/schema/practice-v2.json",
   "title": "Practice v2 (executable)",
-  "description": "Practice v1 (specs/schema/practice.json) plus PRACTICE-ENGINE.md §2 facets, safety, and an executable script that engine/compile.mjs turns into a timeline. Every v1 field keeps its meaning; v2 adds schema_version, facets, safety, script. v2.1 (2026-10-21, additive, TEXT-TO-PRACTICE.md): optional stages, derivation, provenance, ask; blocks may carry id, stage, instr, quote, voice_first, sound_first; repeat may carry unit; safety.beginner_override.skip_stages and safety.alternatives. Practices without them compile exactly as before.",
-  "allOf": [{ "$ref": "practice.json" }],
+  "description": "Practice v1 (specs/schema/practice.json) plus PRACTICE-ENGINE.md §2 facets, safety, and an executable script that engine/compile.mjs turns into a timeline. Every v1 field keeps its meaning; v2 adds schema_version, facets, safety, script. v2.1 (2026-10-21, additive, TEXT-TO-PRACTICE.md): optional stages, derivation, provenance, ask; blocks may carry id, stage, instr, quote, voice_first, sound_first; repeat may carry unit; safety.beginner_override.skip_stages and safety.alternatives. Practices without them compile exactly as before. v2.2 (2026-10-21, additive, engine milestone 1): blocks may be `kind: \"segment\"` (VBT play: say, then pause_s; the pause is the practice) with hold_open, say_spoken, sound_at pause|end; cues gain the free primitives wave, spaces, gap, edges, airflow, figure (grammar.primitives, free:true) with their params; script.mode (guided|play) and script.breath_style; show gains side, lungs, figure, wave_y.",
+  "allOf": [
+    {
+      "$ref": "practice.json"
+    }
+  ],
   "type": "object",
-  "required": ["schema_version", "script", "safety"],
+  "required": [
+    "schema_version",
+    "script",
+    "safety"
+  ],
   "properties": {
-    "schema_version": { "const": 2 },
+    "schema_version": {
+      "const": 2
+    },
     "facets": {
       "type": "object",
       "properties": {
-        "method": { "type": "array", "items": { "type": "string" } },
-        "locus": { "type": "array", "items": { "type": "string" }, "description": "grammar.json loci/regions/paths ids" },
-        "aim": { "type": "array", "items": { "type": "string" } },
-        "level": { "enum": ["first-steps", "steady", "deep"] },
-        "intensity": { "type": "integer", "minimum": 1, "maximum": 5 },
-        "needs_teacher": { "type": "boolean" },
-        "needs_teacher_note": { "type": "string" },
-        "initiation_required": { "type": "boolean" }
+        "method": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "locus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "grammar.json loci/regions/paths ids"
+        },
+        "aim": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "level": {
+          "enum": [
+            "first-steps",
+            "steady",
+            "deep"
+          ]
+        },
+        "intensity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "needs_teacher": {
+          "type": "boolean"
+        },
+        "needs_teacher_note": {
+          "type": "string"
+        },
+        "initiation_required": {
+          "type": "boolean"
+        }
       }
     },
     "safety": {
       "type": "object",
       "properties": {
-        "max_hold_s": { "type": "number", "minimum": 0, "maximum": 30 },
-        "beginner_override": { "type": "object", "properties": { "params": { "type": "object" }, "rounds": { "type": "integer" }, "skip_stages": { "type": "array", "items": { "type": "string" } } } },
-        "contraindications": { "type": "array", "items": { "type": "string" } },
-        "stop_if": { "type": "array", "items": { "type": "string" } },
-        "alternatives": { "type": "array", "items": { "type": "object", "properties": { "practice": { "type": "string" }, "when": { "type": "string" } } } }
+        "max_hold_s": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 30
+        },
+        "beginner_override": {
+          "type": "object",
+          "properties": {
+            "params": {
+              "type": "object"
+            },
+            "rounds": {
+              "type": "integer"
+            },
+            "skip_stages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "contraindications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stop_if": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "practice": {
+                "type": "string"
+              },
+              "when": {
+                "type": "string"
+              }
+            }
+          }
+        }
       }
     },
-    "stages": { "type": "array", "description": "ordered stage ids (= PRACTICE-ASK phase ids; timeline markers kind=stage)", "items": { "type": "object", "required": ["id", "label"], "properties": { "id": { "type": "string" }, "label": { "type": "string" }, "optional": { "type": "boolean" } } } },
-    "derivation": { "type": "object", "description": "how this practice was built from a source text: files, hashes, extractor mode", "properties": { "pipeline": { "type": "string" }, "builder": { "type": "string" }, "extractor": { "type": "object" }, "source": { "type": "object" }, "files": { "type": "object" }, "inputs_sha256": { "type": "string" }, "voice_measured": { "type": "boolean" } } },
-    "provenance": { "type": "object", "properties": { "blocks": { "type": "object", "description": "block id → {instr:[…], seconds|count|duration|pairing|guidance: {basis, rule?, cite?}}", "additionalProperties": { "type": ["object", "null"] } }, "fields": { "type": "object", "additionalProperties": { "type": "object", "properties": { "basis": { "enum": ["quoted", "paraphrased", "inferred"] }, "instr": { "type": "array" }, "rule": { "type": "string" }, "note": { "type": "string" } } } } } },
-    "ask": { "type": "object", "properties": { "phases": { "type": "array", "items": { "type": "string" } }, "preload": { "type": "array", "description": "see schema/ask-preload.json" } } },
+    "stages": {
+      "type": "array",
+      "description": "ordered stage ids (= PRACTICE-ASK phase ids; timeline markers kind=stage)",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "optional": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "derivation": {
+      "type": "object",
+      "description": "how this practice was built from a source text: files, hashes, extractor mode",
+      "properties": {
+        "pipeline": {
+          "type": "string"
+        },
+        "builder": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "object"
+        },
+        "source": {
+          "type": "object"
+        },
+        "files": {
+          "type": "object"
+        },
+        "inputs_sha256": {
+          "type": "string"
+        },
+        "voice_measured": {
+          "type": "boolean"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "blocks": {
+          "type": "object",
+          "description": "block id → {instr:[…], seconds|count|duration|pairing|guidance: {basis, rule?, cite?}}",
+          "additionalProperties": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "basis": {
+                "enum": [
+                  "quoted",
+                  "paraphrased",
+                  "inferred"
+                ]
+              },
+              "instr": {
+                "type": "array"
+              },
+              "rule": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "ask": {
+      "type": "object",
+      "properties": {
+        "phases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preload": {
+          "type": "array",
+          "description": "see schema/ask-preload.json"
+        }
+      }
+    },
     "script": {
       "type": "object",
-      "required": ["round"],
+      "required": [
+        "round"
+      ],
       "properties": {
-        "count_s": { "type": "number", "exclusiveMinimum": 0, "description": "seconds per count (Sivananda: one OM/matra ≈ 1 s)" },
-        "view": { "enum": ["full", "upper", "with_dvadasanta"] },
-        "params": { "type": "object", "description": "ratio [in, hold_in, out, hold_out] in counts; any named params referenced as 'param:<name>'" },
-        "rounds": { "type": "object", "properties": { "default": { "type": "integer" }, "min": { "type": "integer" }, "max": { "type": "integer" }, "unit": { "type": "string" } } },
-        "round_sound": { "type": ["string", "boolean"] },
-        "show": { "type": "object", "properties": { "channels": { "type": "array" }, "loci": { "type": "array" }, "labels": {}, "nostril_tags": { "type": "boolean" }, "cavern": { "type": "boolean" } } },
-        "intro": { "$ref": "#/$defs/blocks" },
-        "round": { "$ref": "#/$defs/blocks" },
-        "between": { "$ref": "#/$defs/blocks" },
-        "outro": { "$ref": "#/$defs/blocks" }
+        "count_s": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "seconds per count (Sivananda: one OM/matra ≈ 1 s)"
+        },
+        "view": {
+          "enum": [
+            "full",
+            "upper",
+            "with_dvadasanta"
+          ]
+        },
+        "params": {
+          "type": "object",
+          "description": "ratio [in, hold_in, out, hold_out] in counts; any named params referenced as 'param:<name>'"
+        },
+        "rounds": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "integer"
+            },
+            "min": {
+              "type": "integer"
+            },
+            "max": {
+              "type": "integer"
+            },
+            "unit": {
+              "type": "string"
+            }
+          }
+        },
+        "round_sound": {
+          "type": [
+            "string",
+            "boolean"
+          ]
+        },
+        "show": {
+          "type": "object",
+          "properties": {
+            "channels": {
+              "type": "array"
+            },
+            "loci": {
+              "type": "array"
+            },
+            "labels": {},
+            "nostril_tags": {
+              "type": "boolean"
+            },
+            "cavern": {
+              "type": "boolean"
+            },
+            "side": {
+              "type": "boolean"
+            },
+            "lungs": {
+              "type": "boolean"
+            },
+            "figure": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "wave_y": {
+              "type": "number"
+            }
+          }
+        },
+        "intro": {
+          "$ref": "#/$defs/blocks"
+        },
+        "round": {
+          "$ref": "#/$defs/blocks"
+        },
+        "between": {
+          "$ref": "#/$defs/blocks"
+        },
+        "outro": {
+          "$ref": "#/$defs/blocks"
+        },
+        "mode": {
+          "enum": [
+            "guided",
+            "play",
+            "timer"
+          ]
+        },
+        "breath_style": {
+          "enum": [
+            "full",
+            "abdominal",
+            "thoracic",
+            "clavicular",
+            "kapalabhati",
+            "natural"
+          ]
+        }
       }
     }
   },
   "$defs": {
-    "blocks": { "type": "array", "items": { "$ref": "#/$defs/block" } },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/block"
+      }
+    },
     "block": {
       "type": "object",
       "oneOf": [
-        { "required": ["repeat", "blocks"] },
-        { "required": ["phase"] }
+        {
+          "required": [
+            "repeat",
+            "blocks"
+          ]
+        },
+        {
+          "required": [
+            "phase"
+          ]
+        },
+        {
+          "required": [
+            "kind"
+          ],
+          "properties": {
+            "kind": {
+              "const": "segment"
+            }
+          }
+        }
       ],
       "properties": {
-        "repeat": { "description": "integer, 'rounds', or 'param:<name>'" },
-        "blocks": { "$ref": "#/$defs/blocks" },
-        "phase": { "enum": ["in", "hold_in", "out", "hold_out", "natural", "rest"] },
-        "counts": { "description": "number, 'r0'..'r3' (ratio index) or 'param:<name>'" },
-        "seconds": { "type": "number", "description": "fixed duration instead of counts" },
-        "pace": { "type": "array", "items": { "type": "number" }, "description": "natural: suggested [in_s, out_s]" },
-        "nostril": { "enum": ["L", "R", "both"] },
-        "to": { "type": "number", "minimum": 0, "maximum": 1, "description": "lung volume at the end of in/out (orb)" },
-        "label": { "type": "string", "description": "orb phase word override, e.g. 'Hum'" },
-        "caption": { "type": "string", "maxLength": 140, "description": "our own words, shown and (unless say:false) spoken" },
-        "say": { "type": ["string", "boolean"] },
-        "say_once": { "type": "boolean" },
-        "only_first": { "type": "boolean" },
-        "attention": { "type": "object", "properties": { "target": { "type": "string" }, "size": { "enum": ["narrow", "medium", "wide", "whole"] } } },
-        "visual": { "type": "array", "items": { "$ref": "#/$defs/cue" } },
-        "do": { "type": "array", "items": { "type": "object", "required": ["verb"], "properties": { "verb": { "type": "string", "description": "grammar.json verbs" } } } },
-        "sound": { "type": "string" },
-        "haptic": { "type": "string" },
-        "id": { "type": "string", "description": "stable block id (instruction id + suffix) for narration slots and provenance" },
-        "stage": { "type": "string" },
-        "instr": { "type": "array", "items": { "type": "string" } },
-        "quote": { "type": "object", "properties": { "text": { "type": "string" }, "cite": { "type": "string" } }, "description": "original-text line shown under the caption, never spoken" },
-        "voice_first": { "type": "boolean", "description": "inside a repeat: caption/voice only on the first iteration" },
-        "sound_first": { "type": "boolean" },
-        "unit": { "type": "string", "description": "repeat only: what one iteration is called on the orb ('breath', 'round trip')" },
-        "sound_at": { "enum": ["start", "end"] }
+        "repeat": {
+          "description": "integer, 'rounds', or 'param:<name>'"
+        },
+        "blocks": {
+          "$ref": "#/$defs/blocks"
+        },
+        "phase": {
+          "enum": [
+            "in",
+            "hold_in",
+            "out",
+            "hold_out",
+            "natural",
+            "rest"
+          ]
+        },
+        "counts": {
+          "description": "number, 'r0'..'r3' (ratio index) or 'param:<name>'"
+        },
+        "seconds": {
+          "type": "number",
+          "description": "fixed duration instead of counts"
+        },
+        "pace": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "description": "natural: suggested [in_s, out_s]"
+        },
+        "nostril": {
+          "enum": [
+            "L",
+            "R",
+            "both"
+          ]
+        },
+        "to": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "lung volume at the end of in/out (orb)"
+        },
+        "label": {
+          "type": "string",
+          "description": "orb phase word override, e.g. 'Hum'"
+        },
+        "caption": {
+          "type": "string",
+          "maxLength": 140,
+          "description": "our own words, shown and (unless say:false) spoken"
+        },
+        "say": {
+          "type": [
+            "string",
+            "boolean"
+          ]
+        },
+        "say_once": {
+          "type": "boolean"
+        },
+        "only_first": {
+          "type": "boolean"
+        },
+        "attention": {
+          "type": "object",
+          "properties": {
+            "target": {
+              "type": "string"
+            },
+            "size": {
+              "enum": [
+                "narrow",
+                "medium",
+                "wide",
+                "whole"
+              ]
+            }
+          }
+        },
+        "visual": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/cue"
+          }
+        },
+        "do": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "verb"
+            ],
+            "properties": {
+              "verb": {
+                "type": "string",
+                "description": "grammar.json verbs"
+              }
+            }
+          }
+        },
+        "sound": {
+          "type": "string"
+        },
+        "haptic": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string",
+          "description": "stable block id (instruction id + suffix) for narration slots and provenance"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "instr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quote": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "cite": {
+              "type": "string"
+            }
+          },
+          "description": "original-text line shown under the caption, never spoken"
+        },
+        "voice_first": {
+          "type": "boolean",
+          "description": "inside a repeat: caption/voice only on the first iteration"
+        },
+        "sound_first": {
+          "type": "boolean"
+        },
+        "unit": {
+          "type": "string",
+          "description": "repeat only: what one iteration is called on the orb ('breath', 'round trip')"
+        },
+        "sound_at": {
+          "enum": [
+            "start",
+            "end",
+            "pause"
+          ]
+        },
+        "kind": {
+          "const": "segment",
+          "description": "VBT play segment: [speak window][pause]; the voice entry is gated by the shared clock (player/clock.mjs)"
+        },
+        "pause_s": {
+          "type": "number",
+          "minimum": 0,
+          "description": "silence after the line, seconds (the practice)"
+        },
+        "hold_open": {
+          "type": "boolean",
+          "description": "last segment: the play does not end when the pause runs out; the rest timer keeps counting"
+        },
+        "say_spoken": {
+          "type": "string",
+          "description": "spoken form when it differs from the caption"
+        },
+        "tts_source": {
+          "type": "string"
+        }
       }
     },
     "cue": {
       "type": "object",
-      "required": ["prim"],
+      "required": [
+        "prim"
+      ],
       "properties": {
-        "prim": { "enum": ["locus", "path", "field", "attention"] },
-        "locus": { "type": "string" }, "path": { "type": "string" }, "region": { "type": "string" }, "target": { "type": "string" },
-        "motion": { "enum": ["flow", "fill", "hold-glow", "dissipate", "expand", "contract", "rise", "pulse", "rotate", "vibrate", "steady"] },
-        "mode": { "enum": ["fill", "drain", "stream"] },
-        "dir": { "enum": ["forward", "reverse"] },
-        "colour": { "type": "string", "description": "grammar.json colours token" },
-        "from": { "type": "string" }, "exit": { "const": "air" },
-        "density": { "type": "number" }, "seconds": { "type": "number" }, "delay": { "type": "number" }, "size": { "type": "string" }
+        "prim": {
+          "enum": [
+            "locus",
+            "path",
+            "field",
+            "attention",
+            "wave",
+            "spaces",
+            "gap",
+            "edges",
+            "airflow",
+            "figure"
+          ]
+        },
+        "locus": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "motion": {
+          "enum": [
+            "flow",
+            "fill",
+            "hold-glow",
+            "dissipate",
+            "expand",
+            "contract",
+            "rise",
+            "pulse",
+            "rotate",
+            "vibrate",
+            "steady"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "fill",
+            "drain",
+            "stream"
+          ]
+        },
+        "dir": {
+          "enum": [
+            "forward",
+            "reverse"
+          ]
+        },
+        "colour": {
+          "type": "string",
+          "description": "grammar.json colours token"
+        },
+        "from": {
+          "type": "string"
+        },
+        "exit": {
+          "const": "air"
+        },
+        "density": {
+          "type": "number"
+        },
+        "seconds": {
+          "type": "number"
+        },
+        "delay": {
+          "type": "number"
+        },
+        "size": {
+          "type": "string"
+        },
+        "amp": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "to": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "freq": {
+          "type": "number"
+        },
+        "voice_react": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "flat_hold": {
+          "type": "boolean"
+        },
+        "inward": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "particles": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "at": {
+          "enum": [
+            "speak",
+            "pause",
+            "all"
+          ]
+        },
+        "glow": {
+          "type": "string"
+        },
+        "merge": {
+          "type": "number"
+        },
+        "rate": {
+          "type": "number"
+        },
+        "life_s": {
+          "type": "number"
+        },
+        "soft": {
+          "type": "number"
+        },
+        "nostril": {
+          "enum": [
+            "L",
+            "R",
+            "both"
+          ]
+        }
       }
     }
   }

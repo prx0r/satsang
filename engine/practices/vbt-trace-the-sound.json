@@ -1,0 +1,299 @@
+{
+  "type": "practice",
+  "schema_version": 2,
+  "id": "vbt-trace-the-sound",
+  "name": "Trace the Sound",
+  "kind": "meditation",
+  "subkind": "dharana",
+  "traditions": [
+    "kashmir-shaivism-trika"
+  ],
+  "summary": "A two-minute play. Pick any sound, follow it inward and let it fade on its own. When the line goes flat, rest in what is left. The voice speaks, then stops: the pause is the practice. Repeat it through the day on different sounds.",
+  "steps": [
+    {
+      "n": 1,
+      "text": "Pick a sound that is already here: the room, a fan, traffic, your own breath.",
+      "cue": "voice",
+      "visual": "wave: bright, answering the voice"
+    },
+    {
+      "n": 2,
+      "text": "Follow it inward until it is only a vibration, not a thing out there.",
+      "cue": "voice",
+      "visual": "wave narrows toward the head; particles travel in"
+    },
+    {
+      "n": 3,
+      "text": "Let it fade the way sounds fade. You are not making it stop.",
+      "cue": "silent",
+      "visual": "wave dims"
+    },
+    {
+      "n": 4,
+      "text": "Notice that you cannot force quiet, and cannot stop trying either.",
+      "cue": "voice"
+    },
+    {
+      "n": 5,
+      "text": "When the line is flat, rest in the silence for as long as it lasts. Tap when you are back.",
+      "cue": "silent",
+      "visual": "flat line + rest timer"
+    }
+  ],
+  "duration": {
+    "min": 2,
+    "max": 3,
+    "default": 2.7
+  },
+  "level": "first-steps",
+  "posture": "any",
+  "eyes": "either",
+  "needsTeacher": false,
+  "contraindications": [
+    "If silence brings up distress, dizziness or a sense of unreality, open your eyes, feel your feet, and stop for today.",
+    "This is a short attention play, not the full teaching. Learn the rest of the Vijnana Bhairava practices from a qualified teacher."
+  ],
+  "sources": [
+    {
+      "cite": "Vijnana Bhairava Tantra vv. 38-41 (sound followed to its end, then the silence after it): closest verses. Translation and commentary by Christopher Wallis (Hareesh), blog series, vv. 38-39",
+      "url": "https://hareesh.org/blog/2024/10/1/vijnaana-bhairava-tantra-verses-38-amp-39",
+      "note": "link and verse numbers only; no text reproduced"
+    },
+    {
+      "cite": "Christopher Wallis (Hareesh), VBT vv. 40-41",
+      "url": "https://hareesh.org/blog/2024/12/7/vijaana-bhairava-tantra-verses-40-amp-41",
+      "note": "link and verse numbers only; no text reproduced"
+    },
+    {
+      "cite": "Tantra 112: the full Vijnana Bhairava text, free to read online",
+      "url": "https://tantra112.app/vijnana-bhairava-tantra"
+    }
+  ],
+  "teachers": [],
+  "topics": [
+    "meditation",
+    "sound",
+    "silence"
+  ],
+  "meta": {
+    "confidence": "medium",
+    "confidence_note": "Our own play, loosely after VBT vv. 38-41. The narration is Satsang's own wording, built on the owner's VBT doctrine (specs/extensions/45-vbt-practices/VBT-DOCTRINE.md). The Hareesh 2018 translation is all rights reserved: linked, never quoted.",
+    "verified_on": "2026-10-21",
+    "voice": "Phonon 31m (Apache-2.0) + catalog voice, pre-rendered: renders/vbt-trace-the-sound/voice/manifest.json"
+  },
+  "facets": {
+    "method": [
+      "dharana-visualisation",
+      "nada"
+    ],
+    "locus": [
+      "kapala"
+    ],
+    "aim": [
+      "calm",
+      "focus",
+      "insight"
+    ],
+    "level": "first-steps",
+    "intensity": 1,
+    "needs_teacher": false,
+    "needs_teacher_note": "A short attention play after one of the 112 dharanas; the wider practice is learned with a teacher.",
+    "initiation_required": false
+  },
+  "safety": {
+    "max_hold_s": 0,
+    "contraindications": [
+      "distress in silence",
+      "dissociation or derealisation history"
+    ],
+    "stop_if": [
+      "distress",
+      "dizziness",
+      "feeling unreal"
+    ]
+  },
+  "script": {
+    "mode": "play",
+    "view": "upper",
+    "breath_style": "natural",
+    "rounds": {
+      "default": 1,
+      "min": 1,
+      "max": 1
+    },
+    "round_sound": false,
+    "show": {
+      "channels": [],
+      "loci": [
+        "kapala"
+      ],
+      "labels": "none",
+      "side": false,
+      "figure": 0.55,
+      "wave_y": 2.82
+    },
+    "intro": [
+      {
+        "kind": "segment",
+        "id": "begin",
+        "sound": "bowl-start",
+        "say": "This is a play, not a sit. Two minutes. Nothing to get right.",
+        "pause_s": 3,
+        "visual": [
+          {
+            "prim": "figure",
+            "to": 0.55
+          },
+          {
+            "prim": "wave",
+            "amp": 0.55,
+            "to": 0.8,
+            "freq": 3,
+            "voice_react": 1
+          }
+        ]
+      }
+    ],
+    "round": [
+      {
+        "kind": "segment",
+        "id": "find-a-sound",
+        "say": "Find a sound. Any sound. The room, a fan, traffic, your own breath.",
+        "pause_s": 10,
+        "attention": {
+          "target": "whole_body",
+          "size": "whole"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 0.8,
+            "to": 1,
+            "freq": 3.2,
+            "voice_react": 1
+          }
+        ]
+      },
+      {
+        "kind": "segment",
+        "id": "trace-inward",
+        "say": "Now trace that sound inward. Follow it until it is only a vibration. Not the source. The sensation.",
+        "pause_s": 15,
+        "attention": {
+          "target": "head",
+          "size": "medium"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 1,
+            "to": 0.7,
+            "freq": 3.6,
+            "voice_react": 1,
+            "inward": 1,
+            "particles": 1
+          },
+          {
+            "prim": "field",
+            "region": "kapala",
+            "motion": "fill",
+            "colour": "nada",
+            "at": "pause"
+          }
+        ]
+      },
+      {
+        "kind": "segment",
+        "id": "fading",
+        "say": "The sound is fading now. Not because you make it fade. That is what sounds do.",
+        "pause_s": 20,
+        "attention": {
+          "target": "kapala",
+          "size": "medium"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 0.7,
+            "to": 0.12,
+            "freq": 3,
+            "voice_react": 0.6,
+            "inward": 1,
+            "particles": 0.6
+          },
+          {
+            "prim": "field",
+            "region": "kapala",
+            "motion": "steady",
+            "colour": "nada"
+          }
+        ]
+      },
+      {
+        "kind": "segment",
+        "id": "no-force",
+        "say": "You can't force the mind to go quiet. You can't stop trying, either. So where does that leave you?",
+        "pause_s": 10,
+        "attention": {
+          "target": "kapala",
+          "size": "medium"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 0.12,
+            "to": 0.04,
+            "freq": 2.6,
+            "voice_react": 0.4
+          }
+        ]
+      },
+      {
+        "kind": "segment",
+        "id": "whats-left",
+        "say": "What is left, when the sound is gone?",
+        "pause_s": 30,
+        "attention": {
+          "target": "kapala",
+          "size": "wide"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 0.04,
+            "to": 0,
+            "freq": 2.4,
+            "voice_react": 0.25,
+            "flat_hold": true
+          },
+          {
+            "prim": "figure",
+            "to": 0.32,
+            "at": "pause"
+          }
+        ]
+      },
+      {
+        "kind": "segment",
+        "id": "always-there",
+        "hold_open": true,
+        "say": "That silence was always here. Rest in it as long as it lasts. Tap when you're back.",
+        "pause_s": 20,
+        "attention": {
+          "target": "kapala",
+          "size": "wide"
+        },
+        "visual": [
+          {
+            "prim": "wave",
+            "amp": 0,
+            "to": 0,
+            "voice_react": 0.15,
+            "flat_hold": true
+          }
+        ]
+      }
+    ],
+    "outro": []
+  }
+}

@@ -92,3 +92,13 @@ The compiler expands `"do": [{ "verb": …, … }]` using `grammar.verbs`, so a 
 ## 6. Extending
 
 Add a locus or path in `grammar.json` (world units, mirror-correct), keep the deitybody name if one exists, and add `from` provenance. New motions need a renderer case in `player/engine.js` (`drawPath` / `drawLocus` / `drawField`) and a row here.
+
+## 7. Milestone 1 renderers (2026-10-21)
+| Primitive | Renderer | Behaviour |
+|---|---|---|
+| figure | `body/figure.mjs` (SVG) | seated front + side line art; belly, ribs, collarbones, shoulders, lungs and diaphragm move with `body/breath.mjs`; loci stay put |
+| airflow | `body/figure.mjs` | streaks at the nostrils (side: the nose), direction from the flow sign, opacity from its speed; off in reduced motion |
+| wave | `fx/wave.mjs` + SVG line + `fx/glow.js` halo | amplitude eases amp→to over the cue (a `flat_hold` cue reaches `to` by 55 %); `voice_react` lifts it with the narration's loudness envelope; `inward` quietens the outer wave first; `particles` ride it into the head |
+| field (glow) | `fx/glow.js` | breath-synced soft glow + slow motes at the region centre (`fill` ramps in) |
+| attention (glow) | `fx/glow.js` | a breathing glow on the attended locus/region (not drawn for `whole`) |
+The Canvas2D renderer (`player/engine.js`) does not draw these yet; plays use `player/play.js`.

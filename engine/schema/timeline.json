@@ -2,31 +2,238 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://tantrafiles.xyz/schema/timeline.json",
   "title": "Compiled practice timeline (PRACTICE-ENGINE.md §3 script, absolute seconds)",
-  "description": "Compiled output of engine/compile.mjs. v0.2 adds (optional): voice[].block/quote/stage, breath[].unit, markers kind=stage {stage,label}.",
+  "description": "Compiled output of engine/compile.mjs. v0.2 adds (optional): voice[].block/quote/stage, breath[].unit, markers kind=stage {stage,label}. v0.3 (engine milestone 1): markers kind=segment {id, speak_end, end, n, hold_open}; voice[].gate/segment/pause_s; breath[].id/segment; mode.",
   "type": "object",
-  "required": ["script_version", "practice", "total_s", "tracks", "safety"],
+  "required": [
+    "script_version",
+    "practice",
+    "total_s",
+    "tracks",
+    "safety"
+  ],
   "properties": {
-    "script_version": { "const": 1 },
-    "engine": { "type": "string" },
-    "practice": { "type": "string" },
-    "opts": { "type": "object", "properties": { "beginner": { "type": "boolean" }, "rounds": { "type": "integer" }, "count_s": { "type": "number" }, "skip_stages": { "type": "array" } } },
-    "params": { "type": "object" },
-    "loops": { "type": "integer" },
-    "total_s": { "type": "number" },
+    "script_version": {
+      "const": 1
+    },
+    "engine": {
+      "type": "string"
+    },
+    "practice": {
+      "type": "string"
+    },
+    "opts": {
+      "type": "object",
+      "properties": {
+        "beginner": {
+          "type": "boolean"
+        },
+        "rounds": {
+          "type": "integer"
+        },
+        "count_s": {
+          "type": "number"
+        },
+        "skip_stages": {
+          "type": "array"
+        }
+      }
+    },
+    "params": {
+      "type": "object"
+    },
+    "loops": {
+      "type": "integer"
+    },
+    "total_s": {
+      "type": "number"
+    },
     "tracks": {
       "type": "object",
       "properties": {
-        "breath": { "type": "array", "items": { "type": "object", "required": ["t", "dur", "phase"], "properties": { "t": {}, "dur": {}, "phase": {}, "sub": {}, "nostril": {}, "counts": {}, "round": {}, "stroke": {}, "strokes": {}, "vol0": {}, "vol1": {}, "label": {}, "unit": {} } } },
-        "voice": { "type": "array", "items": { "type": "object", "required": ["t", "text"], "properties": { "t": {}, "dur": {}, "text": {}, "say": { "type": ["string", "null"] }, "block": { "type": "string" }, "stage": { "type": "string" }, "quote": { "type": "object" }, "once": {} } } },
-        "visual": { "type": "array", "items": { "type": "object", "required": ["t", "dur", "prim"] } },
-        "attention": { "type": "array", "items": { "type": "object", "required": ["t", "target", "size"] } },
-        "audio": { "type": "array", "items": { "type": "object", "required": ["t", "sound"] } },
-        "haptic": { "type": "array", "description": "inert until wearables (spec §3)" },
-        "markers": { "type": "array", "items": { "type": "object", "required": ["t", "kind"], "properties": { "t": { "type": "number" }, "kind": { "enum": ["round", "stage"] }, "round": {}, "of": {}, "stage": { "type": "string" }, "label": { "type": "string" } } } }
+        "breath": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "dur",
+              "phase"
+            ],
+            "properties": {
+              "t": {},
+              "dur": {},
+              "phase": {},
+              "sub": {},
+              "nostril": {},
+              "counts": {},
+              "round": {},
+              "stroke": {},
+              "strokes": {},
+              "vol0": {},
+              "vol1": {},
+              "label": {},
+              "unit": {},
+              "id": {},
+              "segment": {}
+            }
+          }
+        },
+        "voice": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "text"
+            ],
+            "properties": {
+              "t": {},
+              "dur": {},
+              "text": {},
+              "say": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "block": {
+                "type": "string"
+              },
+              "stage": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "object"
+              },
+              "once": {},
+              "gate": {
+                "type": "boolean"
+              },
+              "segment": {
+                "type": "string"
+              },
+              "pause_s": {
+                "type": "number"
+              },
+              "tts_source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "visual": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "dur",
+              "prim"
+            ]
+          }
+        },
+        "attention": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "target",
+              "size"
+            ]
+          }
+        },
+        "audio": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "sound"
+            ]
+          }
+        },
+        "haptic": {
+          "type": "array",
+          "description": "inert until wearables (spec §3)"
+        },
+        "markers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "kind"
+            ],
+            "properties": {
+              "t": {
+                "type": "number"
+              },
+              "kind": {
+                "enum": [
+                  "round",
+                  "stage",
+                  "segment"
+                ]
+              },
+              "round": {},
+              "of": {},
+              "stage": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string"
+              },
+              "speak_end": {
+                "type": "number"
+              },
+              "end": {
+                "type": "number"
+              },
+              "n": {
+                "type": "integer"
+              },
+              "hold_open": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
       }
     },
-    "physiology": { "type": "object", "properties": { "ratio": {}, "retention_max_s": { "type": "number" }, "breaths_per_min": { "type": "number" } } },
-    "safety": { "type": "object", "properties": { "max_hold_s": {}, "beginner": {}, "applied": { "type": "array" }, "needs_teacher": {}, "contraindications": {}, "stop_if": {} } },
-    "warnings": { "type": "array" }
+    "physiology": {
+      "type": "object",
+      "properties": {
+        "ratio": {},
+        "retention_max_s": {
+          "type": "number"
+        },
+        "breaths_per_min": {
+          "type": "number"
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "properties": {
+        "max_hold_s": {},
+        "beginner": {},
+        "applied": {
+          "type": "array"
+        },
+        "needs_teacher": {},
+        "contraindications": {},
+        "stop_if": {}
+      }
+    },
+    "warnings": {
+      "type": "array"
+    },
+    "mode": {
+      "type": "string"
+    }
   }
 }

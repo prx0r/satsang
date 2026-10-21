@@ -11,6 +11,9 @@ const NAME = 'satsang-engine-preview', HOST = 'engine.tantrafiles.xyz'
 const ls = (d, re) => fs.existsSync(path.join(ROOT, d)) ? fs.readdirSync(path.join(ROOT, d)).filter(f => re.test(f)).map(f => `${d}/${f}`) : []
 const renders = fs.existsSync(path.join(ROOT, 'renders')) ? fs.readdirSync(path.join(ROOT, 'renders')) : []
 const FILES = ['demo/index.html', 'compile.mjs', 'grammar.json', 'player/engine.js', 'player/player.js', 'player/player.css',
+  // milestone 1: SVG figure + WebGL2 glow + shared clock + the Trace the Sound play
+  'play/index.html', 'figure/index.html', 'player/play.js', 'player/play.css', 'player/figure.css', 'player/clock.mjs', 'player/API.md',
+  'body/breath.mjs', 'body/figure.mjs', 'fx/wave.mjs', 'fx/glow.js', 'THIRD_PARTY_NOTICES.md',
   ...ls('practices', /\.json$/), 'GRAMMAR.md', ...ls('schema', /\.json$/),
   ...fs.readdirSync(path.join(ROOT, 'pipeline')).flatMap(p => ls(`pipeline/${p}`, /^(instructions|narration|ask|timeline|build-report|head)\.json$/)),
   ...fs.readdirSync(path.join(ROOT, 'sources')).flatMap(p => ls(`sources/${p}`, /^source-text\.json$/)),
@@ -29,6 +32,7 @@ const H = { 'cache-control': 'public, max-age=300', 'x-robots-tag': 'noindex', '
 export default { async fetch(req) {
   const u = new URL(req.url);
   let p = u.pathname;
+  if (p === '/play' || p === '/figure') return Response.redirect(u.origin + p + '/' + u.search, 302);
   if (p === '/' || p === '/demo') return Response.redirect(u.origin + '/demo/' + u.search, 302);
   if (p.endsWith('/')) p += 'index.html';
   const b = BINS[p];

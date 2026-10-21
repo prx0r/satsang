@@ -2,7 +2,7 @@
 // Pure ESM, no dependencies; runs in the browser (import { compile }) and in node (CLI below).
 // CLI: node compile.mjs practices/<id>.json [--beginner] [--rounds N] [--count S] [--grammar grammar.json] [--out file]
 
-export const ENGINE = 'satsang-engine/0.2'
+export const ENGINE = 'satsang-engine/0.3'
 const HOLDS = new Set(['hold_in', 'hold_out'])
 const PHASES = new Set(['in', 'hold_in', 'out', 'hold_out', 'natural', 'rest'])
 const r3 = x => Math.round(x * 1000) / 1000
@@ -13,6 +13,11 @@ const r3 = x => Math.round(x * 1000) / 1000
  * @param {object} [opts]    { beginner?: bool, rounds?: int, count_s?: number, max_hold_s?: number, skip_stages?: string[] }
  * v0.2 (additive, TEXT-TO-PRACTICE.md §6): blocks may carry id, stage, instr, quote, voice_first, sound_first; repeat may carry unit;
  * stages listed in opts.skip_stages or safety.beginner_override.skip_stages (beginner) are dropped; stage changes become markers.
+ * v0.3 (additive, engine v2 · REALTIME.md): every breath entry carries `id` (the block's id, else an auto id such as in-L, hold_in-2,
+ * unique within its template) so the realtime bus can address phases; `kind: "segment"` blocks (VBT play: the voice speaks, then
+ * the pause IS the practice) expand to a speak window + a pause, with gated voice entries and segment markers; free primitives
+ * (grammar.primitives[prim].free: wave, spaces, gap, edges, airflow) pass through without an address.
+ * opts.speech_s { text → seconds } uses measured clip lengths for speak windows; opts.pause_adjust { segment id → ±seconds }.
  * @returns timeline (schema/timeline.json)
  */
 export function compile(practice, grammar, opts = {}) {
@@ -72,9 +77,22 @@ export function compile(practice, grammar, opts = {}) {
     else if (cue.prim === 'locus') cue.locus = locus(cue.locus)
     else if (cue.prim === 'field') { cue.region = target(cue.region || 'whole_body'); if (cue.from) cue.from = locus(cue.from) }
     else if (cue.prim === 'attention') cue.target = target(cue.target)
+    else if (grammar?.primitives?.[cue.prim]?.free) { if (cue.at_locus) cue.at_locus = locus(cue.at_locus) }
     else warnings.push(`unknown prim: ${cue.prim}`)
     return cue
   }
+
+  // auto ids: unique per template (intro / round / between / outro), so 'out-R' in round 3 is addressable as {id, round}
+  const autoId = new WeakMap()
+  for (const part of ['intro', 'round', 'between', 'outro']) {
+    const seen = {}
+    const walk = list => { for (const b of list || []) { if (b.blocks) { walk(b.blocks); continue }
+      const base = b.id || (b.kind === 'segment' ? 'seg' : `${b.phase}${b.nostril ? '-' + b.nostril : ''}`)
+      seen[base] = (seen[base] || 0) + 1; autoId.set(b, b.id && seen[base] === 1 ? b.id : seen[base] > 1 ? `${base}-${seen[base]}` : base) } }
+    walk(sc[part])
+  }
+  const speechS = opts.speech_s || {}, padj = opts.pause_adjust || {}
+  const estSpeech = txt => { if (!txt) return 0; if (speechS[txt] != null) return +speechS[txt]; const w = txt.trim().split(/\s+/).length; return Math.round((w / 2.15 + 0.6) * 10) / 10 }
 
   const tl = { breath: [], voice: [], visual: [], attention: [], audio: [], haptic: [], markers: [] }
   let t = 0, vol = 0, round = 0, said = new Set()
@@ -87,6 +105,7 @@ export function compile(practice, grammar, opts = {}) {
       for (let i = 0; i < n; i++) for (const bb of b.blocks) emitBlock(bb.stage || !b.stage ? bb : { ...bb, stage: b.stage }, { ...ctx, stroke: b.repeat === 'rounds' ? undefined : i + 1, strokes: n, unit: b.unit, first: i === 0, last: i === n - 1, rid: b.id })
       return
     }
+    if (b.kind === 'segment') return emitSegment(b, ctx)
     const phase = b.phase
     if (!PHASES.has(phase)) { warnings.push(`unknown phase: ${phase}`); return }
     let dur = b.seconds != null ? b.seconds : counts(b.counts) * count_s
@@ -104,15 +123,15 @@ export function compile(practice, grammar, opts = {}) {
       const [pi, po] = b.pace || [5, 6]
       let tt = 0
       while (tt < dur - 0.5) {
-        const di = Math.min(pi, dur - tt); tl.breath.push({ t: r3(t0 + tt), dur: r3(di), phase: 'natural', sub: 'in', vol0: 0.18, vol1: 0.82, round }); tt += di
+        const di = Math.min(pi, dur - tt); tl.breath.push({ t: r3(t0 + tt), dur: r3(di), phase: 'natural', id: autoId.get(b), sub: 'in', vol0: 0.18, vol1: 0.82, round }); tt += di
         if (tt >= dur - 0.5) break
-        const dO = Math.min(po, dur - tt); tl.breath.push({ t: r3(t0 + tt), dur: r3(dO), phase: 'natural', sub: 'out', vol0: 0.82, vol1: 0.18, round }); tt += dO
+        const dO = Math.min(po, dur - tt); tl.breath.push({ t: r3(t0 + tt), dur: r3(dO), phase: 'natural', id: autoId.get(b), sub: 'out', vol0: 0.82, vol1: 0.18, round }); tt += dO
       }
       vol = 0.18
     } else {
       const vol0 = vol
       const vol1 = phase === 'in' ? (b.to ?? 1) : phase === 'out' ? (b.to ?? 0) : vol
-      tl.breath.push({ t: r3(t0), dur: r3(dur), phase, nostril: b.nostril, counts: c, round, stroke: ctx.stroke, strokes: ctx.strokes, unit: ctx.unit, vol0, vol1, label: b.label })
+      tl.breath.push({ t: r3(t0), dur: r3(dur), phase, id: autoId.get(b), nostril: b.nostril, counts: c, round, stroke: ctx.stroke, strokes: ctx.strokes, unit: ctx.unit, vol0, vol1, label: b.label })
       vol = vol1
     }
     // voice: caption (shown) and say (spoken); our own words
@@ -133,7 +152,33 @@ export function compile(practice, grammar, opts = {}) {
     t += dur
   }
 
+  // VBT play segment: [speak window][pause]. The voice entry is gated: the shared clock waits at the end of the speak window
+  // until the real speech ends (and catches up if it ends early), so the pause always starts when the voice stops.
+  function emitSegment(b, ctx) {
+    const sid = b.id || autoId.get(b), say = b.say || null, text = b.caption || say
+    const speak = say ? estSpeech(b.say_spoken || say) : 0
+    const pause = Math.max(0, (b.pause_s ?? 10) + (padj[sid] || 0))
+    const t0 = t, total = speak + pause
+    if (total <= 0) return
+    tl.markers.push({ t: r3(t0), kind: 'segment', id: sid, speak_end: r3(t0 + speak), end: r3(t0 + total), n: (ctx.segN = (ctx.segN || 0) + 1), hold_open: !!b.hold_open })
+    if (speak > 0) tl.breath.push({ t: r3(t0), dur: r3(speak), phase: 'rest', id: sid, sub: 'speak', segment: sid, round, vol0: vol, vol1: vol })
+    if (pause > 0) tl.breath.push({ t: r3(t0 + speak), dur: r3(pause), phase: 'rest', id: sid + ':pause', sub: 'pause', segment: sid, round, vol0: vol, vol1: vol })
+    if (text) tl.voice.push({ t: r3(t0), dur: r3(speak || total), text, say, gate: !!say, segment: sid, pause_s: r3(pause), ...(b.tts_source ? { tts_source: b.tts_source } : {}) })
+    for (const raw of b.visual || []) {
+      const cue = normCue(raw)
+      const at = raw.at === 'pause' ? t0 + speak : t0
+      const cd = raw.seconds ?? (raw.at === 'pause' ? pause : raw.at === 'speak' ? speak : total)
+      if (cue.prim === 'attention') { tl.attention.push({ t: r3(at), target: cue.target, size: cue.size || 'medium' }); continue }
+      tl.visual.push({ t: r3(at + (raw.delay || 0)), dur: r3(cd), phase: 'rest', segment: sid, ...cue })
+    }
+    if (b.attention) { const a = normCue({ prim: 'attention', ...b.attention }); tl.attention.push({ t: r3(t0), target: a.target, size: a.size || 'medium' }) }
+    if (b.sound) tl.audio.push({ t: r3(t0 + (b.sound_at === 'pause' ? speak : b.sound_at === 'end' ? total : 0)), sound: b.sound })
+    t += total
+  }
+
   for (const b of sc.intro || []) emitBlock(b, {})
+  const hasRounds = (sc.round || []).length > 0
+  if (!hasRounds) rounds = 0
   for (round = 1; round <= rounds; round++) {
     tl.markers.push({ t: r3(t), kind: 'round', round, of: rounds })
     for (const b of sc.round || []) emitBlock(b, { first: round === 1 })
@@ -154,6 +199,7 @@ export function compile(practice, grammar, opts = {}) {
     opts: { beginner, rounds, count_s },
     params,
     loops: rounds,
+    mode: sc.mode || 'guided',
     total_s: r3(t),
     show: sc.show || {},
     tracks: tl,
@@ -161,6 +207,7 @@ export function compile(practice, grammar, opts = {}) {
       ratio: params.ratio || null,
       retention_max_s: holds.length ? Math.max(...holds) : 0,
       breaths_per_min: r3(tl.breath.filter(b => b.phase === 'in' || b.sub === 'in').length / Math.max(1e-6, t / 60)),
+      breath_style: sc.breath_style || null,
     },
     safety: {
       max_hold_s: capHold, beginner, applied,

@@ -1,6 +1,6 @@
 {
   "id": "satsang-visual-grammar",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated": "2026-10-21",
   "note": "Maps practice-instruction semantics to visuals. Loci are attention-seats, not anatomy. Extends prx0r/deitybody (canonical-body-v1 address names + y values, nadis-ten channel topology, mechanism registry, operators, vitruvian-figure capsule canon). See GRAMMAR.md.",
   "frame": {
@@ -21,7 +21,8 @@
     "release":  { "hex": "#cdbfa8", "temp": "cooling smoke", "means": "out-breath, release, dissipation" },
     "ember":    { "hex": "#ff8a3d", "temp": "hot",           "means": "agni at the navel, active expulsion (kapalabhati)" },
     "nada":     { "hex": "#d2c3f2", "temp": "cool violet",   "means": "sound and vibration (bhramari, mantra)" },
-    "awareness":{ "hex": "#efe9dd", "temp": "neutral",       "means": "attention, knowing, space" }
+    "awareness":{ "hex": "#efe9dd", "temp": "neutral",       "means": "attention, knowing, space" },
+    "silence":  { "hex": "#9fb3c8", "temp": "cool grey-blue", "means": "the sound wave, its fading, the flat line of silence (VBT plays)" }
   },
   "chakra_hues": {
     "note": "Optional accents only, off by default (deitybody ARCHITECTURE: do not lead with rainbow chakra colours). Values from deitybody site/body/reference/anatomy-geometry.json.",
@@ -105,7 +106,13 @@
     "locus":     { "addr": "loci.<id>", "does": "a named point of attention; marker + optional label + halo" },
     "path":      { "addr": "paths.<id>", "does": "flow along a curve between loci; arc-length parameterised (deitybody paths.js)", "modes": ["fill", "drain", "stream"] },
     "field":     { "addr": "regions.<id>", "does": "diffuse spread over a region or the whole body (deitybody mechanism field-suffusion)", "params": ["from (origin locus for expand)", "density"] },
-    "attention": { "addr": "loci.<id> | regions.<id>", "does": "focus spotlight with dimmed periphery", "sizes": { "narrow": 0.32, "medium": 0.72, "wide": 1.6, "whole": 99 } }
+    "attention": { "addr": "loci.<id> | regions.<id>", "does": "focus spotlight with dimmed periphery", "sizes": { "narrow": 0.32, "medium": 0.72, "wide": 1.6, "whole": 99 } },
+    "wave":    { "free": true, "does": "a sound wave across the stage that fades toward a flat line: the sound is the doorway, the silence is the room (VBT-DOCTRINE)", "params": ["amp (0-1 at cue start)", "to (0-1 at cue end; 0 = flat line)", "freq (cycles across the stage, default 3)", "voice_react (0-1: the wave answers the speaking voice)", "flat_hold (true: hold the flat line and show the silence timer)", "colour"] },
+    "spaces":  { "free": true, "does": "three nested spaces (room, body, between thoughts) glow in turn and merge into one field (VBT 48)", "params": ["glow: outer | middle | inner | all", "merge (0-1 at cue start)", "to (0-1 at cue end)", "colour"] },
+    "gap":     { "free": true, "does": "small objects appear one at a time and fade; the empty stage between them is the practice (VBT 61-62)", "params": ["rate (per minute at cue start)", "to (per minute at cue end)", "life_s", "colour"] },
+    "edges":   { "free": true, "does": "the body outline softens into the surrounding field (VBT 63)", "params": ["soft (0-1 at cue start)", "to (0-1 at cue end)"] },
+    "airflow": { "free": true, "does": "nostril airflow from the breath model (direction and speed from the volume curve); automatic wherever the breath track has in/out phases", "params": ["nostril: L | R | both", "density"] },
+    "figure":  { "free": true, "does": "presence of the seated figure (0 hidden ... 1 full); VBT plays fade it back", "params": ["to (0-1)"] }
   },
   "motions": {
     "flow":       { "on": ["path"], "breath": { "in": "fill (channel fills from its source to the breath front)", "out": "drain (column leaves through the far end, spray at an 'air' exit)" }, "deitybody": "nadi-flow", "operator": "procession" },
@@ -154,5 +161,10 @@
     "chime":      { "event": "stage change / round end", "desc": "tiny chime (earshot pluck/kalimba_soft E6)", "synth": { "f0": 1318.5 } },
     "tick":       { "event": "phase change (off by default)", "desc": "soft wooden tick", "synth": { "f0": 900, "dur_s": 0.05 } },
     "warn":       { "event": "safety stop", "desc": "distinct two-tone, never used elsewhere", "synth": { "tones": [660, 440] } }
+  },
+  "body_v2": {
+    "_note": "Body + breath layer (engine/body/*). The figure breathes from body/breath.mjs: belly smooth(0,.45,v), ribs smooth(.25,.85,v), collarbones smooth(.7,1,v) of lung volume v, re-weighted per style, so the exhale releases in reverse order. Diaphragm 0 = dome up, 1 = flattened. Retention stillness eases in over 0.8 s. Views: front (main) + side (breath inset). Loci are attention seats and stay put; only the silhouette, lungs, diaphragm and airflow move.",
+    "styles": ["full", "abdominal", "thoracic", "clavicular", "kapalabhati", "natural"],
+    "show_keys": { "side": "true | false (default: on when the breath track has paced in/out phases)", "lungs": "true | false (default: on with side)", "figure": "0-1 presence (default 1)", "breath_style": "override the inferred style" }
   }
 }

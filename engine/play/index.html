@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0d14">
+<title>Satsang · Trace the Sound</title>
+<meta name="description" content="A two-minute play after the Vijnana Bhairava: follow a sound inward until it fades, then rest in the silence. Preview of the Satsang practice engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../player/figure.css">
+<link rel="stylesheet" href="../player/play.css">
+<style>html,body{margin:0;height:100%;background:#0a0d14}#stage{position:fixed;inset:0;height:100dvh}noscript{color:#efe9dd;font:16px system-ui;padding:24px;display:block}</style>
+</head>
+<body>
+<div id="stage"></div>
+<noscript>This play needs JavaScript.</noscript>
+<script type="module">
+import { compile } from '../compile.mjs'
+import { createPlay } from '../player/play.js'
+// usage: /play/?p=<practice id>[&voice=0&view=front|side|both&still=<t>|end&rested=<s>&level=first-steps]
+const qs = new URLSearchParams(location.search)
+const base = new URL('../', import.meta.url)
+const getJSON = p => fetch(new URL(p, base)).then(r => { if (!r.ok) throw new Error(p + ' ' + r.status); return r.json() })
+const id = (qs.get('p') || 'vbt-trace-the-sound').replace(/[^a-z0-9-]/g, '')
+const [grammar, practice, media] = await Promise.all([getJSON('grammar.json'), getJSON(`practices/${id}.json`), getJSON(`renders/${id}/voice/manifest.json`).catch(() => null)])
+const still = qs.get('still')
+const player = createPlay(document.getElementById('stage'), {
+  grammar, compile, practice, media,
+  options: { voice: qs.get('voice') !== '0', view: qs.get('view') || undefined, level: qs.get('level') || undefined, preserve: !!still,
+    reducedMotion: qs.get('reduced') === '1' ? true : undefined },
+})
+window.player = player           // for the realtime bus and tests: player.dispatch({ cmd, args })
+if (still === 'end') { player.renderAt(player.timeline.total_s); player.showEnd(+(qs.get('rested') || 0)) }
+else if (still != null) player.renderAt(+still, { rested: qs.has('rested') ? +qs.get('rested') : undefined })
+document.fonts?.ready?.then(() => { if (still != null && still !== 'end') player.renderAt(+still, { rested: qs.has('rested') ? +qs.get('rested') : undefined }); window.__ready = true })
+setTimeout(() => window.__ready = true, 3000)
+</script>
+</body>
+</html>

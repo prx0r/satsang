@@ -49,6 +49,7 @@ const chips = PRACTICES.map(([id, label], i) => {
   b.onclick = () => choose(id)
   player.slot.appendChild(b); return b
 })
+{ const a = document.createElement('a'); a.className = 'sp-chip'; a.href = '../play/?p=vbt-trace-the-sound'; a.textContent = 'Trace the Sound · play'; player.slot.appendChild(a) }   // milestone 1
 // rendered media (TEXT-TO-PRACTICE §8): cached Fish narration clips + the generated cue kit, when the practice has them.
 // Narration clips are matched by caption text, so captions without a clip fall back to speechSynthesis.
 const media = {}

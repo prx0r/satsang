@@ -47,6 +47,32 @@ CLI: `node compile.mjs practices/nadi-shodhana-sivananda.json --beginner --round
 
 **Performance:** every visual is an analytic function of t (seeded), so seeking is exact. Particle count is about 300–900 sprites a frame, with one trail buffer, one glow buffer and a 1/5-scale bloom. That is roughly 18 ms a frame at 1280×720 in software rendering (headless), so a GPU-composited device holds 60 fps comfortably.
 
+## Milestone 1 (2026-10-21): visuals + the first VBT play
+**Preview:** https://engine.tantrafiles.xyz/play/ (Trace the Sound) · https://engine.tantrafiles.xyz/figure/ (the breathing figure, front + side)
+
+```
+  body/breath.mjs        breath model: lung volume → belly / ribs / collarbones / shoulders / diaphragm / airflow (pure)
+  body/figure.mjs        seated figure as crisp SVG line art, front + side, driven by breathState (pure geometry + DOM builder)
+  fx/wave.mjs            the sound wave: answers the voice, travels inward, fades, holds a flat line (pure)
+  fx/glow.js             raw WebGL2 glow layer (instanced additive sprites): breath-synced locus glow, prana particles riding the wave
+  player/clock.mjs       the shared clock: gated narration (pause starts when the voice stops), pauses, hold-open, rest timer (pure)
+  player/play.js/.css    the play player (SVG + WebGL + clock + narration), API for the realtime bus: player/API.md
+  player/figure.css      the figure's line-art style (dark deitybody look)
+  play/index.html        /play/?p=<id>[&voice=0&view=front|side|both&still=<t>|end&rested=<s>&level=first-steps&reduced=1]
+  figure/index.html      /figure/?view=front|side|both&style=full|abdominal|thoracic|clavicular|natural[&t=<s>&reduced=1]
+  practices/vbt-trace-the-sound.json   the play (7 gated segments; closest to VBT vv. 38-41, link + verse numbers only)
+  renders/vbt-trace-the-sound/voice/   pre-rendered Phonon narration (mp3 + manifest with dur_s, 25 fps loudness env, whisper match)
+  tools/media/tts-phonon.py            narration renderer (swap the voice: --voice <catalog name>, --model hf://…)
+  tools/test-play.mjs (103 checks) · tools/test-play-browser.mjs (21 API checks, headless) · tools/shoot-play.mjs → shots/
+  THIRD_PARTY_NOTICES.md               every licence (Phonon 31m + Everly voice Apache-2.0; no third-party JS shipped)
+```
+- Reduced motion (`prefers-reduced-motion` or `&reduced=1`): no WebGL, the wave shape holds still (only its amplitude eases), the figure
+  breathes at 45 % with no airflow streaks, no CSS animation.
+- Narration: `python3 tools/media/tts-phonon.py practices/<id>.json` then `/workspace/pyenv/bin/python tools/media/align.py
+  renders/<id>/voice/manifest.json`. The player reads only the manifest, so any TTS that writes the same manifest is a drop-in.
+- Tests: `node tools/test-compile.mjs` · `node tools/test-text-to-practice.mjs` · `python3 tools/validate-schemas.py` ·
+  `node tools/test-play.mjs` · `node tools/test-play-browser.mjs` (needs `sh ../shot-setup.sh`). Deploy: `node tools/deploy-preview.mjs`.
+
 ## Next
 1. A `#practice` tab in app/site: lazy-load `player/*` + `grammar.json` on the tab (about 60 KB uncompressed). Practice cards come from the v2 practices, with a "Play" button that opens the player full-bleed. Route `/x/<id>/script.json` = `compile()` output (spec §8).
 2. The Sivananda book miner (spec §5) emits practice v2 with `do: [{verb…}]` blocks; the compiler resolves verbs through `grammar.verbs`; anything with retention or `confidence < 0.8` goes to the keeper review queue.
