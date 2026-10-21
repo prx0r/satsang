@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0d14">
+<meta name="robots" content="noindex">
+<title>Satsang · Talk while you practise (mock)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../player/player.css">
+<style>
+  :root{--bg:#0a0d14;--panel:#0f131c;--line:#232a38;--ink:#efe9dd;--mute:#9a9486;--gold:#d8b46a;--warn:#e08a6b;--ok:#8fc29a}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:15px/1.45 "Inter Tight",system-ui,sans-serif}
+  #stage{position:fixed;left:0;top:0;bottom:0;right:400px}
+  #panel{position:fixed;right:0;top:0;bottom:0;width:400px;box-sizing:border-box;background:var(--panel);border-left:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
+  @media (max-width:860px){#stage{right:0;bottom:auto;height:56vh}#panel{top:56vh;width:100%;border-left:0;border-top:1px solid var(--line)}}
+  header.t{padding:16px 18px 8px}
+  header.t h1{font:600 24px/1.1 "Cormorant Garamond",serif;margin:0;color:var(--gold);letter-spacing:.02em}
+  header.t p{margin:6px 0 0;color:var(--mute);font-size:13px}
+  .row{display:flex;gap:8px;flex-wrap:wrap;padding:6px 18px}
+  button{font:inherit;color:var(--ink);background:#161c28;border:1px solid var(--line);border-radius:999px;padding:9px 14px;min-height:40px;cursor:pointer}
+  button:hover,button:focus-visible{border-color:var(--gold);outline:none}
+  button.primary{background:var(--gold);color:#17130a;border-color:var(--gold);font-weight:600}
+  button.talk{flex:1;border-radius:14px;min-height:52px;font-weight:600}
+  button.talk.on{background:#2a2112;border-color:var(--gold);color:var(--gold)}
+  button.chip{font-size:13px;padding:7px 12px;min-height:34px}
+  button.chip.safety{border-color:#5a3328;color:#f0b9a5}
+  form{display:flex;gap:8px;padding:6px 18px}
+  input{flex:1;font:inherit;color:var(--ink);background:#0b0f17;border:1px solid var(--line);border-radius:12px;padding:9px 12px;min-height:40px}
+  .status{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 18px;font-size:12px;color:var(--mute)}
+  .status b{display:block;color:var(--ink);font-size:14px;font-weight:600}
+  .bubble{margin:6px 18px;padding:10px 12px;border-radius:12px;background:#141a26;border:1px solid var(--line);min-height:22px;font-size:14px}
+  .bubble.safety{border-color:#6b3a2c;background:#1e1411}
+  .bubble small{display:block;color:var(--mute);font-size:11px;margin-bottom:2px;text-transform:uppercase;letter-spacing:.08em}
+  #log{flex:1;overflow:auto;margin:6px 0 0;padding:6px 18px 18px;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--mute);border-top:1px solid var(--line)}
+  #log div{padding:2px 0;border-bottom:1px dashed #1b2130}
+  #log .safety{color:#f0b9a5}#log .tool{color:var(--gold)}#log .refused{color:var(--warn)}#log .model{color:#c9d7f0}#log .bus{color:#8d97a8}
+  #card{position:fixed;left:24px;bottom:110px;max-width:min(440px,calc(100vw - 448px));background:rgba(15,19,28,.94);border:1px solid var(--gold);border-radius:14px;padding:14px 16px;display:none;z-index:20}
+  #card h3{margin:0 0 6px;font:600 18px "Cormorant Garamond",serif;color:var(--gold)}#card ul{margin:0;padding-left:18px;font-size:13px}
+  @media (max-width:860px){#card{max-width:calc(100vw - 48px);bottom:auto;top:12px}}
+  .note{color:var(--mute);font-size:12px;padding:0 18px 4px}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<aside id="panel" aria-label="Talk to the guide">
+  <header class="t">
+    <h1>Talk while you practise</h1>
+    <p>Mock: a scripted fake guide speaks the real realtime protocol. No key, no audio leaves this page. Safety checks run on your words first.</p>
+  </header>
+  <div class="row"><button class="primary" id="demo">Run the demo</button><button id="reset">Restart</button><button id="gvoice" aria-pressed="true">Guide voice: on</button></div>
+  <div class="row"><button class="talk" id="talk" aria-label="Hold to talk">Hold to talk</button></div>
+  <div class="row" id="chips"></div>
+  <form id="f"><input id="q" placeholder="Or type what you'd say…" autocomplete="off" aria-label="What you would say"><button>Say</button></form>
+  <div class="status" aria-live="polite">
+    <span>Phase<b id="s-phase">–</b></span><span>Round<b id="s-round">–</b></span><span>Speed<b id="s-speed">1×</b></span><span>Form<b id="s-level">standard</b></span>
+    <span>Model turns<b id="s-turns">0</b></span><span>Tool calls<b id="s-tools">0</b></span><span>Refused<b id="s-ref">0</b></span><span>Safety (no model)<b id="s-safe">0</b></span>
+  </div>
+  <div class="bubble" id="bubble" aria-live="polite"><small>Guide</small><span>Press “Run the demo”, or start the practice and talk.</span></div>
+  <p class="note">Real path (not yet connected): Qwen3.8 Omni Flash Realtime through the Satsang relay; needs a Model Studio key.</p>
+  <div id="log" role="log" aria-label="Event log"></div>
+</aside>
+<div id="card" role="dialog" aria-label="Explainer"><h3></h3><ul></ul></div>
+<noscript>This page needs JavaScript.</noscript>
+<script type="module" src="./talk.mjs"></script>
+</body>
+</html>

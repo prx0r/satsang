@@ -1,0 +1,26 @@
+# Satsang realtime relay. DO NOT DEPLOY until a Model Studio (Alibaba Cloud, Singapore region) API key exists.
+# Then:  npx wrangler secret put DASHSCOPE_API_KEY   (paste the key; never commit it)
+#        set WORKSPACE_ID below (Model Studio console > workspace id), then  npx wrangler deploy
+name = "satsang-rt-relay"
+main = "worker.mjs"
+compatibility_date = "2026-10-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = true
+
+[vars]
+WORKSPACE_ID = ""          # e.g. the {WorkspaceId} in wss://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com
+EXTRA_ORIGINS = ""         # comma list for local testing, e.g. "http://localhost:8787"
+DAILY_BUDGET_S = "7200"    # all users together, seconds of open sessions per day (needs RT_BUDGET)
+
+# Workers Rate Limiting (works on the Free plan): new sessions per IP
+[[ratelimits]]
+name = "RL_RT"
+namespace_id = "2101"
+  [ratelimits.simple]
+  limit = 6
+  period = 60
+
+# Optional daily budget counter: create with  npx wrangler kv namespace create RT_BUDGET  and paste the id
+# [[kv_namespaces]]
+# binding = "RT_BUDGET"
+# id = ""

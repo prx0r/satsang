@@ -56,3 +56,27 @@ MCP: `ask_practice(practice, question, phase?)` returns the best approved QA or 
 - Safety triage remains deterministic on the client BEFORE the model hears anything; the model cannot extend holds or raise intensity (tools don't allow it).
 - System prompt: the practice JSON + contraindications + approved QAs for this practice; ≤60-word answers; calm voice (a cloned/approved voice, never a real teacher's).
 - Cost guard: realtime audio is token-priced per minute of audio; the relay keeps the session closed except while the user is talking (push-to-talk default, open-mic opt-in), plus a monthly budget cap. Needs the user's Model Studio account + API key (vault) before building the live path; build the adapter + a mock first.
+
+## v0.3 Built: realtime control layer (engine/rt, engine/talk; 2026-10-21)
+Code: `engine/rt/` (README there is the reference), mock at `/talk/` on the engine preview. Changes against v0.2 above:
+- **Command bus is the boundary.** Every actor (model tools, user taps, safety, host) goes through `bus.exec(cmd, args, {source})`.
+  Commands: play, pause, resume, seek_phase, replay_phase(slow?), repeat_round, set_level, extend_pause, highlight_locus, show_explainer,
+  speak, end (+ internal interrupt, release_hold, lock). v0.2's tool names map as: pause_practice → pause, resume_practice → resume,
+  switch_params(level) → set_level (gentler | standard), replay_phase_slow → replay_phase {slow:true}; get_practice_context and
+  lookup_qa kept; log_question is not a model tool (the client logs every exchange itself).
+- **Shared clock:** the compiled timeline's t, owned by the player; phase addresses {id, round} (compile 0.3 ids); the host ticks the bus.
+- **Guards are a load budget**, not just "no extend": retention and round starts still to come under any plan (seek, replay, repeat,
+  recompile) must fit the baseline compiled at session start; holds are never replayed or slowed; a pause or barge-in mid-hold releases to
+  the out-breath; extend_pause only in silence pauses (20 s/call, 40 s/pause, 120 s/session); after any safety event no further holds
+  run (skipped live) and the model cannot resume a stop-class pause.
+- **Triage classes:** emergency / stop / soften / caution / check (negated emergency words), fixed wording in `rt/safety.mjs` SCRIPTS
+  (to be voiced and reviewed like the preload answers). Push-to-talk keeps triage strictly before the model; open mic adds a server-transcript
+  net that cancels the model turn.
+- **Relay:** `rt/relay-worker` (not deployed): Origin allowlist, Workers Rate Limiting (6 sessions/min/IP), client events limited to
+  session.update (clamped: instructions ≤ 12k chars, max_tokens ≤ 600, no web search, MCP only to the Satsang MCP), audio append (≤ 5 min
+  per session), commit/clear, response.create (≤ 120, overrides dropped), response.cancel, function_call_output items; 15 min session cap,
+  2 min idle; optional daily seconds budget in KV.
+- **Tools in both shapes:** Qwen `{type:'function', function:{name, description, parameters}}`, OpenAI `{type:'function', name, ...}`
+  (`rt/tools.mjs`). Phase and locus enums come from the compiled timeline and the grammar.
+- Still to build: the cache-first QA path (lookup before opening a model turn), pre-voiced safety scripts (Fish), the live mic path in
+  /talk/ once the relay has a key, and the Session log rows from "Where Ask lands".
