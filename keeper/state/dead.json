@@ -1,7 +1,9 @@
 {
- "updated": "2026-10-22T04:43:28Z",
+ "updated": "2026-10-22T09:02:50Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [],
  "videos": [],
- "urls": []
+ "urls": [
+  "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html"
+ ]
 }

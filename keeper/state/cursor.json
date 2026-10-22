@@ -1,8 +1,8 @@
 {
- "jsonld": 80,
- "linkrot": 1397,
- "links-pages": 80,
+ "jsonld": 120,
+ "linkrot": 276,
+ "links-pages": 120,
  "links-urls": 0,
- "oembed": 5000,
+ "oembed": 7500,
  "sitemap": 1320
 }
