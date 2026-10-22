@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-10-22T09:02:50Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-10-22T10:10:26Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 221 (error 1, warn 5, info 215). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 0 clips (0 videos), 1 external URLs. **Re-verify queue:** 482.
@@ -19,34 +19,34 @@ Updated 2026-10-22T09:02:50Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-10-20T13:24:29Z | 5 |
 | provenance | 209 | 0 | 0 | 209 | 2026-10-22T09:02:50Z | 2342 |
 | robots | 0 | 0 | 0 | 0 | 2026-10-22T09:02:50Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-10-22T04:43:27Z | 120 / 1680 |
-| uptime | 0 | 0 | 0 | 0 | 2026-10-22T04:43:28Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-10-22T10:10:25Z | 120 / 1680 |
+| uptime | 0 | 0 | 0 | 0 | 2026-10-22T10:10:26Z | 12 |
 
 ## Top problems
 
 - `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (3× in a row)
 - `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
-- `c3f5785b0c32` **warn** linkrot: External link failing: HTTP 503 — https://www.koyasan.or.jp/en/
 - `46eca3f80c1e` **warn** linkrot: External link failing: HTTP 502 — https://cadw.gov.wales/contact-us
-- `cfdbf83c6ef3` **warn** linkrot: External link failing: HTTP 502 — https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-burial-chamber
 - `aa19e7e486a4` **warn** linkrot: External link failing: HTTP 502 — https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-burial-chamber
+- `c3f5785b0c32` **warn** linkrot: External link failing: HTTP 503 — https://www.koyasan.or.jp/en/
+- `cfdbf83c6ef3` **warn** linkrot: External link failing: HTTP 502 — https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-burial-chamber
 
 ## Uptime by probe (30 d)
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 167 | up 2026-10-22T04:43:27Z |
-| home | 100.0 | 27 | up 2026-10-22T04:43:27Z |
-| hub:/person/ajahn-chah | 100.0 | 30 | up 2026-10-22T04:43:27Z |
-| hub:/topic/rebirth | 100.0 | 29 | up 2026-10-22T04:43:27Z |
-| hub:/tradition/buddhism | 100.0 | 29 | up 2026-10-22T04:43:27Z |
-| llms.txt | 100.0 | 23 | up 2026-10-22T04:43:28Z |
-| mcp-initialize | 100.0 | 644 | up 2026-10-22T04:43:28Z |
-| mcp-tool-call | 100.0 | 55 | up 2026-10-22T04:43:28Z |
-| mcp-tools-list | 100.0 | 120 | up 2026-10-22T04:43:28Z |
-| openapi.json | 100.0 | 56 | up 2026-10-22T04:43:28Z |
-| sitemap | 100.0 | 20 | up 2026-10-22T04:43:28Z |
-| well-known-mcp | 100.0 | 21 | up 2026-10-22T04:43:28Z |
+| api-health | 100.0 | 166 | up 2026-10-22T10:10:25Z |
+| home | 100.0 | 26 | up 2026-10-22T10:10:25Z |
+| hub:/person/ajahn-chah | 100.0 | 29 | up 2026-10-22T10:10:25Z |
+| hub:/topic/rebirth | 100.0 | 28 | up 2026-10-22T10:10:25Z |
+| hub:/tradition/buddhism | 100.0 | 28 | up 2026-10-22T10:10:25Z |
+| llms.txt | 100.0 | 22 | up 2026-10-22T10:10:26Z |
+| mcp-initialize | 100.0 | 630 | up 2026-10-22T10:10:26Z |
+| mcp-tool-call | 100.0 | 52 | up 2026-10-22T10:10:26Z |
+| mcp-tools-list | 100.0 | 111 | up 2026-10-22T10:10:26Z |
+| openapi.json | 100.0 | 53 | up 2026-10-22T10:10:26Z |
+| sitemap | 100.0 | 19 | up 2026-10-22T10:10:26Z |
+| well-known-mcp | 100.0 | 21 | up 2026-10-22T10:10:26Z |
 
 ## Performance (key pages)
 
