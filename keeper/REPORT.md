@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-10-23T08:57:41Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-10-23T13:26:06Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 223 (error 1, warn 7, info 215). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 0 clips (0 videos), 1 external URLs. **Re-verify queue:** 482.
@@ -19,36 +19,36 @@ Updated 2026-10-23T08:57:41Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-10-20T13:24:29Z | 5 |
 | provenance | 209 | 0 | 0 | 209 | 2026-10-23T08:57:40Z | 2342 |
 | robots | 0 | 0 | 0 | 0 | 2026-10-23T08:57:41Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-10-23T07:31:30Z | 120 / 1680 |
-| uptime | 0 | 0 | 0 | 0 | 2026-10-23T07:31:31Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-10-23T13:26:06Z | 120 / 1680 |
+| uptime | 0 | 0 | 0 | 0 | 2026-10-23T13:26:06Z | 12 |
 
 ## Top problems
 
 - `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (4× in a row)
 - `c3f5785b0c32` **warn** linkrot: External link failing: HTTP 503 — https://www.koyasan.or.jp/en/ (2× in a row)
-- `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
-- `98481eddb5e3` **warn** linkrot: External link failing: HTTP 500 — https://geetabhawan.in
-- `95eb0ca067c1` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org
-- `e8f8fee79110` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://publications.efeo.fr/en/livres/840_tantric-studies
-- `a6593c26e706` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/
 - `0036eb3fe38e` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/
+- `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
+- `95eb0ca067c1` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org
+- `98481eddb5e3` **warn** linkrot: External link failing: HTTP 500 — https://geetabhawan.in
+- `a6593c26e706` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/
+- `e8f8fee79110` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://publications.efeo.fr/en/livres/840_tantric-studies
 
 ## Uptime by probe (30 d)
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 161 | up 2026-10-23T07:31:30Z |
-| home | 100.0 | 24 | up 2026-10-23T07:31:30Z |
-| hub:/person/ajahn-chah | 100.0 | 24 | up 2026-10-23T07:31:30Z |
-| hub:/topic/rebirth | 100.0 | 26 | up 2026-10-23T07:31:30Z |
-| hub:/tradition/buddhism | 100.0 | 24 | up 2026-10-23T07:31:30Z |
-| llms.txt | 100.0 | 20 | up 2026-10-23T07:31:31Z |
-| mcp-initialize | 100.0 | 598 | up 2026-10-23T07:31:31Z |
-| mcp-tool-call | 100.0 | 48 | up 2026-10-23T07:31:31Z |
-| mcp-tools-list | 100.0 | 88 | up 2026-10-23T07:31:31Z |
-| openapi.json | 100.0 | 48 | up 2026-10-23T07:31:31Z |
-| sitemap | 100.0 | 18 | up 2026-10-23T07:31:31Z |
-| well-known-mcp | 100.0 | 19 | up 2026-10-23T07:31:31Z |
+| api-health | 100.0 | 156 | up 2026-10-23T13:26:06Z |
+| home | 100.0 | 24 | up 2026-10-23T13:26:06Z |
+| hub:/person/ajahn-chah | 100.0 | 24 | up 2026-10-23T13:26:06Z |
+| hub:/topic/rebirth | 100.0 | 25 | up 2026-10-23T13:26:06Z |
+| hub:/tradition/buddhism | 100.0 | 24 | up 2026-10-23T13:26:06Z |
+| llms.txt | 100.0 | 20 | up 2026-10-23T13:26:06Z |
+| mcp-initialize | 100.0 | 587 | up 2026-10-23T13:26:06Z |
+| mcp-tool-call | 100.0 | 46 | up 2026-10-23T13:26:06Z |
+| mcp-tools-list | 100.0 | 83 | up 2026-10-23T13:26:06Z |
+| openapi.json | 100.0 | 47 | up 2026-10-23T13:26:06Z |
+| sitemap | 100.0 | 18 | up 2026-10-23T13:26:06Z |
+| well-known-mcp | 100.0 | 19 | up 2026-10-23T13:26:06Z |
 
 ## Performance (key pages)
 
