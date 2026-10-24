@@ -31,9 +31,10 @@ const CASES = [
   { q: 'Who am I? Advaita self-enquiry, half an hour a day', expect: { minutes: 30, practice: 1, topicAny: ['self/self-enquiry', 'self', 'reality/nonduality'] } },
 ]
 
+let NCALL = 0
 async function curate(q) {
   if (!ENDPOINT) return CUR.curate(q, { country: 'GB' })
-  const r = await fetch(`${ENDPOINT}/curate`, { method: 'POST', headers: { 'content-type': 'application/json', origin: SITE }, body: JSON.stringify({ message: q, device: 'testdevice01' }) })
+  const r = await fetch(`${ENDPOINT}/curate`, { method: 'POST', headers: { 'content-type': 'application/json', origin: SITE }, body: JSON.stringify({ message: q, device: 'testdevice' + String(++NCALL).padStart(2, '0') }) }) // one device per prompt: the per-device limit is 10/min
   if (!r.ok) throw new Error(`curate ${r.status}`)
   const lines = (await r.text()).trim().split('\n').map((l) => JSON.parse(l))
   const pk = lines.find((l) => l.type === 'pack'); if (!pk) throw new Error('no pack event')
