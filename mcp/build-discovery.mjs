@@ -43,15 +43,30 @@ ${TOOLS.map(toolLine).join('\n')}
 - ${SITE}/person/<id>, /tradition/<id>, /topic/<id>, /practice/<id>, /collection/<id>, /place/<id>, /resource/<id>, /clip/<id>
 - Every API/MCP record carries \`url\` (canonical page), \`source_url\` (where the fact comes from), \`verified_on\` (YYYY-MM-DD) and \`confidence\` (high, medium, low).
 
+## Places (plain HTML pages, crawlable, schema.org JSON-LD)
+- [All places](${SITE}/places): every place grouped by country, with links by tradition and country
+- ${SITE}/place/<id>: one place: name, tradition, school and lineage, address and map point (GeoCoordinates), website, contacts exactly as published (each with its source page and check date), languages when known, offerings, programmes, upcoming events (next 90 days, read weekly from the place's own iCal feed or schema.org Event data, with source and fetch date) and when it was last checked. JSON-LD: PlaceOfWorship or Place + Organization, PostalAddress, GeoCoordinates, Event.
+- ${SITE}/places/<tradition-id> (e.g. ${SITE}/places/thai-forest, ${SITE}/places/sufism) and ${SITE}/places/country/<iso2> (e.g. ${SITE}/places/country/gb)
+- Filters (MCP \`search_places\`): free-text query, tradition (includes its schools), school (exact), country, near {lat, lng, km}, residential, online, language, has_upcoming_events, has_email, limit. \`get_place\` returns contacts + events + sources; \`list_events\` lists upcoming events by place, tradition, country and date range.
+- [Places sitemap](${SITE}/sitemap-places.xml)
+
+## Open data (CC BY 4.0, credit "Satsang, ${HOST}")
+- [Places as JSON](${SITE}/data/places.json) and [as NDJSON](${SITE}/data/places.ndjson) (one place per line; same records the MCP serves)
+- [Upcoming events](${SITE}/data/events.json): per place, with \`source\` (the feed or page read), \`source_type\` (ical | jsonld) and \`fetched_at\`; a place not re-read for 14 days is marked \`stale\`
+- [Slim place index](${SITE}/data/wisegraph/places-index.json) and one full record per place at ${SITE}/data/wisegraph/place/<id>.json
+- Contacts are the organisations' own published details: use them to help a person get in touch, never for bulk mail.
+
 ## Start here
 - [Topic flash](${SITE}/): one question, teachers from different traditions
 - [Rebirth across traditions](${SITE}/topic/rebirth)
-- [Places to practise](${SITE}/#places)
+- [Places to practise](${SITE}/places) ([map](${SITE}/#places))
 - [Journeys and practices](${SITE}/#collections)
 
 ## Rules for agents
 - Cite the \`url\` of every record you use; give \`source_url\` for contacts, dates and programmes.
 - Contacts are only those a place publishes on its own site; programme dates change, so send people to \`scheduleUrl\` and say when the record was verified.
+- Events come from the place's own feed; give the event \`url\` or \`source\` and its \`fetched_at\`, and say "confirm on the source page".
+- Some teachers carry a dated, sourced public safety note (\`safety\`); mention it when recommending them or places tied to them, without adding to it.
 - Do not invent what a teacher said; quote talk titles. Satsang's one-line "takes" are its own summaries.
 - Practices are summaries: respect \`contraindications\` and \`needsTeacher\`, and link the \`sources\`.
 - "likely-living" is an inference (teaches on video, no death year recorded); say so when it matters.

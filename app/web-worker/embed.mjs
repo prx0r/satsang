@@ -7,7 +7,8 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 const root = new URL('../dist/', import.meta.url).pathname, out = {}, kv = {}, put = []
-const KVP = new Set(JSON.parse(fs.readFileSync(new URL('kv-paths.json', import.meta.url), 'utf8')).paths)
+const KVJ = JSON.parse(fs.readFileSync(new URL('kv-paths.json', import.meta.url), 'utf8')), PFX = KVJ.prefixes || []
+const KVP = { has: (k) => KVJ.paths.includes(k) || PFX.some((x) => k.startsWith(x)) }
 const T = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml', '.xml': 'application/xml; charset=utf-8' }
 const walk = (d) => { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else { const ext = path.extname(p); if (!T[ext]) continue; const k = '/' + path.relative(root, p), body = fs.readFileSync(p, 'utf8')
   if (KVP.has(k)) { const h = crypto.createHash('sha256').update(body).digest('hex').slice(0, 16); kv[k] = { key: `site/${h}${k}`, type: T[ext], etag: h }; put.push({ key: `site/${h}${k}`, value: body }) } else out[k] = [T[ext], body] } } }

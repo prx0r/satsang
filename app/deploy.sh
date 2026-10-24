@@ -18,6 +18,7 @@ build() {
   node tools/build-anniversaries.mjs || true  # For You: teachers' death anniversaries (Wikidata P570, day precision) -> site/data/wisegraph/anniversaries.json
   node tools/build-stats.mjs || true  # crowd quality from D1 votes (public /stats/clips) -> site/data/stats.json
   npm run build
+  node tools/build-place-pages.mjs  # places: slim index + per-place shards (lazy SPA load) + static /place/<id>, /places/* pages + sitemap-places.xml (from site/data/events.json)
   V=$(sha256sum site/app.js | cut -c1-10)
   rm -rf dist && cp -r site dist
   [ -f clips.site.json ] && cp clips.site.json dist/clips.json  # slim copy (tools/build-clips.py); src/app.js restores the dropped defaults
@@ -26,6 +27,7 @@ build() {
     (cd ../mcp && node build-data.mjs >/dev/null && node build-dump.mjs >/dev/null && node slim-data.mjs >/dev/null && node build-discovery.mjs >/dev/null)
     if python3 -c "import jsonschema" 2>/dev/null; then (cd ../mcp && python3 ../specs/schema/validate.py | tail -1 | grep -q "failing: none") || { echo "open data fails specs/schema (python3 ../specs/schema/validate.py in mcp/)" >&2; exit 1; }; else echo "jsonschema missing: schema check skipped (pip install jsonschema)"; fi
     cp ../mcp/llms.txt dist/llms.txt; cp ../mcp/discovery/llms-full.txt ../mcp/discovery/agents.html dist/; mkdir -p dist/.well-known/mcp; cp ../mcp/discovery/.well-known/mcp.json dist/.well-known/; cp ../mcp/discovery/.well-known/mcp/server-card.json dist/.well-known/mcp/; cp ../mcp/dist-data/sitemap*.xml dist/; mkdir -p dist/schema; cp ../specs/schema/*.json dist/schema/; cp ../mcp/discovery/schema-index.html dist/schema/index.html
+    [ -f site/data/events.json ] && cp site/data/events.json ../mcp/dist-data/events.json  # /data/events.json (KV; the weekly events keeper may refresh it)
     printf 'User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' "$SITE_BASE" > dist/robots.txt
     (cd web-worker && node build-meta.mjs >/dev/null)
   fi

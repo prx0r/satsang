@@ -83,6 +83,60 @@
    "updated": "2026-10-20",
    "verified_on": "2026-10-20",
    "confidence": "high"
+  },
+  {
+   "id": "vishnudevananda-2019",
+   "subject": "person/swami-vishnudevananda",
+   "status": "addressed",
+   "happened": "1970s–1980s",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "In December 2019 Julie Salter, his former personal assistant, publicly alleged that Swami Vishnudevananda (founder of the International Sivananda Yoga Vedanta Centres, d. 1993) sexually abused her for over three years at the Canadian headquarters; other women made similar allegations. The BBC (2021) interviewed 14 women alleging abuse by senior Sivananda teachers. The organisation's board apologised for historic mistakes in handling the allegations and commissioned an independent investigation; a community-funded investigation (Project SATYA) published interim reports in 2020.",
+   "reports": [
+    {
+     "outlet": "BBC News: 'Coercion and rape': Investigating my yoga school (Ishleen Kaur)",
+     "kind": "press",
+     "url": "https://www.bbc.com/news/world-asia-india-57400014",
+     "date": "2021-07-01"
+    },
+    {
+     "outlet": "Project SATYA Interim Report #3 (Carol Merchasin), allegations against Swami Vishnudevananda",
+     "kind": "investigation",
+     "url": "http://www.projectsatya.org/Investigation-Interim-Report-3-Project-SATYA.pdf",
+     "date": "2020-11"
+    }
+   ],
+   "updated": "2026-10-25",
+   "verified_on": "2026-10-25",
+   "confidence": "high"
+  },
+  {
+   "id": "swami-rama-1997",
+   "subject": "person/swami-rama",
+   "status": "addressed",
+   "happened": "1970s–1993",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "On 4 September 1997 a US federal jury (M.D. Pa., Patel v. Himalayan International Institute) awarded US$275,000 compensatory and US$1.6 million punitive damages against the Himalayan Institute, finding that its founder Swami Rama had sexual relations with a 19-year-old student by abusing his position as her guru, and that the Institute was negligent in allowing him to be a sexual predator for years. The court upheld the verdict in December 1999. Yoga Journal had reported allegations by several women in 1990.",
+   "reports": [
+    {
+     "outlet": "Patel v. Himalayan International Institute, 3:CV-94-1118 (M.D. Pa. 9 Dec 1999), memorandum",
+     "kind": "court",
+     "url": "https://case-law.vlex.com/vid/patel-v-himalayan-international-884783725",
+     "date": "1999-12-09"
+    },
+    {
+     "outlet": "Yoga Journal: The Case against Swami Rama of the Himalayas (Katharine Webster), Dec 1990 (reprint)",
+     "kind": "press",
+     "url": "https://prem-rawat-bio.org/nrms/info/rama1.htm",
+     "date": "1990-12"
+    }
+   ],
+   "updated": "2026-10-25",
+   "verified_on": "2026-10-25",
+   "confidence": "high"
   }
  ]
 }

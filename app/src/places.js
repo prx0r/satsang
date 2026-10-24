@@ -15,10 +15,15 @@ export function createPlaces(ctx) {
   const { esc, wise, clipTile } = ctx
   let D = null, DP = null, GEO = null, GP = null, MAPMOD = null
   const load = () => (DP ||= Promise.all([
-    fetch('data/wisegraph/places.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    // slim index first (~220 KB raw instead of 635 KB); each place's full record is a shard fetched when it opens (full())
+    fetch('data/wisegraph/places-index.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+      .then((j) => j || fetch('data/wisegraph/places.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((x) => { if (x) for (const p of x.places) p._full = 1; return x }).catch(() => null)),
     wise().ready() ? null : wise().load(),
   ]).then(([j]) => { D = j && j.places ? j : { places: [], countries: {} }; index(); return D }))
   const ready = () => !!D && wise().ready()
+  const SH = {}
+  const full = (id) => (!BY[id] || BY[id]._full ? Promise.resolve(BY[id]) : (SH[id] ||= fetch(`data/wisegraph/place/${encodeURIComponent(id)}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+    .then((j) => { if (j) Object.assign(BY[id], j, { fam: BY[id].fam, _full: 1 }); else delete SH[id]; return BY[id] })))
   const geo = () => (GP ||= fetch('/geo.json', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).then((g) => (GEO = g && isFinite(g.lat) ? g : null)).catch(() => null))
   const mapmod = () => (MAPMOD ||= import(/* @vite-ignore */ ctx.mapUrl()))
   let BY = {}
@@ -115,7 +120,8 @@ export function createPlaces(ctx) {
     if (F.mode === 'map') mapmod().then(({ mountMap }) => {
       if (!el.isConnected || !el.querySelector('#pmap')) return
       MAP?.destroy?.()
-      MAP = mountMap(el.querySelector('#pmap'), { places: visible().map(pin), goenka: F.goenka, fit: 'none', onPick: (id) => { PICK = id; MAP.pick(id); panel.innerHTML = panelHTML(BY[id]); panel.classList.add('open'); bindPanel(panel) } })
+      MAP = mountMap(el.querySelector('#pmap'), { places: visible().map(pin), goenka: F.goenka, fit: 'none', onPick: (id) => { PICK = id; MAP.pick(id); panel.innerHTML = panelHTML(BY[id]); panel.classList.add('open'); bindPanel(panel)
+        if (!BY[id]?._full) full(id).then(() => { if (PICK === id && panel.isConnected) { panel.innerHTML = panelHTML(BY[id]); bindPanel(panel) } }) } })
       const v = visible().filter((p) => p.lat != null)
       if (F.fam || F.country || F.type || F.goenka) MAP.fit(v.map((p) => p.id), F.country ? 8 : 6); else MAP.fit(v.filter((p) => !p.goenka).map((p) => p.id), 3)
       if (PICK) MAP.pick(PICK)
@@ -148,6 +154,7 @@ export function createPlaces(ctx) {
   function paintPlace(el, id) {
     const p = BY[id]
     if (!p) { el.innerHTML = `<a class="back" href="#places">\u2190 Places</a><div class="wempty"><h2>Place not found</h2><p class="muted">Browse the map instead.</p></div>`; return }
+    if (!p._full) { el.innerHTML = `<a class="back" href="#places">\u2190 Places</a><div class="railskel"><i></i><i></i><i></i></div>`; full(id).then(() => { if (el.isConnected && decodeURIComponent(location.hash) === '#place/' + id) paintPlace(el, id) }); return }
     const t0 = p.teachers?.[0], line = t0 ? lineUp(t0) : []
     const talks = [], seen = new Set()
     for (const t of p.teachers || []) for (const c of [...W().talksBy(t), ...W().talksAbout(t)]) if (!seen.has(c.id)) { seen.add(c.id); talks.push(c) }
@@ -171,13 +178,14 @@ export function createPlaces(ctx) {
       ${line.length > 1 ? `<section class="wsec"><div class="wsech"><h3>Lineage</h3></div>${chainHTML(line, t0)}</section>` : ''}
       ${p.teachers?.length ? `<section class="wsec"><div class="wsech"><h3>Founded by or taught here</h3></div><div class="wgrid">${p.teachers.map((t) => W().personTile(t)).join('')}</div></section>` : ''}
       ${talks.length ? `<section class="wsec"><div class="wsech"><h3>Talks by teachers of ${esc(p.name)}</h3></div><div class="rail">${talks.slice(0, 24).map((c) => clipTile(c, null, W().fmtDur(c))).join('')}</div></section>` : ''}
+      ${p.upcoming?.length ? `<section class="wsec"><div class="wsech"><h3>Upcoming events</h3><span class="muted small">next 90 days</span></div><div class="pprog">${p.upcoming.slice(0, 12).map((e) => `<article class="pprg"><b>${esc(e.name)}</b><span>${esc(String(e.start).slice(0, 10))}${e.end && String(e.end).slice(0, 10) !== String(e.start).slice(0, 10) ? ' \u2013 ' + esc(String(e.end).slice(0, 10)) : ''}${/T\d\d:\d\d/.test(e.start) ? ' \u00b7 ' + esc(String(e.start).slice(11, 16)) : ''}${e.online ? ' \u00b7 online' : ''}</span>${e.location ? `<p>${esc(e.location)}</p>` : ''}${e.url || e.source ? `<a class="btn ghost" href="${esc(e.url || e.source)}" target="_blank" rel="noopener">Details \u2197</a>` : ''}</article>`).join('')}</div><p class="muted small">Read ${esc(String(p.upcoming_meta?.fetched_at || '').slice(0, 10))} from ${esc(p.name)}\u2019s own calendar${p.upcoming_meta?.stale ? ' (not re-read for over 14 days)' : ''}. Confirm on the place\u2019s page.</p></section>` : ''}
       ${p.events?.length ? `<section class="wsec"><div class="wsech"><h3>Gatherings and festivals</h3></div><div class="pprog">${p.events.map((e) => `<article class="pprg"><b>${esc(e.name)}</b>${e.when ? `<span>${esc(e.when)}</span>` : ''}${e.note ? `<p>${esc(e.note)}</p>` : ''}${e.url ? `<a class="btn ghost" href="${esc(e.url)}" target="_blank" rel="noopener">Official page \u2197</a>` : ''}</article>`).join('')}</div><p class="muted small">The usual time of year only; dates live on the official page.</p></section>` : ''}
       ${(() => { const L = (p.sisters || []).map(([id, ty]) => [D.places.find((q) => q.id === id), ty]).filter(([q]) => q); const SL = { branch_of: 'Mother house', branch: 'Branch', sister_of: 'Sister place' }
         return L.length ? `<section class="wsec"><div class="wsech"><h3>Sister places</h3><span class="muted small">Its mother house, branches and sister communities</span></div><div class="pgrid">${L.map(([q, ty]) => card(q, null, SL[ty])).join('')}</div></section>` : '' })()}
       ${contactHTML(p)}
       ${resourcesHTML(p.resources)}
       ${near.length ? `<section class="wsec"><div class="wsech"><h3>Nearby in the same family</h3></div><div class="pgrid">${near.map(([q, d]) => card(q, d)).join('')}</div></section>` : ''}
-      <p class="muted small">${p.wikidata ? `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">Wikidata</a> \u00b7 ` : ''}${p.coord_precision && p.lat != null ? `Map point: ${esc(p.coord_precision)} \u00b7 ` : ''}Map data \u00a9 OpenStreetMap contributors</p>`
+      <p class="muted small"><a href="/place/${esc(p.id)}">Plain page for sharing and citing</a> \u00b7 ${p.wikidata ? `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">Wikidata</a> \u00b7 ` : ''}${p.coord_precision && p.lat != null ? `Map point: ${esc(p.coord_precision)} \u00b7 ` : ''}Map data \u00a9 OpenStreetMap contributors</p>`
     scrollTo({ top: 0 })
     if (p.lat != null) mapmod().then(({ mountMap }) => {
       const m = el.querySelector('#pherom'); if (!m) return
@@ -239,6 +247,7 @@ export function createPlaces(ctx) {
       const list = [...order(r.tied), ...order(r.pool.filter((q) => !q.goenka || g))].slice(0, 6)
       const label = kind === 'person' ? (W().person(id)?.short || W().person(id)?.n) : kind === 'trads' ? 'these traditions' : tLabel(id)
       const extra = []
+      if (kind === 'person') await Promise.all(r.tied.filter((q) => q.hc || q.hr || q.contact).slice(0, 6).map((q) => full(q.id)))
       if (kind === 'person') { // Contact + Free books from the organisation the teacher founded or taught at
         const org = r.tied.find((q) => q.contact) || null, res = r.tied.flatMap((q) => q.resources || [])
         if (org) extra.push(contactHTML(org, 'Contact: ' + org.name))

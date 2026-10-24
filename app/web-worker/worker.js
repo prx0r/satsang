@@ -20,6 +20,22 @@ export default {
     }
     let p = decodeURIComponent(u.pathname); if (p.endsWith('/')) p += 'index.html'
     const moved = REDIRECTS[p.replace(/\/(index\.html)?$/, '')]; if (moved) return Response.redirect(u.origin + moved + u.search, 301)
+    // LLM-readable places (tools/build-place-pages.mjs -> dist/_p/, served from KV): /places, /places/<tradition>,
+    // /places/country/<cc>, /place/<id> (static HTML + JSON-LD; the app's #place/<id> links here and back), /sitemap-places.xml
+    { const sp = p.replace(/\/(index\.html)?$/, '') || '/'
+      const sk = sp === '/places' ? '/_p/places.html' : sp === '/sitemap-places.xml' ? '/_p/sitemap-places.xml'
+        : /^\/places\/country\/[A-Za-z]{2}$/.test(sp) ? '/_p/places/country/' + sp.slice(-2).toLowerCase() + '.html'
+        : /^\/places\/[a-z0-9-]+$/.test(sp) ? '/_p' + sp + '.html' : /^\/place\/[^/]+$/.test(sp) ? '/_p' + sp + '.html' : null
+      if (sk && /\/country\/[A-Z]/.test(sp)) return Response.redirect(u.origin + sp.toLowerCase(), 301)
+      if (sk && KVSITE[sk] && env && env.DATA) { const r = await fromKV(req, env, ctx, sk, KVSITE[sk]); if (r) return r }
+      if (sk && sp.startsWith('/places')) { const nf = SITE['/404.html']; return new Response(nf ? nf[1] : 'Not found', { status: 404, headers: hdr('text/html; charset=utf-8') }) } }
+    // open data aliases: /data/places.json + /data/places.ndjson = the place dump (CC BY 4.0); /data/events.json prefers the KV copy
+    // the weekly events keeper may have refreshed since the last deploy
+    const alias = { '/data/places.json': 'data/place.json', '/data/places.ndjson': 'data/place.jsonl', '/data/events.json': 'data/events.json' }[p]
+    if (alias && env && env.DATA) {
+      const body = await env.DATA.get(alias, 'stream')
+      if (body) return new Response(req.method === 'HEAD' ? null : body, { headers: hdr(p.endsWith('.ndjson') ? 'application/x-ndjson; charset=utf-8' : 'application/json; charset=utf-8', { 'cache-control': 'public, max-age=3600', 'access-control-allow-origin': '*', link: '<https://creativecommons.org/licenses/by/4.0/>; rel="license"' }) })
+    }
     // open data dumps (KV wiser-open-data; mcp/build-dump.mjs): /data/index.json, /data/<kind>.json|.jsonl, /data/wiser.jsonld
     if (/^\/data\/[a-z]+\.(json|jsonl|jsonld)$/.test(p) && !SITE[p] && env && env.DATA) {
       const body = await env.DATA.get(p.slice(1), 'stream')

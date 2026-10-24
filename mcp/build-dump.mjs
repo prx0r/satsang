@@ -48,6 +48,6 @@ for (const k of smKinds) {
   fs.writeFileSync(new URL(`sitemap-${k}.xml`, out), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((r) => `  <url><loc>${idUrl(k, r.id)}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`)
   manifest.files.push({ kind: `sitemap-${k}`, count: urls.length, file: `sitemap-${k}.xml` })
 }
-fs.writeFileSync(new URL('sitemap.xml', out), `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smKinds.map((k) => `  <sitemap><loc>${BASE}/sitemap-${k}.xml</loc><lastmod>${today}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`)
+fs.writeFileSync(new URL('sitemap.xml', out), `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...smKinds, 'places'].map((k) => `  <sitemap><loc>${BASE}/sitemap-${k}.xml</loc><lastmod>${today}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`)
 fs.writeFileSync(new URL('index.json', out), JSON.stringify(manifest, null, 1))
 console.log(manifest.files.map((f) => `${f.kind}:${f.count}`).join('  '))
