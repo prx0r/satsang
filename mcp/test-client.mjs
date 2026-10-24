@@ -18,7 +18,7 @@ export async function run(base, { log = console.log } = {}) {
   const n = await fetch(base + '/mcp', { method: 'POST', headers: H, body: JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) })
   check('notifications/initialized -> 202', n.status === 202)
   const tl = await rpc('tools/list', {}); const names = tl.result.tools.map((t) => t.name)
-  const want = ['search', 'fetch', 'get_topic', 'get_teacher', 'get_lineage', 'list_practices', 'get_collection', 'recommend', 'find_places', 'get_place', 'find_teachers', 'get_resources', 'get_lineage_path', 'what_to_study', 'list_courses', 'get_course', 'list_series', 'get_series']
+  const want = ['search', 'fetch', 'get_topic', 'get_teacher', 'get_lineage', 'list_practices', 'get_collection', 'recommend', 'find_places', 'get_place', 'search_places', 'list_events', 'find_teachers', 'get_resources', 'get_lineage_path', 'what_to_study', 'list_courses', 'get_course', 'list_series', 'get_series']
   check(`tools/list has all ${want.length} tools`, want.every((x) => names.includes(x)), names.join(', '))
   check('every tool is annotated read-only', tl.result.tools.every((t) => t.annotations?.readOnlyHint === true))
   const st = tl.result.tools.find((t) => t.name === 'search'), ft = tl.result.tools.find((t) => t.name === 'fetch')
@@ -45,6 +45,22 @@ export async function run(base, { log = console.log } = {}) {
   check('find_places offers=sanskrit', x.parsed.total > 0, x.parsed.results.map((p) => p.name).slice(0, 3).join('; '))
   x = await call('find_places', { tradition: 'Tibetan Buddhism', region: 'europe', status: 'active' })
   check('find_places Tibetan / europe / active', x.parsed.total > 0, String(x.parsed.total))
+  x = await call('search_places', { near: { lat: 51.5074, lng: -0.1278, km: 80 }, limit: 5 })
+  check('search_places near London 80 km (nearest first, distance_km)', x.parsed.total > 0 && x.parsed.results.every((p, i, a) => p.distance_km <= 80 && (!i || a[i - 1].distance_km <= p.distance_km)), x.parsed.results.slice(0, 3).map((p) => `${p.name} ${p.distance_km} km`).join('; '))
+  x = await call('search_places', { tradition: 'zen', country: 'US', residential: true, limit: 5 })
+  check('search_places zen US residential', x.parsed.total > 0 && x.parsed.results.every((p) => p.country === 'US' && p.residential && p.url), x.parsed.results.slice(0, 3).map((p) => p.name).join('; '))
+  x = await call('search_places', { has_email: true, language: 'en', limit: 5 })
+  check('search_places has_email + language=en', x.parsed.total > 0 && x.parsed.results.every((p) => p.hasEmail && p.languages?.includes('en')), String(x.parsed.total))
+  x = await call('search_places', { has_upcoming_events: true, limit: 5 })
+  check('search_places has_upcoming_events (nextEvent with source + fetched_at)', x.parsed.total > 0 && x.parsed.results.every((p) => p.upcomingEvents > 0 && p.nextEvent?.source && p.nextEvent?.fetched_at), `${x.parsed.total} places`)
+  x = await call('search_places', { query: 'silent retreat', online: false, limit: 3 })
+  check('search_places query + online=false', Array.isArray(x.parsed.results) && x.parsed.results.every((p) => p.online === false), String(x.parsed.total))
+  x = await call('list_events', { limit: 10 })
+  check('list_events next 90 days (sorted, sourced)', x.parsed.total > 0 && x.parsed.events.every((e, i, a) => e.source && e.fetched_at && e.place?.url && (!i || Date.parse(a[i - 1].start) <= Date.parse(e.start))), `${x.parsed.total} events at ${x.parsed.places_with_feeds} places`)
+  x = await call('list_events', { country: 'US', from: '2026-01-01', to: '2030-12-31', limit: 5 })
+  check('list_events country=US date range', Array.isArray(x.parsed.events) && x.parsed.events.every((e) => e.place.country === 'US'), String(x.parsed.total))
+  { const r = await fetch(base + '/api/places/search?lat=51.5&lng=-0.13&km=50&limit=3'); const j = await r.json(); check('REST /api/places/search near', r.ok && j.results?.length > 0 && j.results[0].distance_km != null, j.results?.[0]?.name) }
+  { const r = await fetch(base + '/api/events?limit=3'); const j = await r.json(); check('REST /api/events', r.ok && j.events?.length > 0, j.events?.[0]?.name) }
   x = await call('get_place', { id: 'amaravati' })
   check('get_place: contact as published + programmes as_of', x.parsed.contact?.as_published && x.parsed.programmes.every((p) => p.as_of) && x.parsed.source_url && x.parsed.url === BASE + '/place/amaravati', `checked ${x.parsed.contact?.checked}, ${x.parsed.programmes.length} programmes`)
   x = await call('find_teachers', { tradition: 'thai-forest', living: true })

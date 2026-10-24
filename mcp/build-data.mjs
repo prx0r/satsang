@@ -240,6 +240,9 @@ if (colData) {
 
 // ---------- places ----------
 const place = {}
+// language (BCP-47-ish codes) lives in the source list; upcoming events come from the weekly events keeper (keeper/events/run.mjs)
+const LANG = Object.fromEntries((rd('wisegraph/places.json')?.places || []).filter((p) => p.language).map((p) => [p.id, String(p.language).split(/[,;\s]+/).filter(Boolean)]))
+const EVJ = (() => { try { return rd('site/data/events.json') } catch { return { places: {}, meta: {} } } })(), EV_NOW = Date.now()
 const PLACE_TYPE = { 'retreat-centre': 'retreat', 'study-centre': 'centre', 'sacred-site': 'pilgrimage', 'meeting-house': 'centre', organisation: 'other', bookshop: 'other' }
 for (const p of placesRaw.places) {
   place[p.id] = { id: p.id, type: 'place', name: p.name, placeType: ['monastery', 'centre', 'ashram', 'retreat', 'pilgrimage', 'temple', 'lodge', 'grove', 'hermitage'].includes(p.type) ? p.type : PLACE_TYPE[p.type] || 'other',
@@ -252,6 +255,9 @@ for (const p of placesRaw.places) {
     kindLabel: p.type, offers: p.offers || [], sisters: (p.sisters || []).map((x) => (Array.isArray(x) ? x[0] : x)).filter((x) => typeof x === 'string'),
     sisterLinks: (p.sisters || []).filter(Array.isArray).map(([id, rel, note]) => ({ id, rel, ...(note ? { note } : {}) })),
     events: (p.events || []).map((e) => ({ name: e.name, kind: e.kind, when: e.when, url: e.url, note: e.note })),
+    ...(LANG[p.id] ? { languages: LANG[p.id] } : {}),
+    ...(EVJ.places?.[p.id] ? { upcoming: { fetched_at: EVJ.places[p.id].fetched_at, stale: !!EVJ.places[p.id].stale || (EV_NOW - Date.parse(EVJ.places[p.id].fetched_at)) / 864e5 > 14, sources: EVJ.places[p.id].sources,
+      events: (EVJ.places[p.id].events || []).filter((e) => Date.parse(e.end || e.start) >= EV_NOW - 864e5).map((e) => JSON.parse(JSON.stringify({ name: e.name, start: e.start, end: e.end, tz: e.tz, url: e.url, location: e.location, online: e.online || undefined, source: e.source, source_type: e.source_type }))) } } : {}),
     resources: (p.resources || []).filter((r) => /^https?:/.test(r.url || '')).map((r) => ({ title: r.title, url: r.url, free: r.free, licence: r.licence, ...(r.licenceClass ? { licenceClass: r.licenceClass } : {}), ...(r.licenceUrl ? { licenceUrl: r.licenceUrl } : {}), sourceUrl: r.source_url, checked: r.checked })),
     ids: p.wikidata ? { wikidata: p.wikidata } : undefined, meta: { license: LIC, ...(p.aliases ? { aliases: p.aliases } : {}), updated: p.verified_on || p.contact?.checked || p.checked || placesRaw.meta?.built, confidence: p.confidence || (p.contact?.checked && p.contact?.page ? 'high' : (p.url || p.wikidata) ? 'medium' : 'low'),
       sources: [...new Set([p.source_url, p.contact?.page, p.url, p.goenka && p.url ? null : null].filter((u) => /^https?:/.test(u || '')))].slice(0, p.source_url ? 3 : 2).map((url) => ({ url, check: p.contact?.page === url || p.source_url === url ? 'reviewed' : 'cited', ...(p.source_url === url && p.verified_on ? { checked: p.verified_on } : p.contact?.page === url && p.contact?.checked ? { checked: p.contact.checked } : {}) })) } }

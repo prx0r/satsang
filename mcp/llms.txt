@@ -27,6 +27,8 @@ Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); co
 - `fetch`: Fetch one Satsang record by the id returned from search (e.g.
 - `find_places`: Monasteries, retreat centres, ashrams, temples, study centres and sacred sites.
 - `get_place`: One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.
+- `search_places`: The full place search: free-text query plus tradition (includes its schools), school (exact), country, near {lat, lng, km} (results carry distance_km, nearest first), residential (can stay: residential programmes, retreats or a monastery/ashram), online (online or hybrid programmes or events), language (code or name, e.g.
+- `list_events`: Dated upcoming events (next 90 days) read weekly from each place’s own public iCal feed or schema.org Event markup (no aggregator, no LLM).
 - `find_teachers`: People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video.
 - `get_resources`: Texts, books and libraries per tradition, person or topic.
 - `get_lineage_path`: Shortest documented chain between two people (or traditions) over teacher-student, ordination, transmission, academic supervision and influence edges.
@@ -44,15 +46,30 @@ Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); co
 - https://tantrafiles.xyz/person/<id>, /tradition/<id>, /topic/<id>, /practice/<id>, /collection/<id>, /place/<id>, /resource/<id>, /clip/<id>
 - Every API/MCP record carries `url` (canonical page), `source_url` (where the fact comes from), `verified_on` (YYYY-MM-DD) and `confidence` (high, medium, low).
 
+## Places (plain HTML pages, crawlable, schema.org JSON-LD)
+- [All places](https://tantrafiles.xyz/places): every place grouped by country, with links by tradition and country
+- https://tantrafiles.xyz/place/<id>: one place: name, tradition, school and lineage, address and map point (GeoCoordinates), website, contacts exactly as published (each with its source page and check date), languages when known, offerings, programmes, upcoming events (next 90 days, read weekly from the place's own iCal feed or schema.org Event data, with source and fetch date) and when it was last checked. JSON-LD: PlaceOfWorship or Place + Organization, PostalAddress, GeoCoordinates, Event.
+- https://tantrafiles.xyz/places/<tradition-id> (e.g. https://tantrafiles.xyz/places/thai-forest, https://tantrafiles.xyz/places/sufism) and https://tantrafiles.xyz/places/country/<iso2> (e.g. https://tantrafiles.xyz/places/country/gb)
+- Filters (MCP `search_places`): free-text query, tradition (includes its schools), school (exact), country, near {lat, lng, km}, residential, online, language, has_upcoming_events, has_email, limit. `get_place` returns contacts + events + sources; `list_events` lists upcoming events by place, tradition, country and date range.
+- [Places sitemap](https://tantrafiles.xyz/sitemap-places.xml)
+
+## Open data (CC BY 4.0, credit "Satsang, tantrafiles.xyz")
+- [Places as JSON](https://tantrafiles.xyz/data/places.json) and [as NDJSON](https://tantrafiles.xyz/data/places.ndjson) (one place per line; same records the MCP serves)
+- [Upcoming events](https://tantrafiles.xyz/data/events.json): per place, with `source` (the feed or page read), `source_type` (ical | jsonld) and `fetched_at`; a place not re-read for 14 days is marked `stale`
+- [Slim place index](https://tantrafiles.xyz/data/wisegraph/places-index.json) and one full record per place at https://tantrafiles.xyz/data/wisegraph/place/<id>.json
+- Contacts are the organisations' own published details: use them to help a person get in touch, never for bulk mail.
+
 ## Start here
 - [Topic flash](https://tantrafiles.xyz/): one question, teachers from different traditions
 - [Rebirth across traditions](https://tantrafiles.xyz/topic/rebirth)
-- [Places to practise](https://tantrafiles.xyz/#places)
+- [Places to practise](https://tantrafiles.xyz/places) ([map](https://tantrafiles.xyz/#places))
 - [Journeys and practices](https://tantrafiles.xyz/#collections)
 
 ## Rules for agents
 - Cite the `url` of every record you use; give `source_url` for contacts, dates and programmes.
 - Contacts are only those a place publishes on its own site; programme dates change, so send people to `scheduleUrl` and say when the record was verified.
+- Events come from the place's own feed; give the event `url` or `source` and its `fetched_at`, and say "confirm on the source page".
+- Some teachers carry a dated, sourced public safety note (`safety`); mention it when recommending them or places tied to them, without adding to it.
 - Do not invent what a teacher said; quote talk titles. Satsang's one-line "takes" are its own summaries.
 - Practices are summaries: respect `contraindications` and `needsTeacher`, and link the `sources`.
 - "likely-living" is an inference (teaches on video, no death year recorded); say so when it matters.

@@ -16,6 +16,22 @@
 - **Test**: `node test-client.mjs https://mcp.satsang.digital` (black-box client: Streamable HTTP, SSE round trip, OpenAI shapes, REST, CORS, discovery).
 
 
+## Add Satsang to ChatGPT or Claude as a connector (today: mcp.tantrafiles.xyz)
+The server is public, read-only and needs no account or key. Use **`https://mcp.tantrafiles.xyz/mcp`** until satsang.digital is
+active (then `https://mcp.satsang.digital/mcp`; the old host keeps answering).
+- **ChatGPT (web, Plus/Pro/Business):** Settings > Apps & Connectors > Advanced settings > turn on **Developer mode**. Back in
+  Apps & Connectors > **Create**: Name `Satsang`, Description "Spiritual directory: places, teachers, events", MCP server URL
+  `https://mcp.tantrafiles.xyz/mcp`, Authentication **No authentication**, tick "I trust this application" > Create. In a chat,
+  pick Satsang from the + / Developer mode menu. Deep research uses `search` + `fetch`. **Custom GPT** instead: Configure >
+  Actions > Import from URL `https://mcp.tantrafiles.xyz/openapi.json`, Authentication None.
+- **Claude (claude.ai, Pro/Max/Team):** Settings > **Connectors** > Add custom connector > Name `Satsang`, URL
+  `https://mcp.tantrafiles.xyz/mcp` > Add (no OAuth). Enable it per chat from the tools menu. **Claude Desktop**: same
+  (Settings > Connectors). **Claude Code**: `claude mcp add --transport http satsang https://mcp.tantrafiles.xyz/mcp`.
+- **Try:** "Find residential Zen places within 100 km of Kyoto with upcoming events" (search_places near + residential +
+  has_upcoming_events), "What's on at Gaia House this month?" (list_events), "Contacts for Amaravati" (get_place).
+- **Check it works:** `node test-client.mjs https://mcp.tantrafiles.xyz` (all PASS) or MCP Inspector
+  (`npx @modelcontextprotocol/inspector`, transport Streamable HTTP, URL above).
+
 Streamable-HTTP MCP server for a Cloudflare Worker, zero runtime dependencies. Reads only `data/wiser.json`, which
 `build-data.mjs` normalises from `../app/site/{clips.json,data/wisegraph/*}` (+ `../app/schema/topics.json` labels; keyword
 regexes dropped). Never writes to `app/`. No transcripts anywhere.
@@ -46,13 +62,15 @@ builds its index at startup (≈ 75 ms) so requests fit the free plan's CPU budg
   server-side clients send no Origin. Rate limits: Workers Rate Limiting bindings `RL_API` 120/min, `RL_MCP` 600/min per IP
   (per-isolate bucket as fallback). CORS `*` everywhere.
 
-## Tools (14)
+## Tools (main directory tools; `tools/list` has the full set)
 | tool | input | returns |
 |---|---|---|
 | `search` | `query`, `kinds[]?`, `limit?` | **exactly** `{results:[{id,title,url}]}` (OpenAI connector/deep-research shape); `id` = `<kind>/<id>` |
 | `fetch` | `id` (search id or satsang.digital URL) | `{id,title,text,url,metadata}`; metadata: kind, source_url, verified_on, confidence, licence (+ kind fields) |
 | `find_places` | `tradition` (incl. schools), `school`, `country`, `region`, `type`, `status active|heritage|any`, `living_teacher`, `offers[]`, `query`, `limit` | place cards with provenance |
-| `get_place` | `id` | contacts as published (value + source + checked), programmes with `as_of`, teachers, sisters, events, resources, geo |
+| `get_place` | `id` | contacts as published (value + source + checked), programmes with `as_of`, teachers, sisters, yearly events, `upcoming` (dated events + fetched_at + sources), languages, residential/online, resources, geo |
+| `search_places` | `query`, `tradition` (incl. schools), `school`, `country`, `near{lat,lng,km}`, `residential`, `online`, `language`, `has_upcoming_events`, `has_email`, `limit` | place cards + languages, residential/online flags (inferred from published programmes/offers), `hasEmail`, `upcomingEvents`, `nextEvent`, `distance_km` (nearest first with `near`) |
+| `list_events` | `place`, `tradition`, `country`, `from`, `to` (YYYY-MM-DD; default next 90 days), `online`, `query`, `limit` | dated events read weekly from each place's own iCal / schema.org Event data: name, start, end, tz, url, `source`, `source_type`, `fetched_at`, `stale`, place {id,name,url} |
 | `find_teachers` | `tradition`, `school`, `living`, `country`/`region` (via tied places), `role`, `on_video`, `query` | people with `living` = living / likely-living (inferred) / deceased / unknown + basis |
 | `get_resources` | `tradition`, `person`, `topic`, `free`, `kind`, `query` | texts/books/libraries; `access` free / paid-or-unknown / no-link |
 | `get_lineage_path` | `from`, `to`, `lineage all|dharma|academic|influence|institutional`, `max_hops` | shortest documented chain, each step with confidence + source_url |

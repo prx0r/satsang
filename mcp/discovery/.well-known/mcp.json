@@ -115,6 +115,18 @@
       "readOnly": true
     },
     {
+      "name": "search_places",
+      "title": "Search places (all filters)",
+      "description": "The full place search: free-text query plus tradition (includes its schools), school (exact), country, near {lat, lng, km} (results carry distance_km, nearest first), residential (can stay: residential programmes, retreats or a monastery/ashram), online (online or hybrid programmes or events), language (code or name, e.g. \"en\", \"de\", \"Thai\"), has_upcoming_events (dated events in the next 90 days read from the place’s own iCal/JSON-LD feed), has_email (an email the place publishes) and limit. Each result: card with canonical url, source_url, verified_on, confidence, plus languages, residential/online flags, next event and upcoming-event count. Use get_place for contacts and list_events for dates.",
+      "readOnly": true
+    },
+    {
+      "name": "list_events",
+      "title": "Upcoming events at places",
+      "description": "Dated upcoming events (next 90 days) read weekly from each place’s own public iCal feed or schema.org Event markup (no aggregator, no LLM). Filter by place id, tradition (includes schools), country, from/to dates (YYYY-MM-DD), online, query. Each event: name, start, end, timezone, url, source (the feed or page read), source_type (ical | jsonld), fetched_at and stale (not re-read for 14 days), plus its place with canonical url. Dates are the organiser’s: tell users to confirm on the source page.",
+      "readOnly": true
+    },
+    {
       "name": "find_teachers",
       "title": "Find teachers, scholars and figures",
       "description": "People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Satsang.",

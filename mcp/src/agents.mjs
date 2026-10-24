@@ -223,6 +223,28 @@ export const AGENT_TOOLS = [
   { name: 'get_place', title: 'Place details', annotations: RO,
     description: 'One place with contacts exactly as the place publishes them (each with its source page and check date), programmes with an as-of date and schedule links, founders/tied teachers, sister monasteries, events, free resources, coordinates, website, source_url, verified_on, confidence and the canonical tantrafiles.xyz URL.',
     inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Place id, e.g. "amaravati" or "place/amaravati".' } }, required: ['id'] } },
+  { name: 'search_places', title: 'Search places (all filters)', annotations: RO,
+    description: 'The full place search: free-text query plus tradition (includes its schools), school (exact), country, near {lat, lng, km} (results carry distance_km, nearest first), residential (can stay: residential programmes, retreats or a monastery/ashram), online (online or hybrid programmes or events), language (code or name, e.g. "en", "de", "Thai"), has_upcoming_events (dated events in the next 90 days read from the place\u2019s own iCal/JSON-LD feed), has_email (an email the place publishes) and limit. Each result: card with canonical url, source_url, verified_on, confidence, plus languages, residential/online flags, next event and upcoming-event count. Use get_place for contacts and list_events for dates.',
+    inputSchema: { type: 'object', properties: {
+      query: { type: 'string', description: 'Free words in name, city, description, offers or programmes, e.g. "silent retreat", "Plum Village", "Kyoto".' },
+      tradition: { type: 'string', description: 'Tradition or family id/label (matches its schools), e.g. "theravada", "Tibetan Buddhism", "sufism", "advaita-vedanta".' },
+      school: { type: 'string', description: 'Exact school/lineage id or label, e.g. "thai-forest", "soto-zen", "kagyu".' },
+      country: { type: 'string', description: 'ISO 3166 code(s) or name(s), comma-separated: "GB", "IN,NP", "Thailand".' },
+      near: { type: 'object', description: 'Only places within km of a point; sorted nearest first.', properties: { lat: { type: 'number' }, lng: { type: 'number' }, km: { type: 'number', default: 100 } }, required: ['lat', 'lng'] },
+      residential: { type: 'boolean', description: 'true = you can stay (residential retreats/programmes, monastery, ashram, hermitage).' },
+      online: { type: 'boolean', description: 'true = online or hybrid programmes or events.' },
+      language: { type: 'string', description: 'Language code or English name, e.g. "en", "fr", "German".' },
+      has_upcoming_events: { type: 'boolean', description: 'true = at least one dated event in the next 90 days (from the place\u2019s own feed).' },
+      has_email: { type: 'boolean', description: 'true = the place publishes an email address.' },
+      limit: { type: 'integer', minimum: 1, maximum: 100, default: 20 } } } },
+  { name: 'list_events', title: 'Upcoming events at places', annotations: RO,
+    description: 'Dated upcoming events (next 90 days) read weekly from each place\u2019s own public iCal feed or schema.org Event markup (no aggregator, no LLM). Filter by place id, tradition (includes schools), country, from/to dates (YYYY-MM-DD), online, query. Each event: name, start, end, timezone, url, source (the feed or page read), source_type (ical | jsonld), fetched_at and stale (not re-read for 14 days), plus its place with canonical url. Dates are the organiser\u2019s: tell users to confirm on the source page.',
+    inputSchema: { type: 'object', properties: {
+      place: { type: 'string', description: 'Place id, e.g. "tassajara" or "place/gaia-house".' },
+      tradition: { type: 'string' }, country: { type: 'string', description: 'ISO code(s) or name(s).' },
+      from: { type: 'string', description: 'YYYY-MM-DD, default today.' }, to: { type: 'string', description: 'YYYY-MM-DD, default today + 90 days.' },
+      online: { type: 'boolean' }, query: { type: 'string', description: 'Words in the event name or location.' },
+      limit: { type: 'integer', minimum: 1, maximum: 200, default: 50 } } } },
   { name: 'find_teachers', title: 'Find teachers, scholars and figures', annotations: RO,
     description: 'People in Satsang filtered by tradition (includes schools), school (exact), living (true = living or likely living; status and its basis are returned), country/region (via places they founded or are tied to), role (teacher, scholar, figure) and on_video. Sorted by depth of talks on Satsang.',
     inputSchema: { type: 'object', properties: { tradition: { type: 'string' }, school: { type: 'string' }, living: { type: 'boolean' }, country: { type: 'string' }, region: { type: 'string' },
@@ -276,6 +298,31 @@ function personId(ctx, x) {
 }
 const nodeOf = (ctx, x) => { const p = personId(ctx, x); if (p) return 'person/' + p; const t = resolveTradition(ctx, x); return t ? 'tradition/' + t : null }
 
+function placeFilter(ctx, a) {
+  let ps = Object.values(ctx.place); const applied = {}
+  const tr = tradSet(ctx, a.tradition, false); if (tr) { ps = ps.filter((p) => p.traditions.some((t) => tr.set.has(t))); applied.tradition = tr.ids }
+  const sc = tradSet(ctx, a.school, true); if (sc) { const s = new Set([...sc.ids.flatMap((i) => [...descendants(ctx, i)])]); ps = ps.filter((p) => p.traditions.some((t) => s.has(t))); applied.school = sc.ids }
+  if (a.country) { const cs = countrySet(a.country); ps = ps.filter((p) => cs.has(p.country)); applied.country = [...cs] }
+  if (a.region) { const rs = regionSet(a.region); ps = ps.filter((p) => rs.has(REGION[p.country])); applied.region = [...rs] }
+  if (a.type) { const t = fold(a.type); ps = ps.filter((p) => p.placeType === t || fold(p.kindLabel) === t || fold(p.kindLabel).includes(t)); applied.type = a.type }
+  if (a.status && a.status !== 'any') { ps = ps.filter((p) => placeStatus(p) === a.status); applied.status = a.status }
+  if (bool(a.living_teacher)) { ps = ps.filter((p) => (p.teachers || []).some((t) => ctx.person[t] && ['living', 'likely-living'].includes(livingStatus(ctx.person[t]).status))); applied.living_teacher = true }
+  const offers = list(a.offers); if (offers.length) { ps = ps.filter((p) => offerMatch(ctx, p, offers)); applied.offers = offers }
+  if (a.query) { const ws = fold(a.query).split(/\s+/).filter(Boolean); ps = ps.filter((p) => ws.every((w) => ctx.placeHay.get(p.id).includes(w) || fold(p.country).includes(w))); applied.query = a.query }
+  return { ps, applied }
+}
+
+// ---------- search_places / list_events helpers ----------
+const RAD = Math.PI / 180
+const kmBetween = (a, b) => { const x = Math.sin((b.lat - a.lat) * RAD / 2) ** 2 + Math.cos(a.lat * RAD) * Math.cos(b.lat * RAD) * Math.sin((b.lng - a.lng) * RAD / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)) }
+const placeText = (p) => fold([p.kindLabel, p.placeType, ...(p.offers || []), p.description, ...(p.programmes || []).map((r) => `${r.name} ${r.format || ''} ${r.typicalLength || ''}`)].join(' '))
+// residential: a programme published as residential, a stay/retreat/ordination offer, or a monastery/ashram/hermitage (people live there)
+const isResidential = (p) => (p.programmes || []).some((r) => r.format === 'residential' || r.format === 'mixed') || /\b(residential|stay|accommodation|guest|retreat|ordination|monastic|work[- ]?stay|residenc)/.test(fold((p.offers || []).join(' '))) || ['monastery', 'ashram', 'hermitage', 'retreat'].includes(p.placeType)
+const isOnline = (p) => (p.programmes || []).some((r) => r.format === 'online' || r.format === 'mixed') || /\b(online|zoom|livestream|live stream|virtual|webinar)\b/.test(placeText(p)) || (p.upcoming?.events || []).some((e) => e.online)
+const upcomingOf = (p, from, to) => (p.upcoming?.events || []).filter((e) => { const s = Date.parse(e.start), en = Date.parse(e.end || e.start); return Number.isFinite(s) && en >= from && s <= to })
+const evOut = (p, e) => JSON.parse(JSON.stringify({ name: e.name, start: e.start, end: e.end, tz: e.tz, online: e.online || undefined, location: e.location, url: e.url || e.source, source: e.source, source_type: e.source_type, fetched_at: p.upcoming?.fetched_at, stale: p.upcoming?.stale || undefined, place: { id: p.id, name: p.name, country: p.country, city: p.city, url: canon('place', p.id) } }))
+const dayMs = (x, d) => { if (!x) return d; const t = Date.parse(String(x).length === 10 ? x + 'T00:00:00Z' : x); return Number.isFinite(t) ? t : d }
+
 export function callAgentTool(ctx, name, a = {}) {
   switch (name) {
     case 'fetch': {
@@ -289,16 +336,7 @@ export function callAgentTool(ctx, name, a = {}) {
       return { id: `${ref.kind}/${ref.id}`, title: titleOf(ctx, ref.kind, r), text: textOf(ctx, ref.kind, r), url: pv.url, metadata: JSON.parse(JSON.stringify(meta)) }
     }
     case 'find_places': {
-      let ps = Object.values(ctx.place); const applied = {}
-      const tr = tradSet(ctx, a.tradition, false); if (tr) { ps = ps.filter((p) => p.traditions.some((t) => tr.set.has(t))); applied.tradition = tr.ids }
-      const sc = tradSet(ctx, a.school, true); if (sc) { const s = new Set([...sc.ids.flatMap((i) => [...descendants(ctx, i)])]); ps = ps.filter((p) => p.traditions.some((t) => s.has(t))); applied.school = sc.ids }
-      if (a.country) { const cs = countrySet(a.country); ps = ps.filter((p) => cs.has(p.country)); applied.country = [...cs] }
-      if (a.region) { const rs = regionSet(a.region); ps = ps.filter((p) => rs.has(REGION[p.country])); applied.region = [...rs] }
-      if (a.type) { const t = fold(a.type); ps = ps.filter((p) => p.placeType === t || fold(p.kindLabel) === t || fold(p.kindLabel).includes(t)); applied.type = a.type }
-      if (a.status && a.status !== 'any') { ps = ps.filter((p) => placeStatus(p) === a.status); applied.status = a.status }
-      if (bool(a.living_teacher)) { ps = ps.filter((p) => (p.teachers || []).some((t) => ctx.person[t] && ['living', 'likely-living'].includes(livingStatus(ctx.person[t]).status))); applied.living_teacher = true }
-      const offers = list(a.offers); if (offers.length) { ps = ps.filter((p) => offerMatch(ctx, p, offers)); applied.offers = offers }
-      if (a.query) { const ws = fold(a.query).split(/\s+/).filter(Boolean); ps = ps.filter((p) => ws.every((w) => ctx.placeHay.get(p.id).includes(w) || fold(p.country).includes(w))); applied.query = a.query }
+      const { ps, applied } = placeFilter(ctx, a)
       const rank = (p) => (p.contact?.checked ? 2 : 0) + (p.url ? 1 : 0) + Math.min(2, (p.programmes || []).length * 0.5) + (p.network ? -1 : 0) + (p.description ? 0.5 : 0)
       ps.sort((x, y) => rank(y) - rank(x) || x.name.localeCompare(y.name))
       return { total: ps.length, filters: applied, results: ps.slice(0, lim(a.limit, 20, 100)).map((p) => placeCard(ctx, p)), license: LICENSE, note: 'Contacts and programmes are as each place publishes them; check the place\u2019s own page before travelling.' }
@@ -313,8 +351,41 @@ export function callAgentTool(ctx, name, a = {}) {
         mainTeacher: p.mainTeacher && ctx.person[p.mainTeacher] ? { id: p.mainTeacher, name: ctx.person[p.mainTeacher].name, model: p.teacherModel || 'single', confidence: p.mainTeacherConfidence || 'medium', url: canon('person', p.mainTeacher), ...(p.mainTeacherSource ? { sourceUrl: p.mainTeacherSource, verifiedOn: p.mainTeacherVerified } : {}), note: p.mainTeacherSource ? `As stated on the official site (checked ${p.mainTeacherVerified}).` : 'One teacher responsible now, as published; re-check on the official site.' } : p.teacherModel ? { model: p.teacherModel, note: p.teacherModel === 'rotating' ? 'Teachers rotate (e.g. course conductors); no single main teacher.' : 'No single teacher by design.' } : undefined,
         teachers: (p.teachers || []).map((t) => ctx.person[t] ? { id: t, name: ctx.person[t].name, living: livingStatus(ctx.person[t]).status, relation: 'founder or historically tied', url: canon('person', t) } : null).filter(Boolean),
         sisters: (p.sisterLinks?.length ? p.sisterLinks : (p.sisters || []).map((id) => ({ id }))).map((s) => ({ ...s, name: ctx.place[s.id]?.name, url: ctx.place[s.id] ? canon('place', s.id) : undefined })),
-        events: p.events || [], resources: Object.values(ctx.resource).filter((r) => r.places?.includes(p.id)).map((r) => resourceCard(ctx, r)),
+        events: p.events || [], upcoming: p.upcoming ? { fetched_at: p.upcoming.fetched_at, stale: p.upcoming.stale || false, sources: p.upcoming.sources, events: upcomingOf(p, Date.now() - 864e5, Date.now() + 90 * 864e5).map((e) => evOut(p, e)).map(({ place, ...e }) => e) } : null, languages: p.languages, residential: isResidential(p), online: isOnline(p), resources: Object.values(ctx.resource).filter((r) => r.places?.includes(p.id)).map((r) => resourceCard(ctx, r)),
         wikidata: p.ids?.wikidata, sources: p.meta?.sources || [], license: LICENSE, privacy: 'Contacts are those the place publishes on its own site; do not use them for bulk mail.' }
+    }
+    case 'search_places': {
+      let { ps, applied } = placeFilter(ctx, { query: a.query, tradition: a.tradition, school: a.school, country: a.country })
+      const now = Date.now(), to = now + 90 * 864e5
+      let near = null
+      if (a.near && Number.isFinite(+a.near.lat) && Number.isFinite(+a.near.lng)) {
+        near = { lat: +a.near.lat, lng: +a.near.lng, km: Math.min(20000, Math.max(1, +a.near.km || 100)) }
+        ps = ps.filter((p) => p.geo?.public && Number.isFinite(p.geo.lat)).map((p) => [p, kmBetween(near, p.geo)]).filter(([, d]) => d <= near.km).sort((x, y) => x[1] - y[1]).map(([p, d]) => (p._d = d, p))
+        applied.near = near
+      }
+      const r = bool(a.residential); if (r !== undefined) { ps = ps.filter((p) => isResidential(p) === r); applied.residential = r }
+      const o = bool(a.online); if (o !== undefined) { ps = ps.filter((p) => isOnline(p) === o); applied.online = o }
+      if (a.language) { const L = fold(a.language).trim(), NAMES = { english: 'en', french: 'fr', german: 'de', spanish: 'es', italian: 'it', portuguese: 'pt', dutch: 'nl', thai: 'th', japanese: 'ja', chinese: 'zh', korean: 'ko', hindi: 'hi', tibetan: 'bo', nepali: 'ne', sinhala: 'si', burmese: 'my', vietnamese: 'vi', russian: 'ru', polish: 'pl', hebrew: 'he', arabic: 'ar', turkish: 'tr', persian: 'fa', czech: 'cs', danish: 'da', swedish: 'sv', norwegian: 'no', finnish: 'fi', greek: 'el', khmer: 'km', lao: 'lo', malay: 'ms', indonesian: 'id' }
+        const code = NAMES[L] || L.slice(0, 2); ps = ps.filter((p) => (p.languages || []).some((x) => fold(x).slice(0, 2) === code)); applied.language = code }
+      const he = bool(a.has_upcoming_events); if (he !== undefined) { ps = ps.filter((p) => (upcomingOf(p, now, to).length > 0) === he); applied.has_upcoming_events = he }
+      const hm = bool(a.has_email); if (hm !== undefined) { ps = ps.filter((p) => !!p.contact?.email?.length === hm); applied.has_email = hm }
+      if (!near) { const rank = (p) => (p.contact?.checked ? 2 : 0) + (p.url ? 1 : 0) + Math.min(2, (p.programmes || []).length * 0.5) + (p.network ? -1 : 0) + (p.description ? 0.5 : 0) + (upcomingOf(p, now, to).length ? 1 : 0); ps = [...ps].sort((x, y) => rank(y) - rank(x) || x.name.localeCompare(y.name)) }
+      const res = ps.slice(0, lim(a.limit, 20, 100)).map((p) => { const up = upcomingOf(p, now, to); const card = { ...placeCard(ctx, p), languages: p.languages, residential: isResidential(p), online: isOnline(p), hasEmail: !!p.contact?.email?.length,
+        upcomingEvents: up.length, nextEvent: up[0] ? evOut(p, up[0]) : undefined, distance_km: near ? +p._d.toFixed(1) : undefined }; delete p._d; return JSON.parse(JSON.stringify(card)) })
+      for (const p of ps) delete p._d
+      return { total: ps.length, filters: applied, results: res, license: LICENSE, note: 'Contacts and programmes are as each place publishes them; residential/online are read from published programmes and offers (an inference); events come from the place\u2019s own feed. Check the place\u2019s page before travelling.' }
+    }
+    case 'list_events': {
+      const from = dayMs(a.from, Date.now() - 864e5), to = dayMs(a.to, Date.now() + 90 * 864e5) + (a.to && String(a.to).length === 10 ? 864e5 - 1 : 0)
+      let ps = Object.values(ctx.place).filter((p) => p.upcoming?.events?.length); const applied = { from: new Date(from).toISOString().slice(0, 10), to: new Date(to).toISOString().slice(0, 10) }
+      if (a.place) { const id = String(a.place).replace(SITE_RE, '').replace(/^#?place\//, ''); if (!ctx.place[id]) throw err(`unknown place "${a.place}"; try search_places`); ps = ps.filter((p) => p.id === id); applied.place = id }
+      if (a.tradition || a.country) { const f = placeFilter(ctx, { tradition: a.tradition, country: a.country }); const s = new Set(f.ps.map((p) => p.id)); ps = ps.filter((p) => s.has(p.id)); Object.assign(applied, f.applied) }
+      const words = a.query ? fold(a.query).split(/\s+/).filter(Boolean) : []; if (words.length) applied.query = a.query
+      const on = bool(a.online); if (on !== undefined) applied.online = on
+      const evs = ps.flatMap((p) => upcomingOf(p, from, to).filter((e) => (on === undefined || !!e.online === on) && words.every((w) => fold(`${e.name} ${e.location || ''} ${p.name}`).includes(w))).map((e) => evOut(p, e)))
+        .sort((x, y) => Date.parse(x.start) - Date.parse(y.start))
+      return { total: evs.length, filters: applied, events: evs.slice(0, lim(a.limit, 50, 200)), places_with_feeds: Object.values(ctx.place).filter((p) => p.upcoming).length, license: LICENSE,
+        note: 'Read weekly from each place\u2019s own public iCal feed or schema.org Event markup. Dates are the organiser\u2019s; cite the event url or source with fetched_at and tell users to confirm there.' }
     }
     case 'find_teachers': {
       let ps = Object.values(ctx.person); const applied = {}
