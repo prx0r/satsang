@@ -1,9 +1,34 @@
+# work/wiser is the git work tree of prx0r/satsang (see README "One source of truth").
+# Anything below stays in the workspace and never reaches the public repo.
+
+# dependencies, caches, build output
 node_modules/
+.wrangler/
 dist/
 cache/
-raw/
-*transcript*
-.wrangler/
-*.tgz
+__pycache__/
+*.pyc
 pylib/
+*.tgz
+.DS_Store
+
+# private inputs (never public): transcripts, internal review records, raw media metadata dumps, vendored libs
+*transcript*
 internal/
+raw/
+vendor/
+backups/
+
+# screenshots and local scratch (repo screenshots worth keeping live under engine/shots and atlas/shots)
+/shots/
+/archive/local/
+
+# generated on every build (deploy.sh / build tools); rebuilt, never edited
+app/site/clips.json
+app/web-worker/site.gen.js
+app/web-worker/site.kv.gen.js
+app/wisegraph/gold-signals.json
+chat/worker/data/catalog.json
+chat/test/last-run*.json
+keeper/state/*.json
+keeper/REPORT.md

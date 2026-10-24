@@ -131,7 +131,7 @@ sh deploy.sh && (cd api && npx wrangler d1 execute wiser --remote --file ../wise
 - v2 roots (guru, reality, the divine, ...) are not read from Hillside transcripts (TR_SKIP), only from titles/descriptions.
 - merge-sources.py also reads `lineages.json` (teacher_of chains, influenced, lineage_of), `patches` (alias adds) and, for the
   places group, writes `wisegraph/places.json` (place tradition retags: `PLACE_TRADS`; never-pinned: `PLACE_NO_COORDS`).
-- Screenshots: `sh ../shot-setup.sh` (rebuilds the /tmp toolchain), then `node ../shot3.mjs <outdir> [views]` (`LIVE=1` for the live site).
+- Screenshots: `sh ../tools/shots/shot-setup.sh` (rebuilds the /tmp toolchain), then `node ../tools/shots/shot3.mjs <outdir> [views]` (`LIVE=1` for the live site).
   Place views: places, placespick (Goenka on + a pick), place, placeforest, hillside, country, sivananda, mun, forest. The
   overflow check ignores Leaflet panes; "A.tile" overflow on teacher pages is the horizontal talk rail (scrolls inside itself).
 
@@ -167,12 +167,12 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
 - satsang.digital: Cloudflare zone 708de8d4 (pending); NS ariadne/burt.ns.cloudflare.com at Porkbun.
 - 05:20: wiser-organise is running on app/ locally (orientation check, featuring teachers with ≥8 clips, the deep Rebirth hub; no deploy). Overnight deep sourcers write to sources/deep-{tibetan-eastasian,theravada-hindu,tantra,western}/ per sources/DEEP-SPEC.md (scholarly lineages first-class). Next: merge them after organise, keeping the dark design.
 
-## Organise pass 2026-10-20 (local, NOT deployed): see ORGANISE-REPORT.md
+## Organise pass 2026-10-20 (local, NOT deployed): see specs/ORGANISE-REPORT.md
 - Orientation verified for every clip (`tools/orient.py` -> `tools/format-cache.json`, applied by build-clips.py): 117 vertical / 1,836 horizontal.
 - Depth rule `DEEP_MIN = 8` (src/app.js, src/wise.js): rotation, charts and the Teachers grid feature deep teachers; thin speakers fold into "More voices" and stay in topics.
 - +440 clips from `sources/teachers-deep/` (built with WISER_SOURCES limited to advaita-extra, advaita-hindu-tantra, buddhist, western, teachers-deep).
 - Topic hubs: `wisegraph/hubs.json` -> `tools/build-hubs.py` -> `site/data/wisegraph/hubs.json`; #topic/<id> = takes + questions + tradition rails + essays + practices + Atlas thread + teachers + places + Keep going.
-- 06:10 DEPLOYED the organise pass (wiser-web 668bab25): 1,953 clips with verified orientation (117 vertical), ≥8-talk teacher grid (35) + More voices, topic hubs (rebirth, death, self, karma, meditation, awakening) from wisegraph/hubs.json via tools/build-hubs.py. D1 seed not run. deep-western (1,004) and deep-theravada-hindu (2,574) are done but NOT merged (build-clips.py reads only 5 folders; add the deep-* folders). Report: ORGANISE-REPORT.md.
+- 06:10 DEPLOYED the organise pass (wiser-web 668bab25): 1,953 clips with verified orientation (117 vertical), ≥8-talk teacher grid (35) + More voices, topic hubs (rebirth, death, self, karma, meditation, awakening) from wisegraph/hubs.json via tools/build-hubs.py. D1 seed not run. deep-western (1,004) and deep-theravada-hindu (2,574) are done but NOT merged (build-clips.py reads only 5 folders; add the deep-* folders). Report: specs/ORGANISE-REPORT.md.
 - 07:58 DEPLOYED deep merge (wiser-web 5f4ab68f): 9,478 clips (~5,760 ballot, ~3,700 full talks hub/profile-only), 565 people (125 scholars), 157 tradition nodes, 412 lineage edges (40 academic), 793 places. Teachers grouped by tradition→school + Scholars section. D1 seed NOT run (seed.sql is destructive). Next: implement specs/ROADMAP.md (Topic flash loop, profile D1 0016, MCP).
 
 ## Implementation pass 2026-10-20 (specs/ROADMAP.md): see the lines below

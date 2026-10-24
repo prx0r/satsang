@@ -28,7 +28,7 @@ Steps
 10. Author in app/tools/mini_courses_src.py; one featured series per topic.
 11. Build (in app/): mini_courses_src.py (no CHECK lines) -> tag-series.py -> build-collections.py -> build-courses.py ->
     build-gold.py "$TDIR" (tiers stable) -> build-catalog.py -> node tools/test-practice-engine.mjs.
-12. Verify: shot-series.mjs (edit hashes) phone 390 + desktop, look at PNGs, no sideways scroll; mcp build + validate.py + test.mjs.
+12. Verify: tools/shots/shot-series.mjs (edit hashes) phone 390 + desktop, look at PNGs, no sideways scroll; mcp build + validate.py + test.mjs.
 13. Deploy: wiser-closeout phaseA/B/C (wiser-web), sh deploy.sh mcp + mcp/test-client.mjs live; sync.py wiser -> repo (copy new
     files by hand); chat: build-catalog.mjs, test-curator.mjs 15/15 local, wrangler deploy, 15/15 --endpoint live.
 14. Commit prx0r/satsang: secret-scan.sh, pull --rebase, push; update BRIEF CURRENT STATE + MERGE-LOG (versions, sha, skips).

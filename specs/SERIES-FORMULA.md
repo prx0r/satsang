@@ -123,8 +123,8 @@ node tools/test-practice-engine.mjs        # data + engine checks all passed
 ## 12. Tests, screenshots, deploy, commit
 ```sh
 pip install -q jsonschema                  # once per box (phase A's schema check)
-cd work/wiser && sh shot-setup.sh          # once per box: /tmp/chromium + puppeteer-core
-node shot-series.mjs shots-<topic> home topics topic series s1 s3 s6 index oldlink menu   # edit ALL hashes for the new series; look at the PNGs (390 px: no sideways scroll)
+cd work/wiser && sh tools/shots/shot-setup.sh          # once per box: /tmp/chromium + puppeteer-core
+node tools/shots/shot-series.mjs shots/<topic> home topics topic series s1 s3 s6 index oldlink menu   # edit ALL hashes for the new series; look at the PNGs (390 px: no sideways scroll)
 cd mcp && node build-data.mjs && node build-dump.mjs && node slim-data.mjs && node build-discovery.mjs && python3 ../specs/schema/validate.py | tail -1 && node test.mjs | tail -1
 cd ../app && sh ../../wiser-closeout/phaseA.sh && sh ../../wiser-closeout/phaseB.sh && sh ../../wiser-closeout/phaseC.sh   # wiser-web
 sh deploy.sh mcp && (cd ../mcp && node test-client.mjs | tail -1)                            # wiser-mcp, live test
