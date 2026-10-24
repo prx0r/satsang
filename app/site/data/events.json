@@ -1,22 +1,22 @@
 {
  "meta": {
   "generator": "keeper/events/run.mjs",
-  "fetched_at": "2026-10-24T21:12:19.912Z",
+  "fetched_at": "2026-10-24T22:13:40.659Z",
   "window_days": 90,
   "stale_after_days": 14,
   "user_agent": "SatsangEventsKeeper/1.0 (+https://tantrafiles.xyz/llms.txt; reads public event feeds weekly)",
   "note": "Events read from each place’s own public iCal feed or schema.org JSON-LD. Dates are the organiser’s; always confirm on the source page. No LLM, no third-party aggregator.",
-  "places_with_events": 22,
-  "events": 248,
+  "places_with_events": 23,
+  "events": 267,
   "last_slice": {
-   "from": 0,
-   "to": 0,
-   "checked": 0
+   "from": 240,
+   "to": 360,
+   "checked": 120
   }
  },
  "places": {
   "tassajara": {
-   "fetched_at": "2026-10-24T21:01:28.280Z",
+   "fetched_at": "2026-10-24T22:13:00.262Z",
    "sources": [
     "https://www.sfzc.org/calendar/",
     "https://www.sfzc.org/event/2027-tassajara-winter-practice-period-zmc-1-6-3-31/",
@@ -35,7 +35,7 @@
    ]
   },
   "deer-park-bir": {
-   "fetched_at": "2026-10-24T21:01:23.082Z",
+   "fetched_at": "2026-10-24T22:12:52.320Z",
    "sources": [
     "https://www.deerpark.in/schedule/"
    ],
@@ -79,7 +79,7 @@
    ]
   },
   "green-gulch": {
-   "fetched_at": "2026-10-24T21:01:27.293Z",
+   "fetched_at": "2026-10-24T22:13:00.170Z",
    "sources": [
     "https://www.sfzc.org/calendar/",
     "https://www.sfzc.org/event/january-2027-intensive-training-in-compassion-zen-teachings-on-the-practice-of-lojong-ggf-1-6-1-27/",
@@ -98,7 +98,7 @@
    ]
   },
   "throssel-hole": {
-   "fetched_at": "2026-10-24T21:01:27.662Z",
+   "fetched_at": "2026-10-24T22:13:02.523Z",
    "sources": [
     "https://throssel.org.uk/calendar/"
    ],
@@ -133,7 +133,7 @@
    ]
   },
   "sfzc-city-center": {
-   "fetched_at": "2026-10-24T21:01:33.173Z",
+   "fetched_at": "2026-10-24T22:13:01.153Z",
    "sources": [
     "https://www.sfzc.org/city-center-calendar/",
     "https://www.sfzc.org/calendar/",
@@ -217,7 +217,7 @@
    ]
   },
   "dzogchen-beara": {
-   "fetched_at": "2026-10-24T21:01:33.935Z",
+   "fetched_at": "2026-10-24T22:13:03.399Z",
    "sources": [
     "https://www.dzogchenbeara.org/events/?ical=1"
    ],
@@ -369,7 +369,7 @@
    ]
   },
   "magnolia-grove": {
-   "fetched_at": "2026-10-24T21:01:34.884Z",
+   "fetched_at": "2026-10-24T22:12:58.284Z",
    "sources": [
     "https://magnoliagrovemonastery.org/"
    ],
@@ -420,7 +420,7 @@
    ]
   },
   "mountain-cloud": {
-   "fetched_at": "2026-10-24T21:01:36.032Z",
+   "fetched_at": "2026-10-24T22:13:07.921Z",
    "sources": [
     "https://www.mountaincloud.org/calendar/",
     "https://www.mountaincloud.org/schedule/",
@@ -817,7 +817,7 @@
    ]
   },
   "jamyang-london": {
-   "fetched_at": "2026-10-24T21:01:42.115Z",
+   "fetched_at": "2026-10-24T22:13:14.241Z",
    "sources": [
     "https://jamyang.co.uk/whats-on/",
     "https://jamyang.co.uk/whats-on/category/buddhist-meditation/",
@@ -1555,7 +1555,7 @@
    ]
   },
   "westminster-abbey": {
-   "fetched_at": "2026-10-24T21:05:26.755Z",
+   "fetched_at": "2026-10-24T22:13:54.306Z",
    "sources": [
     "https://www.westminster-abbey.org/events"
    ],
@@ -1644,7 +1644,7 @@
    ]
   },
   "launde-abbey": {
-   "fetched_at": "2026-10-24T21:05:31.340Z",
+   "fetched_at": "2026-10-24T22:13:56.490Z",
    "sources": [
     "https://www.laundeabbey.org.uk/events-calendar/?ical=1"
    ],
@@ -1922,7 +1922,7 @@
    ]
   },
   "chalice-well": {
-   "fetched_at": "2026-10-24T21:06:02.496Z",
+   "fetched_at": "2026-10-24T22:14:04.058Z",
    "sources": [
     "https://chalicewell.org.uk/event/?ical=1"
    ],
@@ -1970,7 +1970,7 @@
    ]
   },
   "avebury": {
-   "fetched_at": "2026-10-24T21:06:02.788Z",
+   "fetched_at": "2026-10-24T22:14:05.892Z",
    "sources": [
     "https://www.nationaltrust.org.uk/visit/wiltshire/avebury"
    ],
@@ -2041,7 +2041,7 @@
    ]
   },
   "boleskine-house": {
-   "fetched_at": "2026-10-24T21:06:10.881Z",
+   "fetched_at": "2026-10-24T22:14:00.214Z",
    "sources": [
     "https://boleskinehouse.org/calendar"
    ],
@@ -2058,20 +2058,59 @@
    ]
   },
   "cambridge-central-mosque": {
-   "fetched_at": "2026-10-24T21:06:31.761Z",
+   "fetched_at": "2026-10-24T22:14:28.281Z",
    "sources": [
+    "https://cambridgecentralmosque.org/events/month/",
     "https://cambridgecentralmosque.org/events/category/special/",
     "https://cambridgecentralmosque.org/events/?ical=1",
-    "https://cambridgecentralmosque.org/events/category/special/list/?ical=1"
+    "https://cambridgecentralmosque.org/events/month/?ical=1"
    ],
    "events": [
+    {
+     "name": "Guided Tour",
+     "start": "2026-10-24T11:30:00",
+     "end": "2026-10-24T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-24/",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Meaningful Salah: The connection you’ve longed for",
+     "start": "2026-10-24T18:00:00+01:00",
+     "end": "2026-10-24T19:00:00+01:00",
+     "url": "https://cambridgecentralmosque.org/event/meaningful-salah-the-connection-youve-longed-for/2026-10-24/",
+     "location": "Cambridge Central Mosque",
+     "source": "https://cambridgecentralmosque.org/events/month/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Study Circle (After Maghrib)",
+     "start": "2026-10-24T17:49:00",
+     "end": "2026-10-24T18:34:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-24/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Meaningful Salah: The connection you've longed for",
+     "start": "2026-10-24T18:00:00",
+     "end": "2026-10-24T19:00:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/meaningful-salah-the-connection-youve-longed-for/2026-10-24/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
     {
      "name": "Guided Tour",
      "start": "2026-10-25T11:30:00",
      "end": "2026-10-25T12:30:00",
      "tz": "Europe/London",
      "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-25/",
-     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
      "source_type": "ical"
     },
     {
@@ -2081,7 +2120,7 @@
      "tz": "Europe/London",
      "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-30/",
      "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
-     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
      "source_type": "ical"
     },
     {
@@ -2091,7 +2130,7 @@
      "tz": "Europe/London",
      "url": "https://cambridgecentralmosque.org/event/ghusl-workshop/",
      "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
-     "source": "https://cambridgecentralmosque.org/events/category/special/list/?ical=1",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
      "source_type": "ical"
     },
     {
@@ -2100,7 +2139,7 @@
      "end": "2026-10-31T12:30:00",
      "tz": "Europe/London",
      "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-31/",
-     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
      "source_type": "ical"
     },
     {
@@ -2110,7 +2149,7 @@
      "tz": "Europe/London",
      "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-31/",
      "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
-     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
      "source_type": "ical"
     },
     {
@@ -2332,7 +2371,7 @@
    ]
   },
   "nagaloka": {
-   "fetched_at": "2026-10-24T21:08:23.859Z",
+   "fetched_at": "2026-10-24T22:11:40.817Z",
    "sources": [
     "https://www.nagaloka.org/retreats/?ical=1"
    ],
@@ -2518,6 +2557,167 @@
      "location": "Hybrid",
      "source": "https://mountmadonna.org/",
      "source_type": "jsonld"
+    }
+   ]
+  },
+  "arsha-vidya-saylorsburg": {
+   "fetched_at": "2026-10-24T22:13:13.856Z",
+   "sources": [
+    "https://arshavidya.org/events/",
+    "https://arshavidya.org/event/1st-and-3rd-sunday-classes/2026-09-20/",
+    "https://arshavidya.org/events/?ical=1",
+    "https://arshavidya.org/event/1st-and-3rd-sunday-classes/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Evening Arati (daily)",
+     "start": "2026-10-24T18:00:00",
+     "end": "2026-10-24T18:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/evening-arati-daily/2026-10-24/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Ganapati Homa (daily)",
+     "start": "2026-10-25T05:15:00",
+     "end": "2026-10-25T05:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/ganapati-homa-daily/2026-10-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Abhisheka to Lord Dakshinamurti (daily)",
+     "start": "2026-10-25T05:40:00",
+     "end": "2026-10-25T07:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/abhisheka-to-lord-dakshinamurti-daily/2026-10-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Mandukya Upanishad with Swami Muktatmananda ONLINE STUDY",
+     "start": "2026-10-26T10:30:00",
+     "end": "2026-10-26T11:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/mandukya-upanishad-with-swami-muktatmananda-online-study-3/2026-10-26/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Brahmasutra (Catuḥsūtrī Bhashyam) with Swami Muktatmananda ONLINE STUDY",
+     "start": "2026-10-27T10:30:00",
+     "end": "2026-10-27T11:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/brahmasutra-catu%e1%b8%a5sutri-bhashyam-with-swami-muktatmananda-online-study-2/2026-10-27/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Shrimad Bhagavatam Study with Brhm. Pratyagatma Chaitanya ONLINE ONLY",
+     "start": "2026-10-28T20:00:00",
+     "end": "2026-10-28T21:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/shrimad-bhagavatam-study-with-brhm-pratyagaatma-chaitanya-online-only/2026-10-28/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Saturday Meditation Workshop with Swamini Agamananda ONLINE ONLY",
+     "start": "2026-10-31T11:00:00",
+     "end": "2026-10-31T12:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/1st-and-3rd-saturday-meditation-workshop-with-swamini-agamananda-online-only/2026-10-31/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Sunday Classes",
+     "start": "2026-11-01T10:00:00",
+     "end": "2026-11-01T12:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/1st-and-3rd-sunday-classes-2/2026-11-01/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-11-06T17:15:00",
+     "end": "2026-11-06T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-24/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Saturday Meditation Workshop with Swamini Agamananda ONLINE ONLY",
+     "start": "2026-11-07T11:00:00",
+     "end": "2026-11-07T12:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/meditation-workshop-online-with-swamini-agamananda/2026-11-07/",
+     "location": "Online, PA, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-11-22T17:15:00",
+     "end": "2026-11-22T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-12-06T17:15:00",
+     "end": "2026-12-06T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-26/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-12-21T17:15:00",
+     "end": "2026-12-21T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-27/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2027-01-05T17:15:00",
+     "end": "2027-01-05T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-28/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2027-01-20T17:15:00",
+     "end": "2027-01-20T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-29/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
     }
    ]
   }
