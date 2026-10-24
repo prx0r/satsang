@@ -290,7 +290,33 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
 
-## CURRENT STATE 2026-10-24 23:10 +07 (past-lives flagship round on top of gold tier + mini-courses; history in MERGE-LOG.md)
+## CURRENT STATE 2026-10-25 01:20 +07 (Series restructure round; history in MERGE-LOG.md)
+- Live: **wiser-web c4496e70-c826**, **wiser-mcp b7153db4-faed**, **satsang-chat a9f0f529-23f0**. Repo prx0r/satsang **deac9f8**.
+- **Nav** (src index.html): Watch · Topics · Teachers · Places · Practise (#collections) · Ask (#ask, static `.ask-navlink`, ask.js no longer
+  injects it). For you, Your model, Charts and All series moved to the account menu ("Go to"). 6 items fit 390 px (last edge 374 px,
+  no sideways scroll); the old "Build a path off-screen" issue is gone. Series pages light the Topics tab.
+- **Series** = user-facing name for collection kind `mini-course` (ids unchanged). Routes `#series` (all, grouped by topic) and
+  `#series/<id>[/<n>]`; `#courses` and `#course/<id>[/<n>]` redirect (location.replace); `#collection/<mini-course>` -> `#series/`.
+  Topic pages lead with "Series on <topic>" (featured first) + the series' full retreat, then Gold, then the rest; Topics list has a
+  Series strip grouped by topic. Series page (src/minicourse.js): back to its topic, caution once ("Before you begin"), session header
+  "Session n of N" + one-line purpose (`unit.purpose`), step types only Listen / Practise / Read / Go deeper, a practice's caution shows
+  the first time only, short `reminder` only on `remind` sessions or sessions with an orientation-only practice, "The sessions" list ends
+  in "Go deeper: full retreat", "More to explore" (was "Series to go further"), "Places to go deeper".
+- **Data**: `tools/tag-series.py` tags every series talk with the series topic (+root) in clips.json / clips.site.json / site/clips.json
+  (17 talks fixed; `tagAll` opt-in for a series' other topics); runs at the end of build-clips.py, never writes seed.sql.
+  mini_courses_src.py: `unit(..., purpose=, remind=)`, series `reminder`, `retreat` (resource id, checked: free, kind retreat, whole
+  `dharmaseed.org/retreats/<n>/` url) and `R()` items; flagship got purposes, a merged caution, IMS Barre as a place.
+  `site/data/wisegraph/resources-series-retreats.json`: **dharmaseed-pa-auk-ims-2011** = https://dharmaseed.org/retreats/1230/ (Pa-Auk
+  Sayadaw + Sayadaw U Jagara, IMS Forest Refuge Jul-Oct 2011, 37 talks; linked whole, CC BY-NC-ND, credited). Gold unchanged 246/1,198/8,542.
+- **MCP**: list_series / get_series (aliases of list_courses / get_course, which stay); list returns {series, courses}; featured first;
+  get_series carries session purposes + retreat; collection url `#series/<id>`; get_topic adds `series`. 26 tools. test-client 35/35 live.
+- **Chat**: deeper items link `#series/<id>` ("A Satsang series inside <topic>: ..."), prose names the series; ask.js label "Series";
+  test adds a series check (prompt 1). 15/15 local + live.
+- **Formula**: specs/SERIES-FORMULA.md (full recipe + commands) and specs/SERIES-FORMULA-SKILL.md (3.1k chars, for a custom skill).
+- Shots: shots-series/ (local, phone 390 + desktop) and shots-series/live/. Practice-engine tests 812/812; schema 13,138 failing none;
+  guards 0 found (243 / 9,665). Spend US$0.
+
+## PREVIOUS STATE 2026-10-24 23:10 +07 (past-lives flagship round on top of gold tier + mini-courses)
 - Live: **wiser-web 582fb346-a7d6**, **wiser-mcp e89ee319-aedd**, **satsang-chat c253b531-7260** (chat.tantrafiles.xyz). Repo prx0r/satsang **9085346**.
 - Past-lives round (ext-47, owner's research seed): flagship mini-course **how-to-discern-past-lives** (featured + flagship, 6 sessions, 15 talks,
   orientationOnly; s1 adds practice recollection-of-past-lives-orientation, s3 practice the-five-remembrances; cover ypKa1J7KUow). 39 clips added

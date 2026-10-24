@@ -280,3 +280,17 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
 - Skipped: Pa-Auk Sayadaw "Dependent Origination: Previous Lives" (unofficial re-upload Zsw5EtHXHek only); Baumer VBT "Text Recitation" and
   Vatulanatha "Mangala (Recitation)" (recitations, not talks).
 - Validation: schema 13,138 failing none; transcript guards 0 found (243 / 9,665); mcp/test.mjs all passed; test-client 35/35 live. Spend US$0.
+
+## Series restructure round (2026-10-25 ~01:15 +07: wiser-web c4496e70, wiser-mcp b7153db4, satsang-chat a9f0f529; repo deac9f8)
+- Owner feedback: top cluttered; courses should live inside topics, renamed Series; a Dharma Seed retreat on the exact topic; save the formula.
+- Nav 9 -> 6 (Watch, Topics, Teachers, Places, Practise, Ask); For you / Your model / Charts / All series in the account menu.
+- Series inside topics (UI + data: tools/tag-series.py, 17 series talks gained their series topic); redirects for #courses/#course/.
+- Series page clarity pass (purposes, Listen/Practise/Read/Go deeper, caution once, reminders only where relevant).
+- Dharma Seed: chose retreat 1230 (Pa-Auk Sayadaw + Sayadaw U Jagara, IMS Forest Refuge 2011, 37 talks: the series' own method; no Dharma
+  Seed retreat is wholly on rebirth/past lives). Candidates kept: retreat 1163 (Leigh Brasington, Gaia House 2010, "Paticca-Samuppada and
+  Jhana", incl. "Dependent Origination and Rebirth"); retreat 4039 (Mark Nunberg, Common Ground 2018, "Buddhist Studies Course - Karma",
+  not opened); CITTA "Kamma and the End of Kamma" (Cittaviveka, likely Ajahn Sucitto = held, skipped).
+- MCP list_series/get_series; chat names the series. Formula in specs/SERIES-FORMULA.md (+ -SKILL.md).
+- Validation: mini_courses_src CHECK-free; gold tiers unchanged; practice-engine 812/812; schema 13,138 failing none; guards 0 found;
+  mcp/test.mjs all passed (2 new series checks); test-client 35/35 live; chat 15/15 local + live. Spend US$0.
+
