@@ -142,9 +142,16 @@ python3 tools/merge-sources.py                                 # (only when sour
 python3 tools/build-clips.py ../raw ../transcripts-internal   # clips.json, teachers.json, data/wisegraph/{boards,profiles,graph}.json, seed.sql
 python3 tools/portraits.py                                     # wisegraph/portraits.json (Wikidata P18 -> Commons, PD/CC only)
 python3 tools/build-wise.py                                    # data/wisegraph/wise.json + the Portraits block in site/credits.html
-sh deploy.sh                                                   # site: esbuild -> site/app.js, dist/, guards, embed, wrangler deploy wiser-web
+sh deploy.sh build                                             # site phase A: esbuild -> site/app.js, dist/, open data, discovery, meta pages
+sh deploy.sh guard                                             # site phase B: transcript guards over dist/ + open data
+sh deploy.sh ship                                              # site phase C: KV uploads, embed, wrangler deploy wiser-web
+sh deploy.sh mcp                                               # MCP: build data + test.mjs + deploy wiser-mcp (then node ../mcp/test-client.mjs live)
+sh deploy.sh chat                                              # chat catalog + 15/15 local + deploy satsang-chat
 sh deploy.sh api                                               # API: wiser-api (api.tantrafiles.xyz)
+cd .. && python3 tools/check/check-data.py && sh tools/check/crawl-run.sh   # data checks + phone route crawl
+sh tools/release/release.sh "<msg>"                            # commit + push prx0r/satsang (work/wiser is the work tree)
 ```
+In the Hark sandbox (120 s per call) run build, guard and ship as separate calls (`sh deploy.sh` = all three).
 The Cloudflare token is injected on the wire for api.cloudflare.com. The site ships inline inside the Worker
 (`web-worker/embed.mjs`, text files only; images are hotlinked: YouTube stills, Commons thumbnails).
 
@@ -290,7 +297,17 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
 
-## CURRENT STATE 2026-10-25 01:20 +07 (Series restructure round; history in MERGE-LOG.md)
+## CURRENT STATE 2026-10-25 03:30 +07 (Tidy + wiring audit round; history in MERGE-LOG.md)
+- Live: **wiser-web 816876fb**, **wiser-mcp 222ded79**, **satsang-chat c4914eeb**. Repo prx0r/satsang **43b476d** (tidy commit).
+- **One work tree**: `work/wiser` IS the git work tree of prx0r/satsang (no more sync.py copy step). `work/satsang-chat/repo` is a
+  legacy clone that release.sh fast-forwards after each push.
+- **Release**: `sh tools/release/release.sh "<msg>"` (git add -A minus engine/, secret-scan.sh, commit, pull --rebase, push, mirror ff).
+- **Deploy phases**: `sh app/deploy.sh build | guard | ship` (site, run as separate calls in the 120 s sandbox), `site` (all three),
+  `api`, `mcp`, `chat`. Data checks: `python3 tools/check/check-data.py`; route crawl `tools/check/crawl-run.sh` (phone).
+- Archive: Funnier-era tally/voting + old shot scripts under `archive/`; pycache and site/clips.json untracked. README rewritten,
+  favicon + page-title fixes.
+
+## PREVIOUS STATE 2026-10-25 01:20 +07 (Series restructure round)
 - Live: **wiser-web c4496e70-c826**, **wiser-mcp b7153db4-faed**, **satsang-chat a9f0f529-23f0**. Repo prx0r/satsang **deac9f8**.
 - **Nav** (src index.html): Watch · Topics · Teachers · Places · Practise (#collections) · Ask (#ask, static `.ask-navlink`, ask.js no longer
   injects it). For you, Your model, Charts and All series moved to the account menu ("Go to"). 6 items fit 390 px (last edge 374 px,

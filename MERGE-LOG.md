@@ -294,3 +294,8 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
 - Validation: mini_courses_src CHECK-free; gold tiers unchanged; practice-engine 812/812; schema 13,138 failing none; guards 0 found;
   mcp/test.mjs all passed (2 new series checks); test-client 35/35 live; chat 15/15 local + live. Spend US$0.
 
+## Tidy + wiring audit round (2026-10-25 ~03:00 +07: wiser-web 816876fb, wiser-mcp 222ded79, satsang-chat c4914eeb; repo 43b476d)
+- work/wiser became the git work tree of prx0r/satsang; tools/release/{release.sh,secret-scan.sh,sync.py}; deploy.sh phases
+  build/guard/ship/site/api/mcp/chat; Funnier-era code and old shot scripts moved to archive/; pycache + site/clips.json untracked;
+  README rewritten; favicon + title fixes; tools/check/check-data.py + crawl (routes). Deployed before, committed in 43b476d.
+

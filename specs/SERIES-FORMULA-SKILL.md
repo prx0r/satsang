@@ -29,8 +29,8 @@ Steps
 11. Build (in app/): mini_courses_src.py (no CHECK lines) -> tag-series.py -> build-collections.py -> build-courses.py ->
     build-gold.py "$TDIR" (tiers stable) -> build-catalog.py -> node tools/test-practice-engine.mjs.
 12. Verify: tools/shots/shot-series.mjs (edit hashes) phone 390 + desktop, look at PNGs, no sideways scroll; mcp build + validate.py + test.mjs.
-13. Deploy: wiser-closeout phaseA/B/C (wiser-web), sh deploy.sh mcp + mcp/test-client.mjs live; sync.py wiser -> repo (copy new
-    files by hand); chat: build-catalog.mjs, test-curator.mjs 15/15 local, wrangler deploy, 15/15 --endpoint live.
-14. Commit prx0r/satsang: secret-scan.sh, pull --rebase, push; update BRIEF CURRENT STATE + MERGE-LOG (versions, sha, skips).
+13. Deploy (in app/, separate calls): sh deploy.sh build; sh deploy.sh guard; sh deploy.sh ship (wiser-web); sh deploy.sh mcp +
+    node ../mcp/test-client.mjs live; sh deploy.sh chat (catalog + 15/15 local + deploy), then 15/15 --endpoint live.
+14. Release: sh tools/release/release.sh "<msg>" (from work/wiser); update BRIEF CURRENT STATE + MERGE-LOG (versions, sha, skips), release again.
 
 Report: where the series sits (topic), sessions, retreat URL or candidates, live versions, commit sha, screenshot paths, skips.
