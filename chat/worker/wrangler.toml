@@ -1,0 +1,31 @@
+# satsang-chat: the curator chat endpoint (chat/README.md). Deterministic; no external LLM unless LLM_PROVIDER=qwen + secret QWEN_API_KEY.
+# Deploy: node ../tools/build-catalog.mjs && wrangler deploy   (from chat/worker). Only this Worker; never the site.
+name = "satsang-chat"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = true
+routes = [{ pattern = "chat.tantrafiles.xyz", custom_domain = true }]
+
+[vars]
+LLM_PROVIDER = "off"          # "qwen" switches the prose re-wording on (needs: wrangler secret put QWEN_API_KEY; user approval first)
+QWEN_BASE_URL = "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+QWEN_MODEL = "qwen-flash"     # set to the exact approved Qwen model id before switching on
+LLM_MAX_TOKENS = "260"
+LLM_DAILY_CALLS = "300"
+
+# saved packs ("Save as journey"): id -> pack JSON
+[[kv_namespaces]]
+binding = "PACKS"
+id = "41e9f0387b5b41ecb8ec3f66dac3758b"
+
+# Workers Rate Limiting: per IP and per device id
+[[ratelimits]]
+name = "RL_IP"
+namespace_id = "7331"
+simple = { limit = 20, period = 60 }
+
+[[ratelimits]]
+name = "RL_DEVICE"
+namespace_id = "7332"
+simple = { limit = 10, period = 60 }
