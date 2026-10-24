@@ -1,9 +1,10 @@
 {
- "updated": "2026-10-24T05:52:14Z",
+ "updated": "2026-10-24T08:35:02Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [],
  "videos": [],
  "urls": [
-  "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html"
+  "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html",
+  "https://www.koyasan.or.jp/en/"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "rule": "verified_on > 90 days, past programme dates, living status unknown or inferred, low-confidence places",
  "count": 482,
  "items": [

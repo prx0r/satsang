@@ -1,37 +1,36 @@
 # Keeper report
 
-Updated 2026-10-24T05:52:14Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-10-24T08:35:02Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
-**Open findings:** 223 (error 1, warn 7, info 215). **Uptime (30 d):** 100%. **Down now:** nothing.
-**Dead:** 0 clips (0 videos), 1 external URLs. **Re-verify queue:** 482.
+**Open findings:** 222 (error 2, warn 5, info 215). **Uptime (30 d):** 100%. **Down now:** nothing.
+**Dead:** 0 clips (0 videos), 2 external URLs. **Re-verify queue:** 482.
 
 ## By check
 
 | check | open | error | warn | info | last run | checked |
 |---|---:|---:|---:|---:|---|---:|
 | bundle | 1 | 0 | 1 | 0 | 2026-10-20T13:16:21Z | 2 |
-| integrity | 6 | 0 | 0 | 6 | 2026-10-23T08:49:53Z | 2717 |
-| jsonld | 0 | 0 | 0 | 0 | 2026-10-23T08:49:54Z | 45 |
-| leaks | 0 | 0 | 0 | 0 | 2026-10-23T08:49:59Z | 1057 |
-| linkrot | 7 | 1 | 6 | 0 | 2026-10-23T08:51:14Z | 700 / 1817 |
-| links | 0 | 0 | 0 | 0 | 2026-10-23T08:51:18Z | 359 / 359 |
-| oembed | 0 | 0 | 0 | 0 | 2026-10-23T08:57:40Z | 2500 / 9738 |
+| integrity | 6 | 0 | 0 | 6 | 2026-10-24T08:23:19Z | 2717 |
+| jsonld | 0 | 0 | 0 | 0 | 2026-10-24T08:23:20Z | 45 |
+| leaks | 0 | 0 | 0 | 0 | 2026-10-24T08:23:25Z | 1057 |
+| linkrot | 6 | 2 | 4 | 0 | 2026-10-24T08:28:35Z | 700 / 1817 |
+| links | 0 | 0 | 0 | 0 | 2026-10-24T08:28:38Z | 359 / 359 |
+| oembed | 0 | 0 | 0 | 0 | 2026-10-24T08:35:01Z | 2500 / 9738 |
 | perf | 0 | 0 | 0 | 0 | 2026-10-20T13:24:29Z | 5 |
-| provenance | 209 | 0 | 0 | 209 | 2026-10-23T08:57:40Z | 2342 |
-| robots | 0 | 0 | 0 | 0 | 2026-10-23T08:57:41Z | 18 |
+| provenance | 209 | 0 | 0 | 209 | 2026-10-24T08:35:01Z | 2342 |
+| robots | 0 | 0 | 0 | 0 | 2026-10-24T08:35:02Z | 18 |
 | sitemap | 0 | 0 | 0 | 0 | 2026-10-24T05:52:13Z | 120 / 1680 |
 | uptime | 0 | 0 | 0 | 0 | 2026-10-24T05:52:14Z | 12 |
 
 ## Top problems
 
-- `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (4× in a row)
-- `c3f5785b0c32` **warn** linkrot: External link failing: HTTP 503 — https://www.koyasan.or.jp/en/ (2× in a row)
-- `0036eb3fe38e` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/
+- `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (5× in a row)
+- `c3f5785b0c32` **error** linkrot: External link failing: HTTP 503 — https://www.koyasan.or.jp/en/ (3× in a row)
+- `0036eb3fe38e` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/ (2× in a row)
+- `95eb0ca067c1` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org (2× in a row)
+- `a6593c26e706` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/ (2× in a row)
+- `e8f8fee79110` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://publications.efeo.fr/en/livres/840_tantric-studies (2× in a row)
 - `1e7b60ff77f2` **warn** bundle: site Worker ~2.55 MB gzip = 85% of the limit (estimate from tracked inputs (build output absent)) — worker:site
-- `95eb0ca067c1` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org
-- `98481eddb5e3` **warn** linkrot: External link failing: HTTP 500 — https://geetabhawan.in
-- `a6593c26e706` **warn** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/
-- `e8f8fee79110` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://publications.efeo.fr/en/livres/840_tantric-studies
 
 ## Uptime by probe (30 d)
 
