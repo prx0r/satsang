@@ -36,13 +36,15 @@ const upcoming = (id) => (EV.places?.[id]?.events || []).filter((x) => Date.pars
 
 // ---------- shards + index ----------
 const shardDir = path.join(APP, 'site/data/wisegraph/place'); fs.rmSync(shardDir, { recursive: true, force: true }); fs.mkdirSync(shardDir, { recursive: true })
+// practice offers (SERVE-SPEC 5.8): residential retreats, 10-day courses, retreats, courses, classes, drop-in classes, meditation, satsang, guest stays, online, ordination
+const PRACTICE_OFFER = /^(residential retreats|10-day courses|retreats|courses|classes|drop-in classes|meditation( classes)?|satsang|guest stays|online|ordination)$/i
 const idx = []
 for (const p of P) {
   const ev = EV.places?.[p.id]
   fs.writeFileSync(path.join(shardDir, p.id + '.json'), JSON.stringify({ ...p, ...(ev ? { upcoming: upcoming(p.id), upcoming_meta: { fetched_at: ev.fetched_at, sources: ev.sources, stale: !!ev.stale } } : {}) }))
   idx.push(JSON.parse(JSON.stringify({ id: p.id, name: p.name, type: p.type, traditions: p.traditions, country: p.country, city: p.city, lat: p.lat, lng: p.lng,
     teachers: p.teachers?.length ? p.teachers : undefined, goenka: p.goenka || undefined, founded: p.founded || undefined, url: p.url || undefined,
-    hc: p.contact ? 1 : undefined, hr: p.resources?.length ? 1 : undefined, nr: p.retreats?.length || undefined, ne: upcoming(p.id).length || undefined })))
+    hc: p.contact ? 1 : undefined, hr: p.resources?.length ? 1 : undefined, nr: p.retreats?.length || undefined, ne: upcoming(p.id).length || undefined, po: (p.offers || []).some((o) => PRACTICE_OFFER.test(o)) ? 1 : undefined })))  // po: a practice offer (the enquiry lens keeps pilgrimage/sacred-site/bookshop/university places only with one)
 }
 fs.writeFileSync(path.join(APP, 'site/data/wisegraph/places-index.json'), JSON.stringify({ meta: { ...D.meta, shards: 'data/wisegraph/place/<id>.json' }, countries: D.countries, places: idx }))
 

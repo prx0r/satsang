@@ -121,13 +121,11 @@ async function search(u, env, X) {
   if (X.practices && (scope === 'all' || scope === 'practices')) out.practices = scanAll(X.practices, qv).slice(0, 8).map((h) => ({ id: h.id, score: r3(h.score) }))
   // anchor hits for chips + similar: the top talks, or (low confidence) the talks of the best-matching series
   let hits = order.slice(0, 8).map(([row]) => ({ row, id: X.talks.ids[row], score: semOf.get(row) ?? dot(X.talks, row, qv) }))
-  if (conf != null && conf < CONF_FLOOR && out.series.length) {
-    const v = X.F.dict.series.indexOf(out.series[0].id)
-    if (v >= 0) {
-      const m = facetRows(X.F, 3, v), rows = []
-      for (let i = 0; i < X.talks.n; i++) if (m[i] && !X.blocked[i]) rows.push({ row: i, id: X.talks.ids[i], score: dot(X.talks, i, qv) })
-      if (rows.length >= 2) { hits = rows.sort((a, b) => b.score - a.score).slice(0, 8); out.anchor = 'series:' + out.series[0].id }
-    }
+  if (conf != null && conf < CONF_FLOOR) for (const s of out.series.slice(0, 3)) {  // the best series that has talks in the index
+    const v = X.F.dict.series.indexOf(s.id); if (v < 0) continue
+    const m = facetRows(X.F, 3, v), rows = []
+    for (let i = 0; i < X.talks.n; i++) if (m[i] && !X.blocked[i]) rows.push({ row: i, id: X.talks.ids[i], score: dot(X.talks, i, qv) })
+    if (rows.length >= 2) { hits = rows.sort((a, b) => b.score - a.score).slice(0, 8); out.anchor = 'series:' + s.id; break }
   }
   if (scope === 'all' || scope === 'talks' || scope === 'teachers') {
     const ch = hits.length ? chips(X.F, hits, 10, X.df).filter((c) => !(c.f === 0 && X.heldV.has(c.v))) : []

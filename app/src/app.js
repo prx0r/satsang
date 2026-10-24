@@ -25,6 +25,7 @@ import { createMiniCourses } from './minicourse.js' // Series (2026-10-25; were 
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
 import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
 import { initAsk } from './ask.js' // "Build me a path": the curator chat (#ask; chat/README.md)
+import { initLens } from './lens.js' // the enquiry lens: one persistent question re-ranks every tab (search/README.md)
 
 // www.funnier.si/u/<username> (served by funnier-web with <base href="/">) -> the in-app route #u/<username>
 if (typeof location !== 'undefined' && typeof history !== 'undefined') { const m = location.pathname.match(/^(.*\/)u\/([A-Za-z0-9_]{3,20})\/?$/); if (m) history.replaceState(null, '', m[1] + '#u/' + m[2] + location.search)
@@ -4385,6 +4386,7 @@ function tabs() {
 ;(async () => {
   tabs()
   try { initAsk() } catch (e) { console.warn('ask', e) }
+  try { initLens({ byId: () => BYID, clipTile, thumb, wise, cols, topicLabel: (t) => topicLabelOf(t), ready: DATA_READY.then(() => Promise.all([wise().load?.(), cols().load()])) }) } catch (e) { console.warn('lens', e) }
   SHORT_MAX = devPrefs().maxSec
   await Promise.all([loadData(), loadConfig()])
   dataReady(); loadGold().then(() => { if (/^#(topic\/|teacher\/|series\b)/.test(location.hash)) window._route?.() }); loadStats().then(() => { RANKER?.build && (TASTE_V++) })

@@ -84,7 +84,7 @@ function open() {
   if (m) { openSaved(m[1]); return }
   const q = new URLSearchParams(h.split('?')[1] || '')
   const ta = form.querySelector('textarea')
-  if (q.get('q')) ta.value = q.get('q').slice(0, 600)
+  if (q.get('q')) { ta.value = q.get('q').slice(0, 600); if (q.get('go') === '1' && !busy) { const v = ta.value.trim(); ta.value = ''; history.replaceState(null, '', '#ask'); ask(v); paintSaved(); return } } // go=1: from the enquiry lens (src/lens.js)
   else if (q.get('topic')) ta.value = `I want to understand ${q.get('label') || q.get('topic').split('/').pop().replace(/-/g, ' ')}`
   paintSaved()
   setTimeout(() => ta.focus({ preventScroll: true }), 50)
