@@ -290,8 +290,17 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
 
-## CURRENT STATE 2026-10-24 (gold tier + mini-courses; history in MERGE-LOG.md)
-- Live: **wiser-web 90362a66**, **wiser-mcp 291d46ba** (24 tools: + list_courses, get_course). Domain ACTIVE='legacy'. This deploy also ships the
+## CURRENT STATE 2026-10-24 23:10 +07 (past-lives flagship round on top of gold tier + mini-courses; history in MERGE-LOG.md)
+- Live: **wiser-web 582fb346-a7d6**, **wiser-mcp e89ee319-aedd**, **satsang-chat c253b531-7260** (chat.tantrafiles.xyz). Repo prx0r/satsang **9085346**.
+- Past-lives round (ext-47, owner's research seed): flagship mini-course **how-to-discern-past-lives** (featured + flagship, 6 sessions, 15 talks,
+  orientationOnly; s1 adds practice recollection-of-past-lives-orientation, s3 practice the-five-remembrances; cover ypKa1J7KUow). 39 clips added
+  (Baumer VBT 11, Beth Upton 9, Sugatavamsa 11, Sayalay Dipankara 2, Pa-Auk Sayadaw 1, Analayo 1, R. Ramanand 4; all embed-checked). Gold now
+  **246 gold / 1,198 strong / 8,542 standard**; 13 mini-courses. 15 resources in `app/site/data/wisegraph/resources-past-lives.json` (4 Paid marked
+  with price). Chat: catalog carries `feat:1` for featured courses (chat/tools/build-catalog.mjs) and the curator boosts them x1.6
+  (chat/worker/src/curator.mjs); "how do I see past lives" returns this course. Skipped: Pa-Auk "Dependent Origination: Previous Lives"
+  (unofficial re-upload only), Baumer VBT "Text Recitation" and "Mangala (Recitation)" (recitations). Schema 13,138 failing none; guards 0 found;
+  mcp test-client 35/35 live; chat test 15/15 local + live.
+- Previous gold-round deploy: wiser-web 90362a66, wiser-mcp 291d46ba (24 tools: + list_courses, get_course). Domain ACTIVE='legacy'. This deploy also ships the
   practice-engine agent's c6b435b ("Practise with the body" overlay, course tree site/data/wisegraph/courses.json, breathplayer.js) and the chat agent's
   b72e813 (#ask "Build a path" panel). Phase scripts in work/wiser-closeout/ were regenerated from the new deploy.sh (breathplayer cache-busting line).
 - Known: on a 390 px phone the chat agent's nav link "Build a path" (9th item, injected by src/ask.js) sits past the edge of the scrollable nav; owner of ask.js to decide.

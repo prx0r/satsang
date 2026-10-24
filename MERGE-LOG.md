@@ -268,3 +268,15 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   data rebuilt with the merged build-collections.py (practice-body mapping) -> build-courses.py -> build-gold.py -> build-catalog.py; test-practice-engine
   808/808; guards 0 found; mcp/test.mjs + test-client all passed live.
 
+## Past-lives flagship round, ext-47 (2026-10-24; shipped ~23:00 +07: wiser-web 582fb346, wiser-mcp e89ee319, satsang-chat c253b531; repo 9085346)
+- Source: sources/ext-47-past-lives/ (build.py; ids read off official channel/playlist pages, oEmbed + embed check, transcripts linked only).
+- 39 clips added: Baumer VBT retreat lectures 1,2,3,5,7,9,11-14,16; Beth Upton 9; Sayalay Dipankara 2; Pa-Auk Sayadaw 1 (Setti Wessels upload,
+  credited by PAMC Singapore); Sugatavamsa 11 (PAMC Singapore); Analayo Harvard 2018 1; R. Ramanand 4. People + beth-upton, sugatavamsa, r-ramanand;
+  edges pa-auk-sayadaw studied_with -> beth-upton, lineage_of pa-auk for Upton, Dipankara, Sugatavamsa.
+- Gold 246 (was 226). Flagship featured course how-to-discern-past-lives (6 sessions; orientation practice in s1, five remembrances in s3).
+- 15 resources (resources-past-lives.json; Paid: Dyczkowski Doctrine of Vibration US$50, Journey Through Tantraloka US$100, Lakshmanjoo
+  Paramarthasara US$99, Wisdom of Kashmir Shaivism US$99).
+- Chat: featured flag in the catalog + x1.6 boost in the curator; 15/15 local and against https://chat.tantrafiles.xyz.
+- Skipped: Pa-Auk Sayadaw "Dependent Origination: Previous Lives" (unofficial re-upload Zsw5EtHXHek only); Baumer VBT "Text Recitation" and
+  Vatulanatha "Mangala (Recitation)" (recitations, not talks).
+- Validation: schema 13,138 failing none; transcript guards 0 found (243 / 9,665); mcp/test.mjs all passed; test-client 35/35 live. Spend US$0.
