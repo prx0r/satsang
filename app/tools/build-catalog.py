@@ -89,9 +89,12 @@ for c in cols['collections']:
                 if it.get('title') and kind in ('url', 'text'): st['title'] = it['title']
                 if it.get('by'): st['by'] = it['by']
                 if u.get('listenFor'): st['listenFor'] = u['listenFor']
+                if u.get('purpose'): st['purpose'] = u['purpose']
+                if it.get('retreat'): st.update({'retreat': True, 'title': it.get('title'), 'url': it.get('url')})
                 steps.append(st)
         rec.update({'level': c.get('level'), 'traditions': c.get('traditions') or [], 'caution': c.get('caution'), 'deeper': [dict(PL.get(d['ref'][6:], {}), note=d.get('note')) for d in c.get('deeper') or []], 'steps': steps})
-        for k in ('featured', 'stepCaution', 'further', 'school', 'orientationOnly'):
+        rec['label'] = 'series'  # user-facing name since 2026-10-25 (were mini-courses); site stays /collection/<id> (path page -> #series/<id>)
+        for k in ('featured', 'stepCaution', 'reminder', 'retreat', 'further', 'school', 'orientationOnly'):
             if c.get(k): rec[k] = c[k]
         courses.append(rec)
     else: other.append(rec)

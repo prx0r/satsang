@@ -121,7 +121,7 @@ export function createProfile(d) {
     el.querySelector('[data-dl]')?.addEventListener('click', download)
     el.querySelector('[data-del]')?.addEventListener('click', async () => { if (!confirm('Delete your taste, saves, practice log, journeys and history from this device' + (d.apiOn() ? ' and from Satsang\u2019s servers' : '') + '? This cannot be undone.')) return; await forget(); d.onTaste?.(); paint(el); d.toast('Deleted.') })
   }
-  const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus', 'mini-course': 'Course' }
+  const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus', 'mini-course': 'Series' }
   const chip = (f, id, label, href) => `<a class="wchip tp" href="${esc(href)}">${esc(label)}<button type="button" class="fl-nfm" data-nfm="${esc(f + ':' + id)}" aria-label="Not for me" title="Not for me">\u00d7</button></a>`
   const listify = (a) => (a.length <= 1 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1])
   const fmtH = (m) => (m >= 90 ? `${Math.round(m / 6) / 10} hours` : `${Math.round(m)} minutes`)

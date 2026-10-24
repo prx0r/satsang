@@ -265,8 +265,8 @@ export function createWise(ctx) {
         ${withTalks < 2 && on.length ? `<p class="muted small">Talks from one tradition so far. Compare two takes pairs different teachers until more traditions arrive.</p>` : ''}
         ${jump.length > 2 ? `<div class="wchips">${jump.map(([id, l]) => `<a class="wchip" href="#topic/${esc(topic)}" data-jump="${id}">${esc(l)}</a>`).join('')}</div>` : ''}
       </div></section>
-      ${goldRail(order([...new Set([...pool, ...clips().filter((c) => (c.goldTopics || []).includes(topic))])].filter((c) => servable(c) && c.delivery !== 'footage').filter((c) => c.gold && ((c.goldTopics || []).includes(topic) || (c.topics || []).includes(topic)))), 'Gold: start here', 'Hand-picked: the talks on ' + label.toLowerCase() + ' most worth your time')}
       <div data-tcourses></div>
+      ${goldRail(order([...new Set([...pool, ...clips().filter((c) => (c.goldTopics || []).includes(topic))])].filter((c) => servable(c) && c.delivery !== 'footage').filter((c) => c.gold && ((c.goldTopics || []).includes(topic) || (c.topics || []).includes(topic)))), 'Gold: start here', 'Hand-picked: the talks on ' + label.toLowerCase() + ' most worth your time')}
       <div class="wtakes">${[...cols].map(([k, l]) => { const line = tk.takes?.[k]
         return `<article class="wtake${l.length ? '' : ' soon'}"><a class="wtakeh" href="#tradition/${esc(k)}"><span class="eyebrow">${esc(KIND[T(k)?.kind] || 'Tradition')}</span><b>${esc(tLabel(k))}</b></a>
           ${line ? `<p class="wline">${esc(line)}</p>` : ''}
@@ -285,10 +285,11 @@ export function createWise(ctx) {
       <div id="tk"></div><div data-more></div>
       <section class="wsec"><div class="wcta"><button type="button" class="btn ghost" data-keepgoing="1">Keep going</button></div><p class="muted small" data-next></p></section>`
     el.querySelector('[data-compare]')?.addEventListener('click', () => ctx.compare(topic, ballotable(on), colOf))
-    // courses on this topic (mini-courses whose topic is this one); the featured course leads
+    // Series live inside topics (2026-10-25): every series on this topic leads the page, featured first, with its full retreat
     ctx.coursesFor?.(topic).then((L) => { const box = el.querySelector('[data-tcourses]'); if (!box || !L?.length) return
-      L = [...L].sort((a, b2) => !!b2.featured - !!a.featured)
-      box.innerHTML = `<section class="wsec tcourses"><div class="wsech"><h3>${L.length === 1 ? 'A course on ' : 'Courses on '}${esc(label.toLowerCase())}</h3><span class="muted small">Talks in a teaching order, with practices</span></div><div class="pprog">${L.map((c) => `<article class="pprg${c.featured ? ' tfeat' : ''}"><span>${c.featured ? '<span class="gtxt">Featured course</span>' : 'Course'} \u00b7 ${c.units?.length || 0} steps${c.orientationOnly ? ' \u00b7 orientation' : ''}</span><b>${esc(c.title)}</b><p>${esc(String(c.intro || '').slice(0, 220))}${String(c.intro || '').length > 220 ? '\u2026' : ''}</p><a class="btn${c.featured ? ' gold' : ''}" href="#course/${esc(c.id)}">Open the course</a></article>`).join('')}</div></section>` }).catch(() => {})
+      box.innerHTML = ctx.seriesBlock ? ctx.seriesBlock(L, label) : ''
+      const chips = el.querySelector('.whero .wchips'); if (chips && !chips.querySelector('[data-jump="ts"]')) { chips.insertAdjacentHTML('afterbegin', `<a class="wchip" href="#topic/${esc(topic)}" data-jump="ts">Series</a>`); chips.querySelector('[data-jump="ts"]').addEventListener('click', (e) => { e.preventDefault(); el.querySelector('#ts')?.scrollIntoView({ behavior: 'smooth', block: 'start' }) }) }
+    }).catch(() => {})
     el.querySelector('[data-feed]')?.addEventListener('click', () => ctx.playTopic(topic))
     el.querySelectorAll('[data-jump]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); el.querySelector('#' + a.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' }) }))
     // Keep going: each press opens the next neighbouring topic (its best talks not already on this page), then that topic's

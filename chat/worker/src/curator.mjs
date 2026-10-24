@@ -439,7 +439,7 @@ export function createCurator(CAT, { llm = null } = {}) {
 
     const deeper = []
     for (const c of cols) deeper.push({ role: 'collection', kind: 'collection', ref: `collection:${c.id}`, id: c.id, title: c.t, why: c.why || `${first(c.intro, 170)}${c.days ? ` ${c.days} ${c.k === 'journey' ? 'days' : 'steps'}.` : ''}`, url: url.collection(c.id), orientationOnly: c.eso || undefined })
-    for (const c of courses.filter((c) => c.live)) deeper.push({ role: 'collection', kind: 'course', ref: `collection:${c.id}`, id: c.id, title: c.t, why: `${first(c.intro, 200)} Plays one step at a time, with your progress kept.`, url: `${SITE}/#course/${c.id}`, orientationOnly: /orientation only/i.test(c.caut || '') || undefined })
+    for (const c of courses.filter((c) => c.live)) deeper.push({ role: 'collection', kind: 'course', ref: `collection:${c.id}`, id: c.id, title: c.t, why: `A Satsang series${c.top ? ` inside ${topicLab(c.top)}` : ''}: ${first(c.intro, 200)} Plays one session at a time, with your progress kept.`, url: `${SITE}/#series/${c.id}`, orientationOnly: /orientation only/i.test(c.caut || '') || undefined })
     const placeList = [...coursePlaces.filter(({ p }) => !intent.country || p.c === intent.country).map(({ p, why }) => ({ p, why })), ...places.map((p) => ({ p }))].filter((x, i, a) => a.findIndex((y) => y.p.id === x.p.id) === i).slice(0, Math.max(nPlaces, coursePlaces.length ? 2 : 0))
     for (const { p, why } of placeList) deeper.push({ role: 'visit', kind: 'place', ref: `place:${p.id}`, id: p.id, title: p.n, by: [p.city, CAT.countries[p.c] || p.c].filter(Boolean).join(', '), tradition: (p.tr || [])[0] ? T(p.tr[0]) : null,
       why: why ? `${why}${(p.ret || [])[0] ? ` Programme: ${p.ret[0].n}${p.ret[0].len ? ` (${p.ret[0].len})` : ''}; dates on the place's own schedule.` : ''}` : whyPlace(p, intent), programmes: (p.ret || []).slice(0, 3), url: url.visit(p.id) })
@@ -475,6 +475,9 @@ export function createCurator(CAT, { llm = null } = {}) {
     const ts = pack.steps.filter((s) => s.role === 'watch'), ps = pack.steps.filter((s) => s.role === 'practise'), rs = pack.steps.filter((s) => s.role === 'read')
     const topic = intent.topics[0] ? CAT._topic[intent.topics[0]] : null
     if (topic?.intro) P.push(first(topic.intro, 200))
+    const ser = pack.deeper.find((d) => d.kind === 'course') || null, serId = pack.steps.find((s) => s.course)?.course
+    const serT = ser?.title || (serId ? (CAT.courses || []).find((c) => c.id === serId)?.t : null)
+    if (serT) P.push(`This path follows Satsang's series "${serT}"; the whole series, session by session, is on the ${topic ? topic.l || 'topic' : 'topic'} page.`)
     if (ts.length) P.push(`Start with ${ts[0].by || 'the first talk'}${ts[0].minutes ? ` (${ts[0].minutes} min)` : ''}${ts.length > 1 ? `, then ${[...new Set(ts.slice(1).map((s) => s.by).filter((b) => b && b !== ts[0].by))].join(' and ') || 'the others'} for other angles` : ''}.`)
     const main = ps.find((s) => s.daily)
     if (main) P.push(`Each day: ${main.title}${main.minutes ? `, about ${main.minutes} minutes` : ''}${main.orientationOnly ? ' (orientation: read it first)' : ''}.`)

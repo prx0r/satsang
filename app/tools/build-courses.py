@@ -88,7 +88,7 @@ for c in CS:
         phases.append(ph)
     loose = [p for p in practice_refs(c.get('items', [])) if p not in {x['id'] for ph in phases for x in ph['practices']}]
     course = {k: v for k, v in {
-        'id': c['id'], 'title': c['title'], 'kind': c.get('kind', 'set'), 'collection': c['id'], 'href': (f"#course/{c['id']}" if c.get('kind') == 'mini-course' else f"#collection/{c['id']}"),
+        'id': c['id'], 'title': c['title'], 'kind': c.get('kind', 'set'), 'collection': c['id'], 'href': (f"#series/{c['id']}" if c.get('kind') == 'mini-course' else f"#collection/{c['id']}"),
         'intro': c.get('intro'), 'topic': c.get('topic'), 'cadence': c.get('cadence'), 'author': c.get('author'),
         'orientationOnly': c.get('orientationOnly') or None, 'level': c.get('level'), 'phases': phases, 'practices': loose or None,
         'units': len(units), 'minutes': sum(x.get('minutes') or 0 for ph in phases for x in ph['practices']) or None}.items() if v is not None}

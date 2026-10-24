@@ -3,7 +3,7 @@
 // cautions above step 1, needsTeacher gate, source link, related talks, the dark timer, log to the device). Data:
 // data/wisegraph/collections.json (tools/build-collections.py). Dark design: whero/wsec/pprog/pprg/rail/tile/wchip only.
 
-const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus', 'mini-course': 'Course' }
+const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus', 'mini-course': 'Series' }
 const ROLE = { watch: 'Watch', read: 'Read', practise: 'Practise', listen: 'Listen', visit: 'Visit', reflect: 'Reflect' }
 
 export function createCollections(d) {
@@ -89,7 +89,7 @@ export function createCollections(d) {
     const withBody = !p.needsTeacher && p.body?.mode === 'body' && webgl2()
     const where = whereHTML(p.id)
     if (!CT) loadCourses().then(() => { const w = whereHTML(p.id); if (w && el.isConnected && !el.querySelector('.fl-where')) el.querySelector('.wcta')?.insertAdjacentHTML('afterend', `<p class="muted small fl-where">${w}</p>`) })
-    el.innerHTML = `<a class="back" href="${from ? (from.kind === 'mini-course' ? '#course/' : '#collection/') + esc(from.id) : '#collections'}">\u2190 ${esc(from ? from.title : 'Journeys and practices')}</a>
+    el.innerHTML = `<a class="back" href="${from ? (from.kind === 'mini-course' ? '#series/' : '#collection/') + esc(from.id) : '#collections'}">\u2190 ${esc(from ? from.title : 'Journeys and practices')}</a>
       <section class="whero wtopic"><div class="whin"><span class="eyebrow">${esc(p.tradLabel || 'Practice')}${p.tradition && W.tradition?.(p.tradition) ? '' : ''}${p.needsTeacher ? ' \u00b7 Orientation only' : ` \u00b7 about ${p.minutes} min`}</span><h1>${esc(p.name)}</h1>
         ${p.cautions?.length ? `<div class="fl-caution">${p.cautions.map((x) => `<p>${esc(x)}</p>`).join('')}</div>` : ''}
         ${p.needsTeacher ? `<p class="tag">${esc(p.how)}</p>` : `<ol class="fl-steps">${p.steps.map((s) => `<li>${esc(s.text)}</li>`).join('')}</ol>`}

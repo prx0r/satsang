@@ -471,3 +471,5 @@ open(os.path.join(ROOT, 'wisegraph/seed.sql'), 'w').write('\n'.join(L) + '\n')
 
 tc = collections.Counter(t for c in clips for t in c['topics'] if '/' not in t)
 print(json.dumps({'clips': len(clips), **stats, 'speakers': dict(nclips), 'figures_linked': dict(fclips), 'topics': dict(tc.most_common())}, ensure_ascii=False))
+# series live inside topics: every talk in a series carries the series' topic (tools/tag-series.py; after the D1 seed, which it never touches)
+import subprocess as _sp; _sp.run([sys.executable, os.path.join(ROOT, 'tools', 'tag-series.py')], check=False)

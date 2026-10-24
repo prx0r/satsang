@@ -91,12 +91,18 @@ const LEGACY_TOOLS = [
   { name: 'get_collection', title: 'Collection',
     description: 'A curated set, journey, meditation series, visualisation cycle or syllabus with its ordered units and items. Omit id to list collections.',
     inputSchema: { type: 'object', properties: { id: { type: 'string' } } } },
-  { name: 'list_courses', title: 'Mini-courses',
-    description: 'Short editorial courses: 3-6 gold talks in a teaching order, 1-3 practices (with cautions; orientation-only ones say so), optional free readings and places to go deeper. Filter by topic or tradition. Returns {courses:[{id,title,level,topic,minutes,talks,practices,url}]}; pass an id to get_course for the steps.',
+  { name: 'list_courses', title: 'Series (mini-courses)',
+    description: 'Series (called mini-courses before 2026-10-25): short editorial series of sessions inside a topic: gold talks in a teaching order, practices (with cautions; orientation-only ones say so), free readings, an optional complete Dharma Seed retreat to go deeper, and places. Filter by topic or tradition. Returns {series:[...], courses:[...same...]}; pass an id to get_series (or get_course) for the sessions.',
     inputSchema: { type: 'object', properties: { topic: { type: 'string', description: 'Topic id, e.g. "rebirth".' }, tradition: { type: 'string', description: 'Tradition id, e.g. "theravada" or a family like "buddhism".' } } } },
-  { name: 'get_course', title: 'Mini-course',
-    description: 'One mini-course step by step: each step resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), plus places to go deeper.',
-    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Course id from list_courses, e.g. "how-buddhist-rebirth-works".' } }, required: ['id'] } },
+  { name: 'get_course', title: 'Series (mini-course)',
+    description: 'One series (mini-course) session by session: each session with its one-line purpose and items resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), the complete retreat to go deeper (linked whole, credited) and places.',
+    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Series id from list_series / list_courses, e.g. "how-to-discern-past-lives".' } }, required: ['id'] } },
+  { name: 'list_series', title: 'Series',
+    description: 'Series (called mini-courses before 2026-10-25): short editorial series of sessions inside a topic: gold talks in a teaching order, practices (with cautions; orientation-only ones say so), free readings, an optional complete Dharma Seed retreat to go deeper, and places. Filter by topic or tradition. Returns {series:[...], courses:[...same...]}; pass an id to get_series (or get_course) for the sessions.',
+    inputSchema: { type: 'object', properties: { topic: { type: 'string', description: 'Topic id, e.g. "rebirth".' }, tradition: { type: 'string', description: 'Tradition id, e.g. "theravada" or a family like "buddhism".' } } } },
+  { name: 'get_series', title: 'Series',
+    description: 'One series (mini-course) session by session: each session with its one-line purpose and items resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), the complete retreat to go deeper (linked whole, credited) and places.',
+    inputSchema: { type: 'object', properties: { id: { type: 'string', description: 'Series id from list_series, e.g. "how-to-discern-past-lives".' } }, required: ['id'] } },
   { name: 'recommend', title: 'Recommend',
     description: 'Stateless recommendations. Give ids the listener liked (clip ids, person/<id>, topic/<id>, tradition/<id>) and optionally disliked; returns diverse talks (taste x quality, MMR across traditions) and next topics to explore (graph neighbours + information gain). With no likes it returns a cold-start spread.',
     inputSchema: { type: 'object', properties: { liked: { type: 'array', items: { type: 'string' } }, disliked: { type: 'array', items: { type: 'string' } },
@@ -139,6 +145,7 @@ export function callTool(ctx, name, a = {}) {
         traditions: Object.entries(byTrad).map(([tr, s]) => ({ id: tr, label: ctx.tradition[tr]?.label || tr, teachers: s.size })).sort((x, y) => y.teachers - x.teachers),
         talks: talks.map((c) => clipOut(c, ctx)), teachers,
         gold: Object.values(ctx.clip).filter((c) => c.quality?.tier === 'gold' && (c.quality.goldTopics?.includes(t.id) || c.topics.some((x) => x.id === t.id))).sort((x, y) => ctx.q.get(y.id) - ctx.q.get(x.id)).slice(0, 12).map((c) => clipOut(c, ctx)),
+        series: Object.values(ctx.collection).filter((c) => c.kind === 'mini-course' && c.topics?.some((x) => x === t.id || x.startsWith(t.id + '/') || t.id.startsWith(x + '/'))).sort((x, y) => !!y.featured - !!x.featured).map((c) => ({ id: c.id, title: c.title, url: c.url, ...(c.featured ? { featured: true } : {}) })),
         courses: Object.values(ctx.collection).filter((c) => c.kind === 'mini-course' && c.topics?.some((x) => x === t.id || x.startsWith(t.id + '/') || t.id.startsWith(x + '/'))).map((c) => ({ id: c.id, title: c.title, url: c.url })),
         practices: Object.values(ctx.practice).filter((p) => p.topics?.includes(t.id)).map((p) => ({ id: p.id, name: p.name, kind: p.kind, tradition: p.traditionLabel || p.traditions[0], url: url('practice', p.id), source_url: p.sources?.[0]?.url })),
         texts: Object.values(ctx.text).filter((x) => x.topics?.includes(t.id)).map((x) => ({ id: x.id, title: x.title, author: x.authorName, link: x.editions?.[0]?.url, url: url('resource', ctx.textToResource.get(x.id) || x.id), source_url: x.editions?.[0]?.url })),
@@ -192,28 +199,33 @@ export function callTool(ctx, name, a = {}) {
       return { total: ps.length, practices: ps.slice(0, lim(a.limit, 20, 100)).map((p) => ({ id: p.id, name: p.name, kind: p.kind, traditions: p.traditions, traditionLabel: p.traditionLabel,
         summary: p.summary, steps: p.needsTeacher ? [] : p.steps, needsTeacher: !!p.needsTeacher, duration: p.duration, contraindications: p.contraindications || [], sources: p.sources, topics: p.topics, ...prov(ctx, 'practice', p) })), license: LICENSE }
     }
+    case 'list_series':
     case 'list_courses': {
       let cs = Object.values(ctx.collection).filter((c) => c.kind === 'mini-course')
       if (a.topic) cs = cs.filter((c) => c.topics?.some((t) => t === a.topic || t.startsWith(a.topic + '/') || a.topic.startsWith(t + '/')))
       if (a.tradition) cs = cs.filter((c) => (c.traditions || []).some((t) => t === a.tradition || familyOf(ctx.tradition, t) === a.tradition))
       const n = (c, role) => c.units.reduce((s, u) => s + u.items.filter((i) => i.role === role).length, 0)
-      return { total: cs.length, courses: cs.map((c) => ({ id: c.id, title: c.title, intro: c.intro, level: c.level, topics: c.topics, traditions: c.traditions, minutes: c.minutes, steps: c.units.length,
-        talks: n(c, 'watch'), practices: n(c, 'practise'), readings: n(c, 'read'), orientationOnly: !!c.orientationOnly, ...(c.caution ? { caution: c.caution } : {}), ...prov(ctx, 'collection', c), url: c.url })), license: LICENSE }
+      cs = [...cs].sort((x, y) => !!y.featured - !!x.featured)
+      const rows = cs.map((c) => ({ id: c.id, title: c.title, intro: c.intro, level: c.level, topics: c.topics, traditions: c.traditions, minutes: c.minutes, sessions: c.units.length, steps: c.units.length,
+        talks: n(c, 'watch'), practices: n(c, 'practise'), readings: n(c, 'read'), orientationOnly: !!c.orientationOnly, ...(c.featured ? { featured: true } : {}), ...(c.retreat ? { retreat: { title: c.retreat.title, url: c.retreat.url } } : {}), ...(c.caution ? { caution: c.caution } : {}), ...prov(ctx, 'collection', c), url: c.url }))
+      return { total: cs.length, series: rows, courses: rows, license: LICENSE }
     }
+    case 'get_series':
     case 'get_course': {
-      const c = ctx.collection[bare('collection', a.id)]; if (!c || c.kind !== 'mini-course') throw err(`unknown course "${a.id}"; try list_courses`)
+      const c = ctx.collection[bare('collection', String(a.id || '').replace(/^#?(series|course)\//, ''))]; if (!c || c.kind !== 'mini-course') throw err(`unknown series "${a.id}"; try list_series`)
       const item = (it) => {
         const [k, ...r] = it.ref.id.split('/'); const id = r.join('/'); const x = ctx[k]?.[id]
         const base = { role: it.role, ...(it.note ? { note: it.note } : {}) }
         if (k === 'clip' && x) return { ...base, talk: clipOut(x, ctx) }
         if (k === 'practice' && x) return { ...base, practice: { id: x.id, name: x.name, tradition: x.traditionLabel || x.traditions[0], needsTeacher: !!x.needsTeacher, steps: x.needsTeacher ? [] : x.steps, summary: x.summary, contraindications: x.contraindications || [], sources: x.sources, url: url('practice', x.id) } }
         if (k === 'text' && x) return { ...base, reading: { id: x.id, title: x.title, link: x.editions?.[0]?.url, url: url('resource', ctx.textToResource.get(x.id) || x.id) } }
+        if (it.retreat && it.url) return { ...base, retreat: { title: it.title, link: it.url, by: it.by, licence: it.licence } }
         if (it.url) return { ...base, reading: { title: it.title, link: it.url } }
         return { ...base, ref: it.ref.id }
       }
       const placeOut = (d) => { const p = ctx.place[d.ref.id.slice(6)]; return p ? { id: p.id, name: p.name, country: p.country, officialSite: p.url, note: d.note, url: url('place', p.id) } : null }
       return { id: c.id, title: c.title, intro: c.intro, level: c.level, topics: c.topics, traditions: c.traditions, minutes: c.minutes, orientationOnly: !!c.orientationOnly, ...(c.caution ? { caution: c.caution } : {}),
-        steps: c.units.map((u) => ({ n: u.n, title: u.title, items: u.items.map(item) })), deeper: (c.deeper || []).map(placeOut).filter(Boolean), ...prov(ctx, 'collection', c), url: c.url, license: LICENSE }
+        steps: c.units.map((u) => ({ n: u.n, title: u.title, ...(u.purpose ? { purpose: u.purpose } : {}), items: u.items.map(item) })), ...(c.retreat ? { retreat: c.retreat } : {}), deeper: (c.deeper || []).map(placeOut).filter(Boolean), ...prov(ctx, 'collection', c), url: c.url, license: LICENSE }
     }
     case 'get_collection': {
       if (!a.id) return { collections: Object.values(ctx.collection).map((c) => ({ id: c.id, kind: c.kind, title: c.title, topics: c.topics, items: c.units.reduce((s, u) => s + u.items.length, 0) })) }

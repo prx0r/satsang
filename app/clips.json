@@ -36463,6 +36463,8 @@
 "figures": [],
 "topics": [
 "awakening",
+"divine",
+"divine/the-one",
 "meditation"
 ],
 "style": [],
@@ -36481,6 +36483,16 @@
 "meditation",
 0.9,
 "manual"
+],
+[
+"divine",
+1.0,
+"series"
+],
+[
+"divine/the-one",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -97569,6 +97581,8 @@
 "plotinus"
 ],
 "topics": [
+"divine",
+"divine/the-one",
 "soul"
 ],
 "style": [],
@@ -97582,6 +97596,16 @@
 "soul",
 0.8,
 "title"
+],
+[
+"divine",
+1.0,
+"series"
+],
+[
+"divine/the-one",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -100373,7 +100397,8 @@
 ],
 "figures": [],
 "topics": [
-"death"
+"death",
+"rebirth"
 ],
 "style": [],
 "published": "2009-04-03",
@@ -100386,6 +100411,11 @@
 "death",
 0.75,
 "transcript"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -148730,7 +148760,8 @@
 "figures": [],
 "topics": [
 "reality",
-"reality/maya"
+"reality/maya",
+"rebirth"
 ],
 "style": [],
 "year": 2019,
@@ -148747,6 +148778,11 @@
 "reality/maya",
 0.7,
 "desc"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -183454,7 +183490,8 @@
 ],
 "figures": [],
 "topics": [
-"meditation"
+"meditation",
+"meditation/silent-illumination"
 ],
 "style": [],
 "year": 2020,
@@ -183466,6 +183503,11 @@
 "meditation",
 0.9,
 "title"
+],
+[
+"meditation/silent-illumination",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -196683,7 +196725,9 @@
 ],
 "topics": [
 "awakening",
-"dukkha"
+"dukkha",
+"self",
+"self/self-enquiry"
 ],
 "style": [
 "q-and-a"
@@ -196702,6 +196746,16 @@
 "dukkha",
 0.7,
 "desc"
+],
+[
+"self",
+1.0,
+"series"
+],
+[
+"self/self-enquiry",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -207643,7 +207697,9 @@
 "figures": [],
 "topics": [
 "reality",
-"reality/maya"
+"reality/maya",
+"texts",
+"texts/tantra"
 ],
 "style": [],
 "year": 2019,
@@ -207660,6 +207716,16 @@
 "reality/maya",
 0.9,
 "title"
+],
+[
+"texts",
+1.0,
+"series"
+],
+[
+"texts/tantra",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -214678,7 +214744,8 @@
 "figures": [],
 "topics": [
 "meditation",
-"meditation/koan"
+"meditation/koan",
+"meditation/silent-illumination"
 ],
 "style": [],
 "views": 7600,
@@ -214694,6 +214761,11 @@
 "meditation/koan",
 0.9,
 "title"
+],
+[
+"meditation/silent-illumination",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -242506,7 +242578,8 @@
 ],
 "figures": [],
 "topics": [
-"meditation"
+"meditation",
+"meditation/breath"
 ],
 "style": [],
 "views": 153000,
@@ -242517,6 +242590,11 @@
 "meditation",
 0.9,
 "title"
+],
+[
+"meditation/breath",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -259307,7 +259385,9 @@
 ],
 "figures": [],
 "topics": [
-"kindness"
+"kindness",
+"meditation",
+"meditation/prayer"
 ],
 "style": [],
 "views": 170162,
@@ -259318,6 +259398,16 @@
 "kindness",
 0.8,
 "title"
+],
+[
+"meditation",
+1.0,
+"series"
+],
+[
+"meditation/prayer",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -264742,7 +264832,8 @@
 ],
 "topics": [
 "awakening",
-"reality"
+"reality",
+"rebirth"
 ],
 "style": [],
 "year": 2020,
@@ -264759,6 +264850,11 @@
 "reality",
 0.7,
 "desc"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -282460,6 +282556,7 @@
 ],
 "figures": [],
 "topics": [
+"rebirth",
 "texts"
 ],
 "style": [],
@@ -282472,6 +282569,11 @@
 "texts",
 0.9,
 "title"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -287620,7 +287722,8 @@
 "figures": [],
 "topics": [
 "meditation",
-"meditation/mantra"
+"meditation/mantra",
+"meditation/prayer"
 ],
 "style": [],
 "views": 5900,
@@ -287636,6 +287739,11 @@
 "meditation/mantra",
 0.9,
 "title"
+],
+[
+"meditation/prayer",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -335048,6 +335156,8 @@
 "figures": [],
 "topics": [
 "imaginal",
+"meditation",
+"meditation/prayer",
 "reality"
 ],
 "style": [],
@@ -335064,6 +335174,16 @@
 "reality",
 0.7,
 "title"
+],
+[
+"meditation",
+1.0,
+"series"
+],
+[
+"meditation/prayer",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -350416,7 +350536,8 @@
 "figures": [],
 "topics": [
 "death",
-"death/bardo"
+"death/bardo",
+"rebirth"
 ],
 "style": [],
 "views": 31000,
@@ -350432,6 +350553,11 @@
 "death/bardo",
 0.9,
 "title"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -421020,7 +421146,9 @@
 ],
 "figures": [],
 "topics": [
-"meditation"
+"meditation",
+"texts",
+"texts/tantra"
 ],
 "style": [],
 "year": 2018,
@@ -421032,6 +421160,16 @@
 "meditation",
 0.9,
 "title"
+],
+[
+"texts",
+1.0,
+"series"
+],
+[
+"texts/tantra",
+1.0,
+"series"
 ]
 ],
 "lang": [
@@ -452117,7 +452255,8 @@
 ],
 "figures": [],
 "topics": [
-"consciousness"
+"consciousness",
+"rebirth"
 ],
 "style": [],
 "year": 2021,
@@ -452129,6 +452268,11 @@
 "consciousness",
 0.4,
 "rule"
+],
+[
+"rebirth",
+1.0,
+"series"
 ]
 ],
 "lang": [

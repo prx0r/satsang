@@ -605,14 +605,16 @@
    "level": "steady",
    "minutes": 540,
    "orientationOnly": true,
-   "caution": "Orientation only, not instruction. In the Pa-Auk method, discerning past lives requires deep jhāna and a qualified teacher, typically on a long retreat. The foundation offered here, mindfulness of breathing, is real and safe for anyone. Stop if anything in this course becomes distressing.",
-   "stepCaution": "A reminder at every step: rebirth and the recollection of past lives are central to these traditions, but they are not independently verified. No results are promised. Stop if any of this becomes distressing.",
+   "caution": "Orientation only, not instruction. In the Pa-Auk method, discerning past lives requires deep jhāna and a qualified teacher, typically on a long retreat. Rebirth and the recollection of past lives are central to these traditions but not independently verified, and no results are promised. The foundation offered here, mindfulness of breathing, is real and safe for anyone. Stop if anything in this series becomes distressing.",
+   "reminder": "Reminder: orientation only. Not independently verified, no results promised; stop if this becomes distressing.",
    "intro": "What the Pa-Auk tradition claims about seeing past lives, how rebirth-linking works in its Abhidhamma, which kamma and craving shape a next life, and why futures seen in meditation are possibilities, not destinies. Then a comparative arm from Kashmir Shaivism, the evidence question, and where both traditions end: liberation now. Six sessions, fifteen talks, a breath practice that is safe for anyone, and honest orientation on the rest.",
    "units": [
     {
      "n": 1,
      "title": "The Pa-Auk claims",
+     "purpose": "Hear exactly what the method claims about seeing past lives, and begin the one practice it rests on.",
      "listenFor": "Listen for exactly what is claimed: that after deep concentration a meditator can discern mind and matter in earlier lives, and that the method treats this as part of understanding dependent origination, never as a goal. Notice how the second talk handles belief.",
+     "remind": true,
      "items": [
       {
        "role": "watch",
@@ -650,6 +652,7 @@
     {
      "n": 2,
      "title": "Rebirth-linking, technically",
+     "purpose": "How one life is said to condition the next, with nothing travelling across.",
      "listenFor": "Listen for how the last mind of one life is said to condition the first mind of the next, with nothing travelling across, and how \"becoming\" (bhava) is understood as kamma ripening into a new birth.",
      "items": [
       {
@@ -685,14 +688,16 @@
       {
        "role": "practise",
        "ref": "practice:mindfulness-of-breathing",
-       "note": "Keep going, and let the sit lengthen as it steadies. Stable concentration is the ground everything else in this course assumes."
+       "note": "Keep going, and let the sit lengthen as it steadies. Stable concentration is the ground everything else in this series assumes."
       }
      ]
     },
     {
      "n": 3,
      "title": "Which kamma, craving, and possible futures",
+     "purpose": "Which actions ripen into a next life, and why a future seen in meditation is not a fate.",
      "listenFor": "Listen for three things: which kamma tends to ripen at death, why craving is what keeps the round going, and the key point: a future seen in meditation is a possible future conditioned now, not a fixed destiny.",
+     "remind": true,
      "items": [
       {
        "role": "watch",
@@ -748,6 +753,7 @@
     {
      "n": 4,
      "title": "Kashmir Shaivism on karma and rebirth",
+     "purpose": "A second tradition tells the same story differently: one consciousness contracting itself.",
      "listenFor": "A comparative arm. Listen for how Kashmir Shaivism tells the story differently: one consciousness contracting itself into a limited being by its own power, with karma among the impurities that keep the contraction going, and rebirth as that contraction continuing.",
      "items": [
       {
@@ -773,7 +779,9 @@
     {
      "n": 5,
      "title": "The evidence question",
+     "purpose": "What the texts and current research can and cannot show, held without forcing a verdict.",
      "listenFor": "Listen for how a careful scholar treats evidence: what the early texts actually say, what research on rebirth claims can and cannot show. Then hear the method's founder as a primary source. Hold both without forcing a verdict.",
+     "remind": true,
      "items": [
       {
        "role": "watch",
@@ -795,6 +803,7 @@
     {
      "n": 6,
      "title": "Liberation now",
+     "purpose": "Where both traditions end: not collecting past lives, but being free now.",
      "listenFor": "Both traditions end in the same place: the point is not to collect past lives but to be free now. Listen for \"liberation is not somewhere else\" and for what sudden awakening means.",
      "items": [
       {
@@ -820,6 +829,19 @@
        "role": "practise",
        "ref": "practice:recognition-pratyabhijna-contemplation",
        "note": "Ten minutes of recognising what is already here."
+      },
+      {
+       "role": "visit",
+       "ref": "resource:dharmaseed-pa-auk-ims-2011",
+       "retreat": true,
+       "note": "The method in full: the 2011 four-month jhāna retreat at IMS Forest Refuge, opened and closed by Pa-Auk Sayadaw, with thirty-five talks by his assistant Sayadaw U Jagara, from the gradual training to mind and matter, their causes and the 24 conditions. Complete talks, listened to whole on Dharma Seed.",
+       "url": "https://dharmaseed.org/retreats/1230/",
+       "title": "Jhāna retreat with Pa-Auk Sayadaw and Sayadaw U Jagara (IMS Forest Refuge, July to October 2011)",
+       "by": "Pa-Auk Sayadaw and Sayadaw U Jagara",
+       "licence": "Dharma Seed, CC BY-NC-ND 4.0: complete talks, linked unchanged and credited",
+       "talks": 37,
+       "year": 2011,
+       "centre": "Insight Meditation Society, Forest Refuge (Barre, Massachusetts)"
       }
      ]
     }
@@ -970,6 +992,20 @@
      ]
     }
    ],
+   "retreat": {
+    "id": "dharmaseed-pa-auk-ims-2011",
+    "title": "Jhāna retreat with Pa-Auk Sayadaw and Sayadaw U Jagara (IMS Forest Refuge, July to October 2011)",
+    "url": "https://dharmaseed.org/retreats/1230/",
+    "by": "Pa-Auk Sayadaw and Sayadaw U Jagara",
+    "centre": "Insight Meditation Society, Forest Refuge (Barre, Massachusetts)",
+    "year": 2011,
+    "talks": 37,
+    "licence": "Dharma Seed, CC BY-NC-ND 4.0: complete talks, linked unchanged and credited",
+    "note": "The Pa-Auk method in its own setting: a 123-day jhāna retreat. Pa-Auk Sayadaw gives the opening instructions and the closing questions and answers; Sayadaw U Jagara, who assisted him for a decade, gives 35 talks: the gradual training, purpose and balance in practice, the planes of existence, the elements, defining mind and matter and their causes, the 24 conditions of the Paṭṭhāna, and emptiness.",
+    "people": [
+     "pa-auk-sayadaw"
+    ]
+   },
    "deeper": [
     {
      "ref": "place:pa-auk-tawya",
@@ -988,6 +1024,12 @@
      "note": "Swami Lakshmanjoo's ashram in Srinagar, for the Kashmir Shaivism arm.",
      "name": "Ishwar Ashram (Ishber), Srinagar — Ishwar Ashram Trust",
      "country": "IN"
+    },
+    {
+     "ref": "place:ims-barre",
+     "note": "Insight Meditation Society, Barre: its Forest Refuge hosted Pa-Auk Sayadaw's long jhāna retreats in 2008 and 2011 (the full retreat above).",
+     "name": "Insight Meditation Society",
+     "country": "US"
     }
    ],
    "kind": "mini-course",
@@ -1662,7 +1704,7 @@
    ],
    "level": "steady",
    "minutes": 100,
-   "caution": "Reflections on death can stir grief. Go gently, and set the course aside if it overwhelms you.",
+   "caution": "Reflections on death can stir grief. Go gently, and set the series aside if it overwhelms you.",
    "intro": "The Buddhist reflection on death as a source of freedom rather than fear: why to practise it, how the suttas teach it, how to rehearse it, and a gentle view of where we go.",
    "units": [
     {

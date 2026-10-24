@@ -1,0 +1,25 @@
+{
+ "_note": "Go deeper: full retreat (specs/SERIES-FORMULA.md step 9). Whole Dharma Seed retreats only: linked as published, credited, never cut, trimmed or transcribed (Dharma Seed content is CC BY-NC-ND 4.0). Hand-authored; checked by tools/mini_courses_src.py.",
+ "resources": [
+  {
+   "id": "dharmaseed-pa-auk-ims-2011",
+   "title": "Jhāna retreat with Pa-Auk Sayadaw and Sayadaw U Jagara (IMS Forest Refuge, July to October 2011)",
+   "url": "https://dharmaseed.org/retreats/1230/",
+   "kind": "retreat",
+   "free": true,
+   "by": "Pa-Auk Sayadaw and Sayadaw U Jagara",
+   "centre": "Insight Meditation Society, Forest Refuge (Barre, Massachusetts)",
+   "year": 2011,
+   "talks": 37,
+   "licence": "Dharma Seed, CC BY-NC-ND 4.0: complete talks, linked unchanged and credited",
+   "licenceUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+   "traditions": ["pa-auk", "theravada"],
+   "people": ["pa-auk-sayadaw"],
+   "topics": ["rebirth", "jhana", "dependent-origination"],
+   "note": "The Pa-Auk method in its own setting: a 123-day jhāna retreat. Pa-Auk Sayadaw gives the opening instructions and the closing questions and answers; Sayadaw U Jagara, who assisted him for a decade, gives 35 talks: the gradual training, purpose and balance in practice, the planes of existence, the elements, defining mind and matter and their causes, the 24 conditions of the Paṭṭhāna, and emptiness.",
+   "source_url": "https://dharmaseed.org/retreats/1230/",
+   "checked": "2026-10-25",
+   "group": "series-retreats"
+  }
+ ]
+}

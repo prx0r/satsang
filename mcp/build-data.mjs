@@ -226,14 +226,15 @@ if (colData) {
   const refOf = (it, cid) => it.ref?.startsWith('clip:') ? { id: `clip/${it.ref.slice(5)}` } : it.ref?.startsWith('practice:') ? { id: `practice/${pidMap[it.ref.slice(9)] || it.ref.slice(9)}` }
     : it.ref?.startsWith('topic:') ? { id: `topic/${it.ref.slice(6)}` } : it.ref?.startsWith('text:') && text[it.ref.slice(5)] ? { id: `text/${it.ref.slice(5)}` }
     : it.ref?.startsWith('place:') ? { id: `place/${it.ref.slice(6)}` } : { id: `collection/${cid}` }
-  const itemOf = (it, cid) => ({ ref: refOf(it, cid), role: it.role, ...(it.note ? { note: it.note } : {}), ...(it.group ? { group: it.group } : {}), ...(it.title ? { title: it.title } : {}), ...(it.url ? { url: it.url } : {}), ...(it.optional ? { optional: true } : {}) })
+  const itemOf = (it, cid) => ({ ref: refOf(it, cid), role: it.role, ...(it.note ? { note: it.note } : {}), ...(it.group ? { group: it.group } : {}), ...(it.title ? { title: it.title } : {}), ...(it.url ? { url: it.url } : {}), ...(it.optional ? { optional: true } : {}), ...(it.retreat ? { retreat: true, ...(it.by ? { by: it.by } : {}), ...(it.licence ? { licence: it.licence } : {}) } : {}) })
   for (const c of colData.collections || []) {
-    const units = c.units?.length ? c.units.map((u) => ({ n: u.n, title: u.title, ...(u.day ? { day: u.day } : {}), ...(u.track ? { track: u.track } : {}), ...(u.intro ? { intro: u.intro } : {}), ...(u.listenFor ? { checkpoint: u.listenFor } : {}), items: u.items.map((it) => itemOf(it, c.id)) }))
+    const units = c.units?.length ? c.units.map((u) => ({ n: u.n, title: u.title, ...(u.day ? { day: u.day } : {}), ...(u.track ? { track: u.track } : {}), ...(u.intro ? { intro: u.intro } : {}), ...(u.listenFor ? { checkpoint: u.listenFor } : {}), ...(u.purpose ? { purpose: u.purpose } : {}), items: u.items.map((it) => itemOf(it, c.id)) }))
       : [{ n: 1, title: c.title, items: (c.items || []).map((it) => itemOf(it, c.id)) }]
     collection[c.id] = { id: c.id, type: 'collection', kind: c.kind, title: c.title, intro: c.intro, author: 'wiser', visibility: 'public', topics: c.topic && topic[c.topic] ? [c.topic] : [],
-      ordered: c.kind !== 'set', units, ...(c.kind === 'journey' ? { cadence: { days: units.length, minutesPerDay: 20 } } : {}), url: `${SITE}/#${c.kind === 'mini-course' ? 'course' : 'collection'}/${c.id}`, license: LIC, meta: { license: LIC, status: 'live' },
+      ordered: c.kind !== 'set', units, ...(c.kind === 'journey' ? { cadence: { days: units.length, minutesPerDay: 20 } } : {}), url: `${SITE}/#${c.kind === 'mini-course' ? 'series' : 'collection'}/${c.id}`, license: LIC, meta: { license: LIC, status: 'live' },
       ...(c.kind === 'mini-course' ? { level: c.level, traditions: (c.traditions || []).filter((t) => tradition[t]), ...(c.caution ? { caution: c.caution } : {}), ...(c.orientationOnly ? { orientationOnly: true } : {}), ...(c.minutes ? { minutes: c.minutes } : {}),
-        deeper: (c.deeper || []).map((x) => ({ ref: refOf(x, c.id), ...(x.note ? { note: x.note } : {}) })).filter((x) => x.ref.id.startsWith('place/')) } : {}) }
+        deeper: (c.deeper || []).map((x) => ({ ref: refOf(x, c.id), ...(x.note ? { note: x.note } : {}) })).filter((x) => x.ref.id.startsWith('place/')),
+        ...(c.retreat?.url ? { retreat: { title: c.retreat.title, url: c.retreat.url, by: c.retreat.by, centre: c.retreat.centre, year: c.retreat.year, talks: c.retreat.talks, licence: c.retreat.licence, note: c.retreat.note } } : {}), ...(c.featured ? { featured: true } : {}) } : {}) }
   }
 }
 

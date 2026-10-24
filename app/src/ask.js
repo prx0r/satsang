@@ -15,7 +15,7 @@ const EXAMPLES = [
   "I'm new to meditation: 15 minutes each morning",
   'Teach me about Kashmir Shaivism, I like reading',
 ]
-const ROLE = { watch: 'Watch', read: 'Read', practise: 'Practise', reflect: 'Reflect', collection: 'Collection', course: 'Mini-course', visit: 'Visit', topic: 'Topic' }
+const ROLE = { watch: 'Watch', read: 'Read', practise: 'Practise', reflect: 'Reflect', collection: 'Collection', course: 'Series', visit: 'Visit', topic: 'Topic' }
 
 const LS = {
   get: (k, d) => { try { return JSON.parse(localStorage.getItem('wiser.' + k)) ?? d } catch { return d } },
@@ -152,7 +152,7 @@ function cardHTML(s) {
   return ''
 }
 function deeperHTML(d) {
-  const href = d.role === 'visit' ? `#place/${esc(d.id)}` : d.role === 'topic' ? `#topic/${esc(String(d.id).split('/')[0])}` : d.kind === 'course' ? `#course/${esc(d.id)}` : `#collection/${esc(d.id)}`
+  const href = d.role === 'visit' ? `#place/${esc(d.id)}` : d.role === 'topic' ? `#topic/${esc(String(d.id).split('/')[0])}` : d.kind === 'course' ? `#series/${esc(d.id)}` : `#collection/${esc(d.id)}`
   const progs = (d.programmes || []).slice(0, 2).map((p) => `<li>${esc(p.n)}${p.len ? ` <span class="muted">\u00b7 ${esc(p.len)}</span>` : ''}${p.cost ? ` <span class="muted">\u00b7 ${esc(p.cost)}</span>` : ''}${p.url ? ` <a href="${esc(p.url)}" target="_blank" rel="noopener">schedule \u2197</a>` : ''}</li>`).join('')
   return `<article class="ask-card deep"><div class="ask-body"><span class="eyebrow">${esc(ROLE[d.kind] || ROLE[d.role] || 'More')}${d.tradition ? ' \u00b7 ' + esc(d.tradition) : ''}${d.orientationOnly ? ' \u00b7 orientation only' : ''}</span>
     <b>${esc(d.title)}</b>${d.by ? `<span class="ask-by">${esc(d.by)}</span>` : ''}${d.why ? `<p class="ask-why">${esc(d.why)}</p>` : ''}${progs ? `<ul class="ask-progs">${progs}</ul>` : ''}

@@ -1776,3 +1776,37 @@ body.tv-on #toast{display:none}
 .tcourses .pprg.tfeat{border-color:rgba(232,207,150,.4)}
 @media (max-width:640px){.mcard.mfeat b{font-size:23px}.mcard.mfeat .mimg{aspect-ratio:16/7}}
 
+/* ---- 2026-10-25 restructure: calm nav (Watch · Topics · Teachers · Places · Practise · Ask; the rest in the account menu) + Series inside topics ---- */
+.top nav{align-items:center}
+.top nav .ask-navlink{color:var(--gold);font-weight:600;padding:8px 12px;border-radius:8px;text-decoration:none;white-space:nowrap;flex:none}
+.top nav .ask-navlink:hover{color:var(--text)}
+.top nav .ask-navlink.on::after{content:'';display:block;height:2px;background:var(--red);margin-top:4px;border-radius:2px}
+@media (max-width:560px){.top nav button,.top nav .ask-navlink{padding:8px 6px;font-size:14.5px;letter-spacing:0}}
+@media (max-width:430px){.top nav button,.top nav .ask-navlink{padding:8px 4px;font-size:14px;letter-spacing:0}}
+@media (max-width:360px){.top nav button,.top nav .ask-navlink{padding:8px 2px;font-size:13px}}
+.um-goto .um-h{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:2px 0 2px}
+/* Series index strip (Topics page) */
+.sgroups{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px 22px;margin-top:8px}
+.sgroup{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.sgroup .wchip{margin-bottom:4px}
+.sline{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--text);width:100%;border-left:2px solid var(--line)}
+.sline b{font-weight:600;font-size:15px}
+.sline:hover{background:rgba(255,255,255,.03)}
+.sline.sfeat{border-left-color:rgba(232,207,150,.6)}
+/* series page */
+.tseries .mgrid{margin-top:12px}
+.tseries .pprog{margin-top:14px}
+.mcaution{max-width:760px}
+.mcaution b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:4px}
+.mcaution p+p{margin-top:6px}
+.msessh{margin-bottom:10px}
+.msessh h3{font-family:var(--display);font-size:clamp(26px,4vw,34px);font-weight:600;line-height:1.1;margin:4px 0 6px}
+.mpurpose{margin:0;font-size:16px;line-height:1.5;color:#e6dcc6;max-width:720px}
+.mtype b{color:var(--gold);font-weight:600}
+.msteps a>span{display:flex;flex-direction:column;gap:2px}
+.mpurp{color:#cfc9bd;font-size:14px;line-height:1.45}
+.msteps li.mfinal a::before{content:"\2192";color:var(--gold);font-family:var(--sans);font-size:16px}
+.msteps li.mfinal a b{color:var(--gold)}
+.mretreat{border-left-color:rgba(232,207,150,.5)}
+.pprg.mretreat{border-color:rgba(232,207,150,.32)}
+.mnow,.tseries{scroll-margin-top:118px}

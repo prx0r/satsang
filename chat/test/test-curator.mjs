@@ -14,7 +14,7 @@ const CAT = JSON.parse(fs.readFileSync(path.join(HERE, '../worker/data/catalog.j
 const CUR = createCurator(JSON.parse(JSON.stringify(CAT)))
 
 const CASES = [
-  { q: 'I want to understand how rebirth works and maybe try a past-life practice', expect: { topic: 'rebirth', talks: 2, practice: 1, orientation: true } },
+  { q: 'I want to understand how rebirth works and maybe try a past-life practice', expect: { topic: 'rebirth', talks: 2, practice: 1, orientation: true, series: true } },
   { q: "10 minutes a day, I'm anxious", expect: { gentle: true, minutes: 10, practice: 1, noIntense: true, noEso: true } },
   { q: 'a weekend retreat in the UK', expect: { country: 'GB', places: 2 } },
   { q: "I'm new to meditation and want to start with the breath, 15 minutes each morning", expect: { minutes: 15, practice: 1, level: 'beginner' } },
@@ -91,6 +91,7 @@ for (const [i, c] of CASES.entries()) {
     if (E.places && E.country && places.some((d) => !CAT.places.find((x) => x.id === d.id && x.c === E.country))) errs.push('place outside country')
     if (E.gentle && !S.gentle) errs.push('not gentle')
     if (E.orientation && !pracs.some((s) => s.orientationOnly)) errs.push('expected an orientation-only practice')
+    if (E.series && !(/\bseries\b/.test(p.prose || '') && (p.deeper || []).some((d) => d.kind === 'course' && /#series\//.test(d.url || '')) && !/\b(mini-)?courses?\b/i.test(p.prose || ''))) errs.push('expected the answer to name the series (prose says "series", deeper links #series/<id>, no "course")')
     if (E.noIntense && pracs.some((s) => practiceOf(s)?.intense)) errs.push('intense practice in a gentle pack')
     if (E.noEso && pracs.some((s) => practiceOf(s)?.eso || practiceOf(s)?.nt)) errs.push('esoteric/teacher practice in a gentle pack')
     if (E.intense && !S.intense) errs.push('intense request not flagged')

@@ -18,7 +18,7 @@ export async function run(base, { log = console.log } = {}) {
   const n = await fetch(base + '/mcp', { method: 'POST', headers: H, body: JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' }) })
   check('notifications/initialized -> 202', n.status === 202)
   const tl = await rpc('tools/list', {}); const names = tl.result.tools.map((t) => t.name)
-  const want = ['search', 'fetch', 'get_topic', 'get_teacher', 'get_lineage', 'list_practices', 'get_collection', 'recommend', 'find_places', 'get_place', 'find_teachers', 'get_resources', 'get_lineage_path', 'what_to_study']
+  const want = ['search', 'fetch', 'get_topic', 'get_teacher', 'get_lineage', 'list_practices', 'get_collection', 'recommend', 'find_places', 'get_place', 'find_teachers', 'get_resources', 'get_lineage_path', 'what_to_study', 'list_courses', 'get_course', 'list_series', 'get_series']
   check(`tools/list has all ${want.length} tools`, want.every((x) => names.includes(x)), names.join(', '))
   check('every tool is annotated read-only', tl.result.tools.every((t) => t.annotations?.readOnlyHint === true))
   const st = tl.result.tools.find((t) => t.name === 'search'), ft = tl.result.tools.find((t) => t.name === 'fetch')

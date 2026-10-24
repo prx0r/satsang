@@ -568,15 +568,6 @@
 "judged": false
 },
 {
-"id": "Ffxb0NWuYIc",
-"speaker": "swami-lakshmanjoo",
-"title": "How you should meditate in Kashmir Shaivism",
-"min": 8,
-"views": 63429,
-"s": 0.9151,
-"judged": true
-},
-{
 "id": "Oh5ii6R6LTM",
 "speaker": "goenka",
 "title": "Anapana Meditation For All (English",
@@ -611,6 +602,15 @@
 "views": 705000,
 "s": 0.8704,
 "judged": true
+},
+{
+"id": "HSCR8zqTlLA",
+"speaker": "swami-lakshmanjoo",
+"title": "The importance of meditation during your life in Kashmir Shaivism",
+"min": 20,
+"views": 6705,
+"s": 0.8664,
+"judged": false
 },
 {
 "id": "f108YH71kVs",
@@ -660,6 +660,15 @@
 "judged": false
 },
 {
+"id": "eyM_c3wSh8s",
+"speaker": "goenka",
+"title": "Introduction to Anapana Meditation",
+"min": 16,
+"views": 153000,
+"s": 0.8901,
+"judged": true
+},
+{
 "id": "E3l4w8OX8Ww",
 "speaker": "tara-brach",
 "title": "Guided Meditation: Coming Home with the Breath",
@@ -694,15 +703,6 @@
 "views": 1475,
 "s": 0.7605,
 "judged": true
-},
-{
-"id": "ruYjuB2ezDw",
-"speaker": "swami-tyagananda",
-"title": "Three Breathing Exercises",
-"min": 52,
-"views": 7200,
-"s": 0.7157,
-"judged": false
 }
 ],
 "meditation/guided": [
@@ -1030,6 +1030,15 @@
 "judged": false
 },
 {
+"id": "YzoDzlP0mYk",
+"speaker": "laurence-freeman",
+"title": "Mantra I - Video Lectios with Laurence Freeman OSB",
+"min": 4,
+"views": 5900,
+"s": 0.7837,
+"judged": true
+},
+{
 "id": "8WJzCwK6Hus",
 "speaker": "angela-puca",
 "title": "GOETIA & THEURGY. Key of Solomon, Lemegeton",
@@ -1063,15 +1072,6 @@
 "min": 13,
 "views": 67461,
 "s": 0.7192,
-"judged": false
-},
-{
-"id": "1cdRktUsX3I",
-"speaker": "nazim-al-haqqani",
-"title": "Dhikr & Dua - Naqshbandi Short Khatm with Mawlana Shaykh Nazim",
-"min": 33,
-"views": 343000,
-"s": 0.7184,
 "judged": false
 }
 ],
@@ -1379,6 +1379,15 @@
 "min": 18,
 "views": 13000,
 "s": 0.798,
+"judged": true
+},
+{
+"id": "ivCzQx7DQJs",
+"speaker": "henry-shukman",
+"title": "Why Mu? Talk Two: The Essential Koan",
+"min": 49,
+"views": 7600,
+"s": 0.8494,
 "judged": true
 },
 {
@@ -2151,15 +2160,6 @@
 ],
 "death/bardo": [
 {
-"id": "PuBZ5ohp_c0",
-"speaker": "ringu-tulku",
-"title": "Beyond Birth and Death: Exploring the Four Bardos in Buddhism | Ringu Tulku",
-"min": 5,
-"views": 31000,
-"s": 0.6974,
-"judged": true
-},
-{
 "id": "QNMF4wLP3VA",
 "speaker": "robert-thurman",
 "title": "How do you study the Miss-Titled Tibetan Book of the Dead?  Robert Thurman : Buddhism Explained",
@@ -2185,6 +2185,15 @@
 "views": 275980,
 "s": 0.8464,
 "judged": false
+},
+{
+"id": "PuBZ5ohp_c0",
+"speaker": "ringu-tulku",
+"title": "Beyond Birth and Death: Exploring the Four Bardos in Buddhism | Ringu Tulku",
+"min": 5,
+"views": 31000,
+"s": 0.6819,
+"judged": true
 },
 {
 "id": "4njhZa6E5OY",
@@ -3779,6 +3788,15 @@
 "judged": true
 },
 {
+"id": "Ffxb0NWuYIc",
+"speaker": "swami-lakshmanjoo",
+"title": "How you should meditate in Kashmir Shaivism",
+"min": 8,
+"views": 63429,
+"s": 0.8995,
+"judged": true
+},
+{
 "id": "-OO-CPSpriI",
 "speaker": "swami-chinmayananda",
 "title": "Can one transcend regrets? · Taittiriya Upanishad",
@@ -3795,15 +3813,6 @@
 "views": 743769,
 "s": 0.7568,
 "judged": true
-},
-{
-"id": "ItPwOIgm7zg",
-"speaker": "dzongsar-khyentse",
-"title": "Teachings on Sutra Pure Gold, 22 May 2024, Bir, India",
-"min": 30,
-"views": 3100,
-"s": 0.7187,
-"judged": false
 }
 ],
 "texts/tantra": [
@@ -4021,13 +4030,13 @@
 ],
 "reality": [
 {
-"id": "k5J9E1Uu1UA",
+"id": "WGnWQ71mc0E",
 "speaker": "swami-lakshmanjoo",
-"title": "Why this world is not an illusion (maya) in Kashmir Shaivism",
-"min": 4,
-"views": 12606,
-"s": 0.8739,
-"judged": true
+"title": "The Essence of the Highest Reality... (Paramarthasara)",
+"min": 7,
+"views": 4843,
+"s": 0.8472,
+"judged": false
 },
 {
 "id": "5e0OCQ9K6xQ",
@@ -4100,7 +4109,7 @@
 "title": "Why this world is not an illusion (maya) in Kashmir Shaivism",
 "min": 4,
 "views": 12606,
-"s": 0.8739,
+"s": 0.8583,
 "judged": true
 },
 {
@@ -4344,15 +4353,6 @@
 "judged": true
 },
 {
-"id": "fJgeKlPZxmY",
-"speaker": "eric-steinhart",
-"title": "Plotinus - The Fall of the Soul",
-"min": 8,
-"views": 31839,
-"s": 0.6936,
-"judged": true
-},
-{
 "id": "fQCJGN2f7xI",
 "speaker": "father-spyridon",
 "title": "The Holy Spirit Can Unshackle Your Soul from the World",
@@ -4386,6 +4386,15 @@
 "min": 45,
 "views": 4422,
 "s": 0.6494,
+"judged": false
+},
+{
+"id": "mRq0oQZKArY",
+"speaker": "gregory-sadler",
+"title": "Plato, Phaedo | The Body as Prison to the Soul",
+"min": 11,
+"views": 33578,
+"s": 0.6472,
 "judged": false
 }
 ],
@@ -4784,7 +4793,7 @@
 "title": "The Imaginal Realm: Sufism, Myth, and the Mythic Imagination w/ William Chittick",
 "min": 7,
 "views": 1100,
-"s": 0.5825,
+"s": 0.5734,
 "judged": true
 },
 {

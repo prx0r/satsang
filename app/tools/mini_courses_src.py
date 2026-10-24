@@ -5,7 +5,7 @@ wisegraph/collections.json (replacing any earlier mini-course entries; other col
 talks must be gold (wisegraph/gold-judgements.json), practices must exist, readings must pass tools/licence_gate.py,
 places must exist. Dharma Seed is never cut (no Dharma Seed passages here); the Hareesh 2018 PDF is never linked.
 Run before build-collections.py:  python3 tools/mini_courses_src.py
-Unit shape: {n, title, intro?, items:[{role, ref, note?, url?, title?}]}. Course player: talk -> practice -> next (src/minicourse.js).
+Unit shape: {n, title, intro?, items:[{role, ref, note?, url?, title?}]}. Series player (were mini-courses): session by session (src/minicourse.js).
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); APP = os.path.dirname(HERE); WISER = os.path.dirname(APP)
@@ -22,7 +22,11 @@ def TR(it, url, label): it['transcript'] = {'url': url, 'label': label}; return 
 def OPT(it): it['optional'] = True; return it
 BETH_TR = 'Transcript on a volunteer site (not run by Beth Upton)'
 D = lambda pid, note: {'ref': 'place:' + pid, 'note': note}
-def unit(n, title, items, intro=None, listenFor=None): return {'n': n, 'title': title, **({'intro': intro} if intro else {}), **({'listenFor': listenFor} if listenFor else {}), 'items': items}
+def unit(n, title, items, intro=None, listenFor=None, purpose=None, remind=False): return {'n': n, 'title': title, **({'purpose': purpose} if purpose else {}), **({'intro': intro} if intro else {}), **({'listenFor': listenFor} if listenFor else {}), **({'remind': True} if remind else {}), 'items': items}
+# "Go deeper: full retreat" (SERIES-FORMULA step 9): a complete Dharma Seed retreat, linked whole and credited (CC BY-NC-ND 4.0:
+# never cut, trimmed or transcribed). The resource must be in site/data/wisegraph/resources*.json with kind 'retreat', free, and a
+# dharmaseed.org/retreats/<n>/ url; mini_courses_src checks it and resolves it onto the series as `retreat`.
+R = lambda rid, note=None: {'role': 'visit', 'ref': 'resource:' + rid, 'retreat': True, **({'note': note} if note else {})}
 
 C = []
 C.append({'id': 'how-buddhist-rebirth-works', 'title': 'How Buddhist rebirth works', 'topic': 'rebirth', 'tradition': 'buddhism', 'school': 'theravada',
@@ -105,7 +109,7 @@ C.append({'id': 'metta-loving-kindness', 'title': 'Loving-kindness, step by step
 
 C.append({'id': 'contemplating-death', 'title': 'Contemplating death', 'topic': 'death', 'tradition': 'buddhism', 'school': 'theravada',
   'traditions': ['theravada', 'plum-village', 'tibetan'], 'level': 'steady', 'minutes': 100,
-  'caution': 'Reflections on death can stir grief. Go gently, and set the course aside if it overwhelms you.',
+  'caution': 'Reflections on death can stir grief. Go gently, and set the series aside if it overwhelms you.',
   'intro': 'The Buddhist reflection on death as a source of freedom rather than fear: why to practise it, how the suttas teach it, how to rehearse it, and a gentle view of where we go.',
   'units': [
     unit(1, 'Why remember death', [W('5SBrCdRTX8o', 'Maranasati explained warmly by a Canadian abbot.')]),
@@ -182,25 +186,25 @@ SV = 'https://samathavipassanabhavana.wordpress.com/'
 C.insert(0, {'id': 'how-to-discern-past-lives', 'title': 'How to discern past lives', 'featured': True, 'flagship': True, 'cover': 'ypKa1J7KUow', 'topic': 'rebirth',
   'topics': ['rebirth', 'dependent-origination', 'kamma'], 'tradition': 'buddhism', 'school': 'pa-auk',
   'traditions': ['pa-auk', 'theravada', 'early-suttas', 'kashmir-shaivism'], 'level': 'steady', 'minutes': 540, 'orientationOnly': True,
-  'caution': 'Orientation only, not instruction. In the Pa-Auk method, discerning past lives requires deep jhāna and a qualified teacher, typically on a long retreat. The foundation offered here, mindfulness of breathing, is real and safe for anyone. Stop if anything in this course becomes distressing.',
-  'stepCaution': 'A reminder at every step: rebirth and the recollection of past lives are central to these traditions, but they are not independently verified. No results are promised. Stop if any of this becomes distressing.',
+  'caution': 'Orientation only, not instruction. In the Pa-Auk method, discerning past lives requires deep jhāna and a qualified teacher, typically on a long retreat. Rebirth and the recollection of past lives are central to these traditions but not independently verified, and no results are promised. The foundation offered here, mindfulness of breathing, is real and safe for anyone. Stop if anything in this series becomes distressing.',
+  'reminder': 'Reminder: orientation only. Not independently verified, no results promised; stop if this becomes distressing.',
   'intro': 'What the Pa-Auk tradition claims about seeing past lives, how rebirth-linking works in its Abhidhamma, which kamma and craving shape a next life, and why futures seen in meditation are possibilities, not destinies. Then a comparative arm from Kashmir Shaivism, the evidence question, and where both traditions end: liberation now. Six sessions, fifteen talks, a breath practice that is safe for anyone, and honest orientation on the rest.',
   'units': [
-    unit(1, 'The Pa-Auk claims', [
+    unit(1, 'The Pa-Auk claims', purpose='Hear exactly what the method claims about seeing past lives, and begin the one practice it rests on.', remind=True, items=[
       W('Um--CNljhLs', 'The fullest statement of what the method claims, from a nun trained at Pa-Auk (68 min).'),
       TR(W('uZ02opOsQwY', 'Five minutes on belief and evidence, from a former Pa-Auk nun.'), SV + '2024/12/31/why-should-i-believe-in-past-lives/', BETH_TR),
       P('mindfulness-of-breathing', 'The real foundation, safe for anyone: ten minutes a day with the breath where it touches the nostrils. The Pa-Auk path begins here too.'),
       P('recollection-of-past-lives-orientation', 'What the Pa-Auk method actually asks, where it is taught, and why it is learned only from a teacher. Orientation only.'),
       T('mn-4-fear-terror-bhaya-bherava-sutta', 'MN 4: the Buddha\'s own account of recollecting former lives on the night of his awakening.')],
       listenFor='Listen for exactly what is claimed: that after deep concentration a meditator can discern mind and matter in earlier lives, and that the method treats this as part of understanding dependent origination, never as a goal. Notice how the second talk handles belief.'),
-    unit(2, 'Rebirth-linking, technically', [
+    unit(2, 'Rebirth-linking, technically', purpose='How one life is said to condition the next, with nothing travelling across.', items=[
       TR(W('tcur6EplDVA', 'The moment of rebirth-linking (paṭisandhi) as a step of practice.'), SV + '2024/08/22/discerning-the-rebirth-moment/', BETH_TR),
       TR(W('VUq2MkODCBE', 'The tenth link: becoming conditions birth.'), SV + '2024/09/07/the-tenth-link-of-dependent-origination-bhava-paccaya-jati/', BETH_TR),
       W('1Ed8ILABR3U', 'The process of rebirth and its cause, given to meditators on retreat (43 min).'),
       V('https://sites.google.com/pamc.org.sg/sgtvsdhamma', 'Go deeper: Ven. Sugatavaṃsa\'s free course on dependent origination', 'Eleven English lessons from Pa-Auk Meditation Centre Singapore (2022, repeated in 2025), with downloadable notes. All eleven are also on Satsang as full talks.'),
-      P('mindfulness-of-breathing', 'Keep going, and let the sit lengthen as it steadies. Stable concentration is the ground everything else in this course assumes.')],
+      P('mindfulness-of-breathing', 'Keep going, and let the sit lengthen as it steadies. Stable concentration is the ground everything else in this series assumes.')],
       listenFor='Listen for how the last mind of one life is said to condition the first mind of the next, with nothing travelling across, and how "becoming" (bhava) is understood as kamma ripening into a new birth.'),
-    unit(3, 'Which kamma, craving, and possible futures', [
+    unit(3, 'Which kamma, craving, and possible futures', purpose='Which actions ripen into a next life, and why a future seen in meditation is not a fate.', remind=True, items=[
       TR(W('KFjdByRnQkE', 'Which of our actions ripens into the next life, and why.'), SV + '2025/06/18/which-kamma-produces-our-next-life/', BETH_TR),
       TR(W('wCIhw-ujFso', 'Craving, not fate, keeps the round turning.'), SV + '2026/03/02/craving-and-future-lives/', BETH_TR),
       TR(W('CMlFd94Dtlk', 'The key point: the futures a meditator sees are possible futures conditioned now, not fixed destinies, and the chain can be undone.'), SV + '2024/09/11/discerning-the-undoing-of-dependent-origination/', BETH_TR),
@@ -208,30 +212,33 @@ C.insert(0, {'id': 'how-to-discern-past-lives', 'title': 'How to discern past li
       P('the-five-remembrances', 'The fifth remembrance is the heart of this session: I am the owner of my actions, heir to my actions. Five minutes, daily.'),
       U('https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf', 'Visuddhimagga, chapter XIII (The Path of Purification, tr. Ñāṇamoli)', 'The classical manual\'s chapter on the higher knowledges, free from Access to Insight.')],
       listenFor='Listen for three things: which kamma tends to ripen at death, why craving is what keeps the round going, and the key point: a future seen in meditation is a possible future conditioned now, not a fixed destiny.'),
-    unit(4, 'Kashmir Shaivism on karma and rebirth', [
+    unit(4, 'Kashmir Shaivism on karma and rebirth', purpose='A second tradition tells the same story differently: one consciousness contracting itself.', items=[
       L('https://www.anuttaratrikakula.org/karma-and-rebirth/', 'Karma and Rebirth', 'Mark Dyczkowski', 'A free audio lecture on the causal link between karma and rebirth in Kashmir Shaivism, on his official archive.'),
       W('tGHfJ_bPsJ4', 'How the one consciousness comes to feel like a limited being, from the last master of the oral lineage.'),
       P('resting-in-the-gap-between-breaths-vijnana-bhairava-dharana', 'A breath practice from the Vijñāna Bhairava, safe for anyone: rest in the turn between breaths.')],
       listenFor='A comparative arm. Listen for how Kashmir Shaivism tells the story differently: one consciousness contracting itself into a limited being by its own power, with karma among the impurities that keep the contraction going, and rebirth as that contraction continuing.'),
-    unit(5, 'The evidence question', [
+    unit(5, 'The evidence question', purpose='What the texts and current research can and cannot show, held without forcing a verdict.', remind=True, items=[
       W('3hlvwOZupoU', 'A scholar-monk on the early texts and current research, with two Harvard respondents (2 h 15).'),
       W('ypKa1J7KUow', 'The method\'s founder in his own words: dependent origination across lives, Korea 2008 (84 min).'),
       P('recollecting-the-round', 'A reflection the Buddha gave on the long round of births. Whatever you conclude about the evidence, notice what the reflection does to craving.')],
       listenFor='Listen for how a careful scholar treats evidence: what the early texts actually say, what research on rebirth claims can and cannot show. Then hear the method\'s founder as a primary source. Hold both without forcing a verdict.'),
-    unit(6, 'Liberation now', [
+    unit(6, 'Liberation now', purpose='Where both traditions end: not collecting past lives, but being free now.', items=[
       TR(W('bkSdl9DTkyk', 'Liberation is not a place you travel to (Paramārthasāra, verse 60).'), 'https://www.lakshmanjooacademy.org/blog/swami-lakshmanjoo-reveals-what-liberation-is-in-kashmir-shaivism', 'The verse and transcript on the Lakshmanjoo Academy\'s own site'),
       W('B51VtErsJNE', 'An introduction to the Vātūlanātha Sūtras, thirteen sūtras on sudden awakening.'),
       W('ZrTkwSh3GRE', 'The first sūtra, read slowly and explained.'),
-      P('recognition-pratyabhijna-contemplation', 'Ten minutes of recognising what is already here.')],
+      P('recognition-pratyabhijna-contemplation', 'Ten minutes of recognising what is already here.'),
+      R('dharmaseed-pa-auk-ims-2011', 'The method in full: the 2011 four-month jhāna retreat at IMS Forest Refuge, opened and closed by Pa-Auk Sayadaw, with thirty-five talks by his assistant Sayadaw U Jagara, from the gradual training to mind and matter, their causes and the 24 conditions. Complete talks, listened to whole on Dharma Seed.')],
       listenFor='Both traditions end in the same place: the point is not to collect past lives but to be free now. Listen for "liberation is not somewhere else" and for what sudden awakening means.'),
   ],
   'further': ['upton-discerning-causes-and-conditions', 'upton-online-groups', 'sugatavamsa-dependent-origination-series', 'dyczkowski-locating-trika',
               'dyczkowski-development-of-tantras-ciis-2010', 'dyczkowski-doctrine-of-vibration-course', 'dyczkowski-journey-through-tantraloka',
               'lakshmanjoo-paramarthasara-series', 'lakshmanjoo-wisdom-of-kashmir-shaivism-series', 'baumer-vbt-retreat-playlist', 'baumer-vatulanatha-playlist',
               'baumer-youtube-playlists', 'hymc-netra-tantra-study-group', 'ramanand-fundamental-tenets-series'],
+  'retreat': 'dharmaseed-pa-auk-ims-2011',
   'deeper': [D('pa-auk-tawya', 'Pa-Auk Forest Monastery, Myanmar: the home of the method, with long retreats and daily interviews.'),
              D('brahma-vihari-penang', 'Sayalay Dīpaṅkarā\'s centre in Penang, teaching in the Pa-Auk line.'),
-             D('ishwar-ashram-srinagar', 'Swami Lakshmanjoo\'s ashram in Srinagar, for the Kashmir Shaivism arm.')]})
+             D('ishwar-ashram-srinagar', 'Swami Lakshmanjoo\'s ashram in Srinagar, for the Kashmir Shaivism arm.'),
+             D('ims-barre', 'Insight Meditation Society, Barre: its Forest Refuge hosted Pa-Auk Sayadaw\'s long jhāna retreats in 2008 and 2011 (the full retreat above).')]})
 
 # ---------- write + check ----------
 J = lambda p: json.load(open(p))
@@ -257,6 +264,11 @@ for c in C:
                     ed = (texts[r].get('editions') or [{}])[0]
                     it['title'] = texts[r].get('title'); it['url'] = ed.get('url')
                     if not linkable(licence_for(r, it['url'] or '')[0]) and not ed.get('free'): errs.append((c['id'], 'text licence not evidenced', r))
+            if k == 'resource':  # a checked resource (Go deeper: full retreat): resolved from resources*.json, never a cut
+                r0 = RES.get(r)
+                if not r0 or not r0.get('free'): errs.append((c['id'], 'resource missing or not free', r))
+                elif it.get('retreat') and not (r0.get('kind') == 'retreat' and __import__('re').match(r'https://(www\.)?dharmaseed\.org/retreats/\d+/?$', r0['url'])): errs.append((c['id'], 'retreat must be a whole Dharma Seed retreat page', r))
+                else: it.update({k2: v for k2, v in {'url': r0['url'], 'title': r0['title'], 'by': r0.get('by'), 'licence': r0.get('licence'), 'talks': r0.get('talks'), 'year': r0.get('year'), 'centre': r0.get('centre')}.items() if v})
             if k == 'url' and it['role'] in ('listen', 'visit'):  # audio / series links: must be a free resource Satsang has checked (resources*.json)
                 if not any(r.get('url') == it['url'] and r.get('free') for r in RES.values()): errs.append((c['id'], 'listen/visit link not a checked free resource', it['url']))
             elif k == 'url':
@@ -266,6 +278,10 @@ for c in C:
     for d in c['deeper']:
         if d['ref'][6:] not in places: errs.append((c['id'], 'no place', d['ref']))
         else: d['name'] = PLACES[d['ref'][6:]]['name']; d['country'] = PLACES[d['ref'][6:]].get('country')
+    if c.get('retreat'):  # the series' Go deeper: full retreat (shown as the last step and on the topic page)
+        r0 = RES.get(c['retreat'])
+        if not r0: errs.append((c['id'], 'no retreat resource', c['retreat']))
+        else: c['retreat'] = {k2: v for k2, v in {'id': r0['id'], 'title': r0['title'], 'url': r0['url'], 'by': r0.get('by'), 'centre': r0.get('centre'), 'year': r0.get('year'), 'talks': r0.get('talks'), 'licence': r0.get('licence'), 'note': r0.get('note'), 'people': r0.get('people')}.items() if v}
     if c.get('further'):  # "series to go further": resolved from resources*.json (link only; paid ones say so)
         out = []
         for rid in c['further']:

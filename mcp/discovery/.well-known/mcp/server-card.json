@@ -68,14 +68,26 @@
     },
     {
       "name": "list_courses",
-      "title": "Mini-courses",
-      "description": "Short editorial courses: 3-6 gold talks in a teaching order, 1-3 practices (with cautions; orientation-only ones say so), optional free readings and places to go deeper. Filter by topic or tradition. Returns {courses:[{id,title,level,topic,minutes,talks,practices,url}]}; pass an id to get_course for the steps.",
+      "title": "Series (mini-courses)",
+      "description": "Series (called mini-courses before 2026-10-25): short editorial series of sessions inside a topic: gold talks in a teaching order, practices (with cautions; orientation-only ones say so), free readings, an optional complete Dharma Seed retreat to go deeper, and places. Filter by topic or tradition. Returns {series:[...], courses:[...same...]}; pass an id to get_series (or get_course) for the sessions.",
       "readOnly": true
     },
     {
       "name": "get_course",
-      "title": "Mini-course",
-      "description": "One mini-course step by step: each step resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), plus places to go deeper.",
+      "title": "Series (mini-course)",
+      "description": "One series (mini-course) session by session: each session with its one-line purpose and items resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), the complete retreat to go deeper (linked whole, credited) and places.",
+      "readOnly": true
+    },
+    {
+      "name": "list_series",
+      "title": "Series",
+      "description": "Series (called mini-courses before 2026-10-25): short editorial series of sessions inside a topic: gold talks in a teaching order, practices (with cautions; orientation-only ones say so), free readings, an optional complete Dharma Seed retreat to go deeper, and places. Filter by topic or tradition. Returns {series:[...], courses:[...same...]}; pass an id to get_series (or get_course) for the sessions.",
+      "readOnly": true
+    },
+    {
+      "name": "get_series",
+      "title": "Series",
+      "description": "One series (mini-course) session by session: each session with its one-line purpose and items resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), the complete retreat to go deeper (linked whole, credited) and places.",
       "readOnly": true
     },
     {

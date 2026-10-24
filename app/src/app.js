@@ -21,7 +21,7 @@ import { createForYou } from './foryou.js' // FORYOU.md: the ranked, non-stale r
 import { createIntentions } from './intentions.js' // FORYOU.md §2: goals, current issues, curiosities (private, fading)
 import { createTV } from './tv.js' // FORYOU.md §4 / LOOP.md §4: lean-back TV mode (#tv)
 import { createCollections } from './collections.js' // collections, practices, the timer
-import { createMiniCourses } from './minicourse.js' // #courses + #course/<id>: gold talks in teaching order -> practice -> next
+import { createMiniCourses } from './minicourse.js' // Series (2026-10-25; were mini-courses): #series + #series/<id>[/<n>] (old #courses / #course/ redirect)
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
 import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
 import { initAsk } from './ask.js' // "Build me a path": the curator chat (#ask; chat/README.md)
@@ -2206,7 +2206,8 @@ function paintTopics() {
   el.innerHTML = `<div class="head"><h2>Topics</h2></div><p class="muted lede">Pick a question and hear how the traditions answer it, side by side. Then compare two takes and keep the one that resonates.</p>
     <div class="topicgrid">${heats.map(card).join('')}</div>
     ${pub ? (() => { const soon = TOPIC_HEATS.filter((h) => !pub.has(h.topic) && (n[h.topic] || 0) > 0); return soon.length ? `<section class="wsec"><div class="wsech"><h3>Talks arriving</h3><span class="muted small">Not enough traditions or teachers yet to compare</span></div><div class="wtopics">${soon.map((h) => `<a class="wchip" href="#topic/${esc(h.topic)}">${esc(h.title)}<small>${n[h.topic]}</small></a>`).join('')}</div></section>` : '' })() : ''}
-    <section class="wsec"><div class="wsech"><h3>Courses</h3></div><p class="muted">Short courses built from the talks most worth your time, with a practice for each.</p><p><a class="hbtn" href="#courses">Open the courses</a> <a class="hbtn" href="#collections">Journeys and practices</a></p></section>`
+    <div data-allseries></div>`
+  cols().load().then(() => { const box = el.querySelector('[data-allseries]'); if (!box) return; box.innerHTML = minicourses().topicsStrip() }).catch(() => {})
 
 }
 // ---------- wisegraph pages (src/wise.js) ----------
@@ -2218,6 +2219,7 @@ function wise() {
   WISE = createWise({ esc, thumb, clipTile, ytId, isFull, inBallot, servable, crowdClip, LS, clips: () => CLIPS, topicLabel: (t) => TOPIC_LABEL[t] || null,
     fillPlaces: (el) => places().fill(el).catch((e) => console.warn('places', e)),
     coursesFor: (t) => cols().load().then(() => cols().all().filter((c) => c.kind === 'mini-course' && (c.topic === t || (c.topics || []).includes(t)))),
+    seriesBlock: (L, label) => minicourses().topicBlock(L, label),
     playRound: (list) => playFrom(list, null), compare: (topic, list, colOf) => playFrom(list, colOf, topic), playTopic: (t) => flashTopic(t), order: (list, topic) => (wise().ready() ? ranker().railOrder(list, (c) => 0.6 * ranker().quality(c) + 0.4 * ranker().topicConf(c, topic), Math.max(8, Math.min(30, list.length))) : list) })
   return WISE
 }
@@ -2380,7 +2382,7 @@ async function paintCol() {
   if (!COLS?.ready()) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'
   await DATA_READY; await Promise.all([wise().load(), cols().load()])
   const h = location.hash, m = h.match(/^#collection\/([a-z0-9-]+)/), p = h.match(/^#practice\/([A-Za-z0-9_.:-]+)(?:\?(.*))?/)
-  if (m && cols().all().find((c) => c.id === m[1] && c.kind === 'mini-course')) { location.replace('#course/' + m[1]); return }
+  if (m && cols().all().find((c) => c.id === m[1] && c.kind === 'mini-course')) { location.replace('#series/' + m[1]); return }
   if (m) cols().paintCollection(el, m[1])
   else if (p) cols().paintPractice(el, p[1], Object.fromEntries(new URLSearchParams(p[2] || '')))
   else cols().paintList(el)
@@ -2391,7 +2393,7 @@ async function paintCourses() {
   const el = $('#coursesview'); if (!el) return
   if (!COLS?.ready()) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'
   await DATA_READY; await Promise.all([wise().load(), cols().load()])
-  const m = location.hash.match(/^#course\/([a-z0-9-]+)(?:\/(\d+))?/)
+  const m = location.hash.match(/^#series\/([a-z0-9-]+)(?:\/(\d+))?/)
   if (m) minicourses().paintCourse(el, m[1], m[2]); else minicourses().paintList(el)
 }
 // a resonance round from a page: two talks from `list`, from different traditions (colOf) when possible, then different
@@ -4286,23 +4288,28 @@ function paintMenu() {
   const m = $('#usermenu'); if (!m) return
   const lane = `<div class="um-sec um-row"><span>Lineup</span><span id="lanebox"></span></div>`
   const adv = ''
+  const GOTO = `<div class="um-sec um-goto"><span class="um-h">Go to</span><button type="button" class="um-item" data-um="foryou">For you</button><button type="button" class="um-item" data-um="model">Your model</button><button type="button" class="um-item" data-um="charts">Charts</button><button type="button" class="um-item" data-um="series">All series</button></div>`
   const legal = `<p class="um-legal"><a href="privacy.html" target="_blank" rel="noopener">Privacy</a> · <a href="terms.html" target="_blank" rel="noopener">Terms</a> · <a href="credits.html" target="_blank" rel="noopener">Credits</a></p>`
   if (signedIn()) {
     m.innerHTML = `<div class="um-sec um-me">${meHTML()}<div><b>${esc(USER.username || USER.name || 'You')}</b><small>${esc(USER.email || '')}</small></div></div>
       <div class="um-sec"><button type="button" class="um-item" data-um="profile">My profile</button><button type="button" class="um-item" data-um="history">History</button><button type="button" class="um-item" data-um="avatar">Change avatar</button>${USER.username ? '' : '<button type="button" class="um-item gold" data-um="edit">Finish your profile</button>'}</div>
-      ${lane}<div class="um-sec"><button type="button" class="um-item" data-um="signout">Sign out</button></div>${adv}
+      ${GOTO}${lane}<div class="um-sec"><button type="button" class="um-item" data-um="signout">Sign out</button></div>${adv}
       <div class="um-sec"><button type="button" class="um-del" data-um="delete">Delete my account</button>${legal}</div>`
   } else {
     const can = CFG.googleClientId && CFG.apiBase
     m.innerHTML = `<div class="um-sec">${can ? '<div id="gsibtn" class="gsibtn"><button type="button" class="um-google" disabled>Sign in with Google</button></div>' : '<button type="button" class="um-google" disabled>Sign in with Google <small>coming soon</small></button>'}
       <p class="um-note">Sync your picks, add friends and see how your taste matches theirs.</p></div>
-      ${lane}<div class="um-sec"><button type="button" class="um-item" data-um="profile">My profile</button><button type="button" class="um-item" data-um="history">History</button></div>${adv}<div class="um-sec">${legal}</div>`
+      ${lane}${GOTO}<div class="um-sec"><button type="button" class="um-item" data-um="profile">My profile</button><button type="button" class="um-item" data-um="history">History</button></div>${adv}<div class="um-sec">${legal}</div>`
     if (can) renderGoogleButton(m.querySelector('#gsibtn'))
   }
   laneSelect(); bindBsky(m)
   m.querySelectorAll('[data-um]').forEach((x) => (x.onclick = () => {
     const k = x.dataset.um; setMenu(false)
     if (k === 'history') { showTab('you'); youSub('history') }
+    else if (k === 'foryou') location.hash = 'foryou'
+    else if (k === 'model') location.hash = 'me'
+    else if (k === 'charts') { if (location.hash) history.replaceState(null, '', location.pathname + location.search); showTab('charts') }
+    else if (k === 'series') location.hash = 'series'
     else if (k === 'profile') goProfile('profile')
     else if (k === 'edit') openOnboarding()
     else if (k === 'avatar') openAvatarSheet()
@@ -4325,7 +4332,7 @@ function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('o
 function tabs() {
   const show = (id) => {
     const was = document.querySelector('section.view:not([hidden])')?.id
-    document.querySelectorAll('nav [data-tab]').forEach((b) => b.classList.toggle('on', b.dataset.tab === id || (id === 'arena' && b.dataset.tab === 'flash') || (id === 'you' && b.dataset.tab === 'me')))
+    document.querySelectorAll('nav [data-tab]').forEach((b) => b.classList.toggle('on', b.dataset.tab === id || (id === 'arena' && b.dataset.tab === 'flash') || (id === 'courses' && b.dataset.tab === 'topics')))
     document.querySelectorAll('section.view').forEach((s) => (s.hidden = s.id !== 'v-' + id))
     if (id !== 'arena') Object.values(screens).forEach((s) => s.pause())
     if (id === 'arena') ensureArena()
@@ -4348,7 +4355,7 @@ function tabs() {
     show('flash'); showChrome(2500)
   }
   document.querySelectorAll('[data-sub]').forEach((b) => (b.onclick = () => youSub(b.dataset.sub)))
-  document.querySelectorAll('[data-tab]').forEach((b) => (b.onclick = (e) => { e.preventDefault(); if (b.dataset.tab === 'flash' || b.dataset.tab === 'me') { if (b.dataset.tab === 'me') location.hash = 'me'; else if (location.hash) history.replaceState(null, '', location.pathname + location.search) } if (b.dataset.tab === 'comics') location.hash = TEACHSUB === 'traditions' ? 'traditions' : 'teachers'; if (b.dataset.tab === 'topics') location.hash = 'topics'; if (b.dataset.tab === 'courses') location.hash = 'courses'; if (b.dataset.tab === 'foryou') location.hash = 'foryou'; if (b.dataset.tab === 'places') { if (!/^#(places|place\/|country\/)/.test(location.hash)) location.hash = 'places'; else paintPlaces() } show(b.dataset.tab) }))
+  document.querySelectorAll('[data-tab]').forEach((b) => (b.onclick = (e) => { e.preventDefault(); if (b.dataset.tab === 'flash' || b.dataset.tab === 'me') { if (b.dataset.tab === 'me') location.hash = 'me'; else if (location.hash) history.replaceState(null, '', location.pathname + location.search) } if (b.dataset.tab === 'comics') location.hash = TEACHSUB === 'traditions' ? 'traditions' : 'teachers'; if (b.dataset.tab === 'topics') location.hash = 'topics'; if (b.dataset.tab === 'col' && !/^#(collections|collection\/|practice\/)/.test(location.hash)) location.hash = 'collections'; if (b.dataset.tab === 'foryou') location.hash = 'foryou'; if (b.dataset.tab === 'places') { if (!/^#(places|place\/|country\/)/.test(location.hash)) location.hash = 'places'; else paintPlaces() } show(b.dataset.tab) }))
   const route = () => {
     const ic = parseInvite(location.hash)
     if (ic) { history.replaceState(null, '', location.pathname + location.search); show('arena'); openInvite(ic).then((ok) => { if (ok && CLIPS.length) { moving = false; goNext(null) } }); return }
@@ -4365,7 +4372,8 @@ function tabs() {
     if (/^#tv\b/.test(location.hash)) { show('tv'); openTV(location.hash); return }
     if (/^#(collections|collection\/|practice\/)/.test(location.hash)) { show('col'); paintCol() }
     if (/^#ask\b/.test(location.hash)) { window.__ask?.view(); show('ask'); window.__ask?.open(); return }
-    if (/^#(courses\b|course\/)/.test(location.hash)) { show('courses'); paintCourses() }
+    { const old = location.hash.match(/^#course(s\b|\/([a-z0-9-]+)(\/\d+)?)/); if (old) { location.replace(old[2] ? `#series/${old[2]}${old[3] || ''}` : '#series'); return } } // pre-2026-10-25 links
+    if (/^#series\b/.test(location.hash)) { show('courses'); paintCourses() }
     if (/^#pair\b/.test(location.hash)) { history.replaceState(null, '', location.pathname + location.search); show('arena'); return }
     const fm = location.hash.match(/^#flash\/([a-z0-9/_-]+)/); if (fm) { flashTopic(fm[1], 1); return }
     if (!location.hash) show('flash')
@@ -4379,7 +4387,7 @@ function tabs() {
   try { initAsk() } catch (e) { console.warn('ask', e) }
   SHORT_MAX = devPrefs().maxSec
   await Promise.all([loadData(), loadConfig()])
-  dataReady(); loadGold().then(() => { if (/^#(topic\/|teacher\/|courses?\b|course\/)/.test(location.hash)) window._route?.() }); loadStats().then(() => { RANKER?.build && (TASTE_V++) })
+  dataReady(); loadGold().then(() => { if (/^#(topic\/|teacher\/|series\b)/.test(location.hash)) window._route?.() }); loadStats().then(() => { RANKER?.build && (TASTE_V++) })
   SHORT_MAX = devPrefs().maxSec // screening params may set the cap (only when their gate passed)
   await Promise.race([loadClipMeta(), new Promise((r) => setTimeout(r, 1500))]) // durations + crowd loudness; never block the show for long
   MODEL = fitLocal(); TRAITS = fitTraits()
