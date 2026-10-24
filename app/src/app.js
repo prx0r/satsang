@@ -24,6 +24,7 @@ import { createCollections } from './collections.js' // collections, practices, 
 import { createMiniCourses } from './minicourse.js' // #courses + #course/<id>: gold talks in teaching order -> practice -> next
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
 import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
+import { initAsk } from './ask.js' // "Build me a path": the curator chat (#ask; chat/README.md)
 
 // www.funnier.si/u/<username> (served by funnier-web with <base href="/">) -> the in-app route #u/<username>
 if (typeof location !== 'undefined' && typeof history !== 'undefined') { const m = location.pathname.match(/^(.*\/)u\/([A-Za-z0-9_]{3,20})\/?$/); if (m) history.replaceState(null, '', m[1] + '#u/' + m[2] + location.search)
@@ -4362,6 +4363,7 @@ function tabs() {
     if (/^#foryou\b/.test(location.hash)) show('foryou')
     if (/^#tv\b/.test(location.hash)) { show('tv'); openTV(location.hash); return }
     if (/^#(collections|collection\/|practice\/)/.test(location.hash)) { show('col'); paintCol() }
+    if (/^#ask\b/.test(location.hash)) { window.__ask?.view(); show('ask'); window.__ask?.open(); return }
     if (/^#(courses\b|course\/)/.test(location.hash)) { show('courses'); paintCourses() }
     if (/^#pair\b/.test(location.hash)) { history.replaceState(null, '', location.pathname + location.search); show('arena'); return }
     const fm = location.hash.match(/^#flash\/([a-z0-9/_-]+)/); if (fm) { flashTopic(fm[1], 1); return }
@@ -4373,6 +4375,7 @@ function tabs() {
 
 ;(async () => {
   tabs()
+  try { initAsk() } catch (e) { console.warn('ask', e) }
   SHORT_MAX = devPrefs().maxSec
   await Promise.all([loadData(), loadConfig()])
   dataReady(); loadGold().then(() => { if (/^#(topic\/|teacher\/|courses?\b|course\/)/.test(location.hash)) window._route?.() }); loadStats().then(() => { RANKER?.build && (TASTE_V++) })

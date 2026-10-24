@@ -286,7 +286,7 @@ export function createCurator(CAT, { llm = null } = {}) {
 
   function pickCollections(intent, tri) {
     const sc = iCol.search(query(intent)), rows = []
-    for (const [i, s] of sc) { const c = CAT.collections[i]; if ((tri.gentle || tri.groundingOnly) && c.eso) continue; if (tri.gentle && /death/.test(c.id) && (tri.intent === 'grief' || (!intent.topics.includes('death') && !intent.topics.includes('rebirth')))) continue; rows.push([s * (intent.topics.includes(c.top) ? 1.8 : 1), c]) }
+    for (const [i, s] of sc) { const c = CAT.collections[i]; if (c.k === 'mini-course') continue; if ((tri.gentle || tri.groundingOnly) && c.eso) continue; if (tri.gentle && /death/.test(c.id) && (tri.intent === 'grief' || (!intent.topics.includes('death') && !intent.topics.includes('rebirth')))) continue; rows.push([s * (intent.topics.includes(c.top) ? 1.8 : 1), c]) }
     rows.sort((a, b) => b[0] - a[0])
     return rows.filter(([f, c]) => f >= (rows[0]?.[0] || 0) * 0.5 && (intent.topics.includes(c.top) || intent.topics.some((t) => t.split('/')[0] === c.top) || f > 4)).slice(0, 2).map(([, c]) => c)
   }
@@ -423,7 +423,7 @@ export function createCurator(CAT, { llm = null } = {}) {
     if (tri.gentle) doable.sort((a, b) => (GENTLE.test(b.id) ? 1 : 0) - (GENTLE.test(a.id) ? 1 : 0))
     const mainP = doable[0] || null
     const content = queue.filter((q) => !(q.k === 'practise' && q.x === mainP))
-    const horizon = intent.days || Math.max(3, Math.min(10, content.length))
+    const horizon = intent.days || Math.max(onlyVisit ? 1 : 3, Math.min(10, content.length))
     if (mainP) { const q = queue.find((x) => x.x === mainP); steps.push({ ...practiceItem(mainP, intent, tri), why: q?.why ? `${q.why} ${whyFit(mainP, intent)}`.trim() : practiceItem(mainP, intent, tri).why, day: 1, daily: true, course: q?.course }) }
     let day = 1, ti = 0
     for (const q of content) {
@@ -438,7 +438,7 @@ export function createCurator(CAT, { llm = null } = {}) {
 
     const deeper = []
     for (const c of cols) deeper.push({ role: 'collection', kind: 'collection', ref: `collection:${c.id}`, id: c.id, title: c.t, why: c.why || `${first(c.intro, 170)}${c.days ? ` ${c.days} ${c.k === 'journey' ? 'days' : 'steps'}.` : ''}`, url: url.collection(c.id), orientationOnly: c.eso || undefined })
-    for (const c of courses.filter((c) => c.live)) deeper.push({ role: 'collection', kind: 'course', ref: `collection:${c.id}`, id: c.id, title: c.t, why: first(c.intro, 200), url: url.collection(c.id), orientationOnly: /orientation only/i.test(c.caut || '') || undefined })
+    for (const c of courses.filter((c) => c.live)) deeper.push({ role: 'collection', kind: 'course', ref: `collection:${c.id}`, id: c.id, title: c.t, why: `${first(c.intro, 200)} Plays one step at a time, with your progress kept.`, url: `${SITE}/#course/${c.id}`, orientationOnly: /orientation only/i.test(c.caut || '') || undefined })
     const placeList = [...coursePlaces.filter(({ p }) => !intent.country || p.c === intent.country).map(({ p, why }) => ({ p, why })), ...places.map((p) => ({ p }))].filter((x, i, a) => a.findIndex((y) => y.p.id === x.p.id) === i).slice(0, Math.max(nPlaces, coursePlaces.length ? 2 : 0))
     for (const { p, why } of placeList) deeper.push({ role: 'visit', kind: 'place', ref: `place:${p.id}`, id: p.id, title: p.n, by: [p.city, CAT.countries[p.c] || p.c].filter(Boolean).join(', '), tradition: (p.tr || [])[0] ? T(p.tr[0]) : null,
       why: why ? `${why}${(p.ret || [])[0] ? ` Programme: ${p.ret[0].n}${p.ret[0].len ? ` (${p.ret[0].len})` : ''}; dates on the place's own schedule.` : ''}` : whyPlace(p, intent), programmes: (p.ret || []).slice(0, 3), url: url.visit(p.id) })
@@ -481,7 +481,7 @@ export function createCurator(CAT, { llm = null } = {}) {
     const places = pack.deeper.filter((d) => d.role === 'visit')
     if (places.length) P.push(`To go deeper in person: ${places.slice(0, 3).map((p) => p.title).join(', ')}${intent.retreat?.weekend ? '; check each schedule for weekend dates' : ''}.`)
     else if (pack.deeper.some((d) => d.role === 'collection')) P.push(`When you want more, ${pack.deeper.find((d) => d.role === 'collection').title} goes further.`)
-    if (tri.notes.length) P.push(tri.notes[0])
+    // safety notes travel separately (pack.safety.notes) and are shown above the steps, never buried in the prose
     if (!ts.length && !ps.length && !rs.length && !places.length) P.push("I couldn't find a close match in Satsang's catalog for that. Try naming a topic (rebirth, death, breath, kindness), a tradition, or a place.")
     return P.join(' ')
   }
