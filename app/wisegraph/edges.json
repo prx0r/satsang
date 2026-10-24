@@ -3599,6 +3599,36 @@
    "src": "https://avgnagpur.org/"
   },
   {
+   "from": "pa-auk-sayadaw",
+   "to": "beth-upton",
+   "type": "studied_with",
+   "conf": "high",
+   "note": "Ordained at Pa-Auk in 2008; five years training under Pa-Auk Sayadaw.",
+   "src": "https://bethupton.com/about-me/",
+   "checked": "2026-10-24"
+  },
+  {
+   "from": "beth-upton",
+   "to": "pa-auk",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
+   "from": "sugatavamsa",
+   "to": "pa-auk",
+   "type": "lineage_of",
+   "conf": "medium",
+   "note": "Teaches the Abhidhamma courses at Pa-Auk Meditation Centre Singapore (no published account of his own training found).",
+   "src": "https://sites.google.com/pamc.org.sg/sgtvsdhamma",
+   "checked": "2026-10-24"
+  },
+  {
+   "from": "sayalay-dipankara",
+   "to": "pa-auk",
+   "type": "lineage_of",
+   "conf": "high"
+  },
+  {
    "from": "swami-lakshmanjoo",
    "to": "alexis-sanderson",
    "type": "studied_with",

@@ -134,7 +134,7 @@ for (const c of CUR?.courses || []) {
   }
   const deeper = (c.deeper || []).map((d) => { const [k, id] = d.ref ? String(d.ref).split(/:(.*)/s) : ['place', d.id]; return idsOf[k]?.has(id) ? { k, id, note: clean(d.note || '', 200) } : null }).filter(Boolean)
   if (steps.length < 3) continue
-  courses.push({ id: c.id, t: c.title, top: c.topic || null, lvl: c.level || null, trs: c.traditions || [], caut: c.caution || undefined, intro: clean(c.intro, 300), steps, deeper, live: liveCol.has(c.id) ? 1 : 0, kind: c.kind || 'mini-course' })
+  courses.push({ id: c.id, t: c.title, top: c.topic || null, lvl: c.level || null, trs: c.traditions || [], caut: c.caution || undefined, intro: clean(c.intro, 300), steps, deeper, live: liveCol.has(c.id) ? 1 : 0, kind: c.kind || 'mini-course', ...(c.featured ? { feat: 1 } : {}) })
   for (const st of steps) if (st.note && !WHY.has(st.id)) WHY.set(st.id, st.note)
 }
 

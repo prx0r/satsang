@@ -1765,3 +1765,14 @@ body.tv-on #toast{display:none}
 @media (max-width:430px){.top nav button{padding:8px 2px;font-size:12px;letter-spacing:-.015em}}
 @media (max-width:360px){.top nav button{font-size:11px}}
 #coursesview .railskel,#colview .railskel{overflow:hidden;max-width:100%}
+/* flagship course (2026-10-24): featured card, what to listen for, recurring caution, topic-page course cards */
+.mcard.mfeat{grid-column:1/-1;border-color:rgba(232,207,150,.38)}
+.mcard.mfeat .mimg{aspect-ratio:21/6}
+.mcard.mfeat b{font-size:30px}
+.mlisten{margin:6px 0 4px;color:var(--text);font-size:14.5px;line-height:1.55;max-width:760px;border-left:2px solid rgba(232,207,150,.5);padding:2px 0 2px 12px}
+.mlisten b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:3px}
+.mrecur{margin:14px 0 0;max-width:760px}
+.mdeep{border-left:2px solid var(--line);padding-left:12px}
+.tcourses .pprg.tfeat{border-color:rgba(232,207,150,.4)}
+@media (max-width:640px){.mcard.mfeat b{font-size:23px}.mcard.mfeat .mimg{aspect-ratio:16/7}}
+

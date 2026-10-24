@@ -86,8 +86,13 @@ for c in cols['collections']:
                     p = cols['practices'][rid]; st['practice'] = {'id': rid, 'name': p['name'], 'needsTeacher': p.get('needsTeacher'), 'cautions': p.get('cautions') or [], 'site': f"{BASE}/practice/{rid}"}
                 if kind == 'place': st['place'] = rid
                 if kind in ('url', 'text') or it.get('url'): st['url'] = it.get('url')
+                if it.get('title') and kind in ('url', 'text'): st['title'] = it['title']
+                if it.get('by'): st['by'] = it['by']
+                if u.get('listenFor'): st['listenFor'] = u['listenFor']
                 steps.append(st)
         rec.update({'level': c.get('level'), 'traditions': c.get('traditions') or [], 'caution': c.get('caution'), 'deeper': [dict(PL.get(d['ref'][6:], {}), note=d.get('note')) for d in c.get('deeper') or []], 'steps': steps})
+        for k in ('featured', 'stepCaution', 'further', 'school', 'orientationOnly'):
+            if c.get(k): rec[k] = c[k]
         courses.append(rec)
     else: other.append(rec)
 

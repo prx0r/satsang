@@ -1,0 +1,284 @@
+{
+ "_note": "ext-47-past-lives (sources/ext-47-past-lives/build.py). Link only; Paid marked; nothing bought.",
+ "resources": [
+  {
+   "id": "dyczkowski-karma-and-rebirth",
+   "title": "Karma and Rebirth: a lecture by Mark Dyczkowski (free audio)",
+   "url": "https://www.anuttaratrikakula.org/karma-and-rebirth/",
+   "kind": "audio-lecture",
+   "free": true,
+   "licence": "free to listen on the official archive (link only)",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "mark-dyczkowski"
+   ],
+   "note": "How karma and rebirth are causally linked in Kashmir Śaivism. Listen on the archive's page.",
+   "source_url": "https://www.anuttaratrikakula.org/karma-and-rebirth/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "dyczkowski-development-of-tantras-ciis-2010",
+   "title": "Development of Tantras in the Context of Buddhism and Upanishads (CIIS, 15 June 2010; free audio)",
+   "url": "https://www.anuttaratrikakula.org/development-of-tantras-in-the-context-of-buddhism-and-upanishads/",
+   "kind": "audio-lecture",
+   "free": true,
+   "licence": "free to listen on the official archive (link only)",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "mark-dyczkowski"
+   ],
+   "note": "A talk at the California Institute of Integral Studies: the first verse of the Tantrāloka and how the tantras grew beside Buddhism and the Upaniṣads.",
+   "source_url": "https://www.anuttaratrikakula.org/development-of-tantras-in-the-context-of-buddhism-and-upanishads/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "dyczkowski-locating-trika",
+   "title": "Locating Trika (free course, Mark Dyczkowski)",
+   "url": "https://www.anuttaratrikakula.org/locating-trika/",
+   "kind": "audio-course",
+   "free": true,
+   "licence": "free to listen on the official archive (link only)",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "mark-dyczkowski"
+   ],
+   "note": "Short units placing Abhinavagupta's Trika within the wider tantric corpus.",
+   "source_url": "https://www.anuttaratrikakula.org/locating-trika/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "dyczkowski-doctrine-of-vibration-course",
+   "title": "The Doctrine of Vibration: 15 lectures (Mark Dyczkowski) — Paid",
+   "url": "https://www.anuttaratrikakula.org/doctrine-of-vibration/",
+   "kind": "course",
+   "free": false,
+   "licence": "paid course on the official archive",
+   "price": "US$50",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "mark-dyczkowski"
+   ],
+   "note": "The Spanda teaching chapter by chapter. Paid: US$50 for 15 audios and videos (price as listed 2026-10-24).",
+   "source_url": "https://www.anuttaratrikakula.org/doctrine-of-vibration/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "dyczkowski-journey-through-tantraloka",
+   "title": "A Journey Through the Tantrāloka: 32 lessons (Mark Dyczkowski) — Paid",
+   "url": "https://www.anuttaratrikakula.org/a-journey-through-tantraloka-chapter-1-37/",
+   "kind": "course",
+   "free": false,
+   "licence": "paid course on the official archive",
+   "price": "US$100",
+   "traditions": [
+    "trika",
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "mark-dyczkowski"
+   ],
+   "note": "A tour of all 37 chapters, about 50 hours. Paid: US$100 (price as listed 2026-10-24).",
+   "source_url": "https://www.anuttaratrikakula.org/a-journey-through-tantraloka-chapter-1-37/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "lakshmanjoo-paramarthasara-series",
+   "title": "Paramārthasāra: Essence of the Supreme Reality, five-part video series (Swami Lakshmanjoo) — Paid",
+   "url": "https://lakshmanjoo.mykajabi.com/purchase-video-series-paramathasara",
+   "kind": "video-series",
+   "free": false,
+   "licence": "paid video series from the Lakshmanjoo Academy",
+   "price": "US$99",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "swami-lakshmanjoo"
+   ],
+   "note": "Abhinavagupta's hundred verses with Lakshmanjoo's commentary, about 5 hours. Paid: US$99 (price as listed 2026-10-24).",
+   "source_url": "https://www.lakshmanjooacademy.org/online-courses",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "lakshmanjoo-wisdom-of-kashmir-shaivism-series",
+   "title": "The Wisdom of Kashmir Shaivism, seven-part video series (Swami Lakshmanjoo) — Paid",
+   "url": "https://www.lakshmanjooacademy.org/purchase-video-series-wisdom-of-kashmir-shaivism",
+   "kind": "video-series",
+   "free": false,
+   "licence": "paid video series from the Lakshmanjoo Academy",
+   "price": "US$99",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "swami-lakshmanjoo"
+   ],
+   "note": "The verses Lakshmanjoo chose in 1987 for daily recitation, with his explanations, about 7 hours. Paid: US$99 (price as listed 2026-10-24).",
+   "source_url": "https://www.lakshmanjooacademy.org/online-courses",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "hymc-netra-tantra-study-group",
+   "title": "Netra Tantra study group, parts 1-4 (Himalayan Yoga & Meditation Center)",
+   "url": "https://www.hymc.org/monthly-study-group",
+   "kind": "study-group",
+   "free": true,
+   "licence": "free recordings on the centre's own page (link only)",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "bettina-baumer"
+   ],
+   "note": "A monthly study group reading the Netra Tantra in Bettina Bäumer's translation. A group's readings, not her own lectures.",
+   "source_url": "https://www.hymc.org/monthly-study-group",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "ramanand-fundamental-tenets-series",
+   "title": "Fundamental Tenets of Kashmir Śaivism: four lectures by Dr R. Ramanand (January 2023)",
+   "url": "https://www.youtube.com/watch?v=ukNWsqtv9Uk",
+   "kind": "video-series",
+   "free": true,
+   "licence": "free on YouTube (official college upload)",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "r-ramanand"
+   ],
+   "note": "Four long public lectures, hosted by Sree Krishna College, Guruvayur. All four are on Satsang as full talks.",
+   "source_url": "https://www.youtube.com/watch?v=ukNWsqtv9Uk",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "baumer-vbt-retreat-playlist",
+   "title": "Vijñāna Bhairava Tantra: complete retreat lectures (Bettina Sharada Bäumer, Rishikesh 2014)",
+   "url": "https://www.youtube.com/playlist?list=PLHROeEJSfAPSWxWFdunW_cTRcOF4sQLPP",
+   "kind": "video-series",
+   "free": true,
+   "licence": "free on her own YouTube channel",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "bettina-baumer"
+   ],
+   "note": "The ten-day course at Swami Rama Sadhaka Grama (Nov 2014), 17 lectures. All lectures are on Satsang as full talks.",
+   "source_url": "https://www.ahymsin.org/docs2/News/1411Nov/06.html",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "baumer-vatulanatha-playlist",
+   "title": "Vātūlanātha Sūtras: 13 sūtras on sudden awakening (Bettina Sharada Bäumer, 2021)",
+   "url": "https://www.youtube.com/playlist?list=PLHROeEJSfAPSLoJrKRSz4dVlQmuTdRLZR",
+   "kind": "video-series",
+   "free": true,
+   "licence": "free on her own YouTube channel",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "bettina-baumer"
+   ],
+   "note": "Short talks, one per sūtra, with an introduction.",
+   "source_url": "https://www.youtube.com/playlist?list=PLHROeEJSfAPSLoJrKRSz4dVlQmuTdRLZR",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "baumer-youtube-playlists",
+   "title": "Bettina Sharada Bäumer: all teaching playlists",
+   "url": "https://www.youtube.com/@bettinasharadabaumer174/playlists",
+   "kind": "video-series",
+   "free": true,
+   "licence": "free on her own YouTube channel (linked from utpaladeva.in)",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "people": [
+    "bettina-baumer"
+   ],
+   "note": "Vijñāna Bhairava, Netra Tantra, Śiva Sūtras, Spanda, Pratyabhijñāhṛdayam and more.",
+   "source_url": "https://www.utpaladeva.in/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "sugatavamsa-dependent-origination-series",
+   "title": "Dependent Origination (Abhidhamma part 7): free lecture series by Ven. Sugatavaṃsa",
+   "url": "https://sites.google.com/pamc.org.sg/sgtvsdhamma",
+   "kind": "video-series",
+   "free": true,
+   "licence": "free from Pa-Auk Meditation Centre Singapore",
+   "traditions": [
+    "pa-auk"
+   ],
+   "people": [
+    "sugatavamsa"
+   ],
+   "note": "Eleven English lessons from July 2022 (on Satsang as full talks) and a 2025 repeat; notes downloadable from the centre.",
+   "source_url": "https://sites.google.com/pamc.org.sg/sgtvsdhamma",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "upton-discerning-causes-and-conditions",
+   "title": "Beth Upton: Discerning Causes and Conditions sequence (lessons with volunteer transcripts)",
+   "url": "https://samathavipassanabhavana.wordpress.com/2024/08/16/discerning-causes-and-conditions/",
+   "kind": "lesson-sequence",
+   "free": true,
+   "licence": "volunteer transcription site, not run by Beth Upton (link only)",
+   "traditions": [
+    "pa-auk"
+   ],
+   "people": [
+    "beth-upton"
+   ],
+   "note": "Her video lessons on past lives, rebirth and dependent origination in order, each with a transcript made by a volunteer.",
+   "source_url": "https://samathavipassanabhavana.wordpress.com/2024/08/16/discerning-causes-and-conditions/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  },
+  {
+   "id": "upton-online-groups",
+   "title": "Beth Upton: online groups and one-to-one guidance (donation basis)",
+   "url": "https://bethupton.com/online-instruction/",
+   "kind": "teaching",
+   "free": true,
+   "licence": "teacher's own site",
+   "traditions": [
+    "pa-auk"
+   ],
+   "people": [
+    "beth-upton"
+   ],
+   "note": "Where to learn the Pa-Auk method from a trained teacher; one-to-one slots are announced in her newsletter.",
+   "source_url": "https://bethupton.com/online-instruction/",
+   "checked": "2026-10-24",
+   "group": "ext-47-past-lives"
+  }
+ ]
+}

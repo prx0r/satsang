@@ -374,3 +374,8 @@ RESOURCE_URL_FIX = {
     'mallinson-nath-sampradaya': 'https://eprints.soas.ac.uk/17972/',  # old eprints PDF path; the record now lives on SOAS Research Online (this URL redirects there)
     'ltwa-free-downloads': 'https://tibetanlibrary.org/free-download-resources/',  # was the LTWA home page; this is the Library's free-downloads page
 }
+# tradition blurbs that were a sourcer's working note, not a description (fixed at the source, 2026-10-24 ext-47)
+TRAD_BLURB_FIX = {
+    'pa-auk': 'The Burmese system taught by Pa-Auk Sayadaw from the Visuddhimagga and Abhidhamma: deep jhāna first, usually through mindfulness of breathing, then insight into mind and matter, their causes across past and future lives, and dependent origination.',
+}
+

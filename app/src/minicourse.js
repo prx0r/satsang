@@ -15,23 +15,24 @@ export function createMiniCourses(d) {
   const items = (c) => c.units.flatMap((u) => u.items)
   const count = (c, role) => items(c).filter((i) => i.role === role).length
   const mins = (c) => c.minutes || Math.round(items(c).reduce((s, i) => { const k = clipOf(i); return s + (k ? secOf(k) / 60 : i.role === 'practise' ? 10 : 0) }, 0))
+  const span = (c) => { const m = mins(c); return m >= 120 ? `${Math.round(m / 60)} hours` : `${m} min` }
   const secOf = (k) => (k.end ? k.end - (k.start || 0) : Number(k.sec) || Number(k.dur) || 0)
   const fmt = (k) => { const m = Math.round(secOf(k) / 60); return m ? m + ' min' : '' }
   const prog = (c) => d.profile.journey(c.id)
 
   function card(c) {
-    const j = prog(c), n = c.units.length, done = j?.done?.length || 0
-    const first = items(c).map(clipOf).find(Boolean)
-    return `<a class="mcard" href="#course/${esc(c.id)}">
+    const j = prog(c), n = c.units.length, done = j?.done?.length || 0, feat = c.featured
+    const first = (c.cover && d.byId(c.cover)) || items(c).map(clipOf).find(Boolean)
+    return `<a class="mcard${feat ? ' mfeat' : ''}" href="#course/${esc(c.id)}">
       ${first ? `<span class="mimg" style="--img:url(${esc(d.thumb(first.id))})"></span>` : ''}
-      <span class="mbody"><span class="eyebrow">${esc(LEVEL[c.level] || 'Course')} \u00b7 ${n} steps \u00b7 ${mins(c)} min${c.orientationOnly ? ' \u00b7 orientation' : ''}</span>
+      <span class="mbody"><span class="eyebrow">${feat ? '<span class="gtxt">Featured course</span> \u00b7 ' : ''}${esc(LEVEL[c.level] || 'Course')} \u00b7 ${n} steps \u00b7 ${span(c)}${c.orientationOnly ? ' \u00b7 orientation' : ''}</span>
       <b>${esc(c.title)}</b><span class="mintro">${esc(c.intro)}</span>
-      <span class="mmeta">${count(c, 'watch')} talks \u00b7 ${count(c, 'practise')} ${count(c, 'practise') === 1 ? 'practice' : 'practices'}${count(c, 'read') ? ` \u00b7 ${count(c, 'read')} to read` : ''}</span>
+      <span class="mmeta">${count(c, 'watch')} talks${count(c, 'listen') ? ` \u00b7 ${count(c, 'listen')} to listen` : ''} \u00b7 ${count(c, 'practise')} ${count(c, 'practise') === 1 ? 'practice' : 'practices'}${count(c, 'read') ? ` \u00b7 ${count(c, 'read')} to read` : ''}</span>
       ${j ? `<span class="mprog" style="--p:${Math.round((100 * done) / n)}%"><i></i><em>${done >= n ? 'Finished' : `${done} of ${n} done`}</em></span>` : ''}</span></a>`
   }
 
   function paintList(el) {
-    const L = all()
+    const L = [...all()].sort((a, b) => !!b.featured - !!a.featured)
     el.innerHTML = `<div class="head"><h2>Courses</h2></div>
       <p class="muted lede">Short courses built from the talks most worth your time: a few in a teaching order, a practice to go with them, something to read, and where to go deeper. One step at a time, at your own pace.</p>
       ${L.length ? `<div class="mgrid">${L.map(card).join('')}</div>` : '<div class="wempty"><p class="muted">Courses are on their way.</p></div>'}
@@ -43,10 +44,10 @@ export function createMiniCourses(d) {
     if (it.role === 'watch') {
       const k = clipOf(it); if (!k) return ''
       const who = k.teacher || k.comic || ''
-      return `<article class="mstep-item mwatch"><span class="eyebrow">Watch \u00b7 ${esc(fmt(k))}${k.gold ? ' \u00b7 <span class="gtxt">Gold</span>' : ''}</span>
+      return `<article class="mstep-item mwatch"><span class="eyebrow">${it.optional ? 'Optional \u00b7 ' : ''}Watch \u00b7 ${esc(fmt(k))}${k.gold ? ' \u00b7 <span class="gtxt">Gold</span>' : ''}</span>
         <button type="button" class="mplayer" data-play="${esc(k.id)}" aria-label="Play ${esc(k.segTitle || k.title)}"><img src="${esc(d.thumb(k.id))}" alt="" loading="lazy"><span class="mplay" aria-hidden="true"></span></button>
         <b class="mtitle">${esc(k.segTitle || k.title)}</b><span class="muted small">${esc(who)}</span>${note}
-        <p class="muted small"><a href="#watch/${encodeURIComponent(k.id)}">Open in the talk view</a></p></article>`
+        <p class="muted small"><a href="#watch/${encodeURIComponent(k.id)}">Open in the talk view</a>${it.transcript?.url ? ` \u00b7 <a href="${esc(it.transcript.url)}" target="_blank" rel="noopener">${esc(it.transcript.label || 'Transcript')} \u2197</a>` : ''}</p></article>`
     }
     if (it.role === 'practise') {
       const p = d.cols().practice(it.ref?.slice(9)); if (!p) return ''
@@ -55,6 +56,8 @@ export function createMiniCourses(d) {
         ${p.cautions?.length ? `<div class="fl-caution">${p.cautions.slice(0, 2).map((x) => `<p>${esc(x)}</p>`).join('')}</div>` : ''}
         <a class="btn ${p.needsTeacher ? 'ghost' : 'gold'}" href="#practice/${esc(p.id)}?from=${esc(c.id)}&unit=${u.n}">${p.needsTeacher ? 'Read about it' : 'Begin the sit'}</a></article>`
     }
+    if (it.role === 'listen' && it.url) return `<article class="mstep-item"><span class="eyebrow">Listen \u00b7 free audio</span><b class="mtitle">${esc(it.title || 'Lecture')}</b>${it.by ? `<span class="muted small">${esc(it.by)}</span>` : ''}${note}<a class="hbtn" href="${esc(it.url)}" target="_blank" rel="noopener">Listen on the official archive \u2197</a></article>`
+    if (it.role === 'visit' && it.url) return `<article class="mstep-item mdeep"><span class="eyebrow">Go deeper \u00b7 free</span><b class="mtitle">${esc(it.title || 'More')}</b>${note}<a class="hbtn" href="${esc(it.url)}" target="_blank" rel="noopener">Open \u2197</a></article>`
     if (it.role === 'read' && it.url) return `<article class="mstep-item"><span class="eyebrow">Read \u00b7 free</span><b class="mtitle">${esc(it.title || 'Reading')}</b>${note}<a class="hbtn" href="${esc(it.url)}" target="_blank" rel="noopener">Open the text \u2197</a></article>`
     if (it.role === 'reflect') return `<article class="mstep-item"><span class="eyebrow">Reflect</span><p class="fl-reflect">${esc(it.note || '')}</p></article>`
     return ''
@@ -69,22 +72,25 @@ export function createMiniCourses(d) {
     const deeper = (c.deeper || []).filter((x) => x.name)
     el.innerHTML = `<a class="back" href="#courses">\u2190 Courses</a>
       <section class="whero wtopic mhero"><div class="whin">
-        <span class="eyebrow">Course \u00b7 ${esc(LEVEL[c.level] || '')} \u00b7 ${n} steps \u00b7 about ${mins(c)} min</span>
+        <span class="eyebrow">Course \u00b7 ${esc(LEVEL[c.level] || '')} \u00b7 ${n} steps \u00b7 about ${span(c)}</span>
         <h1>${esc(c.title)}</h1><p class="tag">${esc(c.intro)}</p>
         ${c.caution ? `<div class="fl-caution"><p>${esc(c.caution)}</p></div>` : ''}
-        <div class="stats">${[[count(c, 'watch'), 'Talks'], [count(c, 'practise'), count(c, 'practise') === 1 ? 'Practice' : 'Practices'], [count(c, 'read'), 'Readings'], j ? [done.size, 'Done'] : null].filter((x) => x && x[0]).map(([v, l]) => `<div><b>${v}</b><span>${esc(l)}</span></div>`).join('')}</div>
+        <div class="stats">${[[count(c, 'watch'), 'Talks'], [count(c, 'listen'), 'Audio'], [count(c, 'practise'), count(c, 'practise') === 1 ? 'Practice' : 'Practices'], [count(c, 'read'), 'Readings'], j ? [done.size, 'Done'] : null].filter((x) => x && x[0]).map(([v, l]) => `<div><b>${v}</b><span>${esc(l)}</span></div>`).join('')}</div>
         <div class="wcta">${!j ? '<button type="button" class="btn gold" data-start="1">Start the course</button>' : next ? `<button type="button" class="btn gold" data-go="${next.n}">${cur && cur.n === next.n ? 'Continue below' : `Resume: step ${next.n}`}</button>` : '<span class="muted">Finished. Look back over any step.</span>'}
           <button type="button" class="btn ghost" data-save="1">${d.profile.has('collection:' + c.id) ? 'Saved' : 'Save'}</button></div>
         <p class="muted small">Your progress stays on this device and syncs anonymously.</p>
       </div></section>
       ${cur ? `<section class="wsec mnow" id="mnow"><div class="wsech"><h3>Step ${cur.n} of ${n}: ${esc(cur.title)}</h3><span class="muted small">${done.has(cur.n) ? 'Done' : 'Now'}</span></div>
         ${cur.intro ? `<p class="muted">${esc(cur.intro)}</p>` : ''}
+        ${cur.listenFor ? `<p class="mlisten"><b>What to listen for</b>${esc(cur.listenFor)}</p>` : ''}
         <div class="mitems">${cur.items.map((it) => itemHTML(it, c, cur)).join('')}</div>
+        ${c.stepCaution ? `<p class="muted small mrecur">${esc(c.stepCaution)}</p>` : ''}
         <p class="fl-acts mnav">${cur.n > 1 ? `<button type="button" class="hbtn" data-go="${cur.n - 1}">\u2190 Previous step</button>` : ''}
           ${done.has(cur.n) ? `<button type="button" class="hbtn" data-undo="${cur.n}">Mark as not done</button>${cur.n < n ? `<button type="button" class="btn gold" data-go="${cur.n + 1}">Next step \u2192</button>` : ''}`
             : `<button type="button" class="btn gold" data-done="${cur.n}">${cur.n < n ? 'Done: next step \u2192' : 'Done: finish the course'}</button>`}</p></section>` : ''}
-      <section class="wsec"><div class="wsech"><h3>The steps</h3></div><ol class="msteps">${c.units.map((u) => { const roles = [...new Set(u.items.map((i) => i.role))].map((r) => ({ watch: 'talk', practise: 'practice', read: 'reading', reflect: 'reflection' })[r]).filter(Boolean)
+      <section class="wsec"><div class="wsech"><h3>The steps</h3></div><ol class="msteps">${c.units.map((u) => { const roles = [...new Set(u.items.map((i) => i.role))].map((r) => ({ watch: 'talk', listen: 'audio', practise: 'practice', read: 'reading', visit: 'go deeper', reflect: 'reflection' })[r]).filter(Boolean)
         return `<li class="${done.has(u.n) ? 'done' : ''}${cur && cur.n === u.n ? ' on' : ''}"><a href="#course/${esc(c.id)}/${u.n}"><b>${esc(u.title)}</b><span class="muted small">${esc(roles.join(' \u00b7 '))}</span></a></li>` }).join('')}</ol></section>
+      ${(c.further || []).length ? `<section class="wsec"><div class="wsech"><h3>Series to go further</h3><span class="muted small">Links only. Paid ones say so; Satsang sells nothing.</span></div><div class="pprog">${c.further.map((r) => `<article class="pprg"><span>${r.free ? 'Free' : '<span class="gtxt">Paid</span>'}${r.price ? ' \u00b7 ' + esc(r.price) : ''}</span><b>${esc(String(r.title).replace(/\s+\u2014 Paid$/, ''))}</b>${r.note ? `<p>${esc(r.note)}</p>` : ''}<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Open \u2197</a></article>`).join('')}</div></section>` : ''}
       ${deeper.length ? `<section class="wsec"><div class="wsech"><h3>Where to go deeper</h3></div><div class="pprog">${deeper.map((p) => `<article class="pprg"><span>Place${p.country ? ' \u00b7 ' + esc(p.country) : ''}</span><b>${esc(p.name)}</b>${p.note ? `<p>${esc(p.note)}</p>` : ''}<a class="btn" href="#place/${esc(p.ref.slice(6))}">Open place</a></article>`).join('')}</div></section>` : ''}
       ${c.topic && d.label(c.topic) ? `<section class="wsec"><div class="wsech"><h3>The topic</h3></div><div class="wtopics"><a class="wchip tp" href="#topic/${esc(c.topic)}">${esc(d.label(c.topic))}</a></div></section>` : ''}`
     const set = (patch) => d.profile.setJourney(c.id, patch)

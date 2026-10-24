@@ -264,6 +264,7 @@ export function createCurator(CAT, { llm = null } = {}) {
       if (intent.traditions.length) f *= c.trs.some((t) => intent.traditions.includes(t) || intent.traditions.includes(fam(t))) ? 1.6 : 0.6
       if (intent.level === 'beginner' && c.lvl !== 'first-steps') f *= 0.7
       if (orient && !/past[- ]li|previous[- ]li|tantr|occult|magic|hermetic|ritual/.test(intent.text)) f *= 0.5
+      if (c.feat) f *= 1.6  // the featured (flagship) course leads when it fits the ask
       rows.push([f, c])
     })
     rows.sort((a, b) => b[0] - a[0])

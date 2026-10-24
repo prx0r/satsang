@@ -1,6 +1,6 @@
 {
  "_note": "Editorial gold reading (Satsang own words; no transcript quotes). Source: tools/gold_judgements_src.py. Read by tools/build-gold.py.",
- "round": 1,
+ "round": 2,
  "judged": "2026-10-24",
  "gold": {
   "_4BFX_qhhyk": {
@@ -1603,6 +1603,164 @@
    ],
    "why": "The second part of a guided reflection on death from the suttas.",
    "round": 1
+  },
+  "Um--CNljhLs": {
+   "topics": [
+    "rebirth",
+    "dependent-origination"
+   ],
+   "why": "A Pa-Auk-trained nun sets out what the method claims about seeing past lives, and why it belongs to the study of dependent origination rather than curiosity.",
+   "round": 2
+  },
+  "uZ02opOsQwY": {
+   "topics": [
+    "rebirth",
+    "faith"
+   ],
+   "why": "Five honest minutes on the obvious question: why believe in past lives at all, from a teacher trained in the method.",
+   "round": 2
+  },
+  "tcur6EplDVA": {
+   "topics": [
+    "rebirth",
+    "dependent-origination"
+   ],
+   "why": "What \"discerning the rebirth moment\" means in the Pa-Auk system: the link between the last mind of one life and the first of the next.",
+   "round": 2
+  },
+  "VUq2MkODCBE": {
+   "topics": [
+    "dependent-origination",
+    "rebirth"
+   ],
+   "why": "The tenth link, becoming conditions birth, explained as a working step of practice rather than a slogan.",
+   "round": 2
+  },
+  "1Ed8ILABR3U": {
+   "topics": [
+    "rebirth",
+    "kamma"
+   ],
+   "why": "A careful talk on how rebirth happens and what causes it, given to meditators on retreat at her Brahma Vihari centre in 2022.",
+   "round": 2
+  },
+  "KFjdByRnQkE": {
+   "topics": [
+    "kamma",
+    "rebirth"
+   ],
+   "why": "Which of our many actions shapes the next life? The deciding factors, explained with the Buddha's cow simile.",
+   "round": 2
+  },
+  "wCIhw-ujFso": {
+   "topics": [
+    "craving",
+    "rebirth"
+   ],
+   "why": "Three minutes on why craving, not fate, is what keeps the round turning.",
+   "round": 2
+  },
+  "CMlFd94Dtlk": {
+   "topics": [
+    "dependent-origination",
+    "awakening",
+    "rebirth"
+   ],
+   "why": "The key point of the series: the futures a meditator sees are possible futures conditioned now, and the chain can be undone.",
+   "round": 2
+  },
+  "SGd6A3kYg-A": {
+   "topics": [
+    "rebirth",
+    "impermanence"
+   ],
+   "why": "How insight is turned on past, present and future phenomena alike, so that none of it is taken as self.",
+   "round": 2
+  },
+  "-aa1pGtGHXw": {
+   "topics": [
+    "rebirth",
+    "dependent-origination"
+   ],
+   "why": "What looking at future mind and matter means in this method, and what it does not promise.",
+   "round": 2
+  },
+  "ml_PjiWVTec": {
+   "topics": [
+    "dependent-origination",
+    "rebirth"
+   ],
+   "why": "An overview of the stage of practice that discerns causes and conditions, and why past lives come into it.",
+   "round": 2
+  },
+  "ypKa1J7KUow": {
+   "topics": [
+    "dependent-origination",
+    "rebirth"
+   ],
+   "why": "The founder of the method himself on dependent origination across lives: a primary source, recorded in Korea in 2008.",
+   "round": 2
+  },
+  "3hlvwOZupoU": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "A leading scholar-monk weighs the early Buddhist texts on rebirth against current research, with two Harvard respondents.",
+   "round": 2
+  },
+  "jwIel8vss9o": {
+   "topics": [
+    "dependent-origination"
+   ],
+   "why": "The first lesson of a free, systematic Abhidhamma course on dependent origination: for those who want the full technical map.",
+   "round": 2
+  },
+  "tGHfJ_bPsJ4": {
+   "topics": [
+    "reality",
+    "rebirth"
+   ],
+   "why": "The Kashmir Shaiva answer to how a limitless consciousness comes to feel limited, from the last master of the oral lineage.",
+   "round": 2
+  },
+  "bkSdl9DTkyk": {
+   "topics": [
+    "freedom",
+    "awakening"
+   ],
+   "why": "Liberation is not a place you travel to: Lakshmanjoo on verse 60 of the Paramarthasara, in under two minutes.",
+   "round": 2
+  },
+  "B51VtErsJNE": {
+   "topics": [
+    "awakening",
+    "texts/tantra"
+   ],
+   "why": "An introduction to the Vatulanatha Sutras, a tiny text on sudden awakening, by a scholar initiated in the tradition.",
+   "round": 2
+  },
+  "ZrTkwSh3GRE": {
+   "topics": [
+    "awakening",
+    "texts/tantra"
+   ],
+   "why": "The first of the thirteen sutras on sudden awakening, read slowly and explained.",
+   "round": 2
+  },
+  "hm6HIqlovWo": {
+   "topics": [
+    "texts/tantra",
+    "meditation"
+   ],
+   "why": "The opening lecture of a ten-day retreat on the Vijnana Bhairava Tantra: how the text came down and how to approach its 112 practices.",
+   "round": 2
+  },
+  "ukNWsqtv9Uk": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "The first of four public lectures on the core ideas of Kashmir Shaivism, from a scholar of the tradition.",
+   "round": 2
   }
  },
  "passed": {
@@ -1651,6 +1809,29 @@
   "YR-g8AzzNsU": "read, not chosen (round 1)",
   "WtNscoeUjlI": "read, not chosen (round 1)",
   "EZGl_ryu4Bs": "read, not chosen (round 1)",
-  "4njhZa6E5OY": "read, not chosen (round 1)"
+  "4njhZa6E5OY": "read, not chosen (round 1)",
+  "bYWa-giW7tc": "read, not chosen (round 2: series lectures kept as full talks)",
+  "U422lV4-R9g": "read, not chosen (round 2: series lectures kept as full talks)",
+  "4mr0LSZOa70": "read, not chosen (round 2: series lectures kept as full talks)",
+  "07HhVfQ2UOE": "read, not chosen (round 2: series lectures kept as full talks)",
+  "ujSeDB5Xya4": "read, not chosen (round 2: series lectures kept as full talks)",
+  "11PnHNOGq14": "read, not chosen (round 2: series lectures kept as full talks)",
+  "g4McSOzIs7I": "read, not chosen (round 2: series lectures kept as full talks)",
+  "CJNrHpRYSbQ": "read, not chosen (round 2: series lectures kept as full talks)",
+  "19kC0dESdwg": "read, not chosen (round 2: series lectures kept as full talks)",
+  "6VyuTAuj3oM": "read, not chosen (round 2: series lectures kept as full talks)",
+  "Agwh3PJoVOY": "read, not chosen (round 2: series lectures kept as full talks)",
+  "96QhDCpr-Wo": "read, not chosen (round 2: series lectures kept as full talks)",
+  "wQndqt6YEtA": "read, not chosen (round 2: series lectures kept as full talks)",
+  "4_oQeUcfU74": "read, not chosen (round 2: series lectures kept as full talks)",
+  "qzNBCXGobiU": "read, not chosen (round 2: series lectures kept as full talks)",
+  "QOYrE90EBMM": "read, not chosen (round 2: series lectures kept as full talks)",
+  "4CDmDrxhXLQ": "read, not chosen (round 2: series lectures kept as full talks)",
+  "gQ_Caq3QI3k": "read, not chosen (round 2: series lectures kept as full talks)",
+  "3oltU3I0134": "read, not chosen (round 2: series lectures kept as full talks)",
+  "ueoktqr6s0A": "read, not chosen (round 2: series lectures kept as full talks)",
+  "_eZ1f89L5ws": "read, not chosen (round 2: series lectures kept as full talks)",
+  "ebHkjWUzX0c": "read, not chosen (round 2: series lectures kept as full talks)",
+  "k7qh-TQyuUg": "read, not chosen (round 2: series lectures kept as full talks)"
  }
 }

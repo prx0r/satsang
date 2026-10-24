@@ -252,6 +252,34 @@ g('Mi8AC_rmL00', ['gnosis'], 'What the Hermetic writings say about God and the c
 g('cVSZaxcg6RY', ['faith'], 'The Sufi path of mystical love and the women who shaped it.')
 g('8Xy01jkEsnQ@1420', ['death'], 'The second part of a guided reflection on death from the suttas.')
 
+
+# --- round 2 (2026-10-24, ext-47-past-lives): the owner's research seed for "How to discern past lives". Read from titles,
+#     descriptions, teacher standing, length and fit to the course; why-lines in Satsang's own words. ---
+def g2(cid, topics, why): G[cid] = {'topics': topics if isinstance(topics, list) else [topics], 'why': why, 'round': 2}
+g2('Um--CNljhLs', ['rebirth', 'dependent-origination'], 'A Pa-Auk-trained nun sets out what the method claims about seeing past lives, and why it belongs to the study of dependent origination rather than curiosity.')
+g2('uZ02opOsQwY', ['rebirth', 'faith'], 'Five honest minutes on the obvious question: why believe in past lives at all, from a teacher trained in the method.')
+g2('tcur6EplDVA', ['rebirth', 'dependent-origination'], 'What "discerning the rebirth moment" means in the Pa-Auk system: the link between the last mind of one life and the first of the next.')
+g2('VUq2MkODCBE', ['dependent-origination', 'rebirth'], 'The tenth link, becoming conditions birth, explained as a working step of practice rather than a slogan.')
+g2('1Ed8ILABR3U', ['rebirth', 'kamma'], 'A careful talk on how rebirth happens and what causes it, given to meditators on retreat at her Brahma Vihari centre in 2022.')
+g2('KFjdByRnQkE', ['kamma', 'rebirth'], 'Which of our many actions shapes the next life? The deciding factors, explained with the Buddha\'s cow simile.')
+g2('wCIhw-ujFso', ['craving', 'rebirth'], 'Three minutes on why craving, not fate, is what keeps the round turning.')
+g2('CMlFd94Dtlk', ['dependent-origination', 'awakening', 'rebirth'], 'The key point of the series: the futures a meditator sees are possible futures conditioned now, and the chain can be undone.')
+g2('SGd6A3kYg-A', ['rebirth', 'impermanence'], 'How insight is turned on past, present and future phenomena alike, so that none of it is taken as self.')
+g2('-aa1pGtGHXw', ['rebirth', 'dependent-origination'], 'What looking at future mind and matter means in this method, and what it does not promise.')
+g2('ml_PjiWVTec', ['dependent-origination', 'rebirth'], 'An overview of the stage of practice that discerns causes and conditions, and why past lives come into it.')
+g2('ypKa1J7KUow', ['dependent-origination', 'rebirth'], 'The founder of the method himself on dependent origination across lives: a primary source, recorded in Korea in 2008.')
+g2('3hlvwOZupoU', ['rebirth'], 'A leading scholar-monk weighs the early Buddhist texts on rebirth against current research, with two Harvard respondents.')
+g2('jwIel8vss9o', ['dependent-origination'], 'The first lesson of a free, systematic Abhidhamma course on dependent origination: for those who want the full technical map.')
+g2('tGHfJ_bPsJ4', ['reality', 'rebirth'], 'The Kashmir Shaiva answer to how a limitless consciousness comes to feel limited, from the last master of the oral lineage.')
+g2('bkSdl9DTkyk', ['freedom', 'awakening'], 'Liberation is not a place you travel to: Lakshmanjoo on verse 60 of the Paramarthasara, in under two minutes.')
+g2('B51VtErsJNE', ['awakening', 'texts/tantra'], 'An introduction to the Vatulanatha Sutras, a tiny text on sudden awakening, by a scholar initiated in the tradition.')
+g2('ZrTkwSh3GRE', ['awakening', 'texts/tantra'], 'The first of the thirteen sutras on sudden awakening, read slowly and explained.')
+g2('hm6HIqlovWo', ['texts/tantra', 'meditation'], 'The opening lecture of a ten-day retreat on the Vijnana Bhairava Tantra: how the text came down and how to approach its 112 practices.')
+g2('ukNWsqtv9Uk', ['texts/tantra'], 'The first of four public lectures on the core ideas of Kashmir Shaivism, from a scholar of the tradition.')
+PASSED2 = ['bYWa-giW7tc', 'U422lV4-R9g', '4mr0LSZOa70', '07HhVfQ2UOE', 'ujSeDB5Xya4', '11PnHNOGq14', 'g4McSOzIs7I', 'CJNrHpRYSbQ', '19kC0dESdwg',
+           '6VyuTAuj3oM', 'Agwh3PJoVOY', '96QhDCpr-Wo', 'wQndqt6YEtA', '4_oQeUcfU74', 'qzNBCXGobiU', 'QOYrE90EBMM', '4CDmDrxhXLQ', 'gQ_Caq3QI3k',
+           '3oltU3I0134', 'ueoktqr6s0A', '_eZ1f89L5ws', 'ebHkjWUzX0c', 'k7qh-TQyuUg']
+
 PASSED = ['AQe27beuyPk', '3M5Fxmq5c9s', '692Y_frtRcY', 'MNQhj82jDRQ', 'VAo0VzKZs5g', 'dp3m-JTPjGQ', 'x1nT1i_nvjQ', 'LsR2w3TqTYA',
           'GOPcbFhCEj0', 'Z5wv13HsKw0', 'cUqy-flyLRc', '4yLQ2taFFkI', '8WJzCwK6Hus', 'ePhCyVJEAxk', 'NMdLdnRyiAk', 'oWTdQ52evpU',
           'IiVjN8gtGQQ', 'PBZNVd4KHmA', '2MiOeYXdfi4', 'wph6RLpSCaE', 'klVzl7la-iQ', 'rbRfCzt4sAk', 'JNpOHvpKzNE', 'WT822q9jC5k',
@@ -260,6 +288,6 @@ PASSED = ['AQe27beuyPk', '3M5Fxmq5c9s', '692Y_frtRcY', 'MNQhj82jDRQ', 'VAo0VzKZs
           'a3kJqCrKG0U', '70VmBMH9kNs', 'YR-g8AzzNsU', 'WtNscoeUjlI', 'EZGl_ryu4Bs', '4njhZa6E5OY']
 APP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 json.dump({'_note': 'Editorial gold reading (Satsang own words; no transcript quotes). Source: tools/gold_judgements_src.py. Read by tools/build-gold.py.',
-           'round': 1, 'judged': '2026-10-24', 'gold': G, 'passed': {k: 'read, not chosen (round 1)' for k in PASSED}},
+           'round': 2, 'judged': '2026-10-24', 'gold': G, 'passed': {**{k: 'read, not chosen (round 1)' for k in PASSED}, **{k: 'read, not chosen (round 2: series lectures kept as full talks)' for k in PASSED2}}},
           open(os.path.join(APP, 'wisegraph/gold-judgements.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(G), 'gold,', len(PASSED), 'passed')

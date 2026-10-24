@@ -2217,6 +2217,7 @@ function wise() {
   const crowdClip = (id) => { const L = BOARD?.boards?.all?.clips || []; if (cn !== L.length) { cmap = Object.fromEntries(L.map((x) => [x.id, x])); cn = L.length } return cmap[id] || null }
   WISE = createWise({ esc, thumb, clipTile, ytId, isFull, inBallot, servable, crowdClip, LS, clips: () => CLIPS, topicLabel: (t) => TOPIC_LABEL[t] || null,
     fillPlaces: (el) => places().fill(el).catch((e) => console.warn('places', e)),
+    coursesFor: (t) => cols().load().then(() => cols().all().filter((c) => c.kind === 'mini-course' && (c.topic === t || (c.topics || []).includes(t)))),
     playRound: (list) => playFrom(list, null), compare: (topic, list, colOf) => playFrom(list, colOf, topic), playTopic: (t) => flashTopic(t), order: (list, topic) => (wise().ready() ? ranker().railOrder(list, (c) => 0.6 * ranker().quality(c) + 0.4 * ranker().topicConf(c, topic), Math.max(8, Math.min(30, list.length))) : list) })
   return WISE
 }

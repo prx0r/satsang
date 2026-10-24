@@ -3359,7 +3359,7 @@
    "id": "pa-auk-sayadaw",
    "name": "Pa-Auk Sayadaw",
    "short": "Pa-Auk Sayadaw",
-   "kind": "figure",
+   "kind": "speaker",
    "tradition": "burmese",
    "wikidata": "Q17687193",
    "years": "1934–",
@@ -12392,7 +12392,7 @@
    "id": "sayalay-dipankara",
    "name": "Sayalay Dipankara",
    "short": "Sayalay Dipankara",
-   "kind": "figure",
+   "kind": "speaker",
    "tradition": "pa-auk",
    "years": "1964–",
    "bio": "Pa-Auk-trained Burmese nun (b. 1964); teaches the 40 kammatthana and vipassana worldwide; founder/abbess of the Brahma Vihari centres.",
@@ -12403,7 +12403,13 @@
    "verified_on": "2026-10-20",
    "confidence": "medium",
    "role": "figure",
-   "source_url": "https://cakkavala.org/Teacher.html"
+   "source_url": "https://cakkavala.org/Teacher.html",
+   "channels": [
+    {
+     "name": "Sayalay Dipankara",
+     "official": true
+    }
+   ]
   },
   {
    "id": "ariyananda",
@@ -15028,6 +15034,81 @@
    "links": {
     "Website": "https://www.swarayoga.org/charan"
    }
+  },
+  {
+   "id": "beth-upton",
+   "name": "Beth Upton",
+   "kind": "speaker",
+   "tradition": "pa-auk",
+   "years": "b. 1982",
+   "bio": "English meditation teacher; ordained as a nun at Pa-Auk in Myanmar in 2008 and trained five years under Pa-Auk Sayadaw, disrobing in 2018. Teaches the Pa-Auk samatha-vipassanā system one to one and online, on a donation basis, with short video lessons on every stage.",
+   "aliases": [
+    "beth upton"
+   ],
+   "channels": [
+    {
+     "name": "Beth Upton",
+     "id": "UCEhrqktws4X8qRaAr-JJwPQ",
+     "url": "https://www.youtube.com/channel/UCEhrqktws4X8qRaAr-JJwPQ",
+     "official": true
+    }
+   ],
+   "links": {
+    "Website": "https://bethupton.com/",
+    "Online groups": "https://bethupton.com/online-instruction/"
+   },
+   "works": [],
+   "source_url": "https://bethupton.com/about-me/",
+   "verified_on": "2026-10-24",
+   "confidence": "high",
+   "role": "teacher"
+  },
+  {
+   "id": "sugatavamsa",
+   "name": "Ven. Sugatavaṃsa",
+   "short": "Sugatavaṃsa",
+   "kind": "speaker",
+   "tradition": "pa-auk",
+   "bio": "Theravāda monk who teaches the Abhidhamma and Pāli courses at Pa-Auk Meditation Centre Singapore, including a full English course on dependent origination (2022, repeated 2025).",
+   "aliases": [
+    "sugatavamsa",
+    "ven sugatavamsa",
+    "venerable sugatavamsa"
+   ],
+   "channels": [
+    {
+     "name": "Pa-Auk Meditation Centre Singapore",
+     "id": "UCUJYhS7U-1AnCxqlRJ42TeQ",
+     "url": "https://www.youtube.com/channel/UCUJYhS7U-1AnCxqlRJ42TeQ",
+     "official": true
+    }
+   ],
+   "links": {
+    "Teacher page": "https://sites.google.com/pamc.org.sg/sgtvsdhamma"
+   },
+   "works": [],
+   "source_url": "https://sites.google.com/pamc.org.sg/sgtvsdhamma",
+   "verified_on": "2026-10-24",
+   "confidence": "medium",
+   "role": "teacher"
+  },
+  {
+   "id": "r-ramanand",
+   "name": "Dr R. Ramanand",
+   "short": "R. Ramanand",
+   "kind": "speaker",
+   "tradition": "kashmir-shaivism",
+   "bio": "Indian scholar of tantra and Kashmir Śaivism linked with the Abhinavagupta Institute of Advanced Studies; gave four public lectures on the fundamental tenets of Kashmir Śaivism at Sree Krishna College, Guruvayur, in January 2023.",
+   "aliases": [
+    "r ramanand",
+    "dr ramanand",
+    "ramanand"
+   ],
+   "works": [],
+   "source_url": "https://www.youtube.com/watch?v=ukNWsqtv9Uk",
+   "verified_on": "2026-10-24",
+   "confidence": "medium",
+   "role": "teacher"
   }
  ]
 }

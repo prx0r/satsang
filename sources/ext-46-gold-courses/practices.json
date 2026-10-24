@@ -1,12 +1,31 @@
-{"_note": "Satsang editorial practices for the gold mini-courses (2026-10-24). Own words; orientation-level where the tradition requires a teacher.",
+{
+ "_note": "Satsang editorial practices for the gold mini-courses (2026-10-24). Own words; orientation-level where the tradition requires a teacher.",
  "practices": [
-  {"id": "recollection-of-past-lives-orientation",
-   "name": "Recollection of former lives (pubbenivāsānussati): orientation",
-   "school": "theravada", "trad": "Theravāda",
-   "howto": "In the early discourses this is the first of the three knowledges the Buddha describes on the night of his awakening (MN 4). The later manual, Buddhaghosa's Visuddhimagga (chapter XIII), presents it as a by-product of fully mastered concentration: only after the fourth jhāna is steady does a meditator turn the mind back, sitting by sitting, through the day, childhood and birth, and, the texts say, beyond. Both sources treat it as a side-effect of a calm, purified mind and as fuel for disenchantment with the round of birth and death, never as a goal or a sign of progress. Satsang gives orientation only. The groundwork anyone can do is the breath meditation and the reflection on the round in this course; the knowledge itself is traditionally developed under a teacher inside a long retreat.",
+  {
+   "id": "recollection-of-past-lives-orientation",
+   "name": "Recollection of former lives (pubbenivāsānussati): orientation, with the Pa-Auk method",
+   "school": "pa-auk",
+   "trad": "Theravāda (Pa-Auk)",
+   "howto": "In the early discourses this is the first of the three knowledges the Buddha describes on the night of his awakening (MN 4), and Buddhaghosa's Visuddhimagga (chapter XIII) presents it as a by-product of fully mastered concentration. The Pa-Auk method, taught at Pa-Auk Forest Monastery in Myanmar and its branch centres, gives it a place inside insight practice: a meditator first develops deep jhāna, usually through mindfulness of breathing, then learns to discern the momentary mind and matter of the present, and only then, in the stage called discerning causes and conditions, turns back through the past to the moment of this life's conception and the kamma that produced it, and then to earlier lives and to possible future ones. Teachers in the line stress that what is seen of the future is a possible future conditioned now, not a fixed destiny, and that the point is to see the whole chain of dependent origination as impersonal, so that it can be undone. In practice this is done on long retreat, often months, with a qualified Pa-Auk teacher checking each step in daily interviews. Where to learn: Pa-Auk Forest Monastery (Mawlamyine, Myanmar) and its centres such as Pa-Auk Meditation Centre Singapore; Brahma Vihari Meditation Centre in Penang (Sayalay Dīpaṅkarā's community); and Beth Upton, a former Pa-Auk nun who guides students online on a donation basis. Satsang gives orientation only. The real and safe groundwork is daily mindfulness of breathing until the mind is steady; the knowledge itself is developed only under a teacher. These claims are central to the Pa-Auk and early Buddhist traditions, but they have not been independently verified.",
    "needsTeacher": true,
-   "sources": ["https://www.dhammatalks.org/suttas/MN/MN4.html", "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf"],
-   "source_note": "MN 4 (dhammatalks.org); Visuddhimagga XIII, tr. Ñāṇamoli, The Path of Purification (Access to Insight). Satsang summary in its own words.",
-   "contraindications": ["No results are promised. Memories that seem to surface in meditation can be imagination or old impressions; the tradition warns against clinging to them either way.", "Not for anyone living with dissociation, psychosis or unresolved trauma: stay with grounding breath practice and speak to a qualified teacher or clinician.", "Do not try regression techniques from a summary or a video."],
-   "topics": ["rebirth", "meditation"]}
- ]}
+   "sources": [
+    "https://www.dhammatalks.org/suttas/MN/MN4.html",
+    "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+    "https://www.paaukforestmonastery.org/meditation.htm",
+    "https://sites.google.com/pamc.org.sg/sayadawdhamma",
+    "https://bethupton.com/online-instruction/"
+   ],
+   "source_note": "MN 4 (dhammatalks.org); Visuddhimagga XIII, tr. Ñāṇamoli (Access to Insight); Pa-Auk Forest Monastery, \"Meditation\" page (yogis \"discern a number of past and future lives, and the causes for certain rebirths\"); Beth Upton's lessons on discerning past and future nāma-rūpa. Satsang summary in its own words.",
+   "contraindications": [
+    "These claims are central to the Pa-Auk and early Buddhist traditions but are not independently verified. No results are promised, and memories that seem to surface can be imagination; the tradition warns against clinging to them either way.",
+    "Requires deep jhāna and a qualified teacher, typically on a long residential retreat. Do not try it from a summary or a video, and do not use regression techniques.",
+    "Stop if it becomes distressing. Not for anyone living with dissociation, psychosis or unresolved trauma: stay with grounding breath practice and speak to a qualified teacher or clinician."
+   ],
+   "topics": [
+    "rebirth",
+    "meditation",
+    "dependent-origination"
+   ]
+  }
+ ]
+}

@@ -77,6 +77,9 @@ for nid0, par in DEEP_REPARENT.items():
     if nid0 in TR and par in TR and TR[nid0]['parent'] != par: TR[nid0]['parent'] = par; TR[nid0]['kind'] = 'lineage'; log['traditions_reparented'] += 1
 for n in TR.values():
     if n['parent'] and n['parent'] not in TR: raise SystemExit(f'tradition {n["id"]}: parent {n["parent"]} missing')
+from source_maps import TRAD_BLURB_FIX
+for _k, _b in TRAD_BLURB_FIX.items():
+    if _k in TR: TR[_k]['blurb'] = _b
 TD['nodes'] = list(TR.values()); W(tp, TD)
 
 # ---------- people ----------
