@@ -1,0 +1,477 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/course-tree.json",
+ "title": "Satsang course tree (tradition > school > course > phase > practice)",
+ "description": "Built by app/tools/build-courses.py into site/data/wisegraph/courses.json from wisegraph/courses.json (placements, phase groups) + collections.json (content). A course node is any collection: syllabus, journey, meditation-series, visualisation-cycle, set or mini-course.",
+ "type": "object",
+ "required": [
+  "version",
+  "levels",
+  "traditions",
+  "index"
+ ],
+ "properties": {
+  "version": {
+   "type": "integer"
+  },
+  "built": {},
+  "levels": {
+   "const": [
+    "tradition",
+    "school",
+    "course",
+    "phase",
+    "practice"
+   ]
+  },
+  "traditions": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/tradition"
+   }
+  },
+  "index": {
+   "type": "object",
+   "required": [
+    "course",
+    "practice"
+   ],
+   "properties": {
+    "course": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "required": [
+       "tradition",
+       "school"
+      ],
+      "properties": {
+       "tradition": {
+        "type": "string"
+       },
+       "school": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "practice": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "required": [
+       "tradition",
+       "school",
+       "courses"
+      ],
+      "properties": {
+       "tradition": {
+        "type": "string"
+       },
+       "school": {
+        "type": "string"
+       },
+       "courses": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "required": [
+          "course",
+          "phase"
+         ],
+         "properties": {
+          "course": {
+           "type": "string"
+          },
+          "phase": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "unit": {
+           "type": "integer"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "$defs": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9-]*$"
+  },
+  "tradition": {
+   "type": "object",
+   "required": [
+    "id",
+    "label",
+    "schools",
+    "stats"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "label": {
+     "type": "string"
+    },
+    "blurb": {
+     "type": "string"
+    },
+    "schools": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/school"
+     }
+    },
+    "stats": {
+     "type": "object",
+     "properties": {
+      "schools": {
+       "type": "integer"
+      },
+      "courses": {
+       "type": "integer"
+      },
+      "practices": {
+       "type": "integer"
+      }
+     }
+    }
+   }
+  },
+  "school": {
+   "type": "object",
+   "required": [
+    "id",
+    "label",
+    "tradition",
+    "courses",
+    "practices"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "label": {
+     "type": "string"
+    },
+    "tradition": {
+     "$ref": "#/$defs/id"
+    },
+    "courses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/course"
+     }
+    },
+    "practices": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "the school's practice shelf: every practice whose own tradition places it here"
+    }
+   }
+  },
+  "course": {
+   "type": "object",
+   "required": [
+    "id",
+    "title",
+    "kind",
+    "collection",
+    "href",
+    "phases"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "title": {
+     "type": "string"
+    },
+    "kind": {
+     "enum": [
+      "syllabus",
+      "journey",
+      "meditation-series",
+      "visualisation-cycle",
+      "set",
+      "mini-course"
+     ]
+    },
+    "collection": {
+     "type": "string",
+     "description": "collections.json id: the course's content"
+    },
+    "href": {
+     "type": "string"
+    },
+    "intro": {
+     "type": "string"
+    },
+    "topic": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "cadence": {
+     "type": "string"
+    },
+    "author": {
+     "type": "string"
+    },
+    "orientationOnly": {
+     "type": "boolean"
+    },
+    "units": {
+     "type": "integer"
+    },
+    "minutes": {
+     "type": "integer"
+    },
+    "practices": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "practices from the collection's unstaged items"
+    },
+    "phases": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/phase"
+     }
+    },
+    "level": {
+     "enum": [
+      "first-steps",
+      "steady",
+      "deep"
+     ]
+    }
+   }
+  },
+  "phase": {
+   "type": "object",
+   "required": [
+    "id",
+    "n",
+    "title",
+    "units",
+    "practices"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "description": "<course>/<n>"
+    },
+    "n": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "title": {
+     "type": "string"
+    },
+    "units": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     }
+    },
+    "unitTitles": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "days": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "minItems": 2,
+     "maxItems": 2
+    },
+    "track": {
+     "enum": [
+      "theory",
+      "practice",
+      "both"
+     ]
+    },
+    "items": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "practices": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "unit"
+      ],
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "unit": {
+        "type": "integer"
+       },
+       "minutes": {
+        "type": "number"
+       },
+       "days": {
+        "type": "integer"
+       },
+       "timesPerDay": {
+        "type": "integer"
+       }
+      }
+     }
+    }
+   }
+  },
+  "source": {
+   "description": "wisegraph/courses.json (hand-kept)",
+   "type": "object",
+   "required": [
+    "version",
+    "traditionRoots"
+   ],
+   "properties": {
+    "traditionRoots": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "labels": {
+     "type": "object"
+    },
+    "generalSchool": {
+     "type": "object"
+    },
+    "order": {
+     "type": "array"
+    },
+    "placements": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "properties": {
+       "tradition": {
+        "type": "string"
+       },
+       "school": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "phases": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "title",
+        "units"
+       ],
+       "properties": {
+        "title": {
+         "type": "string"
+        },
+        "units": {
+         "type": "array",
+         "items": {
+          "type": "integer"
+         }
+        }
+       }
+      }
+     }
+    },
+    "sequence": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "practiceBody": {
+   "description": "wisegraph/practice-body.json practices[id]: how a practice opens the breath engine",
+   "type": "object",
+   "required": [
+    "mode",
+    "why"
+   ],
+   "properties": {
+    "mode": {
+     "enum": [
+      "body",
+      "text"
+     ]
+    },
+    "locus": {
+     "enum": [
+      "none",
+      "heart",
+      "nostrils",
+      "belly",
+      "central",
+      "channels",
+      "whole",
+      "space"
+     ]
+    },
+    "lead": {
+     "type": "boolean"
+    },
+    "pace": {
+     "type": "object",
+     "required": [
+      "inn",
+      "out"
+     ],
+     "properties": {
+      "inn": {
+       "type": "number",
+       "minimum": 2,
+       "maximum": 6.5
+      },
+      "out": {
+       "type": "number",
+       "minimum": 2.5,
+       "maximum": 9.5
+      }
+     },
+     "additionalProperties": false
+    },
+    "retention": {
+     "const": 0
+    },
+    "why": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  }
+ }
+}

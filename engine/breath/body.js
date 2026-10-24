@@ -9,6 +9,20 @@ const GOLD = [0.79, 0.64, 0.36], TEAL = [0.37, 0.77, 0.71], ROSE = [0.83, 0.54, 
 const SEAT = 0.35
 export const LOCI = [0.33, 0.69, 1.05, 1.40, 1.76, 2.12, 2.34]   // base .. crown along the central channel
 
+/* Where attention rests, for a practice (app/src/breathplayer.js; data: app/wisegraph/practice-body.json). Optional: with no
+   locus the page draws exactly as before. kind 1-3 light a small cluster of motes at a point (heart radiates on the out-breath,
+   nostrils stream in and out at the touch point, belly rises and falls); 4-7 reweight the layers already drawn. */
+export const LOCUS = {
+  none: { kind: 0 },
+  heart: { kind: 1, at: [0, 1.40, 0.16], r: 0.11 },
+  nostrils: { kind: 2, at: [0, 1.99, 0.235], r: 0.03 },
+  belly: { kind: 3, at: [0, 0.66, 0.14], r: 0.12 },
+  central: { kind: 4 }, channels: { kind: 5 }, whole: { kind: 6 }, space: { kind: 7 },
+}
+// layer weights per kind: body, sushumna, ida/pingala, aura reach, haze, fill-all, loci, filaments
+const MIX = { 0: [1, 1, 1, 1, 1, 0, 1, 1], 1: [0.45, 0.4, 0.45, 1, 0.7, 0, 0.4, 0.6], 2: [0.45, 0.35, 0.4, 1, 0.7, 0, 0.35, 0.6], 3: [0.45, 0.4, 0.45, 1, 0.7, 0, 0.4, 0.6],
+  4: [0.72, 1.9, 0.75, 1, 0.8, 0, 1.6, 0.8], 5: [0.75, 1.3, 2.0, 1, 0.8, 0, 1.0, 0.8], 6: [1.0, 0.5, 0.5, 1.15, 1.1, 1, 0.45, 1.35], 7: [0.78, 0.55, 0.6, 2.3, 2.0, 0, 0.5, 0.8] }
+
 function rng(seed) { let a = seed >>> 0; return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296 } }
 
 /* seated canon -> primitives. caps: [ax,ay,az,bx,by,bz,r] */
@@ -64,7 +78,8 @@ function sampleBody(n, R) {
 const VS = `#version 300 es
 precision highp float;
 in vec3 aPos; in vec3 aNrm; in vec4 aSeed; in float aType;
-uniform float uK, uT, uB, uV, uFlowS, uFlowIP, uAura, uEnv, uExh, uDim, uYaw, uS, uAspect, uVH, uM, uPx;
+uniform float uK, uT, uB, uV, uFlowS, uFlowIP, uAura, uEnv, uExh, uDim, uYaw, uS, uAspect, uVH, uM, uPx, uFocK, uFocKind, uFlowN;
+uniform vec4 uFoc; uniform float uMix[8];
 out vec3 vCol; out float vA; out float vSharp;
 const vec3 GOLD = vec3(${GOLD}), TEAL = vec3(${TEAL}), ROSE = vec3(${ROSE}), AMBER = vec3(${AMBER});
 const float PI = 3.14159265;
@@ -81,44 +96,68 @@ void main(){
     p.y += 0.03 * uB * (p.y - 0.35);
     p += drift * (0.010 + 0.035 * uExh + 0.03 * uEnv) * uM;
     p += aNrm * (0.02 * uExh + 0.04 * uEnv) * aSeed.y;           // exhale: the surface loosens outward, then settles
-    float fill = smoothstep(h + 0.3, h - 0.2, p.y);
+    float fill = mix(smoothstep(h + 0.3, h - 0.2, p.y), 0.55 + 0.45 * uB, uMix[5]);
+    if (uFocKind > 0.5 && uFocKind < 3.5) fill += 0.45 * uFocK * exp(-pow(length(p - uFoc.xyz) / (uFoc.w * 2.6), 2.0));   // warm the body around the point
     float rise = 0.5 + 0.5 * sin(p.y * 7.0 - uFlowS * 15.0);   // bands of light travelling up on the in-breath
     float spread = 0.5 + 0.5 * sin(length(d.xz) * 12.0 + length(d.xy) * 5.0 - uAura * 30.0);
     a = (0.09 + 0.24 * fill) * uK * tw * (1.0 + 0.6 * rise * max(uV, 0.0) + 0.45 * spread * max(-uV, 0.0)) * (1.0 + 0.5 * uEnv);
     col = mix(GOLD, AMBER, 0.45 + 0.5 * aSeed.x); col = mix(col, aSeed.y < 0.5 ? TEAL : ROSE, 0.12 * step(0.82, aSeed.z));
-    size = 0.06 + 0.05 * aSeed.w; vSharp = 22.0;
+    size = 0.06 + 0.05 * aSeed.w; vSharp = 22.0; a *= uMix[0];
   } else if (aType < 1.5) {                                     // sushumna: rises on the in-breath
     float u = fract(aSeed.x + uFlowS);
     p = vec3(0.016 * sin(aSeed.y * 40.0 + uT * 1.4 * uM) * (0.5 + aSeed.z), mix(0.28, 2.66, u), 0.05);
     float fill = smoothstep(h + 0.25, h - 0.1, p.y);
     a = (0.22 + 0.6 * fill) * sin(PI * u) * tw * (1.0 + 0.6 * uEnv);
-    col = mix(AMBER, GOLD, aSeed.w); size = 0.05 + 0.03 * aSeed.w; vSharp = 18.0;
+    col = mix(AMBER, GOLD, aSeed.w); size = 0.05 + 0.03 * aSeed.w; vSharp = 18.0; a *= uMix[1];
   } else if (aType < 3.5) {                                     // ida (screen right, teal) / pingala (screen left, rose)
     float side = aType < 2.5 ? 1.0 : -1.0;
     float u = fract(aSeed.x - uFlowIP);                         // settles downward on the out-breath
     float y = mix(0.33, 2.12, u);
     p = vec3(side * (0.19 * (1.0 - 0.55 * u)) * sin(PI * 5.0 * u) + (aSeed.y - 0.5) * 0.03, y, 0.08 + (aSeed.z - 0.5) * 0.03);
     a = (0.4 + 0.35 * uB + 0.3 * uExh) * pow(sin(PI * u), 0.6) * tw;
-    col = side > 0.0 ? TEAL : ROSE; size = 0.05 + 0.03 * aSeed.w; vSharp = 30.0;
+    col = side > 0.0 ? TEAL : ROSE; size = 0.05 + 0.03 * aSeed.w; vSharp = 30.0; a *= uMix[2];
   } else if (aType < 4.5) {                                     // aura: released from the surface on the out-breath
     float life = fract(aSeed.x + uAura);
-    p += aNrm * (0.03 + life * (0.35 + 0.35 * aSeed.y)) + vec3(0.0, life * 0.22, 0.0) + drift * 0.04 * uM;
-    a = pow(sin(PI * life), 1.5) * (0.18 + 0.7 * uExh + 0.5 * uEnv) * tw * 0.75;
+    p += aNrm * (0.03 + life * (0.35 + 0.35 * aSeed.y) * uMix[3]) + vec3(0.0, life * 0.22, 0.0) + drift * 0.04 * uM;
+    a = pow(sin(PI * life), 1.5) * (0.18 + 0.7 * uExh + 0.5 * uEnv) * tw * 0.75 * (0.6 + 0.4 * uMix[3]);
     col = aSeed.z < 0.45 ? TEAL : aSeed.z < 0.75 ? GOLD : ROSE; size = 0.035 + 0.03 * aSeed.w; vSharp = 12.0;
   } else if (aType < 5.5) {                                     // soft haze that swells with the breath
     p += drift * 0.03 * uM;
-    a = 0.03 * (0.55 + 0.9 * uB + 0.6 * uEnv); size = 0.5 + 0.3 * aSeed.w; vSharp = 3.0;
+    p = mix(vec3(0.0, 1.2, 0.0), p, 0.8 + 0.2 * uMix[4]);
+    a = 0.03 * (0.55 + 0.9 * uB + 0.6 * uEnv) * min(uMix[4], 1.0); size = (0.5 + 0.3 * aSeed.w) * (0.8 + 0.2 * uMix[4]); vSharp = 3.0;
     col = mix(GOLD, AMBER, 0.6 + 0.4 * aSeed.x);
+  } else if (aType > 7.5) {                                     // focus motes: where attention rests (uFocKind 1-3)
+    vec3 q = aPos;                                              // aPos = a point in the unit ball
+    if (uFocKind < 1.5) {                                       // heart: a warm core that radiates outward on the out-breath
+      float life = fract(aSeed.x + uAura * 1.6);
+      float rr = uFoc.w * (0.35 + 0.65 * length(q)) * (1.0 + (2.6 + 1.6 * aSeed.y) * life * (0.35 + 0.65 * uExh));
+      p = uFoc.xyz + normalize(q + 1e-4) * rr + drift * 0.01 * uM;
+      a = 0.2 * (0.6 + 0.4 * uB) * pow(1.0 - life, 1.1) * tw * uFocK;
+      col = mix(ROSE, AMBER, 0.1 + 0.25 * aSeed.z); size = 0.10 + 0.08 * aSeed.w; vSharp = 4.0;
+    } else if (uFocKind < 2.5) {                                // nostrils: a fine stream at the touch point, in on the in-breath, out on the out
+      float u = fract(aSeed.x + uFlowN);
+      float sd = aSeed.w < 0.5 ? -1.0 : 1.0;                    // two nostrils, a little apart, streams fanning slightly outward
+      vec3 dir = normalize(vec3(sd * 0.45 + (aSeed.y - 0.5) * 0.5, -0.5 - 0.3 * aSeed.z, 1.0));
+      p = uFoc.xyz + vec3(sd * 0.025, 0.0, 0.0) + dir * (0.01 + u * 0.2) + drift * 0.006 * uM;
+      a = 0.26 * (0.4 + 0.6 * min(abs(uV) * 1.5, 1.0)) * pow(1.0 - u, 1.2) * tw * uFocK;
+      col = mix(TEAL, AMBER, smoothstep(-0.2, 0.2, -uV)); size = 0.06 + 0.05 * aSeed.w; vSharp = 5.0;
+    } else {                                                    // belly: a soft ball that rises and falls with the breath
+      vec3 e = vec3(1.3, 0.85, 0.9) * uFoc.w * (0.75 + 0.55 * uB);
+      p = uFoc.xyz + vec3(0.0, 0.0, 0.06 * uB) + q * e + drift * 0.012 * uM;
+      a = 0.13 * (0.5 + 0.5 * uB) * (1.0 - 0.6 * length(q)) * tw * uFocK;
+      col = mix(AMBER, ROSE, 0.2 * aSeed.z); size = 0.11 + 0.08 * aSeed.w; vSharp = 4.0;
+    }
+    if (uFocKind < 0.5 || uFocKind > 3.5) a = 0.0;
   } else if (aType > 6.5) {                                     // filaments along the limbs: aPos = proximal end, aNrm = distal end
     float u = fract(aSeed.x + (uFlowIP - uFlowS) * 0.8);
     p = mix(aPos, aNrm, u) + (aSeed.yzw - 0.5) * 0.05 + drift * 0.012 * uM;
     a = (0.16 + 0.22 * uB + 0.2 * uExh) * pow(sin(PI * u), 0.5) * uK * tw;
-    col = mix(AMBER, GOLD, aSeed.y); size = 0.035 + 0.02 * aSeed.w; vSharp = 26.0;
+    col = mix(AMBER, GOLD, aSeed.y); size = 0.035 + 0.02 * aSeed.w; vSharp = 26.0; a *= uMix[7];
   } else {                                                      // loci along the central channel
     float lit = smoothstep(p.y + 0.35, p.y - 0.05, h);
     a = (0.14 + 0.5 * lit + 0.2 * uEnv) * (0.85 + 0.15 * sin(uT * 0.9 * uM + p.y * 3.0));
     size = 0.20 + 0.10 * lit + 0.04 * sin(uT * 0.7 * uM + aSeed.x * 6.0); vSharp = 7.0;
-    col = p.y > 2.3 ? mix(GOLD, vec3(1.0, 0.9, 0.7), 0.4) : AMBER;
+    col = p.y > 2.3 ? mix(GOLD, vec3(1.0, 0.9, 0.7), 0.4) : AMBER; a *= uMix[6];
   }
   float cy = cos(uYaw), sy = sin(uYaw);
   p.xz = mat2(cy, -sy, sy, cy) * p.xz;
@@ -162,7 +201,7 @@ void main(){
   o = vec4(hue, 1.0);
 }`
 
-export function createBody(canvas, { small = false, reduce = false } = {}) {
+export function createBody(canvas, { small = false, reduce = false, locus = null } = {}) {
   const gl = canvas.getContext('webgl2', { antialias: false, alpha: false, premultipliedAlpha: false, powerPreference: 'high-performance' })
   if (!gl) return null
   const sh = (t, s) => { const o = gl.createShader(t); gl.shaderSource(o, s); gl.compileShader(o); if (!gl.getShaderParameter(o, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(o)); return o }
@@ -191,6 +230,8 @@ export function createBody(canvas, { small = false, reduce = false } = {}) {
     if (r < 0.7) push([sd * 0.24, SEAT + 0.05, 0.1], [sd * 0.44, SEAT + 1.3, 0.1], 7)
     else push([sd * 0.05, SEAT + 1.45, 0.15], [sd * 0.2, SEAT + 1.85, 0.1], 7)
   }
+  const nFoc = Math.round(420 * k)
+  for (let i = 0; i < nFoc; i++) { let x, y, z; do { x = R() * 2 - 1; y = R() * 2 - 1; z = R() * 2 - 1 } while (x * x + y * y + z * z > 1); push([x, y, z], [0, 0, 0], 8) }
   const count = type.length
   const vao = gl.createVertexArray(); gl.bindVertexArray(vao)
   const attr = (name, data, n) => { const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(data), gl.STATIC_DRAW); const l = gl.getAttribLocation(P, name); gl.enableVertexAttribArray(l); gl.vertexAttribPointer(l, n, gl.FLOAT, false, 0, 0) }
@@ -198,7 +239,8 @@ export function createBody(canvas, { small = false, reduce = false } = {}) {
   const quad = gl.createVertexArray(); gl.bindVertexArray(quad)
   { const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW); const l = gl.getAttribLocation(C, 'aP'); gl.enableVertexAttribArray(l); gl.vertexAttribPointer(l, 2, gl.FLOAT, false, 0, 0) }
   gl.bindVertexArray(null)
-  const U = {}; for (const n of ['uK', 'uT', 'uB', 'uV', 'uFlowS', 'uFlowIP', 'uAura', 'uEnv', 'uExh', 'uDim', 'uYaw', 'uS', 'uAspect', 'uVH', 'uM', 'uPx']) U[n] = gl.getUniformLocation(P, n)
+  const U = {}; for (const n of ['uK', 'uT', 'uB', 'uV', 'uFlowS', 'uFlowIP', 'uAura', 'uEnv', 'uExh', 'uDim', 'uYaw', 'uS', 'uAspect', 'uVH', 'uM', 'uPx', 'uFocK', 'uFocKind', 'uFlowN']) U[n] = gl.getUniformLocation(P, n)
+  const uFoc = gl.getUniformLocation(P, 'uFoc'), uMix = gl.getUniformLocation(P, 'uMix')
   const uTex = gl.getUniformLocation(C, 'uTex'), uGain = gl.getUniformLocation(C, 'uGain'), uBlurT = gl.getUniformLocation(C, 'uBlur'), uBloom = gl.getUniformLocation(C, 'uBloom')
   const bTex = gl.getUniformLocation(B, 'uTex'), bStep = gl.getUniformLocation(B, 'uStep')
 
@@ -234,12 +276,19 @@ export function createBody(canvas, { small = false, reduce = false } = {}) {
   }
 
   const m = reduce ? 0.45 : 1, bloom = 0.6
-  let flowS = 0, flowIP = 0, aura = 0, exh = 0, dim = 1, t0 = performance.now()
+  let flowS = 0, flowIP = 0, flowN = 0, aura = 0, exh = 0, dim = 1, t0 = performance.now()
+  // locus: eased in over ~2 s so a change never jumps; mix eases from the plain look toward the locus's weights
+  let foc = LOCUS.none, focK = 0, mix = MIX[0].slice()
+  function setLocus(l) { foc = typeof l === 'string' ? (LOCUS[l] || LOCUS.none) : (l && l.kind != null ? l : LOCUS.none); focK = 0 }
+  setLocus(locus)
   function frame(dt, b) {
     resize()
     const vN = Math.max(-1, Math.min(1, b.vel / 0.35))
     flowS += dt * (0.025 + 0.24 * Math.max(vN, 0) + 0.05 * b.env) * m
     flowIP += dt * (0.02 + 0.17 * Math.max(-vN, 0)) * m
+    flowN += dt * (-0.32 * vN) * m   // nostril stream: toward the face on the in-breath, away on the out-breath
+    focK += ((foc.kind ? 1 : 0) - focK) * (1 - Math.exp(-dt / 1.8))
+    const target = MIX[foc.kind] || MIX[0]; for (let i = 0; i < 8; i++) mix[i] += (target[i] - mix[i]) * (1 - Math.exp(-dt / 1.8))
     aura += dt * (0.014 + 0.11 * Math.max(-vN, 0) + 0.08 * b.env) * m
     exh += (Math.max(-vN, 0) - exh) * (1 - Math.exp(-dt / 1.2))
     dim += ((b.rest ? 0.5 : 1) - dim) * (1 - Math.exp(-dt / 1.5))
@@ -251,7 +300,9 @@ export function createBody(canvas, { small = false, reduce = false } = {}) {
     gl.useProgram(P); gl.bindVertexArray(vao)
     const set = { uK: small ? 1.1 : 0.72, uT: t, uB: b.level, uV: vN, uFlowS: flowS, uFlowIP: flowIP, uAura: aura, uEnv: b.env || 0, uExh: exh, uDim: dim,
       uYaw: 0.16 * Math.sin(t * 0.06 * m) + 0.04 * Math.sin(t * 0.17 * m), uS: S, uAspect: aspect, uVH: H, uM: m, uPx: 1 }
+    set.uFocK = focK; set.uFocKind = foc.kind || 0; set.uFlowN = flowN
     for (const n in set) gl.uniform1f(U[n], set[n])
+    const at = foc.at || [0, 0, 0]; gl.uniform4f(uFoc, at[0], at[1], at[2], foc.r || 0.1); gl.uniform1fv(uMix, mix)
     gl.drawArrays(gl.POINTS, 0, count)
     gl.disable(gl.BLEND)
     const sx = 1 / B1.w, sy = 1 / B1.h
@@ -263,5 +314,5 @@ export function createBody(canvas, { small = false, reduce = false } = {}) {
     pass(C, null, L, () => { gl.uniform1i(uTex, 0); gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D, B1.tex); gl.uniform1i(uBlurT, 1)
       gl.uniform1f(uGain, 1.15); gl.uniform1f(uBloom, bloom); gl.activeTexture(gl.TEXTURE0) })
   }
-  return { frame, resize, count, get fmt() { return fmt } }
+  return { frame, resize, count, setLocus, get locus() { return foc }, get fmt() { return fmt } }
 }

@@ -72,7 +72,8 @@ function say(text, ms = 6000) { const el = $('line'); el.textContent = text; el.
 
 const canvas = $('c')
 let body = null
-try { body = createBody(canvas, { small, reduce }) } catch (e) { console.error(e) }
+// ?locus=heart|nostrils|belly|central|channels|whole|space previews a practice's locus (app/wisegraph/practice-body.json)
+try { body = createBody(canvas, { small, reduce, locus: q.get('locus') }) } catch (e) { console.error(e) }
 if (!body) { $('nogl').style.display = 'grid'; canvas.style.display = 'none' }
 window.__body = body
 

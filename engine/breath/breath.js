@@ -11,8 +11,11 @@ const clamp = (x, a, b) => Math.max(a, Math.min(b, x))
 const IDLE = { inn: 4.2, out: 6.0 }
 const LEAD = { every: 3, step: 0.04, maxCycle: 11, maxRatio: 1.6 }   // 4% per 3 cycles, cycle <= 11 s (~5.5/min), out <= 1.6 x in
 
-export function createBreath({ onPhase = () => {} } = {}) {
-  const s = { level: 0.15, vel: 0, phase: 'in', source: 'pace', env: 0, inn: IDLE.inn, out: IDLE.out, adapted: false,
+export function createBreath({ onPhase = () => {}, pace = null, lead: leadOn = null } = {}) {
+  // pace {inn, out} (seconds) and lead (bool) are optional, for a practice player (app/src/breathplayer.js); without them the
+  // page behaves exactly as before. lead: true = lead gently from the first cycle; false = never lead (only follow); null = old.
+  const P0 = pace ? { inn: clamp(+pace.inn || IDLE.inn, 2, 6.5), out: clamp(+pace.out || IDLE.out, 2.5, 9.5) } : IDLE
+  const s = { level: 0.15, vel: 0, phase: 'in', source: 'pace', env: 0, inn: P0.inn, out: P0.out, adapted: leadOn === true,
     micOn: false, micPeriod: 0, micConf: 0, rest: false, cycles: 0 }
   let pt = 0                  // time into the current pacer phase
   let lastLevel = s.level
@@ -34,7 +37,7 @@ export function createBreath({ onPhase = () => {} } = {}) {
   }
   function lead() {                       // called once per completed pacer cycle
     s.cycles++
-    if (!s.adapted || s.cycles % LEAD.every) return
+    if (leadOn === false || !s.adapted || s.cycles % LEAD.every) return
     if (s.source === 'mic' && s.micPeriod && s.micConf > 0.3) {
       const cyc = s.inn + s.out
       if (s.micPeriod < cyc * 0.85) {     // not following: ease back toward their own rhythm, no pressure
@@ -172,7 +175,7 @@ export function createBreath({ onPhase = () => {} } = {}) {
   }
 
   function stop() {                       // one tap: mic released, back to a slow, quiet rest pacer
-    micStop(); pressed = false; s.rest = true; s.source = 'pace'; s.inn = IDLE.inn; s.out = IDLE.out; s.adapted = false
+    micStop(); pressed = false; s.rest = true; s.source = 'pace'; s.inn = P0.inn; s.out = P0.out; s.adapted = false
     startPhase(s.vel >= 0 ? 'in' : 'out', s.level)
   }
 

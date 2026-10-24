@@ -10,7 +10,12 @@ export function createCollections(d) {
   // d: { esc, byId(id), servable(c), clipTile, fmtDur, thumb, profile, label(t), wise(), toast, playList(clips) }
   const { esc } = d
   let D = null, DP = null
-  const load = () => (DP ||= fetch('data/wisegraph/collections.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((j) => (D = j || { practices: {}, collections: [] })).catch(() => (D = { practices: {}, collections: [] })))
+  // course tree (tools/build-courses.py): tradition > school > course > phase > practice, loaded beside collections; read by
+  // the practice page's "where this sits" line and offered to the #courses UI as courseTree()
+  let CT = null, CTP = null
+  const loadCourses = () => (CTP ||= fetch('data/wisegraph/courses.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((j) => (CT = j)).catch(() => (CT = null)))
+  const courseTree = () => CT
+  const load = () => (loadCourses(), DP ||= fetch('data/wisegraph/collections.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((j) => (D = j || { practices: {}, collections: [] })).catch(() => (D = { practices: {}, collections: [] })))
   const ready = () => !!D
   const practice = (id) => D?.practices?.[id] || null
   const all = () => D?.collections || []
@@ -80,25 +85,61 @@ export function createCollections(d) {
     const W = d.wise(), from = q.from && all().find((c) => c.id === q.from)
     const talks = (p.topics || []).length ? relatedTalks(p) : []
     const mine = d.profile.practiceLog().filter((x) => x.practice === p.id)
-    el.innerHTML = `<a class="back" href="${from ? '#collection/' + esc(from.id) : '#collections'}">\u2190 ${esc(from ? from.title : 'Journeys and practices')}</a>
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches
+    const withBody = !p.needsTeacher && p.body?.mode === 'body' && webgl2()
+    const where = whereHTML(p.id)
+    if (!CT) loadCourses().then(() => { const w = whereHTML(p.id); if (w && el.isConnected && !el.querySelector('.fl-where')) el.querySelector('.wcta')?.insertAdjacentHTML('afterend', `<p class="muted small fl-where">${w}</p>`) })
+    el.innerHTML = `<a class="back" href="${from ? (from.kind === 'mini-course' ? '#course/' : '#collection/') + esc(from.id) : '#collections'}">\u2190 ${esc(from ? from.title : 'Journeys and practices')}</a>
       <section class="whero wtopic"><div class="whin"><span class="eyebrow">${esc(p.tradLabel || 'Practice')}${p.tradition && W.tradition?.(p.tradition) ? '' : ''}${p.needsTeacher ? ' \u00b7 Orientation only' : ` \u00b7 about ${p.minutes} min`}</span><h1>${esc(p.name)}</h1>
         ${p.cautions?.length ? `<div class="fl-caution">${p.cautions.map((x) => `<p>${esc(x)}</p>`).join('')}</div>` : ''}
         ${p.needsTeacher ? `<p class="tag">${esc(p.how)}</p>` : `<ol class="fl-steps">${p.steps.map((s) => `<li>${esc(s.text)}</li>`).join('')}</ol>`}
         <p class="muted small">${p.sourceLabel ? 'Source: ' + esc(p.sourceLabel) + ' \u00b7 ' : ''}${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">Open the source \u2197</a>` : ''}</p>
-        <div class="wcta">${p.needsTeacher ? '' : `<button type="button" class="btn gold" data-timer="1">Begin \u00b7 ${p.minutes} min</button><span class="fl-mins">${[5, 10, 20, 30].map((m) => `<button type="button" class="hbtn${m === p.minutes ? ' send' : ''}" data-m="${m}">${m} min</button>`).join('')}</span>`}<button type="button" class="btn ghost" data-save="1">${d.profile.has('practice:' + p.id) ? 'Saved' : 'Save'}</button></div>
+        <div class="wcta">${p.needsTeacher ? '' : withBody ? `<button type="button" class="btn ${reduce ? 'ghost' : 'gold'}" data-body="1">Practise with the body \u00b7 ${p.minutes} min</button><button type="button" class="btn ${reduce ? 'gold' : 'ghost'}" data-timer="1">${reduce ? 'Begin' : 'Timer only'} \u00b7 ${p.minutes} min</button>` : `<button type="button" class="btn gold" data-timer="1">Begin \u00b7 ${p.minutes} min</button>`}${p.needsTeacher ? '' : `<span class="fl-mins">${[5, 10, 20, 30].map((m) => `<button type="button" class="hbtn${m === p.minutes ? ' send' : ''}" data-m="${m}">${m} min</button>`).join('')}</span>`}<button type="button" class="btn ghost" data-save="1">${d.profile.has('practice:' + p.id) ? 'Saved' : 'Save'}</button></div>
+        ${withBody ? `<p class="muted small fl-bodynote">${esc(BODY_NOTE[p.body.locus] || BODY_NOTE.none)} Natural breath; it never holds. Hold anywhere to breathe in, or let the microphone follow you.</p>` : ''}
+        ${where ? `<p class="muted small fl-where">${where}</p>` : ''}
         ${mine.length ? `<p class="muted small">You have sat with this ${mine.length === 1 ? 'once' : mine.length + ' times'}.</p>` : ''}
       </div></section>
       ${talks.length ? `<section class="wsec"><div class="wsech"><h3>Talks to go with it</h3></div><div class="rail">${talks.map((c) => d.clipTile(c, null, d.fmtDur(c))).join('')}</div></section>` : ''}
       ${(p.topics || []).length ? `<section class="wsec"><div class="wsech"><h3>Topics</h3></div><div class="wtopics">${p.topics.filter((t) => d.label(t)).map((t) => `<a class="wchip tp" href="#topic/${esc(t)}">${esc(d.label(t))}</a>`).join('')}</div></section>` : ''}`
     let mins = p.minutes
-    el.querySelectorAll('[data-m]').forEach((b) => b.addEventListener('click', () => { mins = Number(b.dataset.m); el.querySelectorAll('[data-m]').forEach((x) => x.classList.toggle('send', x === b)); const t = el.querySelector('[data-timer]'); if (t) t.textContent = `Begin \u00b7 ${mins} min` }))
-    el.querySelector('[data-timer]')?.addEventListener('click', () => timer(p, mins, { journey: from?.id || null, unit: Number(q.unit) || null }))
+    el.querySelectorAll('[data-m]').forEach((b) => b.addEventListener('click', () => { mins = Number(b.dataset.m); el.querySelectorAll('[data-m]').forEach((x) => x.classList.toggle('send', x === b)); const t = el.querySelector('[data-timer]'); if (t) t.textContent = `${withBody && !reduce ? 'Timer only' : 'Begin'} \u00b7 ${mins} min`; const bb = el.querySelector('[data-body]'); if (bb) bb.textContent = `Practise with the body \u00b7 ${mins} min` }))
+    const ctx = { journey: from?.id || null, unit: Number(q.unit) || null }
+    el.querySelector('[data-timer]')?.addEventListener('click', () => timer(p, mins, ctx))
+    el.querySelector('[data-body]')?.addEventListener('click', (e) => withTheBody(p, mins, ctx, e.currentTarget, reduce))
     el.querySelector('[data-save]')?.addEventListener('click', (e) => { const on = d.profile.toggleSave('practice:' + p.id); e.target.textContent = on ? 'Saved' : 'Save' })
   }
   function relatedTalks(p) {
     const L = d.allClips().filter((c) => d.servable(c) && d.inBallot(c) && (c.topics || []).some((t) => p.topics.includes(t.split('/')[0])) && (!p.tradition || (c.traditions || []).includes(p.tradition) || c.tradition === p.tradition))
     return (L.length >= 3 ? L : d.allClips().filter((c) => d.servable(c) && d.inBallot(c) && (c.topics || []).some((t) => p.topics.includes(t.split('/')[0])))).sort((a, b) => (Number(b.views) || 0) - (Number(a.views) || 0)).slice(0, 12)
   }
+  // ---------- "Practise with the body": the breath engine as an immersive overlay (src/breathplayer.js -> site/breathplayer.js) ----------
+  const BODY_NOTE = { none: 'The body of light breathes with you.', heart: 'The light gathers at the heart and radiates as you breathe out.', nostrils: 'The light rests where the breath touches, at the nostrils.',
+    belly: 'The light rests low in the belly and rises and falls with the breath.', central: 'The light rises and settles along the central channel.',
+    channels: 'The three channels glow: the central one, with the teal and rose channels either side.', whole: 'The whole body is evenly lit.', space: 'The light widens into the space around the body.' }
+  let W2 = null
+  function webgl2() { if (W2 === null) { try { W2 = !!document.createElement('canvas').getContext('webgl2') } catch { W2 = false } } return W2 }
+  let BP = null
+  const playerUrl = () => new URL(document.querySelector('meta[name="wiser-breath"]')?.content || 'breathplayer.js', location.href).href
+  async function withTheBody(p, minutes, ctx, btn, reduce) {
+    if (btn) btn.disabled = true
+    try {
+      BP ||= import(/* @vite-ignore */ playerUrl())
+      const m = await BP
+      m.open({ name: p.name, steps: p.steps, minutes, body: p.body, reduce, onEnd: ({ full, seconds }) => logSheet(p, minutes, Math.max(1, Math.round(seconds / 60)), full, ctx, 'player') })
+    } catch (e) { console.warn('breath player unavailable, using the timer', e); BP = null; timer(p, minutes, ctx) }
+    finally { if (btn) btn.disabled = false }
+  }
+  // where a practice sits in the course tree: Tradition › School, and each course › phase that uses it
+  function whereHTML(pid) {
+    const ix = CT?.index?.practice?.[pid]; if (!ix) return ''
+    const T = CT.traditions.find((t) => t.id === ix.tradition), S = T?.schools.find((s) => s.id === ix.school)
+    const cs = (ix.courses || []).map((x) => { const c = S?.courses.find((y) => y.id === x.course) || CT.traditions.flatMap((t) => t.schools.flatMap((s) => s.courses)).find((y) => y.id === x.course); if (!c) return ''
+      const ph = x.phase ? c.phases.find((f) => f.n === x.phase) : null
+      return `<a href="${esc(c.href || '#collection/' + c.id)}">${esc(c.title)}</a>${ph ? ` \u203a ${esc(ph.title)}` : ''}` }).filter(Boolean)
+    const head = T ? `${esc(T.label)}${S && S.label !== T.label ? ' \u203a ' + esc(S.label) : ''}` : ''
+    return head || cs.length ? `${head}${cs.length ? `${head ? ' \u00b7 ' : ''}In ${cs.slice(0, 3).join('; ')}` : ''}` : ''
+  }
+
   // the dark timer: practice name in the serif, one gold hairline ring filling slowly, bells at step cues, no numerals unless tapped
   let wake = null
   function timer(p, minutes, ctx = {}) {
@@ -133,22 +174,28 @@ export function createCollections(d) {
       ended = true; cancelAnimationFrame(raf); if (full) bell(0.6, 3)
       const sat = Math.max(1, Math.round(((pausedAt || performance.now()) - t0 - paused) / 60000))
       try { wake?.release?.() } catch {} wake = null
-      ov.querySelector('.fl-tin').innerHTML = `<h2 class="fl-nm">${full ? 'Well sat.' : 'Ended.'}</h2>
+      logSheet(p, minutes, sat, full, ctx, 'timer', ov)
+    }
+    function close() { ended = true; cancelAnimationFrame(raf); ov.remove(); document.body.classList.remove('in-timer'); try { wake?.release?.() } catch {} }
+  }
+  // after a sit (timer or body): log it to the device, optionally advancing the journey unit it came from
+  function logSheet(p, minutes, sat, full, ctx = {}, source = 'timer', ov = null) {
+    if (!ov) { ov = document.createElement('div'); ov.className = 'fl-timer'; ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-label', p.name); ov.innerHTML = '<div class="fl-tin"></div>'; document.body.appendChild(ov); document.body.classList.add('in-timer') }
+    ov.querySelector('.fl-tin').innerHTML = `<h2 class="fl-nm">${full ? 'Well sat.' : 'Ended.'}</h2>
         <label class="fl-log">Minutes <input type="number" min="1" max="600" value="${full ? minutes : sat}" data-min></label>
         <label class="fl-log">A note, if you like <input type="text" maxlength="300" data-note placeholder="Optional"></label>
         <p class="fl-qual" role="group" aria-label="How was it?">${[1, 2, 3, 4, 5].map((n) => `<button type="button" class="hbtn" data-q="${n}">${'\u2022'.repeat(n)}</button>`).join('')}</p>
         <p class="fl-acts"><button type="button" class="btn gold" data-log="1">Log this sit</button><button type="button" class="hbtn" data-skip="1">Don\u2019t log</button></p>`
-      let qual = null
-      ov.querySelectorAll('[data-q]').forEach((b) => (b.onclick = () => { qual = Number(b.dataset.q); ov.querySelectorAll('[data-q]').forEach((x) => x.classList.toggle('send', x === b)) }))
-      ov.querySelector('[data-log]').onclick = () => {
-        const m = Math.max(1, Math.min(600, Number(ov.querySelector('[data-min]').value) || sat))
-        d.profile.logPractice({ practice: p.id, minutes: m, note: ov.querySelector('[data-note]').value.trim() || undefined, quality: qual || undefined, journey: ctx.journey || undefined, traditions: [p.tradition].filter(Boolean), topics: p.topics || [] })
-        if (ctx.journey && ctx.unit) { const c = all().find((x) => x.id === ctx.journey), j = d.profile.journey(ctx.journey); if (c && !(j?.done || []).includes(ctx.unit)) markUnit(c, ctx.unit, null) }
-        close(); d.toast('Logged. ' + m + ' minutes.'); d.onTaste?.()
-      }
-      ov.querySelector('[data-skip]').onclick = close
+    let qual = null
+    const close = () => { ov.remove(); document.body.classList.remove('in-timer') }
+    ov.querySelectorAll('[data-q]').forEach((b) => (b.onclick = () => { qual = Number(b.dataset.q); ov.querySelectorAll('[data-q]').forEach((x) => x.classList.toggle('send', x === b)) }))
+    ov.querySelector('[data-log]').onclick = () => {
+      const m = Math.max(1, Math.min(600, Number(ov.querySelector('[data-min]').value) || sat))
+      d.profile.logPractice({ practice: p.id, minutes: m, note: ov.querySelector('[data-note]').value.trim() || undefined, quality: qual || undefined, journey: ctx.journey || undefined, traditions: [p.tradition].filter(Boolean), topics: p.topics || [], source })
+      if (ctx.journey && ctx.unit) { const c = all().find((x) => x.id === ctx.journey), j = d.profile.journey(ctx.journey); if (c && !(j?.done || []).includes(ctx.unit)) markUnit(c, ctx.unit, null) }
+      close(); d.toast('Logged. ' + m + ' minutes.'); d.onTaste?.()
     }
-    function close() { ended = true; cancelAnimationFrame(raf); ov.remove(); document.body.classList.remove('in-timer'); try { wake?.release?.() } catch {} }
+    ov.querySelector('[data-skip]').onclick = close
   }
   let actx = null
   function bell(vol = 0.4, times = 1) { // a soft synthesised bell (no audio files): two partials, slow decay
@@ -161,5 +208,5 @@ export function createCollections(d) {
     } catch {}
   }
   const practiceForTopic = (t) => Object.values(D?.practices || {}).find((p) => !p.needsTeacher && (p.topics || []).includes(String(t).split('/')[0])) || null
-  return { load, ready, practice, all, paintList, paintCollection, paintPractice, practiceForTopic }
+  return { load, ready, practice, all, paintList, paintCollection, paintPractice, practiceForTopic, courseTree, loadCourses }
 }

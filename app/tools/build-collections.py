@@ -131,6 +131,13 @@ for col in spec['collections']:
     items = [x for x in (resolve(i) for i in col.get('items', [])) if x]
     out_cols.append({**{k: v for k, v in col.items() if k not in ('units', 'items')}, 'units': units, 'items': items})
 
+# breath engine per practice (wisegraph/practice-body.json; "Practise with the body"): mode body|text, locus, pace, lead. Never retention.
+PB = J(os.path.join(APP, 'wisegraph/practice-body.json')); PBD = PB.get('defaults', {})
+for pid, rec in practices.items():
+    b = PB['practices'].get(pid)
+    if not b: print('  no body mapping (text only):', pid); continue
+    if rec['needsTeacher'] or b.get('mode') != 'body': rec['body'] = {'mode': 'text'}; continue
+    rec['body'] = {'mode': 'body', 'locus': b.get('locus', 'none'), 'pace': b.get('pace') or PBD.get('pace'), 'lead': b.get('lead', PBD.get('lead', True))}
 out = {'built': spec.get('version', 1), 'practices': practices, 'collections': out_cols}
 dst = os.path.join(APP, 'site/data/wisegraph/collections.json')
 json.dump(out, open(dst, 'w'), ensure_ascii=False, separators=(',', ':'))

@@ -22,3 +22,11 @@ three.js code is copied.
 Phones: half the particles, DPR ≤ 1.5. `prefers-reduced-motion` (or `?reduce`): motion at 45%, still breathing.
 Test params: `?hq` / `?lq` force the particle tier. `node breath/shoot.mjs` (needs `../shot-setup.sh`) writes `shots/breath-*.jpg`
 and checks hold/release, rhythm adoption, a synthetic mic breather and one-tap stop.
+
+## Practice parameters (additive; the page itself is unchanged)
+`createBreath({ pace: {inn, out}, lead })` and `createBody(canvas, { locus })` / `body.setLocus(name)` let the main site's
+"Practise with the body" (app/src/breathplayer.js) run one practice: `pace` is the starting natural rhythm (clamped 2-6.5 s in,
+2.5-9.5 s out), `lead: true` leads gently from the first cycle, `lead: false` never leads. `LOCUS` = none, heart (warm point that
+radiates on the out-breath), nostrils (fine stream in and out at the touch point), belly (soft light that rises and falls),
+central (sushumna brighter), channels (ida/pingala/sushumna), whole (evenly lit), space (light widened around the body). Preview
+any locus here with `?locus=heart`. Mapping per practice: app/wisegraph/practice-body.json.

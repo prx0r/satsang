@@ -24,7 +24,8 @@ if [ -d ../mcp ] && [ "$SKIP_DATA" != "1" ]; then
   (cd web-worker && node build-meta.mjs >/dev/null)
 fi
 M=$(sha256sum site/placemap.js | cut -c1-10)
-sed -i "s/app\.js\"/app.js?v=$V\"/; s/style\.css\"/style.css?v=$V\"/; s/content=\"placemap\.js\"/content=\"placemap.js?v=$M\"/" dist/index.html
+B=$(sha256sum site/breathplayer.js 2>/dev/null | cut -c1-10)
+sed -i "s/app\.js\"/app.js?v=$V\"/; s/style\.css\"/style.css?v=$V\"/; s/content=\"placemap\.js\"/content=\"placemap.js?v=$M\"/; s/content=\"breathplayer\.js\"/content=\"breathplayer.js?v=$B\"/" dist/index.html
 # guard: transcripts are internal only; fail the deploy if anything that looks like transcript text or a transcript URL is in dist
 if grep -rIlE "dhamma\.stream|bbballs|hillside-hermitage-documents|_djvu|transcripts-internal" dist; then echo "transcript reference found in dist" >&2; exit 1; fi
 python3 tools/check-no-transcripts.py dist $([ -f ../mcp/data/wiser.json ] && echo ../mcp/data/wiser.json) ||  # the dumps and the MCP bundle are derived from wiser.json (no other text)

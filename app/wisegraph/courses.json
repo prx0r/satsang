@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "doc": "Course structure: tradition > school > course > phase > practice (after prx0r/deitybody's tradition > course > phase menu, with the school level the Satsang wisegraph already has). Non-destructive: collections.json stays the source of every course's content; this file only says WHERE each course and practice sits, and can group a course's units into phases. tools/build-courses.py resolves it against site/data/wisegraph/collections.json + wise.json into site/data/wisegraph/courses.json (shape: courses.schema.json). Any collection kind becomes a course node, including mini-course; a collection may carry its own tradition/school fields, which win over everything here except an explicit placement.",
+ "traditionRoots": [
+  "kashmir-shaivism",
+  "theravada",
+  "tibetan",
+  "zen",
+  "chan",
+  "mahayana",
+  "vedanta",
+  "shaivism",
+  "shaktism",
+  "yoga-traditions",
+  "sufism",
+  "christian",
+  "jewish",
+  "platonic",
+  "esoteric",
+  "vajrayana",
+  "vaishnava"
+ ],
+ "labels": {
+  "kashmir-shaivism": "Trika · Kashmir Shaivism",
+  "esoteric": "Occult · Western esotericism",
+  "across": "Across traditions"
+ },
+ "generalSchool": {
+  "kashmir-shaivism": {
+   "id": "trika",
+   "label": "Trika"
+  },
+  "across": {
+   "id": "comparative",
+   "label": "Side by side"
+  }
+ },
+ "order": [
+  "kashmir-shaivism",
+  "theravada",
+  "tibetan",
+  "zen",
+  "chan",
+  "mahayana",
+  "esoteric",
+  "vedanta",
+  "shaivism",
+  "shaktism",
+  "yoga-traditions",
+  "sufism",
+  "christian",
+  "jewish",
+  "platonic",
+  "vajrayana",
+  "vaishnava",
+  "across"
+ ],
+ "placements": {
+  "seven-days-with-death": {
+   "tradition": "across"
+  },
+  "rebirth-across-traditions": {
+   "tradition": "across"
+  },
+  "metta-in-four-traditions": {
+   "tradition": "across"
+  }
+ },
+ "phases": {
+  "kashmir-shaivism-first-syllabus": [
+   {
+    "title": "Ground: what Kashmir Shaivism says",
+    "units": [
+     1,
+     2
+    ]
+   },
+   {
+    "title": "Practice: the gap between breaths",
+    "units": [
+     3
+    ]
+   },
+   {
+    "title": "Recognition",
+    "units": [
+     4,
+     5
+    ]
+   },
+   {
+    "title": "Grace and the teacher",
+    "units": [
+     6
+    ]
+   }
+  ],
+  "vbt-foundations": [
+   {
+    "title": "Breath and the gap",
+    "units": [
+     1,
+     2
+    ]
+   },
+   {
+    "title": "Sound and the body",
+    "units": [
+     3,
+     4
+    ]
+   },
+   {
+    "title": "Space",
+    "units": [
+     5,
+     6
+    ]
+   },
+   {
+    "title": "Into the day",
+    "units": [
+     7
+    ]
+   }
+  ],
+  "trika-prep-week": [
+   {
+    "title": "Settle and turn",
+    "units": [
+     1,
+     2
+    ]
+   },
+   {
+    "title": "Recognition",
+    "units": [
+     3
+    ]
+   },
+   {
+    "title": "Deepen",
+    "units": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "title": "The week in one sit",
+    "units": [
+     7
+    ]
+   }
+  ]
+ },
+ "sequence": {
+  "kashmir-shaivism": [
+   "kashmir-shaivism-first-steps",
+   "trika-prep-week",
+   "vbt-foundations",
+   "kashmir-shaivism-first-syllabus"
+  ],
+  "theravada": [
+   "anapanasati-breath",
+   "metta-loving-kindness",
+   "contemplating-death",
+   "how-buddhist-rebirth-works",
+   "remembering-past-lives",
+   "thai-forest-basics"
+  ]
+ }
+}

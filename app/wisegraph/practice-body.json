@@ -1,0 +1,480 @@
+{
+ "version": 1,
+ "doc": "Which practices open the breath engine (engine/breath, \"Practise with the body\") and how. mode body = the body of light with one locus lit; mode text = text and the timer only (orientation-only, reading, movement, lying, daily-life, initiated or course-taught practices). Breath: natural only; pace {inn,out} seconds (default 4.2/6.0, ~5.9/min), lead = gently lengthen (exhale first, never past ~5.5/min); retention is never part of any practice here (the engine cannot hold). Loci: engine/breath/body.js LOCUS. Checked by app/tools/test-practice-body.mjs; merged into practices[].body by tools/build-collections.py.",
+ "defaults": {
+  "pace": {
+   "inn": 4.2,
+   "out": 6.0
+  },
+  "lead": true,
+  "retention": 0
+ },
+ "loci": {
+  "none": "the plain breathing body",
+  "heart": "a warm point at the heart that radiates on the out-breath",
+  "nostrils": "a fine stream at the nostrils, in and out with the breath",
+  "belly": "a soft light in the lower belly (hara) that rises and falls",
+  "central": "the central channel (sushumna) and its loci brighter",
+  "channels": "the three channels: central, ida (teal) and pingala (rose)",
+  "whole": "the whole body evenly lit",
+  "space": "the light widened into the space around the body"
+ },
+ "practices": {
+  "active-imagination-imaginal-attention": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Stay with an image as a presence; the breath is only the ground."
+  },
+  "ajikan": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "analytic-meditation-on-the-stages-of-the-path": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Discursive Lamrim contemplation on a calm breath; no locus in the source."
+  },
+  "anapanasati-breath-meditation-method-2": {
+   "mode": "body",
+   "locus": "nostrils",
+   "lead": true,
+   "why": "Ajahn Lee: notice the breath where it is clearest (classically the nose tip) and let it become comfortable; gentle lead allowed."
+  },
+  "basic-saiva-siddhanta-meditation": {
+   "mode": "body",
+   "locus": "central",
+   "lead": false,
+   "pace": {
+    "inn": 5.0,
+    "out": 5.0
+   },
+   "why": "\"Regulate the breath to a slow even count, then draw awareness inward to the spine\": an even, unled count and the spinal channel."
+  },
+  "bhairavi-sadhana-isha": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "body-sweeping-goenka-vipassana": {
+   "mode": "text",
+   "why": "Goenka vipassanā is taught on a 10-day course after days of ānāpāna; the tradition asks that it be learned there."
+  },
+  "breath-centred-individually-adapted-asana-viniyoga": {
+   "mode": "text",
+   "why": "A movement practice."
+  },
+  "buddho-recollection": {
+   "mode": "body",
+   "locus": "nostrils",
+   "lead": true,
+   "why": "\"Bud-\" on the in-breath, \"-dho\" on the out-breath at the breath's touch point (Ajahn Mun line)."
+  },
+  "calming-and-contemplation-zhiguan": {
+   "mode": "body",
+   "locus": "belly",
+   "lead": true,
+   "why": "Zhiyi's calming (zhi) settles the breath and attention below the navel; then contemplation."
+  },
+  "centering-prayer": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Consent to presence with a sacred word; no breath technique or locus in the source."
+  },
+  "christian-meditation-with-a-mantra-maranatha": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "WCCM: four equal syllables, listened to; no locus or breath technique in the source."
+  },
+  "contemplating-not-self": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": true,
+   "why": "Each aggregate in turn: the whole body-and-mind field is the object."
+  },
+  "dhikr-and-breathwork": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "\"Keep attention on the heart\" (source)."
+  },
+  "drawing-the-sri-chakra-as-meditation": {
+   "mode": "text",
+   "why": "A drawing practice following a teacher's construction."
+  },
+  "dream-yoga-first-steps": {
+   "mode": "text",
+   "why": "A daytime habit and a night practice, not a timed sit."
+  },
+  "ease-through-the-body-trika-prep": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": true,
+   "why": "Trika prep: rest where the breath is clearest, then let ease spread through the whole body (source wording, so whole rather than the central channel)."
+  },
+  "feeding-your-demons-a-modern-adaptation-of-chod": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": true,
+   "why": "Find where the struggle lives in the body, then feed it: the whole body is the field."
+  },
+  "five-points-of-yoga-sivananda": {
+   "mode": "text",
+   "why": "A way of life, not a sit."
+  },
+  "goodwill-metta": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Goodwill is felt and widened from the heart."
+  },
+  "hare-krishna-mahamantra-japa-and-kirtan": {
+   "mode": "text",
+   "why": "Chanted aloud and in kīrtan: a continuous vocal practice that a breath pacer would fight."
+  },
+  "hermetic-ascent-and-rebirth-corpus-hermeticum-xiii": {
+   "mode": "text",
+   "why": "A contemplative reading."
+  },
+  "huatou": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Hold the question; no locus is named in the source."
+  },
+  "japa-repetition-of-a-divine-name": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Japa of a divine name on a natural breath."
+  },
+  "khatm-i-khwajagan-naqshbandi-group-dhikr": {
+   "mode": "text",
+   "why": "A group litany."
+  },
+  "khecari-mudra-historical-description-only": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "koan-practice-with-mu": {
+   "mode": "body",
+   "locus": "belly",
+   "lead": true,
+   "pace": {
+    "inn": 4.0,
+    "out": 6.4
+   },
+   "why": "Mu breathed on each exhalation from the hara (lower belly); a longer exhale."
+  },
+  "lectio-divina": {
+   "mode": "text",
+   "why": "A reading practice."
+  },
+  "lojong-slogans": {
+   "mode": "text",
+   "why": "Slogans carried through the day."
+  },
+  "looking-at-the-mind-mahamudra": {
+   "mode": "body",
+   "locus": "space",
+   "lead": false,
+   "why": "Mahāmudrā: look for the looker; open awareness."
+  },
+  "mahasi-noting": {
+   "mode": "body",
+   "locus": "belly",
+   "lead": false,
+   "why": "Mahāsi: the rising and falling of the abdomen. Known, not led."
+  },
+  "mantra-repetition-japa": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Japa at an even pace on a natural breath; the mantra itself comes from the tradition."
+  },
+  "metta-loving-kindness": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Mettā widened from the heart in rings."
+  },
+  "middle-pillar-outline": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "mindful-breathing-pv": {
+   "mode": "body",
+   "locus": "belly",
+   "lead": true,
+   "why": "\"In / Out\", then \"Deep / Slow\": Plum Village often rests the breath in the rise and fall of the abdomen."
+  },
+  "mindfulness-of-breathing": {
+   "mode": "body",
+   "locus": "nostrils",
+   "lead": false,
+   "why": "Ānāpānasati: know each in- and out-breath; the Thai and Burmese teachers start at the touch point at the nostrils. The breath is known, not led."
+  },
+  "mindfulness-of-death-maranasati": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "A reflection carried on an easy breath; no locus is named in the source."
+  },
+  "natural-awareness-right-attitude": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": false,
+   "why": "Shwe Oo Min: relax and know whatever is experienced; no single object."
+  },
+  "neelakantha-meditation": {
+   "mode": "text",
+   "why": "An initiated mantra practice, described only so the clips make sense."
+  },
+  "nembutsu-nianfo": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "Recitation of the Name on a natural breath."
+  },
+  "neoplatonic-contemplation": {
+   "mode": "body",
+   "locus": "space",
+   "lead": false,
+   "why": "Plotinus: turn from objects to knowing itself, then let that go."
+  },
+  "nine-breathings": {
+   "mode": "body",
+   "locus": "channels",
+   "lead": false,
+   "why": "The three channels (Bön nine breathings), on a natural, unforced breath; the alternation is in the words, not forced by the engine."
+  },
+  "nyasa": {
+   "mode": "text",
+   "why": "Placing syllables on the body is learned with the mantra from a teacher."
+  },
+  "open-awareness-shamatha-without-a-support": {
+   "mode": "body",
+   "locus": "space",
+   "lead": false,
+   "why": "Shamatha without a support: open, spacious, eyes open."
+  },
+  "owner-of-my-actions": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "A recollection on an easy breath."
+  },
+  "powa-an-introduction": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "powa-an-introduction-to-transference-at-death": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "practising-dying-melete-thanatou": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "A philosophical exercise; the breath steadies it, no locus in the source."
+  },
+  "preparing-for-the-bardo": {
+   "mode": "text",
+   "why": "A daily-life practice (the gaps of falling asleep, between thoughts), not a timed sit."
+  },
+  "rain": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Recognise, allow, investigate in the body, then nurture: the nurture step is often a hand on the heart."
+  },
+  "recognition-pratyabhijna-contemplation": {
+   "mode": "text",
+   "why": "Alternates reading a sūtra with looking at experience: a reading practice."
+  },
+  "recollecting-the-round": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "A contemplation; the breath only steadies it."
+  },
+  "recollection-of-past-lives-orientation": {
+   "mode": "text",
+   "why": "Orientation only: a reading about past-life recollection, not a guided sit."
+  },
+  "resting-in-rigpa-dzogchen-orientation-only": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "resting-in-the-gap-between-breaths-vijnana-bhairava-dharana": {
+   "mode": "body",
+   "locus": "central",
+   "lead": false,
+   "why": "VBT breath-pause (vv. 24-27): the turns of the breath along the central channel. Natural breath; the engine never holds, the turn is only noticed."
+  },
+  "rudi-s-double-breath": {
+   "mode": "text",
+   "why": "Orientation only (needsTeacher)."
+  },
+  "satipatthana-four-establishings-of-mindfulness": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": false,
+   "why": "Body, feeling, mind, qualities: the whole field, starting from the body."
+  },
+  "self-enquiry": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Ramana: trace the I to its source, the spiritual heart."
+  },
+  "self-enquiry-who-dies": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Ramana places the source of the I-thought in the heart (hṛdaya); attention rests there."
+  },
+  "shamatha-with-object": {
+   "mode": "body",
+   "locus": "nostrils",
+   "lead": false,
+   "why": "Calm abiding on the breath as the support, at the nostrils. Known, not led."
+  },
+  "shikantaza-just-sitting": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": false,
+   "why": "Just sitting: aware of the whole posture, no object."
+  },
+  "shiva-process-self-inquiry": {
+   "mode": "text",
+   "why": "A spoken, layered enquiry usually done in pairs or with a guide; text keeps it honest."
+  },
+  "silent-illumination-mozhao": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": false,
+   "why": "Mozhao: aware of the whole body sitting, then widening."
+  },
+  "sravanamanananididhyasana": {
+   "mode": "text",
+   "why": "Listening to the Upaniṣads with a teacher: a study practice."
+  },
+  "the-five-remembrances": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "why": "A reflection, not a breath technique: the body simply breathes slowly while the lines come one at a time."
+  },
+  "the-jesus-prayer-prayer-of-the-heart": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "The prayer of the heart: the hesychast tradition joins the prayer to the breath and rests the mind in the heart."
+  },
+  "the-view-from-above-spiritual-exercise": {
+   "mode": "body",
+   "locus": "space",
+   "lead": true,
+   "why": "Rise above in imagination until concerns take the scale of the cosmos."
+  },
+  "tonglen": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "Taking in heaviness, sending out lightness, at the heart."
+  },
+  "twelve-kalis": {
+   "mode": "text",
+   "why": "A study sequence (the Krama Kālīs), one at a time."
+  },
+  "unio-mystica-letters": {
+   "mode": "text",
+   "why": "Listed for context, not as instruction."
+  },
+  "vbt-body-as-consciousness": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": false,
+   "why": "VBT: the whole body at once as consciousness."
+  },
+  "vbt-inner-outer-spaces": {
+   "mode": "body",
+   "locus": "space",
+   "lead": false,
+   "why": "VBT: the space at the meeting of inner and outer."
+  },
+  "vbt-mind-between-objects": {
+   "mode": "body",
+   "locus": "central",
+   "lead": false,
+   "why": "VBT: rest in the gap between objects; the central channel is the Trika seat of the in-between."
+  },
+  "vbt-sound-dissolution": {
+   "mode": "body",
+   "locus": "central",
+   "lead": false,
+   "why": "VBT vv. 38-41: inner sound followed into quiet, along the central channel."
+  },
+  "vbt-space-contemplation": {
+   "mode": "body",
+   "locus": "space",
+   "lead": false,
+   "why": "VBT: the space that holds the room and the body."
+  },
+  "vbt-twelve-centres": {
+   "mode": "text",
+   "why": "A daily-life practice, not a sit (source)."
+  },
+  "video-lectio": {
+   "mode": "text",
+   "why": "A watching and reading practice."
+  },
+  "walking-meditation": {
+   "mode": "text",
+   "why": "A walking practice: the seated body does not fit."
+  },
+  "walking-meditation-jongrom": {
+   "mode": "text",
+   "why": "A walking practice: the seated body does not fit."
+  },
+  "weekly-parashah-reflection-neo-hasidic": {
+   "mode": "text",
+   "why": "A weekly reading practice."
+  },
+  "welcoming-practice": {
+   "mode": "body",
+   "locus": "whole",
+   "lead": true,
+   "why": "Feel the reaction as a sensation in the body and welcome it."
+  },
+  "what-am-i-don-t-know": {
+   "mode": "body",
+   "locus": "none",
+   "lead": true,
+   "pace": {
+    "inn": 4.0,
+    "out": 6.4
+   },
+   "why": "The question on the in-breath, \"Don't know...\" as long as the out-breath: a longer exhale, no locus named."
+  },
+  "yoga-nidra": {
+   "mode": "text",
+   "why": "Practised lying down: the seated body does not fit."
+  },
+  "zazen": {
+   "mode": "body",
+   "locus": "belly",
+   "lead": false,
+   "why": "Sōtō zazen: breathe naturally through the nose; the breath settles into the hara."
+  },
+  "zikr-remembrance-in-the-inayati-way": {
+   "mode": "body",
+   "locus": "heart",
+   "lead": true,
+   "why": "The remembrance settles in the heart (Inayati)."
+  }
+ }
+}

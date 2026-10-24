@@ -93,3 +93,21 @@ Every Concept/Practice/Routine/Pathway/Lens has `/x/<id>` HTML, `.json`, `.md`, 
 3. Script player v0 (breath orb + phase narration, dark design).
 4. The book miner on one Sivananda text as a pilot, with a review queue in keeper.
 5. Pathways + profile progress.
+
+## 10. Live breath engine on the practice pages + course tree (built 2026-10-24)
+- **Practise with the body** (`#practice/<id>`): opens `engine/breath` (body.js + breath.js, the white page of light) as a full-screen
+  overlay over the dark site (`app/src/breathplayer.js` -> `site/breathplayer.js`, loaded on demand via `<meta name="wiser-breath">`).
+  Per practice from `app/wisegraph/practice-body.json` (merged into `practices[].body` by `tools/build-collections.py`):
+  `mode body|text`, `locus` (none, heart, nostrils, belly, central, channels, whole, space = `LOCUS` in body.js), `pace {inn,out}`
+  (default 4.2/6.0 s) and `lead` (gently lengthen, exhale first, never past ~5.5/min). Natural breath only: no retention anywhere,
+  and the engine has no hold. Steps come as one quiet fading line at a time (wall-clock cues over the chosen minutes); hold/release,
+  opt-in mic and breath sound as on /breath/. End -> the same dark log sheet as the timer (`source: 'player'`).
+  The dark timer stays: "Timer only" beside it, the first button under `prefers-reduced-motion`, and the automatic fallback when
+  WebGL2 or the module is missing. needsTeacher / orientation-only, reading, movement, lying, daily-life, initiated and
+  course-taught practices are `text` (no body button).
+- **Course tree** (`app/wisegraph/courses.json` + `courses.schema.json` -> `tools/build-courses.py` -> `site/data/wisegraph/courses.json`):
+  tradition > school > course > phase > practice, after deitybody's tradition > course > phase menu. Non-destructive: every
+  collection (mini-course included) is a course node whose units become phases (or the groups in `phases`); every practice sits
+  on exactly one school shelf; `index.practice[id]` gives each practice's tradition, school and course/phase uses (the practice
+  page's "where this sits" line). Mini-courses are placed by their own `school`; mixed-tradition collections go to Across traditions.
+  `collections.js` exposes `courseTree()` for the #courses UI. Tests: `node app/tools/test-practice-engine.mjs [--browser outDir filter]`.
