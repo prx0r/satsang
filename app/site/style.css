@@ -1810,3 +1810,6 @@ body.tv-on #toast{display:none}
 .mretreat{border-left-color:rgba(232,207,150,.5)}
 .pprg.mretreat{border-color:rgba(232,207,150,.32)}
 .mnow,.tseries{scroll-margin-top:118px}
+
+/* phone: grid tiles never widen the page (long names wrap) */
+.wgrid>*{min-width:0}.wtile .wtt{min-width:0;overflow-wrap:anywhere}

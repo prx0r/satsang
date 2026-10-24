@@ -54,6 +54,7 @@ for teachers, figures and traditions, and topic pages that set the traditions si
   layer, off by default). Tap a point -> place panel (type, country, traditions, description, lineage of its first teacher,
   up to 3 retreats with the official schedule link, Open place / Official site). Map | List switch; places without coordinates
   (18, incl. Hillside Hermitage, whose location is not public) are list-only (dashed card). By-country chips.
+- `/place/<id>`, `/places`, `/places/<tradition>`, `/places/country/<cc>`: plain crawlable pages (Worker, static HTML + JSON-LD; see CURRENT STATE).
 - `#place/<id>`: hero with a small map (+ nearest same-family places), type/country, tradition chain, Founded/Programmes/Teachers,
   Official site / Retreat schedule / **Directions** (Google Maps dir URL from coords, else from name+city+country); **Retreats
   and programmes** (length, format, cost model, Official schedule; no dates stored); **Lineage**; **Founded by or taught here**
@@ -297,7 +298,34 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
 
-## CURRENT STATE 2026-10-25 03:30 +07 (Tidy + wiring audit round; history in MERGE-LOG.md)
+## CURRENT STATE 2026-10-25 ~05:45 +07 (Places round; history in MERGE-LOG.md)
+- Live: wiser-web aed7ee33 (tantrafiles.xyz), wiser-mcp 802f5cb8 (mcp.tantrafiles.xyz). satsang-chat unchanged (catalogue identical
+  apart from build stamps, so not redeployed).
+- **Crawlable place pages** (app/tools/build-place-pages.mjs, run in `deploy.sh build`; output app/site/_p/ + per-place shards,
+  gitignored, served from KV via kv-paths prefixes): /place/<id> (875; JSON-LD PlaceOfWorship|Place + Organization, PostalAddress,
+  GeoCoordinates, Event, BreadcrumbList; contacts as published with source + check date; upcoming events; safety note when a tied
+  teacher has a redflags record; "Last checked"), /places, /places/<tradition> (113, subtree-aware), /places/country/<cc> (51;
+  upper-case 301s), /sitemap-places.xml (in sitemap.xml). Static page -> "Open in the Satsang app" (/#place/<id>); the SPA place
+  page -> "Plain page for sharing and citing" (/place/<id>). The SPA loads data/wisegraph/places-index.json (221 KB) and fetches
+  data/wisegraph/place/<id>.json when a place opens.
+- **Open data**: /data/places.json (wrapped: licence CC BY 4.0, attribution, contacts/events note, places[]) + /data/places.ndjson
+  (mcp/build-dump.mjs; uploaded to KV wiser-open-data), /data/events.json. llms.txt / llms-full.txt carry a Places + Open data section.
+- **Events keeper** (keeper/events/run.mjs; .github/workflows/events-weekly.yml, Mondays 03:41 UTC, needs no secret; optional
+  CLOUDFLARE_* secrets push events.json to KV): each curated place's own iCal feeds / schema.org Event JSON-LD only, no LLM, next
+  90 days, fetched_at, stale > 14 days, polite UA, robots.txt, 10 s timeout, 6 hosts at a time. In CI it falls back to the
+  committed app/wisegraph/places.json. Local full run 2026-10-25: 23 places, ~265 events (ical 10 places, jsonld 18).
+- **MCP**: `search_places` (query, tradition, school, country, near{lat,lng,km}, residential, online, language, has_upcoming_events,
+  has_email, limit) and `list_events` (place, tradition, country, from, to, online, query) + REST /api/places/search, /api/events;
+  get_place adds `upcoming`, `languages`, `residential`, `online` (residential/online are inferences from published programmes and
+  offers). Place records carry `languages` (from the source list) and `upcoming`. test.mjs + test-client: all passed local and live.
+  mcp/README: "Add Satsang to ChatGPT or Claude as a connector" (mcp.tantrafiles.xyz).
+- Red flags: + Swami Vishnudevananda (Sivananda; BBC 2021, Project SATYA), + Swami Rama (Himalayan Institute; Patel v. HII 1997/99).
+  specs/PLACES-REVIEW.md lists places for the owner to decide on (nothing removed); specs/PLACES-TODO.md is the standing discovery list.
+- NOT done: the 81-candidate discovery batch (work/wiser-places-discovery/) is not on disk, so no places were added or held and the
+  new tradition ids were not added (see PLACES-TODO section 0).
+- Deploy note: `deploy.sh build` bundles site/breathplayer.js from the committed engine/breath when engine/ has uncommitted work.
+
+## PREVIOUS STATE 2026-10-25 03:30 +07 (Tidy + wiring audit round; history in MERGE-LOG.md)
 - Live: **wiser-web 816876fb**, **wiser-mcp 222ded79**, **satsang-chat c4914eeb**. Repo prx0r/satsang **43b476d** (tidy commit).
 - **One work tree**: `work/wiser` IS the git work tree of prx0r/satsang (no more sync.py copy step). `work/satsang-chat/repo` is a
   legacy clone that release.sh fast-forwards after each push.

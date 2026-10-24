@@ -299,3 +299,14 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   build/guard/ship/site/api/mcp/chat; Funnier-era code and old shot scripts moved to archive/; pycache + site/clips.json untracked;
   README rewritten; favicon + title fixes; tools/check/check-data.py + crawl (routes). Deployed before, committed in 43b476d.
 
+## Places round (2026-10-25 ~05:45 +07: wiser-web aed7ee33, wiser-mcp 802f5cb8; satsang-chat unchanged)
+- Discovery merge: **blocked**, work/wiser-places-discovery/ (candidates.jsonl, 81) missing from the workspace; 0 added, 0 held.
+- Pages: /place/<id> x875, /places, /places/<tradition> x113, /places/country/<cc> x51, sitemap-places.xml; per-place JSON shards +
+  slim index for the SPA; SPA <-> static links both ways.
+- Open data: /data/places.json (with licence note), /data/places.ndjson, /data/events.json; llms.txt / llms-full.txt Places section.
+- MCP: search_places, list_events (+ REST); get_place upcoming/languages/residential/online. Tests all passed (local + live).
+- Events keeper + weekly GitHub Action; local full run: 23 places, ~265 events.
+- Red flags: vishnudevananda-2019, swami-rama-1997. Review file specs/PLACES-REVIEW.md (Rigpa incl. Dzogchen Beara, Sivananda,
+  Himalayan Institute, Shambhala, Satyananda, Triratna, Kripalu, Siddha Yoga, Española/3HO, SFZC, Kabbalah Centre, NKT, Monte Sahaja).
+- specs/PLACES-TODO.md standing list. Phone fix: .wgrid tiles min-width:0 (long names no longer widen #place pages at 390 px).
+
