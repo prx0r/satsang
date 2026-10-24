@@ -1,0 +1,2725 @@
+{
+ "meta": {
+  "generator": "keeper/events/run.mjs",
+  "fetched_at": "2026-10-24T22:13:40.659Z",
+  "window_days": 90,
+  "stale_after_days": 14,
+  "user_agent": "SatsangEventsKeeper/1.0 (+https://tantrafiles.xyz/llms.txt; reads public event feeds weekly)",
+  "note": "Events read from each place’s own public iCal feed or schema.org JSON-LD. Dates are the organiser’s; always confirm on the source page. No LLM, no third-party aggregator.",
+  "places_with_events": 23,
+  "events": 267,
+  "last_slice": {
+   "from": 240,
+   "to": 360,
+   "checked": 120
+  }
+ },
+ "places": {
+  "tassajara": {
+   "fetched_at": "2026-10-24T22:13:00.262Z",
+   "sources": [
+    "https://www.sfzc.org/calendar/",
+    "https://www.sfzc.org/event/2027-tassajara-winter-practice-period-zmc-1-6-3-31/",
+    "https://www.sfzc.org/calendar/?ical=1",
+    "https://www.sfzc.org/calendar/list/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "2027 Tassajara Winter Practice Period, ZMC 1/6–3/31",
+     "start": "2027-01-06T12:00:00-08:00",
+     "end": "2027-03-31T12:00:00-07:00",
+     "url": "https://www.sfzc.org/event/2027-tassajara-winter-practice-period-zmc-1-6-3-31/",
+     "source": "https://www.sfzc.org/event/2027-tassajara-winter-practice-period-zmc-1-6-3-31/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "deer-park-bir": {
+   "fetched_at": "2026-10-24T22:12:52.320Z",
+   "sources": [
+    "https://www.deerpark.in/schedule/"
+   ],
+   "events": [
+    {
+     "name": "Sāṅkhya Kārikā Study & Haṭha Yoga Practice Retreat Led by Acharya Dr. Kaushal Kumar",
+     "start": "2026-10-22",
+     "end": "2026-10-26",
+     "url": "https://www.deerpark.in/events/sankhya-karika-led-by-acharya-dr-kaushal-kumar/",
+     "location": "Deer Park Institute, Bir",
+     "source": "https://www.deerpark.in/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "“Art of Processing Emotions Retreat” led by Michelle Faye Pereira (Registration closed)",
+     "start": "2026-10-27",
+     "end": "2026-11-03",
+     "url": "https://www.deerpark.in/events/chasing-rainbows-retreat-with-dr-nivedita-chalill/",
+     "location": "Deer Park Institute, Bir",
+     "source": "https://www.deerpark.in/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Arjuna’s Tapas: Exploring the Hero’s Journey, led by Naveen Vasudevan",
+     "start": "2026-11-07",
+     "end": "2026-11-12",
+     "url": "https://www.deerpark.in/events/arjunas-tapas-exploring-the-heros-journey-led-by-naveen-vasudevan/",
+     "location": "Deer Park Institute, Bir",
+     "source": "https://www.deerpark.in/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "The Serkong Institute 4-Year Program led by Serkong Tsenshap Rinpoche, Geshe Tenzin Gurmyi, Dr. Atisha Mathur (PhD), and Geshe Chun Yin.",
+     "start": "2026-11-16",
+     "end": "2027-01-23",
+     "url": "https://www.deerpark.in/events/the-serkong-institute-4-year-program-led-by-serkong-tsenshap-rinpoche-gen-tenzin-gurmay-geshe-kelsang-wangmo-and-dr-atisha-mathur-phd/",
+     "location": "Deer Park Institute, Bir",
+     "source": "https://www.deerpark.in/schedule/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "green-gulch": {
+   "fetched_at": "2026-10-24T22:13:00.170Z",
+   "sources": [
+    "https://www.sfzc.org/calendar/",
+    "https://www.sfzc.org/event/january-2027-intensive-training-in-compassion-zen-teachings-on-the-practice-of-lojong-ggf-1-6-1-27/",
+    "https://www.sfzc.org/calendar/?ical=1",
+    "https://www.sfzc.org/calendar/list/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "January 2027 Intensive: Training in Compassion, Zen Teachings on the Practice of Lojong, GGF 1/6-1/27",
+     "start": "2027-01-06T15:00:00-08:00",
+     "end": "2027-01-27T11:00:00-08:00",
+     "url": "https://www.sfzc.org/event/january-2027-intensive-training-in-compassion-zen-teachings-on-the-practice-of-lojong-ggf-1-6-1-27/",
+     "source": "https://www.sfzc.org/event/january-2027-intensive-training-in-compassion-zen-teachings-on-the-practice-of-lojong-ggf-1-6-1-27/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "throssel-hole": {
+   "fetched_at": "2026-10-24T22:13:02.523Z",
+   "sources": [
+    "https://throssel.org.uk/calendar/"
+   ],
+   "events": [
+    {
+     "name": "Feeding the Hungry Ghosts",
+     "start": "2026-10-17T00:00:00+00:00",
+     "end": "2026-10-25T00:00:59+00:00",
+     "url": "https://throssel.org.uk/mc-events/feeding-the-hungry-ghosts/",
+     "online": true,
+     "source": "https://throssel.org.uk/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "October Online Teaching Month | Practice in a Shared World",
+     "start": "2026-10-27T19:30:00+00:00",
+     "end": "2026-10-27T21:30:00+00:00",
+     "url": "https://throssel.org.uk/mc-events/october-online-teaching-month-practice-in-a-shared-world/",
+     "online": true,
+     "source": "https://throssel.org.uk/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Festival Sunday",
+     "start": "2026-11-01T10:00:00+00:00",
+     "end": "2026-11-01T15:00:00+00:00",
+     "url": "https://throssel.org.uk/mc-events/festival-sunday-8/",
+     "online": true,
+     "source": "https://throssel.org.uk/calendar/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "sfzc-city-center": {
+   "fetched_at": "2026-10-24T22:13:01.153Z",
+   "sources": [
+    "https://www.sfzc.org/city-center-calendar/",
+    "https://www.sfzc.org/calendar/",
+    "https://www.sfzc.org/event/outreach-hygiene-kit-packing-cc-10-24/",
+    "https://www.sfzc.org/calendar/?ical=1",
+    "https://www.sfzc.org/calendar/list/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Saturday 10:00 am Dharma Talk &#038; Livestream: Shosan Victoria Austin, CC 10/31",
+     "start": "2026-10-31T10:00:00-07:00",
+     "end": "2026-10-31T11:00:00-07:00",
+     "url": "https://www.sfzc.org/event/saturday-1000-am-dharma-talk-livestream-shosan-victoria-austin-cc-10-31/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Three-Day Sesshin, City Center 11/5–11/7",
+     "start": "2026-11-05T05:40:00-08:00",
+     "end": "2026-11-07T18:00:00-08:00",
+     "url": "https://www.sfzc.org/event/three-day-sesshin-city-center-11-5-11-7/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Trans Sangha, Buddha Night (Silent Meditation), CC",
+     "start": "2026-11-05T19:00:00-08:00",
+     "end": "2026-11-05T20:30:00-08:00",
+     "url": "https://www.sfzc.org/event/trans-sangha-buddha-night-silent-meditation-cc/2026-11-05/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Saturday One-Day Sitting, CC 11/7",
+     "start": "2026-11-07T05:40:00-08:00",
+     "end": "2026-11-07T18:00:00-08:00",
+     "url": "https://www.sfzc.org/event/saturday-one-day-sitting-cc-11-7/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Saturday Sangha",
+     "start": "2026-11-07T08:50:00-08:00",
+     "end": "2026-11-07T13:00:00-08:00",
+     "url": "https://www.sfzc.org/event/saturday-sangha/2026-11-07/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Saturday 10:00 am Dharma Talk &#038; Livestream: Abbot Tenzen David Zimmerman, CC 11/7",
+     "start": "2026-11-07T10:00:00-08:00",
+     "end": "2026-11-07T11:00:00-08:00",
+     "url": "https://www.sfzc.org/event/saturday-1000-am-dharma-talk-livestream-abbot-tenzen-david-zimmerman-cc-11-7/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Meditation in Recovery, CC weekly meeting, Online/Onsite",
+     "start": "2026-11-09T19:30:00-08:00",
+     "end": "2026-11-09T21:00:00-08:00",
+     "url": "https://www.sfzc.org/event/meditation-in-recovery-cc-weekly-meeting-online-onsite/2026-11-09/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Heart Practices of a Bodhisattva: The Six Paramitas, CC/Online 10/5–11/23",
+     "start": "2026-11-09T19:30:00-08:00",
+     "end": "2026-11-09T21:00:00-08:00",
+     "url": "https://www.sfzc.org/event/heart-practices-of-a-bodhisattva-the-six-paramitas-cc-online-10-5-11-23/2026-11-09/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Young Urban Zen",
+     "start": "2026-11-10T19:15:00-08:00",
+     "end": "2026-11-10T20:45:00-08:00",
+     "url": "https://www.sfzc.org/event/young-urban-zen/2026-11-10/",
+     "source": "https://www.sfzc.org/city-center-calendar/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "dzogchen-beara": {
+   "fetched_at": "2026-10-24T22:13:03.399Z",
+   "sources": [
+    "https://www.dzogchenbeara.org/events/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Embracing Change - Online Course",
+     "start": "2026-10-15T19:00:00",
+     "end": "2026-12-03T20:30:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/embracing-change-online-course/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Connected Educators - Online",
+     "start": "2026-10-21T19:00:00",
+     "end": "2026-12-02T20:30:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/connected-educators-six-weeks-online-course/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Finding Unshakeable Certainty",
+     "start": "2026-10-23T10:00:00",
+     "end": "2026-10-26T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/finding-unshakeable-certainty/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Developing Our Boundless Heart",
+     "start": "2026-10-30T19:30:00",
+     "end": "2026-11-01T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/developing-our-boundless-heart/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Mind, Body & Spirit - November",
+     "start": "2026-11-03T11:00:00",
+     "end": "2026-11-05T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/mind-body-spirit-november/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Mind at Ease - Online Course",
+     "start": "2026-11-03T19:00:00",
+     "end": "2026-12-01T20:30:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/mind-at-ease-online-course/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Deep Listening",
+     "start": "2026-11-04T10:30:00",
+     "end": "2026-11-04T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/deep-listening/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Relationships & the Spiritual Path",
+     "start": "2026-11-06T19:30:00",
+     "end": "2026-11-08T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/relationships-the-spiritual-path/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Facing Loss Healing Grief - November",
+     "start": "2026-11-13T19:30:00",
+     "end": "2026-11-15T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/facing-loss-healing-grief-november/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Showing up with Joy",
+     "start": "2026-11-20T19:30:00",
+     "end": "2026-11-22T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/weekend-of-teachings-with-verena-pfeiffer/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Natural Great Peace Week - November",
+     "start": "2026-11-27T11:00:00",
+     "end": "2026-12-03T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/natural-great-peace-november/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Exploring Compassion",
+     "start": "2026-12-02T10:30:00",
+     "end": "2026-12-02T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/exploring-compassion/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Finding Peace - December",
+     "start": "2026-12-04T19:30:00",
+     "end": "2026-12-06T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/finding-peace-december/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "The Heart Practice for Difficult Times",
+     "start": "2026-12-11T19:30:00",
+     "end": "2026-12-13T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/the-heart-practice-for-difficult-times/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Good in the Beginning",
+     "start": "2026-12-28T11:00:00",
+     "end": "2027-01-01T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/good-in-the-beginning/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "The Essence of Meditation - January",
+     "start": "2027-01-15T19:30:00",
+     "end": "2027-01-17T13:00:00",
+     "tz": "Europe/Dublin",
+     "url": "https://www.dzogchenbeara.org/retreat/essence-of-meditation/",
+     "source": "https://www.dzogchenbeara.org/events/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "magnolia-grove": {
+   "fetched_at": "2026-10-24T22:12:58.284Z",
+   "sources": [
+    "https://magnoliagrovemonastery.org/"
+   ],
+   "events": [
+    {
+     "name": "90-Day Rains Retreat | Oct.11th–Jan.10th, 2026",
+     "start": "2026-10-11T00:00:00-05:00",
+     "end": "2027-01-10T23:59:59-05:00",
+     "url": "https://magnoliagrovemonastery.org/event/90-day-rains-retreat-oct-11th-jan-10th-2026/",
+     "source": "https://magnoliagrovemonastery.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Day of Mindfulness Oct. 25, 2026",
+     "start": "2026-10-25T08:30:00-05:00",
+     "end": "2026-10-25T14:00:00-05:00",
+     "url": "https://magnoliagrovemonastery.org/event/day-of-mindfulness-oct-25-2026/",
+     "source": "https://magnoliagrovemonastery.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "November 1, 2026 – Day of Mindfulness",
+     "start": "2026-11-01T08:30:00-05:00",
+     "end": "2027-11-01T14:00:00-05:00",
+     "url": "https://magnoliagrovemonastery.org/event/november-1-2026/",
+     "location": "Magnolia Grove Monastery",
+     "source": "https://magnoliagrovemonastery.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "November 8, 2026 – Day of Mindfulness",
+     "start": "2026-11-08T08:30:00-05:00",
+     "end": "2026-11-08T14:00:00-05:00",
+     "url": "https://magnoliagrovemonastery.org/event/november-8-2026/",
+     "location": "Magnolia Grove Monastery",
+     "source": "https://magnoliagrovemonastery.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "November 15, 2026 – Day of Mindfulness",
+     "start": "2026-11-15T08:30:00-05:00",
+     "end": "2026-11-15T14:00:00-05:00",
+     "url": "https://magnoliagrovemonastery.org/event/november-15-2026/",
+     "location": "Magnolia Grove Monastery",
+     "source": "https://magnoliagrovemonastery.org/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "mountain-cloud": {
+   "fetched_at": "2026-10-24T22:13:07.921Z",
+   "sources": [
+    "https://www.mountaincloud.org/calendar/",
+    "https://www.mountaincloud.org/schedule/",
+    "https://www.mountaincloud.org/events/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "30 Days of Zen: Falling into the Heart of this World (Online Course)",
+     "start": "2026-10-02T00:00:00",
+     "end": "2026-10-31T00:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/30-days-of-zen-oct-2026/",
+     "location": "NM",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-24T08:30:00-06:00",
+     "end": "2026-10-24T09:30:00-06:00",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-3-2-2-2/2026-10-24/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Mountain Cloud Volunteer Training",
+     "start": "2026-10-24T09:45:00-06:00",
+     "end": "2026-10-24T11:00:00-06:00",
+     "url": "https://www.mountaincloud.org/event/volunteer-training-10-24-2026/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Webinar: How to Encounter the Heart-Mind",
+     "start": "2026-10-24T11:00:00-06:00",
+     "end": "2026-10-24T12:00:00-06:00",
+     "url": "https://www.mountaincloud.org/event/webinar-encounter-the-heart-mind/",
+     "online": true,
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-25T08:30:00",
+     "end": "2026-10-25T09:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-3-2-2-2/2026-10-25/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Community Tea",
+     "start": "2026-10-25T09:30:00",
+     "end": "2026-10-25T10:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/community-tea/2026-10-25/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Intro to Zen class",
+     "start": "2026-10-25T10:00:00",
+     "end": "2026-10-25T11:15:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/intro-to-zen-class-3-3-2-2-2/2026-10-25/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Members Lab",
+     "start": "2026-10-25T10:00:00",
+     "end": "2026-10-25T11:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/members-lab-3/2026-10-25/",
+     "location": "Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Aging Buddhas: A Members Series with Scott Thornton",
+     "start": "2026-10-25T12:00:00",
+     "end": "2026-10-25T13:15:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/aging-buddhas-a-members-series-with-scott-thornton-10-25-2026/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "October Land Stewardship Workshop (Youth Focus)",
+     "start": "2026-10-25T13:30:00",
+     "end": "2026-10-25T16:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/land-stewardship-workshop-oct-2026/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "External Event: Social Meditation",
+     "start": "2026-10-25T18:30:00",
+     "end": "2026-10-25T20:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/external-event-social-meditation-2/2026-10-25/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-10-26T08:00:00",
+     "end": "2026-10-26T08:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-10-26/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-26T17:30:00",
+     "end": "2026-10-26T18:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-4-2-4-4-2/2026-10-26/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-10-27T08:00:00",
+     "end": "2026-10-27T08:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-10-27/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-27T17:30:00",
+     "end": "2026-10-27T18:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-4-2-4-4-2/2026-10-27/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-28T07:00:00",
+     "end": "2026-10-28T08:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-morning-7/2026-10-28/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-10-28T08:00:00",
+     "end": "2026-10-28T08:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-10-28/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Book Group with Scott Thornton",
+     "start": "2026-10-28T09:00:00",
+     "end": "2026-10-28T10:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/book-group-with-scott-thornton-2-2-2-4-5-2/2026-10-28/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wisdom Wednesday: Kayla Powers",
+     "start": "2026-10-28T17:30:00",
+     "end": "2026-10-28T18:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/wisdom-wednesday-10-28-2026/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-29T07:00:00",
+     "end": "2026-10-29T08:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-morning-7/2026-10-29/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Dharma Talk: \"Loving the World as Our Body: The nondual path in a dangerous time\" with David Loy",
+     "start": "2026-10-29T17:30:00",
+     "end": "2026-10-29T19:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/dharma-talk-10-29-2026/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Dharma Talk: &#8220;Loving the World as Our Body: The nondual path in a dangerous time&#8221; with David Loy",
+     "start": "2026-10-29T17:30:00-06:00",
+     "end": "2026-10-29T19:00:00-06:00",
+     "url": "https://www.mountaincloud.org/event/dharma-talk-10-29-2026/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-30T07:00:00",
+     "end": "2026-10-30T08:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-morning-7/2026-10-30/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-10-31T08:30:00",
+     "end": "2026-10-31T09:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-3-2-2-2/2026-10-31/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-11-01T08:30:00",
+     "end": "2026-11-01T09:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-3-2-2-2/2026-11-01/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Community Tea",
+     "start": "2026-11-01T09:30:00",
+     "end": "2026-11-01T10:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/community-tea/2026-11-01/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Intro to Zen class",
+     "start": "2026-11-01T10:00:00",
+     "end": "2026-11-01T11:15:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/intro-to-zen-class-3-3-2-2-2/2026-11-01/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Members Lab",
+     "start": "2026-11-01T10:00:00",
+     "end": "2026-11-01T11:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/members-lab-3/2026-11-01/",
+     "location": "Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-11-02T08:00:00",
+     "end": "2026-11-02T08:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-11-02/",
+     "location": "Mountain Cloud Zen Center, 7241 Old Santa Fe Trail, Santa Fe, NM, 87505, United States",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-11-02T17:30:00",
+     "end": "2026-11-02T18:30:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-2019-10-04-4-2-4-4-2/2026-11-02/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Zazen",
+     "start": "2026-11-03T07:00:00",
+     "end": "2026-11-03T08:00:00",
+     "tz": "America/Denver",
+     "url": "https://www.mountaincloud.org/event/zazen-morning-7/2026-11-03/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-11-03T08:00:00-07:00",
+     "end": "2026-11-03T08:30:00-07:00",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-11-03/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-11-04T08:00:00-07:00",
+     "end": "2026-11-04T08:30:00-07:00",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-11-04/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Book Group with Scott Thornton",
+     "start": "2026-11-04T09:00:00-07:00",
+     "end": "2026-11-04T10:00:00-07:00",
+     "url": "https://www.mountaincloud.org/event/book-group-with-scott-thornton-2-2-2-4-5-2/2026-11-04/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Turtles EcoDharma Group",
+     "start": "2026-11-05T19:00:00-07:00",
+     "end": "2026-11-05T20:00:00-07:00",
+     "url": "https://www.mountaincloud.org/event/turtles-ecodharma-group-1-2/2026-11-05/",
+     "location": "Mountain Cloud Zen Center and Online via Zoom",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Community Tea",
+     "start": "2026-11-08T09:30:00-07:00",
+     "end": "2026-11-08T10:00:00-07:00",
+     "url": "https://www.mountaincloud.org/event/community-tea/2026-11-08/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Members Lab",
+     "start": "2026-11-08T10:00:00-07:00",
+     "end": "2026-11-08T11:00:00-07:00",
+     "url": "https://www.mountaincloud.org/event/members-lab-3/2026-11-08/",
+     "location": "Online via Zoom",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Intro to Zen class",
+     "start": "2026-11-08T10:00:00-07:00",
+     "end": "2026-11-08T11:15:00-07:00",
+     "url": "https://www.mountaincloud.org/event/intro-to-zen-class-3-3-2-2-2/2026-11-08/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "External Event: Social Meditation",
+     "start": "2026-11-08T18:30:00-07:00",
+     "end": "2026-11-08T20:00:00-07:00",
+     "url": "https://www.mountaincloud.org/event/external-event-social-meditation/2026-11-08/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tea and Toast",
+     "start": "2026-11-09T08:00:00-07:00",
+     "end": "2026-11-09T08:30:00-07:00",
+     "url": "https://www.mountaincloud.org/event/tea-and-toast/2026-11-09/",
+     "location": "Mountain Cloud Zen Center",
+     "source": "https://www.mountaincloud.org/schedule/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "jamyang-london": {
+   "fetched_at": "2026-10-24T22:13:14.241Z",
+   "sources": [
+    "https://jamyang.co.uk/whats-on/",
+    "https://jamyang.co.uk/whats-on/category/buddhist-meditation/",
+    "https://jamyang.co.uk/whats-on/?ical=1",
+    "https://jamyang.co.uk/whats-on/month/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "How to Meditate",
+     "start": "2026-10-25T09:30:00",
+     "end": "2026-10-25T10:30:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/how-to-meditate-2/2026-10-25/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Group Meditation Practice",
+     "start": "2026-10-26T17:30:00",
+     "end": "2026-10-26T18:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/group-meditation-practice-2-4-2-2/2026-10-26/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Recovery Dharma",
+     "start": "2026-10-26T18:15:00",
+     "end": "2026-10-26T19:45:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/recovery-dharma-3-4-2-2/2026-10-26/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Exploring Buddhism: Mind &#038; View",
+     "start": "2026-10-26T18:30:00+00:00",
+     "end": "2026-10-26T20:00:00+00:00",
+     "url": "https://jamyang.co.uk/whats-on/exploring-buddhism-mind-view/2026-10-26/",
+     "location": "Hybrid",
+     "source": "https://jamyang.co.uk/whats-on/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Exploring Buddhism: Mind & View",
+     "start": "2026-10-26T18:30:00",
+     "end": "2026-10-26T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/exploring-buddhism-mind-view/2026-10-26/",
+     "location": "Hybrid, Jamyang London Buddhist Centre, 43 Renfrew Road, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Chittamani Tara Puja",
+     "start": "2026-10-27",
+     "end": "2026-10-28",
+     "url": "https://jamyang.co.uk/whats-on/chittamani-tara-puja-2/2026-10-27/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Dharma Express Meditation",
+     "start": "2026-10-27T18:20:00",
+     "end": "2026-10-27T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/dharma-express-meditation-2/2026-10-27/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Āryadeva’s Four Hundred Verses",
+     "start": "2026-10-27T18:30:00",
+     "end": "2026-10-27T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/aryadevas-four-hundred-verses-2/2026-10-27/",
+     "location": "Hybrid, Jamyang London Buddhist Centre, 43 Renfrew Road, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Calm Abiding and Special Insight",
+     "start": "2026-10-28T18:30:00",
+     "end": "2026-10-28T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/calm-abiding-and-special-insight-5/2026-10-28/",
+     "location": "Hybrid, Jamyang London Buddhist Centre, 43 Renfrew Road, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Medicine Buddha Puja",
+     "start": "2026-10-29T17:00:00",
+     "end": "2026-10-29T18:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/medicine-buddha-puja-3-3-2-5-4-2-2/2026-10-29/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "How to Meditate: An Introduction to Mindfulness and Loving-Kindness",
+     "start": "2026-10-29T18:30:00",
+     "end": "2026-10-29T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/how-to-meditate-an-introduction-to-mindfulness-and-loving-kindness-5/",
+     "location": "Hybrid, Jamyang London Buddhist Centre, 43 Renfrew Road, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Online Group Practice",
+     "start": "2026-10-30T19:00:00",
+     "end": "2026-10-30T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/online-group-practice/2026-10-30/",
+     "location": "online",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Rainbow Sangha Coffee Chats | LGBTQ+ Gathering",
+     "start": "2026-10-31T10:00:00",
+     "end": "2026-10-31T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/rainbow-sangha-coffee-chats-lgbtq-gathering/2026-10-31/",
+     "location": "In-person, The Old Courthouse, 43 Renfrew Road, London, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "What Happens When We Die?",
+     "start": "2026-10-31T10:00:00",
+     "end": "2026-10-31T15:00:00",
+     "tz": "Europe/London",
+     "url": "https://jamyang.co.uk/whats-on/what-happens-when-we-die/",
+     "location": "Hybrid, Jamyang London Buddhist Centre, 43 Renfrew Road, London, SE11 4NA, United Kingdom",
+     "source": "https://jamyang.co.uk/whats-on/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Taking the Eight Mahayana Precepts for Lhabab Duchen",
+     "start": "2026-11-01T08:00:00+00:00",
+     "end": "2026-11-01T09:00:00+00:00",
+     "url": "https://jamyang.co.uk/whats-on/taking-the-eight-mahayana-precepts-for-lhabab-duchen/",
+     "online": true,
+     "source": "https://jamyang.co.uk/whats-on/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "How to Meditate",
+     "start": "2026-11-01T09:30:00+00:00",
+     "end": "2026-11-01T10:30:00+00:00",
+     "url": "https://jamyang.co.uk/whats-on/how-to-meditate-2/2026-11-01/",
+     "location": "In-person",
+     "source": "https://jamyang.co.uk/whats-on/category/buddhist-meditation/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "maenllwyd": {
+   "fetched_at": "2026-10-24T21:04:01.416Z",
+   "sources": [
+    "https://westernchanfellowship.org/events-and-retreats/event/western-zen-retreat-503/",
+    "https://westernchanfellowship.org/events-and-retreats/event/kent-chan-day-retreat-498/"
+   ],
+   "events": [
+    {
+     "name": "Western Zen Retreat",
+     "start": "2026-11-28T19:00:00+00:00",
+     "end": "2026-12-03T14:30:00+00:00",
+     "url": "https://westernchanfellowship.org/events-and-retreats/event/western-zen-retreat-503/",
+     "location": "Shawbottom Farm",
+     "source": "https://westernchanfellowship.org/events-and-retreats/event/western-zen-retreat-503/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Kent Chan Day Retreat",
+     "start": "2026-12-06T10:00:00+00:00",
+     "end": "2026-12-06T16:30:00+00:00",
+     "url": "https://westernchanfellowship.org/events-and-retreats/event/kent-chan-day-retreat-498/",
+     "location": "St Benedicts Centre, Kent",
+     "source": "https://westernchanfellowship.org/events-and-retreats/event/kent-chan-day-retreat-498/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "manjushri-kmc": {
+   "fetched_at": "2026-10-24T21:04:01.522Z",
+   "sources": [
+    "https://manjushri.org/events/weekly-meditation-classes"
+   ],
+   "events": [
+    {
+     "name": "New: Weekly Meditation Class Series",
+     "start": "2026-10-20",
+     "end": "2026-12-17",
+     "url": "https://manjushri.org/events/weekly-meditation-classes",
+     "location": "Manjushri Kadampa Meditation Centre",
+     "source": "https://manjushri.org/events/weekly-meditation-classes",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "cardiff-buddhist-centre": {
+   "fetched_at": "2026-10-24T21:04:27.837Z",
+   "sources": [
+    "https://cardiffbuddhistcentre.com/",
+    "https://cardiffbuddhistcentre.com/calendar/",
+    "https://cardiffbuddhistcentre.com/events/list/featured/",
+    "https://cardiffbuddhistcentre.com/events/?ical=1",
+    "https://cardiffbuddhistcentre.com/events/featured/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Meditation and Mitra Ceremonies",
+     "start": "2026-10-25T10:00:00",
+     "end": "2026-10-25T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/mitra-ceremony/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Myfyrdod yn y Gymraeg",
+     "start": "2026-10-27T19:15:00",
+     "end": "2026-10-27T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/myfyrdod-yn-y-gymraeg-2/2026-10-27/",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-10-28T07:00:00",
+     "end": "2026-10-28T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-10-28/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Under 35s – Meditate and Relate",
+     "start": "2026-10-29T19:00:00+00:00",
+     "end": "2026-10-29T21:00:00+00:00",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-7/2026-10-29/",
+     "location": "Cardiff Buddhist Centre",
+     "source": "https://cardiffbuddhistcentre.com/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Under 35s - Meditate and Relate",
+     "start": "2026-10-29T19:00:00",
+     "end": "2026-10-29T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-7/2026-10-29/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Friday Lunchtime Meditation",
+     "start": "2026-10-30T12:30:00",
+     "end": "2026-10-30T13:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/friday-lunchtime-meditation-2/2026-10-30/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Meditation and Inspiration",
+     "start": "2026-11-01T10:00:00",
+     "end": "2026-11-01T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sunday-meditation-and-inspiration/2026-11-01/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-11-04T07:00:00",
+     "end": "2026-11-04T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-11-04/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Under 35s - Meditate and Relate",
+     "start": "2026-11-05T19:00:00",
+     "end": "2026-11-05T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-6/2026-11-05/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Friday Lunchtime Meditation",
+     "start": "2026-11-06T12:30:00",
+     "end": "2026-11-06T13:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/friday-lunchtime-meditation-2/2026-11-06/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Meditation and Inspiration",
+     "start": "2026-11-08T10:00:00",
+     "end": "2026-11-08T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sunday-meditation-and-inspiration/2026-11-08/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Becoming a Bodhisattva – A Practical Course in Compassion",
+     "start": "2026-11-10T19:00:00+00:00",
+     "end": "2026-11-10T21:00:00+00:00",
+     "url": "https://cardiffbuddhistcentre.com/event/becoming-a-bodhisattva/",
+     "location": "Cardiff Buddhist Centre",
+     "source": "https://cardiffbuddhistcentre.com/events/list/featured/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Becoming a Bodhisattva - A Practical Course in Compassion",
+     "start": "2026-11-10T19:00:00",
+     "end": "2026-11-10T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/becoming-a-bodhisattva/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Myfyrdod yn y Gymraeg",
+     "start": "2026-11-10T19:15:00",
+     "end": "2026-11-10T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/myfyrdod-yn-y-gymraeg-2/2026-11-10/",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-11-11T07:00:00",
+     "end": "2026-11-11T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-11-11/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Under 35s - Meditate and Relate",
+     "start": "2026-11-12T19:00:00",
+     "end": "2026-11-12T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-6/2026-11-12/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Friday Lunchtime Meditation",
+     "start": "2026-11-13T12:30:00",
+     "end": "2026-11-13T13:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/friday-lunchtime-meditation-2/2026-11-13/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Free Writing Workshop",
+     "start": "2026-11-14T14:00:00",
+     "end": "2026-11-14T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/free-writing-workshop/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Meditation and Inspiration",
+     "start": "2026-11-15T10:00:00",
+     "end": "2026-11-15T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sunday-meditation-and-inspiration/2026-11-15/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-11-18T07:00:00",
+     "end": "2026-11-18T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-11-18/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Under 35s - Meditate and Relate",
+     "start": "2026-11-19T19:00:00",
+     "end": "2026-11-19T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-6/2026-11-19/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Friday Lunchtime Meditation",
+     "start": "2026-11-20T12:30:00",
+     "end": "2026-11-20T13:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/friday-lunchtime-meditation-2/2026-11-20/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sangha Day + Mitra Ceremonies",
+     "start": "2026-11-22T10:00:00",
+     "end": "2026-11-22T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sangha-day-celebration-2/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Meditation and Inspiration",
+     "start": "2026-11-22T10:00:00",
+     "end": "2026-11-22T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sunday-meditation-and-inspiration/2026-11-22/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Myfyrdod yn y Gymraeg",
+     "start": "2026-11-24T19:15:00",
+     "end": "2026-11-24T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/myfyrdod-yn-y-gymraeg-2/2026-11-24/",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-11-25T07:00:00",
+     "end": "2026-11-25T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-11-25/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Under 35s - Meditate and Relate",
+     "start": "2026-11-26T19:00:00",
+     "end": "2026-11-26T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/under-35s-meditate-and-relate-6/2026-11-26/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Friday Lunchtime Meditation",
+     "start": "2026-11-27T12:30:00",
+     "end": "2026-11-27T13:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/friday-lunchtime-meditation-2/2026-11-27/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Free Macrame Mini Owl Wall Hanging Workshop",
+     "start": "2026-11-28T14:00:00",
+     "end": "2026-11-28T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/free-macrame-mini-owl-wall-hanging-workshop/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Meditation and Inspiration",
+     "start": "2026-11-29T10:00:00",
+     "end": "2026-11-29T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/sunday-meditation-and-inspiration/2026-11-29/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "The Seven Fold Puja",
+     "start": "2026-11-29T12:00:00",
+     "end": "2026-11-29T12:45:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/the-seven-fold-puja/2026-11-29/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Wednesday Morning Meditation (Unled)",
+     "start": "2026-12-02T07:00:00",
+     "end": "2026-12-02T08:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wednesday-morning-meditation-unled-3/2026-12-02/",
+     "location": "Cardiff Buddhist Centre, Cardiff Buddhist Centre, 12 St Peter’s Street, CF24 3BA, United Kingdom",
+     "source": "https://cardiffbuddhistcentre.com/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Festive Wreath Making Class",
+     "start": "2026-12-06T13:30:00",
+     "end": "2026-12-06T15:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/wreath-making/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Women’s Dakini Day Retreat",
+     "start": "2026-12-12T10:00:00+00:00",
+     "end": "2026-12-12T16:00:00+00:00",
+     "url": "https://cardiffbuddhistcentre.com/event/womens-dakini-day-retreat/",
+     "location": "Cardiff Buddhist Centre",
+     "source": "https://cardiffbuddhistcentre.com/events/list/featured/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Women's Dakini Day Retreat",
+     "start": "2026-12-12T10:00:00",
+     "end": "2026-12-12T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/womens-dakini-day-retreat/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Death Cafe",
+     "start": "2027-01-17T15:00:00",
+     "end": "2027-01-17T17:30:00",
+     "tz": "Europe/London",
+     "url": "https://cardiffbuddhistcentre.com/event/death-cafe/",
+     "location": "Cardiff Buddhist Centre, 12 St. Peters Street, Cardiff, CF24 3BA",
+     "source": "https://cardiffbuddhistcentre.com/events/featured/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "bhaktivedanta-manor": {
+   "fetched_at": "2026-10-24T21:05:24.106Z",
+   "sources": [
+    "https://www.krishnatemple.com/events/",
+    "https://www.krishnatemple.com/events/?ical=1",
+    "https://www.krishnatemple.com/events/list/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Dussehra (Festival)",
+     "start": "2026-10-25",
+     "end": "2026-10-26",
+     "url": "https://www.krishnatemple.com/event/dussehra/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Month of Kartik",
+     "start": "2026-10-25",
+     "end": "2026-11-25",
+     "url": "https://www.krishnatemple.com/event/month-of-kartik-26/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sadhu Sanga with Krishna Kishore Das",
+     "start": "2026-10-26T19:00:00",
+     "end": "2026-10-26T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/krishna-kishore-das/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Manor. Mantra. Music",
+     "start": "2026-10-29T19:00:00",
+     "end": "2026-10-29T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/manor-mantra-music-23/",
+     "location": "Sri Krishna Haveli, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Weddings &#038; Events Exhibition 2026",
+     "start": "2026-10-31T11:00:00+00:00",
+     "end": "2026-10-31T17:00:00+00:00",
+     "url": "https://www.krishnatemple.com/event/weddings-exhibition/",
+     "location": "Sri Krishna Haveli",
+     "source": "https://www.krishnatemple.com/events/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Weddings & Events Exhibition 2026",
+     "start": "2026-10-31T11:00:00",
+     "end": "2026-10-31T17:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/weddings-exhibition/",
+     "location": "Sri Krishna Haveli, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Love Feast",
+     "start": "2026-11-01",
+     "end": "2026-11-02",
+     "url": "https://www.krishnatemple.com/event/sunday-love-feast-11-01/",
+     "location": "Sri Krishna Haveli, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Manor. Mantra. Music",
+     "start": "2026-11-05T19:00:00",
+     "end": "2026-11-05T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/manor-mantra-music-24/",
+     "location": "Sri Krishna Haveli, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Diwali (Festival)",
+     "start": "2026-11-08",
+     "end": "2026-11-09",
+     "url": "https://www.krishnatemple.com/event/diwali-festival/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Annakuta &#038; Govardhana Puja",
+     "start": "2026-11-09T00:00:00+00:00",
+     "end": "2026-11-09T23:59:59+00:00",
+     "url": "https://www.krishnatemple.com/event/annakuta-govardhana-puja/",
+     "location": "Bhaktivedanta Manor",
+     "source": "https://www.krishnatemple.com/events/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Annakuta & Govardhana Puja",
+     "start": "2026-11-09",
+     "end": "2026-11-10",
+     "url": "https://www.krishnatemple.com/event/annakuta-govardhana-puja/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Disappearance of Srila Prabhupada",
+     "start": "2026-11-13",
+     "end": "2026-11-14",
+     "url": "https://www.krishnatemple.com/event/disappearance-of-srila-prabhupada/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Manor. Mantra. Music",
+     "start": "2026-11-19T19:00:00",
+     "end": "2026-11-19T20:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/manor-mantra-music-25/",
+     "location": "Sri Krishna Haveli, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "George Harrison Evening",
+     "start": "2026-11-30T18:00:00",
+     "end": "2026-11-30T21:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/george/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Gita Jayanti Maha Yajna - Bhagavad-gita Recitation",
+     "start": "2026-12-26",
+     "end": "2026-12-27",
+     "url": "https://www.krishnatemple.com/event/gita/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "New Year's Day Darshan",
+     "start": "2027-01-01T09:00:00",
+     "end": "2027-01-01T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.krishnatemple.com/event/nyd-darshan/",
+     "location": "Bhaktivedanta Manor, Hilfield Lane, Watford, WD258EZ, United Kingdom",
+     "source": "https://www.krishnatemple.com/events/list/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "westminster-abbey": {
+   "fetched_at": "2026-10-24T22:13:54.306Z",
+   "sources": [
+    "https://www.westminster-abbey.org/events"
+   ],
+   "events": [
+    {
+     "name": "Tour: Medieval monastery",
+     "start": "2026-10-02T00:00:00.000Z",
+     "end": "2026-10-31T00:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/october/tour-medieval-monastery/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tour: Abbey unlocked",
+     "start": "2026-10-06T00:00:00.000Z",
+     "end": "2026-10-29T00:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/october/tour-abbey-unlocked/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tour: Memorials and memory",
+     "start": "2026-10-24T00:00:00.000Z",
+     "end": "2026-10-28T00:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/october/tour-memorials-and-memory/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Family tour: Souls, saints and stories",
+     "start": "2026-10-26T00:00:00.000Z",
+     "end": "2026-10-30T00:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/family/2026/october/family-tour-souls-saints-and-stories/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tour: Medieval monastery",
+     "start": "2026-11-02T00:00:00.000Z",
+     "end": "2026-11-23T00:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/november/tour-medieval-monastery/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tour: Abbey unlocked",
+     "start": "2026-11-03T08:30:00.000Z",
+     "end": "2026-11-24T10:00:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/november/tour-abbey-unlocked/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Tour: Memorials and memory",
+     "start": "2026-11-04T14:00:00.000Z",
+     "end": "2026-11-26T15:15:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/special-tours-and-events/2026/november/tour-memorials-and-memory/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Conversation and performance: Voices of democracy",
+     "start": "2026-11-04T18:30:00.000Z",
+     "end": "2026-11-04T20:30:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/lectures-and-talks/2026/november/conversation-and-performance-voices-of-democracy/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Late: The Queen&#x27;s Diamond Jubilee Galleries",
+     "start": "2026-11-05T18:30:00.000Z",
+     "end": "2026-11-05T20:30:00.000Z",
+     "url": "https://www.westminster-abbey.org/abbey-events/lates/2026/november/late-the-queens-diamond-jubilee-galleries/",
+     "location": "Westminster Abbey",
+     "source": "https://www.westminster-abbey.org/events",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "launde-abbey": {
+   "fetched_at": "2026-10-24T22:13:56.490Z",
+   "sources": [
+    "https://www.laundeabbey.org.uk/events-calendar/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Praying with Our Bodies and the Bible: Reconnecting Our Whole Selves to God ***FULLY BOOKED***",
+     "start": "2026-10-23T16:00:00",
+     "end": "2026-10-25T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/praying-with-our-bodies-and-the-bible-reconnecting-our-whole-selves-to-god/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-10-25T13:00:00",
+     "end": "2026-10-25T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-17/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Patterns of Light and Truth: A Photography Retreat **2 SPACES REMAINING**",
+     "start": "2026-10-26T16:00:00",
+     "end": "2026-10-29T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/patternsoflightandtruth-photographyretreat/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Bereavement Challenges: Living With Loss Follow On Retreat ***FULLY BOOKED***",
+     "start": "2026-10-26T16:00:00",
+     "end": "2026-10-29T15:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/bereavement-challenges-living-with-loss-follow-on-retreat/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "October Saturday Quiet Day - Walking in the Light **2 SPACES REMAINING**",
+     "start": "2026-10-31T10:00:00",
+     "end": "2026-10-31T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/october-saturday-quiet-day-2/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-11-01T13:00:00",
+     "end": "2026-11-01T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-18/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Soul-Filled Meanderings",
+     "start": "2026-11-06T14:00:00",
+     "end": "2026-11-06T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/soul-filled-meanderings-18/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Resting in God: A Weekend Meditation Retreat ***FULLY BOOKED***",
+     "start": "2026-11-06T16:00:00",
+     "end": "2026-11-08T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/restingingod-weekendmeditation/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-11-08T13:00:00",
+     "end": "2026-11-08T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-19/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Classical Concert and Cream Tea: Eira Lynn Jones (Harpist) ***FULLY BOOKED***",
+     "start": "2026-11-08T15:00:00",
+     "end": "2026-11-08T17:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/classical-concert-and-cream-tea-eira-lynn-jones-harpist-2/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Rooted and Grounded: Going Deeper Into Spiritual Practice",
+     "start": "2026-11-09T16:00:00",
+     "end": "2026-11-12T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/rootedandgrounded-2026/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-11-15T13:00:00",
+     "end": "2026-11-15T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-20/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Re-Enchanting Our World: A C. S. Lewis and Tolkien Retreat ***FULLY BOOKED***",
+     "start": "2026-11-16T16:00:00",
+     "end": "2026-11-19T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/re-enchantingtheworld-cslewis-tolkien-retreat/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Rural Mission Hub Residential at Launde Abbey",
+     "start": "2026-11-19T09:30:00",
+     "end": "2026-11-20T09:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/rural-mission-hub-residential-at-launde-abbey-2/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Soul-Filled Meanderings",
+     "start": "2026-11-19T10:00:00",
+     "end": "2026-11-19T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/soul-filled-meanderings-19/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-11-22T13:00:00",
+     "end": "2026-11-22T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-21/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "November Quiet Day: ‘Choosing the One Thing that Matters’ ***FULLY BOOKED***",
+     "start": "2026-11-23T10:00:00",
+     "end": "2026-11-23T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/november-quiet-day-3/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Beginners Retreat with the Launde Abbey Community **MORE SPACES ADDED**",
+     "start": "2026-11-25T16:00:00",
+     "end": "2026-11-27T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/beginnersretreatnovember2026/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-11-29T13:00:00",
+     "end": "2026-11-29T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-22/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "An Advent Week with the Launde Abbey Community: A Season Of Longing And Waiting",
+     "start": "2026-11-29T15:00:00",
+     "end": "2026-12-06T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/an-advent-week-with-the-launde-abbey-community-a-season-of-longing-and-waiting/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Waiting for the Light: Music and Readings for Advent",
+     "start": "2026-11-29T16:00:00",
+     "end": "2026-11-29T18:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/waiting-for-the-light-music-and-readings-for-advent-2/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Painting as Prophecy: Advent Painting Workshop ***FULLY BOOKED***",
+     "start": "2026-11-30T09:30:00",
+     "end": "2026-11-30T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/painting-as-prophecy-advent-painting-workshop/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Advent Soul-Filled Meanderings",
+     "start": "2026-12-01T10:00:00",
+     "end": "2026-12-01T12:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/soul-filled-meanderings-16/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Christmas Wreath-Making Workshop ***3 SPACES LEFT***",
+     "start": "2026-12-02T09:45:00",
+     "end": "2026-12-02T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/christmas-wreath-making-workshop/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Advent Quiet Day: Rumours of Angels ***FULLY BOOKED***",
+     "start": "2026-12-03T09:30:00",
+     "end": "2026-12-03T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/advent-quiet-day-rumours-of-angels/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Saturday Advent Quiet Day: A Balanced Life - “I wish!” ***2 SPACES LEFT***",
+     "start": "2026-12-05T10:00:00",
+     "end": "2026-12-05T16:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/december-saturday-quiet-day-advent/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Sunday Carvery",
+     "start": "2026-12-06T13:00:00",
+     "end": "2026-12-06T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/sunday-carvery-23/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Icon Painting Retreat **1 SPACE REMAINING**",
+     "start": "2026-12-07T09:30:00",
+     "end": "2026-12-11T16:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/icon-painting-retreat-2026/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Voices of Advent",
+     "start": "2026-12-11T16:00:00",
+     "end": "2026-12-13T14:00:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/voices-of-advent-2026/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Christmas Lunch and Carol Service",
+     "start": "2026-12-14T12:00:00",
+     "end": "2026-12-14T14:30:00",
+     "tz": "Europe/London",
+     "url": "https://www.laundeabbey.org.uk/event/christmas-lunch-and-carol-service-7/",
+     "source": "https://www.laundeabbey.org.uk/events-calendar/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "chalice-well": {
+   "fetched_at": "2026-10-24T22:14:04.058Z",
+   "sources": [
+    "https://chalicewell.org.uk/event/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Samhain",
+     "start": "2026-10-31T10:00:00",
+     "end": "2026-10-31T18:00:00",
+     "tz": "Europe/London",
+     "url": "https://chalicewell.org.uk/event/samhain/",
+     "location": "Chalice Well Trust, Chalice Well Trust, 85-89 Chilkwell Street, Glastonbury, Somerset, BA6 8DD, United Kingdom",
+     "source": "https://chalicewell.org.uk/event/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "All Saints Day",
+     "start": "2026-11-01T11:30:00",
+     "end": "2026-11-01T15:00:00",
+     "tz": "Europe/London",
+     "url": "https://chalicewell.org.uk/event/all-saints-day/",
+     "location": "Chalice Well Trust, Chalice Well Trust, 85-89 Chilkwell Street, Glastonbury, Somerset, BA6 8DD, United Kingdom",
+     "source": "https://chalicewell.org.uk/event/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Volunteers Winter Gathering",
+     "start": "2026-11-18T17:00:00",
+     "end": "2026-11-18T20:00:00",
+     "tz": "Europe/London",
+     "url": "https://chalicewell.org.uk/event/volunteers-winter-gathering/",
+     "location": "Chalice Well Trust, Chalice Well Trust, 85-89 Chilkwell Street, Glastonbury, Somerset, BA6 8DD, United Kingdom",
+     "source": "https://chalicewell.org.uk/event/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Winter Solstice",
+     "start": "2026-12-21T10:00:00",
+     "end": "2026-12-21T16:30:00",
+     "tz": "Europe/London",
+     "url": "https://chalicewell.org.uk/event/winter-solstice/",
+     "location": "Chalice Well Trust, Chalice Well Trust, 85-89 Chilkwell Street, Glastonbury, Somerset, BA6 8DD, United Kingdom",
+     "source": "https://chalicewell.org.uk/event/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "avebury": {
+   "fetched_at": "2026-10-24T22:14:05.892Z",
+   "sources": [
+    "https://www.nationaltrust.org.uk/visit/wiltshire/avebury"
+   ],
+   "events": [
+    {
+     "name": "Ancient Pathways paintings exhibition",
+     "start": "2026-09-05",
+     "end": "2026-11-01",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/ff0141cc-2b08-4934-a88d-06d8b8ddf36e",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Autumn Animals Half-term Trail",
+     "start": "2026-10-22",
+     "end": "2026-11-01",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/e3c1506d-3884-4e23-b464-07503311c624",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "'Paint-along' in Avebury Manor Garden",
+     "start": "2026-10-29",
+     "end": "2026-10-29",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/e0b220ca-4161-4e56-85aa-1d642d5d3b25",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Christmas Market at Avebury",
+     "start": "2026-11-28",
+     "end": "2026-12-13",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/76096945-27d5-432d-afb4-6fd67302645a",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "A Very Avebury Christmas",
+     "start": "2026-11-28",
+     "end": "2027-01-03",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/27fceaf0-79b2-4c38-8417-812d8fb8bf84",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Storytime with St Nicholas",
+     "start": "2026-12-05",
+     "end": "2026-12-20",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/15cdd080-5f58-4359-ac43-ae4918cce79a",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Christmas Family Craft",
+     "start": "2026-12-18",
+     "end": "2027-01-03",
+     "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury/events/85f1c14d-e4f5-4ef9-afe1-39b31a0a7d13",
+     "location": "Avebury",
+     "source": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "boleskine-house": {
+   "fetched_at": "2026-10-24T22:14:00.214Z",
+   "sources": [
+    "https://boleskinehouse.org/calendar"
+   ],
+   "events": [
+    {
+     "name": "Wedding Fair",
+     "start": "2026-11-22T12:00:00+00:00",
+     "end": "2026-11-22T15:00:00+00:00",
+     "url": "https://boleskinehouse.org/event/wedding-fair/",
+     "location": "Boleskine House",
+     "source": "https://boleskinehouse.org/calendar",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "cambridge-central-mosque": {
+   "fetched_at": "2026-10-24T22:14:28.281Z",
+   "sources": [
+    "https://cambridgecentralmosque.org/events/month/",
+    "https://cambridgecentralmosque.org/events/category/special/",
+    "https://cambridgecentralmosque.org/events/?ical=1",
+    "https://cambridgecentralmosque.org/events/month/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Guided Tour",
+     "start": "2026-10-24T11:30:00",
+     "end": "2026-10-24T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-24/",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Meaningful Salah: The connection you’ve longed for",
+     "start": "2026-10-24T18:00:00+01:00",
+     "end": "2026-10-24T19:00:00+01:00",
+     "url": "https://cambridgecentralmosque.org/event/meaningful-salah-the-connection-youve-longed-for/2026-10-24/",
+     "location": "Cambridge Central Mosque",
+     "source": "https://cambridgecentralmosque.org/events/month/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Study Circle (After Maghrib)",
+     "start": "2026-10-24T17:49:00",
+     "end": "2026-10-24T18:34:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-24/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Meaningful Salah: The connection you've longed for",
+     "start": "2026-10-24T18:00:00",
+     "end": "2026-10-24T19:00:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/meaningful-salah-the-connection-youve-longed-for/2026-10-24/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-10-25T11:30:00",
+     "end": "2026-10-25T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-25/",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Study Circle (After Maghrib)",
+     "start": "2026-10-30T16:37:00",
+     "end": "2026-10-30T17:22:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-30/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Ghusl Workshop",
+     "start": "2026-10-31T10:00:00",
+     "end": "2026-10-31T13:00:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/ghusl-workshop/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-10-31T11:30:00",
+     "end": "2026-10-31T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-10-31/",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Study Circle (After Maghrib)",
+     "start": "2026-10-31T16:35:00",
+     "end": "2026-10-31T17:20:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/study-circle-after-maghrib/2026-10-31/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/month/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-01T11:30:00",
+     "end": "2026-11-01T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-01/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-07T11:30:00",
+     "end": "2026-11-07T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-07/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-08T11:30:00",
+     "end": "2026-11-08T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-08/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Boys Club",
+     "start": "2026-11-13T18:00:00",
+     "end": "2026-11-13T21:00:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/boys-club-2/",
+     "location": "Cambridge Central Mosque, 309-313 Mill Rd, Cambridge, CB1 3DF, United Kingdom",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-14T11:30:00",
+     "end": "2026-11-14T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-14/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-15T11:30:00",
+     "end": "2026-11-15T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-15/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-21T11:30:00",
+     "end": "2026-11-21T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-21/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-22T11:30:00",
+     "end": "2026-11-22T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-22/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-28T11:30:00",
+     "end": "2026-11-28T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-28/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-11-29T11:30:00",
+     "end": "2026-11-29T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-11-29/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-05T11:30:00",
+     "end": "2026-12-05T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-05/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-06T11:30:00",
+     "end": "2026-12-06T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-06/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-12T11:30:00",
+     "end": "2026-12-12T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-12/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-13T11:30:00",
+     "end": "2026-12-13T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-13/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-19T11:30:00",
+     "end": "2026-12-19T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-19/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-20T11:30:00",
+     "end": "2026-12-20T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-20/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-26T11:30:00",
+     "end": "2026-12-26T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-26/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Guided Tour",
+     "start": "2026-12-27T11:30:00",
+     "end": "2026-12-27T12:30:00",
+     "tz": "Europe/London",
+     "url": "https://cambridgecentralmosque.org/event/guided-tour-2/2026-12-27/",
+     "source": "https://cambridgecentralmosque.org/events/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "bonnevaux": {
+   "fetched_at": "2026-10-24T21:08:21.337Z",
+   "sources": [
+    "https://bonnevauxwccm.org/programme/"
+   ],
+   "events": [
+    {
+     "name": "International Retreat for Oblates",
+     "start": "2026-10-20",
+     "end": "2026-10-25",
+     "url": "https://bonnevauxwccm.org/all-programmes/international-oblates-retreat-2026/",
+     "location": "Bonnevaux Retreat Centre",
+     "source": "https://bonnevauxwccm.org/programme/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Devenir : L’homme ternaire",
+     "start": "2026-10-29",
+     "end": "2026-11-01",
+     "url": "https://bonnevauxwccm.org/fr/all-programmes/devenir-l-homme-ternaire-2026/",
+     "location": "Bonnevaux Retreat Centre",
+     "source": "https://bonnevauxwccm.org/programme/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "The English Mystics",
+     "start": "2026-11-17",
+     "end": "2026-11-22",
+     "url": "https://bonnevauxwccm.org/all-programmes/the-english-mystics-2026/",
+     "location": "Bonnevaux Retreat Centre",
+     "source": "https://bonnevauxwccm.org/programme/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Experience Christmas at Bonnevaux",
+     "start": "2026-12-21",
+     "end": "2026-12-27",
+     "url": "https://bonnevauxwccm.org/all-programmes/christmas-bonnevaux-2026/",
+     "location": "Bonnevaux Retreat Centre",
+     "source": "https://bonnevauxwccm.org/programme/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "New Year’s Retreat",
+     "start": "2026-12-29",
+     "end": "2027-01-02",
+     "url": "https://bonnevauxwccm.org/all-programmes/new-year-retreat-2026/",
+     "location": "Bonnevaux Retreat Centre",
+     "source": "https://bonnevauxwccm.org/programme/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "nagaloka": {
+   "fetched_at": "2026-10-24T22:11:40.817Z",
+   "sources": [
+    "https://www.nagaloka.org/retreats/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Liberation from Old Beliefs, A New Beginning in Life",
+     "start": "2026-11-06T17:00:00",
+     "end": "2026-11-13T14:00:00",
+     "tz": "Asia/Kolkata",
+     "url": "https://www.nagaloka.org/retreat/liberation/",
+     "location": "Nagaloka, Nagaloka, Kamptee Road, Near Akashwani Tower, Bhilgaon, Nagpur, Maharashtra, 440029, India",
+     "source": "https://www.nagaloka.org/retreats/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  },
+  "mount-madonna": {
+   "fetched_at": "2026-10-24T21:08:29.277Z",
+   "sources": [
+    "https://mountmadonna.org/",
+    "https://mountmadonna.org/calendar/",
+    "https://mountmadonna.org/calendar/silent-meditation-retreat-silence-speaks/"
+   ],
+   "events": [
+    {
+     "name": "Weekly Yoga Classes",
+     "start": "2026-10-24",
+     "end": "2026-10-25",
+     "url": "https://mountmadonna.org/visit/weekly-yoga-classes/?occurrence=2026-10-24",
+     "location": "In-Person/Online",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Ridhwan: DHR6",
+     "start": "2026-10-25",
+     "end": "2026-11-01",
+     "url": "https://mountmadonna.org/calendar/ridhwan-dhr6-2026/?occurrence=2026-10-25",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Foundational Yoga Studies Hybrid YTT 200 Info Session II",
+     "start": "2026-10-26T10:00:00-07:00",
+     "end": "2026-10-26T10:30:00-07:00",
+     "url": "https://mountmadonna.org/calendar/hybrid-ytt-200-info-session-ii/?occurrence=2026-10-26",
+     "location": "Online",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Women in the Wild",
+     "start": "2026-10-30",
+     "end": "2026-11-01",
+     "url": "https://mcaft.com/women-in-the-wild-october2026?occurrence=2026-10-30",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Yoga Diwali India: A Cultural Immersion",
+     "start": "2026-11-01",
+     "end": "2026-11-12",
+     "url": "https://mountmadonna.org/calendar/yoga-diwali-india-2026/?occurrence=2026-11-01",
+     "location": "Haridwar, Uttarakhand, India",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Physicians’ Fall Retreat 2026: Rediscovering the Wisdom of the Body",
+     "start": "2026-11-05",
+     "end": "2026-11-08",
+     "url": "https://anthroposophicmedicine.org/physicians-fall-retreat-2026?occurrence=2026-11-05",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Coming Home to Joy: Inner Child Healing Retreat",
+     "start": "2026-11-06",
+     "end": "2026-11-08",
+     "url": "https://www.alisonharrelmft.com/inner-child-healing-retreats?occurrence=2026-11-06",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "The Embodied Breath 100hr Air/Ether: Advanced Meditation &#038; Breathwork",
+     "start": "2026-11-07",
+     "end": "2026-11-14",
+     "url": "https://www.pleasurepointsanctuary.com/300hr?occurrence=2026-11-07",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Ayurvedic Lymphatic Self-Care to Clear Your Energy",
+     "start": "2026-11-07",
+     "end": "2026-11-07",
+     "url": "https://priyaarora.com/mountmadonna?occurrence=2026-11-07",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Surya Namaskar: Salute to the Sun",
+     "start": "2026-11-07T07:30:00-08:00",
+     "end": "2026-11-07T09:00:00-08:00",
+     "url": "https://mountmadonna.org/calendar/surya-namaskar-salute-to-the-sun-nov-26/?occurrence=2026-11-07",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Silence Speaks: A Silent Meditation Retreat",
+     "start": "2026-11-11",
+     "end": "2026-11-15",
+     "url": "https://mountmadonna.org/calendar/silent-meditation-retreat-silence-speaks/?occurrence=2026-11-11",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/calendar/silent-meditation-retreat-silence-speaks/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "HFS Annual General Meeting",
+     "start": "2026-11-15T06:00:00-08:00",
+     "end": "2026-11-15T09:00:00-08:00",
+     "url": "https://mountmadonna.org/calendar/hfs-annual-general-meeting-2026/?occurrence=2026-11-15",
+     "location": "In-Person/Online",
+     "source": "https://mountmadonna.org/calendar/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "A Weekend in Community | Fall",
+     "start": "2026-11-20",
+     "end": "2026-11-22",
+     "url": "https://mountmadonna.org/calendar/a-weekend-in-community-fall-2026/?occurrence=2026-11-20",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "A Day Visit for the Creative Spirit",
+     "start": "2026-11-21T02:00:00-08:00",
+     "end": "2026-11-21T11:00:00-08:00",
+     "url": "https://mountmadonna.org/calendar/mandala-art-and-yoga-flow-day-visit/?occurrence=2026-11-21",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Thanksgiving",
+     "start": "2026-11-26",
+     "end": "2026-11-26",
+     "url": "https://mountmadonna.org/calendar/thanksgiving-2026/?occurrence=2026-11-26",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Restorative Yoga Asana with Live Chanting",
+     "start": "2026-11-28T07:30:00-08:00",
+     "end": "2026-11-28T09:00:00-08:00",
+     "url": "https://mountmadonna.org/calendar/restorative-yoga-asana-and-live-chanting/?occurrence=2026-11-28",
+     "location": "In-Person",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "48th Annual New Year’s Yoga Retreat",
+     "start": "2026-12-28",
+     "end": "2027-01-01",
+     "url": "https://mountmadonna.org/calendar/48th-annual-new-years-yoga-retreat-2026/?occurrence=2026-12-28",
+     "location": "In-Person/Online",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    },
+    {
+     "name": "Foundational Yoga Studies Hybrid YTT 200 Program | 2027",
+     "start": "2027-01-06",
+     "end": "2027-05-09",
+     "url": "https://mountmadonna.org/study/school-of-yoga/yoga-teacher-training-hybrid-ytt-200/?occurrence=2027-01-06",
+     "location": "Hybrid",
+     "source": "https://mountmadonna.org/",
+     "source_type": "jsonld"
+    }
+   ]
+  },
+  "arsha-vidya-saylorsburg": {
+   "fetched_at": "2026-10-24T22:13:13.856Z",
+   "sources": [
+    "https://arshavidya.org/events/",
+    "https://arshavidya.org/event/1st-and-3rd-sunday-classes/2026-09-20/",
+    "https://arshavidya.org/events/?ical=1",
+    "https://arshavidya.org/event/1st-and-3rd-sunday-classes/?ical=1"
+   ],
+   "events": [
+    {
+     "name": "Evening Arati (daily)",
+     "start": "2026-10-24T18:00:00",
+     "end": "2026-10-24T18:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/evening-arati-daily/2026-10-24/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Ganapati Homa (daily)",
+     "start": "2026-10-25T05:15:00",
+     "end": "2026-10-25T05:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/ganapati-homa-daily/2026-10-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Abhisheka to Lord Dakshinamurti (daily)",
+     "start": "2026-10-25T05:40:00",
+     "end": "2026-10-25T07:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/abhisheka-to-lord-dakshinamurti-daily/2026-10-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Mandukya Upanishad with Swami Muktatmananda ONLINE STUDY",
+     "start": "2026-10-26T10:30:00",
+     "end": "2026-10-26T11:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/mandukya-upanishad-with-swami-muktatmananda-online-study-3/2026-10-26/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Brahmasutra (Catuḥsūtrī Bhashyam) with Swami Muktatmananda ONLINE STUDY",
+     "start": "2026-10-27T10:30:00",
+     "end": "2026-10-27T11:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/brahmasutra-catu%e1%b8%a5sutri-bhashyam-with-swami-muktatmananda-online-study-2/2026-10-27/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Shrimad Bhagavatam Study with Brhm. Pratyagatma Chaitanya ONLINE ONLY",
+     "start": "2026-10-28T20:00:00",
+     "end": "2026-10-28T21:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/shrimad-bhagavatam-study-with-brhm-pratyagaatma-chaitanya-online-only/2026-10-28/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Saturday Meditation Workshop with Swamini Agamananda ONLINE ONLY",
+     "start": "2026-10-31T11:00:00",
+     "end": "2026-10-31T12:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/1st-and-3rd-saturday-meditation-workshop-with-swamini-agamananda-online-only/2026-10-31/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Sunday Classes",
+     "start": "2026-11-01T10:00:00",
+     "end": "2026-11-01T12:30:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/1st-and-3rd-sunday-classes-2/2026-11-01/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-11-06T17:15:00",
+     "end": "2026-11-06T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-24/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "1st and 3rd Saturday Meditation Workshop with Swamini Agamananda ONLINE ONLY",
+     "start": "2026-11-07T11:00:00",
+     "end": "2026-11-07T12:00:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/meditation-workshop-online-with-swamini-agamananda/2026-11-07/",
+     "location": "Online, PA, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-11-22T17:15:00",
+     "end": "2026-11-22T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-25/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-12-06T17:15:00",
+     "end": "2026-12-06T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-26/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2026-12-21T17:15:00",
+     "end": "2026-12-21T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-27/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2027-01-05T17:15:00",
+     "end": "2027-01-05T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-28/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    },
+    {
+     "name": "Pradosham Abhisheka, Puja and Arati",
+     "start": "2027-01-20T17:15:00",
+     "end": "2027-01-20T18:45:00",
+     "tz": "America/New_York",
+     "url": "https://arshavidya.org/event/pradosham-abhisheka-puja-and-arati-29/",
+     "location": "Arsha Vidya Gurukulam, 651 Route 115, Saylorsburg, PA, 18353, United States",
+     "source": "https://arshavidya.org/events/?ical=1",
+     "source_type": "ical"
+    }
+   ]
+  }
+ }
+}

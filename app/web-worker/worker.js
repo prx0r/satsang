@@ -31,7 +31,7 @@ export default {
       if (sk && sp.startsWith('/places')) { const nf = SITE['/404.html']; return new Response(nf ? nf[1] : 'Not found', { status: 404, headers: hdr('text/html; charset=utf-8') }) } }
     // open data aliases: /data/places.json + /data/places.ndjson = the place dump (CC BY 4.0); /data/events.json prefers the KV copy
     // the weekly events keeper may have refreshed since the last deploy
-    const alias = { '/data/places.json': 'data/place.json', '/data/places.ndjson': 'data/place.jsonl', '/data/events.json': 'data/events.json' }[p]
+    const alias = { '/data/places.json': 'data/places.json', '/data/places.ndjson': 'data/places.ndjson', '/data/events.json': 'data/events.json' }[p]
     if (alias && env && env.DATA) {
       const body = await env.DATA.get(alias, 'stream')
       if (body) return new Response(req.method === 'HEAD' ? null : body, { headers: hdr(p.endsWith('.ndjson') ? 'application/x-ndjson; charset=utf-8' : 'application/json; charset=utf-8', { 'cache-control': 'public, max-age=3600', 'access-control-allow-origin': '*', link: '<https://creativecommons.org/licenses/by/4.0/>; rel="license"' }) })

@@ -84,8 +84,8 @@
    "count": 875,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 866362,
-   "sha256": "43bd67534d134bde05a13d6251c566b18125a16e02845b5bb7e39ae865deefe1",
+   "bytes": 968390,
+   "sha256": "62aaf24be1438ad62f31843138365883a9661ee1457cd19c3a3a18c2c4cd9d3a",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
@@ -133,6 +133,13 @@
    "kind": "sitemap-place",
    "count": 603,
    "file": "sitemap-place.xml"
+  },
+  {
+   "kind": "places",
+   "count": 875,
+   "file": "places.json",
+   "ndjson": "places.ndjson",
+   "license": "CC-BY-4.0"
   }
  ]
 }

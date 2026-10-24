@@ -49,5 +49,12 @@ for (const k of smKinds) {
   manifest.files.push({ kind: `sitemap-${k}`, count: urls.length, file: `sitemap-${k}.xml` })
 }
 fs.writeFileSync(new URL('sitemap.xml', out), `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...smKinds, 'places'].map((k) => `  <sitemap><loc>${BASE}/sitemap-${k}.xml</loc><lastmod>${today}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`)
+// /data/places.json (wrapped with its licence note) + /data/places.ndjson (one place per line, same records as place.jsonl)
+{ const rows = Object.values(data.place)
+  fs.writeFileSync(new URL('places.json', out), JSON.stringify({ name: 'Satsang places', license: 'CC-BY-4.0', license_url: 'https://creativecommons.org/licenses/by/4.0/', attribution: `Satsang (${HOST})`,
+    note: 'Satsang curation is CC BY 4.0: credit "Satsang, ' + HOST + '" and link ' + BASE + '/places. Contacts are exactly as each place publishes them on its own site (source link + check date on each record); use them to help a person get in touch, never for bulk mail. Upcoming events are read weekly from each place\u2019s own iCal / schema.org Event data; confirm dates on the source page.',
+    generated: data.meta.built, count: rows.length, schema: `${BASE}/schema/place.json`, ndjson: `${BASE}/data/places.ndjson`, places: rows }))
+  fs.writeFileSync(new URL('places.ndjson', out), rows.map((r) => JSON.stringify(r)).join('\n') + '\n')
+  manifest.files.push({ kind: 'places', count: rows.length, file: 'places.json', ndjson: 'places.ndjson', license: 'CC-BY-4.0' }) }
 fs.writeFileSync(new URL('index.json', out), JSON.stringify(manifest, null, 1))
 console.log(manifest.files.map((f) => `${f.kind}:${f.count}`).join('  '))

@@ -18,6 +18,11 @@ build() {
   node tools/build-anniversaries.mjs || true  # For You: teachers' death anniversaries (Wikidata P570, day precision) -> site/data/wisegraph/anniversaries.json
   node tools/build-stats.mjs || true  # crowd quality from D1 votes (public /stats/clips) -> site/data/stats.json
   npm run build
+  # engine/ belongs to another agent: when engine/breath has uncommitted work, bundle the breath player from the committed HEAD copy
+  if ! git -C .. diff --quiet HEAD -- engine/breath 2>/dev/null; then T=$(mktemp -d); mkdir -p "$T/engine/breath" "$T/app/src"
+    for f in $(git -C .. ls-tree --name-only HEAD engine/breath/ | grep '\.js$'); do git -C .. show "HEAD:$f" > "$T/$f"; done
+    cp src/breathplayer.js "$T/app/src/" && npx esbuild "$T/app/src/breathplayer.js" --bundle --format=esm --minify --target=es2022 --outfile=site/breathplayer.js "--banner:js=/*! Satsang breath player: engine/breath (body.js + breath.js), original code. */" --log-level=warning
+    rm -rf "$T"; echo "breathplayer.js bundled from committed engine/breath (working tree has uncommitted engine changes)"; fi
   node tools/build-place-pages.mjs  # places: slim index + per-place shards (lazy SPA load) + static /place/<id>, /places/* pages + sitemap-places.xml (from site/data/events.json)
   V=$(sha256sum site/app.js | cut -c1-10)
   rm -rf dist && cp -r site dist
@@ -46,7 +51,7 @@ guard() {
 }
 
 ship() {
-  if [ -d ../mcp/dist-data ] && [ "$SKIP_DATA" != "1" ]; then node -e "const fs=require('fs'),d='../mcp/dist-data/';fs.writeFileSync('/tmp/wiser-kv.json',JSON.stringify(fs.readdirSync(d).filter(f=>/\.(json|jsonl|jsonld)$/.test(f)).map(f=>({key:'data/'+f,value:fs.readFileSync(d+f,'utf8')}))))" && (cd web-worker && npx wrangler kv bulk put /tmp/wiser-kv.json --binding DATA --remote >/dev/null && echo "open data uploaded to KV"); fi
+  if [ -d ../mcp/dist-data ] && [ "$SKIP_DATA" != "1" ]; then node -e "const fs=require('fs'),d='../mcp/dist-data/';fs.writeFileSync('/tmp/wiser-kv.json',JSON.stringify(fs.readdirSync(d).filter(f=>/\.(json|jsonl|jsonld|ndjson)$/.test(f)).map(f=>({key:'data/'+f,value:fs.readFileSync(d+f,'utf8')}))))" && (cd web-worker && npx wrangler kv bulk put /tmp/wiser-kv.json --binding DATA --remote >/dev/null && echo "open data uploaded to KV"); fi
   (cd web-worker && node embed.mjs && npx wrangler kv bulk put /tmp/wiser-site-kv.json --binding DATA --remote >/dev/null && echo "site data uploaded to KV" && npx wrangler deploy)
 }
 
