@@ -231,7 +231,7 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
   WISER_SOURCES pointing at a folder of symlinks without deep-india-study. Its virtual-clip part titles are not deterministic
   (Python set order); the live clips.json was kept.
 
-## CURRENT STATE 2026-10-21 02:20 +07 (batch 6; history in MERGE-LOG.md)
+## STATE 2026-10-21 02:20 +07 (batch 6; superseded by the 2026-10-24 section at the end where they differ)
 - Live versions: **wiser-web 3478290f**, **wiser-mcp 9a999aad**, wiser-api 007fc5c3 (unchanged). Domain ACTIVE='legacy' (tantrafiles.xyz).
   Bundles 572 KB / 1,002 KB gzip. MCP: 22 read-only tools (FoJin NOT added: archived, see specs/extensions/44-texts-targets/connectors/FOJIN-DECISION.md).
 - Extensions merged through **45** (prx0r/satsang-extensions @ c470b06). 42-user-profile archived (planned session log in PRACTICE-ENGINE §7.1 / PRACTICE-ASK).
@@ -289,3 +289,35 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   from catalog descriptions without a human listen, pending the owner's approval; Canvas2D player.js does not draw wave/figure yet (plays use play.js);
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
+
+## CURRENT STATE 2026-10-24 (gold tier + mini-courses; history in MERGE-LOG.md)
+- Live: **wiser-web 90362a66**, **wiser-mcp 291d46ba** (24 tools: + list_courses, get_course). Domain ACTIVE='legacy'. This deploy also ships the
+  practice-engine agent's c6b435b ("Practise with the body" overlay, course tree site/data/wisegraph/courses.json, breathplayer.js) and the chat agent's
+  b72e813 (#ask "Build a path" panel). Phase scripts in work/wiser-closeout/ were regenerated from the new deploy.sh (breathplayer cache-busting line).
+- Known: on a 390 px phone the chat agent's nav link "Build a path" (9th item, injected by src/ask.js) sits past the edge of the scrollable nav; owner of ask.js to decide.
+- **Gold scoring** `app/tools/build-gold.py [internal transcript dirs...]` -> `app/wisegraph/gold.json` (tiers + scores, repo) + `site/data/wisegraph/gold.json`
+  (public slim: gold why-lines + strong ids) + `wisegraph/gold-candidates.json` (next judging round) + `wisegraph/gold-signals.json` (internal breakdown, NOT in repo).
+  Signals: A teacher standing (Wikidata, lineage edges, places, depth, works), E views (percentile in own catalogue + global + per year; YouTube watch
+  pages are bot-walled here, so no likes), C crowd (/stats/clips, still empty), T internal transcript numbers (lexical richness, filler, substance;
+  numbers only), P topic centrality, F form (English, 6-75 min, specific title). Red-flag subjects x0.6 and never gold.
+  Tiers: **226 gold / 1,193 strong / 8,528 standard**. Gold = editorially read (no paid LLM: the owner switched OpenRouter off; spend US$0) in
+  `app/tools/gold_judgements_src.py` -> `wisegraph/gold-judgements.json` (each gold: topics + one-line why in Satsang's words; 46 read-and-passed).
+  Next round: read `gold-candidates.json` entries with judged=false, add to gold_judgements_src.py, re-run build-gold.py -> build-catalog.py.
+- **Mini-courses** (collection kind `mini-course`): `app/tools/mini_courses_src.py` writes 12 into `wisegraph/collections.json` and checks every ref
+  (talks must be gold, practices exist, readings pass licence_gate, places exist, 3-6 talks / 1-3 practices). Then build-collections.py. New practice
+  `recollection-of-past-lives-orientation` (needsTeacher; MN 4 + Visuddhimagga XIII via ATI) in `sources/ext-46-gold-courses/practices.json`.
+  Courses: how-buddhist-rebirth-works, remembering-past-lives (orientation), kashmir-shaivism-first-steps, advaita-self-enquiry, anapanasati-breath,
+  metta-loving-kindness, contemplating-death, neoplatonic-contemplation, hermetic-orientation (Middle Pillar orientation only), christian-contemplative-prayer,
+  sufi-remembrance, zen-just-sitting. No Dharma Seed passages; Hareesh 2018 PDF never linked (VBT reading = tantra112.app link).
+- **Site**: gold badge on tiles (`.gmark`), Gold rails leading topic hubs and on teacher pages (`goldRail` in src/wise.js), ranker quality +0.12 gold /
+  +0.05 strong and +0.08 gold in the Topic flash (src/rank-topics.js); nav tab **Courses** -> `#courses`, player `#course/<id>[/<step>]` (src/minicourse.js:
+  inline privacy-enhanced YouTube, practice links back with ?from=&unit=, progress = journeys store / POST /journeys/:id/progress); `#collection/<mini-course>`
+  redirects to `#course/`. Phone nav fits 8 tabs at 390 px (12 px labels).
+- **Open data / MCP**: clip.quality {tier, why, goldTopics} (gold/strong only; absent = standard), collection kind mini-course (+ level, caution,
+  orientationOnly, minutes, deeper[], item title/url) in specs/schema (gen.py); slim MCP bundle keeps every gold + collection talk; get_topic adds gold + courses.
+  Schema 13,091 records failing none.
+- **Chat catalogue**: `app/tools/build-catalog.py` -> `app/wisegraph/catalog-for-chat.json` (+ site/data/wisegraph/catalog.json): topics (gold + strong ids,
+  takes, questions), 226 gold talks with why-lines, 12 courses with resolved steps + cautions + deeper places, 85 practices with cautions, 558 places with retreats.
+- Pipeline order after data changes: build-collections.py -> build-gold.py -> gold_judgements_src.py (if edited) -> mini_courses_src.py -> build-collections.py
+  -> build-gold.py -> build-catalog.py -> deploy (phases A/B/C, then `sh deploy.sh mcp`, then mcp/test-client.mjs).
+

@@ -1,6 +1,6 @@
 {
  "name": "Satsang open data",
- "version": "2026-10-20",
+ "version": "2026-10-24",
  "publisher": "Satsang (tantrafiles.xyz)",
  "license": {
   "metadata": "CC-BY-4.0",
@@ -39,8 +39,8 @@
    "count": 9947,
    "json": "clip.json",
    "jsonl": "clip.jsonl",
-   "bytes": 6982157,
-   "sha256": "6aef2ae93a9ee6a0635df97a1d6ef1876a068f99d22cfa44b5fca608a0ed6c1f",
+   "bytes": 7044640,
+   "sha256": "16ec85d0bccf27b079e7289fc80582c4541735f679b64640872202bde5c3999b",
    "schema": "https://tantrafiles.xyz/schema/clip.json"
   },
   {
@@ -54,11 +54,11 @@
   },
   {
    "kind": "practice",
-   "count": 84,
+   "count": 85,
    "json": "practice.json",
    "jsonl": "practice.jsonl",
-   "bytes": 101100,
-   "sha256": "88f45f88b30c1899c99b758353faf5343350b19a0814cfd32de772edc80ff997",
+   "bytes": 103443,
+   "sha256": "a40709007c4e7e9db684480309b783af8cccc6fe246cec9f4b9de4342769fbb6",
    "schema": "https://tantrafiles.xyz/schema/practice.json"
   },
   {
@@ -72,11 +72,11 @@
   },
   {
    "kind": "collection",
-   "count": 20,
+   "count": 32,
    "json": "collection.json",
    "jsonl": "collection.jsonl",
-   "bytes": 39863,
-   "sha256": "369f77aca8bf5b746762d079bdfb5db3b789bc9734de47e1dadf9cf93c43be03",
+   "bytes": 65066,
+   "sha256": "66fd72d9b690b8cef087c270bdec89bc50095fb413067d1c556cb53ff5d2f326",
    "schema": "https://tantrafiles.xyz/schema/collection.json"
   },
   {
@@ -99,10 +99,10 @@
   },
   {
    "kind": "jsonld",
-   "count": 11960,
+   "count": 11973,
    "file": "wiser.jsonld",
-   "bytes": 6998084,
-   "sha256": "15e1a124e7c26a93ae0a2873052943250d57771e7eff3c95124af44ff1374076"
+   "bytes": 7021728,
+   "sha256": "b2e31e76e74e019af8c3963d4aa7531bb71bb8e44bc98e6ca12280a78b31ea57"
   },
   {
    "kind": "sitemap-topic",
@@ -121,12 +121,12 @@
   },
   {
    "kind": "sitemap-practice",
-   "count": 84,
+   "count": 85,
    "file": "sitemap-practice.xml"
   },
   {
    "kind": "sitemap-collection",
-   "count": 20,
+   "count": 32,
    "file": "sitemap-collection.xml"
   },
   {

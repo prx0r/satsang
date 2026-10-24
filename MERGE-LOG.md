@@ -252,3 +252,19 @@ Validation: schema 13,078 failing none; transcript guards 0 found (243 / 9,665);
 Live: /practice/vbt-mind-between-objects, /practice/vbt-twelve-centres, /collection/vbt-foundations, /collection/trika-prep-week, /resource/tantra112-full-vbt-text-all-112-practices-free 200.
 No screenshots this batch (no UI change; existing practice/collection templates). MCP get_resources: VBT texts match "VBT"/"Hareesh" queries, not "vijnana bhairava" (titles abbreviate).
 Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated site.gen.js excluded; secret scan clean).
+
+## Gold tier + mini-courses (2026-10-24; deployed wiser-web 1f45b441 intermediate, wiser-mcp 898eff3a)
+- Owner request: "thousands of talks but how do I know which is gold? ... organise into mini courses ... the real moat is curation".
+- build-gold.py over all 9,947 clips (423 clips have internal transcript numbers via shared parents; crowd stats empty; YouTube watch pages 401-walled
+  from the build box, so engagement = recorded views). OpenRouter was connected then switched off by the owner before any completion call: spend US$0.
+  The editorial reading (226 gold, 46 passed) was done by the agent from the per-topic candidates (title, teacher, standing, length, reach, fit) and the
+  course themes; why-lines are original, no transcript quotes. Gold spread: Buddhism 130, Hindu 64, Christian 9, Platonic 8, independent 6, Sufi 3,
+  esoteric 3, Jewish 1 (catalogue skew; the next round should read candidates outside Buddhism/Hindu first).
+- 12 mini-courses + 1 orientation practice; site gold badge/rails/flash preference + #courses + course player; MCP list_courses/get_course; schema
+  updates; catalog-for-chat.json (first provisional version at ~21:40 +07, final with gold + courses at ~21:50 +07).
+- Validation: schema 13,091 failing none; transcript guards 0 found (243 / 9,665); mcp/test.mjs all passed (5 new checks); test-client all passed live.
+- Repo prx0r/satsang 4e40a22 (secret scan clean; gold-signals.json and transcript folders excluded; build-gold.py takes transcript dirs as arguments).
+- Final deploy (~22:15 +07): wiser-web 90362a66 + wiser-mcp 291d46ba, built from repo HEAD c6b435b (gold 4e40a22 + chat b72e813 + practice engine c6b435b),
+  data rebuilt with the merged build-collections.py (practice-body mapping) -> build-courses.py -> build-gold.py -> build-catalog.py; test-practice-engine
+  808/808; guards 0 found; mcp/test.mjs + test-client all passed live.
+
