@@ -1,0 +1,15 @@
+# satsang-search: the enquiry lens (specs: search/README.md, ../wiser-search-index/SERVE-SPEC.md). workers.dev only (no route until the owner says so).
+# Free plan only: Workers Free + Workers AI free daily allocation (errors, never bills, on Free) + KV free tier. Never enable paid.
+name = "satsang-search"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+# versioned index: idx/current -> <ver>; idx/<ver>/<file> (search/tools/upload-index.mjs)
+[[kv_namespaces]]
+binding = "IDX"
+id = "76adbeb6023e4ee9a2c4222a6876f160"
