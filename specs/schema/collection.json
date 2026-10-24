@@ -18,7 +18,8 @@
     "journey",
     "meditation-series",
     "visualisation-cycle",
-    "syllabus"
+    "syllabus",
+    "mini-course"
    ]
   },
   "title": {
@@ -121,6 +122,13 @@
         "group": {
          "type": "string",
          "description": "Grouping label, e.g. a tradition column."
+        },
+        "title": {
+         "type": "string",
+         "description": "Display title for a read item."
+        },
+        "url": {
+         "$ref": "common.json#/$defs/url"
         }
        }
       }
@@ -176,6 +184,37 @@
     "deep"
    ]
   },
+  "caution": {
+   "type": "string",
+   "maxLength": 600,
+   "description": "Shown before the first step (mini-courses): orientation-only notes, safety."
+  },
+  "orientationOnly": {
+   "type": "boolean"
+  },
+  "minutes": {
+   "type": "number",
+   "description": "Rough total time (mini-courses)."
+  },
+  "deeper": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "ref"
+    ],
+    "properties": {
+     "ref": {
+      "$ref": "common.json#/$defs/ref"
+     },
+     "note": {
+      "type": "string",
+      "maxLength": 300
+     }
+    }
+   },
+   "description": "Where to go deeper: places (retreats, monasteries) already in the directory."
+  },
   "license": {
    "type": "string",
    "description": "Default CC-BY-4.0 for editorial; author's choice for user collections."
@@ -199,7 +238,8 @@
      "kind": {
       "enum": [
        "journey",
-       "syllabus"
+       "syllabus",
+       "mini-course"
       ]
      }
     }

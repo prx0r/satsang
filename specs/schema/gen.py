@@ -116,6 +116,8 @@ clip = doc("clip", "Clip (a talk or a passage of one)",
      "texts": arr(c("ref"), description="Texts expounded, optionally with passage refs."),
      "published": c("date"), "lang": S(), "views": {"type": "integer"},
      "inBallot": {"type": "boolean", "description": "Computed: eligible for resonance pairing."},
+     "quality": {"type": "object", "description": "Editorial tier (app/tools/build-gold.py). gold = read by an editor and recommended, with a one-line why in Satsang's own words; strong = top ~12% by signals; absent = standard.",
+        "properties": {"tier": enum("gold", "strong", "standard"), "why": S(maxLength=300), "goldTopics": arr(c("topicPath"))}},
      "hasTranscript": {"type": "boolean", "description": "Internal flag only. Transcript text, URL or path is NEVER published."},
      "stats": {"type": "object", "description": "Computed public aggregates.", "properties": {
         "bt": {"type": "number"}, "btSe": {"type": "number"}, "resonates": {"type": "integer"}, "completion": {"type": "number"}, "picks": {"type": "integer"}}},
@@ -166,7 +168,8 @@ topic = doc("topic", "Topic",
 
 ITEM = {"type": "object", "required": ["ref"], "properties": {
     "ref": c("ref"), "role": enum("watch", "read", "practise", "listen", "visit", "reflect"),
-    "note": S(maxLength=1200), "optional": {"type": "boolean"}, "group": S(description="Grouping label, e.g. a tradition column.")}}
+    "note": S(maxLength=1200), "optional": {"type": "boolean"}, "group": S(description="Grouping label, e.g. a tradition column."),
+    "title": S(description="Display title for a read item."), "url": c("url")}}
 UNIT = {"type": "object", "required": ["title", "items"], "properties": {
     "n": {"type": "integer", "minimum": 1}, "title": S(), "day": {"type": "integer", "minimum": 1, "description": "Journey day (1-based)."},
     "track": enum("theory", "practice", "both"), "intro": S(maxLength=1200), "items": arr(ITEM),
@@ -175,15 +178,19 @@ UNIT = {"type": "object", "required": ["title", "items"], "properties": {
     "checkpoint": S(description="A short reflection prompt or self-check, openpatala-style.")}}
 collection = doc("collection", "Collection",
     "An editorial or user-made grouping. kind decides how it plays: a set (unordered), a journey (ordered, multi-day, resumable), a meditation series, a visualisation cycle, a syllabus (theory + practice tracks). schema.org: set = ItemList / CreativeWork; journey/syllabus = Course with CourseInstance hasCourseInstance(courseSchedule); series = CreativeWorkSeries.",
-    {"id": c("slug"), "kind": enum("set", "journey", "meditation-series", "visualisation-cycle", "syllabus"),
+    {"id": c("slug"), "kind": enum("set", "journey", "meditation-series", "visualisation-cycle", "syllabus", "mini-course"),
      "title": S(), "subtitle": S(), "intro": S(maxLength=4000), "cover": c("image"),
      "author": S(description="'wiser' for editorial, else user/<handle>."), "visibility": c("visibility"),
      "topics": arr(c("topicPath")), "traditions": arr(c("slug")),
      "ordered": {"type": "boolean"}, "units": arr(UNIT, minItems=1),
      "cadence": {"type": "object", "properties": {"days": {"type": "integer"}, "minutesPerDay": {"type": "number"}, "restDays": arr({"type": "integer"})}},
-     "level": enum("first-steps", "steady", "deep"), "license": S(description="Default CC-BY-4.0 for editorial; author's choice for user collections."),
+     "level": enum("first-steps", "steady", "deep"),
+     "caution": S(maxLength=600, description="Shown before the first step (mini-courses): orientation-only notes, safety."), "orientationOnly": {"type": "boolean"},
+     "minutes": {"type": "number", "description": "Rough total time (mini-courses)."},
+     "deeper": arr({"type": "object", "required": ["ref"], "properties": {"ref": c("ref"), "note": S(maxLength=300)}}, description="Where to go deeper: places (retreats, monasteries) already in the directory."),
+     "license": S(description="Default CC-BY-4.0 for editorial; author's choice for user collections."),
      "meta": c("meta")}, ["kind", "title", "units"],
-    {"allOf": [{"if": {"properties": {"kind": {"enum": ["journey", "syllabus"]}}}, "then": {"properties": {"ordered": {"const": True}}}}]})
+    {"allOf": [{"if": {"properties": {"kind": {"enum": ["journey", "syllabus", "mini-course"]}}}, "then": {"properties": {"ordered": {"const": True}}}}]})
 
 place = doc("place", "Place",
     "A monastery, centre, ashram, retreat house, pilgrimage site or lodge. Contacts only as published, each with its source. schema.org: Place / PlaceOfWorship / Organization (with geo GeoCoordinates).",

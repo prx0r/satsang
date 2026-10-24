@@ -1,0 +1,4801 @@
+{
+"note": "Top candidates per topic for the editorial gold reading (tools/build-gold.py). Judge, then record in gold-judgements.json.",
+"topics": {
+"rebirth": [
+{
+"id": "_4BFX_qhhyk",
+"speaker": "ajahn-brahm",
+"title": "How To See Past Lives & Why Its Important",
+"min": 11,
+"views": 78611,
+"s": 0.8627,
+"judged": true
+},
+{
+"id": "QY3tE-leTaU",
+"speaker": "ajahn-sumedho",
+"title": "Samsara is Messed Up",
+"min": 38,
+"views": 14000,
+"s": 0.8297,
+"judged": true
+},
+{
+"id": "P4dnj0M8T2o",
+"speaker": "jiddu-krishnamurti",
+"title": "On reincarnation",
+"min": 17,
+"views": 150226,
+"s": 0.8072,
+"judged": true
+},
+{
+"id": "bvbRu5I5Lt4",
+"speaker": "thanissaro-bhikkhu",
+"title": "Rebirth Is Relevant",
+"min": 16,
+"views": 3785,
+"s": 0.812,
+"judged": true
+},
+{
+"id": "7_pxlUNi0bU",
+"speaker": "ajahn-nyanamoli",
+"title": "Wanting Samsara?",
+"min": 7,
+"views": 5900,
+"s": 0.816,
+"judged": false
+},
+{
+"id": "U3DMApVU2VQ",
+"speaker": "swami-sarvapriyananda",
+"title": "Reincarnation in Hinduism",
+"min": 10,
+"views": 46455,
+"s": 0.7733,
+"judged": true
+},
+{
+"id": "TjYVxV2r3oA",
+"speaker": "brad-warner",
+"title": "Do Buddhists Believe in Reincarnation?",
+"min": 39,
+"views": 5600,
+"s": 0.766,
+"judged": false
+},
+{
+"id": "gEhCc7a1pTE",
+"speaker": "ajahn-anan",
+"title": "The Mind is Chief in Determining Rebirth",
+"min": 19,
+"views": 4000,
+"s": 0.7502,
+"judged": false
+}
+],
+"rebirth/samsara": [
+{
+"id": "QY3tE-leTaU",
+"speaker": "ajahn-sumedho",
+"title": "Samsara is Messed Up",
+"min": 38,
+"views": 14000,
+"s": 0.8297,
+"judged": true
+},
+{
+"id": "7_pxlUNi0bU",
+"speaker": "ajahn-nyanamoli",
+"title": "Wanting Samsara?",
+"min": 7,
+"views": 5900,
+"s": 0.816,
+"judged": false
+},
+{
+"id": "7NNXCFK7Pes",
+"speaker": "thanissaro-bhikkhu",
+"title": "Samvega for Samsara \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 12,
+"views": 702,
+"s": 0.7496,
+"judged": true
+},
+{
+"id": "LDJpAW5HaDM",
+"speaker": "sayadaw-u-silananda",
+"title": "Sayadaw U Silananda · Samsara",
+"min": 41,
+"views": 1800,
+"s": 0.6596,
+"judged": false
+},
+{
+"id": "7NwRUZdBhpY",
+"speaker": "ringu-tulku",
+"title": "11. What is The Wheel of Samsara? | Answers for Beginners",
+"min": 6,
+"views": 750,
+"s": 0.6181,
+"judged": false
+},
+{
+"id": "HxEF8BMl9Hk",
+"speaker": "swami-sarvadevananda",
+"title": "The Forest of Samsara",
+"min": 56,
+"views": 846,
+"s": 0.5722,
+"judged": false
+},
+{
+"id": "1eniFgWalFU",
+"speaker": "sheng-yen",
+"title": "Liberation from samsara: the Pure Land method of reciting Amitabha Buddha's name(GDD-1153)DVD",
+"min": 9,
+"views": 6900,
+"s": 0.6271,
+"judged": false
+},
+{
+"id": "2MiOeYXdfi4",
+"speaker": "jundo-cohen",
+"title": "Newtown Connecticut -IS- Samsara December 16, 2012",
+"min": 5,
+"views": 197,
+"s": 0.5447,
+"judged": true
+}
+],
+"rebirth/western": [
+{
+"id": "HgR6YrJDUR8@258",
+"speaker": "filip-holm",
+"title": "Pythagoras: transmigration of souls and a way of life",
+"min": 8,
+"views": 1295830,
+"s": 0.7598,
+"judged": true
+},
+{
+"id": "P4dnj0M8T2o",
+"speaker": "jiddu-krishnamurti",
+"title": "On reincarnation",
+"min": 17,
+"views": 150226,
+"s": 0.8072,
+"judged": true
+},
+{
+"id": "KG2TBst3PG0",
+"speaker": "justin-sledge",
+"title": "Philosophy of the Orphic Mysteries - The Derveni Papyrus - Myth of Orpheus and Ancient Greek Science",
+"min": 25,
+"views": 229000,
+"s": 0.6557,
+"judged": false
+},
+{
+"id": "97eWPOP0bRU",
+"speaker": "eric-steinhart",
+"title": "Plotinus and Reincarnation",
+"min": 11,
+"views": 2337,
+"s": 0.5967,
+"judged": true
+},
+{
+"id": "X8reTdGzqho@2310",
+"speaker": "pierre-grimes",
+"title": "Plotinus on the descent of the soul into the body",
+"min": 11,
+"views": 866,
+"s": 0.4995,
+"judged": false
+},
+{
+"id": "hrdse8DpowQ@30",
+"speaker": "john-dalton",
+"title": "Rudolf Steiner's vision of humanity's destined future",
+"min": 11,
+"views": 46639,
+"s": 0.4748,
+"judged": false
+}
+],
+"kamma": [
+{
+"id": "B7I4jP9s8bQ",
+"speaker": "thich-nhat-hanh",
+"title": "Why do people have different Karma? Thich Nhat Hanh answers questions",
+"min": 13,
+"views": 479702,
+"s": 0.9188,
+"judged": true
+},
+{
+"id": "AQe27beuyPk",
+"speaker": "dalai-lama",
+"title": "In Conversation with His Holiness Karmapa",
+"min": 44,
+"views": 14000,
+"s": 0.8106,
+"judged": true
+},
+{
+"id": "3M5Fxmq5c9s",
+"speaker": "ajahn-brahm",
+"title": "Meditation Kamma",
+"min": 56,
+"views": 68000,
+"s": 0.8411,
+"judged": true
+},
+{
+"id": "H9R0OfjDVRw",
+"speaker": "ajahn-sumedho",
+"title": "Kamma and Vipaka Kamma",
+"min": 29,
+"views": 8100,
+"s": 0.7799,
+"judged": true
+},
+{
+"id": "wWBM7QFlC3Y",
+"speaker": "thanissaro-bhikkhu",
+"title": "Weathering Karma Storms",
+"min": 12,
+"views": 1935,
+"s": 0.7981,
+"judged": true
+},
+{
+"id": "UB5Lz3uXo_A",
+"speaker": "swami-sarvapriyananda",
+"title": "Karma of King Janaka",
+"min": 11,
+"views": 50947,
+"s": 0.7737,
+"judged": false
+},
+{
+"id": "692Y_frtRcY",
+"speaker": "swami-lakshmanjoo",
+"title": "Can You Escape Karma? | Shiva Sutras with Swami Lakshmanjoo",
+"min": 6,
+"views": 1300,
+"s": 0.765,
+"judged": true
+},
+{
+"id": "VHJKQuhhazs",
+"speaker": "ajahn-nyanamoli",
+"title": "The End of Kamma",
+"min": 33,
+"views": 6200,
+"s": 0.7499,
+"judged": false
+}
+],
+"kamma/karma-yoga": [
+{
+"id": "m7TB9MRtZ2w",
+"speaker": "swami-tadatmananda",
+"title": "Spiritual vs. Worldly Life — How to Reconcile? — Karma Yoga",
+"min": 15,
+"views": 51769,
+"s": 0.7027,
+"judged": true
+},
+{
+"id": "yFN9hk_ytFE",
+"speaker": "swami-sarvapriyananda",
+"title": "KarmaYoga: moving from doership with desire to doership without desire. | Sakama to Nishkama",
+"min": 12,
+"views": 20381,
+"s": 0.7275,
+"judged": true
+},
+{
+"id": "Oi6jq369Lz8",
+"speaker": "swami-vedarupananda",
+"title": "The Knife, Fork, and Spoon of Karma Yoga",
+"min": 48,
+"views": 581,
+"s": 0.5476,
+"judged": false
+},
+{
+"id": "frSnEHDBV0w",
+"speaker": "swami-paramananda-sivananda",
+"title": "Spiritualize Your Daily Life: The Practice of Karma Yoga · Part 1",
+"min": 19,
+"views": 146,
+"s": 0.4377,
+"judged": false
+},
+{
+"id": "BaExRxj8G1w",
+"speaker": "swami-shankarananda",
+"title": "Work in the World - Satsang with Swami Shankarananda",
+"min": 8,
+"views": 463,
+"s": 0.4312,
+"judged": false
+},
+{
+"id": "jeXYNBP35jI",
+"speaker": "rajmani-tigunait",
+"title": "Bhagavad Gita: Freedom from Fear / Pt 3 / with Ishan Tigunait",
+"min": 6,
+"views": 75,
+"s": 0.4427,
+"judged": false
+}
+],
+"self": [
+{
+"id": "hXd09oGHD0I",
+"speaker": "ajahn-brahm",
+"title": "No-Self Esteem",
+"min": 54,
+"views": 207000,
+"s": 0.9018,
+"judged": true
+},
+{
+"id": "MNQhj82jDRQ",
+"speaker": "thich-nhat-hanh",
+"title": "I Have Arrived, I am Home",
+"min": 12,
+"views": 73668,
+"s": 0.8844,
+"judged": true
+},
+{
+"id": "IAIGzxeevXI",
+"speaker": "ajahn-nyanamoli",
+"title": "The Anatta Method",
+"min": 13,
+"views": 4800,
+"s": 0.8144,
+"judged": true
+},
+{
+"id": "VAo0VzKZs5g",
+"speaker": "brad-warner",
+"title": "I Am Not Very \"Zen\"",
+"min": 21,
+"views": 28000,
+"s": 0.8094,
+"judged": true
+},
+{
+"id": "ghISLiSlUCQ",
+"speaker": "swami-sarvapriyananda",
+"title": "Who am I if not the knower?",
+"min": 16,
+"views": 143123,
+"s": 0.8092,
+"judged": true
+},
+{
+"id": "dp3m-JTPjGQ",
+"speaker": "swami-chinmayananda",
+"title": "How to Remove Ego? · Bhagavad Gita",
+"min": 5,
+"views": 68000,
+"s": 0.807,
+"judged": true
+},
+{
+"id": "TDrkOE6onuw",
+"speaker": "ajahn-sumedho",
+"title": "I Am Right, Everybody Else Is Wrong",
+"min": 45,
+"views": 9000,
+"s": 0.7949,
+"judged": false
+},
+{
+"id": "o1IYLfCThcw",
+"speaker": "thanissaro-bhikkhu",
+"title": "Is “I Am” the Problem?",
+"min": 13,
+"views": 1100,
+"s": 0.7868,
+"judged": true
+}
+],
+"self/self-enquiry": [
+{
+"id": "Lb3PzxwEKCQ",
+"speaker": "rupert-spira",
+"title": "How Do I Practice Self Enquiry?",
+"min": 14,
+"views": 618340,
+"s": 0.8716,
+"judged": true
+},
+{
+"id": "n-mj_JZqKYY",
+"speaker": "mooji",
+"title": "I Am That I Am",
+"min": 8,
+"views": 53042,
+"s": 0.73,
+"judged": false
+},
+{
+"id": "Fm1-ZPjKz5E",
+"speaker": "francis-lucille",
+"title": "How Self inquiry brings about natural relaxation",
+"min": 9,
+"views": 8505,
+"s": 0.7246,
+"judged": false
+},
+{
+"id": "v3iGgNJsH0Y",
+"speaker": "swami-tadatmananda",
+"title": "How NOT to Study Vedanta – Self-Inquiry vs Acquiring Information",
+"min": 12,
+"views": 55016,
+"s": 0.7067,
+"judged": true
+},
+{
+"id": "ghISLiSlUCQ",
+"speaker": "swami-sarvapriyananda",
+"title": "Who am I if not the knower?",
+"min": 16,
+"views": 143123,
+"s": 0.8092,
+"judged": true
+},
+{
+"id": "2NTW9fowkF0",
+"speaker": "tara-brach",
+"title": "Reflection: Self Inquiry II, with Tara Brach",
+"min": 6,
+"views": 6011,
+"s": 0.6808,
+"judged": false
+},
+{
+"id": "Pzjz2QF2lRA@473",
+"speaker": "nisargadatta-maharaj",
+"title": "An Afternoon with Nisargadatta: on what does \"I am\" depend?",
+"min": 7,
+"views": 36985,
+"s": 0.7517,
+"judged": true
+},
+{
+"id": "hDdzRFDXG4s",
+"speaker": "swami-lakshmanjoo",
+"title": "The Secret of Mātrikā Chakra — So’ham | Weekly Sangha Excerpt #16",
+"min": 9,
+"views": 1612,
+"s": 0.773,
+"judged": false
+}
+],
+"self/emptiness": [
+{
+"id": "yK6aTOzcjQw",
+"speaker": "ajahn-brahm",
+"title": "Emptiness is the Greatest",
+"min": 29,
+"views": 94000,
+"s": 0.869,
+"judged": true
+},
+{
+"id": "dmArGum9mAY",
+"speaker": "dalai-lama",
+"title": "Emptiness and Compassion as Antidotes to Destructive Emotions",
+"min": 8,
+"views": 59979,
+"s": 0.8407,
+"judged": true
+},
+{
+"id": "wXVrgPM6Hrk",
+"speaker": "ajahn-anan",
+"title": "Seeing Emptiness in All Phenomena",
+"min": 17,
+"views": 3900,
+"s": 0.7404,
+"judged": false
+},
+{
+"id": "2itVzTdgJlI",
+"speaker": "jiddu-krishnamurti",
+"title": "Complete emptiness",
+"min": 6,
+"views": 35137,
+"s": 0.7451,
+"judged": false
+},
+{
+"id": "bhmnN9_vN6k",
+"speaker": "henry-shukman",
+"title": "Rohatsu 4:  Prajnaparamitra, The Heart Sutra, with Henry Shukman - December 9, 2022",
+"min": 38,
+"views": 1200,
+"s": 0.7596,
+"judged": false
+},
+{
+"id": "2YM_D8L1Jnc",
+"speaker": "mooji",
+"title": "Bliss Vs Emptiness - Mooji London Satsang 2",
+"min": 7,
+"views": 55595,
+"s": 0.7362,
+"judged": false
+},
+{
+"id": "wiQNJmX62s8",
+"speaker": "robert-thurman",
+"title": "What is Emptiness? Robert Thurman & Sharon Salzberg : Buddhism Explained",
+"min": 29,
+"views": 9500,
+"s": 0.7017,
+"judged": true
+},
+{
+"id": "x1nT1i_nvjQ",
+"speaker": "thich-nhat-hanh",
+"title": "Honoring Thích Nhất Hạnh and the Practice of Interbeing and Special Guest Donna Bone",
+"min": 54,
+"views": 18,
+"s": 0.7015,
+"judged": true
+}
+],
+"meditation": [
+{
+"id": "WzgJsLllDy4",
+"speaker": "thich-nhat-hanh",
+"title": "Immersive Meditation: Coming Home to the Body | With the words of Thich Nhat Hanh",
+"min": 21,
+"views": 231000,
+"s": 0.9249,
+"judged": false
+},
+{
+"id": "Ffxb0NWuYIc",
+"speaker": "swami-lakshmanjoo",
+"title": "How you should meditate in Kashmir Shaivism",
+"min": 8,
+"views": 63429,
+"s": 0.9151,
+"judged": true
+},
+{
+"id": "Oh5ii6R6LTM",
+"speaker": "goenka",
+"title": "Anapana Meditation For All (English",
+"min": 10,
+"views": 2000000,
+"s": 0.8985,
+"judged": true
+},
+{
+"id": "ua8LtNq91mw",
+"speaker": "ajahn-nyanamoli",
+"title": "Practical Guide To 'Kasina' Meditation",
+"min": 25,
+"views": 15000,
+"s": 0.8781,
+"judged": false
+},
+{
+"id": "yFXho1--Npk",
+"speaker": "ajahn-brahm",
+"title": "Friday Night Guided Meditation",
+"min": 24,
+"views": 100000,
+"s": 0.8715,
+"judged": false
+},
+{
+"id": "OOHH6pxYi8A",
+"speaker": "mingyur-rinpoche",
+"title": "How to Meditate (1 of 2) ~ Mingyur Rinpoche talks about the essence of meditation",
+"min": 10,
+"views": 705000,
+"s": 0.8704,
+"judged": true
+},
+{
+"id": "f108YH71kVs",
+"speaker": "jack-kornfield",
+"title": "Temple of Healing Meditation",
+"min": 20,
+"views": 46387,
+"s": 0.869,
+"judged": false
+},
+{
+"id": "niPekdemiHI",
+"speaker": "henry-shukman",
+"title": "Intro to Meditation Series, Talk One: Fundamentals of Why We Sit",
+"min": 12,
+"views": 6532,
+"s": 0.8348,
+"judged": true
+}
+],
+"meditation/breath": [
+{
+"id": "gAeRaxV-nJ8",
+"speaker": "thich-nhat-hanh",
+"title": "BREATHE. In, Out. Deep, Slow. | Teaching by Zen Master Thich Nhat Hanh",
+"min": 9,
+"views": 99391,
+"s": 0.8967,
+"judged": true
+},
+{
+"id": "NI0GVhw0bgs",
+"speaker": "ajahn-nyanamoli",
+"title": "Recollectedness of Breathing | Revisiting Anapanasati Meditation Practice",
+"min": 69,
+"views": 10000,
+"s": 0.8491,
+"judged": false
+},
+{
+"id": "cr4QbRKdjMQ",
+"speaker": "thanissaro-bhikkhu",
+"title": "An Interest in the Breath \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 17,
+"views": 1200,
+"s": 0.7924,
+"judged": false
+},
+{
+"id": "E3l4w8OX8Ww",
+"speaker": "tara-brach",
+"title": "Guided Meditation: Coming Home with the Breath",
+"min": 15,
+"views": 31000,
+"s": 0.7771,
+"judged": false
+},
+{
+"id": "nUCMU5kDeoU",
+"speaker": "ajahn-pasanno",
+"title": "Mindfulness of Breathing: The Path to Clarity",
+"min": 34,
+"views": 3300,
+"s": 0.8146,
+"judged": true
+},
+{
+"id": "36ke1pMEjPM",
+"speaker": "jack-kornfield",
+"title": "The Breath of Life | Mini Guided Meditation with Jack Kornfield",
+"min": 12,
+"views": 16598,
+"s": 0.8279,
+"judged": false
+},
+{
+"id": "LsR2w3TqTYA",
+"speaker": "swami-lakshmanjoo",
+"title": "How the energy of Lord Śiva creates & destroys the sphere of time by entering on the path of breath",
+"min": 11,
+"views": 1475,
+"s": 0.7605,
+"judged": true
+},
+{
+"id": "ruYjuB2ezDw",
+"speaker": "swami-tyagananda",
+"title": "Three Breathing Exercises",
+"min": 52,
+"views": 7200,
+"s": 0.7156,
+"judged": false
+}
+],
+"meditation/guided": [
+{
+"id": "yFXho1--Npk",
+"speaker": "ajahn-brahm",
+"title": "Friday Night Guided Meditation",
+"min": 24,
+"views": 100000,
+"s": 0.8715,
+"judged": false
+},
+{
+"id": "8vMEoPgg-PE",
+"speaker": "mooji",
+"title": "You Are Life Itself — Guided Meditation with Mooji",
+"min": 16,
+"views": 3877534,
+"s": 0.8404,
+"judged": false
+},
+{
+"id": "kDn8Dw9Xnlw",
+"speaker": "tara-brach",
+"title": "Guided Meditation: What Matters to Your Heart? with Tara Brach",
+"min": 9,
+"views": 98000,
+"s": 0.814,
+"judged": true
+},
+{
+"id": "4wWkQl3l0Ek",
+"speaker": "rupert-spira",
+"title": "Guided Meditation: Let Go of Experience and Recognise the Self",
+"min": 19,
+"views": 492743,
+"s": 0.8544,
+"judged": true
+},
+{
+"id": "1-9xsHGmfMY",
+"speaker": "adyashanti",
+"title": "Guided Meditation — The Quiet Immensity Within",
+"min": 19,
+"views": 247185,
+"s": 0.7832,
+"judged": false
+},
+{
+"id": "36ke1pMEjPM",
+"speaker": "jack-kornfield",
+"title": "The Breath of Life | Mini Guided Meditation with Jack Kornfield",
+"min": 12,
+"views": 16598,
+"s": 0.8279,
+"judged": false
+},
+{
+"id": "vEXS_X-rc3U",
+"speaker": "ajahn-nyanamoli",
+"title": "GUIDED CONTEMPLATION | Interrogation Of The Body",
+"min": 52,
+"views": 5100,
+"s": 0.7989,
+"judged": false
+},
+{
+"id": "5GSeWdjyr1c",
+"speaker": "mingyur-rinpoche",
+"title": "A Guided Meditation on the Body, Space, and Awareness with Yongey Mingyur Rinpoche",
+"min": 15,
+"views": 6242854,
+"s": 0.841,
+"judged": true
+}
+],
+"meditation/mantra": [
+{
+"id": "yTJfpnBlqgw",
+"speaker": "swami-lakshmanjoo",
+"title": "The Aghora Mantra and its importance in Kashmir Shaivism - part 2 - Svacchandanatha",
+"min": 13,
+"views": 11252,
+"s": 0.8661,
+"judged": false
+},
+{
+"id": "YzoDzlP0mYk",
+"speaker": "laurence-freeman",
+"title": "Mantra I - Video Lectios with Laurence Freeman OSB",
+"min": 4,
+"views": 5900,
+"s": 0.7836,
+"judged": true
+},
+{
+"id": "t2Q_YCkK0mk",
+"speaker": "mooji",
+"title": "A Peaceful Mind in 5 Minutes ~ \"Pure Awareness I Am\" Mooji Mantra",
+"min": 11,
+"views": 1200000,
+"s": 0.8122,
+"judged": false
+},
+{
+"id": "9eSdroFGv-s",
+"speaker": "anandamayi-ma",
+"title": "Sri Ma Anandamayi talks about Mantra and japa",
+"min": 17,
+"views": 30517,
+"s": 0.7685,
+"judged": true
+},
+{
+"id": "UKGv5qW3lLo",
+"speaker": "rupert-spira",
+"title": "Self Enquiry vs Mantra Meditation",
+"min": 16,
+"views": 24799,
+"s": 0.7519,
+"judged": true
+},
+{
+"id": "hVqKVgKJ8Lw",
+"speaker": "swami-swaroopananda-chinmaya",
+"title": "04 Gayatri Mantra",
+"min": 30,
+"views": 67000,
+"s": 0.693,
+"judged": false
+},
+{
+"id": "wph6RLpSCaE",
+"speaker": "amritananda",
+"title": "Powerful Healing | Nama Trayi Astra Mantra 108 times for Protection, Healing & Curing Great Diseases",
+"min": 13,
+"views": 94867,
+"s": 0.6785,
+"judged": true
+},
+{
+"id": "W6koZHktWU0",
+"speaker": "christopher-wallis",
+"title": "Mahāmrtyuñjaya Mantra ~ Exact Pronunciation",
+"min": 9,
+"views": 5183,
+"s": 0.6898,
+"judged": false
+}
+],
+"meditation/kriya": [
+{
+"id": "fna7IbLoGJo",
+"speaker": "brother-chidananda",
+"title": "Awakening the Spine Through Kriya Yoga",
+"min": 9,
+"views": 94376,
+"s": 0.7109,
+"judged": true
+},
+{
+"id": "9nv0j8sgxbY",
+"speaker": "kym-faculty",
+"title": "Pranayama for Improving the Immune System | A Talk by V Srinivasan, Krishnamacharya Yoga Mandiram",
+"min": 56,
+"views": 13000,
+"s": 0.6685,
+"judged": false
+},
+{
+"id": "LXsQcnm4BRQ",
+"speaker": "swami-lakshmanjoo",
+"title": "Kundalini in Kashmir Shaivism",
+"min": 5,
+"views": 39171,
+"s": 0.8301,
+"judged": true
+},
+{
+"id": "chPBmSzvStQ",
+"speaker": "jiddu-krishnamurti",
+"title": "Is it true that yoga will awaken deeper energy, which is called kundalini?",
+"min": 11,
+"views": 3421300,
+"s": 0.8328,
+"judged": false
+},
+{
+"id": "JNpOHvpKzNE",
+"speaker": "yogi-matsyendranath-maharaj",
+"title": "Прана и пранаяма | Prana and pranayama [English subtitles]",
+"min": 16,
+"views": 7300,
+"s": 0.628,
+"judged": true
+},
+{
+"id": "rywk_i9pjsQ",
+"speaker": "swami-swaroopananda-sivananda",
+"title": "Asana, Pranayama, Tratak & Concentration",
+"min": 55,
+"views": 464,
+"s": 0.6056,
+"judged": false
+},
+{
+"id": "17PpS_cgLHY",
+"speaker": "alan-wallace",
+"title": "\"Natural Pranayama\" |  Dr. B. Alan Wallace Explains the Subtleties of Mindfulness of Breathing",
+"min": 13,
+"views": 4300,
+"s": 0.6387,
+"judged": true
+},
+{
+"id": "cS_tnspxLSc",
+"speaker": "swami-tadatmananda",
+"title": "Meditation on OM synchronized with pranayama · by Vasanthiji",
+"min": 38,
+"views": 1300,
+"s": 0.5956,
+"judged": false
+}
+],
+"meditation/koan": [
+{
+"id": "ivCzQx7DQJs",
+"speaker": "henry-shukman",
+"title": "Why Mu? Talk Two: The Essential Koan",
+"min": 49,
+"views": 7600,
+"s": 0.8493,
+"judged": true
+},
+{
+"id": "aiV8wB6KV2Q",
+"speaker": "joan-halifax",
+"title": "Roshi Joan Reads Dogen's Genjo Koan",
+"min": 15,
+"views": 5181,
+"s": 0.7404,
+"judged": true
+},
+{
+"id": "RKmzsNHDfQ0",
+"speaker": "shinge-roshi",
+"title": "Blue Cliff Record Case 71: Goho's \"Shut Up!\" – Teisho by Shinge Roshi, October 25th, 2020",
+"min": 52,
+"views": 241,
+"s": 0.7265,
+"judged": false
+},
+{
+"id": "dX1TU8NTUpI",
+"speaker": "brad-warner",
+"title": "Working WIth Koans",
+"min": 24,
+"views": 3100,
+"s": 0.7029,
+"judged": false
+},
+{
+"id": "dSAbDM10P-U",
+"speaker": "shunryu-suzuki",
+"title": "Genjo Koan Pt. 2— Shunryu Suzuki Roshi — Archived Dharma Talk — Aug. 21, 1967",
+"min": 38,
+"views": 264,
+"s": 0.685,
+"judged": false
+},
+{
+"id": "orcbqeFtEIg",
+"speaker": "guo-gu",
+"title": "Guo Gu, Investigating Huatou",
+"min": 27,
+"views": 10000,
+"s": 0.6538,
+"judged": true
+},
+{
+"id": "DJGrXCPW8DM",
+"speaker": "valerie-forstman",
+"title": "Joshu's Dog: Summer Sesshin Talk One with Valerie Forstman - June 21, 2022",
+"min": 46,
+"views": 576,
+"s": 0.6352,
+"judged": false
+},
+{
+"id": "2Dn9kqVrKzE",
+"speaker": "thich-nhat-hanh",
+"title": "A Cloud Never Dies",
+"min": 13,
+"views": 84546,
+"s": 0.7994,
+"judged": false
+}
+],
+"meditation/prayer": [
+{
+"id": "YHtsSE2-nOI",
+"speaker": "cynthia-bourgeault",
+"title": "Lectio Divina Practice on Luke Chapter 11 with Rev. Dr. Cynthia Bourgeault",
+"min": 8,
+"views": 99137,
+"s": 0.7891,
+"judged": true
+},
+{
+"id": "r4LoXCl7drQ@1994",
+"speaker": "filip-holm",
+"title": "Mystical practice: Hesychasm and the Cloud of Unknowing",
+"min": 4,
+"views": 787570,
+"s": 0.7615,
+"judged": true
+},
+{
+"id": "0q_oYBIYf14",
+"speaker": "richard-rohr",
+"title": "Awaken the Prophet Within | A Lectio Divina Practice from Richard Rohr’s “The Tears of Things”",
+"min": 9,
+"views": 132000,
+"s": 0.7832,
+"judged": false
+},
+{
+"id": "8WJzCwK6Hus",
+"speaker": "angela-puca",
+"title": "GOETIA & THEURGY. Key of Solomon, Lemegeton",
+"min": 12,
+"views": 74000,
+"s": 0.6333,
+"judged": true
+},
+{
+"id": "ePhCyVJEAxk",
+"speaker": "justin-sledge",
+"title": "What is Theurgy? Ancient Pagan Salvation through Ritual, Philosophy and Unity with the Divine",
+"min": 40,
+"views": 304000,
+"s": 0.6553,
+"judged": true
+},
+{
+"id": "03TkFLFTbhk",
+"speaker": "father-spyridon",
+"title": "Hesychia, Silence, & the Jesus Prayer",
+"min": 12,
+"views": 171000,
+"s": 0.6221,
+"judged": true
+},
+{
+"id": "cBZ-77p7yeI",
+"speaker": "jiddu-krishnamurti",
+"title": "Why do you not find value in prayer?",
+"min": 13,
+"views": 67461,
+"s": 0.7192,
+"judged": false
+},
+{
+"id": "1cdRktUsX3I",
+"speaker": "nazim-al-haqqani",
+"title": "Dhikr & Dua - Naqshbandi Short Khatm with Mawlana Shaykh Nazim",
+"min": 33,
+"views": 343000,
+"s": 0.7184,
+"judged": false
+}
+],
+"meditation/kundalini": [
+{
+"id": "hDdzRFDXG4s",
+"speaker": "swami-lakshmanjoo",
+"title": "The Secret of Mātrikā Chakra — So’ham | Weekly Sangha Excerpt #16",
+"min": 9,
+"views": 1612,
+"s": 0.773,
+"judged": false
+},
+{
+"id": "cJ6hm5lzMvM",
+"speaker": "christopher-wallis",
+"title": "Ep 67 ~ The Real Story on Kundalinī",
+"min": 39,
+"views": 7720,
+"s": 0.712,
+"judged": true
+},
+{
+"id": "klVzl7la-iQ",
+"speaker": "amritananda",
+"title": "Khadgamala deities Locations and Forms in Sri Chakra",
+"min": 8,
+"views": 31860,
+"s": 0.6499,
+"judged": true
+},
+{
+"id": "sQsAOv4NQWI",
+"speaker": "rajmani-tigunait",
+"title": "Manipura Chakra and the Power of Sankalpa Siddhi - Pandit Rajmani Tigunait, PhD",
+"min": 5,
+"views": 11181,
+"s": 0.6456,
+"judged": false
+},
+{
+"id": "tga0EHVTs7E",
+"speaker": "swami-shankarananda",
+"title": "The Experience of Kundalini: Devi Ma Saraswati",
+"min": 13,
+"views": 5299,
+"s": 0.6203,
+"judged": false
+},
+{
+"id": "2y-R8271tgs",
+"speaker": "igor-kufayev",
+"title": "Giving & Receiving Shaktipat",
+"min": 12,
+"views": 12691,
+"s": 0.6102,
+"judged": false
+},
+{
+"id": "rbRfCzt4sAk",
+"speaker": "yamajit",
+"title": "Guided Himalayan Yoga Nidra Meditation Part II -Chakra Focus",
+"min": 46,
+"views": 60,
+"s": 0.4788,
+"judged": true
+},
+{
+"id": "tgLz0xAF8oE@1440",
+"speaker": "dominic-goodall",
+"title": "Kuṇḍalinī (from Kuṇḍalinī in the early Śaivasiddhānta scriptures)",
+"min": 7,
+"views": 1052,
+"s": 0.5507,
+"judged": false
+}
+],
+"meditation/hatha": [
+{
+"id": "Kob7ATrFG48",
+"speaker": "swami-lakshmanjoo",
+"title": "What is real posture (asana) in Kashmir Shaivism",
+"min": 5,
+"views": 1788,
+"s": 0.7799,
+"judged": true
+},
+{
+"id": "wl_ZXBMpKXU",
+"speaker": "james-mallinson",
+"title": "From Tapas to Hard Yoga: The History of the Āsanas of Haṭha Yoga",
+"min": 25,
+"views": 44905,
+"s": 0.6856,
+"judged": true
+},
+{
+"id": "1Er86YgP1Po",
+"speaker": "amritananda",
+"title": "Dasa Mudra Samaradhya",
+"min": 5,
+"views": 130069,
+"s": 0.6681,
+"judged": false
+},
+{
+"id": "LK6HFqPV8H4",
+"speaker": "kym-faculty",
+"title": "A Guided Asana Practice | Part - I | Ms  Sangeetha Kannan, Krishnamacharya Yoga Mandiram",
+"min": 58,
+"views": 11000,
+"s": 0.6652,
+"judged": false
+},
+{
+"id": "rywk_i9pjsQ",
+"speaker": "swami-swaroopananda-sivananda",
+"title": "Asana, Pranayama, Tratak & Concentration",
+"min": 55,
+"views": 464,
+"s": 0.6056,
+"judged": false
+},
+{
+"id": "WT822q9jC5k",
+"speaker": "yogi-matsyendranath-maharaj",
+"title": "Понятие асаны | Meaning of asana [English subtitles]",
+"min": 8,
+"views": 2500,
+"s": 0.5876,
+"judged": true
+},
+{
+"id": "rKgEsuusyeE",
+"speaker": "swami-paramananda-sivananda",
+"title": "Hatha Yoga Teachings · Part 1",
+"min": 12,
+"views": 1300,
+"s": 0.577,
+"judged": false
+},
+{
+"id": "p55JW40gsEo",
+"speaker": "om-swami",
+"title": "Khechari Mudra",
+"min": 6,
+"views": 81983,
+"s": 0.5635,
+"judged": true
+}
+],
+"meditation/dzogchen": [
+{
+"id": "DG1k8E_YDjo",
+"speaker": "alan-wallace",
+"title": "Alan Wallace Lecture on Dzogchen",
+"min": 29,
+"views": 67000,
+"s": 0.7256,
+"judged": true
+},
+{
+"id": "jZOnAhSurfk",
+"speaker": "lama-lena",
+"title": "Wangdor Rinpoche Gives Dzogchen Teachings in Tso Pema",
+"min": 32,
+"views": 21000,
+"s": 0.6563,
+"judged": false
+},
+{
+"id": "ZHdxlRikPvA",
+"speaker": "robert-thurman",
+"title": "What is the History of Vase Meditation? Nida Chenagtsang & Robert Thurman : On Sowa Rigpa",
+"min": 5,
+"views": 11000,
+"s": 0.6779,
+"judged": false
+},
+{
+"id": "2boeVzHNuBY",
+"speaker": "daniel-odier",
+"title": "Introduction to the Kashmiri Mahamudra, to Dzogchen and to the Tibetan Mahamudra",
+"min": 53,
+"views": 37029,
+"s": 0.6321,
+"judged": false
+},
+{
+"id": "PkEA0bYGLAM",
+"speaker": "kokyo-henkel",
+"title": "Rev. Kokyo Henkel: On the Differences between Zen and Dzogchen and the Practice of Shikantaza",
+"min": 8,
+"views": 3300,
+"s": 0.5965,
+"judged": true
+},
+{
+"id": "NGRnJURqN3U",
+"speaker": "david-germano",
+"title": "David  Germano: On the Evolution of Dzogchen Practices from the 11th to the 14th Century",
+"min": 10,
+"views": 951,
+"s": 0.5682,
+"judged": false
+},
+{
+"id": "08OvbsNoo38",
+"speaker": "yamajit",
+"title": "Dzogchen Longchen Nyngtik Kusali Chod Guided Meditation for Personal and Collective Healing",
+"min": 56,
+"views": 115,
+"s": 0.5298,
+"judged": true
+},
+{
+"id": "NCZ_66ZK0Sg",
+"speaker": "shambhavi-sarasvati",
+"title": "How are Trika Shaivism and Dzogchen Related",
+"min": 11,
+"views": 141,
+"s": 0.5151,
+"judged": false
+}
+],
+"meditation/lojong": [
+{
+"id": "amrGu1oHsvQ",
+"speaker": "tara-brach",
+"title": "Tonglen Guided Meditation: Opening to Boundless Compassion with Tara Brach",
+"min": 6,
+"views": 43000,
+"s": 0.7789,
+"judged": true
+},
+{
+"id": "h4w60m4mTlw",
+"speaker": "pema-chodron",
+"title": "Loving Oneself and Others – Tonglen Weekend",
+"min": 8,
+"views": 23000,
+"s": 0.7594,
+"judged": true
+},
+{
+"id": "4f11XGLs1Eg",
+"speaker": "alan-wallace",
+"title": "Alan Wallace on Lojong in the Dzogchen Tradition",
+"min": 7,
+"views": 8000,
+"s": 0.6839,
+"judged": false
+},
+{
+"id": "SujYqM9ousk",
+"speaker": "lama-jampa-thaye",
+"title": "Lojong: the origins and purpose of mind training in Buddhism",
+"min": 39,
+"views": 12000,
+"s": 0.6743,
+"judged": true
+},
+{
+"id": "omsydvAqvPg",
+"speaker": "ringu-tulku",
+"title": "18. What is mind training? | Answers for Beginners",
+"min": 6,
+"views": 610,
+"s": 0.6097,
+"judged": false
+},
+{
+"id": "TPft0lHUxN8",
+"speaker": "lama-lena",
+"title": "The Practice of Tonglen",
+"min": 13,
+"views": 6100,
+"s": 0.5718,
+"judged": false
+},
+{
+"id": "ymmMwrnPqVI",
+"speaker": "jundo-cohen",
+"title": "Tonglen Practice Circle - August 7 2022",
+"min": 35,
+"views": 173,
+"s": 0.542,
+"judged": true
+},
+{
+"id": "WAl7Qae6iHQ",
+"speaker": "yamajit",
+"title": "Tantric Breathwork and Meditation part I -Tonglen; The Meditation of Compassion.",
+"min": 43,
+"views": 34,
+"s": 0.4398,
+"judged": true
+}
+],
+"meditation/silent-illumination": [
+{
+"id": "CK2vijpVMFo",
+"speaker": "brad-warner",
+"title": "Zazen is Not Meditation",
+"min": 18,
+"views": 13000,
+"s": 0.798,
+"judged": true
+},
+{
+"id": "rWkkIY1E-EU",
+"speaker": "shohaku-okumura",
+"title": "Shōhaku Okumura on Opening the Hand of Thought (#157): Zazen is the practice of the Middle Way",
+"min": 59,
+"views": 634,
+"s": 0.6936,
+"judged": false
+},
+{
+"id": "njRtKLonBtk",
+"speaker": "guo-gu",
+"title": "Instructions on Silent Illumination. A Talk by Guo Gu",
+"min": 22,
+"views": 320,
+"s": 0.5515,
+"judged": true
+},
+{
+"id": "XXiU4YexHyg",
+"speaker": "ajahn-cunda",
+"title": "Meditation Is More Than Just Sitting",
+"min": 9,
+"views": 236,
+"s": 0.5483,
+"judged": false
+}
+],
+"sense-restraint": [
+{
+"id": "rDjUL-qvqi0",
+"speaker": "ajahn-nyanamoli",
+"title": "Sense restraint is not just for monks.",
+"min": 45,
+"views": 7300,
+"s": 0.8444,
+"judged": true
+},
+{
+"id": "WZIwtdu9Q7s",
+"speaker": "ajahn-anan",
+"title": "Sense-Restraint Leads to Inner Peace",
+"min": 18,
+"views": 4000,
+"s": 0.7502,
+"judged": true
+},
+{
+"id": "i_KurXrMmZY",
+"speaker": "ajahn-viradhammo",
+"title": "Sense restraint",
+"min": 28,
+"views": 448,
+"s": 0.6586,
+"judged": false
+},
+{
+"id": "6xB4U3hJzy4",
+"speaker": "swami-tyagananda",
+"title": "Restraining the Mind",
+"min": 50,
+"views": 1200,
+"s": 0.6522,
+"judged": false
+},
+{
+"id": "QAO-uTjx9RU",
+"speaker": "bhante-gunaratana",
+"title": "Elimination of Taints through Restraint (",
+"min": 46,
+"views": 1300,
+"s": 0.6867,
+"judged": false
+},
+{
+"id": "SZ0JKWqRTho",
+"speaker": "sister-medhini",
+"title": "The Un-lapsing of Your Self Restraint",
+"min": 5,
+"views": 3100,
+"s": 0.487,
+"judged": true
+},
+{
+"id": "q3ls-XiNWZM",
+"speaker": "sayadaw-u-thuzana",
+"title": "Restraining One's Faculties/Senses 9/18/2014",
+"min": 25,
+"views": 71,
+"s": 0.422,
+"judged": true
+},
+{
+"id": "07gFSFqDUAs@959",
+"speaker": "james-mallinson",
+"title": "Ritual and haṭha yoga, part 1 (from Early Haṭhayoga: from Buddhist Tantra to Physical Yoga)",
+"min": 10,
+"views": 11280,
+"s": 0.5449,
+"judged": false
+}
+],
+"jhana": [
+{
+"id": "SElMrtn_P7o",
+"speaker": "ajahn-nyanamoli",
+"title": "How to Enter the First Jhana",
+"min": 57,
+"views": 24000,
+"s": 0.8831,
+"judged": true
+},
+{
+"id": "1aX7og12n0A",
+"speaker": "thanissaro-bhikkhu",
+"title": "Rapture & Refreshment",
+"min": 10,
+"views": 869,
+"s": 0.7684,
+"judged": true
+},
+{
+"id": "nFlIkr4qrL4",
+"speaker": "ajahn-sona",
+"title": "Jhāna (1): The Treasure Within",
+"min": 35,
+"views": 54000,
+"s": 0.7672,
+"judged": true
+},
+{
+"id": "MTKl4Gu30bw",
+"speaker": "sayadaw-u-pandita",
+"title": "Sayadaw U Pandita",
+"min": 30,
+"views": 224,
+"s": 0.6337,
+"judged": false
+},
+{
+"id": "Y5lILjazFp0",
+"speaker": "sayadaw-u-thuzana",
+"title": "Metta Jhana 9/30/2014",
+"min": 12,
+"views": 562,
+"s": 0.5173,
+"judged": true
+},
+{
+"id": "isEIikwe1J8",
+"speaker": "christopher-wallis",
+"title": "Vijñāna-bhairava-tantra verse 69 ~ translation and explanation",
+"min": 18,
+"views": 1189,
+"s": 0.5898,
+"judged": false
+},
+{
+"id": "C5XgOQB3doM@2011",
+"speaker": "gavin-flood",
+"title": "Ritual and breath (from The Netra-tantra and its Yogas)",
+"min": 6,
+"views": 2509,
+"s": 0.5752,
+"judged": false
+},
+{
+"id": "y8h4CqFs34M",
+"speaker": "igor-kufayev",
+"title": "Being Repossessed by the Goddess",
+"min": 17,
+"views": 3728,
+"s": 0.547,
+"judged": true
+}
+],
+"dependent-origination": [
+{
+"id": "FhIkN4C15Pk",
+"speaker": "ajahn-nyanamoli",
+"title": "NOBLE METHOD | Beginners' guide to \"Dependent Origination\" in practice",
+"min": 28,
+"views": 10000,
+"s": 0.8647,
+"judged": true
+},
+{
+"id": "C62h-GRKD9Q",
+"speaker": "bhante-gunaratana",
+"title": "“Nāmarūpa : Mentality · Materiality factor of Dependent Origination”",
+"min": 52,
+"views": 1000,
+"s": 0.6923,
+"judged": false
+},
+{
+"id": "sNjCCKyvOJI",
+"speaker": "ajahn-brahmali",
+"title": "Dependent Origination",
+"min": 48,
+"views": 71000,
+"s": 0.6811,
+"judged": true
+},
+{
+"id": "R_0m_8ACr2k",
+"speaker": "alexander-wynne",
+"title": "The Different Accounts of Dependent Origination in the Maha-tanha-sankhaya Sutta",
+"min": 56,
+"views": 3800,
+"s": 0.7192,
+"judged": false
+},
+{
+"id": "INAFXpvBD54",
+"speaker": "lama-jampa-thaye",
+"title": "Patterns in Emptiness: Understanding Dependent Origination in Buddhism",
+"min": 16,
+"views": 7300,
+"s": 0.6466,
+"judged": true
+},
+{
+"id": "70VmBMH9kNs",
+"speaker": "joseph-goldstein",
+"title": "Insight Hour Ep. 164",
+"min": 56,
+"views": 24769,
+"s": 0.7591,
+"judged": true
+},
+{
+"id": "kNxN5GPq0D0",
+"speaker": "tendai-buddhist-institute",
+"title": "May 10th 2023 - The Twelve-Linked Chain of Dependent Origination",
+"min": 32,
+"views": 301,
+"s": 0.5367,
+"judged": true
+},
+{
+"id": "HjIHvDT2xMI",
+"speaker": "swami-sarvapriyananda",
+"title": "Brahman and Sunyata",
+"min": 5,
+"views": 16079,
+"s": 0.6921,
+"judged": true
+}
+],
+"dukkha": [
+{
+"id": "dy-RI3FrdGA",
+"speaker": "thich-nhat-hanh",
+"title": "The Four Noble Truths",
+"min": 19,
+"views": 742546,
+"s": 0.9101,
+"judged": true
+},
+{
+"id": "ihSI179D8BQ",
+"speaker": "mingyur-rinpoche",
+"title": "Mingyur Rinpoche Live Teaching - Living With Distress",
+"min": 60,
+"views": 235000,
+"s": 0.8519,
+"judged": false
+},
+{
+"id": "LUBEYGMRudU",
+"speaker": "ajahn-nyanamoli",
+"title": "Managing Your Suffering Is A Trap",
+"min": 38,
+"views": 6700,
+"s": 0.8445,
+"judged": true
+},
+{
+"id": "vn6szyVLUgU",
+"speaker": "swami-sarvapriyananda",
+"title": "If God Exists, Why is there Suffering?",
+"min": 12,
+"views": 583370,
+"s": 0.8248,
+"judged": true
+},
+{
+"id": "VmgSp8FfbWo",
+"speaker": "ajahn-sumedho",
+"title": "Not Getting What One Wants Is Suffering",
+"min": 41,
+"views": 11000,
+"s": 0.8176,
+"judged": true
+},
+{
+"id": "ZvnYWflgbkA",
+"speaker": "brad-warner",
+"title": "Suffering Never Goes Away But That's All Right",
+"min": 25,
+"views": 13000,
+"s": 0.798,
+"judged": false
+},
+{
+"id": "NskQ8tdG4YE",
+"speaker": "rupert-spira",
+"title": "Why Does God Allow Suffering?",
+"min": 8,
+"views": 150736,
+"s": 0.8344,
+"judged": false
+},
+{
+"id": "OhH6aDLKqlw",
+"speaker": "mooji",
+"title": "I Want to Show You an Easy Way Out of Suffering",
+"min": 16,
+"views": 237151,
+"s": 0.8083,
+"judged": false
+}
+],
+"craving": [
+{
+"id": "L50xVM7wwss",
+"speaker": "ajahn-brahm",
+"title": "Instead of Attachment",
+"min": 60,
+"views": 254000,
+"s": 0.8909,
+"judged": true
+},
+{
+"id": "Mp7gKZ-9rk4",
+"speaker": "swami-lakshmanjoo",
+"title": "How to overcome kāma (desire) and krodha (anger).",
+"min": 13,
+"views": 23914,
+"s": 0.8732,
+"judged": true
+},
+{
+"id": "CJCIKLiSKBo",
+"speaker": "ajahn-nyanamoli",
+"title": "When Search for Peace Is Actually a Form of Sensual Craving",
+"min": 26,
+"views": 3800,
+"s": 0.7934,
+"judged": false
+},
+{
+"id": "y9dUYcZkhwI",
+"speaker": "thanissaro-bhikkhu",
+"title": "The Desire to Do Well \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 9,
+"views": 1000,
+"s": 0.7828,
+"judged": false
+},
+{
+"id": "Ty_7rccjDR0",
+"speaker": "swami-chinmayananda",
+"title": "What is Lust? · Hindu",
+"min": 5,
+"views": 23000,
+"s": 0.7798,
+"judged": false
+},
+{
+"id": "JDo2h6JZoTA@528",
+"speaker": "thich-nhat-hanh",
+"title": "Craving (from Meditating on Emptiness, Signlessness & Aimlessness)",
+"min": 7,
+"views": 100408,
+"s": 0.8164,
+"judged": true
+},
+{
+"id": "92ruu0KQKNU",
+"speaker": "swami-sarvapriyananda",
+"title": "What is the purpose of professional ambition and desire for excellence if it only enhances ego?",
+"min": 9,
+"views": 26787,
+"s": 0.7381,
+"judged": false
+},
+{
+"id": "vgOtUQ6YfGI",
+"speaker": "brad-warner",
+"title": "Cultivating Non-Attachment to Family & Friends",
+"min": 19,
+"views": 4200,
+"s": 0.7222,
+"judged": false
+}
+],
+"craving/sensuality": [
+{
+"id": "ny71L92YnFk",
+"speaker": "ajahn-nyanamoli",
+"title": "The Pressure of Sensuality",
+"min": 11,
+"views": 7300,
+"s": 0.8452,
+"judged": true
+},
+{
+"id": "Mp7gKZ-9rk4",
+"speaker": "swami-lakshmanjoo",
+"title": "How to overcome kāma (desire) and krodha (anger).",
+"min": 13,
+"views": 23914,
+"s": 0.8732,
+"judged": true
+},
+{
+"id": "vTy0i_6DESQ",
+"speaker": "thanissaro-bhikkhu",
+"title": "The Dangers of Sensuality \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 14,
+"views": 985,
+"s": 0.7791,
+"judged": true
+},
+{
+"id": "ewpKEg4SKeY",
+"speaker": "ajahn-brahmali",
+"title": "The Dangers Of Sensual Pleasures",
+"min": 52,
+"views": 26000,
+"s": 0.6516,
+"judged": false
+},
+{
+"id": "gIIL0EhrA8U",
+"speaker": "thich-nhat-hanh",
+"title": "The Buddhist Perspective on the Root and Pathway of Sensual Love | Thich Nhat Hanh (EN subtitles)",
+"min": 11,
+"views": 2662,
+"s": 0.742,
+"judged": false
+},
+{
+"id": "oWTdQ52evpU",
+"speaker": "rupert-spira",
+"title": "If the Self Is an Illusion, Why Do I Feel Pain?",
+"min": 8,
+"views": 54085,
+"s": 0.7863,
+"judged": true
+},
+{
+"id": "IiVjN8gtGQQ",
+"speaker": "filip-holm",
+"title": "In the Footsteps of Spinoza",
+"min": 9,
+"views": 35152,
+"s": 0.5902,
+"judged": true
+},
+{
+"id": "PBZNVd4KHmA",
+"speaker": "swami-tadatmananda",
+"title": "The Purpose of Life is...WHAT? A Vedic Perspective.",
+"min": 14,
+"views": 58977,
+"s": 0.6094,
+"judged": true
+}
+],
+"mindfulness": [
+{
+"id": "uTRX3pbkVdo",
+"speaker": "thich-nhat-hanh",
+"title": "What do you really want? | Teaching by Thich Nhat Hanh | #mindfulness",
+"min": 5,
+"views": 131000,
+"s": 0.9025,
+"judged": false
+},
+{
+"id": "mVhMBH9co2M",
+"speaker": "ajahn-nyanamoli",
+"title": "How To Sustain Your Mindfulness",
+"min": 31,
+"views": 8400,
+"s": 0.8541,
+"judged": true
+},
+{
+"id": "bTz14oOTcjs",
+"speaker": "jack-kornfield",
+"title": "Why Mindfulness?",
+"min": 8,
+"views": 47966,
+"s": 0.8718,
+"judged": true
+},
+{
+"id": "uSDj6J7HHO8",
+"speaker": "ajahn-sumedho",
+"title": "Patient observation, relaxed awareness",
+"min": 43,
+"views": 17000,
+"s": 0.8435,
+"judged": true
+},
+{
+"id": "RkKF9fWXHmY",
+"speaker": "ajahn-brahm",
+"title": "The Power of Mindfulness & Compassion",
+"min": 56,
+"views": 113000,
+"s": 0.8713,
+"judged": false
+},
+{
+"id": "end-Om6noQU",
+"speaker": "brad-warner",
+"title": "The Dark Side of Mindfulness",
+"min": 27,
+"views": 39000,
+"s": 0.8142,
+"judged": true
+},
+{
+"id": "c_M795AV_4A",
+"speaker": "laurence-freeman",
+"title": "Stillness: the Fruit of Attention with Laurence Freeman OSB (Bonnevaux Advent Retreat 2019)",
+"min": 22,
+"views": 7500,
+"s": 0.8018,
+"judged": false
+},
+{
+"id": "bTw5XQqBT8o",
+"speaker": "mingyur-rinpoche",
+"title": "Transforming Anxiety into Awareness - Live Teaching with Yongey Mingyur Rinpoche",
+"min": 44,
+"views": 256000,
+"s": 0.8388,
+"judged": false
+}
+],
+"virtue": [
+{
+"id": "WF375Eq2faA",
+"speaker": "ajahn-nyanamoli",
+"title": "The Path Starts with Self Honesty",
+"min": 43,
+"views": 7700,
+"s": 0.8525,
+"judged": false
+},
+{
+"id": "4VYvYInEZQA",
+"speaker": "brad-warner",
+"title": "Why Does Zen Care So Much About Ethics?",
+"min": 21,
+"views": 6900,
+"s": 0.7783,
+"judged": false
+},
+{
+"id": "Hx3SyhVj78o",
+"speaker": "swami-sarvapriyananda",
+"title": "Where does Ignorance Lie?",
+"min": 13,
+"views": 60785,
+"s": 0.7632,
+"judged": false
+},
+{
+"id": "QDo0uz6pa-g",
+"speaker": "mingyur-rinpoche",
+"title": "Do You Actually Need a Meditation Teacher? (My Honest Opinion) with Yongey Mingyur Rinpoche",
+"min": 5,
+"views": 24000,
+"s": 0.7357,
+"judged": true
+},
+{
+"id": "fP2UT2Ip6bk",
+"speaker": "ajahn-anan",
+"title": "Uposatha Sila & 8-Precepts. Differences and Benefits",
+"min": 19,
+"views": 2300,
+"s": 0.6935,
+"judged": false
+},
+{
+"id": "a3kJqCrKG0U",
+"speaker": "shunryu-suzuki",
+"title": "1969 08 01   Shunryu Suzuki   Tass   The Most Important Precept   SF 1969 08 01 05302 A EW 229",
+"min": 14,
+"views": 183,
+"s": 0.6738,
+"judged": true
+},
+{
+"id": "fv9CIxGG7Ew",
+"speaker": "ajahn-pasanno",
+"title": "Abandoning Evil and Developing Virtue-Luang Por Baen Reading",
+"min": 12,
+"views": 149,
+"s": 0.6691,
+"judged": false
+},
+{
+"id": "Yo2hH58b_lo",
+"speaker": "lama-zopa",
+"title": "The Virtuous Guide to Transforming the Mind - Lama Zopa Rinpoche (1997)",
+"min": 47,
+"views": 603,
+"s": 0.6679,
+"judged": false
+}
+],
+"renunciation": [
+{
+"id": "USC5MJVZLy8",
+"speaker": "ajahn-brahm",
+"title": "Four Ways of Letting Go",
+"min": 56,
+"views": 2600000,
+"s": 0.9092,
+"judged": true
+},
+{
+"id": "qS7zOhKQgEI",
+"speaker": "ajahn-nyanamoli",
+"title": "The First Instructions to a Newly Ordained Monk",
+"min": 12,
+"views": 8200,
+"s": 0.8631,
+"judged": false
+},
+{
+"id": "NiZ9bRIIC2M",
+"speaker": "ajahn-sumedho",
+"title": "Developing Right Understanding: Letting Go of Identities",
+"min": 54,
+"views": 11000,
+"s": 0.8176,
+"judged": true
+},
+{
+"id": "Oq9MERC4_xc",
+"speaker": "tsoknyi-rinpoche",
+"title": "Letting Go",
+"min": 24,
+"views": 16000,
+"s": 0.7913,
+"judged": false
+},
+{
+"id": "OJyTfj9Y9a4",
+"speaker": "tara-brach",
+"title": "A 3-Step Practice of Letting Go with Tara Brach",
+"min": 10,
+"views": 33000,
+"s": 0.7806,
+"judged": true
+},
+{
+"id": "iaLe4RdkzAk",
+"speaker": "thich-nhat-hanh",
+"title": "No Craving, Nirvana & Letting Go",
+"min": 14,
+"views": 90094,
+"s": 0.8619,
+"judged": false
+},
+{
+"id": "V58AN8bqi38",
+"speaker": "thanissaro-bhikkhu",
+"title": "Seclusion \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 15,
+"views": 683,
+"s": 0.7467,
+"judged": false
+},
+{
+"id": "D1dFLN5TvKY",
+"speaker": "swami-chinmayananda",
+"title": "Abandonment vs. Renunciation! · Bhagavat Gita Ch18",
+"min": 6,
+"views": 6800,
+"s": 0.7186,
+"judged": false
+}
+],
+"death": [
+{
+"id": "SvcTgmF4Xug",
+"speaker": "thich-nhat-hanh",
+"title": "Where Do We Go When We Die?",
+"min": 19,
+"views": 630820,
+"s": 0.9175,
+"judged": true
+},
+{
+"id": "9RuZ3_55vKc",
+"speaker": "ajahn-nyanamoli",
+"title": "Death Of Your Personality",
+"min": 27,
+"views": 9300,
+"s": 0.8598,
+"judged": false
+},
+{
+"id": "QRoCECSai5A",
+"speaker": "mingyur-rinpoche",
+"title": "Letting My Self Die",
+"min": 18,
+"views": 275980,
+"s": 0.8464,
+"judged": false
+},
+{
+"id": "nIZrBtSdshM",
+"speaker": "rupert-spira",
+"title": "You Are Not Born and You Never Die",
+"min": 8,
+"views": 3738923,
+"s": 0.8687,
+"judged": true
+},
+{
+"id": "y2793IaOnxQ",
+"speaker": "ajahn-sumedho",
+"title": "Looking Forward to Death",
+"min": 45,
+"views": 10000,
+"s": 0.811,
+"judged": true
+},
+{
+"id": "1CMWd0KW3zY",
+"speaker": "jiddu-krishnamurti",
+"title": "End the known now, not when death comes",
+"min": 10,
+"views": 432094,
+"s": 0.8263,
+"judged": false
+},
+{
+"id": "w_reCE2NG7M",
+"speaker": "swami-chinmayananda",
+"title": "What happens at the time of Death? · Bhagavad Gita CH 8",
+"min": 5,
+"views": 47000,
+"s": 0.7981,
+"judged": false
+},
+{
+"id": "u7JDXe4VhVA",
+"speaker": "francis-lucille",
+"title": "What is the purpose of this life between birth and death?",
+"min": 10,
+"views": 27000,
+"s": 0.7793,
+"judged": false
+}
+],
+"death/bardo": [
+{
+"id": "PuBZ5ohp_c0",
+"speaker": "ringu-tulku",
+"title": "Beyond Birth and Death: Exploring the Four Bardos in Buddhism | Ringu Tulku",
+"min": 5,
+"views": 31000,
+"s": 0.6974,
+"judged": true
+},
+{
+"id": "QNMF4wLP3VA",
+"speaker": "robert-thurman",
+"title": "How do you study the Miss-Titled Tibetan Book of the Dead?  Robert Thurman : Buddhism Explained",
+"min": 20,
+"views": 7000,
+"s": 0.6927,
+"judged": true
+},
+{
+"id": "hQkHx7IDbSg",
+"speaker": "tenzin-wangyal",
+"title": "What is the Bardo?",
+"min": 6,
+"views": 25000,
+"s": 0.6892,
+"judged": true
+},
+{
+"id": "QRoCECSai5A",
+"speaker": "mingyur-rinpoche",
+"title": "Letting My Self Die",
+"min": 18,
+"views": 275980,
+"s": 0.8464,
+"judged": false
+},
+{
+"id": "4njhZa6E5OY",
+"speaker": "justin-sledge",
+"title": "Ancient Egyptian Pyramid Texts - The Keys to Eternity Before The Book of the Dead",
+"min": 30,
+"views": 174000,
+"s": 0.6359,
+"judged": true
+},
+{
+"id": "92SoU_OJKZw",
+"speaker": "tsultrim-allione",
+"title": "Introduction to Bardo Teachings: Jigme Lingpa's Wisdom on Death & Dying",
+"min": 14,
+"views": 796,
+"s": 0.5818,
+"judged": true
+}
+],
+"emotions": [
+{
+"id": "mk_z6tBbDj4",
+"speaker": "ajahn-sumedho",
+"title": "On Emotions",
+"min": 50,
+"views": 16000,
+"s": 0.8404,
+"judged": true
+},
+{
+"id": "9mDKT1VaAqQ",
+"speaker": "thich-nhat-hanh",
+"title": "Handling Emotions | Teaching by Thich Nhat Hanh | #mindfulness",
+"min": 5,
+"views": 44000,
+"s": 0.855,
+"judged": true
+},
+{
+"id": "_cc9VHV0zvA",
+"speaker": "ajahn-nyanamoli",
+"title": "Cessation of Emotions",
+"min": 33,
+"views": 4600,
+"s": 0.8071,
+"judged": false
+},
+{
+"id": "jECacsw2_qA",
+"speaker": "thanissaro-bhikkhu",
+"title": "Emotions, Agency, & Self-esteem",
+"min": 9,
+"views": 1200,
+"s": 0.7924,
+"judged": false
+},
+{
+"id": "dmArGum9mAY",
+"speaker": "dalai-lama",
+"title": "Emptiness and Compassion as Antidotes to Destructive Emotions",
+"min": 8,
+"views": 59979,
+"s": 0.8407,
+"judged": true
+},
+{
+"id": "Q1ZyZvubpEw",
+"speaker": "mingyur-rinpoche",
+"title": "Meditating with Emotions with Yongey Mingyur Rinpoche",
+"min": 5,
+"views": 107000,
+"s": 0.7983,
+"judged": true
+},
+{
+"id": "uIMWm5JnNrE",
+"speaker": "ajahn-brahm",
+"title": "No Fear",
+"min": 59,
+"views": 165000,
+"s": 0.882,
+"judged": true
+},
+{
+"id": "U3ctqOovPiA",
+"speaker": "christopher-wallis",
+"title": "You Are not at the Mercy of Your Emotions ~ How to use 'Framing' to Change your Life Experience.",
+"min": 37,
+"views": 15930,
+"s": 0.7277,
+"judged": false
+}
+],
+"emotions/anger": [
+{
+"id": "R6O42-CAHgo",
+"speaker": "ajahn-brahm",
+"title": "Irritation",
+"min": 56,
+"views": 131000,
+"s": 0.8744,
+"judged": true
+},
+{
+"id": "dFVcAEqvLek",
+"speaker": "thich-nhat-hanh",
+"title": "Fear, Anger, and the Meaning of Survival | Thich Nhat Hanh (short teaching video)",
+"min": 20,
+"views": 92797,
+"s": 0.8953,
+"judged": true
+},
+{
+"id": "Mp7gKZ-9rk4",
+"speaker": "swami-lakshmanjoo",
+"title": "How to overcome kāma (desire) and krodha (anger).",
+"min": 13,
+"views": 23914,
+"s": 0.8732,
+"judged": true
+},
+{
+"id": "L2PEY9aU0Mk",
+"speaker": "ajahn-sumedho",
+"title": "Boredom, Anger, Bliss and the Buddha",
+"min": 54,
+"views": 8200,
+"s": 0.7861,
+"judged": true
+},
+{
+"id": "99rHBa9KEoM",
+"speaker": "thanissaro-bhikkhu",
+"title": "Self-hatred \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 12,
+"views": 984,
+"s": 0.7782,
+"judged": false
+},
+{
+"id": "guEGCYcxa8M",
+"speaker": "lama-yeshe",
+"title": "Fear, Anger, and Action",
+"min": 21,
+"views": 2700,
+"s": 0.7608,
+"judged": true
+},
+{
+"id": "wfMmPc90B_Q",
+"speaker": "swami-chinmayananda",
+"title": "What causes Anger? · Hindu",
+"min": 5,
+"views": 12000,
+"s": 0.7534,
+"judged": false
+},
+{
+"id": "uDiqREUr_CY",
+"speaker": "ajahn-nyanamoli",
+"title": "On Peripheral Awareness, Uprooting of Anger, Dealing with Displeasure",
+"min": 102,
+"views": 9300,
+"s": 0.8189,
+"judged": false
+}
+],
+"emotions/fear": [
+{
+"id": "uIMWm5JnNrE",
+"speaker": "ajahn-brahm",
+"title": "No Fear",
+"min": 59,
+"views": 165000,
+"s": 0.882,
+"judged": true
+},
+{
+"id": "ObfJfA9q3ho",
+"speaker": "thich-nhat-hanh",
+"title": "Practicing Non Fear | Teaching by Thich Nhat Hanh",
+"min": 6,
+"views": 474941,
+"s": 0.906,
+"judged": false
+},
+{
+"id": "AAb0Xfpx75w",
+"speaker": "jiddu-krishnamurti",
+"title": "Observe your fear",
+"min": 11,
+"views": 709451,
+"s": 0.8474,
+"judged": true
+},
+{
+"id": "RM5oQMEz6kg",
+"speaker": "ajahn-sumedho",
+"title": "Understanding Worry Anxiety and Fear",
+"min": 39,
+"views": 14000,
+"s": 0.8297,
+"judged": false
+},
+{
+"id": "_tSfscBpsFo",
+"speaker": "swami-lakshmanjoo",
+"title": "Why one who is established in the Self remains free from fear",
+"min": 7,
+"views": 11883,
+"s": 0.8646,
+"judged": false
+},
+{
+"id": "SKZu3Sh9vQg",
+"speaker": "thanissaro-bhikkhu",
+"title": "Fears to Be Feared \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 15,
+"views": 1700,
+"s": 0.8115,
+"judged": false
+},
+{
+"id": "apqQsNDFWhA",
+"speaker": "ajahn-nyanamoli",
+"title": "Dealing With Anxiety",
+"min": 11,
+"views": 4600,
+"s": 0.8106,
+"judged": false
+},
+{
+"id": "n6hsQTFNMic",
+"speaker": "mingyur-rinpoche",
+"title": "Meditation for Anxiety and Panic",
+"min": 8,
+"views": 414000,
+"s": 0.8506,
+"judged": true
+}
+],
+"emotions/sadness": [
+{
+"id": "HD6l2jKwT6k",
+"speaker": "thich-nhat-hanh",
+"title": "Loneliness and the Illusion of Connection | Thich Nhat Hanh, 2012.12.13",
+"min": 20,
+"views": 1515976,
+"s": 0.9091,
+"judged": true
+},
+{
+"id": "EJTQOAPzwkk",
+"speaker": "ajahn-nyanamoli",
+"title": "Brief Instruction on Overcoming Depression",
+"min": 12,
+"views": 14000,
+"s": 0.8505,
+"judged": true
+},
+{
+"id": "cai90WP_Wp4",
+"speaker": "mingyur-rinpoche",
+"title": "How to deal with loneliness with Yongey Mingyur Rinpoche",
+"min": 6,
+"views": 57136,
+"s": 0.7787,
+"judged": false
+},
+{
+"id": "WdGzYBdHUro",
+"speaker": "ajahn-sumedho",
+"title": "Loneliness and Kalyāṇamitta",
+"min": 42,
+"views": 9900,
+"s": 0.7928,
+"judged": true
+},
+{
+"id": "DmyD7Nxp3Jk",
+"speaker": "thanissaro-bhikkhu",
+"title": "Alone at Death, but Not Lonely",
+"min": 15,
+"views": 2079,
+"s": 0.7907,
+"judged": false
+},
+{
+"id": "vctpDWt4ui4",
+"speaker": "jiddu-krishnamurti",
+"title": "Observing sorrow",
+"min": 15,
+"views": 62948,
+"s": 0.7685,
+"judged": false
+},
+{
+"id": "-FVJbYafgnM",
+"speaker": "swami-chinmayananda",
+"title": "If you are facing terrible sorrow! · Bhagavad Gita 13",
+"min": 4,
+"views": 9200,
+"s": 0.7307,
+"judged": false
+},
+{
+"id": "NA3Xas0vs78",
+"speaker": "ringu-tulku",
+"title": "From Despair to Joy: Overcoming Negativity with Buddhism | Ringu Tulku",
+"min": 7,
+"views": 11000,
+"s": 0.6939,
+"judged": false
+}
+],
+"emotions/boredom": [
+{
+"id": "L2PEY9aU0Mk",
+"speaker": "ajahn-sumedho",
+"title": "Boredom, Anger, Bliss and the Buddha",
+"min": 54,
+"views": 8200,
+"s": 0.7861,
+"judged": true
+},
+{
+"id": "R6NjNZepTWs",
+"speaker": "goenka",
+"title": "How to come out of Agitation by S. N. Goenka in December 1982 (English)",
+"min": 57,
+"views": 15000,
+"s": 0.7751,
+"judged": false
+},
+{
+"id": "imTeUd9PZ38",
+"speaker": "ajahn-pasanno",
+"title": "Embracing Boredom",
+"min": 4,
+"views": 330,
+"s": 0.7502,
+"judged": false
+},
+{
+"id": "7O937dHmNxE",
+"speaker": "rupert-spira",
+"title": "Feeling Bored is An Opening to Awaken",
+"min": 13,
+"views": 212630,
+"s": 0.8371,
+"judged": true
+},
+{
+"id": "YHp6rPxJsJo",
+"speaker": "ajahn-nyanamoli",
+"title": "Learning to Like Boredom",
+"min": 6,
+"views": 4600,
+"s": 0.7791,
+"judged": false
+},
+{
+"id": "hfl8sTl0fiw",
+"speaker": "mingyur-rinpoche",
+"title": "Can’t Sleep? Meditation for Restless Nights with Yongey Mingyur Rinpoche",
+"min": 8,
+"views": 28000,
+"s": 0.7539,
+"judged": false
+},
+{
+"id": "VBXSVsSPJc8",
+"speaker": "francis-lucille",
+"title": "Kinds of Boredom and the Fear of God",
+"min": 8,
+"views": 6567,
+"s": 0.6924,
+"judged": false
+},
+{
+"id": "YR-g8AzzNsU",
+"speaker": "joseph-goldstein",
+"title": "Insight Hour Ep. 221",
+"min": 58,
+"views": 10513,
+"s": 0.7053,
+"judged": true
+}
+],
+"relationships": [
+{
+"id": "GOPcbFhCEj0",
+"speaker": "ajahn-brahm",
+"title": "Gay Marriage, Why Not?",
+"min": 58,
+"views": 82000,
+"s": 0.8772,
+"judged": true
+},
+{
+"id": "TVnqrA1V2Nw",
+"speaker": "ajahn-nyanamoli",
+"title": "Unwholesomeness of Relationships",
+"min": 26,
+"views": 9600,
+"s": 0.8611,
+"judged": true
+},
+{
+"id": "u_yLDHcH6LI",
+"speaker": "thich-nhat-hanh",
+"title": "My father makes me suffer a lot. Should I keep seeing him?",
+"min": 13,
+"views": 831899,
+"s": 0.8945,
+"judged": true
+},
+{
+"id": "hnVQXe_ndT8",
+"speaker": "swami-chinmayananda",
+"title": "Don't do this to your children! · Bhagavad gita",
+"min": 6,
+"views": 20000,
+"s": 0.7838,
+"judged": false
+},
+{
+"id": "Z5wv13HsKw0",
+"speaker": "tara-brach",
+"title": "Morning Meditation: Presence and Gratitude with Tara Brach",
+"min": 20,
+"views": 315000,
+"s": 0.8138,
+"judged": true
+},
+{
+"id": "Iq78itxR_98",
+"speaker": "francis-lucille",
+"title": "Talking With a Mother Whose Son Took His Life",
+"min": 16,
+"views": 33845,
+"s": 0.7861,
+"judged": true
+},
+{
+"id": "kTKONVo0B8o",
+"speaker": "swami-sarvapriyananda",
+"title": "Inspiration from the life of Holy Mother",
+"min": 8,
+"views": 31502,
+"s": 0.7543,
+"judged": false
+},
+{
+"id": "wcbU2V647Ww",
+"speaker": "ajahn-pasanno",
+"title": "Nurturing Gratitude",
+"min": 7,
+"views": 306,
+"s": 0.7525,
+"judged": false
+}
+],
+"impermanence": [
+{
+"id": "piY2y_XMFN0",
+"speaker": "ajahn-brahm",
+"title": "Celebrating Uncertainty",
+"min": 13,
+"views": 10132,
+"s": 0.8188,
+"judged": true
+},
+{
+"id": "oiExTtmh_EI",
+"speaker": "ajahn-nyanamoli",
+"title": "Detach from attachments by recognizing their impermanence",
+"min": 37,
+"views": 9400,
+"s": 0.8398,
+"judged": true
+},
+{
+"id": "VomYGABqOCA",
+"speaker": "shohaku-okumura",
+"title": "Impermanence and Eternity Are Both Here: Shohaku Okumura on Parinirvana Day 2022",
+"min": 48,
+"views": 1800,
+"s": 0.7202,
+"judged": false
+},
+{
+"id": "NT_sKrmGLmk",
+"speaker": "lama-zopa",
+"title": "Impermanence Comes First",
+"min": 10,
+"views": 648,
+"s": 0.693,
+"judged": false
+},
+{
+"id": "iiCvBVx2oW0",
+"speaker": "bhikkhu-bodhi",
+"title": "4-Perception of Impermanence Ven. Bhikkhu Bodhi (3/4/2023)",
+"min": 50,
+"views": 2400,
+"s": 0.6886,
+"judged": false
+},
+{
+"id": "Y8nw-CS1cRU",
+"speaker": "tara-brach",
+"title": "Tara Talks: The Wisdom of Impermanence",
+"min": 7,
+"views": 10000,
+"s": 0.7214,
+"judged": true
+},
+{
+"id": "PF-9VeenvMk",
+"speaker": "ajahn-amaro",
+"title": "At Ease in an Ocean of Change",
+"min": 9,
+"views": 338,
+"s": 0.677,
+"judged": false
+},
+{
+"id": "NMdLdnRyiAk",
+"speaker": "mingyur-rinpoche",
+"title": "This Subtle Difference Between Empathy and Compassion is Life-Changing",
+"min": 8,
+"views": 28684,
+"s": 0.7419,
+"judged": true
+}
+],
+"right-view": [
+{
+"id": "wr73gmuhjiQ",
+"speaker": "ajahn-nyanamoli",
+"title": "Do I have the Right View?",
+"min": 13,
+"views": 10000,
+"s": 0.8661,
+"judged": true
+},
+{
+"id": "QfnXy7xqaSQ",
+"speaker": "ajahn-brahm",
+"title": "Intelligence Is Not Wisdom",
+"min": 7,
+"views": 8132,
+"s": 0.8119,
+"judged": false
+},
+{
+"id": "JtNh-dN_Ab8",
+"speaker": "dalai-lama",
+"title": "Illuminating the Mind — ft. H. H. the Dalai Lama [WISDOM ACADEMY]",
+"min": 4,
+"views": 14000,
+"s": 0.7976,
+"judged": false
+},
+{
+"id": "ijh1MJsKaY8",
+"speaker": "shunryu-suzuki",
+"title": "Wisdom Seeks for Wisdom — Suzuki Roshi — Archived Dharma Talk — July 22, 1965",
+"min": 34,
+"views": 1800,
+"s": 0.7942,
+"judged": false
+},
+{
+"id": "vPKv7hAy_Fs",
+"speaker": "ajahn-sumedho",
+"title": "Beliefs and Wisdom",
+"min": 48,
+"views": 8500,
+"s": 0.7897,
+"judged": true
+},
+{
+"id": "ilzLWw2fyYo",
+"speaker": "cynthia-bourgeault",
+"title": "Cynthia Bourgeault The First Four of Eight Points on the Wisdom Way of Knowing Wisdom Lineage",
+"min": 35,
+"views": 18000,
+"s": 0.7722,
+"judged": false
+},
+{
+"id": "OgKb73ykDt8",
+"speaker": "henry-shukman",
+"title": "Primordial Wisdom: Dharma Talk with Henry Shukman - July 22, 2021",
+"min": 54,
+"views": 1100,
+"s": 0.7696,
+"judged": false
+},
+{
+"id": "ugBPVLsM7Qg",
+"speaker": "thich-nhat-hanh",
+"title": "Right View | Teaching by Thich Nhat Hanh | #mindfulness",
+"min": 5,
+"views": 15000,
+"s": 0.8066,
+"judged": true
+}
+],
+"awakening": [
+{
+"id": "V5ChX59Ik9U",
+"speaker": "swami-dayananda-saraswati",
+"title": "Nirvana Shatkam 1 of 12, Pujya Swami Dayananda Saraswati",
+"min": 54,
+"views": 59000,
+"s": 0.9164,
+"judged": true
+},
+{
+"id": "NUEnUo04rCM",
+"speaker": "thich-nhat-hanh",
+"title": "What is the difference between freedom and lack of self discipline?",
+"min": 7,
+"views": 53276,
+"s": 0.8761,
+"judged": false
+},
+{
+"id": "wRYIULjK-Fk",
+"speaker": "ajahn-nyanamoli",
+"title": "Freedom Begins With The Stream Entry",
+"min": 11,
+"views": 11000,
+"s": 0.8685,
+"judged": true
+},
+{
+"id": "6rPtQQMGR9E",
+"speaker": "ajahn-sumedho",
+"title": "When You Know Your True Nature, There's Nothing Left to Know",
+"min": 47,
+"views": 13000,
+"s": 0.8305,
+"judged": true
+},
+{
+"id": "WhVkmmlw6Nw",
+"speaker": "jiddu-krishnamurti",
+"title": "What is enlightenment?",
+"min": 14,
+"views": 806716,
+"s": 0.841,
+"judged": true
+},
+{
+"id": "su5ISL8zeSY",
+"speaker": "swami-sarvapriyananda",
+"title": "What Happens After Enlightenment",
+"min": 13,
+"views": 199297,
+"s": 0.8142,
+"judged": true
+},
+{
+"id": "ZBrJgWJn1kc",
+"speaker": "jack-kornfield",
+"title": "Jack Kornfield Joys of Awakend Heart Pt1",
+"min": 11,
+"views": 8449,
+"s": 0.8135,
+"judged": false
+},
+{
+"id": "2i__buqLmW8",
+"speaker": "dalai-lama",
+"title": "Generating the Awakening Mind",
+"min": 12,
+"views": 53979,
+"s": 0.8504,
+"judged": false
+}
+],
+"awakening/buddha-nature": [
+{
+"id": "lEPiQZP54aA",
+"speaker": "ajahn-anan",
+"title": "Train So Buddha-Nature Will Arise Within the Heart",
+"min": 19,
+"views": 3900,
+"s": 0.7441,
+"judged": true
+},
+{
+"id": "qCT6hayx46c",
+"speaker": "dalai-lama",
+"title": "Geshe Ngawang Topden on Buddha-Nature in the Teachings of the 14th Dalai Lama",
+"min": 58,
+"views": 444,
+"s": 0.7357,
+"judged": true
+},
+{
+"id": "dGafRUV-vSs",
+"speaker": "henry-shukman",
+"title": "Buddha Nature: Rohatsu Talk Three with Henry Shukman",
+"min": 47,
+"views": 523,
+"s": 0.729,
+"judged": false
+},
+{
+"id": "YpPJ1KgIBH8",
+"speaker": "brad-warner",
+"title": "Does a Dog Have Buddha Nature?",
+"min": 15,
+"views": 2400,
+"s": 0.6837,
+"judged": true
+},
+{
+"id": "8iLXpNIVMyo",
+"speaker": "robert-thurman",
+"title": "What is Buddha Nature? Isa Gucciardi, Nida Chenagtsang & Robert A.F. Thurman : Buddhism Explained",
+"min": 24,
+"views": 3600,
+"s": 0.6682,
+"judged": true
+},
+{
+"id": "9o9yBT3sbl0",
+"speaker": "ringu-tulku",
+"title": "9. What is the Buddha nature? | Answers for Beginners",
+"min": 6,
+"views": 808,
+"s": 0.6096,
+"judged": false
+},
+{
+"id": "XRr0w1uzWmY",
+"speaker": "david-germano",
+"title": "How Does One Actualize Buddha-Nature in the Nyingtik Teachings?",
+"min": 10,
+"views": 1000,
+"s": 0.59,
+"judged": false
+},
+{
+"id": "RHhpM1iwuSQ",
+"speaker": "shohaku-okumura",
+"title": "Shōhaku Okumura on Opening the Hand of Thought (#158): All living beings have Buddha Nature (Part)",
+"min": 34,
+"views": 384,
+"s": 0.629,
+"judged": false
+}
+],
+"feeling": [
+{
+"id": "bGtA6eKn8mE",
+"speaker": "ajahn-nyanamoli",
+"title": "Feeling only one feeling",
+"min": 35,
+"views": 7000,
+"s": 0.8443,
+"judged": true
+},
+{
+"id": "KKBDXcmRpAY",
+"speaker": "thich-nhat-hanh",
+"title": "This Body Is Not Me | Teaching by Thich Nhat Hanh (short teaching video)",
+"min": 19,
+"views": 107620,
+"s": 0.886,
+"judged": true
+},
+{
+"id": "qQVoPDDecjk",
+"speaker": "goenka",
+"title": "Vedanāsaṃyuttaṃ Daṭṭhabbasuttaṃ (Should Be Experienced) by S. N.Goenka",
+"min": 15,
+"views": 12000,
+"s": 0.7891,
+"judged": false
+},
+{
+"id": "lPP7ih7xQUo",
+"speaker": "tsoknyi-rinpoche",
+"title": "Open to Feelings",
+"min": 13,
+"views": 14000,
+"s": 0.7884,
+"judged": true
+},
+{
+"id": "9fL9mZCK4vY",
+"speaker": "jack-kornfield",
+"title": "Unwinding the Body",
+"min": 11,
+"views": 23337,
+"s": 0.835,
+"judged": false
+},
+{
+"id": "Rf-DeI5D8oo",
+"speaker": "francis-lucille",
+"title": "Our Real Body is the Universe - Clarifying the Body of Energy/Subtle Body",
+"min": 18,
+"views": 35193,
+"s": 0.7915,
+"judged": false
+},
+{
+"id": "ZHLG3Qs51nc",
+"speaker": "rupert-spira",
+"title": "A Body Free of the Tyranny of the Separate Self",
+"min": 12,
+"views": 100110,
+"s": 0.8251,
+"judged": false
+},
+{
+"id": "kII-vPzweIM",
+"speaker": "ajahn-pasanno",
+"title": "Pleasant and Painful Feelings",
+"min": 10,
+"views": 350,
+"s": 0.7579,
+"judged": false
+}
+],
+"thought": [
+{
+"id": "A3jWvfWwyaY",
+"speaker": "ajahn-sumedho",
+"title": "Deliberately Think and Be the Watcher of Thoughts",
+"min": 51,
+"views": 14000,
+"s": 0.8319,
+"judged": true
+},
+{
+"id": "r-7I986PrR4",
+"speaker": "thich-nhat-hanh",
+"title": "Right Thinking | Teaching by Thich Nhat Hanh | #mindfulness",
+"min": 5,
+"views": 47000,
+"s": 0.8573,
+"judged": false
+},
+{
+"id": "90U9HjaxxRI",
+"speaker": "ajahn-nyanamoli",
+"title": "Eight thoughts of a great person",
+"min": 57,
+"views": 4800,
+"s": 0.8129,
+"judged": false
+},
+{
+"id": "cUqy-flyLRc",
+"speaker": "shohaku-okumura",
+"title": "Thoughts About Shohaku Okumura",
+"min": 9,
+"views": 15474,
+"s": 0.7932,
+"judged": true
+},
+{
+"id": "kswDO60A3h8",
+"speaker": "jiddu-krishnamurti",
+"title": "On the difference between observing and thinking about oneself",
+"min": 16,
+"views": 1107221,
+"s": 0.8335,
+"judged": true
+},
+{
+"id": "VPbDWcKVklA",
+"speaker": "sayadaw-u-tejaniya",
+"title": "Am I Thinking or Observing the Thinking?",
+"min": 4,
+"views": 5900,
+"s": 0.7564,
+"judged": true
+},
+{
+"id": "afYFU0i-s3U",
+"speaker": "thanissaro-bhikkhu",
+"title": "Thinking About Rebirth",
+"min": 14,
+"views": 1368,
+"s": 0.7742,
+"judged": false
+},
+{
+"id": "TFVZp46WO5c",
+"speaker": "rupert-spira",
+"title": "Problematic Thoughts Arise from the Ego",
+"min": 10,
+"views": 56047,
+"s": 0.7936,
+"judged": false
+}
+],
+"defilements": [
+{
+"id": "0nz9a1dYdN0",
+"speaker": "ajahn-nyanamoli",
+"title": "Withstanding the Defilements",
+"min": 18,
+"views": 7100,
+"s": 0.8469,
+"judged": true
+},
+{
+"id": "vMlAu4oJsHA",
+"speaker": "ajahn-sumedho",
+"title": "Avijja Paccaya Sankhara",
+"min": 57,
+"views": 9000,
+"s": 0.7913,
+"judged": false
+},
+{
+"id": "b78H_gLjrCo",
+"speaker": "thanissaro-bhikkhu",
+"title": "The Allure of the Hindrances \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 14,
+"views": 822,
+"s": 0.7615,
+"judged": true
+},
+{
+"id": "4vgfrYQt028",
+"speaker": "ajahn-anan",
+"title": "Stop Being a Slave to Ignorance",
+"min": 18,
+"views": 3300,
+"s": 0.7281,
+"judged": false
+},
+{
+"id": "tZ8vjnCrCWE",
+"speaker": "swami-lakshmanjoo",
+"title": "The difference between ignorance and knowledge",
+"min": 8,
+"views": 1299,
+"s": 0.7469,
+"judged": false
+},
+{
+"id": "Hx3SyhVj78o",
+"speaker": "swami-sarvapriyananda",
+"title": "Where does Ignorance Lie?",
+"min": 13,
+"views": 60785,
+"s": 0.7632,
+"judged": false
+},
+{
+"id": "_bz6SB2fpgs",
+"speaker": "ajahn-amaro",
+"title": "The Defilements are Makers of Measurements",
+"min": 8,
+"views": 426,
+"s": 0.6854,
+"judged": false
+},
+{
+"id": "np2Xw6RK1v8",
+"speaker": "brad-warner",
+"title": "Primordial Ignorance",
+"min": 20,
+"views": 2100,
+"s": 0.6757,
+"judged": false
+}
+],
+"kindness": [
+{
+"id": "gMoRtJhVoxc",
+"speaker": "thich-nhat-hanh",
+"title": "How do I love myself? | Thich Nhat Hanh answers questions",
+"min": 14,
+"views": 1917429,
+"s": 0.9256,
+"judged": true
+},
+{
+"id": "4yLQ2taFFkI",
+"speaker": "dalai-lama",
+"title": "Compassion and the Role of Women",
+"min": 6,
+"views": 168452,
+"s": 0.8926,
+"judged": true
+},
+{
+"id": "OswcrsyGQN0",
+"speaker": "ajahn-brahm",
+"title": "Freeing Problems With Metta",
+"min": 56,
+"views": 212000,
+"s": 0.8877,
+"judged": true
+},
+{
+"id": "YYGqpYtFcQM",
+"speaker": "sharon-salzberg",
+"title": "Lovingkindness with Sharon Salzberg",
+"min": 12,
+"views": 7300,
+"s": 0.8209,
+"judged": true
+},
+{
+"id": "sEGyLEoDu8I",
+"speaker": "thanissaro-bhikkhu",
+"title": "Metta as a Serious Practice \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 10,
+"views": 1600,
+"s": 0.8088,
+"judged": true
+},
+{
+"id": "6yIZfZVEwIg",
+"speaker": "ajahn-sumedho",
+"title": "The Four Brahmaviharas",
+"min": 46,
+"views": 10000,
+"s": 0.8073,
+"judged": false
+},
+{
+"id": "OPCBwbPKWxU",
+"speaker": "brad-warner",
+"title": "Why Doesn't Zen Talk About Loving Kindness",
+"min": 24,
+"views": 8200,
+"s": 0.7854,
+"judged": false
+},
+{
+"id": "b0SJ_E8PPIs",
+"speaker": "ajahn-nyanamoli",
+"title": "Metta in Brief",
+"min": 10,
+"views": 3800,
+"s": 0.7845,
+"judged": false
+}
+],
+"kindness/compassion": [
+{
+"id": "4yLQ2taFFkI",
+"speaker": "dalai-lama",
+"title": "Compassion and the Role of Women",
+"min": 6,
+"views": 168452,
+"s": 0.8926,
+"judged": true
+},
+{
+"id": "GjOvoq-8xl0",
+"speaker": "mingyur-rinpoche",
+"title": "The Way of the Bodhisattva with Yongey Mingyur Rinpoche",
+"min": 45,
+"views": 308000,
+"s": 0.8602,
+"judged": true
+},
+{
+"id": "RkKF9fWXHmY",
+"speaker": "ajahn-brahm",
+"title": "The Power of Mindfulness & Compassion",
+"min": 56,
+"views": 113000,
+"s": 0.8713,
+"judged": false
+},
+{
+"id": "cZCwVMYX0nM",
+"speaker": "thich-nhat-hanh",
+"title": "Bodhicitta: The Mind of Love & Enlightenment",
+"min": 14,
+"views": 34522,
+"s": 0.8435,
+"judged": true
+},
+{
+"id": "gCNsjj9MEg0",
+"speaker": "pema-chodron",
+"title": "What Is Bodhicitta?",
+"min": 10,
+"views": 27000,
+"s": 0.7919,
+"judged": true
+},
+{
+"id": "wZtgHd2gJLg",
+"speaker": "jack-kornfield",
+"title": "Heart of Compassion Meditation—Jack Kornfield",
+"min": 13,
+"views": 38203,
+"s": 0.8383,
+"judged": false
+},
+{
+"id": "HLE0V2F8zBk",
+"speaker": "thupten-jinpa",
+"title": "Guided Practice | 10-Minute Compassionate Image Practice for Self-Compassion with Thupten Jinpa, PhD",
+"min": 12,
+"views": 17000,
+"s": 0.7418,
+"judged": false
+},
+{
+"id": "wm1t5FyK5Ek",
+"speaker": "tara-brach",
+"title": "Guided Meditation: The RAIN of Self Compassion with Tara Brach",
+"min": 12,
+"views": 1188207,
+"s": 0.8078,
+"judged": true
+}
+],
+"faith": [
+{
+"id": "w1UM7hEYHHg",
+"speaker": "swami-lakshmanjoo",
+"title": "Brahmarpanam… – prayer for eating – Abhinavagupta translating Bhagavad Gita 4.24",
+"min": 6,
+"views": 15217,
+"s": 0.8897,
+"judged": false
+},
+{
+"id": "3QOXgh3dMXU",
+"speaker": "ajahn-pasanno",
+"title": "A Refuge Within Uncertainty",
+"min": 48,
+"views": 3400,
+"s": 0.8316,
+"judged": true
+},
+{
+"id": "ASYIiDuZ6xU",
+"speaker": "thich-nhat-hanh",
+"title": "Is God good?",
+"min": 17,
+"views": 163168,
+"s": 0.8802,
+"judged": true
+},
+{
+"id": "ow1Y0xwOXaQ",
+"speaker": "thanissaro-bhikkhu",
+"title": "An Independent Refuge \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 14,
+"views": 1000,
+"s": 0.7828,
+"judged": false
+},
+{
+"id": "SgQf3yaHHI4",
+"speaker": "radhanath-swami",
+"title": "Have We Lost Faith In Faith?",
+"min": 14,
+"views": 115000,
+"s": 0.771,
+"judged": false
+},
+{
+"id": "5Dk4EIe-qyk",
+"speaker": "swami-sarvapriyananda",
+"title": "Worship of God in Advaita Vedanta",
+"min": 19,
+"views": 276121,
+"s": 0.8003,
+"judged": true
+},
+{
+"id": "8sOFaT3UOg8",
+"speaker": "mooji",
+"title": "A Simple, Powerful Prayer in Challenging Times",
+"min": 12,
+"views": 2441491,
+"s": 0.8229,
+"judged": false
+},
+{
+"id": "5rJrs7UO4I8",
+"speaker": "swami-chinmayananda",
+"title": "Faith v/s Belief · Bhagavad Gita Ch.12",
+"min": 6,
+"views": 12000,
+"s": 0.7534,
+"judged": false
+}
+],
+"faith/bhakti": [
+{
+"id": "Wdhr3wN1ms4",
+"speaker": "swami-lakshmanjoo",
+"title": "What is bhakti, devotion, love in Kashmir Shaivism",
+"min": 5,
+"views": 2425,
+"s": 0.7777,
+"judged": true
+},
+{
+"id": "4cgLaYp3ckE",
+"speaker": "swami-sarvapriyananda",
+"title": "How are we protected? By our Dharma as per Gita or by the Divine Mother as revealed to Swamiji?",
+"min": 15,
+"views": 15000,
+"s": 0.7188,
+"judged": false
+},
+{
+"id": "mQiwyZG-Bmg",
+"speaker": "swami-tejomayananda",
+"title": "Narada Bhakti Sutra",
+"min": 31,
+"views": 30000,
+"s": 0.7177,
+"judged": true
+},
+{
+"id": "BK3tDTh7En4",
+"speaker": "radhanath-swami",
+"title": "Unity in Diversity in the path of Bhakti.",
+"min": 15,
+"views": 2100,
+"s": 0.6192,
+"judged": false
+},
+{
+"id": "n99CCcuRQks",
+"speaker": "brother-chidananda",
+"title": "In the Embrace of the Divine Mother",
+"min": 10,
+"views": 24766,
+"s": 0.6473,
+"judged": false
+},
+{
+"id": "1gyM2z0-Xvk",
+"speaker": "swami-tadatmananda",
+"title": "Cultivating bhakti (devotion) · by Vasanthiji",
+"min": 53,
+"views": 1000,
+"s": 0.5876,
+"judged": false
+},
+{
+"id": "xNvtEv5uVPE",
+"speaker": "anandamayi-ma",
+"title": "Sri Ma Anandamayi talks at Bhimpura and then at Morvi - English sub-titles",
+"min": 9,
+"views": 466264,
+"s": 0.7858,
+"judged": true
+},
+{
+"id": "vdSnBpImla0",
+"speaker": "pravrajika-vrajaprana",
+"title": "What We Recieve From the Divine Mother by Pravrajika Vrajaprana",
+"min": 34,
+"views": 1900,
+"s": 0.6247,
+"judged": false
+}
+],
+"faith/grace": [
+{
+"id": "YixVXLRuvVM",
+"speaker": "swami-lakshmanjoo",
+"title": "How He showers grace to both, worthy and non-worthy",
+"min": 11,
+"views": 6644,
+"s": 0.861,
+"judged": true
+},
+{
+"id": "2oKyxbzGfuo",
+"speaker": "swami-sarvapriyananda",
+"title": "Grace in Spiritual Life",
+"min": 10,
+"views": 41018,
+"s": 0.7682,
+"judged": true
+},
+{
+"id": "o5WH1mzZl5M",
+"speaker": "dzigar-kongtrul",
+"title": "Grace - LINK Teaching from Dec. 10, 2017 - with Dzigar Kongtrül Rinpoche",
+"min": 45,
+"views": 1800,
+"s": 0.6339,
+"judged": false
+},
+{
+"id": "lLpXVGMxjGE",
+"speaker": "igor-kufayev",
+"title": "A Touch of Grace",
+"min": 12,
+"views": 16271,
+"s": 0.6325,
+"judged": false
+},
+{
+"id": "JC4VsSiX50k",
+"speaker": "swami-khecaranatha",
+"title": "When Grace Descends",
+"min": 14,
+"views": 1280,
+"s": 0.6239,
+"judged": false
+},
+{
+"id": "9OvLVXgOAzs",
+"speaker": "brother-chidananda",
+"title": "Spiritual Photosynthesis — Converting God’s Grace Into Soul-Nourishment",
+"min": 15,
+"views": 15000,
+"s": 0.6223,
+"judged": false
+},
+{
+"id": "kmlgFe17TbM",
+"speaker": "sadhguru",
+"title": "How Can I Receive Linga Bhairavi’s Grace?",
+"min": 9,
+"views": 75524,
+"s": 0.6364,
+"judged": true
+},
+{
+"id": "ikQFIcW4gaQ",
+"speaker": "bodhinatha-veylanswami",
+"title": "Grace in the Guru's Presence",
+"min": 7,
+"views": 7121,
+"s": 0.6267,
+"judged": false
+}
+],
+"faith/pure-land": [
+{
+"id": "bzdLyxkQAlw",
+"speaker": "thich-nhat-hanh",
+"title": "Walking in the Pure Land | Teaching by Thich Nhat Hanh | #mindfulness",
+"min": 6,
+"views": 13000,
+"s": 0.7974,
+"judged": true
+},
+{
+"id": "isc6v4sU43M",
+"speaker": "anne-klein",
+"title": "Anne C. Klein teaches on Amitabha, leads Amitabha practice",
+"min": 32,
+"views": 640,
+"s": 0.6122,
+"judged": false
+},
+{
+"id": "HPXkFr5JH3Q",
+"speaker": "sheng-yen",
+"title": "How to attain rebirth in the Pure Land(GDD-496, Master Sheng Yen)",
+"min": 8,
+"views": 13000,
+"s": 0.6523,
+"judged": true
+},
+{
+"id": "pnij-sEIJyY",
+"speaker": "tendai-buddhist-institute",
+"title": "August 9th 2023 - Pure Land Teachings in Tendai",
+"min": 44,
+"views": 887,
+"s": 0.5873,
+"judged": false
+},
+{
+"id": "B2WAJWpcMvg",
+"speaker": "charles-jones",
+"title": "East West Interviews: Charles B. Jones on Pure Land Buddhism",
+"min": 34,
+"views": 7937,
+"s": 0.5406,
+"judged": true
+}
+],
+"faith/ritual": [
+{
+"id": "XflGbiL-QKM",
+"speaker": "thupten-jinpa",
+"title": "Dealing With Adversity and Suffering - Dr. Thupten Jinpa on The Mandala App",
+"min": 22,
+"views": 13852,
+"s": 0.7207,
+"judged": false
+},
+{
+"id": "8ZHXrXbz2Gw",
+"speaker": "swami-lakshmanjoo",
+"title": "Your Organs are Gods",
+"min": 7,
+"views": 6605,
+"s": 0.8414,
+"judged": true
+},
+{
+"id": "jDxO2BCE-Y8",
+"speaker": "shinge-roshi",
+"title": "Remembering Vimala Muni John Nemick Roshi – Mandala Day Tesiho by Shinge Roshi, 2023.8.20",
+"min": 35,
+"views": 72,
+"s": 0.6556,
+"judged": true
+},
+{
+"id": "6mRDp37eC_o",
+"speaker": "justin-sledge",
+"title": "What is Enochian Magic ? The Tools and Rituals that John Dee used to Speak with Angels",
+"min": 49,
+"views": 712000,
+"s": 0.6822,
+"judged": false
+},
+{
+"id": "YECxkpJ20ck",
+"speaker": "swami-tyagananda",
+"title": "Worship as a Spiritual Practice (1)",
+"min": 46,
+"views": 991,
+"s": 0.6294,
+"judged": true
+},
+{
+"id": "A6vOlljMRfg",
+"speaker": "bodhinatha-veylanswami",
+"title": "The Nature and Worship of Lord Murugan",
+"min": 24,
+"views": 51258,
+"s": 0.6652,
+"judged": false
+},
+{
+"id": "IvDDugzAgfk@2938",
+"speaker": "alexis-sanderson",
+"title": "Ritual, part 1 (from A Life of Learning, with Christopher Wallis)",
+"min": 6,
+"views": 6587,
+"s": 0.6933,
+"judged": true
+},
+{
+"id": "rS0Uui2PX0o",
+"speaker": "sadhguru",
+"title": "Linga Bhairavi Yantra Ceremony",
+"min": 12,
+"views": 84000,
+"s": 0.6546,
+"judged": true
+}
+],
+"daily-life": [
+{
+"id": "I2YqlHhGxnQ",
+"speaker": "ajahn-nyanamoli",
+"title": "Layperson's Progress in Dhamma",
+"min": 19,
+"views": 9900,
+"s": 0.862,
+"judged": true
+},
+{
+"id": "saobNbqs0Gs",
+"speaker": "sayadaw-u-tejaniya",
+"title": "Daily Life Series: The Path of the Mind",
+"min": 6,
+"views": 10000,
+"s": 0.7816,
+"judged": false
+},
+{
+"id": "5n2vktwACww",
+"speaker": "swami-lakshmanjoo",
+"title": "What Is Successive Meditation? | Swami Lakshmanjoo on Awareness in Daily Life",
+"min": 4,
+"views": 6750,
+"s": 0.825,
+"judged": true
+},
+{
+"id": "wLHgdYRlWwE",
+"speaker": "thanissaro-bhikkhu",
+"title": "Not-self in Daily Life",
+"min": 15,
+"views": 2070,
+"s": 0.7969,
+"judged": true
+},
+{
+"id": "f5-B0blrUkM",
+"speaker": "mingyur-rinpoche",
+"title": "Meditation and Yoga for Everyday Life with Yongey Mingyur Rinpoche",
+"min": 10,
+"views": 13000,
+"s": 0.7295,
+"judged": false
+},
+{
+"id": "HsRG2ntOYB8",
+"speaker": "swami-tyagananda",
+"title": "SATSANG: \"Spiritualizing Daily Life",
+"min": 49,
+"views": 4700,
+"s": 0.685,
+"judged": false
+},
+{
+"id": "6uIVBCteTjg",
+"speaker": "ajahn-chandako",
+"title": "Transition to Laylife",
+"min": 9,
+"views": 21000,
+"s": 0.6529,
+"judged": false
+},
+{
+"id": "bS3kEqZCsdk",
+"speaker": "tara-brach",
+"title": "Can Meditation Replace Talk Therapy? an Inquiry with Tara Brach",
+"min": 5,
+"views": 6900,
+"s": 0.6876,
+"judged": false
+}
+],
+"texts": [
+{
+"id": "irWw8QGCbbc",
+"speaker": "swami-dayananda-saraswati",
+"title": "Essence Of Kena Upanishad Class 1 with Swami Dayananda Saraswati",
+"min": 47,
+"views": 17000,
+"s": 0.8776,
+"judged": false
+},
+{
+"id": "i5teUsZUSk0",
+"speaker": "ajahn-nyanamoli",
+"title": "SUTTA STUDY - \"The Root of All Things\" MN 1",
+"min": 31,
+"views": 7200,
+"s": 0.846,
+"judged": true
+},
+{
+"id": "CkrVEwEwhJA",
+"speaker": "goenka",
+"title": "Salla sutta explained",
+"min": 19,
+"views": 10000,
+"s": 0.7806,
+"judged": false
+},
+{
+"id": "z4PYZRnxtBs",
+"speaker": "swami-tejomayananda",
+"title": "Talk 14 · Upanishad Vidya Sara",
+"min": 34,
+"views": 79000,
+"s": 0.7588,
+"judged": false
+},
+{
+"id": "5ieoVJ4dDSw",
+"speaker": "swami-sarvapriyananda",
+"title": "Mandukya Upanishad, 4 of 6",
+"min": 58,
+"views": 135570,
+"s": 0.8,
+"judged": true
+},
+{
+"id": "-OO-CPSpriI",
+"speaker": "swami-chinmayananda",
+"title": "Can one transcend regrets? · Taittiriya Upanishad",
+"min": 5,
+"views": 9700,
+"s": 0.7332,
+"judged": false
+},
+{
+"id": "jiD3KVoDCt8",
+"speaker": "filip-holm",
+"title": "What is the Gospel of Thomas?",
+"min": 19,
+"views": 743769,
+"s": 0.7568,
+"judged": true
+},
+{
+"id": "ItPwOIgm7zg",
+"speaker": "dzongsar-khyentse",
+"title": "Teachings on Sutra Pure Gold, 22 May 2024, Bir, India",
+"min": 30,
+"views": 3100,
+"s": 0.7187,
+"judged": false
+}
+],
+"texts/tantra": [
+{
+"id": "NBZ-19e6ZhY",
+"speaker": "swami-lakshmanjoo",
+"title": "When His Spanda overflows and He creates this World again",
+"min": 10,
+"views": 5201,
+"s": 0.8501,
+"judged": true
+},
+{
+"id": "r4NVJaa_gng",
+"speaker": "ajahn-nyanamoli",
+"title": "Why the Mind Must “Sail Upstream” – A Hidden Teaching in the Chinese Agamas",
+"min": 43,
+"views": 3800,
+"s": 0.7934,
+"judged": false
+},
+{
+"id": "AXG9BwIppfE",
+"speaker": "christopher-wallis",
+"title": "Vijñāna-bhairava-tantra -- Practice Video #1",
+"min": 26,
+"views": 15105,
+"s": 0.7259,
+"judged": false
+},
+{
+"id": "cUvqLJqamM4",
+"speaker": "alexis-sanderson",
+"title": "Readings in the Tantrāloka IV",
+"min": 50,
+"views": 2858,
+"s": 0.675,
+"judged": false
+},
+{
+"id": "vvx2P5qDa34",
+"speaker": "swami-sarvapriyananda",
+"title": "Chapter 3 Karika 12-14",
+"min": 44,
+"views": 11000,
+"s": 0.7027,
+"judged": false
+},
+{
+"id": "1kBPUTrmvNs",
+"speaker": "bettina-baumer",
+"title": "Pratyabhijñā Hṛdayam: Introduction",
+"min": 9,
+"views": 1660,
+"s": 0.66,
+"judged": true
+},
+{
+"id": "FxlHvCXt64w",
+"speaker": "lama-jampa-thaye",
+"title": "The Vajrayana Path: the role of the tantras in Buddhism",
+"min": 43,
+"views": 22000,
+"s": 0.6724,
+"judged": false
+},
+{
+"id": "OArNlNMPf6g",
+"speaker": "sthaneshwar-timalsina",
+"title": "Discourse on Bhairava Āgamas",
+"min": 35,
+"views": 4099,
+"s": 0.605,
+"judged": false
+}
+],
+"consciousness": [
+{
+"id": "b2JRMEDQORM",
+"speaker": "thich-nhat-hanh",
+"title": "What is Mind? What is Consciousness? | Thich Nhat Hanh answers questions",
+"min": 12,
+"views": 107911,
+"s": 0.9024,
+"judged": true
+},
+{
+"id": "DlPbo9V8vqQ",
+"speaker": "ajahn-sumedho",
+"title": "Pure Consciousness is the Real Magic",
+"min": 44,
+"views": 16000,
+"s": 0.8404,
+"judged": false
+},
+{
+"id": "o2CHix9ia7M",
+"speaker": "swami-lakshmanjoo",
+"title": "The supreme consciousness is the reality of everything (Shiva Sutras 1.1)",
+"min": 10,
+"views": 9124,
+"s": 0.8571,
+"judged": true
+},
+{
+"id": "AQAC1elq0PU",
+"speaker": "rupert-spira",
+"title": "We Become What We Think About - Consciousness",
+"min": 9,
+"views": 153410,
+"s": 0.84,
+"judged": false
+},
+{
+"id": "dBSCx22cOVU",
+"speaker": "francis-lucille",
+"title": "How Does It Feel To Know You Are Universal Consciousness?",
+"min": 12,
+"views": 40000,
+"s": 0.7931,
+"judged": false
+},
+{
+"id": "N-NYI57KwV0",
+"speaker": "ajahn-nyanamoli",
+"title": "Difference Between Consciousness, Mind and Thoughts",
+"min": 37,
+"views": 7600,
+"s": 0.8314,
+"judged": true
+},
+{
+"id": "u5WMzoK6IpY",
+"speaker": "jiddu-krishnamurti",
+"title": "What do you mean by brain, mind and consciousness?",
+"min": 12,
+"views": 143402,
+"s": 0.8072,
+"judged": false
+},
+{
+"id": "LUXa7HMAxk8",
+"speaker": "swami-sarvapriyananda",
+"title": "Is it My Mind or The Witness Consciousness?",
+"min": 7,
+"views": 120079,
+"s": 0.8021,
+"judged": true
+}
+],
+"consciousness/states": [
+{
+"id": "2_-7tsmcWWI",
+"speaker": "swami-sarvapriyananda",
+"title": "Consciousness in Deep Sleep",
+"min": 10,
+"views": 86311,
+"s": 0.7923,
+"judged": true
+},
+{
+"id": "35uysHau-8Q",
+"speaker": "swami-chinmayananda",
+"title": "The Power of Om · Mandukya Upanishad",
+"min": 5,
+"views": 14000,
+"s": 0.7455,
+"judged": true
+},
+{
+"id": "dKzhiZaDtJw",
+"speaker": "francis-lucille",
+"title": "How can I be certain I am conscious during deep sleep?",
+"min": 19,
+"views": 12000,
+"s": 0.7406,
+"judged": true
+},
+{
+"id": "2DOY5B-PH2Y@2140",
+"speaker": "nisargadatta-maharaj",
+"title": "The Eternal Satsang: \"I am\" arises in the womb",
+"min": 10,
+"views": 88572,
+"s": 0.7578,
+"judged": false
+},
+{
+"id": "-QzxIYTuIgQ",
+"speaker": "swami-sarvadevananda",
+"title": "Three States of Chaitanya",
+"min": 54,
+"views": 237,
+"s": 0.5063,
+"judged": false
+},
+{
+"id": "3bF4xS918w8",
+"speaker": "rupert-spira",
+"title": "Enlightenment, Death and Lucid Waking",
+"min": 6,
+"views": 26765,
+"s": 0.7465,
+"judged": false
+},
+{
+"id": "WYArL0t_SpQ",
+"speaker": "sthaneshwar-timalsina",
+"title": "What Is The Difference Between Deep Sleep and Samadhi? - Excerpts from Yoga Sutras Course",
+"min": 6,
+"views": 1334,
+"s": 0.5315,
+"judged": false
+}
+],
+"reality": [
+{
+"id": "k5J9E1Uu1UA",
+"speaker": "swami-lakshmanjoo",
+"title": "Why this world is not an illusion (maya) in Kashmir Shaivism",
+"min": 4,
+"views": 12606,
+"s": 0.8739,
+"judged": true
+},
+{
+"id": "5e0OCQ9K6xQ",
+"speaker": "ajahn-sumedho",
+"title": "You are not what you think because what you think is not reality",
+"min": 56,
+"views": 18000,
+"s": 0.8457,
+"judged": true
+},
+{
+"id": "HD6l2jKwT6k",
+"speaker": "thich-nhat-hanh",
+"title": "Loneliness and the Illusion of Connection | Thich Nhat Hanh, 2012.12.13",
+"min": 20,
+"views": 1515976,
+"s": 0.9091,
+"judged": true
+},
+{
+"id": "fsIrblU61Bs",
+"speaker": "ajahn-amaro",
+"title": "The Self Illusion",
+"min": 46,
+"views": 10000,
+"s": 0.8396,
+"judged": false
+},
+{
+"id": "Bnvtc4JtEOQ",
+"speaker": "swami-sarvapriyananda",
+"title": "Realizing Brahman in All Actions",
+"min": 55,
+"views": 81000,
+"s": 0.798,
+"judged": false
+},
+{
+"id": "xsWP6WVksAc",
+"speaker": "francis-lucille",
+"title": "A Natural, Effortless, Vanishing Direction Towards Presence (Advaita 1 of 13)",
+"min": 17,
+"views": 40884,
+"s": 0.803,
+"judged": true
+},
+{
+"id": "zkF7eLadtk0",
+"speaker": "thanissaro-bhikkhu",
+"title": "Ultimate Reality \\ \\ Thanissaro Bhikkhu \\ \\ Dhamma Talk",
+"min": 11,
+"views": 912,
+"s": 0.7718,
+"judged": false
+},
+{
+"id": "wZo92ReUDXQ",
+"speaker": "richard-rohr",
+"title": "Richard Rohr on the Pastoral Reality of the Universal Christ (Part 2)",
+"min": 60,
+"views": 59000,
+"s": 0.7564,
+"judged": false
+}
+],
+"reality/maya": [
+{
+"id": "k5J9E1Uu1UA",
+"speaker": "swami-lakshmanjoo",
+"title": "Why this world is not an illusion (maya) in Kashmir Shaivism",
+"min": 4,
+"views": 12606,
+"s": 0.8739,
+"judged": true
+},
+{
+"id": "CfBNLj7F_00",
+"speaker": "swami-sarvapriyananda",
+"title": "Vidya Maya vs. Avidya Maya",
+"min": 11,
+"views": 40541,
+"s": 0.7656,
+"judged": true
+},
+{
+"id": "plzJhjz8cFE",
+"speaker": "francis-lucille",
+"title": "Somatic Events during Meditation / Deep Relaxation - The Snake and the Rope",
+"min": 14,
+"views": 20000,
+"s": 0.7481,
+"judged": false
+},
+{
+"id": "ar9Lm4XXBkA",
+"speaker": "swami-sarvadevananda",
+"title": "Maya, Yogamaya, and Mahamaya",
+"min": 53,
+"views": 2000,
+"s": 0.627,
+"judged": false
+},
+{
+"id": "2DOY5B-PH2Y@5539",
+"speaker": "nisargadatta-maharaj",
+"title": "The Eternal Satsang: Parabrahman, his guru, and 83 years like a dream",
+"min": 7,
+"views": 88572,
+"s": 0.7953,
+"judged": false
+},
+{
+"id": "27T4J_EaEr4",
+"speaker": "christopher-wallis",
+"title": "Vijñāna-bhairava-tantra verse 95 ~ How to transcend Māyā",
+"min": 21,
+"views": 965,
+"s": 0.5737,
+"judged": false
+},
+{
+"id": "tJ9VkHRz774",
+"speaker": "sri-ranjit-maharaj",
+"title": "What to do with ego? (Brittany, 1997)",
+"min": 9,
+"views": 4499,
+"s": 0.6282,
+"judged": false
+},
+{
+"id": "xGaqa9tEu74",
+"speaker": "swami-tadatmananda",
+"title": "Why Did God Create the World in the First Place? WRONG!! The Beginningless CYCLE of Creation",
+"min": 16,
+"views": 51353,
+"s": 0.5869,
+"judged": false
+}
+],
+"reality/nonduality": [
+{
+"id": "GMEsszfBYMo",
+"speaker": "filip-holm",
+"title": "Shankara & Advaita Vedanta",
+"min": 45,
+"views": 518355,
+"s": 0.7549,
+"judged": true
+},
+{
+"id": "Pim4-SyCu8w",
+"speaker": "dzongsar-khyentse",
+"title": "Understanding Non-duality: Advice from Rinpoche for today and beyond, 17 March 2020 - Bir, India",
+"min": 5,
+"views": 7600,
+"s": 0.7295,
+"judged": false
+},
+{
+"id": "9ukRDbsvcA4",
+"speaker": "swami-sarvapriyananda",
+"title": "What is the Barrier to Realizing Oneness?",
+"min": 9,
+"views": 9400,
+"s": 0.7087,
+"judged": false
+},
+{
+"id": "hx7cspjwvHM",
+"speaker": "bernardo-kastrup",
+"title": "Nondualism and the fallacies of panpsychism and artificial sentience",
+"min": 42,
+"views": 57000,
+"s": 0.6488,
+"judged": false
+},
+{
+"id": "fnRuVmO9VfQ",
+"speaker": "christopher-wallis",
+"title": "Nonduality Explained in four Ways: What, exactly, is not-two?",
+"min": 33,
+"views": 18173,
+"s": 0.7024,
+"judged": true
+},
+{
+"id": "Oqdmodm9-Sg",
+"speaker": "alan-wallace",
+"title": "What is the Nature of Consciousness in Advaita Vedanta and Buddhism? (Part 1 of 3)",
+"min": 13,
+"views": 8000,
+"s": 0.6483,
+"judged": true
+},
+{
+"id": "bnjT3dMwan4",
+"speaker": "tara-brach",
+"title": "Guided Meditation: Awakening to Oneness and Belonging with Tara Brach",
+"min": 10,
+"views": 4700,
+"s": 0.6693,
+"judged": false
+},
+{
+"id": "S_FLx_9v98Y",
+"speaker": "sthaneshwar-timalsina",
+"title": "Unreconcilable differences - Śaṅkara's & Kashmir Śaivism's advaita –Ācārya dr. Sthaneshwar Timalsina",
+"min": 5,
+"views": 3281,
+"s": 0.5842,
+"judged": false
+}
+],
+"guru": [
+{
+"id": "FF503RdDMZA",
+"speaker": "swami-lakshmanjoo",
+"title": "What is real devotion and initiation in Kashmir Shaivism?",
+"min": 14,
+"views": 20392,
+"s": 0.8784,
+"judged": true
+},
+{
+"id": "iEHfipwE3G0",
+"speaker": "goenka",
+"title": "Dhamma-Cakka-Pavattana (Guru Purnima Discourse)",
+"min": 6,
+"views": 11000,
+"s": 0.7702,
+"judged": false
+},
+{
+"id": "8GIEccfrGMU",
+"speaker": "swami-chinmayananda",
+"title": "No Guru, No God can help You! · Bhagavad Gita",
+"min": 5,
+"views": 34000,
+"s": 0.7737,
+"judged": true
+},
+{
+"id": "2DOY5B-PH2Y@5539",
+"speaker": "nisargadatta-maharaj",
+"title": "The Eternal Satsang: Parabrahman, his guru, and 83 years like a dream",
+"min": 7,
+"views": 88572,
+"s": 0.7953,
+"judged": false
+},
+{
+"id": "DHErJ8tirQo",
+"speaker": "dalai-lama",
+"title": "Wisdom Podcast 006 - Jamyang Rinchen: My Guru, the Dalai Lama",
+"min": 48,
+"views": 1300,
+"s": 0.7414,
+"judged": false
+},
+{
+"id": "LY3G7yWq_ug",
+"speaker": "dzongsar-khyentse",
+"title": "[English only] Calling The Guru from Afar, 30 June - 1July 2010, Menz, Germany - Part 1",
+"min": 29,
+"views": 3000,
+"s": 0.6873,
+"judged": false
+},
+{
+"id": "lr7p2gJhfKY",
+"speaker": "ajahn-jayasaro",
+"title": "Great Disciples of the Buddha",
+"min": 38,
+"views": 1400,
+"s": 0.6853,
+"judged": false
+},
+{
+"id": "Dwg4SnSGD_g",
+"speaker": "swami-tadatmananda",
+"title": "Is Formal Initiation Required? Or Can You Just Watch Various Gurus on YouTube?",
+"min": 12,
+"views": 56841,
+"s": 0.7089,
+"judged": true
+}
+],
+"soul": [
+{
+"id": "s78751YttEg",
+"speaker": "richard-rohr",
+"title": "Richard Rohr on the Relational Nature of the Trinity | Trinity: The Soul of Creation",
+"min": 55,
+"views": 16000,
+"s": 0.743,
+"judged": false
+},
+{
+"id": "YJyx5MSQtbk",
+"speaker": "cynthia-bourgeault",
+"title": "Cynthia Bourgeault on Trinity and the Law of Three | Trinity: The Soul of Creation",
+"min": 54,
+"views": 10000,
+"s": 0.7402,
+"judged": false
+},
+{
+"id": "vZEUo_sHoBw@1102",
+"speaker": "filip-holm",
+"title": "The metaphysics of the One, Intellect and Soul",
+"min": 8,
+"views": 503207,
+"s": 0.7396,
+"judged": true
+},
+{
+"id": "fJgeKlPZxmY",
+"speaker": "eric-steinhart",
+"title": "Plotinus - The Fall of the Soul",
+"min": 8,
+"views": 31839,
+"s": 0.6935,
+"judged": true
+},
+{
+"id": "fQCJGN2f7xI",
+"speaker": "father-spyridon",
+"title": "The Holy Spirit Can Unshackle Your Soul from the World",
+"min": 17,
+"views": 400000,
+"s": 0.6665,
+"judged": false
+},
+{
+"id": "bmfsE89JzGI",
+"speaker": "brad-warner",
+"title": "Self, Soul, and Buddha Nature",
+"min": 35,
+"views": 3700,
+"s": 0.705,
+"judged": false
+},
+{
+"id": "zDYqL8fo1IM",
+"speaker": "swami-sarvapriyananda",
+"title": "Each Soul is Potentially Divine",
+"min": 9,
+"views": 16695,
+"s": 0.7163,
+"judged": true
+},
+{
+"id": "fl71RSK_heE",
+"speaker": "donald-lopez",
+"title": "Donald S. Lopez: “Christian vs Buddhist: The Battle for the Soul of Tibet”",
+"min": 45,
+"views": 4422,
+"s": 0.6493,
+"judged": false
+}
+],
+"gnosis": [
+{
+"id": "hEiwmhQdPPA",
+"speaker": "justin-sledge",
+"title": "Who are the Archons - The Rulers of the Cosmos in Gnosticism & their Origins in Cosmology and Magic",
+"min": 38,
+"views": 1700000,
+"s": 0.7098,
+"judged": true
+},
+{
+"id": "ockwMVE7PgM@1648",
+"speaker": "filip-holm",
+"title": "Seth and the Sethian bearers of gnosis",
+"min": 12,
+"views": 3351226,
+"s": 0.7284,
+"judged": true
+},
+{
+"id": "Lhl51bZQlM8@2642",
+"speaker": "john-vervaeke",
+"title": "Socrates against the sophists: self-knowledge vs self-deception",
+"min": 12,
+"views": 252025,
+"s": 0.7029,
+"judged": false
+},
+{
+"id": "L8O2-nxRQ3Y",
+"speaker": "richard-rohr",
+"title": "Richard Rohr on Franciscan Mysticism (Part Two)",
+"min": 34,
+"views": 10000,
+"s": 0.651,
+"judged": false
+},
+{
+"id": "T_dtVqD0d9c",
+"speaker": "angela-puca",
+"title": "The Hermetic Order of the Golden Dawn - History and Structure",
+"min": 12,
+"views": 47000,
+"s": 0.5656,
+"judged": true
+},
+{
+"id": "IaGT3O17GAU",
+"speaker": "moshe-idel",
+"title": "Moshe Idel’s Accidental Mastery of Jewish Mysticism",
+"min": 6,
+"views": 1500,
+"s": 0.5416,
+"judged": false
+},
+{
+"id": "n7gyFiJ6iCQ",
+"speaker": "daniel-matt",
+"title": "GEMS of the Zohar Series II with Prof. Daniel C. Matt Part 1- Primordial Light",
+"min": 59,
+"views": 29411,
+"s": 0.568,
+"judged": true
+},
+{
+"id": "-koFwkJfGYI",
+"speaker": "elliot-wolfson",
+"title": "Elliot R Wolfson - Mysticism The Path Beyond the Path",
+"min": 35,
+"views": 688,
+"s": 0.5107,
+"judged": false
+}
+],
+"divine": [
+{
+"id": "r92_0LJa3_0",
+"speaker": "swami-lakshmanjoo",
+"title": "Divine Discipline in Yoga – Part 1 – Observances (Niyamas)",
+"min": 10,
+"views": 15856,
+"s": 0.8716,
+"judged": false
+},
+{
+"id": "tYjYL448-yY",
+"speaker": "jiddu-krishnamurti",
+"title": "Does God exist?",
+"min": 19,
+"views": 4977580,
+"s": 0.8408,
+"judged": true
+},
+{
+"id": "CRz7Q5JycX0@779",
+"speaker": "filip-holm",
+"title": "Dionysius on the Divine Names",
+"min": 13,
+"views": 240246,
+"s": 0.7207,
+"judged": true
+},
+{
+"id": "uSC_OoIl7hQ",
+"speaker": "swami-tadatmananda",
+"title": "Seeking the Divinity Hidden in your HEART: the True Self, Atma",
+"min": 17,
+"views": 55649,
+"s": 0.7078,
+"judged": true
+},
+{
+"id": "0fb01Jq63jU",
+"speaker": "richard-rohr",
+"title": "Richard Rohr on the Sacred and the Profane | Conspire 2015",
+"min": 53,
+"views": 4600,
+"s": 0.681,
+"judged": false
+},
+{
+"id": "vb1XMyIQOYQ",
+"speaker": "laurence-freeman",
+"title": "Beholding Divine Beauty - And God Saw That It Was Very Good by Laurence Freeman",
+"min": 4,
+"views": 1200,
+"s": 0.7121,
+"judged": false
+},
+{
+"id": "rpivf1SoEdc",
+"speaker": "john-vervaeke",
+"title": "Ep. 35 - Awakening from the Meaning Crisis - The Symbol, Sacredness, and the Sacred",
+"min": 56,
+"views": 41000,
+"s": 0.7093,
+"judged": false
+},
+{
+"id": "veeRAy1uT7g",
+"speaker": "rajarshi-nandy",
+"title": "PRATYANGIRA | Divine Protection When All Else Fails",
+"min": 28,
+"views": 203139,
+"s": 0.6579,
+"judged": true
+}
+],
+"divine/the-one": [
+{
+"id": "vZEUo_sHoBw@2101",
+"speaker": "filip-holm",
+"title": "Alone with the Alone: union with the One",
+"min": 10,
+"views": 503207,
+"s": 0.7396,
+"judged": true
+},
+{
+"id": "ViwDmuPepIM",
+"speaker": "eric-steinhart",
+"title": "Plotinus Emanation",
+"min": 8,
+"views": 7504,
+"s": 0.6375,
+"judged": false
+},
+{
+"id": "7L0L_zqBF4I",
+"speaker": "theodore-nottingham",
+"title": "Ground of the Soul: The Simple Oneness of Meister Eckhart",
+"min": 6,
+"views": 15966,
+"s": 0.5968,
+"judged": true
+},
+{
+"id": "lNqnNjsGExM",
+"speaker": "angela-puca",
+"title": "Plotinus & Iamblichus on Magic and Theurgy",
+"min": 16,
+"views": 26000,
+"s": 0.601,
+"judged": false
+},
+{
+"id": "rm5E0Vhggw8",
+"speaker": "gregory-sadler",
+"title": "Plato's Republic book 6 | Likeness Between The Sun and The Good",
+"min": 14,
+"views": 10177,
+"s": 0.5083,
+"judged": false
+},
+{
+"id": "g7rMEeq80A8",
+"speaker": "angela-voss",
+"title": "The Four Senses and Neoplatonism with Angela Voss Beyond Flatland",
+"min": 29,
+"views": 532,
+"s": 0.4715,
+"judged": false
+}
+],
+"divine/goddess": [
+{
+"id": "sxAuVA4HubY",
+"speaker": "swami-lakshmanjoo",
+"title": "The aspects of Lord Shiva - Svātantrya Shakti in Kashmir Shaivism",
+"min": 10,
+"views": 2931,
+"s": 0.8254,
+"judged": true
+},
+{
+"id": "SPqm5_nEwGI",
+"speaker": "swami-dayananda-saraswati",
+"title": "Devi Jnaneshwari by Swami Dayananda Saraswati ji || Swami Sachidananda’s Rendition",
+"min": 4,
+"views": 3000,
+"s": 0.7842,
+"judged": false
+},
+{
+"id": "tdWG9AhcMRk",
+"speaker": "mark-dyczkowski",
+"title": "The Discovery of Shakti",
+"min": 33,
+"views": 42128,
+"s": 0.7255,
+"judged": true
+},
+{
+"id": "zcK_Er0_p0g",
+"speaker": "swami-sarvadevananda",
+"title": "Kali, The Mother",
+"min": 56,
+"views": 9000,
+"s": 0.6753,
+"judged": true
+},
+{
+"id": "JKU4mREjST4",
+"speaker": "swami-tyagananda",
+"title": "The Story of Durga",
+"min": 36,
+"views": 1700,
+"s": 0.6711,
+"judged": false
+},
+{
+"id": "yhJE-H8VCp8",
+"speaker": "sthaneshwar-timalsina",
+"title": "What We Fantasize Becomes Our Body - Excerpts from Tripura Rahasya Course",
+"min": 6,
+"views": 33402,
+"s": 0.6594,
+"judged": false
+},
+{
+"id": "CV8AHs4Ki4U",
+"speaker": "moshe-idel",
+"title": "The Divine Feminine",
+"min": 5,
+"views": 3200,
+"s": 0.6525,
+"judged": false
+},
+{
+"id": "yFBEmlNqAWg",
+"speaker": "yogi-matsyendranath-maharaj",
+"title": "Шива и Шакти | Shiva and Shakti [English subtitles]",
+"min": 15,
+"views": 13000,
+"s": 0.6446,
+"judged": false
+}
+],
+"freedom": [
+{
+"id": "xC7ZtUdS46A",
+"speaker": "jiddu-krishnamurti",
+"title": "The mind can be free from conditioning",
+"min": 7,
+"views": 32248,
+"s": 0.7486,
+"judged": true
+},
+{
+"id": "Hk82zt6fyz8",
+"speaker": "ajahn-sumedho",
+"title": "Ego, Cultural Conditioning and Thinking",
+"min": 46,
+"views": 9100,
+"s": 0.7703,
+"judged": true
+},
+{
+"id": "70VmBMH9kNs",
+"speaker": "joseph-goldstein",
+"title": "Insight Hour Ep. 164",
+"min": 56,
+"views": 24769,
+"s": 0.7591,
+"judged": true
+},
+{
+"id": "WtNscoeUjlI",
+"speaker": "barry-magid",
+"title": "Giving equal weight to our conditioning and our freedom",
+"min": 19,
+"views": 134,
+"s": 0.4916,
+"judged": true
+},
+{
+"id": "xlyuGSwaZQ8",
+"speaker": "tara-brach",
+"title": "Healing Shame | A Guided Meditation with Tara Brach",
+"min": 13,
+"views": 229244,
+"s": 0.7783,
+"judged": false
+},
+{
+"id": "UI97-orjXN8",
+"speaker": "francis-lucille",
+"title": "The investigation about the true nature of self has to be thorough",
+"min": 8,
+"views": 4090,
+"s": 0.6656,
+"judged": false
+}
+],
+"imaginal": [
+{
+"id": "5kw-t1FF_3k",
+"speaker": "swami-sarvapriyananda",
+"title": "Worlds of Our Imagination",
+"min": 53,
+"views": 144000,
+"s": 0.8179,
+"judged": true
+},
+{
+"id": "kkykBqApP4A",
+"speaker": "john-vervaeke",
+"title": "Ep. 49 - Awakening from the Meaning Crisis - Corbin and Jung",
+"min": 57,
+"views": 39000,
+"s": 0.7073,
+"judged": false
+},
+{
+"id": "vT-nq-pezis",
+"speaker": "tom-cheetham",
+"title": "The Life of Henry Corbin: A Voyage Toward the Light",
+"min": 18,
+"views": 21000,
+"s": 0.6394,
+"judged": true
+},
+{
+"id": "EWabmnZrvIM",
+"speaker": "bernardo-kastrup",
+"title": "Getting what you actually want (how to follow your daimon)",
+"min": 26,
+"views": 70000,
+"s": 0.6413,
+"judged": false
+},
+{
+"id": "4pk7p9OnqNU",
+"speaker": "tara-brach",
+"title": "Guided Meditation: Letting Go of Judgment Through Presence and Imagination",
+"min": 7,
+"views": 4300,
+"s": 0.665,
+"judged": false
+},
+{
+"id": "D8-U6cxydns",
+"speaker": "sthaneshwar-timalsina",
+"title": "Imperfect vs. Perfect Imagination - Excerpts from Tripura Rahasya Course",
+"min": 5,
+"views": 8088,
+"s": 0.6074,
+"judged": false
+},
+{
+"id": "RxHs8Y9vifo",
+"speaker": "william-chittick",
+"title": "The Imaginal Realm: Sufism, Myth, and the Mythic Imagination w/ William Chittick",
+"min": 7,
+"views": 1100,
+"s": 0.5825,
+"judged": true
+},
+{
+"id": "EZGl_ryu4Bs",
+"speaker": "geoffrey-cornelius",
+"title": "Geoffrey Cornelius, Limits of Rational Discourse in the Realm of the Daimon - Part 1",
+"min": 15,
+"views": 415,
+"s": 0.507,
+"judged": true
+}
+]
+}
+}

@@ -37,7 +37,7 @@ export function toJsonLd(kind, r, data) {
       const items = r.units.flatMap((u) => u.items.map((it) => it.ref.id))
       const list = { '@type': 'ItemList', itemListOrder: r.ordered ? 'https://schema.org/ItemListOrderAscending' : 'https://schema.org/ItemListUnordered',
         itemListElement: items.map((g, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@id': `${SITE}/${g}` } })) }
-      if (r.kind === 'journey' || r.kind === 'syllabus') return { '@type': 'Course', ...base, name: r.title, description: r.intro, provider: { '@type': 'Organization', name: 'Satsang', url: SITE },
+      if (r.kind === 'journey' || r.kind === 'syllabus' || r.kind === 'mini-course') return { '@type': 'Course', ...base, name: r.title, description: r.intro, provider: { '@type': 'Organization', name: 'Satsang', url: SITE },
         hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseSchedule: r.cadence ? { '@type': 'Schedule', repeatFrequency: 'P1D', repeatCount: r.cadence.days } : undefined },
         syllabusSections: r.units.map((u) => ({ '@type': 'Syllabus', name: u.title, description: u.intro })), hasPart: list, license: r.license && LICENSE }
       if (r.kind === 'meditation-series' || r.kind === 'visualisation-cycle') return { '@type': 'CreativeWorkSeries', ...base, name: r.title, description: r.intro, hasPart: list, license: LICENSE }

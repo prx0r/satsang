@@ -3,7 +3,7 @@
 // cautions above step 1, needsTeacher gate, source link, related talks, the dark timer, log to the device). Data:
 // data/wisegraph/collections.json (tools/build-collections.py). Dark design: whero/wsec/pprog/pprg/rail/tile/wchip only.
 
-const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus' }
+const KIND = { set: 'Set', journey: 'Journey', 'meditation-series': 'Meditation series', 'visualisation-cycle': 'Visualisation cycle', syllabus: 'Syllabus', 'mini-course': 'Course' }
 const ROLE = { watch: 'Watch', read: 'Read', practise: 'Practise', listen: 'Listen', visit: 'Visit', reflect: 'Reflect' }
 
 export function createCollections(d) {

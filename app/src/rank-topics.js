@@ -82,7 +82,8 @@ export function createRanker(ctx) {
     const sec = ctx.played(c) || 0
     const lenFit = sec >= 240 && sec <= 1200 ? 1 : sec >= 120 ? 0.75 : 0.4
     const thin = n < 3 ? 0.15 : 0
-    return Math.max(0, 0.35 * btP + 0.15 * comp + 0.2 * depth + 0.15 * (I.vp.get(c.id) ?? 0.5) + 0.15 * lenFit - thin)
+    const tierB = c.gold ? 0.12 : c.strong ? 0.05 : 0 // editorial gold / strong tier (tools/build-gold.py): the flash and hubs prefer them
+    return Math.max(0, 0.35 * btP + 0.15 * comp + 0.2 * depth + 0.15 * (I.vp.get(c.id) ?? 0.5) + 0.15 * lenFit - thin + tierB)
   }
   const topicConf = (c, t) => { const n = (c.topics || []).length; return (c.topics || []).includes(t) ? (n <= 2 ? 0.9 : n <= 4 ? 0.8 : 0.7) : 0.5 }
   // RANKING §2 similarity; teacher pages use topic overlap instead (§8)
@@ -175,6 +176,7 @@ export function createRanker(ctx) {
       let r = aff == null ? base : 0.55 * aff + 0.45 * base
       r -= 0.3 * (seen[c.speaker || c.comic] || 0) // session fatigue
       if (opts.preferVertical && ctx.vertical(c)) r += 0.25 // phone: vertical first per slot
+      if (c.gold) r += 0.08 // Topic flash prefers gold: an editorially read talk leads when the fit is close
       return r
     }
     const main = cands.filter((c) => tier(c.speaker || c.comic) === 'main')

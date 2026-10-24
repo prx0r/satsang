@@ -581,6 +581,1257 @@
      ]
     }
    ]
+  },
+  {
+   "id": "how-buddhist-rebirth-works",
+   "title": "How Buddhist rebirth works",
+   "topic": "rebirth",
+   "tradition": "buddhism",
+   "school": "theravada",
+   "traditions": [
+    "theravada",
+    "tibetan"
+   ],
+   "level": "first-steps",
+   "minutes": 95,
+   "intro": "What the Buddha taught about death and the next life, why it is not the reincarnation of a soul, and how the Tibetan tradition maps the passage between lives. Five talks, one reflection, two short readings.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What happens at death",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:EWFSAFHpx_U@440",
+       "note": "Start here: the Theravada picture of dying and what conditions the next birth."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "If there is no self, what is reborn?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:O8OiOPhGWbE",
+       "note": "The classic puzzle, answered from the suttas."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Kamma drives the process",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:tzwN8i6gXio",
+       "note": "Why rebirth and kamma belong together, and why that is good news."
+      },
+      {
+       "role": "read",
+       "ref": "text:karma",
+       "note": "A short essay on kamma, free from Access to Insight.",
+       "title": "Karma",
+       "url": "https://www.accesstoinsight.org/lib/authors/thanissaro/karma.html"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Reflect on the round",
+     "items": [
+      {
+       "role": "practise",
+       "ref": "practice:recollecting-the-round",
+       "note": "Ten minutes with the Buddha's reflection on the long round of births (SN 15:3)."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "The Tibetan view",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:LqTa_ubCoRY",
+       "note": "Rebirth in the Tibetan tradition, with stories, from a scholar trained by the Dalai Lama."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Between lives: the bardo",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:PuBZ5ohp_c0",
+       "note": "The four bardos in four minutes."
+      },
+      {
+       "role": "read",
+       "ref": "text:does-rebirth-make-sense",
+       "note": "Bhikkhu Bodhi weighs whether rebirth makes sense to a modern mind.",
+       "title": "Does Rebirth Make Sense?",
+       "url": "https://www.accesstoinsight.org/lib/authors/bodhi/bps-essay_46.html"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:amaravati",
+     "note": "Thai forest monastery in England; retreats and weekend teachings.",
+     "name": "Amaravati Buddhist Monastery",
+     "country": "GB"
+    },
+    {
+     "ref": "place:kopan",
+     "note": "Tibetan monastery in Nepal known for its month-long introductory course.",
+     "name": "Kopan Monastery",
+     "country": "NP"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "remembering-past-lives",
+   "title": "Past lives: what the texts say, and the ground to stand on",
+   "topic": "rebirth",
+   "tradition": "buddhism",
+   "school": "theravada",
+   "traditions": [
+    "theravada"
+   ],
+   "level": "steady",
+   "minutes": 70,
+   "orientationOnly": true,
+   "caution": "Orientation only. The recollection of former lives is traditionally developed under a teacher, after deep concentration is mastered. No results are promised, and memories that seem to surface can be imagination.",
+   "intro": "The suttas and the Visuddhimagga describe recollecting former lives as a by-product of a very calm mind, never a goal. Hear how teachers in the forest tradition explain it, build the real foundation (steady breath meditation), and read the sources yourself.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What the suttas mean by it",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:_4BFX_qhhyk",
+       "note": "A forest monk on seeing past lives, and why it matters less than people think."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Through meditation, not technique",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:HGo0NbOROFY",
+       "note": "How deep stillness is said to open this memory."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The foundation: the breath",
+     "items": [
+      {
+       "role": "practise",
+       "ref": "practice:mindfulness-of-breathing",
+       "note": "The groundwork the texts insist on. Begin here, daily."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Meditation as the window",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:EWFSAFHpx_U@900",
+       "note": "Why a still mind is the best way to understand rebirth at all."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Do you have to believe it?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:sVc45SXDrEQ",
+       "note": "A direct answer: practice does not hang on belief."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "The sources, and the practice as the texts give it",
+     "items": [
+      {
+       "role": "practise",
+       "ref": "practice:recollection-of-past-lives-orientation",
+       "note": "What the manuals describe, shown for orientation only."
+      },
+      {
+       "role": "read",
+       "ref": "text:mn-4-fear-terror-bhaya-bherava-sutta",
+       "note": "MN 4: the Buddha's own account of the three knowledges.",
+       "title": "MN 4 · Fear & Terror (Bhaya-bherava Sutta)",
+       "url": "https://www.dhammatalks.org/suttas/MN/MN4.html"
+      },
+      {
+       "role": "read",
+       "ref": "url:https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+       "url": "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+       "title": "Visuddhimagga, chapter XIII (The Path of Purification, tr. Ñāṇamoli)",
+       "note": "Free from Access to Insight: the classical manual's chapter on the higher knowledges."
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:bodhinyana",
+     "note": "Ajahn Brahm's monastery in Western Australia, known for teaching deep calm.",
+     "name": "Bodhinyana Monastery",
+     "country": "AU"
+    },
+    {
+     "ref": "place:abhayagiri",
+     "note": "Thai forest monastery in California with retreats and long stays.",
+     "name": "Abhayagiri Buddhist Monastery",
+     "country": "US"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "kashmir-shaivism-first-steps",
+   "title": "Kashmir Shaivism: first steps",
+   "topic": "texts/tantra",
+   "tradition": "hindu",
+   "school": "kashmir-shaivism",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "level": "first-steps",
+   "minutes": 95,
+   "intro": "The non-dual tantra of Kashmir in five talks: how its last great master taught meditation, what tantra really is, why the world is not an illusion, and the Recognition teaching. Two short practices from the tradition's own texts.",
+   "units": [
+    {
+     "n": 1,
+     "title": "How to meditate in this tradition",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:Ffxb0NWuYIc",
+       "note": "Swami Lakshmanjoo, the last master of the oral lineage, in eight minutes."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "What tantra really is",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:ttdm75hJBf8",
+       "note": "Clearing away the modern myths."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The world is not an illusion",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:k5J9E1Uu1UA",
+       "note": "Where this tradition parts company with classical Vedanta."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "The Recognition teaching",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:hzCiQDZQzcU",
+       "note": "An introduction to the Recognition Sutras."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:recognition-pratyabhijna-contemplation",
+       "note": "Ten minutes of the Recognition contemplation."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "A practice from the Vijnana Bhairava",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:Xi2X0xQ62XQ",
+       "note": "A guided practice by the text's best-known English translator."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:resting-in-the-gap-between-breaths-vijnana-bhairava-dharana",
+       "note": "Resting in the gap between breaths."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Read",
+     "items": [
+      {
+       "role": "read",
+       "ref": "text:siva-sutras-english-translation-by-subhash-kak",
+       "note": "The Shiva Sutras, free.",
+       "title": "Śiva Sūtras, English translation by Subhash Kak",
+       "url": "https://sanskritdocuments.org/doc_shiva/shivasuutra.html"
+      },
+      {
+       "role": "read",
+       "ref": "url:https://tantra112.app/vijnana-bhairava-tantra",
+       "url": "https://tantra112.app/vijnana-bhairava-tantra",
+       "title": "Vijnana Bhairava Tantra: all 112 practices (Tantra 112)",
+       "note": "The full text, free to read online (link only)."
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:ishwar-ashram-srinagar",
+     "note": "Swami Lakshmanjoo's ashram in Srinagar, kept by his trust.",
+     "name": "Ishwar Ashram (Ishber), Srinagar — Ishwar Ashram Trust",
+     "country": "IN"
+    },
+    {
+     "ref": "place:kashmir-shaiva-institute-jammu",
+     "note": "The trust's institute in Jammu.",
+     "name": "Kashmir Shaiva Institute (Ishwar Ashram Trust), Jammu",
+     "country": "IN"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "advaita-self-enquiry",
+   "title": "Self-enquiry: who am I?",
+   "topic": "self/self-enquiry",
+   "tradition": "hindu",
+   "school": "advaita",
+   "traditions": [
+    "advaita"
+   ],
+   "level": "first-steps",
+   "minutes": 70,
+   "intro": "Ramana Maharshi's question, taught by three living teachers: what the enquiry is, how to do it, and what it is not. One practice to take into the day.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Why Ramana matters",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:lYsXkJzyXoo",
+       "note": "What one man's awakening at sixteen means for you."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "How to practise",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:Lb3PzxwEKCQ",
+       "note": "The clearest practical guide to self-enquiry on video."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:self-enquiry",
+       "note": "Five minutes, twice a day."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Who am I if not the knower?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:ghISLiSlUCQ",
+       "note": "A crisp Vedanta enquiry into the witness."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Enquiry and abidance",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:zDKKqE-5jFU",
+       "note": "Asking the question, then resting as the answer."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "What enquiry is not",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:v3iGgNJsH0Y",
+       "note": "A traditional teacher's warning against collecting information."
+      },
+      {
+       "role": "read",
+       "ref": "text:the-real-and-the-apparent-man",
+       "note": "Vivekananda on the real and the apparent self, free.",
+       "title": "The Real and the Apparent Man",
+       "url": "https://www.ramakrishnavivekananda.info/vivekananda/volume_2/jnana-yoga/the_real_and_the_apparent_man.htm"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:sri-ramanasramam",
+     "note": "Ramana Maharshi's ashram at Tiruvannamalai.",
+     "name": "Sri Ramanasramam",
+     "country": "IN"
+    },
+    {
+     "ref": "place:arsha-vidya-saylorsburg",
+     "note": "Traditional Vedanta courses in Pennsylvania.",
+     "name": "Arsha Vidya Gurukulam",
+     "country": "US"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "anapanasati-breath",
+   "title": "Mindfulness of breathing",
+   "topic": "meditation/breath",
+   "tradition": "buddhism",
+   "school": "theravada",
+   "traditions": [
+    "theravada",
+    "plum-village"
+   ],
+   "level": "first-steps",
+   "minutes": 90,
+   "intro": "The Buddha's own meditation, from the first breath to a whole path. Four teachers from three lines, two practices, and the discourse itself.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Why the breath",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:eyM_c3wSh8s",
+       "note": "Goenka's introduction: why start with the breath, and how."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Breathing in, breathing out",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:gAeRaxV-nJ8",
+       "note": "The Plum Village way, simple and kind."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:mindfulness-of-breathing",
+       "note": "Ten minutes, daily."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The basics of anapanasati",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:MJ3cgh-mV8E",
+       "note": "The method as the early suttas give it."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Breath as a whole path",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:ywqCEckKXbc",
+       "note": "From the Thai forest line of Ajaan Lee."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:anapanasati-breath-meditation-method-2",
+       "note": "Ajaan Lee's method for working with breath energy."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "The path to clarity",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:nUCMU5kDeoU",
+       "note": "A longer talk from the abbot of Abhayagiri."
+      },
+      {
+       "role": "read",
+       "ref": "text:mn-118-mindfulness-of-breathing",
+       "note": "MN 118, the discourse on mindfulness of breathing.",
+       "title": "MN 118 · Mindfulness of Breathing",
+       "url": "https://www.dhammatalks.org/suttas/MN/MN118.html"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:abhayagiri",
+     "note": "Thai forest monastery in California.",
+     "name": "Abhayagiri Buddhist Monastery",
+     "country": "US"
+    },
+    {
+     "ref": "place:gaia-house",
+     "note": "Insight retreat centre in Devon.",
+     "name": "Gaia House",
+     "country": "GB"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "metta-loving-kindness",
+   "title": "Loving-kindness, step by step",
+   "topic": "kindness",
+   "tradition": "buddhism",
+   "school": "theravada",
+   "traditions": [
+    "theravada",
+    "insight",
+    "plum-village",
+    "tibetan"
+   ],
+   "level": "first-steps",
+   "minutes": 100,
+   "intro": "Metta from the teacher who brought it West, a forest monk who calls it serious practice, Ajahn Brahm at his warmest, a guided sit, and the Tibetan widening into bodhicitta.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What loving-kindness is",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:YYGqpYtFcQM",
+       "note": "Sharon Salzberg, in twelve minutes."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "A serious practice",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:sEGyLEoDu8I",
+       "note": "Not a soft option: metta as training."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:metta-loving-kindness",
+       "note": "Five minutes a day to start."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "A guided sit",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:5luvQp--B8U",
+       "note": "Thich Nhat Hanh's love meditation."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Freeing problems with metta",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:OswcrsyGQN0",
+       "note": "Ajahn Brahm at his best: kindness meets real life."
+      },
+      {
+       "role": "read",
+       "ref": "text:sn-1-8-goodwill-karaniya-metta-sutta",
+       "note": "The Karaniya Metta Sutta, free.",
+       "title": "Sn 1:8 · Goodwill (Karaṇīya Mettā Sutta)",
+       "url": "https://www.dhammatalks.org/suttas/KN/StNp/StNp1_8.html"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Widening the circle: bodhicitta",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:cZCwVMYX0nM",
+       "note": "The mind of love and awakening."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:tonglen",
+       "note": "Tonglen, the Tibetan practice of giving and taking."
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:ims-barre",
+     "note": "Insight Meditation Society, Massachusetts: metta retreats each year.",
+     "name": "Insight Meditation Society",
+     "country": "US"
+    },
+    {
+     "ref": "place:plum-village",
+     "note": "Thich Nhat Hanh's community in France.",
+     "name": "Plum Village Monastery",
+     "country": "FR"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "contemplating-death",
+   "title": "Contemplating death",
+   "topic": "death",
+   "tradition": "buddhism",
+   "school": "theravada",
+   "traditions": [
+    "theravada",
+    "plum-village",
+    "tibetan"
+   ],
+   "level": "steady",
+   "minutes": 100,
+   "caution": "Reflections on death can stir grief. Go gently, and set the course aside if it overwhelms you.",
+   "intro": "The Buddhist reflection on death as a source of freedom rather than fear: why to practise it, how the suttas teach it, how to rehearse it, and a gentle view of where we go.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Why remember death",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:5SBrCdRTX8o",
+       "note": "Maranasati explained warmly by a Canadian abbot."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "How the suttas teach it",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:8Xy01jkEsnQ@93",
+       "note": "Recollecting death, step by step."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:mindfulness-of-death-maranasati",
+       "note": "Morning and evening, five minutes."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Thinking calmly about death",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:TigyAJhht3A",
+       "note": "Steady and unsentimental."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:the-five-remembrances",
+       "note": "The five daily remembrances."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Death as teacher",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:y2793IaOnxQ",
+       "note": "A Thai-forest elder on looking forward to death."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Where do we go?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:SvcTgmF4Xug",
+       "note": "Thich Nhat Hanh's gentle answer."
+      },
+      {
+       "role": "read",
+       "ref": "text:salla-sutta-the-arrow",
+       "note": "The Salla Sutta: the arrow of grief.",
+       "title": "Salla Sutta: The Arrow",
+       "url": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.3.08.than.html"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:amaravati",
+     "note": "Thai forest monastery in England.",
+     "name": "Amaravati Buddhist Monastery",
+     "country": "GB"
+    },
+    {
+     "ref": "place:cittaviveka",
+     "note": "Forest monastery in Sussex.",
+     "name": "Chithurst Buddhist Monastery",
+     "country": "GB"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "neoplatonic-contemplation",
+   "title": "Plotinus and the ascent to the One",
+   "topic": "divine/the-one",
+   "tradition": "platonic",
+   "school": "neoplatonism",
+   "traditions": [
+    "platonic"
+   ],
+   "level": "steady",
+   "minutes": 60,
+   "intro": "The Western contemplative root: Plotinus' map of the One, Intellect and Soul, why the soul descends, how it turns back, and what \"alone with the Alone\" means. Two practices from the Platonic tradition.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Who was Plotinus?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:3KLPrLrR67o",
+       "note": "Six minutes for complete beginners."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "One, Intellect, Soul",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:vZEUo_sHoBw@1102",
+       "note": "The three levels of reality, clearly drawn."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Why the soul fell",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:fJgeKlPZxmY",
+       "note": "The descent of the soul into a body."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "The ascent",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:vZEUo_sHoBw@1606",
+       "note": "Turning back and taking part in what is higher."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:neoplatonic-contemplation",
+       "note": "Turning attention from objects to the knowing."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Alone with the Alone",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:vZEUo_sHoBw@2101",
+       "note": "Union with the One."
+      },
+      {
+       "role": "watch",
+       "ref": "clip:Cvs52cBjpgU@3449",
+       "note": "A lifelong Platonist on contemplating the One."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:practising-dying-melete-thanatou",
+       "note": "The Platonic practice of rehearsing death."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Read",
+     "items": [
+      {
+       "role": "read",
+       "ref": "text:plotinos-complete-works-4-vols",
+       "note": "The Enneads (Guthrie's translation), free.",
+       "title": "Plotinos: Complete Works (4 vols)",
+       "url": "https://www.gutenberg.org/ebooks/42930"
+      },
+      {
+       "role": "read",
+       "ref": "text:phaedo",
+       "note": "Plato's Phaedo, free.",
+       "title": "Phaedo",
+       "url": "https://www.gutenberg.org/ebooks/1658"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:plato-academy",
+     "note": "The site of Plato's Academy in Athens: a visit, not a retreat.",
+     "name": "Platonic Academy",
+     "country": "GR"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "hermetic-orientation",
+   "title": "Hermeticism and the Middle Pillar: an orientation",
+   "topic": "gnosis",
+   "tradition": "esoteric",
+   "school": "hermeticism",
+   "traditions": [
+    "esoteric"
+   ],
+   "level": "first-steps",
+   "minutes": 75,
+   "orientationOnly": true,
+   "caution": "Orientation only. The Middle Pillar belongs to the Golden Dawn's ritual curriculum and is learned within an order or from a qualified teacher. Energy visualisation is not for times of acute mental-health difficulty.",
+   "intro": "Where Western esotericism comes from: the Hermetic writings, the Golden Dawn, and its best-known exercise shown in outline. A scholar's history first, then one contemplative reading of the Corpus Hermeticum.",
+   "units": [
+    {
+     "n": 1,
+     "title": "The Hermetic writings",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:kHHTt6Yiv5U",
+       "note": "An introduction to the Corpus Hermeticum."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "The Hermetic God",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:Mi8AC_rmL00",
+       "note": "God and the craftsman of the world in the Hermetica."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Ascent and rebirth in the Hermetica",
+     "items": [
+      {
+       "role": "practise",
+       "ref": "practice:hermetic-ascent-and-rebirth-corpus-hermeticum-xiii",
+       "note": "A contemplative reading of Corpus Hermeticum XIII."
+      },
+      {
+       "role": "read",
+       "ref": "text:the-divine-pymander-corpus-hermeticum",
+       "note": "The Divine Pymander, free.",
+       "title": "The Divine Pymander (Corpus Hermeticum)",
+       "url": "https://en.wikisource.org/wiki/The_Divine_Pymander"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "The Golden Dawn",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:T_dtVqD0d9c",
+       "note": "History and structure of the order."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "The Middle Pillar, in outline",
+     "items": [
+      {
+       "role": "practise",
+       "ref": "practice:middle-pillar-outline",
+       "note": "What the exercise is, shown for orientation only."
+      }
+     ]
+    }
+   ],
+   "deeper": [],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "christian-contemplative-prayer",
+   "title": "Christian contemplative prayer",
+   "topic": "meditation/prayer",
+   "tradition": "christian",
+   "school": "christian",
+   "traditions": [
+    "christian"
+   ],
+   "level": "first-steps",
+   "minutes": 40,
+   "intro": "The quiet heart of Christianity: the hesychasts and the Cloud of Unknowing, the Jesus Prayer, lectio divina and meditation with a prayer word.",
+   "units": [
+    {
+     "n": 1,
+     "title": "The contemplative tradition",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:r4LoXCl7drQ@1994",
+       "note": "Hesychasm and the Cloud of Unknowing in four minutes."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "The Jesus Prayer",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:03TkFLFTbhk",
+       "note": "Silence and the prayer of the heart, from an Orthodox priest."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:the-jesus-prayer-prayer-of-the-heart",
+       "note": "Ten minutes with the prayer."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Lectio divina",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:YHtsSE2-nOI",
+       "note": "Praying with a Gospel passage, live."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:lectio-divina",
+       "note": "Read, reflect, respond, rest."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Meditation with a prayer word",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:YzoDzlP0mYk",
+       "note": "The WCCM way, in four minutes."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:christian-meditation-with-a-mantra-maranatha",
+       "note": "Twenty minutes with one word."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Read",
+     "items": [
+      {
+       "role": "read",
+       "ref": "text:the-cloud-of-unknowing",
+       "note": "The Cloud of Unknowing, free.",
+       "title": "The Cloud of Unknowing",
+       "url": "https://en.wikisource.org/wiki/The_Cloud_of_Unknowing"
+      },
+      {
+       "role": "read",
+       "ref": "text:the-practice-of-the-presence-of-god",
+       "note": "Brother Lawrence, free.",
+       "title": "The Practice of the Presence of God",
+       "url": "https://www.gutenberg.org/ebooks/5657"
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:wccm-meditatio-house",
+     "note": "The World Community for Christian Meditation in the UK.",
+     "name": "WCCM Meditatio House / The Christian Meditation Community UK",
+     "country": "GB"
+    },
+    {
+     "ref": "place:snowmass",
+     "note": "St Benedict's Monastery, Colorado, home of Centering Prayer.",
+     "name": "St. Benedict's Monastery",
+     "country": "US"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "sufi-remembrance",
+   "title": "Sufi remembrance (dhikr)",
+   "topic": "meditation/prayer",
+   "tradition": "sufism",
+   "school": "sufism",
+   "traditions": [
+    "sufism"
+   ],
+   "level": "first-steps",
+   "minutes": 95,
+   "intro": "The Sufi path of love and remembrance: what dhikr is, how breath and the divine name meet, the imaginal world of the Sufis, and the women of the tradition.",
+   "units": [
+    {
+     "n": 1,
+     "title": "What is zikr?",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:0E9efdH7hBQ",
+       "note": "An introduction outdoors with Pir Zia Inayat Khan."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:zikr-remembrance-in-the-inayati-way",
+       "note": "Remembrance in the Inayati way."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Dhikr and the breath",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:SiO6IKavFUA",
+       "note": "Islamic meditation practices, introduced by a scholar of Sufism."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:dhikr-and-breathwork",
+       "note": "Breath and the divine name."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "The imaginal world",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:RxHs8Y9vifo",
+       "note": "The Sufi imaginal realm, from the leading translator of Ibn Arabi."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Mystical love",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:cVSZaxcg6RY",
+       "note": "Mystical love and the women of Sufism."
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:inayati-uk",
+     "note": "The Inayati Order in the UK.",
+     "name": "Inayati Order UK",
+     "country": "GB"
+    },
+    {
+     "ref": "place:beshara-chisholme",
+     "note": "Beshara School in the Scottish Borders: study of Ibn Arabi.",
+     "name": "Beshara School (Chisholme House)",
+     "country": "GB"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
+  },
+  {
+   "id": "zen-just-sitting",
+   "title": "Zen: just sitting",
+   "topic": "meditation/silent-illumination",
+   "tradition": "buddhism",
+   "school": "zen",
+   "traditions": [
+    "soto-zen",
+    "rinzai-zen",
+    "chan"
+   ],
+   "level": "first-steps",
+   "minutes": 100,
+   "intro": "Why Zen sits, what just sitting is, and the two great roads: silent illumination and the koan. Teachers from Soto, Rinzai-style koan practice and Chan.",
+   "units": [
+    {
+     "n": 1,
+     "title": "Why we sit",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:niPekdemiHI",
+       "note": "Fundamentals, from the ground up."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Zazen is not meditation",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:CK2vijpVMFo",
+       "note": "A Soto teacher on just sitting."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:shikantaza-just-sitting",
+       "note": "Just sitting, ten minutes."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Silent illumination",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:njRtKLonBtk",
+       "note": "Clear instructions from a Chan teacher."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:silent-illumination-mozhao",
+       "note": "Silent illumination."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "The koan road",
+     "items": [
+      {
+       "role": "watch",
+       "ref": "clip:ivCzQx7DQJs",
+       "note": "Why Mu? The essential koan."
+      },
+      {
+       "role": "practise",
+       "ref": "practice:koan-practice-with-mu",
+       "note": "Working with Mu."
+      }
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "ref": "place:sanshin-zen",
+     "note": "Shohaku Okumura's Soto community in Indiana.",
+     "name": "Sanshin Zen Community",
+     "country": "US"
+    },
+    {
+     "ref": "place:mountain-cloud",
+     "note": "Mountain Cloud Zen Center, Santa Fe.",
+     "name": "Mountain Cloud Zen Center",
+     "country": "US"
+    }
+   ],
+   "kind": "mini-course",
+   "author": "Satsang",
+   "ordered": true
   }
  ]
 }

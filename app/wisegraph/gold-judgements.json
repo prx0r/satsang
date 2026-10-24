@@ -1,0 +1,1656 @@
+{
+ "_note": "Editorial gold reading (Satsang own words; no transcript quotes). Source: tools/gold_judgements_src.py. Read by tools/build-gold.py.",
+ "round": 1,
+ "judged": "2026-10-24",
+ "gold": {
+  "_4BFX_qhhyk": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "A forest monk explains what the suttas say about recollecting past lives and why it matters less than people think.",
+   "round": 1
+  },
+  "HGo0NbOROFY": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "How deep meditation is said to open memory of earlier lives, told plainly and without hype.",
+   "round": 1
+  },
+  "EWFSAFHpx_U@440": {
+   "topics": [
+    "rebirth",
+    "death"
+   ],
+   "why": "The Theravada picture of what happens at death and how the next life is conditioned, in seven clear minutes.",
+   "round": 1
+  },
+  "EWFSAFHpx_U@900": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "Why the mind in meditation is the best window on rebirth, from a monk who has taught it for decades.",
+   "round": 1
+  },
+  "bvbRu5I5Lt4": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "A careful case for why rebirth still matters for practice, not just for metaphysics.",
+   "round": 1
+  },
+  "O8OiOPhGWbE": {
+   "topics": [
+    "rebirth",
+    "self"
+   ],
+   "why": "Answers the classic puzzle: if there is no self, what is reborn?",
+   "round": 1
+  },
+  "tzwN8i6gXio": {
+   "topics": [
+    "rebirth",
+    "kamma"
+   ],
+   "why": "Kamma and rebirth set out as the Buddha used them: tools for skilful action, not fatalism.",
+   "round": 1
+  },
+  "sVc45SXDrEQ": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "Is belief in rebirth required to practise? A direct answer from the early-sutta angle.",
+   "round": 1
+  },
+  "U3DMApVU2VQ": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "The Hindu account of reincarnation in ten minutes: the subtle body, karma and the way out.",
+   "round": 1
+  },
+  "P4dnj0M8T2o": {
+   "topics": [
+    "rebirth",
+    "rebirth/western"
+   ],
+   "why": "Krishnamurti turns the question round: what is it that we want to continue?",
+   "round": 1
+  },
+  "ZZdqd10-yc8": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "A non-dual teacher on reincarnation: what seems to travel, and what never moves.",
+   "round": 1
+  },
+  "LqTa_ubCoRY": {
+   "topics": [
+    "rebirth"
+   ],
+   "why": "The Tibetan view of rebirth with stories, from a scholar who studied with the Dalai Lama.",
+   "round": 1
+  },
+  "QY3tE-leTaU": {
+   "topics": [
+    "rebirth/samsara"
+   ],
+   "why": "A senior Western monk on samsara as a felt pattern you can see in daily life, not a distant cosmology.",
+   "round": 1
+  },
+  "7NNXCFK7Pes": {
+   "topics": [
+    "rebirth/samsara"
+   ],
+   "why": "Samvega, the sobering sense of the round, as fuel for practice.",
+   "round": 1
+  },
+  "HgR6YrJDUR8@258": {
+   "topics": [
+    "rebirth/western"
+   ],
+   "why": "Pythagoras and the Greek idea of the soul passing between lives, told vividly.",
+   "round": 1
+  },
+  "97eWPOP0bRU": {
+   "topics": [
+    "rebirth/western"
+   ],
+   "why": "A philosopher lays out how Plotinus thought souls descend and return.",
+   "round": 1
+  },
+  "SvcTgmF4Xug": {
+   "topics": [
+    "death"
+   ],
+   "why": "Thich Nhat Hanh on where we go when we die: one of the gentlest talks on death anywhere.",
+   "round": 1
+  },
+  "y2793IaOnxQ": {
+   "topics": [
+    "death"
+   ],
+   "why": "A Thai-forest elder on meeting death as a teacher rather than an enemy.",
+   "round": 1
+  },
+  "8Xy01jkEsnQ@93": {
+   "topics": [
+    "death"
+   ],
+   "why": "How to recollect death the way the suttas teach it, step by step.",
+   "round": 1
+  },
+  "5SBrCdRTX8o": {
+   "topics": [
+    "death"
+   ],
+   "why": "A clear, warm talk on maranasati, the Buddhist reflection on death, and why it frees rather than frightens.",
+   "round": 1
+  },
+  "vFRT56raOGk": {
+   "topics": [
+    "death"
+   ],
+   "why": "Meditation as rehearsal for the moment of death: practical and unsentimental.",
+   "round": 1
+  },
+  "OIYMMfLEKY8": {
+   "topics": [
+    "death"
+   ],
+   "why": "The Dalai Lama on death as part of life, in three minutes.",
+   "round": 1
+  },
+  "nIZrBtSdshM": {
+   "topics": [
+    "death"
+   ],
+   "why": "The non-dual case that awareness itself is neither born nor dies.",
+   "round": 1
+  },
+  "PuBZ5ohp_c0": {
+   "topics": [
+    "death/bardo"
+   ],
+   "why": "The four bardos explained simply by a Kagyu teacher.",
+   "round": 1
+  },
+  "hQkHx7IDbSg": {
+   "topics": [
+    "death/bardo"
+   ],
+   "why": "What the bardo is, from a Bön master, in six minutes.",
+   "round": 1
+  },
+  "QNMF4wLP3VA": {
+   "topics": [
+    "death/bardo"
+   ],
+   "why": "How to read the so-called Tibetan Book of the Dead, from its best-known translator.",
+   "round": 1
+  },
+  "92SoU_OJKZw": {
+   "topics": [
+    "death/bardo"
+   ],
+   "why": "An introduction to the bardo teachings of Jigme Lingpa on dying well.",
+   "round": 1
+  },
+  "B7I4jP9s8bQ": {
+   "topics": [
+    "kamma"
+   ],
+   "why": "Why people have different karma, answered with Thich Nhat Hanh's usual simplicity.",
+   "round": 1
+  },
+  "H9R0OfjDVRw": {
+   "topics": [
+    "kamma"
+   ],
+   "why": "Kamma and its results explained from the forest tradition, without superstition.",
+   "round": 1
+  },
+  "wWBM7QFlC3Y": {
+   "topics": [
+    "kamma"
+   ],
+   "why": "How to weather the storms of old karma with skill.",
+   "round": 1
+  },
+  "yJMqULiDtOM": {
+   "topics": [
+    "kamma"
+   ],
+   "why": "The law of karma in Advaita Vedanta, one of the most watched talks on the subject.",
+   "round": 1
+  },
+  "m7TB9MRtZ2w": {
+   "topics": [
+    "kamma/karma-yoga"
+   ],
+   "why": "How to reconcile spiritual and worldly life through karma yoga.",
+   "round": 1
+  },
+  "yFN9hk_ytFE": {
+   "topics": [
+    "kamma/karma-yoga"
+   ],
+   "why": "Karma yoga as a move from acting out of desire to acting without it.",
+   "round": 1
+  },
+  "hXd09oGHD0I": {
+   "topics": [
+    "self"
+   ],
+   "why": "Ajahn Brahm's much-loved talk on not-self and self-esteem: funny and freeing.",
+   "round": 1
+  },
+  "IAIGzxeevXI": {
+   "topics": [
+    "self"
+   ],
+   "why": "Not-self as a method you can apply, not a doctrine to believe.",
+   "round": 1
+  },
+  "ghISLiSlUCQ": {
+   "topics": [
+    "self",
+    "self/self-enquiry"
+   ],
+   "why": "Who am I if not the knower? A crisp Vedanta enquiry.",
+   "round": 1
+  },
+  "o1IYLfCThcw": {
+   "topics": [
+    "self"
+   ],
+   "why": "Is \"I am\" the problem? A careful sutta-based look at the conceit of self.",
+   "round": 1
+  },
+  "Lb3PzxwEKCQ": {
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "why": "The clearest practical guide to self-enquiry on video.",
+   "round": 1
+  },
+  "zDKKqE-5jFU": {
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "why": "The difference between enquiring into the self and resting as it.",
+   "round": 1
+  },
+  "Pzjz2QF2lRA@473": {
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "why": "Nisargadatta on what the sense \"I am\" depends on: rare archival teaching.",
+   "round": 1
+  },
+  "v3iGgNJsH0Y": {
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "why": "Why self-enquiry is not collecting information: a traditional Vedanta teacher's warning.",
+   "round": 1
+  },
+  "yK6aTOzcjQw": {
+   "topics": [
+    "self/emptiness"
+   ],
+   "why": "Emptiness made warm and practical by a forest monk.",
+   "round": 1
+  },
+  "dmArGum9mAY": {
+   "topics": [
+    "self/emptiness",
+    "emotions"
+   ],
+   "why": "The Dalai Lama on emptiness and compassion as the two antidotes to destructive emotion.",
+   "round": 1
+  },
+  "wiQNJmX62s8": {
+   "topics": [
+    "self/emptiness"
+   ],
+   "why": "Two senior teachers explain emptiness in plain language.",
+   "round": 1
+  },
+  "Ffxb0NWuYIc": {
+   "topics": [
+    "meditation",
+    "texts/tantra"
+   ],
+   "why": "Swami Lakshmanjoo, the last great master of the Kashmir lineage, on how to meditate in his tradition.",
+   "round": 1
+  },
+  "Oh5ii6R6LTM": {
+   "topics": [
+    "meditation",
+    "meditation/breath"
+   ],
+   "why": "Goenka's simple anapana instruction, open to anyone.",
+   "round": 1
+  },
+  "OOHH6pxYi8A": {
+   "topics": [
+    "meditation"
+   ],
+   "why": "Mingyur Rinpoche on the essence of meditation: awareness you already have.",
+   "round": 1
+  },
+  "niPekdemiHI": {
+   "topics": [
+    "meditation"
+   ],
+   "why": "Why we sit, explained from the ground up by a Zen teacher.",
+   "round": 1
+  },
+  "gAeRaxV-nJ8": {
+   "topics": [
+    "meditation/breath"
+   ],
+   "why": "Breathing in, breathing out: the Plum Village way of coming home to the breath.",
+   "round": 1
+  },
+  "MJ3cgh-mV8E": {
+   "topics": [
+    "meditation/breath"
+   ],
+   "why": "The basics of anapanasati from a teacher close to the early suttas.",
+   "round": 1
+  },
+  "ywqCEckKXbc": {
+   "topics": [
+    "meditation/breath"
+   ],
+   "why": "Breath meditation as a complete path, from the Thai forest lineage of Ajaan Lee.",
+   "round": 1
+  },
+  "nUCMU5kDeoU": {
+   "topics": [
+    "meditation/breath"
+   ],
+   "why": "Mindfulness of breathing as a road to clarity, from the abbot of Abhayagiri.",
+   "round": 1
+  },
+  "eyM_c3wSh8s": {
+   "topics": [
+    "meditation/breath"
+   ],
+   "why": "Goenka's introduction to anapana: why the breath, and how to begin.",
+   "round": 1
+  },
+  "4wWkQl3l0Ek": {
+   "topics": [
+    "meditation/guided"
+   ],
+   "why": "A guided meditation on letting experience go and recognising what knows it.",
+   "round": 1
+  },
+  "5GSeWdjyr1c": {
+   "topics": [
+    "meditation/guided"
+   ],
+   "why": "A guided practice on body, space and awareness: ideal for beginners.",
+   "round": 1
+  },
+  "kDn8Dw9Xnlw": {
+   "topics": [
+    "meditation/guided"
+   ],
+   "why": "A short guided reflection on what matters to your heart.",
+   "round": 1
+  },
+  "9eSdroFGv-s": {
+   "topics": [
+    "meditation/mantra"
+   ],
+   "why": "Anandamayi Ma on mantra and japa: rare footage of a revered saint teaching.",
+   "round": 1
+  },
+  "YzoDzlP0mYk": {
+   "topics": [
+    "meditation/mantra"
+   ],
+   "why": "Christian meditation with a prayer word, in four minutes.",
+   "round": 1
+  },
+  "UKGv5qW3lLo": {
+   "topics": [
+    "meditation/mantra"
+   ],
+   "why": "When to use a mantra and when to enquire: a useful comparison.",
+   "round": 1
+  },
+  "fna7IbLoGJo": {
+   "topics": [
+    "meditation/kriya"
+   ],
+   "why": "An introduction to Kriya Yoga from a monk of Yogananda's order.",
+   "round": 1
+  },
+  "17PpS_cgLHY": {
+   "topics": [
+    "meditation/kriya"
+   ],
+   "why": "Natural breathing done well: the subtleties of mindfulness of breath.",
+   "round": 1
+  },
+  "ivCzQx7DQJs": {
+   "topics": [
+    "meditation/koan"
+   ],
+   "why": "Why Mu? A Zen teacher on the essential koan.",
+   "round": 1
+  },
+  "orcbqeFtEIg": {
+   "topics": [
+    "meditation/koan"
+   ],
+   "why": "How to investigate a huatou, from a Chan teacher in Sheng Yen's line.",
+   "round": 1
+  },
+  "aiV8wB6KV2Q": {
+   "topics": [
+    "meditation/koan"
+   ],
+   "why": "Dogen's Genjo Koan read by Roshi Joan Halifax.",
+   "round": 1
+  },
+  "YHtsSE2-nOI": {
+   "topics": [
+    "meditation/prayer"
+   ],
+   "why": "Lectio divina practised live on a Gospel passage.",
+   "round": 1
+  },
+  "03TkFLFTbhk": {
+   "topics": [
+    "meditation/prayer"
+   ],
+   "why": "An Orthodox priest on hesychia, silence and the Jesus Prayer.",
+   "round": 1
+  },
+  "0E9efdH7hBQ": {
+   "topics": [
+    "meditation/prayer"
+   ],
+   "why": "An introduction to zikr, Sufi remembrance, outdoors.",
+   "round": 1
+  },
+  "cJ6hm5lzMvM": {
+   "topics": [
+    "meditation/kundalini"
+   ],
+   "why": "What the Sanskrit sources actually say about kundalini, from a scholar-practitioner.",
+   "round": 1
+  },
+  "LXsQcnm4BRQ": {
+   "topics": [
+    "meditation/kundalini"
+   ],
+   "why": "Kundalini as Kashmir Shaivism understands it, from Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "wl_ZXBMpKXU": {
+   "topics": [
+    "meditation/hatha"
+   ],
+   "why": "Where hatha yoga postures really come from, from the leading historian of the subject.",
+   "round": 1
+  },
+  "Kob7ATrFG48": {
+   "topics": [
+    "meditation/hatha"
+   ],
+   "why": "What real posture means in Kashmir Shaivism.",
+   "round": 1
+  },
+  "DG1k8E_YDjo": {
+   "topics": [
+    "meditation/dzogchen"
+   ],
+   "why": "A lucid lecture on Dzogchen from a scholar and long-time practitioner.",
+   "round": 1
+  },
+  "PkEA0bYGLAM": {
+   "topics": [
+    "meditation/dzogchen"
+   ],
+   "why": "How Zen and Dzogchen differ, from a teacher trained in both.",
+   "round": 1
+  },
+  "amrGu1oHsvQ": {
+   "topics": [
+    "meditation/lojong"
+   ],
+   "why": "A short guided tonglen: breathing in pain, breathing out care.",
+   "round": 1
+  },
+  "SujYqM9ousk": {
+   "topics": [
+    "meditation/lojong"
+   ],
+   "why": "Where Tibetan mind training comes from and what it is for.",
+   "round": 1
+  },
+  "h4w60m4mTlw": {
+   "topics": [
+    "meditation/lojong"
+   ],
+   "why": "Pema Chodron on tonglen and loving oneself and others.",
+   "round": 1
+  },
+  "CK2vijpVMFo": {
+   "topics": [
+    "meditation/silent-illumination"
+   ],
+   "why": "Zazen is not meditation: a Soto teacher on just sitting.",
+   "round": 1
+  },
+  "njRtKLonBtk": {
+   "topics": [
+    "meditation/silent-illumination"
+   ],
+   "why": "Clear instructions on silent illumination from a Chan teacher.",
+   "round": 1
+  },
+  "mVhMBH9co2M": {
+   "topics": [
+    "mindfulness"
+   ],
+   "why": "How to sustain mindfulness through the day, not just on the cushion.",
+   "round": 1
+  },
+  "bTz14oOTcjs": {
+   "topics": [
+    "mindfulness"
+   ],
+   "why": "Why mindfulness? Jack Kornfield's warm eight-minute answer.",
+   "round": 1
+  },
+  "uSDj6J7HHO8": {
+   "topics": [
+    "mindfulness"
+   ],
+   "why": "Patient observation and relaxed awareness, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "end-Om6noQU": {
+   "topics": [
+    "mindfulness"
+   ],
+   "why": "An honest look at the dark side of mindfulness.",
+   "round": 1
+  },
+  "SElMrtn_P7o": {
+   "topics": [
+    "jhana"
+   ],
+   "why": "A detailed guide to entering the first jhana, grounded in the suttas.",
+   "round": 1
+  },
+  "nFlIkr4qrL4": {
+   "topics": [
+    "jhana"
+   ],
+   "why": "Jhana as a treasure within: an inviting introduction from a Canadian abbot.",
+   "round": 1
+  },
+  "1aX7og12n0A": {
+   "topics": [
+    "jhana"
+   ],
+   "why": "Rapture and refreshment: how concentration nourishes the mind.",
+   "round": 1
+  },
+  "rDjUL-qvqi0": {
+   "topics": [
+    "sense-restraint"
+   ],
+   "why": "Why sense restraint is for everyone, not only monks.",
+   "round": 1
+  },
+  "WZIwtdu9Q7s": {
+   "topics": [
+    "sense-restraint"
+   ],
+   "why": "Sense restraint as the quiet root of inner peace.",
+   "round": 1
+  },
+  "FhIkN4C15Pk": {
+   "topics": [
+    "dependent-origination"
+   ],
+   "why": "A beginner's guide to dependent origination as something you see in practice.",
+   "round": 1
+  },
+  "sNjCCKyvOJI": {
+   "topics": [
+    "dependent-origination"
+   ],
+   "why": "Dependent origination link by link from a scholar-monk.",
+   "round": 1
+  },
+  "INAFXpvBD54": {
+   "topics": [
+    "dependent-origination"
+   ],
+   "why": "A Tibetan teacher on dependent origination and emptiness in sixteen minutes.",
+   "round": 1
+  },
+  "dy-RI3FrdGA": {
+   "topics": [
+    "dukkha"
+   ],
+   "why": "The Four Noble Truths from Thich Nhat Hanh: the best short introduction there is.",
+   "round": 1
+  },
+  "LUBEYGMRudU": {
+   "topics": [
+    "dukkha"
+   ],
+   "why": "Why managing your suffering is a trap, and what to do instead.",
+   "round": 1
+  },
+  "vn6szyVLUgU": {
+   "topics": [
+    "dukkha"
+   ],
+   "why": "If God exists, why is there suffering? A thoughtful Vedanta answer.",
+   "round": 1
+  },
+  "VmgSp8FfbWo": {
+   "topics": [
+    "dukkha"
+   ],
+   "why": "Not getting what you want as a doorway into the first noble truth.",
+   "round": 1
+  },
+  "L50xVM7wwss": {
+   "topics": [
+    "craving"
+   ],
+   "why": "Ajahn Brahm on what to put in place of attachment.",
+   "round": 1
+  },
+  "Mp7gKZ-9rk4": {
+   "topics": [
+    "craving",
+    "emotions/anger"
+   ],
+   "why": "How to overcome desire and anger, from Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "JDo2h6JZoTA@528": {
+   "topics": [
+    "craving"
+   ],
+   "why": "Craving seen through emptiness, signlessness and aimlessness.",
+   "round": 1
+  },
+  "ny71L92YnFk": {
+   "topics": [
+    "craving/sensuality"
+   ],
+   "why": "The pressure of sensuality and how to stop feeding it.",
+   "round": 1
+  },
+  "vTy0i_6DESQ": {
+   "topics": [
+    "craving/sensuality"
+   ],
+   "why": "The dangers of sensuality, without moralising.",
+   "round": 1
+  },
+  "USC5MJVZLy8": {
+   "topics": [
+    "renunciation"
+   ],
+   "why": "Four ways of letting go: Ajahn Brahm's most watched talk, and rightly.",
+   "round": 1
+  },
+  "NiZ9bRIIC2M": {
+   "topics": [
+    "renunciation"
+   ],
+   "why": "Letting go of identities, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "OJyTfj9Y9a4": {
+   "topics": [
+    "renunciation"
+   ],
+   "why": "A three-step practice of letting go you can use today.",
+   "round": 1
+  },
+  "mk_z6tBbDj4": {
+   "topics": [
+    "emotions"
+   ],
+   "why": "Ajahn Sumedho on emotions: neither suppress nor indulge, just know.",
+   "round": 1
+  },
+  "9mDKT1VaAqQ": {
+   "topics": [
+    "emotions"
+   ],
+   "why": "Handling strong emotions, the Plum Village way.",
+   "round": 1
+  },
+  "Q1ZyZvubpEw": {
+   "topics": [
+    "emotions"
+   ],
+   "why": "Meditating with emotions instead of against them.",
+   "round": 1
+  },
+  "R6O42-CAHgo": {
+   "topics": [
+    "emotions/anger"
+   ],
+   "why": "Irritation dissected with humour and wisdom.",
+   "round": 1
+  },
+  "dFVcAEqvLek": {
+   "topics": [
+    "emotions/anger",
+    "emotions/fear"
+   ],
+   "why": "Fear, anger and survival: a short teaching from Thich Nhat Hanh.",
+   "round": 1
+  },
+  "guEGCYcxa8M": {
+   "topics": [
+    "emotions/anger"
+   ],
+   "why": "Lama Yeshe on fear, anger and action.",
+   "round": 1
+  },
+  "uIMWm5JnNrE": {
+   "topics": [
+    "emotions/fear"
+   ],
+   "why": "No Fear: Ajahn Brahm on why fear dissolves when looked at.",
+   "round": 1
+  },
+  "AAb0Xfpx75w": {
+   "topics": [
+    "emotions/fear"
+   ],
+   "why": "Krishnamurti on observing fear without escaping it.",
+   "round": 1
+  },
+  "n6hsQTFNMic": {
+   "topics": [
+    "emotions/fear"
+   ],
+   "why": "A short meditation for anxiety and panic.",
+   "round": 1
+  },
+  "HD6l2jKwT6k": {
+   "topics": [
+    "emotions/sadness"
+   ],
+   "why": "Loneliness and the illusion of connection: a late talk by Thich Nhat Hanh.",
+   "round": 1
+  },
+  "EJTQOAPzwkk": {
+   "topics": [
+    "emotions/sadness"
+   ],
+   "why": "A brief, steady instruction on overcoming depression.",
+   "round": 1
+  },
+  "WdGzYBdHUro": {
+   "topics": [
+    "emotions/sadness"
+   ],
+   "why": "Loneliness and spiritual friendship, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "7O937dHmNxE": {
+   "topics": [
+    "emotions/boredom"
+   ],
+   "why": "Boredom as an opening rather than a problem.",
+   "round": 1
+  },
+  "L2PEY9aU0Mk": {
+   "topics": [
+    "emotions/boredom"
+   ],
+   "why": "Boredom, anger and bliss as one teaching, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "u_yLDHcH6LI": {
+   "topics": [
+    "relationships"
+   ],
+   "why": "Should I keep seeing a father who makes me suffer? A compassionate answer.",
+   "round": 1
+  },
+  "Iq78itxR_98": {
+   "topics": [
+    "relationships",
+    "death"
+   ],
+   "why": "A tender dialogue with a mother whose son took his life.",
+   "round": 1
+  },
+  "TVnqrA1V2Nw": {
+   "topics": [
+    "relationships"
+   ],
+   "why": "A blunt sutta-based look at what relationships cost the mind.",
+   "round": 1
+  },
+  "piY2y_XMFN0": {
+   "topics": [
+    "impermanence"
+   ],
+   "why": "Celebrating uncertainty: impermanence as relief, not threat.",
+   "round": 1
+  },
+  "oiExTtmh_EI": {
+   "topics": [
+    "impermanence"
+   ],
+   "why": "Seeing impermanence clearly enough that attachment loosens.",
+   "round": 1
+  },
+  "Y8nw-CS1cRU": {
+   "topics": [
+    "impermanence"
+   ],
+   "why": "The wisdom of impermanence in seven minutes.",
+   "round": 1
+  },
+  "I2YqlHhGxnQ": {
+   "topics": [
+    "daily-life"
+   ],
+   "why": "How a layperson can make real progress in Dhamma.",
+   "round": 1
+  },
+  "wLHgdYRlWwE": {
+   "topics": [
+    "daily-life"
+   ],
+   "why": "Not-self as a daily practice, at work and at home.",
+   "round": 1
+  },
+  "5n2vktwACww": {
+   "topics": [
+    "daily-life"
+   ],
+   "why": "Swami Lakshmanjoo on keeping awareness between meditations.",
+   "round": 1
+  },
+  "wr73gmuhjiQ": {
+   "topics": [
+    "right-view"
+   ],
+   "why": "How to tell whether you have right view.",
+   "round": 1
+  },
+  "ugBPVLsM7Qg": {
+   "topics": [
+    "right-view"
+   ],
+   "why": "Right view in five minutes, Plum Village style.",
+   "round": 1
+  },
+  "vPKv7hAy_Fs": {
+   "topics": [
+    "right-view"
+   ],
+   "why": "Beliefs versus wisdom, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "V5ChX59Ik9U": {
+   "topics": [
+    "awakening",
+    "texts"
+   ],
+   "why": "The first of twelve classes on Shankara's Nirvana Shatkam from a great Vedanta teacher.",
+   "round": 1
+  },
+  "wRYIULjK-Fk": {
+   "topics": [
+    "awakening"
+   ],
+   "why": "Why freedom begins with stream entry.",
+   "round": 1
+  },
+  "WhVkmmlw6Nw": {
+   "topics": [
+    "awakening"
+   ],
+   "why": "Krishnamurti asked directly: what is enlightenment?",
+   "round": 1
+  },
+  "su5ISL8zeSY": {
+   "topics": [
+    "awakening"
+   ],
+   "why": "What happens after enlightenment, according to Vedanta.",
+   "round": 1
+  },
+  "6rPtQQMGR9E": {
+   "topics": [
+    "awakening"
+   ],
+   "why": "Knowing your true nature, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "lEPiQZP54aA": {
+   "topics": [
+    "awakening/buddha-nature"
+   ],
+   "why": "How training lets Buddha-nature show itself.",
+   "round": 1
+  },
+  "YpPJ1KgIBH8": {
+   "topics": [
+    "awakening/buddha-nature"
+   ],
+   "why": "Does a dog have Buddha nature? The famous question, answered by a Soto teacher.",
+   "round": 1
+  },
+  "8iLXpNIVMyo": {
+   "topics": [
+    "awakening/buddha-nature"
+   ],
+   "why": "Buddha nature discussed by three teachers from Tibetan lines.",
+   "round": 1
+  },
+  "bGtA6eKn8mE": {
+   "topics": [
+    "feeling"
+   ],
+   "why": "Feeling only one feeling: a key point of the suttas made practical.",
+   "round": 1
+  },
+  "KKBDXcmRpAY": {
+   "topics": [
+    "feeling"
+   ],
+   "why": "This body is not me: a Thich Nhat Hanh teaching on feelings and the body.",
+   "round": 1
+  },
+  "lPP7ih7xQUo": {
+   "topics": [
+    "feeling"
+   ],
+   "why": "Opening to feelings, from a Tibetan teacher known for his work with emotions.",
+   "round": 1
+  },
+  "A3jWvfWwyaY": {
+   "topics": [
+    "thought"
+   ],
+   "why": "Thinking on purpose and watching thought, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "kswDO60A3h8": {
+   "topics": [
+    "thought"
+   ],
+   "why": "Observing versus thinking about oneself: classic Krishnamurti.",
+   "round": 1
+  },
+  "VPbDWcKVklA": {
+   "topics": [
+    "thought"
+   ],
+   "why": "Am I thinking, or watching the thinking? A four-minute pointer.",
+   "round": 1
+  },
+  "0nz9a1dYdN0": {
+   "topics": [
+    "defilements"
+   ],
+   "why": "How to withstand the defilements when they arise.",
+   "round": 1
+  },
+  "b78H_gLjrCo": {
+   "topics": [
+    "defilements"
+   ],
+   "why": "Why the hindrances are attractive, and how to see through them.",
+   "round": 1
+  },
+  "b2JRMEDQORM": {
+   "topics": [
+    "consciousness"
+   ],
+   "why": "What is mind? What is consciousness? Thich Nhat Hanh answers.",
+   "round": 1
+  },
+  "o2CHix9ia7M": {
+   "topics": [
+    "consciousness",
+    "texts/tantra"
+   ],
+   "why": "The first Shiva Sutra explained by Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "N-NYI57KwV0": {
+   "topics": [
+    "consciousness"
+   ],
+   "why": "The difference between consciousness, mind and thought.",
+   "round": 1
+  },
+  "LUXa7HMAxk8": {
+   "topics": [
+    "consciousness"
+   ],
+   "why": "Mind or witness? A quick Vedanta distinction.",
+   "round": 1
+  },
+  "2_-7tsmcWWI": {
+   "topics": [
+    "consciousness/states"
+   ],
+   "why": "Is there consciousness in deep sleep? The Vedanta argument.",
+   "round": 1
+  },
+  "35uysHau-8Q": {
+   "topics": [
+    "consciousness/states"
+   ],
+   "why": "The three states and Om in the Mandukya Upanishad.",
+   "round": 1
+  },
+  "dKzhiZaDtJw": {
+   "topics": [
+    "consciousness/states"
+   ],
+   "why": "How can I know I am aware in deep sleep? A patient dialogue.",
+   "round": 1
+  },
+  "gMoRtJhVoxc": {
+   "topics": [
+    "kindness"
+   ],
+   "why": "How do I love myself? Thich Nhat Hanh's most watched answer.",
+   "round": 1
+  },
+  "OswcrsyGQN0": {
+   "topics": [
+    "kindness"
+   ],
+   "why": "Freeing problems with metta: Ajahn Brahm at his best.",
+   "round": 1
+  },
+  "YYGqpYtFcQM": {
+   "topics": [
+    "kindness"
+   ],
+   "why": "Loving-kindness explained by the teacher who brought it to the West.",
+   "round": 1
+  },
+  "sEGyLEoDu8I": {
+   "topics": [
+    "kindness"
+   ],
+   "why": "Metta as a serious practice, not a soft option.",
+   "round": 1
+  },
+  "5luvQp--B8U": {
+   "topics": [
+    "kindness"
+   ],
+   "why": "A guided love meditation from Thich Nhat Hanh.",
+   "round": 1
+  },
+  "GjOvoq-8xl0": {
+   "topics": [
+    "kindness/compassion"
+   ],
+   "why": "The way of the bodhisattva, from Mingyur Rinpoche.",
+   "round": 1
+  },
+  "cZCwVMYX0nM": {
+   "topics": [
+    "kindness/compassion"
+   ],
+   "why": "Bodhicitta, the mind of love, in fourteen minutes.",
+   "round": 1
+  },
+  "gCNsjj9MEg0": {
+   "topics": [
+    "kindness/compassion"
+   ],
+   "why": "Pema Chodron on what bodhicitta really is.",
+   "round": 1
+  },
+  "wm1t5FyK5Ek": {
+   "topics": [
+    "kindness/compassion"
+   ],
+   "why": "RAIN, a widely used practice of self-compassion, guided.",
+   "round": 1
+  },
+  "ASYIiDuZ6xU": {
+   "topics": [
+    "faith"
+   ],
+   "why": "Is God good? Thich Nhat Hanh's open-hearted answer.",
+   "round": 1
+  },
+  "5Dk4EIe-qyk": {
+   "topics": [
+    "faith"
+   ],
+   "why": "How worship fits inside non-dual Vedanta.",
+   "round": 1
+  },
+  "3QOXgh3dMXU": {
+   "topics": [
+    "faith"
+   ],
+   "why": "Finding refuge within uncertainty, from the Abhayagiri abbot.",
+   "round": 1
+  },
+  "Wdhr3wN1ms4": {
+   "topics": [
+    "faith/bhakti"
+   ],
+   "why": "Devotion as Kashmir Shaivism understands it.",
+   "round": 1
+  },
+  "mQiwyZG-Bmg": {
+   "topics": [
+    "faith/bhakti"
+   ],
+   "why": "The Narada Bhakti Sutra introduced by a Chinmaya Mission head.",
+   "round": 1
+  },
+  "xNvtEv5uVPE": {
+   "topics": [
+    "faith/bhakti"
+   ],
+   "why": "Archival footage of Anandamayi Ma speaking, with subtitles.",
+   "round": 1
+  },
+  "YixVXLRuvVM": {
+   "topics": [
+    "faith/grace"
+   ],
+   "why": "How grace falls on the worthy and unworthy alike, from Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "2oKyxbzGfuo": {
+   "topics": [
+    "faith/grace"
+   ],
+   "why": "Grace in spiritual life, from a Ramakrishna Order monk.",
+   "round": 1
+  },
+  "bzdLyxkQAlw": {
+   "topics": [
+    "faith/pure-land"
+   ],
+   "why": "Walking in the Pure Land with each step: a Plum Village teaching.",
+   "round": 1
+  },
+  "HPXkFr5JH3Q": {
+   "topics": [
+    "faith/pure-land"
+   ],
+   "why": "Master Sheng Yen on the Pure Land path.",
+   "round": 1
+  },
+  "B2WAJWpcMvg": {
+   "topics": [
+    "faith/pure-land"
+   ],
+   "why": "A scholar explains Pure Land Buddhism for newcomers.",
+   "round": 1
+  },
+  "8ZHXrXbz2Gw": {
+   "topics": [
+    "faith/ritual"
+   ],
+   "why": "Your organs are gods: Swami Lakshmanjoo on the inner meaning of ritual.",
+   "round": 1
+  },
+  "IvDDugzAgfk@2938": {
+   "topics": [
+    "faith/ritual"
+   ],
+   "why": "The leading scholar of Shaiva ritual on what ritual is for.",
+   "round": 1
+  },
+  "YECxkpJ20ck": {
+   "topics": [
+    "faith/ritual"
+   ],
+   "why": "Worship as a spiritual practice, from a Vedanta monk.",
+   "round": 1
+  },
+  "i5teUsZUSk0": {
+   "topics": [
+    "texts"
+   ],
+   "why": "A close reading of the first discourse of the Middle Length Sayings.",
+   "round": 1
+  },
+  "5ieoVJ4dDSw": {
+   "topics": [
+    "texts"
+   ],
+   "why": "Part of a celebrated series on the Mandukya Upanishad.",
+   "round": 1
+  },
+  "jiD3KVoDCt8": {
+   "topics": [
+    "texts"
+   ],
+   "why": "What the Gospel of Thomas is, clearly explained.",
+   "round": 1
+  },
+  "rXtc78cM4c4": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "The opening verses of the Vijnana Bhairava Tantra, translated and explained.",
+   "round": 1
+  },
+  "hzCiQDZQzcU": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "An introduction to the Recognition Sutras, the core text of Kashmir Shaivism.",
+   "round": 1
+  },
+  "1kBPUTrmvNs": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "Bettina Baumer introduces the Pratyabhijnahrdayam.",
+   "round": 1
+  },
+  "NBZ-19e6ZhY": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "Spanda, the creative pulse of consciousness, explained by Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "k5J9E1Uu1UA": {
+   "topics": [
+    "reality",
+    "reality/maya"
+   ],
+   "why": "Why the world is not an illusion in Kashmir Shaivism: a four-minute shift of view.",
+   "round": 1
+  },
+  "5e0OCQ9K6xQ": {
+   "topics": [
+    "reality"
+   ],
+   "why": "You are not what you think: Ajahn Sumedho on thought and reality.",
+   "round": 1
+  },
+  "xsWP6WVksAc": {
+   "topics": [
+    "reality"
+   ],
+   "why": "The first of a thirteen-part Advaita course with Francis Lucille.",
+   "round": 1
+  },
+  "CfBNLj7F_00": {
+   "topics": [
+    "reality/maya"
+   ],
+   "why": "The two faces of maya: the one that binds and the one that frees.",
+   "round": 1
+  },
+  "GMEsszfBYMo": {
+   "topics": [
+    "reality/nonduality"
+   ],
+   "why": "Shankara and Advaita Vedanta in one well-made overview.",
+   "round": 1
+  },
+  "fnRuVmO9VfQ": {
+   "topics": [
+    "reality/nonduality"
+   ],
+   "why": "Nonduality explained four ways: what exactly is not-two?",
+   "round": 1
+  },
+  "Oqdmodm9-Sg": {
+   "topics": [
+    "reality/nonduality"
+   ],
+   "why": "Advaita and Buddhism on consciousness, compared by a scholar-practitioner.",
+   "round": 1
+  },
+  "FF503RdDMZA": {
+   "topics": [
+    "guru"
+   ],
+   "why": "Real devotion and initiation in Kashmir Shaivism.",
+   "round": 1
+  },
+  "Dwg4SnSGD_g": {
+   "topics": [
+    "guru"
+   ],
+   "why": "Is formal initiation needed, or can you learn from videos? An honest answer.",
+   "round": 1
+  },
+  "8GIEccfrGMU": {
+   "topics": [
+    "guru"
+   ],
+   "why": "No guru or god can do it for you: Chinmayananda on self-effort.",
+   "round": 1
+  },
+  "vZEUo_sHoBw@1102": {
+   "topics": [
+    "soul",
+    "divine/the-one"
+   ],
+   "why": "Plotinus' map of the One, Intellect and Soul, told clearly.",
+   "round": 1
+  },
+  "fJgeKlPZxmY": {
+   "topics": [
+    "soul"
+   ],
+   "why": "Why, for Plotinus, the soul fell into a body.",
+   "round": 1
+  },
+  "zDYqL8fo1IM": {
+   "topics": [
+    "soul"
+   ],
+   "why": "Each soul is potentially divine: Vivekananda's idea explained.",
+   "round": 1
+  },
+  "hEiwmhQdPPA": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "Who the archons are in Gnostic myth, from a scholar of esotericism.",
+   "round": 1
+  },
+  "ockwMVE7PgM@1648": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "Seth and the Sethian Gnostics: a vivid overview.",
+   "round": 1
+  },
+  "n7gyFiJ6iCQ": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "The Zohar's primordial light, from its English translator.",
+   "round": 1
+  },
+  "tYjYL448-yY": {
+   "topics": [
+    "divine"
+   ],
+   "why": "Does God exist? Krishnamurti's classic answer.",
+   "round": 1
+  },
+  "CRz7Q5JycX0@779": {
+   "topics": [
+    "divine"
+   ],
+   "why": "Dionysius on the divine names: the root of Christian negative theology.",
+   "round": 1
+  },
+  "uSC_OoIl7hQ": {
+   "topics": [
+    "divine"
+   ],
+   "why": "The divinity hidden in the heart, from a traditional Vedanta teacher.",
+   "round": 1
+  },
+  "vZEUo_sHoBw@2101": {
+   "topics": [
+    "divine/the-one"
+   ],
+   "why": "Alone with the Alone: Plotinus on union with the One.",
+   "round": 1
+  },
+  "Cvs52cBjpgU@3449": {
+   "topics": [
+    "divine/the-one"
+   ],
+   "why": "A lifelong Platonist on contemplating the One.",
+   "round": 1
+  },
+  "7L0L_zqBF4I": {
+   "topics": [
+    "divine/the-one"
+   ],
+   "why": "Meister Eckhart's ground of the soul, briefly.",
+   "round": 1
+  },
+  "tdWG9AhcMRk": {
+   "topics": [
+    "divine/goddess"
+   ],
+   "why": "The discovery of Shakti, from a scholar who lived in Varanasi for decades.",
+   "round": 1
+  },
+  "sxAuVA4HubY": {
+   "topics": [
+    "divine/goddess"
+   ],
+   "why": "Shiva's freedom as Shakti, from Swami Lakshmanjoo.",
+   "round": 1
+  },
+  "zcK_Er0_p0g": {
+   "topics": [
+    "divine/goddess"
+   ],
+   "why": "Kali, the Mother, from a Ramakrishna Order swami.",
+   "round": 1
+  },
+  "5kw-t1FF_3k": {
+   "topics": [
+    "imaginal"
+   ],
+   "why": "Worlds of our imagination, in a long and rich Vedanta talk.",
+   "round": 1
+  },
+  "vT-nq-pezis": {
+   "topics": [
+    "imaginal"
+   ],
+   "why": "The life of Henry Corbin, who named the imaginal world.",
+   "round": 1
+  },
+  "RxHs8Y9vifo": {
+   "topics": [
+    "imaginal"
+   ],
+   "why": "The imaginal realm in Sufism, from the leading translator of Ibn Arabi.",
+   "round": 1
+  },
+  "xC7ZtUdS46A": {
+   "topics": [
+    "freedom"
+   ],
+   "why": "Can the mind be free of conditioning? Krishnamurti says yes.",
+   "round": 1
+  },
+  "Hk82zt6fyz8": {
+   "topics": [
+    "freedom"
+   ],
+   "why": "Ego, cultural conditioning and thinking, from Ajahn Sumedho.",
+   "round": 1
+  },
+  "Xi2X0xQ62XQ": {
+   "topics": [
+    "texts/tantra",
+    "meditation/guided"
+   ],
+   "why": "A guided practice from the Vijnana Bhairava Tantra by its best-known English translator.",
+   "round": 1
+  },
+  "ttdm75hJBf8": {
+   "topics": [
+    "texts/tantra"
+   ],
+   "why": "What tantra really is, setting the record straight.",
+   "round": 1
+  },
+  "j8wecNq3VAM": {
+   "topics": [
+    "meditation",
+    "texts/tantra"
+   ],
+   "why": "The stages of yoga in Kashmir Shaivism, from its last great master.",
+   "round": 1
+  },
+  "lYsXkJzyXoo": {
+   "topics": [
+    "self/self-enquiry"
+   ],
+   "why": "What Ramana Maharshi's awakening means for you.",
+   "round": 1
+  },
+  "TigyAJhht3A": {
+   "topics": [
+    "death"
+   ],
+   "why": "How to think calmly about death.",
+   "round": 1
+  },
+  "BZZupDuprhU@1460": {
+   "topics": [
+    "death",
+    "rebirth"
+   ],
+   "why": "Meditation and dying, from a much-watched talk on what happens after death.",
+   "round": 1
+  },
+  "vZEUo_sHoBw@1606": {
+   "topics": [
+    "divine/the-one",
+    "soul"
+   ],
+   "why": "The ascent of the soul in Plotinus and what taking part in it means.",
+   "round": 1
+  },
+  "3KLPrLrR67o": {
+   "topics": [
+    "divine/the-one"
+   ],
+   "why": "Plotinus in six minutes, for complete beginners.",
+   "round": 1
+  },
+  "T_dtVqD0d9c": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "The Golden Dawn's history and structure, from a scholar of esotericism.",
+   "round": 1
+  },
+  "kHHTt6Yiv5U": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "An introduction to the Corpus Hermeticum and Hermetic philosophy.",
+   "round": 1
+  },
+  "SiO6IKavFUA": {
+   "topics": [
+    "meditation/prayer"
+   ],
+   "why": "An introduction to Islamic meditation: dhikr and breath.",
+   "round": 1
+  },
+  "r4LoXCl7drQ@1994": {
+   "topics": [
+    "meditation/prayer"
+   ],
+   "why": "Hesychasm and the Cloud of Unknowing: the West's contemplative prayer in four minutes.",
+   "round": 1
+  },
+  "Mi8AC_rmL00": {
+   "topics": [
+    "gnosis"
+   ],
+   "why": "What the Hermetic writings say about God and the craftsman of the world, from a scholar of esotericism.",
+   "round": 1
+  },
+  "cVSZaxcg6RY": {
+   "topics": [
+    "faith"
+   ],
+   "why": "The Sufi path of mystical love and the women who shaped it.",
+   "round": 1
+  },
+  "8Xy01jkEsnQ@1420": {
+   "topics": [
+    "death"
+   ],
+   "why": "The second part of a guided reflection on death from the suttas.",
+   "round": 1
+  }
+ },
+ "passed": {
+  "AQe27beuyPk": "read, not chosen (round 1)",
+  "3M5Fxmq5c9s": "read, not chosen (round 1)",
+  "692Y_frtRcY": "read, not chosen (round 1)",
+  "MNQhj82jDRQ": "read, not chosen (round 1)",
+  "VAo0VzKZs5g": "read, not chosen (round 1)",
+  "dp3m-JTPjGQ": "read, not chosen (round 1)",
+  "x1nT1i_nvjQ": "read, not chosen (round 1)",
+  "LsR2w3TqTYA": "read, not chosen (round 1)",
+  "GOPcbFhCEj0": "read, not chosen (round 1)",
+  "Z5wv13HsKw0": "read, not chosen (round 1)",
+  "cUqy-flyLRc": "read, not chosen (round 1)",
+  "4yLQ2taFFkI": "read, not chosen (round 1)",
+  "8WJzCwK6Hus": "read, not chosen (round 1)",
+  "ePhCyVJEAxk": "read, not chosen (round 1)",
+  "NMdLdnRyiAk": "read, not chosen (round 1)",
+  "oWTdQ52evpU": "read, not chosen (round 1)",
+  "IiVjN8gtGQQ": "read, not chosen (round 1)",
+  "PBZNVd4KHmA": "read, not chosen (round 1)",
+  "2MiOeYXdfi4": "read, not chosen (round 1)",
+  "wph6RLpSCaE": "read, not chosen (round 1)",
+  "klVzl7la-iQ": "read, not chosen (round 1)",
+  "rbRfCzt4sAk": "read, not chosen (round 1)",
+  "JNpOHvpKzNE": "read, not chosen (round 1)",
+  "WT822q9jC5k": "read, not chosen (round 1)",
+  "p55JW40gsEo": "read, not chosen (round 1)",
+  "08OvbsNoo38": "read, not chosen (round 1)",
+  "WAl7Qae6iHQ": "read, not chosen (round 1)",
+  "ymmMwrnPqVI": "read, not chosen (round 1)",
+  "q3ls-XiNWZM": "read, not chosen (round 1)",
+  "SZ0JKWqRTho": "read, not chosen (round 1)",
+  "Y5lILjazFp0": "read, not chosen (round 1)",
+  "y8h4CqFs34M": "read, not chosen (round 1)",
+  "kNxN5GPq0D0": "read, not chosen (round 1)",
+  "HjIHvDT2xMI": "read, not chosen (round 1)",
+  "jDxO2BCE-Y8": "read, not chosen (round 1)",
+  "veeRAy1uT7g": "read, not chosen (round 1)",
+  "rS0Uui2PX0o": "read, not chosen (round 1)",
+  "kmlgFe17TbM": "read, not chosen (round 1)",
+  "qCT6hayx46c": "read, not chosen (round 1)",
+  "QDo0uz6pa-g": "read, not chosen (round 1)",
+  "a3kJqCrKG0U": "read, not chosen (round 1)",
+  "70VmBMH9kNs": "read, not chosen (round 1)",
+  "YR-g8AzzNsU": "read, not chosen (round 1)",
+  "WtNscoeUjlI": "read, not chosen (round 1)",
+  "EZGl_ryu4Bs": "read, not chosen (round 1)",
+  "4njhZa6E5OY": "read, not chosen (round 1)"
+ }
+}

@@ -21,6 +21,7 @@ import { createForYou } from './foryou.js' // FORYOU.md: the ranked, non-stale r
 import { createIntentions } from './intentions.js' // FORYOU.md §2: goals, current issues, curiosities (private, fading)
 import { createTV } from './tv.js' // FORYOU.md §4 / LOOP.md §4: lean-back TV mode (#tv)
 import { createCollections } from './collections.js' // collections, practices, the timer
+import { createMiniCourses } from './minicourse.js' // #courses + #course/<id>: gold talks in teaching order -> practice -> next
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
 import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
 
@@ -1840,7 +1841,7 @@ function clipTile(c, i, extra) {
   const href = '#watch/' + encodeURIComponent(k.id) // plays on the site, never on YouTube
   const wm = watchMark(k.id)
   return `<a class="tile${wm.cls}" href="${href}"${wm.title ? ` title="${esc(wm.title)}"` : ''}>${i != null ? `<span class="num">${i + 1}</span>` : ''}
-    <div class="poster">${img}${wm.html}<div class="cap"><b>${esc(k.segTitle || k.title)}</b><span>${esc(k.comic)}${k.delivery === 'reading' ? ' · Reading' : k.delivery === 'footage' ? ' · Footage' : ''}${extra ? ' · ' + esc(extra) : ''}</span></div></div></a>`
+    <div class="poster">${img}${wm.html}${k.gold ? `<i class="gmark" title="${esc(typeof k.gold === 'string' ? k.gold : 'Gold')}">Gold</i>` : ''}<div class="cap"><b>${esc(k.segTitle || k.title)}</b><span>${esc(k.comic)}${k.delivery === 'reading' ? ' · Reading' : k.delivery === 'footage' ? ' · Footage' : ''}${extra ? ' · ' + esc(extra) : ''}</span></div></div></a>`
 }
 // a poster: a rights-cleared portrait when we have one, else the comic's first clip frame (zoomed past YouTube's letterbox bars)
 function posterStyle(name) {
@@ -2204,7 +2205,7 @@ function paintTopics() {
   el.innerHTML = `<div class="head"><h2>Topics</h2></div><p class="muted lede">Pick a question and hear how the traditions answer it, side by side. Then compare two takes and keep the one that resonates.</p>
     <div class="topicgrid">${heats.map(card).join('')}</div>
     ${pub ? (() => { const soon = TOPIC_HEATS.filter((h) => !pub.has(h.topic) && (n[h.topic] || 0) > 0); return soon.length ? `<section class="wsec"><div class="wsech"><h3>Talks arriving</h3><span class="muted small">Not enough traditions or teachers yet to compare</span></div><div class="wtopics">${soon.map((h) => `<a class="wchip" href="#topic/${esc(h.topic)}">${esc(h.title)}<small>${n[h.topic]}</small></a>`).join('')}</div></section>` : '' })() : ''}
-    <section class="wsec"><div class="wsech"><h3>Journeys and practices</h3></div><p class="muted">A week with one question, a first syllabus in a tradition, a series of sits.</p><p><a class="hbtn" href="#collections">Open journeys and practices</a></p></section>`
+    <section class="wsec"><div class="wsech"><h3>Courses</h3></div><p class="muted">Short courses built from the talks most worth your time, with a practice for each.</p><p><a class="hbtn" href="#courses">Open the courses</a> <a class="hbtn" href="#collections">Journeys and practices</a></p></section>`
 
 }
 // ---------- wisegraph pages (src/wise.js) ----------
@@ -2232,6 +2233,13 @@ let RANKER = null
 function ranker() {
   return (RANKER ||= createRanker({ clips: () => CLIPS, trad: (id) => wise().tradition(id), ballot: (c) => inBallot(c) && !isUnplayable(c.id), servable, stats: () => STATS,
     hub: (t) => wise().hub(t), label: topicLabelOf, intent: (t) => intentW(t), vertical: (c) => fmtOf(c) === 'vertical', played: (c) => (isVirtual(c) ? clipWin(c) : Number(c.dur) || Number(c.sec) || 0) }))
+}
+// gold tier (tools/build-gold.py -> data/wisegraph/gold.json): editorially read talks with a why-line, plus the strong tier
+let GOLD = { gold: {}, strong: [] }
+async function loadGold() {
+  try { const r = await fetch('data/wisegraph/gold.json', { cache: 'no-cache' }); if (r.ok) GOLD = await r.json() } catch {}
+  for (const [id, g] of Object.entries(GOLD.gold || {})) { const c = BYID[id]; if (c) { c.gold = g.why || 1; c.goldTopics = g.topics || [] } }
+  for (const id of GOLD.strong || []) { const c = BYID[id]; if (c) c.strong = 1 }
 }
 async function loadStats() {
   try { const r = await fetch('data/stats.json', { cache: 'no-cache' }); if (r.ok) STATS = (await r.json()).clips || {} } catch {}
@@ -2370,9 +2378,19 @@ async function paintCol() {
   if (!COLS?.ready()) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'
   await DATA_READY; await Promise.all([wise().load(), cols().load()])
   const h = location.hash, m = h.match(/^#collection\/([a-z0-9-]+)/), p = h.match(/^#practice\/([A-Za-z0-9_.:-]+)(?:\?(.*))?/)
+  if (m && cols().all().find((c) => c.id === m[1] && c.kind === 'mini-course')) { location.replace('#course/' + m[1]); return }
   if (m) cols().paintCollection(el, m[1])
   else if (p) cols().paintPractice(el, p[1], Object.fromEntries(new URLSearchParams(p[2] || '')))
   else cols().paintList(el)
+}
+let MC = null
+const minicourses = () => (MC ||= createMiniCourses({ esc, byId: (id) => BYID[id] || null, thumb, ytId, cols, profile: profile(), label: topicLabelOf, wise }))
+async function paintCourses() {
+  const el = $('#coursesview'); if (!el) return
+  if (!COLS?.ready()) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'
+  await DATA_READY; await Promise.all([wise().load(), cols().load()])
+  const m = location.hash.match(/^#course\/([a-z0-9-]+)(?:\/(\d+))?/)
+  if (m) minicourses().paintCourse(el, m[1], m[2]); else minicourses().paintList(el)
 }
 // a resonance round from a page: two talks from `list`, from different traditions (colOf) when possible, then different
 // teachers, unseen first, never two passages of one video; similar lengths preferred
@@ -4328,7 +4346,7 @@ function tabs() {
     show('flash'); showChrome(2500)
   }
   document.querySelectorAll('[data-sub]').forEach((b) => (b.onclick = () => youSub(b.dataset.sub)))
-  document.querySelectorAll('[data-tab]').forEach((b) => (b.onclick = (e) => { e.preventDefault(); if (b.dataset.tab === 'flash' || b.dataset.tab === 'me') { if (b.dataset.tab === 'me') location.hash = 'me'; else if (location.hash) history.replaceState(null, '', location.pathname + location.search) } if (b.dataset.tab === 'comics') location.hash = TEACHSUB === 'traditions' ? 'traditions' : 'teachers'; if (b.dataset.tab === 'topics') location.hash = 'topics'; if (b.dataset.tab === 'foryou') location.hash = 'foryou'; if (b.dataset.tab === 'places') { if (!/^#(places|place\/|country\/)/.test(location.hash)) location.hash = 'places'; else paintPlaces() } show(b.dataset.tab) }))
+  document.querySelectorAll('[data-tab]').forEach((b) => (b.onclick = (e) => { e.preventDefault(); if (b.dataset.tab === 'flash' || b.dataset.tab === 'me') { if (b.dataset.tab === 'me') location.hash = 'me'; else if (location.hash) history.replaceState(null, '', location.pathname + location.search) } if (b.dataset.tab === 'comics') location.hash = TEACHSUB === 'traditions' ? 'traditions' : 'teachers'; if (b.dataset.tab === 'topics') location.hash = 'topics'; if (b.dataset.tab === 'courses') location.hash = 'courses'; if (b.dataset.tab === 'foryou') location.hash = 'foryou'; if (b.dataset.tab === 'places') { if (!/^#(places|place\/|country\/)/.test(location.hash)) location.hash = 'places'; else paintPlaces() } show(b.dataset.tab) }))
   const route = () => {
     const ic = parseInvite(location.hash)
     if (ic) { history.replaceState(null, '', location.pathname + location.search); show('arena'); openInvite(ic).then((ok) => { if (ok && CLIPS.length) { moving = false; goNext(null) } }); return }
@@ -4344,6 +4362,7 @@ function tabs() {
     if (/^#foryou\b/.test(location.hash)) show('foryou')
     if (/^#tv\b/.test(location.hash)) { show('tv'); openTV(location.hash); return }
     if (/^#(collections|collection\/|practice\/)/.test(location.hash)) { show('col'); paintCol() }
+    if (/^#(courses\b|course\/)/.test(location.hash)) { show('courses'); paintCourses() }
     if (/^#pair\b/.test(location.hash)) { history.replaceState(null, '', location.pathname + location.search); show('arena'); return }
     const fm = location.hash.match(/^#flash\/([a-z0-9/_-]+)/); if (fm) { flashTopic(fm[1], 1); return }
     if (!location.hash) show('flash')
@@ -4356,7 +4375,7 @@ function tabs() {
   tabs()
   SHORT_MAX = devPrefs().maxSec
   await Promise.all([loadData(), loadConfig()])
-  dataReady(); loadStats().then(() => { RANKER?.build && (TASTE_V++) })
+  dataReady(); loadGold().then(() => { if (/^#(topic\/|teacher\/|courses?\b|course\/)/.test(location.hash)) window._route?.() }); loadStats().then(() => { RANKER?.build && (TASTE_V++) })
   SHORT_MAX = devPrefs().maxSec // screening params may set the cap (only when their gate passed)
   await Promise.race([loadClipMeta(), new Promise((r) => setTimeout(r, 1500))]) // durations + crowd loudness; never block the show for long
   MODEL = fitLocal(); TRAITS = fitTraits()

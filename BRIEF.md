@@ -264,3 +264,28 @@ The Cloudflare token is injected on the wire for api.cloudflare.com. The site sh
   each in its own call (scripts in work/wiser-closeout/); then `sh deploy.sh mcp`; then `node mcp/test-client.mjs https://mcp.tantrafiles.xyz`.
   pip install jsonschema if the schema check says it is missing.
 - Repo: engine/ and specs/TEXT-TO-PRACTICE.md are owned and committed by the text-to-practice agent (e.g. 503894e); sync everything else.
+
+## Licensing stance (user, 2026-10-21)
+Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voices) are acceptable with attribution. AGPL ok since repo is public (keep source open). Still preserve all licence notices; Hareesh 2018 text remains link-only (all rights reserved).
+
+## ENGINE MILESTONE 1, 2026-10-21 ~10:30 +07 (engine-v2 agent): visuals + first VBT play SHIPPED
+- Preview LIVE (Worker satsang-engine-preview, redeployed via engine/tools/deploy-preview.mjs): https://engine.tantrafiles.xyz/play/ (Trace the Sound),
+  https://engine.tantrafiles.xyz/figure/ (breathing figure, front + side, ?view=front|side|both&style=…), /demo/ unchanged + a link chip to the play.
+  /talk/ is NOT in this deploy (it was 404 before too); the rt agent's talk/deploy-talk.mjs layers talk/ + rt/ on top of deploy-preview --dry.
+- Repo prx0r/satsang **d8bc213** (engine/ only, on top of the rt agent's 6d35bc6; engine/rt + engine/talk untouched). Secret/transcript scan clean.
+- New: body/figure.mjs (SVG front + side line art: belly→ribs→collarbones, shoulders, lungs, diaphragm, nostril airflow from body/breath.mjs),
+  fx/wave.mjs (wave answers the voice's loudness envelope, travels inward, fades, flat_hold), fx/glow.js (raw WebGL2 instanced additive sprites:
+  breath-synced locus/field glow, prana particles riding the wave; no third-party JS), player/clock.mjs (shared clock: gated narration so each pause
+  starts when the voice stops, live-speech hold, hold-open last silence + rest timer), player/play.js/.css + player/API.md (play, pause, resume,
+  seek_phase, replay_phase(slow), repeat_round, set_level, extend_pause, highlight_locus, show_explainer, speak, end, dispatch, events),
+  practices/vbt-trace-the-sound.json (7 gated segments, ~2:40 + open rest; closest to VBT vv. 38-41, Hareesh blog links + verse numbers only),
+  renders/vbt-trace-the-sound/voice/ (Phonon 31m en, Apache-2.0, catalog voice Everly Apache-2.0, pace 0.45; whisper match 0.99; swappable via
+  tools/media/tts-phonon.py --voice), schema practice-v2 v2.2 + timeline v0.3 (segment blocks, free prims), THIRD_PARTY_NOTICES.md.
+- Tests green: compile 74 (65 + the new practice), pipeline 43, schema 0 errors, test-play 103, test-play-browser 21 (headless API), rt 160, talk 18.
+- Shots: engine/shots/{desktop-figure-front-inhale,desktop-figure-front-exhale,desktop-figure-side-inhale,phone-figure-both-phone,desktop-figure-reduced-motion,
+  phone-trace-start-card,phone-trace-find-a-sound,phone-trace-inward,tv-trace-fading,phone-trace-flat-line-rest,phone-trace-end-card,phone-trace-reduced-motion,tv-trace-tv-inward}.jpg
+  (node engine/tools/shoot-play.mjs; needs sh shot-setup.sh).
+- Known / next: headless software rendering runs the play at ~10 fps (no GPU here; real-device fps unmeasured); the voice (Everly) was picked
+  from catalog descriptions without a human listen, pending the owner's approval; Canvas2D player.js does not draw wave/figure yet (plays use play.js);
+  other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
+  (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).

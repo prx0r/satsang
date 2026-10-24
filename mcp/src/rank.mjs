@@ -13,7 +13,8 @@ export function quality(c, ctx) {
   const completion = c.stats?.completion ?? 0.5
   const thin = sp && (sp.depth?.clips || 0) < 3 ? 0.15 : 0   // thin-teacher penalty (RANKING §5)
   const lenFit = c.seconds >= 240 && c.seconds <= 1200 ? 1 : c.seconds < 120 ? 0.4 : 0.75
-  return Math.max(0, (0.35 * (btConf * bt + (1 - btConf) * 0.5) + 0.15 * completion + 0.2 * depth + 0.15 * viewsPct + 0.15 * lenFit) - thin)
+  const tierB = c.quality?.tier === 'gold' ? 0.12 : c.quality?.tier === 'strong' ? 0.05 : 0 // editorial tier (app/tools/build-gold.py)
+  return Math.max(0, (0.35 * (btConf * bt + (1 - btConf) * 0.5) + 0.15 * completion + 0.2 * depth + 0.15 * viewsPct + 0.15 * lenFit) - thin + tierB)
 }
 
 // Similarity between two clips for diversity: same parent video > same speaker > same tradition > same family.

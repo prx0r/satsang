@@ -59,6 +59,8 @@ export function createWise(ctx) {
     return chain(t).reverse().map((x) => `<a class="wchip${x === cur ? ' on' : ''}" href="#tradition/${esc(x)}">${esc(tLabel(x))}</a>`).join('')
   }
   const rail = (title, list, more = '') => (list.length ? `<section class="wsec"><div class="wsech"><h3>${esc(title)}</h3>${more}</div><div class="rail">${list.slice(0, 40).map((c) => clipTile(c, null, fmtDur(c))).join('')}</div></section>` : '')
+  // gold rail: tiles carry their why-line under the rail (first three), subtle and dark (style.css .wgold)
+  const goldRail = (list, title, sub) => (list.length ? `<section class="wsec wgold"><div class="wsech"><h3><i class="gdot" aria-hidden="true"></i>${esc(title)}</h3><span class="muted small">${esc(sub)}</span></div><div class="rail">${list.slice(0, 16).map((c) => clipTile(c, null, fmtDur(c))).join('')}</div>${list.slice(0, 3).map((c) => (typeof c.gold === 'string' ? `<p class="gwhy"><b>${esc(c.segTitle || c.title)}</b> ${esc(c.gold)}</p>` : '')).join('')}</section>` : '')
   const section = (title, inner, cls = '') => (inner ? `<section class="wsec ${cls}"><div class="wsech"><h3>${esc(title)}</h3></div>${inner}</section>` : '')
   // [[id, type]] -> chips with a face. dir 'by' = edges into this node (teachers, influences), 'inf' = edges out (students).
   // studied_with (looser, medium-confidence links) always reads "Studied with", never Teacher/Student.
@@ -133,6 +135,7 @@ export function createWise(ctx) {
       ${worksHTML(id, p.works)}
       ${p.texts?.length ? `<section class="wsec"><div class="wsech"><h3>Free texts</h3><span class="muted small">${plural(p.texts.length, 'text')}</span></div><div class="pprog">${p.texts.map(essayCard).join('')}</div><p class="muted small">Links to free copies on the publisher\u2019s own site or public-domain editions. Nothing is copied here.</p></section>` : ''}
       ${!talks.length && !full.length && !abt.length && !(p.ro === 'scholar' || p.lo) ? `<section class="wsec"><p class="wsoon">${p.k === 'speaker' ? 'Talks are on their way.' : `Talks about ${esc(p.short || p.n)} are on their way. As teachers who speak about ${p.k === 'text' ? 'it' : 'them'} arrive, they appear here.`}</p></section>` : ''}
+      ${goldRail([...talks, ...full].filter((c) => c.gold), 'Gold', 'Hand-picked: the talks by ' + (p.short || p.n) + ' most worth your time')}
       ${rail(p.k === 'speaker' ? 'Talks by ' + (p.short || p.n) : 'Talks', talks)}
       ${rail('Full talks', full, '<span class="muted small">Over 20 minutes: watch whole, outside the pairs</span>')}
       ${rail('Talks about ' + (p.short || p.n), abt)}
@@ -262,6 +265,7 @@ export function createWise(ctx) {
         ${withTalks < 2 && on.length ? `<p class="muted small">Talks from one tradition so far. Compare two takes pairs different teachers until more traditions arrive.</p>` : ''}
         ${jump.length > 2 ? `<div class="wchips">${jump.map(([id, l]) => `<a class="wchip" href="#topic/${esc(topic)}" data-jump="${id}">${esc(l)}</a>`).join('')}</div>` : ''}
       </div></section>
+      ${goldRail(order([...new Set([...pool, ...clips().filter((c) => (c.goldTopics || []).includes(topic))])].filter((c) => servable(c) && c.delivery !== 'footage').filter((c) => c.gold && ((c.goldTopics || []).includes(topic) || (c.topics || []).includes(topic)))), 'Gold: start here', 'Hand-picked: the talks on ' + label.toLowerCase() + ' most worth your time')}
       <div class="wtakes">${[...cols].map(([k, l]) => { const line = tk.takes?.[k]
         return `<article class="wtake${l.length ? '' : ' soon'}"><a class="wtakeh" href="#tradition/${esc(k)}"><span class="eyebrow">${esc(KIND[T(k)?.kind] || 'Tradition')}</span><b>${esc(tLabel(k))}</b></a>
           ${line ? `<p class="wline">${esc(line)}</p>` : ''}

@@ -221,6 +221,30 @@
    "type": "boolean",
    "description": "Computed: eligible for resonance pairing."
   },
+  "quality": {
+   "type": "object",
+   "description": "Editorial tier (app/tools/build-gold.py). gold = read by an editor and recommended, with a one-line why in Satsang's own words; strong = top ~12% by signals; absent = standard.",
+   "properties": {
+    "tier": {
+     "type": "string",
+     "enum": [
+      "gold",
+      "strong",
+      "standard"
+     ]
+    },
+    "why": {
+     "type": "string",
+     "maxLength": 300
+    },
+    "goldTopics": {
+     "type": "array",
+     "items": {
+      "$ref": "common.json#/$defs/topicPath"
+     }
+    }
+   }
+  },
   "hasTranscript": {
    "type": "boolean",
    "description": "Internal flag only. Transcript text, URL or path is NEVER published."

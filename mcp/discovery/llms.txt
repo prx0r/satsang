@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 724 teachers, scholars and historical figures with 1,118 documented lineage and influence links, 875 places to practise in 51 countries (contacts exactly as each place publishes them, 298 checked against the place's own site), 393 texts and books (104 free from their publishers), 84 practices with cautions, 68 topics compared across traditions and 9,947 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-20.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 724 teachers, scholars and historical figures with 1,118 documented lineage and influence links, 875 places to practise in 51 countries (contacts exactly as each place publishes them, 298 checked against the place's own site), 393 texts and books (104 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,947 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-24.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -19,6 +19,8 @@ Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); co
 - `get_lineage`: Walk teacher-student (dharma) and/or academic lineage edges up and down from a person or tradition.
 - `list_practices`: Practices (meditation, visualisation, enquiry, chant, ritual, movement) with steps in plain words, sources and cautions.
 - `get_collection`: A curated set, journey, meditation series, visualisation cycle or syllabus with its ordered units and items.
+- `list_courses`: Short editorial courses: 3-6 gold talks in a teaching order, 1-3 practices (with cautions; orientation-only ones say so), optional free readings and places to go deeper.
+- `get_course`: One mini-course step by step: each step resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), plus places to go deeper.
 - `recommend`: Stateless recommendations.
 - `fetch`: Fetch one Satsang record by the id returned from search (e.g.
 - `find_places`: Monasteries, retreat centres, ashrams, temples, study centres and sacred sites.

@@ -67,6 +67,18 @@
       "readOnly": true
     },
     {
+      "name": "list_courses",
+      "title": "Mini-courses",
+      "description": "Short editorial courses: 3-6 gold talks in a teaching order, 1-3 practices (with cautions; orientation-only ones say so), optional free readings and places to go deeper. Filter by topic or tradition. Returns {courses:[{id,title,level,topic,minutes,talks,practices,url}]}; pass an id to get_course for the steps.",
+      "readOnly": true
+    },
+    {
+      "name": "get_course",
+      "title": "Mini-course",
+      "description": "One mini-course step by step: each step resolved (talk with YouTube link, length and why it is worth it; practice with steps or the orientation-only note and its cautions; reading with its free link), plus places to go deeper.",
+      "readOnly": true
+    },
+    {
       "name": "recommend",
       "title": "Recommend",
       "description": "Stateless recommendations. Give ids the listener liked (clip ids, person/<id>, topic/<id>, tradition/<id>) and optionally disliked; returns diverse talks (taste x quality, MMR across traditions) and next topics to explore (graph neighbours + information gain). With no likes it returns a cold-start spread.",
@@ -171,5 +183,5 @@
     "code": "MIT",
     "attribution": "Satsang (tantrafiles.xyz)"
   },
-  "updated": "2026-10-20"
+  "updated": "2026-10-24"
 }
