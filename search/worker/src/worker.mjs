@@ -3,9 +3,10 @@
 // Free plan only: Workers AI @cf/baai/bge-small-en-v1.5 (pooling 'cls', parity 1.0 with the local index) for the query vector,
 // KV (versioned keys) for the index. No transcript text is stored or served here: vectors, ids, timestamps, facets and
 // metadata-only BM25 postings (titles/teacher/topics), nothing else.
-import { makeSet, knn, scanAll, facetsFromBin, facetDf, chips, similar } from './search-core.mjs'
+import { makeSet, scanAll, facetsFromBin, facetDf, chips } from './search-core.mjs'
+import { fastKnn as knn } from './fastknn.mjs'  // same algorithm as search-core knn(), ~2.4x less CPU
 
-const CODE_V = '2'  // bump when the response shape or ranking changes (part of the cache key)
+const CODE_V = '4'  // bump when the response shape or ranking changes (part of the cache key)
 const MODEL = '@cf/baai/bge-small-en-v1.5'
 const PREFIX = 'Represent this sentence for searching relevant passages: '
 const CONF_FLOOR = 0.66, WATCH_FLOOR = 0.66
@@ -32,7 +33,9 @@ async function build(env, ver) {
   const heldV = new Set((meta?.held || []).map((s) => fd.dict.teacher.indexOf(s)).filter((v) => v >= 0))
   const blocked = new Uint8Array(talks.n)
   for (let i = 0; i < talks.n; i++) for (let j = F.off[0][i]; j < F.off[0][i + 1]; j++) if (heldV.has(F.val[0][j])) blocked[i] = 1
-  const out = { ver, talks, F, df, blocked, meta: meta || {}, heldV }
+  // inverted facet postings (field -> value -> rows), so category masks cost O(postings) per request instead of O(n x chips)
+  const inv = F.off.map((a, f) => { const cnt = new Uint32Array(F.dict[F.fields[f]].length), V = F.val[f]; for (const v of V) cnt[v]++; const lists = [...cnt].map((c) => new Uint32Array(c)), fill = new Uint32Array(cnt.length); for (let i = 0; i < F.n; i++) for (let j = a[i]; j < a[i + 1]; j++) { const v = V[j]; lists[v][fill[v]++] = i } return lists })
+  const out = { ver, talks, F, df, blocked, blockedRows: [...blocked.keys()].filter((i) => blocked[i]), meta: meta || {}, heldV, inv }
   if (sv && sids) out.series = makeSet({ bits: new ArrayBuffer(0), vectors: sv, ids: sids })
   if (pv && pids) out.practices = makeSet({ bits: new ArrayBuffer(0), vectors: pv, ids: pids })
   if (gb && gbits && gids) out.passages = makeSet({ bits: gbits, vectors: gb, ids: gids.map((x, i) => i) }), out.pIds = gids
@@ -80,13 +83,25 @@ function bm25(B, q, allow, n = 100, k1 = 1.2, b = 0.75) {
   return [...sc].sort((x, y) => y[1] - x[1]).slice(0, n)
 }
 
-function facetRows(F, f, v) { const m = new Uint8Array(F.n), a = F.off[f], V = F.val[f]; for (let i = 0; i < F.n; i++) for (let j = a[i]; j < a[i + 1]; j++) if (V[j] === v) { m[i] = 1; break } return m }
+function facetRows(X, f, v, m = new Uint8Array(X.F.n)) { for (const i of X.inv[f][v] || []) m[i] = 1; return m }
+const hasF = (F, i, f, v) => { for (let j = F.off[f][i]; j < F.off[f][i + 1]; j++) if (F.val[f][j] === v) return true; return false }
+// similar talks: neighbours of (mean of top-3 talk vectors + 0.5*query), limited to rows sharing one of the top 6 chips (search-core similar(), with inverted masks)
+function similarFast(X, hits, q, topChips, n, exclude) {
+  const S = X.talks, D = S.dims, cen = new Float32Array(D), top = hits.slice(0, 3)
+  for (const h of top) { const o = h.row * D; for (let d = 0; d < D; d++) cen[d] += S.vec[o + d] / S.scale }
+  let norm = 0; for (let d = 0; d < D; d++) { cen[d] = cen[d] / Math.max(1, top.length) + 0.5 * q[d]; norm += cen[d] * cen[d] }
+  norm = Math.sqrt(norm) || 1; for (let d = 0; d < D; d++) cen[d] /= norm
+  const want = topChips.slice(0, 6), mask = new Uint8Array(S.n), rows = []
+  for (const i of exclude) mask[i] = 2
+  for (const c of want) for (const i of X.inv[c.f][c.v] || []) if (!mask[i]) { mask[i] = 1; rows.push(i) }
+  return knn(S, cen, { k: n, cand: 600, rows }).map((h) => ({ ...h, via: want.filter((c) => hasF(X.F, h.row, c.f, c.v)).slice(0, 2).map((c) => `${c.type}:${c.id}`) }))
+}
 function allowFrom(u, X) {
   const masks = []
   for (const [name, f] of Object.entries(FIELDS)) {
     const id = u.searchParams.get(name); if (!id) continue
     const v = X.F.dict[name].indexOf(id); if (v < 0) return () => false
-    masks.push(facetRows(X.F, f, v))
+    masks.push(facetRows(X, f, v))
   }
   return (i) => !X.blocked[i] && masks.every((m) => m[i])
 }
@@ -124,7 +139,7 @@ async function search(u, env, X) {
   let hits = order.slice(0, 8).map(([row]) => ({ row, id: X.talks.ids[row], score: semOf.get(row) ?? dot(X.talks, row, qv) }))
   if (conf != null && conf < CONF_FLOOR) for (const s of out.series.slice(0, 3)) {  // the best series that has talks in the index
     const v = X.F.dict.series.indexOf(s.id); if (v < 0) continue
-    const m = facetRows(X.F, 3, v), rows = []
+    const m = facetRows(X, 3, v), rows = []
     for (let i = 0; i < X.talks.n; i++) if (m[i] && !X.blocked[i]) rows.push({ row: i, id: X.talks.ids[i], score: dot(X.talks, i, qv) })
     if (rows.length >= 2) { hits = rows.sort((a, b) => b.score - a.score).slice(0, 8); out.anchor = 'series:' + s.id; break }
   }
@@ -133,8 +148,8 @@ async function search(u, env, X) {
     out.chips = ch.map((c) => ({ type: c.type, id: c.id, score: r3(c.score) }))
     if (ch.length) {
       const shown = new Set(order.slice(0, 8).map(([r]) => r)); hits.forEach((h) => shown.add(h.row))
-      for (let i = 0; i < X.talks.n; i++) if (X.blocked[i]) shown.add(i)
-      out.similar = similar(X.talks, X.F, hits, qv, ch, 8, shown).map((h) => ({ clip: h.id, score: r3(h.score), via: h.via }))
+      for (const i of X.blockedRows) shown.add(i)
+      out.similar = similarFast(X, hits, qv, ch, 8, shown).map((h) => ({ clip: h.id, score: r3(h.score), via: h.via }))
     }
   }
   if (X.passages && (scope === 'all' || scope === 'watch')) {
@@ -158,7 +173,7 @@ function similarTo(u, X) {
   if (row == null) return { clip, ver: X.ver, error: 'unknown clip', similar: [] }
   let mask = null; const within = u.searchParams.get('within') || ''
   const m = within.match(/^(teacher|topic|tradition|series):(.+)$/)
-  if (m) { const v = X.F.dict[m[1]].indexOf(m[2]); if (v < 0) return { clip, ver: X.ver, within, similar: [] }; mask = facetRows(X.F, FIELDS[m[1]], v) }
+  if (m) { const v = X.F.dict[m[1]].indexOf(m[2]); if (v < 0) return { clip, ver: X.ver, within, similar: [] }; mask = facetRows(X, FIELDS[m[1]], v) }
   const q = new Float32Array(X.talks.dims); for (let d = 0; d < q.length; d++) q[d] = X.talks.vec[row * q.length + d] / X.talks.scale
   const yt = clip.split('@')[0]
   const res = knn(X.talks, q, { k, cand: 500, allow: (i) => i !== row && !X.blocked[i] && (!mask || mask[i]) && X.talks.ids[i].split('@')[0] !== yt })

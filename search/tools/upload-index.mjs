@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Upload the talk index (built by ../wiser-search-index/scripts/ingest_talks.py) to KV for the satsang-search Worker.
-//   node search/tools/upload-index.mjs [--index DIR] [--dry] [--force]
+//   node search/tools/upload-index.mjs [--index DIR] [--dry] [--force] [--dump /tmp/kvfiles.json (local Worker tests)]
 // Writes the new version's keys first (idx/<ver>/<name>), then flips idx/current, then prunes versions older than the previous one.
 // ver = <manifest built stamp>-<8 hex content hash>; an unchanged index is not re-uploaded (KV free tier: 1,000 writes/day).
 // Never uploads passages.bm25.json (internal) or any text other than ids/labels/metadata tokens.
@@ -64,6 +64,7 @@ files.meta = Buffer.from(JSON.stringify({ ver, built: man.built_at, model: man.m
 
 const total = Object.values(files).reduce((s, b) => s + b.length, 0)
 console.log(`index ${IDX}\nver ${ver}: ${Object.keys(files).length} keys, ${(total / 1048576).toFixed(2)} MiB, held ${held.length}`)
+if (opt('--dump')) fs.writeFileSync(opt('--dump'), JSON.stringify(Object.fromEntries(Object.entries(files).map(([k, v]) => [k, v.toString('base64')]))))  // local Worker tests
 if (DRY) process.exit(0)
 
 let cur = ''; try { cur = wr('kv', 'key', 'get', 'idx/current', '--binding', 'IDX', '--remote').trim() } catch {}
