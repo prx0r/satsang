@@ -1,0 +1,58 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "mn118-anapanasati",
+ "title": "Ānāpānasati Sutta: Mindfulness of Breathing (MN 118)",
+ "work": "Majjhima Nikāya 118 (Pali Canon)",
+ "author": {
+  "name": "The Buddha (Pali Canon)",
+  "id": "the-buddha"
+ },
+ "translator": {
+  "name": "Ṭhānissaro Bhikkhu (Geoffrey DeGraff)",
+  "id": "thanissaro-bhikkhu"
+ },
+ "edition": "dhammatalks.org online edition; also in Handful of Leaves vol. 2 (Majjhima Nikāya anthology), revised 2017",
+ "publisher": "Metta Forest Monastery, Valley Center, CA",
+ "language": "en",
+ "url": "https://www.dhammatalks.org/suttas/MN/MN118.html",
+ "licence": {
+  "id": "CC-BY-NC-4.0",
+  "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "evidence_url": "https://www.dhammatalks.org/Archive/Writings/Ebooks/MajjhimaNikaya_251113.pdf",
+  "evidence_segment": "copyright",
+  "evidence_quote": "This work is licensed under the Creative Commons AttributionNonCommercial 4.0 Unported.",
+  "terms": {
+   "attribution": "Ṭhānissaro Bhikkhu, tr., Ānāpānasati Sutta (MN 118), dhammatalks.org, CC BY-NC 4.0",
+   "noncommercial": true,
+   "noncommercial_note": "Same terms as the book: “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Renders must not be sold, paywalled or monetised.",
+   "adaptations": "allowed with attribution and an indication of changes",
+   "store_verbatim": true
+  },
+  "checked": "2026-10-25",
+  "evidence_note": "pdftotext joins the line-broken “Attribution-NonCommercial” as “AttributionNonCommercial”; quote kept as extracted so the test can find it"
+ },
+ "segments": [
+  {
+   "id": "mn118",
+   "label": "MN 118",
+   "url": "https://www.dhammatalks.org/suttas/MN/MN118.html",
+   "file": "mn118.txt",
+   "title": "Mindfulness of Breathing\n              Ānāpānasati Sutta  (MN 118)",
+   "chars": 17833,
+   "sha256": "1672bcce34ae9e9b40fc5c19640fffdc89e81aea16a9f0824bda6942bdc375a5"
+  },
+  {
+   "id": "copyright",
+   "label": "Copyright page of the Majjhima Nikāya ebook (same translation)",
+   "url": "https://www.dhammatalks.org/Archive/Writings/Ebooks/MajjhimaNikaya_251113.pdf",
+   "file": "copyright.txt",
+   "pdf_pages": "4",
+   "title": "Copyright",
+   "chars": 782,
+   "sha256": "2851a39382df385b93e6c2ea36cb2cdcb6cc363cd5aa0d21752711640ab85f2b"
+  }
+ ],
+ "retrieved": "2026-10-24",
+ "normalisation": "engine/tools/extract/lib.mjs htmlToText v1: <main id=content>, one paragraph per <p>/<li>, joined by a blank line, tags stripped, whitespace collapsed, NFC. Offsets are JS string (UTF-16) indices into the segment text; sha256 of that exact text. The copyright segment is a PDF page: poppler pdftotext text, whitespace collapsed per paragraph (fetch.mjs pdf_pages)."
+}

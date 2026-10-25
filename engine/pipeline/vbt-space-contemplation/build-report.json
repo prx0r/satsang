@@ -1,0 +1,72 @@
+{
+ "errors": [],
+ "warnings": [
+  "L04: mentions base_of_skull which none of its instructions use"
+ ],
+ "slots": [
+  {
+   "line": "L01",
+   "block": "i01.in",
+   "t": 6,
+   "avail_s": 44,
+   "speech_s": 7.39,
+   "measured": false
+  },
+  {
+   "line": "L02",
+   "block": "i02.in",
+   "t": 50,
+   "avail_s": 11,
+   "speech_s": 3.91,
+   "measured": false
+  },
+  {
+   "line": "L03",
+   "block": "i03.in",
+   "t": 61,
+   "avail_s": 11,
+   "speech_s": 2.17,
+   "measured": false
+  },
+  {
+   "line": "L04",
+   "block": "i04.in",
+   "t": 72,
+   "avail_s": 11,
+   "speech_s": 2.17,
+   "measured": false
+  },
+  {
+   "line": "L05",
+   "block": "i05.in",
+   "t": 83,
+   "avail_s": 44,
+   "speech_s": 5.65,
+   "measured": false
+  },
+  {
+   "line": "L06",
+   "block": "i06.in",
+   "t": 127,
+   "avail_s": 44,
+   "speech_s": 5.65,
+   "measured": false
+  },
+  {
+   "line": "L07",
+   "block": "i07.g.in",
+   "t": 171,
+   "avail_s": 11,
+   "speech_s": 6.09,
+   "measured": false
+  },
+  {
+   "line": "L08",
+   "block": "i08.g.in",
+   "t": 182,
+   "avail_s": 25,
+   "speech_s": 3.91,
+   "measured": false
+  }
+ ]
+}

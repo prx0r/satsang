@@ -1,0 +1,82 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "karaniya-metta",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-25"
+ },
+ "voice_policy": "plain modern English; the sutta’s wishes kept close to the translation; no promises of results",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01",
+   "basis": "paraphrased",
+   "instructions": [
+    "i01"
+   ],
+   "text": "Standing, walking, sitting or lying down: any posture, as long as you are not drowsy.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L02",
+   "block": "i02.b1.in",
+   "basis": "quoted",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Think: happy, at rest, may all beings be happy at heart.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "snp1-8:p13.s1",
+    "text": "may all beings be happy at heart."
+   }
+  },
+  {
+   "id": "L03",
+   "block": "i03.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all beings be happy at heart.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L04",
+   "block": "i04.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i04"
+   ],
+   "text": "Let no one deceive another, or despise anyone anywhere, or wish for another to suffer.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L05",
+   "block": "i05.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i05"
+   ],
+   "text": "As a mother would protect her only child, protect this goodwill toward all beings.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "snp1-8:p48.s2",
+    "text": "One should protect one’s goodwill toward all beings in the same way that a mother would protect her only child."
+   }
+  },
+  {
+   "id": "L06",
+   "block": "i06.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i06"
+   ],
+   "text": "With goodwill for the entire cosmos, let the heart go out without limit: above, below, and all around.",
+   "pause_after_s": 0.8
+  }
+ ]
+}

@@ -1,0 +1,870 @@
+{
+ "type": "instructions_draft",
+ "schema_version": 1,
+ "practice": "ajahn-lee-method-2",
+ "source": "keeping-the-breath",
+ "extracted_by": {
+  "mode": "agent-manual",
+  "agent": "hark subagent (satsang practice-player rethink)",
+  "prompt": "tools/extract/PROMPT.md v1",
+  "date": "2026-10-25",
+  "note": "No model spend allowed (owner rule, 2026-10-24). Agent draft per PROMPT.md §A; resolved and validated by extract.mjs exactly as an LLM draft."
+ },
+ "stages": [
+  {
+   "id": "long-breaths",
+   "label": "Long breaths with bud-dho"
+  },
+  {
+   "id": "aware",
+   "label": "Aware of each breath"
+  },
+  {
+   "id": "observe",
+   "label": "Observing the breath"
+  },
+  {
+   "id": "spread",
+   "label": "Letting the comfortable breath spread"
+  },
+  {
+   "id": "ways",
+   "label": "Four ways of breathing"
+  },
+  {
+   "id": "bases-head",
+   "label": "Resting spots: the head",
+   "optional": true
+  },
+  {
+   "id": "bases-body",
+   "label": "Resting spots: throat to navel"
+  },
+  {
+   "id": "resting",
+   "label": "Resting on one spot"
+  },
+  {
+   "id": "whole",
+   "label": "Breath through the whole body"
+  }
+ ],
+ "instructions": [
+  {
+   "id": "i01",
+   "stage": "long-breaths",
+   "action": "breath_word",
+   "spans": [
+    {
+     "passage": "method-2:p2.s1",
+     "quote": "Start out with three or seven long in-and-out breaths, thinking bud- with the in-breath, and dho with the out."
+    }
+   ],
+   "words": {
+    "in": "bud",
+    "out": "dho"
+   },
+   "breath": {
+    "phase": "in_out",
+    "quality": [
+     "long"
+    ]
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths",
+    "range": [
+     3,
+     7
+    ]
+   },
+   "attention": {
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   "prov": {
+    "attention": {
+     "basis": "inferred",
+     "rule": "attention-at-nostrils"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.95,
+   "note": "the text allows three or seven; the script uses three"
+  },
+  {
+   "id": "i02",
+   "stage": "long-breaths",
+   "action": "breathe",
+   "spans": [
+    {
+     "passage": "method-2:p2.s2",
+     "quote": "Keep the meditation syllable as long as the breath."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i03",
+   "stage": "aware",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "method-2:p3.s1",
+     "quote": "Be clearly aware of each in-and-out breath."
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "attention-at-nostrils"
+    }
+   },
+   "attention": {
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i04",
+   "stage": "observe",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "method-2:p4.s1",
+     "quote": "Observe the breath as it goes in and out, noticing whether it’s comfortable or uncomfortable, broad or narrow, obstructed or free-flowing, fast or slow, short or long, warm or cool."
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "observing the breath as a whole: shown as the breathing torso"
+    }
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i05",
+   "stage": "observe",
+   "action": "breathe",
+   "spans": [
+    {
+     "passage": "method-2:p4.s2",
+     "quote": "If the breath doesn’t feel comfortable, adjust it until it does."
+    },
+    {
+     "passage": "method-2:p4.s3",
+     "quote": "For instance, if breathing in long and out long is uncomfortable, try breathing in short and out short."
+    }
+   ],
+   "conditions": [
+    "the breath doesn’t feel comfortable"
+   ],
+   "scripted": true,
+   "confidence": 0.9,
+   "note": "a condition every meditator can check now, so it is narrated as an invitation"
+  },
+  {
+   "id": "i06",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p5.s1",
+     "quote": "As soon as you find that your breathing feels comfortable, let this comfortable breath sensation spread to the different parts of the body."
+    },
+    {
+     "passage": "method-2:p5.s2",
+     "quote": "To begin with, inhale the breath sensation at the base of the skull and let it flow all the way down the spine."
+    }
+   ],
+   "path": {
+    "from": "base_of_skull",
+    "to": "kanda"
+   },
+   "locus": [
+    "base_of_skull"
+   ],
+   "conditions": [
+    "your breathing feels comfortable"
+   ],
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "“all the way down the spine” → the lowest point of the spine (grammar kanda, shown as the base of the spine); one sweep per breath (sweep-one-breath)"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i07",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p5.s3",
+     "quote": "let it spread down your right leg to the sole of your foot, to the ends of your toes, and out into the air."
+    }
+   ],
+   "path": {
+    "from": "base_of_skull",
+    "to": "foot_R"
+   },
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "right leg → foot_R; the text’s order (right first for men, left first for women) is kept as the order of the two sweeps; the gender claim is not narrated"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i08",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p5.s4",
+     "quote": "Inhale the breath sensation at the base of the skull again and let it spread down your spine, down your left leg to the ends of your toes, and out into the air."
+    }
+   ],
+   "path": {
+    "from": "base_of_skull",
+    "to": "foot_L"
+   },
+   "locus": [
+    "base_of_skull"
+   ],
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "left leg → foot_L"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i09",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p6.s1",
+     "quote": "Then let the breath from the base of the skull spread down over both shoulders, past your elbows and wrists, to the tips of your fingers, and out into the air."
+    }
+   ],
+   "path": {
+    "from": "base_of_skull",
+    "to": "fingertips_R"
+   },
+   "locus": [
+    "base_of_skull"
+   ],
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "both arms; the picture follows one arm (fingertips_R) and the narration says both"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i10",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p7.s1",
+     "quote": "Let the breath at the base of the throat spread down the central nerve at the front of the body, past the lungs and liver, all the way down to the bladder and colon."
+    }
+   ],
+   "path": {
+    "from": "throat_base",
+    "to": "belly"
+   },
+   "locus": [
+    "throat_base"
+   ],
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "“down to the bladder and colon” → the belly region"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i11",
+   "stage": "spread",
+   "action": "move_attention",
+   "spans": [
+    {
+     "passage": "method-2:p8.s1",
+     "quote": "Inhale the breath right at the middle of the chest and let it go all the way down to your intestines."
+    }
+   ],
+   "path": {
+    "from": "middle_chest",
+    "to": "belly"
+   },
+   "locus": [
+    "middle_chest"
+   ],
+   "prov": {
+    "path": {
+     "basis": "paraphrased",
+     "note": "intestines → the belly region"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "sweep-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i12",
+   "stage": "spread",
+   "action": "spread",
+   "spans": [
+    {
+     "passage": "method-2:p9.s1",
+     "quote": "Let all these breath sensations spread so that they connect and flow together"
+    }
+   ],
+   "locus": [
+    "whole_body"
+   ],
+   "region": "whole_body",
+   "count": {
+    "value": 2,
+    "unit": "breaths"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "spread-breaths"
+    },
+    "locus": {
+     "basis": "paraphrased",
+     "note": "all the sensations connected → the whole body"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.9,
+   "note": "the promised result (“greatly improved sense of well-being”) is not quoted or narrated"
+  },
+  {
+   "id": "i13",
+   "stage": "ways",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "method-2:p10.s1",
+     "quote": "Learn four ways of adjusting the breath:"
+    },
+    {
+     "passage": "method-2:p11.s1",
+     "quote": "in long and out long,"
+    },
+    {
+     "passage": "method-2:p12.s1",
+     "quote": "in long and out short,"
+    },
+    {
+     "passage": "method-2:p13.s1",
+     "quote": "in short and out long,"
+    },
+    {
+     "passage": "method-2:p14.s1",
+     "quote": "in short and out short."
+    },
+    {
+     "passage": "method-2:p15.s1",
+     "quote": "Breathe whichever way is most comfortable for you."
+    }
+   ],
+   "breath": {
+    "phase": "in_out",
+    "quality": [
+     "long",
+     "short"
+    ]
+   },
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath as a whole: the breathing torso"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85,
+   "note": "the player keeps its own natural pace; the narration invites the meditator to explore. No holds: none of the four ways includes one"
+  },
+  {
+   "id": "i14",
+   "stage": "ways",
+   "action": "intent",
+   "spans": [
+    {
+     "passage": "method-2:p15.s2",
+     "quote": "Or, better yet, learn to breathe comfortably all four ways, because your physical condition and your breath are always changing."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a longer-term training aim (learn all four), not a step inside one sitting; kept for Ask",
+   "ask": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i15",
+   "stage": "bases-head",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p16.s1",
+     "quote": "Become acquainted with the bases or focal points for the mind—the resting spots of the breath"
+    },
+    {
+     "passage": "method-2:p17.s1",
+     "quote": "the tip of the nose"
+    }
+   ],
+   "locus": [
+    "nose_tip"
+   ],
+   "duration": {
+    "text": "acquainted",
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i16",
+   "stage": "bases-head",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p18.s1",
+     "quote": "the middle of the head"
+    }
+   ],
+   "locus": [
+    "middle_of_head"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i17",
+   "stage": "bases-head",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p19.s1",
+     "quote": "the palate"
+    }
+   ],
+   "locus": [
+    "palate"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i18",
+   "stage": "bases-body",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p20.s1",
+     "quote": "the base of the throat"
+    }
+   ],
+   "locus": [
+    "throat_base"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i19",
+   "stage": "bases-body",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p21.s1",
+     "quote": "the breastbone (the tip of the sternum)"
+    }
+   ],
+   "locus": [
+    "breastbone"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i20",
+   "stage": "bases-body",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "method-2:p22.s1",
+     "quote": "the navel (or a point just above it)"
+    }
+   ],
+   "locus": [
+    "above_navel"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i21",
+   "stage": "resting",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "method-2:p16.s1",
+     "quote": "center your awareness on whichever one seems most comfortable"
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "above_navel",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "resting-base-default"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.8
+  },
+  {
+   "id": "i22",
+   "stage": "resting",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "method-2:p23.s2",
+     "quote": "And don’t try to force the breath or put yourself into a trance."
+    },
+    {
+     "passage": "method-2:p23.s3",
+     "quote": "Breathe freely and naturally."
+    }
+   ],
+   "warnings": [
+    "don’t force the breath",
+    "no trance"
+   ],
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i23",
+   "stage": "resting",
+   "action": "breathe",
+   "spans": [
+    {
+     "passage": "method-2:p23.s4",
+     "quote": "Let the mind be at ease with the breath—but not to the point where it slips away."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i24",
+   "stage": "bases-head",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "method-2:p23.s1",
+     "quote": "If you suffer from frequent headaches or nervous problems, don’t focus on any spot above the base of the throat."
+    }
+   ],
+   "conditions": [
+    "frequent headaches or nervous problems"
+   ],
+   "warnings": [
+    "no spot above the base of the throat"
+   ],
+   "scripted": false,
+   "exclude_reason": "applied structurally: the beginner form drops the head bases (beginner_override.skip_stages), and the start card names it",
+   "confidence": 0.98
+  },
+  {
+   "id": "i25",
+   "stage": "whole",
+   "action": "spread",
+   "spans": [
+    {
+     "passage": "method-2:p24.s1",
+     "quote": "Spread your awareness—your sense of conscious feeling—throughout the entire body."
+    }
+   ],
+   "locus": [
+    "whole_body"
+   ],
+   "region": "whole_body",
+   "count": {
+    "value": 2,
+    "unit": "breaths"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "spread-breaths"
+    },
+    "locus": {
+     "basis": "paraphrased",
+     "note": "“the entire body” → whole_body"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i26",
+   "stage": "whole",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "method-2:p25.s1",
+     "quote": "Unite the breath sensations throughout the body, letting them flow together comfortably, keeping your awareness as broad as possible."
+    }
+   ],
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.92
+  },
+  {
+   "id": "i27",
+   "stage": "whole",
+   "action": "handle_sign",
+   "spans": [
+    {
+     "passage": "method-2:p28.s1",
+     "quote": "The ‘guests’ here are the signs (nimitta) and vagrant breaths that will tend to pass within the range of the breath you are dealing with"
+    },
+    {
+     "passage": "method-2:p33.s3",
+     "quote": "Don’t be pleased by what appears."
+    },
+    {
+     "passage": "method-2:p33.s4",
+     "quote": "Don’t get upset or try to deny what appears."
+    },
+    {
+     "passage": "method-2:p33.s5",
+     "quote": "Keep your mind on an even keel."
+    }
+   ],
+   "conditions": [
+    "signs appear"
+   ],
+   "scripted": false,
+   "exclude_reason": "conditional on signs appearing (no-nimitta-scripting); preloaded for Ask with Ajaan Lee’s handling: don’t be pleased or upset, keep an even keel",
+   "ask": true,
+   "confidence": 0.92
+  },
+  {
+   "id": "i28",
+   "stage": "whole",
+   "action": "teacher_advice",
+   "spans": [
+    {
+     "passage": "method-2:p29.s4",
+     "quote": "If you can’t control them, don’t have anything to do with them."
+    },
+    {
+     "passage": "method-2:p33.s7",
+     "quote": "Be circumspect."
+    },
+    {
+     "passage": "method-2:p33.s8",
+     "quote": "Consider carefully whatever appears, to see whether it’s trustworthy or not."
+    }
+   ],
+   "conditions": [
+    "signs appear"
+   ],
+   "scripted": false,
+   "exclude_reason": "conditional (signs); Ask only",
+   "ask": true,
+   "confidence": 0.9
+  }
+ ],
+ "coverage_rules": [
+  {
+   "passages": "method-2:p26.s1..method-2:p27.s3",
+   "status": "out_of_scope",
+   "reason": "summary of the seven steps and their purposes (Theory tab)"
+  },
+  {
+   "passages": "method-2:p28.s2..method-2:p33.s2",
+   "status": "out_of_scope",
+   "reason": "the “guests”: signs and the powers they can lead to. Never scripted (no-nimitta-scripting); handling is in i27/i28 for Ask"
+  },
+  {
+   "passages": "method-2:p33.s6",
+   "status": "out_of_scope",
+   "reason": "part of the handling of signs (i27)"
+  },
+  {
+   "passages": "method-2:p33.s9..method-2:p64.s1",
+   "status": "out_of_scope",
+   "reason": "healing, the noble path in the breath, release and discernment: doctrine and outcomes for the Theory tab, not timed instructions"
+  }
+ ]
+}

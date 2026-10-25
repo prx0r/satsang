@@ -1,0 +1,150 @@
+{
+ "errors": [],
+ "warnings": [],
+ "slots": [
+  {
+   "line": "L01",
+   "block": "i01",
+   "t": 6,
+   "avail_s": 10.1,
+   "speech_s": 8.7,
+   "measured": false
+  },
+  {
+   "line": "L02",
+   "block": "i02.b1.in",
+   "t": 16.1,
+   "avail_s": 33,
+   "speech_s": 3.04,
+   "measured": false
+  },
+  {
+   "line": "L03",
+   "block": "i03.b1.in",
+   "t": 49.1,
+   "avail_s": 33,
+   "speech_s": 6.96,
+   "measured": false
+  },
+  {
+   "line": "L04",
+   "block": "i04.b1.in",
+   "t": 82.1,
+   "avail_s": 33,
+   "speech_s": 5.65,
+   "measured": false
+  },
+  {
+   "line": "L05",
+   "block": "i05.b1.in",
+   "t": 115.1,
+   "avail_s": 33,
+   "speech_s": 6.09,
+   "measured": false
+  },
+  {
+   "line": "L06",
+   "block": "i06.b1.in",
+   "t": 148.1,
+   "avail_s": 33,
+   "speech_s": 5.22,
+   "measured": false
+  },
+  {
+   "line": "L07",
+   "block": "i07.b1.in",
+   "t": 181.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L08",
+   "block": "i08.b1.in",
+   "t": 214.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L09",
+   "block": "i09.b1.in",
+   "t": 247.1,
+   "avail_s": 33,
+   "speech_s": 6.09,
+   "measured": false
+  },
+  {
+   "line": "L10",
+   "block": "i10.b1.in",
+   "t": 280.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L11",
+   "block": "i11.b1.in",
+   "t": 313.1,
+   "avail_s": 33,
+   "speech_s": 5.22,
+   "measured": false
+  },
+  {
+   "line": "L12",
+   "block": "i12.b1.in",
+   "t": 346.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L13",
+   "block": "i13.b1.in",
+   "t": 379.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L14",
+   "block": "i14.b1.in",
+   "t": 412.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L15",
+   "block": "i15.b1.in",
+   "t": 445.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L16",
+   "block": "i16.b1.in",
+   "t": 478.1,
+   "avail_s": 33,
+   "speech_s": 4.78,
+   "measured": false
+  },
+  {
+   "line": "L17",
+   "block": "i17.b1.in",
+   "t": 511.1,
+   "avail_s": 33,
+   "speech_s": 4.35,
+   "measured": false
+  },
+  {
+   "line": "L18",
+   "block": "i18.b1.in",
+   "t": 544.1,
+   "avail_s": 47,
+   "speech_s": 4.35,
+   "measured": false
+  }
+ ]
+}

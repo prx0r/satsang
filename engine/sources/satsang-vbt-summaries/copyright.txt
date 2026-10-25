@@ -1,0 +1,7 @@
+Satsang open data licence =======================
+
+1. Satsang's own curation: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/legalcode
+
+Covers everything Satsang authors or compiles: topic intros, sub-questions and one-line "takes"; practice summaries, steps and cautions written by Satsang; tags and their confidences; lineage and influence edges as compiled by Satsang (with their notes and confidence levels); tradition blurbs and the tradition tree; short bios written by Satsang; editorial collections, journeys and syllabi; the selection and arrangement of the directory (which places, people, texts and talks are included and how they are linked); computed fields (depth, tiers, quality, status).
+
+Attribution: "Satsang (satsang.digital), CC BY 4.0", with a link to the record's canonical URL (https://satsang.digital/<kind>/<id>) where practical.

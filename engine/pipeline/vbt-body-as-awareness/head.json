@@ -1,0 +1,135 @@
+{
+ "type": "practice_head",
+ "id": "vbt-body-as-awareness",
+ "name": "The body as awareness · VBT v. 63",
+ "kind": "meditation",
+ "subkind": "dharana",
+ "traditions": [
+  "kashmir-shaivism"
+ ],
+ "teachers": [],
+ "summary": {
+  "text": "Verse 63 of the Vijñāna Bhairava, in Satsang’s words: rest attention on the whole body at once, the whole field of sensation, then take the body and the world around it as made of awareness; when the mind narrows to “me” and “mine”, return to the wider field.",
+  "instr": [
+   "i01",
+   "i02",
+   "i04"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "first-steps",
+  "basis": "inferred",
+  "rule": "editorial-facet"
+ },
+ "posture": {
+  "value": "seated",
+  "instr": [
+   "i01"
+  ],
+  "basis": "paraphrased"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i92"
+  ],
+  "note": "a safe dhāraṇā"
+ },
+ "needs_teacher_note": "Safe contemplative dhāraṇā; the rest of the VBT is learned from a teacher in the Trika tradition.",
+ "facets": {
+  "method": [
+   "dharana-visualisation"
+  ],
+  "aim": {
+   "value": [
+    "embodiment",
+    "awakening-energy"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "intensity": 1
+ },
+ "steps": [
+  {
+   "text": "Rest attention on the whole body at once: the whole field of sensation, not one part.",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "text": "Take the body and the world around it as made of awareness; felt rather than thought. When the mind narrows to “me” and “mine”, return to the wider field.",
+   "instr": [
+    "i02",
+    "i03",
+    "i04"
+   ]
+  }
+ ],
+ "contraindications": [
+  {
+   "text": "If you feel disoriented, unreal or anxious: open the eyes, feel the feet and the seat, and stop for today.",
+   "instr": [
+    "i90"
+   ]
+  },
+  {
+   "text": "A history of trauma, dissociation, psychosis or severe anxiety: keep sits short with eyes open, or practise with a qualified teacher or clinician.",
+   "instr": [
+    "i91"
+   ]
+  }
+ ],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no breath instruction; natural breath"
+  },
+  "stop_if": {
+   "value": [
+    "disoriented",
+    "unreal",
+    "anxious"
+   ],
+   "instr": [
+    "i90"
+   ]
+  },
+  "beginner_override": {
+   "value": {},
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "alternatives": {
+   "value": [
+    {
+     "practice": "ajahn-lee-method-2",
+     "when": "if this feels unsettling: a body-based breath practice"
+    }
+   ],
+   "instr": [
+    "i90"
+   ]
+  }
+ },
+ "sources": [
+  {
+   "segment": "vbt-body",
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "cite": "Vijñāna Bhairava Tantra v. 63, summarised by Satsang in its own words; translation consulted: Christopher Hareesh Wallis, Tantra 112 (link and verse number only)"
+  }
+ ],
+ "meta": {
+  "status": "review",
+  "created": "2026-10-25",
+  "license": "CC-BY-4.0",
+  "license_note": "Satsang’s own wording (CC BY 4.0). The VBT translation is all rights reserved and is only linked, never quoted (rule cite-only-source).",
+  "confidence_note": "Built by the text-to-practice pipeline from Satsang’s own summary of VBT v. 63 (extension pack 45), not from a translation; the verse is cited by number and linked. Lengths use explore-breaths."
+ }
+}

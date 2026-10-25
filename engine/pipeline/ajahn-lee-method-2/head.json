@@ -1,0 +1,199 @@
+{
+ "type": "practice_head",
+ "_note": "Editorial fields of the practice that are not timed blocks; each names the instructions or rule it rests on.",
+ "id": "ajahn-lee-method-2",
+ "name": "Seven steps · Ajahn Lee, Method 2",
+ "kind": "meditation",
+ "subkind": "breath",
+ "traditions": [
+  "theravada-thai-forest"
+ ],
+ "teachers": [
+  "ajahn-lee-dhammadharo",
+  "thanissaro-bhikkhu"
+ ],
+ "summary": {
+  "text": "Ajaan Lee’s seven basic steps: a few long breaths with bud-dho, clear awareness of each breath, finding a comfortable breath and letting it spread from the base of the skull down the spine, legs and arms and down the front of the body, exploring ways of breathing, getting to know the resting spots of the breath, then letting breath and awareness fill the whole body.",
+  "instr": [
+   "i01",
+   "i03",
+   "i04",
+   "i06",
+   "i07",
+   "i09",
+   "i10",
+   "i13",
+   "i15",
+   "i21",
+   "i25",
+   "i26"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "first-steps",
+  "basis": "inferred",
+  "rule": "editorial-facet",
+  "note": "Ajaan Lee (Method 1 chapter) says most people find Method 2 easier and more relaxing"
+ },
+ "posture": {
+  "value": "seated",
+  "basis": "inferred",
+  "rule": "posture-accessibility",
+  "note": "the chapter gives no posture; any steady, upright seat"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i28"
+  ],
+  "note": "signs and their handling are not scripted; Ask carries Ajaan Lee’s advice"
+ },
+ "needs_teacher_note": "Work with signs (“guests”) is not scripted; if anything appears, Ajaan Lee says: don’t be pleased or upset, keep an even keel.",
+ "facets": {
+  "method": [
+   "breath",
+   "mantra-japa",
+   "body-scan"
+  ],
+  "aim": {
+   "value": [
+    "calm",
+    "embodiment"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "intensity": 1
+ },
+ "steps": [
+  {
+   "text": "Three (or seven) long breaths: bud on the in-breath, dho on the out, the word as long as the breath.",
+   "instr": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "text": "Be clearly aware of each in-and-out breath.",
+   "instr": [
+    "i03"
+   ]
+  },
+  {
+   "text": "Observe the breath: comfortable or not, broad or narrow, fast or slow, short or long, warm or cool. Adjust it until it is comfortable.",
+   "instr": [
+    "i04",
+    "i05"
+   ]
+  },
+  {
+   "text": "Let the comfortable breath spread: from the base of the skull down the spine, down each leg and out past the toes, over the shoulders and out through the fingertips; from the base of the throat down the front of the body; from the middle of the chest down to the belly. Let it all connect.",
+   "instr": [
+    "i06",
+    "i07",
+    "i08",
+    "i09",
+    "i10",
+    "i11",
+    "i12"
+   ]
+  },
+  {
+   "text": "Explore ways of breathing (long/short in and out) and breathe whichever way is most comfortable.",
+   "instr": [
+    "i13"
+   ]
+  },
+  {
+   "text": "Get to know the resting spots: tip of the nose, middle of the head, palate, base of the throat, breastbone, navel. Rest on whichever is most comfortable. Breathe freely and naturally; don’t force.",
+   "instr": [
+    "i15",
+    "i16",
+    "i17",
+    "i18",
+    "i19",
+    "i20",
+    "i21",
+    "i22",
+    "i23"
+   ]
+  },
+  {
+   "text": "Spread awareness through the entire body; let the breath sensations flow together, awareness as broad as possible.",
+   "instr": [
+    "i25",
+    "i26"
+   ]
+  }
+ ],
+ "contraindications": [
+  {
+   "text": "Frequent headaches or nervous problems: don’t focus on any spot above the base of the throat (Ajaan Lee). The beginner form leaves out the head spots.",
+   "instr": [
+    "i24"
+   ]
+  },
+  {
+   "text": "Don’t force the breath or put yourself into a trance. Breathe freely and naturally.",
+   "instr": [
+    "i22"
+   ]
+  }
+ ],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no retention anywhere in the text"
+  },
+  "stop_if": {
+   "value": [
+    "headache",
+    "strain",
+    "pressure in the head"
+   ],
+   "instr": [
+    "i24",
+    "i22"
+   ]
+  },
+  "beginner_override": {
+   "value": {
+    "skip_stages": [
+     "bases-head"
+    ]
+   },
+   "instr": [
+    "i24"
+   ]
+  },
+  "alternatives": {
+   "value": [
+    {
+     "practice": "ajahn-lee-method-1",
+     "when": "once these steps feel familiar, for counting with buddho and the bases"
+    }
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  }
+ },
+ "sources": [
+  {
+   "segment": "method-2",
+   "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2: the seven basic steps (tr. Ṭhānissaro Bhikkhu, seventh edition, revised, 2017)"
+  }
+ ],
+ "meta": {
+  "status": "review",
+  "created": "2026-10-25",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 text (attribution + noncommercial; the book counts any sale as commercial). Our wording, adapted; see sources.",
+  "confidence_note": "Built by the text-to-practice pipeline from Method 2 (steps 1–7). Every block lists its instructions; unstated lengths use named rules (explore-breaths, sweep-one-breath, moment-one-breath, spread-breaths, whole-body-breaths, resting-base-default). Signs (“guests”), healing claims and the noble-path teaching are not scripted."
+ }
+}

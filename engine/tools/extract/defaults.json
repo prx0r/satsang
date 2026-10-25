@@ -197,6 +197,101 @@
    "basis": "convention",
    "note": "PRACTICE-MEDIA 'round end: tiny chime', used for stage changes so the ear can follow the structure with eyes closed",
    "confidence": 0.7
+  },
+  "sweep-one-breath": {
+   "sets": "breaths for one 'let the breath sensation spread / flow from A to B' sweep",
+   "value": {
+    "breaths": 1
+   },
+   "basis": "convention",
+   "note": "in-breath at the starting spot, out-breath carries it to the far end: one sweep per breath, as traverse-with-breath",
+   "confidence": 0.6
+  },
+  "step-breaths": {
+   "sets": "breaths given to each step of a stepwise breath practice whose text sets no length (e.g. the sixteen steps of MN 118)",
+   "value": {
+    "breaths": 3
+   },
+   "basis": "editorial",
+   "note": "long enough for one step to be noticed, short enough that the whole sequence fits a sitting; the session-length picker adds open time at the end, never more steps",
+   "confidence": 0.55
+  },
+  "explore-breaths": {
+   "sets": "breaths for an open-ended exploring instruction with no length ('observe…', 'adjust it until…', 'learn four ways…')",
+   "value": {
+    "breaths": 4
+   },
+   "basis": "editorial",
+   "note": "a few breaths of exploring; the narration never names a number",
+   "confidence": 0.55
+  },
+  "phrase-breaths": {
+   "sets": "breaths of silence after each wish or phrase in a recited reflection (goodwill)",
+   "value": {
+    "breaths": 2
+   },
+   "basis": "editorial",
+   "note": "the phrase is heard, then two breaths to let it sink in",
+   "confidence": 0.55
+  },
+  "open-sitting": {
+   "sets": "time added at the end of a practice when the user picks a session longer than the practice as written",
+   "value": {
+    "at": "last stage locus",
+    "voice": "one framing line, then silence"
+   },
+   "basis": "policy",
+   "note": "the player never invents more steps: extra minutes are silent sitting with the last stage (or more stillness rounds where the practice has them)",
+   "confidence": 0.9
+  },
+  "cite-only-source": {
+   "sets": "how a practice cites a text whose translation may not be quoted (all rights reserved)",
+   "value": {
+    "store_verbatim": false,
+    "quote": "none",
+    "cite": "verse number + link"
+   },
+   "basis": "policy",
+   "note": "instructions are our own words; each one names the verse(s) it rests on and links the translation; no quote is stored or shown",
+   "confidence": 0.9
+  },
+  "resting-base-default": {
+   "sets": "the spot the picture shows when the text says to rest on 'whichever base seems most comfortable'",
+   "value": {
+    "target": "above_navel"
+   },
+   "basis": "policy",
+   "note": "the meditator chooses; the picture shows the lowest base on the list, the one the headache caution never excludes. Narration never names it",
+   "confidence": 0.6
+  },
+  "non-body-step-visual": {
+   "sets": "what the picture shows for a step whose object is not a body place (feelings, the mind, mental qualities)",
+   "value": {
+    "feelings": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "mind": {
+     "target": "whole_body",
+     "size": "wide"
+    }
+   },
+   "basis": "policy",
+   "note": "feelings are shown as the whole body softly lit; the mind and mental qualities as the light widened around the body (space). The picture is a support, not a claim about where these are",
+   "confidence": 0.6
+  },
+  "first-tetrad-beginner": {
+   "sets": "the beginner form of a sixteen-step practice",
+   "value": {
+    "keep": [
+     "sitting",
+     "body"
+    ]
+   },
+   "basis": "editorial",
+   "cite": "MN 118 note 2 (p44.s4): the fourth step refers to the fourth jhāna; the later tetrads build on a settled body-tetrad",
+   "note": "beginners get the first tetrad and open time; the full form keeps all sixteen steps",
+   "confidence": 0.7
   }
  }
 }

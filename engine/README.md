@@ -73,7 +73,20 @@ CLI: `node compile.mjs practices/nadi-shodhana-sivananda.json --beginner --round
 - Tests: `node tools/test-compile.mjs` · `node tools/test-text-to-practice.mjs` · `python3 tools/validate-schemas.py` ·
   `node tools/test-play.mjs` · `node tools/test-play-browser.mjs` (needs `sh ../shot-setup.sh`). Deploy: `node tools/deploy-preview.mjs`.
 
-## Next
+## Next (written 10-21; status 2026-10-25)
+> Item 1 is superseded: the site's Practise tab ships "Practise with the body" (breathplayer overlay) and `/sit/` below is the hands-off player; wiring /sit/ into the Practise tab awaits the owner (specs/SIT-PLAYER.md §6). Items 2-3 not started.
+
 1. A `#practice` tab in app/site: lazy-load `player/*` + `grammar.json` on the tab (about 60 KB uncompressed). Practice cards come from the v2 practices, with a "Play" button that opens the player full-bleed. Route `/x/<id>/script.json` = `compile()` output (spec §8).
 2. The Sivananda book miner (spec §5) emits practice v2 with `do: [{verb…}]` blocks; the compiler resolves verbs through `grammar.verbs`; anything with retention or `confidence < 0.8` goes to the keeper review queue.
 3. Grammar v1.1: posture variants (lying, for yoga nidra), granthis, the Tibetan three channels and the middle pillar (deitybody frameworks), and a camera that moves between `full` and `upper` views inside a practice.
+
+## /sit/ (2026-10-25): the hands-off player
+**Preview:** https://engine.tantrafiles.xyz/sit/ · spec `../specs/SIT-PLAYER.md`. Pick a practice or routine → Begin → it runs by itself from the compiled timeline: the /breath/ body of light breathes the timeline's natural breath (never a hold; retention practices are refused), the attention light glides to each stage's locus (`sit/loci.mjs`), one quiet line per step, soft synthesised bells, length picker (rounds, then open sitting), eyes-closed mode, mic off by default, Esc stops. "From the text" shows each stage's passages (quoted only where the licence allows; VBT = verse number + link).
+```
+  sit/index.html sit.js     the player (start card, HUD, sheet, bells, voice, wake lock, sit-end event/postMessage)
+  sit/session.mjs           pure: fitPractice (length), buildSession (practices end to end on one clock), breathAt/focusAt/stageAt
+  sit/loci.mjs              grammar target → body.js locus
+  routines/*.json           practices in sequence (schema/routine.json)
+  tools/test-sit.mjs        250 checks: every pipeline + sessions + routines      tools/shoot-sit.mjs  shots/sit-*.jpg
+```
+Deploy: `node talk/deploy-talk.mjs` (runs deploy-preview --dry, adds talk/ rt/ breath/ sit/ routines/).

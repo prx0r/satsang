@@ -1,0 +1,121 @@
+{
+ "type": "passages",
+ "schema_version": 1,
+ "source": "satsang-vbt-summaries",
+ "segmenter": "satsang-segment/1",
+ "source_sha256": {
+  "vbt-space": "24ef0ad83dcb1a2c8551913fe58440be0c5494b495816285804a2ea371ab3e43",
+  "vbt-body": "d5771e4a2ea41c7e45ec067fd995961dc04f0306609bbdd99fb7730a2ddf1b41",
+  "copyright": "d8997f6be4df9b12c34c37294994e94b583835f74749ec6bff4130f922554b6e"
+ },
+ "passages": [
+  {
+   "id": "vbt-body:p1.s1",
+   "segment": "vbt-body",
+   "para": "p1",
+   "start": 0,
+   "end": 97,
+   "text": "Sit and let attention rest on the whole body at once: not one part, the whole field of sensation.",
+   "sha256": "285898f142c16e4f",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "vbt-body:p1.s2",
+   "segment": "vbt-body",
+   "para": "p1",
+   "start": 98,
+   "end": 164,
+   "text": "Then take the body, and the world around it, as made of awareness.",
+   "sha256": "379f7b32544bea29",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p1.s3",
+   "segment": "vbt-body",
+   "para": "p1",
+   "start": 165,
+   "end": 202,
+   "text": "Let this be felt rather than thought.",
+   "sha256": "21e31b31b9d4028d",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p1.s4",
+   "segment": "vbt-body",
+   "para": "p1",
+   "start": 203,
+   "end": 291,
+   "text": "When the mind narrows back to \"me\" and \"mine\", return to the wider field and rest there.",
+   "sha256": "812042ba40478a80",
+   "kind_guess": [
+    "instruction",
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p1.s5",
+   "segment": "vbt-body",
+   "para": "p1",
+   "start": 292,
+   "end": 364,
+   "text": "The body stays where it is; only the sense of it being separate softens.",
+   "sha256": "049fb5ff55b5e505",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p2.s1",
+   "segment": "vbt-body",
+   "para": "p2",
+   "start": 366,
+   "end": 472,
+   "text": "If you feel disoriented, unreal or anxious, open the eyes, feel the feet and the seat, and stop for today.",
+   "sha256": "af3aafde0df0a012",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p3.s1",
+   "segment": "vbt-body",
+   "para": "p3",
+   "start": 474,
+   "end": 632,
+   "text": "If you have a history of trauma, dissociation, psychosis or severe anxiety, keep sits short with eyes open, or practise with a qualified teacher or clinician.",
+   "sha256": "fac8f6c3b2b26fc8",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-body:p4.s1",
+   "segment": "vbt-body",
+   "para": "p4",
+   "start": 634,
+   "end": 826,
+   "text": "The rest of the Vijñāna Bhairava (breath retention, mantra, the subtle-body and burning practices) is learned from a qualified teacher in the Trika tradition; Satsang lists places to practise.",
+   "sha256": "65714c624b66560f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  }
+ ]
+}

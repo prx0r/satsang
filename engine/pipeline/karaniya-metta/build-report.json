@@ -1,0 +1,54 @@
+{
+ "errors": [],
+ "warnings": [],
+ "slots": [
+  {
+   "line": "L01",
+   "block": "i01",
+   "t": 6,
+   "avail_s": 8,
+   "speech_s": 6.52,
+   "measured": false
+  },
+  {
+   "line": "L02",
+   "block": "i02.b1.in",
+   "t": 14,
+   "avail_s": 22,
+   "speech_s": 4.78,
+   "measured": false
+  },
+  {
+   "line": "L03",
+   "block": "i03.b1.in",
+   "t": 36,
+   "avail_s": 22,
+   "speech_s": 10.87,
+   "measured": false
+  },
+  {
+   "line": "L04",
+   "block": "i04.b1.in",
+   "t": 58,
+   "avail_s": 22,
+   "speech_s": 6.52,
+   "measured": false
+  },
+  {
+   "line": "L05",
+   "block": "i05.b1.in",
+   "t": 80,
+   "avail_s": 22,
+   "speech_s": 6.09,
+   "measured": false
+  },
+  {
+   "line": "L06",
+   "block": "i06.b1.in",
+   "t": 102,
+   "avail_s": 47,
+   "speech_s": 7.83,
+   "measured": false
+  }
+ ]
+}

@@ -1,0 +1,502 @@
+{
+ "type": "practice",
+ "schema_version": 2,
+ "id": "vbt-body-as-awareness",
+ "name": "The body as awareness · VBT v. 63",
+ "kind": "meditation",
+ "subkind": "dharana",
+ "traditions": [
+  "kashmir-shaivism"
+ ],
+ "summary": "Verse 63 of the Vijñāna Bhairava, in Satsang’s words: rest attention on the whole body at once, the whole field of sensation, then take the body and the world around it as made of awareness; when the mind narrows to “me” and “mine”, return to the wider field.",
+ "steps": [
+  {
+   "n": 1,
+   "text": "Rest attention on the whole body at once: the whole field of sensation, not one part.",
+   "cue": "breath",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Take the body and the world around it as made of awareness; felt rather than thought. When the mind narrows to “me” and “mine”, return to the wider field.",
+   "cue": "breath",
+   "instr": [
+    "i02",
+    "i03",
+    "i04"
+   ]
+  }
+ ],
+ "level": "first-steps",
+ "posture": "seated",
+ "eyes": "closed",
+ "needsTeacher": false,
+ "contraindications": [
+  "If you feel disoriented, unreal or anxious: open the eyes, feel the feet and the seat, and stop for today.",
+  "A history of trauma, dissociation, psychosis or severe anxiety: keep sits short with eyes open, or practise with a qualified teacher or clinician."
+ ],
+ "facets": {
+  "method": [
+   "dharana-visualisation"
+  ],
+  "locus": [],
+  "aim": [
+   "embodiment",
+   "awakening-energy"
+  ],
+  "level": "first-steps",
+  "intensity": 1,
+  "needs_teacher": false,
+  "needs_teacher_note": "Safe contemplative dhāraṇā; the rest of the VBT is learned from a teacher in the Trika tradition.",
+  "initiation_required": false
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "contraindications": [
+   "If you feel disoriented, unreal or anxious",
+   "A history of trauma, dissociation, psychosis or severe anxiety"
+  ],
+  "stop_if": [
+   "disoriented",
+   "unreal",
+   "anxious"
+  ],
+  "beginner_override": {},
+  "alternatives": [
+   {
+    "practice": "ajahn-lee-method-2",
+    "when": "if this feels unsettling: a body-based breath practice"
+   }
+  ]
+ },
+ "stages": [
+  {
+   "id": "whole-field",
+   "label": "The whole body at once"
+  },
+  {
+   "id": "awareness",
+   "label": "Body and world as awareness"
+  }
+ ],
+ "script": {
+  "count_s": 1,
+  "params": {},
+  "rounds": {
+   "default": 1,
+   "min": 1,
+   "max": 1
+  },
+  "round_sound": false,
+  "show": {
+   "channels": [],
+   "loci": [],
+   "labels": "active"
+  },
+  "intro": [
+   {
+    "id": "open",
+    "phase": "natural",
+    "seconds": 6,
+    "stage": "whole-field",
+    "sound": "bowl-start"
+   },
+   {
+    "id": "i01",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i01.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "whole_body",
+       "size": "whole"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "caption": "Let attention rest on the whole body at once. Not one part: the whole field of sensation.",
+      "voice_first": true
+     },
+     {
+      "id": "i01.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "whole-field"
+   },
+   {
+    "id": "i02",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i02.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "whole_body",
+       "size": "wide"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Now take the body, and the world around it, as made of awareness.",
+      "voice_first": true
+     },
+     {
+      "id": "i02.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "awareness"
+   },
+   {
+    "id": "i03.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "awareness",
+    "caption": "Let this be felt, rather than thought."
+   },
+   {
+    "id": "i03.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "awareness"
+   },
+   {
+    "id": "i04.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "awareness",
+    "caption": "When the mind narrows back to me and mine, return to the wider field, and rest there."
+   },
+   {
+    "id": "i04.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "awareness"
+   }
+  ],
+  "round": [],
+  "outro": [
+   {
+    "id": "close",
+    "phase": "natural",
+    "seconds": 14,
+    "stage": "awareness",
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "cite": "Vijñāna Bhairava Tantra v. 63, summarised by Satsang in its own words; translation consulted: Christopher Hareesh Wallis, Tantra 112 (link and verse number only)",
+   "checked": "2026-10-25",
+   "check": "work",
+   "licence": "CC-BY-4.0 (https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA)"
+  }
+ ],
+ "teachers": [],
+ "derivation": {
+  "pipeline": "TEXT-TO-PRACTICE v1",
+  "builder": "satsang-build-practice/1",
+  "extractor": {
+   "tool": "satsang-extract/1",
+   "mode": "agent-manual",
+   "agent": "hark subagent (satsang practice-player rethink)",
+   "prompt": "tools/extract/PROMPT.md v1",
+   "date": "2026-10-25",
+   "note": "No model spend. Source is Satsang’s own CC BY 4.0 summary of the verses (the Wallis translation is all rights reserved: cite-only-source); agent draft per PROMPT.md §A, validated by extract.mjs."
+  },
+  "source": {
+   "id": "satsang-vbt-summaries",
+   "segments": [
+    {
+     "id": "vbt-space",
+     "sha256": "24ef0ad83dcb1a2c8551913fe58440be0c5494b495816285804a2ea371ab3e43"
+    },
+    {
+     "id": "vbt-body",
+     "sha256": "d5771e4a2ea41c7e45ec067fd995961dc04f0306609bbdd99fb7730a2ddf1b41"
+    }
+   ],
+   "licence": "CC-BY-4.0",
+   "licence_evidence": "https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA"
+  },
+  "files": {
+   "passages": "pipeline/vbt-body-as-awareness/passages.json",
+   "instructions": "pipeline/vbt-body-as-awareness/instructions.json",
+   "head": "pipeline/vbt-body-as-awareness/head.json",
+   "narration": "pipeline/vbt-body-as-awareness/narration.json",
+   "rules": "tools/extract/defaults.json"
+  },
+  "inputs_sha256": "ed590e618e93d25b",
+  "voice_measured": false
+ },
+ "provenance": {
+  "blocks": {
+   "i01.in": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.out": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01": {
+    "instr": [
+     "i01"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i02.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02": {
+    "instr": [
+     "i02"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i03.g.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i03.g.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i04.g.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i04.g.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "open": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "lead-in"
+    }
+   },
+   "close": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   }
+  },
+  "fields": {
+   "summary": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01",
+     "i02",
+     "i04"
+    ]
+   },
+   "level": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "posture": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ]
+   },
+   "eyes": {
+    "basis": "inferred",
+    "rule": "eyes-closed-default"
+   },
+   "needs_teacher": {
+    "basis": "paraphrased",
+    "instr": [
+     "i92"
+    ],
+    "note": "a safe dhāraṇā"
+   },
+   "aim": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "stop_if": {
+    "basis": "paraphrased",
+    "instr": [
+     "i90"
+    ]
+   },
+   "beginner_override": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "alternatives": {
+    "basis": "paraphrased",
+    "instr": [
+     "i90"
+    ]
+   }
+  }
+ },
+ "meta": {
+  "created": "2026-10-25",
+  "status": "review",
+  "confidence": "medium",
+  "confidence_note": "Built by the text-to-practice pipeline from Satsang’s own summary of VBT v. 63 (extension pack 45), not from a translation; the verse is cited by number and linked. Lengths use explore-breaths.",
+  "license": "CC-BY-4.0",
+  "license_note": "Satsang’s own wording (CC BY 4.0). The VBT translation is all rights reserved and is only linked, never quoted (rule cite-only-source)."
+ }
+}

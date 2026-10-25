@@ -1,0 +1,13 @@
+{
+ "type": "routine",
+ "schema_version": 1,
+ "id": "anapanasati-sixteen",
+ "name": "Sixteen steps + goodwill (about 18 min)",
+ "summary": "The Buddha’s sixteen steps of breath meditation (MN 118) with open sitting at the end, then a short goodwill reflection.",
+ "items": [
+  { "practice": "mn118-anapanasati", "label": "Sixteen steps · MN 118", "minutes": 15 },
+  { "practice": "karaniya-metta", "label": "Goodwill", "minutes": 3 }
+ ],
+ "transition": { "sound": "chime" },
+ "meta": { "created": "2026-10-25", "status": "review", "license": "CC-BY-NC-4.0" }
+}

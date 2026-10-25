@@ -1,0 +1,13 @@
+{
+ "type": "routine",
+ "schema_version": 1,
+ "id": "vbt-spacious",
+ "name": "Body, then space · Vijñāna Bhairava (15 min)",
+ "summary": "Two safe dhāraṇās from the Vijñāna Bhairava in Satsang’s words: the whole body as awareness (v. 63), then the spaciousness practices (vv. 43–48).",
+ "items": [
+  { "practice": "vbt-body-as-awareness", "label": "The body as awareness · v. 63", "minutes": 5 },
+  { "practice": "vbt-space-contemplation", "label": "Spaciousness · vv. 43–48", "minutes": 10 }
+ ],
+ "transition": { "sound": "chime" },
+ "meta": { "created": "2026-10-25", "status": "review", "license": "CC-BY-4.0" }
+}

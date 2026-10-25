@@ -1,0 +1,38 @@
+{
+ "errors": [],
+ "warnings": [],
+ "slots": [
+  {
+   "line": "L01",
+   "block": "i01.in",
+   "t": 6,
+   "avail_s": 44,
+   "speech_s": 7.39,
+   "measured": false
+  },
+  {
+   "line": "L02",
+   "block": "i02.in",
+   "t": 50,
+   "avail_s": 44,
+   "speech_s": 5.65,
+   "measured": false
+  },
+  {
+   "line": "L03",
+   "block": "i03.g.in",
+   "t": 94,
+   "avail_s": 11,
+   "speech_s": 3.04,
+   "measured": false
+  },
+  {
+   "line": "L04",
+   "block": "i04.g.in",
+   "t": 105,
+   "avail_s": 25,
+   "speech_s": 7.39,
+   "measured": false
+  }
+ ]
+}

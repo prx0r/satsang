@@ -1,0 +1,166 @@
+{
+ "type": "instructions_draft",
+ "schema_version": 1,
+ "practice": "vbt-body-as-awareness",
+ "source": "satsang-vbt-summaries",
+ "extracted_by": {
+  "mode": "agent-manual",
+  "agent": "hark subagent (satsang practice-player rethink)",
+  "prompt": "tools/extract/PROMPT.md v1",
+  "date": "2026-10-25",
+  "note": "No model spend. Source is Satsang’s own CC BY 4.0 summary of the verses (the Wallis translation is all rights reserved: cite-only-source); agent draft per PROMPT.md §A, validated by extract.mjs."
+ },
+ "stages": [
+  {
+   "id": "whole-field",
+   "label": "The whole body at once"
+  },
+  {
+   "id": "awareness",
+   "label": "Body and world as awareness"
+  }
+ ],
+ "instructions": [
+  {
+   "id": "i01",
+   "stage": "whole-field",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "vbt-body:p1.s1",
+     "quote": "Sit and let attention rest on the whole body at once: not one part, the whole field of sensation."
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.92
+  },
+  {
+   "id": "i02",
+   "stage": "awareness",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "vbt-body:p1.s2",
+     "quote": "Then take the body, and the world around it, as made of awareness."
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the body and the world around it: the light widened around the figure"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i03",
+   "stage": "awareness",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-body:p1.s3",
+     "quote": "Let this be felt rather than thought."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i04",
+   "stage": "awareness",
+   "action": "widen",
+   "spans": [
+    {
+     "passage": "vbt-body:p1.s4",
+     "quote": "When the mind narrows back to \"me\" and \"mine\", return to the wider field and rest there."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i05",
+   "stage": "awareness",
+   "action": "intent",
+   "spans": [
+    {
+     "passage": "vbt-body:p1.s5",
+     "quote": "The body stays where it is; only the sense of it being separate softens."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a described result: never narrated as a target",
+   "confidence": 0.9
+  },
+  {
+   "id": "i90",
+   "stage": "whole-field",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-body:p2.s1",
+     "quote": "If you feel disoriented, unreal or anxious, open the eyes, feel the feet and the seat, and stop for today."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a safety condition: shown on the start card and in Ask, not narrated",
+   "confidence": 0.95
+  },
+  {
+   "id": "i91",
+   "stage": "whole-field",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-body:p3.s1",
+     "quote": "If you have a history of trauma, dissociation, psychosis or severe anxiety, keep sits short with eyes open, or practise with a qualified teacher or clinician."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a safety condition: shown on the start card and in Ask, not narrated",
+   "confidence": 0.95
+  },
+  {
+   "id": "i92",
+   "stage": "whole-field",
+   "action": "teacher_advice",
+   "spans": [
+    {
+     "passage": "vbt-body:p4.s1",
+     "quote": "The rest of the Vijñāna Bhairava (breath retention, mantra, the subtle-body and burning practices) is learned from a qualified teacher in the Trika tradition"
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "orientation, shown on the start card",
+   "confidence": 0.95
+  }
+ ],
+ "coverage_rules": []
+}

@@ -145,6 +145,34 @@
      "sha256": {
       "type": "string",
       "pattern": "^[0-9a-f]{64}$"
+     },
+     "pdf_pages": {
+      "type": "string",
+      "description": "PDF page range to extract (pdftotext), e.g. '2' for a copyright page"
+     },
+     "local": {
+      "type": "object",
+      "description": "a repo-local source (our own wording): file relative to engine/, then record+fields (JSON) or lines (text)",
+      "properties": {
+       "file": {
+        "type": "string"
+       },
+       "record": {
+        "type": "string"
+       },
+       "fields": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "lines": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "file"
+      ]
      }
     }
    }

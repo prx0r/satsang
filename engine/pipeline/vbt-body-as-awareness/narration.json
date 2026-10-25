@@ -1,0 +1,54 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "vbt-body-as-awareness",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-25"
+ },
+ "voice_policy": "plain modern English; from Satsang’s own summary; the VBT translation is never quoted",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i01"
+   ],
+   "text": "Let attention rest on the whole body at once. Not one part: the whole field of sensation.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L02",
+   "block": "i02.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Now take the body, and the world around it, as made of awareness.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L03",
+   "block": "i03.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "Let this be felt, rather than thought.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L04",
+   "block": "i04.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i04"
+   ],
+   "text": "When the mind narrows back to me and mine, return to the wider field, and rest there.",
+   "pause_after_s": 0.8
+  }
+ ]
+}

@@ -14,8 +14,10 @@ const add = [
   ...['index.html', 'talk.mjs', 'flow.mjs', 'fake-model.mjs'].map(f => `talk/${f}`),
   ...fs.readdirSync(path.join(ROOT, 'rt')).filter(f => f.endsWith('.mjs') && !f.startsWith('test')).map(f => `rt/${f}`), 'rt/README.md',
   ...['index.html', 'breath.js', 'body.js'].map(f => `breath/${f}`),   // /breath/: the energy-body breath page
+  ...['index.html', 'sit.js', 'session.mjs', 'loci.mjs'].map(f => `sit/${f}`),   // /sit/: the hands-off practice player
+  ...fs.readdirSync(path.join(ROOT, 'routines')).filter(f => f.endsWith('.json')).map(f => `routines/${f}`),
 ]
-const TYPES = { '.html': 'text/html; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.md': 'text/markdown; charset=utf-8' }
+const TYPES = { '.html': 'text/html; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.md': 'text/markdown; charset=utf-8', '.json': 'application/json; charset=utf-8' }
 const lines = w.split('\n'), li = lines.findIndex(l => l.startsWith('const A = ') && l.endsWith(';'))
 if (li < 0) throw new Error('generated worker changed shape: the one-line const A = {...}; was not found')
 const A = JSON.parse(lines[li].slice('const A = '.length, -1))
@@ -25,9 +27,9 @@ for (const need of ['/compile.mjs', '/grammar.json', '/player/player.js', '/play
   if (!A[need]) throw new Error(`preview no longer ships ${need}; /talk/ needs it`)
 lines[li] = `const A = ${JSON.stringify(A)};`
 w = lines.join('\n')
-w = w.replace("if (p === '/' || p === '/demo')", "if (p === '/talk' || p === '/breath') return Response.redirect(u.origin + p + '/' + u.search, 302);\n  if (p === '/' || p === '/demo')")
+w = w.replace("if (p === '/' || p === '/demo')", "if (p === '/talk' || p === '/breath' || p === '/sit') return Response.redirect(u.origin + p + '/' + u.search, 302);\n  if (p === '/' || p === '/demo')")
 fs.writeFileSync(`${DIR}/worker.js`, w)
-console.log(`+${add.length} files (talk/, rt/, breath/); worker.js ${(w.length / 1024).toFixed(1)} KB`)
+console.log(`+${add.length} files (talk/, rt/, breath/, sit/, routines/); worker.js ${(w.length / 1024).toFixed(1)} KB`)
 if (process.argv.includes('--dry')) process.exit(0)
 const bins = [...w.matchAll(/import B\d+ from '\.\/(b\d+\.bin)'/g)].map(x => x[1])   // only the modules this worker imports
 fs.writeFileSync(`${DIR}/metadata.json`, JSON.stringify({ main_module: 'worker.js', compatibility_date: '2026-10-01' }))

@@ -1,0 +1,778 @@
+{
+ "type": "passages",
+ "schema_version": 1,
+ "source": "snp-1-8-goodwill",
+ "segmenter": "satsang-segment/1",
+ "source_sha256": {
+  "snp1-8": "df542450c56c591c5ab5167e4d19763cad2082b40e4f65f9dc89cb69489836ad",
+  "copyright": "4232f371198d480eaee9a1f9d4122b3aa3727fb63e0e29f8e8b3cead61b96489"
+ },
+ "passages": [
+  {
+   "id": "snp1-8:p1.s1",
+   "segment": "snp1-8",
+   "para": "p1",
+   "start": 0,
+   "end": 37,
+   "text": "(This sutta is identical with Khp 9.)",
+   "sha256": "715fe395662030be",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    9
+   ]
+  },
+  {
+   "id": "snp1-8:p2.s1",
+   "segment": "snp1-8",
+   "para": "p2",
+   "start": 39,
+   "end": 80,
+   "text": "This is to be done by one skilled in aims",
+   "sha256": "865abeaf42b07e76",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p3.s1",
+   "segment": "snp1-8",
+   "para": "p3",
+   "start": 82,
+   "end": 114,
+   "text": "appreciating the state of peace:",
+   "sha256": "862abd10c256a65c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p4.s1",
+   "segment": "snp1-8",
+   "para": "p4",
+   "start": 116,
+   "end": 155,
+   "text": "Be capable, upright, & straightforward,",
+   "sha256": "02208a32aedbbcec",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p5.s1",
+   "segment": "snp1-8",
+   "para": "p5",
+   "start": 157,
+   "end": 199,
+   "text": "easy to instruct, gentle, & not conceited,",
+   "sha256": "d111466408edb5d5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p6.s1",
+   "segment": "snp1-8",
+   "para": "p6",
+   "start": 201,
+   "end": 227,
+   "text": "content & easy to support,",
+   "sha256": "c1568a2652f6c099",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p7.s1",
+   "segment": "snp1-8",
+   "para": "p7",
+   "start": 229,
+   "end": 261,
+   "text": "with few duties, living lightly,",
+   "sha256": "f52760df59973a12",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p8.s1",
+   "segment": "snp1-8",
+   "para": "p8",
+   "start": 263,
+   "end": 295,
+   "text": "with peaceful faculties, astute,",
+   "sha256": "aa01167235348d2b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p9.s1",
+   "segment": "snp1-8",
+   "para": "p9",
+   "start": 297,
+   "end": 331,
+   "text": "modest, & no greed for supporters.",
+   "sha256": "92c5da59d91d8c4f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p10.s1",
+   "segment": "snp1-8",
+   "para": "p10",
+   "start": 333,
+   "end": 362,
+   "text": "Do not do the slightest thing",
+   "sha256": "fc709d69ceca4d28",
+   "kind_guess": [
+    "instruction",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p11.s1",
+   "segment": "snp1-8",
+   "para": "p11",
+   "start": 364,
+   "end": 403,
+   "text": "that the observant would later censure.",
+   "sha256": "819fc65a59b26d92",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p12.s1",
+   "segment": "snp1-8",
+   "para": "p12",
+   "start": 405,
+   "end": 427,
+   "text": "Think: Happy, at rest,",
+   "sha256": "5a2ef6014e9feb6f",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p13.s1",
+   "segment": "snp1-8",
+   "para": "p13",
+   "start": 429,
+   "end": 462,
+   "text": "may all beings be happy at heart.",
+   "sha256": "0683e79b8e248bcb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p14.s1",
+   "segment": "snp1-8",
+   "para": "p14",
+   "start": 464,
+   "end": 493,
+   "text": "Whatever beings there may be,",
+   "sha256": "2472c3c259dea102",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p15.s1",
+   "segment": "snp1-8",
+   "para": "p15",
+   "start": 495,
+   "end": 529,
+   "text": "weak or strong, without exception,",
+   "sha256": "c70594428b72f2f3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p16.s1",
+   "segment": "snp1-8",
+   "para": "p16",
+   "start": 531,
+   "end": 543,
+   "text": "long, large,",
+   "sha256": "502592bc58d4e1ce",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p17.s1",
+   "segment": "snp1-8",
+   "para": "p17",
+   "start": 545,
+   "end": 561,
+   "text": "middling, short,",
+   "sha256": "b080f4ced68102f4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p18.s1",
+   "segment": "snp1-8",
+   "para": "p18",
+   "start": 563,
+   "end": 577,
+   "text": "subtle, gross,",
+   "sha256": "c386603ae8ba09b2",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p19.s1",
+   "segment": "snp1-8",
+   "para": "p19",
+   "start": 579,
+   "end": 593,
+   "text": "seen & unseen,",
+   "sha256": "d4e9d6f5f18de45c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p20.s1",
+   "segment": "snp1-8",
+   "para": "p20",
+   "start": 595,
+   "end": 618,
+   "text": "living near & far away,",
+   "sha256": "feafea619c2738a1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p21.s1",
+   "segment": "snp1-8",
+   "para": "p21",
+   "start": 620,
+   "end": 642,
+   "text": "born or seeking birth:",
+   "sha256": "989ba228c98ed3b5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p22.s1",
+   "segment": "snp1-8",
+   "para": "p22",
+   "start": 644,
+   "end": 677,
+   "text": "May all beings be happy at heart.",
+   "sha256": "a765f5cf87dd9663",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p23.s1",
+   "segment": "snp1-8",
+   "para": "p23",
+   "start": 679,
+   "end": 705,
+   "text": "Let no one deceive another",
+   "sha256": "ef13350444443e8a",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p24.s1",
+   "segment": "snp1-8",
+   "para": "p24",
+   "start": 707,
+   "end": 734,
+   "text": "or despise anyone anywhere,",
+   "sha256": "89c6db96e69ba739",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p25.s1",
+   "segment": "snp1-8",
+   "para": "p25",
+   "start": 736,
+   "end": 779,
+   "text": "or, through anger or resistance-perception,",
+   "sha256": "68b05609eb33caa9",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p26.s1",
+   "segment": "snp1-8",
+   "para": "p26",
+   "start": 781,
+   "end": 808,
+   "text": "wish for another to suffer.",
+   "sha256": "53cb0a012cd8282c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p27.s1",
+   "segment": "snp1-8",
+   "para": "p27",
+   "start": 810,
+   "end": 841,
+   "text": "As a mother would risk her life",
+   "sha256": "569e904f8d72f06d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p28.s1",
+   "segment": "snp1-8",
+   "para": "p28",
+   "start": 843,
+   "end": 880,
+   "text": "to protect her child, her only child,",
+   "sha256": "6eb5d11965023c7c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p29.s1",
+   "segment": "snp1-8",
+   "para": "p29",
+   "start": 882,
+   "end": 932,
+   "text": "even so should one cultivate the heart limitlessly",
+   "sha256": "80ef0ec45bc06079",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p30.s1",
+   "segment": "snp1-8",
+   "para": "p30",
+   "start": 934,
+   "end": 961,
+   "text": "with regard to all beings.1",
+   "sha256": "a3ec4b5e893d9d94",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p31.s1",
+   "segment": "snp1-8",
+   "para": "p31",
+   "start": 963,
+   "end": 999,
+   "text": "With goodwill for the entire cosmos,",
+   "sha256": "5a47ee9c6148c56c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p32.s1",
+   "segment": "snp1-8",
+   "para": "p32",
+   "start": 1001,
+   "end": 1033,
+   "text": "cultivate the heart limitlessly:",
+   "sha256": "5bc0b52a7194421a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p33.s1",
+   "segment": "snp1-8",
+   "para": "p33",
+   "start": 1035,
+   "end": 1062,
+   "text": "above, below, & all around,",
+   "sha256": "bdefb049c9d93efb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p34.s1",
+   "segment": "snp1-8",
+   "para": "p34",
+   "start": 1064,
+   "end": 1104,
+   "text": "unobstructed, without hostility or hate.",
+   "sha256": "6cfc74737cf383f5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p35.s1",
+   "segment": "snp1-8",
+   "para": "p35",
+   "start": 1106,
+   "end": 1132,
+   "text": "Whether standing, walking,",
+   "sha256": "5f5b58945ae114f6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p36.s1",
+   "segment": "snp1-8",
+   "para": "p36",
+   "start": 1134,
+   "end": 1157,
+   "text": "sitting, or lying down,",
+   "sha256": "c3ba66e8d2ea4c2c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p37.s1",
+   "segment": "snp1-8",
+   "para": "p37",
+   "start": 1159,
+   "end": 1194,
+   "text": "as long as one has banished torpor,",
+   "sha256": "a628f085a85240f6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p38.s1",
+   "segment": "snp1-8",
+   "para": "p38",
+   "start": 1196,
+   "end": 1242,
+   "text": "one should be determined on this mindfulness.2",
+   "sha256": "384fdc9b604d36dd",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "snp1-8:p39.s1",
+   "segment": "snp1-8",
+   "para": "p39",
+   "start": 1244,
+   "end": 1275,
+   "text": "This is called a Brahmā abiding",
+   "sha256": "ec2c89a656e13c79",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p40.s1",
+   "segment": "snp1-8",
+   "para": "p40",
+   "start": 1277,
+   "end": 1282,
+   "text": "here.",
+   "sha256": "dd1d122956efde29",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p41.s1",
+   "segment": "snp1-8",
+   "para": "p41",
+   "start": 1284,
+   "end": 1305,
+   "text": "Not taken with views,",
+   "sha256": "9bdf17792b00de7e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p42.s1",
+   "segment": "snp1-8",
+   "para": "p42",
+   "start": 1307,
+   "end": 1343,
+   "text": "but virtuous & consummate in vision,",
+   "sha256": "c75f4d14d7aa9daa",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p43.s1",
+   "segment": "snp1-8",
+   "para": "p43",
+   "start": 1345,
+   "end": 1381,
+   "text": "having subdued greed for sensuality,",
+   "sha256": "b3b66fa38c47ac34",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p44.s1",
+   "segment": "snp1-8",
+   "para": "p44",
+   "start": 1383,
+   "end": 1398,
+   "text": "one never again",
+   "sha256": "9b4da388c54973e8",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p45.s1",
+   "segment": "snp1-8",
+   "para": "p45",
+   "start": 1400,
+   "end": 1421,
+   "text": "will lie in the womb.",
+   "sha256": "af794b1dcbadf8bc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p46.s1",
+   "segment": "snp1-8",
+   "para": "p46",
+   "start": 1423,
+   "end": 1434,
+   "text": "vv. 143–152",
+   "sha256": "f6bb9b446a191783",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    143,
+    152
+   ]
+  },
+  {
+   "id": "snp1-8:p47.s1",
+   "segment": "snp1-8",
+   "para": "p47",
+   "start": 1436,
+   "end": 1441,
+   "text": "Notes",
+   "sha256": "8a7525b1492fb848",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "snp1-8:p48.s1",
+   "segment": "snp1-8",
+   "para": "p48",
+   "start": 1443,
+   "end": 1573,
+   "text": "1. The image here is sometimes misconstrued as saying that one should protect all beings as a mother would protect her only child.",
+   "sha256": "c77c60c418621750",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p48.s2",
+   "segment": "snp1-8",
+   "para": "p48",
+   "start": 1574,
+   "end": 1816,
+   "text": "Actually, the parallel is not between the child and all living beings; it is between the child and one’s cultivation of the heart: One should protect one’s goodwill toward all beings in the same way that a mother would protect her only child.",
+   "sha256": "01de678df5d2cd1e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "snp1-8:p48.s3",
+   "segment": "snp1-8",
+   "para": "p48",
+   "start": 1817,
+   "end": 1842,
+   "text": "On this point, see MN 21.",
+   "sha256": "e80ff961bb17c434",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    21
+   ]
+  },
+  {
+   "id": "snp1-8:p49.s1",
+   "segment": "snp1-8",
+   "para": "p49",
+   "start": 1844,
+   "end": 1965,
+   "text": "2. This line has to be read in line with the Buddha’s definition of mindfulness as the ability to keep something in mind.",
+   "sha256": "0afc55d45cae5ef4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2
+   ]
+  },
+  {
+   "id": "snp1-8:p49.s2",
+   "segment": "snp1-8",
+   "para": "p49",
+   "start": 1966,
+   "end": 1979,
+   "text": "See SN 48:10.",
+   "sha256": "cc93b1ddb2293e82",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    48,
+    10
+   ]
+  },
+  {
+   "id": "snp1-8:p50.s1",
+   "segment": "snp1-8",
+   "para": "p50",
+   "start": 1981,
+   "end": 2195,
+   "text": "See also: MN 52; MN 97; MN 135; SN 42:8; SN 46:54; SN 55:7; AN 3:66; AN 4:67; AN 4:96; AN 4:125–126; AN 4:178; AN 4:200; AN 5:20; AN 5:27; AN 6:12–13; AN 8:70; AN 10:176; AN 10:196; AN 11:16; Ud 5:1; Iti 22; Iti 27",
+   "sha256": "5ecf8cb75e87ac09",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    52,
+    97,
+    135,
+    42,
+    8,
+    46,
+    54,
+    55,
+    7,
+    3,
+    66,
+    4,
+    67,
+    4,
+    96,
+    4,
+    125,
+    126,
+    4,
+    178,
+    4,
+    200,
+    5,
+    20,
+    5,
+    27,
+    6,
+    12,
+    13,
+    8,
+    70,
+    10,
+    176,
+    10,
+    196,
+    11,
+    16,
+    5,
+    1,
+    22,
+    27
+   ]
+  }
+ ]
+}

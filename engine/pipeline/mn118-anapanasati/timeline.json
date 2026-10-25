@@ -1,0 +1,2563 @@
+{
+ "script_version": 1,
+ "engine": "satsang-engine/0.3",
+ "practice": "mn118-anapanasati",
+ "name": "Sixteen steps · Ānāpānasati Sutta (MN 118)",
+ "traditions": [
+  "theravada"
+ ],
+ "opts": {
+  "beginner": false,
+  "rounds": 0,
+  "count_s": 1
+ },
+ "params": {},
+ "loops": 0,
+ "mode": "guided",
+ "total_s": 591.1,
+ "show": {
+  "channels": [],
+  "loci": [],
+  "labels": "active"
+ },
+ "tracks": {
+  "breath": [
+   {
+    "t": 0,
+    "dur": 5,
+    "phase": "natural",
+    "id": "open",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 5,
+    "dur": 1,
+    "phase": "natural",
+    "id": "open",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "natural",
+    "id": "i01",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 11,
+    "dur": 5.1,
+    "phase": "natural",
+    "id": "i01",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 16.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0.18,
+    "vol1": 1
+   },
+   {
+    "t": 21.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 27.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 32.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 38.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 43.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 49.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 54.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 60.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 65.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 71.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 76.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 82.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 87.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 93.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 98.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 104.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 109.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 115.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 120.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 126.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 131.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 137.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 142.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 148.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 153.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 159.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 164.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 170.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 175.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 181.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i07.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 186.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i07.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 192.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i07.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 197.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i07.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 203.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i07.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 208.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i07.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 214.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i08.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 219.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i08.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 225.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i08.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 230.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i08.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 236.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i08.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 241.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i08.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 247.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i09.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 252.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i09.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 258.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i09.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 263.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i09.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 269.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i09.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 274.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i09.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 280.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i10.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 285.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i10.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 291.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i10.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 296.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i10.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 302.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i10.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 307.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i10.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 313.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i11.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 318.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i11.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 324.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i11.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 329.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i11.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 335.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i11.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 340.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i11.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 346.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i12.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 351.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i12.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 357.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i12.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 362.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i12.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 368.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i12.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 373.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i12.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 379.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i13.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 384.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i13.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 390.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i13.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 395.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i13.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 401.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i13.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 406.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i13.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 412.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i14.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 417.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i14.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 423.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i14.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 428.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i14.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 434.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i14.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 439.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i14.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 445.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i15.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 450.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i15.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 456.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i15.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 461.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i15.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 467.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i15.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 472.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i15.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 478.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i16.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 483.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i16.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 489.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i16.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 494.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i16.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 500.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i16.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 505.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i16.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 511.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i17.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 516.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i17.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 522.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i17.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 527.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i17.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 533.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i17.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 538.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i17.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 544.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i18.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 549.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i18.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 555.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i18.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 560.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i18.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 566.1,
+    "dur": 5,
+    "phase": "in",
+    "id": "i18.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 571.1,
+    "dur": 6,
+    "phase": "out",
+    "id": "i18.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 577.1,
+    "dur": 5,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 582.1,
+    "dur": 6,
+    "phase": "natural",
+    "id": "close",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 588.1,
+    "dur": 3,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   }
+  ],
+  "voice": [
+   {
+    "t": 6,
+    "dur": 10.1,
+    "text": "Sit with your legs crossed, or in any steady seat. Hold the body erect, and bring mindfulness to the fore.",
+    "say": "Sit with your legs crossed, or in any steady seat. Hold the body erect, and bring mindfulness to the fore.",
+    "once": false,
+    "block": "i01",
+    "stage": "sitting"
+   },
+   {
+    "t": 16.1,
+    "dur": 5,
+    "text": "Always mindful, breathe in. Mindful, breathe out.",
+    "say": "Always mindful, breathe in. Mindful, breathe out.",
+    "once": false,
+    "block": "i02.b1.in",
+    "stage": "sitting"
+   },
+   {
+    "t": 49.1,
+    "dur": 5,
+    "text": "When the breath is long, discern: I am breathing in long… I am breathing out long.",
+    "say": "When the breath is long, discern: I am breathing in long… I am breathing out long.",
+    "once": false,
+    "block": "i03.b1.in",
+    "quote": {
+     "text": "Breathing in long, he discerns, ‘I am breathing in long’",
+     "cite": "The Buddha (Pali Canon), Ānāpānasati Sutta: Mindfulness of Breathing (MN 118), mn118:p18.s1 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "body"
+   },
+   {
+    "t": 82.1,
+    "dur": 5,
+    "text": "When it is short, discern: I am breathing in short… breathing out short.",
+    "say": "When it is short, discern: I am breathing in short… breathing out short.",
+    "once": false,
+    "block": "i04.b1.in",
+    "stage": "body"
+   },
+   {
+    "t": 115.1,
+    "dur": 5,
+    "text": "Breathe in sensitive to the entire body. Breathe out sensitive to the entire body.",
+    "say": "Breathe in sensitive to the entire body. Breathe out sensitive to the entire body.",
+    "once": false,
+    "block": "i05.b1.in",
+    "stage": "body"
+   },
+   {
+    "t": 148.1,
+    "dur": 5,
+    "text": "Breathe in calming bodily fabrication, the breath itself. Breathe out, calming it.",
+    "say": "Breathe in calming bodily fabrication, the breath itself. Breathe out, calming it.",
+    "once": false,
+    "block": "i06.b1.in",
+    "quote": {
+     "text": "in-&-out breaths are bodily fabrications",
+     "cite": "The Buddha (Pali Canon), Ānāpānasati Sutta: Mindfulness of Breathing (MN 118), mn118:p45.s2 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "body"
+   },
+   {
+    "t": 181.1,
+    "dur": 5,
+    "text": "Breathe in sensitive to rapture. Breathe out sensitive to rapture.",
+    "say": "Breathe in sensitive to rapture. Breathe out sensitive to rapture.",
+    "once": false,
+    "block": "i07.b1.in",
+    "stage": "feelings"
+   },
+   {
+    "t": 214.1,
+    "dur": 5,
+    "text": "Breathe in sensitive to pleasure. Breathe out sensitive to pleasure.",
+    "say": "Breathe in sensitive to pleasure. Breathe out sensitive to pleasure.",
+    "once": false,
+    "block": "i08.b1.in",
+    "stage": "feelings"
+   },
+   {
+    "t": 247.1,
+    "dur": 5,
+    "text": "Breathe in sensitive to mental fabrication: perceptions and feelings. Breathe out, sensitive to them.",
+    "say": "Breathe in sensitive to mental fabrication: perceptions and feelings. Breathe out, sensitive to them.",
+    "once": false,
+    "block": "i09.b1.in",
+    "stage": "feelings"
+   },
+   {
+    "t": 280.1,
+    "dur": 5,
+    "text": "Breathe in calming mental fabrication. Breathe out calming mental fabrication.",
+    "say": "Breathe in calming mental fabrication. Breathe out calming mental fabrication.",
+    "once": false,
+    "block": "i10.b1.in",
+    "stage": "feelings"
+   },
+   {
+    "t": 313.1,
+    "dur": 5,
+    "text": "Breathe in sensitive to the mind. Breathe out sensitive to the mind.",
+    "say": "Breathe in sensitive to the mind. Breathe out sensitive to the mind.",
+    "once": false,
+    "block": "i11.b1.in",
+    "stage": "mind"
+   },
+   {
+    "t": 346.1,
+    "dur": 5,
+    "text": "Breathe in gladdening the mind. Breathe out gladdening the mind.",
+    "say": "Breathe in gladdening the mind. Breathe out gladdening the mind.",
+    "once": false,
+    "block": "i12.b1.in",
+    "stage": "mind"
+   },
+   {
+    "t": 379.1,
+    "dur": 5,
+    "text": "Breathe in concentrating the mind. Breathe out concentrating the mind.",
+    "say": "Breathe in concentrating the mind. Breathe out concentrating the mind.",
+    "once": false,
+    "block": "i13.b1.in",
+    "stage": "mind"
+   },
+   {
+    "t": 412.1,
+    "dur": 5,
+    "text": "Breathe in releasing the mind. Breathe out releasing the mind.",
+    "say": "Breathe in releasing the mind. Breathe out releasing the mind.",
+    "once": false,
+    "block": "i14.b1.in",
+    "stage": "mind"
+   },
+   {
+    "t": 445.1,
+    "dur": 5,
+    "text": "Breathe in focusing on inconstancy. Breathe out focusing on inconstancy.",
+    "say": "Breathe in focusing on inconstancy. Breathe out focusing on inconstancy.",
+    "once": false,
+    "block": "i15.b1.in",
+    "stage": "qualities"
+   },
+   {
+    "t": 478.1,
+    "dur": 5,
+    "text": "Breathe in focusing on dispassion, on fading. Breathe out the same.",
+    "say": "Breathe in focusing on dispassion, on fading. Breathe out the same.",
+    "once": false,
+    "block": "i16.b1.in",
+    "stage": "qualities"
+   },
+   {
+    "t": 511.1,
+    "dur": 5,
+    "text": "Breathe in focusing on cessation. Breathe out focusing on cessation.",
+    "say": "Breathe in focusing on cessation. Breathe out focusing on cessation.",
+    "once": false,
+    "block": "i17.b1.in",
+    "stage": "qualities"
+   },
+   {
+    "t": 544.1,
+    "dur": 5,
+    "text": "Breathe in focusing on relinquishing. Breathe out focusing on relinquishing.",
+    "say": "Breathe in focusing on relinquishing. Breathe out focusing on relinquishing.",
+    "once": false,
+    "block": "i18.b1.in",
+    "stage": "qualities"
+   }
+  ],
+  "visual": [
+   {
+    "t": 6,
+    "dur": 10.1,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 16.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 21.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 27.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 32.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 38.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 43.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 49.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 54.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 60.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 65.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 71.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 76.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 82.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 87.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 93.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 98.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 104.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 109.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 115.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 120.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 126.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 131.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 137.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 142.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 148.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 153.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 159.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 164.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 170.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 175.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 181.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 186.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 192.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 197.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 203.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 208.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 214.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 219.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 225.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 230.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 236.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 241.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 247.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 252.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 258.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 263.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 269.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 274.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 280.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 285.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 291.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 296.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 302.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 307.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 313.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 318.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 324.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 329.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 335.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 340.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 346.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 351.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 357.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 362.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 368.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 373.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 379.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 384.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 390.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 395.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 401.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 406.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 412.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 417.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 423.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 428.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 434.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 439.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 445.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 450.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 456.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 461.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 467.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 472.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 478.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 483.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 489.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 494.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 500.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 505.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 511.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 516.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 522.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 527.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 533.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 538.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 544.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 549.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 555.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 560.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 566.1,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 571.1,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 577.1,
+    "dur": 14,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   }
+  ],
+  "attention": [
+   {
+    "t": 16.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 27.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 38.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 49.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 60.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 71.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 82.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 93.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 104.1,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 115.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 126.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 137.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 148.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 159.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 170.1,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 181.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 192.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 203.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 214.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 225.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 236.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 247.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 258.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 269.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 280.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 291.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 302.1,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 313.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 324.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 335.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 346.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 357.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 368.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 379.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 390.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 401.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 412.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 423.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 434.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 445.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 456.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 467.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 478.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 489.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 500.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 511.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 522.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 533.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 544.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 555.1,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 566.1,
+    "target": "whole_body",
+    "size": "wide"
+   }
+  ],
+  "audio": [
+   {
+    "t": 0,
+    "sound": "bowl-start"
+   },
+   {
+    "t": 49.1,
+    "sound": "chime"
+   },
+   {
+    "t": 181.1,
+    "sound": "chime"
+   },
+   {
+    "t": 313.1,
+    "sound": "chime"
+   },
+   {
+    "t": 445.1,
+    "sound": "chime"
+   },
+   {
+    "t": 591.1,
+    "sound": "bell-end"
+   }
+  ],
+  "haptic": [],
+  "markers": [
+   {
+    "t": 0,
+    "kind": "stage",
+    "stage": "sitting",
+    "label": "Sitting, mindful of the breath"
+   },
+   {
+    "t": 49.1,
+    "kind": "stage",
+    "stage": "body",
+    "label": "First tetrad: the body"
+   },
+   {
+    "t": 181.1,
+    "kind": "stage",
+    "stage": "feelings",
+    "label": "Second tetrad: feelings"
+   },
+   {
+    "t": 313.1,
+    "kind": "stage",
+    "stage": "mind",
+    "label": "Third tetrad: the mind"
+   },
+   {
+    "t": 445.1,
+    "kind": "stage",
+    "stage": "qualities",
+    "label": "Fourth tetrad: mental qualities"
+   }
+  ]
+ },
+ "physiology": {
+  "ratio": null,
+  "retention_max_s": 0,
+  "breaths_per_min": 5.583,
+  "breath_style": null
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "beginner": false,
+  "applied": [],
+  "needs_teacher": false,
+  "contraindications": [
+   "No breath holds and no forcing"
+  ],
+  "stop_if": [
+   "strain",
+   "dizziness"
+  ]
+ },
+ "warnings": []
+}

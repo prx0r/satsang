@@ -30,4 +30,5 @@ if os.path.exists(v1):
         p = os.path.join(E, '..', 'specs', 'schema', extra)
         if os.path.exists(p): s = json.load(open(p)); reg = reg.with_resource(s.get('$id', extra), Resource.from_contents(s)); reg = reg.with_resource('https://tantrafiles.xyz/schema/' + extra, Resource.from_contents(s))
 for f in sorted(glob.glob(f'{E}/practices/*.json')): n += v('practice-v2.json', f)
+for f in sorted(glob.glob(f'{E}/routines/*.json')): n += v('routine.json', f)
 print('schema errors:', n); sys.exit(1 if n else 0)

@@ -1,0 +1,287 @@
+{
+ "type": "instructions_draft",
+ "schema_version": 1,
+ "practice": "vbt-space-contemplation",
+ "source": "satsang-vbt-summaries",
+ "extracted_by": {
+  "mode": "agent-manual",
+  "agent": "hark subagent (satsang practice-player rethink)",
+  "prompt": "tools/extract/PROMPT.md v1",
+  "date": "2026-10-25",
+  "note": "No model spend. Source is Satsang’s own CC BY 4.0 summary of the verses (the Wallis translation is all rights reserved: cite-only-source); agent draft per PROMPT.md §A, validated by extract.mjs."
+ },
+ "stages": [
+  {
+   "id": "room",
+   "label": "The space of the room"
+  },
+  {
+   "id": "inside",
+   "label": "Space inside the body"
+  },
+  {
+   "id": "skin",
+   "label": "A thin wall of skin"
+  },
+  {
+   "id": "one-field",
+   "label": "One field of space"
+  }
+ ],
+ "instructions": [
+  {
+   "id": "i01",
+   "stage": "room",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s1",
+     "quote": "Sit and notice the space of the room around you, the space that holds the walls and your body."
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the space around the body: the light widened around the figure"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i02",
+   "stage": "inside",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s2",
+     "quote": "Then sense the space inside the body: the chest"
+    }
+   ],
+   "locus": [
+    "chest"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i03",
+   "stage": "inside",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s2",
+     "quote": "the mouth"
+    }
+   ],
+   "locus": [
+    "palate"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    },
+    "locus": {
+     "basis": "paraphrased",
+     "note": "the space of the mouth → the palate"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i04",
+   "stage": "inside",
+   "action": "settle",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s2",
+     "quote": "the skull."
+    }
+   ],
+   "locus": [
+    "middle_of_head"
+   ],
+   "duration": {
+    "value": 1,
+    "unit": "breaths"
+   },
+   "prov": {
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    },
+    "locus": {
+     "basis": "paraphrased",
+     "note": "the space inside the skull → the middle of the head"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.85
+  },
+  {
+   "id": "i05",
+   "stage": "skin",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s3",
+     "quote": "Feel the skin as a thin wall with open space within and without."
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the skin all over: the whole body’s surface"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i06",
+   "stage": "one-field",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s4",
+     "quote": "Let the inner and outer space be one field and rest in that openness."
+    }
+   ],
+   "count": {
+    "value": 4,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "one field inside and out: the light widened around the body"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i07",
+   "stage": "one-field",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s5",
+     "quote": "When the mind reaches for something solid, notice the reaching and return to space."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i08",
+   "stage": "one-field",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-space:p1.s6",
+     "quote": "Stay alert; this is not a blank or sleepy state."
+    }
+   ],
+   "scripted": true,
+   "confidence": 0.9
+  },
+  {
+   "id": "i90",
+   "stage": "room",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-space:p2.s1",
+     "quote": "If you feel disoriented, unreal or anxious, open the eyes, feel the feet and the seat, and stop for today."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a safety condition: shown on the start card and in Ask, not narrated",
+   "confidence": 0.95
+  },
+  {
+   "id": "i91",
+   "stage": "room",
+   "action": "caution",
+   "spans": [
+    {
+     "passage": "vbt-space:p3.s1",
+     "quote": "If you have a history of trauma, dissociation, psychosis or severe anxiety, keep sits short with eyes open, or practise with a qualified teacher or clinician."
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "a safety condition: shown on the start card and in Ask, not narrated",
+   "confidence": 0.95
+  },
+  {
+   "id": "i92",
+   "stage": "room",
+   "action": "teacher_advice",
+   "spans": [
+    {
+     "passage": "vbt-space:p4.s1",
+     "quote": "The rest of the Vijñāna Bhairava (breath retention, mantra, the subtle-body and burning practices) is learned from a qualified teacher in the Trika tradition"
+    }
+   ],
+   "scripted": false,
+   "exclude_reason": "orientation, shown on the start card",
+   "confidence": 0.95
+  }
+ ],
+ "coverage_rules": [
+  {
+   "passages": "vbt-space:p1.s1..vbt-space:p4.s1",
+   "status": "cited_only",
+   "reason": "all used (instructions or start card)"
+  }
+ ]
+}

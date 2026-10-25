@@ -1,0 +1,3065 @@
+{
+ "type": "practice",
+ "schema_version": 2,
+ "id": "mn118-anapanasati",
+ "name": "Sixteen steps · Ānāpānasati Sutta (MN 118)",
+ "kind": "meditation",
+ "subkind": "breath",
+ "traditions": [
+  "theravada"
+ ],
+ "summary": "The Buddha’s sixteen steps of mindfulness of breathing, in four groups of four: the body (long, short, the whole body, calming the breath), feelings (rapture, pleasure, mental fabrication, calming it), the mind (sensing, gladdening, concentrating, releasing it) and mental qualities (inconstancy, dispassion, cessation, relinquishing), each held for a few breaths.",
+ "steps": [
+  {
+   "n": 1,
+   "text": "Sit with legs crossed (or any steady seat), body erect, mindfulness to the fore. Mindful, breathe in; mindful, breathe out.",
+   "cue": "breath",
+   "instr": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "n": 2,
+   "text": "The body: discern a long breath as long and a short breath as short; breathe in and out sensitive to the entire body; calming bodily fabrication (the breath).",
+   "cue": "breath",
+   "instr": [
+    "i03",
+    "i04",
+    "i05",
+    "i06"
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Feelings: breathe in and out sensitive to rapture, to pleasure, to mental fabrication (perceptions and feelings); calming mental fabrication.",
+   "cue": "breath",
+   "instr": [
+    "i07",
+    "i08",
+    "i09",
+    "i10"
+   ]
+  },
+  {
+   "n": 4,
+   "text": "The mind: sensitive to the mind, gladdening it, concentrating it, releasing it.",
+   "cue": "breath",
+   "instr": [
+    "i11",
+    "i12",
+    "i13",
+    "i14"
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Mental qualities: focusing on inconstancy, dispassion (fading), cessation, relinquishing.",
+   "cue": "breath",
+   "instr": [
+    "i15",
+    "i16",
+    "i17",
+    "i18"
+   ]
+  }
+ ],
+ "level": "steady",
+ "posture": "seated",
+ "eyes": "closed",
+ "needsTeacher": false,
+ "contraindications": [
+  "No breath holds and no forcing: each step is noticed on the natural breath. If it becomes effortful, stay with the first tetrad (the beginner form)."
+ ],
+ "facets": {
+  "method": [
+   "breath"
+  ],
+  "locus": [],
+  "aim": [
+   "calm",
+   "insight"
+  ],
+  "level": "steady",
+  "intensity": 1,
+  "needs_teacher": false,
+  "needs_teacher_note": "A public teaching of the Buddha; a teacher helps with the later tetrads.",
+  "initiation_required": false
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "contraindications": [
+   "No breath holds and no forcing"
+  ],
+  "stop_if": [
+   "strain",
+   "dizziness"
+  ],
+  "beginner_override": {
+   "skip_stages": [
+    "feelings",
+    "mind",
+    "qualities"
+   ]
+  },
+  "alternatives": [
+   {
+    "practice": "ajahn-lee-method-2",
+    "when": "for a more body-based way into the first tetrad"
+   }
+  ]
+ },
+ "stages": [
+  {
+   "id": "sitting",
+   "label": "Sitting, mindful of the breath"
+  },
+  {
+   "id": "body",
+   "label": "First tetrad: the body"
+  },
+  {
+   "id": "feelings",
+   "label": "Second tetrad: feelings"
+  },
+  {
+   "id": "mind",
+   "label": "Third tetrad: the mind"
+  },
+  {
+   "id": "qualities",
+   "label": "Fourth tetrad: mental qualities"
+  }
+ ],
+ "script": {
+  "count_s": 1,
+  "params": {},
+  "rounds": {
+   "default": 1,
+   "min": 1,
+   "max": 1
+  },
+  "round_sound": false,
+  "show": {
+   "channels": [],
+   "loci": [],
+   "labels": "active"
+  },
+  "intro": [
+   {
+    "id": "open",
+    "phase": "natural",
+    "seconds": 6,
+    "stage": "sitting",
+    "sound": "bowl-start"
+   },
+   {
+    "id": "i01",
+    "phase": "natural",
+    "seconds": 10.1,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "awareness"
+     }
+    ],
+    "stage": "sitting",
+    "caption": "Sit with your legs crossed, or in any steady seat. Hold the body erect, and bring mindfulness to the fore."
+   },
+   {
+    "id": "i02.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "sitting",
+    "caption": "Always mindful, breathe in. Mindful, breathe out."
+   },
+   {
+    "id": "i02.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "sitting"
+   },
+   {
+    "id": "i02.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "sitting"
+   },
+   {
+    "id": "i02.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "sitting"
+   },
+   {
+    "id": "i02.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "sitting"
+   },
+   {
+    "id": "i02.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "sitting"
+   },
+   {
+    "id": "i03.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body",
+    "sound": "chime",
+    "caption": "When the breath is long, discern: I am breathing in long… I am breathing out long.",
+    "quote": {
+     "text": "Breathing in long, he discerns, ‘I am breathing in long’",
+     "cite": "The Buddha (Pali Canon), Ānāpānasati Sutta: Mindfulness of Breathing (MN 118), mn118:p18.s1 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i03.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i03.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i03.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i03.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i03.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i04.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body",
+    "caption": "When it is short, discern: I am breathing in short… breathing out short."
+   },
+   {
+    "id": "i04.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i04.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i04.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i04.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i04.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i05.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body",
+    "caption": "Breathe in sensitive to the entire body. Breathe out sensitive to the entire body."
+   },
+   {
+    "id": "i05.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i05.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i05.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i05.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i05.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i06.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body",
+    "caption": "Breathe in calming bodily fabrication, the breath itself. Breathe out, calming it.",
+    "quote": {
+     "text": "in-&-out breaths are bodily fabrications",
+     "cite": "The Buddha (Pali Canon), Ānāpānasati Sutta: Mindfulness of Breathing (MN 118), mn118:p45.s2 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i06.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i06.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i06.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i06.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i06.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "body"
+   },
+   {
+    "id": "i07.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings",
+    "sound": "chime",
+    "caption": "Breathe in sensitive to rapture. Breathe out sensitive to rapture."
+   },
+   {
+    "id": "i07.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i07.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i07.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i07.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i07.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i08.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings",
+    "caption": "Breathe in sensitive to pleasure. Breathe out sensitive to pleasure."
+   },
+   {
+    "id": "i08.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i08.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i08.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i08.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i08.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i09.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings",
+    "caption": "Breathe in sensitive to mental fabrication: perceptions and feelings. Breathe out, sensitive to them."
+   },
+   {
+    "id": "i09.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i09.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i09.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i09.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i09.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i10.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings",
+    "caption": "Breathe in calming mental fabrication. Breathe out calming mental fabrication."
+   },
+   {
+    "id": "i10.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i10.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i10.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i10.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i10.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "feelings"
+   },
+   {
+    "id": "i11.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind",
+    "sound": "chime",
+    "caption": "Breathe in sensitive to the mind. Breathe out sensitive to the mind."
+   },
+   {
+    "id": "i11.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i11.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i11.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i11.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i11.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i12.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind",
+    "caption": "Breathe in gladdening the mind. Breathe out gladdening the mind."
+   },
+   {
+    "id": "i12.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i12.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i12.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i12.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i12.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i13.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind",
+    "caption": "Breathe in concentrating the mind. Breathe out concentrating the mind."
+   },
+   {
+    "id": "i13.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i13.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i13.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i13.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i13.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i14.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind",
+    "caption": "Breathe in releasing the mind. Breathe out releasing the mind."
+   },
+   {
+    "id": "i14.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i14.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i14.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i14.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i14.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "mind"
+   },
+   {
+    "id": "i15.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities",
+    "sound": "chime",
+    "caption": "Breathe in focusing on inconstancy. Breathe out focusing on inconstancy."
+   },
+   {
+    "id": "i15.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i15.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i15.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i15.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i15.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i16.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities",
+    "caption": "Breathe in focusing on dispassion, on fading. Breathe out the same."
+   },
+   {
+    "id": "i16.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i16.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i16.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i16.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i16.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i17.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities",
+    "caption": "Breathe in focusing on cessation. Breathe out focusing on cessation."
+   },
+   {
+    "id": "i17.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i17.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i17.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i17.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i17.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i18.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities",
+    "caption": "Breathe in focusing on relinquishing. Breathe out focusing on relinquishing."
+   },
+   {
+    "id": "i18.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i18.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i18.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i18.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "qualities"
+   },
+   {
+    "id": "i18.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "qualities"
+   }
+  ],
+  "round": [],
+  "outro": [
+   {
+    "id": "close",
+    "phase": "natural",
+    "seconds": 14,
+    "stage": "qualities",
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.dhammatalks.org/suttas/MN/MN118.html",
+   "cite": "Ānāpānasati Sutta (MN 118), tr. Ṭhānissaro Bhikkhu, dhammatalks.org (also Handful of Leaves vol. 2, rev. 2017)",
+   "checked": "2026-10-25",
+   "check": "work",
+   "licence": "CC-BY-NC-4.0 (https://www.dhammatalks.org/Archive/Writings/Ebooks/MajjhimaNikaya_251113.pdf)"
+  }
+ ],
+ "teachers": [
+  "thanissaro-bhikkhu"
+ ],
+ "derivation": {
+  "pipeline": "TEXT-TO-PRACTICE v1",
+  "builder": "satsang-build-practice/1",
+  "extractor": {
+   "tool": "satsang-extract/1",
+   "mode": "agent-manual",
+   "agent": "hark subagent (satsang practice-player rethink)",
+   "prompt": "tools/extract/PROMPT.md v1",
+   "date": "2026-10-25",
+   "note": "No model spend allowed. Agent draft per PROMPT.md §A; resolved and validated by extract.mjs."
+  },
+  "source": {
+   "id": "mn118-anapanasati",
+   "segments": [
+    {
+     "id": "mn118",
+     "sha256": "1672bcce34ae9e9b40fc5c19640fffdc89e81aea16a9f0824bda6942bdc375a5"
+    }
+   ],
+   "licence": "CC-BY-NC-4.0",
+   "licence_evidence": "https://www.dhammatalks.org/Archive/Writings/Ebooks/MajjhimaNikaya_251113.pdf"
+  },
+  "files": {
+   "passages": "pipeline/mn118-anapanasati/passages.json",
+   "instructions": "pipeline/mn118-anapanasati/instructions.json",
+   "head": "pipeline/mn118-anapanasati/head.json",
+   "narration": "pipeline/mn118-anapanasati/narration.json",
+   "rules": "tools/extract/defaults.json"
+  },
+  "inputs_sha256": "fbe08f0506cbe413",
+  "voice_measured": false
+ },
+ "provenance": {
+  "blocks": {
+   "i01": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "measured",
+     "rule": "fit-narration",
+     "min_s": 8
+    }
+   },
+   "i02": {
+    "instr": [
+     "i02"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i02.b1.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b1.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b2.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b2.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b3.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b3.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03": {
+    "instr": [
+     "i03"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i03.b1.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b1.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b2.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b2.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b3.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b3.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04": {
+    "instr": [
+     "i04"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i04.b1.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b1.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b2.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b2.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b3.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b3.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05": {
+    "instr": [
+     "i05"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i05.b1.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b1.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b2.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b2.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b3.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b3.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06": {
+    "instr": [
+     "i06"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i06.b1.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b1.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b2.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b2.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b3.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b3.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07": {
+    "instr": [
+     "i07"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i07.b1.in": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07.b1.out": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07.b2.in": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07.b2.out": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07.b3.in": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i07.b3.out": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08": {
+    "instr": [
+     "i08"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i08.b1.in": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08.b1.out": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08.b2.in": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08.b2.out": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08.b3.in": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i08.b3.out": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09": {
+    "instr": [
+     "i09"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i09.b1.in": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09.b1.out": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09.b2.in": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09.b2.out": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09.b3.in": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i09.b3.out": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10": {
+    "instr": [
+     "i10"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i10.b1.in": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10.b1.out": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10.b2.in": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10.b2.out": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10.b3.in": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i10.b3.out": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11": {
+    "instr": [
+     "i11"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i11.b1.in": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11.b1.out": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11.b2.in": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11.b2.out": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11.b3.in": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i11.b3.out": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12": {
+    "instr": [
+     "i12"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i12.b1.in": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b1.out": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b2.in": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b2.out": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b3.in": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b3.out": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13": {
+    "instr": [
+     "i13"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i13.b1.in": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.b1.out": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.b2.in": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.b2.out": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.b3.in": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.b3.out": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14": {
+    "instr": [
+     "i14"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i14.b1.in": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14.b1.out": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14.b2.in": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14.b2.out": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14.b3.in": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i14.b3.out": {
+    "instr": [
+     "i14"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15": {
+    "instr": [
+     "i15"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i15.b1.in": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15.b1.out": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15.b2.in": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15.b2.out": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15.b3.in": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i15.b3.out": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16": {
+    "instr": [
+     "i16"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i16.b1.in": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16.b1.out": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16.b2.in": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16.b2.out": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16.b3.in": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i16.b3.out": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17": {
+    "instr": [
+     "i17"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i17.b1.in": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17.b1.out": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17.b2.in": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17.b2.out": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17.b3.in": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i17.b3.out": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18": {
+    "instr": [
+     "i18"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "i18.b1.in": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18.b1.out": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18.b2.in": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18.b2.out": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18.b3.in": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i18.b3.out": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "open": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "lead-in"
+    }
+   },
+   "close": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   }
+  },
+  "fields": {
+   "summary": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01",
+     "i02",
+     "i03",
+     "i04",
+     "i05",
+     "i06",
+     "i07",
+     "i08",
+     "i09",
+     "i10",
+     "i11",
+     "i12",
+     "i13",
+     "i14",
+     "i15",
+     "i16",
+     "i17",
+     "i18"
+    ]
+   },
+   "level": {
+    "basis": "inferred",
+    "rule": "editorial-facet",
+    "note": "the first tetrad suits anyone; the full sixteen ask for a settled mind (beginner form = first tetrad)"
+   },
+   "posture": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ]
+   },
+   "eyes": {
+    "basis": "inferred",
+    "rule": "eyes-closed-default"
+   },
+   "needs_teacher": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ],
+    "note": "a public teaching; no initiation"
+   },
+   "aim": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "stop_if": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "beginner_override": {
+    "basis": "inferred",
+    "rule": "first-tetrad-beginner"
+   },
+   "alternatives": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   }
+  }
+ },
+ "meta": {
+  "created": "2026-10-25",
+  "status": "review",
+  "confidence": "medium",
+  "confidence_note": "Built by the text-to-practice pipeline from MN 118 (the sixteen steps, p17–p21; notes 1–4 read for “to the fore”, the entire body and the two fabrications). The sutta sets no length per step: each step gets three breaths (rule step-breaths); extra session time is open sitting at the end, never extra steps. The establishings of mindfulness and factors for awakening are left to the Theory tab.",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 translation (attribution + noncommercial; any sale counts as commercial). Our wording, adapted; see sources."
+ }
+}

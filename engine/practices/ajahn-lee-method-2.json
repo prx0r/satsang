@@ -1,120 +1,2204 @@
 {
-  "type": "practice",
-  "schema_version": 2,
-  "id": "ajahn-lee-method-2",
-  "name": "Full-body breath · Ajahn Lee, Method 2",
-  "kind": "meditation",
-  "subkind": "breath",
-  "traditions": ["theravada-thai-forest"],
-  "summary": "Comfortable breathing with bud-dho, then letting the breath sensation spread from the head down the spine, legs and arms, finding a resting spot, and spreading awareness until breath energy fills the whole body.",
-  "steps": [
-    { "n": 1, "text": "Three long breaths: think 'bud' on the in-breath and 'dho' on the out-breath.", "cue": "breath" },
-    { "n": 2, "text": "Know each breath. If it isn't comfortable, adjust it until it is.", "cue": "breath" },
-    { "n": 3, "text": "Let the comfortable breath sensation flow from the base of the skull down the spine, down each leg and out past the toes; then over the shoulders and down the arms to the fingertips.", "cue": "breath", "visual": "path:spine,leg_*,arm_* flow stream" },
-    { "n": 4, "text": "Let the breath at the base of the throat run down the front of the body, and the breath at the middle of the chest down to the belly.", "cue": "breath" },
-    { "n": 5, "text": "Visit the resting spots: tip of the nose, middle of the head, palate, base of the throat, tip of the breastbone, just above the navel. Settle on whichever feels best.", "cue": "breath" },
-    { "n": 6, "text": "Spread your awareness through the entire body.", "cue": "breath", "visual": "field:whole_body expand from breastbone" },
-    { "n": 7, "text": "Let all the breath sensations connect and flow together; keep awareness broad.", "cue": "breath", "visual": "field:whole_body steady" }
+ "type": "practice",
+ "schema_version": 2,
+ "id": "ajahn-lee-method-2",
+ "name": "Seven steps · Ajahn Lee, Method 2",
+ "kind": "meditation",
+ "subkind": "breath",
+ "traditions": [
+  "theravada-thai-forest"
+ ],
+ "summary": "Ajaan Lee’s seven basic steps: a few long breaths with bud-dho, clear awareness of each breath, finding a comfortable breath and letting it spread from the base of the skull down the spine, legs and arms and down the front of the body, exploring ways of breathing, getting to know the resting spots of the breath, then letting breath and awareness fill the whole body.",
+ "steps": [
+  {
+   "n": 1,
+   "text": "Three (or seven) long breaths: bud on the in-breath, dho on the out, the word as long as the breath.",
+   "cue": "breath",
+   "instr": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Be clearly aware of each in-and-out breath.",
+   "cue": "breath",
+   "instr": [
+    "i03"
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Observe the breath: comfortable or not, broad or narrow, fast or slow, short or long, warm or cool. Adjust it until it is comfortable.",
+   "cue": "breath",
+   "instr": [
+    "i04",
+    "i05"
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Let the comfortable breath spread: from the base of the skull down the spine, down each leg and out past the toes, over the shoulders and out through the fingertips; from the base of the throat down the front of the body; from the middle of the chest down to the belly. Let it all connect.",
+   "cue": "breath",
+   "instr": [
+    "i06",
+    "i07",
+    "i08",
+    "i09",
+    "i10",
+    "i11",
+    "i12"
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Explore ways of breathing (long/short in and out) and breathe whichever way is most comfortable.",
+   "cue": "breath",
+   "instr": [
+    "i13"
+   ]
+  },
+  {
+   "n": 6,
+   "text": "Get to know the resting spots: tip of the nose, middle of the head, palate, base of the throat, breastbone, navel. Rest on whichever is most comfortable. Breathe freely and naturally; don’t force.",
+   "cue": "breath",
+   "instr": [
+    "i15",
+    "i16",
+    "i17",
+    "i18",
+    "i19",
+    "i20",
+    "i21",
+    "i22",
+    "i23"
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Spread awareness through the entire body; let the breath sensations flow together, awareness as broad as possible.",
+   "cue": "breath",
+   "instr": [
+    "i25",
+    "i26"
+   ]
+  }
+ ],
+ "level": "first-steps",
+ "posture": "seated",
+ "eyes": "closed",
+ "needsTeacher": false,
+ "contraindications": [
+  "Frequent headaches or nervous problems: don’t focus on any spot above the base of the throat (Ajaan Lee). The beginner form leaves out the head spots.",
+  "Don’t force the breath or put yourself into a trance. Breathe freely and naturally."
+ ],
+ "facets": {
+  "method": [
+   "breath",
+   "mantra-japa",
+   "body-scan"
+  ],
+  "locus": [
+   "base_of_skull",
+   "throat_base",
+   "middle_chest",
+   "whole_body",
+   "nose_tip",
+   "middle_of_head",
+   "palate",
+   "breastbone",
+   "above_navel"
+  ],
+  "aim": [
+   "calm",
+   "embodiment"
   ],
   "level": "first-steps",
-  "posture": "seated",
-  "eyes": "closed",
-  "needsTeacher": false,
+  "intensity": 1,
+  "needs_teacher": false,
+  "needs_teacher_note": "Work with signs (“guests”) is not scripted; if anything appears, Ajaan Lee says: don’t be pleased or upset, keep an even keel.",
+  "initiation_required": false
+ },
+ "safety": {
+  "max_hold_s": 0,
   "contraindications": [
-    "Frequent headaches or nervous problems: don't settle on a spot above the base of the throat (Ajahn Lee's own caution); use the breastbone or navel.",
-    "Don't force the breath or push for a trance."
+   "Frequent headaches or nervous problems",
+   "Don’t force the breath or put yourself into a trance. Breathe freely and naturally."
   ],
-  "facets": {
-    "method": ["body-scan", "breath"],
-    "locus": ["nose_tip", "middle_of_head", "palate", "throat_base", "breastbone", "above_navel", "whole_body"],
-    "aim": ["calm", "embodiment", "insight"],
-    "level": "first-steps",
-    "intensity": 1,
-    "needs_teacher": false,
-    "initiation_required": false
+  "stop_if": [
+   "headache",
+   "strain",
+   "pressure in the head"
+  ],
+  "beginner_override": {
+   "skip_stages": [
+    "bases-head"
+   ]
   },
-  "safety": {
-    "max_hold_s": 0,
-    "contraindications": ["headaches or nervous problems: rest below the throat"],
-    "stop_if": ["strain", "headache"]
+  "alternatives": [
+   {
+    "practice": "ajahn-lee-method-1",
+    "when": "once these steps feel familiar, for counting with buddho and the bases"
+   }
+  ]
+ },
+ "stages": [
+  {
+   "id": "long-breaths",
+   "label": "Long breaths with bud-dho"
   },
-  "script": {
-    "count_s": 1,
-    "params": {},
-    "rounds": { "default": 3, "min": 1, "max": 12, "unit": "breaths in the final whole-body stage" },
-    "round_sound": false,
-    "show": { "channels": [], "loci": ["nose_tip", "middle_of_head", "palate", "throat_base", "breastbone", "above_navel"], "labels": "active" },
-    "intro": [
-      { "phase": "in", "seconds": 5, "caption": "Long breath in. Think “bud”.", "attention": { "target": "nose_tip", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "Long breath out. Think “dho”.",
-        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
-      { "phase": "in", "seconds": 5, "caption": "“bud”", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "“dho”", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
-      { "phase": "in", "seconds": 5, "caption": "Notice: is it comfortable? Adjust until it is.", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "Easy, unforced.", "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "dissipate", "colour": "release" } ] },
-
-      { "phase": "in", "seconds": 5, "caption": "Breathe in at the base of the skull…", "attention": { "target": "spine", "size": "wide" },
-        "visual": [ { "prim": "path", "path": "spine", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "…and let it flow all the way down the spine.",
-        "visual": [ { "prim": "path", "path": "spine", "motion": "flow", "mode": "stream", "colour": "breath" } ] },
-      { "phase": "in", "seconds": 5, "caption": "From the spine, down one leg…", "attention": { "target": "knee_L", "size": "wide" },
-        "visual": [ { "prim": "path", "path": "leg_L", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "…to the toes, and out into the air.",
-        "visual": [ { "prim": "path", "path": "leg_L", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
-      { "phase": "in", "seconds": 5, "caption": "Then down the other leg…", "attention": { "target": "knee_R", "size": "wide" },
-        "visual": [ { "prim": "path", "path": "leg_R", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "…and out past the toes.",
-        "visual": [ { "prim": "path", "path": "leg_R", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
-      { "phase": "in", "seconds": 5, "caption": "From the base of the skull, over both shoulders…", "attention": { "target": "chest", "size": "wide" },
-        "visual": [ { "prim": "path", "path": "arm_L", "motion": "flow", "mode": "fill", "colour": "breath" },
-                    { "prim": "path", "path": "arm_R", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "…past elbows and wrists, out through the fingertips.",
-        "visual": [ { "prim": "path", "path": "arm_L", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" },
-                    { "prim": "path", "path": "arm_R", "motion": "flow", "mode": "drain", "colour": "breath", "exit": "air" } ] },
-      { "phase": "in", "seconds": 5, "caption": "From the base of the throat, down the front of the body…", "attention": { "target": "front_line", "size": "wide" },
-        "visual": [ { "prim": "path", "path": "front_line", "motion": "flow", "mode": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "…and from the middle of the chest, down into the belly.",
-        "visual": [ { "prim": "path", "path": "chest_down", "motion": "flow", "mode": "fill", "colour": "breath" },
-                    { "prim": "path", "path": "front_line", "motion": "dissipate", "colour": "breath" } ] },
-
-      { "phase": "in", "seconds": 5, "caption": "Resting spots. The tip of the nose.", "attention": { "target": "nose_tip", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "nose_tip", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 5, "caption": "The middle of the head.", "attention": { "target": "middle_of_head", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "middle_of_head", "motion": "steady", "colour": "breath" } ] },
-      { "phase": "in", "seconds": 5, "caption": "The palate.", "attention": { "target": "palate", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "palate", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 5, "caption": "The base of the throat.", "attention": { "target": "throat_base", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "throat_base", "motion": "steady", "colour": "breath" } ] },
-      { "phase": "in", "seconds": 5, "caption": "The tip of the breastbone.", "attention": { "target": "breastbone", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "fill", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 5, "caption": "Just above the navel.", "attention": { "target": "above_navel", "size": "narrow" },
-        "visual": [ { "prim": "locus", "locus": "above_navel", "motion": "steady", "colour": "breath" } ] },
-      { "phase": "in", "seconds": 5, "caption": "Settle on the spot that feels best. Here, the breastbone.", "attention": { "target": "breastbone", "size": "medium" },
-        "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "hold-glow", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 6, "caption": "Headaches? Stay below the throat.", "visual": [ { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] },
-
-      { "phase": "in", "seconds": 6, "caption": "Now spread your awareness through the whole body…", "attention": { "target": "whole_body", "size": "whole" },
-        "do": [ { "verb": "spread", "from": "breastbone", "over": "whole_body" } ] },
-      { "phase": "out", "seconds": 7, "caption": "…every part, all at once.",
-        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" } ] }
+  {
+   "id": "aware",
+   "label": "Aware of each breath"
+  },
+  {
+   "id": "observe",
+   "label": "Observing the breath"
+  },
+  {
+   "id": "spread",
+   "label": "Letting the comfortable breath spread"
+  },
+  {
+   "id": "ways",
+   "label": "Four ways of breathing"
+  },
+  {
+   "id": "bases-head",
+   "label": "Resting spots: the head",
+   "optional": true
+  },
+  {
+   "id": "bases-body",
+   "label": "Resting spots: throat to navel"
+  },
+  {
+   "id": "resting",
+   "label": "Resting on one spot"
+  },
+  {
+   "id": "whole",
+   "label": "Breath through the whole body"
+  }
+ ],
+ "script": {
+  "count_s": 1,
+  "params": {},
+  "rounds": {
+   "default": 1,
+   "min": 1,
+   "max": 1
+  },
+  "round_sound": false,
+  "show": {
+   "channels": [],
+   "loci": [
+    "nose_tip",
+    "base_of_skull",
+    "kanda",
+    "foot_R",
+    "foot_L",
+    "fingertips_R",
+    "throat_base",
+    "middle_chest",
+    "middle_of_head",
+    "palate",
+    "breastbone",
+    "above_navel"
+   ],
+   "labels": "active"
+  },
+  "intro": [
+   {
+    "id": "open",
+    "phase": "natural",
+    "seconds": 6,
+    "stage": "long-breaths",
+    "sound": "bowl-start"
+   },
+   {
+    "id": "i01.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "label": "bud",
+    "attention": {
+     "target": "nose_tip",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "fill",
+      "colour": "breath"
+     }
     ],
-    "round": [
-      { "phase": "in", "seconds": 6, "caption": "Breath sensations connect and flow together.",
-        "visual": [ { "prim": "field", "region": "whole_body", "motion": "fill", "colour": "breath", "from": "breastbone" },
-                    { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] },
-      { "phase": "out", "seconds": 7, "caption": "Keep awareness broad. Full, still, at ease.",
-        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" },
-                    { "prim": "locus", "locus": "breastbone", "motion": "steady", "colour": "breath" } ] }
+    "stage": "long-breaths",
+    "caption": "Start with three long breaths, thinking bud with the in-breath, and dho with the out.",
+    "quote": {
+     "text": "Start out with three or seven long in-and-out breaths",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p2.s1 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i01.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "label": "dho",
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "dissipate",
+      "colour": "release"
+     }
     ],
-    "outro": [
-      { "phase": "natural", "seconds": 14, "caption": "Stay with the whole body breathing.",
-        "visual": [ { "prim": "field", "region": "whole_body", "motion": "steady", "colour": "breath" } ] }
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i01.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "label": "bud",
+    "attention": {
+     "target": "nose_tip",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i01.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "label": "dho",
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i01.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "label": "bud",
+    "attention": {
+     "target": "nose_tip",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i01.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "label": "dho",
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i02.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "label": "bud",
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "long-breaths",
+    "caption": "Keep the word as long as the breath."
+   },
+   {
+    "id": "i02.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "label": "dho",
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "long-breaths"
+   },
+   {
+    "id": "i03",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i03.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "nose_tip",
+       "size": "medium"
+      },
+      "visual": [
+       {
+        "prim": "locus",
+        "locus": "nose_tip",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Now simply be clearly aware of each breath, in and out.",
+      "voice_first": true
+     },
+     {
+      "id": "i03.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "locus",
+        "locus": "nose_tip",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "aware"
+   },
+   {
+    "id": "i04",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i04.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "torso",
+       "size": "medium"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "torso",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Observe the breath. Is it comfortable or not? Broad or narrow? Fast or slow, short or long, warm or cool?",
+      "voice_first": true
+     },
+     {
+      "id": "i04.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "torso",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "observe"
+   },
+   {
+    "id": "i05.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "torso",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "observe",
+    "caption": "If it doesn’t feel comfortable, adjust it until it does. If long breathing feels wrong, try short."
+   },
+   {
+    "id": "i05.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "torso",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "observe"
+   },
+   {
+    "id": "i06.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "base_of_skull",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "base_of_skull",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "sound": "chime",
+    "caption": "When the breath feels comfortable, breathe in at the base of the skull and let it flow down the spine."
+   },
+   {
+    "id": "i06.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "kanda",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "kanda",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i07.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "base_of_skull",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "base_of_skull",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "In at the base of the skull again… down the right leg, to the toes, and out into the air."
+   },
+   {
+    "id": "i07.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "foot_R",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "foot_R",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i08.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "base_of_skull",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "base_of_skull",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "Again from the base of the skull: down the spine, down the left leg, out past the toes."
+   },
+   {
+    "id": "i08.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "foot_L",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "foot_L",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i09.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "base_of_skull",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "base_of_skull",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "From the base of the skull over both shoulders, down the arms, and out through the fingertips."
+   },
+   {
+    "id": "i09.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "fingertips_R",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "fingertips_R",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i10.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "throat_base",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "throat_base",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "From the base of the throat, down the front of the body, all the way to the belly."
+   },
+   {
+    "id": "i10.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "belly",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "belly",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i11.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "Breathe in at the middle of the chest and let it go all the way down to the belly."
+   },
+   {
+    "id": "i11.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "belly",
+     "size": "narrow"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "belly",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i12.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread",
+    "caption": "Let all these breath sensations connect and flow together."
+   },
+   {
+    "id": "i12.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i12.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i12.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "spread"
+   },
+   {
+    "id": "i13",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i13.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "torso",
+       "size": "medium"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "torso",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Explore: in long, out long… in long, out short… in short, out long… in short, out short. Then breathe whichever way is most comfortable.",
+      "quote": {
+       "text": "Breathe whichever way is most comfortable for you.",
+       "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p15.s1 (tr. Ṭhānissaro Bhikkhu)"
+      },
+      "voice_first": true
+     },
+     {
+      "id": "i13.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "torso",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "ways"
+   },
+   {
+    "id": "i15.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "nose_tip",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head",
+    "sound": "chime",
+    "caption": "Get to know the resting spots of the breath. The tip of the nose."
+   },
+   {
+    "id": "i15.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "nose_tip",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "nose_tip",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head"
+   },
+   {
+    "id": "i16.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_of_head",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_of_head",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head",
+    "caption": "The middle of the head."
+   },
+   {
+    "id": "i16.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "middle_of_head",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_of_head",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head"
+   },
+   {
+    "id": "i17.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "palate",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "palate",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head",
+    "caption": "The palate."
+   },
+   {
+    "id": "i17.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "palate",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "palate",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-head"
+   },
+   {
+    "id": "i18.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "throat_base",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "throat_base",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body",
+    "sound": "chime",
+    "caption": "The base of the throat."
+   },
+   {
+    "id": "i18.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "throat_base",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "throat_base",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body"
+   },
+   {
+    "id": "i19.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "breastbone",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "breastbone",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body",
+    "caption": "The breastbone, at the tip of the sternum."
+   },
+   {
+    "id": "i19.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "breastbone",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "breastbone",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body"
+   },
+   {
+    "id": "i20.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "above_navel",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body",
+    "caption": "The navel, or just above it."
+   },
+   {
+    "id": "i20.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "above_navel",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "bases-body"
+   },
+   {
+    "id": "i21",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i21.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "above_navel",
+       "size": "medium"
+      },
+      "visual": [
+       {
+        "prim": "locus",
+        "locus": "above_navel",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Now center your awareness on whichever spot feels most comfortable.",
+      "voice_first": true
+     },
+     {
+      "id": "i21.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "locus",
+        "locus": "above_navel",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "resting"
+   },
+   {
+    "id": "i22.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "above_navel",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "resting",
+    "caption": "Don’t force the breath. Breathe freely and naturally."
+   },
+   {
+    "id": "i22.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "resting"
+   },
+   {
+    "id": "i23.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "above_navel",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "resting",
+    "caption": "Let the mind be at ease with the breath, but not so much that it slips away."
+   },
+   {
+    "id": "i23.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "above_navel",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "resting"
+   },
+   {
+    "id": "i25.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole",
+    "sound": "chime",
+    "caption": "Spread your awareness, your sense of feeling, throughout the entire body."
+   },
+   {
+    "id": "i25.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i25.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "whole"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i25.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i26.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole",
+    "caption": "Let the breath sensations flow together through the whole body. Keep your awareness as broad as you can.",
+    "quote": {
+     "text": "keeping your awareness as broad as possible",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p25.s1 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i26.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i26.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i26.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i26.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "whole"
+   },
+   {
+    "id": "i26.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "whole"
+   }
+  ],
+  "round": [],
+  "outro": [
+   {
+    "id": "close",
+    "phase": "natural",
+    "seconds": 14,
+    "stage": "whole",
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
     ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html",
+   "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2: the seven basic steps (tr. Ṭhānissaro Bhikkhu, seventh edition, revised, 2017)",
+   "checked": "2026-10-21",
+   "check": "work",
+   "licence": "CC-BY-NC-4.0 (https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html)"
+  }
+ ],
+ "teachers": [
+  "ajahn-lee-dhammadharo",
+  "thanissaro-bhikkhu"
+ ],
+ "derivation": {
+  "pipeline": "TEXT-TO-PRACTICE v1",
+  "builder": "satsang-build-practice/1",
+  "extractor": {
+   "tool": "satsang-extract/1",
+   "mode": "agent-manual",
+   "agent": "hark subagent (satsang practice-player rethink)",
+   "prompt": "tools/extract/PROMPT.md v1",
+   "date": "2026-10-25",
+   "note": "No model spend allowed (owner rule, 2026-10-24). Agent draft per PROMPT.md §A; resolved and validated by extract.mjs exactly as an LLM draft."
   },
-  "sources": [
-    { "url": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0009.html", "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, Method 2, steps 1–7 (tr. Ṭhānissaro Bhikkhu)", "checked": "2026-10-20", "check": "work", "licence": "CC-BY-NC-4.0 (copyright page https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html, checked 2026-10-21)" }
-  ],
-  "teachers": ["ajahn-lee-dhammadharo", "thanissaro-bhikkhu"],
-  "meta": { "created": "2026-10-20", "status": "draft", "confidence": "high", "confidence_note": "Steps, resting-spot list, spreading routes and the headache caution are verified on the source page. Timings, the 'one leg then the other' neutral wording (the text gives a male/female starting side) and choosing the breastbone as the demo spot are ours.", "license": "CC-BY-NC-4.0", "license_note": "adapted from a CC BY-NC 4.0 translation (attribution, noncommercial; the book counts any sale as commercial); was CC-BY-4.0 until 2026-10-21" }
+  "source": {
+   "id": "keeping-the-breath",
+   "segments": [
+    {
+     "id": "method-1",
+     "sha256": "057b9f802c1fb3e8ed3838aa2dc2f2a6e229d3bea313bab8977fcdfab58e4053"
+    },
+    {
+     "id": "method-2",
+     "sha256": "4a958f2fd947b0c94c7fe1e0abfa6c52c8548b0f3e9c5750a1effbcd048040d6"
+    }
+   ],
+   "licence": "CC-BY-NC-4.0",
+   "licence_evidence": "https://www.dhammatalks.org/books/KeepingTheBreath/Section0002.html"
+  },
+  "files": {
+   "passages": "pipeline/ajahn-lee-method-2/passages.json",
+   "instructions": "pipeline/ajahn-lee-method-2/instructions.json",
+   "head": "pipeline/ajahn-lee-method-2/head.json",
+   "narration": "pipeline/ajahn-lee-method-2/narration.json",
+   "rules": "tools/extract/defaults.json"
+  },
+  "inputs_sha256": "e3ce12f3f5620549",
+  "voice_measured": false
+ },
+ "provenance": {
+  "blocks": {
+   "i01": {
+    "instr": [
+     "i01"
+    ],
+    "count": {
+     "basis": "quoted",
+     "span": [
+      "method-2:p2.s1"
+     ]
+    }
+   },
+   "i01.b1.in": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.b1.out": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.b2.in": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.b2.out": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.b3.in": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.b3.out": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.g.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i02.g.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i03.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03": {
+    "instr": [
+     "i03"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i04.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04": {
+    "instr": [
+     "i04"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i05.g.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i05.g.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i06.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i06.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i07.in": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i07.out": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i08.in": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i08.out": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i09.in": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i09.out": {
+    "instr": [
+     "i09"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i10.in": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i10.out": {
+    "instr": [
+     "i10"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i11.in": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i11.out": {
+    "instr": [
+     "i11"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "pairing": {
+     "basis": "inferred",
+     "rule": "traverse-with-breath"
+    }
+   },
+   "i12": {
+    "instr": [
+     "i12"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "spread-breaths"
+    }
+   },
+   "i12.b1.in": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b1.out": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b2.in": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i12.b2.out": {
+    "instr": [
+     "i12"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.in": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13.out": {
+    "instr": [
+     "i13"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i13": {
+    "instr": [
+     "i13"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i15.in": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i15.out": {
+    "instr": [
+     "i15"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i16.in": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i16.out": {
+    "instr": [
+     "i16"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i17.in": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i17.out": {
+    "instr": [
+     "i17"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i18.in": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i18.out": {
+    "instr": [
+     "i18"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i19.in": {
+    "instr": [
+     "i19"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i19.out": {
+    "instr": [
+     "i19"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i20.in": {
+    "instr": [
+     "i20"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i20.out": {
+    "instr": [
+     "i20"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i21.in": {
+    "instr": [
+     "i21"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i21.out": {
+    "instr": [
+     "i21"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i21": {
+    "instr": [
+     "i21"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i22.g.in": {
+    "instr": [
+     "i22"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i22.g.out": {
+    "instr": [
+     "i22"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i23.g.in": {
+    "instr": [
+     "i23"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i23.g.out": {
+    "instr": [
+     "i23"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i25": {
+    "instr": [
+     "i25"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "spread-breaths"
+    }
+   },
+   "i25.b1.in": {
+    "instr": [
+     "i25"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i25.b1.out": {
+    "instr": [
+     "i25"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i25.b2.in": {
+    "instr": [
+     "i25"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i25.b2.out": {
+    "instr": [
+     "i25"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26": {
+    "instr": [
+     "i26"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   },
+   "i26.b1.in": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26.b1.out": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26.b2.in": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26.b2.out": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26.b3.in": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i26.b3.out": {
+    "instr": [
+     "i26"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "open": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "lead-in"
+    }
+   },
+   "close": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   }
+  },
+  "fields": {
+   "summary": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01",
+     "i03",
+     "i04",
+     "i06",
+     "i07",
+     "i09",
+     "i10",
+     "i13",
+     "i15",
+     "i21",
+     "i25",
+     "i26"
+    ]
+   },
+   "level": {
+    "basis": "inferred",
+    "rule": "editorial-facet",
+    "note": "Ajaan Lee (Method 1 chapter) says most people find Method 2 easier and more relaxing"
+   },
+   "posture": {
+    "basis": "inferred",
+    "rule": "posture-accessibility",
+    "note": "the chapter gives no posture; any steady, upright seat"
+   },
+   "eyes": {
+    "basis": "inferred",
+    "rule": "eyes-closed-default"
+   },
+   "needs_teacher": {
+    "basis": "paraphrased",
+    "instr": [
+     "i28"
+    ],
+    "note": "signs and their handling are not scripted; Ask carries Ajaan Lee’s advice"
+   },
+   "aim": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "stop_if": {
+    "basis": "paraphrased",
+    "instr": [
+     "i24",
+     "i22"
+    ]
+   },
+   "beginner_override": {
+    "basis": "paraphrased",
+    "instr": [
+     "i24"
+    ]
+   },
+   "alternatives": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   }
+  }
+ },
+ "meta": {
+  "created": "2026-10-25",
+  "status": "review",
+  "confidence": "medium",
+  "confidence_note": "Built by the text-to-practice pipeline from Method 2 (steps 1–7). Every block lists its instructions; unstated lengths use named rules (explore-breaths, sweep-one-breath, moment-one-breath, spread-breaths, whole-body-breaths, resting-base-default). Signs (“guests”), healing claims and the noble-path teaching are not scripted.",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 text (attribution + noncommercial; the book counts any sale as commercial). Our wording, adapted; see sources."
+ }
 }

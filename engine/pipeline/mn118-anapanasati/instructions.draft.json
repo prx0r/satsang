@@ -1,0 +1,694 @@
+{
+ "type": "instructions_draft",
+ "schema_version": 1,
+ "practice": "mn118-anapanasati",
+ "source": "mn118-anapanasati",
+ "extracted_by": {
+  "mode": "agent-manual",
+  "agent": "hark subagent (satsang practice-player rethink)",
+  "prompt": "tools/extract/PROMPT.md v1",
+  "date": "2026-10-25",
+  "note": "No model spend allowed. Agent draft per PROMPT.md §A; resolved and validated by extract.mjs."
+ },
+ "stages": [
+  {
+   "id": "sitting",
+   "label": "Sitting, mindful of the breath"
+  },
+  {
+   "id": "body",
+   "label": "First tetrad: the body"
+  },
+  {
+   "id": "feelings",
+   "label": "Second tetrad: feelings"
+  },
+  {
+   "id": "mind",
+   "label": "Third tetrad: the mind"
+  },
+  {
+   "id": "qualities",
+   "label": "Fourth tetrad: mental qualities"
+  }
+ ],
+ "instructions": [
+  {
+   "id": "i01",
+   "stage": "sitting",
+   "action": "posture",
+   "spans": [
+    {
+     "passage": "mn118:p17.s1",
+     "quote": "sits down folding his legs crosswise, holding his body erect, and establishing mindfulness to the fore."
+    }
+   ],
+   "object": "legs crossed, body erect, mindfulness to the fore",
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i02",
+   "stage": "sitting",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p17.s1",
+     "quote": "Always mindful, he breathes in; mindful he breathes out."
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath as a whole, shown as the breathing torso; note 1 (p43) reads “to the fore” as an idiom, not a spot, so no nose-tip"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i03",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s1",
+     "quote": "Breathing in long, he discerns, ‘I am breathing in long’; or breathing out long, he discerns, ‘I am breathing out long.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath: the breathing torso"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i04",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s2",
+     "quote": "Or breathing in short, he discerns, ‘I am breathing in short’; or breathing out short, he discerns, ‘I am breathing out short.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath: the breathing torso"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i05",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s3",
+     "quote": "He trains himself, ‘I will breathe in sensitive to the entire body.’"
+    },
+    {
+     "passage": "mn118:p44.s5",
+     "quote": "there has to be a step in which the awareness is extended to fill the entire body"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i06",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s4",
+     "quote": "He trains himself, ‘I will breathe in calming bodily fabrication.’"
+    },
+    {
+     "passage": "mn118:p45.s2",
+     "quote": "That’s why in-&-out breaths are bodily fabrications."
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "bodily fabrication = the in-and-out breath (note 3, MN 44), felt through the whole body"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i07",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s1",
+     "quote": "He trains himself, ‘I will breathe in sensitive to rapture.’"
+    },
+    {
+     "passage": "mn118:p19.s2",
+     "quote": "He trains himself, ‘I will breathe out sensitive to rapture.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i08",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s3",
+     "quote": "He trains himself, ‘I will breathe in sensitive to pleasure.’"
+    },
+    {
+     "passage": "mn118:p19.s4",
+     "quote": "He trains himself, ‘I will breathe out sensitive to pleasure.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i09",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s5",
+     "quote": "He trains himself, ‘I will breathe in sensitive to mental fabrication.’"
+    },
+    {
+     "passage": "mn118:p48.s2",
+     "quote": "That’s why perceptions & feelings are mental fabrications."
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i10",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s6",
+     "quote": "He trains himself, ‘I will breathe in calming mental fabrication.’"
+    },
+    {
+     "passage": "mn118:p19.s7",
+     "quote": "He trains himself, ‘I will breathe out calming mental fabrication.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i11",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s1",
+     "quote": "He trains himself, ‘I will breathe in sensitive to the mind.’"
+    },
+    {
+     "passage": "mn118:p20.s2",
+     "quote": "He trains himself, ‘I will breathe out sensitive to the mind.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i12",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s3",
+     "quote": "He trains himself, ‘I will breathe in gladdening the mind.’"
+    },
+    {
+     "passage": "mn118:p20.s4",
+     "quote": "He trains himself, ‘I will breathe out gladdening the mind.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i13",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s5",
+     "quote": "He trains himself, ‘I will breathe in concentrating the mind.’"
+    },
+    {
+     "passage": "mn118:p20.s6",
+     "quote": "He trains himself, ‘I will breathe out concentrating the mind.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i14",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s7",
+     "quote": "He trains himself, ‘I will breathe in releasing the mind.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i15",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s1",
+     "quote": "He trains himself, ‘I will breathe in focusing on inconstancy.’"
+    },
+    {
+     "passage": "mn118:p21.s2",
+     "quote": "He trains himself, ‘I will breathe out focusing on inconstancy.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i16",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s3",
+     "quote": "He trains himself, ‘I will breathe in focusing on dispassion [or: fading].’"
+    },
+    {
+     "passage": "mn118:p21.s4",
+     "quote": "He trains himself, ‘I will breathe out focusing on dispassion.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i17",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s5",
+     "quote": "He trains himself, ‘I will breathe in focusing on cessation.’"
+    },
+    {
+     "passage": "mn118:p21.s6",
+     "quote": "He trains himself, ‘I will breathe out focusing on cessation.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i18",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s7",
+     "quote": "He trains himself, ‘I will breathe in focusing on relinquishing.’"
+    },
+    {
+     "passage": "mn118:p21.s8",
+     "quote": "He trains himself, ‘I will breathe out focusing on relinquishing.’"
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  }
+ ],
+ "coverage_rules": [
+  {
+   "passages": "mn118:p1.s1..mn118:p16.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passages": "mn118:p22.s1..mn118:p41.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passages": "mn118:p42.s1..mn118:p51.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  }
+ ]
+}

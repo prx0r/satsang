@@ -1,0 +1,266 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "ajahn-lee-method-2",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-25"
+ },
+ "voice_policy": "plain modern English, second person, present tense; no promises of results; quotes only from the linked spans (≤ 25 words), shown not spoken",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i01"
+   ],
+   "text": "Start with three long breaths, thinking bud with the in-breath, and dho with the out.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "method-2:p2.s1",
+    "text": "Start out with three or seven long in-and-out breaths"
+   }
+  },
+  {
+   "id": "L02",
+   "block": "i02.g.in",
+   "basis": "quoted",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Keep the word as long as the breath.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L03",
+   "block": "i03.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "Now simply be clearly aware of each breath, in and out.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L04",
+   "block": "i04.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i04"
+   ],
+   "text": "Observe the breath. Is it comfortable or not? Broad or narrow? Fast or slow, short or long, warm or cool?",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L05",
+   "block": "i05.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i05"
+   ],
+   "text": "If it doesn’t feel comfortable, adjust it until it does. If long breathing feels wrong, try short.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L06",
+   "block": "i06.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i06"
+   ],
+   "text": "When the breath feels comfortable, breathe in at the base of the skull and let it flow down the spine.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L07",
+   "block": "i07.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i07"
+   ],
+   "text": "In at the base of the skull again… down the right leg, to the toes, and out into the air.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L08",
+   "block": "i08.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i08"
+   ],
+   "text": "Again from the base of the skull: down the spine, down the left leg, out past the toes.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L09",
+   "block": "i09.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i09"
+   ],
+   "text": "From the base of the skull over both shoulders, down the arms, and out through the fingertips.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L10",
+   "block": "i10.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i10"
+   ],
+   "text": "From the base of the throat, down the front of the body, all the way to the belly.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L11",
+   "block": "i11.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i11"
+   ],
+   "text": "Breathe in at the middle of the chest and let it go all the way down to the belly.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L12",
+   "block": "i12.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i12"
+   ],
+   "text": "Let all these breath sensations connect and flow together.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L13",
+   "block": "i13.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i13"
+   ],
+   "text": "Explore: in long, out long… in long, out short… in short, out long… in short, out short. Then breathe whichever way is most comfortable.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "method-2:p15.s1",
+    "text": "Breathe whichever way is most comfortable for you."
+   }
+  },
+  {
+   "id": "L14",
+   "block": "i15.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i15"
+   ],
+   "text": "Get to know the resting spots of the breath. The tip of the nose.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L15",
+   "block": "i16.in",
+   "basis": "quoted",
+   "instructions": [
+    "i16"
+   ],
+   "text": "The middle of the head.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L16",
+   "block": "i17.in",
+   "basis": "quoted",
+   "instructions": [
+    "i17"
+   ],
+   "text": "The palate.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L17",
+   "block": "i18.in",
+   "basis": "quoted",
+   "instructions": [
+    "i18"
+   ],
+   "text": "The base of the throat.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L18",
+   "block": "i19.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i19"
+   ],
+   "text": "The breastbone, at the tip of the sternum.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L19",
+   "block": "i20.in",
+   "basis": "quoted",
+   "instructions": [
+    "i20"
+   ],
+   "text": "The navel, or just above it.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L20",
+   "block": "i21.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i21"
+   ],
+   "text": "Now center your awareness on whichever spot feels most comfortable.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L21",
+   "block": "i22.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i22"
+   ],
+   "text": "Don’t force the breath. Breathe freely and naturally.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L22",
+   "block": "i23.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i23"
+   ],
+   "text": "Let the mind be at ease with the breath, but not so much that it slips away.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L23",
+   "block": "i25.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i25"
+   ],
+   "text": "Spread your awareness, your sense of feeling, throughout the entire body.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L24",
+   "block": "i26.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i26"
+   ],
+   "text": "Let the breath sensations flow together through the whole body. Keep your awareness as broad as you can.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "method-2:p25.s1",
+    "text": "keeping your awareness as broad as possible"
+   }
+  }
+ ]
+}

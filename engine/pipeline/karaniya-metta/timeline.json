@@ -1,0 +1,714 @@
+{
+ "script_version": 1,
+ "engine": "satsang-engine/0.3",
+ "practice": "karaniya-metta",
+ "name": "Goodwill · Karaṇīya Metta Sutta (Sn 1:8)",
+ "traditions": [
+  "theravada"
+ ],
+ "opts": {
+  "beginner": false,
+  "rounds": 0,
+  "count_s": 1
+ },
+ "params": {},
+ "loops": 0,
+ "mode": "guided",
+ "total_s": 149,
+ "show": {
+  "channels": [],
+  "loci": [
+   "middle_chest"
+  ],
+  "labels": "active"
+ },
+ "tracks": {
+  "breath": [
+   {
+    "t": 0,
+    "dur": 5,
+    "phase": "natural",
+    "id": "open",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 5,
+    "dur": 1,
+    "phase": "natural",
+    "id": "open",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "natural",
+    "id": "i01",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 11,
+    "dur": 3,
+    "phase": "natural",
+    "id": "i01",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 14,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0.18,
+    "vol1": 1
+   },
+   {
+    "t": 19,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 25,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 30,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 36,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 41,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 47,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 52,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 58,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 63,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 69,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 74,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 80,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 85,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 91,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 96,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 102,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 107,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 113,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 118,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 124,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 129,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 135,
+    "dur": 5,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 140,
+    "dur": 6,
+    "phase": "natural",
+    "id": "close",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 146,
+    "dur": 3,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   }
+  ],
+  "voice": [
+   {
+    "t": 6,
+    "dur": 8,
+    "text": "Standing, walking, sitting or lying down: any posture, as long as you are not drowsy.",
+    "say": "Standing, walking, sitting or lying down: any posture, as long as you are not drowsy.",
+    "once": false,
+    "block": "i01",
+    "stage": "posture"
+   },
+   {
+    "t": 14,
+    "dur": 5,
+    "text": "Think: happy, at rest, may all beings be happy at heart.",
+    "say": "Think: happy, at rest, may all beings be happy at heart.",
+    "once": false,
+    "block": "i02.b1.in",
+    "quote": {
+     "text": "may all beings be happy at heart.",
+     "cite": "The Buddha (Pali Canon), Karaṇīya Metta Sutta: Goodwill (Sn 1:8 = Khp 9), snp1-8:p13.s1 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "wishes"
+   },
+   {
+    "t": 36,
+    "dur": 5,
+    "text": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all beings be happy at heart.",
+    "say": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all beings be happy at heart.",
+    "once": false,
+    "block": "i03.b1.in",
+    "stage": "wishes"
+   },
+   {
+    "t": 58,
+    "dur": 5,
+    "text": "Let no one deceive another, or despise anyone anywhere, or wish for another to suffer.",
+    "say": "Let no one deceive another, or despise anyone anywhere, or wish for another to suffer.",
+    "once": false,
+    "block": "i04.b1.in",
+    "stage": "wishes"
+   },
+   {
+    "t": 80,
+    "dur": 5,
+    "text": "As a mother would protect her only child, protect this goodwill toward all beings.",
+    "say": "As a mother would protect her only child, protect this goodwill toward all beings.",
+    "once": false,
+    "block": "i05.b1.in",
+    "quote": {
+     "text": "One should protect one’s goodwill toward all beings in the same way that a mother would protect her only child.",
+     "cite": "The Buddha (Pali Canon), Karaṇīya Metta Sutta: Goodwill (Sn 1:8 = Khp 9), snp1-8:p48.s2 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "wishes"
+   },
+   {
+    "t": 102,
+    "dur": 5,
+    "text": "With goodwill for the entire cosmos, let the heart go out without limit: above, below, and all around.",
+    "say": "With goodwill for the entire cosmos, let the heart go out without limit: above, below, and all around.",
+    "once": false,
+    "block": "i06.b1.in",
+    "stage": "limitless"
+   }
+  ],
+  "visual": [
+   {
+    "t": 6,
+    "dur": 8,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "awareness"
+   },
+   {
+    "t": 14,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 19,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 25,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 30,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 36,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 41,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 47,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 52,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 58,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 63,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 69,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 74,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 80,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 85,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 91,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 96,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 102,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 107,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 113,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 118,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 124,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 129,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 135,
+    "dur": 14,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   }
+  ],
+  "attention": [
+   {
+    "t": 14,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 25,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 36,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 47,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 58,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 69,
+    "target": "middle_chest",
+    "size": "medium"
+   },
+   {
+    "t": 80,
+    "target": "middle_chest",
+    "size": "wide"
+   },
+   {
+    "t": 91,
+    "target": "middle_chest",
+    "size": "wide"
+   },
+   {
+    "t": 102,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 113,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 124,
+    "target": "whole_body",
+    "size": "wide"
+   }
+  ],
+  "audio": [
+   {
+    "t": 0,
+    "sound": "bowl-start"
+   },
+   {
+    "t": 14,
+    "sound": "chime"
+   },
+   {
+    "t": 102,
+    "sound": "chime"
+   },
+   {
+    "t": 149,
+    "sound": "bell-end"
+   }
+  ],
+  "haptic": [],
+  "markers": [
+   {
+    "t": 0,
+    "kind": "stage",
+    "stage": "posture",
+    "label": "Any posture, awake"
+   },
+   {
+    "t": 14,
+    "kind": "stage",
+    "stage": "wishes",
+    "label": "May all beings be happy"
+   },
+   {
+    "t": 102,
+    "kind": "stage",
+    "stage": "limitless",
+    "label": "Goodwill without limit"
+   }
+  ]
+ },
+ "physiology": {
+  "ratio": null,
+  "retention_max_s": 0,
+  "breaths_per_min": 6.04,
+  "breath_style": null
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "beginner": false,
+  "applied": [],
+  "needs_teacher": false,
+  "contraindications": [],
+  "stop_if": [
+   "strain"
+  ]
+ },
+ "warnings": []
+}

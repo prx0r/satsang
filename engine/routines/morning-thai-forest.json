@@ -1,0 +1,14 @@
+{
+ "type": "routine",
+ "schema_version": 1,
+ "id": "morning-thai-forest",
+ "name": "Morning sit · Thai forest (about 28 min)",
+ "summary": "Settle with the first steps of Ajaan Lee’s Method 2, sit twenty minutes with Method 1 (bud-dho and the bases), close with a short goodwill reflection from the Karaṇīya Metta Sutta.",
+ "items": [
+  { "practice": "ajahn-lee-method-2", "label": "Settling · Method 2, steps 1–3", "minutes": 5, "only_stages": ["long-breaths", "aware", "observe", "spread"] },
+  { "practice": "ajahn-lee-method-1", "label": "Bud-dho · Method 1", "minutes": 20 },
+  { "practice": "karaniya-metta", "label": "Goodwill", "minutes": 2.5 }
+ ],
+ "transition": { "sound": "chime", "note": "each later practice’s opening bowl becomes a chime; one bowl at the start, two at the end" },
+ "meta": { "created": "2026-10-25", "status": "review", "license": "CC-BY-NC-4.0", "license_note": "inherits the CC BY-NC 4.0 terms of its texts (dhammatalks.org)" }
+}

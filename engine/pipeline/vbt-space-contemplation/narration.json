@@ -1,0 +1,94 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "vbt-space-contemplation",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-25"
+ },
+ "voice_policy": "plain modern English; from Satsang’s own summary; the VBT translation is never quoted",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i01"
+   ],
+   "text": "Notice the space of the room around you: the space that holds the walls, and your body.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L02",
+   "block": "i02.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Now sense the space inside the body. The chest.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L03",
+   "block": "i03.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "The space of the mouth.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L04",
+   "block": "i04.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i04"
+   ],
+   "text": "The space inside the skull.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L05",
+   "block": "i05.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i05"
+   ],
+   "text": "Feel the skin as a thin wall, with open space within, and without.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L06",
+   "block": "i06.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i06"
+   ],
+   "text": "Let the inner and outer space be one field. Rest in that openness.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L07",
+   "block": "i07.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i07"
+   ],
+   "text": "When the mind reaches for something solid, notice the reaching, and return to space.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L08",
+   "block": "i08.g.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i08"
+   ],
+   "text": "Stay alert. This is open, not blank or sleepy.",
+   "pause_after_s": 0.8
+  }
+ ]
+}

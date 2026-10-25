@@ -1,0 +1,139 @@
+{
+ "type": "practice_head",
+ "_note": "Editorial fields of the practice that are not timed blocks; each names the instructions or rule it rests on.",
+ "id": "karaniya-metta",
+ "name": "Goodwill · Karaṇīya Metta Sutta (Sn 1:8)",
+ "kind": "meditation",
+ "subkind": "metta",
+ "traditions": [
+  "theravada"
+ ],
+ "teachers": [
+  "thanissaro-bhikkhu"
+ ],
+ "summary": {
+  "text": "A short goodwill reflection from the Karaṇīya Metta Sutta: may all beings be happy at heart, whatever they are; let no one wish another to suffer; guard this goodwill as a mother guards her only child, and let it go out without limit, above, below and all around.",
+  "instr": [
+   "i02",
+   "i03",
+   "i04",
+   "i05",
+   "i06"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "first-steps",
+  "basis": "inferred",
+  "rule": "editorial-facet"
+ },
+ "posture": {
+  "value": "any",
+  "instr": [
+   "i01"
+  ],
+  "basis": "paraphrased"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i01"
+  ],
+  "note": "a public teaching"
+ },
+ "needs_teacher_note": "A public teaching; no initiation.",
+ "facets": {
+  "method": [
+   "metta"
+  ],
+  "aim": {
+   "value": [
+    "devotion",
+    "calm"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "intensity": 1
+ },
+ "steps": [
+  {
+   "text": "Any posture (standing, walking, sitting, lying down), as long as you are not drowsy.",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "text": "Think: happy, at rest, may all beings be happy at heart.",
+   "instr": [
+    "i02"
+   ]
+  },
+  {
+   "text": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all be happy at heart.",
+   "instr": [
+    "i03"
+   ]
+  },
+  {
+   "text": "Let no one deceive or despise another, or wish another to suffer.",
+   "instr": [
+    "i04"
+   ]
+  },
+  {
+   "text": "Guard this goodwill as a mother guards her only child.",
+   "instr": [
+    "i05"
+   ]
+  },
+  {
+   "text": "Goodwill for the entire cosmos, without limit: above, below, all around, without hostility or hate.",
+   "instr": [
+    "i06"
+   ]
+  }
+ ],
+ "contraindications": [],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no breath instruction at all; natural breath"
+  },
+  "stop_if": {
+   "value": [
+    "strain"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "beginner_override": {
+   "value": {},
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "alternatives": {
+   "value": [],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  }
+ },
+ "sources": [
+  {
+   "segment": "snp1-8",
+   "cite": "Karaṇīya Metta Sutta (Sn 1:8 = Khp 9), tr. Ṭhānissaro Bhikkhu, dhammatalks.org (also Sutta Nipāta: The Discourse Group, rev. 2017)"
+  }
+ ],
+ "meta": {
+  "status": "review",
+  "created": "2026-10-25",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 translation (attribution + noncommercial; any sale counts as commercial). Our wording, adapted.",
+  "confidence_note": "Built by the text-to-practice pipeline from Sn 1:8 (vv. 145–150 and the translator’s note 1). Each wish gets two breaths of silence (rule phrase-breaths), the limitless stage three (whole-body-breaths). The conduct verses and the fruit of the practice are not narrated."
+ }
+}

@@ -1,0 +1,804 @@
+{
+ "type": "practice",
+ "schema_version": 2,
+ "id": "vbt-space-contemplation",
+ "name": "Spaciousness · VBT vv. 43–48",
+ "kind": "meditation",
+ "subkind": "dharana",
+ "traditions": [
+  "kashmir-shaivism"
+ ],
+ "summary": "The spaciousness dhāraṇās of the Vijñāna Bhairava, in Satsang’s words: notice the space of the room, then the space inside the chest, mouth and skull, feel the skin as a thin wall with open space on both sides, and rest in one field of space.",
+ "steps": [
+  {
+   "n": 1,
+   "text": "Notice the space of the room around you, holding the walls and your body.",
+   "cue": "breath",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Sense the space inside the body: the chest, the mouth, the skull.",
+   "cue": "breath",
+   "instr": [
+    "i02",
+    "i03",
+    "i04"
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Feel the skin as a thin wall, open space within and without.",
+   "cue": "breath",
+   "instr": [
+    "i05"
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Let inner and outer space be one field; rest in that openness. When the mind reaches for something solid, return to space. Stay alert.",
+   "cue": "breath",
+   "instr": [
+    "i06",
+    "i07",
+    "i08"
+   ]
+  }
+ ],
+ "level": "first-steps",
+ "posture": "seated",
+ "eyes": "closed",
+ "needsTeacher": false,
+ "contraindications": [
+  "If you feel disoriented, unreal or anxious: open the eyes, feel the feet and the seat, and stop for today.",
+  "A history of trauma, dissociation, psychosis or severe anxiety: keep sits short with eyes open, or practise with a qualified teacher or clinician."
+ ],
+ "facets": {
+  "method": [
+   "dharana-visualisation"
+  ],
+  "locus": [
+   "chest",
+   "palate",
+   "middle_of_head"
+  ],
+  "aim": [
+   "calm",
+   "awakening-energy"
+  ],
+  "level": "first-steps",
+  "intensity": 1,
+  "needs_teacher": false,
+  "needs_teacher_note": "Safe contemplative dhāraṇā; retention, mantra and subtle-body practices of the VBT are learned from a teacher in the Trika tradition.",
+  "initiation_required": false
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "contraindications": [
+   "If you feel disoriented, unreal or anxious",
+   "A history of trauma, dissociation, psychosis or severe anxiety"
+  ],
+  "stop_if": [
+   "disoriented",
+   "unreal",
+   "anxious"
+  ],
+  "beginner_override": {},
+  "alternatives": [
+   {
+    "practice": "ajahn-lee-method-2",
+    "when": "if space feels unsettling: a body-based breath practice"
+   }
+  ]
+ },
+ "stages": [
+  {
+   "id": "room",
+   "label": "The space of the room"
+  },
+  {
+   "id": "inside",
+   "label": "Space inside the body"
+  },
+  {
+   "id": "skin",
+   "label": "A thin wall of skin"
+  },
+  {
+   "id": "one-field",
+   "label": "One field of space"
+  }
+ ],
+ "script": {
+  "count_s": 1,
+  "params": {},
+  "rounds": {
+   "default": 1,
+   "min": 1,
+   "max": 1
+  },
+  "round_sound": false,
+  "show": {
+   "channels": [],
+   "loci": [
+    "palate",
+    "middle_of_head"
+   ],
+   "labels": "active"
+  },
+  "intro": [
+   {
+    "id": "open",
+    "phase": "natural",
+    "seconds": 6,
+    "stage": "room",
+    "sound": "bowl-start"
+   },
+   {
+    "id": "i01",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i01.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "whole_body",
+       "size": "wide"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "caption": "Notice the space of the room around you: the space that holds the walls, and your body.",
+      "voice_first": true
+     },
+     {
+      "id": "i01.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "room"
+   },
+   {
+    "id": "i02.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "chest",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside",
+    "sound": "chime",
+    "caption": "Now sense the space inside the body. The chest."
+   },
+   {
+    "id": "i02.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "chest",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside"
+   },
+   {
+    "id": "i03.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "palate",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "palate",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside",
+    "caption": "The space of the mouth."
+   },
+   {
+    "id": "i03.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "palate",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "palate",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside"
+   },
+   {
+    "id": "i04.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_of_head",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_of_head",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside",
+    "caption": "The space inside the skull."
+   },
+   {
+    "id": "i04.out",
+    "phase": "out",
+    "seconds": 6,
+    "attention": {
+     "target": "middle_of_head",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_of_head",
+      "motion": "hold-glow",
+      "colour": "breath"
+     }
+    ],
+    "stage": "inside"
+   },
+   {
+    "id": "i05",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i05.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "whole_body",
+       "size": "whole"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Feel the skin as a thin wall, with open space within, and without.",
+      "voice_first": true
+     },
+     {
+      "id": "i05.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "skin"
+   },
+   {
+    "id": "i06",
+    "repeat": 4,
+    "unit": "breath",
+    "blocks": [
+     {
+      "id": "i06.in",
+      "phase": "in",
+      "seconds": 5,
+      "attention": {
+       "target": "whole_body",
+       "size": "wide"
+      },
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "fill",
+        "colour": "breath"
+       }
+      ],
+      "sound": "chime",
+      "sound_first": true,
+      "caption": "Let the inner and outer space be one field. Rest in that openness.",
+      "voice_first": true
+     },
+     {
+      "id": "i06.out",
+      "phase": "out",
+      "seconds": 6,
+      "visual": [
+       {
+        "prim": "field",
+        "region": "whole_body",
+        "motion": "dissipate",
+        "colour": "release"
+       }
+      ]
+     }
+    ],
+    "stage": "one-field"
+   },
+   {
+    "id": "i07.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "one-field",
+    "caption": "When the mind reaches for something solid, notice the reaching, and return to space."
+   },
+   {
+    "id": "i07.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "one-field"
+   },
+   {
+    "id": "i08.g.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "one-field",
+    "caption": "Stay alert. This is open, not blank or sleepy."
+   },
+   {
+    "id": "i08.g.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ],
+    "stage": "one-field"
+   }
+  ],
+  "round": [],
+  "outro": [
+   {
+    "id": "close",
+    "phase": "natural",
+    "seconds": 14,
+    "stage": "one-field",
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "cite": "Vijñāna Bhairava Tantra vv. 43–48 (the spaciousness practices), summarised by Satsang in its own words; translation consulted: Christopher Hareesh Wallis, Tantra 112 (link and verse numbers only)",
+   "checked": "2026-10-25",
+   "check": "work",
+   "licence": "CC-BY-4.0 (https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA)"
+  },
+  {
+   "url": "https://hareesh.org/blog/2025/5/1/vijaana-bhairava-tantra-verses-43-48-the-spaciousness-practices",
+   "cite": "Hareesh, “Vijñāna Bhairava Tantra verses 43–48: the spaciousness practices” (blog, linked)",
+   "checked": "2026-10-25",
+   "check": "work",
+   "licence": "all rights reserved (Christopher Hareesh Wallis): linked only, never quoted"
+  }
+ ],
+ "teachers": [],
+ "derivation": {
+  "pipeline": "TEXT-TO-PRACTICE v1",
+  "builder": "satsang-build-practice/1",
+  "extractor": {
+   "tool": "satsang-extract/1",
+   "mode": "agent-manual",
+   "agent": "hark subagent (satsang practice-player rethink)",
+   "prompt": "tools/extract/PROMPT.md v1",
+   "date": "2026-10-25",
+   "note": "No model spend. Source is Satsang’s own CC BY 4.0 summary of the verses (the Wallis translation is all rights reserved: cite-only-source); agent draft per PROMPT.md §A, validated by extract.mjs."
+  },
+  "source": {
+   "id": "satsang-vbt-summaries",
+   "segments": [
+    {
+     "id": "vbt-space",
+     "sha256": "24ef0ad83dcb1a2c8551913fe58440be0c5494b495816285804a2ea371ab3e43"
+    },
+    {
+     "id": "vbt-body",
+     "sha256": "d5771e4a2ea41c7e45ec067fd995961dc04f0306609bbdd99fb7730a2ddf1b41"
+    }
+   ],
+   "licence": "CC-BY-4.0",
+   "licence_evidence": "https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA"
+  },
+  "files": {
+   "passages": "pipeline/vbt-space-contemplation/passages.json",
+   "instructions": "pipeline/vbt-space-contemplation/instructions.json",
+   "head": "pipeline/vbt-space-contemplation/head.json",
+   "narration": "pipeline/vbt-space-contemplation/narration.json",
+   "rules": "tools/extract/defaults.json"
+  },
+  "inputs_sha256": "37e28e568181a914",
+  "voice_measured": false
+ },
+ "provenance": {
+  "blocks": {
+   "i01.in": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01.out": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i01": {
+    "instr": [
+     "i01"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i02.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i02.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i03.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i03.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i04.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i04.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "duration": {
+     "basis": "inferred",
+     "rule": "moment-one-breath"
+    }
+   },
+   "i05.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05": {
+    "instr": [
+     "i05"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i06.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06": {
+    "instr": [
+     "i06"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "explore-breaths"
+    }
+   },
+   "i07.g.in": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i07.g.out": {
+    "instr": [
+     "i07"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i08.g.in": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "i08.g.out": {
+    "instr": [
+     "i08"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    },
+    "guidance": {
+     "basis": "inferred",
+     "rule": "guidance-breaths"
+    }
+   },
+   "open": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "lead-in"
+    }
+   },
+   "close": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   }
+  },
+  "fields": {
+   "summary": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01",
+     "i02",
+     "i03",
+     "i04",
+     "i05",
+     "i06"
+    ]
+   },
+   "level": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "posture": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ]
+   },
+   "eyes": {
+    "basis": "inferred",
+    "rule": "eyes-closed-default"
+   },
+   "needs_teacher": {
+    "basis": "paraphrased",
+    "instr": [
+     "i92"
+    ],
+    "note": "a safe dhāraṇā; the rest of the text is teacher-gated"
+   },
+   "aim": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "stop_if": {
+    "basis": "paraphrased",
+    "instr": [
+     "i90"
+    ]
+   },
+   "beginner_override": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "alternatives": {
+    "basis": "paraphrased",
+    "instr": [
+     "i90"
+    ]
+   }
+  }
+ },
+ "meta": {
+  "created": "2026-10-25",
+  "status": "review",
+  "confidence": "medium",
+  "confidence_note": "Built by the text-to-practice pipeline from Satsang’s own summary of VBT vv. 43–48 (extension pack 45), not from a translation: spans re-check against that summary; the verses are cited by number and linked. Lengths use explore-breaths and moment-one-breath.",
+  "license": "CC-BY-4.0",
+  "license_note": "Satsang’s own wording (CC BY 4.0). The VBT translation is all rights reserved and is only linked, never quoted (rule cite-only-source)."
+ }
+}

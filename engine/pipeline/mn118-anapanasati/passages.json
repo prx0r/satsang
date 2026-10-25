@@ -1,0 +1,1965 @@
+{
+ "type": "passages",
+ "schema_version": 1,
+ "source": "mn118-anapanasati",
+ "segmenter": "satsang-segment/1",
+ "source_sha256": {
+  "mn118": "1672bcce34ae9e9b40fc5c19640fffdc89e81aea16a9f0824bda6942bdc375a5",
+  "copyright": "2851a39382df385b93e6c2ea36cb2cdcb6cc363cd5aa0d21752711640ab85f2b"
+ },
+ "passages": [
+  {
+   "id": "mn118:p1.s1",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 0,
+   "end": 183,
+   "text": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in the Eastern Monastery, the palace of Migāra’s mother, together with many well-known elder disciples—Ven.",
+   "sha256": "d3d3d8c80330774b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p1.s2",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 184,
+   "end": 199,
+   "text": "Sāriputta, Ven.",
+   "sha256": "524b0f8052d68095",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s3",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 200,
+   "end": 221,
+   "text": "Mahā Moggallāna, Ven.",
+   "sha256": "7fc14167ccdc8f2e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s4",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 222,
+   "end": 240,
+   "text": "Mahā Kassapa, Ven.",
+   "sha256": "86a93b9b21f9a803",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s5",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 241,
+   "end": 259,
+   "text": "Mahā Kaccāna, Ven.",
+   "sha256": "33ac10a87eed4196",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s6",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 260,
+   "end": 279,
+   "text": "Mahā Koṭṭhita, Ven.",
+   "sha256": "a039a3cd773c5be6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s7",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 280,
+   "end": 298,
+   "text": "Mahā Kappina, Ven.",
+   "sha256": "e9493df2e530181e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s8",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 299,
+   "end": 315,
+   "text": "Mahā Cunda, Ven.",
+   "sha256": "69cbde50d08a087f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s9",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 316,
+   "end": 328,
+   "text": "Revata, Ven.",
+   "sha256": "ac00acaeda124695",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s10",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 329,
+   "end": 374,
+   "text": "Ānanda, and other well-known elder disciples.",
+   "sha256": "ab3905cb3dcc66e7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s11",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 375,
+   "end": 436,
+   "text": "On that occasion the elder monks were teaching & instructing.",
+   "sha256": "7bd05e2e90df5113",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p1.s12",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 437,
+   "end": 632,
+   "text": "Some elder monks were teaching & instructing ten monks, some were teaching & instructing twenty monks, some were teaching & instructing thirty monks, some were teaching & instructing forty monks.",
+   "sha256": "02ce1d325d354eab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    10,
+    20,
+    30
+   ]
+  },
+  {
+   "id": "mn118:p1.s13",
+   "segment": "mn118",
+   "para": "p1",
+   "start": 633,
+   "end": 741,
+   "text": "The new monks, being taught & instructed by the elder monks, were discerning grand, successive distinctions.",
+   "sha256": "7250e4995ca2a52a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p2.s1",
+   "segment": "mn118",
+   "para": "p2",
+   "start": 743,
+   "end": 921,
+   "text": "Now on that occasion—the uposatha day of the fifteenth, the full-moon night of the Pavāraṇā ceremony—the Blessed One was seated in the open air surrounded by the Saṅgha of monks.",
+   "sha256": "d862f75d69e7c795",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p2.s2",
+   "segment": "mn118",
+   "para": "p2",
+   "start": 922,
+   "end": 978,
+   "text": "Surveying the silent Saṅgha of monks, he addressed them:",
+   "sha256": "f5c2c54b04b14838",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p3.s1",
+   "segment": "mn118",
+   "para": "p3",
+   "start": 980,
+   "end": 1020,
+   "text": "“Monks, I am content with this practice.",
+   "sha256": "58c874c48592bce4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p3.s2",
+   "segment": "mn118",
+   "para": "p3",
+   "start": 1021,
+   "end": 1062,
+   "text": "I am content at heart with this practice.",
+   "sha256": "df21737dd945b4a9",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p3.s3",
+   "segment": "mn118",
+   "para": "p3",
+   "start": 1063,
+   "end": 1226,
+   "text": "So arouse even more intense persistence for the attaining of the as-yet-unattained, the reaching of the as-yet-unreached, the realization of the as-yet-unrealized.",
+   "sha256": "db4bd3ec74e149f4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p3.s4",
+   "segment": "mn118",
+   "para": "p3",
+   "start": 1227,
+   "end": 1353,
+   "text": "I will remain right here at Sāvatthī (for another month) through the ‘White Water-lily’ Month, the fourth month of the rains.”",
+   "sha256": "4a3d13c7debe2006",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p4.s1",
+   "segment": "mn118",
+   "para": "p4",
+   "start": 1355,
+   "end": 1522,
+   "text": "The monks in the countryside heard, “The Blessed One, they say, will remain right there at Sāvatthī through the White Water-lily Month, the fourth month of the rains.”",
+   "sha256": "387c30b55c5bb6bd",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p4.s2",
+   "segment": "mn118",
+   "para": "p4",
+   "start": 1523,
+   "end": 1572,
+   "text": "So they left for Sāvatthī to see the Blessed One.",
+   "sha256": "881bbffc011195d3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p5.s1",
+   "segment": "mn118",
+   "para": "p5",
+   "start": 1574,
+   "end": 1649,
+   "text": "Then the elder monks taught & instructed the new monks even more intensely.",
+   "sha256": "b62a2715a109ee98",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p5.s2",
+   "segment": "mn118",
+   "para": "p5",
+   "start": 1650,
+   "end": 1845,
+   "text": "Some elder monks were teaching & instructing ten monks, some were teaching & instructing twenty monks, some were teaching & instructing thirty monks, some were teaching & instructing forty monks.",
+   "sha256": "02ce1d325d354eab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    10,
+    20,
+    30
+   ]
+  },
+  {
+   "id": "mn118:p5.s3",
+   "segment": "mn118",
+   "para": "p5",
+   "start": 1846,
+   "end": 1954,
+   "text": "The new monks, being taught & instructed by the elder monks, were discerning grand, successive distinctions.",
+   "sha256": "7250e4995ca2a52a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p6.s1",
+   "segment": "mn118",
+   "para": "p6",
+   "start": 1956,
+   "end": 2170,
+   "text": "Now on that occasion—the uposatha day of the fifteenth, the full-moon night of the White Water-lily Month, the fourth month of the rains—the Blessed One was seated in the open air surrounded by the Saṅgha of monks.",
+   "sha256": "f15e066d16d698f4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p6.s2",
+   "segment": "mn118",
+   "para": "p6",
+   "start": 2171,
+   "end": 2227,
+   "text": "Surveying the silent Saṅgha of monks, he addressed them:",
+   "sha256": "f5c2c54b04b14838",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p7.s1",
+   "segment": "mn118",
+   "para": "p7",
+   "start": 2229,
+   "end": 2392,
+   "text": "“Monks, this assembly is free from idle chatter, devoid of idle chatter, and is established on pure heartwood: Such is this Saṅgha of monks, such is this assembly.",
+   "sha256": "89d01a60479f78f1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p7.s2",
+   "segment": "mn118",
+   "para": "p7",
+   "start": 2393,
+   "end": 2612,
+   "text": "The sort of assembly that is deserving of gifts, deserving of hospitality, deserving of offerings, deserving of respect, an incomparable field of merit for the world: Such is this Saṅgha of monks, such is this assembly.",
+   "sha256": "a961b1d5f68710af",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p7.s3",
+   "segment": "mn118",
+   "para": "p7",
+   "start": 2613,
+   "end": 2762,
+   "text": "The sort of assembly to which a small gift, when given, becomes great, and a great gift greater: Such is this Saṅgha of monks, such is this assembly.",
+   "sha256": "18305ef6981b6b66",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p7.s4",
+   "segment": "mn118",
+   "para": "p7",
+   "start": 2763,
+   "end": 2978,
+   "text": "The sort of assembly that is rare to see in the world: Such is this Saṅgha of monks, such is this assembly—the sort of assembly that it would be worth traveling for leagues, taking along provisions, in order to see.",
+   "sha256": "81a4b04aefcce22d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p8.s1",
+   "segment": "mn118",
+   "para": "p8",
+   "start": 2980,
+   "end": 3281,
+   "text": "“In this Saṅgha of monks there are monks who are arahants, whose effluents are ended, who have reached fulfillment, done the task, laid down the burden, attained the true goal, laid to waste the fetter of becoming, and who are released through right gnosis: Such are the monks in this Saṅgha of monks.",
+   "sha256": "d43db58801251765",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p9.s1",
+   "segment": "mn118",
+   "para": "p9",
+   "start": 3283,
+   "end": 3551,
+   "text": "“In this Saṅgha of monks there are monks who, with the wasting away of the five lower fetters, are due to arise spontaneously (in the Pure Abodes), there to be totally unbound, destined never again to return from that world: Such are the monks in this Saṅgha of monks.",
+   "sha256": "c646ceaf63aada8f",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": [
+    5
+   ]
+  },
+  {
+   "id": "mn118:p10.s1",
+   "segment": "mn118",
+   "para": "p10",
+   "start": 3553,
+   "end": 3850,
+   "text": "“In this Saṅgha of monks there are monks who, with the wasting away of (the first) three fetters, and with the attenuation of passion, aversion, & delusion, are once-returners, who—on returning only once more to this world—will make an ending to stress: Such are the monks in this Saṅgha of monks.",
+   "sha256": "8c225399715f3606",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": [
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p11.s1",
+   "segment": "mn118",
+   "para": "p11",
+   "start": 3852,
+   "end": 4093,
+   "text": "“In this Saṅgha of monks there are monks who, with the wasting away of (the first) three fetters, are stream-enterers, certain, never again destined for the lower realms, headed for self-awakening: Such are the monks in this Saṅgha of monks.",
+   "sha256": "9afa5e519ae35394",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": [
+    3
+   ]
+  },
+  {
+   "id": "mn118:p12.s1",
+   "segment": "mn118",
+   "para": "p12",
+   "start": 4095,
+   "end": 4409,
+   "text": "“In this Saṅgha of monks there are monks who remain devoted to the development of the four establishings of mindfulness… the four right exertions… the four bases of power… the five faculties… the five strengths… the seven factors for awakening… the noble eightfold path: Such are the monks in this Saṅgha of monks.",
+   "sha256": "c2d9341eb25cc970",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    4,
+    4,
+    5,
+    5,
+    7
+   ]
+  },
+  {
+   "id": "mn118:p13.s1",
+   "segment": "mn118",
+   "para": "p13",
+   "start": 4411,
+   "end": 4674,
+   "text": "“In this Saṅgha of monks there are monks who remain devoted to the development of good will… compassion… empathetic joy… equanimity… (the perception of the) unattractiveness (of the body)… the perception of inconstancy: Such are the monks in this Saṅgha of monks.",
+   "sha256": "c07bc9fb27129829",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p14.s1",
+   "segment": "mn118",
+   "para": "p14",
+   "start": 4676,
+   "end": 4773,
+   "text": "“In this Saṅgha of monks there are monks who remain devoted to mindfulness of in-&-out breathing.",
+   "sha256": "43bd873c26b93d8e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p15.s1",
+   "segment": "mn118",
+   "para": "p15",
+   "start": 4775,
+   "end": 4873,
+   "text": "“Mindfulness of in-&-out breathing, when developed & pursued, is of great fruit, of great benefit.",
+   "sha256": "338d139b7bff5f8f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p15.s2",
+   "segment": "mn118",
+   "para": "p15",
+   "start": 4874,
+   "end": 5001,
+   "text": "Mindfulness of in-&-out breathing, when developed & pursued, brings the four establishings of mindfulness to their culmination.",
+   "sha256": "f3e3fbfa0099b4d3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "mn118:p15.s3",
+   "segment": "mn118",
+   "para": "p15",
+   "start": 5002,
+   "end": 5126,
+   "text": "The four establishings of mindfulness, when developed & pursued, bring the seven factors for awakening to their culmination.",
+   "sha256": "83cd025df7ee7f0c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    7
+   ]
+  },
+  {
+   "id": "mn118:p15.s4",
+   "segment": "mn118",
+   "para": "p15",
+   "start": 5127,
+   "end": 5237,
+   "text": "The seven factors for awakening, when developed & pursued, bring clear knowing & release to their culmination.",
+   "sha256": "6c1f5014342f1d35",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "mn118:p16.s1",
+   "segment": "mn118",
+   "para": "p16",
+   "start": 5239,
+   "end": 5350,
+   "text": "“Now how is mindfulness of in-&-out breathing developed & pursued so as to be of great fruit, of great benefit?",
+   "sha256": "4948885964c4cba7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p17.s1",
+   "segment": "mn118",
+   "para": "p17",
+   "start": 5352,
+   "end": 5626,
+   "text": "“There is the case where a monk, having gone to the wilderness, to the shade of a tree, or to an empty building, sits down folding his legs crosswise, holding his body erect, and establishing mindfulness to the fore.1 Always mindful, he breathes in; mindful he breathes out.",
+   "sha256": "a1274b4c1af35345",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p18.s1",
+   "segment": "mn118",
+   "para": "p18",
+   "start": 5628,
+   "end": 5753,
+   "text": "“[1] Breathing in long, he discerns, ‘I am breathing in long’; or breathing out long, he discerns, ‘I am breathing out long.’",
+   "sha256": "cfefeaf478f2b34c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p18.s2",
+   "segment": "mn118",
+   "para": "p18",
+   "start": 5754,
+   "end": 5885,
+   "text": "[2] Or breathing in short, he discerns, ‘I am breathing in short’; or breathing out short, he discerns, ‘I am breathing out short.’",
+   "sha256": "d36d4247560356f6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2
+   ]
+  },
+  {
+   "id": "mn118:p18.s3",
+   "segment": "mn118",
+   "para": "p18",
+   "start": 5886,
+   "end": 6029,
+   "text": "[3] He trains himself, ‘I will breathe in sensitive to the entire body.’2 He trains himself, ‘I will breathe out sensitive to the entire body.’",
+   "sha256": "7de4538c9a5c5e6b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3,
+    2
+   ]
+  },
+  {
+   "id": "mn118:p18.s4",
+   "segment": "mn118",
+   "para": "p18",
+   "start": 6030,
+   "end": 6169,
+   "text": "[4] He trains himself, ‘I will breathe in calming bodily fabrication.’3 He trains himself, ‘I will breathe out calming bodily fabrication.’",
+   "sha256": "74959647dba71b65",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    3
+   ]
+  },
+  {
+   "id": "mn118:p19.s1",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6171,
+   "end": 6236,
+   "text": "“[5] He trains himself, ‘I will breathe in sensitive to rapture.’",
+   "sha256": "cead4578e0fb2abe",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    5
+   ]
+  },
+  {
+   "id": "mn118:p19.s2",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6237,
+   "end": 6298,
+   "text": "He trains himself, ‘I will breathe out sensitive to rapture.’",
+   "sha256": "eeba2e93a4ebccd7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p19.s3",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6299,
+   "end": 6364,
+   "text": "[6] He trains himself, ‘I will breathe in sensitive to pleasure.’",
+   "sha256": "13515cde05f73fc3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    6
+   ]
+  },
+  {
+   "id": "mn118:p19.s4",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6365,
+   "end": 6427,
+   "text": "He trains himself, ‘I will breathe out sensitive to pleasure.’",
+   "sha256": "a032ff615b99efd9",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p19.s5",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6428,
+   "end": 6577,
+   "text": "[7] He trains himself, ‘I will breathe in sensitive to mental fabrication.’4 He trains himself, ‘I will breathe out sensitive to mental fabrication.’",
+   "sha256": "3ffa9cbe9554bfe0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7,
+    4
+   ]
+  },
+  {
+   "id": "mn118:p19.s6",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6578,
+   "end": 6648,
+   "text": "[8] He trains himself, ‘I will breathe in calming mental fabrication.’",
+   "sha256": "7805fb2c8c3bfc23",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    8
+   ]
+  },
+  {
+   "id": "mn118:p19.s7",
+   "segment": "mn118",
+   "para": "p19",
+   "start": 6649,
+   "end": 6716,
+   "text": "He trains himself, ‘I will breathe out calming mental fabrication.’",
+   "sha256": "09d67e56616839cb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p20.s1",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 6718,
+   "end": 6784,
+   "text": "“[9] He trains himself, ‘I will breathe in sensitive to the mind.’",
+   "sha256": "0084798f4fb1d112",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    9
+   ]
+  },
+  {
+   "id": "mn118:p20.s2",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 6785,
+   "end": 6847,
+   "text": "He trains himself, ‘I will breathe out sensitive to the mind.’",
+   "sha256": "b197db76e0cbb985",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p20.s3",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 6848,
+   "end": 6912,
+   "text": "[10] He trains himself, ‘I will breathe in gladdening the mind.’",
+   "sha256": "38f41ecdaed45452",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    10
+   ]
+  },
+  {
+   "id": "mn118:p20.s4",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 6913,
+   "end": 6973,
+   "text": "He trains himself, ‘I will breathe out gladdening the mind.’",
+   "sha256": "918d1929688c7425",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p20.s5",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 6974,
+   "end": 7041,
+   "text": "[11] He trains himself, ‘I will breathe in concentrating the mind.’",
+   "sha256": "7a63fd3ef1411a39",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    11
+   ]
+  },
+  {
+   "id": "mn118:p20.s6",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 7042,
+   "end": 7105,
+   "text": "He trains himself, ‘I will breathe out concentrating the mind.’",
+   "sha256": "ab7ed502b35a79c0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p20.s7",
+   "segment": "mn118",
+   "para": "p20",
+   "start": 7106,
+   "end": 7230,
+   "text": "[12] He trains himself, ‘I will breathe in releasing the mind.’5 He trains himself, ‘I will breathe out releasing the mind.’",
+   "sha256": "7f49f15ca7173216",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    12,
+    5
+   ]
+  },
+  {
+   "id": "mn118:p21.s1",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7232,
+   "end": 7301,
+   "text": "“[13] He trains himself, ‘I will breathe in focusing on inconstancy.’",
+   "sha256": "dbbaaf815ded5c23",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    13
+   ]
+  },
+  {
+   "id": "mn118:p21.s2",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7302,
+   "end": 7366,
+   "text": "He trains himself, ‘I will breathe out focusing on inconstancy.’",
+   "sha256": "d68561d7022c5fed",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p21.s3",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7367,
+   "end": 7447,
+   "text": "[14] He trains himself, ‘I will breathe in focusing on dispassion [or: fading].’",
+   "sha256": "4222d9ada61de52d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    14
+   ]
+  },
+  {
+   "id": "mn118:p21.s4",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7448,
+   "end": 7511,
+   "text": "He trains himself, ‘I will breathe out focusing on dispassion.’",
+   "sha256": "bbf7e4c5ce06e4c9",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p21.s5",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7512,
+   "end": 7578,
+   "text": "[15] He trains himself, ‘I will breathe in focusing on cessation.’",
+   "sha256": "4a61865a4f655a94",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    15
+   ]
+  },
+  {
+   "id": "mn118:p21.s6",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7579,
+   "end": 7641,
+   "text": "He trains himself, ‘I will breathe out focusing on cessation.’",
+   "sha256": "878be0901fbde8ff",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p21.s7",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7642,
+   "end": 7712,
+   "text": "[16] He trains himself, ‘I will breathe in focusing on relinquishing.’",
+   "sha256": "c0f75c4e2d230244",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    16
+   ]
+  },
+  {
+   "id": "mn118:p21.s8",
+   "segment": "mn118",
+   "para": "p21",
+   "start": 7713,
+   "end": 7779,
+   "text": "He trains himself, ‘I will breathe out focusing on relinquishing.’",
+   "sha256": "074c29ebb821a925",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p22.s1",
+   "segment": "mn118",
+   "para": "p22",
+   "start": 7781,
+   "end": 7896,
+   "text": "“This is how mindfulness of in-&-out breathing is developed & pursued so as to be of great fruit, of great benefit.",
+   "sha256": "132bd16404211d4b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p23.s1",
+   "segment": "mn118",
+   "para": "p23",
+   "start": 7898,
+   "end": 8038,
+   "text": "“And how is mindfulness of in-&-out breathing developed & pursued so as to bring the four establishings of mindfulness to their culmination?",
+   "sha256": "d65ccae48acb344e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "mn118:p24.s1",
+   "segment": "mn118",
+   "para": "p24",
+   "start": 8040,
+   "end": 8600,
+   "text": "“[1] On whatever occasion a monk breathing in long discerns, ‘I am breathing in long’; or breathing out long, discerns, ‘I am breathing out long’; or breathing in short, discerns, ‘I am breathing in short’; or breathing out short, discerns, ‘I am breathing out short’; trains himself, ‘I will breathe in…&… out sensitive to the entire body’; trains himself, ‘I will breathe in…&…out calming bodily fabrication’: On that occasion the monk remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "0bb6aa770d53edfe",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p24.s2",
+   "segment": "mn118",
+   "para": "p24",
+   "start": 8601,
+   "end": 8846,
+   "text": "I tell you, monks, that this—the in-&-out breath—is classed as a body among bodies, which is why the monk on that occasion remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "a4e7570fef269ef0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p25.s1",
+   "segment": "mn118",
+   "para": "p25",
+   "start": 8848,
+   "end": 9307,
+   "text": "“[2] On whatever occasion a monk trains himself, ‘I will breathe in…&…out sensitive to rapture’; trains himself, ‘I will breathe in…&…out sensitive to pleasure’; trains himself, ‘I will breathe in…&…out sensitive to mental fabrication’; trains himself, ‘I will breathe in…&…out calming mental fabrication’: On that occasion the monk remains focused on feelings in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "82ed29404a44774c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2
+   ]
+  },
+  {
+   "id": "mn118:p25.s2",
+   "segment": "mn118",
+   "para": "p25",
+   "start": 9308,
+   "end": 9581,
+   "text": "I tell you, monks, that this—careful attention to in-&-out breaths—is classed as a feeling among feelings,6 which is why the monk on that occasion remains focused on feelings in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "6d2e664d28e43b10",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": [
+    6
+   ]
+  },
+  {
+   "id": "mn118:p26.s1",
+   "segment": "mn118",
+   "para": "p26",
+   "start": 9583,
+   "end": 10020,
+   "text": "“[3] On whatever occasion a monk trains himself, ‘I will breathe in…&…out sensitive to the mind’; trains himself, ‘I will breathe in…&…out gladdening the mind’; trains himself, ‘I will breathe in…&…out concentrating the mind’; trains himself, ‘I will breathe in…&…out releasing the mind’: On that occasion the monk remains focused on the mind in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "445aadad8b7425aa",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3
+   ]
+  },
+  {
+   "id": "mn118:p26.s2",
+   "segment": "mn118",
+   "para": "p26",
+   "start": 10021,
+   "end": 10289,
+   "text": "I don’t say that there is mindfulness of in-&-out breathing in one of lapsed mindfulness and no alertness, which is why the monk on that occasion remains focused on the mind in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "8f6eefe954b2c876",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p27.s1",
+   "segment": "mn118",
+   "para": "p27",
+   "start": 10291,
+   "end": 10751,
+   "text": "“[4] On whatever occasion a monk trains himself, ‘I will breathe in…&…out focusing on inconstancy’; trains himself, ‘I will breathe in…&…out focusing on dispassion’; trains himself, ‘I will breathe in…&…out focusing on cessation’; trains himself, ‘I will breathe in…&…out focusing on relinquishing’: On that occasion the monk remains focused on mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "29a55a6f593bd496",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "mn118:p27.s2",
+   "segment": "mn118",
+   "para": "p27",
+   "start": 10752,
+   "end": 11035,
+   "text": "He who sees with discernment the abandoning of greed & distress is one who watches carefully with equanimity, which is why the monk on that occasion remains focused on mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world.",
+   "sha256": "0b6ca98a2d9db3bc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p28.s1",
+   "segment": "mn118",
+   "para": "p28",
+   "start": 11037,
+   "end": 11181,
+   "text": "“This is how mindfulness of in-&-out breathing is developed & pursued so as to bring the four establishings of mindfulness to their culmination.",
+   "sha256": "f290e264d9491541",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "mn118:p29.s1",
+   "segment": "mn118",
+   "para": "p29",
+   "start": 11183,
+   "end": 11322,
+   "text": "“And how are the four establishings of mindfulness developed & pursued so as to bring the seven factors for awakening to their culmination?",
+   "sha256": "14ba0aeecbfa19d9",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    7
+   ]
+  },
+  {
+   "id": "mn118:p30.s1",
+   "segment": "mn118",
+   "para": "p30",
+   "start": 11324,
+   "end": 11541,
+   "text": "“[1] On whatever occasion the monk remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world, on that occasion his mindfulness is steady & without lapse.",
+   "sha256": "a58042f78edf70e1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p30.s2",
+   "segment": "mn118",
+   "para": "p30",
+   "start": 11542,
+   "end": 11651,
+   "text": "When his mindfulness is steady & without lapse, then mindfulness as a factor for awakening is aroused in him.",
+   "sha256": "01c180cb70da4adb",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p30.s3",
+   "segment": "mn118",
+   "para": "p30",
+   "start": 11652,
+   "end": 11726,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p31.s1",
+   "segment": "mn118",
+   "para": "p31",
+   "start": 11728,
+   "end": 11847,
+   "text": "“[2] Remaining mindful in this way, he examines, analyzes, & comes to a comprehension of that quality with discernment.",
+   "sha256": "24772bdf5369e8ba",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2
+   ]
+  },
+  {
+   "id": "mn118:p31.s2",
+   "segment": "mn118",
+   "para": "p31",
+   "start": 11848,
+   "end": 12040,
+   "text": "When he remains mindful in this way, examining, analyzing, & coming to a comprehension of that quality with discernment, then analysis of qualities as a factor for awakening is aroused in him.",
+   "sha256": "bf40582d1c2c4013",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p31.s3",
+   "segment": "mn118",
+   "para": "p31",
+   "start": 12041,
+   "end": 12115,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p32.s1",
+   "segment": "mn118",
+   "para": "p32",
+   "start": 12117,
+   "end": 12250,
+   "text": "“[3] In one who examines, analyzes, & comes to a comprehension of that quality with discernment, persistence is aroused unflaggingly.",
+   "sha256": "d87751610b4e8b0d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p32.s2",
+   "segment": "mn118",
+   "para": "p32",
+   "start": 12251,
+   "end": 12445,
+   "text": "When persistence is aroused unflaggingly in one who examines, analyzes, & comes to a comprehension of that quality with discernment, then persistence as a factor for awakening is aroused in him.",
+   "sha256": "5c203958910ac99d",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p32.s3",
+   "segment": "mn118",
+   "para": "p32",
+   "start": 12446,
+   "end": 12520,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p33.s1",
+   "segment": "mn118",
+   "para": "p33",
+   "start": 12522,
+   "end": 12598,
+   "text": "“[4] In one whose persistence is aroused, a rapture not of the flesh arises.",
+   "sha256": "baed3e9adc26acc5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p33.s2",
+   "segment": "mn118",
+   "para": "p33",
+   "start": 12599,
+   "end": 12732,
+   "text": "When a rapture not of the flesh arises in one whose persistence is aroused, then rapture as a factor for awakening is aroused in him.",
+   "sha256": "2d4879e45f6ec8a9",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p33.s3",
+   "segment": "mn118",
+   "para": "p33",
+   "start": 12733,
+   "end": 12807,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p34.s1",
+   "segment": "mn118",
+   "para": "p34",
+   "start": 12809,
+   "end": 12887,
+   "text": "“[5] For one enraptured at heart, the body grows calm and the mind grows calm.",
+   "sha256": "4c4fcc25576731bd",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    5,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p34.s2",
+   "segment": "mn118",
+   "para": "p34",
+   "start": 12888,
+   "end": 13004,
+   "text": "When the body & mind of a monk enraptured at heart grow calm, then calm as a factor for awakening is aroused in him.",
+   "sha256": "384d8a38fd922a0c",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p34.s3",
+   "segment": "mn118",
+   "para": "p34",
+   "start": 13005,
+   "end": 13079,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p35.s1",
+   "segment": "mn118",
+   "para": "p35",
+   "start": 13081,
+   "end": 13155,
+   "text": "“[6] For one who is at ease—his body calmed—the mind becomes concentrated.",
+   "sha256": "359ad69c738f10bf",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    6,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p35.s2",
+   "segment": "mn118",
+   "para": "p35",
+   "start": 13156,
+   "end": 13293,
+   "text": "When the mind of one who is at ease—his body calmed—becomes concentrated, then concentration as a factor for awakening is aroused in him.",
+   "sha256": "56f43a6a8f0e0c62",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p35.s3",
+   "segment": "mn118",
+   "para": "p35",
+   "start": 13294,
+   "end": 13368,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p36.s1",
+   "segment": "mn118",
+   "para": "p36",
+   "start": 13370,
+   "end": 13439,
+   "text": "“[7] He carefully watches the mind thus concentrated with equanimity.",
+   "sha256": "11c6c7b20693d1fb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "mn118:p36.s2",
+   "segment": "mn118",
+   "para": "p36",
+   "start": 13440,
+   "end": 13565,
+   "text": "When he carefully watches the mind thus concentrated with equanimity, equanimity as a factor for awakening is aroused in him.",
+   "sha256": "15468a48033e0e66",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p36.s3",
+   "segment": "mn118",
+   "para": "p36",
+   "start": 13566,
+   "end": 13640,
+   "text": "He develops it, and for him it goes to the culmination of its development.",
+   "sha256": "6d005f8ed9924ebb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p37.s1",
+   "segment": "mn118",
+   "para": "p37",
+   "start": 13642,
+   "end": 13740,
+   "text": "[Similarly with the other three establishings of mindfulness: feelings, mind, & mental qualities.]",
+   "sha256": "d546e4a1d68fcf8a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3
+   ]
+  },
+  {
+   "id": "mn118:p38.s1",
+   "segment": "mn118",
+   "para": "p38",
+   "start": 13742,
+   "end": 13885,
+   "text": "“This is how the four establishings of mindfulness are developed & pursued so as to bring the seven factors for awakening to their culmination.",
+   "sha256": "c6ea3eb05a0ff990",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    7
+   ]
+  },
+  {
+   "id": "mn118:p39.s1",
+   "segment": "mn118",
+   "para": "p39",
+   "start": 13887,
+   "end": 14012,
+   "text": "“And how are the seven factors for awakening developed & pursued so as to bring clear knowing & release to their culmination?",
+   "sha256": "b81556dfb139c4c0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "mn118:p39.s2",
+   "segment": "mn118",
+   "para": "p39",
+   "start": 14013,
+   "end": 14192,
+   "text": "There is the case where a monk develops mindfulness as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment.",
+   "sha256": "16f77700959f43d7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p39.s3",
+   "segment": "mn118",
+   "para": "p39",
+   "start": 14193,
+   "end": 14539,
+   "text": "He develops analysis of qualities as a factor for awakening… persistence as a factor for awakening… rapture as a factor for awakening… calm as a factor for awakening… concentration as a factor for awakening… equanimity as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment.",
+   "sha256": "5b617a4e0512353c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p40.s1",
+   "segment": "mn118",
+   "para": "p40",
+   "start": 14541,
+   "end": 14671,
+   "text": "“This is how the seven factors for awakening are developed & pursued so as to bring clear knowing & release to their culmination.”",
+   "sha256": "bc5931ff7199e89a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "mn118:p41.s1",
+   "segment": "mn118",
+   "para": "p41",
+   "start": 14673,
+   "end": 14707,
+   "text": "That is what the Blessed One said.",
+   "sha256": "866b3faf94aa7429",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p41.s2",
+   "segment": "mn118",
+   "para": "p41",
+   "start": 14708,
+   "end": 14766,
+   "text": "Gratified, the monks delighted in the Blessed One’s words.",
+   "sha256": "da8b0f150b28fe02",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p42.s1",
+   "segment": "mn118",
+   "para": "p42",
+   "start": 14768,
+   "end": 14773,
+   "text": "Notes",
+   "sha256": "8a7525b1492fb848",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p43.s1",
+   "segment": "mn118",
+   "para": "p43",
+   "start": 14775,
+   "end": 14915,
+   "text": "1. To the fore (parimukhaṁ): An Abhidhamma text, Vibhaṅga 12:1, defines this term as meaning “the tip of the nose or the sign of the mouth.”",
+   "sha256": "8fde263c96835728",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    12,
+    1
+   ]
+  },
+  {
+   "id": "mn118:p43.s2",
+   "segment": "mn118",
+   "para": "p43",
+   "start": 14916,
+   "end": 15135,
+   "text": "However, the term appears as part of a stock phrase describing a person engaged in meditation, even for themes that have nothing to do with the body at all, such as sublime-attitude (brahma-vihāra) meditation (AN 3:64).",
+   "sha256": "949de974cfec3241",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3,
+    64
+   ]
+  },
+  {
+   "id": "mn118:p43.s3",
+   "segment": "mn118",
+   "para": "p43",
+   "start": 15136,
+   "end": 15351,
+   "text": "Thus it seems more likely that the term is used in an idiomatic sense, indicating either that mindfulness is placed face-to-face with its object, or that it is made prominent, which is how I have translated it here.",
+   "sha256": "1f15f91de54b2d90",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p44.s1",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 15353,
+   "end": 15578,
+   "text": "2. The commentaries insist that “body” here means the full length of the breath, but this is unlikely in this context, for three reasons: (a) The first two steps already require being aware of the entire length of the breath.",
+   "sha256": "995eef98955a4f15",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2,
+    3,
+    2
+   ]
+  },
+  {
+   "id": "mn118:p44.s2",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 15579,
+   "end": 15742,
+   "text": "Otherwise, the meditator wouldn’t know if a breath was short or long. (b) The fourth step—without further explanation—refers to the breath as “bodily fabrication.”",
+   "sha256": "dea8c6fc1bc5156b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p44.s3",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 15743,
+   "end": 16113,
+   "text": "If the Buddha were using two different terms to refer to the breath—“body” and “bodily fabrication”—in such close proximity, he would have been careful to signal that he was redefining his terms (as he does below, when explaining that the first four steps in breath meditation correspond to the practice of focusing on the body in and of itself as a frame of reference).",
+   "sha256": "5c4838d9bfdf159b",
+   "kind_guess": [
+    "condition",
+    "warning"
+   ],
+   "numbers": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "mn118:p44.s4",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 16114,
+   "end": 16461,
+   "text": "But he doesn’t. (c) As AN 10:20 indicates, the fourth step refers to bringing the mind to the fourth jhāna, a state in which in-and-out breathing grows still (SN 36:11; AN 10:72) and the body is filled with pure, bright awareness (after awareness has been extended to be sensitive to the entire body beginning with the first jhāna (DN 2; MN 119)).",
+   "sha256": "c23158b8e0d6f9ee",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    10,
+    20,
+    36,
+    11,
+    10,
+    72,
+    2,
+    119
+   ]
+  },
+  {
+   "id": "mn118:p44.s5",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 16462,
+   "end": 16607,
+   "text": "Because the fourth step focuses on the stilling of the breath, there has to be a step in which the awareness is extended to fill the entire body.",
+   "sha256": "efdd5afc5f844c19",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p44.s6",
+   "segment": "mn118",
+   "para": "p44",
+   "start": 16608,
+   "end": 16632,
+   "text": "That would be this step.",
+   "sha256": "84d1690fe7b09102",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p45.s1",
+   "segment": "mn118",
+   "para": "p45",
+   "start": 16634,
+   "end": 16706,
+   "text": "3. “In-&-out breaths are bodily; these are things tied up with the body.",
+   "sha256": "27506fae878c687b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3
+   ]
+  },
+  {
+   "id": "mn118:p45.s2",
+   "segment": "mn118",
+   "para": "p45",
+   "start": 16707,
+   "end": 16760,
+   "text": "That’s why in-&-out breaths are bodily fabrications.”",
+   "sha256": "c34c773c0afe9f3e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p45.s3",
+   "segment": "mn118",
+   "para": "p45",
+   "start": 16761,
+   "end": 16767,
+   "text": "—MN 44",
+   "sha256": "c3cbf935ab6c4399",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    44
+   ]
+  },
+  {
+   "id": "mn118:p46.s1",
+   "segment": "mn118",
+   "para": "p46",
+   "start": 16769,
+   "end": 16821,
+   "text": "“And how is a monk calmed in his bodily fabrication?",
+   "sha256": "7dd391e10661b0ad",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p46.s2",
+   "segment": "mn118",
+   "para": "p46",
+   "start": 16822,
+   "end": 17050,
+   "text": "There is the case where a monk, with the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—enters & remains in the fourth jhāna: purity of equanimity & mindfulness, neither pleasure nor pain.”",
+   "sha256": "f091fa5f5b30b087",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p46.s3",
+   "segment": "mn118",
+   "para": "p46",
+   "start": 17051,
+   "end": 17060,
+   "text": "—AN 10:20",
+   "sha256": "98191606cca9d8cd",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    10,
+    20
+   ]
+  },
+  {
+   "id": "mn118:p47.s1",
+   "segment": "mn118",
+   "para": "p47",
+   "start": 17062,
+   "end": 17135,
+   "text": "“When one has attained the fourth jhāna, in-and-out breaths have ceased.”",
+   "sha256": "f0c34cd1728d6c4c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "mn118:p47.s2",
+   "segment": "mn118",
+   "para": "p47",
+   "start": 17136,
+   "end": 17155,
+   "text": "—SN 36:11 & AN 9:31",
+   "sha256": "724947bf41ebd08c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    36,
+    11,
+    9,
+    31
+   ]
+  },
+  {
+   "id": "mn118:p48.s1",
+   "segment": "mn118",
+   "para": "p48",
+   "start": 17157,
+   "end": 17235,
+   "text": "4. “Perceptions & feelings are mental; these are things tied up with the mind.",
+   "sha256": "3d467bd0c7708ac1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "mn118:p48.s2",
+   "segment": "mn118",
+   "para": "p48",
+   "start": 17236,
+   "end": 17295,
+   "text": "That’s why perceptions & feelings are mental fabrications.”",
+   "sha256": "6154453a4fbd6f74",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "mn118:p48.s3",
+   "segment": "mn118",
+   "para": "p48",
+   "start": 17296,
+   "end": 17302,
+   "text": "—MN 44",
+   "sha256": "c3cbf935ab6c4399",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    44
+   ]
+  },
+  {
+   "id": "mn118:p49.s1",
+   "segment": "mn118",
+   "para": "p49",
+   "start": 17304,
+   "end": 17480,
+   "text": "5. AN 9:34 shows how the mind, step by step, is temporarily released from burdensome mental states of greater and greater refinement as it advances through the stages of jhāna.",
+   "sha256": "bf54893ec427ea96",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    5,
+    9,
+    34
+   ]
+  },
+  {
+   "id": "mn118:p49.s2",
+   "segment": "mn118",
+   "para": "p49",
+   "start": 17481,
+   "end": 17616,
+   "text": "MN 111 shows how a meditator, using discernment, can be released from the factors of a jhāna attainment while still in that attainment.",
+   "sha256": "31bd0ac125094c18",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    111
+   ]
+  },
+  {
+   "id": "mn118:p50.s1",
+   "segment": "mn118",
+   "para": "p50",
+   "start": 17618,
+   "end": 17776,
+   "text": "6. As this shows, a meditator focusing on feelings in themselves as a frame of reference should not abandon the breath as the basis for his/her concentration.",
+   "sha256": "8a1c68387f8858c1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    6
+   ]
+  },
+  {
+   "id": "mn118:p51.s1",
+   "segment": "mn118",
+   "para": "p51",
+   "start": 17778,
+   "end": 17833,
+   "text": "See also: MN 62; SN 54:6; SN 54:8; AN 3:103; AN 5:96–98",
+   "sha256": "1e17dfe0e3c75c54",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    62,
+    54,
+    6,
+    54,
+    8,
+    3,
+    103,
+    5,
+    96,
+    98
+   ]
+  }
+ ]
+}

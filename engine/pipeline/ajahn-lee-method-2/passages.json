@@ -1,0 +1,2458 @@
+{
+ "type": "passages",
+ "schema_version": 1,
+ "source": "keeping-the-breath",
+ "segmenter": "satsang-segment/1",
+ "source_sha256": {
+  "method-1": "057b9f802c1fb3e8ed3838aa2dc2f2a6e229d3bea313bab8977fcdfab58e4053",
+  "method-2": "4a958f2fd947b0c94c7fe1e0abfa6c52c8548b0f3e9c5750a1effbcd048040d6",
+  "copyright": "aed42751d0dee822eb3289679636428920decd5a5bfd12e38a767f4fd75afef6"
+ },
+ "passages": [
+  {
+   "id": "method-2:p1.s1",
+   "segment": "method-2",
+   "para": "p1",
+   "start": 0,
+   "end": 28,
+   "text": "There are seven basic steps:",
+   "sha256": "93500449e63b3fe1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "method-2:p2.s1",
+   "segment": "method-2",
+   "para": "p2",
+   "start": 30,
+   "end": 143,
+   "text": "1. Start out with three or seven long in-and-out breaths, thinking bud- with the in-breath, and dho with the out.",
+   "sha256": "a870987e5eafbe7f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    3,
+    7
+   ]
+  },
+  {
+   "id": "method-2:p2.s2",
+   "segment": "method-2",
+   "para": "p2",
+   "start": 144,
+   "end": 195,
+   "text": "Keep the meditation syllable as long as the breath.",
+   "sha256": "0f59bb6e963f00d2",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p3.s1",
+   "segment": "method-2",
+   "para": "p3",
+   "start": 197,
+   "end": 243,
+   "text": "2. Be clearly aware of each in-and-out breath.",
+   "sha256": "75ffee7720d752e4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    2
+   ]
+  },
+  {
+   "id": "method-2:p4.s1",
+   "segment": "method-2",
+   "para": "p4",
+   "start": 245,
+   "end": 429,
+   "text": "3. Observe the breath as it goes in and out, noticing whether it’s comfortable or uncomfortable, broad or narrow, obstructed or free-flowing, fast or slow, short or long, warm or cool.",
+   "sha256": "70b180e92bacb715",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    3
+   ]
+  },
+  {
+   "id": "method-2:p4.s2",
+   "segment": "method-2",
+   "para": "p4",
+   "start": 430,
+   "end": 494,
+   "text": "If the breath doesn’t feel comfortable, adjust it until it does.",
+   "sha256": "225d6c05c290520b",
+   "kind_guess": [
+    "instruction",
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p4.s3",
+   "segment": "method-2",
+   "para": "p4",
+   "start": 495,
+   "end": 598,
+   "text": "For instance, if breathing in long and out long is uncomfortable, try breathing in short and out short.",
+   "sha256": "32bd43e240c1192b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p5.s1",
+   "segment": "method-2",
+   "para": "p5",
+   "start": 600,
+   "end": 739,
+   "text": "As soon as you find that your breathing feels comfortable, let this comfortable breath sensation spread to the different parts of the body.",
+   "sha256": "ed3e5f37642ec9cf",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p5.s2",
+   "segment": "method-2",
+   "para": "p5",
+   "start": 740,
+   "end": 851,
+   "text": "To begin with, inhale the breath sensation at the base of the skull and let it flow all the way down the spine.",
+   "sha256": "8f09a62a8b396f62",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p5.s3",
+   "segment": "method-2",
+   "para": "p5",
+   "start": 852,
+   "end": 982,
+   "text": "Then, if you are male, let it spread down your right leg to the sole of your foot, to the ends of your toes, and out into the air.",
+   "sha256": "ab4c3796724c654c",
+   "kind_guess": [
+    "instruction",
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p5.s4",
+   "segment": "method-2",
+   "para": "p5",
+   "start": 983,
+   "end": 1255,
+   "text": "Inhale the breath sensation at the base of the skull again and let it spread down your spine, down your left leg to the ends of your toes, and out into the air. (If you are female, begin with the left side first, because the male and female nervous systems are different.)",
+   "sha256": "c6d5200c65fee074",
+   "kind_guess": [
+    "instruction",
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p6.s1",
+   "segment": "method-2",
+   "para": "p6",
+   "start": 1257,
+   "end": 1416,
+   "text": "Then let the breath from the base of the skull spread down over both shoulders, past your elbows and wrists, to the tips of your fingers, and out into the air.",
+   "sha256": "fcea15e1dd4c426f",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p7.s1",
+   "segment": "method-2",
+   "para": "p7",
+   "start": 1418,
+   "end": 1583,
+   "text": "Let the breath at the base of the throat spread down the central nerve at the front of the body, past the lungs and liver, all the way down to the bladder and colon.",
+   "sha256": "6d18273ba01927f1",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p8.s1",
+   "segment": "method-2",
+   "para": "p8",
+   "start": 1585,
+   "end": 1686,
+   "text": "Inhale the breath right at the middle of the chest and let it go all the way down to your intestines.",
+   "sha256": "261f718090ce8c3a",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p9.s1",
+   "segment": "method-2",
+   "para": "p9",
+   "start": 1688,
+   "end": 1822,
+   "text": "Let all these breath sensations spread so that they connect and flow together, and you’ll feel a greatly improved sense of well-being.",
+   "sha256": "f0fe901cb0a7bc0c",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p10.s1",
+   "segment": "method-2",
+   "para": "p10",
+   "start": 1824,
+   "end": 1867,
+   "text": "4. Learn four ways of adjusting the breath:",
+   "sha256": "17fb561fb281b32f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4,
+    4
+   ]
+  },
+  {
+   "id": "method-2:p11.s1",
+   "segment": "method-2",
+   "para": "p11",
+   "start": 1869,
+   "end": 1893,
+   "text": "a. in long and out long,",
+   "sha256": "f450d0908552d4dc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p12.s1",
+   "segment": "method-2",
+   "para": "p12",
+   "start": 1895,
+   "end": 1920,
+   "text": "b. in long and out short,",
+   "sha256": "bf939b9a350e692a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p13.s1",
+   "segment": "method-2",
+   "para": "p13",
+   "start": 1922,
+   "end": 1947,
+   "text": "c. in short and out long,",
+   "sha256": "2462130ece528bde",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p14.s1",
+   "segment": "method-2",
+   "para": "p14",
+   "start": 1949,
+   "end": 1975,
+   "text": "d. in short and out short.",
+   "sha256": "458742fe29276588",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p15.s1",
+   "segment": "method-2",
+   "para": "p15",
+   "start": 1977,
+   "end": 2027,
+   "text": "Breathe whichever way is most comfortable for you.",
+   "sha256": "888cdd4a8992df68",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p15.s2",
+   "segment": "method-2",
+   "para": "p15",
+   "start": 2028,
+   "end": 2156,
+   "text": "Or, better yet, learn to breathe comfortably all four ways, because your physical condition and your breath are always changing.",
+   "sha256": "d92e766d5a51afbe",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "method-2:p16.s1",
+   "segment": "method-2",
+   "para": "p16",
+   "start": 2158,
+   "end": 2321,
+   "text": "5. Become acquainted with the bases or focal points for the mind—the resting spots of the breath—and center your awareness on whichever one seems most comfortable.",
+   "sha256": "d84db004369abed3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    5,
+    1
+   ]
+  },
+  {
+   "id": "method-2:p16.s2",
+   "segment": "method-2",
+   "para": "p16",
+   "start": 2322,
+   "end": 2347,
+   "text": "A few of these bases are:",
+   "sha256": "a8a16edbd5cc8e38",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p17.s1",
+   "segment": "method-2",
+   "para": "p17",
+   "start": 2349,
+   "end": 2372,
+   "text": "a. the tip of the nose,",
+   "sha256": "a228af452031dd1f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p18.s1",
+   "segment": "method-2",
+   "para": "p18",
+   "start": 2374,
+   "end": 2400,
+   "text": "b. the middle of the head,",
+   "sha256": "8e17969c2493f21a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p19.s1",
+   "segment": "method-2",
+   "para": "p19",
+   "start": 2402,
+   "end": 2416,
+   "text": "c. the palate,",
+   "sha256": "bb27eb10dbad9f29",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p20.s1",
+   "segment": "method-2",
+   "para": "p20",
+   "start": 2418,
+   "end": 2444,
+   "text": "d. the base of the throat,",
+   "sha256": "90538d188fd59427",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p21.s1",
+   "segment": "method-2",
+   "para": "p21",
+   "start": 2446,
+   "end": 2489,
+   "text": "e. the breastbone (the tip of the sternum),",
+   "sha256": "07167c0881a554aa",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p22.s1",
+   "segment": "method-2",
+   "para": "p22",
+   "start": 2491,
+   "end": 2531,
+   "text": "f. the navel (or a point just above it).",
+   "sha256": "a3ae4b92598d8874",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p23.s1",
+   "segment": "method-2",
+   "para": "p23",
+   "start": 2533,
+   "end": 2645,
+   "text": "If you suffer from frequent headaches or nervous problems, don’t focus on any spot above the base of the throat.",
+   "sha256": "08ff7048eb67f90f",
+   "kind_guess": [
+    "instruction",
+    "condition",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p23.s2",
+   "segment": "method-2",
+   "para": "p23",
+   "start": 2646,
+   "end": 2710,
+   "text": "And don’t try to force the breath or put yourself into a trance.",
+   "sha256": "d195482c65d79b4c",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p23.s3",
+   "segment": "method-2",
+   "para": "p23",
+   "start": 2711,
+   "end": 2740,
+   "text": "Breathe freely and naturally.",
+   "sha256": "d8487ffbe0fabbce",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p23.s4",
+   "segment": "method-2",
+   "para": "p23",
+   "start": 2741,
+   "end": 2822,
+   "text": "Let the mind be at ease with the breath—but not to the point where it slips away.",
+   "sha256": "f106da12df39c8f0",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p24.s1",
+   "segment": "method-2",
+   "para": "p24",
+   "start": 2824,
+   "end": 2908,
+   "text": "6. Spread your awareness—your sense of conscious feeling—throughout the entire body.",
+   "sha256": "1734a2324d368c6b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    6
+   ]
+  },
+  {
+   "id": "method-2:p25.s1",
+   "segment": "method-2",
+   "para": "p25",
+   "start": 2910,
+   "end": 3046,
+   "text": "7. Unite the breath sensations throughout the body, letting them flow together comfortably, keeping your awareness as broad as possible.",
+   "sha256": "260d5516470aef70",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "method-2:p25.s2",
+   "segment": "method-2",
+   "para": "p25",
+   "start": 3047,
+   "end": 3186,
+   "text": "Once you’re fully aware of the aspects of the breath you already know in your body, you’ll come to know all sorts of other aspects as well.",
+   "sha256": "3128296562cfd66c",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p25.s3",
+   "segment": "method-2",
+   "para": "p25",
+   "start": 3187,
+   "end": 3361,
+   "text": "The breath, by its nature, has many facets: breath sensations flowing in the nerves, those flowing around and about the nerves, those spreading from the nerves to every pore.",
+   "sha256": "7aa69cf77477f469",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p25.s4",
+   "segment": "method-2",
+   "para": "p25",
+   "start": 3362,
+   "end": 3448,
+   "text": "Beneficial breath sensations and harmful ones are mixed together by their very nature.",
+   "sha256": "6416883a685187ba",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p26.s1",
+   "segment": "method-2",
+   "para": "p26",
+   "start": 3450,
+   "end": 3886,
+   "text": "To summarize: (a) for the sake of improving the energy already existing in every part of your body, so that you can contend with such things as disease and pain; and (b) for the sake of clarifying the knowledge already within you, so that it can become a basis for the skills leading to release and purity of heart—you should always bear these seven steps in mind, because they are absolutely basic to every aspect of breath meditation.",
+   "sha256": "e64c95149e5f97a1",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "method-2:p26.s2",
+   "segment": "method-2",
+   "para": "p26",
+   "start": 3887,
+   "end": 3944,
+   "text": "When you’ve mastered them, you will have cut a main road.",
+   "sha256": "fdf7b88ec5b9c824",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p26.s3",
+   "segment": "method-2",
+   "para": "p26",
+   "start": 3945,
+   "end": 4063,
+   "text": "As for the side roads—the incidentals of breath meditation—there are plenty of them, but they aren’t really important.",
+   "sha256": "c56bd10d41fe51e5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p26.s4",
+   "segment": "method-2",
+   "para": "p26",
+   "start": 4064,
+   "end": 4161,
+   "text": "You’ll be perfectly safe if you stick to these seven steps and practice them as much as possible.",
+   "sha256": "038da796e61ec735",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    7
+   ]
+  },
+  {
+   "id": "method-2:p27.s1",
+   "segment": "method-2",
+   "para": "p27",
+   "start": 4163,
+   "end": 4263,
+   "text": "Once you’ve learned to put your breath in order, it’s as if you have everyone in your home in order.",
+   "sha256": "f547fb28dc63ccac",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p27.s2",
+   "segment": "method-2",
+   "para": "p27",
+   "start": 4264,
+   "end": 4358,
+   "text": "The incidentals of breath meditation are like people outside your home—in other words, guests.",
+   "sha256": "9c8e54550d9b9d17",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p27.s3",
+   "segment": "method-2",
+   "para": "p27",
+   "start": 4359,
+   "end": 4444,
+   "text": "Once the people in your home are well-behaved, your guests will have to fall in line.",
+   "sha256": "d7dc2cf0366a1a23",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p28.s1",
+   "segment": "method-2",
+   "para": "p28",
+   "start": 4446,
+   "end": 4779,
+   "text": "The ‘guests’ here are the signs (nimitta) and vagrant breaths that will tend to pass within the range of the breath you are dealing with: the various signs that arise from the breath and may appear as images—bright lights, people, animals, yourself, others; or as sounds—the voices of people, some you recognize and others you don’t.",
+   "sha256": "d0223a0206aaaa8c",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p28.s2",
+   "segment": "method-2",
+   "para": "p28",
+   "start": 4780,
+   "end": 4864,
+   "text": "In some cases the signs appear as smells—either fragrant or else foul like a corpse.",
+   "sha256": "183657800aa25b94",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p28.s3",
+   "segment": "method-2",
+   "para": "p28",
+   "start": 4865,
+   "end": 4978,
+   "text": "Sometimes the in-breath can make you feel so full throughout the body that you have no sense of hunger or thirst.",
+   "sha256": "1f67fcaf8dca0f34",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p28.s4",
+   "segment": "method-2",
+   "para": "p28",
+   "start": 4979,
+   "end": 5066,
+   "text": "Sometimes the breath can send warm, hot, cold, or tingling sensations through the body.",
+   "sha256": "0f952e09a9d7abca",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p28.s5",
+   "segment": "method-2",
+   "para": "p28",
+   "start": 5067,
+   "end": 5158,
+   "text": "Sometimes it can cause things that never occurred to you before to spring suddenly to mind.",
+   "sha256": "aa9ce54a2bb3a674",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s1",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5160,
+   "end": 5202,
+   "text": "All of these things are classed as guests.",
+   "sha256": "db8cb6ca1b527b9c",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s2",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5203,
+   "end": 5318,
+   "text": "Before you go receiving guests, you should put your breath and mind into good order, making them stable and secure.",
+   "sha256": "3ccf1defb356576b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s3",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5319,
+   "end": 5394,
+   "text": "In receiving these guests, you first have to bring them under your control.",
+   "sha256": "59f7139aec481274",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s4",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5395,
+   "end": 5458,
+   "text": "If you can’t control them, don’t have anything to do with them.",
+   "sha256": "ff91574785445577",
+   "kind_guess": [
+    "instruction",
+    "condition",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s5",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5459,
+   "end": 5486,
+   "text": "They might lead you astray.",
+   "sha256": "f01cca74db20bd66",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p29.s6",
+   "segment": "method-2",
+   "para": "p29",
+   "start": 5487,
+   "end": 5567,
+   "text": "But if you can put them through their paces, they can be of use to you later on.",
+   "sha256": "5d83f6661a72206e",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p30.s1",
+   "segment": "method-2",
+   "para": "p30",
+   "start": 5569,
+   "end": 5826,
+   "text": "To put them through their paces means to change them at will, through the power of thought (paṭibhāga nimitta)—making them small, large, sending them far away, bringing them up close, making them appear and disappear, sending them outside, bringing them in.",
+   "sha256": "82b583f925dd011a",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p30.s2",
+   "segment": "method-2",
+   "para": "p30",
+   "start": 5827,
+   "end": 5887,
+   "text": "Only then will you be able to use them in training the mind.",
+   "sha256": "88a8e5264b159f5d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p31.s1",
+   "segment": "method-2",
+   "para": "p31",
+   "start": 5889,
+   "end": 6525,
+   "text": "Once you’ve mastered these signs, they’ll give rise to heightened sensory powers: the ability to see without opening your eyes; the ability to hear far-distant sounds or smell far-distant aromas; the ability to taste the various elements that exist in the air and can be of use to the body in overcoming feelings of hunger and desire; the ability to give rise to certain feelings at will—to feel cool when you want to feel cool, hot when you want to feel hot, warm when you want to feel warm, strong when you need strength—because the various elements in the world that can be physically useful to you will come and appear in your body.",
+   "sha256": "663315d9de20cf1c",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p32.s1",
+   "segment": "method-2",
+   "para": "p32",
+   "start": 6527,
+   "end": 6812,
+   "text": "The mind, too, will be heightened, and will have the power to develop the eye of intuition (ñāṇa-cakkhu): the ability to remember previous lives, the ability to know where living beings are reborn after they die, and the ability to cleanse the heart of the fermentations of defilement.",
+   "sha256": "bf49a47707b273f6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p32.s2",
+   "segment": "method-2",
+   "para": "p32",
+   "start": 6813,
+   "end": 6909,
+   "text": "If you have your wits about you, you can receive these guests and put them to work in your home.",
+   "sha256": "9ac5cbcd463d09fa",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s1",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 6911,
+   "end": 6967,
+   "text": "These are a few of the incidentals of breath meditation.",
+   "sha256": "fc4d1d61bd062336",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s2",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 6968,
+   "end": 7034,
+   "text": "If you come across them in your practice, examine them thoroughly.",
+   "sha256": "addf460f783b35ad",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s3",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7035,
+   "end": 7068,
+   "text": "Don’t be pleased by what appears.",
+   "sha256": "9608abeb0d0d0f3b",
+   "kind_guess": [
+    "instruction",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s4",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7069,
+   "end": 7113,
+   "text": "Don’t get upset or try to deny what appears.",
+   "sha256": "7b218381da5254c9",
+   "kind_guess": [
+    "instruction",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s5",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7114,
+   "end": 7145,
+   "text": "Keep your mind on an even keel.",
+   "sha256": "d553c63e154360bb",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s6",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7146,
+   "end": 7159,
+   "text": "Stay neutral.",
+   "sha256": "859e0d0a60d441b5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s7",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7160,
+   "end": 7175,
+   "text": "Be circumspect.",
+   "sha256": "6920244879d22acb",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s8",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7176,
+   "end": 7252,
+   "text": "Consider carefully whatever appears, to see whether it’s trustworthy or not.",
+   "sha256": "c08c8053afa7f045",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s9",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7253,
+   "end": 7306,
+   "text": "Otherwise, it might lead you to mistaken assumptions.",
+   "sha256": "312ae785321c0fab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s10",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7307,
+   "end": 7436,
+   "text": "Good and evil, right and wrong, high and low: All depend on whether your heart is shrewd or dull, and on how resourceful you are.",
+   "sha256": "dd50b32803d19998",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p33.s11",
+   "segment": "method-2",
+   "para": "p33",
+   "start": 7437,
+   "end": 7514,
+   "text": "If you’re dull-witted, even high things can become low, and good things evil.",
+   "sha256": "3cedff5935d353ed",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s1",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7516,
+   "end": 7633,
+   "text": "Once you know the various aspects of the breath and its incidentals, you can gain knowledge of the four noble truths.",
+   "sha256": "ec73791abf4e106d",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": "method-2:p34.s2",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7634,
+   "end": 7705,
+   "text": "In addition, you can relieve physical pains as they arise in your body.",
+   "sha256": "25087dce91f7c391",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s3",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7706,
+   "end": 7797,
+   "text": "Mindfulness is the active ingredient in the medicine; the in-and-out breath is the solvent.",
+   "sha256": "51b079bfd6985d60",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s4",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7798,
+   "end": 7844,
+   "text": "Mindfulness can cleanse and purify the breath.",
+   "sha256": "8b3c2e8a04e5d989",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s5",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7845,
+   "end": 7987,
+   "text": "A pure breath can cleanse the blood throughout the body, and when the blood is cleansed, it can relieve many of the body’s diseases and pains.",
+   "sha256": "15714854d35daa4d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s6",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 7988,
+   "end": 8069,
+   "text": "If you suffer from nervous disorders, for instance, they’ll completely disappear.",
+   "sha256": "62a7177591b7300c",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p34.s7",
+   "segment": "method-2",
+   "para": "p34",
+   "start": 8070,
+   "end": 8179,
+   "text": "What’s more, you’ll be able to strengthen the body so that you feel a greater sense of health and well-being.",
+   "sha256": "1211950ef049cf62",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p35.s1",
+   "segment": "method-2",
+   "para": "p35",
+   "start": 8181,
+   "end": 8241,
+   "text": "When the body feels well, the mind can settle down and rest.",
+   "sha256": "55c598a837843e9e",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p35.s2",
+   "segment": "method-2",
+   "para": "p35",
+   "start": 8242,
+   "end": 8403,
+   "text": "And once the mind is rested, you gain strength: the ability to relieve all feelings of pain while sitting in meditation, so that you can go on sitting for hours.",
+   "sha256": "23337d62d7b0190b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p35.s3",
+   "segment": "method-2",
+   "para": "p35",
+   "start": 8404,
+   "end": 8481,
+   "text": "When the body is free from pain, the mind is free from hindrances (nīvaraṇa).",
+   "sha256": "d3826bb82829d7c5",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p35.s4",
+   "segment": "method-2",
+   "para": "p35",
+   "start": 8482,
+   "end": 8512,
+   "text": "Body and mind are both strong.",
+   "sha256": "ebdf6eecce6bcda3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p35.s5",
+   "segment": "method-2",
+   "para": "p35",
+   "start": 8513,
+   "end": 8572,
+   "text": "This is called samādhi-balaṁ—the strength of concentration.",
+   "sha256": "a0b9eb1fb0c95ba2",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p36.s1",
+   "segment": "method-2",
+   "para": "p36",
+   "start": 8574,
+   "end": 8768,
+   "text": "When your concentration is strong like this, it can give rise to discernment: the ability to see stress, its cause, its disbanding, and the path to its disbanding, all clearly within the breath.",
+   "sha256": "1065eacaa9cc02ba",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p36.s2",
+   "segment": "method-2",
+   "para": "p36",
+   "start": 8769,
+   "end": 8802,
+   "text": "This can be explained as follows:",
+   "sha256": "9c5d4d71e4ed8344",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p37.s1",
+   "segment": "method-2",
+   "para": "p37",
+   "start": 8804,
+   "end": 8917,
+   "text": "The in-and-out breath is stress—the in-breath, the stress of arising; the out-breath, the stress of passing away.",
+   "sha256": "639491b20cd2ab40",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p37.s2",
+   "segment": "method-2",
+   "para": "p37",
+   "start": 8918,
+   "end": 9041,
+   "text": "Not being aware of the breath as it goes in and out, not knowing the characteristics of the breath, is the cause of stress.",
+   "sha256": "388959e30bab0074",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p37.s3",
+   "segment": "method-2",
+   "para": "p37",
+   "start": 9042,
+   "end": 9245,
+   "text": "Knowing when the breath is coming in, knowing when it’s going out, knowing its characteristics clearly—i.e., keeping your views in line with the truth of the breath—is right view, part of the noble path.",
+   "sha256": "f88587a9fd9e0feb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p38.s1",
+   "segment": "method-2",
+   "para": "p38",
+   "start": 9247,
+   "end": 9460,
+   "text": "Knowing which ways of breathing are uncomfortable, knowing how to vary the breath; knowing, ‘That way of breathing is uncomfortable; I’ll have to breathe like this in order to feel at ease’: This is right resolve.",
+   "sha256": "fa907aecc06d2970",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p39.s1",
+   "segment": "method-2",
+   "para": "p39",
+   "start": 9462,
+   "end": 9564,
+   "text": "The mental factors that think about and correctly evaluate all aspects of the breath are right speech.",
+   "sha256": "a45621a6629bcd4f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p40.s1",
+   "segment": "method-2",
+   "para": "p40",
+   "start": 9566,
+   "end": 9808,
+   "text": "Knowing various ways of improving the breath; breathing, for example, in long and out long, in short and out short, in short and out long, in long and out short, until you come across the breath most comfortable for you: This is right Action.",
+   "sha256": "99366bb3959744c1",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p41.s1",
+   "segment": "method-2",
+   "para": "p41",
+   "start": 9810,
+   "end": 10086,
+   "text": "Knowing how to use the breath to purify the blood, how to let this purified blood nourish the heart muscles, how to adjust the breath so that it eases the body and soothes the mind, how to breathe so that you feel full and refreshed in body and mind: This is right livelihood.",
+   "sha256": "785d1e0ac1ecae55",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p42.s1",
+   "segment": "method-2",
+   "para": "p42",
+   "start": 10088,
+   "end": 10224,
+   "text": "Trying to adjust the breath until it soothes the body and mind, and to keep trying as long as you aren’t fully at ease, is right effort.",
+   "sha256": "0eb1aed2b426884f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p43.s1",
+   "segment": "method-2",
+   "para": "p43",
+   "start": 10226,
+   "end": 10581,
+   "text": "Being mindful and alert to the in-and-out breath at all times, knowing the various aspects of the breath—the up-flowing breath, the down-flowing breath, the breath in the stomach, the breath in the intestines, the breath flowing along the muscles and out to every pore—keeping track of these things with every in-and-out breath: This is right mindfulness.",
+   "sha256": "efdc9bdc2d186624",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p44.s1",
+   "segment": "method-2",
+   "para": "p44",
+   "start": 10583,
+   "end": 10812,
+   "text": "A mind intent only on issues related to the breath, not pulling any other objects in to interfere, until the breath is refined, giving rise to fixed absorption and then liberating insight right there: This is right concentration.",
+   "sha256": "5b8665de0ae91761",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p45.s1",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 10814,
+   "end": 10873,
+   "text": "To think of the breath is termed vitakka, directed thought.",
+   "sha256": "fcb146104adab789",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p45.s2",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 10874,
+   "end": 10942,
+   "text": "To adjust the breath and let it spread is called vicāra, evaluation.",
+   "sha256": "763beab568261102",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p45.s3",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 10943,
+   "end": 11075,
+   "text": "When all aspects of the breath flow freely throughout the body, you feel full and refreshed in body and mind: This is pīti, rapture.",
+   "sha256": "0ab297b8fcd006f5",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p45.s4",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 11076,
+   "end": 11166,
+   "text": "When body and mind are both at rest, you feel serene and at ease: This is sukha, pleasure.",
+   "sha256": "60c265af06af3f5c",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p45.s5",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 11167,
+   "end": 11345,
+   "text": "And once you feel pleasure, the mind is bound to stay snug with a single preoccupation and not go straying after any others: This is ekaggatārammaṇa, singleness of preoccupation.",
+   "sha256": "901815036f073ff8",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p45.s6",
+   "segment": "method-2",
+   "para": "p45",
+   "start": 11346,
+   "end": 11413,
+   "text": "These five factors form the beginning stage of right concentration.",
+   "sha256": "ea5040844ee8ffab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    5
+   ]
+  },
+  {
+   "id": "method-2:p46.s1",
+   "segment": "method-2",
+   "para": "p46",
+   "start": 11415,
+   "end": 11660,
+   "text": "When all these parts of the noble path—virtue, concentration, and discernment—are brought together fully mature in the heart, you gain insight into all aspects of the breath, knowing that ‘Breathing this way gives rise to skillful mental states.",
+   "sha256": "f6d89048231c5ef4",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p46.s2",
+   "segment": "method-2",
+   "para": "p46",
+   "start": 11661,
+   "end": 11720,
+   "text": "Breathing that way gives rise to unskillful mental states.’",
+   "sha256": "f64708682fd55e37",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p46.s3",
+   "segment": "method-2",
+   "para": "p46",
+   "start": 11721,
+   "end": 11914,
+   "text": "You aren’t caught up with the factors—the breath in all its aspects—that fabricate the body, the factors that fabricate speech, the factors that fabricate the mind, whether for good or for ill.",
+   "sha256": "9df86d1d205e2c39",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p46.s4",
+   "segment": "method-2",
+   "para": "p46",
+   "start": 11915,
+   "end": 12001,
+   "text": "You let them be, in line with their inherent nature: This is the disbanding of stress.",
+   "sha256": "e6deb30a697c95eb",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p47.s1",
+   "segment": "method-2",
+   "para": "p47",
+   "start": 12003,
+   "end": 12116,
+   "text": "Another, even briefer way to express the four noble truths is this: The in-and-out breath is the truth of stress.",
+   "sha256": "ab4219dd0bd403e6",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "method-2:p47.s2",
+   "segment": "method-2",
+   "para": "p47",
+   "start": 12117,
+   "end": 12242,
+   "text": "Not being aware of the in-breath, not being aware of the out-breath: This is the cause of stress—obscured, deluded awareness.",
+   "sha256": "a83f5d82206d140f",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p47.s3",
+   "segment": "method-2",
+   "para": "p47",
+   "start": 12243,
+   "end": 12374,
+   "text": "Seeing into all aspects of the breath so clearly that you can let them go with no sense of attachment, is the disbanding of stress.",
+   "sha256": "916f025221bbee28",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p47.s4",
+   "segment": "method-2",
+   "para": "p47",
+   "start": 12375,
+   "end": 12480,
+   "text": "Being constantly mindful and alert to all aspects of the breath, is the path to the disbanding of stress.",
+   "sha256": "cbe8e13fbef2124e",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p48.s1",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12482,
+   "end": 12578,
+   "text": "When you can do this, you can say that you’re correctly following the path of breath meditation.",
+   "sha256": "cbd160dbde3579a8",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p48.s2",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12579,
+   "end": 12642,
+   "text": "You have cognitive skill, able to know all four truths clearly.",
+   "sha256": "5305d794f97d1623",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    4
+   ]
+  },
+  {
+   "id": "method-2:p48.s3",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12643,
+   "end": 12666,
+   "text": "You can attain release.",
+   "sha256": "bbb1220b45be89f7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p48.s4",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12667,
+   "end": 12853,
+   "text": "Release is a mind that doesn’t cling to low causes and low effects—i.e., stress and its cause; or to high causes and high effects—the disbanding of stress and the path to its disbanding.",
+   "sha256": "8f3581ea9f46bd4f",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p48.s5",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12854,
+   "end": 12961,
+   "text": "It’s a mind unattached to the things that cause it to know, unattached to knowledge, unattached to knowing.",
+   "sha256": "2344a5ebf6372b15",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p48.s6",
+   "segment": "method-2",
+   "para": "p48",
+   "start": 12962,
+   "end": 13202,
+   "text": "When you can separate these things, you’ve mastered the skill of release—in other words, when you know what forms the beginning, what forms the end and what lies in between, letting them be as they are on their own, in line with the phrase,",
+   "sha256": "d068fc3078f0da73",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p49.s1",
+   "segment": "method-2",
+   "para": "p49",
+   "start": 13204,
+   "end": 13223,
+   "text": "sabbe dhammā anattā",
+   "sha256": "6dfab9800eda8eaf",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p50.s1",
+   "segment": "method-2",
+   "para": "p50",
+   "start": 13225,
+   "end": 13252,
+   "text": "All phenomena are not-self.",
+   "sha256": "952efd81f45e50ce",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p51.s1",
+   "segment": "method-2",
+   "para": "p51",
+   "start": 13254,
+   "end": 13404,
+   "text": "To be attached to the things that cause us to know—the elements, khandhas, the senses and their objects—is termed clinging to sensuality (kamūpādāna).",
+   "sha256": "e66a00a7118901d6",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p51.s2",
+   "segment": "method-2",
+   "para": "p51",
+   "start": 13405,
+   "end": 13476,
+   "text": "To be attached to knowledge is termed clinging to views (diṭṭhūpādāna).",
+   "sha256": "1d27c47f89fd0130",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p51.s3",
+   "segment": "method-2",
+   "para": "p51",
+   "start": 13477,
+   "end": 13604,
+   "text": "To be unacquainted with pure knowing in and of itself (buddha) is termed clinging to precepts and procedures (sīlabbatūpādāna).",
+   "sha256": "968780e0e1576416",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p51.s4",
+   "segment": "method-2",
+   "para": "p51",
+   "start": 13605,
+   "end": 13768,
+   "text": "And when we cling in this way, we are bound to be deluded by the factors that fabricate the body, speech, and the mind, all of which arise from obscured awareness.",
+   "sha256": "64c36c42793a534b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s1",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 13770,
+   "end": 13925,
+   "text": "The Buddha was a complete master of both cause and effect, without being attached either to low causes and low effects, or to high causes and high effects.",
+   "sha256": "7052131be8fd42dc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s2",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 13926,
+   "end": 13963,
+   "text": "He was above cause and beyond effect.",
+   "sha256": "509387c3a98171dc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s3",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 13964,
+   "end": 14046,
+   "text": "Stress and ease were both at his disposal, but he was attached to neither of them.",
+   "sha256": "2fc9c563faf0a18c",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s4",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 14047,
+   "end": 14172,
+   "text": "He fully knew both good and evil, was fully equipped with both self and not-self, but wasn’t attached to any of these things.",
+   "sha256": "951e3db7de50e7ab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s5",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 14173,
+   "end": 14287,
+   "text": "He had at his disposal the objects that can act as the basis for the cause of stress, but wasn’t attached to them.",
+   "sha256": "a85f099f19ba86de",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s6",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 14288,
+   "end": 14467,
+   "text": "The path—discernment—was also at his disposal: He knew how to appear either ignorant or shrewd, and how to use both ignorance and shrewdness in his work of spreading the religion.",
+   "sha256": "3193ee5ba3028a50",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p52.s7",
+   "segment": "method-2",
+   "para": "p52",
+   "start": 14468,
+   "end": 14638,
+   "text": "And as for the disbanding of stress, he had it at his disposal but didn’t cling to it, wasn’t attached to it, which is why we can truly say that his mastery was complete.",
+   "sha256": "17a605fbc36b15e7",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s1",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 14640,
+   "end": 14766,
+   "text": "Before the Buddha was able to let go of these things in this way, he first had to work at giving rise to them in full measure.",
+   "sha256": "f2691a8af93ee576",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s2",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 14767,
+   "end": 14801,
+   "text": "Only then could he put them aside.",
+   "sha256": "0abfec41279e8182",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s3",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 14802,
+   "end": 14879,
+   "text": "He let go from abundance, unlike ordinary people who ‘let go’ out of poverty.",
+   "sha256": "5afc4b6e8f7341d0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s4",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 14880,
+   "end": 14948,
+   "text": "Even though he let these things go, they were still at his disposal.",
+   "sha256": "dcbebccd15ad88f4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s5",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 14949,
+   "end": 15070,
+   "text": "He never dismissed the virtue, concentration, and discernment he had worked at perfecting up to the day of his awakening.",
+   "sha256": "5ebc10edccba2176",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s6",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 15071,
+   "end": 15197,
+   "text": "He continued using every aspect of virtue, concentration, and discernment to the day he entered total unbinding (parinibbāna).",
+   "sha256": "3acc1296564fbde5",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p53.s7",
+   "segment": "method-2",
+   "para": "p53",
+   "start": 15198,
+   "end": 15394,
+   "text": "Even the moment he was about to ‘nibbāna,’ he was practicing his full command of concentration—in other words, his total unbinding occurred when he was between the jhānas of form and formlessness.",
+   "sha256": "09bc838d7e873210",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s1",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15396,
+   "end": 15459,
+   "text": "So we shouldn’t dismiss virtue, concentration, and discernment.",
+   "sha256": "045d9a5c7e1bc6fc",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s2",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15460,
+   "end": 15546,
+   "text": "Some people won’t observe the precepts because they’re afraid of getting tied to them.",
+   "sha256": "349d10e15f49dc15",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s3",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15547,
+   "end": 15648,
+   "text": "Some people won’t practice concentration because they’re afraid of becoming ignorant or going insane.",
+   "sha256": "45c95797e9c989ca",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s4",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15649,
+   "end": 15823,
+   "text": "The truth of the matter is that normally we’re already ignorant, already insane, and that to practice centering the mind is what will end our ignorance and cure our insanity.",
+   "sha256": "767ca72712a678f8",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s5",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15824,
+   "end": 15957,
+   "text": "Once we’ve trained ourselves properly, we’ll give rise to pure discernment, like a cut jewel that gives off light by its very nature.",
+   "sha256": "b02a4b1207cb7965",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p54.s6",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 15958,
+   "end": 16001,
+   "text": "This is what qualifies as true discernment.",
+   "sha256": "17b33dfe165d1bb3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p54.s7",
+   "segment": "method-2",
+   "para": "p54",
+   "start": 16002,
+   "end": 16113,
+   "text": "It arises for us individually and is termed paccattaṁ: We can give rise to it, and know it, only for ourselves.",
+   "sha256": "0a2a48c2b9fddb3f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p55.s1",
+   "segment": "method-2",
+   "para": "p55",
+   "start": 16115,
+   "end": 16183,
+   "text": "Most of us, though, tend to misunderstand the nature of discernment.",
+   "sha256": "5fd956c76bb1e5ac",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p55.s2",
+   "segment": "method-2",
+   "para": "p55",
+   "start": 16184,
+   "end": 16446,
+   "text": "We take imitation discernment, adulterated with concepts, and use it to smother the real thing, like a man who coats a piece of glass with mercury so that he can see his reflection and that of others, thinking he’s found an ingenious way of looking at the truth.",
+   "sha256": "8f82cef3bca8bb51",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p55.s3",
+   "segment": "method-2",
+   "para": "p55",
+   "start": 16447,
+   "end": 16704,
+   "text": "Actually, he’s nothing more than a monkey looking in a mirror: One monkey becomes two and will keep playing with its reflection until the mercury wears off, at which point it becomes crestfallen, not knowing what the reflection came from in the first place.",
+   "sha256": "e95a63085fcb1a45",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "method-2:p55.s4",
+   "segment": "method-2",
+   "para": "p55",
+   "start": 16705,
+   "end": 16891,
+   "text": "So it is when we gain imitation discernment, unwittingly, by thinking and conjecturing in line with concepts and preoccupations: We’re headed for sorrow when death meets us face-to-face.",
+   "sha256": "15b64c505519f3cb",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s1",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 16893,
+   "end": 17077,
+   "text": "The crucial factor in natural discernment comes solely from training the mind to be like a diamond that gives off its own light—surrounded by radiance whether in dark places or bright.",
+   "sha256": "0c871e4b275f7cf4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s2",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 17078,
+   "end": 17129,
+   "text": "A mirror is useful only in places already well-lit.",
+   "sha256": "b2754aa1cb4fac74",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s3",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 17130,
+   "end": 17207,
+   "text": "If you take it into the dark, you can’t use it to see your reflection at all.",
+   "sha256": "5fd32a02d9a9cc37",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s4",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 17208,
+   "end": 17277,
+   "text": "But a cut jewel that gives off its own light is brilliant everywhere.",
+   "sha256": "5ecdab80a0dc5841",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s5",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 17278,
+   "end": 17412,
+   "text": "This is what the Buddha meant when he taught that there are no closed or secret places in the world where discernment can’t penetrate.",
+   "sha256": "722bdb70b151246f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p56.s6",
+   "segment": "method-2",
+   "para": "p56",
+   "start": 17413,
+   "end": 17687,
+   "text": "This jewel of discernment is what will enable us to destroy craving, clinging, and obscured awareness, and to attain the highest excellence: unbinding—free from pain, death, annihilation, and extinction—existing naturally through the reality of deathlessness (amata-dhamma).",
+   "sha256": "5edac4d2f336cead",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s1",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 17689,
+   "end": 17760,
+   "text": "By and large, we tend to be interested only in discernment and release.",
+   "sha256": "f286f9b21684105f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s2",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 17761,
+   "end": 17917,
+   "text": "At the drop of a hat, we want to start right in with the teachings on inconstancy, stress, and not-self—and when this is the case, we’ll never get anywhere.",
+   "sha256": "6563ac6c4d42e724",
+   "kind_guess": [
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s3",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 17918,
+   "end": 18037,
+   "text": "Before the Buddha taught that things are inconstant, he had worked at knowing them until they revealed their constancy.",
+   "sha256": "1ab17105b0611cab",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s4",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18038,
+   "end": 18130,
+   "text": "Before teaching that things are stressful, he had turned that stress into pleasure and ease.",
+   "sha256": "0c7dc311ba93c4f7",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s5",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18131,
+   "end": 18331,
+   "text": "And before teaching that things are not-self, he had turned what is not-self into a self, and so was able to see what is constant and true, lying hidden in what is inconstant, stressful, and not-self.",
+   "sha256": "7ac6e53e42ed9e46",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s6",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18332,
+   "end": 18381,
+   "text": "He then gathered all of these qualities into one.",
+   "sha256": "b203a160553aa6e3",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p57.s7",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18382,
+   "end": 18578,
+   "text": "He gathered all that is inconstant, stressful, and not-self into one and the same thing: fabrications (saṅkhāra) viewed in terms of the world—a single class, equal everywhere throughout the world.",
+   "sha256": "a2172d8122bddbfd",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "method-2:p57.s8",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18579,
+   "end": 18690,
+   "text": "As for what’s constant, pleasant, and self, this was another class: fabrications viewed in terms of the Dhamma.",
+   "sha256": "91fc374736912b8d",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s9",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18691,
+   "end": 18825,
+   "text": "And then he let go of both classes, without getting caught up on ‘constant’ or ‘inconstant,’ ‘stress’ or ‘ease,’ ‘self’ or ‘not-self.’",
+   "sha256": "819a66cb2cfc68ce",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p57.s10",
+   "segment": "method-2",
+   "para": "p57",
+   "start": 18826,
+   "end": 18993,
+   "text": "This is why we can say he attained release, purity, and nibbāna, for he had no need to latch onto fabrications—whether of the world or of the Dhamma—in any way at all.",
+   "sha256": "119eac3beeffe50f",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s1",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 18995,
+   "end": 19045,
+   "text": "This was the nature of the Lord Buddha’s practice.",
+   "sha256": "c20a958f898ca147",
+   "kind_guess": [
+    "theory"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s2",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 19046,
+   "end": 19178,
+   "text": "But as for our own practice, most of us act as if we have everything figured out beforehand and have succeeded even before we start.",
+   "sha256": "c3eaf8f989b5ddf4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s3",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 19179,
+   "end": 19249,
+   "text": "In other words, we want simply to let go and attain peace and release.",
+   "sha256": "95faccf55f4441c0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s4",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 19250,
+   "end": 19403,
+   "text": "But if we haven’t laid the full groundwork, our letting-go is bound to be lacking: Our peace is bound to be piece-meal, our release is bound to be wrong.",
+   "sha256": "6762e55248568e97",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s5",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 19404,
+   "end": 19528,
+   "text": "Those of us who sincerely mean well and want only the highest good should ask ourselves: Have we laid the proper foundation?",
+   "sha256": "29f9b1fda7fa069e",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p58.s6",
+   "segment": "method-2",
+   "para": "p58",
+   "start": 19529,
+   "end": 19620,
+   "text": "If we don’t lay the proper foundation for release and letting go, how will we ever be free?",
+   "sha256": "9d5806d085eccb0b",
+   "kind_guess": [
+    "condition",
+    "warning"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s1",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 19622,
+   "end": 19960,
+   "text": "The Buddha taught that virtue can overcome common defilements, the gross faults in our words and deeds; that concentration can overcome such intermediate defilements as sensual desires, ill will, torpor, restlessness, and uncertainty; and that discernment can overcome such subtle defilements as craving, clinging, and obscured awareness.",
+   "sha256": "b40e76fd8f3e95f4",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s2",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 19961,
+   "end": 20138,
+   "text": "Yet some people whose discernment is sharp, who can clearly explain subtle points of doctrine, can’t seem to shake off the more common defilements that even virtue can overcome.",
+   "sha256": "7d3fc54e33385903",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s3",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 20139,
+   "end": 20229,
+   "text": "This shows that something must be lacking in their virtue, concentration, and discernment.",
+   "sha256": "0544a142762d3bff",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s4",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 20230,
+   "end": 20431,
+   "text": "Their virtues are probably all on the surface, their concentration splotchy and stained, their discernment a smeared-on gloss—like the glass coated with mercury—which is why they can’t attain the goal.",
+   "sha256": "b0da3ec92de6a5f0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s5",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 20432,
+   "end": 20767,
+   "text": "Their actions fall under the old saying: Keeping a sword outside the scabbard—having a way with words and theories, but no center for the mind; laying an egg outside the nest—looking for goodness only outside, without training the mind to be centered; resting a foundation on the sand—trying to find security in things of no substance.",
+   "sha256": "f4e7a21194d28a49",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s6",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 20768,
+   "end": 20813,
+   "text": "All of this is bound to bring disappointment.",
+   "sha256": "6dc9db14c7f384db",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p59.s7",
+   "segment": "method-2",
+   "para": "p59",
+   "start": 20814,
+   "end": 20863,
+   "text": "Such people have yet to find a worthwhile refuge.",
+   "sha256": "d0f819d55a87e319",
+   "kind_guess": [
+    "devotional"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p60.s1",
+   "segment": "method-2",
+   "para": "p60",
+   "start": 20865,
+   "end": 21008,
+   "text": "So we should lay the groundwork and put the causes into good working order, because all the attainments we hope for come springing from causes.",
+   "sha256": "747ea1930036d81b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p61.s1",
+   "segment": "method-2",
+   "para": "p61",
+   "start": 21010,
+   "end": 21029,
+   "text": "attanā codayattānaṁ",
+   "sha256": "59eb87528c0b5750",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p62.s1",
+   "segment": "method-2",
+   "para": "p62",
+   "start": 21031,
+   "end": 21050,
+   "text": "paṭimaṅse tamattanā",
+   "sha256": "cce154d56042eb84",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p63.s1",
+   "segment": "method-2",
+   "para": "p63",
+   "start": 21052,
+   "end": 21067,
+   "text": "Rouse yourself.",
+   "sha256": "9c11bb40bb9ade18",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p63.s2",
+   "segment": "method-2",
+   "para": "p63",
+   "start": 21068,
+   "end": 21089,
+   "text": "Train your own heart.",
+   "sha256": "5e42d1a790bf9c5b",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "method-2:p64.s1",
+   "segment": "method-2",
+   "para": "p64",
+   "start": 21091,
+   "end": 21134,
+   "text": "Start pondering your own in-and-out breath.",
+   "sha256": "33b0c34c773eec75",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  }
+ ]
+}

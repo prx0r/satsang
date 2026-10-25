@@ -278,8 +278,13 @@ export function createBody(canvas, { small = false, reduce = false, locus = null
   const m = reduce ? 0.45 : 1, bloom = 0.6
   let flowS = 0, flowIP = 0, flowN = 0, aura = 0, exh = 0, dim = 1, t0 = performance.now()
   // locus: eased in over ~2 s so a change never jumps; mix eases from the plain look toward the locus's weights
-  let foc = LOCUS.none, focK = 0, mix = MIX[0].slice()
-  function setLocus(l) { foc = typeof l === 'string' ? (LOCUS[l] || LOCUS.none) : (l && l.kind != null ? l : LOCUS.none); focK = 0 }
+  let foc = LOCUS.none, focK = 0, mix = MIX[0].slice(), atCur = null, rCur = 0.1
+  // a new locus of the same point kind glides there (attention moving: nose -> forehead -> crown) instead of fading out and in
+  function setLocus(l) {
+    const next = typeof l === 'string' ? (LOCUS[l] || LOCUS.none) : (l && l.kind != null ? l : LOCUS.none)
+    const glide = foc.kind && next.kind === foc.kind && foc.at && next.at
+    foc = next; if (!glide) { focK = 0; atCur = foc.at ? foc.at.slice() : null; rCur = foc.r || 0.1 }
+  }
   setLocus(locus)
   function frame(dt, b) {
     resize()
@@ -300,9 +305,10 @@ export function createBody(canvas, { small = false, reduce = false, locus = null
     gl.useProgram(P); gl.bindVertexArray(vao)
     const set = { uK: small ? 1.1 : 0.72, uT: t, uB: b.level, uV: vN, uFlowS: flowS, uFlowIP: flowIP, uAura: aura, uEnv: b.env || 0, uExh: exh, uDim: dim,
       uYaw: 0.16 * Math.sin(t * 0.06 * m) + 0.04 * Math.sin(t * 0.17 * m), uS: S, uAspect: aspect, uVH: H, uM: m, uPx: 1 }
-    set.uFocK = focK; set.uFocKind = foc.kind || 0; set.uFlowN = flowN
+    set.uFocK = focK * (foc.gain || 1); set.uFocKind = foc.kind || 0; set.uFlowN = flowN
     for (const n in set) gl.uniform1f(U[n], set[n])
-    const at = foc.at || [0, 0, 0]; gl.uniform4f(uFoc, at[0], at[1], at[2], foc.r || 0.1); gl.uniform1fv(uMix, mix)
+    if (foc.at) { if (!atCur) atCur = foc.at.slice(); const g = 1 - Math.exp(-dt / 1.1); for (let i = 0; i < 3; i++) atCur[i] += (foc.at[i] - atCur[i]) * g; rCur += ((foc.r || 0.1) - rCur) * g }
+    const at = atCur || [0, 0, 0]; gl.uniform4f(uFoc, at[0], at[1], at[2], foc.at ? rCur : (foc.r || 0.1)); gl.uniform1fv(uMix, mix)
     gl.drawArrays(gl.POINTS, 0, count)
     gl.disable(gl.BLEND)
     const sx = 1 / B1.w, sy = 1 / B1.h

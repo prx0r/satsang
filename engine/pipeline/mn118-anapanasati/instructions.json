@@ -1,0 +1,1531 @@
+{
+ "type": "instructions",
+ "schema_version": 1,
+ "practice": "mn118-anapanasati",
+ "source": "mn118-anapanasati",
+ "stages": [
+  {
+   "id": "sitting",
+   "label": "Sitting, mindful of the breath"
+  },
+  {
+   "id": "body",
+   "label": "First tetrad: the body"
+  },
+  {
+   "id": "feelings",
+   "label": "Second tetrad: feelings"
+  },
+  {
+   "id": "mind",
+   "label": "Third tetrad: the mind"
+  },
+  {
+   "id": "qualities",
+   "label": "Fourth tetrad: mental qualities"
+  }
+ ],
+ "instructions": [
+  {
+   "id": "i01",
+   "stage": "sitting",
+   "action": "posture",
+   "spans": [
+    {
+     "passage": "mn118:p17.s1",
+     "quote": "sits down folding his legs crosswise, holding his body erect, and establishing mindfulness to the fore.",
+     "segment": "mn118",
+     "start": 5465,
+     "end": 5568
+    }
+   ],
+   "object": "legs crossed, body erect, mindfulness to the fore",
+   "scripted": true,
+   "confidence": 0.95
+  },
+  {
+   "id": "i02",
+   "stage": "sitting",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p17.s1",
+     "quote": "Always mindful, he breathes in; mindful he breathes out.",
+     "segment": "mn118",
+     "start": 5570,
+     "end": 5626
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath as a whole, shown as the breathing torso; note 1 (p43) reads “to the fore” as an idiom, not a spot, so no nose-tip"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i03",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s1",
+     "quote": "Breathing in long, he discerns, ‘I am breathing in long’; or breathing out long, he discerns, ‘I am breathing out long.’",
+     "segment": "mn118",
+     "start": 5633,
+     "end": 5753
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath: the breathing torso"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i04",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s2",
+     "quote": "Or breathing in short, he discerns, ‘I am breathing in short’; or breathing out short, he discerns, ‘I am breathing out short.’",
+     "segment": "mn118",
+     "start": 5758,
+     "end": 5885
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "torso",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "the breath: the breathing torso"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i05",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s3",
+     "quote": "He trains himself, ‘I will breathe in sensitive to the entire body.’",
+     "segment": "mn118",
+     "start": 5890,
+     "end": 5958
+    },
+    {
+     "passage": "mn118:p44.s5",
+     "quote": "there has to be a step in which the awareness is extended to fill the entire body",
+     "segment": "mn118",
+     "start": 16525,
+     "end": 16606
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i06",
+   "stage": "body",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p18.s4",
+     "quote": "He trains himself, ‘I will breathe in calming bodily fabrication.’",
+     "segment": "mn118",
+     "start": 6034,
+     "end": 6100
+    },
+    {
+     "passage": "mn118:p45.s2",
+     "quote": "That’s why in-&-out breaths are bodily fabrications.",
+     "segment": "mn118",
+     "start": 16707,
+     "end": 16759
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "whole"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "paraphrased",
+     "note": "bodily fabrication = the in-and-out breath (note 3, MN 44), felt through the whole body"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i07",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s1",
+     "quote": "He trains himself, ‘I will breathe in sensitive to rapture.’",
+     "segment": "mn118",
+     "start": 6176,
+     "end": 6236
+    },
+    {
+     "passage": "mn118:p19.s2",
+     "quote": "He trains himself, ‘I will breathe out sensitive to rapture.’",
+     "segment": "mn118",
+     "start": 6237,
+     "end": 6298
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i08",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s3",
+     "quote": "He trains himself, ‘I will breathe in sensitive to pleasure.’",
+     "segment": "mn118",
+     "start": 6303,
+     "end": 6364
+    },
+    {
+     "passage": "mn118:p19.s4",
+     "quote": "He trains himself, ‘I will breathe out sensitive to pleasure.’",
+     "segment": "mn118",
+     "start": 6365,
+     "end": 6427
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i09",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s5",
+     "quote": "He trains himself, ‘I will breathe in sensitive to mental fabrication.’",
+     "segment": "mn118",
+     "start": 6432,
+     "end": 6503
+    },
+    {
+     "passage": "mn118:p48.s2",
+     "quote": "That’s why perceptions & feelings are mental fabrications.",
+     "segment": "mn118",
+     "start": 17236,
+     "end": 17294
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i10",
+   "stage": "feelings",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p19.s6",
+     "quote": "He trains himself, ‘I will breathe in calming mental fabrication.’",
+     "segment": "mn118",
+     "start": 6582,
+     "end": 6648
+    },
+    {
+     "passage": "mn118:p19.s7",
+     "quote": "He trains himself, ‘I will breathe out calming mental fabrication.’",
+     "segment": "mn118",
+     "start": 6649,
+     "end": 6716
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "medium"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i11",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s1",
+     "quote": "He trains himself, ‘I will breathe in sensitive to the mind.’",
+     "segment": "mn118",
+     "start": 6723,
+     "end": 6784
+    },
+    {
+     "passage": "mn118:p20.s2",
+     "quote": "He trains himself, ‘I will breathe out sensitive to the mind.’",
+     "segment": "mn118",
+     "start": 6785,
+     "end": 6847
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i12",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s3",
+     "quote": "He trains himself, ‘I will breathe in gladdening the mind.’",
+     "segment": "mn118",
+     "start": 6853,
+     "end": 6912
+    },
+    {
+     "passage": "mn118:p20.s4",
+     "quote": "He trains himself, ‘I will breathe out gladdening the mind.’",
+     "segment": "mn118",
+     "start": 6913,
+     "end": 6973
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i13",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s5",
+     "quote": "He trains himself, ‘I will breathe in concentrating the mind.’",
+     "segment": "mn118",
+     "start": 6979,
+     "end": 7041
+    },
+    {
+     "passage": "mn118:p20.s6",
+     "quote": "He trains himself, ‘I will breathe out concentrating the mind.’",
+     "segment": "mn118",
+     "start": 7042,
+     "end": 7105
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i14",
+   "stage": "mind",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p20.s7",
+     "quote": "He trains himself, ‘I will breathe in releasing the mind.’",
+     "segment": "mn118",
+     "start": 7111,
+     "end": 7169
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i15",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s1",
+     "quote": "He trains himself, ‘I will breathe in focusing on inconstancy.’",
+     "segment": "mn118",
+     "start": 7238,
+     "end": 7301
+    },
+    {
+     "passage": "mn118:p21.s2",
+     "quote": "He trains himself, ‘I will breathe out focusing on inconstancy.’",
+     "segment": "mn118",
+     "start": 7302,
+     "end": 7366
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i16",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s3",
+     "quote": "He trains himself, ‘I will breathe in focusing on dispassion [or: fading].’",
+     "segment": "mn118",
+     "start": 7372,
+     "end": 7447
+    },
+    {
+     "passage": "mn118:p21.s4",
+     "quote": "He trains himself, ‘I will breathe out focusing on dispassion.’",
+     "segment": "mn118",
+     "start": 7448,
+     "end": 7511
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i17",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s5",
+     "quote": "He trains himself, ‘I will breathe in focusing on cessation.’",
+     "segment": "mn118",
+     "start": 7517,
+     "end": 7578
+    },
+    {
+     "passage": "mn118:p21.s6",
+     "quote": "He trains himself, ‘I will breathe out focusing on cessation.’",
+     "segment": "mn118",
+     "start": 7579,
+     "end": 7641
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  },
+  {
+   "id": "i18",
+   "stage": "qualities",
+   "action": "attend",
+   "spans": [
+    {
+     "passage": "mn118:p21.s7",
+     "quote": "He trains himself, ‘I will breathe in focusing on relinquishing.’",
+     "segment": "mn118",
+     "start": 7647,
+     "end": 7712
+    },
+    {
+     "passage": "mn118:p21.s8",
+     "quote": "He trains himself, ‘I will breathe out focusing on relinquishing.’",
+     "segment": "mn118",
+     "start": 7713,
+     "end": 7779
+    }
+   ],
+   "breath": {
+    "phase": "in_out"
+   },
+   "count": {
+    "value": 3,
+    "unit": "breaths"
+   },
+   "attention": {
+    "target": "whole_body",
+    "size": "wide"
+   },
+   "prov": {
+    "count": {
+     "basis": "inferred",
+     "rule": "step-breaths"
+    },
+    "attention": {
+     "basis": "inferred",
+     "rule": "non-body-step-visual"
+    }
+   },
+   "scripted": true,
+   "confidence": 0.88
+  }
+ ],
+ "coverage_rules": [
+  {
+   "passages": "mn118:p1.s1..mn118:p16.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passages": "mn118:p22.s1..mn118:p41.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passages": "mn118:p42.s1..mn118:p51.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  }
+ ],
+ "extractor": {
+  "tool": "satsang-extract/1",
+  "mode": "agent-manual",
+  "agent": "hark subagent (satsang practice-player rethink)",
+  "prompt": "tools/extract/PROMPT.md v1",
+  "date": "2026-10-25",
+  "note": "No model spend allowed. Agent draft per PROMPT.md §A; resolved and validated by extract.mjs."
+ },
+ "passages_sha256": "b31b49916942e695a7df9390160efcbf41a1cbf333c78b612d74d0b828b6db72",
+ "coverage": [
+  {
+   "passage": "mn118:p1.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s3",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s4",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s5",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s6",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s7",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s8",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s9",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s10",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s11",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s12",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p1.s13",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p2.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p2.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p3.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p3.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p3.s3",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p3.s4",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p4.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p4.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p5.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p5.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p5.s3",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p6.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p6.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p7.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p7.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p7.s3",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p7.s4",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p8.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p9.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p10.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p11.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p12.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p13.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p14.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p15.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p15.s2",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p15.s3",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p15.s4",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p16.s1",
+   "status": "out_of_scope",
+   "reason": "the setting: the Buddha’s praise of the assembly and of breath meditation (framing, not instructions)"
+  },
+  {
+   "passage": "mn118:p17.s1",
+   "status": "extracted",
+   "instructions": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "passage": "mn118:p18.s1",
+   "status": "extracted",
+   "instructions": [
+    "i03"
+   ]
+  },
+  {
+   "passage": "mn118:p18.s2",
+   "status": "extracted",
+   "instructions": [
+    "i04"
+   ]
+  },
+  {
+   "passage": "mn118:p18.s3",
+   "status": "extracted",
+   "instructions": [
+    "i05"
+   ]
+  },
+  {
+   "passage": "mn118:p18.s4",
+   "status": "extracted",
+   "instructions": [
+    "i06"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s1",
+   "status": "extracted",
+   "instructions": [
+    "i07"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s2",
+   "status": "extracted",
+   "instructions": [
+    "i07"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s3",
+   "status": "extracted",
+   "instructions": [
+    "i08"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s4",
+   "status": "extracted",
+   "instructions": [
+    "i08"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s5",
+   "status": "extracted",
+   "instructions": [
+    "i09"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s6",
+   "status": "extracted",
+   "instructions": [
+    "i10"
+   ]
+  },
+  {
+   "passage": "mn118:p19.s7",
+   "status": "extracted",
+   "instructions": [
+    "i10"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s1",
+   "status": "extracted",
+   "instructions": [
+    "i11"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s2",
+   "status": "extracted",
+   "instructions": [
+    "i11"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s3",
+   "status": "extracted",
+   "instructions": [
+    "i12"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s4",
+   "status": "extracted",
+   "instructions": [
+    "i12"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s5",
+   "status": "extracted",
+   "instructions": [
+    "i13"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s6",
+   "status": "extracted",
+   "instructions": [
+    "i13"
+   ]
+  },
+  {
+   "passage": "mn118:p20.s7",
+   "status": "extracted",
+   "instructions": [
+    "i14"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s1",
+   "status": "extracted",
+   "instructions": [
+    "i15"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s2",
+   "status": "extracted",
+   "instructions": [
+    "i15"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s3",
+   "status": "extracted",
+   "instructions": [
+    "i16"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s4",
+   "status": "extracted",
+   "instructions": [
+    "i16"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s5",
+   "status": "extracted",
+   "instructions": [
+    "i17"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s6",
+   "status": "extracted",
+   "instructions": [
+    "i17"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s7",
+   "status": "extracted",
+   "instructions": [
+    "i18"
+   ]
+  },
+  {
+   "passage": "mn118:p21.s8",
+   "status": "extracted",
+   "instructions": [
+    "i18"
+   ]
+  },
+  {
+   "passage": "mn118:p22.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p23.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p24.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p24.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p25.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p25.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p26.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p26.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p27.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p27.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p28.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p29.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p30.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p30.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p30.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p31.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p31.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p31.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p32.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p32.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p32.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p33.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p33.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p33.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p34.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p34.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p34.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p35.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p35.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p35.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p36.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p36.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p36.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p37.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p38.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p39.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p39.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p39.s3",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p40.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p41.s1",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p41.s2",
+   "status": "out_of_scope",
+   "reason": "how the sixteen steps fulfil the four establishings of mindfulness and the seven factors for awakening: doctrine for the Theory tab, not timed steps"
+  },
+  {
+   "passage": "mn118:p42.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p43.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p43.s2",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p43.s3",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p44.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p44.s2",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p44.s3",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p44.s4",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p44.s5",
+   "status": "extracted",
+   "instructions": [
+    "i05"
+   ]
+  },
+  {
+   "passage": "mn118:p44.s6",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p45.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p45.s2",
+   "status": "extracted",
+   "instructions": [
+    "i06"
+   ]
+  },
+  {
+   "passage": "mn118:p45.s3",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p46.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p46.s2",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p46.s3",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p47.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p47.s2",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p48.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p48.s2",
+   "status": "extracted",
+   "instructions": [
+    "i09"
+   ]
+  },
+  {
+   "passage": "mn118:p48.s3",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p49.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p49.s2",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p50.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  },
+  {
+   "passage": "mn118:p51.s1",
+   "status": "cited_only",
+   "reason": "translator’s notes: used only to read “to the fore” (note 1), the entire body (note 2) and the two fabrications (notes 3–4)"
+  }
+ ],
+ "validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,2387 @@
+{
+ "script_version": 1,
+ "engine": "satsang-engine/0.3",
+ "practice": "ajahn-lee-method-2",
+ "name": "Seven steps · Ajahn Lee, Method 2",
+ "traditions": [
+  "theravada-thai-forest"
+ ],
+ "opts": {
+  "beginner": false,
+  "rounds": 0,
+  "count_s": 1
+ },
+ "params": {},
+ "loops": 0,
+ "mode": "guided",
+ "total_s": 482,
+ "show": {
+  "channels": [],
+  "loci": [
+   "nose_tip",
+   "base_of_skull",
+   "kanda",
+   "foot_R",
+   "foot_L",
+   "fingertips_R",
+   "throat_base",
+   "middle_chest",
+   "middle_of_head",
+   "palate",
+   "breastbone",
+   "above_navel"
+  ],
+  "labels": "active"
+ },
+ "tracks": {
+  "breath": [
+   {
+    "t": 0,
+    "dur": 5,
+    "phase": "natural",
+    "id": "open",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 5,
+    "dur": 1,
+    "phase": "natural",
+    "id": "open",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "in",
+    "id": "i01.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0.18,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 11,
+    "dur": 6,
+    "phase": "out",
+    "id": "i01.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 17,
+    "dur": 5,
+    "phase": "in",
+    "id": "i01.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 22,
+    "dur": 6,
+    "phase": "out",
+    "id": "i01.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 28,
+    "dur": 5,
+    "phase": "in",
+    "id": "i01.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 33,
+    "dur": 6,
+    "phase": "out",
+    "id": "i01.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 39,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1,
+    "label": "bud"
+   },
+   {
+    "t": 44,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0,
+    "label": "dho"
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 55,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 61,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 66,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 72,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 77,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 83,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 88,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 94,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 99,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 105,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 110,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 116,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 121,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 127,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 132,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 138,
+    "dur": 5,
+    "phase": "in",
+    "id": "i05.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 143,
+    "dur": 6,
+    "phase": "out",
+    "id": "i05.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 149,
+    "dur": 5,
+    "phase": "in",
+    "id": "i06.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 154,
+    "dur": 6,
+    "phase": "out",
+    "id": "i06.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 160,
+    "dur": 5,
+    "phase": "in",
+    "id": "i07.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 165,
+    "dur": 6,
+    "phase": "out",
+    "id": "i07.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "phase": "in",
+    "id": "i08.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 176,
+    "dur": 6,
+    "phase": "out",
+    "id": "i08.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "phase": "in",
+    "id": "i09.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 187,
+    "dur": 6,
+    "phase": "out",
+    "id": "i09.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 193,
+    "dur": 5,
+    "phase": "in",
+    "id": "i10.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 198,
+    "dur": 6,
+    "phase": "out",
+    "id": "i10.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 204,
+    "dur": 5,
+    "phase": "in",
+    "id": "i11.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 209,
+    "dur": 6,
+    "phase": "out",
+    "id": "i11.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 215,
+    "dur": 5,
+    "phase": "in",
+    "id": "i12.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 220,
+    "dur": 6,
+    "phase": "out",
+    "id": "i12.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 226,
+    "dur": 5,
+    "phase": "in",
+    "id": "i12.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 231,
+    "dur": 6,
+    "phase": "out",
+    "id": "i12.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 237,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 242,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 248,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 253,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 259,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 264,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 270,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 275,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 281,
+    "dur": 5,
+    "phase": "in",
+    "id": "i15.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 286,
+    "dur": 6,
+    "phase": "out",
+    "id": "i15.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 292,
+    "dur": 5,
+    "phase": "in",
+    "id": "i16.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 297,
+    "dur": 6,
+    "phase": "out",
+    "id": "i16.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 303,
+    "dur": 5,
+    "phase": "in",
+    "id": "i17.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 308,
+    "dur": 6,
+    "phase": "out",
+    "id": "i17.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 314,
+    "dur": 5,
+    "phase": "in",
+    "id": "i18.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 319,
+    "dur": 6,
+    "phase": "out",
+    "id": "i18.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 325,
+    "dur": 5,
+    "phase": "in",
+    "id": "i19.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 330,
+    "dur": 6,
+    "phase": "out",
+    "id": "i19.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 336,
+    "dur": 5,
+    "phase": "in",
+    "id": "i20.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 341,
+    "dur": 6,
+    "phase": "out",
+    "id": "i20.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 347,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 352,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 358,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 363,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 369,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 374,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 380,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 385,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 391,
+    "dur": 5,
+    "phase": "in",
+    "id": "i22.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 396,
+    "dur": 6,
+    "phase": "out",
+    "id": "i22.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 402,
+    "dur": 5,
+    "phase": "in",
+    "id": "i23.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 407,
+    "dur": 6,
+    "phase": "out",
+    "id": "i23.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 413,
+    "dur": 5,
+    "phase": "in",
+    "id": "i25.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 418,
+    "dur": 6,
+    "phase": "out",
+    "id": "i25.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 424,
+    "dur": 5,
+    "phase": "in",
+    "id": "i25.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 429,
+    "dur": 6,
+    "phase": "out",
+    "id": "i25.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 435,
+    "dur": 5,
+    "phase": "in",
+    "id": "i26.b1.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 440,
+    "dur": 6,
+    "phase": "out",
+    "id": "i26.b1.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 446,
+    "dur": 5,
+    "phase": "in",
+    "id": "i26.b2.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 451,
+    "dur": 6,
+    "phase": "out",
+    "id": "i26.b2.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 457,
+    "dur": 5,
+    "phase": "in",
+    "id": "i26.b3.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 462,
+    "dur": 6,
+    "phase": "out",
+    "id": "i26.b3.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 468,
+    "dur": 5,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 473,
+    "dur": 6,
+    "phase": "natural",
+    "id": "close",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 479,
+    "dur": 3,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   }
+  ],
+  "voice": [
+   {
+    "t": 6,
+    "dur": 5,
+    "text": "Start with three long breaths, thinking bud with the in-breath, and dho with the out.",
+    "say": "Start with three long breaths, thinking bud with the in-breath, and dho with the out.",
+    "once": false,
+    "block": "i01.b1.in",
+    "quote": {
+     "text": "Start out with three or seven long in-and-out breaths",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p2.s1 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "long-breaths"
+   },
+   {
+    "t": 39,
+    "dur": 5,
+    "text": "Keep the word as long as the breath.",
+    "say": "Keep the word as long as the breath.",
+    "once": false,
+    "block": "i02.g.in",
+    "stage": "long-breaths"
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "text": "Now simply be clearly aware of each breath, in and out.",
+    "say": "Now simply be clearly aware of each breath, in and out.",
+    "once": false,
+    "block": "i03.in",
+    "stage": "aware"
+   },
+   {
+    "t": 94,
+    "dur": 5,
+    "text": "Observe the breath. Is it comfortable or not? Broad or narrow? Fast or slow, short or long, warm or cool?",
+    "say": "Observe the breath. Is it comfortable or not? Broad or narrow? Fast or slow, short or long, warm or cool?",
+    "once": false,
+    "block": "i04.in",
+    "stage": "observe"
+   },
+   {
+    "t": 138,
+    "dur": 5,
+    "text": "If it doesn’t feel comfortable, adjust it until it does. If long breathing feels wrong, try short.",
+    "say": "If it doesn’t feel comfortable, adjust it until it does. If long breathing feels wrong, try short.",
+    "once": false,
+    "block": "i05.g.in",
+    "stage": "observe"
+   },
+   {
+    "t": 149,
+    "dur": 5,
+    "text": "When the breath feels comfortable, breathe in at the base of the skull and let it flow down the spine.",
+    "say": "When the breath feels comfortable, breathe in at the base of the skull and let it flow down the spine.",
+    "once": false,
+    "block": "i06.in",
+    "stage": "spread"
+   },
+   {
+    "t": 160,
+    "dur": 5,
+    "text": "In at the base of the skull again… down the right leg, to the toes, and out into the air.",
+    "say": "In at the base of the skull again… down the right leg, to the toes, and out into the air.",
+    "once": false,
+    "block": "i07.in",
+    "stage": "spread"
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "text": "Again from the base of the skull: down the spine, down the left leg, out past the toes.",
+    "say": "Again from the base of the skull: down the spine, down the left leg, out past the toes.",
+    "once": false,
+    "block": "i08.in",
+    "stage": "spread"
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "text": "From the base of the skull over both shoulders, down the arms, and out through the fingertips.",
+    "say": "From the base of the skull over both shoulders, down the arms, and out through the fingertips.",
+    "once": false,
+    "block": "i09.in",
+    "stage": "spread"
+   },
+   {
+    "t": 193,
+    "dur": 5,
+    "text": "From the base of the throat, down the front of the body, all the way to the belly.",
+    "say": "From the base of the throat, down the front of the body, all the way to the belly.",
+    "once": false,
+    "block": "i10.in",
+    "stage": "spread"
+   },
+   {
+    "t": 204,
+    "dur": 5,
+    "text": "Breathe in at the middle of the chest and let it go all the way down to the belly.",
+    "say": "Breathe in at the middle of the chest and let it go all the way down to the belly.",
+    "once": false,
+    "block": "i11.in",
+    "stage": "spread"
+   },
+   {
+    "t": 215,
+    "dur": 5,
+    "text": "Let all these breath sensations connect and flow together.",
+    "say": "Let all these breath sensations connect and flow together.",
+    "once": false,
+    "block": "i12.b1.in",
+    "stage": "spread"
+   },
+   {
+    "t": 237,
+    "dur": 5,
+    "text": "Explore: in long, out long… in long, out short… in short, out long… in short, out short. Then breathe whichever way is most comfortable.",
+    "say": "Explore: in long, out long… in long, out short… in short, out long… in short, out short. Then breathe whichever way is most comfortable.",
+    "once": false,
+    "block": "i13.in",
+    "quote": {
+     "text": "Breathe whichever way is most comfortable for you.",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p15.s1 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "ways"
+   },
+   {
+    "t": 281,
+    "dur": 5,
+    "text": "Get to know the resting spots of the breath. The tip of the nose.",
+    "say": "Get to know the resting spots of the breath. The tip of the nose.",
+    "once": false,
+    "block": "i15.in",
+    "stage": "bases-head"
+   },
+   {
+    "t": 292,
+    "dur": 5,
+    "text": "The middle of the head.",
+    "say": "The middle of the head.",
+    "once": false,
+    "block": "i16.in",
+    "stage": "bases-head"
+   },
+   {
+    "t": 303,
+    "dur": 5,
+    "text": "The palate.",
+    "say": "The palate.",
+    "once": false,
+    "block": "i17.in",
+    "stage": "bases-head"
+   },
+   {
+    "t": 314,
+    "dur": 5,
+    "text": "The base of the throat.",
+    "say": "The base of the throat.",
+    "once": false,
+    "block": "i18.in",
+    "stage": "bases-body"
+   },
+   {
+    "t": 325,
+    "dur": 5,
+    "text": "The breastbone, at the tip of the sternum.",
+    "say": "The breastbone, at the tip of the sternum.",
+    "once": false,
+    "block": "i19.in",
+    "stage": "bases-body"
+   },
+   {
+    "t": 336,
+    "dur": 5,
+    "text": "The navel, or just above it.",
+    "say": "The navel, or just above it.",
+    "once": false,
+    "block": "i20.in",
+    "stage": "bases-body"
+   },
+   {
+    "t": 347,
+    "dur": 5,
+    "text": "Now center your awareness on whichever spot feels most comfortable.",
+    "say": "Now center your awareness on whichever spot feels most comfortable.",
+    "once": false,
+    "block": "i21.in",
+    "stage": "resting"
+   },
+   {
+    "t": 391,
+    "dur": 5,
+    "text": "Don’t force the breath. Breathe freely and naturally.",
+    "say": "Don’t force the breath. Breathe freely and naturally.",
+    "once": false,
+    "block": "i22.g.in",
+    "stage": "resting"
+   },
+   {
+    "t": 402,
+    "dur": 5,
+    "text": "Let the mind be at ease with the breath, but not so much that it slips away.",
+    "say": "Let the mind be at ease with the breath, but not so much that it slips away.",
+    "once": false,
+    "block": "i23.g.in",
+    "stage": "resting"
+   },
+   {
+    "t": 413,
+    "dur": 5,
+    "text": "Spread your awareness, your sense of feeling, throughout the entire body.",
+    "say": "Spread your awareness, your sense of feeling, throughout the entire body.",
+    "once": false,
+    "block": "i25.b1.in",
+    "stage": "whole"
+   },
+   {
+    "t": 435,
+    "dur": 5,
+    "text": "Let the breath sensations flow together through the whole body. Keep your awareness as broad as you can.",
+    "say": "Let the breath sensations flow together through the whole body. Keep your awareness as broad as you can.",
+    "once": false,
+    "block": "i26.b1.in",
+    "quote": {
+     "text": "keeping your awareness as broad as possible",
+     "cite": "Ajaan Lee Dhammadharo, Keeping the Breath in Mind, method-2:p25.s1 (tr. Ṭhānissaro Bhikkhu)"
+    },
+    "stage": "whole"
+   }
+  ],
+  "visual": [
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 11,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 17,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 22,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 28,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 33,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 39,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 44,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 55,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 61,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 66,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 72,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 77,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 83,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 88,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 94,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 99,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 105,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 110,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 116,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 121,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 127,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 132,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 138,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 143,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 149,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "base_of_skull",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 154,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "kanda",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 160,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "base_of_skull",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 165,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "foot_R",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "base_of_skull",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 176,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "foot_L",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "base_of_skull",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 187,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "fingertips_R",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 193,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "throat_base",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 198,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "belly",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 204,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_chest",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 209,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "belly",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 215,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 220,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 226,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 231,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 237,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 242,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 248,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 253,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 259,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 264,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 270,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "torso",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 275,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "torso",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 281,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 286,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "nose_tip",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 292,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 297,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 303,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "palate",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 308,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "palate",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 314,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "throat_base",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 319,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "throat_base",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 325,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "breastbone",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 330,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "breastbone",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 336,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 341,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 347,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 352,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 358,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 363,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 369,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 374,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 380,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 385,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 391,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 396,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 402,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 407,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "above_navel",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 413,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 418,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 424,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 429,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 435,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 440,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 446,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 451,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 457,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 462,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 468,
+    "dur": 14,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   }
+  ],
+  "attention": [
+   {
+    "t": 6,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 17,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 28,
+    "target": "nose_tip",
+    "size": "narrow"
+   },
+   {
+    "t": 50,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 61,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 72,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 83,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 94,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 105,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 116,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 127,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 138,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 149,
+    "target": "base_of_skull",
+    "size": "narrow"
+   },
+   {
+    "t": 154,
+    "target": "kanda",
+    "size": "narrow"
+   },
+   {
+    "t": 160,
+    "target": "base_of_skull",
+    "size": "narrow"
+   },
+   {
+    "t": 165,
+    "target": "foot_R",
+    "size": "narrow"
+   },
+   {
+    "t": 171,
+    "target": "base_of_skull",
+    "size": "narrow"
+   },
+   {
+    "t": 176,
+    "target": "foot_L",
+    "size": "narrow"
+   },
+   {
+    "t": 182,
+    "target": "base_of_skull",
+    "size": "narrow"
+   },
+   {
+    "t": 187,
+    "target": "fingertips_R",
+    "size": "narrow"
+   },
+   {
+    "t": 193,
+    "target": "throat_base",
+    "size": "narrow"
+   },
+   {
+    "t": 198,
+    "target": "belly",
+    "size": "narrow"
+   },
+   {
+    "t": 204,
+    "target": "middle_chest",
+    "size": "narrow"
+   },
+   {
+    "t": 209,
+    "target": "belly",
+    "size": "narrow"
+   },
+   {
+    "t": 215,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 226,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 237,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 248,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 259,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 270,
+    "target": "torso",
+    "size": "medium"
+   },
+   {
+    "t": 281,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 286,
+    "target": "nose_tip",
+    "size": "medium"
+   },
+   {
+    "t": 292,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 297,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 303,
+    "target": "palate",
+    "size": "medium"
+   },
+   {
+    "t": 308,
+    "target": "palate",
+    "size": "medium"
+   },
+   {
+    "t": 314,
+    "target": "throat_base",
+    "size": "medium"
+   },
+   {
+    "t": 319,
+    "target": "throat_base",
+    "size": "medium"
+   },
+   {
+    "t": 325,
+    "target": "breastbone",
+    "size": "medium"
+   },
+   {
+    "t": 330,
+    "target": "breastbone",
+    "size": "medium"
+   },
+   {
+    "t": 336,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 341,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 347,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 358,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 369,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 380,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 391,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 402,
+    "target": "above_navel",
+    "size": "medium"
+   },
+   {
+    "t": 413,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 424,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 435,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 446,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 457,
+    "target": "whole_body",
+    "size": "wide"
+   }
+  ],
+  "audio": [
+   {
+    "t": 0,
+    "sound": "bowl-start"
+   },
+   {
+    "t": 50,
+    "sound": "chime"
+   },
+   {
+    "t": 94,
+    "sound": "chime"
+   },
+   {
+    "t": 149,
+    "sound": "chime"
+   },
+   {
+    "t": 237,
+    "sound": "chime"
+   },
+   {
+    "t": 281,
+    "sound": "chime"
+   },
+   {
+    "t": 314,
+    "sound": "chime"
+   },
+   {
+    "t": 347,
+    "sound": "chime"
+   },
+   {
+    "t": 413,
+    "sound": "chime"
+   },
+   {
+    "t": 482,
+    "sound": "bell-end"
+   }
+  ],
+  "haptic": [],
+  "markers": [
+   {
+    "t": 0,
+    "kind": "stage",
+    "stage": "long-breaths",
+    "label": "Long breaths with bud-dho"
+   },
+   {
+    "t": 50,
+    "kind": "stage",
+    "stage": "aware",
+    "label": "Aware of each breath"
+   },
+   {
+    "t": 94,
+    "kind": "stage",
+    "stage": "observe",
+    "label": "Observing the breath"
+   },
+   {
+    "t": 149,
+    "kind": "stage",
+    "stage": "spread",
+    "label": "Letting the comfortable breath spread"
+   },
+   {
+    "t": 237,
+    "kind": "stage",
+    "stage": "ways",
+    "label": "Four ways of breathing"
+   },
+   {
+    "t": 281,
+    "kind": "stage",
+    "stage": "bases-head",
+    "label": "Resting spots: the head"
+   },
+   {
+    "t": 314,
+    "kind": "stage",
+    "stage": "bases-body",
+    "label": "Resting spots: throat to navel"
+   },
+   {
+    "t": 347,
+    "kind": "stage",
+    "stage": "resting",
+    "label": "Resting on one spot"
+   },
+   {
+    "t": 413,
+    "kind": "stage",
+    "stage": "whole",
+    "label": "Breath through the whole body"
+   }
+  ]
+ },
+ "physiology": {
+  "ratio": null,
+  "retention_max_s": 0,
+  "breaths_per_min": 5.602,
+  "breath_style": null
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "beginner": false,
+  "applied": [],
+  "needs_teacher": false,
+  "contraindications": [
+   "Frequent headaches or nervous problems",
+   "Don’t force the breath or put yourself into a trance. Breathe freely and naturally."
+  ],
+  "stop_if": [
+   "headache",
+   "strain",
+   "pressure in the head"
+  ]
+ },
+ "warnings": []
+}

@@ -1,0 +1,58 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "snp-1-8-goodwill",
+ "title": "Karaṇīya Metta Sutta: Goodwill (Sn 1:8 = Khp 9)",
+ "work": "Sutta Nipāta 1:8 (Pali Canon)",
+ "author": {
+  "name": "The Buddha (Pali Canon)",
+  "id": "the-buddha"
+ },
+ "translator": {
+  "name": "Ṭhānissaro Bhikkhu (Geoffrey DeGraff)",
+  "id": "thanissaro-bhikkhu"
+ },
+ "edition": "dhammatalks.org online edition; also in Sutta Nipāta: The Discourse Group, revised 2017",
+ "publisher": "Metta Forest Monastery, Valley Center, CA",
+ "language": "en",
+ "url": "https://www.dhammatalks.org/suttas/KN/StNp/StNp1_8.html",
+ "licence": {
+  "id": "CC-BY-NC-4.0",
+  "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "evidence_url": "https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaNipata_251113.pdf",
+  "evidence_segment": "copyright",
+  "evidence_quote": "This work is licensed under the Creative Commons AttributionNonCommercial 4.0 Unported.",
+  "terms": {
+   "attribution": "Ṭhānissaro Bhikkhu, tr., Karaṇīya Metta Sutta (Sn 1:8), dhammatalks.org, CC BY-NC 4.0",
+   "noncommercial": true,
+   "noncommercial_note": "“Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Renders must not be sold, paywalled or monetised.",
+   "adaptations": "allowed with attribution and an indication of changes",
+   "store_verbatim": true
+  },
+  "checked": "2026-10-25",
+  "evidence_note": "pdftotext joins the line-broken “Attribution-NonCommercial” as “AttributionNonCommercial”; quote kept as extracted so the test can find it"
+ },
+ "segments": [
+  {
+   "id": "snp1-8",
+   "label": "Sn 1:8",
+   "url": "https://www.dhammatalks.org/suttas/KN/StNp/StNp1_8.html",
+   "file": "snp1-8.txt",
+   "title": "1:8  Goodwill",
+   "chars": 2195,
+   "sha256": "df542450c56c591c5ab5167e4d19763cad2082b40e4f65f9dc89cb69489836ad"
+  },
+  {
+   "id": "copyright",
+   "label": "Copyright page of the Sutta Nipāta ebook (same translation)",
+   "url": "https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaNipata_251113.pdf",
+   "file": "copyright.txt",
+   "pdf_pages": "3",
+   "title": "Copyright",
+   "chars": 782,
+   "sha256": "4232f371198d480eaee9a1f9d4122b3aa3727fb63e0e29f8e8b3cead61b96489"
+  }
+ ],
+ "retrieved": "2026-10-24",
+ "normalisation": "engine/tools/extract/lib.mjs htmlToText v1: <main id=content>, one paragraph per <p>/<li>, joined by a blank line, tags stripped, whitespace collapsed, NFC. Offsets are JS string (UTF-16) indices into the segment text; sha256 of that exact text. The copyright segment is a PDF page: poppler pdftotext text, whitespace collapsed per paragraph (fetch.mjs pdf_pages)."
+}

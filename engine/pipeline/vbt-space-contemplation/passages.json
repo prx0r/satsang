@@ -1,0 +1,133 @@
+{
+ "type": "passages",
+ "schema_version": 1,
+ "source": "satsang-vbt-summaries",
+ "segmenter": "satsang-segment/1",
+ "source_sha256": {
+  "vbt-space": "24ef0ad83dcb1a2c8551913fe58440be0c5494b495816285804a2ea371ab3e43",
+  "vbt-body": "d5771e4a2ea41c7e45ec067fd995961dc04f0306609bbdd99fb7730a2ddf1b41",
+  "copyright": "d8997f6be4df9b12c34c37294994e94b583835f74749ec6bff4130f922554b6e"
+ },
+ "passages": [
+  {
+   "id": "vbt-space:p1.s1",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 0,
+   "end": 94,
+   "text": "Sit and notice the space of the room around you, the space that holds the walls and your body.",
+   "sha256": "cb245946a727dcad",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p1.s2",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 95,
+   "end": 165,
+   "text": "Then sense the space inside the body: the chest, the mouth, the skull.",
+   "sha256": "b683d242b1e52b89",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p1.s3",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 166,
+   "end": 230,
+   "text": "Feel the skin as a thin wall with open space within and without.",
+   "sha256": "9d89cc74a8fc37a7",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p1.s4",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 231,
+   "end": 300,
+   "text": "Let the inner and outer space be one field and rest in that openness.",
+   "sha256": "dce49eff2a2348f0",
+   "kind_guess": [
+    "instruction"
+   ],
+   "numbers": [
+    1
+   ]
+  },
+  {
+   "id": "vbt-space:p1.s5",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 301,
+   "end": 384,
+   "text": "When the mind reaches for something solid, notice the reaching and return to space.",
+   "sha256": "d9a0907e7344ff61",
+   "kind_guess": [
+    "instruction",
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p1.s6",
+   "segment": "vbt-space",
+   "para": "p1",
+   "start": 385,
+   "end": 433,
+   "text": "Stay alert; this is not a blank or sleepy state.",
+   "sha256": "b6cc044cf0c4e7e0",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p2.s1",
+   "segment": "vbt-space",
+   "para": "p2",
+   "start": 435,
+   "end": 541,
+   "text": "If you feel disoriented, unreal or anxious, open the eyes, feel the feet and the seat, and stop for today.",
+   "sha256": "af3aafde0df0a012",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p3.s1",
+   "segment": "vbt-space",
+   "para": "p3",
+   "start": 543,
+   "end": 701,
+   "text": "If you have a history of trauma, dissociation, psychosis or severe anxiety, keep sits short with eyes open, or practise with a qualified teacher or clinician.",
+   "sha256": "fac8f6c3b2b26fc8",
+   "kind_guess": [
+    "condition"
+   ],
+   "numbers": []
+  },
+  {
+   "id": "vbt-space:p4.s1",
+   "segment": "vbt-space",
+   "para": "p4",
+   "start": 703,
+   "end": 895,
+   "text": "The rest of the Vijñāna Bhairava (breath retention, mantra, the subtle-body and burning practices) is learned from a qualified teacher in the Trika tradition; Satsang lists places to practise.",
+   "sha256": "65714c624b66560f",
+   "kind_guess": [
+    "description"
+   ],
+   "numbers": []
+  }
+ ]
+}

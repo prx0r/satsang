@@ -1,0 +1,902 @@
+{
+ "type": "practice",
+ "schema_version": 2,
+ "id": "karaniya-metta",
+ "name": "Goodwill · Karaṇīya Metta Sutta (Sn 1:8)",
+ "kind": "meditation",
+ "subkind": "metta",
+ "traditions": [
+  "theravada"
+ ],
+ "summary": "A short goodwill reflection from the Karaṇīya Metta Sutta: may all beings be happy at heart, whatever they are; let no one wish another to suffer; guard this goodwill as a mother guards her only child, and let it go out without limit, above, below and all around.",
+ "steps": [
+  {
+   "n": 1,
+   "text": "Any posture (standing, walking, sitting, lying down), as long as you are not drowsy.",
+   "cue": "breath",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "n": 2,
+   "text": "Think: happy, at rest, may all beings be happy at heart.",
+   "cue": "breath",
+   "instr": [
+    "i02"
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all be happy at heart.",
+   "cue": "breath",
+   "instr": [
+    "i03"
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Let no one deceive or despise another, or wish another to suffer.",
+   "cue": "breath",
+   "instr": [
+    "i04"
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Guard this goodwill as a mother guards her only child.",
+   "cue": "breath",
+   "instr": [
+    "i05"
+   ]
+  },
+  {
+   "n": 6,
+   "text": "Goodwill for the entire cosmos, without limit: above, below, all around, without hostility or hate.",
+   "cue": "breath",
+   "instr": [
+    "i06"
+   ]
+  }
+ ],
+ "level": "first-steps",
+ "posture": "any",
+ "eyes": "closed",
+ "needsTeacher": false,
+ "contraindications": [],
+ "facets": {
+  "method": [
+   "metta"
+  ],
+  "locus": [],
+  "aim": [
+   "devotion",
+   "calm"
+  ],
+  "level": "first-steps",
+  "intensity": 1,
+  "needs_teacher": false,
+  "needs_teacher_note": "A public teaching; no initiation.",
+  "initiation_required": false
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "contraindications": [],
+  "stop_if": [
+   "strain"
+  ],
+  "beginner_override": {},
+  "alternatives": []
+ },
+ "stages": [
+  {
+   "id": "posture",
+   "label": "Any posture, awake"
+  },
+  {
+   "id": "wishes",
+   "label": "May all beings be happy"
+  },
+  {
+   "id": "limitless",
+   "label": "Goodwill without limit"
+  }
+ ],
+ "script": {
+  "count_s": 1,
+  "params": {},
+  "rounds": {
+   "default": 1,
+   "min": 1,
+   "max": 1
+  },
+  "round_sound": false,
+  "show": {
+   "channels": [],
+   "loci": [
+    "middle_chest"
+   ],
+   "labels": "active"
+  },
+  "intro": [
+   {
+    "id": "open",
+    "phase": "natural",
+    "seconds": 6,
+    "stage": "posture",
+    "sound": "bowl-start"
+   },
+   {
+    "id": "i01",
+    "phase": "natural",
+    "seconds": 8,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "awareness"
+     }
+    ],
+    "stage": "posture",
+    "caption": "Standing, walking, sitting or lying down: any posture, as long as you are not drowsy."
+   },
+   {
+    "id": "i02.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes",
+    "sound": "chime",
+    "caption": "Think: happy, at rest, may all beings be happy at heart.",
+    "quote": {
+     "text": "may all beings be happy at heart.",
+     "cite": "The Buddha (Pali Canon), Karaṇīya Metta Sutta: Goodwill (Sn 1:8 = Khp 9), snp1-8:p13.s1 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i02.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i02.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i02.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i03.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes",
+    "caption": "Whatever beings there may be, weak or strong, seen or unseen, near or far, born or seeking birth: may all beings be happy at heart."
+   },
+   {
+    "id": "i03.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i03.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i03.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i04.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes",
+    "caption": "Let no one deceive another, or despise anyone anywhere, or wish for another to suffer."
+   },
+   {
+    "id": "i04.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i04.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "medium"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i04.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i05.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes",
+    "caption": "As a mother would protect her only child, protect this goodwill toward all beings.",
+    "quote": {
+     "text": "One should protect one’s goodwill toward all beings in the same way that a mother would protect her only child.",
+     "cite": "The Buddha (Pali Canon), Karaṇīya Metta Sutta: Goodwill (Sn 1:8 = Khp 9), snp1-8:p48.s2 (tr. Ṭhānissaro Bhikkhu)"
+    }
+   },
+   {
+    "id": "i05.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i05.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "middle_chest",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i05.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "locus",
+      "locus": "middle_chest",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "wishes"
+   },
+   {
+    "id": "i06.b1.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "limitless",
+    "sound": "chime",
+    "caption": "With goodwill for the entire cosmos, let the heart go out without limit: above, below, and all around."
+   },
+   {
+    "id": "i06.b1.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "limitless"
+   },
+   {
+    "id": "i06.b2.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "limitless"
+   },
+   {
+    "id": "i06.b2.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "limitless"
+   },
+   {
+    "id": "i06.b3.in",
+    "phase": "in",
+    "seconds": 5,
+    "attention": {
+     "target": "whole_body",
+     "size": "wide"
+    },
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "fill",
+      "colour": "breath"
+     }
+    ],
+    "stage": "limitless"
+   },
+   {
+    "id": "i06.b3.out",
+    "phase": "out",
+    "seconds": 6,
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "dissipate",
+      "colour": "release"
+     }
+    ],
+    "stage": "limitless"
+   }
+  ],
+  "round": [],
+  "outro": [
+   {
+    "id": "close",
+    "phase": "natural",
+    "seconds": 14,
+    "stage": "limitless",
+    "visual": [
+     {
+      "prim": "field",
+      "region": "whole_body",
+      "motion": "steady",
+      "colour": "breath"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.dhammatalks.org/suttas/KN/StNp/StNp1_8.html",
+   "cite": "Karaṇīya Metta Sutta (Sn 1:8 = Khp 9), tr. Ṭhānissaro Bhikkhu, dhammatalks.org (also Sutta Nipāta: The Discourse Group, rev. 2017)",
+   "checked": "2026-10-25",
+   "check": "work",
+   "licence": "CC-BY-NC-4.0 (https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaNipata_251113.pdf)"
+  }
+ ],
+ "teachers": [
+  "thanissaro-bhikkhu"
+ ],
+ "derivation": {
+  "pipeline": "TEXT-TO-PRACTICE v1",
+  "builder": "satsang-build-practice/1",
+  "extractor": {
+   "tool": "satsang-extract/1",
+   "mode": "agent-manual",
+   "agent": "hark subagent (satsang practice-player rethink)",
+   "prompt": "tools/extract/PROMPT.md v1",
+   "date": "2026-10-25",
+   "note": "No model spend allowed. Agent draft per PROMPT.md §A; resolved and validated by extract.mjs."
+  },
+  "source": {
+   "id": "snp-1-8-goodwill",
+   "segments": [
+    {
+     "id": "snp1-8",
+     "sha256": "df542450c56c591c5ab5167e4d19763cad2082b40e4f65f9dc89cb69489836ad"
+    }
+   ],
+   "licence": "CC-BY-NC-4.0",
+   "licence_evidence": "https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaNipata_251113.pdf"
+  },
+  "files": {
+   "passages": "pipeline/karaniya-metta/passages.json",
+   "instructions": "pipeline/karaniya-metta/instructions.json",
+   "head": "pipeline/karaniya-metta/head.json",
+   "narration": "pipeline/karaniya-metta/narration.json",
+   "rules": "tools/extract/defaults.json"
+  },
+  "inputs_sha256": "904c86b16f053c2e",
+  "voice_measured": false
+ },
+ "provenance": {
+  "blocks": {
+   "i01": {
+    "instr": [
+     "i01"
+    ],
+    "seconds": {
+     "basis": "measured",
+     "rule": "fit-narration",
+     "min_s": 8
+    }
+   },
+   "i02": {
+    "instr": [
+     "i02"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "phrase-breaths"
+    }
+   },
+   "i02.b1.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b1.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b2.in": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i02.b2.out": {
+    "instr": [
+     "i02"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03": {
+    "instr": [
+     "i03"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "phrase-breaths"
+    }
+   },
+   "i03.b1.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b1.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b2.in": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i03.b2.out": {
+    "instr": [
+     "i03"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04": {
+    "instr": [
+     "i04"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "phrase-breaths"
+    }
+   },
+   "i04.b1.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b1.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b2.in": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i04.b2.out": {
+    "instr": [
+     "i04"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05": {
+    "instr": [
+     "i05"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "phrase-breaths"
+    }
+   },
+   "i05.b1.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b1.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b2.in": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i05.b2.out": {
+    "instr": [
+     "i05"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06": {
+    "instr": [
+     "i06"
+    ],
+    "count": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   },
+   "i06.b1.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b1.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b2.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b2.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b3.in": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "i06.b3.out": {
+    "instr": [
+     "i06"
+    ],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "pace-guide"
+    }
+   },
+   "open": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "lead-in"
+    }
+   },
+   "close": {
+    "instr": [],
+    "seconds": {
+     "basis": "inferred",
+     "rule": "whole-body-breaths"
+    }
+   }
+  },
+  "fields": {
+   "summary": {
+    "basis": "paraphrased",
+    "instr": [
+     "i02",
+     "i03",
+     "i04",
+     "i05",
+     "i06"
+    ]
+   },
+   "level": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "posture": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ]
+   },
+   "eyes": {
+    "basis": "inferred",
+    "rule": "eyes-closed-default"
+   },
+   "needs_teacher": {
+    "basis": "paraphrased",
+    "instr": [
+     "i01"
+    ],
+    "note": "a public teaching"
+   },
+   "aim": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "stop_if": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "beginner_override": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   },
+   "alternatives": {
+    "basis": "inferred",
+    "rule": "editorial-facet"
+   }
+  }
+ },
+ "meta": {
+  "created": "2026-10-25",
+  "status": "review",
+  "confidence": "medium",
+  "confidence_note": "Built by the text-to-practice pipeline from Sn 1:8 (vv. 145–150 and the translator’s note 1). Each wish gets two breaths of silence (rule phrase-breaths), the limitless stage three (whole-body-breaths). The conduct verses and the fruit of the practice are not narrated.",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 translation (attribution + noncommercial; any sale counts as commercial). Our wording, adapted."
+ }
+}

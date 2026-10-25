@@ -1,0 +1,87 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "satsang-vbt-summaries",
+ "title": "Satsang summaries of Vijñāna Bhairava dhāraṇās (own words; extension pack 45)",
+ "work": "Vijñāna Bhairava Tantra (Sanskrit, c. 9th century, Kashmir), as summarised by Satsang in its own words from the verses named in each segment",
+ "author": {
+  "name": "Satsang (own wording)",
+  "id": "satsang"
+ },
+ "translator": {
+  "name": "none: Satsang summary; the translation consulted is Christopher Hareesh Wallis’s (all rights reserved, linked only, never quoted)",
+  "id": "satsang"
+ },
+ "edition": "sources/ext-45-vbt-practices/practices.json at prx0r/satsang 0d703de (2026-10-21)",
+ "publisher": "Satsang (satsang.digital)",
+ "language": "en",
+ "url": "https://github.com/prx0r/satsang/blob/0d703de/sources/ext-45-vbt-practices/practices.json",
+ "normalisation": "repo-local segments (fetch.mjs seg.local): the record's howto + contraindications joined as paragraphs, whitespace collapsed, NFC; the licence segment is section 1 of mcp/LICENSE-DATA. Offsets are JS string indices into the segment text.",
+ "licence": {
+  "id": "CC-BY-4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "evidence_url": "https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA",
+  "evidence_segment": "copyright",
+  "evidence_quote": "practice summaries, steps and cautions written by Satsang",
+  "terms": {
+   "attribution": "Satsang (satsang.digital), CC BY 4.0; verses cited by number with a link to Christopher Hareesh Wallis’s translation (tantra112.app), which is never quoted",
+   "noncommercial": false,
+   "noncommercial_note": "Our own wording is CC BY 4.0. The VBT translation it was summarised from is all rights reserved: link + verse number only (cite-only-source).",
+   "adaptations": "allowed",
+   "store_verbatim": true
+  },
+  "checked": "2026-10-25"
+ },
+ "segments": [
+  {
+   "id": "vbt-space",
+   "label": "VBT vv. 43–48 (spaciousness)",
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "file": "vbt-space.txt",
+   "verses": "43-48",
+   "local": {
+    "file": "../sources/ext-45-vbt-practices/practices.json",
+    "record": "vbt-space-contemplation",
+    "fields": [
+     "howto",
+     "contraindications"
+    ]
+   },
+   "title": "Spaciousness: a wall of skin with nothing inside (VBT verses 43-48)",
+   "chars": 895,
+   "sha256": "24ef0ad83dcb1a2c8551913fe58440be0c5494b495816285804a2ea371ab3e43"
+  },
+  {
+   "id": "vbt-body",
+   "label": "VBT v. 63 (the body as awareness)",
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "file": "vbt-body.txt",
+   "verses": "63",
+   "local": {
+    "file": "../sources/ext-45-vbt-practices/practices.json",
+    "record": "vbt-body-as-consciousness",
+    "fields": [
+     "howto",
+     "contraindications"
+    ]
+   },
+   "title": "The body as awareness (VBT verse 63)",
+   "chars": 826,
+   "sha256": "d5771e4a2ea41c7e45ec067fd995961dc04f0306609bbdd99fb7730a2ddf1b41"
+  },
+  {
+   "id": "copyright",
+   "label": "Satsang open data licence, section 1",
+   "url": "https://github.com/prx0r/satsang/blob/main/mcp/LICENSE-DATA",
+   "file": "copyright.txt",
+   "title": "Satsang open data licence",
+   "local": {
+    "file": "../mcp/LICENSE-DATA",
+    "lines": "1-15"
+   },
+   "chars": 910,
+   "sha256": "d8997f6be4df9b12c34c37294994e94b583835f74749ec6bff4130f922554b6e"
+  }
+ ],
+ "retrieved": "2026-10-24"
+}

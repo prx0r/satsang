@@ -1,0 +1,158 @@
+{
+ "type": "practice_head",
+ "id": "vbt-space-contemplation",
+ "name": "Spaciousness · VBT vv. 43–48",
+ "kind": "meditation",
+ "subkind": "dharana",
+ "traditions": [
+  "kashmir-shaivism"
+ ],
+ "teachers": [],
+ "summary": {
+  "text": "The spaciousness dhāraṇās of the Vijñāna Bhairava, in Satsang’s words: notice the space of the room, then the space inside the chest, mouth and skull, feel the skin as a thin wall with open space on both sides, and rest in one field of space.",
+  "instr": [
+   "i01",
+   "i02",
+   "i03",
+   "i04",
+   "i05",
+   "i06"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "first-steps",
+  "basis": "inferred",
+  "rule": "editorial-facet"
+ },
+ "posture": {
+  "value": "seated",
+  "instr": [
+   "i01"
+  ],
+  "basis": "paraphrased"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i92"
+  ],
+  "note": "a safe dhāraṇā; the rest of the text is teacher-gated"
+ },
+ "needs_teacher_note": "Safe contemplative dhāraṇā; retention, mantra and subtle-body practices of the VBT are learned from a teacher in the Trika tradition.",
+ "facets": {
+  "method": [
+   "dharana-visualisation"
+  ],
+  "aim": {
+   "value": [
+    "calm",
+    "awakening-energy"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "intensity": 1
+ },
+ "steps": [
+  {
+   "text": "Notice the space of the room around you, holding the walls and your body.",
+   "instr": [
+    "i01"
+   ]
+  },
+  {
+   "text": "Sense the space inside the body: the chest, the mouth, the skull.",
+   "instr": [
+    "i02",
+    "i03",
+    "i04"
+   ]
+  },
+  {
+   "text": "Feel the skin as a thin wall, open space within and without.",
+   "instr": [
+    "i05"
+   ]
+  },
+  {
+   "text": "Let inner and outer space be one field; rest in that openness. When the mind reaches for something solid, return to space. Stay alert.",
+   "instr": [
+    "i06",
+    "i07",
+    "i08"
+   ]
+  }
+ ],
+ "contraindications": [
+  {
+   "text": "If you feel disoriented, unreal or anxious: open the eyes, feel the feet and the seat, and stop for today.",
+   "instr": [
+    "i90"
+   ]
+  },
+  {
+   "text": "A history of trauma, dissociation, psychosis or severe anxiety: keep sits short with eyes open, or practise with a qualified teacher or clinician.",
+   "instr": [
+    "i91"
+   ]
+  }
+ ],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no breath instruction; natural breath"
+  },
+  "stop_if": {
+   "value": [
+    "disoriented",
+    "unreal",
+    "anxious"
+   ],
+   "instr": [
+    "i90"
+   ]
+  },
+  "beginner_override": {
+   "value": {},
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "alternatives": {
+   "value": [
+    {
+     "practice": "ajahn-lee-method-2",
+     "when": "if space feels unsettling: a body-based breath practice"
+    }
+   ],
+   "instr": [
+    "i90"
+   ]
+  }
+ },
+ "sources": [
+  {
+   "segment": "vbt-space",
+   "url": "https://tantra112.app/vijnana-bhairava-tantra",
+   "cite": "Vijñāna Bhairava Tantra vv. 43–48 (the spaciousness practices), summarised by Satsang in its own words; translation consulted: Christopher Hareesh Wallis, Tantra 112 (link and verse numbers only)"
+  },
+  {
+   "segment": "vbt-space",
+   "url": "https://hareesh.org/blog/2025/5/1/vijaana-bhairava-tantra-verses-43-48-the-spaciousness-practices",
+   "cite": "Hareesh, “Vijñāna Bhairava Tantra verses 43–48: the spaciousness practices” (blog, linked)",
+   "licence": "all rights reserved (Christopher Hareesh Wallis): linked only, never quoted"
+  }
+ ],
+ "meta": {
+  "status": "review",
+  "created": "2026-10-25",
+  "license": "CC-BY-4.0",
+  "license_note": "Satsang’s own wording (CC BY 4.0). The VBT translation is all rights reserved and is only linked, never quoted (rule cite-only-source).",
+  "confidence_note": "Built by the text-to-practice pipeline from Satsang’s own summary of VBT vv. 43–48 (extension pack 45), not from a translation: spans re-check against that summary; the verses are cited by number and linked. Lengths use explore-breaths and moment-one-breath."
+ }
+}

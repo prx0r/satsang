@@ -14,6 +14,7 @@ const CARRIER_FIT = new Set(['posture', 'recollect', 'recite'])
 const CARRIER_BREATH = new Set(['move_attention', 'settle', 'spread'])
 const isCarrier = i => CARRIER_FIT.has(i.action) || CARRIER_BREATH.has(i.action) || (i.count && ['breath_word', 'let_go', 'attend'].includes(i.action))
 const WPS = 2.3
+const REGIONS = new Set(Object.keys(readJSON(path.join(ENGINE, 'grammar.json')).regions || {}))   // an attention target that is a region is drawn as a field
 
 export function buildBlocks(ins, rules, stagesMeta) {
   const PACE = rules['pace-guide'].value, prov = {}, stages = []
@@ -22,7 +23,7 @@ export function buildBlocks(ins, rules, stagesMeta) {
   let pos = null, roundsCarrier = null
   const B = (id, phase, o, instr, extra = {}) => { R(id, { instr, seconds: phase === 'in' || phase === 'out' ? pace : extra.secondsProv, ...extra.prov }); return { id, phase, ...(phase === 'in' ? { seconds: PACE.in_s } : phase === 'out' ? { seconds: PACE.out_s } : {}), ...o } }
   const att = (target, size = 'narrow') => ({ target, size })
-  const loc = (l, motion = 'fill', colour = 'breath') => ({ prim: 'locus', locus: l, motion, colour })
+  const loc = (l, motion = 'fill', colour = 'breath') => REGIONS.has(l) ? { prim: 'field', region: l, motion, colour } : ({ prim: 'locus', locus: l, motion, colour })
   const pair = (id, instr, a = {}, b = {}, extra) => [B(id + '.in', 'in', a, instr, extra), B(id + '.out', 'out', b, instr, extra)]
   const rep = (id, n, blocks, unit, instr, cp) => {
     R(id, { instr, count: cp })
@@ -130,7 +131,7 @@ export function build(dir, { voiceManifest } = {}) {
   { let last = g.intro[0].stage; const first = b => { let x = b; while (x.blocks) x = x.blocks[0]; return x }
     for (const sec of [g.intro, g.roundsCarrier?.blocks || [], g.outro]) for (const b of sec) { if (b.stage && b.stage !== last) { const f = first(b); f.sound ||= rules['stage-chime'].value.sound; if (b.blocks) f.sound_first = true; last = b.stage } } }
   // close: our framing
-  g.outro.push({ id: 'close', phase: 'natural', seconds: rules['whole-body-breaths'].value.rest_s, stage: 'whole-body', visual: [{ prim: 'field', region: 'whole_body', motion: 'steady', colour: 'breath' }] })
+  g.outro.push({ id: 'close', phase: 'natural', seconds: rules['whole-body-breaths'].value.rest_s, stage: g.stages.at(-1).id, visual: [{ prim: 'field', region: 'whole_body', motion: 'steady', colour: 'breath' }] })
   g.prov.close = { instr: [], seconds: { basis: 'inferred', rule: 'whole-body-breaths' } }
   const sections = { intro: g.intro, round: g.roundsCarrier?.blocks || [], outro: g.outro }
   const all = []; for (const s of Object.values(sections)) walk(s, b => b.id && all.push(b))
@@ -142,6 +143,7 @@ export function build(dir, { voiceManifest } = {}) {
   const lineOf = new Map()
   for (const ln of nar.lines) {
     const b = byId.get(ln.block); if (!b) continue
+    if (b.blocks) { errors.push(`${ln.id}: block ${ln.block} is a repeat container; put the line on a block inside it (e.g. ${b.blocks[0].id})`); continue }
     if (b.caption) errors.push(`${ln.id}: block ${ln.block} already has a line`)
     b.caption = ln.text; if (ln.say) b.say = ln.say
     if (ln.quote) b.quote = { text: ln.quote.text, cite: `${src.author.name}, ${src.title.split(' & ')[0]}, ${ln.quote.passage} (tr. ${src.translator.name.split(' (')[0]})` }
@@ -153,7 +155,8 @@ export function build(dir, { voiceManifest } = {}) {
   for (const b of all) delete b.fit
   // practice v2
   const pick = f => (f && typeof f === 'object' && 'value' in f) ? f.value : f
-  const sources = [
+  const sources = head.sources ? head.sources.map(s => { const seg = src.segments.find(x => x.id === s.segment)
+    return { url: s.url || seg.url, cite: s.cite, checked: src.licence.checked, check: 'work', licence: s.licence ? s.licence : s.licence_full === false ? src.licence.id : `${src.licence.id} (${src.licence.evidence_url})` } }) : [
     { url: src.segments.find(s => s.id === 'method-1').url, cite: `${src.author.name}, ${src.title.split(' & ')[0]}, Method 1 (tr. ${src.translator.name.split(' (')[0]}, ${src.edition.split(';')[0]})`, checked: src.licence.checked, check: 'work', licence: `${src.licence.id} (${src.licence.evidence_url})` },
     { url: src.segments.find(s => s.id === 'method-2').url, cite: `ibid., Method 2: the headache caution (used for the beginner form)`, checked: src.licence.checked, check: 'work', licence: src.licence.id },
   ]
@@ -163,7 +166,7 @@ export function build(dir, { voiceManifest } = {}) {
     steps: head.steps.map((s, k) => ({ n: k + 1, text: s.text, cue: 'breath', instr: s.instr })),
     level: pick(head.level), posture: pick(head.posture), eyes: pick(head.eyes), needsTeacher: pick(head.needs_teacher),
     contraindications: head.contraindications.map(c => c.text),
-    facets: { method: head.facets.method, locus: [...new Set(ins.filter(i => i.scripted).flatMap(i => i.locus || []))], aim: pick(head.facets.aim), level: pick(head.level), intensity: head.facets.intensity, needs_teacher: pick(head.needs_teacher), needs_teacher_note: 'Ajaan Lee: study with someone skilled to become expert. Work with signs (lights) is not scripted here.', initiation_required: false },
+    facets: { method: head.facets.method, locus: [...new Set(ins.filter(i => i.scripted).flatMap(i => i.locus || []))], aim: pick(head.facets.aim), level: pick(head.level), intensity: head.facets.intensity, needs_teacher: pick(head.needs_teacher), needs_teacher_note: head.needs_teacher_note ?? 'Ajaan Lee: study with someone skilled to become expert. Work with signs (lights) is not scripted here.', initiation_required: false },
     safety: { max_hold_s: pick(head.safety.max_hold_s), contraindications: head.contraindications.map(c => c.text.split(':')[0]), stop_if: pick(head.safety.stop_if), beginner_override: pick(head.safety.beginner_override), alternatives: pick(head.safety.alternatives) },
     stages: g.stages,
     script: {
@@ -183,7 +186,7 @@ export function build(dir, { voiceManifest } = {}) {
     },
     provenance: { blocks: g.prov, fields: Object.fromEntries(Object.entries({ summary: head.summary, level: head.level, posture: head.posture, eyes: head.eyes, needs_teacher: head.needs_teacher, aim: head.facets.aim, stop_if: head.safety.stop_if, beginner_override: head.safety.beginner_override, alternatives: head.safety.alternatives }).map(([k, f]) => [k, { basis: f.basis || (f.rule ? 'inferred' : 'paraphrased'), instr: f.instr, rule: f.rule, note: f.note }])) },
     ask: buildAsk(dir, ins, g),
-    meta: { created: '2026-10-21', status: head.meta.status, confidence: 'medium', confidence_note: confidenceNote(ins, g), license: head.meta.license, license_note: head.meta.license_note },
+    meta: { created: head.meta.created || '2026-10-21', status: head.meta.status, confidence: head.meta.confidence || 'medium', confidence_note: head.meta.confidence_note || confidenceNote(ins, g), license: head.meta.license, license_note: head.meta.license_note },
   }
   for (const [k, f] of Object.entries(practice.provenance.fields)) if (!f.instr?.length && !f.rule && k !== 'needs_teacher' && f.basis !== 'quoted') errors.push(`field ${k}: neither instructions nor a rule`)
   // compile + timing slots: every line must end (measured/estimated) before the next line starts

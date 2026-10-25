@@ -1,0 +1,181 @@
+{
+ "type": "practice_head",
+ "_note": "Editorial fields of the practice that are not timed blocks; each names the instructions or rule it rests on.",
+ "id": "mn118-anapanasati",
+ "name": "Sixteen steps · Ānāpānasati Sutta (MN 118)",
+ "kind": "meditation",
+ "subkind": "breath",
+ "traditions": [
+  "theravada"
+ ],
+ "teachers": [
+  "thanissaro-bhikkhu"
+ ],
+ "summary": {
+  "text": "The Buddha’s sixteen steps of mindfulness of breathing, in four groups of four: the body (long, short, the whole body, calming the breath), feelings (rapture, pleasure, mental fabrication, calming it), the mind (sensing, gladdening, concentrating, releasing it) and mental qualities (inconstancy, dispassion, cessation, relinquishing), each held for a few breaths.",
+  "instr": [
+   "i01",
+   "i02",
+   "i03",
+   "i04",
+   "i05",
+   "i06",
+   "i07",
+   "i08",
+   "i09",
+   "i10",
+   "i11",
+   "i12",
+   "i13",
+   "i14",
+   "i15",
+   "i16",
+   "i17",
+   "i18"
+  ],
+  "basis": "paraphrased"
+ },
+ "level": {
+  "value": "steady",
+  "basis": "inferred",
+  "rule": "editorial-facet",
+  "note": "the first tetrad suits anyone; the full sixteen ask for a settled mind (beginner form = first tetrad)"
+ },
+ "posture": {
+  "value": "seated",
+  "instr": [
+   "i01"
+  ],
+  "basis": "paraphrased"
+ },
+ "eyes": {
+  "value": "closed",
+  "basis": "inferred",
+  "rule": "eyes-closed-default"
+ },
+ "needs_teacher": {
+  "value": false,
+  "instr": [
+   "i01"
+  ],
+  "note": "a public teaching; no initiation"
+ },
+ "needs_teacher_note": "A public teaching of the Buddha; a teacher helps with the later tetrads.",
+ "facets": {
+  "method": [
+   "breath"
+  ],
+  "aim": {
+   "value": [
+    "calm",
+    "insight"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "intensity": 1
+ },
+ "steps": [
+  {
+   "text": "Sit with legs crossed (or any steady seat), body erect, mindfulness to the fore. Mindful, breathe in; mindful, breathe out.",
+   "instr": [
+    "i01",
+    "i02"
+   ]
+  },
+  {
+   "text": "The body: discern a long breath as long and a short breath as short; breathe in and out sensitive to the entire body; calming bodily fabrication (the breath).",
+   "instr": [
+    "i03",
+    "i04",
+    "i05",
+    "i06"
+   ]
+  },
+  {
+   "text": "Feelings: breathe in and out sensitive to rapture, to pleasure, to mental fabrication (perceptions and feelings); calming mental fabrication.",
+   "instr": [
+    "i07",
+    "i08",
+    "i09",
+    "i10"
+   ]
+  },
+  {
+   "text": "The mind: sensitive to the mind, gladdening it, concentrating it, releasing it.",
+   "instr": [
+    "i11",
+    "i12",
+    "i13",
+    "i14"
+   ]
+  },
+  {
+   "text": "Mental qualities: focusing on inconstancy, dispassion (fading), cessation, relinquishing.",
+   "instr": [
+    "i15",
+    "i16",
+    "i17",
+    "i18"
+   ]
+  }
+ ],
+ "contraindications": [
+  {
+   "text": "No breath holds and no forcing: each step is noticed on the natural breath. If it becomes effortful, stay with the first tetrad (the beginner form).",
+   "instr": [
+    "i03",
+    "i04"
+   ],
+   "basis": "inferred",
+   "rule": "first-tetrad-beginner"
+  }
+ ],
+ "safety": {
+  "max_hold_s": {
+   "value": 0,
+   "note": "no retention anywhere in the text"
+  },
+  "stop_if": {
+   "value": [
+    "strain",
+    "dizziness"
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  },
+  "beginner_override": {
+   "value": {
+    "skip_stages": [
+     "feelings",
+     "mind",
+     "qualities"
+    ]
+   },
+   "rule": "first-tetrad-beginner"
+  },
+  "alternatives": {
+   "value": [
+    {
+     "practice": "ajahn-lee-method-2",
+     "when": "for a more body-based way into the first tetrad"
+    }
+   ],
+   "basis": "inferred",
+   "rule": "editorial-facet"
+  }
+ },
+ "sources": [
+  {
+   "segment": "mn118",
+   "cite": "Ānāpānasati Sutta (MN 118), tr. Ṭhānissaro Bhikkhu, dhammatalks.org (also Handful of Leaves vol. 2, rev. 2017)"
+  }
+ ],
+ "meta": {
+  "status": "review",
+  "created": "2026-10-25",
+  "license": "CC-BY-NC-4.0",
+  "license_note": "derived from a CC BY-NC 4.0 translation (attribution + noncommercial; any sale counts as commercial). Our wording, adapted; see sources.",
+  "confidence_note": "Built by the text-to-practice pipeline from MN 118 (the sixteen steps, p17–p21; notes 1–4 read for “to the fore”, the entire body and the two fabrications). The sutta sets no length per step: each step gets three breaths (rule step-breaths); extra session time is open sitting at the end, never extra steps. The establishings of mindfulness and factors for awakening are left to the Theory tab."
+ }
+}

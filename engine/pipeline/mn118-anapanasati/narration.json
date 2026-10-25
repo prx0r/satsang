@@ -1,0 +1,206 @@
+{
+ "type": "narration_script",
+ "schema_version": 1,
+ "practice": "mn118-anapanasati",
+ "language": "en",
+ "authored_by": {
+  "mode": "agent-manual",
+  "prompt": "tools/extract/PROMPT.md §B v1",
+  "date": "2026-10-25"
+ },
+ "voice_policy": "plain modern English, second person, present tense; the sutta’s own formula, shortened; no promises of results",
+ "lines": [
+  {
+   "id": "L01",
+   "block": "i01",
+   "basis": "inferred",
+   "instructions": [
+    "i01"
+   ],
+   "text": "Sit with your legs crossed, or in any steady seat. Hold the body erect, and bring mindfulness to the fore.",
+   "pause_after_s": 0.8,
+   "inferred": {
+    "rule": "posture-accessibility",
+    "note": "“or any steady seat” is ours"
+   }
+  },
+  {
+   "id": "L02",
+   "block": "i02.b1.in",
+   "basis": "quoted",
+   "instructions": [
+    "i02"
+   ],
+   "text": "Always mindful, breathe in. Mindful, breathe out.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L03",
+   "block": "i03.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i03"
+   ],
+   "text": "When the breath is long, discern: I am breathing in long… I am breathing out long.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "mn118:p18.s1",
+    "text": "Breathing in long, he discerns, ‘I am breathing in long’"
+   }
+  },
+  {
+   "id": "L04",
+   "block": "i04.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i04"
+   ],
+   "text": "When it is short, discern: I am breathing in short… breathing out short.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L05",
+   "block": "i05.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i05"
+   ],
+   "text": "Breathe in sensitive to the entire body. Breathe out sensitive to the entire body.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L06",
+   "block": "i06.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i06"
+   ],
+   "text": "Breathe in calming bodily fabrication, the breath itself. Breathe out, calming it.",
+   "pause_after_s": 0.8,
+   "quote": {
+    "passage": "mn118:p45.s2",
+    "text": "in-&-out breaths are bodily fabrications"
+   }
+  },
+  {
+   "id": "L07",
+   "block": "i07.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i07"
+   ],
+   "text": "Breathe in sensitive to rapture. Breathe out sensitive to rapture.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L08",
+   "block": "i08.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i08"
+   ],
+   "text": "Breathe in sensitive to pleasure. Breathe out sensitive to pleasure.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L09",
+   "block": "i09.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i09"
+   ],
+   "text": "Breathe in sensitive to mental fabrication: perceptions and feelings. Breathe out, sensitive to them.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L10",
+   "block": "i10.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i10"
+   ],
+   "text": "Breathe in calming mental fabrication. Breathe out calming mental fabrication.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L11",
+   "block": "i11.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i11"
+   ],
+   "text": "Breathe in sensitive to the mind. Breathe out sensitive to the mind.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L12",
+   "block": "i12.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i12"
+   ],
+   "text": "Breathe in gladdening the mind. Breathe out gladdening the mind.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L13",
+   "block": "i13.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i13"
+   ],
+   "text": "Breathe in concentrating the mind. Breathe out concentrating the mind.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L14",
+   "block": "i14.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i14"
+   ],
+   "text": "Breathe in releasing the mind. Breathe out releasing the mind.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L15",
+   "block": "i15.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i15"
+   ],
+   "text": "Breathe in focusing on inconstancy. Breathe out focusing on inconstancy.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L16",
+   "block": "i16.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i16"
+   ],
+   "text": "Breathe in focusing on dispassion, on fading. Breathe out the same.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L17",
+   "block": "i17.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i17"
+   ],
+   "text": "Breathe in focusing on cessation. Breathe out focusing on cessation.",
+   "pause_after_s": 0.8
+  },
+  {
+   "id": "L18",
+   "block": "i18.b1.in",
+   "basis": "paraphrased",
+   "instructions": [
+    "i18"
+   ],
+   "text": "Breathe in focusing on relinquishing. Breathe out focusing on relinquishing.",
+   "pause_after_s": 0.8
+  }
+ ]
+}

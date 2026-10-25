@@ -1,0 +1,1032 @@
+{
+ "script_version": 1,
+ "engine": "satsang-engine/0.3",
+ "practice": "vbt-space-contemplation",
+ "name": "Spaciousness · VBT vv. 43–48",
+ "traditions": [
+  "kashmir-shaivism"
+ ],
+ "opts": {
+  "beginner": false,
+  "rounds": 0,
+  "count_s": 1
+ },
+ "params": {},
+ "loops": 0,
+ "mode": "guided",
+ "total_s": 207,
+ "show": {
+  "channels": [],
+  "loci": [
+   "palate",
+   "middle_of_head"
+  ],
+  "labels": "active"
+ },
+ "tracks": {
+  "breath": [
+   {
+    "t": 0,
+    "dur": 5,
+    "phase": "natural",
+    "id": "open",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 5,
+    "dur": 1,
+    "phase": "natural",
+    "id": "open",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0.18,
+    "vol1": 1
+   },
+   {
+    "t": 11,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 17,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 22,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 28,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 33,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 39,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 44,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "phase": "in",
+    "id": "i02.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 55,
+    "dur": 6,
+    "phase": "out",
+    "id": "i02.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 61,
+    "dur": 5,
+    "phase": "in",
+    "id": "i03.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 66,
+    "dur": 6,
+    "phase": "out",
+    "id": "i03.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 72,
+    "dur": 5,
+    "phase": "in",
+    "id": "i04.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 77,
+    "dur": 6,
+    "phase": "out",
+    "id": "i04.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 83,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 88,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 94,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 99,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 105,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 110,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 116,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 121,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 127,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 132,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 1,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 138,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 143,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 2,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 149,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 154,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 3,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 160,
+    "dur": 5,
+    "phase": "in",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 165,
+    "dur": 6,
+    "phase": "out",
+    "counts": null,
+    "round": 0,
+    "stroke": 4,
+    "strokes": 4,
+    "unit": "breath",
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "phase": "in",
+    "id": "i07.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 176,
+    "dur": 6,
+    "phase": "out",
+    "id": "i07.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "phase": "in",
+    "id": "i08.g.in",
+    "counts": null,
+    "round": 0,
+    "vol0": 0,
+    "vol1": 1
+   },
+   {
+    "t": 187,
+    "dur": 6,
+    "phase": "out",
+    "id": "i08.g.out",
+    "counts": null,
+    "round": 0,
+    "vol0": 1,
+    "vol1": 0
+   },
+   {
+    "t": 193,
+    "dur": 5,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   },
+   {
+    "t": 198,
+    "dur": 6,
+    "phase": "natural",
+    "id": "close",
+    "sub": "out",
+    "vol0": 0.82,
+    "vol1": 0.18,
+    "round": 0
+   },
+   {
+    "t": 204,
+    "dur": 3,
+    "phase": "natural",
+    "id": "close",
+    "sub": "in",
+    "vol0": 0.18,
+    "vol1": 0.82,
+    "round": 0
+   }
+  ],
+  "voice": [
+   {
+    "t": 6,
+    "dur": 5,
+    "text": "Notice the space of the room around you: the space that holds the walls, and your body.",
+    "say": "Notice the space of the room around you: the space that holds the walls, and your body.",
+    "once": false,
+    "block": "i01.in",
+    "stage": "room"
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "text": "Now sense the space inside the body. The chest.",
+    "say": "Now sense the space inside the body. The chest.",
+    "once": false,
+    "block": "i02.in",
+    "stage": "inside"
+   },
+   {
+    "t": 61,
+    "dur": 5,
+    "text": "The space of the mouth.",
+    "say": "The space of the mouth.",
+    "once": false,
+    "block": "i03.in",
+    "stage": "inside"
+   },
+   {
+    "t": 72,
+    "dur": 5,
+    "text": "The space inside the skull.",
+    "say": "The space inside the skull.",
+    "once": false,
+    "block": "i04.in",
+    "stage": "inside"
+   },
+   {
+    "t": 83,
+    "dur": 5,
+    "text": "Feel the skin as a thin wall, with open space within, and without.",
+    "say": "Feel the skin as a thin wall, with open space within, and without.",
+    "once": false,
+    "block": "i05.in",
+    "stage": "skin"
+   },
+   {
+    "t": 127,
+    "dur": 5,
+    "text": "Let the inner and outer space be one field. Rest in that openness.",
+    "say": "Let the inner and outer space be one field. Rest in that openness.",
+    "once": false,
+    "block": "i06.in",
+    "stage": "one-field"
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "text": "When the mind reaches for something solid, notice the reaching, and return to space.",
+    "say": "When the mind reaches for something solid, notice the reaching, and return to space.",
+    "once": false,
+    "block": "i07.g.in",
+    "stage": "one-field"
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "text": "Stay alert. This is open, not blank or sleepy.",
+    "say": "Stay alert. This is open, not blank or sleepy.",
+    "once": false,
+    "block": "i08.g.in",
+    "stage": "one-field"
+   }
+  ],
+  "visual": [
+   {
+    "t": 6,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 11,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 17,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 22,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 28,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 33,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 39,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 44,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 50,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "chest",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 55,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "chest",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 61,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "palate",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 66,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "palate",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 72,
+    "dur": 5,
+    "phase": "in",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 77,
+    "dur": 6,
+    "phase": "out",
+    "prim": "locus",
+    "locus": "middle_of_head",
+    "motion": "hold-glow",
+    "colour": "breath"
+   },
+   {
+    "t": 83,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 88,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 94,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 99,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 105,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 110,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 116,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 121,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 127,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 132,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 138,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 143,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 149,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 154,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 160,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "fill",
+    "colour": "breath"
+   },
+   {
+    "t": 165,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "dissipate",
+    "colour": "release"
+   },
+   {
+    "t": 171,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 176,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 182,
+    "dur": 5,
+    "phase": "in",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 187,
+    "dur": 6,
+    "phase": "out",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   },
+   {
+    "t": 193,
+    "dur": 14,
+    "phase": "natural",
+    "prim": "field",
+    "region": "whole_body",
+    "motion": "steady",
+    "colour": "breath"
+   }
+  ],
+  "attention": [
+   {
+    "t": 6,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 17,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 28,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 39,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 50,
+    "target": "chest",
+    "size": "medium"
+   },
+   {
+    "t": 55,
+    "target": "chest",
+    "size": "medium"
+   },
+   {
+    "t": 61,
+    "target": "palate",
+    "size": "medium"
+   },
+   {
+    "t": 66,
+    "target": "palate",
+    "size": "medium"
+   },
+   {
+    "t": 72,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 77,
+    "target": "middle_of_head",
+    "size": "medium"
+   },
+   {
+    "t": 83,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 94,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 105,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 116,
+    "target": "whole_body",
+    "size": "whole"
+   },
+   {
+    "t": 127,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 138,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 149,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 160,
+    "target": "whole_body",
+    "size": "wide"
+   },
+   {
+    "t": 171,
+    "target": "whole_body",
+    "size": "medium"
+   },
+   {
+    "t": 182,
+    "target": "whole_body",
+    "size": "medium"
+   }
+  ],
+  "audio": [
+   {
+    "t": 0,
+    "sound": "bowl-start"
+   },
+   {
+    "t": 50,
+    "sound": "chime"
+   },
+   {
+    "t": 83,
+    "sound": "chime"
+   },
+   {
+    "t": 127,
+    "sound": "chime"
+   },
+   {
+    "t": 207,
+    "sound": "bell-end"
+   }
+  ],
+  "haptic": [],
+  "markers": [
+   {
+    "t": 0,
+    "kind": "stage",
+    "stage": "room",
+    "label": "The space of the room"
+   },
+   {
+    "t": 50,
+    "kind": "stage",
+    "stage": "inside",
+    "label": "Space inside the body"
+   },
+   {
+    "t": 83,
+    "kind": "stage",
+    "stage": "skin",
+    "label": "A thin wall of skin"
+   },
+   {
+    "t": 127,
+    "kind": "stage",
+    "stage": "one-field",
+    "label": "One field of space"
+   }
+  ]
+ },
+ "physiology": {
+  "ratio": null,
+  "retention_max_s": 0,
+  "breaths_per_min": 5.797,
+  "breath_style": null
+ },
+ "safety": {
+  "max_hold_s": 0,
+  "beginner": false,
+  "applied": [],
+  "needs_teacher": false,
+  "contraindications": [
+   "If you feel disoriented, unreal or anxious",
+   "A history of trauma, dissociation, psychosis or severe anxiety"
+  ],
+  "stop_if": [
+   "disoriented",
+   "unreal",
+   "anxious"
+  ]
+ },
+ "warnings": []
+}
