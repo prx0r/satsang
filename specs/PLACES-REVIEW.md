@@ -37,7 +37,32 @@ report, policy), or (b) unaddressed / about people still teaching there? (b) is 
   `amma-uk` + `amma-ma-center`, `isha-institute`, `dhammakaya-london` (Wat Phra Dhammakaya). Public controversies exist for
   each; none was opened and checked this round, so nothing is asserted here.
 
-## Missing input
-The discovery round's own review list (`work/wiser-places-discovery/rejects.md`) was not present in the workspace on
-2026-10-25, so this list was compiled from the places already on the map plus fresh source checks. When that folder lands,
-merge its entries here (keep the source URLs).
+## D. From the places discovery batch (2026-10-25, merged as sources/ext-48-places-discovery)
+Merged from `work/wiser-places-discovery/rejects.md`. The three flagged places are **on the map** with a place-level public safety record
+(redflags.json, subject `place/<id>`), shown on /place/<id>, in the place JSON and in MCP get_place. Owner decides keep / annotate / drop.
+
+| Place id(s) | Organisation | What is on record | Sources |
+|---|---|---|---|
+| `school-of-philosophy-london` | School of Philosophy and Economic Science (SES) | St James and St Vedast schools (London, founded 1975 by SES members): independent inquiry commissioned 2005 by the schools' owners (James Townend QC) found pupils were "criminally assaulted" and mentally and physically mistreated, 1975-85; schools apologised; ~GBP1m paid to 45 former pupils by Dec 2020, settled without admission of liability. Historic, at the schools, addressed; SES is widely called a "sect" in the press | https://www.bbc.com/news/uk-england-london-55342669 · https://www.tes.com/magazine/archive/inquiry-reveals-culture-violence · https://www.richmondandtwickenhamtimes.co.uk/news/676026.assaults-on-pupils-were-harsh-and-criminal · https://en.wikipedia.org/wiki/St_James_Independent_Schools |
+| `yogaville`, `iyi-new-york` | Integral Yoga (Swami Satchidananda, d. 2002) | Allegations by former female disciples of sexual exploitation, raised in 1971 and publicly in 1991 (protests); he denied them; IYI board members resigned. Nov 2023 civil suit under New York's Adult Survivors Act against Integral Yoga Institute, Inc. and Satchidananda Ashram-Yogaville, Inc.; on 15 Jan 2026 the Appellate Division upheld dismissal of the organisations' counterclaims as SLAPP claims (S.N. v Integral Yoga Inst., 2026 NY Slip Op 00217); the abuse claims are undecided. Yogaville publishes a code of conduct | https://www.nycourts.gov/reporter/3dseries/2026/2026_00217.htm · https://cvillerightnow.com/news/208802-064460-courteney-stuart-reports-lawsuit-alleging-sexual-abuse-by-guru-filed-against-yogaville/ · https://culteducation.com/group/1243-yogaville/26493-ex-followers-say-swami-demanded-sexual-favors.html · https://www.newyorker.com/news/news-desk/yoga-reconsiders-the-role-of-the-guru-in-the-age-of-metoo · https://www.yogaville.org/about/sayva-code-of-conduct |
+
+Checked, nothing found to flag: Aro gTér / Drala Jong (publishes an accountability / five-precepts statement:
+https://www.aroterlineage.org/en/teachings/accountability/), Ligmincha / Tenzin Wangyal Rinpoche (no public finding found).
+Taplow Court (SGI-UK): lay movement with critics, but no institutional finding was opened, so nothing is asserted.
+
+**Dropped by the batch (not merged)**
+- `hemis` (Hemis Monastery, Ladakh): no official site; drukpa.org, the Drukpa lineage's main domain, served Thai gambling spam on 2026-10-25, so it cannot be a source. Re-add from a primary source.
+- `sutton-courtenay-abbey` (The Abbey, Sutton Courtenay): guessed domain theabbey.uk is a Liverpool dental practice. Find the community's real site first.
+- `osmanli-dergahi` (Naqshbandi-Haqqani, Fenton MI): osmanlidergahi.org did not load (curl timeout, web_fetch extraction failed). Not verified.
+
+**Merged with `details_unverified: true`** (site blocked the sandbox, offline or failed extraction; identity from OSM + domain + search
+excerpts only; the place page says so): `alton-abbey` (homepage "Offline - 14/8/2026"), `st-cecilias-ryde` (bot wall), `menri-dolanji`
+(ybmcs.org HTTP 500), `drikung-kagyu-institute` (403 IP block), `tibetan-meditation-center` (the .org on drikung.org has lapsed; .com from
+excerpts), `chion-in` (bot wall), `simonopetra` (timeout), `montserrat` (timeout), `lotus-temple` (Cloudflare 403). Re-check each and drop the
+flag when the official site opens.
+
+**Notes for follow-up**
+- `nizamuddin-dargah`: several khadim/trust sites each call themselves "official"; pick one the shrine itself uses.
+- `ajmer-sharif`: use the statutory Dargah Committee site only (gharibnawaz.minorityaffairs.gov.in), not the many khadim "official" sites.
+- `jain-centre-leicester`: jaincentre.com is a parked for-sale domain; the real site is jaincentreleicester.com.
+- `hamakom-uk` is tagged `jewish` (not `jewish-renewal`): the batch noted Renewal is a stretch for a meditation community with one Renewal-trained teacher.
