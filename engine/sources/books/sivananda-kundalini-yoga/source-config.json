@@ -1,0 +1,35 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "sivananda-kundalini-yoga",
+ "title": "Kundalini Yoga",
+ "work": "Kundalini Yoga (Swami Sivananda; includes his translation-commentary of the Yoga-Kundalini Upanishad and appendix articles)",
+ "author": { "name": "Swami Sivananda Saraswati", "id": "swami-sivananda" },
+ "edition": "Tenth Edition 1994 (copies 10,000); World Wide Web (WWW) Edition 1999; ISBN 81-7052-052-5",
+ "publisher": "The Divine Life Society, P.O. Shivanandanagar 249 192, Distt. Tehri-Garhwal, Uttar Pradesh, Himalayas, India",
+ "language": "en",
+ "url": "https://www.dlshq.org/download/kundalini-yoga/",
+ "licence": {
+  "id": "publisher-free",
+  "url": "https://www.dlshq.org/download/kundalini-yoga/",
+  "evidence_url": "https://www.dlshq.org/download/kundalini-yoga/",
+  "evidence_segment": "s001-title-page",
+  "evidence_quote": "This WWW reprint is for free distribution",
+  "checked": "2026-10-26",
+  "terms": {
+   "attribution": "Swami Sivananda, Kundalini Yoga, © The Divine Life Trust Society (WWW edition 1999), dlshq.org",
+   "noncommercial": true,
+   "noncommercial_note": "'For free distribution' is a permission to share free copies, not an open licence: no adaptation or commercial grant is stated, copyright is reserved to the Divine Life Trust Society. Treat derived practices as free-to-use, never sold/paywalled/monetised; ask DLS before any commercial use.",
+   "adaptations": "not granted explicitly; we publish only our own paraphrases plus quotes of 25 words or fewer",
+   "store_verbatim": false
+  }
+ },
+ "private_text": {
+  "repo": "prx0r/satsang-data (private)",
+  "path": "books/sivananda-kundalini-yoga/",
+  "files": ["page.html", "page.headers.txt", "book.txt", "sections/<segment id>.txt", "passages.json"],
+  "note": "segments[].file are relative to that private path; the public repo holds only hashes, offsets and our paraphrases"
+ },
+ "normalisation": "engine/tools/extract/book-sections.py 'satsang-book-html/1': body = <div class=\"post-content\"> … first </article>; h1/h2/h3 open sections (title-page h3s folded in; headings with no body of their own become part labels only); p/div/li/td/tr/pre/blockquote/hr/ul/ol/table are paragraph breaks, <br> → space, entities decoded, whitespace collapsed, NFC, paragraphs joined by a blank line. Offsets are JS string (UTF-16) indices into each section text; sha256 of that exact text.",
+ "retrieved": "2026-10-26"
+}

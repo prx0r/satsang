@@ -1,0 +1,195 @@
+# Pass 1 hand labels (our own words). Columns: ordinal | label | tier | runnable (1/0) | candidate id (or -) | one-line paraphrase
+# label: practice | theory | teacher-only | rules | story | front-matter
+#   teacher-only = a technique section the book itself (or our default list) keeps behind a guru: dhauti, basti, sutra neti,
+#   nauli, khechari/lambika, vajroli, shakti chalana, plavini, long kumbhaka/bija retention, siddhis.
+# tier: risk of the section's technique if run alone (beginner-ok | needs-review | teacher-only). Reading-only sections are
+#   beginner-ok unless they describe a teacher-only technique or a promised experience (then needs-review / teacher-only).
+1|front-matter|beginner-ok|0|-|Title page: author, publisher, edition (10th 1994, WWW 1999), ISBN, the free-distribution line and dedication.
+2|front-matter|beginner-ok|0|-|The web edition's table of contents.
+3|front-matter|beginner-ok|0|-|Publishers' note: introduces Sivananda and calls the book both theory and practical methods for awakening Kundalini.
+4|front-matter|beginner-ok|0|-|Guru Stotra: Sanskrit verses of homage to the guru with English renderings (Devanagari is in a legacy font and garbles).
+5|front-matter|beginner-ok|0|-|Devi Stotra: hymn to the Goddess (legacy-font Devanagari, transliteration, translation).
+6|front-matter|beginner-ok|0|-|Siva Stotra: verse asking Siva to forgive all faults of body, speech and mind.
+7|theory|beginner-ok|0|-|The four levels of sound (para, pasyanti, madhyama, vaikhari) from breath to speech.
+8|front-matter|beginner-ok|0|-|Preface: a devotional address to Mother Kundalini, ending with a Bengali hymn asking her to wake (legacy-font Devanagari).
+9|front-matter|beginner-ok|0|-|Prayer to Mother Kundalini asking her to rise from the root centre to the crown.
+10|theory|needs-review|0|-|Signs said to show awakening (visions, inner sounds, spontaneous bandhas, breath stopping); Ask material, never a target.
+11|theory|beginner-ok|0|-|The chakras as centres of vital force; the mind's ascent through them depends on purity.
+12|practice|needs-review|1|kundalini-pranayama-muladhara|Alternate-nostril breath counted in Oms 3:12:6 with the hold sent down to the root centre; 3 rounds twice daily.
+13|practice|needs-review|1|kundalini-bhavana-pranayama|Breath with imagery: inhale while picturing the power rising centre by centre, short hold with mantra at the crown, exhale it back down.
+14|theory|beginner-ok|0|-|What Kundalini is (coiled power at the root of seven centres) and that every sadhana aims at waking it.
+15|theory|beginner-ok|0|-|Kundalini as the centre of Tantric sadhana: the Mother in the body to be raised to Siva.
+16|theory|beginner-ok|0|-|How Hatha Yoga approaches Kundalini: body discipline, nadi purification and breath control.
+17|theory|beginner-ok|0|-|Raja Yoga's eight-limbed mental path, which does not name Kundalini.
+18|theory|beginner-ok|0|-|Vedanta's view: only knowledge removes ignorance; Kundalini methods are not its concern.
+19|theory|beginner-ok|0|-|Long essay (Woodroffe-style) on the meaning of Kundalini Yoga: microcosm, six centres, static and dynamic shakti.
+20|front-matter|beginner-ok|0|-|Opening invocation of the Preliminary part: homage to Patanjali, Vyasa and the masters.
+21|theory|beginner-ok|0|-|Dispassion as the foundation: worldly pleasures cannot give lasting peace.
+22|theory|beginner-ok|0|-|Definitions of yoga as union and as stilling the mind's movements.
+23|theory|beginner-ok|0|-|Why Kundalini Yoga matters: union of the body's shakti with Siva brings samadhi and knowledge.
+24|rules|beginner-ok|0|-|Who is fit to practise: vitality, calm, faith, moderation, ethical virtues, openness to the guru, little talk.
+25|rules|beginner-ok|0|-|Conduct and diet for the practitioner: discipline, gentleness, moderation; gluttony and sense-slavery block progress.
+26|rules|beginner-ok|0|-|List of sattvic foods recommended for practitioners (milk, grains, dal, certain vegetables and fruits).
+27|rules|beginner-ok|0|-|Foods to avoid: sour, hot, pungent, meat, eggs, fish, garlic, onion, alcohol, stale food.
+28|rules|beginner-ok|0|-|Moderate eating (half food, quarter water, quarter empty); change diet gradually; fast rarely; no fuss about diet.
+29|rules|beginner-ok|0|-|The place: secluded, clean, dry, quiet, ventilated room kept only for practice; stay in one place; a seat neither high nor low.
+30|rules|beginner-ok|0|-|The time: cool hours and early morning; not on a full stomach; bathe before rather than after; not when agitated.
+31|rules|beginner-ok|0|-|Age: limited practice under 18; best between 20 and 40; healthy people may begin after 50.
+32|rules|beginner-ok|0|-|A teacher is needed for the practice, especially advanced Kundalini work; easy lessons may be done at home.
+33|theory|beginner-ok|0|-|Who a guru is and the disciple's attitude toward him.
+34|theory|needs-review|0|-|Transmission of spiritual power (shakti sanchara) by touch, sight or thought.
+35|theory|beginner-ok|0|-|Nadis as subtle channels of prana and their numbers.
+36|theory|beginner-ok|0|-|The spinal column (meru danda) as the axis on which the centres sit.
+37|theory|beginner-ok|0|-|The subtle body inside the physical one.
+38|theory|beginner-ok|0|-|The kanda, egg-shaped root of the nadis just above the root centre.
+39|theory|beginner-ok|0|-|The spinal cord in Western anatomy as a frame for the subtle teaching.
+40|theory|beginner-ok|0|-|Sushumna, the central channel, and its inner layers.
+41|theory|beginner-ok|0|-|Sympathetic and parasympathetic chains compared with the side channels.
+42|theory|beginner-ok|0|-|Ida and pingala: where they run and meet, and their moon/sun qualities.
+43|rules|beginner-ok|0|-|Science of the breath's flow (svara): which acts suit which nostril's flow.
+44|practice|needs-review|1|change-nostril-flow|Simple ways to switch the dominant nostril (block one side, lie on one side, armpit pressure); two methods use nauli or khechari and are excluded.
+45|theory|beginner-ok|0|-|Names of other nadis branching from the kanda.
+46|theory|beginner-ok|0|-|The chakras in the subtle body and their gross correspondences.
+47|theory|beginner-ok|0|-|Petals of each chakra and the Sanskrit letters on them.
+48|theory|beginner-ok|0|-|Muladhara: location, element, form, deity, seed syllable; meditating on it is said to give knowledge of Kundalini and how to wake it.
+49|theory|beginner-ok|0|-|Svadhishthana: location at the genital root, water element, symbols.
+50|theory|beginner-ok|0|-|Manipura at the navel: fire element, ten petals, symbols.
+51|theory|beginner-ok|0|-|Anahata at the heart: air element, twelve petals, symbols.
+52|theory|beginner-ok|0|-|Vishuddha at the throat: ether element, sixteen petals.
+53|theory|beginner-ok|0|-|Ajna between the eyebrows: seat of mind, two petals, Om as seed.
+54|theory|beginner-ok|0|-|The brain and cranial nerves in anatomical terms.
+55|theory|beginner-ok|0|-|Brahmarandhra, the crown aperture (the fontanelle), called the dwelling of the soul.
+56|theory|beginner-ok|0|-|Sahasrara at the crown, abode of Siva and goal of the ascent.
+57|theory|beginner-ok|0|-|Lalana, a minor centre between ajna and the crown.
+58|theory|beginner-ok|0|-|Recap of the earlier lessons: purity, discipline, guru, nadis and chakras.
+59|theory|beginner-ok|0|-|The mystery of Kundalini, with a hymn: the Goddess as all the elements.
+60|rules|needs-review|0|-|Prerequisites and warnings for awakening Kundalini: purity first, a guide, gradual practice; forced awakening harms; the six cleansing acts listed.
+61|teacher-only|teacher-only|0|-|Dhauti: swallowing a long cloth strip and other internal cleansing.
+62|teacher-only|teacher-only|0|-|Basti: yogic enema by abdominal churning or a tube in water.
+63|teacher-only|teacher-only|0|-|Neti: thread through the nose (teacher-only); a short paragraph on sniffing water could be split out later as needs-review.
+64|teacher-only|teacher-only|0|-|Nauli: isolating and churning the abdominal muscles after full exhalation.
+65|practice|needs-review|1|trataka|Steady gazing at a picture, dot, Om, flame etc., then closing the eyes to see it inwardly; start at two minutes. Sun-gazing is teacher-only.
+66|practice|needs-review|1|kapalabhati|Rapid forcible exhalations from the abdomen with passive inhalation and no hold; 1 per second, 10 per round rising to 120.
+67|theory|beginner-ok|0|-|What prana is: the universal energy behind all movement.
+68|theory|beginner-ok|0|-|The five pranas and their seats and functions.
+69|theory|beginner-ok|0|-|The many kinds of pranayama; only some appear in the hatha texts.
+70|teacher-only|teacher-only|1|nadi-suddhi-bija|Nadi purification with seed syllables: 16 counts in, 64 held, 32 out, cycling Yam, Ram, Tham, Vam, Lam with imagery. Long retention.
+71|practice|needs-review|1|sukha-purvaka|Easy alternate-nostril breath 3:12:6 Oms (1:4:2) with root lock and attention at the root centre; 6 rounds rising to 20.
+72|practice|needs-review|1|bhastrika|Bellows breath: 10 to 25 rapid breaths, then a deep inhale held comfortably and a slow exhale; 3 rounds to start.
+73|practice|teacher-only|1|suryabheda|Inhale through the right nostril, hold with chin lock until sweat appears, exhale left. The hold makes it teacher-only.
+74|practice|needs-review|1|ujjayi|Slow inhale through both nostrils with a soft throat sound, comfortable hold, exhale through the left; may be done walking.
+75|teacher-only|teacher-only|0|-|Plavini: swallowing air into the stomach to float; needs an expert.
+76|practice|teacher-only|0|-|Pranic healing: directing prana by touch or attention to heal; medical claims, never shipped as treatment.
+77|practice|teacher-only|0|-|Distant healing: sending prana to a patient far away by appointment; medical claims.
+78|theory|beginner-ok|0|-|Why pranayama matters for mind control.
+79|theory|beginner-ok|0|-|Claimed benefits of pranayama.
+80|rules|beginner-ok|0|-|Eighteen practical rules for pranayama: time, clean nostrils, no strain, beginners skip the hold (1:2), build the hold slowly, no suffocation.
+81|rules|beginner-ok|0|-|The four meditation seats and the aim of sitting still for long periods.
+82|practice|needs-review|0|-|Padmasana (lotus): how to sit; a seat for the breath practices.
+83|practice|needs-review|0|-|Siddhasana: heel placement; a seat for the breath practices.
+84|practice|beginner-ok|0|-|Svastikasana and the simpler samasana.
+85|practice|beginner-ok|0|-|Sukhasana: any easy cross-legged seat with head, neck and trunk in line; a supported variant for older people.
+86|practice|needs-review|0|-|Headstand: build from 5 seconds by 15 seconds a week; long holds claimed. Physical asana, outside the engine's scope.
+87|practice|needs-review|0|-|Shoulder stand with chin lock, building from 2 minutes.
+88|practice|needs-review|0|-|Fish pose, counter to the shoulder stand.
+89|practice|needs-review|0|-|Seated forward bend.
+90|practice|needs-review|0|-|Peacock pose: balancing on the forearms.
+91|practice|needs-review|0|-|Half spinal twist.
+92|practice|beginner-ok|0|-|Vajrasana: kneeling seat, also after meals.
+93|practice|teacher-only|0|-|Lotus legs in a headstand; only for those who hold a headstand 10 to 15 minutes.
+94|rules|beginner-ok|0|-|Twenty instructions on asanas: empty stomach, regularity, a fixed set, steadiness, mild breath-holding.
+95|theory|beginner-ok|0|-|Mudras and bandhas in general and the twelve the book teaches; claimed cures.
+96|practice|needs-review|1|mula-bandha|Root lock: contract the anus and draw the downward energy up; can be added to pranayama and meditation.
+97|practice|needs-review|1|jalandhara-bandha|Chin lock: chin pressed to the chest, used during the held breath.
+98|practice|needs-review|1|uddiyana-bandha|Abdominal lock: after a full exhalation, draw the belly in and up; at the end of the hold.
+99|practice|needs-review|1|maha-mudra|One heel at the perineum, other leg out, hold the toe, inhale and hold with chin lock and brow gaze; each side.
+100|practice|needs-review|1|maha-bandha|Heel at the perineum, foot on the thigh, root lock and held breath with chin lock.
+101|practice|teacher-only|0|-|Maha vedha: in the held breath, raise and gently drop the buttocks on the ground.
+102|practice|beginner-ok|1|yoga-mudra|Sitting in lotus, exhale and fold forward until the forehead touches the ground.
+103|practice|needs-review|0|-|Viparitakarani: legs up with hands supporting the hips; time built from a minute.
+104|teacher-only|teacher-only|0|-|Khechari mudra: lengthening the tongue by cutting the frenum and turning it back into the nasal cavity.
+105|teacher-only|teacher-only|0|-|Vajroli mudra: urethral suction with a catheter.
+106|teacher-only|teacher-only|0|-|Shakti chalana: forceful breath and root lock to drive Kundalini up; beating the kanda with the foot.
+107|practice|needs-review|1|yoni-mudra|Closing ears, eyes, nostrils and lips with the fingers to meditate on the centres; book calls it hard.
+108|theory|beginner-ok|0|-|Other mudras named but not taught here.
+109|rules|needs-review|0|-|Instructions on mudras: which go together and in which phase of breath, empty stomach, khechari/vajroli/shakti chalana only with a guru.
+110|theory|beginner-ok|0|-|Laya yoga: absorption of the mind; trataka and sambhavi help.
+111|practice|needs-review|1|nada-anahata|Close the ears with the thumbs and listen inward to subtle sounds, from loud to subtle. Sounds are never promised.
+112|theory|beginner-ok|0|-|Bhakti yoga: grades of worship from elements to the formless.
+113|rules|needs-review|0|-|Mantra as a way to awaken Kundalini, but the mantra must be received from a guru.
+114|theory|teacher-only|0|-|The eight major siddhis described.
+115|theory|teacher-only|0|-|Minor siddhis listed.
+116|story|beginner-ok|0|-|Feats of yogic heat: melting snow, drying wet sheets on the body.
+117|rules|teacher-only|0|-|Instructions on siddhis: they come with practice, but chasing them stalls progress.
+118|practice|beginner-ok|1|dharana|Concentration: fix the mind on one object (flame, watch tick, a deity, a centre), bring it back when it wanders, no strain.
+119|story|beginner-ok|0|-|Sadasiva Brahman of Nerur, said to have stayed in samadhi buried by river mud for months.
+120|story|beginner-ok|0|-|Jnanadev (Jnaneswar) of Alandi, his Gita commentary and samadhi shrine.
+121|story|beginner-ok|0|-|Trilinga Swami of Benares, his long life and free milk for the poor.
+122|story|beginner-ok|0|-|The birth story of Gorakhnath through Matsyendranath's blessing.
+123|story|beginner-ok|0|-|Swami Krishna Ashram, living unclothed in the snows below Gangotri.
+124|story|beginner-ok|0|-|Yogi Bhusunda, the long-lived master of pranayama.
+125|story|beginner-ok|0|-|Tirumula Nayanar, a yogi from Kailas who settled in the Tamil country.
+126|story|beginner-ok|0|-|Mansoor, the Persian Sufi who kept repeating "Anal-haq" and was punished for it.
+127|story|beginner-ok|0|-|Milarepa's turn from worldly sorrow to the hard path of practice.
+128|story|beginner-ok|0|-|Napoleon as an example of concentration and sleeping at will.
+129|story|beginner-ok|0|-|Kabir's pig at the door: a lesson to a proud scholar about inner impurity.
+130|story|beginner-ok|0|-|A man who thought Latin meant adding "o" to English words: a parable on half-learning.
+131|story|beginner-ok|0|-|An aspirant given earrings and a new name who made no progress: outer marks are not yoga.
+132|story|beginner-ok|0|-|Yogis who demonstrated stopping the heart or pulse before physicians.
+133|theory|needs-review|0|-|Lights and visions in meditation, and how to treat them; Ask material, never scripted.
+134|theory|needs-review|0|-|Frightening figures that may appear in meditation; stay fearless.
+135|theory|needs-review|0|-|Feeling separate from the body and astral travel.
+136|rules|needs-review|0|-|Hints on yoga: celibacy, silence, solitude, moderate diet, dealing with anger and depression, jerks and early signs, don't chase siddhis, master each step.
+137|practice|teacher-only|0|-|Outline of the inner ascent and a bhuta-shuddhi style bija pranayama (16:64:32) with "man of sin" imagery; the book says learn it from a guru.
+138|rules|beginner-ok|0|-|The monthly spiritual diary form: questions on sleep, japa, pranayama, asana, meditation, silence, service and faults.
+139|rules|beginner-ok|0|-|Why and how to keep the spiritual diary.
+140|theory|beginner-ok|0|-|Introduction to the Yoga-Kundalini Upanishad: its place and an overview of its three chapters.
+141|theory|beginner-ok|0|-|Upanishad 1.1–4: mind-stuff has two causes, desires and the movement of prana.
+142|rules|beginner-ok|0|-|Upanishad 1.5–7: control prana through moderate food, posture and shakti chalana; the half-food rule.
+143|practice|needs-review|0|-|Upanishad 1.8–9: lotus and vajra seats defined.
+144|theory|teacher-only|0|-|Upanishad 1.10–12: shakti chalana defined as leading Kundalini to the crown.
+145|teacher-only|teacher-only|0|-|Upanishad 1.13–22: Sarasvati chalana, lengthening the breath and churning the belly to rouse the nadi.
+146|theory|beginner-ok|0|-|Upanishad 1.23–26: sahita and kevala kumbhaka; four varieties.
+147|practice|needs-review|1|suryabheda|Upanishad 1.27: suryabheda without a stated hold: in through the right as long as comfortable, out through the left.
+148|practice|needs-review|1|ujjayi|Upanishad 1.28–29: ujjayi with retention between heart and neck, exhale through the left.
+149|practice|needs-review|1|sitali|Upanishad 1.30–34: sitali (inhale through the tongue, exhale through the nose) and a bellows breath.
+150|practice|needs-review|1|bandha-traya|Upanishad 1.35–43: the three locks and when each is applied.
+151|rules|teacher-only|0|-|Upanishad 1.44–46: how many kumbhakas per day, rising steeply; not a beginner schedule.
+152|rules|beginner-ok|0|-|Upanishad 1.47–54: seven causes of disease and ten obstacles to practice.
+153|teacher-only|teacher-only|0|-|Upanishad 1.55–: kevala kumbhaka and forcing apana up to rouse Kundalini.
+154|theory|teacher-only|0|-|Upanishad: Kundalini piercing the three knots to the crown.
+155|theory|beginner-ok|0|-|Upanishad: dissolution of prana and the senses.
+156|theory|beginner-ok|0|-|Upanishad: seeing everything as consciousness in samadhi.
+157|theory|beginner-ok|0|-|Upanishad: samadhi yoga.
+158|teacher-only|teacher-only|0|-|Upanishad ch. 2: the Khechari science and who may learn it.
+159|teacher-only|teacher-only|0|-|Upanishad: the Khechari bija mantra.
+160|teacher-only|teacher-only|0|-|Upanishad: cutting the tongue's frenum over six months.
+161|teacher-only|teacher-only|0|-|Upanishad: the lengthened tongue reaching the crown aperture over years.
+162|teacher-only|teacher-only|0|-|Upanishad: the higher Kundalini path after twelve years of khechari.
+163|teacher-only|teacher-only|0|-|Upanishad ch. 3 opening: the melana mantra and its timing.
+164|theory|beginner-ok|0|-|Upanishad: sense objects, mind and bondage.
+165|theory|beginner-ok|0|-|Upanishad: entering the sphere of bliss.
+166|theory|beginner-ok|0|-|Upanishad: the six chakras briefly.
+167|theory|beginner-ok|0|-|Upanishad: practice and knowledge of Brahman.
+168|theory|beginner-ok|0|-|Upanishad: the four kinds of speech.
+169|theory|beginner-ok|0|-|Upanishad: absorption in the supreme Self.
+170|theory|beginner-ok|0|-|Upanishad: the essential nature of a person.
+171|theory|beginner-ok|0|-|Upanishad: liberation at death.
+172|theory|beginner-ok|0|-|Upanishad close: the non-dual Brahman.
+173|theory|beginner-ok|0|-|Appendix essay on Kundalini Yoga (shakti polarity); ends with a copy of the 3:12:6 root-centre pranayama (see s012).
+174|practice|teacher-only|0|-|Appendix copy of the Kundalini pranayama opening (s013) followed by the inner-ascent outline from s137.
+175|teacher-only|teacher-only|0|-|Lambika yoga (khechari): difficult, secret, learn only from an accomplished guru.
+176|theory|beginner-ok|0|-|Yoga I: yoga as a complete science of self-culture.
+177|theory|beginner-ok|0|-|Yoga II: practices that make up yoga and their fruits.
+178|theory|beginner-ok|0|-|Ideal yoga: calm, service and devotion, not miracles.
+179|rules|beginner-ok|0|-|Ten commandments for yoga students: morning or 3 hours after food, prayer first, sattvic food, clean locked room, celibacy, bath before.
+180|theory|beginner-ok|0|-|Yoga and its consummation: the sheaths and union.
+181|theory|beginner-ok|0|-|Duplicate of s011 (gradational ascent of the mind).
+182|theory|needs-review|0|-|Duplicate of s010 (experiences on awakening).
+183|theory|beginner-ok|0|-|The quintessence of yoga in short sayings.
+184|theory|beginner-ok|0|-|Health and longevity claims for yoga.
+185|theory|beginner-ok|0|-|Perfection in yoga: savikalpa and nirvikalpa samadhi.
+186|theory|beginner-ok|0|-|Double consciousness of the realised yogi.
+187|rules|beginner-ok|0|-|Wise guidance: be gradual, avoid extremes and violent methods, pick one method and persevere.
+188|rules|beginner-ok|0|-|Sixteen notes on practising asanas: who can, which poses, combine with ethics and meditation.
+189|front-matter|beginner-ok|0|-|Glossary of Sanskrit terms (back matter).

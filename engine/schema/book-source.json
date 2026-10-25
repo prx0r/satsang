@@ -1,0 +1,49 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/book-source.json",
+ "title": "Book source passes 0-2: section map, labels, rulebook (public, no source text)",
+ "description": "For a whole book whose text may not be stored publicly (sources/books/<id>/). sections.json pins the book's own sections by hash; map.json labels each section; rules.json gathers book-wide instructions with passage ids. Raw text and passages live in the private data repo.",
+ "oneOf": [{"$ref": "#/$defs/sections"}, {"$ref": "#/$defs/map"}, {"$ref": "#/$defs/rules"}],
+ "$defs": {
+  "sid": {"type": "string", "pattern": "^s[0-9]{3}-[a-z0-9-]+$"},
+  "pid": {"type": "string", "pattern": "^s[0-9]{3}-[a-z0-9-]+:p[0-9]+\\.s[0-9]+$"},
+  "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+  "sections": {
+   "type": "object", "required": ["type", "source", "normalisation", "body_html_sha256", "book_text_sha256", "totals", "parts", "sections"],
+   "properties": {
+    "type": {"const": "book_sections"}, "source": {"type": "string"}, "normalisation": {"type": "string"},
+    "page_sha256": {"$ref": "#/$defs/hash"}, "body_html_sha256": {"$ref": "#/$defs/hash"}, "book_text_sha256": {"$ref": "#/$defs/hash"},
+    "totals": {"type": "object", "required": ["sections", "words"]},
+    "parts": {"type": "array", "items": {"type": "object", "required": ["id", "label", "sections"]}},
+    "sections": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["id", "ordinal", "heading", "part", "words", "chars", "sha256", "file"],
+     "properties": {"id": {"$ref": "#/$defs/sid"}, "ordinal": {"type": "integer"}, "heading": {"type": "string"}, "part": {"type": "string"},
+      "anchor": {"type": ["string", "null"]}, "url": {"type": "string"}, "words": {"type": "integer"}, "chars": {"type": "integer"}, "sha256": {"$ref": "#/$defs/hash"}, "file": {"type": "string"}},
+     "not": {"required": ["text"]}}}
+   }
+  },
+  "map": {
+   "type": "object", "required": ["type", "source", "pass", "counts", "sections"],
+   "properties": {
+    "type": {"const": "book_map"}, "pass": {"const": 1},
+    "sections": {"type": "array", "items": {"type": "object", "required": ["id", "label", "tier", "runnable_candidate", "paraphrase", "key_terms"],
+     "properties": {"id": {"$ref": "#/$defs/sid"},
+      "label": {"enum": ["practice", "theory", "teacher-only", "rules", "story", "front-matter"]},
+      "tier": {"enum": ["beginner-ok", "needs-review", "teacher-only"]},
+      "runnable_candidate": {"type": "boolean"}, "candidate": {"type": ["string", "null"]},
+      "paraphrase": {"type": "string", "maxLength": 240}, "key_terms": {"type": "array", "items": {"type": "string"}}}}}
+   }
+  },
+  "rules": {
+   "type": "object", "required": ["type", "source", "pass", "rules"],
+   "properties": {
+    "type": {"const": "book_rules"}, "pass": {"const": 2},
+    "rules": {"type": "array", "items": {"type": "object", "required": ["id", "paraphrase", "scope", "severity", "passage_ids"],
+     "properties": {"id": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "paraphrase": {"type": "string"},
+      "scope": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+      "severity": {"enum": ["hard-stop", "caution", "guidance", "info", "traditional"]},
+      "passage_ids": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/pid"}},
+      "quote": {"type": ["object", "null"], "properties": {"text": {"type": "string"}, "cite": {"$ref": "#/$defs/pid"}}}}}}
+   }
+  }
+ }
+}

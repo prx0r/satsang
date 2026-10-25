@@ -14,6 +14,10 @@ def v(schema, f, sub=None):
     return len(errs)
 n = 0
 for d in glob.glob(f'{E}/sources/*/source-text.json'): n += v('source-text.json', d)
+for d in glob.glob(f'{E}/sources/books/*/'):   # whole books (passes 0-2; text kept in the private data repo)
+    n += v('source-text.json', d + 'source-text.json')
+    for f in ('sections.json', 'map.json', 'rules.json'):
+        if os.path.exists(d + f): n += v('book-source.json', d + f)
 for d in glob.glob(f'{E}/pipeline/*/'):
     n += v('passages.json', d + 'passages.json'); n += v('instruction.json', d + 'instructions.json'); n += v('instruction.json', d + 'instructions.draft.json')
     n += v('narration-script.json', d + 'narration.json')

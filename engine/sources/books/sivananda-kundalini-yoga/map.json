@@ -1,0 +1,4308 @@
+{
+ "type": "book_map",
+ "schema_version": 1,
+ "source": "sivananda-kundalini-yoga",
+ "pass": 1,
+ "labelled_by": "agent draft 2026-10-26 (status: review)",
+ "counts": {
+  "label": {
+   "front-matter": 10,
+   "theory": 79,
+   "practice": 41,
+   "rules": 26,
+   "teacher-only": 18,
+   "story": 15
+  },
+  "tier": {
+   "beginner-ok": 119,
+   "needs-review": 39,
+   "teacher-only": 31
+  },
+  "runnable_candidates": 23
+ },
+ "sections": [
+  {
+   "id": "s001-title-page",
+   "heading": "Title page",
+   "part": "front-matter",
+   "words": 112,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Title page: author, publisher, edition (10th 1994, WWW 1999), ISBN, the free-distribution line and dedication.",
+   "key_terms": [
+    "om"
+   ],
+   "passages": {
+    "first": "s001-title-page:p1.s1",
+    "last": "s001-title-page:p18.s1",
+    "count": 21
+   }
+  },
+  {
+   "id": "s002-contents",
+   "heading": "CONTENTS",
+   "part": "front-matter",
+   "words": 585,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The web edition's table of contents.",
+   "key_terms": [
+    "kundalini",
+    "chakra",
+    "pranayama",
+    "asana",
+    "nadi",
+    "khechari",
+    "kumbhaka",
+    "guru"
+   ],
+   "passages": {
+    "first": "s002-contents:p1.s1",
+    "last": "s002-contents:p189.s1",
+    "count": 189
+   }
+  },
+  {
+   "id": "s003-publishers-note",
+   "heading": "PUBLISHERS’ NOTE",
+   "part": "front-matter",
+   "words": 213,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Publishers' note: introduces Sivananda and calls the book both theory and practical methods for awakening Kundalini.",
+   "key_terms": [
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s003-publishers-note:p1.s1",
+    "last": "s003-publishers-note:p4.s1",
+    "count": 9
+   }
+  },
+  {
+   "id": "s004-guru-stotra",
+   "heading": "GURU STOTRA",
+   "part": "front-matter",
+   "words": 146,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Guru Stotra: Sanskrit verses of homage to the guru with English renderings (Devanagari is in a legacy font and garbles).",
+   "key_terms": [
+    "guru",
+    "tattva"
+   ],
+   "passages": {
+    "first": "s004-guru-stotra:p1.s1",
+    "last": "s004-guru-stotra:p6.s1",
+    "count": 7
+   }
+  },
+  {
+   "id": "s005-devi-stotra",
+   "heading": "DEVI STOTRA",
+   "part": "front-matter",
+   "words": 183,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Devi Stotra: hymn to the Goddess (legacy-font Devanagari, transliteration, translation).",
+   "key_terms": [
+    "japa"
+   ],
+   "passages": {
+    "first": "s005-devi-stotra:p1.s1",
+    "last": "s005-devi-stotra:p9.s1",
+    "count": 10
+   }
+  },
+  {
+   "id": "s006-siva-stotra",
+   "heading": "SIVA STOTRA",
+   "part": "front-matter",
+   "words": 90,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Siva Stotra: verse asking Siva to forgive all faults of body, speech and mind.",
+   "key_terms": [],
+   "passages": {
+    "first": "s006-siva-stotra:p1.s1",
+    "last": "s006-siva-stotra:p3.s1",
+    "count": 5
+   }
+  },
+  {
+   "id": "s007-the-four-stages-of-sound",
+   "heading": "THE FOUR STAGES OF SOUND",
+   "part": "front-matter",
+   "words": 309,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The four levels of sound (para, pasyanti, madhyama, vaikhari) from breath to speech.",
+   "key_terms": [
+    "chakra",
+    "manipura",
+    "muladhara",
+    "prana",
+    "shakti"
+   ],
+   "passages": {
+    "first": "s007-the-four-stages-of-sound:p1.s1",
+    "last": "s007-the-four-stages-of-sound:p3.s11",
+    "count": 21
+   }
+  },
+  {
+   "id": "s008-preface",
+   "heading": "PREFACE",
+   "part": "front-matter",
+   "words": 1442,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Preface: a devotional address to Mother Kundalini, ending with a Bengali hymn asking her to wake (legacy-font Devanagari).",
+   "key_terms": [
+    "samadhi",
+    "kundalini",
+    "chakra",
+    "siddhi",
+    "shakti",
+    "sahasrara",
+    "shiva",
+    "vairagya"
+   ],
+   "passages": {
+    "first": "s008-preface:p1.s1",
+    "last": "s008-preface:p33.s1",
+    "count": 150
+   }
+  },
+  {
+   "id": "s009-prayer-to-mother-kundalini",
+   "heading": "PRAYER TO MOTHER KUNDALINI",
+   "part": "front-matter",
+   "words": 109,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Prayer to Mother Kundalini asking her to rise from the root centre to the crown.",
+   "key_terms": [
+    "kundalini",
+    "shiva",
+    "ajna",
+    "anahata",
+    "manipura",
+    "muladhara",
+    "sahasrara",
+    "svadhishthana"
+   ],
+   "passages": {
+    "first": "s009-prayer-to-mother-kundalini:p1.s1",
+    "last": "s009-prayer-to-mother-kundalini:p1.s11",
+    "count": 11
+   }
+  },
+  {
+   "id": "s010-experiences-on-awakening-of-kundalini",
+   "heading": "EXPERIENCES ON AWAKENING OF KUNDALINI",
+   "part": "opening-essays",
+   "words": 324,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Signs said to show awakening (visions, inner sounds, spontaneous bandhas, breath stopping); Ask material, never a target.",
+   "key_terms": [
+    "kundalini",
+    "shakti",
+    "prana",
+    "anahata",
+    "asana",
+    "jalandhara-bandha",
+    "kevala",
+    "kumbhaka"
+   ],
+   "passages": {
+    "first": "s010-experiences-on-awakening-of-kundalini:p1.s1",
+    "last": "s010-experiences-on-awakening-of-kundalini:p5.s3",
+    "count": 14
+   }
+  },
+  {
+   "id": "s011-the-gradational-ascent-of-the-mind",
+   "heading": "THE GRADATIONAL ASCENT OF THE MIND",
+   "part": "opening-essays",
+   "words": 403,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The chakras as centres of vital force; the mind's ascent through them depends on purity.",
+   "key_terms": [
+    "chakra",
+    "samadhi",
+    "ajna",
+    "anahata",
+    "kundalini",
+    "manipura",
+    "muladhara",
+    "om"
+   ],
+   "passages": {
+    "first": "s011-the-gradational-ascent-of-the-mind:p1.s1",
+    "last": "s011-the-gradational-ascent-of-the-mind:p9.s1",
+    "count": 27
+   }
+  },
+  {
+   "id": "s012-pranayama-for-awakening-kundalini",
+   "heading": "PRANAYAMA FOR AWAKENING KUNDALINI",
+   "part": "opening-essays",
+   "words": 207,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "kundalini-pranayama-muladhara",
+   "paraphrase": "Alternate-nostril breath counted in Oms 3:12:6 with the hold sent down to the root centre; 3 rounds twice daily.",
+   "key_terms": [
+    "kundalini",
+    "chakra",
+    "concentration",
+    "muladhara",
+    "om",
+    "pranayama",
+    "prana",
+    "shakti"
+   ],
+   "passages": {
+    "first": "s012-pranayama-for-awakening-kundalini:p1.s1",
+    "last": "s012-pranayama-for-awakening-kundalini:p1.s15",
+    "count": 15
+   }
+  },
+  {
+   "id": "s013-kundalini-pranayama",
+   "heading": "KUNDALINI PRANAYAMA",
+   "part": "opening-essays",
+   "words": 251,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "kundalini-bhavana-pranayama",
+   "paraphrase": "Breath with imagery: inhale while picturing the power rising centre by centre, short hold with mantra at the crown, exhale it back down.",
+   "key_terms": [
+    "chakra",
+    "kundalini",
+    "pranayama",
+    "sahasrara",
+    "guru",
+    "muladhara",
+    "puraka",
+    "asana"
+   ],
+   "passages": {
+    "first": "s013-kundalini-pranayama:p1.s1",
+    "last": "s013-kundalini-pranayama:p10.s1",
+    "count": 20
+   }
+  },
+  {
+   "id": "s014-kundalini",
+   "heading": "KUNDALINI",
+   "part": "opening-essays",
+   "words": 624,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "What Kundalini is (coiled power at the root of seven centres) and that every sadhana aims at waking it.",
+   "key_terms": [
+    "kundalini",
+    "chakra",
+    "sahasrara",
+    "ajna",
+    "muladhara",
+    "svadhishthana",
+    "anahata",
+    "guru"
+   ],
+   "passages": {
+    "first": "s014-kundalini:p1.s1",
+    "last": "s014-kundalini:p5.s6",
+    "count": 11
+   }
+  },
+  {
+   "id": "s015-kundalini-and-tantrik-sadhana",
+   "heading": "Kundalini And Tantrik Sadhana",
+   "part": "opening-essays",
+   "words": 92,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Kundalini as the centre of Tantric sadhana: the Mother in the body to be raised to Siva.",
+   "key_terms": [
+    "kundalini",
+    "chakra",
+    "japa",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s015-kundalini-and-tantrik-sadhana:p1.s1",
+    "last": "s015-kundalini-and-tantrik-sadhana:p1.s3",
+    "count": 3
+   }
+  },
+  {
+   "id": "s016-kundalini-and-hatha-yoga",
+   "heading": "Kundalini And Hatha Yoga",
+   "part": "opening-essays",
+   "words": 127,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "How Hatha Yoga approaches Kundalini: body discipline, nadi purification and breath control.",
+   "key_terms": [
+    "kundalini",
+    "prana",
+    "asana",
+    "nadi",
+    "pranayama",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s016-kundalini-and-hatha-yoga:p1.s1",
+    "last": "s016-kundalini-and-hatha-yoga:p1.s4",
+    "count": 4
+   }
+  },
+  {
+   "id": "s017-kundalini-and-raja-yoga",
+   "heading": "Kundalini And Raja Yoga",
+   "part": "opening-essays",
+   "words": 190,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Raja Yoga's eight-limbed mental path, which does not name Kundalini.",
+   "key_terms": [
+    "kundalini",
+    "concentration",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s017-kundalini-and-raja-yoga:p1.s1",
+    "last": "s017-kundalini-and-raja-yoga:p1.s4",
+    "count": 4
+   }
+  },
+  {
+   "id": "s018-kundalini-and-vedanta",
+   "heading": "Kundalini And Vedanta",
+   "part": "opening-essays",
+   "words": 227,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Vedanta's view: only knowledge removes ignorance; Kundalini methods are not its concern.",
+   "key_terms": [
+    "kundalini",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s018-kundalini-and-vedanta:p1.s1",
+    "last": "s018-kundalini-and-vedanta:p1.s8",
+    "count": 8
+   }
+  },
+  {
+   "id": "s019-essence-of-kundalini-yoga",
+   "heading": "Essence Of Kundalini Yoga",
+   "part": "opening-essays",
+   "words": 6712,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Long essay (Woodroffe-style) on the meaning of Kundalini Yoga: microcosm, six centres, static and dynamic shakti.",
+   "key_terms": [
+    "shakti",
+    "kundalini",
+    "chakra",
+    "muladhara",
+    "shiva",
+    "samadhi",
+    "sahasrara",
+    "nadi"
+   ],
+   "passages": {
+    "first": "s019-essence-of-kundalini-yoga:p1.s1",
+    "last": "s019-essence-of-kundalini-yoga:p27.s1",
+    "count": 288
+   }
+  },
+  {
+   "id": "s020-preliminary",
+   "heading": "PRELIMINARY",
+   "part": "preliminary",
+   "words": 37,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Opening invocation of the Preliminary part: homage to Patanjali, Vyasa and the masters.",
+   "key_terms": [
+    "guru"
+   ],
+   "passages": {
+    "first": "s020-preliminary:p1.s1",
+    "last": "s020-preliminary:p1.s1",
+    "count": 1
+   }
+  },
+  {
+   "id": "s021-foundationvairagya",
+   "heading": "Foundation–Vairagya",
+   "part": "preliminary",
+   "words": 624,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Dispassion as the foundation: worldly pleasures cannot give lasting peace.",
+   "key_terms": [
+    "guru",
+    "chakra"
+   ],
+   "passages": {
+    "first": "s021-foundationvairagya:p1.s1",
+    "last": "s021-foundationvairagya:p9.s10",
+    "count": 53
+   }
+  },
+  {
+   "id": "s022-what-is-yoga",
+   "heading": "What Is Yoga?",
+   "part": "preliminary",
+   "words": 186,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Definitions of yoga as union and as stilling the mind's movements.",
+   "key_terms": [
+    "samadhi",
+    "chakra",
+    "kundalini",
+    "vairagya"
+   ],
+   "passages": {
+    "first": "s022-what-is-yoga:p1.s1",
+    "last": "s022-what-is-yoga:p2.s5",
+    "count": 11
+   }
+  },
+  {
+   "id": "s023-the-importance-of-kundalini-yoga",
+   "heading": "The Importance Of Kundalini Yoga",
+   "part": "preliminary",
+   "words": 448,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Why Kundalini Yoga matters: union of the body's shakti with Siva brings samadhi and knowledge.",
+   "key_terms": [
+    "kundalini",
+    "shakti",
+    "chakra",
+    "samadhi",
+    "shiva",
+    "sahasrara",
+    "concentration",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s023-the-importance-of-kundalini-yoga:p1.s1",
+    "last": "s023-the-importance-of-kundalini-yoga:p2.s21",
+    "count": 26
+   }
+  },
+  {
+   "id": "s024-important-qualifications-of-a-sadhaka",
+   "heading": "Important Qualifications Of A Sadhaka",
+   "part": "preliminary",
+   "words": 374,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Who is fit to practise: vitality, calm, faith, moderation, ethical virtues, openness to the guru, little talk.",
+   "key_terms": [
+    "guru",
+    "brahmacharya",
+    "chakra",
+    "kundalini",
+    "mitahara",
+    "mouna"
+   ],
+   "passages": {
+    "first": "s024-important-qualifications-of-a-sadhaka:p1.s1",
+    "last": "s024-important-qualifications-of-a-sadhaka:p10.s8",
+    "count": 24
+   }
+  },
+  {
+   "id": "s025-yogic-diet",
+   "heading": "Yogic Diet",
+   "part": "preliminary",
+   "words": 220,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Conduct and diet for the practitioner: discipline, gentleness, moderation; gluttony and sense-slavery block progress.",
+   "key_terms": [
+    "diet",
+    "granthi",
+    "guru",
+    "mitahara",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s025-yogic-diet:p1.s1",
+    "last": "s025-yogic-diet:p7.s1",
+    "count": 17
+   }
+  },
+  {
+   "id": "s026-sattvic-articles",
+   "heading": "Sattvic Articles",
+   "part": "preliminary",
+   "words": 234,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "List of sattvic foods recommended for practitioners (milk, grains, dal, certain vegetables and fruits).",
+   "key_terms": [
+    "diet",
+    "concentration"
+   ],
+   "passages": {
+    "first": "s026-sattvic-articles:p1.s1",
+    "last": "s026-sattvic-articles:p4.s8",
+    "count": 19
+   }
+  },
+  {
+   "id": "s027-forbidden-articles",
+   "heading": "Forbidden Articles",
+   "part": "preliminary",
+   "words": 271,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Foods to avoid: sour, hot, pungent, meat, eggs, fish, garlic, onion, alcohol, stale food.",
+   "key_terms": [
+    "diet"
+   ],
+   "passages": {
+    "first": "s027-forbidden-articles:p1.s1",
+    "last": "s027-forbidden-articles:p6.s3",
+    "count": 24
+   }
+  },
+  {
+   "id": "s028-mitahara",
+   "heading": "Mitahara",
+   "part": "preliminary",
+   "words": 507,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Moderate eating (half food, quarter water, quarter empty); change diet gradually; fast rarely; no fuss about diet.",
+   "key_terms": [
+    "diet",
+    "mitahara",
+    "asana",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s028-mitahara:p1.s1",
+    "last": "s028-mitahara:p4.s7",
+    "count": 42
+   }
+  },
+  {
+   "id": "s029-the-place-for-yoga-sadhana",
+   "heading": "The Place For Yoga Sadhana",
+   "part": "preliminary",
+   "words": 614,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The place: secluded, clean, dry, quiet, ventilated room kept only for practice; stay in one place; a seat neither high nor low.",
+   "key_terms": [
+    "diet",
+    "asana"
+   ],
+   "passages": {
+    "first": "s029-the-place-for-yoga-sadhana:p1.s1",
+    "last": "s029-the-place-for-yoga-sadhana:p6.s5",
+    "count": 48
+   }
+  },
+  {
+   "id": "s030-the-time",
+   "heading": "The Time",
+   "part": "preliminary",
+   "words": 155,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The time: cool hours and early morning; not on a full stomach; bathe before rather than after; not when agitated.",
+   "key_terms": [],
+   "passages": {
+    "first": "s030-the-time:p1.s1",
+    "last": "s030-the-time:p2.s4",
+    "count": 11
+   }
+  },
+  {
+   "id": "s031-the-age",
+   "heading": "The Age",
+   "part": "preliminary",
+   "words": 117,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Age: limited practice under 18; best between 20 and 40; healthy people may begin after 50.",
+   "key_terms": [
+    "concentration"
+   ],
+   "passages": {
+    "first": "s031-the-age:p1.s1",
+    "last": "s031-the-age:p1.s7",
+    "count": 7
+   }
+  },
+  {
+   "id": "s032-necessity-for-a-yogic-guru",
+   "heading": "Necessity For A Yogic Guru",
+   "part": "preliminary",
+   "words": 546,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "A teacher is needed for the practice, especially advanced Kundalini work; easy lessons may be done at home.",
+   "key_terms": [
+    "guru",
+    "chakra",
+    "granthi",
+    "kundalini",
+    "apana",
+    "diet",
+    "nadi",
+    "prana"
+   ],
+   "passages": {
+    "first": "s032-necessity-for-a-yogic-guru:p1.s1",
+    "last": "s032-necessity-for-a-yogic-guru:p5.s3",
+    "count": 31
+   }
+  },
+  {
+   "id": "s033-who-is-a-guru",
+   "heading": "Who Is A Guru?",
+   "part": "preliminary",
+   "words": 1268,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Who a guru is and the disciple's attitude toward him.",
+   "key_terms": [
+    "guru",
+    "kundalini",
+    "brahmacharya",
+    "mantra",
+    "om"
+   ],
+   "passages": {
+    "first": "s033-who-is-a-guru:p1.s1",
+    "last": "s033-who-is-a-guru:p12.s10",
+    "count": 103
+   }
+  },
+  {
+   "id": "s034-spiritual-power",
+   "heading": "Spiritual Power",
+   "part": "preliminary",
+   "words": 472,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Transmission of spiritual power (shakti sanchara) by touch, sight or thought.",
+   "key_terms": [
+    "guru",
+    "shakti",
+    "asana",
+    "samadhi",
+    "chakra",
+    "kundalini",
+    "muladhara",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s034-spiritual-power:p1.s1",
+    "last": "s034-spiritual-power:p8.s1",
+    "count": 44
+   }
+  },
+  {
+   "id": "s035-yoga-nadis",
+   "heading": "Yoga Nadis",
+   "part": "kundalini-theory",
+   "words": 482,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Nadis as subtle channels of prana and their numbers.",
+   "key_terms": [
+    "nadi",
+    "chakra",
+    "sushumna",
+    "kundalini",
+    "kanda",
+    "ida",
+    "muladhara",
+    "pingala"
+   ],
+   "passages": {
+    "first": "s035-yoga-nadis:p1.s1",
+    "last": "s035-yoga-nadis:p7.s4",
+    "count": 33
+   }
+  },
+  {
+   "id": "s036-spinal-column",
+   "heading": "Spinal Column",
+   "part": "kundalini-theory",
+   "words": 405,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The spinal column (meru danda) as the axis on which the centres sit.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "anahata",
+    "ida",
+    "manipura",
+    "muladhara",
+    "pingala",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s036-spinal-column:p1.s1",
+    "last": "s036-spinal-column:p8.s3",
+    "count": 28
+   }
+  },
+  {
+   "id": "s037-sukshma-sarira",
+   "heading": "Sukshma Sarira",
+   "part": "kundalini-theory",
+   "words": 136,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The subtle body inside the physical one.",
+   "key_terms": [],
+   "passages": {
+    "first": "s037-sukshma-sarira:p1.s1",
+    "last": "s037-sukshma-sarira:p1.s9",
+    "count": 9
+   }
+  },
+  {
+   "id": "s038-kanda",
+   "heading": "Kanda",
+   "part": "kundalini-theory",
+   "words": 193,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The kanda, egg-shaped root of the nadis just above the root centre.",
+   "key_terms": [
+    "kanda",
+    "chakra",
+    "muladhara",
+    "nadi",
+    "granthi",
+    "prana",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s038-kanda:p1.s1",
+    "last": "s038-kanda:p2.s6",
+    "count": 13
+   }
+  },
+  {
+   "id": "s039-spinal-cord",
+   "heading": "Spinal Cord",
+   "part": "kundalini-theory",
+   "words": 329,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The spinal cord in Western anatomy as a frame for the subtle teaching.",
+   "key_terms": [
+    "chakra",
+    "sahasrara",
+    "brahmarandhra",
+    "kundalini",
+    "muladhara",
+    "nadi"
+   ],
+   "passages": {
+    "first": "s039-spinal-cord:p1.s1",
+    "last": "s039-spinal-cord:p3.s7",
+    "count": 23
+   }
+  },
+  {
+   "id": "s040-sushumna-nadi",
+   "heading": "Sushumna Nadi",
+   "part": "kundalini-theory",
+   "words": 499,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sushumna, the central channel, and its inner layers.",
+   "key_terms": [
+    "nadi",
+    "sushumna",
+    "chakra",
+    "kundalini",
+    "muladhara",
+    "brahmarandhra",
+    "ajna",
+    "anahata"
+   ],
+   "passages": {
+    "first": "s040-sushumna-nadi:p1.s1",
+    "last": "s040-sushumna-nadi:p7.s5",
+    "count": 35
+   }
+  },
+  {
+   "id": "s041-para-sympathetic-and-sympathetic-system",
+   "heading": "Para-Sympathetic And Sympathetic System",
+   "part": "kundalini-theory",
+   "words": 189,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sympathetic and parasympathetic chains compared with the side channels.",
+   "key_terms": [],
+   "passages": {
+    "first": "s041-para-sympathetic-and-sympathetic-system:p1.s1",
+    "last": "s041-para-sympathetic-and-sympathetic-system:p1.s12",
+    "count": 12
+   }
+  },
+  {
+   "id": "s042-ida-and-pingala-nadis",
+   "heading": "Ida And Pingala Nadis",
+   "part": "kundalini-theory",
+   "words": 266,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Ida and pingala: where they run and meet, and their moon/sun qualities.",
+   "key_terms": [
+    "pingala",
+    "ida",
+    "nadi",
+    "sushumna",
+    "chakra",
+    "prana",
+    "muladhara",
+    "ajna"
+   ],
+   "passages": {
+    "first": "s042-ida-and-pingala-nadis:p1.s1",
+    "last": "s042-ida-and-pingala-nadis:p3.s13",
+    "count": 23
+   }
+  },
+  {
+   "id": "s043-svara-sadhana",
+   "heading": "Svara Sadhana",
+   "part": "kundalini-theory",
+   "words": 107,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Science of the breath's flow (svara): which acts suit which nostril's flow.",
+   "key_terms": [
+    "ida",
+    "pingala",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s043-svara-sadhana:p1.s1",
+    "last": "s043-svara-sadhana:p1.s6",
+    "count": 6
+   }
+  },
+  {
+   "id": "s044-how-to-change-the-flow-in-nadis",
+   "heading": "How To Change The Flow In Nadis",
+   "part": "kundalini-theory",
+   "words": 502,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "change-nostril-flow",
+   "paraphrase": "Simple ways to switch the dominant nostril (block one side, lie on one side, armpit pressure); two methods use nauli or khechari and are excluded.",
+   "key_terms": [
+    "pingala",
+    "ida",
+    "khechari",
+    "kundalini",
+    "nadi",
+    "nauli",
+    "om",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s044-how-to-change-the-flow-in-nadis:p1.s1",
+    "last": "s044-how-to-change-the-flow-in-nadis:p11.s11",
+    "count": 38
+   }
+  },
+  {
+   "id": "s045-other-nadis",
+   "heading": "Other Nadis",
+   "part": "kundalini-theory",
+   "words": 82,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Names of other nadis branching from the kanda.",
+   "key_terms": [
+    "nadi",
+    "ida",
+    "kanda",
+    "pingala",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s045-other-nadis:p1.s1",
+    "last": "s045-other-nadis:p1.s6",
+    "count": 6
+   }
+  },
+  {
+   "id": "s046-padmas-or-chakras",
+   "heading": "Padmas Or Chakras",
+   "part": "kundalini-theory",
+   "words": 663,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The chakras in the subtle body and their gross correspondences.",
+   "key_terms": [
+    "chakra",
+    "prana",
+    "sushumna",
+    "kundalini",
+    "muladhara",
+    "nadi",
+    "sahasrara",
+    "tattva"
+   ],
+   "passages": {
+    "first": "s046-padmas-or-chakras:p1.s1",
+    "last": "s046-padmas-or-chakras:p6.s5",
+    "count": 44
+   }
+  },
+  {
+   "id": "s047-petals-on-chakras",
+   "heading": "Petals On Chakras",
+   "part": "kundalini-theory",
+   "words": 195,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Petals of each chakra and the Sanskrit letters on them.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "kundalini",
+    "muladhara",
+    "ajna",
+    "anahata",
+    "brahmarandhra",
+    "concentration"
+   ],
+   "passages": {
+    "first": "s047-petals-on-chakras:p1.s1",
+    "last": "s047-petals-on-chakras:p2.s11",
+    "count": 16
+   }
+  },
+  {
+   "id": "s048-muladhara-chakra",
+   "heading": "Muladhara Chakra",
+   "part": "kundalini-theory",
+   "words": 422,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Muladhara: location, element, form, deity, seed syllable; meditating on it is said to give knowledge of Kundalini and how to wake it.",
+   "key_terms": [
+    "chakra",
+    "muladhara",
+    "kundalini",
+    "nadi",
+    "granthi",
+    "bija",
+    "ajna",
+    "anahata"
+   ],
+   "passages": {
+    "first": "s048-muladhara-chakra:p1.s1",
+    "last": "s048-muladhara-chakra:p4.s7",
+    "count": 33
+   }
+  },
+  {
+   "id": "s049-svadhishthana-chakra",
+   "heading": "Svadhishthana Chakra",
+   "part": "kundalini-theory",
+   "words": 208,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Svadhishthana: location at the genital root, water element, symbols.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "svadhishthana",
+    "bija",
+    "concentration",
+    "sushumna",
+    "tattva"
+   ],
+   "passages": {
+    "first": "s049-svadhishthana-chakra:p1.s1",
+    "last": "s049-svadhishthana-chakra:p3.s6",
+    "count": 17
+   }
+  },
+  {
+   "id": "s050-manipura-chakra",
+   "heading": "Manipura Chakra",
+   "part": "kundalini-theory",
+   "words": 205,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Manipura at the navel: fire element, ten petals, symbols.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "manipura",
+    "bija",
+    "concentration",
+    "muladhara",
+    "siddhi",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s050-manipura-chakra:p1.s1",
+    "last": "s050-manipura-chakra:p3.s4",
+    "count": 16
+   }
+  },
+  {
+   "id": "s051-anahata-chakra",
+   "heading": "Anahata Chakra",
+   "part": "kundalini-theory",
+   "words": 245,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Anahata at the heart: air element, twelve petals, symbols.",
+   "key_terms": [
+    "chakra",
+    "anahata",
+    "nadi",
+    "siddhi",
+    "tattva",
+    "bija",
+    "granthi",
+    "khechari"
+   ],
+   "passages": {
+    "first": "s051-anahata-chakra:p1.s1",
+    "last": "s051-anahata-chakra:p3.s3",
+    "count": 21
+   }
+  },
+  {
+   "id": "s052-vishuddha-chakra",
+   "heading": "Vishuddha Chakra",
+   "part": "kundalini-theory",
+   "words": 217,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Vishuddha at the throat: ether element, sixteen petals.",
+   "key_terms": [
+    "chakra",
+    "tattva",
+    "concentration",
+    "nadi",
+    "vishuddha",
+    "bija",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s052-vishuddha-chakra:p1.s1",
+    "last": "s052-vishuddha-chakra:p3.s1",
+    "count": 19
+   }
+  },
+  {
+   "id": "s053-ajna-chakra",
+   "heading": "Ajna Chakra",
+   "part": "kundalini-theory",
+   "words": 229,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Ajna between the eyebrows: seat of mind, two petals, Om as seed.",
+   "key_terms": [
+    "chakra",
+    "om",
+    "nadi",
+    "ajna",
+    "concentration",
+    "granthi",
+    "shakti",
+    "nada"
+   ],
+   "passages": {
+    "first": "s053-ajna-chakra:p1.s1",
+    "last": "s053-ajna-chakra:p3.s7",
+    "count": 20
+   }
+  },
+  {
+   "id": "s054-the-brain",
+   "heading": "The Brain",
+   "part": "kundalini-theory",
+   "words": 548,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The brain and cranial nerves in anatomical terms.",
+   "key_terms": [
+    "kundalini",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s054-the-brain:p1.s1",
+    "last": "s054-the-brain:p9.s4",
+    "count": 35
+   }
+  },
+  {
+   "id": "s055-brahmarandhra",
+   "heading": "Brahmarandhra",
+   "part": "kundalini-theory",
+   "words": 178,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Brahmarandhra, the crown aperture (the fontanelle), called the dwelling of the soul.",
+   "key_terms": [
+    "brahmarandhra",
+    "prana",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s055-brahmarandhra:p1.s1",
+    "last": "s055-brahmarandhra:p1.s14",
+    "count": 14
+   }
+  },
+  {
+   "id": "s056-sahasrara-chakra",
+   "heading": "Sahasrara Chakra",
+   "part": "kundalini-theory",
+   "words": 226,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sahasrara at the crown, abode of Siva and goal of the ascent.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "sahasrara",
+    "kundalini",
+    "shiva",
+    "ajna",
+    "anahata",
+    "manipura"
+   ],
+   "passages": {
+    "first": "s056-sahasrara-chakra:p1.s1",
+    "last": "s056-sahasrara-chakra:p3.s7",
+    "count": 21
+   }
+  },
+  {
+   "id": "s057-lalana-chakra",
+   "heading": "Lalana Chakra",
+   "part": "kundalini-theory",
+   "words": 89,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Lalana, a minor centre between ajna and the crown.",
+   "key_terms": [
+    "chakra",
+    "nadi",
+    "ajna",
+    "bija",
+    "concentration",
+    "guru",
+    "om",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s057-lalana-chakra:p1.s1",
+    "last": "s057-lalana-chakra:p1.s6",
+    "count": 6
+   }
+  },
+  {
+   "id": "s058-summary-of-the-previous-lessons",
+   "heading": "Summary Of The Previous Lessons",
+   "part": "kundalini-theory",
+   "words": 277,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Recap of the earlier lessons: purity, discipline, guru, nadis and chakras.",
+   "key_terms": [
+    "nadi",
+    "chakra",
+    "ida",
+    "pingala",
+    "sushumna",
+    "kanda",
+    "kundalini",
+    "ajna"
+   ],
+   "passages": {
+    "first": "s058-summary-of-the-previous-lessons:p1.s1",
+    "last": "s058-summary-of-the-previous-lessons:p2.s16",
+    "count": 20
+   }
+  },
+  {
+   "id": "s059-the-mysterious-kundalini",
+   "heading": "The Mysterious Kundalini",
+   "part": "kundalini-theory",
+   "words": 599,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The mystery of Kundalini, with a hymn: the Goddess as all the elements.",
+   "key_terms": [
+    "kundalini",
+    "prana",
+    "shakti",
+    "nadi",
+    "chakra",
+    "muladhara",
+    "nada",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s059-the-mysterious-kundalini:p1.s1",
+    "last": "s059-the-mysterious-kundalini:p8.s1",
+    "count": 49
+   }
+  },
+  {
+   "id": "s060-how-to-awaken-the-kundalini",
+   "heading": "How To Awaken The Kundalini",
+   "part": "yoga-sadhana",
+   "words": 1273,
+   "label": "rules",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Prerequisites and warnings for awakening Kundalini: purity first, a guide, gradual practice; forced awakening harms; the six cleansing acts listed.",
+   "key_terms": [
+    "kundalini",
+    "chakra",
+    "sahasrara",
+    "guru",
+    "shakti",
+    "nadi",
+    "samadhi",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s060-how-to-awaken-the-kundalini:p1.s1",
+    "last": "s060-how-to-awaken-the-kundalini:p13.s2",
+    "count": 75
+   }
+  },
+  {
+   "id": "s061-dhauti",
+   "heading": "1. Dhauti",
+   "part": "yoga-sadhana",
+   "words": 583,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Dhauti: swallowing a long cloth strip and other internal cleansing.",
+   "key_terms": [
+    "dhauti",
+    "diet",
+    "apana",
+    "nauli",
+    "uddiyana-bandha"
+   ],
+   "passages": {
+    "first": "s061-dhauti:p1.s1",
+    "last": "s061-dhauti:p6.s3",
+    "count": 50
+   }
+  },
+  {
+   "id": "s062-basti",
+   "heading": "2. Basti",
+   "part": "yoga-sadhana",
+   "words": 292,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Basti: yogic enema by abdominal churning or a tube in water.",
+   "key_terms": [
+    "basti"
+   ],
+   "passages": {
+    "first": "s062-basti:p1.s1",
+    "last": "s062-basti:p3.s16",
+    "count": 25
+   }
+  },
+  {
+   "id": "s063-neti",
+   "heading": "3. Neti",
+   "part": "yoga-sadhana",
+   "words": 357,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Neti: thread through the nose (teacher-only); a short paragraph on sniffing water could be split out later as needs-review.",
+   "key_terms": [
+    "neti"
+   ],
+   "passages": {
+    "first": "s063-neti:p1.s1",
+    "last": "s063-neti:p5.s4",
+    "count": 29
+   }
+  },
+  {
+   "id": "s064-nauli",
+   "heading": "4. Nauli",
+   "part": "yoga-sadhana",
+   "words": 823,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Nauli: isolating and churning the abdominal muscles after full exhalation.",
+   "key_terms": [
+    "nauli",
+    "uddiyana-bandha",
+    "asana",
+    "basti"
+   ],
+   "passages": {
+    "first": "s064-nauli:p1.s1",
+    "last": "s064-nauli:p11.s7",
+    "count": 61
+   }
+  },
+  {
+   "id": "s065-trataka",
+   "heading": "5. Trataka",
+   "part": "yoga-sadhana",
+   "words": 1395,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "trataka",
+   "paraphrase": "Steady gazing at a picture, dot, Om, flame etc., then closing the eyes to see it inwardly; start at two minutes. Sun-gazing is teacher-only.",
+   "key_terms": [
+    "trataka",
+    "siddhi",
+    "asana",
+    "ajna",
+    "anahata",
+    "chakra",
+    "concentration",
+    "guru"
+   ],
+   "passages": {
+    "first": "s065-trataka:p1.s1",
+    "last": "s065-trataka:p23.s13",
+    "count": 112
+   }
+  },
+  {
+   "id": "s066-kapalabhati",
+   "heading": "6. Kapalabhati",
+   "part": "yoga-sadhana",
+   "words": 253,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "kapalabhati",
+   "paraphrase": "Rapid forcible exhalations from the abdomen with passive inhalation and no hold; 1 per second, 10 per round rising to 120.",
+   "key_terms": [
+    "kapalabhati",
+    "bhastrika",
+    "pranayama",
+    "rechaka",
+    "puraka",
+    "kumbhaka",
+    "nadi",
+    "chakra"
+   ],
+   "passages": {
+    "first": "s066-kapalabhati:p1.s1",
+    "last": "s066-kapalabhati:p3.s10",
+    "count": 25
+   }
+  },
+  {
+   "id": "s067-what-is-prana",
+   "heading": "What Is Prana?",
+   "part": "pranayama",
+   "words": 436,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "What prana is: the universal energy behind all movement.",
+   "key_terms": [
+    "prana",
+    "nadi",
+    "tattva",
+    "apana"
+   ],
+   "passages": {
+    "first": "s067-what-is-prana:p1.s1",
+    "last": "s067-what-is-prana:p5.s2",
+    "count": 26
+   }
+  },
+  {
+   "id": "s068-five-pranas",
+   "heading": "Five Pranas",
+   "part": "pranayama",
+   "words": 409,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The five pranas and their seats and functions.",
+   "key_terms": [
+    "prana",
+    "nadi",
+    "chakra",
+    "pranayama",
+    "kundalini",
+    "anahata",
+    "apana",
+    "manipura"
+   ],
+   "passages": {
+    "first": "s068-five-pranas:p1.s1",
+    "last": "s068-five-pranas:p40.s5",
+    "count": 61
+   }
+  },
+  {
+   "id": "s069-pranayama",
+   "heading": "Pranayama",
+   "part": "pranayama",
+   "words": 59,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The many kinds of pranayama; only some appear in the hatha texts.",
+   "key_terms": [
+    "pranayama",
+    "bhastrika",
+    "kevala",
+    "kumbhaka",
+    "sitali",
+    "suryabheda",
+    "ujjayi"
+   ],
+   "passages": {
+    "first": "s069-pranayama:p1.s1",
+    "last": "s069-pranayama:p1.s2",
+    "count": 2
+   }
+  },
+  {
+   "id": "s070-nadi-suddhi",
+   "heading": "Nadi Suddhi",
+   "part": "pranayama",
+   "words": 231,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": true,
+   "candidate": "nadi-suddhi-bija",
+   "paraphrase": "Nadi purification with seed syllables: 16 counts in, 64 held, 32 out, cycling Yam, Ram, Tham, Vam, Lam with imagery. Long retention.",
+   "key_terms": [
+    "bija",
+    "japa",
+    "nadi",
+    "kumbhaka",
+    "ida",
+    "pranayama",
+    "guru",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s070-nadi-suddhi:p1.s1",
+    "last": "s070-nadi-suddhi:p2.s1",
+    "count": 12
+   }
+  },
+  {
+   "id": "s071-sukha-purvaka",
+   "heading": "1. Sukha Purvaka",
+   "part": "pranayama",
+   "words": 281,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "sukha-purvaka",
+   "paraphrase": "Easy alternate-nostril breath 3:12:6 Oms (1:4:2) with root lock and attention at the root centre; 6 rounds rising to 20.",
+   "key_terms": [
+    "kundalini",
+    "pranayama",
+    "chakra",
+    "concentration",
+    "om",
+    "kumbhaka",
+    "muladhara",
+    "prana"
+   ],
+   "passages": {
+    "first": "s071-sukha-purvaka:p1.s1",
+    "last": "s071-sukha-purvaka:p4.s2",
+    "count": 27
+   }
+  },
+  {
+   "id": "s072-bhastrika",
+   "heading": "2. Bhastrika",
+   "part": "pranayama",
+   "words": 282,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "bhastrika",
+   "paraphrase": "Bellows breath: 10 to 25 rapid breaths, then a deep inhale held comfortably and a slow exhale; 3 rounds to start.",
+   "key_terms": [
+    "pranayama",
+    "bhastrika",
+    "asana",
+    "granthi",
+    "kumbhaka",
+    "prana"
+   ],
+   "passages": {
+    "first": "s072-bhastrika:p1.s1",
+    "last": "s072-bhastrika:p4.s5",
+    "count": 23
+   }
+  },
+  {
+   "id": "s073-suryabheda",
+   "heading": "3. Suryabheda",
+   "part": "pranayama",
+   "words": 202,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": true,
+   "candidate": "suryabheda",
+   "paraphrase": "Inhale through the right nostril, hold with chin lock until sweat appears, exhale left. The hold makes it teacher-only.",
+   "key_terms": [
+    "kumbhaka",
+    "suryabheda",
+    "jalandhara-bandha",
+    "kundalini",
+    "padmasana",
+    "pranayama",
+    "siddhasana"
+   ],
+   "passages": {
+    "first": "s073-suryabheda:p1.s1",
+    "last": "s073-suryabheda:p4.s4",
+    "count": 17
+   }
+  },
+  {
+   "id": "s074-ujjayi",
+   "heading": "4. Ujjayi",
+   "part": "pranayama",
+   "words": 191,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "ujjayi",
+   "paraphrase": "Slow inhale through both nostrils with a soft throat sound, comfortable hold, exhale through the left; may be done walking.",
+   "key_terms": [
+    "ujjayi",
+    "asana",
+    "kumbhaka",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s074-ujjayi:p1.s1",
+    "last": "s074-ujjayi:p3.s9",
+    "count": 19
+   }
+  },
+  {
+   "id": "s075-plavini",
+   "heading": "5. Plavini",
+   "part": "pranayama",
+   "words": 147,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Plavini: swallowing air into the stomach to float; needs an expert.",
+   "key_terms": [
+    "pranayama",
+    "diet",
+    "kumbhaka",
+    "uddiyana-bandha"
+   ],
+   "passages": {
+    "first": "s075-plavini:p1.s1",
+    "last": "s075-plavini:p1.s11",
+    "count": 11
+   }
+  },
+  {
+   "id": "s076-pranic-healing",
+   "heading": "6. Pranic Healing",
+   "part": "pranayama",
+   "words": 492,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Pranic healing: directing prana by touch or attention to heal; medical claims, never shipped as treatment.",
+   "key_terms": [
+    "prana",
+    "pranayama",
+    "concentration",
+    "kumbhaka",
+    "mantra",
+    "padmasana"
+   ],
+   "passages": {
+    "first": "s076-pranic-healing:p1.s1",
+    "last": "s076-pranic-healing:p2.s23",
+    "count": 44
+   }
+  },
+  {
+   "id": "s077-distant-healing",
+   "heading": "7. Distant Healing",
+   "part": "pranayama",
+   "words": 182,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Distant healing: sending prana to a patient far away by appointment; medical claims.",
+   "key_terms": [
+    "prana",
+    "kumbhaka"
+   ],
+   "passages": {
+    "first": "s077-distant-healing:p1.s1",
+    "last": "s077-distant-healing:p3.s8",
+    "count": 18
+   }
+  },
+  {
+   "id": "s078-importance-of-pranayama",
+   "heading": "Importance Of Pranayama",
+   "part": "pranayama",
+   "words": 258,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Why pranayama matters for mind control.",
+   "key_terms": [
+    "pranayama",
+    "concentration",
+    "prana",
+    "tattva",
+    "vairagya"
+   ],
+   "passages": {
+    "first": "s078-importance-of-pranayama:p1.s1",
+    "last": "s078-importance-of-pranayama:p2.s8",
+    "count": 17
+   }
+  },
+  {
+   "id": "s079-benefits-of-pranayama",
+   "heading": "Benefits Of Pranayama",
+   "part": "pranayama",
+   "words": 152,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Claimed benefits of pranayama.",
+   "key_terms": [
+    "brahmacharya",
+    "anahata",
+    "concentration",
+    "nada",
+    "nadi"
+   ],
+   "passages": {
+    "first": "s079-benefits-of-pranayama:p1.s1",
+    "last": "s079-benefits-of-pranayama:p1.s22",
+    "count": 22
+   }
+  },
+  {
+   "id": "s080-instructions-on-pranayama",
+   "heading": "Instructions On Pranayama",
+   "part": "pranayama",
+   "words": 902,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Eighteen practical rules for pranayama: time, clean nostrils, no strain, beginners skip the hold (1:2), build the hold slowly, no suffocation.",
+   "key_terms": [
+    "pranayama",
+    "rechaka",
+    "kumbhaka",
+    "puraka",
+    "japa",
+    "asana",
+    "bhastrika",
+    "concentration"
+   ],
+   "passages": {
+    "first": "s080-instructions-on-pranayama:p1.s1",
+    "last": "s080-instructions-on-pranayama:p18.s7",
+    "count": 68
+   }
+  },
+  {
+   "id": "s081-importance-of-asanas",
+   "heading": "Importance Of Asanas",
+   "part": "asanas",
+   "words": 474,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The four meditation seats and the aim of sitting still for long periods.",
+   "key_terms": [
+    "asana",
+    "concentration",
+    "padmasana",
+    "guru",
+    "japa",
+    "kundalini",
+    "pranayama",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s081-importance-of-asanas:p1.s1",
+    "last": "s081-importance-of-asanas:p6.s2",
+    "count": 37
+   }
+  },
+  {
+   "id": "s082-padmasana-lotus-pose",
+   "heading": "1. Padmasana (Lotus Pose)",
+   "part": "asanas",
+   "words": 146,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Padmasana (lotus): how to sit; a seat for the breath practices.",
+   "key_terms": [
+    "asana",
+    "padmasana",
+    "japa"
+   ],
+   "passages": {
+    "first": "s082-padmasana-lotus-pose:p1.s1",
+    "last": "s082-padmasana-lotus-pose:p3.s1",
+    "count": 13
+   }
+  },
+  {
+   "id": "s083-siddhasana-the-perfect-pose",
+   "heading": "2. Siddhasana (The Perfect Pose)",
+   "part": "asanas",
+   "words": 127,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Siddhasana: heel placement; a seat for the breath practices.",
+   "key_terms": [
+    "asana",
+    "padmasana",
+    "siddhasana",
+    "brahmacharya",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s083-siddhasana-the-perfect-pose:p1.s1",
+    "last": "s083-siddhasana-the-perfect-pose:p4.s1",
+    "count": 14
+   }
+  },
+  {
+   "id": "s084-svastikasana-prosperous-pose",
+   "heading": "3. Svastikasana (Prosperous Pose)",
+   "part": "asanas",
+   "words": 113,
+   "label": "practice",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Svastikasana and the simpler samasana.",
+   "key_terms": [
+    "asana"
+   ],
+   "passages": {
+    "first": "s084-svastikasana-prosperous-pose:p1.s1",
+    "last": "s084-svastikasana-prosperous-pose:p2.s4",
+    "count": 11
+   }
+  },
+  {
+   "id": "s085-sukhasana",
+   "heading": "4. Sukhasana",
+   "part": "asanas",
+   "words": 277,
+   "label": "practice",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sukhasana: any easy cross-legged seat with head, neck and trunk in line; a supported variant for older people.",
+   "key_terms": [
+    "asana",
+    "japa",
+    "padmasana",
+    "siddhasana"
+   ],
+   "passages": {
+    "first": "s085-sukhasana:p1.s1",
+    "last": "s085-sukhasana:p2.s12",
+    "count": 19
+   }
+  },
+  {
+   "id": "s086-sirshasana-topsy-turvy-pose",
+   "heading": "5. Sirshasana (Topsy Turvy Pose)",
+   "part": "asanas",
+   "words": 492,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Headstand: build from 5 seconds by 15 seconds a week; long holds claimed. Physical asana, outside the engine's scope.",
+   "key_terms": [
+    "asana",
+    "sirshasana",
+    "anahata",
+    "brahmacharya",
+    "nada",
+    "prana",
+    "pranayama",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s086-sirshasana-topsy-turvy-pose:p1.s1",
+    "last": "s086-sirshasana-topsy-turvy-pose:p8.s4",
+    "count": 47
+   }
+  },
+  {
+   "id": "s087-sarvangasana-all-members-pose",
+   "heading": "6. Sarvangasana (All-Members Pose)",
+   "part": "asanas",
+   "words": 609,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Shoulder stand with chin lock, building from 2 minutes.",
+   "key_terms": [
+    "asana",
+    "kundalini",
+    "brahmacharya",
+    "concentration",
+    "jalandhara-bandha",
+    "shakti",
+    "sirshasana"
+   ],
+   "passages": {
+    "first": "s087-sarvangasana-all-members-pose:p1.s1",
+    "last": "s087-sarvangasana-all-members-pose:p7.s11",
+    "count": 58
+   }
+  },
+  {
+   "id": "s088-matsyasana-fish-posture",
+   "heading": "7. Matsyasana (Fish Posture)",
+   "part": "asanas",
+   "words": 340,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Fish pose, counter to the shoulder stand.",
+   "key_terms": [
+    "asana",
+    "padmasana",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s088-matsyasana-fish-posture:p1.s1",
+    "last": "s088-matsyasana-fish-posture:p7.s1",
+    "count": 30
+   }
+  },
+  {
+   "id": "s089-paschimottanasana",
+   "heading": "8. Paschimottanasana",
+   "part": "asanas",
+   "words": 381,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Seated forward bend.",
+   "key_terms": [
+    "asana",
+    "nadi",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s089-paschimottanasana:p1.s1",
+    "last": "s089-paschimottanasana:p6.s9",
+    "count": 35
+   }
+  },
+  {
+   "id": "s090-mayurasana-peacock-pose",
+   "heading": "9. Mayurasana (Peacock Pose)",
+   "part": "asanas",
+   "words": 459,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Peacock pose: balancing on the forearms.",
+   "key_terms": [
+    "asana",
+    "diet",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s090-mayurasana-peacock-pose:p1.s1",
+    "last": "s090-mayurasana-peacock-pose:p9.s7",
+    "count": 42
+   }
+  },
+  {
+   "id": "s091-ardha-matsyendrasana",
+   "heading": "10. Ardha Matsyendrasana",
+   "part": "asanas",
+   "words": 349,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Half spinal twist.",
+   "key_terms": [
+    "asana",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s091-ardha-matsyendrasana:p1.s1",
+    "last": "s091-ardha-matsyendrasana:p6.s5",
+    "count": 35
+   }
+  },
+  {
+   "id": "s092-vajrasana-the-adamantine-pose",
+   "heading": "11. Vajrasana (The Adamantine Pose)",
+   "part": "asanas",
+   "words": 273,
+   "label": "practice",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Vajrasana: kneeling seat, also after meals.",
+   "key_terms": [
+    "asana",
+    "diet",
+    "nadi",
+    "kanda"
+   ],
+   "passages": {
+    "first": "s092-vajrasana-the-adamantine-pose:p1.s1",
+    "last": "s092-vajrasana-the-adamantine-pose:p5.s7",
+    "count": 27
+   }
+  },
+  {
+   "id": "s093-urdhva-padmasana-above-lotus-pose",
+   "heading": "12. Urdhva Padmasana (Above Lotus Pose)",
+   "part": "asanas",
+   "words": 86,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Lotus legs in a headstand; only for those who hold a headstand 10 to 15 minutes.",
+   "key_terms": [
+    "sirshasana",
+    "asana",
+    "padmasana"
+   ],
+   "passages": {
+    "first": "s093-urdhva-padmasana-above-lotus-pose:p1.s1",
+    "last": "s093-urdhva-padmasana-above-lotus-pose:p2.s1",
+    "count": 8
+   }
+  },
+  {
+   "id": "s094-instructions-on-asanas",
+   "heading": "Instructions On Asanas",
+   "part": "asanas",
+   "words": 663,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Twenty instructions on asanas: empty stomach, regularity, a fixed set, steadiness, mild breath-holding.",
+   "key_terms": [
+    "asana",
+    "om",
+    "pranayama",
+    "diet",
+    "japa",
+    "sirshasana",
+    "concentration",
+    "kumbhaka"
+   ],
+   "passages": {
+    "first": "s094-instructions-on-asanas:p1.s1",
+    "last": "s094-instructions-on-asanas:p20.s4",
+    "count": 51
+   }
+  },
+  {
+   "id": "s095-exercises",
+   "heading": "Exercises",
+   "part": "mudras-bandhas",
+   "words": 173,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Mudras and bandhas in general and the twelve the book teaches; claimed cures.",
+   "key_terms": [
+    "brahmacharya",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s095-exercises:p1.s1",
+    "last": "s095-exercises:p6.s2",
+    "count": 12
+   }
+  },
+  {
+   "id": "s096-mula-bandha",
+   "heading": "1. Mula Bandha",
+   "part": "mudras-bandhas",
+   "words": 229,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "mula-bandha",
+   "paraphrase": "Root lock: contract the anus and draw the downward energy up; can be added to pranayama and meditation.",
+   "key_terms": [
+    "apana",
+    "mula-bandha",
+    "prana",
+    "nada",
+    "pranayama",
+    "anahata",
+    "brahmacharya",
+    "chakra"
+   ],
+   "passages": {
+    "first": "s096-mula-bandha:p1.s1",
+    "last": "s096-mula-bandha:p2.s3",
+    "count": 19
+   }
+  },
+  {
+   "id": "s097-jalandhara-bandha",
+   "heading": "2. Jalandhara Bandha",
+   "part": "mudras-bandhas",
+   "words": 66,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "jalandhara-bandha",
+   "paraphrase": "Chin lock: chin pressed to the chest, used during the held breath.",
+   "key_terms": [
+    "kumbhaka",
+    "chakra",
+    "puraka",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s097-jalandhara-bandha:p1.s1",
+    "last": "s097-jalandhara-bandha:p1.s6",
+    "count": 6
+   }
+  },
+  {
+   "id": "s098-uddiyana-bandha",
+   "heading": "3. Uddiyana Bandha",
+   "part": "mudras-bandhas",
+   "words": 406,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "uddiyana-bandha",
+   "paraphrase": "Abdominal lock: after a full exhalation, draw the belly in and up; at the end of the hold.",
+   "key_terms": [
+    "uddiyana-bandha",
+    "nauli",
+    "brahmacharya",
+    "jalandhara-bandha",
+    "kumbhaka",
+    "mula-bandha",
+    "nadi",
+    "prana"
+   ],
+   "passages": {
+    "first": "s098-uddiyana-bandha:p1.s1",
+    "last": "s098-uddiyana-bandha:p6.s1",
+    "count": 30
+   }
+  },
+  {
+   "id": "s099-maha-mudra",
+   "heading": "4. Maha Mudra",
+   "part": "mudras-bandhas",
+   "words": 144,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "maha-mudra",
+   "paraphrase": "One heel at the perineum, other leg out, hold the toe, inhale and hold with chin lock and brow gaze; each side.",
+   "key_terms": [
+    "maha-mudra",
+    "jalandhara-bandha",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s099-maha-mudra:p1.s1",
+    "last": "s099-maha-mudra:p2.s7",
+    "count": 17
+   }
+  },
+  {
+   "id": "s100-maha-bandha",
+   "heading": "5. Maha Bandha",
+   "part": "mudras-bandhas",
+   "words": 81,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "maha-bandha",
+   "paraphrase": "Heel at the perineum, foot on the thigh, root lock and held breath with chin lock.",
+   "key_terms": [
+    "apana",
+    "jalandhara-bandha",
+    "maha-mudra",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s100-maha-bandha:p1.s1",
+    "last": "s100-maha-bandha:p1.s10",
+    "count": 10
+   }
+  },
+  {
+   "id": "s101-maha-vedha",
+   "heading": "6. Maha Vedha",
+   "part": "mudras-bandhas",
+   "words": 91,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Maha vedha: in the held breath, raise and gently drop the buttocks on the ground.",
+   "key_terms": [
+    "asana",
+    "maha-mudra"
+   ],
+   "passages": {
+    "first": "s101-maha-vedha:p1.s1",
+    "last": "s101-maha-vedha:p1.s12",
+    "count": 12
+   }
+  },
+  {
+   "id": "s102-yoga-mudra",
+   "heading": "7. Yoga Mudra",
+   "part": "mudras-bandhas",
+   "words": 78,
+   "label": "practice",
+   "tier": "beginner-ok",
+   "runnable_candidate": true,
+   "candidate": "yoga-mudra",
+   "paraphrase": "Sitting in lotus, exhale and fold forward until the forehead touches the ground.",
+   "key_terms": [
+    "padmasana"
+   ],
+   "passages": {
+    "first": "s102-yoga-mudra:p1.s1",
+    "last": "s102-yoga-mudra:p1.s8",
+    "count": 8
+   }
+  },
+  {
+   "id": "s103-viparitakarani-mudra",
+   "heading": "8. Viparitakarani Mudra",
+   "part": "mudras-bandhas",
+   "words": 146,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Viparitakarani: legs up with hands supporting the hips; time built from a minute.",
+   "key_terms": [
+    "sirshasana"
+   ],
+   "passages": {
+    "first": "s103-viparitakarani-mudra:p1.s1",
+    "last": "s103-viparitakarani-mudra:p1.s14",
+    "count": 14
+   }
+  },
+  {
+   "id": "s104-khechari-mudra",
+   "heading": "9. Khechari Mudra",
+   "part": "mudras-bandhas",
+   "words": 339,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Khechari mudra: lengthening the tongue by cutting the frenum and turning it back into the nasal cavity.",
+   "key_terms": [
+    "khechari",
+    "guru",
+    "ida",
+    "nadi",
+    "pingala",
+    "prana",
+    "siddhasana",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s104-khechari-mudra:p1.s1",
+    "last": "s104-khechari-mudra:p4.s6",
+    "count": 25
+   }
+  },
+  {
+   "id": "s105-vajroli-mudra",
+   "heading": "10. Vajroli Mudra",
+   "part": "mudras-bandhas",
+   "words": 393,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Vajroli mudra: urethral suction with a catheter.",
+   "key_terms": [
+    "vajroli",
+    "brahmacharya",
+    "yoni-mudra",
+    "asana",
+    "guru",
+    "maha-mudra",
+    "mula-bandha",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s105-vajroli-mudra:p1.s1",
+    "last": "s105-vajroli-mudra:p6.s2",
+    "count": 29
+   }
+  },
+  {
+   "id": "s106-shakti-chalana-mudra",
+   "heading": "11. Shakti Chalana Mudra",
+   "part": "mudras-bandhas",
+   "words": 85,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Shakti chalana: forceful breath and root lock to drive Kundalini up; beating the kanda with the foot.",
+   "key_terms": [
+    "kundalini",
+    "siddhasana",
+    "sushumna",
+    "apana",
+    "brahmarandhra",
+    "kanda",
+    "mula-bandha"
+   ],
+   "passages": {
+    "first": "s106-shakti-chalana-mudra:p1.s1",
+    "last": "s106-shakti-chalana-mudra:p2.s5",
+    "count": 9
+   }
+  },
+  {
+   "id": "s107-yoni-mudra",
+   "heading": "12. Yoni Mudra",
+   "part": "mudras-bandhas",
+   "words": 110,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "yoni-mudra",
+   "paraphrase": "Closing ears, eyes, nostrils and lips with the fingers to meditate on the centres; book calls it hard.",
+   "key_terms": [
+    "brahmacharya",
+    "chakra",
+    "japa",
+    "kundalini",
+    "siddhasana",
+    "vajroli",
+    "yoni-mudra"
+   ],
+   "passages": {
+    "first": "s107-yoni-mudra:p1.s1",
+    "last": "s107-yoni-mudra:p1.s10",
+    "count": 10
+   }
+  },
+  {
+   "id": "s108-other-mudras",
+   "heading": "Other Mudras",
+   "part": "mudras-bandhas",
+   "words": 35,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Other mudras named but not taught here.",
+   "key_terms": [],
+   "passages": {
+    "first": "s108-other-mudras:p1.s1",
+    "last": "s108-other-mudras:p1.s3",
+    "count": 3
+   }
+  },
+  {
+   "id": "s109-instructions-on-mudras-and-bandhas",
+   "heading": "Instructions On Mudras And Bandhas",
+   "part": "mudras-bandhas",
+   "words": 312,
+   "label": "rules",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Instructions on mudras: which go together and in which phase of breath, empty stomach, khechari/vajroli/shakti chalana only with a guru.",
+   "key_terms": [
+    "khechari",
+    "mula-bandha",
+    "uddiyana-bandha",
+    "asana",
+    "concentration",
+    "guru",
+    "jalandhara-bandha",
+    "japa"
+   ],
+   "passages": {
+    "first": "s109-instructions-on-mudras-and-bandhas:p1.s1",
+    "last": "s109-instructions-on-mudras-and-bandhas:p8.s2",
+    "count": 24
+   }
+  },
+  {
+   "id": "s110-laya-yoga",
+   "heading": "Laya Yoga",
+   "part": "miscellaneous",
+   "words": 98,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Laya yoga: absorption of the mind; trataka and sambhavi help.",
+   "key_terms": [
+    "chakra",
+    "concentration",
+    "prana",
+    "samadhi",
+    "tattva",
+    "trataka"
+   ],
+   "passages": {
+    "first": "s110-laya-yoga:p1.s1",
+    "last": "s110-laya-yoga:p2.s4",
+    "count": 8
+   }
+  },
+  {
+   "id": "s111-anahata-sounds",
+   "heading": "Anahata Sounds",
+   "part": "miscellaneous",
+   "words": 541,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "nada-anahata",
+   "paraphrase": "Close the ears with the thumbs and listen inward to subtle sounds, from loud to subtle. Sounds are never promised.",
+   "key_terms": [
+    "nada",
+    "anahata",
+    "concentration",
+    "nadi",
+    "asana",
+    "mantra",
+    "om",
+    "prana"
+   ],
+   "passages": {
+    "first": "s111-anahata-sounds:p1.s1",
+    "last": "s111-anahata-sounds:p6.s2",
+    "count": 35
+   }
+  },
+  {
+   "id": "s112-bhakti-yogaclasses-of-worship",
+   "heading": "Bhakti Yoga–Classes Of Worship",
+   "part": "miscellaneous",
+   "words": 696,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Bhakti yoga: grades of worship from elements to the formless.",
+   "key_terms": [
+    "chakra",
+    "concentration",
+    "japa",
+    "samadhi",
+    "shakti",
+    "asana",
+    "guru",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s112-bhakti-yogaclasses-of-worship:p1.s1",
+    "last": "s112-bhakti-yogaclasses-of-worship:p9.s9",
+    "count": 45
+   }
+  },
+  {
+   "id": "s113-mantras",
+   "heading": "Mantras",
+   "part": "miscellaneous",
+   "words": 151,
+   "label": "rules",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Mantra as a way to awaken Kundalini, but the mantra must be received from a guru.",
+   "key_terms": [
+    "mantra",
+    "guru",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s113-mantras:p1.s1",
+    "last": "s113-mantras:p1.s11",
+    "count": 11
+   }
+  },
+  {
+   "id": "s114-eight-major-siddhis",
+   "heading": "Eight Major Siddhis",
+   "part": "miscellaneous",
+   "words": 467,
+   "label": "theory",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The eight major siddhis described.",
+   "key_terms": [
+    "siddhi",
+    "kundalini",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s114-eight-major-siddhis:p1.s1",
+    "last": "s114-eight-major-siddhis:p9.s4",
+    "count": 41
+   }
+  },
+  {
+   "id": "s115-minor-siddhis",
+   "heading": "Minor Siddhis",
+   "part": "miscellaneous",
+   "words": 267,
+   "label": "theory",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Minor siddhis listed.",
+   "key_terms": [
+    "siddhi",
+    "prana"
+   ],
+   "passages": {
+    "first": "s115-minor-siddhis:p1.s1",
+    "last": "s115-minor-siddhis:p27.s1",
+    "count": 27
+   }
+  },
+  {
+   "id": "s116-power-of-a-yogi",
+   "heading": "Power Of A Yogi",
+   "part": "miscellaneous",
+   "words": 123,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Feats of yogic heat: melting snow, drying wet sheets on the body.",
+   "key_terms": [
+    "bhastrika",
+    "concentration",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s116-power-of-a-yogi:p1.s1",
+    "last": "s116-power-of-a-yogi:p6.s1",
+    "count": 8
+   }
+  },
+  {
+   "id": "s117-instructions-on-siddhis",
+   "heading": "Instructions On Siddhis",
+   "part": "miscellaneous",
+   "words": 504,
+   "label": "rules",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Instructions on siddhis: they come with practice, but chasing them stalls progress.",
+   "key_terms": [
+    "siddhi",
+    "concentration",
+    "asana",
+    "chakra",
+    "pranayama",
+    "diet",
+    "kundalini",
+    "mantra"
+   ],
+   "passages": {
+    "first": "s117-instructions-on-siddhis:p1.s1",
+    "last": "s117-instructions-on-siddhis:p7.s6",
+    "count": 32
+   }
+  },
+  {
+   "id": "s118-dharana-concentration",
+   "heading": "Dharana (Concentration)",
+   "part": "miscellaneous",
+   "words": 1354,
+   "label": "practice",
+   "tier": "beginner-ok",
+   "runnable_candidate": true,
+   "candidate": "dharana",
+   "paraphrase": "Concentration: fix the mind on one object (flame, watch tick, a deity, a centre), bring it back when it wanders, no strain.",
+   "key_terms": [
+    "concentration",
+    "asana",
+    "chakra",
+    "brahmacharya",
+    "mouna",
+    "nadi",
+    "pranayama",
+    "trataka"
+   ],
+   "passages": {
+    "first": "s118-dharana-concentration:p1.s1",
+    "last": "s118-dharana-concentration:p25.s1",
+    "count": 116
+   }
+  },
+  {
+   "id": "s119-sadasiva-brahman",
+   "heading": "1. Sadasiva Brahman",
+   "part": "addenda",
+   "words": 226,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sadasiva Brahman of Nerur, said to have stayed in samadhi buried by river mud for months.",
+   "key_terms": [
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s119-sadasiva-brahman:p1.s1",
+    "last": "s119-sadasiva-brahman:p1.s24",
+    "count": 24
+   }
+  },
+  {
+   "id": "s120-jnanadev",
+   "heading": "2. Jnanadev",
+   "part": "addenda",
+   "words": 159,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Jnanadev (Jnaneswar) of Alandi, his Gita commentary and samadhi shrine.",
+   "key_terms": [
+    "samadhi",
+    "brahmarandhra",
+    "diet",
+    "prana"
+   ],
+   "passages": {
+    "first": "s120-jnanadev:p1.s1",
+    "last": "s120-jnanadev:p1.s15",
+    "count": 15
+   }
+  },
+  {
+   "id": "s121-trilinga-swami",
+   "heading": "3. Trilinga Swami",
+   "part": "addenda",
+   "words": 152,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Trilinga Swami of Benares, his long life and free milk for the poor.",
+   "key_terms": [],
+   "passages": {
+    "first": "s121-trilinga-swami:p1.s1",
+    "last": "s121-trilinga-swami:p1.s12",
+    "count": 12
+   }
+  },
+  {
+   "id": "s122-gorakhnath",
+   "heading": "4. Gorakhnath",
+   "part": "addenda",
+   "words": 352,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The birth story of Gorakhnath through Matsyendranath's blessing.",
+   "key_terms": [
+    "siddhi",
+    "diet",
+    "guru"
+   ],
+   "passages": {
+    "first": "s122-gorakhnath:p1.s1",
+    "last": "s122-gorakhnath:p2.s13",
+    "count": 28
+   }
+  },
+  {
+   "id": "s123-swami-krishna-ashram",
+   "heading": "5. Swami Krishna Ashram",
+   "part": "addenda",
+   "words": 219,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Swami Krishna Ashram, living unclothed in the snows below Gangotri.",
+   "key_terms": [
+    "shiva"
+   ],
+   "passages": {
+    "first": "s123-swami-krishna-ashram:p1.s1",
+    "last": "s123-swami-krishna-ashram:p2.s4",
+    "count": 16
+   }
+  },
+  {
+   "id": "s124-yogi-bhusunda",
+   "heading": "6. Yogi Bhusunda",
+   "part": "addenda",
+   "words": 186,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Yogi Bhusunda, the long-lived master of pranayama.",
+   "key_terms": [
+    "concentration",
+    "pranayama",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s124-yogi-bhusunda:p1.s1",
+    "last": "s124-yogi-bhusunda:p1.s14",
+    "count": 14
+   }
+  },
+  {
+   "id": "s125-tirumula-nayanar",
+   "heading": "7. Tirumula Nayanar",
+   "part": "addenda",
+   "words": 262,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Tirumula Nayanar, a yogi from Kailas who settled in the Tamil country.",
+   "key_terms": [
+    "shiva",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s125-tirumula-nayanar:p1.s1",
+    "last": "s125-tirumula-nayanar:p1.s20",
+    "count": 20
+   }
+  },
+  {
+   "id": "s126-mansoor",
+   "heading": "8. Mansoor",
+   "part": "addenda",
+   "words": 167,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Mansoor, the Persian Sufi who kept repeating \"Anal-haq\" and was punished for it.",
+   "key_terms": [
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s126-mansoor:p1.s1",
+    "last": "s126-mansoor:p1.s19",
+    "count": 19
+   }
+  },
+  {
+   "id": "s127-milarepa",
+   "heading": "9. Milarepa",
+   "part": "addenda",
+   "words": 374,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Milarepa's turn from worldly sorrow to the hard path of practice.",
+   "key_terms": [],
+   "passages": {
+    "first": "s127-milarepa:p1.s1",
+    "last": "s127-milarepa:p5.s3",
+    "count": 10
+   }
+  },
+  {
+   "id": "s128-napoleon-bonaparte",
+   "heading": "10. Napoleon Bonaparte",
+   "part": "addenda",
+   "words": 311,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Napoleon as an example of concentration and sleeping at will.",
+   "key_terms": [
+    "concentration",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s128-napoleon-bonaparte:p1.s1",
+    "last": "s128-napoleon-bonaparte:p2.s12",
+    "count": 26
+   }
+  },
+  {
+   "id": "s129-teachings-of-kabir",
+   "heading": "11. Teachings Of Kabir",
+   "part": "addenda",
+   "words": 166,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Kabir's pig at the door: a lesson to a proud scholar about inner impurity.",
+   "key_terms": [],
+   "passages": {
+    "first": "s129-teachings-of-kabir:p1.s1",
+    "last": "s129-teachings-of-kabir:p1.s15",
+    "count": 15
+   }
+  },
+  {
+   "id": "s130-a-sham-latin-scholar",
+   "heading": "12. A Sham Latin Scholar",
+   "part": "addenda",
+   "words": 214,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "A man who thought Latin meant adding \"o\" to English words: a parable on half-learning.",
+   "key_terms": [
+    "chakra",
+    "guru",
+    "kundalini",
+    "nadi",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s130-a-sham-latin-scholar:p1.s1",
+    "last": "s130-a-sham-latin-scholar:p2.s7",
+    "count": 15
+   }
+  },
+  {
+   "id": "s131-story-of-an-aspirant",
+   "heading": "13. Story Of An Aspirant",
+   "part": "addenda",
+   "words": 292,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "An aspirant given earrings and a new name who made no progress: outer marks are not yoga.",
+   "key_terms": [
+    "guru",
+    "mantra"
+   ],
+   "passages": {
+    "first": "s131-story-of-an-aspirant:p1.s1",
+    "last": "s131-story-of-an-aspirant:p1.s24",
+    "count": 24
+   }
+  },
+  {
+   "id": "s132-other-yogins",
+   "heading": "14. Other Yogins",
+   "part": "addenda",
+   "words": 201,
+   "label": "story",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Yogis who demonstrated stopping the heart or pulse before physicians.",
+   "key_terms": [
+    "khechari",
+    "vishuddha"
+   ],
+   "passages": {
+    "first": "s132-other-yogins:p1.s1",
+    "last": "s132-other-yogins:p2.s6",
+    "count": 16
+   }
+  },
+  {
+   "id": "s133-mystic-experiencevisions-of-lights",
+   "heading": "Mystic Experience–Visions Of Lights",
+   "part": "addenda",
+   "words": 813,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Lights and visions in meditation, and how to treat them; Ask material, never scripted.",
+   "key_terms": [
+    "concentration",
+    "chakra",
+    "ajna",
+    "asana",
+    "guru",
+    "muladhara"
+   ],
+   "passages": {
+    "first": "s133-mystic-experiencevisions-of-lights:p1.s1",
+    "last": "s133-mystic-experiencevisions-of-lights:p6.s10",
+    "count": 63
+   }
+  },
+  {
+   "id": "s134-elementals",
+   "heading": "Elementals",
+   "part": "addenda",
+   "words": 181,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Frightening figures that may appear in meditation; stay fearless.",
+   "key_terms": [
+    "guru",
+    "mantra",
+    "om",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s134-elementals:p1.s1",
+    "last": "s134-elementals:p1.s20",
+    "count": 20
+   }
+  },
+  {
+   "id": "s135-life-in-the-astral-plane",
+   "heading": "Life In The Astral Plane",
+   "part": "addenda",
+   "words": 309,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Feeling separate from the body and astral travel.",
+   "key_terms": [
+    "concentration"
+   ],
+   "passages": {
+    "first": "s135-life-in-the-astral-plane:p1.s1",
+    "last": "s135-life-in-the-astral-plane:p3.s4",
+    "count": 17
+   }
+  },
+  {
+   "id": "s136-hints-on-yoga",
+   "heading": "Hints On Yoga",
+   "part": "addenda",
+   "words": 4097,
+   "label": "rules",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Hints on yoga: celibacy, silence, solitude, moderate diet, dealing with anger and depression, jerks and early signs, don't chase siddhis, master each step.",
+   "key_terms": [
+    "kundalini",
+    "siddhi",
+    "diet",
+    "chakra",
+    "samadhi",
+    "concentration",
+    "mantra",
+    "mouna"
+   ],
+   "passages": {
+    "first": "s136-hints-on-yoga:p1.s1",
+    "last": "s136-hints-on-yoga:p83.s1",
+    "count": 331
+   }
+  },
+  {
+   "id": "s137-some-practical-hints",
+   "heading": "Some Practical Hints",
+   "part": "addenda",
+   "words": 1016,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Outline of the inner ascent and a bhuta-shuddhi style bija pranayama (16:64:32) with \"man of sin\" imagery; the book says learn it from a guru.",
+   "key_terms": [
+    "bija",
+    "kundalini",
+    "chakra",
+    "japa",
+    "granthi",
+    "muladhara",
+    "shakti",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s137-some-practical-hints:p1.s1",
+    "last": "s137-some-practical-hints:p6.s1",
+    "count": 46
+   }
+  },
+  {
+   "id": "s138-spiritual-diary",
+   "heading": "Spiritual Diary",
+   "part": "addenda",
+   "words": 260,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The monthly spiritual diary form: questions on sleep, japa, pranayama, asana, meditation, silence, service and faults.",
+   "key_terms": [
+    "asana",
+    "brahmacharya",
+    "concentration",
+    "japa",
+    "mantra",
+    "mouna",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s138-spiritual-diary:p1.s1",
+    "last": "s138-spiritual-diary:p30.s1",
+    "count": 30
+   }
+  },
+  {
+   "id": "s139-the-spiritual-diary",
+   "heading": "The Spiritual Diary",
+   "part": "addenda",
+   "words": 271,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Why and how to keep the spiritual diary.",
+   "key_terms": [
+    "asana",
+    "diet",
+    "guru",
+    "japa"
+   ],
+   "passages": {
+    "first": "s139-the-spiritual-diary:p1.s1",
+    "last": "s139-the-spiritual-diary:p4.s10",
+    "count": 25
+   }
+  },
+  {
+   "id": "s140-introduction",
+   "heading": "Introduction",
+   "part": "upanishad",
+   "words": 1734,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Introduction to the Yoga-Kundalini Upanishad: its place and an overview of its three chapters.",
+   "key_terms": [
+    "kundalini",
+    "prana",
+    "shakti",
+    "kumbhaka",
+    "guru",
+    "nadi",
+    "sahasrara",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s140-introduction:p1.s1",
+    "last": "s140-introduction:p31.s4",
+    "count": 129
+   }
+  },
+  {
+   "id": "s141-chitta-and-the-control-of-prana",
+   "heading": "Chitta And The Control Of Prana",
+   "part": "upanishad",
+   "words": 109,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.1–4: mind-stuff has two causes, desires and the movement of prana.",
+   "key_terms": [
+    "prana"
+   ],
+   "passages": {
+    "first": "s141-chitta-and-the-control-of-prana:p1.s1",
+    "last": "s141-chitta-and-the-control-of-prana:p4.s1",
+    "count": 14
+   }
+  },
+  {
+   "id": "s142-mitahara-asana-and-shakti-chalana",
+   "heading": "Mitahara, Asana And Shakti-Chalana",
+   "part": "upanishad",
+   "words": 96,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.5–7: control prana through moderate food, posture and shakti chalana; the half-food rule.",
+   "key_terms": [
+    "diet",
+    "prana",
+    "asana",
+    "mitahara",
+    "shakti",
+    "shakti-chalana",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s142-mitahara-asana-and-shakti-chalana:p1.s1",
+    "last": "s142-mitahara-asana-and-shakti-chalana:p3.s5",
+    "count": 10
+   }
+  },
+  {
+   "id": "s143-the-padma-and-vajra-asanas",
+   "heading": "The Padma And Vajra Asanas",
+   "part": "upanishad",
+   "words": 69,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.8–9: lotus and vajra seats defined.",
+   "key_terms": [
+    "kanda",
+    "muladhara",
+    "padmasana"
+   ],
+   "passages": {
+    "first": "s143-the-padma-and-vajra-asanas:p1.s1",
+    "last": "s143-the-padma-and-vajra-asanas:p2.s2",
+    "count": 4
+   }
+  },
+  {
+   "id": "s144-the-rousing-of-the-kundalini",
+   "heading": "The Rousing Of The Kundalini",
+   "part": "upanishad",
+   "words": 92,
+   "label": "theory",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.10–12: shakti chalana defined as leading Kundalini to the crown.",
+   "key_terms": [
+    "chakra",
+    "kundalini",
+    "shakti",
+    "shakti-chalana",
+    "ajna",
+    "anahata",
+    "manipura",
+    "muladhara"
+   ],
+   "passages": {
+    "first": "s144-the-rousing-of-the-kundalini:p1.s1",
+    "last": "s144-the-rousing-of-the-kundalini:p3.s2",
+    "count": 5
+   }
+  },
+  {
+   "id": "s145-the-sarasvati-chalana",
+   "heading": "The Sarasvati Chalana",
+   "part": "upanishad",
+   "words": 319,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.13–22: Sarasvati chalana, lengthening the breath and churning the belly to rouse the nadi.",
+   "key_terms": [
+    "kundalini",
+    "prana",
+    "nadi",
+    "sushumna",
+    "ida",
+    "padmasana"
+   ],
+   "passages": {
+    "first": "s145-the-sarasvati-chalana:p1.s1",
+    "last": "s145-the-sarasvati-chalana:p10.s1",
+    "count": 20
+   }
+  },
+  {
+   "id": "s146-varieties-of-pranayama",
+   "heading": "Varieties Of Pranayama",
+   "part": "upanishad",
+   "words": 72,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.23–26: sahita and kevala kumbhaka; four varieties.",
+   "key_terms": [
+    "kumbhaka",
+    "sahita",
+    "kevala",
+    "prana",
+    "bhastrika",
+    "pranayama",
+    "sitali",
+    "ujjayi"
+   ],
+   "passages": {
+    "first": "s146-varieties-of-pranayama:p1.s1",
+    "last": "s146-varieties-of-pranayama:p4.s3",
+    "count": 8
+   }
+  },
+  {
+   "id": "s147-suryabheda-kumbhaka",
+   "heading": "Suryabheda Kumbhaka",
+   "part": "upanishad",
+   "words": 116,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "suryabheda",
+   "paraphrase": "Upanishad 1.27: suryabheda without a stated hold: in through the right as long as comfortable, out through the left.",
+   "key_terms": [
+    "padmasana",
+    "suryabheda"
+   ],
+   "passages": {
+    "first": "s147-suryabheda-kumbhaka:p1.s1",
+    "last": "s147-suryabheda-kumbhaka:p1.s10",
+    "count": 10
+   }
+  },
+  {
+   "id": "s148-ujjayi-kumbhaka",
+   "heading": "Ujjayi Kumbhaka",
+   "part": "upanishad",
+   "words": 95,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "ujjayi",
+   "paraphrase": "Upanishad 1.28–29: ujjayi with retention between heart and neck, exhale through the left.",
+   "key_terms": [
+    "kumbhaka",
+    "nadi",
+    "ujjayi"
+   ],
+   "passages": {
+    "first": "s148-ujjayi-kumbhaka:p1.s1",
+    "last": "s148-ujjayi-kumbhaka:p2.s6",
+    "count": 10
+   }
+  },
+  {
+   "id": "s149-sitali-kumbhaka",
+   "heading": "Sitali Kumbhaka",
+   "part": "upanishad",
+   "words": 263,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "sitali",
+   "paraphrase": "Upanishad 1.30–34: sitali (inhale through the tongue, exhale through the nose) and a bellows breath.",
+   "key_terms": [
+    "granthi",
+    "kumbhaka",
+    "sitali",
+    "bhastrika",
+    "kundalini",
+    "padmasana",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s149-sitali-kumbhaka:p1.s1",
+    "last": "s149-sitali-kumbhaka:p5.s4",
+    "count": 22
+   }
+  },
+  {
+   "id": "s150-the-three-bandhas",
+   "heading": "The Three Bandhas",
+   "part": "upanishad",
+   "words": 363,
+   "label": "practice",
+   "tier": "needs-review",
+   "runnable_candidate": true,
+   "candidate": "bandha-traya",
+   "paraphrase": "Upanishad 1.35–43: the three locks and when each is applied.",
+   "key_terms": [
+    "prana",
+    "mula-bandha",
+    "uddiyana-bandha",
+    "apana",
+    "jalandhara-bandha",
+    "kundalini",
+    "sushumna",
+    "kanda"
+   ],
+   "passages": {
+    "first": "s150-the-three-bandhas:p1.s1",
+    "last": "s150-the-three-bandhas:p9.s2",
+    "count": 23
+   }
+  },
+  {
+   "id": "s151-how-many-times-kumbhaka-should-be-practi",
+   "heading": "How Many Times Kumbhaka Should Be Practised",
+   "part": "upanishad",
+   "words": 55,
+   "label": "rules",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.44–46: how many kumbhakas per day, rising steeply; not a beginner schedule.",
+   "key_terms": [
+    "kumbhaka"
+   ],
+   "passages": {
+    "first": "s151-how-many-times-kumbhaka-should-be-practi:p1.s1",
+    "last": "s151-how-many-times-kumbhaka-should-be-practi:p3.s2",
+    "count": 4
+   }
+  },
+  {
+   "id": "s152-the-obstacles-to-the-practice-of-yoga-an",
+   "heading": "The Obstacles To The Practice Of Yoga And How To Overcome Them",
+   "part": "upanishad",
+   "words": 189,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.47–54: seven causes of disease and ten obstacles to practice.",
+   "key_terms": [
+    "diet",
+    "prana"
+   ],
+   "passages": {
+    "first": "s152-the-obstacles-to-the-practice-of-yoga-an:p1.s1",
+    "last": "s152-the-obstacles-to-the-practice-of-yoga-an:p8.s3",
+    "count": 16
+   }
+  },
+  {
+   "id": "s153-the-rousing-of-the-kundalini",
+   "heading": "The Rousing Of The Kundalini",
+   "part": "upanishad",
+   "words": 178,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad 1.55–: kevala kumbhaka and forcing apana up to rouse Kundalini.",
+   "key_terms": [
+    "sushumna",
+    "prana",
+    "apana",
+    "kundalini",
+    "kevala",
+    "kumbhaka",
+    "mula-bandha",
+    "nadi"
+   ],
+   "passages": {
+    "first": "s153-the-rousing-of-the-kundalini:p1.s1",
+    "last": "s153-the-rousing-of-the-kundalini:p6.s1",
+    "count": 10
+   }
+  },
+  {
+   "id": "s154-the-kundalini-reaches-the-sahasrara-by-p",
+   "heading": "The Kundalini Reaches The Sahasrara By Piercing Through The Three Knots",
+   "part": "upanishad",
+   "words": 220,
+   "label": "theory",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: Kundalini piercing the three knots to the crown.",
+   "key_terms": [
+    "kundalini",
+    "granthi",
+    "anahata",
+    "chakra",
+    "prana",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s154-the-kundalini-reaches-the-sahasrara-by-p:p1.s1",
+    "last": "s154-the-kundalini-reaches-the-sahasrara-by-p:p8.s2",
+    "count": 17
+   }
+  },
+  {
+   "id": "s155-the-dissolution-of-prana-and-others",
+   "heading": "The Dissolution Of Prana And Others",
+   "part": "upanishad",
+   "words": 209,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: dissolution of prana and the senses.",
+   "key_terms": [
+    "prana",
+    "shiva",
+    "sahasrara",
+    "apana",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s155-the-dissolution-of-prana-and-others:p1.s1",
+    "last": "s155-the-dissolution-of-prana-and-others:p7.s1",
+    "count": 11
+   }
+  },
+  {
+   "id": "s156-experiencing-everything-as-consciousness",
+   "heading": "Experiencing Everything As Consciousness During Samadhi",
+   "part": "upanishad",
+   "words": 283,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: seeing everything as consciousness in samadhi.",
+   "key_terms": [],
+   "passages": {
+    "first": "s156-experiencing-everything-as-consciousness:p1.s1",
+    "last": "s156-experiencing-everything-as-consciousness:p6.s2",
+    "count": 11
+   }
+  },
+  {
+   "id": "s157-the-samadhi-yoga",
+   "heading": "The Samadhi Yoga",
+   "part": "upanishad",
+   "words": 175,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: samadhi yoga.",
+   "key_terms": [
+    "kundalini",
+    "granthi",
+    "shakti",
+    "kumbhaka",
+    "mula-bandha",
+    "muladhara",
+    "padmasana",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s157-the-samadhi-yoga:p1.s1",
+    "last": "s157-the-samadhi-yoga:p5.s6",
+    "count": 13
+   }
+  },
+  {
+   "id": "s158-the-khechari-vidya",
+   "heading": "The Khechari Vidya",
+   "part": "upanishad",
+   "words": 471,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad ch. 2: the Khechari science and who may learn it.",
+   "key_terms": [
+    "khechari",
+    "guru",
+    "siddhi",
+    "shakti",
+    "shiva",
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s158-the-khechari-vidya:p1.s1",
+    "last": "s158-the-khechari-vidya:p18.s3",
+    "count": 36
+   }
+  },
+  {
+   "id": "s159-the-khechari-mantra",
+   "heading": "The Khechari Mantra",
+   "part": "upanishad",
+   "words": 277,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the Khechari bija mantra.",
+   "key_terms": [
+    "khechari",
+    "siddhi",
+    "bija",
+    "guru",
+    "mantra"
+   ],
+   "passages": {
+    "first": "s159-the-khechari-mantra:p1.s1",
+    "last": "s159-the-khechari-mantra:p9.s1",
+    "count": 20
+   }
+  },
+  {
+   "id": "s160-the-cutting-of-frenum-lingui",
+   "heading": "The Cutting Of Frenum Lingui",
+   "part": "upanishad",
+   "words": 162,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: cutting the tongue's frenum over six months.",
+   "key_terms": [
+    "guru"
+   ],
+   "passages": {
+    "first": "s160-the-cutting-of-frenum-lingui:p1.s1",
+    "last": "s160-the-cutting-of-frenum-lingui:p4.s2",
+    "count": 7
+   }
+  },
+  {
+   "id": "s161-the-tongue-reaches-the-brahmarandhra",
+   "heading": "The Tongue Reaches The Brahmarandhra",
+   "part": "upanishad",
+   "words": 390,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the lengthened tongue reaching the crown aperture over years.",
+   "key_terms": [
+    "mantra",
+    "brahmarandhra",
+    "khechari",
+    "siddhi",
+    "bija",
+    "concentration",
+    "japa"
+   ],
+   "passages": {
+    "first": "s161-the-tongue-reaches-the-brahmarandhra:p1.s1",
+    "last": "s161-the-tongue-reaches-the-brahmarandhra:p10.s3",
+    "count": 26
+   }
+  },
+  {
+   "id": "s162-the-urdhvakundalini-yoga",
+   "heading": "The Urdhvakundalini Yoga",
+   "part": "upanishad",
+   "words": 64,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the higher Kundalini path after twelve years of khechari.",
+   "key_terms": [
+    "kundalini",
+    "siddhi"
+   ],
+   "passages": {
+    "first": "s162-the-urdhvakundalini-yoga:p1.s1",
+    "last": "s162-the-urdhvakundalini-yoga:p2.s2",
+    "count": 5
+   }
+  },
+  {
+   "id": "s163-melana-mantra",
+   "heading": "Melana Mantra",
+   "part": "upanishad",
+   "words": 64,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad ch. 3 opening: the melana mantra and its timing.",
+   "key_terms": [
+    "mantra"
+   ],
+   "passages": {
+    "first": "s163-melana-mantra:p1.s1",
+    "last": "s163-melana-mantra:p2.s3",
+    "count": 4
+   }
+  },
+  {
+   "id": "s164-sense-objects-manas-and-bandhana",
+   "heading": "Sense-Objects, Manas And Bandhana",
+   "part": "upanishad",
+   "words": 135,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: sense objects, mind and bondage.",
+   "key_terms": [
+    "shakti"
+   ],
+   "passages": {
+    "first": "s164-sense-objects-manas-and-bandhana:p1.s1",
+    "last": "s164-sense-objects-manas-and-bandhana:p4.s3",
+    "count": 13
+   }
+  },
+  {
+   "id": "s165-the-entry-into-the-sukha-mandala",
+   "heading": "The Entry Into The Sukha-Mandala",
+   "part": "upanishad",
+   "words": 57,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: entering the sphere of bliss.",
+   "key_terms": [
+    "chakra",
+    "sahasrara",
+    "sushumna"
+   ],
+   "passages": {
+    "first": "s165-the-entry-into-the-sukha-mandala:p1.s1",
+    "last": "s165-the-entry-into-the-sukha-mandala:p2.s1",
+    "count": 2
+   }
+  },
+  {
+   "id": "s166-the-six-chakras",
+   "heading": "The Six Chakras",
+   "part": "upanishad",
+   "words": 99,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the six chakras briefly.",
+   "key_terms": [
+    "chakra",
+    "ajna",
+    "anahata",
+    "manipura",
+    "muladhara",
+    "svadhishthana"
+   ],
+   "passages": {
+    "first": "s166-the-six-chakras:p1.s1",
+    "last": "s166-the-six-chakras:p4.s2",
+    "count": 10
+   }
+  },
+  {
+   "id": "s167-abhyasa-and-brahma-jnana",
+   "heading": "Abhyasa And Brahma Jnana",
+   "part": "upanishad",
+   "words": 117,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: practice and knowledge of Brahman.",
+   "key_terms": [
+    "guru",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s167-abhyasa-and-brahma-jnana:p1.s1",
+    "last": "s167-abhyasa-and-brahma-jnana:p5.s1",
+    "count": 8
+   }
+  },
+  {
+   "id": "s168-the-four-kinds-of-vak",
+   "heading": "The Four Kinds Of Vak",
+   "part": "upanishad",
+   "words": 140,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the four kinds of speech.",
+   "key_terms": [],
+   "passages": {
+    "first": "s168-the-four-kinds-of-vak:p1.s1",
+    "last": "s168-the-four-kinds-of-vak:p5.s1",
+    "count": 8
+   }
+  },
+  {
+   "id": "s169-the-absorption-in-paramatman",
+   "heading": "The Absorption In Paramatman",
+   "part": "upanishad",
+   "words": 104,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: absorption in the supreme Self.",
+   "key_terms": [],
+   "passages": {
+    "first": "s169-the-absorption-in-paramatman:p1.s1",
+    "last": "s169-the-absorption-in-paramatman:p3.s2",
+    "count": 5
+   }
+  },
+  {
+   "id": "s170-the-essential-nature-of-man",
+   "heading": "The Essential Nature Of Man",
+   "part": "upanishad",
+   "words": 293,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: the essential nature of a person.",
+   "key_terms": [],
+   "passages": {
+    "first": "s170-the-essential-nature-of-man:p1.s1",
+    "last": "s170-the-essential-nature-of-man:p11.s1",
+    "count": 23
+   }
+  },
+  {
+   "id": "s171-videha-mukti",
+   "heading": "Videha Mukti",
+   "part": "upanishad",
+   "words": 57,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad: liberation at death.",
+   "key_terms": [],
+   "passages": {
+    "first": "s171-videha-mukti:p1.s1",
+    "last": "s171-videha-mukti:p3.s2",
+    "count": 5
+   }
+  },
+  {
+   "id": "s172-non-dual-brahman",
+   "heading": "Non-Dual Brahman",
+   "part": "upanishad",
+   "words": 56,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Upanishad close: the non-dual Brahman.",
+   "key_terms": [
+    "kundalini"
+   ],
+   "passages": {
+    "first": "s172-non-dual-brahman:p1.s1",
+    "last": "s172-non-dual-brahman:p2.s5",
+    "count": 7
+   }
+  },
+  {
+   "id": "s173-kundalini-yoga",
+   "heading": "Kundalini Yoga",
+   "part": "appendix-articles",
+   "words": 536,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Appendix essay on Kundalini Yoga (shakti polarity); ends with a copy of the 3:12:6 root-centre pranayama (see s012).",
+   "key_terms": [
+    "kundalini",
+    "pranayama",
+    "muladhara",
+    "shakti",
+    "chakra",
+    "concentration",
+    "om",
+    "shiva"
+   ],
+   "passages": {
+    "first": "s173-kundalini-yoga:p1.s1",
+    "last": "s173-kundalini-yoga:p5.s14",
+    "count": 31
+   }
+  },
+  {
+   "id": "s174-kundalini-pranayama",
+   "heading": "Kundalini Pranayama",
+   "part": "appendix-articles",
+   "words": 251,
+   "label": "practice",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Appendix copy of the Kundalini pranayama opening (s013) followed by the inner-ascent outline from s137.",
+   "key_terms": [
+    "chakra",
+    "kundalini",
+    "pranayama",
+    "sahasrara",
+    "guru",
+    "muladhara",
+    "puraka",
+    "asana"
+   ],
+   "passages": {
+    "first": "s174-kundalini-pranayama:p1.s1",
+    "last": "s174-kundalini-pranayama:p9.s1",
+    "count": 20
+   }
+  },
+  {
+   "id": "s175-lambika-yoga",
+   "heading": "Lambika Yoga",
+   "part": "appendix-articles",
+   "words": 392,
+   "label": "teacher-only",
+   "tier": "teacher-only",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Lambika yoga (khechari): difficult, secret, learn only from an accomplished guru.",
+   "key_terms": [
+    "khechari",
+    "prana",
+    "siddhi",
+    "guru",
+    "maha-mudra",
+    "yoni-mudra"
+   ],
+   "passages": {
+    "first": "s175-lambika-yoga:p1.s1",
+    "last": "s175-lambika-yoga:p13.s1",
+    "count": 36
+   }
+  },
+  {
+   "id": "s176-yogai",
+   "heading": "Yoga–I",
+   "part": "appendix-articles",
+   "words": 519,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Yoga I: yoga as a complete science of self-culture.",
+   "key_terms": [
+    "concentration",
+    "samadhi",
+    "brahmacharya",
+    "guru",
+    "siddhasana"
+   ],
+   "passages": {
+    "first": "s176-yogai:p1.s1",
+    "last": "s176-yogai:p8.s2",
+    "count": 42
+   }
+  },
+  {
+   "id": "s177-yogaii",
+   "heading": "Yoga–II",
+   "part": "appendix-articles",
+   "words": 607,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Yoga II: practices that make up yoga and their fruits.",
+   "key_terms": [
+    "asana",
+    "pranayama",
+    "bhastrika",
+    "concentration",
+    "om",
+    "sirshasana",
+    "sitali",
+    "uddiyana-bandha"
+   ],
+   "passages": {
+    "first": "s177-yogaii:p1.s1",
+    "last": "s177-yogaii:p24.s1",
+    "count": 58
+   }
+  },
+  {
+   "id": "s178-ideal-yoga",
+   "heading": "Ideal Yoga",
+   "part": "appendix-articles",
+   "words": 579,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Ideal yoga: calm, service and devotion, not miracles.",
+   "key_terms": [
+    "concentration",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s178-ideal-yoga:p1.s1",
+    "last": "s178-ideal-yoga:p10.s4",
+    "count": 62
+   }
+  },
+  {
+   "id": "s179-ten-commandments-for-yoga-students",
+   "heading": "Ten Commandments For Yoga-Students",
+   "part": "appendix-articles",
+   "words": 125,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Ten commandments for yoga students: morning or 3 hours after food, prayer first, sattvic food, clean locked room, celibacy, bath before.",
+   "key_terms": [
+    "diet",
+    "guru",
+    "asana",
+    "brahmacharya",
+    "pranayama"
+   ],
+   "passages": {
+    "first": "s179-ten-commandments-for-yoga-students:p1.s1",
+    "last": "s179-ten-commandments-for-yoga-students:p10.s1",
+    "count": 11
+   }
+  },
+  {
+   "id": "s180-yoga-and-its-consummation",
+   "heading": "Yoga And Its Consummation",
+   "part": "appendix-articles",
+   "words": 638,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Yoga and its consummation: the sheaths and union.",
+   "key_terms": [
+    "concentration",
+    "chakra",
+    "asana",
+    "japa",
+    "kundalini",
+    "muladhara",
+    "pranayama",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s180-yoga-and-its-consummation:p1.s1",
+    "last": "s180-yoga-and-its-consummation:p13.s1",
+    "count": 49
+   }
+  },
+  {
+   "id": "s181-the-gradational-ascent-of-the-mind",
+   "heading": "The Gradational Ascent Of The Mind",
+   "part": "appendix-articles",
+   "words": 400,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Duplicate of s011 (gradational ascent of the mind).",
+   "key_terms": [
+    "chakra",
+    "samadhi",
+    "ajna",
+    "anahata",
+    "kundalini",
+    "manipura",
+    "muladhara",
+    "om"
+   ],
+   "passages": {
+    "first": "s181-the-gradational-ascent-of-the-mind:p1.s1",
+    "last": "s181-the-gradational-ascent-of-the-mind:p9.s1",
+    "count": 25
+   }
+  },
+  {
+   "id": "s182-experiences-on-awakening-of-kundalini",
+   "heading": "Experiences On Awakening Of Kundalini",
+   "part": "appendix-articles",
+   "words": 316,
+   "label": "theory",
+   "tier": "needs-review",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Duplicate of s010 (experiences on awakening).",
+   "key_terms": [
+    "kundalini",
+    "shakti",
+    "prana",
+    "anahata",
+    "asana",
+    "jalandhara-bandha",
+    "kevala",
+    "kumbhaka"
+   ],
+   "passages": {
+    "first": "s182-experiences-on-awakening-of-kundalini:p1.s1",
+    "last": "s182-experiences-on-awakening-of-kundalini:p5.s3",
+    "count": 14
+   }
+  },
+  {
+   "id": "s183-the-quintessence-of-yoga",
+   "heading": "The Quintessence Of Yoga",
+   "part": "appendix-articles",
+   "words": 109,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "The quintessence of yoga in short sayings.",
+   "key_terms": [
+    "om",
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s183-the-quintessence-of-yoga:p1.s1",
+    "last": "s183-the-quintessence-of-yoga:p6.s2",
+    "count": 10
+   }
+  },
+  {
+   "id": "s184-practise-yoga-to-prolong-life",
+   "heading": "Practise Yoga To Prolong Life",
+   "part": "appendix-articles",
+   "words": 267,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Health and longevity claims for yoga.",
+   "key_terms": [
+    "basti",
+    "dhauti",
+    "diet",
+    "pranayama",
+    "trataka"
+   ],
+   "passages": {
+    "first": "s184-practise-yoga-to-prolong-life:p1.s1",
+    "last": "s184-practise-yoga-to-prolong-life:p11.s1",
+    "count": 23
+   }
+  },
+  {
+   "id": "s185-perfection-in-yoga",
+   "heading": "Perfection In Yoga",
+   "part": "appendix-articles",
+   "words": 191,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Perfection in yoga: savikalpa and nirvikalpa samadhi.",
+   "key_terms": [
+    "samadhi",
+    "prana",
+    "sahasrara"
+   ],
+   "passages": {
+    "first": "s185-perfection-in-yoga:p1.s1",
+    "last": "s185-perfection-in-yoga:p3.s2",
+    "count": 21
+   }
+  },
+  {
+   "id": "s186-double-consciousness",
+   "heading": "Double Consciousness",
+   "part": "appendix-articles",
+   "words": 67,
+   "label": "theory",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Double consciousness of the realised yogi.",
+   "key_terms": [
+    "samadhi"
+   ],
+   "passages": {
+    "first": "s186-double-consciousness:p1.s1",
+    "last": "s186-double-consciousness:p2.s3",
+    "count": 7
+   }
+  },
+  {
+   "id": "s187-wise-guidance-for-sure-success",
+   "heading": "Wise Guidance For Sure Success",
+   "part": "appendix-articles",
+   "words": 169,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Wise guidance: be gradual, avoid extremes and violent methods, pick one method and persevere.",
+   "key_terms": [],
+   "passages": {
+    "first": "s187-wise-guidance-for-sure-success:p1.s1",
+    "last": "s187-wise-guidance-for-sure-success:p4.s4",
+    "count": 13
+   }
+  },
+  {
+   "id": "s188-practice-of-yoga-asanas",
+   "heading": "Practice Of Yoga Asanas",
+   "part": "appendix-articles",
+   "words": 359,
+   "label": "rules",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Sixteen notes on practising asanas: who can, which poses, combine with ethics and meditation.",
+   "key_terms": [
+    "asana",
+    "pranayama",
+    "diet",
+    "brahmacharya",
+    "japa",
+    "mantra",
+    "sirshasana"
+   ],
+   "passages": {
+    "first": "s188-practice-of-yoga-asanas:p1.s1",
+    "last": "s188-practice-of-yoga-asanas:p16.s2",
+    "count": 32
+   }
+  },
+  {
+   "id": "s189-glossary",
+   "heading": "GLOSSARY",
+   "part": "glossary",
+   "words": 525,
+   "label": "front-matter",
+   "tier": "beginner-ok",
+   "runnable_candidate": false,
+   "candidate": null,
+   "paraphrase": "Glossary of Sanskrit terms (back matter).",
+   "key_terms": [
+    "nadi",
+    "chakra",
+    "concentration",
+    "sushumna",
+    "anahata",
+    "basti",
+    "brahmacharya",
+    "dhauti"
+   ],
+   "passages": {
+    "first": "s189-glossary:p1.s1",
+    "last": "s189-glossary:p19.s6",
+    "count": 176
+   }
+  }
+ ]
+}

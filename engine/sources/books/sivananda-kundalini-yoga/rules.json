@@ -1,0 +1,1913 @@
+{
+ "type": "book_rules",
+ "schema_version": 1,
+ "source": "sivananda-kundalini-yoga",
+ "pass": 2,
+ "status": "review",
+ "severity_legend": {
+  "hard-stop": "engine/player must enforce or block",
+  "caution": "warning on the start card or a cap on progression",
+  "guidance": "default behaviour or copy",
+  "info": "Ask material only, never scripted",
+  "traditional": "recorded, not enforced or ported"
+ },
+ "counts": {
+  "caution": 20,
+  "hard-stop": 8,
+  "guidance": 23,
+  "traditional": 3,
+  "info": 5
+ },
+ "rules": [
+  {
+   "id": "guru-for-advanced",
+   "paraphrase": "Easy lessons can be learnt and practised at home; advanced Kundalini work (moving prana into the central channel, piercing the knots) needs a personal teacher.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s032-necessity-for-a-yogic-guru",
+     "passages": [
+      "s032-necessity-for-a-yogic-guru:p1.s8"
+     ],
+     "start": 842,
+     "end": 945
+    },
+    {
+     "section": "s032-necessity-for-a-yogic-guru",
+     "passages": [
+      "s032-necessity-for-a-yogic-guru:p1.s9"
+     ],
+     "start": 971,
+     "end": 1043
+    },
+    {
+     "section": "s137-some-practical-hints",
+     "passages": [
+      "s137-some-practical-hints:p1.s1"
+     ],
+     "start": 0,
+     "end": 129
+    }
+   ],
+   "passage_ids": [
+    "s032-necessity-for-a-yogic-guru:p1.s8",
+    "s032-necessity-for-a-yogic-guru:p1.s9",
+    "s137-some-practical-hints:p1.s1"
+   ],
+   "quote": {
+    "text": "You can get easy lessons from the Guru and practise them at home also in the initial stages of practice",
+    "cite": "s032-necessity-for-a-yogic-guru:p1.s8"
+   }
+  },
+  {
+   "id": "advanced-mudras-guru-only",
+   "paraphrase": "Khechari, shakti chalana, vajroli and the other advanced kriyas are only for those a teacher has judged fit; never runnable alone.",
+   "scope": [
+    "mudras",
+    "khechari",
+    "vajroli",
+    "shakti-chalana"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p5.s1"
+     ],
+     "start": 1037,
+     "end": 1128
+    },
+    {
+     "section": "s104-khechari-mudra",
+     "passages": [
+      "s104-khechari-mudra:p2.s1"
+     ],
+     "start": 197,
+     "end": 282
+    },
+    {
+     "section": "s105-vajroli-mudra",
+     "passages": [
+      "s105-vajroli-mudra:p6.s2"
+     ],
+     "start": 2254,
+     "end": 2307
+    }
+   ],
+   "passage_ids": [
+    "s104-khechari-mudra:p2.s1",
+    "s105-vajroli-mudra:p6.s2",
+    "s109-instructions-on-mudras-and-bandhas:p5.s1"
+   ],
+   "quote": {
+    "text": "Khechari, Shakti Chalana, Vajroli and other advanced courses should not be practised by all",
+    "cite": "s109-instructions-on-mudras-and-bandhas:p5.s1"
+   }
+  },
+  {
+   "id": "khechari-guru-and-age",
+   "paraphrase": "Khechari (tongue lengthening) only under a teacher who practises it; the book adds it seldom succeeds if begun after 25.",
+   "scope": [
+    "khechari"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p4.s1"
+     ],
+     "start": 756,
+     "end": 830
+    },
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p4.s3"
+     ],
+     "start": 904,
+     "end": 985
+    },
+    {
+     "section": "s175-lambika-yoga",
+     "passages": [
+      "s175-lambika-yoga:p2.s2"
+     ],
+     "start": 250,
+     "end": 341
+    }
+   ],
+   "passage_ids": [
+    "s109-instructions-on-mudras-and-bandhas:p4.s1",
+    "s109-instructions-on-mudras-and-bandhas:p4.s3",
+    "s175-lambika-yoga:p2.s2"
+   ],
+   "quote": {
+    "text": "Khechari Mudra should be done under the direct guidance of a Khechari Guru",
+    "cite": "s109-instructions-on-mudras-and-bandhas:p4.s1"
+   }
+  },
+  {
+   "id": "purity-before-awakening",
+   "paraphrase": "Ethical and mental preparation comes before any attempt to awaken Kundalini; forcing it with techniques is said to cause harm.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s060-how-to-awaken-the-kundalini",
+     "passages": [
+      "s060-how-to-awaken-the-kundalini:p1.s9"
+     ],
+     "start": 735,
+     "end": 854
+    },
+    {
+     "section": "s060-how-to-awaken-the-kundalini",
+     "passages": [
+      "s060-how-to-awaken-the-kundalini:p1.s5"
+     ],
+     "start": 445,
+     "end": 539
+    }
+   ],
+   "passage_ids": [
+    "s060-how-to-awaken-the-kundalini:p1.s5",
+    "s060-how-to-awaken-the-kundalini:p1.s9"
+   ],
+   "quote": {
+    "text": "People must have purity first; then a thorough knowledge of the Sadhana, a proper guide, and a steady, gradual practice",
+    "cite": "s060-how-to-awaken-the-kundalini:p1.s9"
+   }
+  },
+  {
+   "id": "no-premature-awakening",
+   "paraphrase": "Do not chase awakening; purify and steady the mind and let it come in its own time. Practices must never promise awakening.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p45.s3"
+     ],
+     "start": 12853,
+     "end": 12889
+    },
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p45.s2"
+     ],
+     "start": 12807,
+     "end": 12851
+    }
+   ],
+   "passage_ids": [
+    "s136-hints-on-yoga:p45.s2",
+    "s136-hints-on-yoga:p45.s3"
+   ],
+   "quote": {
+    "text": "Premature awakening is not desirable",
+    "cite": "s136-hints-on-yoga:p45.s3"
+   }
+  },
+  {
+   "id": "gradual-no-violence",
+   "paraphrase": "Practise gradually and step by step; avoid extremes and violent methods.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s187-wise-guidance-for-sure-success",
+     "passages": [
+      "s187-wise-guidance-for-sure-success:p1.s3"
+     ],
+     "start": 85,
+     "end": 133
+    },
+    {
+     "section": "s187-wise-guidance-for-sure-success",
+     "passages": [
+      "s187-wise-guidance-for-sure-success:p1.s1"
+     ],
+     "start": 0,
+     "end": 55
+    }
+   ],
+   "passage_ids": [
+    "s187-wise-guidance-for-sure-success:p1.s1",
+    "s187-wise-guidance-for-sure-success:p1.s3"
+   ],
+   "quote": {
+    "text": "No sudden and violent methods should be employed",
+    "cite": "s187-wise-guidance-for-sure-success:p1.s3"
+   }
+  },
+  {
+   "id": "master-lower-steps",
+   "paraphrase": "Master each stage (ethics, posture, breath) before moving to the next.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p44.s5"
+     ],
+     "start": 12704,
+     "end": 12782
+    },
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p71.s7"
+     ],
+     "start": 20706,
+     "end": 20793
+    }
+   ],
+   "passage_ids": [
+    "s136-hints-on-yoga:p44.s5",
+    "s136-hints-on-yoga:p71.s7"
+   ],
+   "quote": {
+    "text": "Do not take up any higher courses before you completely master the lower steps",
+    "cite": "s136-hints-on-yoga:p44.s5"
+   }
+  },
+  {
+   "id": "one-method",
+   "paraphrase": "Choose one method or set and keep to it; hopping between exercises daily gives no benefit.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p12.s3"
+     ],
+     "start": 2956,
+     "end": 3027
+    },
+    {
+     "section": "s187-wise-guidance-for-sure-success",
+     "passages": [
+      "s187-wise-guidance-for-sure-success:p3.s1"
+     ],
+     "start": 381,
+     "end": 445
+    },
+    {
+     "section": "s094-instructions-on-asanas",
+     "passages": [
+      "s094-instructions-on-asanas:p11.s1"
+     ],
+     "start": 1362,
+     "end": 1385
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p12.s3",
+    "s094-instructions-on-asanas:p11.s1",
+    "s187-wise-guidance-for-sure-success:p3.s1"
+   ],
+   "quote": {
+    "text": "There will be no use if you jump from one exercise to another every day",
+    "cite": "s080-instructions-on-pranayama:p12.s3"
+   }
+  },
+  {
+   "id": "empty-stomach",
+   "paraphrase": "Practise on an empty stomach: early morning, or about three hours after a meal.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s094-instructions-on-asanas",
+     "passages": [
+      "s094-instructions-on-asanas:p7.s1"
+     ],
+     "start": 714,
+     "end": 801
+    },
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p2.s1"
+     ],
+     "start": 413,
+     "end": 482
+    },
+    {
+     "section": "s030-the-time",
+     "passages": [
+      "s030-the-time:p2.s1"
+     ],
+     "start": 664,
+     "end": 714
+    }
+   ],
+   "passage_ids": [
+    "s030-the-time:p2.s1",
+    "s094-instructions-on-asanas:p7.s1",
+    "s109-instructions-on-mudras-and-bandhas:p2.s1"
+   ],
+   "quote": {
+    "text": "Asana should be done on empty stomach in the morning or at least three hours after food",
+    "cite": "s094-instructions-on-asanas:p7.s1"
+   }
+  },
+  {
+   "id": "early-morning",
+   "paraphrase": "Early morning (after the toilet) is the best time; cool hours in general; in hot places avoid practising in the heat of the day.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s030-the-time",
+     "passages": [
+      "s030-the-time:p1.s5"
+     ],
+     "start": 332,
+     "end": 384
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p1.s1"
+     ],
+     "start": 3,
+     "end": 76
+    },
+    {
+     "section": "s179-ten-commandments-for-yoga-students",
+     "passages": [
+      "s179-ten-commandments-for-yoga-students:p1.s1"
+     ],
+     "start": 3,
+     "end": 79
+    }
+   ],
+   "passage_ids": [
+    "s030-the-time:p1.s5",
+    "s080-instructions-on-pranayama:p1.s1",
+    "s179-ten-commandments-for-yoga-students:p1.s1"
+   ],
+   "quote": {
+    "text": "Early morning hours are suitable for Yogic practices",
+    "cite": "s030-the-time:p1.s5"
+   }
+  },
+  {
+   "id": "bath-before-not-after",
+   "paraphrase": "Bathe before practice, not straight after; after pranayama rest about half an hour first.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s030-the-time",
+     "passages": [
+      "s030-the-time:p2.s2"
+     ],
+     "start": 716,
+     "end": 774
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p10.s1",
+      "s080-instructions-on-pranayama:p10.s2"
+     ],
+     "start": 2348,
+     "end": 2428
+    }
+   ],
+   "passage_ids": [
+    "s030-the-time:p2.s2",
+    "s080-instructions-on-pranayama:p10.s1",
+    "s080-instructions-on-pranayama:p10.s2"
+   ],
+   "quote": {
+    "text": "Generally Yogic practices should be done only after a bath",
+    "cite": "s030-the-time:p2.s2"
+   }
+  },
+  {
+   "id": "not-when-agitated",
+   "paraphrase": "Do not start a session while very restless or worried.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s030-the-time",
+     "passages": [
+      "s030-the-time:p2.s4"
+     ],
+     "start": 834,
+     "end": 928
+    }
+   ],
+   "passage_ids": [
+    "s030-the-time:p2.s4"
+   ],
+   "quote": {
+    "text": "You should not sit for Yogic practices when your mind is restless or when you are worried much",
+    "cite": "s030-the-time:p2.s4"
+   }
+  },
+  {
+   "id": "quiet-clean-place",
+   "paraphrase": "A quiet, clean, dry, well-ventilated place free of interruption; keep to one place.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s029-the-place-for-yoga-sadhana",
+     "passages": [
+      "s029-the-place-for-yoga-sadhana:p1.s1",
+      "s029-the-place-for-yoga-sadhana:p1.s2"
+     ],
+     "start": 0,
+     "end": 85
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p1.s2"
+     ],
+     "start": 78,
+     "end": 127
+    }
+   ],
+   "passage_ids": [
+    "s029-the-place-for-yoga-sadhana:p1.s1",
+    "s029-the-place-for-yoga-sadhana:p1.s2",
+    "s080-instructions-on-pranayama:p1.s2"
+   ],
+   "quote": {
+    "text": "Sadhana should be done in a secluded place. There should be no interruption by anyone",
+    "cite": "s029-the-place-for-yoga-sadhana:p1.s1"
+   }
+  },
+  {
+   "id": "seat-height",
+   "paraphrase": "Sit on a firm mat or folded blanket, neither too high nor too low.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s029-the-place-for-yoga-sadhana",
+     "passages": [
+      "s029-the-place-for-yoga-sadhana:p6.s1"
+     ],
+     "start": 3210,
+     "end": 3285
+    },
+    {
+     "section": "s147-suryabheda-kumbhaka",
+     "passages": [
+      "s147-suryabheda-kumbhaka:p1.s2"
+     ],
+     "start": 163,
+     "end": 230
+    }
+   ],
+   "passage_ids": [
+    "s029-the-place-for-yoga-sadhana:p6.s1",
+    "s147-suryabheda-kumbhaka:p1.s2"
+   ],
+   "quote": {
+    "text": "Your Asana (seat) for the Yogic practices should not be too high or too low",
+    "cite": "s029-the-place-for-yoga-sadhana:p6.s1"
+   }
+  },
+  {
+   "id": "age",
+   "paraphrase": "Under-18s should practise only lightly and never the advanced courses; healthy people can begin even after 50.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s031-the-age",
+     "passages": [
+      "s031-the-age:p1.s1"
+     ],
+     "start": 0,
+     "end": 95
+    },
+    {
+     "section": "s031-the-age",
+     "passages": [
+      "s031-the-age:p1.s6"
+     ],
+     "start": 561,
+     "end": 623
+    },
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p82.s3"
+     ],
+     "start": 24194,
+     "end": 24248
+    }
+   ],
+   "passage_ids": [
+    "s031-the-age:p1.s1",
+    "s031-the-age:p1.s6",
+    "s136-hints-on-yoga:p82.s3"
+   ],
+   "quote": {
+    "text": "Young boys under 18 years of age whose bodies are very tender should not have too much practice",
+    "cite": "s031-the-age:p1.s1"
+   }
+  },
+  {
+   "id": "moderate-diet",
+   "paraphrase": "Moderate eating: half the stomach food, a quarter water, a quarter empty; change diet gradually.",
+   "scope": [
+    "conduct"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s028-mitahara",
+     "passages": [
+      "s028-mitahara:p1.s5",
+      "s028-mitahara:p1.s6",
+      "s028-mitahara:p1.s7"
+     ],
+     "start": 322,
+     "end": 413
+    },
+    {
+     "section": "s142-mitahara-asana-and-shakti-chalana",
+     "passages": [
+      "s142-mitahara-asana-and-shakti-chalana:p3.s2"
+     ],
+     "start": 321,
+     "end": 362
+    }
+   ],
+   "passage_ids": [
+    "s028-mitahara:p1.s5",
+    "s028-mitahara:p1.s6",
+    "s028-mitahara:p1.s7",
+    "s142-mitahara-asana-and-shakti-chalana:p3.s2"
+   ],
+   "quote": {
+    "text": "Take half stomachful of wholesome food. Fill a quarter with pure water. Leave the rest free",
+    "cite": "s028-mitahara:p1.s5"
+   }
+  },
+  {
+   "id": "no-heavy-fasting",
+   "paraphrase": "Avoid frequent fasting; it weakens. Break a fast with something light.",
+   "scope": [
+    "conduct"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s028-mitahara",
+     "passages": [
+      "s028-mitahara:p3.s1",
+      "s028-mitahara:p3.s2"
+     ],
+     "start": 1745,
+     "end": 1794
+    }
+   ],
+   "passage_ids": [
+    "s028-mitahara:p3.s1",
+    "s028-mitahara:p3.s2"
+   ],
+   "quote": {
+    "text": "Do not fast much. It will produce weakness in you",
+    "cite": "s028-mitahara:p3.s1"
+   }
+  },
+  {
+   "id": "sattvic-diet",
+   "paraphrase": "Recommended light vegetarian foods and a list of foods to avoid (stimulating, sour, meat, eggs, onion, garlic, alcohol). Recorded, not enforced.",
+   "scope": [
+    "conduct"
+   ],
+   "severity": "traditional",
+   "sources": [
+    {
+     "section": "s027-forbidden-articles",
+     "passages": [
+      "s027-forbidden-articles:p1.s1"
+     ],
+     "start": 0,
+     "end": 79
+    },
+    {
+     "section": "s026-sattvic-articles",
+     "passages": [
+      "s026-sattvic-articles:p1.s1"
+     ],
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "passage_ids": [
+    "s026-sattvic-articles:p1.s1",
+    "s027-forbidden-articles:p1.s1"
+   ],
+   "quote": {
+    "text": "Sour, hot, pungent and bitter preparations, salt, mustard, asafoetida, chillies",
+    "cite": "s027-forbidden-articles:p1.s1"
+   }
+  },
+  {
+   "id": "renunciate-conduct",
+   "paraphrase": "Celibacy, silence, solitude and avoiding company (including women and householders) are framed for male renunciates. Recorded for completeness; not ported to app copy.",
+   "scope": [
+    "conduct"
+   ],
+   "severity": "traditional",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p1.s1"
+     ],
+     "start": 0,
+     "end": 35
+    },
+    {
+     "section": "s024-important-qualifications-of-a-sadhaka",
+     "passages": [
+      "s024-important-qualifications-of-a-sadhaka:p10.s6"
+     ],
+     "start": 2200,
+     "end": 2258
+    },
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p6.s9"
+     ],
+     "start": 1369,
+     "end": 1395
+    }
+   ],
+   "passage_ids": [
+    "s024-important-qualifications-of-a-sadhaka:p10.s6",
+    "s136-hints-on-yoga:p1.s1",
+    "s136-hints-on-yoga:p6.s9"
+   ],
+   "quote": {
+    "text": "Brahmacharya is very very essential",
+    "cite": "s136-hints-on-yoga:p1.s1"
+   }
+  },
+  {
+   "id": "body-care",
+   "paraphrase": "Look after the body's health; austerity is not an excuse to neglect it.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p69.s2"
+     ],
+     "start": 19692,
+     "end": 19765
+    },
+    {
+     "section": "s094-instructions-on-asanas",
+     "passages": [
+      "s094-instructions-on-asanas:p20.s4"
+     ],
+     "start": 3728,
+     "end": 3781
+    }
+   ],
+   "passage_ids": [
+    "s094-instructions-on-asanas:p20.s4",
+    "s136-hints-on-yoga:p69.s2"
+   ],
+   "quote": {
+    "text": "All possible care should be taken to keep the body in a healthy condition",
+    "cite": "s136-hints-on-yoga:p69.s2"
+   }
+  },
+  {
+   "id": "gloom-means-error",
+   "paraphrase": "Practice should leave you refreshed and cheerful; persistent gloom, weakness or fatigue means the practice is wrong and should be eased.",
+   "scope": [
+    "all"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p43.s1"
+     ],
+     "start": 12181,
+     "end": 12271
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p9.s2"
+     ],
+     "start": 2141,
+     "end": 2222
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p9.s2",
+    "s136-hints-on-yoga:p43.s1"
+   ],
+   "quote": {
+    "text": "If a practitioner is gloomy, depressed and weak, surely there is some error in his Sadhana",
+    "cite": "s136-hints-on-yoga:p43.s1"
+   }
+  },
+  {
+   "id": "jerks-early",
+   "paraphrase": "Involuntary jerks may occur early on; the book calls them harmless and passing. Ask material only; never scripted.",
+   "scope": [
+    "all"
+   ],
+   "severity": "info",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p52.s1"
+     ],
+     "start": 14590,
+     "end": 14679
+    }
+   ],
+   "passage_ids": [
+    "s136-hints-on-yoga:p52.s1"
+   ],
+   "quote": {
+    "text": "In the beginning of your practice, you may get jerks of hands, legs, trunk and whole body",
+    "cite": "s136-hints-on-yoga:p52.s1"
+   }
+  },
+  {
+   "id": "backache-not-kundalini",
+   "paraphrase": "Back pains and sensations are not Kundalini rising; do not read bodily symptoms as attainment.",
+   "scope": [
+    "all"
+   ],
+   "severity": "info",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p44.s2"
+     ],
+     "start": 12507,
+     "end": 12608
+    }
+   ],
+   "passage_ids": [
+    "s136-hints-on-yoga:p44.s2"
+   ],
+   "quote": {
+    "text": "Do not take the movements of rheumatic winds in the back from chronic lumbago for ascent of Kundalini",
+    "cite": "s136-hints-on-yoga:p44.s2"
+   }
+  },
+  {
+   "id": "reject-siddhis",
+   "paraphrase": "Powers are distractions to be ignored; never offer them as goals or narrate them.",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p58.s3"
+     ],
+     "start": 16475,
+     "end": 16568
+    },
+    {
+     "section": "s117-instructions-on-siddhis",
+     "passages": [
+      "s117-instructions-on-siddhis:p7.s2"
+     ],
+     "start": 2543,
+     "end": 2599
+    }
+   ],
+   "passage_ids": [
+    "s117-instructions-on-siddhis:p7.s2",
+    "s136-hints-on-yoga:p58.s3"
+   ],
+   "quote": {
+    "text": "The Yogi who is bent upon getting the highest Samadhi, must reject Siddhis whenever they come",
+    "cite": "s136-hints-on-yoga:p58.s3"
+   }
+  },
+  {
+   "id": "signs-not-targets",
+   "paraphrase": "Visions, lights and sounds are described as signs; they are Ask material with the book's handling, never a target or a scripted line.",
+   "scope": [
+    "all"
+   ],
+   "severity": "info",
+   "sources": [
+    {
+     "section": "s010-experiences-on-awakening-of-kundalini",
+     "passages": [
+      "s010-experiences-on-awakening-of-kundalini:p1.s3"
+     ],
+     "start": 161,
+     "end": 219
+    },
+    {
+     "section": "s133-mystic-experiencevisions-of-lights",
+     "passages": [
+      "s133-mystic-experiencevisions-of-lights:p1.s1"
+     ],
+     "start": 0,
+     "end": 78
+    }
+   ],
+   "passage_ids": [
+    "s010-experiences-on-awakening-of-kundalini:p1.s3",
+    "s133-mystic-experiencevisions-of-lights:p1.s1"
+   ],
+   "quote": {
+    "text": "These indicate that the Kundalini Shakti has been awakened",
+    "cite": "s010-experiences-on-awakening-of-kundalini:p1.s3"
+   }
+  },
+  {
+   "id": "mantra-from-guru",
+   "paraphrase": "Kundalini mantra practice should use a mantra received from a teacher; bija sequences stay teacher-only.",
+   "scope": [
+    "meditation",
+    "nadi-suddhi-bija"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s113-mantras",
+     "passages": [
+      "s113-mantras:p1.s8"
+     ],
+     "start": 492,
+     "end": 601
+    }
+   ],
+   "passage_ids": [
+    "s113-mantras:p1.s8"
+   ],
+   "quote": {
+    "text": "Aspirants in Kundalini Yoga should take to this Mantra Sadhana only after getting a proper Mantra from a Guru",
+    "cite": "s113-mantras:p1.s8"
+   }
+  },
+  {
+   "id": "spiritual-diary",
+   "paraphrase": "Keep a daily practice log (sleep, japa, pranayama, asana, meditation, silence, service).",
+   "scope": [
+    "all"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s139-the-spiritual-diary",
+     "passages": [
+      "s139-the-spiritual-diary:p1.s3"
+     ],
+     "start": 201,
+     "end": 258
+    }
+   ],
+   "passage_ids": [
+    "s139-the-spiritual-diary:p1.s3"
+   ],
+   "quote": {
+    "text": "Maintain a daily diary and realise the marvellous results",
+    "cite": "s139-the-spiritual-diary:p1.s3"
+   }
+  },
+  {
+   "id": "kumbhaka-no-face-strain",
+   "paraphrase": "Straining the face during a hold means you are past your capacity: shorten the hold.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p4.s1"
+     ],
+     "start": 592,
+     "end": 655
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p4.s3"
+     ],
+     "start": 679,
+     "end": 753
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p4.s1",
+    "s080-instructions-on-pranayama:p4.s3"
+   ],
+   "quote": {
+    "text": "Some people twist the muscles of the face when they do Kumbhaka",
+    "cite": "s080-instructions-on-pranayama:p4.s1"
+   }
+  },
+  {
+   "id": "no-suffocation",
+   "paraphrase": "Set inhale, hold and exhale so there is never suffocation and no need for recovery breaths between rounds; a gasp means the hold was too long.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p17.s1"
+     ],
+     "start": 4086,
+     "end": 4178
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p17.s2"
+     ],
+     "start": 4180,
+     "end": 4290
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p17.s1",
+    "s080-instructions-on-pranayama:p17.s2"
+   ],
+   "quote": {
+    "text": "you should not experience the feeling of suffocation or discomfort at any stage of Pranayama",
+    "cite": "s080-instructions-on-pranayama:p17.s1"
+   }
+  },
+  {
+   "id": "no-fatigue",
+   "paraphrase": "Stop before tiredness; finish refreshed.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p9.s1"
+     ],
+     "start": 2089,
+     "end": 2139
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p9.s1"
+   ],
+   "quote": {
+    "text": "Do not perform the Pranayama till you are fatigued",
+    "cite": "s080-instructions-on-pranayama:p9.s1"
+   }
+  },
+  {
+   "id": "beginners-no-kumbhaka",
+   "paraphrase": "Beginners breathe in and out only (exhale twice the inhale, 1:2) for some days before any hold. This is the beginner form of every retention practice.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p14.s1"
+     ],
+     "start": 3359,
+     "end": 3438
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p14.s3"
+     ],
+     "start": 3472,
+     "end": 3516
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p14.s1",
+    "s080-instructions-on-pranayama:p14.s3"
+   ],
+   "quote": {
+    "text": "A neophyte should do Puraka and Rechaka only without any Kumbhaka for some days",
+    "cite": "s080-instructions-on-pranayama:p14.s1"
+   }
+  },
+  {
+   "id": "kumbhaka-weekly-build",
+   "paraphrase": "Build the hold slowly: about 4 s in week one, 8 s in week two, 12 s in week three, then gradually. The engine's 30 s cap still applies.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p16.s2"
+     ],
+     "start": 3835,
+     "end": 3944
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p16.s2"
+   ],
+   "quote": {
+    "text": "Retain for 4 seconds in the first week, for 8 seconds in the second week and for 12 seconds in the third week",
+    "cite": "s080-instructions-on-pranayama:p16.s2"
+   }
+  },
+  {
+   "id": "comfortable-hold",
+   "paraphrase": "Hold only as long as is comfortable and increase it cautiously.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s071-sukha-purvaka",
+     "passages": [
+      "s071-sukha-purvaka:p3.s1"
+     ],
+     "start": 1067,
+     "end": 1133
+    },
+    {
+     "section": "s072-bhastrika",
+     "passages": [
+      "s072-bhastrika:p2.s2"
+     ],
+     "start": 793,
+     "end": 865
+    }
+   ],
+   "passage_ids": [
+    "s071-sukha-purvaka:p3.s1",
+    "s072-bhastrika:p2.s2"
+   ],
+   "quote": {
+    "text": "Be careful in doing the Kumbhaka as long as you can comfortably do",
+    "cite": "s071-sukha-purvaka:p3.s1"
+   }
+  },
+  {
+   "id": "smooth-exhale-after-hold",
+   "paraphrase": "Only hold as long as you can still exhale smoothly and in proportion afterwards; do not over-lengthen the exhale either.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p18.s7"
+     ],
+     "start": 4968,
+     "end": 5037
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p18.s7"
+   ],
+   "quote": {
+    "text": "you must have efficient control over the lungs at the end of Kumbhaka",
+    "cite": "s080-instructions-on-pranayama:p18.s7"
+   }
+  },
+  {
+   "id": "slow-silent-breath",
+   "paraphrase": "Breathe slowly and quietly; bhastrika and kapalabhati may make a soft sound (ujjayi's throat sound is the book's own exception).",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p11.s1",
+      "s080-instructions-on-pranayama:p11.s2"
+     ],
+     "start": 2603,
+     "end": 2662
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p11.s3"
+     ],
+     "start": 2664,
+     "end": 2761
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p11.s1",
+    "s080-instructions-on-pranayama:p11.s2",
+    "s080-instructions-on-pranayama:p11.s3"
+   ],
+   "quote": {
+    "text": "Always inhale and exhale very slowly. Do not make any sound",
+    "cite": "s080-instructions-on-pranayama:p11.s1"
+   }
+  },
+  {
+   "id": "ratio-1-4-2",
+   "paraphrase": "Inhale : hold : exhale in the ratio 1:4:2 (e.g. 3:12:6 Oms) for the retention forms.",
+   "scope": [
+    "sukha-purvaka",
+    "kundalini-pranayama-muladhara",
+    "nadi-suddhi-bija"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s071-sukha-purvaka",
+     "passages": [
+      "s071-sukha-purvaka:p2.s15"
+     ],
+     "start": 952,
+     "end": 1010
+    }
+   ],
+   "passage_ids": [
+    "s071-sukha-purvaka:p2.s15"
+   ],
+   "quote": {
+    "text": "The ratio of inhalation, retention and exhalation is 1:4:2",
+    "cite": "s071-sukha-purvaka:p2.s15"
+   }
+  },
+  {
+   "id": "count-then-let-go",
+   "paraphrase": "Count with Om, a mantra or numbers at first; drop counting once the ratio is natural.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p7.s3"
+     ],
+     "start": 1488,
+     "end": 1569
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p8.s2"
+     ],
+     "start": 1949,
+     "end": 2015
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p7.s3",
+    "s080-instructions-on-pranayama:p8.s2"
+   ],
+   "quote": {
+    "text": "In the beginning you must observe some time-unit for Puraka, Kumbhaka and Rechaka",
+    "cite": "s080-instructions-on-pranayama:p7.s3"
+   }
+  },
+  {
+   "id": "steady-body",
+   "paraphrase": "Keep the body still during breath practice and meditation.",
+   "scope": [
+    "pranayama",
+    "meditation"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p6.s4"
+     ],
+     "start": 1213,
+     "end": 1304
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p6.s4"
+   ],
+   "quote": {
+    "text": "The Asana should be steady and as firm as a rock when you do Pranayama, Japa and meditation",
+    "cite": "s080-instructions-on-pranayama:p6.s4"
+   }
+  },
+  {
+   "id": "clean-nostrils",
+   "paraphrase": "Clear the nostrils before practice.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p2.s1"
+     ],
+     "start": 219,
+     "end": 287
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p2.s1"
+   ],
+   "quote": {
+    "text": "Before you sit for Pranayama practice, thoroughly clean the nostrils",
+    "cite": "s080-instructions-on-pranayama:p2.s1"
+   }
+  },
+  {
+   "id": "fifteen-minutes-daily",
+   "paraphrase": "Beginners: at least 15 minutes a day, regularly; results are not instant.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p12.s2"
+     ],
+     "start": 2860,
+     "end": 2954
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p12.s2"
+   ],
+   "quote": {
+    "text": "At least you must have 15 minutes’ daily practice in the beginning regularly for days together",
+    "cite": "s080-instructions-on-pranayama:p12.s2"
+   }
+  },
+  {
+   "id": "after-practice",
+   "paraphrase": "Light food about 10 minutes after; rub sweat in by hand; avoid cold draughts.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "traditional",
+   "sources": [
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p2.s2"
+     ],
+     "start": 319,
+     "end": 370
+    },
+    {
+     "section": "s080-instructions-on-pranayama",
+     "passages": [
+      "s080-instructions-on-pranayama:p10.s3",
+      "s080-instructions-on-pranayama:p10.s4"
+     ],
+     "start": 2430,
+     "end": 2525
+    }
+   ],
+   "passage_ids": [
+    "s080-instructions-on-pranayama:p10.s3",
+    "s080-instructions-on-pranayama:p10.s4",
+    "s080-instructions-on-pranayama:p2.s2"
+   ],
+   "quote": {
+    "text": "take a cup of milk or light tiffin after 10 minutes",
+    "cite": "s080-instructions-on-pranayama:p2.s2"
+   }
+  },
+  {
+   "id": "bhastrika-build",
+   "paraphrase": "Bhastrika starts at 10 breaths a round and 3 rounds with rest between; build slowly.",
+   "scope": [
+    "bhastrika"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s072-bhastrika",
+     "passages": [
+      "s072-bhastrika:p2.s1"
+     ],
+     "start": 705,
+     "end": 791
+    },
+    {
+     "section": "s072-bhastrika",
+     "passages": [
+      "s072-bhastrika:p2.s4"
+     ],
+     "start": 936,
+     "end": 964
+    }
+   ],
+   "passage_ids": [
+    "s072-bhastrika:p2.s1",
+    "s072-bhastrika:p2.s4"
+   ],
+   "quote": {
+    "text": "Begin with 10 expulsions for a round and increase it gradually to 20 or 25 for a round",
+    "cite": "s072-bhastrika:p2.s1"
+   }
+  },
+  {
+   "id": "kapalabhati-build",
+   "paraphrase": "Kapalabhati: about one forced exhale per second, 10 per round at first, adding 10 at a time up to 120.",
+   "scope": [
+    "kapalabhati"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s066-kapalabhati",
+     "passages": [
+      "s066-kapalabhati:p2.s11",
+      "s066-kapalabhati:p2.s12"
+     ],
+     "start": 831,
+     "end": 925
+    }
+   ],
+   "passage_ids": [
+    "s066-kapalabhati:p2.s11",
+    "s066-kapalabhati:p2.s12"
+   ],
+   "quote": {
+    "text": "To start with, have only one expulsion per second. In the beginning do 10 expulsions per round",
+    "cite": "s066-kapalabhati:p2.s11"
+   }
+  },
+  {
+   "id": "sukha-purvaka-build",
+   "paraphrase": "Sukha Purvaka: 6 rounds morning and evening to start, rising to 20.",
+   "scope": [
+    "sukha-purvaka"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s071-sukha-purvaka",
+     "passages": [
+      "s071-sukha-purvaka:p2.s13"
+     ],
+     "start": 828,
+     "end": 893
+    }
+   ],
+   "passage_ids": [
+    "s071-sukha-purvaka:p2.s13"
+   ],
+   "quote": {
+    "text": "To start with do 6 Pranayamas in the morning and 6 in the evening",
+    "cite": "s071-sukha-purvaka:p2.s13"
+   }
+  },
+  {
+   "id": "suryabheda-hold-limit",
+   "paraphrase": "The book's limit for the suryabheda hold is sweating at the hair roots, reached only over time. We treat this as a teacher-only form; the engine caps holds at 30 s.",
+   "scope": [
+    "suryabheda"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s073-suryabheda",
+     "passages": [
+      "s073-suryabheda:p1.s6"
+     ],
+     "start": 361,
+     "end": 427
+    },
+    {
+     "section": "s073-suryabheda",
+     "passages": [
+      "s073-suryabheda:p1.s7"
+     ],
+     "start": 446,
+     "end": 493
+    }
+   ],
+   "passage_ids": [
+    "s073-suryabheda:p1.s6",
+    "s073-suryabheda:p1.s7"
+   ],
+   "quote": {
+    "text": "Hold the breath till perspiration oozes from the roots of the hair",
+    "cite": "s073-suryabheda:p1.s6"
+   }
+  },
+  {
+   "id": "trataka-sun-guide",
+   "paraphrase": "Never sun-gaze without an experienced guide; the engine never offers sun trataka.",
+   "scope": [
+    "trataka"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s065-trataka",
+     "passages": [
+      "s065-trataka:p12.s7"
+     ],
+     "start": 3235,
+     "end": 3328
+    }
+   ],
+   "passage_ids": [
+    "s065-trataka:p12.s7"
+   ],
+   "quote": {
+    "text": "The last one, sun-gazing should not be attempted until you get the help of an experienced man",
+    "cite": "s065-trataka:p12.s7"
+   }
+  },
+  {
+   "id": "trataka-eyes",
+   "paraphrase": "Do not strain the eyes; with weak eyes gaze at an imagined point with eyes closed; close the eyes when tired.",
+   "scope": [
+    "trataka"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s065-trataka",
+     "passages": [
+      "s065-trataka:p18.s2"
+     ],
+     "start": 4924,
+     "end": 4961
+    },
+    {
+     "section": "s065-trataka",
+     "passages": [
+      "s065-trataka:p18.s1"
+     ],
+     "start": 4799,
+     "end": 4904
+    }
+   ],
+   "passage_ids": [
+    "s065-trataka:p18.s1",
+    "s065-trataka:p18.s2"
+   ],
+   "quote": {
+    "text": "Do not tax your eyes by over-practice",
+    "cite": "s065-trataka:p18.s2"
+   }
+  },
+  {
+   "id": "trataka-start",
+   "paraphrase": "Start trataka at about two minutes and lengthen cautiously.",
+   "scope": [
+    "trataka"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s065-trataka",
+     "passages": [
+      "s065-trataka:p16.s1",
+      "s065-trataka:p16.s2"
+     ],
+     "start": 4257,
+     "end": 4334
+    }
+   ],
+   "passage_ids": [
+    "s065-trataka:p16.s1",
+    "s065-trataka:p16.s2"
+   ],
+   "quote": {
+    "text": "Do Trataka for two minutes to start with. Then cautiously increase the period",
+    "cite": "s065-trataka:p16.s1"
+   }
+  },
+  {
+   "id": "plavini-expert",
+   "paraphrase": "Plavini (air-swallowing) only with an expert's help.",
+   "scope": [
+    "plavini"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s075-plavini",
+     "passages": [
+      "s075-plavini:p1.s8"
+     ],
+     "start": 570,
+     "end": 636
+    }
+   ],
+   "passage_ids": [
+    "s075-plavini:p1.s8"
+   ],
+   "quote": {
+    "text": "The help of one who is well versed in this Pranayama, is necessary",
+    "cite": "s075-plavini:p1.s8"
+   }
+  },
+  {
+   "id": "bandha-phases",
+   "paraphrase": "Root lock may be held in any breath phase and in meditation; chin lock belongs to the held breath; abdominal lock to the end of the hold / start of the exhale.",
+   "scope": [
+    "mula-bandha",
+    "jalandhara-bandha",
+    "uddiyana-bandha",
+    "bandha-traya"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p1.s4"
+     ],
+     "start": 193,
+     "end": 286
+    },
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p1.s5"
+     ],
+     "start": 288,
+     "end": 369
+    }
+   ],
+   "passage_ids": [
+    "s109-instructions-on-mudras-and-bandhas:p1.s4",
+    "s109-instructions-on-mudras-and-bandhas:p1.s5"
+   ],
+   "quote": {
+    "text": "Mula Bandha is practised during Puraka, Kumbhaka, Rechaka and during meditation and Japa also",
+    "cite": "s109-instructions-on-mudras-and-bandhas:p1.s4"
+   }
+  },
+  {
+   "id": "uddiyana-empty-lungs",
+   "paraphrase": "Uddiyana is done on emptied lungs: an exhaled hold, so the retention rules apply.",
+   "scope": [
+    "uddiyana-bandha"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s098-uddiyana-bandha",
+     "passages": [
+      "s098-uddiyana-bandha:p2.s1"
+     ],
+     "start": 193,
+     "end": 244
+    }
+   ],
+   "passage_ids": [
+    "s098-uddiyana-bandha:p2.s1"
+   ],
+   "quote": {
+    "text": "Empty the lungs by a strong and forcible expiration",
+    "cite": "s098-uddiyana-bandha:p2.s1"
+   }
+  },
+  {
+   "id": "mudras-combine",
+   "paraphrase": "Mudras work together with breath, posture and japa, and need concentration.",
+   "scope": [
+    "mudras"
+   ],
+   "severity": "info",
+   "sources": [
+    {
+     "section": "s109-instructions-on-mudras-and-bandhas",
+     "passages": [
+      "s109-instructions-on-mudras-and-bandhas:p3.s1"
+     ],
+     "start": 597,
+     "end": 676
+    }
+   ],
+   "passage_ids": [
+    "s109-instructions-on-mudras-and-bandhas:p3.s1"
+   ],
+   "quote": {
+    "text": "The benefits that are given may not be realised by the practice of Mudras alone",
+    "cite": "s109-instructions-on-mudras-and-bandhas:p3.s1"
+   }
+  },
+  {
+   "id": "yoni-mudra-caution",
+   "paraphrase": "Yoni mudra is called difficult; practise it cautiously.",
+   "scope": [
+    "yoni-mudra"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s107-yoni-mudra",
+     "passages": [
+      "s107-yoni-mudra:p1.s9"
+     ],
+     "start": 542,
+     "end": 620
+    }
+   ],
+   "passage_ids": [
+    "s107-yoni-mudra:p1.s9"
+   ],
+   "quote": {
+    "text": "Therefore realise the importance of this Mudra and practise it very cautiously",
+    "cite": "s107-yoni-mudra:p1.s9"
+   }
+  },
+  {
+   "id": "viparitakarani-build",
+   "paraphrase": "Viparitakarani starts at one minute and grows slowly.",
+   "scope": [
+    "viparitakarani"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s103-viparitakarani-mudra",
+     "passages": [
+      "s103-viparitakarani-mudra:p1.s9"
+     ],
+     "start": 374,
+     "end": 409
+    }
+   ],
+   "passage_ids": [
+    "s103-viparitakarani-mudra:p1.s9"
+   ],
+   "quote": {
+    "text": "On the first day do it for a minute",
+    "cite": "s103-viparitakarani-mudra:p1.s9"
+   }
+  },
+  {
+   "id": "asana-basics",
+   "paraphrase": "Practise asanas on a blanket, without spectacles, regularly, as one fixed set.",
+   "scope": [
+    "asanas"
+   ],
+   "severity": "guidance",
+   "sources": [
+    {
+     "section": "s094-instructions-on-asanas",
+     "passages": [
+      "s094-instructions-on-asanas:p2.s1"
+     ],
+     "start": 141,
+     "end": 211
+    },
+    {
+     "section": "s094-instructions-on-asanas",
+     "passages": [
+      "s094-instructions-on-asanas:p4.s1"
+     ],
+     "start": 390,
+     "end": 431
+    }
+   ],
+   "passage_ids": [
+    "s094-instructions-on-asanas:p2.s1",
+    "s094-instructions-on-asanas:p4.s1"
+   ],
+   "quote": {
+    "text": "Spread a blanket on the floor and practise the Asanas over the blanket",
+    "cite": "s094-instructions-on-asanas:p2.s1"
+   }
+  },
+  {
+   "id": "headstand-build",
+   "paraphrase": "Headstand builds from about 5 s by 15 s a week, entering and leaving slowly.",
+   "scope": [
+    "asanas"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s086-sirshasana-topsy-turvy-pose",
+     "passages": [
+      "s086-sirshasana-topsy-turvy-pose:p1.s7"
+     ],
+     "start": 265,
+     "end": 362
+    }
+   ],
+   "passage_ids": [
+    "s086-sirshasana-topsy-turvy-pose:p1.s7"
+   ],
+   "quote": {
+    "text": "Stand for five seconds in the beginning and gradually increase the period by 15 seconds each week",
+    "cite": "s086-sirshasana-topsy-turvy-pose:p1.s7"
+   }
+  },
+  {
+   "id": "urdhva-padmasana-prereq",
+   "paraphrase": "Lotus-in-headstand only after a steady 10–15 minute headstand.",
+   "scope": [
+    "asanas"
+   ],
+   "severity": "hard-stop",
+   "sources": [
+    {
+     "section": "s093-urdhva-padmasana-above-lotus-pose",
+     "passages": [
+      "s093-urdhva-padmasana-above-lotus-pose:p1.s4"
+     ],
+     "start": 162,
+     "end": 250
+    }
+   ],
+   "passage_ids": [
+    "s093-urdhva-padmasana-above-lotus-pose:p1.s4"
+   ],
+   "quote": {
+    "text": "If you can stand in Sirshasana for more than 10 or 15 minutes, then you can attempt this",
+    "cite": "s093-urdhva-padmasana-above-lotus-pose:p1.s4"
+   }
+  },
+  {
+   "id": "upanishad-kumbhaka-schedule",
+   "paraphrase": "The Upanishad's schedule (4, then 10 + 5, then 20, adding 5 a day with all three locks) is far steeper than the book's own gradual rules; treat as teacher-only.",
+   "scope": [
+    "pranayama"
+   ],
+   "severity": "caution",
+   "sources": [
+    {
+     "section": "s151-how-many-times-kumbhaka-should-be-practi",
+     "passages": [
+      "s151-how-many-times-kumbhaka-should-be-practi:p1.s1"
+     ],
+     "start": 4,
+     "end": 61
+    },
+    {
+     "section": "s151-how-many-times-kumbhaka-should-be-practi",
+     "passages": [
+      "s151-how-many-times-kumbhaka-should-be-practi:p3.s2"
+     ],
+     "start": 267,
+     "end": 306
+    }
+   ],
+   "passage_ids": [
+    "s151-how-many-times-kumbhaka-should-be-practi:p1.s1",
+    "s151-how-many-times-kumbhaka-should-be-practi:p3.s2"
+   ],
+   "quote": {
+    "text": "On the first day, Kumbhaka should be practised four times",
+    "cite": "s151-how-many-times-kumbhaka-should-be-practi:p1.s1"
+   }
+  },
+  {
+   "id": "obstacles",
+   "paraphrase": "The listed causes of illness and obstacles to practice (day sleep, late nights, crowds, bad food, suppressing urges, doubt, laziness…).",
+   "scope": [
+    "all"
+   ],
+   "severity": "info",
+   "sources": [
+    {
+     "section": "s152-the-obstacles-to-the-practice-of-yoga-an",
+     "passages": [
+      "s152-the-obstacles-to-the-practice-of-yoga-an:p1.s1"
+     ],
+     "start": 4,
+     "end": 52
+    },
+    {
+     "section": "s136-hints-on-yoga",
+     "passages": [
+      "s136-hints-on-yoga:p41.s3"
+     ],
+     "start": 11748,
+     "end": 11859
+    }
+   ],
+   "passage_ids": [
+    "s136-hints-on-yoga:p41.s3",
+    "s152-the-obstacles-to-the-practice-of-yoga-an:p1.s1"
+   ],
+   "quote": {
+    "text": "Seven are the causes of the diseases in the body",
+    "cite": "s152-the-obstacles-to-the-practice-of-yoga-an:p1.s1"
+   }
+  }
+ ]
+}

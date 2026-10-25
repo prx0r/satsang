@@ -32,6 +32,7 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | S30 | Discovery-batch flags (SES schools, Integral Yoga) | **AU** | Owner decides keep / annotate / drop (specs/PLACES-REVIEW.md section D); both are on the map with a place-level safety record. |
 | S31 | No favicon: /favicon.svg 404s (static /place pages link it; index.html has none) | NS | Add a favicon to site/ (crawl flags it on static pages). |
 | S32 | Enquiry lens index predates the 78 new places | NS | `sh deploy.sh search` if the lens should list them (lens held list now reads person red flags only). |
+| S33 | Sivananda *Kundalini Yoga* (DLS) source map: passes 0–2 done read-only (189 sections, 23 runnable candidates, 59 rules; text private in satsang-data) | **AU** | Owner/teacher reviews `engine/sources/books/sivananda-kundalini-yoga/labels.tsv` tiers + REPORT.md conflicts, then pass 3 (first batch: sukha purvaka, nadi suddhi, bhastrika, suryabheda, ujjayi, bandhas, kapalabhati). Nothing compiled or deployed. |
 | S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
 | S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
 

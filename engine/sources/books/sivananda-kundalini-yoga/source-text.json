@@ -1,0 +1,1747 @@
+{
+ "type": "source_text",
+ "schema_version": 1,
+ "id": "sivananda-kundalini-yoga",
+ "title": "Kundalini Yoga",
+ "work": "Kundalini Yoga (Swami Sivananda; includes his translation-commentary of the Yoga-Kundalini Upanishad and appendix articles)",
+ "author": {
+  "name": "Swami Sivananda Saraswati",
+  "id": "swami-sivananda"
+ },
+ "edition": "Tenth Edition 1994 (copies 10,000); World Wide Web (WWW) Edition 1999; ISBN 81-7052-052-5",
+ "publisher": "The Divine Life Society, P.O. Shivanandanagar 249 192, Distt. Tehri-Garhwal, Uttar Pradesh, Himalayas, India",
+ "language": "en",
+ "url": "https://www.dlshq.org/download/kundalini-yoga/",
+ "licence": {
+  "id": "publisher-free",
+  "url": "https://www.dlshq.org/download/kundalini-yoga/",
+  "evidence_url": "https://www.dlshq.org/download/kundalini-yoga/",
+  "evidence_segment": "s001-title-page",
+  "evidence_quote": "This WWW reprint is for free distribution",
+  "checked": "2026-10-26",
+  "terms": {
+   "attribution": "Swami Sivananda, Kundalini Yoga, © The Divine Life Trust Society (WWW edition 1999), dlshq.org",
+   "noncommercial": true,
+   "noncommercial_note": "'For free distribution' is a permission to share free copies, not an open licence: no adaptation or commercial grant is stated, copyright is reserved to the Divine Life Trust Society. Treat derived practices as free-to-use, never sold/paywalled/monetised; ask DLS before any commercial use.",
+   "adaptations": "not granted explicitly; we publish only our own paraphrases plus quotes of 25 words or fewer",
+   "store_verbatim": false
+  }
+ },
+ "private_text": {
+  "repo": "prx0r/satsang-data (private)",
+  "path": "books/sivananda-kundalini-yoga/",
+  "files": [
+   "page.html",
+   "page.headers.txt",
+   "book.txt",
+   "sections/<segment id>.txt",
+   "passages.json"
+  ],
+  "note": "segments[].file are relative to that private path; the public repo holds only hashes, offsets and our paraphrases"
+ },
+ "normalisation": "engine/tools/extract/book-sections.py 'satsang-book-html/1': body = <div class=\"post-content\"> … first </article>; h1/h2/h3 open sections (title-page h3s folded in; headings with no body of their own become part labels only); p/div/li/td/tr/pre/blockquote/hr/ul/ol/table are paragraph breaks, <br> → space, entities decoded, whitespace collapsed, NFC, paragraphs joined by a blank line. Offsets are JS string (UTF-16) indices into each section text; sha256 of that exact text.",
+ "retrieved": "2026-10-26",
+ "segments": [
+  {
+   "id": "s001-title-page",
+   "label": "Title page",
+   "title": "Title page",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/",
+   "file": "sections/s001-title-page.txt",
+   "chars": 819,
+   "sha256": "4660a7d1e463bebebedd2a80a033645923951b88ce878d2b053db59effbb9170"
+  },
+  {
+   "id": "s002-contents",
+   "label": "CONTENTS",
+   "title": "CONTENTS",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/",
+   "file": "sections/s002-contents.txt",
+   "chars": 4111,
+   "sha256": "32dd3147a2b84b9d722e476000130fe815ce15b15efaa7ad67c85494bbd0448e"
+  },
+  {
+   "id": "s003-publishers-note",
+   "label": "PUBLISHERS’ NOTE",
+   "title": "PUBLISHERS’ NOTE",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_1",
+   "file": "sections/s003-publishers-note.txt",
+   "chars": 1303,
+   "sha256": "a23fdb95afc052c5df21f95b8a420d70d54b77ee7acce4458e7dd674979263bf"
+  },
+  {
+   "id": "s004-guru-stotra",
+   "label": "GURU STOTRA",
+   "title": "GURU STOTRA",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_2",
+   "file": "sections/s004-guru-stotra.txt",
+   "chars": 1067,
+   "sha256": "cc934e64bf0b01bf0c77639ccd5b1543ab3d646b6b22ce05e682543f0b54894b"
+  },
+  {
+   "id": "s005-devi-stotra",
+   "label": "DEVI STOTRA",
+   "title": "DEVI STOTRA",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_3",
+   "file": "sections/s005-devi-stotra.txt",
+   "chars": 1377,
+   "sha256": "ae538567076295184a4e6c17e09b7617b628c4b94268bd53462430e49ed1a01e"
+  },
+  {
+   "id": "s006-siva-stotra",
+   "label": "SIVA STOTRA",
+   "title": "SIVA STOTRA",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_4",
+   "file": "sections/s006-siva-stotra.txt",
+   "chars": 627,
+   "sha256": "7341dc93df6a13fedd416f1c3237bd9d33992bc6a5b1187b6f5067328bdc3390"
+  },
+  {
+   "id": "s007-the-four-stages-of-sound",
+   "label": "THE FOUR STAGES OF SOUND",
+   "title": "THE FOUR STAGES OF SOUND",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_5",
+   "file": "sections/s007-the-four-stages-of-sound.txt",
+   "chars": 1880,
+   "sha256": "178554cb6b246b463d4b5609d446828d7bd67d4e6b7159f7a381470849738b66"
+  },
+  {
+   "id": "s008-preface",
+   "label": "PREFACE",
+   "title": "PREFACE",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_6",
+   "file": "sections/s008-preface.txt",
+   "chars": 8888,
+   "sha256": "f7d393edab121efeb9d796758dd49a70b505dd3246ec5225a86f4038399d5be6"
+  },
+  {
+   "id": "s009-prayer-to-mother-kundalini",
+   "label": "PRAYER TO MOTHER KUNDALINI",
+   "title": "PRAYER TO MOTHER KUNDALINI",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_7",
+   "file": "sections/s009-prayer-to-mother-kundalini.txt",
+   "chars": 677,
+   "sha256": "895ef55f511f5e4e3faaa81f910cc7debbd61f8066d921013e9bb8ba59114941"
+  },
+  {
+   "id": "s010-experiences-on-awakening-of-kundalini",
+   "label": "EXPERIENCES ON AWAKENING OF KUNDALINI",
+   "title": "EXPERIENCES ON AWAKENING OF KUNDALINI",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_8",
+   "file": "sections/s010-experiences-on-awakening-of-kundalini.txt",
+   "chars": 2049,
+   "sha256": "fb5d31d1228db2c724b553c7613f4fc3f89112f82a76b273eda66596b2394cdc"
+  },
+  {
+   "id": "s011-the-gradational-ascent-of-the-mind",
+   "label": "THE GRADATIONAL ASCENT OF THE MIND",
+   "title": "THE GRADATIONAL ASCENT OF THE MIND",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_9",
+   "file": "sections/s011-the-gradational-ascent-of-the-mind.txt",
+   "chars": 2411,
+   "sha256": "eac085bd4b385047bebce32f01853dc67cdec713c3adbdbeb1f3fb61b29c9dd2"
+  },
+  {
+   "id": "s012-pranayama-for-awakening-kundalini",
+   "label": "PRANAYAMA FOR AWAKENING KUNDALINI",
+   "title": "PRANAYAMA FOR AWAKENING KUNDALINI",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_10",
+   "file": "sections/s012-pranayama-for-awakening-kundalini.txt",
+   "chars": 1246,
+   "sha256": "0d295daa54e5543234d3a8ac74cf7551c3f48945475188859c53c5f78e9f2f2b"
+  },
+  {
+   "id": "s013-kundalini-pranayama",
+   "label": "KUNDALINI PRANAYAMA",
+   "title": "KUNDALINI PRANAYAMA",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_11",
+   "file": "sections/s013-kundalini-pranayama.txt",
+   "chars": 1509,
+   "sha256": "1a82ca2aa54044bf3bec691d3364be7937e92bf476391d8f67c8fcdd3a23e519"
+  },
+  {
+   "id": "s014-kundalini",
+   "label": "KUNDALINI",
+   "title": "KUNDALINI",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_12",
+   "file": "sections/s014-kundalini.txt",
+   "chars": 3859,
+   "sha256": "93e1be401ccfb75a6c1dddc91cc97354d5d38586750075c3548014d25f339ffe"
+  },
+  {
+   "id": "s015-kundalini-and-tantrik-sadhana",
+   "label": "Kundalini And Tantrik Sadhana",
+   "title": "Kundalini And Tantrik Sadhana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_12",
+   "file": "sections/s015-kundalini-and-tantrik-sadhana.txt",
+   "chars": 568,
+   "sha256": "44d5af673b468e18062308d3e3bb6bd9b810223721ecac0131d9a7ccb1b03e7a"
+  },
+  {
+   "id": "s016-kundalini-and-hatha-yoga",
+   "label": "Kundalini And Hatha Yoga",
+   "title": "Kundalini And Hatha Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/",
+   "file": "sections/s016-kundalini-and-hatha-yoga.txt",
+   "chars": 776,
+   "sha256": "95f09aef259c688e79256cdcdad4e8b38c67359f7dd492fc7cb41b3830033fb9"
+  },
+  {
+   "id": "s017-kundalini-and-raja-yoga",
+   "label": "Kundalini And Raja Yoga",
+   "title": "Kundalini And Raja Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/",
+   "file": "sections/s017-kundalini-and-raja-yoga.txt",
+   "chars": 1168,
+   "sha256": "6cca0e859de7666a6d179a4edc2ab106de9e723a54ef5a46c653e7ae4d34d819"
+  },
+  {
+   "id": "s018-kundalini-and-vedanta",
+   "label": "Kundalini And Vedanta",
+   "title": "Kundalini And Vedanta",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/",
+   "file": "sections/s018-kundalini-and-vedanta.txt",
+   "chars": 1423,
+   "sha256": "06464b62f1c194290cf15a4839fc8955a7c762d1f9229211f714ff5269b4a9d8"
+  },
+  {
+   "id": "s019-essence-of-kundalini-yoga",
+   "label": "Essence Of Kundalini Yoga",
+   "title": "Essence Of Kundalini Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_13",
+   "file": "sections/s019-essence-of-kundalini-yoga.txt",
+   "chars": 39382,
+   "sha256": "71a7df88daff44c01fdf414c2c398e276596ab1ccebe20593a47599c69beec1d"
+  },
+  {
+   "id": "s020-preliminary",
+   "label": "PRELIMINARY",
+   "title": "PRELIMINARY",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_15",
+   "file": "sections/s020-preliminary.txt",
+   "chars": 275,
+   "sha256": "c46a9b2f34eff4e8bc8323d8bd76a8640c4fd8aec661f6eb9c2f0e8cb0d93195"
+  },
+  {
+   "id": "s021-foundationvairagya",
+   "label": "Foundation–Vairagya",
+   "title": "Foundation–Vairagya",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_16",
+   "file": "sections/s021-foundationvairagya.txt",
+   "chars": 3746,
+   "sha256": "0f452e17ac7c8d79a6e6802b8bcc995a577f607d684f055a65fc07c61ff0e1ac"
+  },
+  {
+   "id": "s022-what-is-yoga",
+   "label": "What Is Yoga?",
+   "title": "What Is Yoga?",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_17",
+   "file": "sections/s022-what-is-yoga.txt",
+   "chars": 1127,
+   "sha256": "f63aa13962de52b681fa546c48f1a786e95aeb467e5bdde0afb1d58de9983b7a"
+  },
+  {
+   "id": "s023-the-importance-of-kundalini-yoga",
+   "label": "The Importance Of Kundalini Yoga",
+   "title": "The Importance Of Kundalini Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_18",
+   "file": "sections/s023-the-importance-of-kundalini-yoga.txt",
+   "chars": 2708,
+   "sha256": "61f99b4b7124a0a44222783a6510ba06f86d8d70e0541a9558b8e84e3af5bca0"
+  },
+  {
+   "id": "s024-important-qualifications-of-a-sadhaka",
+   "label": "Important Qualifications Of A Sadhaka",
+   "title": "Important Qualifications Of A Sadhaka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_19",
+   "file": "sections/s024-important-qualifications-of-a-sadhaka.txt",
+   "chars": 2370,
+   "sha256": "04c89087da8601aa40719b92e27a9be1829056e3ed2a593b7fc78ea1631b363b"
+  },
+  {
+   "id": "s025-yogic-diet",
+   "label": "Yogic Diet",
+   "title": "Yogic Diet",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_20",
+   "file": "sections/s025-yogic-diet.txt",
+   "chars": 1438,
+   "sha256": "5a6f8ce50d1a7c431992d548bec9124c2f1ce16364f29917816f71d5af587863"
+  },
+  {
+   "id": "s026-sattvic-articles",
+   "label": "Sattvic Articles",
+   "title": "Sattvic Articles",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_21",
+   "file": "sections/s026-sattvic-articles.txt",
+   "chars": 1487,
+   "sha256": "427dcb716940bbd2eb565124c29306871d80f84a9f78fdb6bcad36b98b8f6995"
+  },
+  {
+   "id": "s027-forbidden-articles",
+   "label": "Forbidden Articles",
+   "title": "Forbidden Articles",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_22",
+   "file": "sections/s027-forbidden-articles.txt",
+   "chars": 1591,
+   "sha256": "26f7577675582b37e208c4cf4e85597ab17fcebb0683f32b0078c2377395e3c6"
+  },
+  {
+   "id": "s028-mitahara",
+   "label": "Mitahara",
+   "title": "Mitahara",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_23",
+   "file": "sections/s028-mitahara.txt",
+   "chars": 2862,
+   "sha256": "ba06a8b883e54f263b2738c182f3bb2b56e32f4c7525bab7b659ed871e2960af"
+  },
+  {
+   "id": "s029-the-place-for-yoga-sadhana",
+   "label": "The Place For Yoga Sadhana",
+   "title": "The Place For Yoga Sadhana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_24",
+   "file": "sections/s029-the-place-for-yoga-sadhana.txt",
+   "chars": 3572,
+   "sha256": "00fcb43adb490c052f1f93311f50a8e90cb8754dc6e74a9a3ec6a94fb85b0185"
+  },
+  {
+   "id": "s030-the-time",
+   "label": "The Time",
+   "title": "The Time",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_25",
+   "file": "sections/s030-the-time.txt",
+   "chars": 929,
+   "sha256": "8621bb4a4b92b871473229820c794c6a77192a9445a8bad5c1c60fdb2c89ce06"
+  },
+  {
+   "id": "s031-the-age",
+   "label": "The Age",
+   "title": "The Age",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_26",
+   "file": "sections/s031-the-age.txt",
+   "chars": 700,
+   "sha256": "64f73cfbfe170efbf4b17e0196fcf81ecbe896424a6ac87977bc8c6216e69efb"
+  },
+  {
+   "id": "s032-necessity-for-a-yogic-guru",
+   "label": "Necessity For A Yogic Guru",
+   "title": "Necessity For A Yogic Guru",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_27",
+   "file": "sections/s032-necessity-for-a-yogic-guru.txt",
+   "chars": 3074,
+   "sha256": "9518895225cd533c32eef5fff61d3b791a1b0b669d56015b785137bbb7b34e30"
+  },
+  {
+   "id": "s033-who-is-a-guru",
+   "label": "Who Is A Guru?",
+   "title": "Who Is A Guru?",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_28",
+   "file": "sections/s033-who-is-a-guru.txt",
+   "chars": 7525,
+   "sha256": "02226c457dea84082c482aa92131265bb09caf514dbd4ad45007cbbc81a43910"
+  },
+  {
+   "id": "s034-spiritual-power",
+   "label": "Spiritual Power",
+   "title": "Spiritual Power",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_29",
+   "file": "sections/s034-spiritual-power.txt",
+   "chars": 2878,
+   "sha256": "134a3919a3be14e96935f1d0ce52cfbf783aa8091e478bfd4f2829ed0cb158fe"
+  },
+  {
+   "id": "s035-yoga-nadis",
+   "label": "Yoga Nadis",
+   "title": "Yoga Nadis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_32",
+   "file": "sections/s035-yoga-nadis.txt",
+   "chars": 2962,
+   "sha256": "2fa179d34df4a82b5b42e51f0e48aec0b0adb41113813b1f3911a04e56758977"
+  },
+  {
+   "id": "s036-spinal-column",
+   "label": "Spinal Column",
+   "title": "Spinal Column",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_33",
+   "file": "sections/s036-spinal-column.txt",
+   "chars": 2351,
+   "sha256": "2c2db37cd10b6acda837d3d1b34629e1b7a0a0c9f39fda193ae2f631b58d9306"
+  },
+  {
+   "id": "s037-sukshma-sarira",
+   "label": "Sukshma Sarira",
+   "title": "Sukshma Sarira",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_34",
+   "file": "sections/s037-sukshma-sarira.txt",
+   "chars": 778,
+   "sha256": "7a3b507803b013ff7bbf65af75aadf8a875f04844dc2896cb22af76ee9254ae3"
+  },
+  {
+   "id": "s038-kanda",
+   "label": "Kanda",
+   "title": "Kanda",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_35",
+   "file": "sections/s038-kanda.txt",
+   "chars": 1085,
+   "sha256": "2b4eb0b4b66c22769e47dbb8f016111e2fc7a9241241a4a220d16049e3103547"
+  },
+  {
+   "id": "s039-spinal-cord",
+   "label": "Spinal Cord",
+   "title": "Spinal Cord",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_36",
+   "file": "sections/s039-spinal-cord.txt",
+   "chars": 1964,
+   "sha256": "e8894bcad4627cd8513908f370b76e8449737414aeda57cd04470428f8f9b20d"
+  },
+  {
+   "id": "s040-sushumna-nadi",
+   "label": "Sushumna Nadi",
+   "title": "Sushumna Nadi",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_37",
+   "file": "sections/s040-sushumna-nadi.txt",
+   "chars": 2919,
+   "sha256": "09fd38e781bdc3a5633a18fd1b6f6b89e73988f87faeae4b448a5e8d7d08223a"
+  },
+  {
+   "id": "s041-para-sympathetic-and-sympathetic-system",
+   "label": "Para-Sympathetic And Sympathetic System",
+   "title": "Para-Sympathetic And Sympathetic System",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_38",
+   "file": "sections/s041-para-sympathetic-and-sympathetic-system.txt",
+   "chars": 1158,
+   "sha256": "85f72898920c760287b0af985f220871c29fe3c205cfc364ceea8c63ec9baec3"
+  },
+  {
+   "id": "s042-ida-and-pingala-nadis",
+   "label": "Ida And Pingala Nadis",
+   "title": "Ida And Pingala Nadis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_39",
+   "file": "sections/s042-ida-and-pingala-nadis.txt",
+   "chars": 1544,
+   "sha256": "c4ec6dc23f82830eda402de6ef6734cc00ca9aad0ee11439aca0712e7a053113"
+  },
+  {
+   "id": "s043-svara-sadhana",
+   "label": "Svara Sadhana",
+   "title": "Svara Sadhana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_40",
+   "file": "sections/s043-svara-sadhana.txt",
+   "chars": 620,
+   "sha256": "4ad16ae130e5cebe4114013764a5e4d61bf7db257a5ecada2d14184e8e5d9ffa"
+  },
+  {
+   "id": "s044-how-to-change-the-flow-in-nadis",
+   "label": "How To Change The Flow In Nadis",
+   "title": "How To Change The Flow In Nadis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_41",
+   "file": "sections/s044-how-to-change-the-flow-in-nadis.txt",
+   "chars": 2724,
+   "sha256": "c48f1b5e106f7bac0528354770b12b6be2453ed12cbcab45560d5244fbde481b"
+  },
+  {
+   "id": "s045-other-nadis",
+   "label": "Other Nadis",
+   "title": "Other Nadis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_42",
+   "file": "sections/s045-other-nadis.txt",
+   "chars": 523,
+   "sha256": "c15cfd08d32b3e94ad13af59438e58476b1fbd455597c463b56bfc4c3f2b5501"
+  },
+  {
+   "id": "s046-padmas-or-chakras",
+   "label": "Padmas Or Chakras",
+   "title": "Padmas Or Chakras",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_43",
+   "file": "sections/s046-padmas-or-chakras.txt",
+   "chars": 4229,
+   "sha256": "cd0afb271066ba6953188de6e0697a644aeba56752ddd344b7810e7f0ee7439d"
+  },
+  {
+   "id": "s047-petals-on-chakras",
+   "label": "Petals On Chakras",
+   "title": "Petals On Chakras",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_44",
+   "file": "sections/s047-petals-on-chakras.txt",
+   "chars": 1149,
+   "sha256": "3e1b7e84eae5865c19bd4e25fdcd1041edb5663989286c68ec766194ba808867"
+  },
+  {
+   "id": "s048-muladhara-chakra",
+   "label": "Muladhara Chakra",
+   "title": "Muladhara Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_45",
+   "file": "sections/s048-muladhara-chakra.txt",
+   "chars": 2443,
+   "sha256": "5e4b909e667dc3174841011d16e8ba882d7e79d940590305ec5387f9fbb7c9c7"
+  },
+  {
+   "id": "s049-svadhishthana-chakra",
+   "label": "Svadhishthana Chakra",
+   "title": "Svadhishthana Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_46",
+   "file": "sections/s049-svadhishthana-chakra.txt",
+   "chars": 1232,
+   "sha256": "c67e5ebc2f229c7bf30233e9c3fa94f45f9a61478a9745c8f0a5a7c53890fbd1"
+  },
+  {
+   "id": "s050-manipura-chakra",
+   "label": "Manipura Chakra",
+   "title": "Manipura Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_47",
+   "file": "sections/s050-manipura-chakra.txt",
+   "chars": 1143,
+   "sha256": "1ec83220ee87b80f723c5d8712e986433d958d2f0f32d7882c724aa10ea5b082"
+  },
+  {
+   "id": "s051-anahata-chakra",
+   "label": "Anahata Chakra",
+   "title": "Anahata Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_48",
+   "file": "sections/s051-anahata-chakra.txt",
+   "chars": 1371,
+   "sha256": "9868a80bfdfb57dcbdd6eea85ae0b3f3e32f6577bba2c6ee60a11db22edc535a"
+  },
+  {
+   "id": "s052-vishuddha-chakra",
+   "label": "Vishuddha Chakra",
+   "title": "Vishuddha Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_49",
+   "file": "sections/s052-vishuddha-chakra.txt",
+   "chars": 1179,
+   "sha256": "61415c66b9ee3bca770e29c9405fa5c883ce9b1a6906181f21fede0a041c8562"
+  },
+  {
+   "id": "s053-ajna-chakra",
+   "label": "Ajna Chakra",
+   "title": "Ajna Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_50",
+   "file": "sections/s053-ajna-chakra.txt",
+   "chars": 1350,
+   "sha256": "0173bc9fe7ecd6e7b53d702c6c707faf157241346fc9899aceec2dedb094c3f8"
+  },
+  {
+   "id": "s054-the-brain",
+   "label": "The Brain",
+   "title": "The Brain",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_51",
+   "file": "sections/s054-the-brain.txt",
+   "chars": 3230,
+   "sha256": "bfd51cb7517e5e3f5d9b5de6d09a14f609c474a685a73ab06427bd8c0e2a9804"
+  },
+  {
+   "id": "s055-brahmarandhra",
+   "label": "Brahmarandhra",
+   "title": "Brahmarandhra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_52",
+   "file": "sections/s055-brahmarandhra.txt",
+   "chars": 1048,
+   "sha256": "9edb177944ac31451b90e4468ff821aa5035dabb712ba3748b9fcc4715fb6487"
+  },
+  {
+   "id": "s056-sahasrara-chakra",
+   "label": "Sahasrara Chakra",
+   "title": "Sahasrara Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_53",
+   "file": "sections/s056-sahasrara-chakra.txt",
+   "chars": 1356,
+   "sha256": "eff9332180d8021ac83308df00c5b60a1c1dc1f2cd92da37ad738b97826ecc04"
+  },
+  {
+   "id": "s057-lalana-chakra",
+   "label": "Lalana Chakra",
+   "title": "Lalana Chakra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_54",
+   "file": "sections/s057-lalana-chakra.txt",
+   "chars": 486,
+   "sha256": "1d4fb98d336768cbb5092bea7492de8f35208b7f481e863ac5c8d9a41396a2e5"
+  },
+  {
+   "id": "s058-summary-of-the-previous-lessons",
+   "label": "Summary Of The Previous Lessons",
+   "title": "Summary Of The Previous Lessons",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_55",
+   "file": "sections/s058-summary-of-the-previous-lessons.txt",
+   "chars": 1733,
+   "sha256": "eb7b0af1ef52cda3c3b08aeaf6a594256d1b89de71ab6eebfe00d5db554a9722"
+  },
+  {
+   "id": "s059-the-mysterious-kundalini",
+   "label": "The Mysterious Kundalini",
+   "title": "The Mysterious Kundalini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_56",
+   "file": "sections/s059-the-mysterious-kundalini.txt",
+   "chars": 3579,
+   "sha256": "220c29f406dd20ca11b49dd26e325cd22cb59c10428b304f283eadafc4056643"
+  },
+  {
+   "id": "s060-how-to-awaken-the-kundalini",
+   "label": "How To Awaken The Kundalini",
+   "title": "How To Awaken The Kundalini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_59",
+   "file": "sections/s060-how-to-awaken-the-kundalini.txt",
+   "chars": 7499,
+   "sha256": "f3d9cf73b2eb67058d363e904029afd9794e465d7ebb559dbdccd94215cb2361"
+  },
+  {
+   "id": "s061-dhauti",
+   "label": "1. Dhauti",
+   "title": "1. Dhauti",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_60",
+   "file": "sections/s061-dhauti.txt",
+   "chars": 3214,
+   "sha256": "5ad2bb3ca70247cf33f66d6118d6ae508b61fef623d2f159586c4fa1bc4cda6f"
+  },
+  {
+   "id": "s062-basti",
+   "label": "2. Basti",
+   "title": "2. Basti",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_61",
+   "file": "sections/s062-basti.txt",
+   "chars": 1592,
+   "sha256": "9897f8a0fe68a0e8a23766f07b790b89d8c54a9bdf682ff57ef71c8e1f3d6435"
+  },
+  {
+   "id": "s063-neti",
+   "label": "3. Neti",
+   "title": "3. Neti",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_62",
+   "file": "sections/s063-neti.txt",
+   "chars": 1967,
+   "sha256": "e1a67fee3a808e0757b94f48b351a17154a93dd63f16c5a488607b739c1a2bc7"
+  },
+  {
+   "id": "s064-nauli",
+   "label": "4. Nauli",
+   "title": "4. Nauli",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_63",
+   "file": "sections/s064-nauli.txt",
+   "chars": 4598,
+   "sha256": "b9976050488922584275be62a37bb100083f31e23bb72bf5982dc79be61b306d"
+  },
+  {
+   "id": "s065-trataka",
+   "label": "5. Trataka",
+   "title": "5. Trataka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_64",
+   "file": "sections/s065-trataka.txt",
+   "chars": 7854,
+   "sha256": "6d1c8dbb391a9a4d4af89a1e2db62352345ecf570e882498f969a30a87734e46"
+  },
+  {
+   "id": "s066-kapalabhati",
+   "label": "6. Kapalabhati",
+   "title": "6. Kapalabhati",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_65",
+   "file": "sections/s066-kapalabhati.txt",
+   "chars": 1576,
+   "sha256": "d91490c702c59c610cc0ab6aa56a0d21299528fae76b3ac2180839d376b55dca"
+  },
+  {
+   "id": "s067-what-is-prana",
+   "label": "What Is Prana?",
+   "title": "What Is Prana?",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_67",
+   "file": "sections/s067-what-is-prana.txt",
+   "chars": 2548,
+   "sha256": "a10f103ed381a5b2d6f8f7aa92b2c4098c771caae963283f3e2745ab24a0de04"
+  },
+  {
+   "id": "s068-five-pranas",
+   "label": "Five Pranas",
+   "title": "Five Pranas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_67",
+   "file": "sections/s068-five-pranas.txt",
+   "chars": 2493,
+   "sha256": "4b507154d4c91e56a1d87dc35f4aa5c127e6cd6a95503847fcde1cb196a1d93e"
+  },
+  {
+   "id": "s069-pranayama",
+   "label": "Pranayama",
+   "title": "Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_68",
+   "file": "sections/s069-pranayama.txt",
+   "chars": 439,
+   "sha256": "99fd6d3949771c099a0a649ead507e121f8c0149cdc743bfab28ed44b9bc0f25"
+  },
+  {
+   "id": "s070-nadi-suddhi",
+   "label": "Nadi Suddhi",
+   "title": "Nadi Suddhi",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_69",
+   "file": "sections/s070-nadi-suddhi.txt",
+   "chars": 1300,
+   "sha256": "9ce75a8e1333e4b725d456c23e76a7b6ba51c707e9273028afc3b52d9f818e8c"
+  },
+  {
+   "id": "s071-sukha-purvaka",
+   "label": "1. Sukha Purvaka",
+   "title": "1. Sukha Purvaka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_70",
+   "file": "sections/s071-sukha-purvaka.txt",
+   "chars": 1715,
+   "sha256": "5da147d70c3cca83b11e6627bb191c414dc18869b9d5cc5928b9880ad9875387"
+  },
+  {
+   "id": "s072-bhastrika",
+   "label": "2. Bhastrika",
+   "title": "2. Bhastrika",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_71",
+   "file": "sections/s072-bhastrika.txt",
+   "chars": 1668,
+   "sha256": "b56299e586984f500cc84ef692e7d167ed7ddffd87d0db2fea7f172d61823b70"
+  },
+  {
+   "id": "s073-suryabheda",
+   "label": "3. Suryabheda",
+   "title": "3. Suryabheda",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_72",
+   "file": "sections/s073-suryabheda.txt",
+   "chars": 1264,
+   "sha256": "7ea4fce156a91e0b852b223fee7faf72e68be1b80280f2bdb271ccc088cbf729"
+  },
+  {
+   "id": "s074-ujjayi",
+   "label": "4. Ujjayi",
+   "title": "4. Ujjayi",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_73",
+   "file": "sections/s074-ujjayi.txt",
+   "chars": 1183,
+   "sha256": "983fde52016c76b71f3fb4823857bd8b4a0c339579dd521f080baa6aae9ef6e6"
+  },
+  {
+   "id": "s075-plavini",
+   "label": "5. Plavini",
+   "title": "5. Plavini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_74",
+   "file": "sections/s075-plavini.txt",
+   "chars": 807,
+   "sha256": "eb422011f597d1f93272d199617751a1ac9e460fdc772ba269e5c43420941598"
+  },
+  {
+   "id": "s076-pranic-healing",
+   "label": "6. Pranic Healing",
+   "title": "6. Pranic Healing",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_75",
+   "file": "sections/s076-pranic-healing.txt",
+   "chars": 2870,
+   "sha256": "a5f320a1a8f2a6cb0b47ddd0e64f669908090ecb14f0523352bf2506ccbc70b1"
+  },
+  {
+   "id": "s077-distant-healing",
+   "label": "7. Distant Healing",
+   "title": "7. Distant Healing",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_76",
+   "file": "sections/s077-distant-healing.txt",
+   "chars": 1085,
+   "sha256": "c49ab15aa4195082463ec78a849abe9c1bbffa1379e925544faeacd7cb8b3afb"
+  },
+  {
+   "id": "s078-importance-of-pranayama",
+   "label": "Importance Of Pranayama",
+   "title": "Importance Of Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_77",
+   "file": "sections/s078-importance-of-pranayama.txt",
+   "chars": 1511,
+   "sha256": "5ba9e69ca7271523774fb13cd43167a9e9eae02a4ae92cb74a22b9aef807c29c"
+  },
+  {
+   "id": "s079-benefits-of-pranayama",
+   "label": "Benefits Of Pranayama",
+   "title": "Benefits Of Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_78",
+   "file": "sections/s079-benefits-of-pranayama.txt",
+   "chars": 954,
+   "sha256": "28e8588d9764347561ac734a555c4eb5b6f85794b73e7038282ec84453d422bb"
+  },
+  {
+   "id": "s080-instructions-on-pranayama",
+   "label": "Instructions On Pranayama",
+   "title": "Instructions On Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_79",
+   "file": "sections/s080-instructions-on-pranayama.txt",
+   "chars": 5113,
+   "sha256": "f1e574f917f04fedb104594d6f5a65c02675957616bd711c8977f7775a20418f"
+  },
+  {
+   "id": "s081-importance-of-asanas",
+   "label": "Importance Of Asanas",
+   "title": "Importance Of Asanas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_81",
+   "file": "sections/s081-importance-of-asanas.txt",
+   "chars": 2830,
+   "sha256": "8009fdfcb3ef8f63eec9508d704f92198cac76ebf33e33faa3faaed6a1e37f13"
+  },
+  {
+   "id": "s082-padmasana-lotus-pose",
+   "label": "1. Padmasana (Lotus Pose)",
+   "title": "1. Padmasana (Lotus Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_82",
+   "file": "sections/s082-padmasana-lotus-pose.txt",
+   "chars": 830,
+   "sha256": "58ed679b62f0535f0d643e01997b614f7513f593731253107bc50dd3d01c7e2e"
+  },
+  {
+   "id": "s083-siddhasana-the-perfect-pose",
+   "label": "2. Siddhasana (The Perfect Pose)",
+   "title": "2. Siddhasana (The Perfect Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_83",
+   "file": "sections/s083-siddhasana-the-perfect-pose.txt",
+   "chars": 755,
+   "sha256": "659c0965b4fdddb9a9688ae9abafc1a42a655a1e45e13c638b8ed4aa4d93e886"
+  },
+  {
+   "id": "s084-svastikasana-prosperous-pose",
+   "label": "3. Svastikasana (Prosperous Pose)",
+   "title": "3. Svastikasana (Prosperous Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_84",
+   "file": "sections/s084-svastikasana-prosperous-pose.txt",
+   "chars": 592,
+   "sha256": "d84b6d7eab1113dacaa3d09981abfde6afa8a0fd481190ab639203d19a529cbe"
+  },
+  {
+   "id": "s085-sukhasana",
+   "label": "4. Sukhasana",
+   "title": "4. Sukhasana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_85",
+   "file": "sections/s085-sukhasana.txt",
+   "chars": 1467,
+   "sha256": "055a4c0a8127e43f3515ea76bb91e66f11175a5509ccb4db540a9b4a535a4860"
+  },
+  {
+   "id": "s086-sirshasana-topsy-turvy-pose",
+   "label": "5. Sirshasana (Topsy Turvy Pose)",
+   "title": "5. Sirshasana (Topsy Turvy Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_86",
+   "file": "sections/s086-sirshasana-topsy-turvy-pose.txt",
+   "chars": 2852,
+   "sha256": "f1d1e9034ed6c9b3717b3971186a76d5361b4cb3628375413aed329b83548f87"
+  },
+  {
+   "id": "s087-sarvangasana-all-members-pose",
+   "label": "6. Sarvangasana (All-Members Pose)",
+   "title": "6. Sarvangasana (All-Members Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_87",
+   "file": "sections/s087-sarvangasana-all-members-pose.txt",
+   "chars": 3622,
+   "sha256": "70528ee743576aa53c48f835bded2b2aa55851593ad9c50d01774d88b299b7f2"
+  },
+  {
+   "id": "s088-matsyasana-fish-posture",
+   "label": "7. Matsyasana (Fish Posture)",
+   "title": "7. Matsyasana (Fish Posture)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_88",
+   "file": "sections/s088-matsyasana-fish-posture.txt",
+   "chars": 1972,
+   "sha256": "c255d291ca5c514157eea04e13c77c4a03690928a8d8d9817ae877540ba8591e"
+  },
+  {
+   "id": "s089-paschimottanasana",
+   "label": "8. Paschimottanasana",
+   "title": "8. Paschimottanasana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_89",
+   "file": "sections/s089-paschimottanasana.txt",
+   "chars": 2238,
+   "sha256": "3b7acb784c943a56f10a870bec2184c6be45f96152b95d907b3715dd87f40d38"
+  },
+  {
+   "id": "s090-mayurasana-peacock-pose",
+   "label": "9. Mayurasana (Peacock Pose)",
+   "title": "9. Mayurasana (Peacock Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_90",
+   "file": "sections/s090-mayurasana-peacock-pose.txt",
+   "chars": 2673,
+   "sha256": "a8b9d257599d4872bf245324f1da4d9a72a9f38a6123ebade076a895b0f5b51d"
+  },
+  {
+   "id": "s091-ardha-matsyendrasana",
+   "label": "10. Ardha Matsyendrasana",
+   "title": "10. Ardha Matsyendrasana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_91",
+   "file": "sections/s091-ardha-matsyendrasana.txt",
+   "chars": 1974,
+   "sha256": "1824732b592c59eeae611d916b2973fc89d0f96f41fd53cc3c30e5a8d8747d63"
+  },
+  {
+   "id": "s092-vajrasana-the-adamantine-pose",
+   "label": "11. Vajrasana (The Adamantine Pose)",
+   "title": "11. Vajrasana (The Adamantine Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_92",
+   "file": "sections/s092-vajrasana-the-adamantine-pose.txt",
+   "chars": 1518,
+   "sha256": "b170b9f0523805fb66d87cdacafa435a06cb7647ec4234c444c74305b955be35"
+  },
+  {
+   "id": "s093-urdhva-padmasana-above-lotus-pose",
+   "label": "12. Urdhva Padmasana (Above Lotus Pose)",
+   "title": "12. Urdhva Padmasana (Above Lotus Pose)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_93",
+   "file": "sections/s093-urdhva-padmasana-above-lotus-pose.txt",
+   "chars": 458,
+   "sha256": "c8181fb4838659d6a285f70d437de5b474e04ff5ba5f7f6e80479cba7f2a448a"
+  },
+  {
+   "id": "s094-instructions-on-asanas",
+   "label": "Instructions On Asanas",
+   "title": "Instructions On Asanas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_94",
+   "file": "sections/s094-instructions-on-asanas.txt",
+   "chars": 3782,
+   "sha256": "8f6693f68f32b1bc073e90237712c10f17386503460e1a3a6169c1bee0e4bc93"
+  },
+  {
+   "id": "s095-exercises",
+   "label": "Exercises",
+   "title": "Exercises",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_96",
+   "file": "sections/s095-exercises.txt",
+   "chars": 1081,
+   "sha256": "38c1cc6d019f609703a1145f554efe6f57f0d84963a99d1fb34be916a653d0fb"
+  },
+  {
+   "id": "s096-mula-bandha",
+   "label": "1. Mula Bandha",
+   "title": "1. Mula Bandha",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_97",
+   "file": "sections/s096-mula-bandha.txt",
+   "chars": 1390,
+   "sha256": "1356bf38b074610d904c8ae487df480e3ab503570ccf9db43b8f3b706f019d9e"
+  },
+  {
+   "id": "s097-jalandhara-bandha",
+   "label": "2. Jalandhara Bandha",
+   "title": "2. Jalandhara Bandha",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_98",
+   "file": "sections/s097-jalandhara-bandha.txt",
+   "chars": 392,
+   "sha256": "83a97d3e7c359929ec35e99915fd54abc240050717fc6064f0822c6dc08f9f18"
+  },
+  {
+   "id": "s098-uddiyana-bandha",
+   "label": "3. Uddiyana Bandha",
+   "title": "3. Uddiyana Bandha",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_99",
+   "file": "sections/s098-uddiyana-bandha.txt",
+   "chars": 2466,
+   "sha256": "b86e2110d732760c4b3c5018c3c2b59726b07545a3c848c3fbe828c511ce4246"
+  },
+  {
+   "id": "s099-maha-mudra",
+   "label": "4. Maha Mudra",
+   "title": "4. Maha Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_100",
+   "file": "sections/s099-maha-mudra.txt",
+   "chars": 868,
+   "sha256": "e94253d22f87d275bbfab4189e8cfb1584f2af22b12844f02df93da2d3311017"
+  },
+  {
+   "id": "s100-maha-bandha",
+   "label": "5. Maha Bandha",
+   "title": "5. Maha Bandha",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_101",
+   "file": "sections/s100-maha-bandha.txt",
+   "chars": 451,
+   "sha256": "a2b57763355ef78d2f23250e76fabf5554dfe0eda87d93e611ff984caf5bb37a"
+  },
+  {
+   "id": "s101-maha-vedha",
+   "label": "6. Maha Vedha",
+   "title": "6. Maha Vedha",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_102",
+   "file": "sections/s101-maha-vedha.txt",
+   "chars": 515,
+   "sha256": "5a04057207918f1f964a5e893e7e9e9c4262c3b0c7c82a147ab42c528668b22a"
+  },
+  {
+   "id": "s102-yoga-mudra",
+   "label": "7. Yoga Mudra",
+   "title": "7. Yoga Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_103",
+   "file": "sections/s102-yoga-mudra.txt",
+   "chars": 410,
+   "sha256": "678203a79daad3ea5ed94bda796524f814e282490fc2f49ce96b11b20fd10a79"
+  },
+  {
+   "id": "s103-viparitakarani-mudra",
+   "label": "8. Viparitakarani Mudra",
+   "title": "8. Viparitakarani Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_104",
+   "file": "sections/s103-viparitakarani-mudra.txt",
+   "chars": 807,
+   "sha256": "75290fdf4a6f5b21819bac2992f628e0369f8e98ac146784539da4627773285d"
+  },
+  {
+   "id": "s104-khechari-mudra",
+   "label": "9. Khechari Mudra",
+   "title": "9. Khechari Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_105",
+   "file": "sections/s104-khechari-mudra.txt",
+   "chars": 1835,
+   "sha256": "5515d5a7abe77de928d4c6c82189604cbaafabca7b3a6c11806ff8e04992f022"
+  },
+  {
+   "id": "s105-vajroli-mudra",
+   "label": "10. Vajroli Mudra",
+   "title": "10. Vajroli Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_106",
+   "file": "sections/s105-vajroli-mudra.txt",
+   "chars": 2308,
+   "sha256": "8e4293d44ed5a831216618e42436eb449c50adecc9876b890f14286bb246c54d"
+  },
+  {
+   "id": "s106-shakti-chalana-mudra",
+   "label": "11. Shakti Chalana Mudra",
+   "title": "11. Shakti Chalana Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_107",
+   "file": "sections/s106-shakti-chalana-mudra.txt",
+   "chars": 480,
+   "sha256": "8d984e07aed0d7b18a2896666e75308f9b4beb104bb2938ff044b769f2f7a66c"
+  },
+  {
+   "id": "s107-yoni-mudra",
+   "label": "12. Yoni Mudra",
+   "title": "12. Yoni Mudra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_108",
+   "file": "sections/s107-yoni-mudra.txt",
+   "chars": 662,
+   "sha256": "4452ccf325a30f15600868e052eb0e501d9f8f35b534705822ed00c589b6f4fa"
+  },
+  {
+   "id": "s108-other-mudras",
+   "label": "Other Mudras",
+   "title": "Other Mudras",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_109",
+   "file": "sections/s108-other-mudras.txt",
+   "chars": 217,
+   "sha256": "6690d9d5051da41b808105e0b568107f146b1dc8cb684816df1af0f0127761f6"
+  },
+  {
+   "id": "s109-instructions-on-mudras-and-bandhas",
+   "label": "Instructions On Mudras And Bandhas",
+   "title": "Instructions On Mudras And Bandhas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_110",
+   "file": "sections/s109-instructions-on-mudras-and-bandhas.txt",
+   "chars": 1878,
+   "sha256": "d69f0f7765d1d712912d525c7e7122457ef7ffd82d8a2c9ee4ca09f7f9c1c99a"
+  },
+  {
+   "id": "s110-laya-yoga",
+   "label": "Laya Yoga",
+   "title": "Laya Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_112",
+   "file": "sections/s110-laya-yoga.txt",
+   "chars": 562,
+   "sha256": "c0603386b03f56bbd6d137dff7dcfaf35ce26cd01a7cb044e4a77c1c57cb5885"
+  },
+  {
+   "id": "s111-anahata-sounds",
+   "label": "Anahata Sounds",
+   "title": "Anahata Sounds",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_113",
+   "file": "sections/s111-anahata-sounds.txt",
+   "chars": 2972,
+   "sha256": "22315016fa692d72ee489332f351810c03d302cb098e891ddd976f0b3b42f0aa"
+  },
+  {
+   "id": "s112-bhakti-yogaclasses-of-worship",
+   "label": "Bhakti Yoga–Classes Of Worship",
+   "title": "Bhakti Yoga–Classes Of Worship",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_114",
+   "file": "sections/s112-bhakti-yogaclasses-of-worship.txt",
+   "chars": 4445,
+   "sha256": "8a6d6ca1595a3d5dc599b1e8bf4eee4ba0126e6c66b446729038e8b5521e414e"
+  },
+  {
+   "id": "s113-mantras",
+   "label": "Mantras",
+   "title": "Mantras",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_115",
+   "file": "sections/s113-mantras.txt",
+   "chars": 885,
+   "sha256": "dd2fed7e315bf3bce5cd7549de2aa0a025fbd71a0654b6ee0d3608e448ff445a"
+  },
+  {
+   "id": "s114-eight-major-siddhis",
+   "label": "Eight Major Siddhis",
+   "title": "Eight Major Siddhis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_116",
+   "file": "sections/s114-eight-major-siddhis.txt",
+   "chars": 2637,
+   "sha256": "753546517fa895d8a9ba864a744f49a3d5edb182a905ba9d036db90391ffccff"
+  },
+  {
+   "id": "s115-minor-siddhis",
+   "label": "Minor Siddhis",
+   "title": "Minor Siddhis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_117",
+   "file": "sections/s115-minor-siddhis.txt",
+   "chars": 1583,
+   "sha256": "2cc95f89889cb19f09ca02ac08ac44be528ea8bb8dfa91b5912921fa93391c52"
+  },
+  {
+   "id": "s116-power-of-a-yogi",
+   "label": "Power Of A Yogi",
+   "title": "Power Of A Yogi",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_118",
+   "file": "sections/s116-power-of-a-yogi.txt",
+   "chars": 656,
+   "sha256": "026d1b1fb05e63a343e55d4d0921fdfe1b586678504ba6b5315027ab5ed69113"
+  },
+  {
+   "id": "s117-instructions-on-siddhis",
+   "label": "Instructions On Siddhis",
+   "title": "Instructions On Siddhis",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_119",
+   "file": "sections/s117-instructions-on-siddhis.txt",
+   "chars": 2873,
+   "sha256": "1e83452bbdfe6de8e65683122aeed488299626427bf205e6c3434a5cfa906235"
+  },
+  {
+   "id": "s118-dharana-concentration",
+   "label": "Dharana (Concentration)",
+   "title": "Dharana (Concentration)",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_120",
+   "file": "sections/s118-dharana-concentration.txt",
+   "chars": 7901,
+   "sha256": "845932e95546c0c36c98ae314edd3118d7b4ccf1151783b18618659365f523b4"
+  },
+  {
+   "id": "s119-sadasiva-brahman",
+   "label": "1. Sadasiva Brahman",
+   "title": "1. Sadasiva Brahman",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_123",
+   "file": "sections/s119-sadasiva-brahman.txt",
+   "chars": 1240,
+   "sha256": "2dde5fa873d71d1a2e836e65371c9197758b08f25ca287bf55e5a43323bfab65"
+  },
+  {
+   "id": "s120-jnanadev",
+   "label": "2. Jnanadev",
+   "title": "2. Jnanadev",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_124",
+   "file": "sections/s120-jnanadev.txt",
+   "chars": 827,
+   "sha256": "9362cbb1f0b0b9efc86eb22a8b8e0c2ca2edb2625fa5591b78685284328eba78"
+  },
+  {
+   "id": "s121-trilinga-swami",
+   "label": "3. Trilinga Swami",
+   "title": "3. Trilinga Swami",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_125",
+   "file": "sections/s121-trilinga-swami.txt",
+   "chars": 856,
+   "sha256": "d1cf88b6d8e21592c0afb920e250370f84fd9b30662808b58f6db9adf5507169"
+  },
+  {
+   "id": "s122-gorakhnath",
+   "label": "4. Gorakhnath",
+   "title": "4. Gorakhnath",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_126",
+   "file": "sections/s122-gorakhnath.txt",
+   "chars": 1994,
+   "sha256": "018ca22f82eece185eed2a1b5f461baf7e30dc671ee8ccd6ec69767fbeed85a2"
+  },
+  {
+   "id": "s123-swami-krishna-ashram",
+   "label": "5. Swami Krishna Ashram",
+   "title": "5. Swami Krishna Ashram",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_127",
+   "file": "sections/s123-swami-krishna-ashram.txt",
+   "chars": 1217,
+   "sha256": "bb7d5cdadceeb3185422266d85a342e5d99813ef838faa8f78060b6ace748e97"
+  },
+  {
+   "id": "s124-yogi-bhusunda",
+   "label": "6. Yogi Bhusunda",
+   "title": "6. Yogi Bhusunda",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_128",
+   "file": "sections/s124-yogi-bhusunda.txt",
+   "chars": 1024,
+   "sha256": "2d3acdb9f4f91869c7ae854ffadd9ef3c0ed63a5bc8cf80c6725158db0439ba6"
+  },
+  {
+   "id": "s125-tirumula-nayanar",
+   "label": "7. Tirumula Nayanar",
+   "title": "7. Tirumula Nayanar",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_129",
+   "file": "sections/s125-tirumula-nayanar.txt",
+   "chars": 1390,
+   "sha256": "ad106397621c585ada7ef61d4bdc052f6f95bf2d28c203187a0681204f888114"
+  },
+  {
+   "id": "s126-mansoor",
+   "label": "8. Mansoor",
+   "title": "8. Mansoor",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_130",
+   "file": "sections/s126-mansoor.txt",
+   "chars": 993,
+   "sha256": "4c42892e2a71d6c44c107eee9d674a228e9cf1d8d68ea6db837ea17d4f8a8045"
+  },
+  {
+   "id": "s127-milarepa",
+   "label": "9. Milarepa",
+   "title": "9. Milarepa",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_131",
+   "file": "sections/s127-milarepa.txt",
+   "chars": 2204,
+   "sha256": "287076ebde4c801596a37cf92986f658791a8ef6d8e5324b3e193b6a7b114959"
+  },
+  {
+   "id": "s128-napoleon-bonaparte",
+   "label": "10. Napoleon Bonaparte",
+   "title": "10. Napoleon Bonaparte",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_132",
+   "file": "sections/s128-napoleon-bonaparte.txt",
+   "chars": 1699,
+   "sha256": "dbccc7570c2464220c5c578ebdfe7fc1010e274d1eff2845e942edeccf062360"
+  },
+  {
+   "id": "s129-teachings-of-kabir",
+   "label": "11. Teachings Of Kabir",
+   "title": "11. Teachings Of Kabir",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_133",
+   "file": "sections/s129-teachings-of-kabir.txt",
+   "chars": 894,
+   "sha256": "e3599c0e2d34aa5a0db8f0fecae1a0391c6b3bf559e1e3cac53af9f2883c8763"
+  },
+  {
+   "id": "s130-a-sham-latin-scholar",
+   "label": "12. A Sham Latin Scholar",
+   "title": "12. A Sham Latin Scholar",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_134",
+   "file": "sections/s130-a-sham-latin-scholar.txt",
+   "chars": 1174,
+   "sha256": "5ea619d5992da03ea19c95676450bce0fcabc55ef7bfa77555377ace8bef2f7e"
+  },
+  {
+   "id": "s131-story-of-an-aspirant",
+   "label": "13. Story Of An Aspirant",
+   "title": "13. Story Of An Aspirant",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_135",
+   "file": "sections/s131-story-of-an-aspirant.txt",
+   "chars": 1670,
+   "sha256": "04c2bebf04890d4cf06b5edffd5df02891a1071180257478b2681ae02a039ada"
+  },
+  {
+   "id": "s132-other-yogins",
+   "label": "14. Other Yogins",
+   "title": "14. Other Yogins",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_136",
+   "file": "sections/s132-other-yogins.txt",
+   "chars": 1167,
+   "sha256": "d68c91aed278922d61539ed5f8e0a961323d737ab994e7af51cd04eedf29b677"
+  },
+  {
+   "id": "s133-mystic-experiencevisions-of-lights",
+   "label": "Mystic Experience–Visions Of Lights",
+   "title": "Mystic Experience–Visions Of Lights",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_137",
+   "file": "sections/s133-mystic-experiencevisions-of-lights.txt",
+   "chars": 4811,
+   "sha256": "27b3f6ec323c8a0e4e1f7c5b72ce8ff51d0d03247b073ab80917492dbbae4327"
+  },
+  {
+   "id": "s134-elementals",
+   "label": "Elementals",
+   "title": "Elementals",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_138",
+   "file": "sections/s134-elementals.txt",
+   "chars": 1025,
+   "sha256": "954019300495bd1bf457c9aea46aaf49781b96fbd98262c3ae187f2eb70d0fc1"
+  },
+  {
+   "id": "s135-life-in-the-astral-plane",
+   "label": "Life In The Astral Plane",
+   "title": "Life In The Astral Plane",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_139",
+   "file": "sections/s135-life-in-the-astral-plane.txt",
+   "chars": 1817,
+   "sha256": "d8d6417ba4b1303862979cc41c9b51ebf94a218a3974c388c4775df51cbad3c3"
+  },
+  {
+   "id": "s136-hints-on-yoga",
+   "label": "Hints On Yoga",
+   "title": "Hints On Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_140",
+   "file": "sections/s136-hints-on-yoga.txt",
+   "chars": 24326,
+   "sha256": "ff7a468853fee05d4ab6091bc99a1bc331ba6486506830cbede7ab7f1ef2817f"
+  },
+  {
+   "id": "s137-some-practical-hints",
+   "label": "Some Practical Hints",
+   "title": "Some Practical Hints",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_141",
+   "file": "sections/s137-some-practical-hints.txt",
+   "chars": 6026,
+   "sha256": "da348aef631538a786658cafd2aff76fd505fe52886633f8dcc01c5f4b407116"
+  },
+  {
+   "id": "s138-spiritual-diary",
+   "label": "Spiritual Diary",
+   "title": "Spiritual Diary",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_141",
+   "file": "sections/s138-spiritual-diary.txt",
+   "chars": 1315,
+   "sha256": "fe8e007c61ffbe296fae8e1426eeed6eddc893b333344f06ed79055d670f0dc7"
+  },
+  {
+   "id": "s139-the-spiritual-diary",
+   "label": "The Spiritual Diary",
+   "title": "The Spiritual Diary",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_142",
+   "file": "sections/s139-the-spiritual-diary.txt",
+   "chars": 1534,
+   "sha256": "417cfcd005b15c80349973cb717b0dac3c758f59013b1306f1b7f015013d561d"
+  },
+  {
+   "id": "s140-introduction",
+   "label": "Introduction",
+   "title": "Introduction",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_144",
+   "file": "sections/s140-introduction.txt",
+   "chars": 10490,
+   "sha256": "de8dd6d94dd6096ac434085525eb83c326f33f2198f40bd2cbadba7bdd07bcb4"
+  },
+  {
+   "id": "s141-chitta-and-the-control-of-prana",
+   "label": "Chitta And The Control Of Prana",
+   "title": "Chitta And The Control Of Prana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_145",
+   "file": "sections/s141-chitta-and-the-control-of-prana.txt",
+   "chars": 602,
+   "sha256": "fa8bf311ecd493592a96175ffb5c54051b12c6ae5b8d800e61ed4e548c724e58"
+  },
+  {
+   "id": "s142-mitahara-asana-and-shakti-chalana",
+   "label": "Mitahara, Asana And Shakti-Chalana",
+   "title": "Mitahara, Asana And Shakti-Chalana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_146",
+   "file": "sections/s142-mitahara-asana-and-shakti-chalana.txt",
+   "chars": 561,
+   "sha256": "3bdbd2e8724e6637f419d3c6221916aa6dfa25fe53c4b180437a912c1d94fac1"
+  },
+  {
+   "id": "s143-the-padma-and-vajra-asanas",
+   "label": "The Padma And Vajra Asanas",
+   "title": "The Padma And Vajra Asanas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_147",
+   "file": "sections/s143-the-padma-and-vajra-asanas.txt",
+   "chars": 366,
+   "sha256": "eea1fb3fa172e0d39fa8865340da9ffde52d7ee47247b0b897cae1cd73b29169"
+  },
+  {
+   "id": "s144-the-rousing-of-the-kundalini",
+   "label": "The Rousing Of The Kundalini",
+   "title": "The Rousing Of The Kundalini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_148",
+   "file": "sections/s144-the-rousing-of-the-kundalini.txt",
+   "chars": 548,
+   "sha256": "5c3e3ca853501c3c31a9f7b09118a1eb2836b552758b4909b0348f2be57b9691"
+  },
+  {
+   "id": "s145-the-sarasvati-chalana",
+   "label": "The Sarasvati Chalana",
+   "title": "The Sarasvati Chalana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_149",
+   "file": "sections/s145-the-sarasvati-chalana.txt",
+   "chars": 1822,
+   "sha256": "444d2575c0b2e2e8d171c92bfc1e51cb5e9ed87a2deb00ccb2d62a90ef9f8cfe"
+  },
+  {
+   "id": "s146-varieties-of-pranayama",
+   "label": "Varieties Of Pranayama",
+   "title": "Varieties Of Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_150",
+   "file": "sections/s146-varieties-of-pranayama.txt",
+   "chars": 429,
+   "sha256": "18366cb51c197bf2c94ac164bc7b36c77db1e370511724721a6e5cfc4b938d7e"
+  },
+  {
+   "id": "s147-suryabheda-kumbhaka",
+   "label": "Suryabheda Kumbhaka",
+   "title": "Suryabheda Kumbhaka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_151",
+   "file": "sections/s147-suryabheda-kumbhaka.txt",
+   "chars": 650,
+   "sha256": "f8a750d30f552421b376cb1478e6e18ad32c9109b84a4b15ca0a40f45b1bffc3"
+  },
+  {
+   "id": "s148-ujjayi-kumbhaka",
+   "label": "Ujjayi Kumbhaka",
+   "title": "Ujjayi Kumbhaka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_152",
+   "file": "sections/s148-ujjayi-kumbhaka.txt",
+   "chars": 521,
+   "sha256": "e4f74124be7f071c8042a385f9b395074b7e23f1506b42bf767d76f757c8a4b6"
+  },
+  {
+   "id": "s149-sitali-kumbhaka",
+   "label": "Sitali Kumbhaka",
+   "title": "Sitali Kumbhaka",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_153",
+   "file": "sections/s149-sitali-kumbhaka.txt",
+   "chars": 1525,
+   "sha256": "643c2a0aa0b92e0ff173628249663a150ab220e3c1ff5bf81d8aa14fce475bd5"
+  },
+  {
+   "id": "s150-the-three-bandhas",
+   "label": "The Three Bandhas",
+   "title": "The Three Bandhas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_154",
+   "file": "sections/s150-the-three-bandhas.txt",
+   "chars": 2032,
+   "sha256": "228edb271498fa111f1e465f6f70e1874b006dcc9316487589505dc1198d48d6"
+  },
+  {
+   "id": "s151-how-many-times-kumbhaka-should-be-practi",
+   "label": "How Many Times Kumbhaka Should Be Practised",
+   "title": "How Many Times Kumbhaka Should Be Practised",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_155",
+   "file": "sections/s151-how-many-times-kumbhaka-should-be-practi.txt",
+   "chars": 307,
+   "sha256": "1010ae34939bfec413750690cc5cd851487f1c0a8727ca5f9271fbbd719013df"
+  },
+  {
+   "id": "s152-the-obstacles-to-the-practice-of-yoga-an",
+   "label": "The Obstacles To The Practice Of Yoga And How To Overcome Them",
+   "title": "The Obstacles To The Practice Of Yoga And How To Overcome Them",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_156",
+   "file": "sections/s152-the-obstacles-to-the-practice-of-yoga-an.txt",
+   "chars": 1099,
+   "sha256": "1e63c86a5cd2a6530a426ad23367b6fa95f4b77a1d6ddd192980e6b065597bd9"
+  },
+  {
+   "id": "s153-the-rousing-of-the-kundalini",
+   "label": "The Rousing Of The Kundalini",
+   "title": "The Rousing Of The Kundalini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_157",
+   "file": "sections/s153-the-rousing-of-the-kundalini.txt",
+   "chars": 1040,
+   "sha256": "42f1a2c44d82d014bc854dbb1dc4895cacaa0e75902e10ba356f42790b7b4578"
+  },
+  {
+   "id": "s154-the-kundalini-reaches-the-sahasrara-by-p",
+   "label": "The Kundalini Reaches The Sahasrara By Piercing Through The Three Knots",
+   "title": "The Kundalini Reaches The Sahasrara By Piercing Through The Three Knots",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_158",
+   "file": "sections/s154-the-kundalini-reaches-the-sahasrara-by-p.txt",
+   "chars": 1225,
+   "sha256": "6e21c9311d698cfc6f794e4006740453073bbdcb5535164c254ec0017265d830"
+  },
+  {
+   "id": "s155-the-dissolution-of-prana-and-others",
+   "label": "The Dissolution Of Prana And Others",
+   "title": "The Dissolution Of Prana And Others",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_159",
+   "file": "sections/s155-the-dissolution-of-prana-and-others.txt",
+   "chars": 1183,
+   "sha256": "04f642af2460ee3255bb2c84edb355be1834cb86f8b92386bc9e39c6a724621a"
+  },
+  {
+   "id": "s156-experiencing-everything-as-consciousness",
+   "label": "Experiencing Everything As Consciousness During Samadhi",
+   "title": "Experiencing Everything As Consciousness During Samadhi",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_160",
+   "file": "sections/s156-experiencing-everything-as-consciousness.txt",
+   "chars": 1612,
+   "sha256": "5f5e2c98994af9a9edf4208494d333f7fb9871b22d14851afb3e138d530ea0f3"
+  },
+  {
+   "id": "s157-the-samadhi-yoga",
+   "label": "The Samadhi Yoga",
+   "title": "The Samadhi Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_161",
+   "file": "sections/s157-the-samadhi-yoga.txt",
+   "chars": 993,
+   "sha256": "3a6a2b8009be4a516e01dc136e87bf51d9f59bd440b832f859d6a8b8b9ec0102"
+  },
+  {
+   "id": "s158-the-khechari-vidya",
+   "label": "The Khechari Vidya",
+   "title": "The Khechari Vidya",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_162",
+   "file": "sections/s158-the-khechari-vidya.txt",
+   "chars": 2641,
+   "sha256": "1565be0903d64bd5462eb88c4e6e119eb79fd6fd490c79fa701ff72f8035b984"
+  },
+  {
+   "id": "s159-the-khechari-mantra",
+   "label": "The Khechari Mantra",
+   "title": "The Khechari Mantra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_163",
+   "file": "sections/s159-the-khechari-mantra.txt",
+   "chars": 1529,
+   "sha256": "7128ce67a495bc2ffa299428402c1312e443606ce503ca1f413d8e55c0557f84"
+  },
+  {
+   "id": "s160-the-cutting-of-frenum-lingui",
+   "label": "The Cutting Of Frenum Lingui",
+   "title": "The Cutting Of Frenum Lingui",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_164",
+   "file": "sections/s160-the-cutting-of-frenum-lingui.txt",
+   "chars": 861,
+   "sha256": "d8193f0d2c191767938546ab4cca3e9fb3c538e2995b6fdc717a0e90cd4debea"
+  },
+  {
+   "id": "s161-the-tongue-reaches-the-brahmarandhra",
+   "label": "The Tongue Reaches The Brahmarandhra",
+   "title": "The Tongue Reaches The Brahmarandhra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_165",
+   "file": "sections/s161-the-tongue-reaches-the-brahmarandhra.txt",
+   "chars": 2126,
+   "sha256": "56f3d802f242e247a9c876080aad2a1806dbd046717aa11a21ff3e8ac3790c78"
+  },
+  {
+   "id": "s162-the-urdhvakundalini-yoga",
+   "label": "The Urdhvakundalini Yoga",
+   "title": "The Urdhvakundalini Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_166",
+   "file": "sections/s162-the-urdhvakundalini-yoga.txt",
+   "chars": 356,
+   "sha256": "c646945bdd22a8af1b11bbee074b2813e31435b395e12722cfda2b2963dbcaf0"
+  },
+  {
+   "id": "s163-melana-mantra",
+   "label": "Melana Mantra",
+   "title": "Melana Mantra",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_167",
+   "file": "sections/s163-melana-mantra.txt",
+   "chars": 344,
+   "sha256": "8df12186e5053da7e50ee81b8261479f09e2ec70cf032d1a627d0434c77f5cf5"
+  },
+  {
+   "id": "s164-sense-objects-manas-and-bandhana",
+   "label": "Sense-Objects, Manas And Bandhana",
+   "title": "Sense-Objects, Manas And Bandhana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_168",
+   "file": "sections/s164-sense-objects-manas-and-bandhana.txt",
+   "chars": 724,
+   "sha256": "ca72983547328a8ce21501cccda470c63a6a67ff77a6032228210585f4210c0e"
+  },
+  {
+   "id": "s165-the-entry-into-the-sukha-mandala",
+   "label": "The Entry Into The Sukha-Mandala",
+   "title": "The Entry Into The Sukha-Mandala",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_169",
+   "file": "sections/s165-the-entry-into-the-sukha-mandala.txt",
+   "chars": 331,
+   "sha256": "d064f22cb1ecba2bd582d3ff5a7dde717f49ef7f95a05ceb02834c106880439a"
+  },
+  {
+   "id": "s166-the-six-chakras",
+   "label": "The Six Chakras",
+   "title": "The Six Chakras",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_170",
+   "file": "sections/s166-the-six-chakras.txt",
+   "chars": 563,
+   "sha256": "9b6d3ad0662038cbb45695fbc1262832ecab31beb85f7d529a3afd876a8248be"
+  },
+  {
+   "id": "s167-abhyasa-and-brahma-jnana",
+   "label": "Abhyasa And Brahma Jnana",
+   "title": "Abhyasa And Brahma Jnana",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_171",
+   "file": "sections/s167-abhyasa-and-brahma-jnana.txt",
+   "chars": 653,
+   "sha256": "6b6e542a20c84d140b533b17d593c99da793d9e2a30ddf0d57895d64fe956298"
+  },
+  {
+   "id": "s168-the-four-kinds-of-vak",
+   "label": "The Four Kinds Of Vak",
+   "title": "The Four Kinds Of Vak",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_172",
+   "file": "sections/s168-the-four-kinds-of-vak.txt",
+   "chars": 796,
+   "sha256": "028f61135b628a91016308312da8ecd594cc3ef011b95755d7eba1985efdc147"
+  },
+  {
+   "id": "s169-the-absorption-in-paramatman",
+   "label": "The Absorption In Paramatman",
+   "title": "The Absorption In Paramatman",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_173",
+   "file": "sections/s169-the-absorption-in-paramatman.txt",
+   "chars": 630,
+   "sha256": "8df147fbbad733d4898453b306ee9b54c9bcfea464700cdb5f42cfe3b6d711ec"
+  },
+  {
+   "id": "s170-the-essential-nature-of-man",
+   "label": "The Essential Nature Of Man",
+   "title": "The Essential Nature Of Man",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_174",
+   "file": "sections/s170-the-essential-nature-of-man.txt",
+   "chars": 1601,
+   "sha256": "bd1fce7a3ef5080de89449773b31785d2fe619c40b917cba0f6fca2332e2b4c4"
+  },
+  {
+   "id": "s171-videha-mukti",
+   "label": "Videha Mukti",
+   "title": "Videha Mukti",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_175",
+   "file": "sections/s171-videha-mukti.txt",
+   "chars": 315,
+   "sha256": "96dc18930e2c816a5b806390bda1ed368641e5ba9ab0478ef8163d07eff9403c"
+  },
+  {
+   "id": "s172-non-dual-brahman",
+   "label": "Non-Dual Brahman",
+   "title": "Non-Dual Brahman",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_176",
+   "file": "sections/s172-non-dual-brahman.txt",
+   "chars": 330,
+   "sha256": "bf24b66b027eddbc672d1a5ea9a2699b4741f5b81604a9d8d8dbb97910cabb76"
+  },
+  {
+   "id": "s173-kundalini-yoga",
+   "label": "Kundalini Yoga",
+   "title": "Kundalini Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_177",
+   "file": "sections/s173-kundalini-yoga.txt",
+   "chars": 3260,
+   "sha256": "8e723b683192ec0b10dfcc50455a12ff823cccdddce1b39c15e1671b77a0b43c"
+  },
+  {
+   "id": "s174-kundalini-pranayama",
+   "label": "Kundalini Pranayama",
+   "title": "Kundalini Pranayama",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_178",
+   "file": "sections/s174-kundalini-pranayama.txt",
+   "chars": 1504,
+   "sha256": "414c6142fd922e87d8f27313ccbacca3cf71b02ac7104b3cc71a6dc68ed8bf10"
+  },
+  {
+   "id": "s175-lambika-yoga",
+   "label": "Lambika Yoga",
+   "title": "Lambika Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_179",
+   "file": "sections/s175-lambika-yoga.txt",
+   "chars": 2173,
+   "sha256": "6caeb2b43ce50a06ab8c685b45b24a01983605f9a6d7f2f4c931f39c9017bdbb"
+  },
+  {
+   "id": "s176-yogai",
+   "label": "Yoga–I",
+   "title": "Yoga–I",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_180",
+   "file": "sections/s176-yogai.txt",
+   "chars": 3041,
+   "sha256": "db9ff5a989518e754c88208938fe68b5b3a1cee22b45d9144bfdff1c16b2fdc0"
+  },
+  {
+   "id": "s177-yogaii",
+   "label": "Yoga–II",
+   "title": "Yoga–II",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_181",
+   "file": "sections/s177-yogaii.txt",
+   "chars": 3892,
+   "sha256": "7ded6b3481f87a794d417ea2e17489464affdb595c88798596e4c754145e1e84"
+  },
+  {
+   "id": "s178-ideal-yoga",
+   "label": "Ideal Yoga",
+   "title": "Ideal Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_182",
+   "file": "sections/s178-ideal-yoga.txt",
+   "chars": 3334,
+   "sha256": "fdffc7990262c1fd02a79cef9b446f9826aed429e6509d9821a947afa149ce9f"
+  },
+  {
+   "id": "s179-ten-commandments-for-yoga-students",
+   "label": "Ten Commandments For Yoga-Students",
+   "title": "Ten Commandments For Yoga-Students",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_183",
+   "file": "sections/s179-ten-commandments-for-yoga-students.txt",
+   "chars": 740,
+   "sha256": "2cf230e954359a4942ed4b14a3a42cbd77f7d5ccdd0d57ebb2d8f908f5fa1c38"
+  },
+  {
+   "id": "s180-yoga-and-its-consummation",
+   "label": "Yoga And Its Consummation",
+   "title": "Yoga And Its Consummation",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_184",
+   "file": "sections/s180-yoga-and-its-consummation.txt",
+   "chars": 3874,
+   "sha256": "c9aca5424e07c13b31bebb60972f8f57f0b0b037c95456b1684e8dbbe3eec1ae"
+  },
+  {
+   "id": "s181-the-gradational-ascent-of-the-mind",
+   "label": "The Gradational Ascent Of The Mind",
+   "title": "The Gradational Ascent Of The Mind",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_185",
+   "file": "sections/s181-the-gradational-ascent-of-the-mind.txt",
+   "chars": 2403,
+   "sha256": "612ddac1006a341e3a56df6f52e9c9ee553272937015283edeff25cc7748c557"
+  },
+  {
+   "id": "s182-experiences-on-awakening-of-kundalini",
+   "label": "Experiences On Awakening Of Kundalini",
+   "title": "Experiences On Awakening Of Kundalini",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_186",
+   "file": "sections/s182-experiences-on-awakening-of-kundalini.txt",
+   "chars": 1998,
+   "sha256": "0a05b943d2240120d1f2d6b3912b6886b275bcd353f6b7738a3785f3a3fc5127"
+  },
+  {
+   "id": "s183-the-quintessence-of-yoga",
+   "label": "The Quintessence Of Yoga",
+   "title": "The Quintessence Of Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_187",
+   "file": "sections/s183-the-quintessence-of-yoga.txt",
+   "chars": 625,
+   "sha256": "b8b800483e860d7f12d972c231f7c9931bb82d5e6e13d963de7b32a94286f4d8"
+  },
+  {
+   "id": "s184-practise-yoga-to-prolong-life",
+   "label": "Practise Yoga To Prolong Life",
+   "title": "Practise Yoga To Prolong Life",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_188",
+   "file": "sections/s184-practise-yoga-to-prolong-life.txt",
+   "chars": 1666,
+   "sha256": "095e5ae2ae0ee7edec51232a6f637f78c2884bd30424483a118059c1a67cae8d"
+  },
+  {
+   "id": "s185-perfection-in-yoga",
+   "label": "Perfection In Yoga",
+   "title": "Perfection In Yoga",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_189",
+   "file": "sections/s185-perfection-in-yoga.txt",
+   "chars": 1161,
+   "sha256": "20799301fe92f1845ccb07495829e433114ff66d12337bff3eeca04590448f0f"
+  },
+  {
+   "id": "s186-double-consciousness",
+   "label": "Double Consciousness",
+   "title": "Double Consciousness",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_190",
+   "file": "sections/s186-double-consciousness.txt",
+   "chars": 438,
+   "sha256": "c8ad0f981292dec0339088c0ee34fd720a1e3808f024914ef9016611e06a07bf"
+  },
+  {
+   "id": "s187-wise-guidance-for-sure-success",
+   "label": "Wise Guidance For Sure Success",
+   "title": "Wise Guidance For Sure Success",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_191",
+   "file": "sections/s187-wise-guidance-for-sure-success.txt",
+   "chars": 928,
+   "sha256": "4373a778b4c6bc5bb2ae019f073a2a3ed992ebe326d99f69b1cef11d3b94523b"
+  },
+  {
+   "id": "s188-practice-of-yoga-asanas",
+   "label": "Practice Of Yoga Asanas",
+   "title": "Practice Of Yoga Asanas",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_192",
+   "file": "sections/s188-practice-of-yoga-asanas.txt",
+   "chars": 2173,
+   "sha256": "2fe7f7f4726ab40c21e9b9bab9167d61fa4d28238f44787c3de274d14d27e5b4"
+  },
+  {
+   "id": "s189-glossary",
+   "label": "GLOSSARY",
+   "title": "GLOSSARY",
+   "url": "https://www.dlshq.org/download/kundalini-yoga/#_VPID_193",
+   "file": "sections/s189-glossary.txt",
+   "chars": 5157,
+   "sha256": "8396ce53eff54bd1ee1eced6d0a635302f01a0b52eb56cbe5fd9e07ae880a719"
+  }
+ ]
+}
