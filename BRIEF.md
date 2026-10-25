@@ -298,7 +298,26 @@ Satsang is non-commercial: CC BY-NC assets (e.g. LYGIA shaders, Phonon 40m voice
   other VBT plays (Expand the Room, Catch the Gap, Dissolve the Edges, Merge the Sides, Tap the Centre) not built; preview Worker ~2.66 MB gzip
   (Free cap 3 MB: the next renders need R2/KV or dropping the ajahn-lee preview mp4).
 
-## CURRENT STATE 2026-10-25 ~05:45 +07 (Places round; history in MERGE-LOG.md)
+## CURRENT STATE 2026-10-25 ~07:30 +07 (Enquiry lens round; history in MERGE-LOG.md; search/README.md)
+- Live: wiser-web 244808a2 (tantrafiles.xyz), **satsang-search a0a6d033** (https://satsang-search.tradesprior.workers.dev, workers.dev only,
+  no route/DNS). wiser-mcp 802f5cb8 and satsang-chat unchanged. KV `satsang-search-idx` (76adbeb6…), idx/current = 20261024T234346Z-6bfa7290.
+- **Enquiry lens**: a persistent question bar above every tab (`?q=` shareable, kept on the device); Watch/Topics/Teachers/Places/Practise/Ask
+  each re-rank around it from one `/search` response (talks + category chips + similar talks within those chips + transcript moments + series +
+  practices). Labels: **Metadata match** vs **Transcript moment · m:ss** (moments only where passages exist; youtube-nocookie embed at the time).
+  conf < 0.66 → series and practices lead ("middle pillar"). Held / red-flag teachers filtered in the Worker and the client; places typed
+  (pilgrimage/sacred-site/bookshop/university only with a practice offer, `po` in places-index) and held-tied places dropped. Ask → the
+  deterministic path builder (`#ask?q=…&go=1`, ask.js auto-submits). Code: app/src/lens.js, app/site/lens.css, search/.
+- Worker: KV versioned index, 1-bit shortlist (cand 500) + int8 rescoring, Workers AI bge-small **pooling 'cls'** (free allocation only),
+  metadata BM25 + RRF server-side, `/search`, `/similar`, `/health`; ids + scores only, no transcript text anywhere.
+- Pipeline: after catalogue changes `sh app/deploy.sh search` (ingest_talks.py incremental → upload-index.mjs → worker deploy); `deploy.sh build`
+  prints a NOTE when clips.json changed since the last ingest.
+- Tests: search/test/eval-live.mjs 68/68 live (10 eval queries + /similar + filter); tools/check/lens-phone.mjs 390 px: 6 tabs × 3 queries, overflow 0,
+  no page errors, held 0 (shots-lens/); phone route crawl 419 routes, 0 findings (one place page re-checked: renders); check-data 0 errors;
+  transcript guards 0 found. Spend US$0 (Workers AI free allocation only).
+- Gaps: cold-isolate CPU 16–77 ms (warm 2–8 ms; all outcomes ok so far); passages 1,472/8,165; torch for new embeddings must be reinstalled in /tmp/pyt
+  after a sandbox restart (env.sh); index builder lives in work/wiser-search-index (not in the public repo).
+
+## PREVIOUS STATE 2026-10-25 ~05:45 +07 (Places round; history in MERGE-LOG.md)
 - Live: wiser-web aed7ee33 (tantrafiles.xyz), wiser-mcp 802f5cb8 (mcp.tantrafiles.xyz). satsang-chat unchanged (catalogue identical
   apart from build stamps, so not redeployed).
 - **Crawlable place pages** (app/tools/build-place-pages.mjs, run in `deploy.sh build`; output app/site/_p/ + per-place shards,

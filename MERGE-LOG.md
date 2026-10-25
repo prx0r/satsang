@@ -310,3 +310,14 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   Himalayan Institute, Shambhala, Satyananda, Triratna, Kripalu, Siddha Yoga, Española/3HO, SFZC, Kabbalah Centre, NKT, Monte Sahaja).
 - specs/PLACES-TODO.md standing list. Phone fix: .wgrid tiles min-width:0 (long names no longer widen #place pages at 390 px).
 
+
+## Enquiry lens (2026-10-25 ~07:30 +07)
+- New Worker **satsang-search** (search/worker; workers.dev; bindings AI + KV satsang-search-idx). Index from work/wiser-search-index
+  (ingest_talks.py, 9,986 talks / 22 series / 85 practices / 1,472 passages), uploaded by search/tools/upload-index.mjs (15 keys, 6.0 MiB,
+  versioned, content-hash skip, prune). Held list = redflags.json subjects + Sucitto/Kornfield/Ramdev (2 of 8 present in the catalogue, 104 talks blocked).
+- fastknn.mjs replaces search-core knn in the Worker (same results at top 40, ~2.4x less CPU); fixed a shortlist bug where excluded rows could
+  enter when fewer than `cand` rows were allowed (caught by the filter test).
+- Site: app/src/lens.js + site/lens.css wired in app.js (initLens after initAsk); ask.js `go=1`; build-place-pages.mjs adds `po` (practice offer)
+  to places-index.json; deploy.sh `search` case + ingest reminder; tools/release/release.sh honours RELEASE_EXCLUDE.
+- Tests: eval-live 68/68; lens-phone 390 px all tabs ok; crawl 419 routes 0 findings; check-data 0 errors; guards 0. Deployed wiser-web 244808a2,
+  satsang-search a0a6d033. Not touched: engine/, specs/SIT-PLAYER.md (sit player, uncommitted, other owner), DNS, switch-domain.sh, D1 seeds.
