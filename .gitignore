@@ -39,3 +39,6 @@ search/.ingested
 
 # local screenshot folders from check scripts (e.g. shots-lens/ from tools/check/lens-phone.mjs)
 /shots-*/
+
+# place-contacts.py fetch cache
+app/tools/cache-contacts/

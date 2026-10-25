@@ -352,6 +352,8 @@ export function callAgentTool(ctx, name, a = {}) {
         teachers: (p.teachers || []).map((t) => ctx.person[t] ? { id: t, name: ctx.person[t].name, living: livingStatus(ctx.person[t]).status, relation: 'founder or historically tied', url: canon('person', t) } : null).filter(Boolean),
         sisters: (p.sisterLinks?.length ? p.sisterLinks : (p.sisters || []).map((id) => ({ id }))).map((s) => ({ ...s, name: ctx.place[s.id]?.name, url: ctx.place[s.id] ? canon('place', s.id) : undefined })),
         events: p.events || [], upcoming: p.upcoming ? { fetched_at: p.upcoming.fetched_at, stale: p.upcoming.stale || false, sources: p.upcoming.sources, events: upcomingOf(p, Date.now() - 864e5, Date.now() + 90 * 864e5).map((e) => evOut(p, e)).map(({ place, ...e }) => e) } : null, languages: p.languages, residential: isResidential(p), online: isOnline(p), resources: Object.values(ctx.resource).filter((r) => r.places?.includes(p.id)).map((r) => resourceCard(ctx, r)),
+        ...(p.detailsUnverified ? { detailsUnverified: true, detailsNote: 'The official site could not be opened when this place was added; name, location and website come from OpenStreetMap and the domain only. Confirm on the official site.' } : {}),
+        ...(p.safety ? { safety: p.safety.map((r) => ({ ...r, note: 'A dated, sourced safety record about this place (Satsang publishes these only with a strong primary source); not a verdict about the place today. Read the reports themselves.' })) } : {}),
         wikidata: p.ids?.wikidata, sources: p.meta?.sources || [], license: LICENSE, privacy: 'Contacts are those the place publishes on its own site; do not use them for bulk mail.' }
     }
     case 'search_places': {

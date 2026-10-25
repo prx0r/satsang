@@ -20,7 +20,7 @@ const wr = (...a) => execFileSync(WR, WR === 'npx' ? ['wrangler', ...a] : a, { c
 
 // held teachers (never surface in the lens): public red-flag subjects + the main teachers held in BRIEF ("main teachers held")
 const HELD_MAIN = ['ajahn-sucitto', 'jack-kornfield', 'swami-ramdev']
-let rf = []; try { rf = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/wisegraph/redflags.json'), 'utf8')).records.map((r) => r.subject.split('/').pop()) } catch {}
+let rf = []; try { rf = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/wisegraph/redflags.json'), 'utf8')).records.filter((r) => r.subject.startsWith('person/')).map((r) => r.subject.split('/').pop()) } catch {}
 const held = [...new Set([...rf, ...HELD_MAIN])].sort()
 
 const rd = (n) => fs.readFileSync(path.join(IDX, n))

@@ -65,7 +65,7 @@ for (const p of P) {
   const addr = c.address?.[0] || null, where = [p.city, cname(p.country)].filter(Boolean).join(', ')
   const desc = p.description || (p.goenka ? 'A centre in S. N. Goenka\u2019s Vipassana network, running 10-day silent residential courses on a donation basis.' : `${TYPE[p.type] || 'Place'} of the ${p.traditions.map(tl).join(' / ')} tradition in ${where}.`)
   const cr = [['/', NAME], ['/places', 'Places'], [`/places/${fam}`, tl(fam)], ...(p.traditions[0] && p.traditions[0] !== fam ? [[`/places/${p.traditions[0]}`, tl(p.traditions[0])]] : []), [null, p.name]]
-  const safety = tch.flatMap((t) => safetyOf(t).map((r) => [t, r]))
+  const safety = [...RF.filter((r) => r.subject === 'place/' + p.id).map((r) => [null, r]), ...tch.flatMap((t) => safetyOf(t).map((r) => [t, r]))]
   const ld = { '@context': 'https://schema.org', '@graph': [JSON.parse(JSON.stringify({
     '@type': [WORSHIP.test(p.type) ? 'PlaceOfWorship' : 'Place', 'Organization'], '@id': canon, url: canon, name: p.name, description: desc,
     sameAs: [p.url, p.wikidata ? `https://www.wikidata.org/wiki/${p.wikidata}` : null].filter(Boolean),
@@ -85,7 +85,7 @@ for (const p of P) {
 <h1>${e(p.name)}</h1>
 <p class="muted">${e(TYPE[p.type] || p.type)} \u00b7 ${e(where)}${p.founded ? ` \u00b7 founded ${e(p.founded)}` : ''}</p>
 <p>${e(desc)}</p>
-<a class="btn" href="/#place/${e(p.id)}">Open in the Satsang app</a>${p.url ? `<a class="btn" href="${e(p.url)}" rel="noopener">Official site</a>` : ''}<a class="btn" href="${e(dir(p))}" rel="noopener">Directions</a>
+${p.details_unverified ? `<p class="note">Details unverified: the official site could not be opened when this place was added (${e(p.verified_on || '')}), so its name, location and website come from OpenStreetMap and the domain only. Please confirm on the official site before you travel.</p>` : ''}<a class="btn" href="/#place/${e(p.id)}">Open in the Satsang app</a>${p.url ? `<a class="btn" href="${e(p.url)}" rel="noopener">Official site</a>` : ''}<a class="btn" href="${e(dir(p))}" rel="noopener">Directions</a>
 <h2>At a glance</h2><dl>
 ${row('Tradition', chain(p.traditions[0] || '').map((t) => `<a href="/places/${e(t)}">${e(tl(t))}</a>`).join(' \u203a '))}
 ${row(p.traditions.length > 1 ? 'Schools' : 'School', p.traditions.map((t) => `<a href="/tradition/${e(t)}">${e(tl(t))}</a>`).join(', '))}
@@ -107,7 +107,7 @@ ${p.retreats?.length ? `<h2>Retreats and programmes</h2><ul>${p.retreats.map((r)
 ${p.events?.length ? `<h2>Yearly gatherings</h2><ul>${p.events.map((x) => `<li><b>${e(x.name)}</b>${x.when ? ` \u00b7 ${e(x.when)}` : ''}${x.note ? ` \u00b7 ${e(x.note)}` : ''}${x.url ? ` \u00b7 <a href="${e(x.url)}" rel="noopener">official page</a>` : ''}</li>`).join('')}</ul>` : ''}
 ${sis.length ? `<h2>Sister places</h2><ul>${sis.map(([id, rel]) => `<li><a href="/place/${e(id)}">${e(BY[id].name)}</a>${rel ? ` <span class="muted">(${e(String(rel).replace(/_/g, ' '))})</span>` : ''}</li>`).join('')}</ul>` : ''}
 ${p.resources?.length ? `<h2>Free books</h2><ul>${p.resources.map((r) => `<li><a href="${e(r.url)}" rel="noopener">${e(r.title)}</a>${r.licence ? ` <span class="muted">${e(r.licence)}</span>` : ''}</li>`).join('')}</ul>` : ''}
-${safety.length ? `<h2>Public safety record</h2>${safety.map(([t, r]) => `<p class="note"><b>${e(pn(t))}</b> (${e(r.happened || '')}): ${e(r.summary)} ${r.reports.map((x) => `<a href="${e(x.url)}" rel="noopener">${e(x.outlet.split(':')[0])}</a>`).join(' \u00b7 ')} <span class="muted">Dated, sourced note; not a verdict about the place today. Updated ${e(r.updated)}.</span></p>`).join('')}` : ''}
+${safety.length ? `<h2>Public safety record</h2>${safety.map(([t, r]) => `<p class="note"><b>${e(t ? pn(t) : p.name)}</b> (${e(r.happened || '')}): ${e(r.summary)} ${r.reports.map((x) => `<a href="${e(x.url)}" rel="noopener">${e(x.outlet.split(':')[0])}</a>`).join(' \u00b7 ')} <span class="muted">Dated, sourced note; not a verdict about the place today. Updated ${e(r.updated)}.</span></p>`).join('')}` : ''}
 <h2>Sources</h2><ul>${[...new Set([p.source_url, c.page_src, c.page, p.url, p.wikidata ? `https://www.wikidata.org/wiki/${p.wikidata}` : null, ...(evm?.sources || [])].filter((u) => /^https?:/.test(u || '')))].map((u) => `<li><a href="${e(u)}" rel="noopener">${e(u)}</a></li>`).join('')}</ul>
 <p class="muted">Machine-readable: <a href="/data/wisegraph/place/${e(p.id)}.json">this place as JSON</a> \u00b7 MCP <code>get_place("${e(p.id)}")</code>. Map data \u00a9 OpenStreetMap contributors.</p>`
   fs.writeFileSync(path.join(out, 'place', p.id + '.html'), page(`${p.name} \u00b7 ${TYPE[p.type] || 'Place'} in ${where} \u00b7 ${NAME}`, desc.slice(0, 200), canon, ld, body))

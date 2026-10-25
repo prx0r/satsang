@@ -76,10 +76,12 @@ for t in TEXTS:
         LHELD.append({'pack': 'deep-texts', 'kind': 'text-licence-person', 'subject': f'person/{pid}:{tid}', 'reason': f'licence gate: free text "{t["title"][:80]}" ({t["url"]}); registry says {lic or "unregistered"} ({why[:160]}); link held off the profile', 'severity': 'verify', 'title': t['title'], **({'evidenceUrl': evu} if evu else {})}); continue
     TEXTS_BY[pid].append({**{k: v for k, v in t.items() if k in ('title', 'url', 'site', 'note') and v}, 'licence': lic, **({'licenceUrl': evu} if evu else {}), **({'noSale': True} if no_sale(lic, ent) else {})})
 people = {}
+RFPL = {}  # place-level records (subject place/<id>), attached to the place rows below
 RF = {}  # public safety records (wisegraph/redflags.json): shown to agents as a dated, sourced note; never a verdict
 if os.path.exists(os.path.join(ROOT, 'wisegraph/redflags.json')):
     for r in json.load(open(os.path.join(ROOT, 'wisegraph/redflags.json')))['records']:
-        RF.setdefault(r['subject'].split('/', 1)[1], []).append({k: r.get(k) for k in ('id', 'status', 'happened', 'summary', 'reports', 'updated')})
+        _k, _i = r['subject'].split('/', 1)
+        (RF if _k == 'person' else RFPL).setdefault(_i, []).append({k: r.get(k) for k in ('id', 'status', 'happened', 'summary', 'reports', 'updated')})
 for p in PEOPLE:
     t = p['tradition']
     seek = sorted((q for q in PEOPLE if q['id'] != p['id']), key=lambda q: (-kin(p, q), q['name']))
@@ -114,7 +116,7 @@ json.dump(out, open(os.path.join(wg, 'wise.json'), 'w'), ensure_ascii=False, sep
 pp = os.path.join(ROOT, 'wisegraph/places.json')
 if os.path.exists(pp):
     PLS = json.load(open(pp))
-    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases', 'main_teacher', 'teacher_model', 'main_teacher_conf', 'main_teacher_src', 'main_teacher_verified', 'status')
+    KEEP = ('id', 'name', 'type', 'traditions', 'country', 'city', 'lat', 'lng', 'coord_precision', 'founded', 'teachers', 'url', 'schedule_url', 'wikidata', 'description', 'offers', 'goenka', 'retreats', 'contact', 'resources', 'sisters', 'events', 'source_url', 'verified_on', 'confidence', 'aliases', 'main_teacher', 'teacher_model', 'main_teacher_conf', 'main_teacher_src', 'main_teacher_verified', 'status', 'details_unverified')
     import sys as _s; _s.path.insert(0, os.path.join(ROOT, 'tools'))
     from source_maps import PLACE_CONTACT_DROP, PLACE_RESOURCES
     cp_ = os.path.join(ROOT, 'wisegraph/place-contacts.json')
@@ -150,6 +152,7 @@ if os.path.exists(pp):
         r = {k: x[k] for k in KEEP if x.get(k) is not None}
         r['name'] = r['name'][:1].upper() + r['name'][1:]  # Wikidata labels can start lower-case ('archaeological Site of Delphi')
         if r.get('lat') is not None: r['lat'], r['lng'] = round(r['lat'], 5), round(r['lng'], 5)
+        if RFPL.get(r['id']): r['safety'] = RFPL[r['id']]  # place-level public safety records (dated, sourced; never a verdict)
         if r.get('goenka'): r.pop('description', None)  # the Goenka description is one boilerplate line, rebuilt in the browser
         rows.append(r)
     json.dump({'meta': {'built': datetime.date.today().isoformat(), 'map': 'OpenStreetMap contributors', 'sources': 'Wikidata, OpenStreetMap (Nominatim/Photon), dhamma.org directory, official sites'},

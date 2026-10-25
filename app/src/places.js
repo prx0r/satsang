@@ -171,6 +171,7 @@ export function createPlaces(ctx) {
           <div class="wchips">${p.traditions.flatMap((t) => W().chain(t).reverse()).filter((x, i, a) => a.indexOf(x) === i).map((t) => `<a class="wchip${p.traditions.includes(t) ? ' on' : ''}" href="#tradition/${esc(t)}">${esc(tLabel(t))}</a>`).join('')}</div>
           ${stats.length ? `<div class="stats">${stats.map(([v, l]) => `<div><b>${esc(String(v))}</b><span>${esc(l)}</span></div>`).join('')}</div>` : ''}
           <div class="wcta">${p.url ? ext(p.url, 'Official site', 'btn gold') : ''}${p.retreats?.[0]?.schedule_url ? ext(p.retreats[0].schedule_url, 'Retreat schedule') : ''}${ext(directions(p), 'Directions')}</div>
+          ${p.details_unverified ? `<p class="muted small">Details unverified: the official site could not be opened when this place was added, so please confirm there before you travel.</p>` : ''}
           ${p.lat == null ? `<p class="muted small">${p.id === 'hillside-hermitage' ? 'The hermitage does not publish its location, so it is not on the map.' : 'No verified map point yet, so this place is listed but not on the map.'}</p>` : ''}
         </div>
       </section>
@@ -183,6 +184,7 @@ export function createPlaces(ctx) {
       ${(() => { const L = (p.sisters || []).map(([id, ty]) => [D.places.find((q) => q.id === id), ty]).filter(([q]) => q); const SL = { branch_of: 'Mother house', branch: 'Branch', sister_of: 'Sister place' }
         return L.length ? `<section class="wsec"><div class="wsech"><h3>Sister places</h3><span class="muted small">Its mother house, branches and sister communities</span></div><div class="pgrid">${L.map(([q, ty]) => card(q, null, SL[ty])).join('')}</div></section>` : '' })()}
       ${contactHTML(p)}
+      ${p.safety?.length ? `<section class="wsec"><div class="wsech"><h3>Public safety record</h3></div>${p.safety.map((r) => `<p class="muted small"><b>${esc(r.happened || '')}</b>: ${esc(r.summary)} ${(r.reports || []).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(String(x.outlet).split(':')[0])}</a>`).join(' \u00b7 ')} Dated, sourced note; not a verdict about the place today. Updated ${esc(r.updated || '')}.</p>`).join('')}</section>` : ''}
       ${resourcesHTML(p.resources)}
       ${near.length ? `<section class="wsec"><div class="wsech"><h3>Nearby in the same family</h3></div><div class="pgrid">${near.map(([q, d]) => card(q, d)).join('')}</div></section>` : ''}
       <p class="muted small"><a href="/place/${esc(p.id)}">Plain page for sharing and citing</a> \u00b7 ${p.wikidata ? `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">Wikidata</a> \u00b7 ` : ''}${p.coord_precision && p.lat != null ? `Map point: ${esc(p.coord_precision)} \u00b7 ` : ''}Map data \u00a9 OpenStreetMap contributors</p>`
