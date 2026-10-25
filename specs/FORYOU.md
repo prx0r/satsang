@@ -1,5 +1,7 @@
 # Wiser: For You, intentions and TV mode (spec + implementation notes, 2026-10-20)
 
+> **Status (2026-10-25):** **shipped** 2026-10-20 (For you, intentions, TV mode).
+
 The user: "we still need a feed of recommended videos ... in the future link to profile, goals, interests, current issues
 or curiosities ... but don't want it to be stale." Shipped 2026-10-20 (wiser-web 66b70b6e, wiser-api 1a53b74b).
 Design rule unchanged: the current dark design; new rules are appended `fy-*`, `int-*`, `tv-*` classes on existing tokens.

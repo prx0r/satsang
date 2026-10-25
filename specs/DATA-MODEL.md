@@ -1,5 +1,7 @@
 # Wiser: unified data model (spec, 2026-10-20)
 
+> **Status (2026-10-25):** **shipped** (schemas in specs/schema, 13,138 records validate). Curation records not built.
+
 One model for everything Wiser shows, so every view (topic hubs, the Topic-flash loop, profiles, the Atlas, the map,
 MCP, dumps) reads the same records. JSON Schemas (2020-12) live in `specs/schema/*.json`, generated from
 `specs/schema/gen.py`. `specs/schema/validate.py` checks real data against them: today **3,418 records normalised from

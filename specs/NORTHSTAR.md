@@ -1,5 +1,7 @@
 # Wiser — north star (user, 2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Vision doc (user's words). Shipped: traditions, lineages, teachers, places map + place pages, retreats, open data/MCP. Not started: Gather (GATHER-SPEC), user curations.
+
 User's words (verbatim):
 "we could also add like countries and actual places of interest for each tradition living teachers, lineages in each tradition eg Ajahn Mun, Lee, Geoff and also like collate love retreats in each country, Tushita ones amaravati, vipassana this has the potential to be beautiful, we can also add like dharma seed type player right ... I realised the endgame here as an add on is basically having our own visual engine that basically for like meditation instruction can render visuals ... prx0r/deitybody is good start on this also in this repo and prx0r/sanskrithelp we also generate syllabuses for like structured pathways for all this content so we could map that to teachers / traditions then also have visuals and guided meditations etc"
 

@@ -1,5 +1,7 @@
 # Wiser: the main loop, "Topic flash" (spec, 2026-10-20)
 
+> **Status (2026-10-25):** **shipped** (Topic flash src/flash.js, TV mode src/tv.js, live since 2026-10-20). The crowd signal it reads was empty until the 2026-10-25 tally change (resonates + anon votes now count).
+
 We are not battling any more. The front door is a calm **journey through topics**: a topic's name fills the screen,
 two or three teachers from different traditions speak to it one after another, you tap the one that resonated (or
 none), and a bridge carries you to a related topic. Every tap still feeds the pairwise model (a pick among 3 = two

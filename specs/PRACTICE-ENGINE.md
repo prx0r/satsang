@@ -1,5 +1,7 @@
 # Satsang Practice Engine: data structures v0.1 (2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Shipped: practice records, practice pages + timer, "Practise with the body" breathplayer overlay. Not started: Sivananda book miner.
+
 Goal: granular practice discovery (e.g. "all kundalini practices"), a Practice tab, a Theory tab, structured pathways, books mined into routines, an executable script for real-time breath animation + narration (+ wearables later), and progress on the profile. Everything agent-native.
 
 ## 1. Object layers (smallest → largest)

@@ -1,5 +1,7 @@
 # Satsang: Google AI Search and agent discoverability plan (2026-10-20)
 
+> **Status (2026-10-25):** **mostly shipped** (JSON-LD, sitemaps incl. places, llms.txt/llms-full.txt, /data, MCP). Waits on the satsang.digital switch for the final host.
+
 ## What Google wants (developers.google.com/search/docs/appearance/ai-features, updated 2025-12-10)
 - No special format or schema for AI Overviews or AI Mode. A page must be indexed and snippet-eligible.
 - Levers: crawlable (robots + CDN), internal links, important content in TEXT, images and video supporting the text, structured data matching the visible text, page experience, Search Console.

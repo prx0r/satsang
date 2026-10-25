@@ -1,5 +1,7 @@
 # Satsang: text → practice runtime (spec v1, 2026-10-21)
 
+> **Status (2026-10-25):** **shipped in engine/** (6 pipeline-built practices, 3 routines; preview https://engine.tantrafiles.xyz/sit/). Not yet on the main site (awaits owner, SIT-PLAYER §6).
+
 A source text (a meditation-manual chapter) becomes a runnable, rendered practice: a guided session in the engine player, narration audio, sound cues and a preview video, where every word, number and picture traces back to a span of the source or to a named rule. Extends PRACTICE-ENGINE.md §5 ("mining a book") and feeds PRACTICE-MEDIA and PRACTICE-ASK. Worked example: Ajaan Lee, *Keeping the Breath in Mind*, Method 1 (`engine/pipeline/ajahn-lee-method-1/`, demo `?p=ajahn-lee-method-1`).
 
 ## 1. Principles

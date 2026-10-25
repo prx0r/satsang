@@ -1,5 +1,7 @@
 # Satsang "Ask while you practise" (spec v0, 2026-10-20)
 
+> **Status (2026-10-25):** **not started** live: realtime voice/LLM needs a Qwen key + spend approval (chat/README; off).
+
 User vision: mid-practice (e.g. Nadi Shodhana), speak a question ("I feel lightheaded", "how does this work?"). The practice pauses, an answer is spoken in real time, and the Q&A is stored against that practice so the next person with a similar question gets an instant cached answer. Common questions are preloaded.
 
 ## Flow

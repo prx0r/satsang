@@ -1,5 +1,7 @@
 # Wiser: the practitioner profile (spec, 2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Shipped: device-first profile (saves, practice log, journeys, taste, export/delete; D1 0016_profile). Not shipped: Google sign-in (GOOGLE_CLIENT_ID empty) so device claim is untested live; curations/essays (§ curations, ROADMAP 14).
+
 The profile is what Wiser learns from you and what you keep: your taste across traditions, what you saved, what you
 practise, the journeys you are on. **Private by default, exportable whole, deletable whole.** It starts anonymous on the
 device (Funnier's pattern, already live in Wiser's API) and merges into an account only when you choose to sign in.

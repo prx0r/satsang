@@ -1,5 +1,7 @@
 # Wisegraph
 
+> **Status (2026-10-25):** **shipped** (live data source for the site, MCP and open data).
+
 Wiser's knowledge graph of traditions, people and texts: the Funnier "funnygraph" for wisdom traditions. Source of truth:
 `work/wiser/app/wisegraph/*.json` (hand-curated, reviewed). Published to the site as `site/data/wisegraph/wise.json`
 (profiles) plus the older `boards.json / profiles.json / graph.json` (charts), and to D1 via `wisegraph/seed.sql`.

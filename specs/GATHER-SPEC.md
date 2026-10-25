@@ -1,5 +1,7 @@
 # Wiser Gather: spec (user vision 2026-10-20, spec only, NOT building yet)
 
+> **Status (2026-10-25):** **not started** (spec only; parked as ROADMAP step 16).
+
 Positioning, first step (user): Wiser = THE resource for comparative traditions: scholars, videos, education, practice. It shares roots with prx0r/patalacheckpoints, prx0r/openpatala, deitybody and sanskrithelp. Gather comes later.
 
 ## Goal

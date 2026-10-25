@@ -1,5 +1,7 @@
 # Wiser: how topics are made and kept (spec, 2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Shipped: topic gate, hubs, tiers, series inside topics. Not started: segmentation + LLM labelling + review queues (ROADMAP 13; needs spend approval).
+
 A topic is **a question people bring, answered by several traditions**: Rebirth, Death, the Self, Karma, Prayer, Grace.
 It is the main organising unit of Wiser: the loop flashes topics, hubs are topics, collections are built on topics.
 

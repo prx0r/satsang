@@ -1,5 +1,7 @@
 # Wiser: ranking (spec, 2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Shipped: client ranker src/rank-topics.js, mcp/src/rank.mjs, gold tier. Crowd term (bt) now fed by /stats/clips with anon votes + resonates (2026-10-25); real vote volume still ~0.
+
 What to show first, everywhere: the hub's talks, the Topic flash's teachers, the next topic, a teacher's best talks.
 Reference implementation: `mcp/src/rank.mjs` (used live by the MCP server's `get_topic`, `get_teacher`, `recommend`).
 Evidence: `specs/sim/simulate.py` (§7). One goal: **the most interesting thing for this listener, across traditions,

@@ -1,5 +1,7 @@
 # Satsang Practice Media: sound + premium short videos (spec v0, 2026-10-20)
 
+> **Status (2026-10-25):** **partial**. Voice renders exist in engine/renders (Phonon / Fish, owner has not listened yet); premium short videos not built.
+
 Reuse the gcomedy video stack (prx0r/gcomedy series/BUILD-PIPELINE.md): HyperFrames (deterministic seek(t) render + GSAP), Fish Audio voices (word timestamps), earshot (procedural SFX bank `sfx`/`kit`, `critique`, `match`, -14 LUFS master), Jev frame QC. One source of truth: the practice Script (engine/compile.mjs timeline). The same timeline drives the live player, the sound layer and the rendered videos.
 
 ## 1. Sound design (earshot, v3 or the version pinned in gcomedy essay1/tools/earshot)

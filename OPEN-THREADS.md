@@ -1,0 +1,41 @@
+# Satsang: open threads
+
+Derived from the project audit of 2026-10-25 (Satsang section), updated the same day. Status: **NS** not started ·
+**P** partial · **B** blocked · **AU** awaiting the owner · **IP** in progress · **done**. Close a line by moving it to
+"Closed" with the date.
+
+| # | Thread | Status | Next step |
+|---|---|---|---|
+| S2 | Sit player → main site Practise tab ("Sit with it (hands-off)") | **AU** | Owner says yes/no; if yes follow specs/SIT-PLAYER.md §6 (iframe or same-origin, `satsang-sit-end` logging). |
+| S4 | Places discovery batch (81 candidates) lost | IP (another agent is re-running it in work/wiser-places-discovery, 2026-10-25) | Re-run discovery, write to disk and commit immediately; map schools, add tradition ids, merge high/medium. |
+| S5 | PLACES-REVIEW decisions (Rigpa, ZCLA, Sivananda, Himalayan Inst., Shambhala, Satyananda, Triratna, Kripalu, SYDA, Española, SFZC, Kabbalah Centre, NKT, Monte Sahaja) | **AU** | Owner decides keep / annotate / drop per row. Section C (Diamond Way, Osho, Amma, Isha, Dhammakaya) needs sourcing first. |
+| S6 | Captions for passages / jump-to-moment | **B** | YouTube blocks the sandbox and GitHub runners. Only route: owner's machine runs yt-dlp → private satsang-data (needs OK). |
+| S7 | Passage embeddings 1,472 / 8,165 | P | `embed.py passages 90` loop (local, free), pack, eval. Low value until captions exist. |
+| S8 | Why-lines for gold/strong talks | NS | One line per gold/strong clip; re-ingest. Cheapest search-quality win. |
+| S10 | Rob Burbea: profile with 0 talks | NS | Source official talks (Dharma Seed / Hermes Amāra) as full talks + virtual clips. |
+| S11 | Two lecture links without licence-registry entries | not verified | Run `app/tools/licence_gate.py` over all resource URLs; add evidence or hold. |
+| S12 | Pa-Auk "Dependent Origination: Previous Lives" (unofficial upload only) | B | Find an official copy or leave out. |
+| S13 | Next Series: consciousness transference (phowa) via SERIES-FORMULA | **AU** | Owner says go. |
+| S14 | Domain switch to satsang.digital | **AU** | Owner sets Porkbun nameservers to Cloudflare, then `app/tools/switch-domain.sh`. |
+| S15 | Google OAuth (GOOGLE_CLIENT_ID empty; claim-device untested live) | **AU** | Owner creates a Google client ID. |
+| S16 | Crowd tally | P (code done 2026-10-25) | Anon votes + resonates now count (down-weighted); watch real volume; the cron (02:17 +07) fires (clip_stats `_job` row). |
+| S17 | Atlas timeline / knowledge graph | P (prototype) | Decide: ship as a Traditions timeline view or park. |
+| S18 | User curations / essays (ROADMAP 14) | NS | Needs moderation design + sign-in; park. |
+| S19 | Topic review queues + LLM labelling (ROADMAP 13) | NS | Needs spend approval. |
+| S20 | Visualisation cycles with deitybody (ROADMAP 15) | NS | Fold into /sit/ routines. |
+| S21 | Gather phase 1 (ROADMAP 16) | NS | Park. |
+| S22 | Qwen key (chat prose, realtime voice in /talk/) | **AU** | Key + spend approval from the owner; stays off. |
+| S23 | Voice approval (Phonon Everly / Fish voice) | **AU** | Owner listens once. |
+| S24 | More VBT / text → practice pipelines (Expand the Room, Catch the Gap, Sivananda pranayama, MN 10) | NS | Build as /sit/ pipelines. |
+| S25 | Engine preview Worker near the 3 MB Free cap | risk | Move renders to R2/KV before adding more. |
+| S26 | Teacher-page topic MMR; routines UI | NS | Routines UI folds into S2. |
+| S27 | PLACES-TODO coverage + data quality | NS | Standing list in specs/PLACES-TODO.md; work top-down after S4. |
+| S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
+| S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
+
+## Closed
+- S1 Enquiry lens / search bar: shipped 2026-10-25 ~07:30 (satsang-search a0a6d033, wiser-web 244808a2).
+- S3 Commit the sit player / engine work: committed 2026-10-25 (ce1ee78 engine, ffacc03 spec + release.sh); tests compile 110, t2p 43, sit 250, schemas 0 errors, practice-engine 813/813.
+
+## Security (cross-project, owner action)
+- Rotate the R2 key that sits in public prx0r/characters HEAD (Funnier); revoke the GitHub PAT pasted in chat and save a new one in the vault.
