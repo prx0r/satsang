@@ -1,4 +1,4 @@
-# Wiser: brief
+# Satsang: brief history (archived 2026-10-25; the old BRIEF.md as it stood, every STATE section. Current brief: ../BRIEF.md)
 
 Live: https://tantrafiles.xyz (www too) · API: https://api.tantrafiles.xyz · MCP: https://mcp.tantrafiles.xyz/mcp · Code: `work/wiser/` (public mirror github.com/prx0r/satsang; tarball backups in `work/wiser/backups/`). **Current state: see the last section.**
 
