@@ -841,6 +841,16 @@
    "queued": "2026-10-21"
   },
   {
+   "pack": "deep-texts",
+   "kind": "text-licence-person",
+   "subject": "person/william-chittick:ibnarabisociety.org/presence-with-god-william-chittick",
+   "reason": "licence gate: free text \"Presence with God in Ibn Arabi's Teaching\" (https://ibnarabisociety.org/presence-with-god-william-chittick/); registry says unregistered (checked 2026-10-21: Copyright the Muhyiddin Ibn Arabi Society; no permission or free-reading statement (same hold as the person text)); link held off the profile",
+   "severity": "verify",
+   "title": "Presence with God in Ibn Arabi's Teaching",
+   "evidenceUrl": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
+   "queued": "2026-10-21"
+  },
+  {
    "pack": "deep-india-study",
    "kind": "place-dropped",
    "subject": "place/nathas-org-natha-tradition",
@@ -1010,16 +1020,6 @@
    "title": "The Teaching of Viṣṇusahasranāma (based on Swami Dayananda), digital edition published with Sruti Seva Trust permission",
    "evidenceUrl": "https://arshavidyananda.in/terms-of-service/",
    "queued": "2026-10-20"
-  },
-  {
-   "pack": "deep-texts",
-   "kind": "text-licence-person",
-   "subject": "person/william-chittick:ibnarabisociety.org/presence-with-god-william-chittick",
-   "reason": "licence gate: free text \"Presence with God in Ibn Arabi's Teaching\" (https://ibnarabisociety.org/presence-with-god-william-chittick/); registry says unregistered (checked 2026-10-21: Copyright the Muhyiddin Ibn Arabi Society; no permission or free-reading statement (same hold as the person text)); link held off the profile",
-   "severity": "verify",
-   "title": "Presence with God in Ibn Arabi's Teaching",
-   "evidenceUrl": "https://ibnarabisociety.org/presence-with-god-william-chittick/",
-   "queued": "2026-10-21"
   }
  ]
 }

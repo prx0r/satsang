@@ -1197,7 +1197,7 @@
    "id": "nipponzan-myohoji",
    "label": "Nipponzan-Myohoji",
    "kind": "lineage",
-   "parent": "mahayana",
+   "parent": "nichiren",
    "wikidata": "Q1993340",
    "blurb": "Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas."
   },
@@ -1424,6 +1424,54 @@
    "parent": "hindu",
    "wikidata": null,
    "blurb": "Vedic religion: Samhitas, Brahmanas, Aranyakas, principal Upanishads; Rishis and the Yajnavalkya dialogues that Vedanta inherits."
+  },
+  {
+   "id": "halveti-jerrahi",
+   "label": "Halveti-Jerrahi",
+   "kind": "school",
+   "parent": "sufism",
+   "wikidata": null,
+   "blurb": "Sufi order founded in Istanbul by Nureddin Cerrahi (1704), a branch of the Halveti (Khalwati); carried to North America by Muzaffer Ozak from 1980."
+  },
+  {
+   "id": "jewish-renewal",
+   "label": "Jewish Renewal",
+   "kind": "school",
+   "parent": "jewish",
+   "wikidata": null,
+   "blurb": "Movement begun by Rabbi Zalman Schachter-Shalomi that brings Hasidic and Kabbalistic contemplative practice into an egalitarian, ecumenical Judaism; close to Neo-Hasidism."
+  },
+  {
+   "id": "integral-yoga-aurobindo",
+   "label": "Integral Yoga (Sri Aurobindo and the Mother)",
+   "kind": "school",
+   "parent": "hindu",
+   "wikidata": null,
+   "blurb": "Sri Aurobindo and the Mother's yoga of transformation (Puducherry, Auroville): not Swami Satchidananda's Integral Yoga."
+  },
+  {
+   "id": "integral-yoga-satchidananda",
+   "label": "Integral Yoga (Swami Satchidananda)",
+   "kind": "lineage",
+   "parent": "divine-life-society",
+   "wikidata": null,
+   "blurb": "Swami Satchidananda's synthesis of hatha, raja, bhakti, karma, jnana and japa yoga (Integral Yoga Institutes, Yogaville); he was a disciple of Swami Sivananda. Not Sri Aurobindo's Integral Yoga."
+  },
+  {
+   "id": "nichiren",
+   "label": "Nichiren Buddhism",
+   "kind": "lineage",
+   "parent": "mahayana",
+   "wikidata": null,
+   "blurb": "Japanese schools founded on Nichiren's (1222-1282) teaching of the Lotus Sutra and the chanting of its title, Nam-myoho-renge-kyo."
+  },
+  {
+   "id": "soka-gakkai",
+   "label": "Soka Gakkai",
+   "kind": "lineage",
+   "parent": "nichiren",
+   "wikidata": null,
+   "blurb": "Lay Nichiren Buddhist movement founded in Japan in 1930; Soka Gakkai International (SGI) has national organisations worldwide (SGI-UK: Taplow Court)."
   }
  ]
 }

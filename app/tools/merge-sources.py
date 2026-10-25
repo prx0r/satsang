@@ -442,7 +442,8 @@ def merge_ext_places(out):
                  'city': p.get('city'), 'lat': lat, 'lng': lng, 'coord_precision': p.get('coord_precision') if lat is not None else None, 'founded': p.get('founded'),
                  'teachers': [t for t in (PERSON_MAP.get(x, x) for x in p.get('teacher_ids') or []) if t in PB], 'url': p.get('url'), 'schedule_url': p.get('schedule_url'),
                  'contact_page': p.get('contact_page'), 'url_checked': p.get('url_checked'), 'wikidata': p.get('wikidata'), 'description': (p.get('description') or '')[:200] or None,
-                 'offers': p.get('offers') or None, 'language': p.get('language'), 'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence')}, g)
+                 'offers': p.get('offers') or None, 'language': p.get('language'), 'source_url': p.get('source_url'), 'verified_on': p.get('verified_on'), 'confidence': p.get('confidence'),
+                 'details_unverified': True if p.get('details_unverified') else None}, g)  # site blocked/offline at discovery: shown as "details unverified" on /place/<id>
     # deep India study: places-uk shape + contact block (strings, one source page) + alive status; dated "upcoming" items stay out (no dates stored)
     f = os.path.join(SRC, 'deep-india-study', 'places.json')
     if 'deep-india-study' in G and os.path.exists(f):
@@ -607,9 +608,15 @@ json.dump({'_note': 'Texts and resources from staged sourcing groups (tools/merg
 log['resources_ext'] = len(RES)
 # staged safety records (public subset only; tools/stage-extensions.py keeps the rest internal) -> wisegraph/redflags.json
 RF = []
+_PLIDS = {p['id'] for p in (PL or {}).get('places', [])}
+def _rf_ok(r): k, i = r['subject'].split('/', 1); return (k == 'person' and i in PB) or (k == 'place' and i in _PLIDS)
 for g in G:
     f = os.path.join(SRC, g, 'redflags-public.json')
-    if os.path.exists(f): RF += [r for r in items(J(f), 'records') if r['subject'].split('/', 1)[1] in PB]
+    if os.path.exists(f): RF += [r for r in items(J(f), 'records') if _rf_ok(r)]
+# records added by hand to wisegraph/redflags.json (e.g. vishnudevananda-2019, swami-rama-1997, places round 2026-10-25) are kept, not wiped by a re-merge
+_rfp = os.path.join(ROOT, 'wisegraph/redflags.json'); _ids = {r['id'] for r in RF}
+for r in (J(_rfp).get('records') or [] if os.path.exists(_rfp) else []):
+    if r['id'] not in _ids and _rf_ok(r): RF.append(r); _ids.add(r['id']); log['redflags_hand_kept'] += 1
 W(os.path.join(ROOT, 'wisegraph/redflags.json'), {'_note': 'Public safety records (satsang-extensions 19 under the Satsang publication rule). Dry, attributed, dated; each with its primary reports.', 'records': RF})
 log['redflags_public'] = len(RF)
 # review queue: merge this run's held claims into wisegraph/review-queue.json (stage-extensions.py writes the staged packs' items)

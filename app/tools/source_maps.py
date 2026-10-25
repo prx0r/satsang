@@ -11,6 +11,7 @@ def groups(src):
 TRAD_MAP = {
     'hellenic': 'platonic', 'platonism': 'platonic',          # Plato & Socrates sit on the family node, as Plato already did
     'christianity': 'christian', 'western-esotericism': 'esoteric',
+    'perennial-philosophy': 'perennialism',  # places discovery 2026-10-25: Temenos, Matheson Trust
 }
 # person ids that name an existing wisegraph entry
 PERSON_MAP = {'nag-hammadi-library': 'nag-hammadi', 'goraksha': 'gorakhnath'}  # goraksha: pack 31 id for the canonical Gorakhnath (22 already uses gorakhnath)
@@ -108,7 +109,8 @@ PEOPLE_FIX.update({
 # medium-confidence teacher_of edges from the places group = "studied with" (never shown as heir/teacher)
 STUDIED_WITH_FROM_MEDIUM = True
 # place tradition retags after review (place id -> traditions)
-PLACE_TRADS = {'gurudev-siddha-peeth': ['siddha-yoga'], 'shree-muktananda-ashram': ['siddha-yoga']}
+PLACE_TRADS = {'gurudev-siddha-peeth': ['siddha-yoga'], 'shree-muktananda-ashram': ['siddha-yoga'],
+               'aleph-renewal': ['jewish-renewal']}  # 2026-10-25: Jewish Renewal id added (ext-48)
 # places that must never get a map pin (location not public)
 PLACE_NO_COORDS = {'hillside-hermitage'}
 
@@ -146,7 +148,7 @@ DEEP_FAMILY = {
     'sikh': {'label': 'Sikhism', 'blurb': 'The path of the ten Gurus and the Guru Granth Sahib: remembrance of the one Name, honest work and sharing.'},
 }
 DEEP_PARENT = {'kabbalah': 'jewish', 'tantra-studies': 'hindu', 'perennialism': 'philosophy-of-the-sacred'}
-DEEP_REPARENT = {'kashmir-shaivism': 'shaivism'}   # existing node, moved under the new Śaivism umbrella (family unchanged: hindu)
+DEEP_REPARENT = {'kashmir-shaivism': 'shaivism', 'nipponzan-myohoji': 'nichiren'}   # existing node, moved under the new Śaivism umbrella (family unchanged: hindu)
 DEEP_LABEL = {'tantra-studies': 'Tantra studies (academic)', 'buddhist-studies': 'Buddhist studies (academic)', 'hindu-studies': 'Hindu studies (academic)',
               'western-magic': 'Western magic', 'plum-village-thien': 'Thiền'}
 # person ids that are the same person in two groups

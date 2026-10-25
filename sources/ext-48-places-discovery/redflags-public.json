@@ -1,0 +1,86 @@
+{
+ "_note": "Place-level safety records from the places discovery batch (2026-10-25). Same rule as person records: strong primary source, factual status, never a verdict about the place today.",
+ "records": [
+  {
+   "id": "st-james-schools-townend-2006",
+   "subject": "place/school-of-philosophy-london",
+   "status": "addressed",
+   "happened": "1975–1985",
+   "category": [
+    "child-abuse"
+   ],
+   "summary": "St James and St Vedast schools in London were founded in 1975 by members of the School of Economic Science (SES). An independent inquiry commissioned in 2005 by the schools' owners and chaired by James Townend QC found that pupils had been \"criminally assaulted\" and suffered mental and physical mistreatment. The schools apologised unreservedly; by December 2020 about £1m had been paid to 45 former pupils in settlements without admission of liability (BBC). The record concerns the schools, not the SES's current adult classes.",
+   "reports": [
+    {
+     "outlet": "BBC News: Pupils' historical abuse at London schools claims total £1m",
+     "kind": "press",
+     "url": "https://www.bbc.com/news/uk-england-london-55342669",
+     "date": "2020-12-17"
+    },
+    {
+     "outlet": "TES: Inquiry reveals culture of violence",
+     "kind": "press",
+     "url": "https://www.tes.com/magazine/archive/inquiry-reveals-culture-violence",
+     "date": "2006"
+    }
+   ],
+   "updated": "2026-10-25",
+   "verified_on": "2026-10-25",
+   "confidence": "high"
+  },
+  {
+   "id": "integral-yoga-sn-2023",
+   "subject": "place/iyi-new-york",
+   "status": "litigation-pending",
+   "happened": "1960s–1991",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "In November 2023 two former students sued Integral Yoga Institute, Inc. and Satchidananda Ashram-Yogaville, Inc. under New York's Adult Survivors Act, alleging that founder Swami Satchidananda (d. 2002) sexually abused them as teenagers in the late 1960s and that the Institute failed to investigate. On 15 January 2026 the Appellate Division (S.N. v Integral Yoga Inst., 2026 NY Slip Op 00217) upheld dismissal of the organisations' counterclaims as SLAPP claims; the abuse claims themselves have not been decided. Former disciples first raised allegations publicly in 1991; Satchidananda denied them.",
+   "reports": [
+    {
+     "outlet": "S.N. v Integral Yoga Inst., Inc., 2026 NY Slip Op 00217 (App Div 1st Dept)",
+     "kind": "court",
+     "url": "https://www.nycourts.gov/reporter/3dseries/2026/2026_00217.htm",
+     "date": "2026-01-15"
+    },
+    {
+     "outlet": "The New Yorker: Yoga reconsiders the role of the guru in the age of #MeToo",
+     "kind": "press",
+     "url": "https://www.newyorker.com/news/news-desk/yoga-reconsiders-the-role-of-the-guru-in-the-age-of-metoo",
+     "date": "2018"
+    }
+   ],
+   "updated": "2026-10-25",
+   "verified_on": "2026-10-25",
+   "confidence": "high"
+  },
+  {
+   "id": "integral-yoga-sn-2023-yogaville",
+   "subject": "place/yogaville",
+   "status": "litigation-pending",
+   "happened": "1960s–1991",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "In November 2023 two former students sued Integral Yoga Institute, Inc. and Satchidananda Ashram-Yogaville, Inc. under New York's Adult Survivors Act, alleging that founder Swami Satchidananda (d. 2002) sexually abused them as teenagers in the late 1960s and that the Institute failed to investigate. On 15 January 2026 the Appellate Division (S.N. v Integral Yoga Inst., 2026 NY Slip Op 00217) upheld dismissal of the organisations' counterclaims as SLAPP claims; the abuse claims themselves have not been decided. Former disciples first raised allegations publicly in 1991; Satchidananda denied them.",
+   "reports": [
+    {
+     "outlet": "S.N. v Integral Yoga Inst., Inc., 2026 NY Slip Op 00217 (App Div 1st Dept)",
+     "kind": "court",
+     "url": "https://www.nycourts.gov/reporter/3dseries/2026/2026_00217.htm",
+     "date": "2026-01-15"
+    },
+    {
+     "outlet": "The New Yorker: Yoga reconsiders the role of the guru in the age of #MeToo",
+     "kind": "press",
+     "url": "https://www.newyorker.com/news/news-desk/yoga-reconsiders-the-role-of-the-guru-in-the-age-of-metoo",
+     "date": "2018"
+    }
+   ],
+   "updated": "2026-10-25",
+   "verified_on": "2026-10-25",
+   "confidence": "high"
+  }
+ ]
+}
