@@ -7,7 +7,6 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | # | Thread | Status | Next step |
 |---|---|---|---|
 | S2 | Sit player → main site Practise tab ("Sit with it (hands-off)") | **AU** | Owner says yes/no; if yes follow specs/SIT-PLAYER.md §6 (iframe or same-origin, `satsang-sit-end` logging). |
-| S4 | Places discovery batch (81 candidates) lost | IP (another agent is re-running it in work/wiser-places-discovery, 2026-10-25) | Re-run discovery, write to disk and commit immediately; map schools, add tradition ids, merge high/medium. |
 | S5 | PLACES-REVIEW decisions (Rigpa, ZCLA, Sivananda, Himalayan Inst., Shambhala, Satyananda, Triratna, Kripalu, SYDA, Española, SFZC, Kabbalah Centre, NKT, Monte Sahaja) | **AU** | Owner decides keep / annotate / drop per row. Section C (Diamond Way, Osho, Amma, Isha, Dhammakaya) needs sourcing first. |
 | S6 | Captions for passages / jump-to-moment | **B** | YouTube blocks the sandbox and GitHub runners. Only route: owner's machine runs yt-dlp → private satsang-data (needs OK). |
 | S7 | Passage embeddings 1,472 / 8,165 | P | `embed.py passages 90` loop (local, free), pack, eval. Low value until captions exist. |
@@ -29,11 +28,15 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | S24 | More VBT / text → practice pipelines (Expand the Room, Catch the Gap, Sivananda pranayama, MN 10) | NS | Build as /sit/ pipelines. |
 | S25 | Engine preview Worker near the 3 MB Free cap | risk | Move renders to R2/KV before adding more. |
 | S26 | Teacher-page topic MMR; routines UI | NS | Routines UI folds into S2. |
-| S27 | PLACES-TODO coverage + data quality | NS | Standing list in specs/PLACES-TODO.md; work top-down after S4. |
+| S27 | PLACES-TODO coverage + data quality | NS | Standing list in specs/PLACES-TODO.md; work top-down. Includes re-checking the 9 `details_unverified` places (PLACES-REVIEW D). |
+| S30 | Discovery-batch flags (SES schools, Integral Yoga) | **AU** | Owner decides keep / annotate / drop (specs/PLACES-REVIEW.md section D); both are on the map with a place-level safety record. |
+| S31 | No favicon: /favicon.svg 404s (static /place pages link it; index.html has none) | NS | Add a favicon to site/ (crawl flags it on static pages). |
+| S32 | Enquiry lens index predates the 78 new places | NS | `sh deploy.sh search` if the lens should list them (lens held list now reads person red flags only). |
 | S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
 | S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
 
 ## Closed
+- S4 Places discovery batch: regenerated (78) and merged 2026-10-25 as sources/ext-48-places-discovery (e47d10c, 6fcd7e9, 4ef3002, 0dde0cd); wiser-web 4faff2e7, wiser-mcp 058c53fc. 953 places.
 - S1 Enquiry lens / search bar: shipped 2026-10-25 ~07:30 (satsang-search a0a6d033, wiser-web 244808a2).
 - S3 Commit the sit player / engine work: committed 2026-10-25 (ce1ee78 engine, ffacc03 spec + release.sh); tests compile 110, t2p 43, sit 250, schemas 0 errors, practice-engine 813/813.
 

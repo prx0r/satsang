@@ -13,9 +13,9 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web 247b5418 |
+| Site | https://tantrafiles.xyz (www too) | wiser-web 4faff2e7 |
 | API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
-| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 802f5cb8 |
+| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 058c53fc |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat c4914eeb |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
 | Practice engine preview (/sit/, /breath/, /play/) | https://engine.tantrafiles.xyz/sit/ | satsang-engine-preview (not on the main site) |
@@ -25,7 +25,8 @@ runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
 
 ## Current state in one screen
 - Catalogue: 9,986 talks (official uploads only), gold tier 246 / strong 1,198 / standard 8,542, 22 series, 85 practices,
-  875 places with crawlable pages, open data dumps, events keeper (weekly).
+  953 places with crawlable pages (78 from the 2026-10-25 discovery batch; 9 marked "details unverified"; place-level safety
+  records shown like person ones), 184 tradition nodes, open data dumps, events keeper (weekly).
 - Nav: Watch · Topics · Teachers · Places · Practise · Ask; For you / Your model / Charts / All series in the account menu.
 - Enquiry lens on every tab (`?q=`), held / red-flag teachers filtered.
 - Practise tab uses the breathplayer overlay ("Practise with the body"). The hands-off sit player (`engine/sit/`,
@@ -43,7 +44,10 @@ sh tools/release/release.sh "<msg>"                                      # commi
 RELEASE_ENGINE=1 RELEASE_ONLY=engine sh tools/release/release.sh "engine: <msg>"   # engine/ in its own commit
 ```
 Data pipeline order after catalogue changes: build-collections.py → build-gold.py → mini_courses_src.py → build-collections.py
-→ build-gold.py → build-catalog.py → deploy (site, mcp, chat, search). Engine tests: `cd engine && node tools/test-compile.mjs &&
+→ build-gold.py → build-catalog.py → deploy (site, mcp, chat, search).
+Places pipeline (new places = a `sources/ext-*/places-ext.json` pack): merge-sources.py → place-contacts.py → apply-keeper-fixes.py →
+build-wise.py → deploy build/guard/ship + mcp. Safety records live in `sources/*/redflags-public.json` (subject `person/<id>` or
+`place/<id>`); merge-sources keeps records added by hand to wisegraph/redflags.json. Engine tests: `cd engine && node tools/test-compile.mjs &&
 node tools/test-text-to-practice.mjs && node tools/test-sit.mjs && python3 tools/validate-schemas.py` (needs `pip install jsonschema`).
 
 ## Rules

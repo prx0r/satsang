@@ -335,3 +335,27 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   "Most resonant" chart now builds from the tally when there is no leaderboard file. Open data clip.stats.picks stays the raw integer.
   Tests: api/test/tally.test.mjs 14/14, api/test/tally-sql.test.mjs 5/5 (node:sqlite, real schema). Live check: a test anon resonate showed
   {picks 0.25, bt 0.223} on workers.dev, then removed (resonates table empty again). D1 has 0 real votes / 0 resonates today.
+
+## Places discovery merge (2026-10-25 ~17:30 +07: wiser-web 4faff2e7, wiser-mcp 058c53fc; repo e47d10c, 6fcd7e9, 4ef3002, 0dde0cd)
+- Batch: work/wiser-places-discovery (regenerated, 78 candidates; also private prx0r/satsang-data places-discovery/) staged by its stage.py as
+  `sources/ext-48-places-discovery` (places-ext, traditions-additions, redflags-public, REPORT). All 78 merged: places 875 -> 953 (mapped 900),
+  countries 51, tradition nodes 178 -> 184.
+- Tradition ids: halveti-jerrahi (sufism), jewish-renewal (jewish; aleph-renewal retagged via PLACE_TRADS), integral-yoga-aurobindo (hindu:
+  Sri Aurobindo Ashram, Auroville, Delhi ashram), integral-yoga-satchidananda (divine-life-society: Yogaville, IYI New York), nichiren (mahayana;
+  nipponzan-myohoji reparented under it), soka-gakkai (nichiren: Taplow Court). perennial-philosophy -> perennialism (TRAD_MAP). hamakom-uk tagged
+  `jewish` (the batch called Renewal a stretch).
+- Geocoded 5 of the 7 list-only places: satipanya (its own travel page, 52.56289,-3.00211), drala-jong (SA44 4RY postcode), menri-dolanji (Dolanji
+  village, Wikipedia), druk-amitabha (its own schema.org geo), st-peter-on-the-wall (Wikidata Q5073092). british-taoist-association and hamakom-uk
+  stay without a map point (no fixed premises).
+- details_unverified (9): carried through merge-sources -> build-wise -> /place/<id> note, SPA place view note, MCP get_place detailsUnverified.
+- Flags: place-level public safety records (redflags.json subject place/<id>): st-james-schools-townend-2006 (school-of-philosophy-london; BBC
+  2020 read), integral-yoga-sn-2023 + -yogaville (2026 NY Slip Op 00217 read: counterclaims dismissed as SLAPP, abuse claims undecided). Shown as
+  "Public safety record" on the static and SPA place pages and in get_place. Person-keyed consumers (build-gold, lens held list) now read
+  person/ subjects only. merge-sources.py no longer wipes hand-added records (vishnudevananda-2019, swami-rama-1997 were lost on any re-merge).
+- Contacts: place-contacts.py re-crawled (cache was empty): 360 places with published contacts (was 106); 12 sites unreachable today kept from
+  the previous read. app/tools/cache-contacts/ gitignored.
+- PLACES-REVIEW section D = the batch rejects (flagged, dropped hemis / sutton-courtenay-abbey / osmanli-dergahi, details_unverified list, notes).
+- Checks: check-data 0 errors (1 known warning: rob-burbea 0 talks); open-data schema 13,222 records failing none; transcript guards 0;
+  mcp/test.mjs all passed; test-client all passed live; phone crawl 513 routes (419 standard + 78 new places + new tradition/listing pages):
+  0 real findings (favicon.svg 404 on static pages, pre-existing: OPEN-THREADS S31). Screens 390 px + desktop checked.
+- Workspace: work/pe-satsang -> work/_archive/pe-satsang. Not touched: DNS, switch-domain.sh, D1 seeds, engine/, search index (S32). Spend US$0.

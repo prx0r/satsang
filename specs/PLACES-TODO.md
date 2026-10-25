@@ -6,14 +6,6 @@ them (`tools/place-contacts.py`); coordinates from OSM/Wikidata or the place's o
 map, low goes to a review file; a place tied to a person with a public safety record gets checked against
 `app/wisegraph/redflags.json` and `specs/PLACES-REVIEW.md` before it ships.
 
-## 0. Blocked: discovery batch not in the workspace (2026-10-25)
-- `work/wiser-places-discovery/` (81 candidates in `candidates.jsonl`, plus `by-tradition.md`, `rejects.md`, `TODO.md`) was
-  logged as written on 2026-10-25 but is **not on disk** (searched all of /workspace). Nothing from it is merged.
-  When it is re-run or restored: map `school` -> tradition ids; add the ids it needs (`bon` and `sanbo-zen` and `nimatullahi`
-  exist already; still to add: `halveti-jerrahi`, `jewish-renewal`, `perennial-philosophy`, `integral-yoga`; check `pure-land`);
-  merge high + medium; hold low in `specs/PLACES-HELD.md`; flag the ~12 sites the crawler could not open as
-  `details_unverified: true` (pass it through build-wise.py and show a "details unverified" note on /place/<id>); merge its `rejects.md` into PLACES-REVIEW.md.
-
 ## 1. Coverage gaps
 - **UK Jewish**: synagogues and study houses with a contemplative or mystical programme (Jewish Renewal, Masorti/Liberal
   meditation groups, Limmud-linked retreats); only `kabbalah-centre-london` and `kabbalah-society` today.
@@ -44,5 +36,9 @@ map, low goes to a review file; a place tied to a person with a public safety re
   checked before anything is asserted.
 
 ## Done
+- 2026-10-25 discovery batch (section 0, regenerated: 78 places) merged as sources/ext-48-places-discovery: tradition ids halveti-jerrahi,
+  jewish-renewal, integral-yoga-aurobindo, integral-yoga-satchidananda, nichiren, soka-gakkai (perennial-philosophy -> perennialism);
+  9 details_unverified; 3 flagged places with place-level safety records; rejects in PLACES-REVIEW section D (e47d10c..0dde0cd).
+  From section 1 this closed in part: Korean Seon, Jonang, Drikung, Drukpa, Nichiren, Orthodox hesychast, Shakta (Vaishno Devi, Ealing), UK Jewish (HaMakom).
 - 2026-10-25 static /place, /places, /places/<tradition>, /places/country/<cc> pages, per-place shards, events keeper,
   MCP search_places / list_events (see MERGE-LOG.md).
