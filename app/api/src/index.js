@@ -8,6 +8,7 @@ import { getCookie, setCookie, deleteCookie } from 'hono/cookie'
 import { dailyTheme } from '../../src/themes.js' // For You daily theme (shared with the client)
 import { createRemoteJWKSet, jwtVerify, SignJWT } from 'jose'
 import { BASE, SITE_ORIGINS } from '../../../domain.mjs' // public hostnames (one place)
+import { crowdTally } from './tally.mjs'
 
 // legacy preset ids (v1 profiles); each maps to a deterministic avatar seed 'preset-<id>'
 export const AVATARS = ['grin', 'deadpan', 'wink', 'shock', 'smirk', 'cool', 'nerd', 'tash', 'sleepy', 'tongue', 'monocle', 'clown']
@@ -215,7 +216,7 @@ app.get('/wisegraph/topic/:topic', async (c) => { // talks on one topic, with th
 // at most ANON_BATCH votes per request, rate-limited per device and per hashed IP (rate_limits, hourly windows; the IP
 // hash uses EXPORT_SALT or SESSION_SECRET and is never stored beyond the window key). Anonymous votes are timestamped
 // by the server. Signed-in votes are unchanged.
-const ANON_BATCH = 20, ANON_PER_DEVICE_HOUR = 120, ANON_PER_IP_HOUR = 600
+const ANON_BATCH = 20, ANON_PER_DEVICE_HOUR = 120, ANON_PER_IP_HOUR = 600, ANON_RES_PER_DEVICE_HOUR = 120, ANON_RES_PER_IP_HOUR = 600
 async function hourlyLimit(DB, key, add, max) {
   const win = new Date().toISOString().slice(0, 13)
   const r = await DB.prepare(`INSERT INTO rate_limits (k, win, n) VALUES (?, ?, ?) ON CONFLICT (k, win) DO UPDATE SET n = n + excluded.n RETURNING n`).bind(key, win, add).first()
@@ -235,6 +236,10 @@ app.post('/resonate', async (c) => {
   const su = await currentUser(c)
   if (!su && !DEVICE.test(String(b.device || ''))) return c.json({ error: 'unauthorized' }, 401)
   const who = su ? su.id : 'd:' + b.device, DB = c.env.DB
+  if (!su) { // anonymous resonates count in the crowd tally (down-weighted), so they are rate-limited like anonymous votes
+    const okD = await hourlyLimit(DB, 'r:' + who, 1, ANON_RES_PER_DEVICE_HOUR).catch(() => true), okI = await hourlyLimit(DB, 'r:' + (await ipKey(c)), 1, ANON_RES_PER_IP_HOUR).catch(() => true)
+    if (!okD || !okI) return c.json({ error: 'rate_limited', retryAfter: 3600 }, 429)
+  }
   const int = (x) => (Number.isFinite(Number(x)) && Number(x) >= 0 ? Math.min(36000, Math.round(Number(x))) : null)
   try {
     if (b.on === false) await DB.prepare('DELETE FROM resonates WHERE who = ? AND clip = ?').bind(who, b.clip).run()
@@ -988,23 +993,23 @@ app.put('/me/visibility', auth, async (c) => {
   await c.env.DB.prepare('INSERT INTO profile_settings (user_id, visibility) VALUES (?, ?) ON CONFLICT (user_id) DO UPDATE SET visibility = excluded.visibility').bind(c.get('user').id, JSON.stringify(o)).run()
   return c.json({ ok: true, visibility: o })
 })
-// crowd quality signals per clip (RANKING §1): picks, wins, a smoothed Bradley-Terry-style logit, resonates. Public aggregate.
+// crowd quality signals per clip (RANKING §1): the crowd tally (src/tally.mjs): signed-in picks 1, anonymous device picks 0.5,
+// "This resonates" 0.5 of a pick as a win (anonymous 0.25). picks / wins / bt are the weighted values; raw has the counts.
+// Computed live from D1 (three aggregate reads), cached at the edge 10 min; clip_stats (nightly snapshot) is the fallback.
 app.get('/stats/clips', async (c) => {
-  try { // the nightly table first (Cron Trigger), when it is fresh (< 36 h)
-    const fresh = await c.env.DB.prepare("SELECT MAX(updated_at) AS at, COUNT(*) AS n FROM clip_stats").first().catch(() => null)
-    if (fresh?.n && fresh.at && Date.now() - Date.parse(fresh.at) < 36 * 3600e3) {
-      const r = await c.env.DB.prepare("SELECT clip, picks, wins, resonates FROM clip_stats WHERE clip != '_job'").all(), out = {}
-      for (const x of r.results || []) out[x.clip] = { picks: x.picks, wins: x.wins, bt: Math.round(1000 * Math.log((x.wins + 1) / (x.picks - x.wins + 1))) / 1000, ...(x.resonates ? { resonates: x.resonates } : {}) }
-      return c.json({ updated: fresh.at, source: 'nightly', clips: out }, 200, { 'cache-control': 'public, max-age=900' })
-    }
+  const cache = typeof caches !== 'undefined' ? caches.default : null, key = new Request('https://cache.wiser-api/stats/clips/v2')
+  const H = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=600' }
+  try { const hit = cache && (await cache.match(key)); if (hit) return c.body(await hit.text(), 200, H) } catch {} // cached without CORS headers
+  try {
+    const t = await crowdTally(c.env.DB)
+    const body = JSON.stringify({ updated: now(), source: 'live', weights: t.weights, totals: t.totals, clips: t.clips })
+    try { if (cache) c.executionCtx.waitUntil(cache.put(key, new Response(body, { headers: H }))) } catch {}
+    return c.body(body, 200, H)
   } catch {}
   try {
-    const [v, r] = await c.env.DB.batch([c.env.DB.prepare(`SELECT clip, SUM(w) AS wins, COUNT(*) AS n FROM (SELECT a AS clip, CASE WHEN winner = a THEN 1 ELSE 0 END AS w FROM votes UNION ALL SELECT b, CASE WHEN winner = b THEN 1 ELSE 0 END FROM votes) GROUP BY clip`),
-      c.env.DB.prepare('SELECT clip, COUNT(*) AS n FROM resonates GROUP BY clip')])
-    const out = {}
-    for (const x of v.results || []) out[x.clip] = { picks: x.n, wins: x.wins, bt: Math.round(1000 * Math.log((x.wins + 1) / (x.n - x.wins + 1))) / 1000 }
-    for (const x of r.results || []) (out[x.clip] ||= { picks: 0, wins: 0, bt: 0 }).resonates = x.n
-    return c.json({ updated: now(), clips: out }, 200, { 'cache-control': 'public, max-age=900' })
+    const r = await c.env.DB.prepare("SELECT clip, picks, wins, resonates, updated_at FROM clip_stats WHERE clip != '_job'").all(), out = {}
+    for (const x of r.results || []) out[x.clip] = { picks: x.picks, wins: x.wins, bt: Math.round(1000 * Math.log((x.wins + 1) / (x.picks - x.wins + 1))) / 1000, ...(x.resonates ? { resonates: x.resonates } : {}) }
+    return c.json({ updated: r.results?.[0]?.updated_at || null, source: 'nightly', clips: out }, 200, { 'cache-control': 'public, max-age=600' })
   } catch { return c.json({ clips: {} }) }
 })
 

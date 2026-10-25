@@ -102,7 +102,7 @@ for (const id of goldData.strong || []) if (clip[id] && !clip[id].quality) clip[
 // ---------- crowd quality signals (tools/build-stats.mjs -> site/data/stats.json, from the API's /stats/clips over D1 votes) ----------
 let stats = {}
 try { stats = rd('site/data/stats.json').clips || {} } catch { /* none yet */ }
-for (const [id, s] of Object.entries(stats)) if (clip[id] && (s.picks || s.resonates)) clip[id].stats = { bt: s.bt || 0, picks: s.picks || 0, ...(s.resonates ? { resonates: s.resonates } : {}) }
+for (const [id, s] of Object.entries(stats)) if (clip[id] && (s.picks || s.resonates)) clip[id].stats = { bt: s.bt || 0, picks: s.raw ? s.raw.picks : Math.round(s.picks || 0), ...(s.resonates ? { resonates: s.resonates } : {}) } // bt = weighted crowd tally (anon + resonates); picks = raw pair count
 const schoolOfClip = Object.fromEntries(clipsRaw.filter((r) => r.id).map((r) => [r.id, r.tradition || r.region]))
 
 // ---------- depth per person (computed) ----------

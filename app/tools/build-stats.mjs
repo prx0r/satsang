@@ -8,6 +8,6 @@ const dst = new URL('../site/data/stats.json', import.meta.url)
 try {
   const r = await fetch(API_BASE + '/stats/clips', { headers: { origin: BASE }, signal: AbortSignal.timeout(15000) })
   const j = await r.json()
-  fs.writeFileSync(dst, JSON.stringify({ updated: new Date().toISOString(), clips: j.clips || {} }))
+  fs.writeFileSync(dst, JSON.stringify({ updated: new Date().toISOString(), totals: j.totals || null, weights: j.weights || null, clips: j.clips || {} }))
   console.log('stats.json', Object.keys(j.clips || {}).length, 'clips with crowd signals')
 } catch (e) { console.log('stats: API unreachable, kept the previous file', e.message) }

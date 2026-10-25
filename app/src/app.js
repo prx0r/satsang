@@ -1909,7 +1909,7 @@ function paintBoards() {
   const kinds = [['all', 'Everyone'], ['human', 'People'], ['agent', 'AI judges']].filter(([k]) => k === 'all' || BOARD?.boards?.[k]?.votes)
   if (!kinds.some(([k]) => k === BOARDKIND)) BOARDKIND = 'all'
   const who = kinds.length > 1 ? `<label class="fscope fgpick"><select id="crowdkind" aria-label="Whose picks">${kinds.map(([k, l]) => `<option value="${k}"${BOARDKIND === k ? ' selected' : ''}>${l}</option>`).join('')}</select></label>` : ''
-  const bd = BOARD?.boards?.[BOARDKIND]
+  const bd = BOARD?.boards?.[BOARDKIND] || (BOARDKIND === 'all' ? statsBoard() : null)
   const names = [...new Set(CLIPS.map((c) => c.comic))]
   if (bar) { bar.innerHTML = who + regionBar(names.map((n) => placeOf(n)), repaint); bindRegion(bar, repaint); const ck = bar.querySelector('#crowdkind'); if (ck) ck.onchange = () => { BOARDKIND = ck.value; repaint() } }
   const inRegion = (n) => regionOK(placeOf(n))
@@ -1921,10 +1921,10 @@ function paintBoards() {
     $('#clips').innerHTML = CLIPS.filter((c) => servable(c) && !isChat(c) && inRegion(c.comic) && isDeepName(c.comic)).slice(0, 24).map((c) => clipTile(c, null, null)).join('')
     return
   }
-  const ago = Math.max(0, Math.round((Date.now() - Date.parse(BOARD.updated)) / 60000))
+  const ago = Math.max(0, Math.round((Date.now() - Date.parse(bd.updated || BOARD?.updated)) / 60000))
   const when = isNaN(ago) ? 'recently' : ago < 60 ? `${ago || 1} min ago` : ago < 1440 ? `${Math.round(ago / 60)} h ago` : `${Math.round(ago / 1440)} d ago`
   shelves('Top teachers', 'Top talks')
-  metas.forEach((m) => (m.textContent = `${bd.votes.toLocaleString()} pick${bd.votes === 1 ? '' : 's'} from ${bd.voters.toLocaleString()} ${bd.voters === 1 ? 'person' : 'people'}. Updated ${when}.`))
+  metas.forEach((m) => (m.textContent = bd.voters ? `${bd.votes.toLocaleString()} pick${bd.votes === 1 ? '' : 's'} and resonates from ${bd.voters.toLocaleString()} ${bd.voters === 1 ? 'person' : 'people'}. Updated ${when}.` : `Picks and resonates so far. Updated ${when}.`))
   $('#comics').innerHTML = bd.comics.filter((c) => c.bouts && inRegion(c.comic) && isDeepName(c.comic)).map((c, i) => comicTile(c, i, winPct(c))).join('') || '<p class="muted">No rated teachers from this tradition yet.</p>'
   $('#clips').innerHTML = bd.clips.filter((c) => c.bouts && BYID[c.id] && servable(BYID[c.id]) && inRegion(BYID[c.id].comic) && isDeepName(BYID[c.id].comic)).slice(0, 10).map((c, i) => clipTile(c, i, winPct(c))).join('')
 }
@@ -2232,6 +2232,7 @@ function places() {
 function paintPlaces() { const el = $('#placesview'); if (el) places().paint(el) }
 // ---------- Topic flash, taste, profile, collections (2026-10-20: specs/LOOP.md, RANKING.md, PROFILE.md, ROADMAP 9 + 12) ----------
 let STATS = {} // crowd quality per clip (GET /stats/clips, else data/stats.json): { id: { picks, wins, bt, resonates } }
+let STATS_META = { updated: null, totals: null } // /stats/clips updated + totals {votes, resonates, voters}
 let DATA_READY = null, dataReady = null; DATA_READY = new Promise((r) => (dataReady = r))
 const topicLabelOf = (t) => TOPIC_LABEL[t] || (WISE && WISE.labels?.()[t]) || null
 let RANKER = null
@@ -2247,8 +2248,21 @@ async function loadGold() {
   for (const id of GOLD.strong || []) { const c = BYID[id]; if (c) c.strong = 1 }
 }
 async function loadStats() {
-  try { const r = await fetch('data/stats.json', { cache: 'no-cache' }); if (r.ok) STATS = (await r.json()).clips || {} } catch {}
-  if (CFG.apiBase) try { const j = await api('/stats/clips'); if (j && j.clips && Object.keys(j.clips).length) STATS = j.clips } catch {}
+  try { const r = await fetch('data/stats.json', { cache: 'no-cache' }); if (r.ok) { const j = await r.json(); STATS = j.clips || {}; STATS_META = { updated: j.updated || null, totals: j.totals || null } } } catch {}
+  if (CFG.apiBase) try { const j = await api('/stats/clips'); if (j && j.clips && Object.keys(j.clips).length) { STATS = j.clips; STATS_META = { updated: j.updated, totals: j.totals || null } } } catch {}
+}
+// the "Most resonant" chart when there is no tally leaderboard file: built from the crowd tally (/stats/clips: signed-in picks,
+// anonymous picks at half weight, resonates as down-weighted pseudo-wins). Rows keep the board shape {bouts, wins} the painter reads.
+function statsBoard() {
+  const rows = Object.entries(STATS || {}).filter(([id, s]) => BYID[id] && s && s.picks > 0)
+  if (!rows.length) return null
+  const sc = (s) => Math.log((s.wins + 1) / (s.picks - s.wins + 1))
+  const clips = rows.map(([id, s]) => ({ id, bouts: s.picks, wins: s.wins, score: sc(s) })).sort((a, b) => b.score - a.score || b.bouts - a.bouts)
+  const by = {}
+  for (const r of clips) { const n = BYID[r.id].comic; if (!n) continue; const o = (by[n] ||= { comic: n, bouts: 0, wins: 0 }); o.bouts += r.bouts; o.wins += r.wins }
+  const comics = Object.values(by).map((o) => ({ ...o, score: sc({ picks: o.bouts, wins: o.wins }) })).sort((a, b) => b.score - a.score || b.bouts - a.bouts)
+  const T = STATS_META.totals || {}
+  return { votes: (T.votes || 0) + (T.resonates || 0) || rows.length, voters: T.voters || 0, updated: STATS_META.updated, clips, comics }
 }
 // taste: recomputed from the device's own signals whenever one changes (cheap: a few hundred facet values)
 let TASTE = null, TASTE_V = 0, TASTE_AT = -1
