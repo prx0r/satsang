@@ -21,17 +21,17 @@
    "count": 727,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 480703,
-   "sha256": "85662afd8ad1d7a8cda96ce14940dcfe7f9109c58fa5b92a485547e4fa0dccb2",
+   "bytes": 482898,
+   "sha256": "b057295353575fe31a5eb973645c058359701c2c146df26873fbf69d85afbb6b",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
    "kind": "tradition",
-   "count": 178,
+   "count": 184,
    "json": "tradition.json",
    "jsonl": "tradition.jsonl",
-   "bytes": 50625,
-   "sha256": "3091520309aeef65f7c49d4991af9fb0fd6c4c840e611556f139cf7adc75721a",
+   "bytes": 52767,
+   "sha256": "5a21a1d9f184313c3c21373e999d8c0a49d159dd927ce43526a7294d707d410a",
    "schema": "https://tantrafiles.xyz/schema/tradition.json"
   },
   {
@@ -81,11 +81,11 @@
   },
   {
    "kind": "place",
-   "count": 875,
+   "count": 953,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 968390,
-   "sha256": "62aaf24be1438ad62f31843138365883a9661ee1457cd19c3a3a18c2c4cd9d3a",
+   "bytes": 1075175,
+   "sha256": "58b30fe5fc17766c0317e7c29f054fa6a64db1074a1d909f7a07764fb91a6e41",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
@@ -99,10 +99,10 @@
   },
   {
    "kind": "jsonld",
-   "count": 12016,
+   "count": 12100,
    "file": "wiser.jsonld",
-   "bytes": 7055764,
-   "sha256": "11efdf4d22a931ca2d0e51d274fc2390e4f275ee63a6ccc4923fed52f15b4cbd"
+   "bytes": 7103727,
+   "sha256": "a42f8e43c56e941a275aa26275860c7c8da0c1ba1ac108e66216e74e4c32b4bc"
   },
   {
    "kind": "sitemap-topic",
@@ -116,7 +116,7 @@
   },
   {
    "kind": "sitemap-tradition",
-   "count": 178,
+   "count": 184,
    "file": "sitemap-tradition.xml"
   },
   {
@@ -131,12 +131,12 @@
   },
   {
    "kind": "sitemap-place",
-   "count": 603,
+   "count": 681,
    "file": "sitemap-place.xml"
   },
   {
    "kind": "places",
-   "count": 875,
+   "count": 953,
    "file": "places.json",
    "ndjson": "places.ndjson",
    "license": "CC-BY-4.0"

@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 727 teachers, scholars and historical figures with 1,122 documented lineage and influence links, 875 places to practise in 51 countries (contacts exactly as each place publishes them, 298 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-25.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 184 traditions and schools, 727 teachers, scholars and historical figures with 1,122 documented lineage and influence links, 953 places to practise in 51 countries (contacts exactly as each place publishes them, 421 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-25.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -305,8 +305,10 @@ Between the world of the senses and the world of pure ideas lies a third: the im
     - Pure Land (https://tantrafiles.xyz/tradition/pure-land): Devotion to Amitabha and rebirth in Sukhavati.
       - Jōdo-shū (https://tantrafiles.xyz/tradition/jodo-shu): Honen's school.
       - Jōdo Shinshū (Shin Buddhism) (https://tantrafiles.xyz/tradition/jodo-shinshu): Shinran's school; Buddhist Churches of America in the US.
-    - Nipponzan-Myohoji (https://tantrafiles.xyz/tradition/nipponzan-myohoji): Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas.
     - Madhyamaka (https://tantrafiles.xyz/tradition/madhyamaka): Middle-Way philosophy of Nagarjuna and Aryadeva: emptiness (shunyata) via the tetralemma; root of Mahayana dialectics and, through Chandrakirti, of Tibetan debate.
+    - Nichiren Buddhism (https://tantrafiles.xyz/tradition/nichiren): Japanese schools founded on Nichiren's (1222-1282) teaching of the Lotus Sutra and the chanting of its title, Nam-myoho-renge-kyo.
+      - Nipponzan-Myohoji (https://tantrafiles.xyz/tradition/nipponzan-myohoji): Japanese Nichiren order of Nichidatsu Fujii that builds peace pagodas.
+      - Soka Gakkai (https://tantrafiles.xyz/tradition/soka-gakkai): Lay Nichiren Buddhist movement founded in Japan in 1930; Soka Gakkai International (SGI) has national organisations worldwide (SGI-UK: Taplow Court).
   - Vajrayāna (https://tantrafiles.xyz/tradition/vajrayana): Tantric Buddhism: deity practice, mantra and the teacher's transmission as a swift path to awakening.
     - Tibetan Buddhism (https://tantrafiles.xyz/tradition/tibetan): The Buddhism of the Himalaya, joining monastic study and debate with Vajrayāna practice and guidance for the dying.
       - Gelug (https://tantrafiles.xyz/tradition/gelug): The Tibetan school of Tsongkhapa, headed in practice by the Dalai Lamas.
@@ -344,6 +346,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
     - Divine Life Society (https://tantrafiles.xyz/tradition/divine-life-society): The order founded by Swami Sivananda in Rishikesh, carried on by Swami Chidananda.
       - Sivananda Yoga Vedanta Centres (https://tantrafiles.xyz/tradition/sivananda-yoga): Swami Vishnudevananda's international centres teaching his guru Sivananda's yoga.
       - Bihar School of Yoga (Satyananda Yoga) (https://tantrafiles.xyz/tradition/bihar-yoga): Yoga of Swami Satyananda, disciple of Sivananda, and the Bihar School of Yoga.
+      - Integral Yoga (Swami Satchidananda) (https://tantrafiles.xyz/tradition/integral-yoga-satchidananda): Swami Satchidananda's synthesis of hatha, raja, bhakti, karma, jnana and japa yoga (Integral Yoga Institutes, Yogaville); he was a disciple of Swami Sivananda. Not Sri Aurobindo's Integral Yoga.
     - Transcendental Meditation (https://tantrafiles.xyz/tradition/transcendental-meditation): Mantra meditation of Maharishi Mahesh Yogi.
   - Kriya Yoga (https://tantrafiles.xyz/tradition/kriya-yoga): The line of Mahavatar Babaji, Lahiri Mahasaya and Paramahansa Yogananda.
   - Anandamayi Ma Sangha (https://tantrafiles.xyz/tradition/anandamayi-sangha): The ashrams and monastics around Anandamayi Ma (Shree Shree Anandamayee Sangha, Kankhal and Varanasi), devotional and non-sectarian.
@@ -372,6 +375,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
   - Swaminarayan Sampradaya (https://tantrafiles.xyz/tradition/swaminarayan): Vaishnava tradition of Swaminarayan, including BAPS.
   - Brahma Kumaris (https://tantrafiles.xyz/tradition/brahma-kumaris): Spiritual movement founded in Sindh in the 1930s, teaching Raja Yoga meditation; headquarters at Mount Abu.
   - Vedic (https://tantrafiles.xyz/tradition/vedic): Vedic religion: Samhitas, Brahmanas, Aranyakas, principal Upanishads; Rishis and the Yajnavalkya dialogues that Vedanta inherits.
+  - Integral Yoga (Sri Aurobindo and the Mother) (https://tantrafiles.xyz/tradition/integral-yoga-aurobindo): Sri Aurobindo and the Mother's yoga of transformation (Puducherry, Auroville): not Swami Satchidananda's Integral Yoga.
 - Christian traditions (https://tantrafiles.xyz/tradition/christian): The traditions that follow Jesus of Nazareth, from the Gospels and the early Church to the mystics.
   - Christian mysticism (https://tantrafiles.xyz/tradition/christian-mysticism): Christians who sought direct union with God: detachment, contemplative prayer and the birth of God in the soul.
     - Carmelites (https://tantrafiles.xyz/tradition/carmelite): Contemplative order of Teresa of Avila and John of the Cross.
@@ -422,6 +426,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
   - Nimatullahi order (https://tantrafiles.xyz/tradition/nimatullahi)
   - Chishti order (https://tantrafiles.xyz/tradition/chishti): The Sufi order of Muinuddin Chishti, rooted in Ajmer: music (sama, qawwali), service of the poor, and love of the teacher.
   - Qadiri order (https://tantrafiles.xyz/tradition/qadiri): The Sufi order of Abdul Qadir Gilani of Baghdad: sober adherence to the law joined to inward poverty and reliance on God.
+  - Halveti-Jerrahi (https://tantrafiles.xyz/tradition/halveti-jerrahi): Sufi order founded in Istanbul by Nureddin Cerrahi (1704), a branch of the Halveti (Khalwati); carried to North America by Muzaffer Ozak from 1980.
 - Jewish mysticism (https://tantrafiles.xyz/tradition/jewish): Merkavah, Kabbalah, the Zohar and Hasidism: the contemplative and mystical currents of Judaism.
   - Merkavah / Hekhalot mysticism (https://tantrafiles.xyz/tradition/merkavah)
   - Kabbalah (theosophical and ecstatic) (https://tantrafiles.xyz/tradition/kabbalah): Jewish mystical tradition of the sefirot and the hidden meanings of Torah; also its modern popular forms.
@@ -429,6 +434,7 @@ Between the world of the senses and the world of pure ideas lies a third: the im
     - Lurianic Kabbalah (https://tantrafiles.xyz/tradition/lurianic): The Kabbalah of Isaac Luria as recorded by Hayyim Vital: contraction (tzimtzum), the breaking of the vessels, and repair (tikkun).
   - Hasidism (https://tantrafiles.xyz/tradition/hasidism)
     - Neo-Hasidism (https://tantrafiles.xyz/tradition/neo-hasidism)
+  - Jewish Renewal (https://tantrafiles.xyz/tradition/jewish-renewal): Movement begun by Rabbi Zalman Schachter-Shalomi that brings Hasidic and Kabbalistic contemplative practice into an egalitarian, ecumenical Judaism; close to Neo-Hasidism.
 - Philosophy of the sacred (https://tantrafiles.xyz/tradition/philosophy-of-the-sacred): Contemporary philosophers and scientists on consciousness, meaning and the sacred: idealism, the divided brain, the meaning crisis, perennialism.
   - Perennialism / Traditionalist school (https://tantrafiles.xyz/tradition/perennialism)
   - Analytic idealism (https://tantrafiles.xyz/tradition/analytic-idealism)
@@ -537,23 +543,25 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 
 # Places by country
 
-- GB: 316 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 225 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
-- US: 86 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
+- GB: 347 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
+- IN: 235 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- US: 100 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
+- NP: 32 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
-- NP: 30 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
 - TH: 27 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
+- FR: 16 places (Lerab Ling; Plum Village Monastery; Maison de l'Inspir; Taizé Community; Grande Chartreuse; Château du Prieuré; Centre Védantique Ramakrichna; Bonnevaux (WCCM international centre); ...)
 - AU: 15 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; Nan Tien Temple; ...)
 - LK: 15 places (Island Hermitage; Forest Hermitage Udawattakele; Buddhist Publication Society; Nissaraṇa Monastery; Nā Uyana Monastery; Hillside Hermitage; Sri Maha Bodhi; Temple of the Tooth; ...)
-- FR: 14 places (Lerab Ling; Plum Village Monastery; Maison de l'Inspir; Taizé Community; Grande Chartreuse; Château du Prieuré; Centre Védantique Ramakrichna; Bonnevaux (WCCM international centre); ...)
+- JP: 14 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple; Mount Koya (Kongobuji); Kuon-ji (Minobusan); ...)
 - CN: 11 places (Sera Monastery (Lhasa); Drepung Monastery; Ganden Monastery; Tsurphu Monastery; Jokhang; Potala Palace; Samye; Shaolin Monastery; ...)
 - CA: 9 places (Tisarana Buddhist Monastery; Birken Forest Buddhist Monastery; Gampo Abbey; Sivananda Ashram Yoga Camp; ...)
-- JP: 9 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple; Mount Koya (Kongobuji); ...)
 - IT: 7 places (Santacittārāma; Istituto Lama Tzong Khapa; Bose Monastic Community; Basilica of San Francesco d'Assisi; Monastery of Saint Benedict; Villa Medici at Careggi)
+- GR: 7 places (Mount Athos; Platonic Academy; Ancient Agora of Athens; Archaeological Site of Delphi; Pythagoreion; Holy Great Monastery of Vatopedi; Holy Monastery of Simonopetra)
 - BR: 7 places (Céu do Mapiá; Ilê Axé Opô Afonjá)
+- ES: 6 places (Monastery of the Incarnation; Guhyaloka; Abbey of Montserrat; Cova de Sant Ignasi (Manresa))
+- KR: 6 places (Haeinsa; Songgwangsa; Tongdosa; Musangsa International Zen Center; Templestay (Cultural Corps of Korean Buddhism))
 - DE: 5 places (Muttodaya; European Institute of Applied Buddhism; Predigerkirche Erfurt)
-- GR: 5 places (Mount Athos; Platonic Academy; Ancient Agora of Athens; Archaeological Site of Delphi; Pythagoreion)
-- ES: 4 places (Monastery of the Incarnation; Guhyaloka)
+- TW: 5 places (Fo Guang Shan Monastery; Dharma Drum Mountain World Center for Buddhist Education; Chung Tai Chan Monastery)
 - CR: 4 places (Blue Spirit Costa Rica; Bodhi Tree Yoga Resort; Anamaya Resort)
 - MY: 4 places (Malaysian Buddhist Meditation Centre; Sasanarakkha Buddhist Sanctuary; Brahma Vihari Meditation Centre (Penang))
 - NZ: 3 places (Bodhinyanarama Monastery; Vimutti Monastery)
@@ -561,21 +569,20 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - EG: 3 places (Saint Catherine Monastery; Nag Hammadi; Coptic Museum)
 - PL: 3 places (Jakob Böhme House; Vihara Pod Lasem)
 - ID: 3 places ()
-- TW: 3 places (Fo Guang Shan Monastery)
+- RU: 3 places (Valaam Monastery; Optina Pustyn)
+- IE: 2 places (Dzogchen Beara; Glenstal Abbey)
 - VN: 2 places (Từ Hiếu pogoda)
 - AR: 2 places ()
 - CO: 2 places ()
+- IL: 2 places (Bahá'í World Centre (Shrine of the Báb))
 - KH: 2 places ()
-- KR: 2 places (Haeinsa)
 - PE: 2 places (Temple of the Way of Light)
 - SI: 2 places (Hillside Hermitage Slovenija; Samanadipa)
-- IE: 1 places (Dzogchen Beara)
 - PT: 1 places (Monte Sahaja)
 - AT: 1 places ()
 - BE: 1 places ()
 - CL: 1 places ()
 - HK: 1 places ()
-- IL: 1 places ()
 - IR: 1 places ()
 - LT: 1 places ()
 - LV: 1 places ()
@@ -583,7 +590,6 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - MX: 1 places ()
 - NL: 1 places ()
 - PH: 1 places ()
-- RU: 1 places ()
 - SE: 1 places ()
 - VE: 1 places ()
 - ZA: 1 places ()

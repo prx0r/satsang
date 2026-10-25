@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 178 traditions and schools, 727 teachers, scholars and historical figures with 1,122 documented lineage and influence links, 875 places to practise in 51 countries (contacts exactly as each place publishes them, 298 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-25.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 184 traditions and schools, 727 teachers, scholars and historical figures with 1,122 documented lineage and influence links, 953 places to practise in 51 countries (contacts exactly as each place publishes them, 421 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-25.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
