@@ -6,7 +6,7 @@
 import { makeSet, scanAll, facetsFromBin, facetDf, chips } from './search-core.mjs'
 import { fastKnn as knn } from './fastknn.mjs'  // same algorithm as search-core knn(), ~2.4x less CPU
 
-const CODE_V = '4'  // bump when the response shape or ranking changes (part of the cache key)
+const CODE_V = '5'  // bump when the response shape or ranking changes (part of the cache key)
 const MODEL = '@cf/baai/bge-small-en-v1.5'
 const PREFIX = 'Represent this sentence for searching relevant passages: '
 const CONF_FLOOR = 0.66, WATCH_FLOOR = 0.66

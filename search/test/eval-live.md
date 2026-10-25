@@ -1,11 +1,11 @@
-# satsang-search live eval (2026-10-25T00:09:09.915Z)
+# satsang-search live eval (2026-10-25T00:09:56.935Z)
 
 Base: https://satsang-search.tradesprior.workers.dev
 
 /health: ver 20261024T234346Z-6bfa7290, model @cf/baai/bge-small-en-v1.5, pooling cls, counts {"talks":9986,"series":22,"practices":85,"passages":1472,"bm25Terms":8675,"held":2,"blockedTalks":104}
 
 ## fear of death
-conf 0.801 · anchor talks · 150 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · practice in top 4: ok · conf >= 0.66: ok · transcript moments: ok · similar carry via: ok
+conf 0.801 · anchor talks · 181 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · practice in top 4: ok · conf >= 0.66: ok · transcript moments: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Thanissaro Bhikkhu · Fear of Death (0.781)
@@ -26,7 +26,7 @@ conf 0.801 · anchor talks · 150 ms · 200 + no degraded: ok · ids/scores only
 **Series** contemplating-death 0.717, seven-days-with-death 0.688, how-to-discern-past-lives 0.591 · **Practices** mindfulness-of-death-maranasati, powa-an-introduction, practising-dying-melete-thanatou
 
 ## past lives
-conf 0.738 · anchor talks · 132 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.738 · anchor talks · 220 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Ajahn Brahm · How To See Past Lives & Why Its Important (0.758)
@@ -47,7 +47,7 @@ conf 0.738 · anchor talks · 132 ms · 200 + no degraded: ok · ids/scores only
 **Series** remembering-past-lives 0.732, how-to-discern-past-lives 0.702, rebirth-across-traditions 0.663 · **Practices** the-five-remembrances, recollecting-the-round, recollection-of-past-lives-orientation
 
 ## consciousness transference / phowa
-conf 0.71 · anchor talks · 232 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · practice in top 4: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.71 · anchor talks · 128 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · practice in top 4: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Swami Sarvapriyananda · A Logico-Phenomenological Meditation on Consciousness (0.714)
@@ -68,7 +68,7 @@ conf 0.71 · anchor talks · 232 ms · 200 + no degraded: ok · ids/scores only:
 **Series** how-to-discern-past-lives 0.673, kashmir-shaivism-first-steps 0.636, how-buddhist-rebirth-works 0.626 · **Practices** powa-an-introduction-to-transference-at-death, powa-an-introduction, vbt-body-as-consciousness
 
 ## how to deal with anger
-conf 0.772 · anchor talks · 152 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.772 · anchor talks · 120 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. The 14th Dalai Lama · Tackling Anger (0.749)
@@ -89,7 +89,7 @@ conf 0.772 · anchor talks · 152 ms · 200 + no degraded: ok · ids/scores only
 **Series** seven-days-with-death 0.608, metta-in-four-traditions 0.592, contemplating-death 0.569 · **Practices** shamatha-with-object, feeding-your-demons-a-modern-adaptation-of-chod, tonglen
 
 ## what is nonduality
-conf 0.759 · anchor talks · 120 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.759 · anchor talks · 162 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Christopher Wallis (Hareesh) · What is Nonduality (0.744)
@@ -110,7 +110,7 @@ conf 0.759 · anchor talks · 120 ms · 200 + no degraded: ok · ids/scores only
 **Series** kashmir-shaivism-first-syllabus 0.609, kashmir-shaivism-first-steps 0.572, how-to-discern-past-lives 0.561 · **Practices** vbt-space-contemplation, neoplatonic-contemplation, vbt-body-as-consciousness
 
 ## kundalini safety
-conf 0.688 · anchor talks · 166 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.688 · anchor talks · 119 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Igor Kufayev · Pregnancy After Kundalini Awakening – Is It Safe? (0.725)
@@ -131,7 +131,7 @@ conf 0.688 · anchor talks · 166 ms · 200 + no degraded: ok · ids/scores only
 **Series** trika-prep-week 0.561, how-to-discern-past-lives 0.536, vbt-foundations 0.536 · **Practices** mindfulness-of-death-maranasati, anapanasati-breath-meditation-method-2, resting-in-the-gap-between-breaths-vijnana-bhairava-dharana
 
 ## grief
-conf 0.784 · anchor talks · 145 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.784 · anchor talks · 130 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Ajahn Sumedho · Grief (0.801)
@@ -152,7 +152,7 @@ conf 0.784 · anchor talks · 145 ms · 200 + no degraded: ok · ids/scores only
 **Series** seven-days-with-death 0.682, contemplating-death 0.653, rebirth-across-traditions 0.645 · **Practices** rain, recollecting-the-round, powa-an-introduction
 
 ## jhana
-conf 0.755 · anchor talks · 116 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.755 · anchor talks · 125 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Ajahn Nyanamoli Thero · Jhana is Virtue (0.741)
@@ -173,7 +173,7 @@ conf 0.755 · anchor talks · 116 ms · 200 + no degraded: ok · ids/scores only
 **Series** how-to-discern-past-lives 0.65, kashmir-shaivism-first-syllabus 0.648, zen-just-sitting 0.624 · **Practices** bhairavi-sadhana-isha, recollection-of-past-lives-orientation, mantra-repetition-japa
 
 ## sufi remembrance
-conf 0.73 · anchor talks · 141 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · conf >= 0.66: ok · similar carry via: ok
+conf 0.73 · anchor talks · 145 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · talk match in top 8: ok · series in top 3: ok · conf >= 0.66: ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Pir Zia Inayat Khan · The Practice of Zikr - Nature Meditations with Pir Zia Inayat Khan (0.724)
@@ -194,7 +194,7 @@ conf 0.73 · anchor talks · 141 ms · 200 + no degraded: ok · ids/scores only:
 **Series** sufi-remembrance 0.814, contemplating-death 0.675, how-to-discern-past-lives 0.653 · **Practices** zikr-remembrance-in-the-inayati-way, dhikr-and-breathwork, the-five-remembrances
 
 ## middle pillar
-conf 0.654 · anchor series:hermetic-orientation · 125 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · series in top 3: ok · conf < 0.66 (lead with series): ok · similar carry via: ok
+conf 0.654 · anchor series:hermetic-orientation · 128 ms · 200 + no degraded: ok · ids/scores only: ok · no held teacher: ok · series in top 3: ok · conf < 0.66 (lead with series): ok · similar carry via: ok
 
 **Talks (hybrid)**
 1. Ajahn Brahmali · The Middle Way (0.683)
@@ -215,9 +215,9 @@ conf 0.654 · anchor series:hermetic-orientation · 125 ms · 200 + no degraded:
 **Series** middle-pillar-week 0.719, hermetic-orientation 0.694, vbt-foundations 0.59 · **Practices** middle-pillar-outline, vbt-space-contemplation, recollecting-the-round
 
 ## /similar
-NBfbBbvX-VY within topic:death -> Thanissaro Bhikkhu · Fear of Death; Thanissaro Bhikkhu · Fear of Death; Thanissaro Bhikkhu · Fear Around Death; Thanissaro Bhikkhu · Fears to Be Feared \ \ Thanissaro Bhikkhu \ \ Dhamma Talk; Thanissaro Bhikkhu · Mindfulness of Death · FAIL
+NBfbBbvX-VY within topic:death -> Thanissaro Bhikkhu · Fear of Death; Thanissaro Bhikkhu · Fear of Death; Thanissaro Bhikkhu · Fear Around Death; Thanissaro Bhikkhu · Mindfulness of Death; Thanissaro Bhikkhu · Ready for Death · ok
 
 ## filter
-fear of death & teacher=rupert-spira -> Rupert Spira · The Fear of Death and Dissolution; Rupert Spira · Exploring the Fear of Death or Dissolution; Rupert Spira · Overcoming the Fear of Death · FAIL
+fear of death & teacher=rupert-spira -> Rupert Spira · The Fear of Death and Dissolution; Rupert Spira · Exploring the Fear of Death or Dissolution; Rupert Spira · Overcoming the Fear of Death · ok
 
-**66 passed, 2 failed**
+**68 passed, 0 failed**

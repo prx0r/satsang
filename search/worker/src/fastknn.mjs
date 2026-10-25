@@ -18,14 +18,14 @@ export function fastKnn(S, q, { k = 40, cand = 500, rows = null, allow = null } 
     const dist = new Uint16Array(m), hist = new Uint32Array(D + 2)
     for (let t = 0; t < m; t++) {
       const i = rows ? rows[t] : t
-      if (allow && !allow(i)) { dist[t] = D + 1; continue }
+      if (allow && !allow(i)) { dist[t] = 0xffff; continue }  // excluded rows never enter the shortlist
       let h = 0; const o = i * wpr
       for (let j = 0; j < wpr; j++) h += pop(W[o + j] ^ qw[j])
       dist[t] = h; hist[h]++
     }
     let cut = 0, acc = 0; while (cut <= D && acc + hist[cut] < cand) acc += hist[cut++]
     C = []; let atCut = cand - acc
-    for (let t = 0; t < m; t++) { const h = dist[t]; if (h < cut) C.push(rows ? rows[t] : t); else if (h === cut && atCut > 0) { C.push(rows ? rows[t] : t); atCut-- } }
+    for (let t = 0; t < m; t++) { const h = dist[t]; if (h > D) continue; if (h < cut) C.push(rows ? rows[t] : t); else if (h === cut && atCut > 0) { C.push(rows ? rows[t] : t); atCut-- } }
   }
   const sc = new Float32Array(C.length)
   for (let c = 0; c < C.length; c++) { let s = 0; const o = C[c] * D; for (let d = 0; d < D; d++) s += V[o + d] * q[d]; sc[c] = s * inv }
