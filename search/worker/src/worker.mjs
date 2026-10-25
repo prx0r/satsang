@@ -5,6 +5,7 @@
 // metadata-only BM25 postings (titles/teacher/topics), nothing else.
 import { makeSet, knn, scanAll, facetsFromBin, facetDf, chips, similar } from './search-core.mjs'
 
+const CODE_V = '2'  // bump when the response shape or ranking changes (part of the cache key)
 const MODEL = '@cf/baai/bge-small-en-v1.5'
 const PREFIX = 'Represent this sentence for searching relevant passages: '
 const CONF_FLOOR = 0.66, WATCH_FLOOR = 0.66
@@ -186,7 +187,7 @@ export default {
     if (u.pathname !== '/search' && u.pathname !== '/similar') return json({ error: 'not found', endpoints: ['/search?q=', '/similar?clip=', '/health'] }, 404)
     // cache key: normalised params + index version
     const p = new URLSearchParams(); for (const key of ['q', 'scope', 'k', 'teacher', 'topic', 'tradition', 'series', 'clip', 'within']) { const v = u.searchParams.get(key); if (v) p.set(key, key === 'q' ? v.toLowerCase().replace(/\s+/g, ' ').trim().slice(0, 200) : v) }
-    const ck = new Request(`https://satsang-search.cache${u.pathname}?${p}&v=${encodeURIComponent(X.ver)}`)
+    const ck = new Request(`https://satsang-search.cache${u.pathname}?${p}&v=${encodeURIComponent(X.ver)}.${CODE_V}`)
     const cache = caches.default, hit = await cache.match(ck)
     if (hit) { const r = new Response(hit.body, hit); r.headers.set('x-cache', 'hit'); return r }
     if (limited(req.headers.get('cf-connecting-ip') || 'x')) return json({ error: 'slow down' }, 429, { 'retry-after': '10' })

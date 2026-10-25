@@ -7,6 +7,7 @@
 #   sh deploy.sh api        -> API (worker wiser-api on API_BASE)
 #   sh deploy.sh mcp        -> MCP (worker wiser-mcp on MCP_BASE, read-only)
 #   sh deploy.sh chat       -> chat catalog + local test + worker satsang-chat (chat.tantrafiles.xyz)
+#   sh deploy.sh search     -> enquiry lens: ingest_talks.py (incremental) + index upload to KV + worker satsang-search (workers.dev)
 #   SKIP_DATA=1 sh deploy.sh -> site without rebuilding/uploading the open data
 # In the Hark sandbox (120 s per call) run build, guard and ship as separate calls; never build and deploy concurrently.
 set -e
@@ -23,6 +24,8 @@ build() {
     for f in $(git -C .. ls-tree --name-only HEAD engine/breath/ | grep '\.js$'); do git -C .. show "HEAD:$f" > "$T/$f"; done
     cp src/breathplayer.js "$T/app/src/" && npx esbuild "$T/app/src/breathplayer.js" --bundle --format=esm --minify --target=es2022 --outfile=site/breathplayer.js "--banner:js=/*! Satsang breath player: engine/breath (body.js + breath.js), original code. */" --log-level=warning
     rm -rf "$T"; echo "breathplayer.js bundled from committed engine/breath (working tree has uncommitted engine changes)"; fi
+  # enquiry lens: remind when the catalogue moved on since the last search-index ingest (run: sh deploy.sh search)
+  [ "$(sha256sum clips.json | cut -c1-16)" = "$(cat ../search/.ingested 2>/dev/null)" ] || echo "NOTE: clips.json changed since the last search ingest: run 'sh deploy.sh search' (ingest_talks.py + KV upload)"
   node tools/build-place-pages.mjs  # places: slim index + per-place shards (lazy SPA load) + static /place/<id>, /places/* pages + sitemap-places.xml (from site/data/events.json)
   V=$(sha256sum site/app.js | cut -c1-10)
   rm -rf dist && cp -r site dist
@@ -58,10 +61,11 @@ ship() {
 case "$1" in
   api) cd api && npx wrangler deploy ;;
   mcp) cd ../mcp && node build-data.mjs && node slim-data.mjs && node build-discovery.mjs && node test.mjs | tail -1 && $WRANGLER deploy ;;  # wiser-mcp on MCP
+  search) sh tools/search-index.sh && (cd ../search/worker && $WRANGLER deploy) ;;  # satsang-search Worker (search/README.md)
   chat) cd .. && node chat/tools/build-catalog.mjs && node chat/test/test-curator.mjs >/tmp/chat-test.log && tail -2 /tmp/chat-test.log && (cd chat/worker && $WRANGLER deploy) ;;
   build) build ;;
   guard) guard ;;
   ship) ship ;;
   ""|site) build; guard; ship ;;
-  *) echo "usage: sh deploy.sh [build|guard|ship|site|api|mcp|chat]" >&2; exit 2 ;;
+  *) echo "usage: sh deploy.sh [build|guard|ship|site|api|mcp|chat|search]" >&2; exit 2 ;;
 esac
