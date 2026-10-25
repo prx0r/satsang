@@ -321,3 +321,17 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   to places-index.json; deploy.sh `search` case + ingest reminder; tools/release/release.sh honours RELEASE_EXCLUDE.
 - Tests: eval-live 68/68; lens-phone 390 px all tabs ok; crawl 419 routes 0 findings; check-data 0 errors; guards 0. Deployed wiser-web 244808a2,
   satsang-search a0a6d033. Not touched: engine/, specs/SIT-PLAYER.md (sit player, uncommitted, other owner), DNS, switch-domain.sh, D1 seeds.
+
+## Sit player commit + doc cleanup + crowd tally (2026-10-25 ~16:00-16:45 +07; wiser-api 6c2d43e0, wiser-web 247b5418)
+- engine/ committed on its own: ce1ee78 (sit player, routines, 5 pipelines, body.js locus glide, extractor rules). Spec specs/SIT-PLAYER.md
+  = the engine's v1 (the 2-line draft committed by the places round replaced): ffacc03, with release.sh RELEASE_ENGINE=1 / RELEASE_ONLY=<paths>.
+  Tests: engine compile 110, t2p 43, sit 250, schemas 0 errors; app/tools/test-practice-engine.mjs 813/813. Practise tab NOT switched (owner).
+- Docs: BRIEF.md rewritten as a concise current-state brief (old one: _archive/BRIEF-history.md, fa1d120), OPEN-THREADS.md, README live URL =
+  tantrafiles.xyz (satsang.digital pending), Status lines on specs, ROADMAP status column, ORGANISE-REPORT -> _archive/specs (dea7ba6).
+  Outside the repo: work/wiser-search-index/SERVE-SPEC.md marked deployed; work/ scratch moved to work/_archive/ + work/INDEX.md; funnier/00-MIRROR-NOTE.md.
+- Crowd tally (5295411): app/api/src/tally.mjs; GET /stats/clips = live D1 aggregates (signed-in pick 1, anon device pick 0.5, resonate 0.5 of a
+  pick as a win, anon resonate 0.25), 10 min edge cache, clip_stats fallback; picks/wins/bt are weighted (ranker + feed + build-gold move with
+  resonates unchanged), raw counts under `raw`, totals {votes, resonates, voters}. Anonymous POST /resonate rate-limited (120/device/h, 600/IP/h).
+  "Most resonant" chart now builds from the tally when there is no leaderboard file. Open data clip.stats.picks stays the raw integer.
+  Tests: api/test/tally.test.mjs 14/14, api/test/tally-sql.test.mjs 5/5 (node:sqlite, real schema). Live check: a test anon resonate showed
+  {picks 0.25, bt 0.223} on workers.dev, then removed (resonates table empty again). D1 has 0 real votes / 0 resonates today.

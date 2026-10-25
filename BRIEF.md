@@ -13,8 +13,8 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web 244808a2 |
-| API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api (see MERGE-LOG for the latest version) |
+| Site | https://tantrafiles.xyz (www too) | wiser-web 247b5418 |
+| API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
 | MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 802f5cb8 |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat c4914eeb |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
