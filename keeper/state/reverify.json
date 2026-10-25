@@ -1,19 +1,13 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "rule": "verified_on > 90 days, past programme dates, living status unknown or inferred, low-confidence places",
- "count": 482,
+ "count": 485,
  "items": [
   {
    "kind": "person",
    "id": "mahavatar-babaji",
    "reason": "alive-unknown",
    "source_url": "https://www.wikidata.org/wiki/Q741358"
-  },
-  {
-   "kind": "person",
-   "id": "pa-auk-sayadaw",
-   "reason": "alive-unknown",
-   "source_url": "https://www.paaukforestmonastery.org"
   },
   {
    "kind": "person",
@@ -560,12 +554,6 @@
    "id": "syrianus",
    "reason": "alive-unknown",
    "source_url": "https://tantrafiles.xyz/person/syrianus"
-  },
-  {
-   "kind": "person",
-   "id": "sayalay-dipankara",
-   "reason": "alive-unknown",
-   "source_url": "https://cakkavala.org/Teacher.html"
   },
   {
    "kind": "person",
@@ -1526,6 +1514,12 @@
    "id": "sharon-salzberg",
    "reason": "likely-living-inferred",
    "source_url": "https://www.sharonsalzberg.com"
+  },
+  {
+   "kind": "person",
+   "id": "pa-auk-sayadaw",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.paaukforestmonastery.org"
   },
   {
    "kind": "person",
@@ -2795,6 +2789,12 @@
   },
   {
    "kind": "person",
+   "id": "sayalay-dipankara",
+   "reason": "likely-living-inferred",
+   "source_url": "https://cakkavala.org/Teacher.html"
+  },
+  {
+   "kind": "person",
    "id": "yogi-matsyendranath-maharaj",
    "reason": "likely-living-inferred",
    "source_url": "https://nathas.org/en/about/"
@@ -2894,6 +2894,24 @@
    "id": "swami-charanashrit-giri",
    "reason": "likely-living-inferred",
    "source_url": "https://www.swarayoga.org/charan"
+  },
+  {
+   "kind": "person",
+   "id": "beth-upton",
+   "reason": "likely-living-inferred",
+   "source_url": "https://bethupton.com/about-me/"
+  },
+  {
+   "kind": "person",
+   "id": "sugatavamsa",
+   "reason": "likely-living-inferred",
+   "source_url": "https://sites.google.com/pamc.org.sg/sgtvsdhamma"
+  },
+  {
+   "kind": "person",
+   "id": "r-ramanand",
+   "reason": "likely-living-inferred",
+   "source_url": "https://www.youtube.com/watch?v=ukNWsqtv9Uk"
   }
  ]
 }

@@ -22,60 +22,60 @@
   }
  },
  "integrity": {
-  "at": "2026-10-24T08:23:19Z",
+  "at": "2026-10-25T08:42:39Z",
   "cadence": "daily",
-  "ms": 118,
+  "ms": 135,
   "failing": 7,
   "passed": 0,
-  "checked": 2717
+  "checked": 2724
  },
  "jsonld": {
-  "at": "2026-10-24T08:23:20Z",
+  "at": "2026-10-25T08:42:40Z",
   "cadence": "daily",
-  "ms": 612,
+  "ms": 1007,
   "failing": 0,
   "passed": 45,
   "checked": 45
  },
  "leaks": {
-  "at": "2026-10-24T08:23:25Z",
+  "at": "2026-10-25T08:42:45Z",
   "cadence": "daily",
-  "ms": 4683,
+  "ms": 5174,
   "failing": 0,
   "passed": 0,
-  "checked": 1057,
+  "checked": 1093,
   "grams": 0
  },
  "linkrot": {
-  "at": "2026-10-24T08:28:35Z",
+  "at": "2026-10-25T08:44:33Z",
   "cadence": "daily",
-  "ms": 310642,
-  "failing": 12,
-  "passed": 680,
+  "ms": 108072,
+  "failing": 14,
+  "passed": 665,
   "checked": 700,
-  "unknown": 8,
-  "total": 1817
+  "unknown": 21,
+  "total": 1820
  },
  "links": {
-  "at": "2026-10-24T08:28:38Z",
+  "at": "2026-10-25T08:44:36Z",
   "cadence": "daily",
-  "ms": 3087,
-  "failing": 0,
-  "passed": 359,
-  "checked": 359,
-  "total": 359,
+  "ms": 3367,
+  "failing": 1,
+  "passed": 376,
+  "checked": 377,
+  "total": 377,
   "pages": 48
  },
  "oembed": {
-  "at": "2026-10-24T08:35:01Z",
+  "at": "2026-10-25T08:50:58Z",
   "cadence": "daily",
-  "ms": 382678,
-  "failing": 0,
-  "passed": 2500,
+  "ms": 382265,
+  "failing": 10,
+  "passed": 2490,
   "checked": 2500,
   "unknown": 0,
   "throttled": false,
-  "total": 9738
+  "total": 9777
  },
  "perf": {
   "at": "2026-10-20T13:24:29Z",
@@ -113,12 +113,12 @@
   }
  },
  "provenance": {
-  "at": "2026-10-24T08:35:01Z",
+  "at": "2026-10-25T08:50:59Z",
   "cadence": "daily",
-  "ms": 161,
-  "failing": 209,
+  "ms": 159,
+  "failing": 207,
   "passed": 0,
-  "checked": 2342,
+  "checked": 2373,
   "selfSourced": {
    "person": 243,
    "tradition": 107,
@@ -127,9 +127,9 @@
   }
  },
  "robots": {
-  "at": "2026-10-24T08:35:02Z",
+  "at": "2026-10-25T08:50:59Z",
   "cadence": "daily",
-  "ms": 475,
+  "ms": 308,
   "failing": 0,
   "passed": 14,
   "checked": 18
