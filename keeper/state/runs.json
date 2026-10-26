@@ -22,56 +22,56 @@
   }
  },
  "integrity": {
-  "at": "2026-10-25T08:42:39Z",
+  "at": "2026-10-26T09:20:43Z",
   "cadence": "daily",
-  "ms": 135,
+  "ms": 140,
   "failing": 7,
   "passed": 0,
-  "checked": 2724
+  "checked": 2802
  },
  "jsonld": {
-  "at": "2026-10-25T08:42:40Z",
+  "at": "2026-10-26T09:20:44Z",
   "cadence": "daily",
-  "ms": 1007,
+  "ms": 815,
   "failing": 0,
   "passed": 45,
   "checked": 45
  },
  "leaks": {
-  "at": "2026-10-25T08:42:45Z",
+  "at": "2026-10-26T09:20:49Z",
   "cadence": "daily",
-  "ms": 5174,
+  "ms": 4998,
   "failing": 0,
   "passed": 0,
-  "checked": 1093,
+  "checked": 1176,
   "grams": 0
  },
  "linkrot": {
-  "at": "2026-10-25T08:44:33Z",
+  "at": "2026-10-26T09:23:31Z",
   "cadence": "daily",
-  "ms": 108072,
-  "failing": 14,
-  "passed": 665,
+  "ms": 162147,
+  "failing": 12,
+  "passed": 679,
   "checked": 700,
-  "unknown": 21,
-  "total": 1820
+  "unknown": 9,
+  "total": 2051
  },
  "links": {
-  "at": "2026-10-25T09:15:18Z",
-  "cadence": "weekly",
-  "ms": 2792,
+  "at": "2026-10-26T09:23:34Z",
+  "cadence": "daily",
+  "ms": 2893,
   "failing": 1,
-  "passed": 376,
-  "checked": 377,
-  "total": 377,
+  "passed": 382,
+  "checked": 383,
+  "total": 383,
   "pages": 48
  },
  "oembed": {
-  "at": "2026-10-25T08:50:58Z",
+  "at": "2026-10-26T09:29:57Z",
   "cadence": "daily",
-  "ms": 382265,
-  "failing": 10,
-  "passed": 2490,
+  "ms": 382467,
+  "failing": 23,
+  "passed": 2477,
   "checked": 2500,
   "unknown": 0,
   "throttled": false,
@@ -113,23 +113,23 @@
   }
  },
  "provenance": {
-  "at": "2026-10-25T08:50:59Z",
+  "at": "2026-10-26T09:29:57Z",
   "cadence": "daily",
-  "ms": 159,
+  "ms": 141,
   "failing": 207,
   "passed": 0,
-  "checked": 2373,
+  "checked": 2457,
   "selfSourced": {
    "person": 243,
-   "tradition": 107,
+   "tradition": 113,
    "place": 77,
    "practice": 0
   }
  },
  "robots": {
-  "at": "2026-10-25T08:50:59Z",
+  "at": "2026-10-26T09:29:57Z",
   "cadence": "daily",
-  "ms": 308,
+  "ms": 327,
   "failing": 0,
   "passed": 14,
   "checked": 18
