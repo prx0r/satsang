@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-10-26T09:29:57Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-10-26T13:01:04Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 247 (error 7, warn 27, info 213). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 0 clips (0 videos), 6 external URLs. **Re-verify queue:** 485.
@@ -19,8 +19,8 @@ Updated 2026-10-26T09:29:57Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-10-25T09:15:18Z | 5 |
 | provenance | 207 | 0 | 0 | 207 | 2026-10-26T09:29:57Z | 2457 |
 | robots | 0 | 0 | 0 | 0 | 2026-10-26T09:29:57Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-10-26T06:12:16Z | 120 / 2231 |
-| uptime | 0 | 0 | 0 | 0 | 2026-10-26T06:12:16Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-10-26T13:01:02Z | 120 / 2231 |
+| uptime | 0 | 0 | 0 | 0 | 2026-10-26T13:01:04Z | 12 |
 
 ## Top problems
 
@@ -37,35 +37,35 @@ Updated 2026-10-26T09:29:57Z for https://tantrafiles.xyz. State branch: `keeper-
 - `a0512ea78bad` **warn** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://www.sudoc.fr/041424565 (2× in a row)
 - `d40a378198fc` **warn** oembed: YouTube video is private or not embeddable — V7zBzS1vRE4 (2× in a row)
 - `df0d2637603b` **warn** oembed: YouTube video is private or not embeddable — OI0JS0ojrF8 (2× in a row)
-- `7d243ac50cd3` **warn** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://www.abadiamontserrat.net/
-- `2c467457d20a` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://www.chalicewell.org.uk
-- `6f07d5f70cdc` **warn** linkrot: External link failing: HTTP 504 — https://www.deerpark.in/contact-us/
-- `c609c7457c7b` **warn** oembed: YouTube video is private or not embeddable — YJCQDGDwrT8
-- `f1a47006eeb1` **warn** oembed: YouTube video is private or not embeddable — YN3KzoTKT6A
-- `81da6e476e72` **warn** oembed: YouTube video is private or not embeddable — _SNO8mZV8rc
-- `51e33a88fb9e` **warn** oembed: YouTube video is private or not embeddable — acIxZR6DV6U
-- `a261b57ae887` **warn** oembed: YouTube video is private or not embeddable — bFk6cPkNh9g
-- `3251c58a1b67` **warn** oembed: YouTube video is private or not embeddable — boZnvNHqJBE
-- `747e7c272b23` **warn** oembed: YouTube video is private or not embeddable — dTQh9mqyrTM
-- `5fb0b0c46648` **warn** oembed: YouTube video is private or not embeddable — dqs8pGdp8EM
+- `165f629b9ea5` **warn** oembed: YouTube video is private or not embeddable — kffSFvuQ9Lg
+- `16fdef44f3b8` **warn** oembed: YouTube video is private or not embeddable — fEIC_tfDCIM
 - `208405d68232` **warn** oembed: YouTube video is private or not embeddable — dy2A8pfI6dg
+- `23d2f206e938` **warn** oembed: YouTube video is private or not embeddable — lIgt8-CygDs
+- `2c467457d20a` **warn** linkrot: External link failing: DEPTH_ZERO_SELF_SIGNED_CERT: fetch failed — https://www.chalicewell.org.uk
+- `3251c58a1b67` **warn** oembed: YouTube video is private or not embeddable — boZnvNHqJBE
+- `418ad364f4df` **warn** oembed: YouTube video is private or not embeddable — jar-5yKZU9A
+- `51e33a88fb9e` **warn** oembed: YouTube video is private or not embeddable — acIxZR6DV6U
+- `55514016e963` **warn** oembed: YouTube video is private or not embeddable — iCgRb1rgdzA
+- `5fb0b0c46648` **warn** oembed: YouTube video is private or not embeddable — dqs8pGdp8EM
+- `6f07d5f70cdc` **warn** linkrot: External link failing: HTTP 504 — https://www.deerpark.in/contact-us/
+- `747e7c272b23` **warn** oembed: YouTube video is private or not embeddable — dTQh9mqyrTM
 
 ## Uptime by probe (30 d)
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 142 | up 2026-10-26T06:12:16Z |
-| home | 100.0 | 38 | up 2026-10-26T06:12:16Z |
-| hub:/person/ajahn-chah | 100.0 | 22 | up 2026-10-26T06:12:16Z |
-| hub:/topic/rebirth | 100.0 | 23 | up 2026-10-26T06:12:16Z |
-| hub:/tradition/buddhism | 100.0 | 20 | up 2026-10-26T06:12:16Z |
-| llms.txt | 100.0 | 18 | up 2026-10-26T06:12:16Z |
-| mcp-initialize | 100.0 | 559 | up 2026-10-26T06:12:16Z |
-| mcp-tool-call | 100.0 | 42 | up 2026-10-26T06:12:16Z |
-| mcp-tools-list | 100.0 | 57 | up 2026-10-26T06:12:16Z |
-| openapi.json | 100.0 | 38 | up 2026-10-26T06:12:16Z |
-| sitemap | 100.0 | 17 | up 2026-10-26T06:12:16Z |
-| well-known-mcp | 100.0 | 19 | up 2026-10-26T06:12:16Z |
+| api-health | 100.0 | 144 | up 2026-10-26T13:01:03Z |
+| home | 100.0 | 38 | up 2026-10-26T13:01:02Z |
+| hub:/person/ajahn-chah | 100.0 | 22 | up 2026-10-26T13:01:02Z |
+| hub:/topic/rebirth | 100.0 | 24 | up 2026-10-26T13:01:02Z |
+| hub:/tradition/buddhism | 100.0 | 21 | up 2026-10-26T13:01:02Z |
+| llms.txt | 100.0 | 18 | up 2026-10-26T13:01:04Z |
+| mcp-initialize | 100.0 | 571 | up 2026-10-26T13:01:04Z |
+| mcp-tool-call | 100.0 | 42 | up 2026-10-26T13:01:04Z |
+| mcp-tools-list | 100.0 | 57 | up 2026-10-26T13:01:04Z |
+| openapi.json | 100.0 | 38 | up 2026-10-26T13:01:04Z |
+| sitemap | 100.0 | 18 | up 2026-10-26T13:01:04Z |
+| well-known-mcp | 100.0 | 19 | up 2026-10-26T13:01:04Z |
 
 ## Performance (key pages)
 
