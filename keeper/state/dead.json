@@ -1,14 +1,27 @@
 {
- "updated": "2026-10-27T05:03:00Z",
+ "updated": "2026-10-27T09:29:58Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
- "clips": [],
- "videos": [],
+ "clips": [
+  "LlPLpEpl-Wc",
+  "OI0JS0ojrF8",
+  "PJUVYlR9V6I",
+  "V-KnyhNmBB8",
+  "V7zBzS1vRE4"
+ ],
+ "videos": [
+  "LlPLpEpl-Wc",
+  "OI0JS0ojrF8",
+  "PJUVYlR9V6I",
+  "V-KnyhNmBB8",
+  "V7zBzS1vRE4"
+ ],
  "urls": [
   "https://maisondelinspir.org/",
   "https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html",
   "https://namgyalmonastery.org",
   "https://namgyalmonastery.org/contact/",
   "https://publications.efeo.fr/en/livres/840_tantric-studies",
-  "https://www.koyasan.or.jp/en/"
+  "https://www.koyasan.or.jp/en/",
+  "https://www.sudoc.fr/041424565"
  ]
 }
