@@ -1,19 +1,55 @@
 {
- "updated": "2026-10-28T08:29:56Z",
+ "updated": "2026-10-28T10:08:20Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "LlPLpEpl-Wc",
   "OI0JS0ojrF8",
   "PJUVYlR9V6I",
   "V-KnyhNmBB8",
-  "V7zBzS1vRE4"
+  "V7zBzS1vRE4",
+  "YJCQDGDwrT8",
+  "YN3KzoTKT6A",
+  "_SNO8mZV8rc",
+  "acIxZR6DV6U",
+  "bFk6cPkNh9g",
+  "boZnvNHqJBE",
+  "dTQh9mqyrTM",
+  "dqs8pGdp8EM",
+  "dy2A8pfI6dg",
+  "eeU75YjgQew",
+  "fEIC_tfDCIM",
+  "g3C8_cOKxXM",
+  "gb6d26mdAEI",
+  "iCgRb1rgdzA",
+  "jar-5yKZU9A",
+  "jjzNQ9pEkPk",
+  "kffSFvuQ9Lg",
+  "lIgt8-CygDs"
  ],
  "videos": [
   "LlPLpEpl-Wc",
   "OI0JS0ojrF8",
   "PJUVYlR9V6I",
   "V-KnyhNmBB8",
-  "V7zBzS1vRE4"
+  "V7zBzS1vRE4",
+  "YJCQDGDwrT8",
+  "YN3KzoTKT6A",
+  "_SNO8mZV8rc",
+  "acIxZR6DV6U",
+  "bFk6cPkNh9g",
+  "boZnvNHqJBE",
+  "dTQh9mqyrTM",
+  "dqs8pGdp8EM",
+  "dy2A8pfI6dg",
+  "eeU75YjgQew",
+  "fEIC_tfDCIM",
+  "g3C8_cOKxXM",
+  "gb6d26mdAEI",
+  "iCgRb1rgdzA",
+  "jar-5yKZU9A",
+  "jjzNQ9pEkPk",
+  "kffSFvuQ9Lg",
+  "lIgt8-CygDs"
  ],
  "urls": [
   "https://maisondelinspir.org/",
@@ -21,7 +57,7 @@
   "https://namgyalmonastery.org",
   "https://namgyalmonastery.org/contact/",
   "https://publications.efeo.fr/en/livres/840_tantric-studies",
-  "https://www.koyasan.or.jp/en/",
+  "https://www.abadiamontserrat.net/",
   "https://www.sudoc.fr/041424565"
  ]
 }
