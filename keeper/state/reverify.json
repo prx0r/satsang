@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "rule": "verified_on > 90 days, past programme dates, living status unknown or inferred, low-confidence places",
- "count": 485,
+ "count": 499,
  "items": [
   {
    "kind": "person",
@@ -47,21 +47,9 @@
   },
   {
    "kind": "person",
-   "id": "swami-ram-kashmir",
-   "reason": "alive-unknown",
-   "source_url": "https://tantrafiles.xyz/person/swami-ram-kashmir"
-  },
-  {
-   "kind": "person",
-   "id": "swami-mahtab-kak",
-   "reason": "alive-unknown",
-   "source_url": "https://tantrafiles.xyz/person/swami-mahtab-kak"
-  },
-  {
-   "kind": "person",
    "id": "john-hughes",
    "reason": "alive-unknown",
-   "source_url": "https://tantrafiles.xyz/person/john-hughes"
+   "source_url": "https://www.lakshmanjooacademy.org/about"
   },
   {
    "kind": "person",
@@ -782,6 +770,102 @@
    "id": "gorakhnath-math-gorakhpur",
    "reason": "alive-unknown",
    "source_url": "https://tantrafiles.xyz/person/gorakhnath-math-gorakhpur"
+  },
+  {
+   "kind": "person",
+   "id": "shivopadhyaya",
+   "reason": "alive-unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra"
+  },
+  {
+   "kind": "person",
+   "id": "maheshwar-nath-razdan",
+   "reason": "alive-unknown",
+   "source_url": "https://en.wikipedia.org/wiki/Lakshman_Joo"
+  },
+  {
+   "kind": "person",
+   "id": "isabelle-ratie",
+   "reason": "alive-unknown",
+   "source_url": "https://www.college-de-france.fr/en/person/isabelle-ratie"
+  },
+  {
+   "kind": "person",
+   "id": "raffaele-torella",
+   "reason": "alive-unknown",
+   "source_url": "https://iris.uniroma1.it/handle/11573/155566"
+  },
+  {
+   "kind": "person",
+   "id": "john-nemec",
+   "reason": "alive-unknown",
+   "source_url": "https://religiousstudies.as.virginia.edu/john-nemec"
+  },
+  {
+   "kind": "person",
+   "id": "david-peter-lawrence",
+   "reason": "alive-unknown",
+   "source_url": "https://sunypress.edu/Contributors/L/Lawrence-David-Peter"
+  },
+  {
+   "kind": "person",
+   "id": "jurgen-hanneder",
+   "reason": "alive-unknown",
+   "source_url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Hanneder"
+  },
+  {
+   "kind": "person",
+   "id": "lyne-bansat-boudon",
+   "reason": "alive-unknown",
+   "source_url": "https://www.ephe.psl.eu/lyne-bansat-boudon"
+  },
+  {
+   "kind": "person",
+   "id": "kanti-chandra-pandey",
+   "reason": "alive-unknown",
+   "source_url": "https://www.lkouniv.ac.in/en/page/abhinavgupt-institute-of-aesthetics-and-shaiva-philosophy"
+  },
+  {
+   "kind": "person",
+   "id": "navjivan-rastogi",
+   "reason": "alive-unknown",
+   "source_url": "https://www.padmaawards.gov.in/Document/pdf/CitationsForTickets/2024/2024103.pdf"
+  },
+  {
+   "kind": "person",
+   "id": "sadananda-das",
+   "reason": "alive-unknown",
+   "source_url": "https://www.ts-adyar.org/dr-sadananda-das-0"
+  },
+  {
+   "kind": "person",
+   "id": "george-barselaar",
+   "reason": "alive-unknown",
+   "source_url": "https://www.lakshmanjooacademy.org/fall-online-retreat"
+  },
+  {
+   "kind": "person",
+   "id": "denise-hughes",
+   "reason": "alive-unknown",
+   "source_url": "https://www.lakshmanjooacademy.org/fall-online-retreat"
+  },
+  {
+   "kind": "person",
+   "id": "alka-tyagi",
+   "reason": "alive-unknown",
+   "source_url": "https://tantravimarsha.com/contact"
+  },
+  {
+   "kind": "person",
+   "id": "gabriel-pradipaka",
+   "reason": "alive-unknown",
+   "source_url": "https://www.sanskrit-trikashaivism.com/en/about-us"
+  },
+  {
+   "kind": "person",
+   "id": "swami-chetanananda-tmc",
+   "reason": "alive-unknown",
+   "source_url": "https://chetanananda.org/about"
   },
   {
    "kind": "place",
@@ -1903,7 +1987,7 @@
    "kind": "person",
    "id": "swami-shankarananda",
    "reason": "likely-living-inferred",
-   "source_url": "https://www.theashram.com.au/"
+   "source_url": "https://en.wikipedia.org/wiki/Shankarananda_(Shiva_Yoga)"
   },
   {
    "kind": "person",
