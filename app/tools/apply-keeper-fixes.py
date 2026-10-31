@@ -27,7 +27,7 @@ ED = J('wisegraph/edges.json')
 for fx in KEEPER_EDGES:
     a, b = fx['match']; hit = [e for e in ED['edges'] if e['from'] == a and e['to'] == b]
     if not hit: log.setdefault('missing', []).append(f'edge/{a}->{b}'); continue
-    for e in hit: e.update(fx['set']); e['checked'] = V; n('edges')
+    for e in hit: e.update(fx['set']); e['checked'] = fx['set'].get('checked', V); n('edges')
 # one edge per (from, to, type): a type change can create a duplicate
 seen, keep = set(), []
 for e in ED['edges']:

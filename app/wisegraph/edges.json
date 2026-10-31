@@ -1343,9 +1343,10 @@
    "from": "swami-lakshmanjoo",
    "to": "bettina-baumer",
    "type": "teacher_of",
-   "conf": "medium",
-   "note": "Long-time student; edited the Lakshmanjoo centenary volume Saṃvidullāsaḥ (2007).",
-   "src": "https://en.wikipedia.org/wiki/Bettina_Baumer"
+   "conf": "high",
+   "note": "Initiated into the tradition by Swami Lakshman Joo in 1987 (her own site).",
+   "src": "https://www.utpaladeva.in/home",
+   "checked": "2026-10-31"
   },
   {
    "from": "swami-lakshmanjoo",
@@ -1414,9 +1415,10 @@
    "from": "swami-rudrananda",
    "to": "swami-khecaranatha",
    "type": "teacher_of",
-   "conf": "medium",
-   "note": "Khecaranatha teaches in Rudi's line (titles: \"Swami Khecaranatha on Rudi's Double-Breath\").",
-   "src": "https://www.youtube.com/watch?v=NOioVq5l6Yk"
+   "conf": "high",
+   "note": "Initiated as a teacher by Rudi on 10 May 1972.",
+   "src": "https://www.heartofc.org/centers",
+   "checked": "2026-10-31"
   },
   {
    "from": "somananda",
@@ -3293,13 +3295,6 @@
    "note": "Maitreyi dialogue (Brihadaranyaka 2.4/4.5); traditional."
   },
   {
-   "from": "vasugupta",
-   "to": "kallata",
-   "type": "studied_with",
-   "conf": "medium",
-   "note": "Traditional: chief disciple, received the Spanda-karika."
-  },
-  {
    "from": "jaideva-singh",
    "to": "pratyabhijnahrdayam",
    "type": "translated",
@@ -3627,6 +3622,132 @@
    "to": "pa-auk",
    "type": "lineage_of",
    "conf": "high"
+  },
+  {
+   "from": "vasugupta",
+   "to": "kallata",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Kallaṭa was a pupil of Vasugupta (Rājataraṅgiṇī places him under Avantivarman).",
+   "src": "https://en.wikipedia.org/wiki/Bhatta_Kallata",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "shambhunatha",
+   "to": "abhinavagupta",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Kaula (Ardha-tryambaka) initiation; the guru Abhinavagupta most admired.",
+   "src": "https://en.wikipedia.org/wiki/Abhinavagupta",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "bhutiraja",
+   "to": "abhinavagupta",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Named by Abhinavagupta among his teachers.",
+   "src": "https://en.wikipedia.org/wiki/Abhinavagupta",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "kshemaraja",
+   "to": "yogaraja",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Traditional: Lakshmanjoo Academy names Yogarāja as Kṣemarāja’s chief disciple.",
+   "src": "https://www.lakshmanjooacademy.org/swami-lakshmanjoo",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "swami-manakak",
+   "to": "swami-ram-kashmir",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Initiated Swami Ram (Lakshmanjoo Academy lineage account).",
+   "src": "https://www.lakshmanjooacademy.org/swami-lakshmanjoo",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "maheshwar-nath-razdan",
+   "to": "swami-lakshmanjoo",
+   "type": "studied_with",
+   "conf": "medium",
+   "note": "Sanskrit and Śaiva philosophy, 1926–1933.",
+   "src": "https://en.wikipedia.org/wiki/Lakshman_Joo",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "george-barselaar",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Studied directly with Swami Lakshmanjoo.",
+   "src": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "swami-lakshmanjoo",
+   "to": "denise-hughes",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Studied directly with Swami Lakshmanjoo.",
+   "src": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "kanti-chandra-pandey",
+   "to": "navjivan-rastogi",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Rastogi’s teacher and mentor; colleague at Pandey’s Lucknow institute.",
+   "src": "https://www.ishwarashramtrust.com/documents/Resume/NavjivanRastogi.pdf",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "lyne-bansat-boudon",
+   "to": "isabelle-ratie",
+   "type": "academic_supervisor_of",
+   "conf": "high",
+   "note": "DEA 2004 and doctorate 2009 at the EPHE under L. Bansat-Boudon (Ratié’s CV).",
+   "src": "https://www.college-de-france.fr/sites/default/files/media/document/2025-07/isabelle_ratier_cv.pdf",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "alexis-sanderson",
+   "to": "isabelle-ratie",
+   "type": "studied_with",
+   "conf": "high",
+   "note": "Five terms of study at Oxford (2005–06) at Sanderson’s invitation (Ratié’s CV).",
+   "src": "https://www.college-de-france.fr/sites/default/files/media/document/2025-07/isabelle_ratier_cv.pdf",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "swami-rudrananda",
+   "to": "swami-chetanananda-tmc",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Met Rudi in 1971; his successor after Rudi’s death in 1973.",
+   "src": "https://chetanananda.org/about",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "bhagawan-nityananda",
+   "to": "swami-rudrananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Rudi considered Nityananda his guru (first meeting 1958).",
+   "src": "http://www.rudi.org/lineage",
+   "checked": "2026-10-31"
+  },
+  {
+   "from": "muktananda",
+   "to": "swami-rudrananda",
+   "type": "teacher_of",
+   "conf": "high",
+   "note": "Initiated Rudi as a swami (Saraswati order) in 1966; Rudi broke away in 1971.",
+   "src": "http://www.rudi.org/lineage",
+   "checked": "2026-10-31"
   },
   {
    "from": "swami-lakshmanjoo",

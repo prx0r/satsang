@@ -33,7 +33,10 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | S31 | No favicon: /favicon.svg 404s (static /place pages link it; index.html has none) | NS | Add a favicon to site/ (crawl flags it on static pages). |
 | S32 | Enquiry lens index predates the 78 new places | NS | `sh deploy.sh search` if the lens should list them (lens held list now reads person red flags only). |
 | S33 | Sivananda *Kundalini Yoga* (DLS) source map: passes 0–2 done read-only (189 sections, 23 runnable candidates, 59 rules; text private in satsang-data) | **AU** | Owner/teacher reviews `engine/sources/books/sivananda-kundalini-yoga/labels.tsv` tiers + REPORT.md conflicts, then pass 3 (first batch: sukha purvaka, nadi suddhi, bhastrika, suryabheda, ujjayi, bandhas, kapalabhati). Nothing compiled or deployed. |
-| S34 | Chat leads 2026-10-26: Trika teachers/places (Bäumer, Dyczkowski deceased, Anuttara Trika Kula, Lakshmanjoo Academy), tulku + cosmology topics | NS | See notes/2026-10-26-trika-tulkus-cosmology.md; verify then add places/people/topics. |
+| S34 | Chat leads 2026-10-26: Trika teachers/places done in ext-49 (2026-10-31); tulku + cosmology topics remain | NS | Topics "Tulkus & rebirth", "Buddhist cosmology / Tushita", "How to enter Trika" (notes/2026-10-26-trika-tulkus-cosmology.md). |
+| S35 | Trika completeness follow-ups (ext-49 held list) | NS | Research Bhāskara, Maheśvarānanda, Sāhib Kaul, Jankinath Kaul "Kamal" (ishwarashram.in was 500), Kufayev/Baret circles; source Lakshmanjoo -> Jaideva Singh / Gnoli / Padoux edges or leave medium. |
+| S36 | Swami Shankarananda: person-level safety record? | **AU** | ext-49 added a place-level record (The Age 2015, ABC 2021). A person record would hold his talks from the lens/gold like Sogyal/Maezumi: owner decides. |
+| S37 | Phone crawl / screenshots blocked: headless Chromium gets 407 from the sandbox proxy | B | Find a proxy-auth route for puppeteer (or run tools/check/crawl-run.sh from the owner's machine); ext-49 used an HTTP check of 47 pages instead. |
 | S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
 | S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
 

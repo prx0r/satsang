@@ -1,0 +1,30 @@
+{
+ "_note": "ext-49: Bäumer and Sadananda Das teach Kashmir Shaiva retreat seminars at Deer Park (deerpark.in events; utpaladeva.in past seminars 2014–2023); the Hughes and George Barselaar lead the Lakshmanjoo Academy retreats (2026 Fall retreat page).",
+ "links": [
+  {
+   "from": "bettina-baumer",
+   "to": "deer-park-bir",
+   "type": "teaches_at"
+  },
+  {
+   "from": "sadananda-das",
+   "to": "deer-park-bir",
+   "type": "teaches_at"
+  },
+  {
+   "from": "john-hughes",
+   "to": "lakshmanjoo-academy",
+   "type": "teaches_at"
+  },
+  {
+   "from": "denise-hughes",
+   "to": "lakshmanjoo-academy",
+   "type": "teaches_at"
+  },
+  {
+   "from": "george-barselaar",
+   "to": "lakshmanjoo-academy",
+   "type": "teaches_at"
+  }
+ ]
+}

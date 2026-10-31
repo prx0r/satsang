@@ -13,9 +13,9 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web 4faff2e7 |
+| Site | https://tantrafiles.xyz (www too) | wiser-web daec752e (2026-10-31) |
 | API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
-| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 058c53fc |
+| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 912792ed (2026-10-31) |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat c4914eeb |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
 | Practice engine preview (/sit/, /breath/, /play/) | https://engine.tantrafiles.xyz/sit/ | satsang-engine-preview (not on the main site) |
@@ -25,7 +25,7 @@ runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
 
 ## Current state in one screen
 - Catalogue: 9,986 talks (official uploads only), gold tier 246 / strong 1,198 / standard 8,542, 22 series, 85 practices,
-  953 places with crawlable pages (78 from the 2026-10-25 discovery batch; 9 marked "details unverified"; place-level safety
+  963 places with crawlable pages (ext-49 Trika round 2026-10-31: +11, ishber-ashram merged) (78 from the 2026-10-25 discovery batch; 9 marked "details unverified"; place-level safety
   records shown like person ones), 184 tradition nodes, open data dumps, events keeper (weekly).
 - Nav: Watch · Topics · Teachers · Places · Practise · Ask; For you / Your model / Charts / All series in the account menu.
 - Enquiry lens on every tab (`?q=`), held / red-flag teachers filtered.

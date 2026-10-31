@@ -3101,7 +3101,8 @@
    "name": "Deer Park Institute",
    "type": "study-centre",
    "traditions": [
-    "tibetan"
+    "tibetan",
+    "kashmir-shaivism"
    ],
    "country": "IN",
    "country_name": "India",
@@ -3109,7 +3110,10 @@
    "lat": 32.039776,
    "lng": 76.715043,
    "coord_precision": "site",
-   "teachers": [],
+   "teachers": [
+    "bettina-baumer",
+    "sadananda-das"
+   ],
    "url": "https://www.deerpark.in",
    "description": "Non-sectarian centre in Bir for the study of Indian wisdom traditions, founded under Dzongsar Khyentse Rinpoche.",
    "offers": [
@@ -3125,8 +3129,27 @@
      "format": "study and meditation courses",
      "cost_model": "fee (often low or by donation)",
      "schedule_url": "https://www.deerpark.in/schedule/"
+    },
+    {
+     "id": "deer-park-kashmir-shaiva-retreat-seminar",
+     "name": "Kashmir Shaiva retreat seminar (Bettina Bäumer and Sadananda Das)",
+     "typical_length": "about 6–8 days",
+     "format": "residential",
+     "cost_model": "unknown",
+     "schedule_url": "https://www.utpaladeva.in/events-seminars-lectures/upcoming",
+     "recurrence": "held in most years (e.g. 2015, 2022, 2023); dates on Bäumer’s site",
+     "teachers": [
+      "bettina-baumer",
+      "sadananda-das"
+     ],
+     "checked": "2026-10-31",
+     "source": "ext-49-trika-complete"
     }
-   ]
+   ],
+   "source_url": "https://www.deerpark.in/program-details",
+   "confidence": "high",
+   "verified_on": "2026-10-31",
+   "url_checked": "2026-10-31"
   },
   {
    "id": "sherab-ling",
@@ -5660,30 +5683,6 @@
      "schedule_url": "https://www.jkrishnamurti.in/retreats"
     }
    ]
-  },
-  {
-   "id": "ishber-ashram",
-   "name": "Ishwar Ashram Trust",
-   "type": "ashram",
-   "traditions": [
-    "kashmir-shaivism"
-   ],
-   "country": "IN",
-   "country_name": "India",
-   "city": "Ishber, Srinagar",
-   "lat": 34.128925,
-   "lng": 74.879239,
-   "coord_precision": "site",
-   "teachers": [
-    "swami-lakshmanjoo"
-   ],
-   "url": "https://www.ishwarashramtrust.com",
-   "description": "Swami Lakshmanjoo's ashram above Nishat Bagh in Srinagar.",
-   "offers": [
-    "visits",
-    "study"
-   ],
-   "language": "en"
   },
   {
    "id": "shankaracharya-temple",
@@ -28121,6 +28120,339 @@
    "confidence": "medium"
   },
   {
+   "id": "tantra-illuminated",
+   "name": "Tantra Illuminated (Christopher Hareesh Wallis), online and Portugal",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "PT",
+   "country_name": "Portugal",
+   "city": "Online; retreats in Portugal and abroad",
+   "founded": 2019,
+   "teachers": [
+    "christopher-wallis"
+   ],
+   "url": "https://www.tantrailluminated.org/",
+   "schedule_url": "https://www.tantrailluminated.org/calendar",
+   "url_checked": "2026-10-31",
+   "description": "Christopher Wallis’s online school of classical Tantra (founded 2019): weekly live teaching, textual courses such as the Spanda-kārikā, and in-person retreats.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://www.tantrailluminated.org/christopher-hareesh-wallis",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "tantravimarsha",
+   "name": "Tantravimarśa (Alka Tyagi), online and India",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Online; retreats in India",
+   "teachers": [
+    "alka-tyagi"
+   ],
+   "url": "https://tantravimarsha.com/",
+   "schedule_url": "https://tantravimarsha.com/retreats-workshops/",
+   "contact_page": "https://tantravimarsha.com/contact",
+   "url_checked": "2026-10-31",
+   "description": "Alka Tyagi’s online courses on Trika scriptures (Pratyabhijñāhṛdayam on Wednesdays in 2026) plus workshops and retreats joining text study with practice.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://tantravimarsha.com/retreats-workshops/",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "retreats": [
+    {
+     "id": "tantravimarsha-wednesday-course",
+     "name": "Online course on a Trika text (Wednesdays, 7 pm IST)",
+     "typical_length": "about 24 sessions",
+     "format": "online",
+     "cost_model": "unknown",
+     "schedule_url": "https://tantravimarsha.com/retreats-workshops/",
+     "recurrence": "yearly cycle (2026: Pratyabhijñāhṛdayam, March–August)",
+     "teachers": [
+      "alka-tyagi"
+     ],
+     "checked": "2026-10-31",
+     "source": "ext-49-trika-complete"
+    }
+   ]
+  },
+  {
+   "id": "the-movement-center",
+   "name": "The Movement Center (Swami Chetanananda), Oregon",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Gold Beach / Wedderburn, Oregon",
+   "teachers": [
+    "swami-chetanananda-tmc"
+   ],
+   "url": "https://www.themovementcenter.com/",
+   "contact_page": "https://www.themovementcenter.com/",
+   "url_checked": "2026-10-31",
+   "description": "Swami Chetanananda’s community, formerly the Nityananda Institute; he sits with students five nights a week in Gold Beach and teaches the Śiva Sūtras online (e-TMC Academy).",
+   "offers": [
+    "meditation",
+    "online courses"
+   ],
+   "language": "en",
+   "source_url": "https://chetanananda.org/programs/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "the-ashram-mount-eliza",
+   "name": "The Ashram Mount Eliza (Swami Shankarananda)",
+   "type": "ashram",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "AU",
+   "country_name": "Australia",
+   "city": "Mount Eliza, Victoria",
+   "lat": -38.2042764,
+   "lng": 145.0834954,
+   "coord_precision": "address (27 Tower Road, OSM node 12420303049)",
+   "founded": 1996,
+   "teachers": [
+    "swami-shankarananda"
+   ],
+   "url": "https://www.theashram.com.au/",
+   "contact_page": "https://www.theashram.com.au/contact/",
+   "url_checked": "2026-10-31",
+   "description": "Residential ashram (est. 1996) in the Nityananda–Muktananda line, formerly the Shiva Ashram; weekly satsang, meditation, Self-inquiry groups and study of Kashmir Śaivism.",
+   "offers": [
+    "satsang",
+    "meditation",
+    "retreats",
+    "online"
+   ],
+   "language": "en",
+   "source_url": "https://www.theashram.com.au/mount-eliza-ashram/",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "retreats": [
+    {
+     "id": "mount-eliza-weekly-satsang",
+     "name": "Weekly satsang, meditation and Self-inquiry groups",
+     "typical_length": "evening",
+     "format": "drop-in",
+     "cost_model": "unknown",
+     "schedule_url": "https://www.theashram.com.au/mount-eliza-ashram/",
+     "recurrence": "weekly",
+     "teachers": [
+      "swami-shankarananda"
+     ],
+     "checked": "2026-10-31",
+     "source": "ext-49-trika-complete"
+    }
+   ]
+  },
+  {
+   "id": "jaya-kula",
+   "name": "Jaya Kula (Shambhavi Sarasvati), Portland",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Portland, Oregon",
+   "lat": 45.5141931,
+   "lng": -122.658192,
+   "coord_precision": "address (1215 SE 8th Ave, OSM way 368310755)",
+   "teachers": [
+    "shambhavi-sarasvati"
+   ],
+   "url": "https://jayakula.org/",
+   "schedule_url": "https://jayakula.org/",
+   "contact_page": "https://jayakula.org/",
+   "url_checked": "2026-10-31",
+   "description": "Nonprofit community practising Trika Shaivism and Dzogchen under Shambhavi Sarasvati; satsang, retreats and livestreamed teachings from Matrika House.",
+   "offers": [
+    "satsang",
+    "retreats",
+    "online"
+   ],
+   "language": "en",
+   "source_url": "https://jayakula.org/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "heart-of-consciousness",
+   "name": "Heart of Consciousness (Swami Khecaranatha): Nityakash, Maui and Rudrakash, Richmond",
+   "type": "retreat-centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Maui, Hawaii and Richmond, California",
+   "teachers": [
+    "swami-khecaranatha"
+   ],
+   "url": "https://www.heartofc.org/",
+   "contact_page": "https://www.heartofc.org/centers",
+   "url_checked": "2026-10-31",
+   "description": "Swami Khecaranatha’s community in the Nityananda–Rudi line: Nityakash retreat centre on Maui (since 2020) and Rudrakash in Richmond, California, with weekly eyes-open meditation.",
+   "offers": [
+    "meditation classes",
+    "retreats",
+    "immersions"
+   ],
+   "language": "en",
+   "source_url": "https://www.heartofc.org/AboutUs",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "blue-throat-yoga",
+   "name": "Blue Throat Yoga (Paul Muller-Ortega)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Online and retreats",
+   "founded": 2006,
+   "teachers": [
+    "paul-muller-ortega"
+   ],
+   "url": "https://www.bluethroatyoga.com/",
+   "url_checked": "2026-10-31",
+   "description": "School of meditation and study founded in 2006 by Paul Muller-Ortega on the nondual Śākta-Śaiva teaching of Abhinavagupta; Neelakantha Meditation, retreats and a study curriculum.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "language": "en",
+   "source_url": "https://www.bluethroatyoga.com/about-paul-muller-ortega",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "daniel-odier-seminars",
+   "name": "Daniel Odier: seminars in Kashmir Shaiva Tantra (Europe)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "CH",
+   "country_name": "Switzerland",
+   "city": "Itinerant: Switzerland, France, Germany, Italy, Spain",
+   "teachers": [
+    "daniel-odier"
+   ],
+   "url": "https://danielodier.com/en/home",
+   "schedule_url": "https://danielodier.com/en/seminars-list",
+   "url_checked": "2026-10-31",
+   "description": "Weekend workshops and residential seminars on the Vijñāna Bhairava and Kaula practices, which he says he received from the yoginī Lalitā Devī; no fixed centre.",
+   "offers": [
+    "workshops",
+    "residential seminars"
+   ],
+   "language": "fr",
+   "source_url": "https://danielodier.com/en/home",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "parabhairavayoga",
+   "name": "Parabhairavayoga (Gabriel Pradīpaka)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "RU",
+   "country_name": "Russia",
+   "city": "Online (founder based in Moscow)",
+   "founded": 2016,
+   "teachers": [
+    "gabriel-pradipaka"
+   ],
+   "url": "https://www.parabhairavayoga.org/",
+   "url_checked": "2026-10-31",
+   "description": "Foundation for Gabriel Pradīpaka’s Trika teaching (founded 2016), with appointed teachers in several countries and the multilingual Sanskrit & Trika Shaivism site.",
+   "offers": [
+    "online teaching"
+   ],
+   "language": "en",
+   "source_url": "https://www.parabhairavayoga.org/gurujii",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
+   "id": "trika-in",
+   "name": "Trika School of Tantra / Shivashaktivigyan (Amitabh Ji), Bengaluru",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Bengaluru (Indiranagar), Karnataka",
+   "lat": 12.9732913,
+   "lng": 77.6404672,
+   "coord_precision": "suburb (Indiranagar; street address on the site)",
+   "teachers": [
+    "amitabh-trika-school"
+   ],
+   "url": "https://trika.in/",
+   "url_checked": "2026-10-31",
+   "description": "Amitabh Ji’s school teaching Trika (Kashmir Shaivism) through meditation, Vijñāna Bhairava practice, retreats, yatras and shaktipat, in person and online.",
+   "offers": [
+    "courses",
+    "retreats",
+    "online"
+   ],
+   "language": "en",
+   "source_url": "https://trika.in/about-us",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
+   "id": "kashmir-shaivism-school-of-yoga",
+   "name": "Kashmir Shaivism School of Yoga, Dharamsala",
+   "type": "retreat-centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Dharamsala, Himachal Pradesh",
+   "url": "https://ksschoolofyoga.com/",
+   "url_checked": "2026-10-31",
+   "description": "Yoga teacher-training school founded by Kashmiri yogacharyas; besides asana courses it runs programmes solely on Kashmir Śaivism (Spanda, Vijñāna Bhairava), in person and online.",
+   "offers": [
+    "yoga teacher training",
+    "Kashmir Shaivism courses"
+   ],
+   "language": "en",
+   "source_url": "https://ksschoolofyoga.com/about-us/",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
    "id": "ishwar-ashram-srinagar",
    "name": "Ishwar Ashram (Ishber), Srinagar — Ishwar Ashram Trust",
    "type": "ashram",
@@ -28131,9 +28463,9 @@
    "country": "IN",
    "country_name": "India",
    "city": "Srinagar (Ishber, Nishat), Jammu & Kashmir",
-   "lat": 34.125347,
-   "lng": 74.881531,
-   "coord_precision": "osm-area (approximate)",
+   "lat": 34.1289254,
+   "lng": 74.8792393,
+   "coord_precision": "site (OSM node 1795367771 \"Ishwar Ashram\", Nishat)",
    "teachers": [
     "swami-lakshmanjoo"
    ],
@@ -28142,9 +28474,12 @@
    "url_checked": "2026-10-20",
    "description": "Swami Lakshmanjoo’s ashram (built 1962) with the Amriteshwar Bhairava temple",
    "language": "en",
-   "source_url": "https://www.kashmirshaivainstitute.com/contact",
-   "verified_on": "2026-10-20",
-   "confidence": "high"
+   "source_url": "https://www.kashmirshaivainstitute.com/",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "aliases": [
+    "ishber-ashram"
+   ]
   },
   {
    "id": "kashmir-shaiva-institute-jammu",
@@ -28210,7 +28545,10 @@
    "country_name": "United States",
    "city": "Oregon (USA) and online",
    "teachers": [
-    "swami-lakshmanjoo"
+    "swami-lakshmanjoo",
+    "john-hughes",
+    "denise-hughes",
+    "george-barselaar"
    ],
    "url": "https://www.lakshmanjooacademy.org/",
    "contact_page": "https://www.lakshmanjooacademy.org/contact",
@@ -28219,11 +28557,29 @@
    "language": "en",
    "source_url": "https://www.lakshmanjooacademy.org/upcoming-events",
    "verified_on": "2026-10-20",
-   "confidence": "high"
+   "confidence": "high",
+   "retreats": [
+    {
+     "id": "lakshmanjoo-academy-fall-retreat",
+     "name": "Fall four-day online study retreat, broadcast from Kashmir",
+     "typical_length": "4 days",
+     "format": "online",
+     "cost_model": "fixed",
+     "schedule_url": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+     "recurrence": "yearly, after the Mahasamadhi celebration (late Sep / early Oct)",
+     "teachers": [
+      "john-hughes",
+      "denise-hughes",
+      "george-barselaar"
+     ],
+     "checked": "2026-10-31",
+     "source": "ext-49-trika-complete"
+    }
+   ]
   },
   {
    "id": "anuttara-trika-kula-varanasi",
-   "name": "Anuttara Trika Kula — Mark Dyczkowski’s teaching (Varanasi / online)",
+   "name": "Anuttara Trika Kula: the continuing circle of the late Mark Dyczkowski (Varanasi / online)",
    "type": "institute",
    "traditions": [
     "trika",
@@ -28241,11 +28597,11 @@
    ],
    "url": "https://www.anuttaratrikakula.org/",
    "contact_page": "https://www.anuttaratrikakula.org/contact-us/",
-   "url_checked": "2026-10-20",
-   "description": "Archive of Dyczkowski’s lectures and courses (Tantrāloka chapter courses, Spanda, Śiva Sūtras, Vijñānabhairava, Kubjikā); free lectures; online Reading Circles continuing the Tantrāloka (Ch",
+   "url_checked": "2026-10-31",
+   "description": "The circle and archive of Mark Dyczkowski (1951–2025, died in Varanasi 2 February 2025): his recorded Tantrāloka, Spanda and Śiva Sūtra courses and free lectures, and online Tantrāloka Reading Circles led since 5 April 2026 by his students Arjun Seernels and Brian Campbell.",
    "language": "en",
    "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
-   "verified_on": "2026-10-20",
+   "verified_on": "2026-10-31",
    "confidence": "high"
   },
   {
@@ -28272,7 +28628,23 @@
    "language": "en",
    "source_url": "https://www.utpaladeva.in/news/news-archive",
    "verified_on": "2026-10-20",
-   "confidence": "medium"
+   "confidence": "medium",
+   "retreats": [
+    {
+     "id": "samvidalaya-retreat-seminars",
+     "name": "Retreat seminars on Trika texts with Bettina Bäumer (Varanasi, Himachal, Rishikesh, Srinagar, Bangalore)",
+     "typical_length": "about 5 days",
+     "format": "residential",
+     "cost_model": "unknown",
+     "schedule_url": "https://www.utpaladeva.in/events-seminars-lectures/upcoming",
+     "recurrence": "several a year at changing venues; two text sessions a day, about four hours of meditation, hymn recitation and silence",
+     "teachers": [
+      "bettina-baumer"
+     ],
+     "checked": "2026-10-31",
+     "source": "ext-49-trika-complete"
+    }
+   ]
   },
   {
    "id": "muktabodha-indological-research-institute",
@@ -28796,20 +29168,20 @@
   {
    "code": "IN",
    "name": "India",
-   "places": 235,
+   "places": 237,
    "goenka": 129,
    "traditions": {
     "goenka-vipassana": 131,
     "hindu": 16,
     "tibetan": 15,
-    "kashmir-shaivism": 11,
+    "kashmir-shaivism": 14,
     "advaita": 10,
     "ramakrishna-order": 8,
     "gelug": 7,
     "buddhism": 6,
+    "trika": 6,
     "kriya-yoga": 4,
     "shakta": 4,
-    "trika": 4,
     "kagyu": 3,
     "arsha-vidya": 3,
     "krishnamurti": 3,
@@ -28855,7 +29227,7 @@
   {
    "code": "US",
    "name": "United States",
-   "places": 100,
+   "places": 104,
    "goenka": 14,
    "traditions": {
     "goenka-vipassana": 14,
@@ -28863,6 +29235,7 @@
     "soto-zen": 6,
     "ramakrishna-order": 5,
     "christian-mysticism": 5,
+    "kashmir-shaivism": 5,
     "tibetan": 4,
     "zen": 4,
     "hindu": 4,
@@ -28906,7 +29279,6 @@
     "drikung-kagyu": 1,
     "hesychasm": 1,
     "cistercian": 1,
-    "kashmir-shaivism": 1,
     "trika": 1
    },
    "goenka_sites": 6
@@ -28953,6 +29325,21 @@
    }
   },
   {
+   "code": "AU",
+   "name": "Australia",
+   "places": 16,
+   "goenka": 8,
+   "traditions": {
+    "goenka-vipassana": 8,
+    "thai-forest": 5,
+    "gelug": 1,
+    "tibetan": 1,
+    "mahayana": 1,
+    "kashmir-shaivism": 1
+   },
+   "goenka_sites": 2
+  },
+  {
    "code": "FR",
    "name": "France",
    "places": 16,
@@ -28974,20 +29361,6 @@
     "carmelite": 1
    },
    "goenka_sites": 5
-  },
-  {
-   "code": "AU",
-   "name": "Australia",
-   "places": 15,
-   "goenka": 8,
-   "traditions": {
-    "goenka-vipassana": 8,
-    "thai-forest": 5,
-    "gelug": 1,
-    "tibetan": 1,
-    "mahayana": 1
-   },
-   "goenka_sites": 2
   },
   {
    "code": "LK",
@@ -29138,6 +29511,18 @@
    "goenka_sites": 1
   },
   {
+   "code": "CH",
+   "name": "Switzerland",
+   "places": 4,
+   "goenka": 1,
+   "traditions": {
+    "thai-forest": 1,
+    "anthroposophy": 1,
+    "goenka-vipassana": 1,
+    "kashmir-shaivism": 1
+   }
+  },
+  {
    "code": "CR",
    "name": "Costa Rica",
    "places": 4,
@@ -29161,23 +29546,26 @@
    "goenka_sites": 2
   },
   {
+   "code": "RU",
+   "name": "Russia",
+   "places": 4,
+   "goenka": 1,
+   "traditions": {
+    "hesychasm": 2,
+    "christian-mysticism": 2,
+    "goenka-vipassana": 1,
+    "kashmir-shaivism": 1,
+    "trika": 1
+   },
+   "goenka_sites": 5
+  },
+  {
    "code": "NZ",
    "name": "New Zealand",
    "places": 3,
    "goenka": 1,
    "traditions": {
     "thai-forest": 2,
-    "goenka-vipassana": 1
-   }
-  },
-  {
-   "code": "CH",
-   "name": "Switzerland",
-   "places": 3,
-   "goenka": 1,
-   "traditions": {
-    "thai-forest": 1,
-    "anthroposophy": 1,
     "goenka-vipassana": 1
    }
   },
@@ -29214,18 +29602,6 @@
    }
   },
   {
-   "code": "RU",
-   "name": "Russia",
-   "places": 3,
-   "goenka": 1,
-   "traditions": {
-    "hesychasm": 2,
-    "christian-mysticism": 2,
-    "goenka-vipassana": 1
-   },
-   "goenka_sites": 5
-  },
-  {
    "code": "IE",
    "name": "Ireland",
    "places": 2,
@@ -29246,6 +29622,17 @@
     "plum-village": 1,
     "zen": 1,
     "goenka-vipassana": 1
+   },
+   "goenka_sites": 1
+  },
+  {
+   "code": "PT",
+   "name": "Portugal",
+   "places": 2,
+   "goenka": 0,
+   "traditions": {
+    "advaita": 1,
+    "kashmir-shaivism": 1
    },
    "goenka_sites": 1
   },
@@ -29307,16 +29694,6 @@
    "goenka": 0,
    "traditions": {
     "early-suttas": 2
-   },
-   "goenka_sites": 1
-  },
-  {
-   "code": "PT",
-   "name": "Portugal",
-   "places": 1,
-   "goenka": 0,
-   "traditions": {
-    "advaita": 1
    },
    "goenka_sites": 1
   },

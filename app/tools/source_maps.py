@@ -1,6 +1,6 @@
 # Shared id maps for integrating ../sources/<group>/ into the app (used by tools/merge-sources.py and tools/build-clips.py).
 # Reviewed by hand 2026-10-20. Edit here, then re-run the merge command in BRIEF.md.
-import os
+import os, json
 
 def groups(src):
     """Sourcing groups that are finished (REPORT.md written), in a stable order."""
@@ -325,6 +325,19 @@ KEEPER_ALIAS_REDIRECTS = {  # short slugs people reach for (seen 404 after batch
 }
 KEEPER_PLACE_MERGE = {'dhamma-khetta2': 'dhamma-khetta'}   # same centre, same dhamma.org page text; schkhetta (1976) kept
 # India study bad URLs, applied wherever these places exist (none of them are in the live data on 2026-10-20)
+# staged packs may carry reviewed keeper fixes (sources/<ext group>/keeper-fixes.json: people, edges, places, place_merge), first used by
+# ext-49-trika-complete (2026-10-31). Only finished groups (REPORT.md) count; hand-kept entries above win on a clash.
+def _pack_keeper_fixes():
+    src = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'sources')
+    for g in groups(src):
+        f = os.path.join(src, g, 'keeper-fixes.json')
+        if not os.path.exists(f): continue
+        k = json.load(open(f)); v = k.get('verified_on')
+        for pid, fix in (k.get('people') or {}).items(): KEEPER_PEOPLE.setdefault(pid, {**fix, **({'verified_on': v} if v else {})})
+        for e in k.get('edges') or []: KEEPER_EDGES.append({'match': tuple(e['match']), 'set': e['set']})
+        for pid, fix in (k.get('places') or {}).items(): KEEPER_PLACES.setdefault(pid, {**fix, **({'verified_on': v} if v else {})})
+        for old, new in (k.get('place_merge') or {}).items(): KEEPER_PLACE_MERGE.setdefault(old, new)
+_pack_keeper_fixes()
 KEEPER_URL_BAN = {'trimbakeshwar.org': None, 'kamakhyatemple.org': 'https://maakamakhya.org', 'ltwa.net': 'https://tibetanlibrary.org'}
 # cited URLs that moved (practices/texts read straight from sources/deep-*): old -> current official page
 # India study places removed before merge (reason recorded in the review queue). Schema requires an ISO-3166 alpha-2 country.

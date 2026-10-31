@@ -1,0 +1,83 @@
+{
+ "_note": "ext-49 reviewed corrections, applied by tools/apply-keeper-fixes.py through source_maps (keys mirror KEEPER_PEOPLE / KEEPER_EDGES / KEEPER_PLACES / KEEPER_PLACE_MERGE).",
+ "verified_on": "2026-10-31",
+ "people": {
+  "john-hughes": {
+   "role": "teacher",
+   "bio": "Student of Swami Lakshmanjoo who recorded his lectures; designated by him in 1991, with Denise Hughes, to continue publishing his teachings (Universal Shaiva Fellowship). Editor-in-chief of the Lakshmanjoo Academy and a leader of its study retreats.",
+   "source_url": "https://www.lakshmanjooacademy.org/about",
+   "links": {
+    "Website": "https://www.lakshmanjooacademy.org/"
+   },
+   "confidence": "high"
+  },
+  "swami-ram-kashmir": {
+   "bio": "Kashmiri Śaiva master (1852–1914 per the Lakshmanjoo Academy; Wikipedia gives 1854–1915), initiated by Swami Manakak; he revived study of the Śaiva texts and was the root of Lakshmanjoo’s modern line.",
+   "source_url": "https://www.lakshmanjooacademy.org/swami-lakshmanjoo",
+   "confidence": "high"
+  },
+  "swami-mahtab-kak": {
+   "bio": "Chief disciple of Swami Ram and teacher of Swami Lakshmanjoo (1870–1942).",
+   "source_url": "https://en.wikipedia.org/wiki/Lakshman_Joo",
+   "confidence": "medium"
+  },
+  "swami-shankarananda": {
+   "bio": "American-born teacher (b. 1942) in the Nityananda–Muktananda line who teaches meditation, Self-inquiry and Kashmir Śaivism at The Ashram, Mount Eliza (Australia). In 2015 he admitted sexual relationships with members of his ashram community; see the place’s public safety record.",
+   "source_url": "https://en.wikipedia.org/wiki/Shankarananda_(Shiva_Yoga)",
+   "confidence": "high"
+  }
+ },
+ "edges": [
+  {
+   "match": [
+    "swami-lakshmanjoo",
+    "bettina-baumer"
+   ],
+   "set": {
+    "type": "teacher_of",
+    "conf": "high",
+    "src": "https://www.utpaladeva.in/home",
+    "note": "Initiated into the tradition by Swami Lakshman Joo in 1987 (her own site).",
+    "checked": "2026-10-31"
+   }
+  },
+  {
+   "match": [
+    "swami-rudrananda",
+    "swami-khecaranatha"
+   ],
+   "set": {
+    "type": "teacher_of",
+    "conf": "high",
+    "src": "https://www.heartofc.org/centers",
+    "note": "Initiated as a teacher by Rudi on 10 May 1972.",
+    "checked": "2026-10-31"
+   }
+  }
+ ],
+ "places": {
+  "anuttara-trika-kula-varanasi": {
+   "name": "Anuttara Trika Kula: the continuing circle of the late Mark Dyczkowski (Varanasi / online)",
+   "description": "The circle and archive of Mark Dyczkowski (1951–2025, died in Varanasi 2 February 2025): his recorded Tantrāloka, Spanda and Śiva Sūtra courses and free lectures, and online Tantrāloka Reading Circles led since 5 April 2026 by his students Arjun Seernels and Brian Campbell.",
+   "source_url": "https://www.anuttaratrikakula.org/reading-circles/",
+   "confidence": "high"
+  },
+  "deer-park-bir": {
+   "traditions": [
+    "tibetan",
+    "kashmir-shaivism"
+   ],
+   "source_url": "https://www.deerpark.in/program-details",
+   "confidence": "high"
+  },
+  "ishwar-ashram-srinagar": {
+   "lat": 34.1289254,
+   "lng": 74.8792393,
+   "coord_precision": "site (OSM node 1795367771 \"Ishwar Ashram\", Nishat)",
+   "confidence": "high"
+  }
+ },
+ "place_merge": {
+  "ishber-ashram": "ishwar-ashram-srinagar"
+ }
+}

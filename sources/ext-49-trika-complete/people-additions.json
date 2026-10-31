@@ -1,0 +1,424 @@
+{
+ "_note": "ext-49 Trika complete (2026-10-31). Every record read on its source_url that day. Scholars are role scholar; no living flag is set (years \"b. YYYY\" only where the source states it).",
+ "people": [
+  {
+   "id": "shambhunatha",
+   "name": "Śambhunātha",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "trika",
+   "years": "10th c.",
+   "bio": "Kaula master from Jālandhara whom Abhinavagupta names as his most admired guru; through him (and his consort as dūtī) Abhinavagupta received Kaula initiation, the Ardha-tryambaka line.",
+   "aliases": [
+    "sambhunatha",
+    "shambhunatha",
+    "śambhunātha"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Abhinavagupta",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "short": "Shambhunatha"
+  },
+  {
+   "id": "bhutiraja",
+   "name": "Bhūtirāja",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "years": "10th c.",
+   "bio": "One of the teachers Abhinavagupta names in his own works; he taught him in the dualist/nondualist Śaiva school and was the father of two scholars.",
+   "aliases": [
+    "bhutiraja",
+    "bhūtirāja"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Abhinavagupta",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "short": "Bhutiraja"
+  },
+  {
+   "id": "bhatta-narayana",
+   "name": "Bhaṭṭa Nārāyaṇa (Kashmir)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "years": "late 9th–early 10th c.",
+   "bio": "Kashmiri Śaiva poet of the Stavacintāmaṇi, a devotional hymn to Śiva and his power on which Kṣemarāja wrote a commentary; not the dramatist of the Veṇīsaṃhāra.",
+   "aliases": [
+    "bhatta narayana",
+    "bhattanarayana",
+    "stavacintamani"
+   ],
+   "works": [],
+   "source_url": "https://buddhism.lib.ntu.edu.tw/search/search_detail.jsp?comefrom=authorinfo&seq=379302",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "short": "Bhatta Narayana"
+  },
+  {
+   "id": "lalleshwari",
+   "name": "Lalleshwari (Lal Ded)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "years": "c. 1320–1392 (traditional)",
+   "bio": "Fourteenth-century Kashmiri mystic of the Kashmir Śaiva school whose vakhs (sayings) are among the earliest poems in Kashmiri; revered by Hindus and Muslims alike and linked by tradition with Nund Rishi and the Rishi order.",
+   "aliases": [
+    "lal ded",
+    "lalla",
+    "lalleshvari",
+    "lal dyad",
+    "lalla yogishwari"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Lal_Ded",
+   "verified_on": "2026-10-31",
+   "confidence": "high",
+   "wikidata": "Q2667861",
+   "short": "Lal Ded"
+  },
+  {
+   "id": "shivopadhyaya",
+   "name": "Śivopādhyāya",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "bio": "Late Kashmiri commentator whose commentary completes Kṣemarāja’s on the Vijñāna Bhairava Tantra in the Kashmir Series of Texts and Studies edition (1918).",
+   "aliases": [
+    "shivopadhyaya",
+    "sivopadhyaya",
+    "śivopādhyāya"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra",
+   "verified_on": "2026-10-31",
+   "confidence": "medium",
+   "short": "Shivopadhyaya"
+  },
+  {
+   "id": "swami-manakak",
+   "name": "Swami Manakak (Manas Ram Mongra)",
+   "kind": "figure",
+   "role": "figure",
+   "tradition": "kashmir-shaivism",
+   "years": "19th c.",
+   "bio": "Kashmiri master recognised around 1860 who initiated Swami Ram, the root of Swami Lakshmanjoo’s modern line (Lakshmanjoo Academy).",
+   "aliases": [
+    "swami manakak",
+    "manas ram mongra",
+    "mana kak"
+   ],
+   "works": [],
+   "source_url": "https://www.lakshmanjooacademy.org/swami-lakshmanjoo",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "maheshwar-nath-razdan",
+   "name": "Pandit Maheshwar Nath Razdan",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "bio": "Kashmiri pandit under whom the young Lakshmanjoo studied Sanskrit and Śaiva philosophy from 1926 to 1933.",
+   "aliases": [
+    "maheshwar nath razdan"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Lakshman_Joo",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
+   "id": "isabelle-ratie",
+   "name": "Isabelle Ratié",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "pratyabhijna",
+   "years": "b. 1976",
+   "bio": "French historian of Indian philosophy, Professor at the Collège de France (chair of the History of Indian Systems of Thought, 2025); her work on the Pratyabhijñā and on lost fragments of Utpaladeva’s Vivṛti includes Le Soi et l’Autre (Brill 2011) and Utpaladeva on the Power of Action (HOS 2021).",
+   "aliases": [
+    "isabelle ratie",
+    "ratié"
+   ],
+   "links": {
+    "Website": "https://www.college-de-france.fr/en/person/isabelle-ratie"
+   },
+   "works": [],
+   "source_url": "https://www.college-de-france.fr/en/person/isabelle-ratie",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "raffaele-torella",
+   "name": "Raffaele Torella",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "pratyabhijna",
+   "bio": "Italian philologist of Sapienza University of Rome; his critical edition and annotated translation of Utpaladeva’s Īśvarapratyabhijñākārikā gave the first complete text of the author’s Vṛtti, from a manuscript he found in Trivandrum.",
+   "aliases": [
+    "raffaele torella"
+   ],
+   "links": {
+    "Profile": "https://www.associazioneitalianadistudisanscriti.org/members/raffaele-torella/"
+   },
+   "works": [],
+   "source_url": "https://iris.uniroma1.it/handle/11573/155566",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "john-nemec",
+   "name": "John Nemec",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "pratyabhijna",
+   "bio": "Professor of Religious Studies at the University of Virginia; his two volumes The Ubiquitous Śiva edit and translate Somānanda’s Śivadṛṣṭi, the first work of the Pratyabhijñā school.",
+   "aliases": [
+    "john nemec"
+   ],
+   "links": {
+    "Website": "https://religiousstudies.as.virginia.edu/john-nemec"
+   },
+   "works": [],
+   "source_url": "https://religiousstudies.as.virginia.edu/john-nemec",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "david-peter-lawrence",
+   "name": "David Peter Lawrence",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "pratyabhijna",
+   "bio": "Philosopher of religion at the University of North Dakota; author of Rediscovering God with Transcendental Argument (SUNY 1999), a study of the Pratyabhijñā of Utpaladeva and Abhinavagupta.",
+   "aliases": [
+    "david lawrence",
+    "david peter lawrence"
+   ],
+   "works": [],
+   "source_url": "https://sunypress.edu/Contributors/L/Lawrence-David-Peter",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "jurgen-hanneder",
+   "name": "Jürgen Hanneder",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "years": "b. 1964",
+   "bio": "German Indologist, Professor of Indology and Tibetology at Philipps-Universität Marburg, where he directs research on the intellectual history of Kashmir; his doctorate edited Abhinavagupta’s Mālinīślokavārttika (Abhinavagupta’s Philosophy of Revelation, 1998).",
+   "aliases": [
+    "jurgen hanneder",
+    "juergen hanneder"
+   ],
+   "links": {
+    "Website": "https://www.uni-marburg.de/en/fb10/languages-literatures/fields-of-study/indo/adwl-mainz"
+   },
+   "works": [],
+   "source_url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Hanneder",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "lyne-bansat-boudon",
+   "name": "Lyne Bansat-Boudon",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "bio": "French Indologist, directrice d’études émérite at the École pratique des hautes études (religious sciences); doctoral supervisor of Isabelle Ratié.",
+   "aliases": [
+    "lyne bansat-boudon",
+    "bansat-boudon"
+   ],
+   "works": [],
+   "source_url": "https://www.ephe.psl.eu/lyne-bansat-boudon",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "kanti-chandra-pandey",
+   "name": "Kanti Chandra Pandey",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "bio": "Lucknow scholar known for “discovering” Abhinavagupta for modern scholarship (Abhinavagupta: An Historical and Philosophical Study); he founded the Abhinavagupta Institute of Aesthetics and Śaiva Philosophy at the University of Lucknow.",
+   "aliases": [
+    "k.c. pandey",
+    "k. c. pandey",
+    "kc pandey"
+   ],
+   "works": [],
+   "source_url": "https://www.lkouniv.ac.in/en/page/abhinavgupt-institute-of-aesthetics-and-shaiva-philosophy",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "navjivan-rastogi",
+   "name": "Navjivan Rastogi",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "krama",
+   "years": "b. 1939",
+   "bio": "Lucknow scholar of Abhinavagupta in K.C. Pandey’s line; his Krama Tantricism of Kashmir (1979) was the first study of the Krama system, followed by Introduction to the Tantrāloka (1986). Padma Shri 2024.",
+   "aliases": [
+    "navjivan rastogi",
+    "navjeevan rastogi"
+   ],
+   "works": [],
+   "source_url": "https://www.padmaawards.gov.in/Document/pdf/CitationsForTickets/2024/2024103.pdf",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "raniero-gnoli",
+   "name": "Raniero Gnoli",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "trika",
+   "years": "1930–2025",
+   "bio": "Italian Indologist and historian of religion who taught at Rome (1964–2000) and translated Abhinavagupta’s Tantrāloka into Italian, besides many other Śaiva and Buddhist texts.",
+   "aliases": [
+    "raniero gnoli"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Raniero_Gnoli",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "baljinath-pandit",
+   "name": "Baljinath Pandit (B. N. Pandit)",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "years": "1916–2007",
+   "bio": "Kashmiri Sanskrit scholar and authority on Kashmir Śaivism, professor at Himachal Pradesh University and author of History of Kashmir Śaivism (1989) and Specific Principles of Kashmir Śaivism.",
+   "aliases": [
+    "b.n. pandit",
+    "b. n. pandit",
+    "balajinnatha pandita"
+   ],
+   "works": [],
+   "source_url": "https://en.wikipedia.org/wiki/Baljinath_Pandit",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "sadananda-das",
+   "name": "Sadananda Das",
+   "kind": "figure",
+   "role": "scholar",
+   "tradition": "kashmir-shaivism",
+   "bio": "Sanskrit scholar (PhD Pune) who has taught Sanskrit and Kashmir Śaivism at Leipzig University since 2005 and co-leads Kashmir Śaiva retreat seminars with Bettina Bäumer at Deer Park Institute, Bir.",
+   "aliases": [
+    "sadananda das"
+   ],
+   "links": {
+    "Profile": "https://www.ts-adyar.org/dr-sadananda-das-0"
+   },
+   "works": [],
+   "source_url": "https://www.ts-adyar.org/dr-sadananda-das-0",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "george-barselaar",
+   "name": "George Barselaar",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "kashmir-shaivism",
+   "bio": "Student of Swami Lakshmanjoo who teaches the Lakshmanjoo Academy’s online study retreats with John and Denise Hughes.",
+   "aliases": [
+    "george barselaar"
+   ],
+   "links": {
+    "Website": "https://www.lakshmanjooacademy.org/"
+   },
+   "works": [],
+   "source_url": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "denise-hughes",
+   "name": "Denise Hughes",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "kashmir-shaivism",
+   "bio": "Student of Swami Lakshmanjoo whom he designated, with John Hughes, to continue publishing his teachings; teaches the Lakshmanjoo Academy’s online study retreats.",
+   "aliases": [
+    "denise hughes"
+   ],
+   "links": {
+    "Website": "https://www.lakshmanjooacademy.org/"
+   },
+   "works": [],
+   "source_url": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "alka-tyagi",
+   "name": "Alka Tyagi",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "kashmir-shaivism",
+   "bio": "Delhi University professor, poet and Satyananda-trained yoga teacher who teaches Trika texts (Pratyabhijñāhṛdayam, Vijñāna Bhairava) online and in retreats through Tantravimarśa; author of Bhairava and Bhāvanā.",
+   "aliases": [
+    "alka tyagi"
+   ],
+   "links": {
+    "Website": "https://tantravimarsha.com/"
+   },
+   "works": [],
+   "source_url": "https://tantravimarsha.com/contact",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "gabriel-pradipaka",
+   "name": "Gabriel Pradīpaka",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "kashmir-shaivism",
+   "years": "b. 1963",
+   "bio": "Argentine-born teacher of Trika based in Moscow; founder of Parabhairavayoga (2016) and of the Sanskrit & Trika Shaivism website. He names Muktananda as his guru and Lakshmanjoo as his Trika guru.",
+   "aliases": [
+    "gabriel pradipaka",
+    "gabriel pradiipaka",
+    "pradipaka"
+   ],
+   "links": {
+    "Website": "https://www.sanskrit-trikashaivism.com/",
+    "Parabhairavayoga": "https://www.parabhairavayoga.org/"
+   },
+   "works": [],
+   "source_url": "https://www.sanskrit-trikashaivism.com/en/about-us",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "swami-chetanananda-tmc",
+   "name": "Swami Chetanananda (The Movement Center)",
+   "kind": "figure",
+   "role": "teacher",
+   "tradition": "kashmir-shaivism",
+   "bio": "American teacher, successor of Swami Rudrananda (Rudi) after 1973 and founder of the Nityananda Institute, now The Movement Center (Oregon); teaches eyes-open meditation and the Śiva Sūtras and chairs the Institute for Śaiva and Tantric Studies. Not the Ramakrishna monk of the same name.",
+   "aliases": [
+    "swami chetanananda rudi",
+    "michael shoemaker"
+   ],
+   "links": {
+    "Website": "https://chetanananda.org/",
+    "The Movement Center": "https://www.themovementcenter.com/"
+   },
+   "works": [],
+   "source_url": "https://chetanananda.org/about",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  }
+ ]
+}

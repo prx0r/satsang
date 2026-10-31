@@ -359,3 +359,16 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   mcp/test.mjs all passed; test-client all passed live; phone crawl 513 routes (419 standard + 78 new places + new tradition/listing pages):
   0 real findings (favicon.svg 404 on static pages, pre-existing: OPEN-THREADS S31). Screens 390 px + desktop checked.
 - Workspace: work/pe-satsang -> work/_archive/pe-satsang. Not touched: DNS, switch-domain.sh, D1 seeds, engine/, search index (S32). Spend US$0.
+
+## Trika complete (2026-10-31 ~09:25-10:05 +07: wiser-web daec752e, wiser-mcp 912792ed)
+- Pack `sources/ext-49-trika-complete` (REPORT.md has the full lists): 23 people, 14 lineage edges, 11 places / teaching circles,
+  5 programmes, 3 years fixes, 1 place-level safety record (the-ashram-mount-eliza), keeper fixes. Trika people 42 -> 65 (scholars 10 -> 22),
+  Trika places 12 -> 23; site totals: people 764, places 963 (ishber-ashram merged into ishwar-ashram-srinagar, 301), edges 534 (+keeper).
+- Code: merge-sources keeps a sourced `role` on ext people (scholar vs teacher); source_maps loads `sources/<ext>/keeper-fixes.json`
+  into KEEPER_PEOPLE/EDGES/PLACES/PLACE_MERGE; apply-keeper-fixes keeps an edge fix's own `checked` date.
+- Contacts: place-contacts.py dropped 12 previously-read places whose sites are unreachable from the cache; restored from HEAD, and
+  unchanged entries keep their old `checked` date (the script re-stamps cached reads with today).
+- Checks: check-data 0 errors (1 known warning rob-burbea); open-data schema validated in build; transcript guards 0; mcp/test.mjs all
+  passed; live: 47 new/changed /place, /person, /tradition pages 200 with no undefined/NaN; /place/ishber-ashram 301. The puppeteer phone
+  crawl and screenshots could not run: headless Chromium gets 407 from the sandbox proxy (curl works); not retried further.
+- Not touched: DNS, switch-domain.sh, D1, engine/, search index (S32), chat. Spend US$0.

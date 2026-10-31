@@ -1,0 +1,307 @@
+{
+ "_note": "ext-49 Trika places and teaching circles (2026-10-31). Each place read on its official site that day; coordinates from OSM (Nominatim) for published addresses only.",
+ "places": [
+  {
+   "id": "tantra-illuminated",
+   "name": "Tantra Illuminated (Christopher Hareesh Wallis), online and Portugal",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "PT",
+   "country_name": "Portugal",
+   "city": "Online; retreats in Portugal and abroad",
+   "url": "https://www.tantrailluminated.org/",
+   "schedule_url": "https://www.tantrailluminated.org/calendar",
+   "url_checked": "2026-10-31",
+   "description": "Christopher Wallis’s online school of classical Tantra (founded 2019): weekly live teaching, textual courses such as the Spanda-kārikā, and in-person retreats.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "founded": 2019,
+   "language": "en",
+   "teacher_ids": [
+    "christopher-wallis"
+   ],
+   "source_url": "https://www.tantrailluminated.org/christopher-hareesh-wallis",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "tantravimarsha",
+   "name": "Tantravimarśa (Alka Tyagi), online and India",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Online; retreats in India",
+   "url": "https://tantravimarsha.com/",
+   "schedule_url": "https://tantravimarsha.com/retreats-workshops/",
+   "contact_page": "https://tantravimarsha.com/contact",
+   "url_checked": "2026-10-31",
+   "description": "Alka Tyagi’s online courses on Trika scriptures (Pratyabhijñāhṛdayam on Wednesdays in 2026) plus workshops and retreats joining text study with practice.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "language": "en",
+   "teacher_ids": [
+    "alka-tyagi"
+   ],
+   "source_url": "https://tantravimarsha.com/retreats-workshops/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "the-movement-center",
+   "name": "The Movement Center (Swami Chetanananda), Oregon",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Gold Beach / Wedderburn, Oregon",
+   "url": "https://www.themovementcenter.com/",
+   "contact_page": "https://www.themovementcenter.com/",
+   "url_checked": "2026-10-31",
+   "description": "Swami Chetanananda’s community, formerly the Nityananda Institute; he sits with students five nights a week in Gold Beach and teaches the Śiva Sūtras online (e-TMC Academy).",
+   "offers": [
+    "meditation",
+    "online courses"
+   ],
+   "language": "en",
+   "teacher_ids": [
+    "swami-chetanananda-tmc"
+   ],
+   "source_url": "https://chetanananda.org/programs/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "the-ashram-mount-eliza",
+   "name": "The Ashram Mount Eliza (Swami Shankarananda)",
+   "type": "ashram",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "AU",
+   "country_name": "Australia",
+   "city": "Mount Eliza, Victoria",
+   "lat": -38.2042764,
+   "lng": 145.0834954,
+   "coord_precision": "address (27 Tower Road, OSM node 12420303049)",
+   "url": "https://www.theashram.com.au/",
+   "contact_page": "https://www.theashram.com.au/contact/",
+   "url_checked": "2026-10-31",
+   "description": "Residential ashram (est. 1996) in the Nityananda–Muktananda line, formerly the Shiva Ashram; weekly satsang, meditation, Self-inquiry groups and study of Kashmir Śaivism.",
+   "offers": [
+    "satsang",
+    "meditation",
+    "retreats",
+    "online"
+   ],
+   "founded": 1996,
+   "language": "en",
+   "teacher_ids": [
+    "swami-shankarananda"
+   ],
+   "source_url": "https://www.theashram.com.au/mount-eliza-ashram/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "jaya-kula",
+   "name": "Jaya Kula (Shambhavi Sarasvati), Portland",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Portland, Oregon",
+   "lat": 45.5141931,
+   "lng": -122.658192,
+   "coord_precision": "address (1215 SE 8th Ave, OSM way 368310755)",
+   "url": "https://jayakula.org/",
+   "schedule_url": "https://jayakula.org/",
+   "contact_page": "https://jayakula.org/",
+   "url_checked": "2026-10-31",
+   "description": "Nonprofit community practising Trika Shaivism and Dzogchen under Shambhavi Sarasvati; satsang, retreats and livestreamed teachings from Matrika House.",
+   "offers": [
+    "satsang",
+    "retreats",
+    "online"
+   ],
+   "language": "en",
+   "teacher_ids": [
+    "shambhavi-sarasvati"
+   ],
+   "source_url": "https://jayakula.org/",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "heart-of-consciousness",
+   "name": "Heart of Consciousness (Swami Khecaranatha): Nityakash, Maui and Rudrakash, Richmond",
+   "type": "retreat-centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Maui, Hawaii and Richmond, California",
+   "url": "https://www.heartofc.org/",
+   "contact_page": "https://www.heartofc.org/centers",
+   "url_checked": "2026-10-31",
+   "description": "Swami Khecaranatha’s community in the Nityananda–Rudi line: Nityakash retreat centre on Maui (since 2020) and Rudrakash in Richmond, California, with weekly eyes-open meditation.",
+   "offers": [
+    "meditation classes",
+    "retreats",
+    "immersions"
+   ],
+   "language": "en",
+   "teacher_ids": [
+    "swami-khecaranatha"
+   ],
+   "source_url": "https://www.heartofc.org/AboutUs",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "blue-throat-yoga",
+   "name": "Blue Throat Yoga (Paul Muller-Ortega)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "US",
+   "country_name": "United States",
+   "city": "Online and retreats",
+   "url": "https://www.bluethroatyoga.com/",
+   "url_checked": "2026-10-31",
+   "description": "School of meditation and study founded in 2006 by Paul Muller-Ortega on the nondual Śākta-Śaiva teaching of Abhinavagupta; Neelakantha Meditation, retreats and a study curriculum.",
+   "offers": [
+    "online courses",
+    "retreats"
+   ],
+   "founded": 2006,
+   "language": "en",
+   "teacher_ids": [
+    "paul-muller-ortega"
+   ],
+   "source_url": "https://www.bluethroatyoga.com/about-paul-muller-ortega",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "daniel-odier-seminars",
+   "name": "Daniel Odier: seminars in Kashmir Shaiva Tantra (Europe)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "CH",
+   "country_name": "Switzerland",
+   "city": "Itinerant: Switzerland, France, Germany, Italy, Spain",
+   "url": "https://danielodier.com/en/home",
+   "schedule_url": "https://danielodier.com/en/seminars-list",
+   "url_checked": "2026-10-31",
+   "description": "Weekend workshops and residential seminars on the Vijñāna Bhairava and Kaula practices, which he says he received from the yoginī Lalitā Devī; no fixed centre.",
+   "offers": [
+    "workshops",
+    "residential seminars"
+   ],
+   "language": "fr",
+   "teacher_ids": [
+    "daniel-odier"
+   ],
+   "source_url": "https://danielodier.com/en/home",
+   "verified_on": "2026-10-31",
+   "confidence": "high"
+  },
+  {
+   "id": "parabhairavayoga",
+   "name": "Parabhairavayoga (Gabriel Pradīpaka)",
+   "type": "organisation",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "RU",
+   "country_name": "Russia",
+   "city": "Online (founder based in Moscow)",
+   "url": "https://www.parabhairavayoga.org/",
+   "url_checked": "2026-10-31",
+   "description": "Foundation for Gabriel Pradīpaka’s Trika teaching (founded 2016), with appointed teachers in several countries and the multilingual Sanskrit & Trika Shaivism site.",
+   "offers": [
+    "online teaching"
+   ],
+   "founded": 2016,
+   "language": "en",
+   "teacher_ids": [
+    "gabriel-pradipaka"
+   ],
+   "source_url": "https://www.parabhairavayoga.org/gurujii",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
+   "id": "trika-in",
+   "name": "Trika School of Tantra / Shivashaktivigyan (Amitabh Ji), Bengaluru",
+   "type": "centre",
+   "traditions": [
+    "kashmir-shaivism",
+    "trika"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Bengaluru (Indiranagar), Karnataka",
+   "lat": 12.9732913,
+   "lng": 77.6404672,
+   "coord_precision": "suburb (Indiranagar; street address on the site)",
+   "url": "https://trika.in/",
+   "url_checked": "2026-10-31",
+   "description": "Amitabh Ji’s school teaching Trika (Kashmir Shaivism) through meditation, Vijñāna Bhairava practice, retreats, yatras and shaktipat, in person and online.",
+   "offers": [
+    "courses",
+    "retreats",
+    "online"
+   ],
+   "language": "en",
+   "teacher_ids": [
+    "amitabh-trika-school"
+   ],
+   "source_url": "https://trika.in/about-us",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  },
+  {
+   "id": "kashmir-shaivism-school-of-yoga",
+   "name": "Kashmir Shaivism School of Yoga, Dharamsala",
+   "type": "retreat-centre",
+   "traditions": [
+    "kashmir-shaivism"
+   ],
+   "country": "IN",
+   "country_name": "India",
+   "city": "Dharamsala, Himachal Pradesh",
+   "url": "https://ksschoolofyoga.com/",
+   "url_checked": "2026-10-31",
+   "description": "Yoga teacher-training school founded by Kashmiri yogacharyas; besides asana courses it runs programmes solely on Kashmir Śaivism (Spanda, Vijñāna Bhairava), in person and online.",
+   "offers": [
+    "yoga teacher training",
+    "Kashmir Shaivism courses"
+   ],
+   "language": "en",
+   "teacher_ids": [],
+   "source_url": "https://ksschoolofyoga.com/about-us/",
+   "verified_on": "2026-10-31",
+   "confidence": "medium"
+  }
+ ]
+}

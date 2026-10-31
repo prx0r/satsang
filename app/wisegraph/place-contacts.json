@@ -1243,14 +1243,6 @@
     "source_url": "https://www.jkrishnamurti.in"
    }
   },
-  "ishber-ashram": {
-   "checked": "2026-10-25",
-   "site": "https://www.ishwarashramtrust.com",
-   "contact_page": {
-    "url": "https://www.ishwarashramtrust.com/contactus.php",
-    "source_url": "https://www.ishwarashramtrust.com"
-   }
-  },
   "gurudev-siddha-peeth": {
    "checked": "2026-10-25",
    "site": "https://www.siddhayoga.org",
@@ -5062,6 +5054,98 @@
     {
      "value": "jerrahi@gmail.com",
      "source_url": "https://jerrahi.com/"
+    }
+   ]
+  },
+  "tantra-illuminated": {
+   "checked": "2026-10-31",
+   "site": "https://www.tantrailluminated.org/",
+   "contact_page": {
+    "url": "https://www.tantrailluminated.org/contact",
+    "source_url": "https://www.tantrailluminated.org/"
+   }
+  },
+  "tantravimarsha": {
+   "checked": "2026-10-31",
+   "site": "https://tantravimarsha.com/",
+   "contact_page": {
+    "url": "https://tantravimarsha.com/contact/",
+    "source_url": "https://tantravimarsha.com/"
+   },
+   "email": [
+    {
+     "value": "tantravimarsha@gmail.com",
+     "source_url": "https://tantravimarsha.com/contact/"
+    }
+   ]
+  },
+  "the-movement-center": {
+   "checked": "2026-10-31",
+   "site": "https://www.themovementcenter.com/",
+   "contact_page": {
+    "url": "https://www.themovementcenter.com/contact",
+    "source_url": "https://www.themovementcenter.com/"
+   },
+   "address": {
+    "value": "1021 NE 33rd Ave., Portland, OR, 97232, US",
+    "source_url": "https://www.themovementcenter.com/contact"
+   }
+  },
+  "jaya-kula": {
+   "checked": "2026-10-31",
+   "site": "https://jayakula.org/",
+   "contact_page": {
+    "url": "https://jayakula.org/contact",
+    "source_url": "https://jayakula.org/"
+   }
+  },
+  "heart-of-consciousness": {
+   "checked": "2026-10-31",
+   "site": "https://www.heartofc.org/",
+   "contact_page": {
+    "url": "https://www.heartofc.org/Contact",
+    "source_url": "https://www.heartofc.org/"
+   },
+   "email": [
+    {
+     "value": "online@heartofc.org",
+     "source_url": "https://www.heartofc.org/Contact"
+    }
+   ]
+  },
+  "blue-throat-yoga": {
+   "checked": "2026-10-31",
+   "site": "https://www.bluethroatyoga.com/",
+   "contact_page": {
+    "url": "https://www.bluethroatyoga.com/contact",
+    "source_url": "https://www.bluethroatyoga.com/"
+   }
+  },
+  "parabhairavayoga": {
+   "checked": "2026-10-31",
+   "site": "https://www.parabhairavayoga.org/",
+   "contact_page": {
+    "url": "https://www.parabhairavayoga.org/contacto",
+    "source_url": "https://www.parabhairavayoga.org/"
+   }
+  },
+  "kashmir-shaivism-school-of-yoga": {
+   "checked": "2026-10-31",
+   "site": "https://ksschoolofyoga.com/",
+   "contact_page": {
+    "url": "https://ksschoolofyoga.com/contact-us/",
+    "source_url": "https://ksschoolofyoga.com/"
+   },
+   "email": [
+    {
+     "value": "info@ksschoolofyoga.com",
+     "source_url": "https://ksschoolofyoga.com/contact-us/"
+    }
+   ],
+   "phone": [
+    {
+     "value": "+919797334752",
+     "source_url": "https://ksschoolofyoga.com/contact-us/"
     }
    ]
   },

@@ -120,6 +120,7 @@ for g in G:
             continue
         if not trad: notes.append(f'person {pid}: no known tradition, skipped'); continue
         q = {'id': pid, 'name': p['name'], 'short': p.get('short'), 'kind': kind, 'tradition': trad, 'wikidata': p.get('wikidata'),
+             'role': p.get('role') if p.get('role') in ('teacher', 'scholar', 'figure', 'translator', 'founder', 'author') else None,  # ext-49: a sourced role (scholar vs teacher) survives the merge
              'years': p.get('years'), 'bio': p.get('bio'), 'tagline': p.get('tagline'), 'aliases': p.get('aliases') or [],
              'channels': p.get('channels') or None, 'links': p.get('links') or None, 'works': p.get('works') or [],
              # living only when the sourcer checked Wikidata (no death date) and the person has a Wikidata item; PEOPLE_FIX can veto

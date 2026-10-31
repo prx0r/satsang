@@ -1,0 +1,78 @@
+{
+ "_note": "ext-49 recurring patterns + official schedule link only; no dated instances.",
+ "programmes": [
+  {
+   "id": "deer-park-kashmir-shaiva-retreat-seminar",
+   "place": "deer-park-bir",
+   "name": "Kashmir Shaiva retreat seminar (Bettina Bäumer and Sadananda Das)",
+   "typical_length": "about 6–8 days",
+   "format": "residential",
+   "cost_model": "unknown",
+   "recurrence": "held in most years (e.g. 2015, 2022, 2023); dates on Bäumer’s site",
+   "schedule_url": "https://www.utpaladeva.in/events-seminars-lectures/upcoming",
+   "teachers": [
+    "bettina-baumer",
+    "sadananda-das"
+   ],
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "samvidalaya-retreat-seminars",
+   "place": "samvidalaya-varanasi",
+   "name": "Retreat seminars on Trika texts with Bettina Bäumer (Varanasi, Himachal, Rishikesh, Srinagar, Bangalore)",
+   "typical_length": "about 5 days",
+   "format": "residential",
+   "cost_model": "unknown",
+   "recurrence": "several a year at changing venues; two text sessions a day, about four hours of meditation, hymn recitation and silence",
+   "schedule_url": "https://www.utpaladeva.in/events-seminars-lectures/upcoming",
+   "teachers": [
+    "bettina-baumer"
+   ],
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "lakshmanjoo-academy-fall-retreat",
+   "place": "lakshmanjoo-academy",
+   "name": "Fall four-day online study retreat, broadcast from Kashmir",
+   "typical_length": "4 days",
+   "format": "online",
+   "cost_model": "fixed",
+   "recurrence": "yearly, after the Mahasamadhi celebration (late Sep / early Oct)",
+   "schedule_url": "https://www.lakshmanjooacademy.org/fall-online-retreat",
+   "teachers": [
+    "john-hughes",
+    "denise-hughes",
+    "george-barselaar"
+   ],
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "tantravimarsha-wednesday-course",
+   "place": "tantravimarsha",
+   "name": "Online course on a Trika text (Wednesdays, 7 pm IST)",
+   "typical_length": "about 24 sessions",
+   "format": "online",
+   "cost_model": "unknown",
+   "recurrence": "yearly cycle (2026: Pratyabhijñāhṛdayam, March–August)",
+   "schedule_url": "https://tantravimarsha.com/retreats-workshops/",
+   "teachers": [
+    "alka-tyagi"
+   ],
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "mount-eliza-weekly-satsang",
+   "place": "the-ashram-mount-eliza",
+   "name": "Weekly satsang, meditation and Self-inquiry groups",
+   "typical_length": "evening",
+   "format": "drop-in",
+   "cost_model": "unknown",
+   "recurrence": "weekly",
+   "schedule_url": "https://www.theashram.com.au/mount-eliza-ashram/",
+   "teachers": [
+    "swami-shankarananda"
+   ],
+   "checked": "2026-10-31"
+  }
+ ]
+}

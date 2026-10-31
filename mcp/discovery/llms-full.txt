@@ -1,6 +1,6 @@
 # Satsang
 
-> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 184 traditions and schools, 727 teachers, scholars and historical figures with 1,122 documented lineage and influence links, 953 places to practise in 51 countries (contacts exactly as each place publishes them, 421 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-25.
+> Satsang (tantrafiles.xyz) is an open, citable directory of the world's wisdom traditions: 184 traditions and schools, 750 teachers, scholars and historical figures with 1,136 documented lineage and influence links, 963 places to practise in 51 countries (contacts exactly as each place publishes them, 429 checked against the place's own site), 407 texts and books (115 free from their publishers), 85 practices with cautions, 68 topics compared across traditions and 9,986 talks from official uploads. Metadata only; videos play on YouTube; transcripts are never published. Data built 2026-10-31.
 
 Licence: Satsang's curation is CC BY 4.0 (credit "Satsang, tantrafiles.xyz"); code is MIT. Third-party records (places, texts, talks) are metadata pointing at their sources, under those sources' terms. Wikidata ids are CC0.
 
@@ -544,13 +544,13 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 # Places by country
 
 - GB: 347 places (Amaravati Buddhist Monastery; Chithurst Buddhist Monastery; Aruna Ratanagiri; Hartridge Buddhist Monastery; International Meditation Centre Splatts House; Gaia House; Jamyang Buddhist Centre; Kagyu Samye Ling; ...)
-- IN: 235 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
-- US: 100 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
+- IN: 237 places (Global Vipassana Pagoda; Tushita Meditation Centre; Root Institute; Tsuglagkhang complex (Namgyal Monastery); Library of Tibetan Works and Archives; Sera Jey Monastery; Namdroling Monastery; Rumtek Monastery; ...)
+- US: 104 places (Abhayagiri Buddhist Monastery; Mettā Forest Monastery; Insight Meditation Society; Barre Center for Buddhist Studies; Spirit Rock Meditation Center; Insight Meditation Center; Insight Meditation Community of Washington; Cloud Mountain Retreat Center; ...)
 - NP: 32 places (Panditarama Lumbini International Vipassana Meditation Center; Kopan Monastery; Tergar Osel Ling Monastery; Ka-Nying Shedrub Ling; Nagi Gompa; Boudhanath; Swayambhunath; Lumbini; ...)
 - MM: 31 places (Pa-auk Monastery; Mahasi Sasana Yeiktha; Chanmyay Yeiktha Meditation Centre; Panditarama Shwe Taung Gon; Dhammasukha Monastery; International Meditation Centre Inya Myaing; Ledi Tawya Monastery; Shwedagon Pagoda; ...)
 - TH: 27 places (Wat Nong Pa Phong; Wat Pah Nanachat; Wat Dhammasathit; Wat Asokaram; Wat Pa Ban Tat; Wat Pa Sutthawat; Wat Hin Mak Peng; Wat Suan Mokkh; ...)
+- AU: 16 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; Nan Tien Temple; The Ashram Mount Eliza (Swami Shankarananda); ...)
 - FR: 16 places (Lerab Ling; Plum Village Monastery; Maison de l'Inspir; Taizé Community; Grande Chartreuse; Château du Prieuré; Centre Védantique Ramakrichna; Bonnevaux (WCCM international centre); ...)
-- AU: 15 places (Bodhinyana Monastery; Dhammasara Nuns Monastery; Jhana Grove Meditation Retreat; Dhammaloka Buddhist Centre; Bodhivana Monastery; Chenrezig Institute; Nan Tien Temple; ...)
 - LK: 15 places (Island Hermitage; Forest Hermitage Udawattakele; Buddhist Publication Society; Nissaraṇa Monastery; Nā Uyana Monastery; Hillside Hermitage; Sri Maha Bodhi; Temple of the Tooth; ...)
 - JP: 14 places (Antai-ji Temple; Eihei-ji Temple; Sōji-ji Temple; Engaku-ji Temple; Myōshin-ji Temple; Daitoku-ji Temple; Mount Koya (Kongobuji); Kuon-ji (Minobusan); ...)
 - CN: 11 places (Sera Monastery (Lhasa); Drepung Monastery; Ganden Monastery; Tsurphu Monastery; Jokhang; Potala Palace; Samye; Shaolin Monastery; ...)
@@ -562,23 +562,23 @@ Between the world of the senses and the world of pure ideas lies a third: the im
 - KR: 6 places (Haeinsa; Songgwangsa; Tongdosa; Musangsa International Zen Center; Templestay (Cultural Corps of Korean Buddhism))
 - DE: 5 places (Muttodaya; European Institute of Applied Buddhism; Predigerkirche Erfurt)
 - TW: 5 places (Fo Guang Shan Monastery; Dharma Drum Mountain World Center for Buddhist Education; Chung Tai Chan Monastery)
+- CH: 4 places (Kloster Dhammapala; Goetheanum; Daniel Odier: seminars in Kashmir Shaiva Tantra (Europe))
 - CR: 4 places (Blue Spirit Costa Rica; Bodhi Tree Yoga Resort; Anamaya Resort)
 - MY: 4 places (Malaysian Buddhist Meditation Centre; Sasanarakkha Buddhist Sanctuary; Brahma Vihari Meditation Centre (Penang))
+- RU: 4 places (Valaam Monastery; Optina Pustyn; Parabhairavayoga (Gabriel Pradīpaka))
 - NZ: 3 places (Bodhinyanarama Monastery; Vimutti Monastery)
-- CH: 3 places (Kloster Dhammapala; Goetheanum)
 - EG: 3 places (Saint Catherine Monastery; Nag Hammadi; Coptic Museum)
 - PL: 3 places (Jakob Böhme House; Vihara Pod Lasem)
 - ID: 3 places ()
-- RU: 3 places (Valaam Monastery; Optina Pustyn)
 - IE: 2 places (Dzogchen Beara; Glenstal Abbey)
 - VN: 2 places (Từ Hiếu pogoda)
+- PT: 2 places (Monte Sahaja; Tantra Illuminated (Christopher Hareesh Wallis), online and Portugal)
 - AR: 2 places ()
 - CO: 2 places ()
 - IL: 2 places (Bahá'í World Centre (Shrine of the Báb))
 - KH: 2 places ()
 - PE: 2 places (Temple of the Way of Light)
 - SI: 2 places (Hillside Hermitage Slovenija; Samanadipa)
-- PT: 1 places (Monte Sahaja)
 - AT: 1 places ()
 - BE: 1 places ()
 - CL: 1 places ()
