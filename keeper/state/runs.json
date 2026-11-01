@@ -1,21 +1,21 @@
 {
  "bundle": {
-  "at": "2026-10-25T09:15:15Z",
+  "at": "2026-11-01T11:23:42Z",
   "cadence": "weekly",
-  "ms": 196,
+  "ms": 204,
   "failing": 0,
   "passed": 0,
   "checked": 2,
   "sizes": {
    "site": {
-    "raw": 3456939,
-    "gzip": 712170,
+    "raw": 3557308,
+    "gzip": 729214,
     "files": 23,
     "basis": "estimate from tracked inputs (build output absent; KV-served files excluded)"
    },
    "mcp": {
-    "raw": 7145163,
-    "gzip": 1100706,
+    "raw": 7276695,
+    "gzip": 1125963,
     "files": 17,
     "basis": "estimate (data + src + discovery)"
    }
@@ -57,9 +57,9 @@
   "total": 2090
  },
  "links": {
-  "at": "2026-11-01T10:49:25Z",
-  "cadence": "daily",
-  "ms": 2485,
+  "at": "2026-11-01T11:23:46Z",
+  "cadence": "weekly",
+  "ms": 4039,
   "failing": 1,
   "passed": 382,
   "checked": 383,
@@ -78,35 +78,35 @@
   "total": 9777
  },
  "perf": {
-  "at": "2026-10-25T09:15:18Z",
+  "at": "2026-11-01T11:23:47Z",
   "cadence": "weekly",
-  "ms": 437,
+  "ms": 693,
   "failing": 0,
   "passed": 0,
   "checked": 5,
   "perf": {
    "/": {
-    "ttfb": 25,
-    "weight": 713819,
+    "ttfb": 42,
+    "weight": 715342,
     "assets": 2
    },
    "/topic/rebirth": {
-    "ttfb": 16,
-    "weight": 715755,
+    "ttfb": 18,
+    "weight": 717278,
     "assets": 2
    },
    "/person/ajahn-chah": {
-    "ttfb": 11,
-    "weight": 715591,
+    "ttfb": 17,
+    "weight": 717114,
     "assets": 2
    },
    "/place/amaravati": {
-    "ttfb": 16,
+    "ttfb": 21,
     "weight": 9165,
     "assets": 0
    },
    "/agents": {
-    "ttfb": 12,
+    "ttfb": 17,
     "weight": 12508,
     "assets": 0
    }
@@ -135,18 +135,18 @@
   "checked": 18
  },
  "sitemap": {
-  "at": "2026-11-01T06:01:57Z",
-  "cadence": "hourly",
-  "ms": 3933,
+  "at": "2026-11-01T11:24:21Z",
+  "cadence": "weekly",
+  "ms": 34036,
   "failing": 0,
-  "passed": 128,
-  "checked": 120,
+  "passed": 2272,
+  "checked": 2264,
   "total": 2264
  },
  "uptime": {
-  "at": "2026-11-01T06:01:58Z",
-  "cadence": "hourly",
-  "ms": 903,
+  "at": "2026-11-01T11:24:21Z",
+  "cadence": "weekly",
+  "ms": 345,
   "failing": 0,
   "passed": 12,
   "checked": 12
