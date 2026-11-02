@@ -22,44 +22,44 @@
   }
  },
  "integrity": {
-  "at": "2026-11-01T10:47:08Z",
+  "at": "2026-11-02T11:39:56Z",
   "cadence": "daily",
-  "ms": 157,
+  "ms": 156,
   "failing": 7,
   "passed": 0,
   "checked": 2849
  },
  "jsonld": {
-  "at": "2026-11-01T10:47:09Z",
+  "at": "2026-11-02T11:39:57Z",
   "cadence": "daily",
-  "ms": 1050,
+  "ms": 893,
   "failing": 0,
   "passed": 45,
   "checked": 45
  },
  "leaks": {
-  "at": "2026-11-01T10:47:14Z",
+  "at": "2026-11-02T11:40:03Z",
   "cadence": "daily",
-  "ms": 5290,
+  "ms": 5681,
   "failing": 0,
   "passed": 0,
   "checked": 1186,
   "grams": 0
  },
  "linkrot": {
-  "at": "2026-11-01T10:49:22Z",
+  "at": "2026-11-02T11:44:21Z",
   "cadence": "daily",
-  "ms": 128091,
-  "failing": 17,
-  "passed": 671,
+  "ms": 258186,
+  "failing": 24,
+  "passed": 668,
   "checked": 700,
-  "unknown": 12,
+  "unknown": 8,
   "total": 2090
  },
  "links": {
-  "at": "2026-11-01T11:23:46Z",
-  "cadence": "weekly",
-  "ms": 4039,
+  "at": "2026-11-02T11:44:24Z",
+  "cadence": "daily",
+  "ms": 3233,
   "failing": 1,
   "passed": 382,
   "checked": 383,
@@ -67,9 +67,9 @@
   "pages": 48
  },
  "oembed": {
-  "at": "2026-11-01T10:55:47Z",
+  "at": "2026-11-02T11:50:47Z",
   "cadence": "daily",
-  "ms": 381952,
+  "ms": 382290,
   "failing": 69,
   "passed": 2431,
   "checked": 2500,
@@ -113,9 +113,9 @@
   }
  },
  "provenance": {
-  "at": "2026-11-01T10:55:47Z",
+  "at": "2026-11-02T11:50:47Z",
   "cadence": "daily",
-  "ms": 137,
+  "ms": 160,
   "failing": 221,
   "passed": 0,
   "checked": 2490,
@@ -127,9 +127,9 @@
   }
  },
  "robots": {
-  "at": "2026-11-01T10:55:47Z",
+  "at": "2026-11-02T11:50:47Z",
   "cadence": "daily",
-  "ms": 252,
+  "ms": 313,
   "failing": 0,
   "passed": 14,
   "checked": 18
