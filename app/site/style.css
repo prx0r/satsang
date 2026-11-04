@@ -1813,3 +1813,6 @@ body.tv-on #toast{display:none}
 
 /* phone: grid tiles never widen the page (long names wrap) */
 .wgrid>*{min-width:0}.wtile .wtt{min-width:0;overflow-wrap:anywhere}
+/* featured tradition row + journal rail (2026-11-04): existing tokens only */
+.fy-feat .wsech h3,.fy-journal .wsech h3{white-space:normal}
+.fy-jnote{margin:0 0 12px;max-width:72ch}

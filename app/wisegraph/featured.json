@@ -1,0 +1,71 @@
+{
+ "_note": "Featured tradition (owner, 2026-11-04: Trika front and centre, no redesign). Hand-curated order; tools/build-featured.py resolves it into site/data/wisegraph/featured.json (best talks by gold tier + score, names, safety filter). Anyone with a person-level public safety record is dropped by the builder, never shown here. Satsang's own words only.",
+ "tradition": "kashmir-shaivism",
+ "label": "Trika · Kashmir Shaivism",
+ "line": "The non-dual tantra of Kashmir: the world as the free play of consciousness, recognised as your own self.",
+ "people": [
+  {
+   "id": "swami-lakshmanjoo",
+   "talks": 3,
+   "note": "The last master of the oral lineage"
+  },
+  {
+   "id": "christopher-wallis",
+   "talks": 2,
+   "note": "Translator and teacher of the Vijñāna Bhairava"
+  },
+  {
+   "id": "mark-dyczkowski",
+   "talks": 1,
+   "note": "Scholar-practitioner of the Trika and Krama"
+  },
+  {
+   "id": "abhinavagupta",
+   "note": "The tradition's great synthesiser"
+  },
+  {
+   "id": "utpaladeva",
+   "note": "Author of the Recognition teaching"
+  },
+  {
+   "id": "kshemaraja",
+   "note": "Abhinavagupta's disciple and commentator"
+  },
+  {
+   "id": "bettina-baumer",
+   "talks": 1,
+   "note": "Scholar of the Vijñāna Bhairava and Recognition"
+  },
+  {
+   "id": "john-hughes",
+   "note": "Lakshmanjoo's student, who recorded and publishes his teachings"
+  },
+  {
+   "id": "alexis-sanderson",
+   "talks": 1,
+   "note": "The field's leading historian"
+  }
+ ],
+ "series": [
+  "kashmir-shaivism-first-steps",
+  "vbt-foundations",
+  "kashmir-shaivism-first-syllabus",
+  "trika-prep-week"
+ ],
+ "texts": [
+  "shiva-sutras",
+  "vijnana-bhairava",
+  "pratyabhijnahrdayam",
+  "paratrishika-vivarana",
+  "isvara-pratyabhijna-vimarshini"
+ ],
+ "places": [
+  "ishwar-ashram-srinagar",
+  "lakshmanjoo-academy",
+  "kashmir-shaiva-institute-jammu",
+  "samvidalaya-varanasi",
+  "anuttara-trika-kula-varanasi",
+  "tantra-illuminated"
+ ],
+ "foryou_cold": 4
+}

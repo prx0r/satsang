@@ -1,8 +1,11 @@
 # Satsang: the awakening algorithm (spec v1, 2026-11-04)
 
-> **Status (2026-11-04):** **not started** as a feature. Shipped with this spec: a slice-1 proof only
-> (`tools/awaken/journal-signals.mjs` + `test-journal-signals.mjs`, 10 tests, local, no UI, no deploy). Interfaces for the
-> scholar track: `specs/INTERFACES-TRACK-A.md` + `specs/interfaces/*.schema.json`. Owner questions: §13.
+> **Status (2026-11-04, later the same day):** **slice 1 shipped** (wiser-web 07aaf856): `app/src/journal.js` (the proof's pure
+> functions moved into the app; `tools/awaken/journal-signals.mjs` now re-exports them), Your model → "Read my journal",
+> journal intents in For You with "Because you wrote about X (day N)", the "From your journal" rail with safety states,
+> "Not this" (30-day mute) and "Stop reading my journal". Tests: `tools/awaken/test-journal-signals.mjs` (10) +
+> `test-journal-rail.mjs` (9, spec tests 11–16). Source: the GitHub fallback (§4.1). Phases 2–5 not started.
+> Content loop (journal → essay → video → channel → For You): `specs/JOURNAL-TO-VIDEO.md`. Owner defaults: §13.
 
 Owner's intent (2026-11-04, paraphrased): everything built so far becomes one algorithm for awakening. The owner writes a
 journal (nibbanahelp); Satsang reads it and serves what is most spiritually **urgent** for this person right now (talks,
@@ -105,7 +108,8 @@ Schema: `specs/interfaces/satsang-ingest.schema.json`.
 An item is shown only if: `review.gate == PASS`, `review.status ∈ {REVIEWED, ACCEPTED}` (MACHINE_DRAFT is held: owner
 question 2), the licence passes `app/tools/licence_gate.py` rules (link-only for all-rights-reserved, embed only if
 `embeddable`), every `people` id resolves and none is a held teacher (`redflags.json` person subjects + HELD_MAIN), every
-`topics` id exists, and `tradition` resolves. Failures go to `wisegraph/review-queue.json` with the reason, like every other
+`topics` id exists, and `tradition` resolves. **Owner default (2026-11-04):** gate-PASS items still marked MACHINE_DRAFT are
+shown too, always labelled "draft translation"; REVIEWED/ACCEPTED items carry no label. Failures go to `wisegraph/review-queue.json` with the reason, like every other
 pack. No item text is rehosted; Satsang stores the record and links out.
 
 ### 3.3 Where they surface in B
@@ -128,8 +132,11 @@ with `provenance.basis: SOURCE_ATTESTED|PEDAGOGICAL`; `needs_review` nodes never
   origins. Item: `{id: "<diarist>/<kind>/<slug>", url, date_published, date_modified, title, content_text, _nibbana:
   {kind: entry|essay|tension, day, status, domain, roots, summary, visibility: "public"}}`. This is nibbanahelp's lane:
   Satsang asks for it, does not build it there.
-- **Until then**: the public GitHub repo is the feed (contents API → `entries/`, `essays/`, `tensions/` markdown, header
-  blocks as schema; journey start from `/journeys.json`). The proof reads a local clone.
+- **Until then** (what shipped): the public GitHub repo is the feed: one `api.github.com` tree call + `raw.githubusercontent.com`
+  files (both CORS-open) → `entries/`, `essays/`, `tensions/` markdown, header blocks as schema. `/journeys.json` sends no CORS
+  header, so the journey start is inferred from the earliest tension `opened` date (tensions open on day 1). No change was
+  made in nibbanahelp: its AGENTS.md says "do not restructure without asking" and a feed would need its generated-site and
+  Worker pipeline, so `/feed.json` stays a request for its owner (Satsang already reads it when it exists: `parseSource`).
 - **Consent**: Satsang reads a journal only when its owner pastes the feed URL (or handle) into Your model → "Read my
   journal". Satsang never crawls anyone's journal on its own, and never reads `visibility: private` items even if served.
 
@@ -368,6 +375,9 @@ Slice 1 UI (to write with the feature):
 ---
 
 ## 13. Open questions for the owner
+**Defaults taken 2026-11-04 (the owner did not answer; reversible):** (1) the journal profile stays on the device, no sync;
+(2) reviewed translations plus gate-PASS machine drafts clearly labelled "draft translation"; (3) content and video requests
+come from the owner only, behind his approval. The questions as first asked:
 1. **Where the journal profile lives**: device-only first (the browser reads the public feed; recommended), or also
    synced so it follows you across devices?
 2. **Machine drafts from track A**: may Satsang show gate-PASS items still marked MACHINE_DRAFT, labelled "draft

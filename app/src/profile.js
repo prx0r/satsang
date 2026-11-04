@@ -68,7 +68,7 @@ export function createProfile(d) {
     const t = d.taste()
     return { schema: SITE_BASE + '/schema/profile.json', exported: now(), who: 'device', taste: t ? d.tasteJSON(t) : null, saves: saves(), practice: practiceLog(), journeys: journeys(),
       votes: d.votes().map((v) => ({ a: v.a, b: v.b, winner: v.winner, context: v.context || null, at: v.createdAt })), resonates: Object.entries(d.resonates()).map(([clip, x]) => ({ clip, ...x })),
-      works: LS.get('works', {}), notForMe: obj('notForMe'), intentions: LS.get('intentions', null), feed: { less: arr('feedLess'), more: arr('feedMore'), seen: obj('feedSeen') }, visibility: { profile: 'private', taste: 'private', practice: 'private', curations: 'private' } }
+      works: LS.get('works', {}), notForMe: obj('notForMe'), intentions: LS.get('intentions', null), journal: LS.get('journal', null), journalMute: LS.get('journalMute', null), feed: { less: arr('feedLess'), more: arr('feedMore'), seen: obj('feedSeen') }, visibility: { profile: 'private', taste: 'private', practice: 'private', curations: 'private' } }
   }
   function download() {
     const blob = new Blob([JSON.stringify(exportLocal(), null, 2)], { type: 'application/json' }), a = document.createElement('a')
@@ -76,7 +76,7 @@ export function createProfile(d) {
     const P = practiceLog(); if (P.length) { const csv = 'at,practice,minutes,quality,note\n' + P.map((p) => [p.at, p.practice, p.minutes, p.quality || '', JSON.stringify(p.note || '')].join(',')).join('\n'); const b2 = new Blob([csv], { type: 'text/csv' }), a2 = document.createElement('a'); a2.href = URL.createObjectURL(b2); a2.download = 'wiser-practice-log.csv'; document.body.appendChild(a2); a2.click(); setTimeout(() => { URL.revokeObjectURL(a2.href); a2.remove() }, 500) }
   }
   async function forget() {
-    for (const k of ['saves', 'practice', 'journeys', 'flashNone', 'flashSkips', 'notForMe', 'votes', 'resonates', 'partials', 'passes', 'skips', 'skipped', 'seen', 'shown', 'queue', 'watches', 'works', 'intentions', 'feedLess', 'feedMore', 'feedSeen']) localStorage.removeItem('wiser.' + k)
+    for (const k of ['saves', 'practice', 'journeys', 'flashNone', 'flashSkips', 'notForMe', 'votes', 'resonates', 'partials', 'passes', 'skips', 'skipped', 'seen', 'shown', 'queue', 'watches', 'works', 'intentions', 'journal', 'journalMute', 'feedLess', 'feedMore', 'feedSeen']) localStorage.removeItem('wiser.' + k)
     if (d.apiOn() && !d.signedIn()) await d.api('/me/forget-device', { method: 'POST', body: { device: d.device() } }).catch(() => {})
   }
 
@@ -104,6 +104,7 @@ export function createProfile(d) {
         <p class="muted small" style="margin-top:12px"><button type="button" class="linkbtn" data-reset="1">Reset my taste</button></p>`
         : `<p class="muted">After a few picks in the Topic flash, the traditions and topics that resonate with you appear here.</p><p><a class="btn gold" href="#">Start a Topic flash</a></p>`}</section>
       ${d.intentions ? d.intentions().section() : ''}
+      ${d.journal ? d.journal().section() : ''}
       ${jin.length ? `<section class="wsec"><div class="wsech"><h3>Journeys in progress</h3></div><div class="pprog">${jin.map(({ c, j }) => `<article class="pprg"><span>${esc(KIND[c.kind] || 'Collection')} \u00b7 ${j.done.length} of ${c.units.length} done</span><b>${esc(c.title)}</b><p>${esc(c.units.find((u) => !j.done.includes(u.n))?.title || 'Finished')}</p><a class="btn" href="#collection/${esc(c.id)}">${j.done.length >= c.units.length ? 'Look back' : 'Resume'}</a></article>`).join('')}</div></section>` : ''}
       <section class="wsec"><div class="wsech"><h3>Practice</h3><span class="muted small">${P.length ? `${month} ${month === 1 ? 'sit' : 'sits'} this month \u00b7 ${fmtH(mins)} in all` : ''}</span></div>
         ${P.length ? `<p class="fl-week" aria-label="Days practised this week">${week.map((x) => `<span class="${x.on ? 'on' : ''}" title="${esc(x.d)}">${esc(x.l)}</span>`).join('')}</p>
@@ -118,6 +119,7 @@ export function createProfile(d) {
     el.querySelectorAll('[data-nfm]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); const N = obj('notForMe'); N[b.dataset.nfm] = true; LS.set('notForMe', N); d.onTaste?.(); paint(el); d.toast('Noted. Less of that.') }))
     el.querySelector('[data-reset]')?.addEventListener('click', () => { if (!confirm('Reset your taste? Your picks stay in your history; Satsang forgets what it learned from them.')) return; LS.set('tasteReset', now()); d.onTaste?.(); paint(el) })
     d.intentions?.().bind(el, () => paint(el))
+    d.journal?.().bind(el, () => paint(el))
     el.querySelector('[data-dl]')?.addEventListener('click', download)
     el.querySelector('[data-del]')?.addEventListener('click', async () => { if (!confirm('Delete your taste, saves, practice log, journeys and history from this device' + (d.apiOn() ? ' and from Satsang\u2019s servers' : '') + '? This cannot be undone.')) return; await forget(); d.onTaste?.(); paint(el); d.toast('Deleted.') })
   }

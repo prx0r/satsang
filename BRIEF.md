@@ -13,10 +13,10 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web ea484597 (2026-11-04) |
+| Site | https://tantrafiles.xyz (www too) | wiser-web 07aaf856 (2026-11-04) |
 | API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
-| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 0996b4d7 (2026-11-04) |
-| Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat c4914eeb |
+| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 5ce47506 (2026-11-04) |
+| Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat bf32b244 (2026-11-04) |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
 | Practice engine preview (/sit/, /breath/, /play/) | https://engine.tantrafiles.xyz/sit/ | satsang-engine-preview (not on the main site) |
 
@@ -24,7 +24,15 @@ satsang.digital is prepared but **not active**: its nameservers at Porkbun must 
 runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
 
 ## Current state in one screen
-- Catalogue: 9,986 talks (official uploads only), gold tier 246 / strong 1,198 / standard 8,542, 22 series, 85 practices,
+- **Featured tradition: Trika / Kashmir Shaivism** (owner, 2026-11-04; no redesign). Curated in `app/wisegraph/featured.json`
+  (order: Lakshmanjoo, Wallis, Dyczkowski, Abhinavagupta, Utpaladeva, Kṣemarāja, Bäumer, John Hughes, Sanderson; 4 series,
+  5 texts, 6 places), resolved by `app/tools/build-featured.py` (best talks by gold tier; anyone with a safety record dropped)
+  into `site/data/wisegraph/featured.json`. Shows as a Featured row on Watch (under the Topic flash), the first 4 cards of a
+  cold-start For You, a Featured strip atop Teachers; "Kashmir Shaivism: first steps" is the featured series in its topic.
+- **Journal → For You (awakening algorithm slice 1)**: Your model → "Read my journal" (a public GitHub journal or a JSON feed),
+  concerns computed on the device only (`wiser.journal`, never synced), a "From your journal" rail + why-lines. Content loop
+  (journal → essay → video → @svatantryart → For You): `specs/JOURNAL-TO-VIDEO.md`, first run files in gitignored `private/`.
+- Catalogue: 9,986 talks (official uploads only), gold tier 246 / strong 1,198 / standard 8,542 (full gold rebuild 2026-11-04 accepted: ext-49 drift), 22 series, 85 practices,
   963 places with crawlable pages (ext-49 Trika round 2026-10-31: +11, ishber-ashram merged) (78 from the 2026-10-25 discovery batch; 9 marked "details unverified"; place-level safety
   records shown like person ones), 184 tradition nodes, open data dumps, events keeper (weekly).
 - Nav: Watch · Topics · Teachers · Places · Practise · Ask; For you / Your model / Charts / All series in the account menu.
@@ -40,11 +48,12 @@ cd app && sh deploy.sh build && sh deploy.sh guard && sh deploy.sh ship   # site
 sh deploy.sh api | mcp | chat | search                                   # the other Workers
 cd .. && python3 tools/check/check-data.py && sh tools/check/crawl-run.sh  # data checks + phone route crawl
 node app/tools/test-practice-engine.mjs                                  # practice data + engine checks
+node tools/awaken/test-journal-signals.mjs && node tools/awaken/test-journal-rail.mjs   # journal slice (10 + 9)
 sh tools/release/release.sh "<msg>"                                      # commit + push prx0r/satsang (engine/ left out)
 RELEASE_ENGINE=1 RELEASE_ONLY=engine sh tools/release/release.sh "engine: <msg>"   # engine/ in its own commit
 ```
 Data pipeline order after catalogue changes: build-collections.py → build-gold.py → mini_courses_src.py → build-collections.py
-→ build-gold.py → build-catalog.py → deploy (site, mcp, chat, search).
+→ build-gold.py → build-catalog.py → deploy (site, mcp, chat, search). build-featured.py runs inside `deploy.sh build`.
 Places pipeline (new places = a `sources/ext-*/places-ext.json` pack): merge-sources.py → place-contacts.py → apply-keeper-fixes.py →
 build-wise.py → deploy build/guard/ship + mcp. Safety records live in `sources/*/redflags-public.json` (subject `person/<id>` or
 `place/<id>`); merge-sources keeps records added by hand to wisegraph/redflags.json. Engine tests: `cd engine && node tools/test-compile.mjs &&
@@ -65,7 +74,7 @@ node tools/test-text-to-practice.mjs && node tools/test-sit.mjs && python3 tools
 
 ## Doc map
 - `README.md` layout + deploy · `OPEN-THREADS.md` open work · `MERGE-LOG.md` history.
-- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), SIT-PLAYER,
+- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), JOURNAL-TO-VIDEO, SIT-PLAYER,
   TEXT-TO-PRACTICE, SERIES-FORMULA, PLACES-TODO, PLACES-REVIEW. `specs/extensions/` = merge records.
 - `search/README.md` (lens Worker), `mcp/README.md`, `chat/README.md`, `keeper/README.md`, `engine/README.md`.
 - `_archive/` old briefs and one-off reports; `archive/` Funnier-era code.

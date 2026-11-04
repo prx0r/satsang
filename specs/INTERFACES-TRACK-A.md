@@ -54,8 +54,8 @@ One JSON file per repo at a stable public URL (suggested, change if you prefer a
 - **`level`**: `first-steps` (no background needed), `steady` (some practice or reading), `deep` (assumes the system).
 - **`safety`**: required for `practice` and `chant`; `needs_teacher` / `initiation_required` make Satsang show it as
   orientation plus where it is taught, never as a script.
-- **`review`**: Satsang shows an item only when `gate` is `PASS` and `status` is `REVIEWED` or `ACCEPTED`. `MACHINE_DRAFT`
-  items may be exported (Satsang counts them as "coming") but are not shown until the owner decides otherwise.
+- **`review`**: Satsang shows an item only when `gate` is `PASS`. `REVIEWED` / `ACCEPTED` items show plainly; `MACHINE_DRAFT`
+  items show labelled "draft translation" (owner default 2026-11-04). BLOCKED items never show.
 - **`rights`**: `licence` is one of `FREE`, an SPDX id (`CC-BY-4.0`, `CC-BY-NC-4.0` …), or `ALL-RIGHTS-RESERVED`. Scholar
   words (© their authors) are `ALL-RIGHTS-RESERVED` and are link-only in Satsang. `embeddable: false` means link out only.
 - **`media`** (video/audio): `{ "url", "host": "r2|youtube|other", "duration_s", "captions_url"?, "poster"? }`. Satsang plays

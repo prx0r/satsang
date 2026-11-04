@@ -58,7 +58,7 @@ C.append({'id': 'remembering-past-lives', 'title': 'Past lives: what the texts s
   ],
   'deeper': [D('bodhinyana', 'Ajahn Brahm\'s monastery in Western Australia, known for teaching deep calm.'), D('abhayagiri', 'Thai forest monastery in California with retreats and long stays.')]})
 
-C.append({'id': 'kashmir-shaivism-first-steps', 'title': 'Kashmir Shaivism: first steps', 'topic': 'texts/tantra', 'tradition': 'hindu', 'school': 'kashmir-shaivism',
+C.append({'id': 'kashmir-shaivism-first-steps', 'title': 'Kashmir Shaivism: first steps', 'featured': True, 'topic': 'texts/tantra', 'tradition': 'hindu', 'school': 'kashmir-shaivism',
   'traditions': ['kashmir-shaivism'], 'level': 'first-steps', 'minutes': 95,
   'intro': 'The non-dual tantra of Kashmir in five talks: how its last great master taught meditation, what tantra really is, why the world is not an illusion, and the Recognition teaching. Two short practices from the tradition\'s own texts.',
   'units': [

@@ -76,7 +76,7 @@ export function rankFeed(X, k = 120) {
   // the why line, from the biggest honest reason
   const whyOf = (s) => {
     const c = s.c, P = s.parts
-    if (P.intent > 0.12 && s.itw) return `On your mind: ${s.itw.label}`
+    if (P.intent > 0.12 && s.itw) return s.itw.why || `On your mind: ${s.itw.label}` // journal intents carry their own why (src/journal.js)
     if (P.theme >= 0.07 && X.theme) return X.theme.why
     if (s.pubAge <= 7) return 'New this week'
     if (!cold) {

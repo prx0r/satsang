@@ -397,3 +397,27 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   test-journal-signals.mjs (10/10, synthetic posts). tools/awaken/out/ gitignored (derived personal data, never committed).
 - Proof on the live journal: rules alone ranked the journal's constant theme first; need-kind weights + standing-theme damping put the open
   tension knots on top. Precision unmeasured until the owner labels a set (spec test 17). OPEN-THREADS S38.
+
+## Trika featured + journal slice 1 + content-loop spec (2026-11-04 night +07: wiser-web 07aaf856, wiser-mcp 5ce47506, satsang-chat bf32b244)
+- Trika front and centre (owner; no redesign, existing classes only): `app/wisegraph/featured.json` (curated) → `app/tools/build-featured.py`
+  (runs in deploy.sh build; fails on unknown ids; drops anyone with a person-level safety record, places with a place record or
+  details_unverified) → `site/data/wisegraph/featured.json`: 9 people (Lakshmanjoo, Wallis, Dyczkowski, Abhinavagupta, Utpaladeva,
+  Kṣemarāja, Bäumer, John Hughes, Sanderson), 8 talks (all gold), 4 series, 5 texts, 6 places. `src/featured.js`: a Featured row on
+  Watch (#featrow, under the Topic flash), the first 4 cards of a cold-start For You ("Featured: Trika · <teacher>"), a Featured strip
+  at the top of Teachers. "Kashmir Shaivism: first steps" now `featured` in its topic (texts/tantra had none). Shankarananda skipped
+  (safety record); Muktananda / Rudrananda not featured.
+- Gold: full rebuild accepted (owner: fine given the Trika focus). Gold 246 unchanged (0 in / 0 out). Strong 1,198: 60 swapped
+  (27 of the 60 ins are virtual passages). Up: Ñāṇamoli +39 (−6 down, net +33), Wallis +6 ("What is nonduality?", VBT verses 22–24,
+  VBT practice video #1, "The Blossoming of Awareness" v1, emotions/framing, the ego), Sanderson +3, Krishnamurti/Suzuki/Holm/Balsekar/
+  Pasanno/Sumedho +2 each. Down: Tara Brach −9, Thanissaro −5, Mingyur −4, Sarvapriyananda/Warner −3, ~20 others −1/−2. Deterministic (re-run identical).
+- Journal slice 1 (AWAKENING-ALGORITHM phase 1): `app/src/journal.js` (pure functions from the proof + GitHub/feed fetch + Your model
+  section + rail), wired in foryou.js (journal intents, rail on #foryou and the Watch rail), feedrank.js (intent why), profile.js
+  (Download my data / Delete everything), app.js. Device only, no sync. GitHub fallback: nibbanahelp unchanged (its AGENTS.md layout
+  rule; /journeys.json has no CORS, start inferred from tension `opened`). Guards: deploy.sh guard + secret-scan block a journal payload,
+  tools/awaken/out/ and /private/. Tests 10/10 + 9/9. Local headless run on the built dist with the live journal (GitHub stubbed from a
+  clone): rail + why-lines render, no undefined/NaN, no page errors.
+- Content loop spec `specs/JOURNAL-TO-VIDEO.md` (channel state, 8 steps, artefacts + ids, owners, approvals, privacy, rights) and
+  run-001 files in gitignored private/ (question, passage pack, essay outline, tantrasara chapter stub + its builder's dry-run storyboard).
+- Checks: check-data 0 errors (1 known warning), practice-engine 813/813, transcript guards 0, mcp test all passed, chat 15/15; live
+  /, /data/wisegraph/featured.json, /person/swami-lakshmanjoo, /tradition/kashmir-shaivism, /place/ishwar-ashram-srinagar 200, no
+  undefined/NaN. Live phone screenshot still blocked (S37). Spend US$0. Not touched: DNS, D1, engine/, search index, nibbanahelp, YouTube.

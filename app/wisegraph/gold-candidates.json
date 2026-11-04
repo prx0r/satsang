@@ -192,7 +192,7 @@
 "title": "Plotinus on the descent of the soul into the body",
 "min": 11,
 "views": 866,
-"s": 0.4995,
+"s": 0.5206,
 "judged": false
 },
 {
@@ -201,7 +201,7 @@
 "title": "Rudolf Steiner's vision of humanity's destined future",
 "min": 11,
 "views": 46639,
-"s": 0.4749,
+"s": 0.4677,
 "judged": false
 }
 ],
@@ -216,21 +216,30 @@
 "judged": true
 },
 {
+"id": "VHJKQuhhazs",
+"speaker": "ajahn-nyanamoli",
+"title": "The End of Kamma",
+"min": 33,
+"views": 6200,
+"s": 0.831,
+"judged": false
+},
+{
+"id": "EWFSAFHpx_U@3560",
+"speaker": "ajahn-brahm",
+"title": "Karma (from The Process of Rebirth)",
+"min": 5,
+"views": 146968,
+"s": 0.8528,
+"judged": false
+},
+{
 "id": "AQe27beuyPk",
 "speaker": "dalai-lama",
 "title": "In Conversation with His Holiness Karmapa",
 "min": 44,
 "views": 14000,
 "s": 0.8106,
-"judged": true
-},
-{
-"id": "3M5Fxmq5c9s",
-"speaker": "ajahn-brahm",
-"title": "Meditation Kamma",
-"min": 56,
-"views": 68000,
-"s": 0.8411,
 "judged": true
 },
 {
@@ -268,15 +277,6 @@
 "views": 1300,
 "s": 0.7651,
 "judged": true
-},
-{
-"id": "VHJKQuhhazs",
-"speaker": "ajahn-nyanamoli",
-"title": "The End of Kamma",
-"min": 33,
-"views": 6200,
-"s": 0.7499,
-"judged": false
 }
 ],
 "kamma/karma-yoga": [
@@ -314,15 +314,6 @@
 "min": 19,
 "views": 146,
 "s": 0.4377,
-"judged": false
-},
-{
-"id": "BaExRxj8G1w",
-"speaker": "swami-shankarananda",
-"title": "Work in the World - Satsang with Swami Shankarananda",
-"min": 8,
-"views": 463,
-"s": 0.4312,
 "judged": false
 },
 {
@@ -470,7 +461,7 @@
 "title": "An Afternoon with Nisargadatta: on what does \"I am\" depend?",
 "min": 7,
 "views": 36985,
-"s": 0.7517,
+"s": 0.7765,
 "judged": true
 },
 {
@@ -835,6 +826,15 @@
 "judged": false
 },
 {
+"id": "W6koZHktWU0",
+"speaker": "christopher-wallis",
+"title": "Mahāmrtyuñjaya Mantra ~ Exact Pronunciation",
+"min": 9,
+"views": 5183,
+"s": 0.7161,
+"judged": false
+},
+{
 "id": "wph6RLpSCaE",
 "speaker": "amritananda",
 "title": "Powerful Healing | Nama Trayi Astra Mantra 108 times for Protection, Healing & Curing Great Diseases",
@@ -842,15 +842,6 @@
 "views": 94867,
 "s": 0.6785,
 "judged": true
-},
-{
-"id": "W6koZHktWU0",
-"speaker": "christopher-wallis",
-"title": "Mahāmrtyuñjaya Mantra ~ Exact Pronunciation",
-"min": 9,
-"views": 5183,
-"s": 0.6899,
-"judged": false
 }
 ],
 "meditation/kriya": [
@@ -938,6 +929,15 @@
 "judged": true
 },
 {
+"id": "3qkfhVv6RZc",
+"speaker": "shunryu-suzuki",
+"title": "Genjo Koan — Shunryu Suzuki Roshi — Archived Dharma Talk — Aug. 20, 1967",
+"min": 34,
+"views": 822,
+"s": 0.7495,
+"judged": false
+},
+{
 "id": "aiV8wB6KV2Q",
 "speaker": "joan-halifax",
 "title": "Roshi Joan Reads Dogen's Genjo Koan",
@@ -962,15 +962,6 @@
 "min": 24,
 "views": 3100,
 "s": 0.7029,
-"judged": false
-},
-{
-"id": "dSAbDM10P-U",
-"speaker": "shunryu-suzuki",
-"title": "Genjo Koan Pt. 2— Shunryu Suzuki Roshi — Archived Dharma Talk — Aug. 21, 1967",
-"min": 38,
-"views": 264,
-"s": 0.685,
 "judged": false
 },
 {
@@ -1077,6 +1068,15 @@
 ],
 "meditation/kundalini": [
 {
+"id": "cJ6hm5lzMvM",
+"speaker": "christopher-wallis",
+"title": "Ep 67 ~ The Real Story on Kundalinī",
+"min": 39,
+"views": 7720,
+"s": 0.7383,
+"judged": true
+},
+{
 "id": "hDdzRFDXG4s",
 "speaker": "swami-lakshmanjoo",
 "title": "The Secret of Mātrikā Chakra — So’ham | Weekly Sangha Excerpt #16",
@@ -1084,15 +1084,6 @@
 "views": 1612,
 "s": 0.773,
 "judged": false
-},
-{
-"id": "cJ6hm5lzMvM",
-"speaker": "christopher-wallis",
-"title": "Ep 67 ~ The Real Story on Kundalinī",
-"min": 39,
-"views": 7720,
-"s": 0.712,
-"judged": true
 },
 {
 "id": "klVzl7la-iQ",
@@ -1113,21 +1104,30 @@
 "judged": false
 },
 {
-"id": "tga0EHVTs7E",
-"speaker": "swami-shankarananda",
-"title": "The Experience of Kundalini: Devi Ma Saraswati",
-"min": 13,
-"views": 5299,
-"s": 0.6204,
-"judged": false
-},
-{
 "id": "2y-R8271tgs",
 "speaker": "igor-kufayev",
 "title": "Giving & Receiving Shaktipat",
 "min": 12,
 "views": 12691,
 "s": 0.6102,
+"judged": false
+},
+{
+"id": "KBF5r26Jnow",
+"speaker": "amitabh-trika-school",
+"title": "Navaratri Kundalini Shakti Meditation *VERY POWERFUL*  *NOT BEGINNER FRIENDLY*",
+"min": 55,
+"views": 840,
+"s": 0.5897,
+"judged": false
+},
+{
+"id": "tgLz0xAF8oE@1440",
+"speaker": "dominic-goodall",
+"title": "Kuṇḍalinī (from Kuṇḍalinī in the early Śaivasiddhānta scriptures)",
+"min": 7,
+"views": 1052,
+"s": 0.6054,
 "judged": false
 },
 {
@@ -1138,15 +1138,6 @@
 "views": 60,
 "s": 0.4788,
 "judged": true
-},
-{
-"id": "tgLz0xAF8oE@1440",
-"speaker": "dominic-goodall",
-"title": "Kuṇḍalinī (from Kuṇḍalinī in the early Śaivasiddhānta scriptures)",
-"min": 7,
-"views": 1052,
-"s": 0.5507,
-"judged": false
 }
 ],
 "meditation/hatha": [
@@ -1234,6 +1225,15 @@
 "judged": true
 },
 {
+"id": "2boeVzHNuBY",
+"speaker": "daniel-odier",
+"title": "Introduction to the Kashmiri Mahamudra, to Dzogchen and to the Tibetan Mahamudra",
+"min": 53,
+"views": 37029,
+"s": 0.6584,
+"judged": false
+},
+{
 "id": "jZOnAhSurfk",
 "speaker": "lama-lena",
 "title": "Wangdor Rinpoche Gives Dzogchen Teachings in Tso Pema",
@@ -1249,15 +1249,6 @@
 "min": 5,
 "views": 11000,
 "s": 0.6779,
-"judged": false
-},
-{
-"id": "2boeVzHNuBY",
-"speaker": "daniel-odier",
-"title": "Introduction to the Kashmiri Mahamudra, to Dzogchen and to the Tibetan Mahamudra",
-"min": 53,
-"views": 37029,
-"s": 0.6322,
 "judged": false
 },
 {
@@ -1293,7 +1284,7 @@
 "title": "How are Trika Shaivism and Dzogchen Related",
 "min": 11,
 "views": 141,
-"s": 0.5152,
+"s": 0.5414,
 "judged": false
 }
 ],
@@ -1488,7 +1479,7 @@
 "title": "Ritual and haṭha yoga, part 1 (from Early Haṭhayoga: from Buddhist Tantra to Physical Yoga)",
 "min": 10,
 "views": 11280,
-"s": 0.545,
+"s": 0.5954,
 "judged": false
 }
 ],
@@ -1544,7 +1535,7 @@
 "title": "Vijñāna-bhairava-tantra verse 69 ~ translation and explanation",
 "min": 18,
 "views": 1189,
-"s": 0.5899,
+"s": 0.6161,
 "judged": false
 },
 {
@@ -1553,7 +1544,7 @@
 "title": "Ritual and breath (from The Netra-tantra and its Yogas)",
 "min": 6,
 "views": 2509,
-"s": 0.5753,
+"s": 0.6275,
 "judged": false
 },
 {
@@ -1725,6 +1716,15 @@
 "judged": true
 },
 {
+"id": "JDo2h6JZoTA@528",
+"speaker": "thich-nhat-hanh",
+"title": "Craving (from Meditating on Emptiness, Signlessness & Aimlessness)",
+"min": 7,
+"views": 100408,
+"s": 0.8895,
+"judged": true
+},
+{
 "id": "Mp7gKZ-9rk4",
 "speaker": "swami-lakshmanjoo",
 "title": "How to overcome kāma (desire) and krodha (anger).",
@@ -1759,15 +1759,6 @@
 "views": 23000,
 "s": 0.7798,
 "judged": false
-},
-{
-"id": "JDo2h6JZoTA@528",
-"speaker": "thich-nhat-hanh",
-"title": "Craving (from Meditating on Emptiness, Signlessness & Aimlessness)",
-"min": 7,
-"views": 100408,
-"s": 0.8164,
-"judged": true
 },
 {
 "id": "92ruu0KQKNU",
@@ -2149,13 +2140,13 @@
 "judged": false
 },
 {
-"id": "u7JDXe4VhVA",
-"speaker": "francis-lucille",
-"title": "What is the purpose of this life between birth and death?",
-"min": 10,
-"views": 27000,
-"s": 0.7793,
-"judged": false
+"id": "EWFSAFHpx_U@440",
+"speaker": "ajahn-brahm",
+"title": "Death (from The Process of Rebirth)",
+"min": 7,
+"views": 146968,
+"s": 0.8728,
+"judged": true
 }
 ],
 "death/bardo": [
@@ -2270,6 +2261,15 @@
 "judged": true
 },
 {
+"id": "U3ctqOovPiA",
+"speaker": "christopher-wallis",
+"title": "You Are not at the Mercy of Your Emotions ~ How to use 'Framing' to Change your Life Experience.",
+"min": 37,
+"views": 15930,
+"s": 0.754,
+"judged": false
+},
+{
 "id": "uIMWm5JnNrE",
 "speaker": "ajahn-brahm",
 "title": "No Fear",
@@ -2277,15 +2277,6 @@
 "views": 165000,
 "s": 0.882,
 "judged": true
-},
-{
-"id": "U3ctqOovPiA",
-"speaker": "christopher-wallis",
-"title": "You Are not at the Mercy of Your Emotions ~ How to use 'Framing' to Change your Life Experience.",
-"min": 37,
-"views": 15930,
-"s": 0.7278,
-"judged": false
 }
 ],
 "emotions/anger": [
@@ -2335,6 +2326,15 @@
 "judged": false
 },
 {
+"id": "GrgV9KI5LeI",
+"speaker": "ajahn-nyanamoli",
+"title": "Mindfulness of Breathing and Calming Of Aversion",
+"min": 36,
+"views": 14000,
+"s": 0.846,
+"judged": false
+},
+{
 "id": "guEGCYcxa8M",
 "speaker": "lama-yeshe",
 "title": "Fear, Anger, and Action",
@@ -2350,15 +2350,6 @@
 "min": 5,
 "views": 12000,
 "s": 0.7535,
-"judged": false
-},
-{
-"id": "uDiqREUr_CY",
-"speaker": "ajahn-nyanamoli",
-"title": "On Peripheral Awareness, Uprooting of Anger, Dealing with Displeasure",
-"min": 102,
-"views": 9300,
-"s": 0.819,
 "judged": false
 }
 ],
@@ -2669,13 +2660,13 @@
 "judged": true
 },
 {
-"id": "oiExTtmh_EI",
+"id": "zPmfB2to2sQ",
 "speaker": "ajahn-nyanamoli",
-"title": "Detach from attachments by recognizing their impermanence",
-"min": 37,
-"views": 9400,
-"s": 0.8399,
-"judged": true
+"title": "True Meaning of Anicca",
+"min": 55,
+"views": 10000,
+"s": 0.84,
+"judged": false
 },
 {
 "id": "VomYGABqOCA",
@@ -3371,6 +3362,15 @@
 "judged": false
 },
 {
+"id": "2DOY5B-PH2Y@880",
+"speaker": "nisargadatta-maharaj",
+"title": "The Eternal Satsang: beingness, desire and the idea of God",
+"min": 7,
+"views": 88572,
+"s": 0.8273,
+"judged": false
+},
+{
 "id": "5Dk4EIe-qyk",
 "speaker": "swami-sarvapriyananda",
 "title": "Worship of God in Advaita Vedanta",
@@ -3386,15 +3386,6 @@
 "min": 12,
 "views": 2441491,
 "s": 0.8229,
-"judged": false
-},
-{
-"id": "5rJrs7UO4I8",
-"speaker": "swami-chinmayananda",
-"title": "Faith v/s Belief · Bhagavad Gita Ch.12",
-"min": 6,
-"views": 12000,
-"s": 0.7535,
 "judged": false
 }
 ],
@@ -3492,6 +3483,15 @@
 "judged": true
 },
 {
+"id": "JC4VsSiX50k",
+"speaker": "swami-khecaranatha",
+"title": "When Grace Descends",
+"min": 14,
+"views": 1280,
+"s": 0.6502,
+"judged": false
+},
+{
 "id": "o5WH1mzZl5M",
 "speaker": "dzigar-kongtrul",
 "title": "Grace - LINK Teaching from Dec. 10, 2017 - with Dzigar Kongtrül Rinpoche",
@@ -3507,15 +3507,6 @@
 "min": 12,
 "views": 16271,
 "s": 0.6325,
-"judged": false
-},
-{
-"id": "JC4VsSiX50k",
-"speaker": "swami-khecaranatha",
-"title": "When Grace Descends",
-"min": 14,
-"views": 1280,
-"s": 0.624,
 "judged": false
 },
 {
@@ -3622,6 +3613,15 @@
 "judged": true
 },
 {
+"id": "IvDDugzAgfk@2938",
+"speaker": "alexis-sanderson",
+"title": "Ritual, part 1 (from A Life of Learning, with Christopher Wallis)",
+"min": 6,
+"views": 6587,
+"s": 0.7265,
+"judged": true
+},
+{
 "id": "6mRDp37eC_o",
 "speaker": "justin-sledge",
 "title": "What is Enochian Magic ? The Tools and Rituals that John Dee used to Speak with Angels",
@@ -3647,15 +3647,6 @@
 "views": 51258,
 "s": 0.6653,
 "judged": false
-},
-{
-"id": "IvDDugzAgfk@2938",
-"speaker": "alexis-sanderson",
-"title": "Ritual, part 1 (from A Life of Learning, with Christopher Wallis)",
-"min": 6,
-"views": 6587,
-"s": 0.6933,
-"judged": true
 },
 {
 "id": "rS0Uui2PX0o",
@@ -3840,8 +3831,17 @@
 "title": "Vijñāna-bhairava-tantra -- Practice Video #1",
 "min": 26,
 "views": 15105,
-"s": 0.7259,
+"s": 0.7522,
 "judged": false
+},
+{
+"id": "1kBPUTrmvNs",
+"speaker": "bettina-baumer",
+"title": "Pratyabhijñā Hṛdayam: Introduction",
+"min": 9,
+"views": 1660,
+"s": 0.6823,
+"judged": true
 },
 {
 "id": "cUvqLJqamM4",
@@ -3849,7 +3849,7 @@
 "title": "Readings in the Tantrāloka IV",
 "min": 50,
 "views": 2858,
-"s": 0.6751,
+"s": 0.6794,
 "judged": false
 },
 {
@@ -3862,15 +3862,6 @@
 "judged": false
 },
 {
-"id": "1kBPUTrmvNs",
-"speaker": "bettina-baumer",
-"title": "Pratyabhijñā Hṛdayam: Introduction",
-"min": 9,
-"views": 1660,
-"s": 0.656,
-"judged": true
-},
-{
 "id": "FxlHvCXt64w",
 "speaker": "lama-jampa-thaye",
 "title": "The Vajrayana Path: the role of the tantras in Buddhism",
@@ -3880,12 +3871,12 @@
 "judged": false
 },
 {
-"id": "OArNlNMPf6g",
-"speaker": "sthaneshwar-timalsina",
-"title": "Discourse on Bhairava Āgamas",
-"min": 35,
-"views": 4099,
-"s": 0.6051,
+"id": "tvc_ulxdwec",
+"speaker": "swami-khecaranatha",
+"title": "Boris Marjanovic: Opening of Talk on Tantraloka",
+"min": 10,
+"views": 5777,
+"s": 0.6671,
 "judged": false
 }
 ],
@@ -3997,7 +3988,7 @@
 "title": "The Eternal Satsang: \"I am\" arises in the womb",
 "min": 10,
 "views": 88572,
-"s": 0.7579,
+"s": 0.7773,
 "judged": false
 },
 {
@@ -4145,7 +4136,7 @@
 "title": "The Eternal Satsang: Parabrahman, his guru, and 83 years like a dream",
 "min": 7,
 "views": 88572,
-"s": 0.7954,
+"s": 0.8273,
 "judged": false
 },
 {
@@ -4154,7 +4145,7 @@
 "title": "Vijñāna-bhairava-tantra verse 95 ~ How to transcend Māyā",
 "min": 21,
 "views": 965,
-"s": 0.5738,
+"s": 0.6,
 "judged": false
 },
 {
@@ -4219,7 +4210,7 @@
 "title": "Nonduality Explained in four Ways: What, exactly, is not-two?",
 "min": 33,
 "views": 18173,
-"s": 0.7025,
+"s": 0.7287,
 "judged": true
 },
 {
@@ -4270,6 +4261,15 @@
 "judged": false
 },
 {
+"id": "2DOY5B-PH2Y@5539",
+"speaker": "nisargadatta-maharaj",
+"title": "The Eternal Satsang: Parabrahman, his guru, and 83 years like a dream",
+"min": 7,
+"views": 88572,
+"s": 0.8273,
+"judged": false
+},
+{
 "id": "8GIEccfrGMU",
 "speaker": "swami-chinmayananda",
 "title": "No Guru, No God can help You! · Bhagavad Gita",
@@ -4277,15 +4277,6 @@
 "views": 34000,
 "s": 0.7738,
 "judged": true
-},
-{
-"id": "2DOY5B-PH2Y@5539",
-"speaker": "nisargadatta-maharaj",
-"title": "The Eternal Satsang: Parabrahman, his guru, and 83 years like a dream",
-"min": 7,
-"views": 88572,
-"s": 0.7954,
-"judged": false
 },
 {
 "id": "DHErJ8tirQo",
@@ -4344,13 +4335,13 @@
 "judged": false
 },
 {
-"id": "vZEUo_sHoBw@1102",
+"id": "Hg0c32KbA-g@751",
 "speaker": "filip-holm",
-"title": "The metaphysics of the One, Intellect and Soul",
-"min": 8,
-"views": 503207,
-"s": 0.7397,
-"judged": true
+"title": "Eckhart on the ground of God and the soul",
+"min": 12,
+"views": 712534,
+"s": 0.7462,
+"judged": false
 },
 {
 "id": "fQCJGN2f7xI",
@@ -4400,6 +4391,15 @@
 ],
 "gnosis": [
 {
+"id": "ockwMVE7PgM@1648",
+"speaker": "filip-holm",
+"title": "Seth and the Sethian bearers of gnosis",
+"min": 12,
+"views": 3351226,
+"s": 0.7749,
+"judged": true
+},
+{
 "id": "hEiwmhQdPPA",
 "speaker": "justin-sledge",
 "title": "Who are the Archons - The Rulers of the Cosmos in Gnosticism & their Origins in Cosmology and Magic",
@@ -4409,21 +4409,12 @@
 "judged": true
 },
 {
-"id": "ockwMVE7PgM@1648",
-"speaker": "filip-holm",
-"title": "Seth and the Sethian bearers of gnosis",
-"min": 12,
-"views": 3351226,
-"s": 0.7284,
-"judged": true
-},
-{
 "id": "Lhl51bZQlM8@2642",
 "speaker": "john-vervaeke",
 "title": "Socrates against the sophists: self-knowledge vs self-deception",
 "min": 12,
 "views": 252025,
-"s": 0.7029,
+"s": 0.7142,
 "judged": false
 },
 {
@@ -4667,12 +4658,12 @@
 "judged": false
 },
 {
-"id": "yFBEmlNqAWg",
-"speaker": "yogi-matsyendranath-maharaj",
-"title": "Шива и Шакти | Shiva and Shakti [English subtitles]",
-"min": 15,
-"views": 13000,
-"s": 0.6447,
+"id": "RnjKVEAP7xI",
+"speaker": "christopher-wallis",
+"title": "The Secret Intimations of the Tantrik Yoginīs: a new webinar series",
+"min": 8,
+"views": 1500,
+"s": 0.6467,
 "judged": false
 }
 ],

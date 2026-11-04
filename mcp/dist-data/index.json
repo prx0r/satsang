@@ -40,7 +40,7 @@
    "json": "clip.json",
    "jsonl": "clip.jsonl",
    "bytes": 7079428,
-   "sha256": "5bb2e268cc0cdda03b4d222b6910ccc6b4069a579f5d1b3657f8b5fc04a1ec08",
+   "sha256": "eadf1fc69e5c6a1e25a7eb40c3ad6348247bd769a00c60a89d8ace7281f1240e",
    "schema": "https://tantrafiles.xyz/schema/clip.json"
   },
   {
@@ -75,8 +75,8 @@
    "count": 33,
    "json": "collection.json",
    "jsonl": "collection.jsonl",
-   "bytes": 75572,
-   "sha256": "de9d820135c3a13bad9cabbc849d1bff4c870b6933ae1d94dfbee58d0db3afa1",
+   "bytes": 75588,
+   "sha256": "3ee7b875c3d45cb12eeefc2a4b1463a867396c8e6a6088bb94a1ae03fae5ca97",
    "schema": "https://tantrafiles.xyz/schema/collection.json"
   },
   {

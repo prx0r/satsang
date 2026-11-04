@@ -8,7 +8,10 @@ import { dailyTheme, themeMatch, localDate } from './themes.js'
 const PAGE = 24
 export function createForYou(d) {
   // d: { esc, LS, ranker(), taste(), wise(), thumb, clips(), servable(c), inBallot(c), isUnplayable(id), watchOf(id), tierOf(w), stats(),
-  //      label(t), topics(), intents(), device(), anniversaries(), toast, onTaste(), fmtDur(c), byId, horizontal() -> bool (TV / desktop) }
+  //      label(t), topics(), intents(), device(), anniversaries(), toast, onTaste(), fmtDur(c), byId, horizontal() -> bool (TV / desktop),
+  //      journal() -> createJournal handle | null, featured() -> createFeatured handle | null, isHeld(speakerId) -> bool }
+  // 2026-11-04: journal intents (src/journal.js) join the intentions with their own why ("Because you wrote about ..."), a
+  // "From your journal" rail leads when a journal is connected, and a cold start opens on the featured tradition's best talks.
   const { esc, LS } = d
   let cache = null, cacheKey = '', theme = null, themeDay = ''
   const W = () => d.wise()
@@ -58,7 +61,9 @@ export function createForYou(d) {
   // ---------- the ranked list (cached for the day, the taste version and the signals) ----------
   function list(opts = {}) {
     const { date } = localDate(), T = d.taste(), hz = opts.horizontal ?? d.horizontal()
-    const key = [date, T?.n || 0, lessLog().length, moreLog().length, d.intents().map((x) => x.id + x.w.toFixed(2)).join(','), hz ? 'h' : 'a', opts.topic || '', opts.teacher || ''].join('|')
+    const JI = d.journal?.()?.intents() || [], INT = [...d.intents(), ...JI]
+    const cold = !(T?.n >= 2) && !INT.length && !opts.topic && !opts.teacher, pins = cold ? d.featured?.()?.pins() || [] : []
+    const key = [date, T?.n || 0, lessLog().length, moreLog().length, INT.map((x) => x.id + x.w.toFixed(2)).join(','), hz ? 'h' : 'a', opts.topic || '', opts.teacher || '', pins.map((x) => x.c.id).join(',')].join('|')
     if (cache && cacheKey === key) return cache
     const R = d.ranker()
     let cands = d.clips().filter((c) => d.inBallot(c) && d.servable(c) && !d.isUnplayable(c.id) && c.media === 'youtube' && (!hz || c.format !== 'vertical'))
@@ -68,8 +73,12 @@ export function createForYou(d) {
     const w = d.watchLog?.() || {}
     for (const [id, e] of Object.entries(w)) if (e?.last && Date.now() - Date.parse(e.last) < 10 * 86400000) plays.push({ id, at: e.last })
     cache = rankFeed({ cands, R, taste: T, watch: d.watchOf, tier: d.tierOf, impressions: seenLog(), plays, less: agg(lessLog()), more: agg(moreLog()),
-      intents: d.intents(), theme: todayTheme(), themeMatch: (m, c) => themeMatch(m, c, R.famOfClip, R.schoolOf), today: date, device: d.device(),
+      intents: INT, theme: todayTheme(), themeMatch: (m, c) => themeMatch(m, c, R.famOfClip, R.schoolOf), today: date, device: d.device(),
       stats: (id) => d.stats()[id] || null, topics: d.topics(), label: d.label, person: P, tradLabel: tradL, byId: d.byIdMap() }, opts.k || 160)
+    if (pins.length) { // cold start: the featured tradition's best talks first (Trika, owner 2026-11-04), then the usual mix
+      const hid = lessLog().map((x) => x.clip), P0 = pins.filter((x) => !hid.includes(x.c.id) && (!hz || x.c.format !== 'vertical') && !d.isUnplayable(x.c.id)), ids = new Set(P0.map((x) => x.c.id))
+      cache = [...P0, ...cache.filter((x) => !ids.has(x.c.id))]
+    }
     cacheKey = key
     void W0
     return cache
@@ -118,24 +127,28 @@ export function createForYou(d) {
       <p class="muted lede">${d.taste()?.n >= 2 ? 'Ranked from what resonates with you, with room for the unexpected.' : 'A first mix from the talks listeners find most resonant, across the traditions. It learns from every heart and pick.'}</p>
       ${th ? `<p class="fy-today"><span class="eyebrow">${esc(th.kind === 'rotation' ? 'Today' : th.kind === 'anniversary' ? 'On this day' : th.kind === 'moon' ? 'Today' : 'Today')}</span> <b>${esc(th.label)}</b> <span class="muted">${esc(th.line)}</span></p>` : ''}
       ${it.length ? `<p class="muted small fy-int">Leaning towards ${esc(it.map((x) => x.label).join(', '))} \u00b7 <a href="#me" data-goint="1">change</a></p>` : `<p class="muted small fy-int"><a href="#me" data-goint="1">Tell Satsang what is on your mind</a> (optional, private)</p>`}
-      ${tvSuggest()}
+      ${tvSuggest()}${journalHTML(L, false)}
       <div class="fy-grid" id="fygrid"></div><div class="fy-more" id="fymore"><span class="muted small">More arriving as you scroll</span></div>`
     const grid = el.querySelector('#fygrid')
     const more = () => { const next = L.slice(shown, shown + PAGE); if (!next.length) { el.querySelector('#fymore').innerHTML = '<p class="muted small">That is today\u2019s list. Tomorrow brings a new one.</p>'; return } grid.insertAdjacentHTML('beforeend', next.map((x) => card(x)).join('')); shown += next.length; bindCards(grid); observe(grid) }
     more()
     if (typeof IntersectionObserver !== 'undefined') { const s = new IntersectionObserver((e) => { if (e.some((x) => x.isIntersecting)) more() }, { rootMargin: '600px' }); s.observe(el.querySelector('#fymore')) }
     el.querySelector('[data-goint]')?.addEventListener('click', () => setTimeout(() => document.getElementById('intents')?.scrollIntoView({ block: 'start' }), 400))
-    bindHint(el)
+    bindHint(el); bindJournal(el)
   }
+  // ---------- "From your journal" (src/journal.js; nothing at all when no journal is connected) ----------
+  const isHeld = (s) => !!d.isHeld?.(s)
+  function journalHTML(L, compact) { const J = d.journal?.(); return J ? J.railHTML(L, { isHeld, cardHTML: card, compact }) : '' }
+  function bindJournal(el) { const J = d.journal?.(); if (!J || !el.querySelector('.fy-journal')) return; J.bindRail(el); bindCards(el.querySelector('.fy-journal')) }
   // ---------- the rail on Watch ----------
   function rail(el) {
     if (!el) return
-    const L = list().slice(0, 14)
+    const L = list().filter((x) => x.kind !== 'feat').slice(0, 14) // the featured row above already shows the cold-start pins
     if (!L.length) { el.innerHTML = ''; return }
     const th = todayTheme()
-    el.innerHTML = `<section class="wsec fy-rail"><div class="wsech"><h3>For you</h3><span class="fy-rail-acts">${th ? `<span class="muted small">Today: ${esc(th.label)}</span>` : ''}<a class="hbtn" href="#tv">TV mode</a><a class="hbtn" href="#foryou">See all</a></span></div>
+    el.innerHTML = `${journalHTML(list(), true)}<section class="wsec fy-rail"><div class="wsech"><h3>For you</h3><span class="fy-rail-acts">${th ? `<span class="muted small">Today: ${esc(th.label)}</span>` : ''}<a class="hbtn" href="#tv">TV mode</a><a class="hbtn" href="#foryou">See all</a></span></div>
       ${tvSuggest()}<div class="rail fy-railrow">${L.map((x) => card(x, true)).join('')}</div></section>`
-    bindCards(el); observe(el); bindHint(el)
+    bindCards(el); observe(el); bindHint(el); bindJournal(el)
   }
-  return { list, paint, rail, less, more, todayTheme, seen, lessLog, moreLog, bigScreen, invalidate: () => { cache = null } }
+  return { list, paint, rail, card, bindCards, less, more, todayTheme, seen, lessLog, moreLog, bigScreen, invalidate: () => { cache = null } }
 }

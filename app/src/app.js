@@ -19,6 +19,8 @@ import { createFlash } from './flash.js' // LOOP.md: Topic flash, the main loop
 import { createProfile } from './profile.js' // PROFILE.md: device-first store + #me
 import { createForYou } from './foryou.js' // FORYOU.md: the ranked, non-stale recommended feed (#foryou + the Watch rail)
 import { createIntentions } from './intentions.js' // FORYOU.md §2: goals, current issues, curiosities (private, fading)
+import { createJournal, HELD_MAIN } from './journal.js' // AWAKENING-ALGORITHM slice 1: a public journal -> private concerns (device only) -> For You
+import { createFeatured } from './featured.js' // the featured tradition (Trika, owner 2026-11-04): Watch row, cold-start For You, Teachers strip
 import { createTV } from './tv.js' // FORYOU.md §4 / LOOP.md §4: lean-back TV mode (#tv)
 import { createCollections } from './collections.js' // collections, practices, the timer
 import { createMiniCourses } from './minicourse.js' // Series (2026-10-25; were mini-courses): #series + #series/<id>[/<n>] (old #courses / #course/ redirect)
@@ -2316,7 +2318,7 @@ function cols() {
 }
 function profile() {
   return (PROFILE ||= createProfile({ esc, LS, api, apiOn: () => !!CFG.apiBase, device: deviceId, toast, taste, tasteJSON, wise, byId: (id) => BYID[id] || null, thumb, clipTile, fmtDur: (c) => wise().fmtDur(c),
-    collections: () => COLS?.all() || [], practice: (id) => COLS?.practice(id) || null, label: topicLabelOf, resonates: resonatesAll, signedIn, votes: () => LS.get('votes', []), onTaste: tasteChanged, intentions: () => intents() }))
+    collections: () => COLS?.all() || [], practice: (id) => COLS?.practice(id) || null, label: topicLabelOf, resonates: resonatesAll, signedIn, votes: () => LS.get('votes', []), onTaste: tasteChanged, intentions: () => intents(), journal: () => journal() }))
 }
 function flash() {
   if (FLASH) return FLASH
@@ -2354,7 +2356,11 @@ document.addEventListener('keydown', (e) => {
 })
 
 // ---------- For You, intentions, TV mode (2026-10-20: specs/FORYOU.md) ----------
-let INTENTS = null, FY = null, TV = null, ANNIV = null
+let INTENTS = null, FY = null, TV = null, ANNIV = null, JOURNAL = null, FEATURED = null
+// the journal profile lives on this device only (owner default 2026-11-04: no sync); changes re-rank For You and repaint its rails
+function journal() { return (JOURNAL ||= createJournal({ esc, LS, toast, onChange: () => { tasteChanged(); FY?.invalidate(); if (FYRAIL_ON) paintFyRail().catch(() => {}); if (!$('#v-foryou')?.hidden) paintForYou().catch(() => {}) } })) }
+const isHeldTeacher = (s) => HELD_MAIN.has(s) || !!wise().person?.(s)?.safety
+function featured() { return (FEATURED ||= createFeatured({ esc, byId: (id) => BYID[id] || null, servable: (c) => servable(c) && !isUnplayable(c.id), cardHTML: (x, compact) => fy().card(x, compact), bindCards: (el) => fy().bindCards(el), personTile: (id, sub) => wise().personTile(id, sub), face: (id, cls) => wise().face(id, cls) })) }
 function intents() { return (INTENTS ||= createIntentions({ esc, LS, api, apiOn: () => !!CFG.apiBase, device: deviceId, toast, onChange: () => { tasteChanged(); FY?.invalidate() } })) }
 // how much a topic is on the listener's mind right now (0..1): the flash's next-topic score and For You read it
 function intentW(t) { let m = 0; for (const it of intents().active()) { const w = (it.topics[t] || 0) * it.w; if (w > m) m = w } return m }
@@ -2363,11 +2369,11 @@ function fy() {
   return (FY ||= createForYou({ esc, LS, ranker, taste, wise, thumb, clips: () => CLIPS, servable, inBallot, isUnplayable, watchOf, tierOf, watchLog: () => watches(), stats: () => STATS,
     label: topicLabelOf, topics: () => Object.keys(TOPIC_LABEL), intents: () => intents().active(), device: deviceId, anniversaries: () => ANNIV || {}, toast,
     onTaste: tasteChanged, fmtDur: (c) => wise().fmtDur(c), byId: (id) => BYID[id] || null, byIdMap: () => BYID,
-    horizontal: () => !vertOK() })) // desktop / TV: horizontal only (a phone may see verticals in the grid; TV mode never does)
+    horizontal: () => !vertOK(), journal: () => journal(), featured: () => (FEATURED?.ready() ? FEATURED : null), isHeld: isHeldTeacher })) // desktop / TV: horizontal only (a phone may see verticals in the grid; TV mode never does)
 }
-async function fyReady() { await DATA_READY; await Promise.all([wise().load(), cols().load(), loadAnniv()]) }
+async function fyReady() { await DATA_READY; await Promise.all([wise().load(), cols().load(), loadAnniv(), featured().load()]); journal().refreshIfStale().catch(() => {}) }
 async function paintForYou() { const el = $('#fyview'); if (!el) return; if (!FY) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'; await fyReady(); if (!$('#v-foryou').hidden) fy().paint(el) }
-async function paintFyRail() { const el = $('#fyrail'); if (!el) return; await fyReady(); fy().rail(el) }
+async function paintFyRail() { const el = $('#fyrail'); if (!el) return; await fyReady(); fy().invalidate(); featured().row($('#featrow')); fy().rail(el) }
 let TV_LIVE = null, TV_BACK = ''
 function tv() {
   return (TV ||= createTV({ esc, thumb, byId: (id) => BYID[id] || null, wise, ranker, label: topicLabelOf, question: (t) => ranker().question(t),
@@ -2446,6 +2452,7 @@ function paintComics() {
     return W.paintPerson(el, id)
   }
   if (/^#traditions/.test(h)) TEACHSUB = 'traditions'; else if (/^#teachers/.test(h)) TEACHSUB = 'teachers'
+  if (!featured().ready()) featured().load().then(() => { if (featured().ready() && !$('#v-comics')?.hidden && !/^#(teacher|comic|tradition)s?\//.test(location.hash) && TEACHSUB === 'teachers' && !document.getElementById('tf-featured')) paintComics() })
   const seg = `<div class="wseg" role="tablist" aria-label="Teachers or traditions"><a role="tab" href="#teachers" class="${TEACHSUB === 'teachers' ? 'on' : ''}" aria-selected="${TEACHSUB === 'teachers'}">Teachers</a><a role="tab" href="#traditions" class="${TEACHSUB === 'traditions' ? 'on' : ''}" aria-selected="${TEACHSUB === 'traditions'}">Traditions</a></div>`
   if (TEACHSUB === 'traditions') {
     el.innerHTML = `<div class="head"><h2>Traditions</h2>${seg}</div><p class="muted lede">Every tradition on Satsang, from its family down to its lineages, with the figures and talks in each.</p>${W.traditionsHTML()}`
@@ -2482,6 +2489,7 @@ function paintComics() {
   const vf = famOrder(deepS), sf = famOrder(scholars)
   el.innerHTML = `<div class="head"><h2>Teachers</h2>${seg}</div><p class="muted lede">The teachers you can listen to here, by tradition and school, the scholars who study them, and the sages, mystics and texts their talks open onto.</p>
     <div class="wchips">${vf.map((f) => `<a class="wchip" href="#teachers" data-tjump="tf-v-${esc(f)}">${tLab(f)}</a>`).join('')}${scholars.length ? `<a class="wchip" href="#teachers" data-tjump="tsch">Scholars<small>${scholars.length}</small></a>` : ''}</div>
+    ${featured().ready() ? featured().teachersHTML() : ''}
     <section class="wsec"><div class="wsech"><h3>On video</h3><span class="muted small">${deepS.length} teachers with ${DEEP_MIN} or more talks each, by tradition and school</span></div></section>
     ${vf.map((f) => famBlock(f, deepS, true, 'v')).join('')}
     ${thinS.length ? `<section class="wsec"><p class="muted small">More voices: their talks live inside the topics</p><div class="wtopics">${thinS.map((i) => `<a class="wchip" href="#teacher/${esc(i)}">${esc(W.person(i).n)}<small>${nBy[i]}</small></a>`).join('')}</div></section>` : ''}

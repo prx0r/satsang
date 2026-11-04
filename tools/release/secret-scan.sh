@@ -10,4 +10,7 @@ echo "$F" | grep -E 'transcript|(^|/)internal/|\.env$|\.dev\.vars$' && { echo "F
 [ "$ENGINE_OK" = 1 ] || { echo "$F" | grep -E '^engine/' && { echo "engine/ STAGED (owned by the engine agent; ENGINE_OK=1 to allow)"; exit 1; }; }
 # deploy.sh and this file carry the guard patterns themselves; everything else must not mention transcript sources
 git diff --cached -U0 -- . ':(exclude)app/deploy.sh' ':(exclude)tools/release/secret-scan.sh' | grep '^+' | grep -nE 'dhamma\.stream|bbballs|hillside-hermitage-documents|_djvu|transcripts-internal' > /tmp/scan-hits.txt; [ -s /tmp/scan-hits.txt ] && { cut -c1-160 /tmp/scan-hits.txt; echo "TRANSCRIPT REFERENCE"; exit 1; }
+# journal profile (specs/AWAKENING-ALGORITHM.md §9, test 16): derived personal data never reaches the repo; private/ is the content-loop drafts folder
+echo "$F" | grep -E '^tools/awaken/out/|(^|/)private/' && { echo "PRIVATE JOURNAL / DRAFT PATH STAGED"; exit 1; }
+git diff --cached -U0 | grep '^+' | grep -nE '"evidence": ?\[ ?\{ ?"doc":' > /tmp/scan-hits.txt; [ -s /tmp/scan-hits.txt ] && { cut -c1-160 /tmp/scan-hits.txt; echo "JOURNAL PROFILE PAYLOAD STAGED"; exit 1; }
 echo "secret scan clean ($(echo "$F" | wc -l) files)"
