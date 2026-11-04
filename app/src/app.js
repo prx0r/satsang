@@ -2369,9 +2369,9 @@ function fy() {
   return (FY ||= createForYou({ esc, LS, ranker, taste, wise, thumb, clips: () => CLIPS, servable, inBallot, isUnplayable, watchOf, tierOf, watchLog: () => watches(), stats: () => STATS,
     label: topicLabelOf, topics: () => Object.keys(TOPIC_LABEL), intents: () => intents().active(), device: deviceId, anniversaries: () => ANNIV || {}, toast,
     onTaste: tasteChanged, fmtDur: (c) => wise().fmtDur(c), byId: (id) => BYID[id] || null, byIdMap: () => BYID,
-    horizontal: () => !vertOK(), journal: () => journal(), featured: () => (FEATURED?.ready() ? FEATURED : null), isHeld: isHeldTeacher })) // desktop / TV: horizontal only (a phone may see verticals in the grid; TV mode never does)
+    horizontal: () => !vertOK(), journal: () => journal(), featured: () => (FEATURED?.ready() ? FEATURED : null), isHeld: isHeldTeacher, practice: (id) => COLS?.practice(id) || null })) // desktop / TV: horizontal only (a phone may see verticals in the grid; TV mode never does)
 }
-async function fyReady() { await DATA_READY; await Promise.all([wise().load(), cols().load(), loadAnniv(), featured().load()]); journal().refreshIfStale().catch(() => {}) }
+async function fyReady() { await DATA_READY; await Promise.all([wise().load(), cols().load(), loadAnniv(), featured().load(), journal().get() ? journal().loadKnots() : null]); journal().refreshIfStale().catch(() => {}) }
 async function paintForYou() { const el = $('#fyview'); if (!el) return; if (!FY) el.innerHTML = '<div class="railskel"><i></i><i></i><i></i></div>'; await fyReady(); if (!$('#v-foryou').hidden) fy().paint(el) }
 async function paintFyRail() { const el = $('#fyrail'); if (!el) return; await fyReady(); fy().invalidate(); featured().row($('#featrow')); fy().rail(el) }
 let TV_LIVE = null, TV_BACK = ''

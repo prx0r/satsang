@@ -421,3 +421,24 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
 - Checks: check-data 0 errors (1 known warning), practice-engine 813/813, transcript guards 0, mcp test all passed, chat 15/15; live
   /, /data/wisegraph/featured.json, /person/swami-lakshmanjoo, /tradition/kashmir-shaivism, /place/ishwar-ashram-srinagar 200, no
   undefined/NaN. Live phone screenshot still blocked (S37). Spend US$0. Not touched: DNS, D1, engine/, search index, nibbanahelp, YouTube.
+
+## For You from the journal's tensions: Resolve / Enlighten / Explain (2026-11-05 +07: wiser-web 2cfeb8a1)
+- Owner's ask: For You genuinely useful per tension. New `specs/FORYOU-TENSIONS.md`. `app/wisegraph/knots.json` (11 generic knots,
+  curator-written: match, core cues, per-role cues with why-lines, `neg` cues, Resolve practices, passage regex; grounding / intense /
+  avoid lists) → `app/tools/build-knots.mjs` (in deploy.sh build; scores every eligible talk per knot × role; transcript passages of
+  the lens index give moments as ids + seconds only; keeps the committed file when passages are absent) → `site/data/wisegraph/knots.json`
+  (78 KB, pointers only; 9-gram guard 0). `app/src/tensions.js` (pure planner: blocks open → loosening → entries → resolved; budgets
+  3/2/2, 1/1/1, integration 1; page-wide dedupe; teacher variety; Trika lead; safety modes; "This helped" lowers urgency and raises
+  similar items; "Not this"). journal.js stores the tension headers on the device (`signals.tensions`, `wiser.journalHelped`,
+  `wiser.journalNot`; Stop reading deletes all four), renders the blocks (practice cards, inline moment embeds), the Watch rail shows the
+  first pick per role (≤ 6); foryou.js drops block talks from the list (never one talk twice). CSS: `fy-t*` rules on existing tokens.
+- Tests: `tools/awaken/test-foryou-tensions.mjs` 15/15 (synthetic tensions), journal signals 10/10, rail 9/9 (stop() assertion updated).
+  Eval on the live public journal (`tools/awaken/eval-foryou.mjs` → private/foryou/eval-2026-11-05.md, gitignored): 16 picks over 4 blocks,
+  14 apt/good, 1 long, 1 weak; misses listed there as content-loop requests. Guard: deploy.sh refuses the eval marker or a tension store in
+  dist/open data; secret-scan already refuses private/.
+- Checks: build + guard (243 transcripts, 0 found) + check-data 0 errors; local and LIVE screenshots phone 390 + desktop
+  (`tools/shots/shot-foryou-tensions.mjs`, LIVE=1 now works through the request proxy): blocks [3,2,2]/[1,1,1]×3, no undefined/NaN, no
+  overflow, 0 duplicate talks, no page errors; live /, /data/wisegraph/knots.json, /app.js, /style.css 200. mcp data diffs are build
+  timestamps only (not redeployed). Spend US$0. Not touched: DNS, D1, engine/, search index, nibbanahelp, chat.
+- Deployed twice: 6631723b, then 2cfeb8a1 after taking journal-worded terms out of the knots' `match` regexes (generic words only;
+  same 16 picks on the live journal). Live: tension blocks [3,2,2]/[1,1,1]×3 on phone and desktop, no undefined/NaN, no duplicates.

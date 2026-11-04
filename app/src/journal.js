@@ -7,9 +7,10 @@
 // journal text is ever shown back. Pure functions first (tested by tools/awaken/test-journal-*.mjs), then the small UI.
 import { matchText, INTENTS } from './intentions.js'
 import { triage, LINES } from '../../chat/worker/src/safety.mjs'
+import { tensionsOf, planBlocks, flatPicks } from './tensions.js'
 
-export const VERSION = 'satsang-journal-signals/0.2'
-export const KEY = 'journal', MUTE_KEY = 'journalMute'
+export const VERSION = 'satsang-journal-signals/0.3'
+export const KEY = 'journal', MUTE_KEY = 'journalMute', HELPED_KEY = 'journalHelped', NOT_KEY = 'journalNot'
 const DAY = 86400000
 const BY = Object.fromEntries(INTENTS.map((x) => [x.id, x]))
 // concerns the chip set lacks: the five hindrances not already covered, and two common knots. Topics are antidote-leaning.
@@ -182,13 +183,23 @@ export function createJournal(d) {
     try {
       const docs = await fetchDocs(src), now = Date.now()
       const sig = extractSignals(docs, { now, start: inferStart(docs) })
+      sig.tensions = tensionsOf(docs)   // the tension files' headers + opening words, for the For You blocks (device only, never shown back)
       LS.set(KEY, { source: input.trim(), fetched: new Date(now).toISOString(), posts: docs.filter((x) => x.visibility === 'public').length, signals: sig })
-      d.onChange(); return true
+      await loadKnots(); d.onChange(); return true
     } catch (e) { d.toast('Could not read that journal. Is it public?'); return false } finally { busy = false }
   }
-  function stop() { localStorage.removeItem('wiser.' + KEY); localStorage.removeItem('wiser.' + MUTE_KEY); d.onChange() }
+  function stop() { for (const k of [KEY, MUTE_KEY, HELPED_KEY, NOT_KEY]) localStorage.removeItem('wiser.' + k); d.onChange() }
   function mute(cid) { const m = mutes(); m[cid] = new Date().toISOString(); LS.set(MUTE_KEY, m); d.onChange() }
-  async function refreshIfStale() { const j = get(); if (!j || busy) return; if (Date.now() - Date.parse(j.fetched || 0) > 6 * 3600e3) await connect(j.source) }
+  async function refreshIfStale() { const j = get(); if (!j || busy) return; if (Date.now() - Date.parse(j.fetched || 0) > 6 * 3600e3 || !Array.isArray(j.signals.tensions)) await connect(j.source) }
+  // the knot candidates (site/data/wisegraph/knots.json, built by app/tools/build-knots.mjs): loaded once, only when a journal is connected
+  let KN = null, knP = null
+  const loadKnots = () => (knP ||= fetch('data/wisegraph/knots.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((k) => (KN = k && Array.isArray(k.knots) ? k : null)).catch(() => (KN = null)))
+  const helpedLog = () => { const a = LS.get(HELPED_KEY, []); return Array.isArray(a) ? a : [] }
+  const notLog = () => { const o = LS.get(NOT_KEY, {}); return o && typeof o === 'object' && !Array.isArray(o) ? o : {} }
+  function helped(p, tid) { LS.set(HELPED_KEY, [...helpedLog(), { tid, ref: p.ref, t: p.t || null, tr: p.tr ? 1 : 0, knot: p.knot, role: p.role, at: new Date().toISOString() }].slice(-200)); d.onChange() }
+  function notThis(ref) { const o = notLog(); o[ref] = new Date().toISOString(); LS.set(NOT_KEY, o); d.onChange() }
+  let lastPlan = null
+  function plan(X) { const j = get(); if (!j || !KN) return null; lastPlan = planBlocks(j.signals, KN, { ...X, mutes: mutes(), not: notLog(), helped: helpedLog() }); return lastPlan }
   const intents = () => { const j = get(); return j ? journalIntents(j.signals, 3, mutes()) : [] }
   function section() {
     const j = get(), I = intents()
@@ -206,19 +217,61 @@ export function createJournal(d) {
     el.querySelector('[data-jstop]')?.addEventListener('click', () => { stop(); d.toast('Stopped. Satsang forgot what it read.'); repaint() })
     el.querySelectorAll('[data-jmute]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); mute(b.dataset.jmute); d.toast('Muted for 30 days.'); repaint() }))
   }
-  // the rail HTML (For You page and the Watch rail). cardHTML(x) renders one card in the existing fy-card markup.
-  function railHTML(ranked, { isHeld, cardHTML, compact }) {
-    const j = get(); if (!j) return ''
-    const R = journalRail(j.signals, ranked, { isHeld, mutes: mutes() }); if (!R) return ''
-    const note = R.safety ? `<p class="muted small fy-jnote" role="note">${esc(R.safety.text)}</p>` : ''
-    if (!R.cards.length && !note) return ''
-    return `<section class="wsec fy-rail fy-journal"><div class="wsech"><h3>From your journal</h3><span class="fy-rail-acts"><a class="hbtn" href="#me" data-gojournal="1">Change</a></span></div>
-      ${note}${R.cards.length ? `<div class="rail fy-railrow">${R.cards.map((x) => cardHTML(x, compact)).join('')}</div>` : ''}
-      ${R.cards.length ? `<p class="muted small">Enough for today.${[...new Map(R.cards.map((x) => [x.concern, x])).values()].map((x) => ` <button type="button" class="linkbtn" data-jmute="${esc(x.concern)}">Not this: ${esc(labelOf(x.concern))}</button>`).join(' \u00b7')}</p>` : ''}</section>`
+  // ---------- "From your journal": one block per tension (src/tensions.js), roles Resolve / Enlighten / Explain ----------
+  // X: { isHeld, clip(id) -> playable clip or null, practice(id), thumb(id), who(c) -> {name, trad}, fmtDur(c), cardHTML(x, compact) }
+  // Returns { html, used: Set(video ids) } so For You never shows the same talk twice on the page. Falls back to the slice-1 rail
+  // (top concerns x best talks) when the journal has no tension that maps to a knot.
+  const mm = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`
+  function pickHTML(p, b, X, compact) {
+    const c = p.c, acts = `<p class="fy-acts"><button type="button" class="linkbtn fy-help" data-thelp="${esc(p.ref)}" data-tid="${esc(b.id)}">This helped</button><span class="fy-sep" aria-hidden="true">\u00b7</span><button type="button" class="linkbtn" data-tnot="${esc(p.ref)}">Not this</button></p>`
+    if (p.k === 'practice') {
+      const r = p.p || {}
+      return `<article class="fy-card fy-sm fy-tpick fy-tprac" data-ref="${esc(p.ref)}"><a class="fy-th fy-prth" href="#practice/${esc(p.id)}" aria-label="Open the practice ${esc(r.name || '')}"><span class="fy-prk">Practice</span><span class="fy-prm">${esc(String(r.minutes || 10))} min</span></a>
+        <div class="fy-body"><p class="fy-why fy-journal">${esc(p.why)}</p><h3 class="fy-t"><a href="#practice/${esc(p.id)}">${esc(r.name || p.id)}</a></h3><p class="fy-who"><span class="fy-trad" style="margin:0">${esc(r.tradLabel || '')}</span></p>${acts}</div></article>`
+    }
+    const w = X.who(c), title = c.segTitle || c.title || ''
+    const th = p.k === 'moment'
+      ? `<div class="fy-th fy-mom"><img loading="lazy" decoding="async" src="${X.thumb(p.id)}" alt=""><button type="button" class="fy-momplay" data-yt="${esc(p.id)}" data-start="${p.start}" data-end="${p.end}" aria-label="Play ${esc(title)} from ${mm(p.start)}">\u25b6 From ${mm(p.start)}</button></div>`
+      : `<a class="fy-th" href="#watch/${encodeURIComponent(c.id)}" aria-label="Play ${esc(title)}"><img loading="lazy" decoding="async" src="${X.thumb(c.id)}" alt="">${X.fmtDur(c) ? `<span class="fy-dur">${esc(X.fmtDur(c))}</span>` : ''}</a>`
+    const href = `#watch/${encodeURIComponent(c.id)}`
+    return `<article class="fy-card fy-sm fy-tpick" data-id="${esc(c.id)}" data-ref="${esc(p.ref)}">${th}<div class="fy-body"><p class="fy-why fy-journal">${esc(p.why)}</p>
+      <h3 class="fy-t"><a href="${href}">${esc(title)}</a></h3><p class="fy-who"><a href="#teacher/${esc(c.speaker || '')}">${esc(w.name)}</a> <span class="fy-trad">${esc(w.trad)}</span></p>${compact ? '' : acts}</div></article>`
   }
-  function bindRail(el) {
-    el.querySelectorAll('.fy-journal [data-jmute]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); mute(b.dataset.jmute); d.toast('Muted for 30 days.') }))
+  const STAT = { open: 'open', loosening: 'loosening', resolved: 'resolved' }
+  function railHTML(ranked, X) {
+    const j = get(); if (!j) return { html: '', used: new Set() }
+    const P = plan(X)
+    if (!P || (!P.blocks.length && !P.safety)) { // slice-1 fallback: concerns x the ranked list
+      const R = journalRail(j.signals, ranked, { isHeld: X.isHeld, mutes: mutes() }); if (!R) return { html: '', used: new Set() }
+      const note = R.safety ? `<p class="muted small fy-jnote" role="note">${esc(R.safety.text)}</p>` : ''
+      if (!R.cards.length && !note) return { html: '', used: new Set() }
+      return { used: new Set(R.cards.map((x) => x.c.parent || String(x.c.id).split('@')[0])), html: `<section class="wsec fy-rail fy-journal"><div class="wsech"><h3>From your journal</h3><span class="fy-rail-acts"><a class="hbtn" href="#me" data-gojournal="1">Change</a></span></div>
+        ${note}${R.cards.length ? `<div class="rail fy-railrow">${R.cards.map((x) => X.cardHTML(x, X.compact)).join('')}</div>` : ''}
+        ${R.cards.length ? `<p class="muted small">Enough for today.${[...new Map(R.cards.map((x) => [x.concern, x])).values()].map((x) => ` <button type="button" class="linkbtn" data-jmute="${esc(x.concern)}">Not this: ${esc(labelOf(x.concern))}</button>`).join(' \u00b7')}</p>` : ''}</section>` }
+    }
+    const note = P.safety ? `<p class="muted small fy-jnote" role="note">${esc(P.safety.text)}</p>` : ''
+    const head = `<div class="wsech"><h3>From your journal</h3><span class="fy-rail-acts"><a class="hbtn" href="#foryou">All of it</a><a class="hbtn" href="#me" data-gojournal="1">Change</a></span></div>`
+    if (X.compact) { // the Watch rail: the first pick of each role, block by block (<= 6)
+      const F = flatPicks(P, 6).filter((p) => p.k !== 'practice')
+      if (!F.length && !note) return { html: '', used: new Set() }
+      return { used: new Set(F.map((p) => p.k === 'moment' ? p.id : (p.c.parent || String(p.c.id).split('@')[0]))), html: `<section class="wsec fy-rail fy-journal">${head}${note}${F.length ? `<div class="rail fy-railrow">${F.map((p) => pickHTML({ ...p, why: `${p.block.title}: ${p.why}` }, p.block, X, true)).join('')}</div>` : ''}</section>` }
+    }
+    const blocks = P.blocks.map((b) => `<div class="fy-tblock" data-tid="${esc(b.id)}"><div class="fy-thead"><h4 class="fy-ttitle">${esc(b.title)}</h4><span class="fy-tstat fy-ts-${esc(b.kind)}">${b.kind === 'entry' ? 'from your entries' : esc(STAT[b.status] || 'open')}</span><button type="button" class="linkbtn fy-tmute" data-jmute="${esc(b.id)}">Not this one</button></div>
+      ${b.roles.map((r) => `<div class="fy-trole"><p class="fy-rlab"><b>${esc(r.label)}</b> <span class="muted small">${esc(r.hint)}</span></p><div class="rail fy-railrow">${r.picks.map((p) => pickHTML(p, b, X, false)).join('')}</div></div>`).join('')}</div>`).join('')
+    return { used: P.used, html: `<section class="wsec fy-rail fy-journal fy-tensions">${head}${note}${blocks || ''}
+      ${P.blocks.length ? '<p class="muted small fy-enough">Enough for today. Each block is a pointer to a teacher or a text, never advice. \u201cThis helped\u201d stays on this device: that tension eases down the page and more like it comes up.</p>' : ''}</section>` }
+  }
+  function bindRail(el, onMore) {
+    const box = el.querySelector('.fy-journal'); if (!box) return
+    const find = (ref) => { for (const b of lastPlan?.blocks || []) for (const r of b.roles) for (const p of r.picks) if (p.ref === ref) return [p, b]; return [null, null] }
+    box.querySelectorAll('[data-jmute]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); mute(b.dataset.jmute); d.toast('Muted for 30 days.') }))
+    box.querySelectorAll('[data-thelp]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); const [p] = find(b.dataset.thelp); if (!p) return; if (p.c && onMore) onMore(p.c); b.textContent = 'Noted'; b.disabled = true; d.toast('Noted on this device. That tension eases, and more like this comes up.'); helped(p, b.dataset.tid) }))
+    box.querySelectorAll('[data-tnot]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); notThis(b.dataset.tnot); d.toast('Hidden for 30 days.') }))
+    box.querySelectorAll('[data-yt]').forEach((b) => b.addEventListener('click', (e) => { // a transcript moment: the privacy-enhanced embed at the passage, as the lens does
+      e.preventDefault(); const s = Number(b.dataset.start) || 0, en = Number(b.dataset.end) || 0, th = b.closest('.fy-th')
+      th.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.yt)}?start=${Math.floor(s)}${en > s ? '&end=' + Math.ceil(en + 30) : ''}&autoplay=1&rel=0&playsinline=1" title="Talk moment" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen style="display:block;width:100%;aspect-ratio:16/9;border:0"></iframe>`
+    }))
     el.querySelector('[data-gojournal]')?.addEventListener('click', () => setTimeout(() => document.getElementById('journalsec')?.scrollIntoView({ block: 'start' }), 400))
   }
-  return { get, connect, stop, mute, mutes, intents, section, bind, railHTML, bindRail, refreshIfStale }
+  return { get, connect, stop, mute, mutes, intents, section, bind, railHTML, bindRail, refreshIfStale, loadKnots, plan, helpedLog, notLog }
 }

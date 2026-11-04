@@ -1,7 +1,7 @@
 # Wiser: For You, intentions and TV mode (spec + implementation notes, 2026-10-20)
 
 > **Status (2026-11-04):** **shipped** 2026-10-20 (For you, intentions, TV mode). 2026-11-04: cold start opens on the featured
-> tradition's best talks (Trika, `src/featured.js`); journal intents + the "From your journal" rail (`src/journal.js`, AWAKENING-ALGORITHM slice 1).
+> tradition's best talks (Trika, `src/featured.js`); journal intents + the "From your journal" rail (`src/journal.js`, AWAKENING-ALGORITHM slice 1). 2026-11-05: that rail is now one Resolve / Enlighten / Explain block per tension (`specs/FORYOU-TENSIONS.md`).
 
 The user: "we still need a feed of recommended videos ... in the future link to profile, goals, interests, current issues
 or curiosities ... but don't want it to be stale." Shipped 2026-10-20 (wiser-web 66b70b6e, wiser-api 1a53b74b).

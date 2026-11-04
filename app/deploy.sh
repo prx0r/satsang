@@ -26,6 +26,7 @@ build() {
     rm -rf "$T"; echo "breathplayer.js bundled from committed engine/breath (working tree has uncommitted engine changes)"; fi
   # enquiry lens: remind when the catalogue moved on since the last search-index ingest (run: sh deploy.sh search)
   [ "$(sha256sum clips.json | cut -c1-16)" = "$(cat ../search/.ingested 2>/dev/null)" ] || echo "NOTE: clips.json changed since the last search ingest: run 'sh deploy.sh search' (ingest_talks.py + KV upload)"
+  node tools/build-knots.mjs  # For You tension blocks: wisegraph/knots.json -> site/data/wisegraph/knots.json (pointers only; keeps the committed file when the internal passages are absent)
   python3 tools/build-featured.py  # the featured tradition (Trika, owner 2026-11-04) -> site/data/wisegraph/featured.json (fails on unknown ids)
   node tools/build-place-pages.mjs  # places: slim index + per-place shards (lazy SPA load) + static /place/<id>, /places/* pages + sitemap-places.xml (from site/data/events.json)
   V=$(sha256sum site/app.js | cut -c1-10)
@@ -54,6 +55,8 @@ guard() {
   if grep -rIlE "dhamma\.stream|bbballs|hillside-hermitage-documents|_djvu|transcripts-internal|hasTranscript" ../mcp/dist-data ../mcp/data; then echo "transcript reference in the open data" >&2; exit 1; fi
   # journal profile (AWAKENING-ALGORITHM §9, test 16): a derived wiser.journal payload or the proof's output never ships
   if grep -rIlE '"evidence": ?\[ ?\{ ?"doc":' dist ../mcp/dist-data ../mcp/data 2>/dev/null; then echo "journal profile payload found in dist or the open data" >&2; exit 1; fi
+  # For You tension eval (private/foryou, names a journal's tension titles) and the device-only tension store never ship
+  if grep -rIlE 'For You tension blocks: eval|"tensions": ?\[ ?\{ ?"id":[^]]*"txt":' dist ../mcp/dist-data ../mcp/data 2>/dev/null; then echo "journal tension data found in dist or the open data" >&2; exit 1; fi
 }
 
 ship() {

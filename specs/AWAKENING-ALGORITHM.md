@@ -6,6 +6,7 @@
 > "Not this" (30-day mute) and "Stop reading my journal". Tests: `tools/awaken/test-journal-signals.mjs` (10) +
 > `test-journal-rail.mjs` (9, spec tests 11–16). Source: the GitHub fallback (§4.1). Phases 2–5 not started.
 > Content loop (journal → essay → video → channel → For You): `specs/JOURNAL-TO-VIDEO.md`. Owner defaults: §13.
+> 2026-11-05: the rail became per-tension Resolve / Enlighten / Explain blocks (`specs/FORYOU-TENSIONS.md`, 15 tests).
 
 Owner's intent (2026-11-04, paraphrased): everything built so far becomes one algorithm for awakening. The owner writes a
 journal (nibbanahelp); Satsang reads it and serves what is most spiritually **urgent** for this person right now (talks,

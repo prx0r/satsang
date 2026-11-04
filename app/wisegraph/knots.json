@@ -1,0 +1,286 @@
+{
+  "_note": "Knots (specs/FORYOU-TENSIONS.md): a fixed, generic vocabulary of the knots people bring to practice, each with the cues that find talks and practices that could RESOLVE it (a practice or teaching that works on it), ENLIGHTEN it (reframes it from the view: Trika's contraction and recognition, no-self, the witness) or EXPLAIN it (the mechanism, the text, the tradition's map). Hand-written by the curator; never derived from anyone's journal. app/tools/build-knots.mjs turns it into site/data/wisegraph/knots.json (ranked candidates per knot and role, with transcript moments as ids + timestamps only). `match` maps a journal tension to knots on the device (src/tensions.js). Why-lines are Satsang's own words: pointers, never promises. Regexes are case-insensitive JavaScript and are run on 'title | YouTube title | parent talk | gold why-line'.",
+  "version": 1,
+  "roles": {
+    "resolve": { "label": "Resolve", "hint": "a practice or teaching that works on it", "generic": [
+      { "re": "\\bguided\\b", "w": 0.5 }, { "re": "\\bhow (to|do (i|we|you)) (overcome|deal|stop|break|change|work|handle|free|meet|release|let go)", "w": 0.6 },
+      { "re": "\\b(practice|practise|meditation|exercise)\\b", "w": 0.3 }, { "re": "\\b(overcom\\w*|working with|dealing with|letting go|untangl\\w*|heal\\w*|release)\\b", "w": 0.4 } ],
+      "topics": { "meditation/guided": 0.5, "meditation/breath": 0.3, "mindfulness": 0.3, "sense-restraint": 0.3, "kindness/compassion": 0.3 } },
+    "enlighten": { "label": "Enlighten", "hint": "sees it from the view", "generic": [
+      { "re": "\\b(recogni\\w*|pratyabhij\\w*|spanda|svatantrya|svātantrya|contraction|limited being|grace)\\b", "w": 0.6 },
+      { "re": "\\b(witness|no[- ]self|not[- ]self|anatta|emptiness|true (self|nature)|awareness|consciousness|who am i|nondual\\w*|non-dual\\w*)\\b", "w": 0.5 } ],
+      "topics": { "self": 0.4, "self/emptiness": 0.5, "self/self-enquiry": 0.4, "reality/nonduality": 0.5, "awakening": 0.3, "consciousness": 0.3, "faith/grace": 0.4 } },
+    "explain": { "label": "Explain", "hint": "what is going on", "generic": [
+      { "re": "\\b(why|what is|what are|the truth about|understanding|explained|cause[sd]?|root|mechanism|map|psychology)\\b", "w": 0.5 },
+      { "re": "\\b(sutta|sutra|sūtra|nikaya|dependent origination|abhidhamma|mala|impurit\\w*|kañcuka|kancuka|hindrances?)\\b", "w": 0.5 } ],
+      "topics": { "dependent-origination": 0.5, "defilements": 0.4, "texts": 0.3, "dukkha": 0.2, "right-view": 0.2 } }
+  },
+  "grounding": {
+    "_note": "When the journal shows distress (unsettled class), a block offers only these: gentle, eyes-open or body-based practices and talks on kindness and steadiness (spec AWAKENING-ALGORITHM §7.2).",
+    "practices": ["walking-meditation", "walking-meditation-jongrom", "goodwill-metta", "metta-loving-kindness", "ease-through-the-body-trika-prep", "welcoming-practice", "mindful-breathing-pv", "rain"],
+    "topics": ["kindness", "kindness/compassion", "mindfulness", "daily-life", "meditation/guided"]
+  },
+  "intense": {
+    "_note": "Never offered in gentle mode (soften/stop) or unsettled: holds, energy work, initiations, teacher-only practices.",
+    "practices": ["rudi-s-double-breath", "khecari-mudra-historical-description-only", "middle-pillar-outline", "bhairavi-sadhana-isha", "powa-an-introduction", "powa-an-introduction-to-transference-at-death", "resting-in-rigpa-dzogchen-orientation-only", "ajikan", "recollection-of-past-lives-orientation", "vbt-twelve-centres", "nine-breathings", "twelve-kalis"],
+    "topics": ["meditation/kundalini", "meditation/kriya"],
+    "re": "\\b(kundalini|kriya|retention|kumbhaka|pranayama|breath[- ]?hold|shaktipat\\w*|śaktipāta|chod|chöd)\\b"
+  },
+  "avoid": "\\b(ganesh\\w*|caregiver|debt relief|upasana|puja|lakshmi|sukta|sūktam|mantra for (money|wealth)|manifest\\w*|law of attraction|#shorts?)\\b",
+  "knots": [
+    {
+      "id": "craving", "label": "Craving and habit",
+      "match": { "domain": ["addiction", "habit"], "roots": ["lobha"], "re": "\\b(addict\\w*|crav\\w*|habit\\w*|compuls\\w*|sugar|smok\\w*|nicotine|cigarette|alcohol|drink\\w*|porn|scroll\\w*|binge\\w*|urges?|cravings?|hooked)\\b" },
+      "core": [
+        { "re": "\\b(addict\\w*|addiction)\\b", "w": 1, "why": "on how a pull becomes a compulsion" },
+        { "re": "\\b(craving|cravings|crave)\\b", "w": 1, "why": "on craving itself" },
+        { "re": "\\b(compulsion\\w*|compulsive)\\b", "w": 1, "why": "on compulsions" },
+        { "re": "\\bhabits?\\b|\\bhabitual\\b", "w": 0.8, "why": "on old habits" },
+        { "re": "\\b(sense pleasures?|sensual pleasures?|sensuality|kāma|kama)\\b", "w": 0.7, "why": "on the pull of sense pleasure" },
+        { "re": "\\b(desire|desires)\\b", "w": 0.6, "why": "on desire" },
+        { "re": "\\burges?\\b", "w": 0.7, "why": "on urges" },
+        { "re": "\\bpleasures? (that is|you don.t|should you)\\b", "w": 0.7, "why": "on which pleasures bind" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "(observ\\w*|dissolv\\w*) (and dissolving )?(the )?desire|desire.{0,20}dissolv", "w": 1.2, "why": "A practice: watching a desire until it dissolves" },
+          { "re": "habits? with compassion|meeting unhealthy habits", "w": 1.1, "why": "Meeting an old habit with kindness instead of force" },
+          { "re": "subduing compulsions|untangle habits|stepping back from|abandon\\w* (former )?habits", "w": 1, "why": "Practical ways to step back from a compulsion" },
+          { "re": "how to overcome (kāma|kama|desire)|overcome (kāma|kama|desire)", "w": 1.1, "why": "A master's instruction for loosening desire at its root" },
+          { "re": "overcoming the sexual urge|seeing through|habit of renunciation", "w": 0.8, "why": "How to see through the urge instead of obeying it" },
+          { "re": "\\bguided\\b", "w": 0.6, "why": "A guided sit for meeting the urge as it comes" },
+          { "re": "sense restraint|restraint|renunciation", "w": 0.5, "why": "Restraint as relief, not punishment" }
+        ], "practices": ["rain", "mahasi-noting", "vbt-mind-between-objects", "ease-through-the-body-trika-prep", "walking-meditation"] },
+        "enlighten": { "cues": [
+          { "re": "desire and thought as pure energy|desire.{0,20}(pure energy|shakti|śakti)", "w": 1.3, "why": "Desire seen as the same energy as awareness (Trika)" },
+          { "re": "craving the end of craving|end of craving|no craving", "w": 1, "why": "What it means for craving to end" },
+          { "re": "sense of self|personality|is .i am.", "w": 0.8, "why": "How craving builds a sense of self, and loosens with it" },
+          { "re": "friend or foe", "w": 0.9, "why": "Craving put to work on the path instead of fought" },
+          { "re": "enjoyment of the world|liberation and .*enjoyment", "w": 0.9, "why": "Enjoyment and freedom need not be enemies (Trika)" },
+          { "re": "pleasures you don.t have to say", "w": 0.9, "why": "The pleasures that do not bind, and why" }
+        ], "practices": [] },
+        "explain": { "cues": [
+          { "re": "dependent origination|12 links|twelve links|factor of", "w": 1, "why": "Where craving sits in the chain of dependent origination" },
+          { "re": "why the craving never ends|craving never ends|sustained by actions|sweet little lies|one-sided way|feelings, moods", "w": 1.1, "why": "Why a craving keeps coming back, step by step" },
+          { "re": "what is mala|impurity, desire|threefold mala|malas come from", "w": 1.1, "why": "Trika's map of the impurities that drive desire" },
+          { "re": "make you an addict|addict", "w": 0.9, "why": "Why sense pleasure works like an addiction" },
+          { "re": "pleasure that is actually painful|harm in sense pleasures|dangers of sensual|short term pleasure", "w": 0.9, "why": "The pain hidden inside the pleasure, explained" },
+          { "re": "many faces of craving", "w": 0.8, "why": "The many forms craving takes, named" }
+        ], "practices": [] }
+      },
+      "passage": { "re": "\\b(craving|addict\\w*|compulsi\\w*|habit\\w*)\\b", "why": "A passage on craving and compulsion" }
+    },
+    {
+      "id": "livelihood", "label": "Money and work",
+      "match": { "domain": ["money", "work", "livelihood"], "roots": [], "re": "\\b(debt|money|rent|broke|job|income|earn\\w*|livelihood|bills?|owe|salary|career|business|solven\\w*|survival)\\b" },
+      "core": [
+        { "re": "\\b(money|wealth|rich|poor|poverty|financ\\w*)\\b", "w": 1, "why": "on money" },
+        { "re": "\\b(debt|debts)\\b", "w": 1, "why": "on debt" },
+        { "re": "\\b(livelihood|career|job|work life|family and work|earn\\w*)\\b", "w": 1, "why": "on earning a living" },
+        { "re": "\\b(worldly life|spiritual vs\\.? worldly|work as worship|karma ?yoga|selfless work|doership)\\b", "w": 1, "why": "on work and practice together" },
+        { "re": "\\b(contentment|inner wealth|inner richness|true wealth)\\b", "w": 0.8, "why": "on contentment" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "right livelihood", "w": 1.1, "why": "Right livelihood: earning a living without harm" },
+          { "re": "choose a career|balance dharma practice with family and work|family and work|life (&|and) career", "w": 1, "why": "Practical guidance on work and practice side by side" },
+          { "re": "earn with integrity", "w": 0.7, "why": "Earning with integrity, spending with care" },
+          { "re": "practice of karma yoga|spiritualize your daily life|karma ?yoga to stay", "w": 0.9, "why": "Work done as practice: karma yoga, step by step" },
+          { "re": "you do your job", "w": 0.7, "why": "Doing the job in front of you, as practice" }
+        ], "practices": ["owner-of-my-actions", "lojong-slogans"] },
+        "enlighten": { "cues": [
+          { "re": "spiritual vs\\.? worldly|reconcile", "w": 1.3, "why": "Spiritual and worldly life reconciled through karma yoga" },
+          { "re": "doership with(out)? desire|karma ?yoga lead to self-realization|work as worship", "w": 1.1, "why": "Action without clinging to its results" },
+          { "re": "poor (&|and) happy|no wealth equal to contentment|inner (wealth|richness)|true wealth", "w": 1, "why": "Wealth measured by contentment, not the balance" },
+          { "re": "service is our greatest wealth", "w": 0.7, "why": "Service as the wealth that is never lost" }
+        ], "practices": [] },
+        "explain": { "cues": [
+          { "re": "is money an obstacle", "w": 1.3, "why": "Whether money is really an obstacle to practice" },
+          { "re": "health and wealth be .?suffering|psychology of wealth|why even the rich", "w": 0.9, "why": "How wealth and worry bind the mind" },
+          { "re": "zen buddhism by the numbers.*livelihood|right livelihood", "w": 0.9, "why": "What the eightfold path means by livelihood" },
+          { "re": "karma ?yoga", "w": 0.6, "why": "The Gita's teaching on work, explained" }
+        ], "practices": [] }
+      },
+      "passage": { "re": "\\b(money|debt|livelihood|wealth|poverty|earn a living)\\b", "why": "A passage on money and practice" }
+    },
+    {
+      "id": "shame", "label": "Shame and the hidden self",
+      "match": { "domain": ["identity", "shame"], "roots": [], "re": "\\b(shame\\w*|ashamed|guilt\\w*|hid(e|es|ing|den)|closet\\w*|secret\\w*|unworthy|worthless|self[- ]?(hat\\w*|judg\\w*|loath\\w*|critic\\w*)|mask\\w*|pretend\\w*)\\b" },
+      "core": [
+        { "re": "\\b(shame|ashamed)\\b", "w": 1.1, "why": "on shame" },
+        { "re": "\\b(guilt|guilty)\\b", "w": 0.9, "why": "on guilt" },
+        { "re": "\\bself[- ]?(hatred|hate|loathing|judg\\w*|critic\\w*|esteem|acceptance|image|images)\\b", "w": 1, "why": "on how we see ourselves" },
+        { "re": "\\b(unworthy|worthy|love (yourself|myself|oneself))\\b", "w": 0.8, "why": "on worthiness" },
+        { "re": "\\b(mask|false self|true self|authentic(ally)?|identity)\\b", "w": 0.6, "why": "on the self we show and the self we are" },
+        { "re": "\\b(forgiveness|tenderness)\\b", "w": 0.5, "why": "on forgiveness" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "healing shame \\|", "w": 1.35, "why": "A guided practice for meeting shame gently" },
+          { "re": "trauma and shame", "w": 1.1, "why": "A guided practice for meeting shame and old hurt gently" },
+          { "re": "shame and tenderness", "w": 1.1, "why": "Turning towards shame with tenderness" },
+          { "re": "knot to untangle", "w": 1, "why": "Untangling guilt without self-punishment" },
+          { "re": "forgiveness (&|and) self acceptance|self[- ]acceptance", "w": 1.1, "why": "A guided practice of self-forgiveness" },
+          { "re": "how do i love myself", "w": 1, "why": "Learning to befriend yourself, in plain steps" },
+          { "re": "practice to release the identity", "w": 0.9, "why": "A practice for loosening a fixed self-image" },
+          { "re": "self-hatred", "w": 0.9, "why": "Working with self-hatred when it shows up" }
+        ], "practices": ["rain", "metta-loving-kindness", "goodwill-metta", "welcoming-practice", "tonglen"] },
+        "enlighten": { "cues": [
+          { "re": "free of shame and guilt", "w": 1.6, "why": "Shame and guilt seen through the Trika view" },
+          { "re": "worthy and non-worthy", "w": 1.2, "why": "Grace that does not wait for you to feel worthy (Trika)" },
+          { "re": "no-self esteem", "w": 1.1, "why": "Who is it that feels ashamed? A no-self reframe" },
+          { "re": "is .i am. the problem|looking through the mask|true self, false self", "w": 1, "why": "The self that is defended, seen through" },
+          { "re": "authentic identity|being authentically you|what is our true self", "w": 0.8, "why": "What 'being yourself' means once the mask drops" },
+          { "re": "limited being", "w": 0.8, "why": "How the one awareness contracts into a self that can feel small (Trika)" }
+        ], "practices": ["recognition-pratyabhijna-contemplation"] },
+        "explain": { "cues": [
+          { "re": "why confession|sense of shame and fear of wrongdoing", "w": 0.3, "why": "The shame that guards against harm, as the suttas describe it" },
+          { "re": "shame, anger", "w": 1, "why": "How shame turns into anger on the spiritual path" },
+          { "re": "emotions, agency|self-esteem", "w": 1, "why": "Self-esteem and agency, explained" },
+          { "re": "self-image psychology|self images|puzzle of personal identity", "w": 0.9, "why": "How a self-image forms and why we defend it" },
+          { "re": "tantra, psychology, and identity", "w": 1, "why": "What tantra says about psychology and identity" },
+          { "re": "personal issues and emotional hangups", "w": 0.9, "why": "Why old emotional knots keep returning in practice" }
+        ], "neg": [ { "re": "fear of wrongdoing|confession", "w": 0.8, "why": "moral shame (hiri) is a different thing from shame about who one is: kept low for this knot" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(shame|ashamed|guilt|self-hatred|unworthy|hiding)\\b", "why": "A passage on shame and self-judgment" }
+    },
+    {
+      "id": "doubt", "label": "Doubt",
+      "match": { "domain": ["doubt", "faith"], "roots": [], "re": "\\b(doubt\\w*|unsure|sceptic\\w*|skeptic\\w*|losing faith|is this (even )?working|not sure)\\b" },
+      "core": [
+        { "re": "\\b(doubt|doubts|doubting)\\b", "w": 1.1, "why": "on doubt" },
+        { "re": "\\b(sceptic\\w*|skeptic\\w*|disbelief)\\b", "w": 0.8, "why": "on scepticism" },
+        { "re": "\\b(confidence|conviction|saddha|faith)\\b", "w": 0.5, "why": "on confidence in the path" },
+        { "re": "\\buncertain(ty)?\\b", "w": 0.4, "why": "on not knowing" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "how do we overcome doubt|overcome doubt", "w": 1.2, "why": "Working with doubt directly, from Vedanta" },
+          { "re": "take refuge when you doubt", "w": 1.2, "why": "What to do when you doubt your path" },
+          { "re": "doubt and thinking", "w": 1.1, "why": "Seeing doubt as thinking, and letting it settle" },
+          { "re": "confidence that comes from seeing", "w": 1, "why": "Confidence built by seeing for yourself" }
+        ], "practices": ["recognition-pratyabhijna-contemplation", "self-enquiry"] },
+        "enlighten": { "cues": [
+          { "re": "doubt our divinity", "w": 1.3, "why": "Doubt as the last veil over your own nature (Trika)" },
+          { "re": "doubts are clarified", "w": 1.3, "why": "When doubt is cleared, the teaching starts to work (Trika)" },
+          { "re": "suspend our disbelief", "w": 1, "why": "Why we hold back from the freedom on offer (Trika)" },
+          { "re": "celebrating uncertainty|ultimate uncertainty|at ease with uncertainty", "w": 0.8, "why": "Resting in not-knowing instead of fighting it" },
+          { "re": "self doubt is the voice", "w": 0.9, "why": "Self-doubt seen as the voice of the ego" }
+        ], "practices": [] },
+        "explain": { "cues": [
+          { "re": "pain of doubt", "w": 1.3, "why": "Why doubt hurts, and what it rests on" },
+          { "re": "hindrances?", "w": 0.9, "why": "Doubt as one of the five hindrances, mapped" },
+          { "re": "faith ?\\(saddha\\)|saddha", "w": 1, "why": "What faith means in the Buddha's teaching" },
+          { "re": "teach metaphysics to skeptics", "w": 0.8, "why": "How a teacher meets a sceptical mind" }
+        ], "practices": [] }
+      },
+      "passage": { "re": "\\b(doubt\\w*|vicikicch\\w*|sceptic\\w*|skeptic\\w*)\\b", "why": "A passage on doubt in practice" }
+    },
+    {
+      "id": "anger", "label": "Anger and aversion",
+      "match": { "domain": ["anger"], "roots": ["dosa"], "re": "\\b(ang(er|ry)|rage|resent\\w*|irritat\\w*|furious|hatred|hate|aversion|snapp\\w*)\\b" },
+      "core": [
+        { "re": "\\b(anger|angry|rage|wrath|krodha)\\b", "w": 1.1, "why": "on anger" },
+        { "re": "\\b(aversion|ill[- ]will|hatred|resentment|irritation)\\b", "w": 0.9, "why": "on aversion" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "stop anger|deal with (negative emotions|anger)|working with anger|overcome .*anger", "w": 1.1, "why": "Working with anger as it arises" },
+          { "re": "\\bguided\\b", "w": 0.6, "why": "A guided sit for meeting anger" },
+          { "re": "metta|loving[- ]kindness|goodwill", "w": 0.9, "why": "Goodwill as the antidote to ill will" }
+        ], "practices": ["goodwill-metta", "metta-loving-kindness", "rain", "tonglen"] },
+        "enlighten": { "cues": [
+          { "re": "kali.s anger", "w": 0.8, "why": "Fierce energy seen as awareness, not enemy (tantric view)" },
+          { "re": "being with intense emotions|not at the mercy of your emotions", "w": 1, "why": "Emotion seen as energy moving through awareness (Trika)" },
+          { "re": "fear, anger, and the meaning", "w": 0.9, "why": "Anger and fear held with understanding" }
+        ], "practices": [] },
+        "explain": { "cues": [
+          { "re": "why (do|are) (we|you|i) (get )?angry|roots? of anger|what is anger|understanding anger|anger and (its|the) cause", "w": 1, "why": "Where anger comes from, explained" },
+          { "re": "hindrances?", "w": 0.7, "why": "Ill will as a hindrance, mapped" }
+        ], "practices": [] }
+      },
+      "passage": { "re": "\\b(anger|aversion|ill will|resentment)\\b", "why": "A passage on anger and aversion" }
+    },
+    {
+      "id": "fear", "label": "Fear and anxiety",
+      "match": { "domain": ["anxiety", "fear"], "roots": [], "re": "\\b(anxi\\w*|worr\\w*|panic\\w*|stress\\w*|nervous|afraid|fear\\w*|overwhelm\\w*|dread)\\b" },
+      "core": [
+        { "re": "\\b(fear|fears|afraid|fearless\\w*)\\b", "w": 1, "why": "on fear" },
+        { "re": "\\b(anxiety|anxious|worry|worries|panic)\\b", "w": 1, "why": "on anxiety" },
+        { "re": "\\bstress\\b", "w": 0.5, "why": "on stress" }
+      ],
+      "roles": {
+        "resolve": { "cues": [
+          { "re": "\\bguided\\b|yoga nidra", "w": 0.9, "why": "A guided sit for settling fear in the body" },
+          { "re": "welcoming fear|how to .*fear|go beyond fear|transcending fear", "w": 1, "why": "Meeting fear instead of running from it" }
+        ], "practices": ["mindful-breathing-pv", "mindfulness-of-breathing", "walking-meditation", "ease-through-the-body-trika-prep"] },
+        "enlighten": { "cues": [
+          { "re": "established in the self remains free from fear", "w": 1.2, "why": "Why one rooted in the Self is free of fear (Trika)" },
+          { "re": "fear of discovering|beneath the fear", "w": 0.9, "why": "The fear beneath the fear, seen through" }
+        ], "practices": [] },
+        "explain": { "cues": [
+          { "re": "why .*(fear|anxious)|what is fear", "w": 1, "why": "Where fear comes from, explained" }
+        ], "practices": [] }
+      },
+      "passage": { "re": "\\b(fear|anxiety|anxious|panic)\\b", "why": "A passage on fear" }
+    },
+    {
+      "id": "grief", "label": "Grief and loss",
+      "match": { "domain": ["grief", "loss"], "roots": [], "re": "\\b(grie\\w*|mourn\\w*|bereave\\w*|passed away|funeral|lost (my|a|our))\\b" },
+      "core": [
+        { "re": "\\b(grief|grieving|mourning|bereave\\w*|loss)\\b", "w": 1.1, "why": "on grief" },
+        { "re": "\\b(death|dying)\\b", "w": 0.5, "why": "on death" }
+      ],
+      "roles": {
+        "resolve": { "cues": [ { "re": "\\bguided\\b|metta|loving[- ]kindness", "w": 0.9, "why": "A gentle practice for carrying grief" }, { "re": "welcoming .*grief|grief and death", "w": 1, "why": "Letting grief be met, not managed" } ], "practices": ["goodwill-metta", "the-five-remembrances", "rain"] },
+        "enlighten": { "cues": [ { "re": "where do we go|no birth|deathless", "w": 1, "why": "Loss seen from the view of no birth and no death" } ], "practices": [] },
+        "explain": { "cues": [ { "re": "arrow|salla|impermanence", "w": 0.9, "why": "The Buddha on the second arrow of grief" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(grief|grieving|mourning|loss)\\b", "why": "A passage on grief" }
+    },
+    {
+      "id": "relationships", "label": "Relationships",
+      "match": { "domain": ["relationship", "relationships", "family"], "roots": [], "re": "\\b(lonel\\w*|partner|marri\\w*|husband|wife|girlfriend|boyfriend|relationship\\w*|divorc\\w*|break ?up|parents?)\\b" },
+      "core": [ { "re": "\\b(relationship\\w*|partner|marriage|family|love|lonel\\w*|intimacy)\\b", "w": 0.9, "why": "on relationships" } ],
+      "roles": {
+        "resolve": { "cues": [ { "re": "how to|guided|metta", "w": 0.8, "why": "A practice for meeting others with care" } ], "practices": ["goodwill-metta", "tonglen", "lojong-slogans"] },
+        "enlighten": { "cues": [ { "re": "love|one self|other", "w": 0.6, "why": "Love seen from the view of no separation" } ], "practices": [] },
+        "explain": { "cues": [ { "re": "why|attachment", "w": 0.7, "why": "Why attachment and love get tangled" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(relationship|partner|marriage|loneliness)\\b", "why": "A passage on relationships" }
+    },
+    {
+      "id": "restless", "label": "Restlessness",
+      "match": { "domain": ["restlessness"], "roots": [], "re": "\\b(restless\\w*|bored\\w*|distract\\w*|agitat\\w*|can.t sit still|fidget\\w*)\\b" },
+      "core": [ { "re": "\\b(restless\\w*|agitat\\w*|boredom|bored|distract\\w*)\\b", "w": 1, "why": "on restlessness" } ],
+      "roles": {
+        "resolve": { "cues": [ { "re": "guided|how to|walking", "w": 0.8, "why": "A practice for settling a restless mind" } ], "practices": ["walking-meditation", "mindfulness-of-breathing", "mahasi-noting"] },
+        "enlighten": { "cues": [ { "re": "awareness|stillness|spanda", "w": 0.7, "why": "Restlessness seen as movement within stillness" } ], "practices": [] },
+        "explain": { "cues": [ { "re": "hindrances?|why", "w": 0.8, "why": "Restlessness as a hindrance, mapped" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(restless\\w*|agitation|boredom)\\b", "why": "A passage on restlessness" }
+    },
+    {
+      "id": "sloth", "label": "Dullness and low energy",
+      "match": { "domain": ["energy", "fatigue"], "roots": [], "re": "\\b(sleepy|drows\\w*|dull\\w*|sluggish|letharg\\w*|no energy|exhausted|tired all|cloudy)\\b" },
+      "core": [ { "re": "\\b(sloth|torpor|drows\\w*|sleepy|dullness|sluggish|lethargy|tired\\w*|energy)\\b", "w": 0.9, "why": "on dullness and energy" } ],
+      "roles": {
+        "resolve": { "cues": [ { "re": "how to|walking|guided", "w": 0.8, "why": "A practice for rousing energy without forcing" } ], "practices": ["walking-meditation", "walking-meditation-jongrom", "mindfulness-of-breathing"] },
+        "enlighten": { "cues": [ { "re": "awareness|bright", "w": 0.6, "why": "Brightness that does not depend on mood" } ], "practices": [] },
+        "explain": { "cues": [ { "re": "hindrances?|sloth|torpor", "w": 0.9, "why": "Sloth and torpor as a hindrance, mapped" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(sloth|torpor|drowsiness|dullness)\\b", "why": "A passage on dullness" }
+    },
+    {
+      "id": "illness", "label": "Illness and the body",
+      "match": { "domain": ["health", "illness"], "roots": [], "re": "\\b(ill(ness)?|sick\\w*|pain|chronic|diagnos\\w*|ageing|aging|injur\\w*|hospital)\\b" },
+      "core": [ { "re": "\\b(illness|sickness|pain|ageing|aging|body|healing)\\b", "w": 0.9, "why": "on illness and the body" } ],
+      "roles": {
+        "resolve": { "cues": [ { "re": "guided|body scan|how to", "w": 0.8, "why": "A gentle practice for living with the body as it is" } ], "practices": ["body-sweeping-goenka-vipassana", "ease-through-the-body-trika-prep", "goodwill-metta"] },
+        "enlighten": { "cues": [ { "re": "not the body|awareness|material body", "w": 0.8, "why": "The body seen from awareness" } ], "practices": [] },
+        "explain": { "cues": [ { "re": "aging, sickness|dukkha|why", "w": 0.8, "why": "Why illness and ageing are where practice begins" } ], "practices": [] }
+      },
+      "passage": { "re": "\\b(illness|sickness|pain|ageing)\\b", "why": "A passage on illness and the body" }
+    }
+  ]
+}

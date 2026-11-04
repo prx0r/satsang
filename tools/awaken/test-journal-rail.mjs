@@ -57,7 +57,7 @@ await ok('14b "Stop reading my journal" and 15 Delete everything clear the devic
   const prof = fs.readFileSync(path.join(ROOT, 'app/src/profile.js'), 'utf8'), jr = fs.readFileSync(path.join(ROOT, 'app/src/journal.js'), 'utf8')
   assert.match(prof, /'journal', 'journalMute'/)                                         // forget(): Delete everything
   assert.match(prof, /journal: LS\.get\('journal', null\)/)                              // exportLocal(): Download my data
-  assert.match(jr, /function stop\(\) \{ localStorage\.removeItem\('wiser\.' \+ KEY\); localStorage\.removeItem\('wiser\.' \+ MUTE_KEY\)/)
+  assert.match(jr, /function stop\(\) \{ for \(const k of \[KEY, MUTE_KEY, HELPED_KEY, NOT_KEY\]\) localStorage\.removeItem\('wiser\.' \+ k\)/)   // 2026-11-05: helped / not-this go too
   assert.ok(!/api\(|fetch\([^)]*intentions/.test(jr.slice(jr.indexOf('export function createJournal'))))  // device only: never synced
 })
 await ok('16 guards: deploy guard and secret scan block a journal payload and the proof output', () => {

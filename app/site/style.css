@@ -1816,3 +1816,21 @@ body.tv-on #toast{display:none}
 /* featured tradition row + journal rail (2026-11-04): existing tokens only */
 .fy-feat .wsech h3,.fy-journal .wsech h3{white-space:normal}
 .fy-jnote{margin:0 0 12px;max-width:72ch}
+/* For You tension blocks (2026-11-05, specs/FORYOU-TENSIONS.md): existing tokens only */
+.fy-tblock{margin:6px 0 22px;padding:14px 0 4px;border-top:1px solid var(--line)}
+.fy-tblock:first-of-type{border-top:0;padding-top:4px}
+.fy-thead{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;margin:0 0 8px}
+.fy-ttitle{margin:0;font-family:var(--display);font-weight:600;font-size:24px;line-height:1.15;color:var(--text);overflow-wrap:anywhere}
+.fy-tstat{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(232,207,150,.35);border-radius:999px;padding:2px 9px}
+.fy-tstat.fy-ts-loosening,.fy-tstat.fy-ts-entry{color:var(--muted);border-color:var(--line)}
+.fy-tmute{margin-left:auto;font-size:13px;color:var(--muted)}
+.fy-trole{margin:4px 0 12px}
+.fy-rlab{margin:0 0 6px;font-size:14px}.fy-rlab b{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--text);margin-right:4px}
+.fy-tensions .fy-railrow{grid-auto-columns:minmax(240px,270px)}
+.fy-prth{display:flex;align-items:flex-end;justify-content:space-between;aspect-ratio:16/9;padding:12px 14px;text-decoration:none;background:linear-gradient(160deg,var(--bg2),var(--panel))}
+.fy-prk{font-family:var(--display);font-size:22px;color:var(--gold)}.fy-prm{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--muted)}
+.fy-mom{cursor:pointer}
+.fy-momplay{position:absolute;left:8px;bottom:8px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;background:rgba(10,13,20,.85);color:var(--gold);border:1px solid rgba(232,207,150,.45);padding:4px 9px;border-radius:6px;cursor:pointer}
+.fy-help[disabled]{color:var(--gold);text-decoration:none;cursor:default}
+.fy-enough{margin:4px 0 0;max-width:80ch}
+@media (max-width:560px){.fy-ttitle{font-size:21px}.fy-tmute{margin-left:0}}

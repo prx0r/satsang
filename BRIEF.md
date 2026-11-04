@@ -13,7 +13,7 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web 07aaf856 (2026-11-04) |
+| Site | https://tantrafiles.xyz (www too) | wiser-web 2cfeb8a1 (2026-11-05) |
 | API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
 | MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 5ce47506 (2026-11-04) |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat bf32b244 (2026-11-04) |
@@ -29,6 +29,11 @@ runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
   5 texts, 6 places), resolved by `app/tools/build-featured.py` (best talks by gold tier; anyone with a safety record dropped)
   into `site/data/wisegraph/featured.json`. Shows as a Featured row on Watch (under the Topic flash), the first 4 cards of a
   cold-start For You, a Featured strip atop Teachers; "Kashmir Shaivism: first steps" is the featured series in its topic.
+- **For You tension blocks (2026-11-05)**: with a journal connected, For You opens on one block per tension (open, then loosening,
+  then strong concerns from the entries): the tension's own short title, then **Resolve / Enlighten / Explain** rows of 1–3 real talks,
+  transcript moments or practices with a why-line, "This helped" (device: eases that tension, raises similar) and "Not this".
+  Knots: `app/wisegraph/knots.json` → `app/tools/build-knots.mjs` → `site/data/wisegraph/knots.json`; planner `src/tensions.js`;
+  spec `specs/FORYOU-TENSIONS.md`; eval `tools/awaken/eval-foryou.mjs` (writes private/ only).
 - **Journal → For You (awakening algorithm slice 1)**: Your model → "Read my journal" (a public GitHub journal or a JSON feed),
   concerns computed on the device only (`wiser.journal`, never synced), a "From your journal" rail + why-lines. Content loop
   (journal → essay → video → @svatantryart → For You): `specs/JOURNAL-TO-VIDEO.md`, first run files in gitignored `private/`.
@@ -48,7 +53,7 @@ cd app && sh deploy.sh build && sh deploy.sh guard && sh deploy.sh ship   # site
 sh deploy.sh api | mcp | chat | search                                   # the other Workers
 cd .. && python3 tools/check/check-data.py && sh tools/check/crawl-run.sh  # data checks + phone route crawl
 node app/tools/test-practice-engine.mjs                                  # practice data + engine checks
-node tools/awaken/test-journal-signals.mjs && node tools/awaken/test-journal-rail.mjs   # journal slice (10 + 9)
+node tools/awaken/test-journal-signals.mjs && node tools/awaken/test-journal-rail.mjs && node tools/awaken/test-foryou-tensions.mjs   # journal (10 + 9 + 15)
 sh tools/release/release.sh "<msg>"                                      # commit + push prx0r/satsang (engine/ left out)
 RELEASE_ENGINE=1 RELEASE_ONLY=engine sh tools/release/release.sh "engine: <msg>"   # engine/ in its own commit
 ```
@@ -74,7 +79,7 @@ node tools/test-text-to-practice.mjs && node tools/test-sit.mjs && python3 tools
 
 ## Doc map
 - `README.md` layout + deploy · `OPEN-THREADS.md` open work · `MERGE-LOG.md` history.
-- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), JOURNAL-TO-VIDEO, SIT-PLAYER,
+- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), FORYOU-TENSIONS, JOURNAL-TO-VIDEO, SIT-PLAYER,
   TEXT-TO-PRACTICE, SERIES-FORMULA, PLACES-TODO, PLACES-REVIEW. `specs/extensions/` = merge records.
 - `search/README.md` (lens Worker), `mcp/README.md`, `chat/README.md`, `keeper/README.md`, `engine/README.md`.
 - `_archive/` old briefs and one-off reports; `archive/` Funnier-era code.
