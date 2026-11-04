@@ -14,6 +14,8 @@ head_sampling_rate = 1
 [vars]
 # Public OAuth client id (Google Identity Services). Empty = /auth/google answers 503 "sign-in not configured".
 GOOGLE_CLIENT_ID = ""
+# Public JWKS of the shared Satsang account (auth.tantrafiles.xyz; public keys only). Update when satsang-auth rotates its key.
+AUTH_JWKS = "{\"keys\":[{\"kty\":\"EC\",\"crv\":\"P-256\",\"x\":\"_t84fberZ2Mywef26qJHOEIwZ48EiMJt6wQ7RAfhnjE\",\"y\":\"yKbfwTt3XKXw9DBIm7v-siHPAWof1pTFv2ajrfoGVbg\",\"kid\":\"sa-2026-11-04\",\"alg\":\"ES256\",\"use\":\"sig\"}]}"
 
 [[d1_databases]]
 binding = "DB"

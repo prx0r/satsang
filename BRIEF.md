@@ -13,8 +13,9 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web 2cfeb8a1 (2026-11-05) |
-| API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
+| Site | https://tantrafiles.xyz (www too) | wiser-web b75cba7d (2026-11-05) |
+| API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 957754d5 (2026-11-05; nightly cron 19:17 UTC) |
+| Shared account + day-gated journeys | https://auth.tantrafiles.xyz | satsang-auth ed224533 (D1 satsang-auth; 2026-11-05) |
 | MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 5ce47506 (2026-11-04) |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat bf32b244 (2026-11-04) |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
@@ -24,6 +25,15 @@ satsang.digital is prepared but **not active**: its nameservers at Porkbun must 
 runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
 
 ## Current state in one screen
+- **Shared account (2026-11-05)**: one Google sign-in for Satsang, the journey journal and the practice lab via `satsang-auth`
+  (auth.tantrafiles.xyz, `auth/`): Google ID token verified server-side → our ES256 access token (1 h, public JWKS) + rotating refresh;
+  cross-domain by redirect handoff (one-time code + PKCE), no shared cookies. Stores no email/name/photo (hashed Google id + pen name).
+  Satsang's account menu uses it (opt-in "Bring this device's history?" on first sign-in; the journal profile stays on the device).
+  **Real sign-in waits on the owner adding `https://auth.tantrafiles.xyz` to the Funnier OAuth client's JavaScript origins**
+  (`specs/SHARED-ACCOUNT.md` §6). nibbanahelp / deitybody untouched (their rules; snippet in §5).
+- **Day-gated journeys (API MVP, 2026-11-05)**: invite-only circles; you read others' Day N only after posting your own; entries
+  encrypted at rest (AES-256-GCM per entry, wrapped by an HKDF day key the server releases after your post; server = trusted
+  key-holder, not E2E). No page shows it yet. `specs/JOURNEYS-DAYGATE.md`.
 - **Featured tradition: Trika / Kashmir Shaivism** (owner, 2026-11-04; no redesign). Curated in `app/wisegraph/featured.json`
   (order: Lakshmanjoo, Wallis, Dyczkowski, Abhinavagupta, Utpaladeva, Kṣemarāja, Bäumer, John Hughes, Sanderson; 4 series,
   5 texts, 6 places), resolved by `app/tools/build-featured.py` (best talks by gold tier; anyone with a safety record dropped)
@@ -51,6 +61,7 @@ runs `app/tools/switch-domain.sh` (`domain.mjs` ACTIVE='legacy' until then).
 ```
 cd app && sh deploy.sh build && sh deploy.sh guard && sh deploy.sh ship   # site (separate calls in the 120 s sandbox)
 sh deploy.sh api | mcp | chat | search                                   # the other Workers
+(cd ../auth && npm test && npx wrangler deploy && node test/live.mjs)    # satsang-auth (shared account + journeys)
 cd .. && python3 tools/check/check-data.py && sh tools/check/crawl-run.sh  # data checks + phone route crawl
 node app/tools/test-practice-engine.mjs                                  # practice data + engine checks
 node tools/awaken/test-journal-signals.mjs && node tools/awaken/test-journal-rail.mjs && node tools/awaken/test-foryou-tensions.mjs   # journal (10 + 9 + 15)
@@ -72,14 +83,15 @@ node tools/test-text-to-practice.mjs && node tools/test-sit.mjs && python3 tools
 - Topic takes are Satsang's own one-line summaries, never quotes. Hareesh Wallis texts are link-only (all rights reserved).
 - Licensing stance (owner, 2026-10-21): non-commercial; CC BY-NC assets are fine with attribution; keep all licence notices.
 - Never buy anything (domains included); never spend credits (OpenRouter off; Workers AI free allocation only).
-- No DNS changes, no switch-domain.sh, no D1 seeds without the owner.
+- No DNS changes, no switch-domain.sh, no D1 seeds without the owner (exception the owner asked for, 2026-11-05: the auth.tantrafiles.xyz Worker custom domain).
 - Plain words in the UI: no jargon, no "battle", no "VS", no clocks. Screenshots (phone 390 px + desktop) before deploy.
 - Never delete owner or agent work: move it into `_archive/`.
 - If something loops more than twice, stop and note it here or in OPEN-THREADS.md.
 
 ## Doc map
 - `README.md` layout + deploy · `OPEN-THREADS.md` open work · `MERGE-LOG.md` history.
-- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), FORYOU-TENSIONS, JOURNAL-TO-VIDEO, SIT-PLAYER,
+- `auth/` the shared-account Worker (satsang-auth) + `auth/client/auth.js` drop-in client.
+- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: SHARED-ACCOUNT, JOURNEYS-DAYGATE, AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), FORYOU-TENSIONS, JOURNAL-TO-VIDEO, SIT-PLAYER,
   TEXT-TO-PRACTICE, SERIES-FORMULA, PLACES-TODO, PLACES-REVIEW. `specs/extensions/` = merge records.
 - `search/README.md` (lens Worker), `mcp/README.md`, `chat/README.md`, `keeper/README.md`, `engine/README.md`.
 - `_archive/` old briefs and one-off reports; `archive/` Funnier-era code.

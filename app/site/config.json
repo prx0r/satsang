@@ -2,5 +2,6 @@
   "apiBase": "https://api.tantrafiles.xyz",
   "googleClientId": "",
   "shareBase": "https://tantrafiles.xyz/",
-  "localApi": "http://127.0.0.1:8787"
+  "localApi": "http://127.0.0.1:8787",
+  "authBase": "https://auth.tantrafiles.xyz"
 }

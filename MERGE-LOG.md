@@ -442,3 +442,20 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   timestamps only (not redeployed). Spend US$0. Not touched: DNS, D1, engine/, search index, nibbanahelp, chat.
 - Deployed twice: 6631723b, then 2cfeb8a1 after taking journal-worded terms out of the knots' `match` regexes (generic words only;
   same 16 picks on the live journal). Live: tension blocks [3,2,2]/[1,1,1]×3 on phone and desktop, no undefined/NaN, no duplicates.
+
+## Shared account + day-gated journeys (2026-11-05 ~02:15-03:30 +07: satsang-auth ed224533, wiser-api 957754d5, wiser-web b75cba7d)
+- New Worker `satsang-auth` (`auth/`, Hono + jose, D1 `satsang-auth` c7b551a4, custom domain auth.tantrafiles.xyz: the only DNS record
+  added; the zone's other records untouched). Reuses Funnier's approach (GIS ID token → server-side jwtVerify against Google's JWKS, iss,
+  aud) and its client id, but issues ES256 tokens with a public JWKS, rotating hashed refresh tokens, and a hosted sign-in page with
+  one-time code + PKCE handoff for the stonedoorway.com sites. Users table: uid, HMAC'd Google sub, pen name, dates (no email).
+  Secrets put with `auth/tools/put-secrets.mjs` (backup in gitignored private/).
+- wiser-api accepts the shared tokens (`app/api/src/shared-auth.mjs`, `AUTH_JWKS` var = public key) and creates a users row on first
+  sight. Satsang: account menu "Sign in with Google" → hosted page; first sign-in asks "Bring this device's history?" (claim-device
+  only on yes); Delete my account also erases the shared account; privacy page updated.
+- Journeys API MVP (`/v1/journeys/*`): day gate, per-entry AES-256-GCM DEK wrapped by HKDF day keys released after the member's own
+  Day N, ledger-format blocks (canonical JSON, domain-separated SHA-256 id, salted commitment, optional Ed25519 signature), compose
+  ticket ≥90 s, ≥200-char filler floor, 20 h pace, invite + optional vouching, crisis hold, withdraw/leave/erase.
+- Tests: auth 41, journeys 42, wiser-api shared 7, tally 14, journal 10+9+15; live 17 (`auth/test/live.mjs`), incl. a live-signed token
+  verifying against the live JWKS. Shots phone 390 + desktop (menu, hosted page), no page errors.
+- Verified live that Google refuses the origin until the owner adds it ("The given origin is not allowed for the given client ID").
+- Not changed: nibbanahelp (AGENTS: do not restructure; no chrome), deitybody (no state to sync; boot-error banner; menu zones). Spend US$0.

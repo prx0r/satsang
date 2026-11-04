@@ -9,6 +9,7 @@ import { dailyTheme } from '../../src/themes.js' // For You daily theme (shared 
 import { createRemoteJWKSet, jwtVerify, SignJWT } from 'jose'
 import { BASE, SITE_ORIGINS } from '../../../domain.mjs' // public hostnames (one place)
 import { crowdTally } from './tally.mjs'
+import { isSharedToken, sharedUid, ensureUser } from './shared-auth.mjs' // the shared Satsang account (auth.tantrafiles.xyz)
 
 // legacy preset ids (v1 profiles); each maps to a deterministic avatar seed 'preset-<id>'
 export const AVATARS = ['grin', 'deadpan', 'wink', 'shock', 'smirk', 'cool', 'nerd', 'tash', 'sleepy', 'tongue', 'monocle', 'clown']
@@ -61,14 +62,16 @@ async function signSession(env, uid) {
   return new SignJWT({ uid }).setProtectedHeader({ alg: 'HS256' }).setIssuer('wiser-api').setIssuedAt().setExpirationTime(`${SESSION_DAYS}d`).sign(secretKey(env))
 }
 async function sessionUid(c) {
-  if (!c.env.SESSION_SECRET) return null
   const h = c.req.header('authorization') || ''
   const tok = h.startsWith('Bearer ') ? h.slice(7).trim() : getCookie(c, COOKIE)
   if (!tok) return null
+  if (isSharedToken(tok)) { const uid = await sharedUid(c.env, tok); if (uid) c.set('shared', true); return uid } // shared account (ES256)
+  if (!c.env.SESSION_SECRET) return null
   try { const { payload } = await jwtVerify(tok, secretKey(c.env), { issuer: 'wiser-api', algorithms: ['HS256'] }); return typeof payload.uid === 'string' ? payload.uid : null } catch { return null }
 }
 async function currentUser(c) {
   const uid = await sessionUid(c); if (!uid) return null
+  if (c.get('shared')) return ensureUser(c.env.DB, uid)
   return c.env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(uid).first()
 }
 const auth = async (c, next) => {
@@ -94,7 +97,7 @@ async function body(c) { try { return await c.req.json() } catch { return null }
 const pct = (x, n) => (n ? Math.round((100 * x) / n) : 0)
 
 // ---------- auth ----------
-app.get('/', (c) => c.json({ ok: true, service: 'wiser-api', signIn: !!c.env.GOOGLE_CLIENT_ID, anonVotes: true }))
+app.get('/', (c) => c.json({ ok: true, service: 'wiser-api', signIn: !!c.env.GOOGLE_CLIENT_ID || !!c.env.AUTH_JWKS, sharedAccount: 'https://auth.tantrafiles.xyz', anonVotes: true }))
 
 app.post('/auth/google', async (c) => {
   if (!c.env.GOOGLE_CLIENT_ID || !c.env.SESSION_SECRET) return c.json({ error: 'sign_in_not_configured' }, 503)

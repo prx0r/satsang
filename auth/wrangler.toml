@@ -1,0 +1,29 @@
+# satsang-auth: one Google sign-in for tantrafiles.xyz, nibbana.stonedoorway.com, body.stonedoorway.com + day-gated journeys.
+# Spec: ../specs/SHARED-ACCOUNT.md, ../specs/JOURNEYS-DAYGATE.md. Custom domain auth.tantrafiles.xyz (adds only that one record).
+name = "satsang-auth"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+account_id = "954612afb5a97bb15dddcdc70176813d"
+workers_dev = true
+routes = [{ pattern = "auth.tantrafiles.xyz", custom_domain = true }]
+
+[[rules]]
+type = "Text"
+globs = ["**/client/auth.js"]
+fallthrough = false
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[vars]
+# Public OAuth client id (Google Identity Services), reused from Funnier (owner adds the origins: specs/SHARED-ACCOUNT.md §6).
+GOOGLE_CLIENT_ID = "50738620553-fq7mdin3e3baiu3v3uoup40jlvajtqb0.apps.googleusercontent.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "satsang-auth"
+database_id = "c7b551a4-d95e-48c2-a409-a04cb658a721"
+
+# Secrets (never in this file or git): AUTH_PRIVATE_JWK (ES256 private JWK with kid), SUB_PEPPER, JOURNEY_MASTER_KEY (32 bytes base64url)
+#   node tools/gen-secrets.mjs | (one per line) npx wrangler secret put <NAME>

@@ -27,6 +27,7 @@ import { createMiniCourses } from './minicourse.js' // Series (2026-10-25; were 
 import { createEngine, basePrior, mergePrior, readout, deltas, deltaText, FEATURES, ENGINE_MODEL } from './engine.js' // humour engine v2 (handwired)
 import { BASE as SITE_BASE, HOST as SITE_HOST } from '../../domain.mjs' // public hostnames (one place)
 import { initAsk } from './ask.js' // "Build me a path": the curator chat (#ask; chat/README.md)
+import '../../auth/client/auth.js' // the shared Satsang account (auth.tantrafiles.xyz): window.SatsangAuth; strips #sa_code before the router runs
 import { initLens } from './lens.js' // the enquiry lens: one persistent question re-ranks every tab (search/README.md)
 
 // www.funnier.si/u/<username> (served by funnier-web with <base href="/">) -> the in-app route #u/<username>
@@ -3475,7 +3476,8 @@ function youSub(k) {
 }
 
 // ---------- accounts: Google sign-in via funnier-api (Cloudflare Worker + D1) ----------
-let CFG = { apiBase: '', googleClientId: '', shareBase: SHARE_BASE }, USER = null
+let CFG = { apiBase: '', authBase: '', googleClientId: '', shareBase: SHARE_BASE }, USER = null
+const SA = () => (CFG.authBase && typeof window !== 'undefined' && window.SatsangAuth) || null // shared account client (specs/SHARED-ACCOUNT.md)
 const signedIn = () => !!(USER && CFG.apiBase)
 async function loadConfig() {
   try { const r = await fetch('config.json', { cache: 'no-cache' }); if (r.ok) CFG = { ...CFG, ...(await r.json()) } } catch {}
@@ -3483,7 +3485,7 @@ async function loadConfig() {
 }
 async function api(path, { method = 'GET', body } = {}) {
   if (!CFG.apiBase) throw new Error('no api')
-  const t = LS.get('session', null)
+  const t = (SA() && SA().user() ? await SA().token() : null) || LS.get('session', null) // shared account token (1 h, refreshed) or the legacy session
   const r = await fetch(CFG.apiBase + path, { method, credentials: 'include',
     headers: { ...(body ? { 'content-type': 'application/json' } : {}), ...(t ? { authorization: 'Bearer ' + t } : {}) },
     body: body ? JSON.stringify(body) : undefined })
@@ -3529,13 +3531,30 @@ function syncVotes() {
   return syncing
 }
 async function initAccount() {
-  if (!CFG.apiBase || !LS.get('session', null)) { paintUser(); return }
+  if (SA()) { try { await SA().init(); const back = sessionStorage.getItem('sa.back'); if (back) { sessionStorage.removeItem('sa.back'); if (!location.hash) location.hash = back } } catch {} }
+  if (!CFG.apiBase || !(LS.get('session', null) || SA()?.user())) { paintUser(); return }
   try { const r = await api('/me'); if (r.ok) { USER = r.j.user; afterSignIn(r.j.needsProfile, false) } } catch {}
   paintUser()
 }
+// first sign-in on a device: this device's history (picks, saves, practice log) joins the account only if the person says yes
+const linkKey = () => 'link:' + (USER?.id || '')
+function syncAll() { syncVotes().catch(() => {}); syncEvents(); syncWatches(true); syncProfile().catch(() => {}); syncChars().catch(() => {}); syncVersions().catch(() => {}); syncFeeds().catch(() => {}) }
+function askLink(then) {
+  const sh = $('#sheet'); if (!sh) { LS.set(linkKey(), 'fresh'); syncAll(); if (then) then(); return }
+  sh.innerHTML = `<div class="sheetcard" role="dialog" aria-modal="true" aria-labelledby="lkh"><h2 id="lkh">Bring this device\u2019s history?</h2>
+    <p>Your picks, saves and practice log on this device can join your account, so they follow you to your other devices. Your journal stays on this device either way.</p>
+    <div class="obact"><button type="button" class="dhbtn" data-lk="yes">Yes, bring them</button><button type="button" class="dhghost" data-lk="no">Not now</button></div></div>`
+  sh.hidden = false
+  sh.querySelectorAll('[data-lk]').forEach((b) => (b.onclick = async () => {
+    const yes = b.dataset.lk === 'yes'; LS.set(linkKey(), yes ? 'yes' : 'no'); sh.hidden = true; sh.innerHTML = ''
+    if (yes) { await api('/me/claim-device', { method: 'POST', body: { device: deviceId() } }).catch(() => null); syncAll(); toast('This device\u2019s history is now in your account.') }
+    else { const t = new Date().toISOString(), k = 'u:' + USER.id; LS.set('syncedAt', t); LS.set('syncedUser', k); LS.set('evSyncedAt', t); LS.set('evSyncedUser', k); LS.set(linkKey(), 'fresh'); syncAll() }
+    if (then) then()
+  }))
+}
 async function afterSignIn(needs, fresh) {
   paintUser(); paintProfilePage(); paintDaily() // a daily finished on another device hides here too
-  syncVotes().catch(() => {}); syncEvents(); syncWatches(true); syncProfile().catch(() => {}); syncChars().catch(() => {}); syncVersions().catch(() => {}); syncFeeds().catch(() => {})
+  const rest = async () => {
   const pa = LS.get('pendingAccept', null)
   if (pa?.code) {
     try { const r = await api(`/invites/${encodeURIComponent(pa.code)}/accept`, { method: 'POST', body: { open_id: pa.open_id } }); if (r.ok) toast(`You and ${r.j.friend?.username || pa.username} are now friends.`) } catch {}
@@ -3543,6 +3562,8 @@ async function afterSignIn(needs, fresh) {
   }
   if (needs && (fresh || !LS.get('onboardSeen', false))) openOnboarding()
   else if (fresh) toast(`Signed in as ${USER.username || USER.name || 'you'}.`)
+  }
+  if (SA() && !LS.get(linkKey(), null)) askLink(rest); else { syncAll(); rest() }
 }
 async function onGoogleCredential(resp) {
   try {
@@ -3570,6 +3591,7 @@ function renderGoogleButton(host) {
 }
 async function signOut() {
   try { await api('/auth/logout', { method: 'POST' }) } catch {}
+  try { await SA()?.signOut() } catch {}
   try { window.google?.accounts?.id?.disableAutoSelect() } catch {}
   LS.set('session', null); USER = null; SERVER_HUMOUR = null; CHART = null; setMenu(false); paintUser(); toast('Signed out. Your picks stay on this device.')
   if (!$('#v-profile')?.hidden) paintProfilePage()
@@ -3580,6 +3602,7 @@ async function deleteAccount() {
   if (!ok) return
   const r = await api('/me', { method: 'DELETE' }).catch(() => null)
   if (!r?.ok) return toast('Couldn\u2019t delete right now. Please try again.')
+  if (SA()?.user()) await SA().eraseAccount().catch(() => null) // the shared account too (auth.tantrafiles.xyz erases its rows)
   LS.set('session', null); LS.set('syncedAt', ''); USER = null; setMenu(false); paintUser(); showTab('arena'); toast('Your account and its data are deleted.')
 }
 async function addFriend(inv, btn) {
@@ -4319,11 +4342,11 @@ function paintMenu() {
       ${GOTO}${lane}<div class="um-sec"><button type="button" class="um-item" data-um="signout">Sign out</button></div>${adv}
       <div class="um-sec"><button type="button" class="um-del" data-um="delete">Delete my account</button>${legal}</div>`
   } else {
-    const can = CFG.googleClientId && CFG.apiBase
-    m.innerHTML = `<div class="um-sec">${can ? '<div id="gsibtn" class="gsibtn"><button type="button" class="um-google" disabled>Sign in with Google</button></div>' : '<button type="button" class="um-google" disabled>Sign in with Google <small>coming soon</small></button>'}
-      <p class="um-note">Sync your picks, add friends and see how your taste matches theirs.</p></div>
+    const can = CFG.googleClientId && CFG.apiBase, shared = !!(SA() && CFG.apiBase)
+    m.innerHTML = `<div class="um-sec">${shared ? '<button type="button" class="um-google" data-um="google">Sign in with Google</button>' : can ? '<div id="gsibtn" class="gsibtn"><button type="button" class="um-google" disabled>Sign in with Google</button></div>' : '<button type="button" class="um-google" disabled>Sign in with Google <small>coming soon</small></button>'}
+      <p class="um-note">${shared ? 'One account for Satsang, the journey journal and the practice lab. We keep a pen name, not your email.' : 'Sync your picks, add friends and see how your taste matches theirs.'}</p></div>
       ${lane}${GOTO}<div class="um-sec"><button type="button" class="um-item" data-um="profile">My profile</button><button type="button" class="um-item" data-um="history">History</button></div>${adv}<div class="um-sec">${legal}</div>`
-    if (can) renderGoogleButton(m.querySelector('#gsibtn'))
+    if (can && !shared) renderGoogleButton(m.querySelector('#gsibtn'))
   }
   laneSelect(); bindBsky(m)
   m.querySelectorAll('[data-um]').forEach((x) => (x.onclick = () => {
@@ -4337,6 +4360,7 @@ function paintMenu() {
     else if (k === 'edit') openOnboarding()
     else if (k === 'avatar') openAvatarSheet()
     else if (k === 'signout') signOut()
+    else if (k === 'google') { try { if (location.hash) sessionStorage.setItem('sa.back', location.hash) } catch {} SA()?.signIn() }
     else if (k === 'delete') deleteAccount()
   }))
 }

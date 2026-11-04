@@ -1,0 +1,16 @@
+{
+  "name": "satsang-auth",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/auth.test.mjs && node test/journeys.test.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.13.16",
+    "jose": "^5.10.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+// Live checks for the shared account (no sign-in needed): node auth/test/live.mjs
+import { jwtVerify, createRemoteJWKSet } from 'jose'
+const A = 'https://auth.tantrafiles.xyz', API = 'https://api.tantrafiles.xyz', SITE = 'https://tantrafiles.xyz'
+let pass = 0, fail = 0; const t = (n, ok, x = '') => { ok ? pass++ : fail++; console.log((ok ? 'ok   ' : 'FAIL ') + n + (ok ? '' : ' ' + x)) }
+const get = (u, h = {}) => fetch(u, { headers: h })
+const post = (u, b, origin) => fetch(u, { method: 'POST', headers: { 'content-type': 'application/json', ...(origin ? { origin } : {}) }, body: JSON.stringify(b) })
+let r = await get(A + '/'); let j = await r.json(); t('auth / 200, sign-in configured', r.status === 200 && j.signIn === true)
+r = await get(A + '/.well-known/jwks.json'); j = await r.json(); t('JWKS 200, ES256 public key only', r.status === 200 && j.keys.length >= 1 && j.keys.every((k) => k.alg === 'ES256' && !k.d))
+r = await get(A + '/auth.js'); t('auth.js 200', r.status === 200 && /SatsangAuth/.test(await r.text()))
+r = await get(A + '/signin?return=' + encodeURIComponent('https://body.stonedoorway.com/lab') + '&state=livecheck1&cc=' + 'A'.repeat(43)); t('hosted sign-in page 200', r.status === 200 && /gsi\/client/.test(await r.text()))
+r = await get(A + '/signin?return=' + encodeURIComponent('https://evil.example/') + '&state=livecheck1&cc=' + 'A'.repeat(43)); t('sign-in page refuses an unlisted return (400)', r.status === 400)
+r = await post(A + '/v1/google', { credential: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IngifQ.eyJzdWIiOiIxIn0.c2ln' }, SITE); t('POST /v1/google answers; forged Google token -> 401', r.status === 401)
+r = await post(A + '/v1/exchange', { code: 'nope', verifier: 'A'.repeat(43) }, 'https://body.stonedoorway.com'); t('POST /v1/exchange bogus code -> 400', r.status === 400)
+r = await post(A + '/v1/refresh', { refresh: 'nope' }, SITE); t('POST /v1/refresh bogus -> 401', r.status === 401)
+r = await get(A + '/v1/me'); t('GET /v1/me without token -> 401', r.status === 401)
+r = await get(A + '/v1/journeys/mine'); t('GET /v1/journeys/mine without token -> 401', r.status === 401)
+r = await fetch(A + '/v1/refresh', { method: 'OPTIONS', headers: { origin: 'https://nibbana.stonedoorway.com', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type' } })
+t('CORS preflight from nibbana.stonedoorway.com allowed', r.headers.get('access-control-allow-origin') === 'https://nibbana.stonedoorway.com')
+r = await fetch(A + '/v1/refresh', { method: 'OPTIONS', headers: { origin: 'https://evil.example', 'access-control-request-method': 'POST' } }); t('CORS preflight from an unlisted origin refused', !r.headers.get('access-control-allow-origin'))
+r = await get(A + '/selftest'); j = await r.json()
+const v = await jwtVerify(j.token, createRemoteJWKSet(new URL(A + '/.well-known/jwks.json')), { issuer: A, audience: 'satsang-selftest', algorithms: ['ES256'] }).catch((e) => ({ err: e.message }))
+t('a token signed by the live Worker verifies against the live JWKS', v.payload?.sub === 'selftest', v.err)
+r = await get(API + '/me', { authorization: 'Bearer ' + j.token, origin: SITE }); t('wiser-api refuses the selftest token (wrong audience) -> 401', r.status === 401)
+r = await get(API + '/'); j = await r.json(); t('wiser-api knows the shared account', j.sharedAccount === A)
+r = await get(SITE + '/'); t('tantrafiles.xyz 200', r.status === 200)
+r = await get(SITE + '/config.json'); j = await r.json(); t('site config points at the shared account', j.authBase === A)
+console.log(`live: ${pass} passed, ${fail} failed`); if (fail) process.exit(1)
