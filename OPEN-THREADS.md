@@ -35,12 +35,12 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | S33 | Sivananda *Kundalini Yoga* (DLS) source map: passes 0–2 done read-only (189 sections, 23 runnable candidates, 59 rules; text private in satsang-data) | **AU** | Owner/teacher reviews `engine/sources/books/sivananda-kundalini-yoga/labels.tsv` tiers + REPORT.md conflicts, then pass 3 (first batch: sukha purvaka, nadi suddhi, bhastrika, suryabheda, ujjayi, bandhas, kapalabhati). Nothing compiled or deployed. |
 | S34 | Chat leads 2026-10-26: Trika teachers/places done in ext-49 (2026-10-31); tulku + cosmology topics remain | NS | Topics "Tulkus & rebirth", "Buddhist cosmology / Tushita", "How to enter Trika" (notes/2026-10-26-trika-tulkus-cosmology.md). |
 | S35 | Trika completeness follow-ups (ext-49 held list) | NS | Research Bhāskara, Maheśvarānanda, Sāhib Kaul, Jankinath Kaul "Kamal" (ishwarashram.in was 500), Kufayev/Baret circles; source Lakshmanjoo -> Jaideva Singh / Gnoli / Padoux edges or leave medium. |
-| S36 | Swami Shankarananda: person-level safety record? | **AU** | ext-49 added a place-level record (The Age 2015, ABC 2021). A person record would hold his talks from the lens/gold like Sogyal/Maezumi: owner decides. |
 | S37 | Phone crawl / screenshots blocked: headless Chromium gets 407 from the sandbox proxy | B | Find a proxy-auth route for puppeteer (or run tools/check/crawl-run.sh from the owner's machine); ext-49 used an HTTP check of 47 pages instead. |
 | S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
 | S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
 
 ## Closed
+- S36 Swami Shankarananda person-level safety record: owner said flag (2026-11-04). Record shankarananda-2015 (sources/ext-49-trika-complete/redflags-public.json; The Age 2015, Yoga Australia 2015, MPNews 2015, ABC 2021), held from gold/lens like Sogyal/Maezumi; swami-shankarananda-avg is a different person (Arsha Vidya, Dayananda line), left alone. wiser-web ea484597, wiser-mcp 0996b4d7.
 - S4 Places discovery batch: regenerated (78) and merged 2026-10-25 as sources/ext-48-places-discovery (e47d10c, 6fcd7e9, 4ef3002, 0dde0cd); wiser-web 4faff2e7, wiser-mcp 058c53fc. 953 places.
 - S1 Enquiry lens / search bar: shipped 2026-10-25 ~07:30 (satsang-search a0a6d033, wiser-web 244808a2).
 - S3 Commit the sit player / engine work: committed 2026-10-25 (ce1ee78 engine, ffacc03 spec + release.sh); tests compile 110, t2p 43, sit 250, schemas 0 errors, practice-engine 813/813.

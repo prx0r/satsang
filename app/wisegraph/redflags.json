@@ -173,7 +173,7 @@
    "category": [
     "sexual-misconduct"
    ],
-   "summary": "In January 2015 the ashram’s management said its spiritual head, Swami Shankarananda (Russell Kruckman), had had secret sexual relations with a number of women; he apologised and stepped down as director but stayed spiritual head. Yoga Australia suspended the Shiva Ashram’s accreditation in March 2015 and the organisation was later liquidated; he kept the property, now The Ashram Mount Eliza. In 2021 ABC Background Briefing reported allegations from more than 20 former devotees, including sexual assault; women’s civil claims were settled, and police questioned but never charged him.",
+   "summary": "In January 2015 the ashram’s management said its spiritual head, Swami Shankarananda (Russell Kruckman), had had secret sexual relations with a number of women; he apologised and stepped down as director but stayed spiritual head. In March 2015 Yoga Australia suspended its recognition of the Shiva Yoga teacher training course pending police investigations and the organisation was later liquidated; he kept the property, now The Ashram Mount Eliza. In 2021 ABC Background Briefing reported allegations from more than 20 former devotees, including sexual assault; women’s civil claims were settled, and police questioned but never charged him.",
    "reports": [
     {
      "outlet": "The Age: Guru sex scandal at Mount Eliza yoga retreat",
@@ -192,10 +192,55 @@
      "kind": "reference",
      "url": "https://en.wikipedia.org/wiki/Shiva_Ashram",
      "date": "2026-10-31"
+    },
+    {
+     "outlet": "Yoga Australia: position statement on the Shiva School of Meditation and Yoga (archived)",
+     "kind": "institutional",
+     "url": "https://web.archive.org/web/20150618124315/https://www.yogaaustralia.org.au/post/551203de8fb4dc03000dd867",
+     "date": "2015-03-25"
     }
    ],
-   "updated": "2026-10-31",
-   "verified_on": "2026-10-31",
+   "updated": "2026-11-04",
+   "verified_on": "2026-11-04",
+   "confidence": "high"
+  },
+  {
+   "id": "shankarananda-2015",
+   "subject": "person/swami-shankarananda",
+   "status": "reported",
+   "happened": "c. 2000s–2014 (alleged); disclosed Dec 2014–Jan 2015",
+   "category": [
+    "sexual-misconduct"
+   ],
+   "summary": "In January 2015 the Shiva School of Meditation and Yoga (Mount Eliza) said its spiritual head, Swami Shankarananda (Russell Kruckman), had had secret sexual relations with a number of women from the ashram community; he apologised in a letter to members and stood down as director but remained spiritual head. In March 2015 Yoga Australia suspended its recognition of the school's teacher training course pending police investigations, and in April 2015 the organisation, Shiva Yoga Inc, went into voluntary liquidation; he kept the ashram property. In 2021 ABC Background Briefing reported allegations from former devotees, including sexual assault. Six women's civil claims were settled after about four and a half years; he was arrested and questioned by police but not charged. The allegations of assault have not been tested in court.",
+   "reports": [
+    {
+     "outlet": "The Age: Guru sex scandal at Mount Eliza yoga retreat",
+     "kind": "press",
+     "url": "https://www.theage.com.au/national/victoria/guru-sex-scandal-at-mount-eliza-yoga-retreat-20150120-12ugkk.html",
+     "date": "2015-01-20"
+    },
+    {
+     "outlet": "Yoga Australia: position statement on the Shiva School of Meditation and Yoga (archived)",
+     "kind": "institutional",
+     "url": "https://web.archive.org/web/20150618124315/https://www.yogaaustralia.org.au/post/551203de8fb4dc03000dd867",
+     "date": "2015-03-25"
+    },
+    {
+     "outlet": "Mornington Peninsula News: Yoga school to be wound up",
+     "kind": "press",
+     "url": "https://www.mpnews.com.au/2015/04/27/yoga-school-to-be-wound-up/",
+     "date": "2015-04-27"
+    },
+    {
+     "outlet": "ABC Investigations (Background Briefing): Mount Eliza ashram guru Russell Kruckman accused of sexually abusing multiple women",
+     "kind": "press",
+     "url": "https://www.abc.net.au/news/2021-02-27/mt-eliza-ashram-guru-russell-kruckman-accused-of-sexual-abuse/13191656",
+     "date": "2021-02-27"
+    }
+   ],
+   "updated": "2026-11-04",
+   "verified_on": "2026-11-04",
    "confidence": "high"
   },
   {

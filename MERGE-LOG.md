@@ -372,3 +372,18 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   passed; live: 47 new/changed /place, /person, /tradition pages 200 with no undefined/NaN; /place/ishber-ashram 301. The puppeteer phone
   crawl and screenshots could not run: headless Chromium gets 407 from the sandbox proxy (curl works); not retried further.
 - Not touched: DNS, switch-domain.sh, D1, engine/, search index (S32), chat. Spend US$0.
+
+## S36 Shankarananda person-level safety record (2026-11-04 ~23:40 +07: wiser-web ea484597, wiser-mcp 0996b4d7)
+- Owner decision (OPEN-THREADS S36): flag at person level. New record `shankarananda-2015` (subject person/swami-shankarananda, status reported,
+  sexual-misconduct) in sources/ext-49-trika-complete/redflags-public.json; sources re-read today: The Age 2015-01-20, Yoga Australia position
+  2015-03-25 (archived), MPNews 2015-04-27 (voluntary liquidation of Shiva Yoga Inc; he owns the Tower Rd property), ABC Background Briefing
+  2021-02-27 (allegations incl. sexual assault; six women's civil claims settled; arrested and questioned, not charged).
+- Wording fix on the place record: Yoga Australia suspended its recognition of the Shiva Yoga teacher training course (its own statement), not
+  "the ashram's accreditation"; the Yoga Australia statement added as a report. Person bio now points to his own record.
+- swami-shankarananda-avg (Arsha Vidya, Dayananda disciple) is a different person: not merged, no record. Note: three non-Shankarananda clips
+  (lakshmanjoo, amritananda, eric-baret) sit on the "Swami Shankarananda" YouTube channel; untouched.
+- Effect: build-gold caps his 107 clips at standard (they already were); client lens holds him via people[].safety; MCP get_teacher/person dump
+  carry the record. build-gold was run and reverted: a full rebuild today moves 16 other tiers (ext-49 graph drift: 8 Christopher Wallis clips up,
+  Thanissaro/Nyanamoli/Krishnamurti/Brach down) - left for an owner-visible gold round. Search worker held list (server side) not redeployed (S32).
+- Pipeline: merge-sources -> apply-keeper-fixes -> build-wise -> deploy build/guard/ship + mcp. check-data 0 errors (1 known warning); schema 13,269
+  records failing none; transcript guards 0; mcp test all passed; live /person/swami-shankarananda 200 and get_teacher carries shankarananda-2015.

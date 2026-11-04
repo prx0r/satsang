@@ -1,6 +1,6 @@
 {
  "name": "Satsang open data",
- "version": "2026-10-31",
+ "version": "2026-11-04",
  "publisher": "Satsang (tantrafiles.xyz)",
  "license": {
   "metadata": "CC-BY-4.0",
@@ -21,8 +21,8 @@
    "count": 750,
    "json": "person.json",
    "jsonl": "person.jsonl",
-   "bytes": 501758,
-   "sha256": "c273ab60e15e8a72f685fbe030ab84007d44cd32a5acfeb0d200e1ad5a72b69a",
+   "bytes": 503710,
+   "sha256": "c4e873fa45b7ae7d1fe39f691ebeca78ee7a646540fab2afee3574e4cb26d15d",
    "schema": "https://tantrafiles.xyz/schema/person.json"
   },
   {
@@ -84,8 +84,8 @@
    "count": 963,
    "json": "place.json",
    "jsonl": "place.jsonl",
-   "bytes": 1067965,
-   "sha256": "f4ab084e3bedf69b4ae50b525ccc180a7388fa00a8442e2948e5a84507a72641",
+   "bytes": 1054802,
+   "sha256": "88a300a247808211cd4456ba234ca47087fe813d1165d1b7b3e1437fc0b666a2",
    "schema": "https://tantrafiles.xyz/schema/place.json"
   },
   {
@@ -101,8 +101,8 @@
    "kind": "jsonld",
    "count": 12133,
    "file": "wiser.jsonld",
-   "bytes": 7121494,
-   "sha256": "93137d7cbbe5537382f9c931287b26dbdcae13457d70c2bf57539bfe43c7afca"
+   "bytes": 7121484,
+   "sha256": "b08137e9f862558d9e77e9f67ebda119db69b6a3bfb938717582d1866072efed"
   },
   {
    "kind": "sitemap-topic",

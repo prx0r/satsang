@@ -13,9 +13,9 @@ Non-commercial and open (repo public, AGPL/MIT code, CC BY 4.0 curation).
 ## Live (2026-10-25)
 | Piece | Where | Worker / version |
 |---|---|---|
-| Site | https://tantrafiles.xyz (www too) | wiser-web daec752e (2026-10-31) |
+| Site | https://tantrafiles.xyz (www too) | wiser-web ea484597 (2026-11-04) |
 | API (votes, resonates, profile, stats) | https://api.tantrafiles.xyz | wiser-api 6c2d43e0 (nightly cron 19:17 UTC) |
-| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 912792ed (2026-10-31) |
+| MCP + REST + open data | https://mcp.tantrafiles.xyz/mcp | wiser-mcp 0996b4d7 (2026-11-04) |
 | Chat / path builder | https://chat.tantrafiles.xyz | satsang-chat c4914eeb |
 | Search (enquiry lens) | https://satsang-search.tradesprior.workers.dev | satsang-search a0a6d033 |
 | Practice engine preview (/sit/, /breath/, /play/) | https://engine.tantrafiles.xyz/sit/ | satsang-engine-preview (not on the main site) |
