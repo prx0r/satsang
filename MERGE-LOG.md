@@ -387,3 +387,13 @@ Repo: prx0r/satsang 0d703de (synced; engine/, transcripts, internal/, generated 
   Thanissaro/Nyanamoli/Krishnamurti/Brach down) - left for an owner-visible gold round. Search worker held list (server side) not redeployed (S32).
 - Pipeline: merge-sources -> apply-keeper-fixes -> build-wise -> deploy build/guard/ship + mcp. check-data 0 errors (1 known warning); schema 13,269
   records failing none; transcript guards 0; mcp test all passed; live /person/swami-shankarananda 200 and get_teacher carries shankarananda-2015.
+
+## Awakening algorithm spec (2026-11-04 ~late +07; no deploy)
+- Reviewed (read-only clones, deleted after): prx0r/ipvv, nibbanahelp, tantrasara, translation-work, deitybody (all public). Summary table in
+  specs/AWAKENING-ALGORITHM.md §1.
+- New: specs/AWAKENING-ALGORITHM.md (system map, A→B contract, urgency model, For You changes, guardrails, chat loop, gap → generation queue,
+  privacy, tests, roadmap, 3 owner questions), specs/INTERFACES-TRACK-A.md + specs/interfaces/{satsang-ingest,generation-request}.schema.json
+  (doc examples validate), tools/awaken/journal-signals.mjs (slice-1 proof: reuses intentions matchText + curator triage) +
+  test-journal-signals.mjs (10/10, synthetic posts). tools/awaken/out/ gitignored (derived personal data, never committed).
+- Proof on the live journal: rules alone ranked the journal's constant theme first; need-kind weights + standing-theme damping put the open
+  tension knots on top. Precision unmeasured until the owner labels a set (spec test 17). OPEN-THREADS S38.

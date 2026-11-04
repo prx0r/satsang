@@ -36,6 +36,7 @@ Derived from the project audit of 2026-10-25 (Satsang section), updated the same
 | S34 | Chat leads 2026-10-26: Trika teachers/places done in ext-49 (2026-10-31); tulku + cosmology topics remain | NS | Topics "Tulkus & rebirth", "Buddhist cosmology / Tushita", "How to enter Trika" (notes/2026-10-26-trika-tulkus-cosmology.md). |
 | S35 | Trika completeness follow-ups (ext-49 held list) | NS | Research Bhāskara, Maheśvarānanda, Sāhib Kaul, Jankinath Kaul "Kamal" (ishwarashram.in was 500), Kufayev/Baret circles; source Lakshmanjoo -> Jaideva Singh / Gnoli / Padoux edges or leave medium. |
 | S37 | Phone crawl / screenshots blocked: headless Chromium gets 407 from the sandbox proxy | B | Find a proxy-auth route for puppeteer (or run tools/check/crawl-run.sh from the owner's machine); ext-49 used an HTTP check of 47 pages instead. |
+| S38 | Awakening algorithm (journal → urgency → For You; A→B contract) | NS (spec 2026-11-04) | specs/AWAKENING-ALGORITHM.md. Owner answers §13 (profile device-only vs sync; MACHINE_DRAFT items; who may request content). Then slice 1: ask nibbanahelp for `/feed.json`, move tools/awaken pure functions into app/src/journal.js, "From your journal" rail + safety states (tests 11–16). Track A owners: specs/INTERFACES-TRACK-A.md. |
 | S28 | "USER TODO: public repo wiser-open for mcp/" | probably moot | prx0r/satsang is public: confirm, drop, add `repository` to the discovery card. |
 | S29 | Held claims (Sucitto / Kornfield / Ramdev roles, 21 medium teacher_of edges, 28 held texts) | P | Verification pass with sources. |
 

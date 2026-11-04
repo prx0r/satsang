@@ -65,7 +65,7 @@ node tools/test-text-to-practice.mjs && node tools/test-sit.mjs && python3 tools
 
 ## Doc map
 - `README.md` layout + deploy · `OPEN-THREADS.md` open work · `MERGE-LOG.md` history.
-- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: SIT-PLAYER,
+- `specs/`: each spec opens with a Status line (shipped / partial / not started). Current working specs: AWAKENING-ALGORITHM (+ INTERFACES-TRACK-A, specs/interfaces/), SIT-PLAYER,
   TEXT-TO-PRACTICE, SERIES-FORMULA, PLACES-TODO, PLACES-REVIEW. `specs/extensions/` = merge records.
 - `search/README.md` (lens Worker), `mcp/README.md`, `chat/README.md`, `keeper/README.md`, `engine/README.md`.
 - `_archive/` old briefs and one-off reports; `archive/` Funnier-era code.

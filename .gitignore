@@ -42,3 +42,4 @@ search/.ingested
 
 # place-contacts.py fetch cache
 app/tools/cache-contacts/
+tools/awaken/out/

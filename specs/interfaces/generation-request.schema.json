@@ -1,0 +1,103 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/generation-request-1.json",
+ "title": "generation-request/1: an owner-approved content request from Satsang to a track-A repo (no personal data)",
+ "type": "object",
+ "required": [
+  "format",
+  "id",
+  "created",
+  "to",
+  "kind",
+  "ask",
+  "topic",
+  "level",
+  "why",
+  "approved_by",
+  "status"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "format": {
+   "const": "generation-request/1"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^req-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]+$"
+  },
+  "created": {
+   "type": "string",
+   "format": "date"
+  },
+  "to": {
+   "enum": [
+    "ipvv",
+    "translation-work",
+    "tantrasara",
+    "deitybody",
+    "svread"
+   ]
+  },
+  "kind": {
+   "enum": [
+    "passage",
+    "essay",
+    "lesson",
+    "video",
+    "audio",
+    "practice",
+    "chant"
+   ]
+  },
+  "ask": {
+   "type": "string",
+   "maxLength": 300
+  },
+  "topic": {
+   "type": "string"
+  },
+  "tradition": {
+   "type": "string"
+  },
+  "level": {
+   "enum": [
+    "first-steps",
+    "steady",
+    "deep"
+   ]
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^[a-z0-9-]+:[a-z]+:[A-Za-z0-9._/-]+$"
+   }
+  },
+  "why": {
+   "type": "string",
+   "maxLength": 300
+  },
+  "requested_by_count": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "approved_by": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "open",
+    "accepted",
+    "declined",
+    "made"
+   ]
+  },
+  "reason": {
+   "type": "string"
+  },
+  "made": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+:[a-z]+:[A-Za-z0-9._/-]+$"
+  }
+ }
+}

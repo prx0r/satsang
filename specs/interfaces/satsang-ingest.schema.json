@@ -1,0 +1,348 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://tantrafiles.xyz/schema/satsang-ingest-1.json",
+ "title": "satsang-ingest/1: a track-A export Satsang reads (specs/INTERFACES-TRACK-A.md)",
+ "type": "object",
+ "required": [
+  "format",
+  "publisher",
+  "built",
+  "items"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "format": {
+   "const": "satsang-ingest/1"
+  },
+  "publisher": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
+  },
+  "built": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "items": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/item"
+   }
+  }
+ },
+ "$defs": {
+  "item": {
+   "type": "object",
+   "required": [
+    "id",
+    "kind",
+    "title",
+    "url",
+    "tradition",
+    "topics",
+    "review",
+    "rights",
+    "updated"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9-]+:[a-z]+:[A-Za-z0-9._/-]+$"
+    },
+    "kind": {
+     "enum": [
+      "passage",
+      "essay",
+      "lesson",
+      "video",
+      "audio",
+      "practice",
+      "chant"
+     ]
+    },
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 200
+    },
+    "summary": {
+     "type": "string",
+     "maxLength": 300
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "pattern": "^https://"
+    },
+    "media": {
+     "type": "object",
+     "required": [
+      "url",
+      "host"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "url": {
+       "type": "string",
+       "pattern": "^https://"
+      },
+      "host": {
+       "enum": [
+        "r2",
+        "youtube",
+        "other"
+       ]
+      },
+      "duration_s": {
+       "type": "number",
+       "minimum": 0
+      },
+      "captions_url": {
+       "type": "string",
+       "pattern": "^https://"
+      },
+      "poster": {
+       "type": "string",
+       "pattern": "^https://"
+      }
+     }
+    },
+    "work": {
+     "type": "object",
+     "required": [
+      "id",
+      "title"
+     ],
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "title": {
+       "type": "string"
+      },
+      "author": {
+       "type": "string"
+      }
+     }
+    },
+    "tradition": {
+     "type": "string",
+     "pattern": "^[a-z0-9-]+$"
+    },
+    "people": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+     }
+    },
+    "topics": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "w",
+       "basis"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+(/[a-z0-9-]+)?$"
+       },
+       "w": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+       },
+       "basis": {
+        "enum": [
+         "manual",
+         "rules",
+         "model"
+        ]
+       }
+      }
+     }
+    },
+    "concepts": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "practice_links": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^(satsang|deitybody|engine):[A-Za-z0-9._/-]+$"
+     }
+    },
+    "level": {
+     "enum": [
+      "first-steps",
+      "steady",
+      "deep"
+     ]
+    },
+    "safety": {
+     "type": "object",
+     "required": [
+      "intensity"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "intensity": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 5
+      },
+      "contraindications": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "needs_teacher": {
+       "type": "boolean"
+      },
+      "initiation_required": {
+       "type": "boolean"
+      }
+     }
+    },
+    "review": {
+     "type": "object",
+     "required": [
+      "status",
+      "gate",
+      "date"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "status": {
+       "enum": [
+        "MACHINE_DRAFT",
+        "REVIEWED",
+        "ACCEPTED"
+       ]
+      },
+      "gate": {
+       "enum": [
+        "PASS",
+        "BLOCKED"
+       ]
+      },
+      "by": {
+       "type": "string"
+      },
+      "date": {
+       "type": "string",
+       "format": "date"
+      }
+     }
+    },
+    "rights": {
+     "type": "object",
+     "required": [
+      "licence",
+      "attribution",
+      "embeddable"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "licence": {
+       "type": "string",
+       "description": "FREE, an SPDX id, or ALL-RIGHTS-RESERVED"
+      },
+      "attribution": {
+       "type": "string"
+      },
+      "embeddable": {
+       "type": "boolean"
+      },
+      "quote_limit_words": {
+       "type": "integer",
+       "maximum": 25
+      }
+     }
+    },
+    "provenance": {
+     "type": "object",
+     "properties": {
+      "source_sha": {
+       "type": "string"
+      },
+      "edition": {
+       "type": "string"
+      },
+      "pipeline": {
+       "type": "string"
+      },
+      "version": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "basis": {
+       "enum": [
+        "SOURCE_ATTESTED",
+        "PEDAGOGICAL"
+       ]
+      }
+     }
+    },
+    "fulfils": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^req-"
+     }
+    },
+    "updated": {
+     "type": "string",
+     "format": "date"
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "kind": {
+        "enum": [
+         "practice",
+         "chant"
+        ]
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "safety"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "kind": {
+        "enum": [
+         "video",
+         "audio"
+        ]
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "media"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
