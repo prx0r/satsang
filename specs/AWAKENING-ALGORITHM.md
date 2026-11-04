@@ -138,6 +138,7 @@ with `provenance.basis: SOURCE_ATTESTED|PEDAGOGICAL`; `needs_review` nodes never
   header, so the journey start is inferred from the earliest tension `opened` date (tensions open on day 1). No change was
   made in nibbanahelp: its AGENTS.md says "do not restructure without asking" and a feed would need its generated-site and
   Worker pipeline, so `/feed.json` stays a request for its owner (Satsang already reads it when it exists: `parseSource`).
+- **Verified journeys** (nibbanahelp `specs/journey-ledger.md`, spec only): when a feed item carries `_nibbana.ledger` `{log, seq, id, checkpoint_size}`, Satsang verifies it itself with the vendored, hash-pinned verifier (never trusts a `verified` flag), uses the block's witnessed time (not the claimed date) for recency and urgency, counts tension transitions toward phase-5 outcome learning only when verified and witnessed, drops derived signals on a `withdraw` block, and never shows verification as a badge on a person or as anything about attainment. Unverified items still serve the owner's own For You.
 - **Consent**: Satsang reads a journal only when its owner pastes the feed URL (or handle) into Your model → "Read my
   journal". Satsang never crawls anyone's journal on its own, and never reads `visibility: private` items even if served.
 
