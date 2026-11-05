@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:54:26Z",
+ "updated": "2026-11-05T11:40:10Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
@@ -156,7 +156,6 @@
   "https://www.solesmes.com/",
   "https://www.solesmes.com/contacts",
   "https://www.sudoc.fr/041424565",
-  "https://www.tongdosa.or.kr/",
-  "https://ybmcs.org/"
+  "https://www.tongdosa.or.kr/"
  ]
 }
