@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T00:16:27Z",
+ "updated": "2026-11-06T06:55:55Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
