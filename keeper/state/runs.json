@@ -1,21 +1,21 @@
 {
  "bundle": {
-  "at": "2026-11-01T11:23:42Z",
+  "at": "2026-11-08T11:24:41Z",
   "cadence": "weekly",
-  "ms": 204,
+  "ms": 165,
   "failing": 0,
   "passed": 0,
   "checked": 2,
   "sizes": {
    "site": {
-    "raw": 3557308,
-    "gzip": 729214,
-    "files": 23,
+    "raw": 3691667,
+    "gzip": 761814,
+    "files": 25,
     "basis": "estimate from tracked inputs (build output absent; KV-served files excluded)"
    },
    "mcp": {
-    "raw": 7276695,
-    "gzip": 1125963,
+    "raw": 7265500,
+    "gzip": 1125133,
     "files": 17,
     "basis": "estimate (data + src + discovery)"
    }
@@ -57,13 +57,13 @@
   "total": 2090
  },
  "links": {
-  "at": "2026-11-08T10:50:17Z",
-  "cadence": "daily",
-  "ms": 4566,
+  "at": "2026-11-08T11:24:47Z",
+  "cadence": "weekly",
+  "ms": 5053,
   "failing": 1,
-  "passed": 476,
-  "checked": 477,
-  "total": 477,
+  "passed": 464,
+  "checked": 465,
+  "total": 465,
   "pages": 48
  },
  "oembed": {
@@ -78,35 +78,35 @@
   "total": 9777
  },
  "perf": {
-  "at": "2026-11-01T11:23:47Z",
+  "at": "2026-11-08T11:24:47Z",
   "cadence": "weekly",
-  "ms": 693,
+  "ms": 373,
   "failing": 0,
   "passed": 0,
   "checked": 5,
   "perf": {
    "/": {
-    "ttfb": 42,
-    "weight": 715342,
+    "ttfb": 26,
+    "weight": 763033,
     "assets": 2
    },
    "/topic/rebirth": {
-    "ttfb": 18,
-    "weight": 717278,
+    "ttfb": 11,
+    "weight": 764969,
     "assets": 2
    },
    "/person/ajahn-chah": {
-    "ttfb": 17,
-    "weight": 717114,
+    "ttfb": 11,
+    "weight": 764805,
     "assets": 2
    },
    "/place/amaravati": {
-    "ttfb": 21,
+    "ttfb": 16,
     "weight": 9165,
     "assets": 0
    },
    "/agents": {
-    "ttfb": 17,
+    "ttfb": 11,
     "weight": 12508,
     "assets": 0
    }
@@ -135,18 +135,18 @@
   "checked": 18
  },
  "sitemap": {
-  "at": "2026-11-08T10:21:48Z",
-  "cadence": "hourly",
-  "ms": 1193,
+  "at": "2026-11-08T11:25:14Z",
+  "cadence": "weekly",
+  "ms": 27016,
   "failing": 0,
-  "passed": 128,
-  "checked": 120,
+  "passed": 2272,
+  "checked": 2264,
   "total": 2264
  },
  "uptime": {
-  "at": "2026-11-08T10:21:49Z",
-  "cadence": "hourly",
-  "ms": 812,
+  "at": "2026-11-08T11:25:14Z",
+  "cadence": "weekly",
+  "ms": 288,
   "failing": 0,
   "passed": 12,
   "checked": 12
