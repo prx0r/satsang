@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T09:48:36Z",
+ "updated": "2026-11-10T11:51:43Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
@@ -153,10 +153,10 @@
   "https://sivananda.org/camp",
   "https://www.abadiamontserrat.net/",
   "https://www.hindumandirglasgow.org/mandir-activities/hindi-classes/",
+  "https://www.parmarth.org",
   "https://www.simonopetra.gr/",
   "https://www.solesmes.com/",
   "https://www.solesmes.com/contacts",
-  "https://www.sudoc.fr/041424565",
   "https://www.tendai.org",
   "https://www.tongdosa.or.kr/"
  ]
