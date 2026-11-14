@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:27:45Z",
+ "updated": "2026-11-14T11:05:37Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
@@ -158,7 +158,6 @@
   "https://www.simonopetra.gr/",
   "https://www.solesmes.com/",
   "https://www.solesmes.com/contacts",
-  "https://www.tendai.org",
   "https://www.tongdosa.or.kr/"
  ]
 }
