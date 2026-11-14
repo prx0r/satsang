@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-11-14T03:13:46Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-11-14T10:27:45Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 314 (error 86, warn 1, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 69 clips (69 videos), 16 external URLs. **Re-verify queue:** 499.
@@ -19,8 +19,8 @@ Updated 2026-11-14T03:13:46Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-11-08T11:24:47Z | 5 |
 | provenance | 221 | 0 | 0 | 221 | 2026-11-13T11:38:07Z | 2490 |
 | robots | 0 | 0 | 0 | 0 | 2026-11-13T11:38:07Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-11-14T03:13:44Z | 120 / 2264 |
-| uptime | 0 | 0 | 0 | 0 | 2026-11-14T03:13:45Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-11-14T10:27:44Z | 120 / 2264 |
+| uptime | 0 | 0 | 0 | 0 | 2026-11-14T10:27:44Z | 12 |
 
 ## Top problems
 
@@ -54,18 +54,18 @@ Updated 2026-11-14T03:13:46Z for https://tantrafiles.xyz. State branch: `keeper-
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 161 | up 2026-11-14T03:13:44Z |
-| home | 100.0 | 31 | up 2026-11-14T03:13:44Z |
-| hub:/person/ajahn-chah | 100.0 | 26 | up 2026-11-14T03:13:44Z |
-| hub:/topic/rebirth | 100.0 | 26 | up 2026-11-14T03:13:44Z |
-| hub:/tradition/buddhism | 100.0 | 24 | up 2026-11-14T03:13:44Z |
-| llms.txt | 100.0 | 56 | up 2026-11-14T03:13:45Z |
-| mcp-initialize | 100.0 | 568 | up 2026-11-14T03:13:45Z |
-| mcp-tool-call | 100.0 | 63 | up 2026-11-14T03:13:45Z |
-| mcp-tools-list | 100.0 | 52 | up 2026-11-14T03:13:45Z |
-| openapi.json | 100.0 | 43 | up 2026-11-14T03:13:45Z |
-| sitemap | 100.0 | 35 | up 2026-11-14T03:13:45Z |
-| well-known-mcp | 100.0 | 26 | up 2026-11-14T03:13:45Z |
+| api-health | 100.0 | 161 | up 2026-11-14T10:27:44Z |
+| home | 100.0 | 31 | up 2026-11-14T10:27:44Z |
+| hub:/person/ajahn-chah | 100.0 | 26 | up 2026-11-14T10:27:44Z |
+| hub:/topic/rebirth | 100.0 | 26 | up 2026-11-14T10:27:44Z |
+| hub:/tradition/buddhism | 100.0 | 24 | up 2026-11-14T10:27:44Z |
+| llms.txt | 100.0 | 55 | up 2026-11-14T10:27:44Z |
+| mcp-initialize | 100.0 | 566 | up 2026-11-14T10:27:44Z |
+| mcp-tool-call | 100.0 | 63 | up 2026-11-14T10:27:44Z |
+| mcp-tools-list | 100.0 | 52 | up 2026-11-14T10:27:44Z |
+| openapi.json | 100.0 | 43 | up 2026-11-14T10:27:44Z |
+| sitemap | 100.0 | 34 | up 2026-11-14T10:27:44Z |
+| well-known-mcp | 100.0 | 26 | up 2026-11-14T10:27:44Z |
 
 ## Performance (key pages)
 
