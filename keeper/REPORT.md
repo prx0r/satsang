@@ -1,6 +1,6 @@
 # Keeper report
 
-Updated 2026-11-15T11:36:12Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-11-15T12:06:07Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
 **Open findings:** 314 (error 84, warn 3, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 69 clips (69 videos), 14 external URLs. **Re-verify queue:** 499.
@@ -9,23 +9,23 @@ Updated 2026-11-15T11:36:12Z for https://tantrafiles.xyz. State branch: `keeper-
 
 | check | open | error | warn | info | last run | checked |
 |---|---:|---:|---:|---:|---|---:|
-| bundle | 0 | 0 | 0 | 0 | 2026-11-08T11:24:41Z | 2 |
+| bundle | 0 | 0 | 0 | 0 | 2026-11-15T12:05:35Z | 2 |
 | integrity | 6 | 0 | 0 | 6 | 2026-11-15T11:28:04Z | 2849 |
 | jsonld | 0 | 0 | 0 | 0 | 2026-11-15T11:28:06Z | 45 |
 | leaks | 0 | 0 | 0 | 0 | 2026-11-15T11:28:11Z | 1228 |
 | linkrot | 17 | 14 | 3 | 0 | 2026-11-15T11:29:45Z | 700 / 2090 |
-| links | 1 | 1 | 0 | 0 | 2026-11-15T11:29:49Z | 430 / 430 |
+| links | 1 | 1 | 0 | 0 | 2026-11-15T12:05:40Z | 474 / 474 |
 | oembed | 69 | 69 | 0 | 0 | 2026-11-15T11:36:12Z | 2500 / 9777 |
-| perf | 0 | 0 | 0 | 0 | 2026-11-08T11:24:47Z | 5 |
+| perf | 0 | 0 | 0 | 0 | 2026-11-15T12:05:40Z | 5 |
 | provenance | 221 | 0 | 0 | 221 | 2026-11-15T11:36:12Z | 2490 |
 | robots | 0 | 0 | 0 | 0 | 2026-11-15T11:36:12Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-11-15T09:24:08Z | 120 / 2264 |
-| uptime | 0 | 0 | 0 | 0 | 2026-11-15T09:24:08Z | 12 |
+| sitemap | 0 | 0 | 0 | 0 | 2026-11-15T12:06:06Z | 2264 / 2264 |
+| uptime | 0 | 0 | 0 | 0 | 2026-11-15T12:06:07Z | 12 |
 
 ## Top problems
 
 - `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (27× in a row)
-- `935fe75cc296` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/favicon.svg (25× in a row)
+- `935fe75cc296` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/favicon.svg (26× in a row)
 - `0036eb3fe38e` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/ (24× in a row)
 - `95eb0ca067c1` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org (24× in a row)
 - `a6593c26e706` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/ (24× in a row)
@@ -54,26 +54,26 @@ Updated 2026-11-15T11:36:12Z for https://tantrafiles.xyz. State branch: `keeper-
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 159 | up 2026-11-15T09:24:08Z |
-| home | 100.0 | 31 | up 2026-11-15T09:24:08Z |
-| hub:/person/ajahn-chah | 100.0 | 25 | up 2026-11-15T09:24:08Z |
-| hub:/topic/rebirth | 100.0 | 25 | up 2026-11-15T09:24:08Z |
-| hub:/tradition/buddhism | 100.0 | 24 | up 2026-11-15T09:24:08Z |
-| llms.txt | 100.0 | 54 | up 2026-11-15T09:24:08Z |
-| mcp-initialize | 100.0 | 563 | up 2026-11-15T09:24:08Z |
-| mcp-tool-call | 100.0 | 62 | up 2026-11-15T09:24:08Z |
-| mcp-tools-list | 100.0 | 51 | up 2026-11-15T09:24:08Z |
-| openapi.json | 100.0 | 42 | up 2026-11-15T09:24:08Z |
-| sitemap | 100.0 | 33 | up 2026-11-15T09:24:08Z |
-| well-known-mcp | 100.0 | 26 | up 2026-11-15T09:24:08Z |
+| api-health | 100.0 | 160 | up 2026-11-15T12:06:07Z |
+| home | 100.0 | 31 | up 2026-11-15T12:06:06Z |
+| hub:/person/ajahn-chah | 100.0 | 25 | up 2026-11-15T12:06:06Z |
+| hub:/topic/rebirth | 100.0 | 25 | up 2026-11-15T12:06:06Z |
+| hub:/tradition/buddhism | 100.0 | 24 | up 2026-11-15T12:06:06Z |
+| llms.txt | 100.0 | 53 | up 2026-11-15T12:06:07Z |
+| mcp-initialize | 100.0 | 559 | up 2026-11-15T12:06:07Z |
+| mcp-tool-call | 100.0 | 61 | up 2026-11-15T12:06:07Z |
+| mcp-tools-list | 100.0 | 51 | up 2026-11-15T12:06:07Z |
+| openapi.json | 100.0 | 42 | up 2026-11-15T12:06:07Z |
+| sitemap | 100.0 | 33 | up 2026-11-15T12:06:07Z |
+| well-known-mcp | 100.0 | 26 | up 2026-11-15T12:06:07Z |
 
 ## Performance (key pages)
 
-- /: TTFB 26 ms, 0.76 MB (2 assets)
-- /topic/rebirth: TTFB 11 ms, 0.76 MB (2 assets)
-- /person/ajahn-chah: TTFB 11 ms, 0.76 MB (2 assets)
+- /: TTFB 32 ms, 0.76 MB (2 assets)
+- /topic/rebirth: TTFB 10 ms, 0.76 MB (2 assets)
+- /person/ajahn-chah: TTFB 16 ms, 0.76 MB (2 assets)
 - /place/amaravati: TTFB 16 ms, 0.01 MB (0 assets)
-- /agents: TTFB 11 ms, 0.01 MB (0 assets)
+- /agents: TTFB 21 ms, 0.01 MB (0 assets)
 
 ## Worker bundles
 

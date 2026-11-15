@@ -1,8 +1,8 @@
 {
  "bundle": {
-  "at": "2026-11-08T11:24:41Z",
+  "at": "2026-11-15T12:05:35Z",
   "cadence": "weekly",
-  "ms": 165,
+  "ms": 204,
   "failing": 0,
   "passed": 0,
   "checked": 2,
@@ -57,13 +57,13 @@
   "total": 2090
  },
  "links": {
-  "at": "2026-11-15T11:29:49Z",
-  "cadence": "daily",
-  "ms": 4127,
+  "at": "2026-11-15T12:05:40Z",
+  "cadence": "weekly",
+  "ms": 5063,
   "failing": 1,
-  "passed": 429,
-  "checked": 430,
-  "total": 430,
+  "passed": 473,
+  "checked": 474,
+  "total": 474,
   "pages": 48
  },
  "oembed": {
@@ -78,25 +78,25 @@
   "total": 9777
  },
  "perf": {
-  "at": "2026-11-08T11:24:47Z",
+  "at": "2026-11-15T12:05:40Z",
   "cadence": "weekly",
-  "ms": 373,
+  "ms": 483,
   "failing": 0,
   "passed": 0,
   "checked": 5,
   "perf": {
    "/": {
-    "ttfb": 26,
+    "ttfb": 32,
     "weight": 763033,
     "assets": 2
    },
    "/topic/rebirth": {
-    "ttfb": 11,
+    "ttfb": 10,
     "weight": 764969,
     "assets": 2
    },
    "/person/ajahn-chah": {
-    "ttfb": 11,
+    "ttfb": 16,
     "weight": 764805,
     "assets": 2
    },
@@ -106,7 +106,7 @@
     "assets": 0
    },
    "/agents": {
-    "ttfb": 11,
+    "ttfb": 21,
     "weight": 12508,
     "assets": 0
    }
@@ -135,18 +135,18 @@
   "checked": 18
  },
  "sitemap": {
-  "at": "2026-11-15T09:24:08Z",
-  "cadence": "hourly",
-  "ms": 954,
+  "at": "2026-11-15T12:06:06Z",
+  "cadence": "weekly",
+  "ms": 26171,
   "failing": 0,
-  "passed": 128,
-  "checked": 120,
+  "passed": 2272,
+  "checked": 2264,
   "total": 2264
  },
  "uptime": {
-  "at": "2026-11-15T09:24:08Z",
-  "cadence": "hourly",
-  "ms": 696,
+  "at": "2026-11-15T12:06:07Z",
+  "cadence": "weekly",
+  "ms": 512,
   "failing": 0,
   "passed": 12,
   "checked": 12
