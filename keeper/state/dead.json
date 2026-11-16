@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:41:30Z",
+ "updated": "2026-11-16T12:08:40Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
@@ -152,6 +152,7 @@
   "https://prometheustrust.co.uk",
   "https://publications.efeo.fr/en/livres/840_tantric-studies",
   "https://www.abadiamontserrat.net/",
+  "https://www.english-heritage.org.uk/visit/places/mount-grace-priory-house-and-gardens/",
   "https://www.hindumandirglasgow.org/mandir-activities/hindi-classes/",
   "https://www.parmarth.org",
   "https://www.simonopetra.gr/",
