@@ -1,54 +1,54 @@
 # Keeper report
 
-Updated 2026-11-19T03:26:07Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-11-19T12:14:26Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
-**Open findings:** 345 (error 87, warn 31, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
-**Dead:** 69 clips (69 videos), 17 external URLs. **Re-verify queue:** 499.
+**Open findings:** 353 (error 103, warn 23, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
+**Dead:** 71 clips (71 videos), 31 external URLs. **Re-verify queue:** 499.
 
 ## By check
 
 | check | open | error | warn | info | last run | checked |
 |---|---:|---:|---:|---:|---|---:|
 | bundle | 0 | 0 | 0 | 0 | 2026-11-15T12:05:35Z | 2 |
-| integrity | 6 | 0 | 0 | 6 | 2026-11-18T12:12:29Z | 2849 |
-| jsonld | 0 | 0 | 0 | 0 | 2026-11-18T12:12:31Z | 45 |
-| leaks | 0 | 0 | 0 | 0 | 2026-11-18T12:12:37Z | 1228 |
-| linkrot | 33 | 17 | 16 | 0 | 2026-11-18T12:14:18Z | 700 / 2090 |
-| links | 1 | 1 | 0 | 0 | 2026-11-18T12:14:26Z | 487 / 487 |
-| oembed | 84 | 69 | 15 | 0 | 2026-11-18T12:20:48Z | 2500 / 9777 |
+| integrity | 6 | 0 | 0 | 6 | 2026-11-19T12:06:25Z | 2849 |
+| jsonld | 0 | 0 | 0 | 0 | 2026-11-19T12:06:27Z | 45 |
+| leaks | 0 | 0 | 0 | 0 | 2026-11-19T12:06:32Z | 1228 |
+| linkrot | 33 | 31 | 2 | 0 | 2026-11-19T12:07:56Z | 700 / 2090 |
+| links | 1 | 1 | 0 | 0 | 2026-11-19T12:08:03Z | 487 / 487 |
+| oembed | 92 | 71 | 21 | 0 | 2026-11-19T12:14:26Z | 2500 / 9777 |
 | perf | 0 | 0 | 0 | 0 | 2026-11-15T12:05:40Z | 5 |
-| provenance | 221 | 0 | 0 | 221 | 2026-11-18T12:20:48Z | 2490 |
-| robots | 0 | 0 | 0 | 0 | 2026-11-18T12:20:49Z | 18 |
+| provenance | 221 | 0 | 0 | 221 | 2026-11-19T12:14:26Z | 2490 |
+| robots | 0 | 0 | 0 | 0 | 2026-11-19T12:14:26Z | 18 |
 | sitemap | 0 | 0 | 0 | 0 | 2026-11-19T03:26:05Z | 120 / 2264 |
 | uptime | 0 | 0 | 0 | 0 | 2026-11-19T03:26:06Z | 12 |
 
 ## Top problems
 
-- `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (30× in a row)
-- `935fe75cc296` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/favicon.svg (29× in a row)
-- `0036eb3fe38e` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/ (27× in a row)
-- `95eb0ca067c1` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org (27× in a row)
-- `a6593c26e706` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/ (27× in a row)
-- `e8f8fee79110` **error** linkrot: External link failing: HTTP 503 — https://publications.efeo.fr/en/livres/840_tantric-studies (27× in a row)
-- `63df07ee2310` **error** oembed: YouTube video is private or not embeddable — V-KnyhNmBB8 (25× in a row)
-- `658479fff7de` **error** oembed: YouTube video is private or not embeddable — LlPLpEpl-Wc (25× in a row)
-- `8dbee8f2fee1` **error** oembed: YouTube video is private or not embeddable — PJUVYlR9V6I (25× in a row)
-- `d40a378198fc` **error** oembed: YouTube video is private or not embeddable — V7zBzS1vRE4 (25× in a row)
-- `df0d2637603b` **error** oembed: YouTube video is private or not embeddable — OI0JS0ojrF8 (25× in a row)
-- `165f629b9ea5` **error** oembed: YouTube video is private or not embeddable — kffSFvuQ9Lg (24× in a row)
-- `16fdef44f3b8` **error** oembed: YouTube video is private or not embeddable — fEIC_tfDCIM (24× in a row)
-- `208405d68232` **error** oembed: YouTube video is private or not embeddable — dy2A8pfI6dg (24× in a row)
-- `23d2f206e938` **error** oembed: YouTube video is private or not embeddable — lIgt8-CygDs (24× in a row)
-- `3251c58a1b67` **error** oembed: YouTube video is private or not embeddable — boZnvNHqJBE (24× in a row)
-- `418ad364f4df` **error** oembed: YouTube video is private or not embeddable — jar-5yKZU9A (24× in a row)
-- `51e33a88fb9e` **error** oembed: YouTube video is private or not embeddable — acIxZR6DV6U (24× in a row)
-- `55514016e963` **error** oembed: YouTube video is private or not embeddable — iCgRb1rgdzA (24× in a row)
-- `5fb0b0c46648` **error** oembed: YouTube video is private or not embeddable — dqs8pGdp8EM (24× in a row)
-- `747e7c272b23` **error** oembed: YouTube video is private or not embeddable — dTQh9mqyrTM (24× in a row)
-- `7ce34e9a1813` **error** oembed: YouTube video is private or not embeddable — g3C8_cOKxXM (24× in a row)
-- `7d243ac50cd3` **error** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://www.abadiamontserrat.net/ (24× in a row)
-- `81da6e476e72` **error** oembed: YouTube video is private or not embeddable — _SNO8mZV8rc (24× in a row)
-- `827c5c3677cc` **error** oembed: YouTube video is private or not embeddable — gb6d26mdAEI (24× in a row)
+- `c8df15076389` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/2024/04/2.1-retraites-et-journees-de-pleine-conscience.html (31× in a row)
+- `935fe75cc296` **error** links: Internal link broken: HTTP 404 — https://tantrafiles.xyz/favicon.svg (30× in a row)
+- `0036eb3fe38e` **error** linkrot: External link failing: UND_ERR_CONNECT_TIMEOUT: fetch failed — https://maisondelinspir.org/ (28× in a row)
+- `95eb0ca067c1` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org (28× in a row)
+- `a6593c26e706` **error** linkrot: External link failing: EAI_AGAIN: fetch failed — https://namgyalmonastery.org/contact/ (28× in a row)
+- `e8f8fee79110` **error** linkrot: External link failing: HTTP 503 — https://publications.efeo.fr/en/livres/840_tantric-studies (28× in a row)
+- `63df07ee2310` **error** oembed: YouTube video is private or not embeddable — V-KnyhNmBB8 (26× in a row)
+- `658479fff7de` **error** oembed: YouTube video is private or not embeddable — LlPLpEpl-Wc (26× in a row)
+- `8dbee8f2fee1` **error** oembed: YouTube video is private or not embeddable — PJUVYlR9V6I (26× in a row)
+- `d40a378198fc` **error** oembed: YouTube video is private or not embeddable — V7zBzS1vRE4 (26× in a row)
+- `df0d2637603b` **error** oembed: YouTube video is private or not embeddable — OI0JS0ojrF8 (26× in a row)
+- `165f629b9ea5` **error** oembed: YouTube video is private or not embeddable — kffSFvuQ9Lg (25× in a row)
+- `16fdef44f3b8` **error** oembed: YouTube video is private or not embeddable — fEIC_tfDCIM (25× in a row)
+- `208405d68232` **error** oembed: YouTube video is private or not embeddable — dy2A8pfI6dg (25× in a row)
+- `23d2f206e938` **error** oembed: YouTube video is private or not embeddable — lIgt8-CygDs (25× in a row)
+- `3251c58a1b67` **error** oembed: YouTube video is private or not embeddable — boZnvNHqJBE (25× in a row)
+- `418ad364f4df` **error** oembed: YouTube video is private or not embeddable — jar-5yKZU9A (25× in a row)
+- `51e33a88fb9e` **error** oembed: YouTube video is private or not embeddable — acIxZR6DV6U (25× in a row)
+- `55514016e963` **error** oembed: YouTube video is private or not embeddable — iCgRb1rgdzA (25× in a row)
+- `5fb0b0c46648` **error** oembed: YouTube video is private or not embeddable — dqs8pGdp8EM (25× in a row)
+- `747e7c272b23` **error** oembed: YouTube video is private or not embeddable — dTQh9mqyrTM (25× in a row)
+- `7ce34e9a1813` **error** oembed: YouTube video is private or not embeddable — g3C8_cOKxXM (25× in a row)
+- `7d243ac50cd3` **error** linkrot: External link failing: ERR_TLS_CERT_ALTNAME_INVALID: fetch failed — https://www.abadiamontserrat.net/ (25× in a row)
+- `81da6e476e72` **error** oembed: YouTube video is private or not embeddable — _SNO8mZV8rc (25× in a row)
+- `827c5c3677cc` **error** oembed: YouTube video is private or not embeddable — gb6d26mdAEI (25× in a row)
 
 ## Uptime by probe (30 d)
 
