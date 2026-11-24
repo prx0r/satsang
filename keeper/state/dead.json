@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:01:41Z",
+ "updated": "2026-11-24T14:22:42Z",
  "rule": "dead after 3 consecutive failing runs; 403/429 count as unknown, never dead",
  "clips": [
   "-Lt6njnECAM",
@@ -39,6 +39,7 @@
   "Hj2-BoW338I",
   "Hn0ACkPnVh4",
   "HuyuoJgz9_U",
+  "IXTpa9Pli6s",
   "Ineo8eYhnKU",
   "JRudoTWWZJg",
   "K3AqL-YWflA",
@@ -155,6 +156,7 @@
   "Hj2-BoW338I",
   "Hn0ACkPnVh4",
   "HuyuoJgz9_U",
+  "IXTpa9Pli6s",
   "Ineo8eYhnKU",
   "JRudoTWWZJg",
   "K3AqL-YWflA",
@@ -265,7 +267,6 @@
   "https://www.simonopetra.gr/",
   "https://www.solesmes.com/",
   "https://www.solesmes.com/contacts",
-  "https://www.sudoc.fr/041424565",
   "https://www.tongdosa.or.kr/"
  ]
 }
