@@ -1,8 +1,8 @@
 # Keeper report
 
-Updated 2026-11-24T14:22:42Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
+Updated 2026-11-24T17:42:50Z for https://tantrafiles.xyz. State branch: `keeper-state`. Agents: see keeper/AGENTS.md.
 
-**Open findings:** 383 (error 148, warn 8, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
+**Open findings:** 384 (error 149, warn 8, info 227). **Uptime (30 d):** 100%. **Down now:** nothing.
 **Dead:** 115 clips (115 videos), 32 external URLs. **Re-verify queue:** 499.
 
 ## By check
@@ -19,8 +19,8 @@ Updated 2026-11-24T14:22:42Z for https://tantrafiles.xyz. State branch: `keeper-
 | perf | 0 | 0 | 0 | 0 | 2026-11-22T12:43:42Z | 5 |
 | provenance | 221 | 0 | 0 | 221 | 2026-11-24T14:22:41Z | 2490 |
 | robots | 0 | 0 | 0 | 0 | 2026-11-24T14:22:42Z | 18 |
-| sitemap | 0 | 0 | 0 | 0 | 2026-11-24T06:01:39Z | 120 / 2264 |
-| uptime | 0 | 0 | 0 | 0 | 2026-11-24T06:01:40Z | 12 |
+| sitemap | 1 | 1 | 0 | 0 | 2026-11-24T17:42:47Z | 120 / 2264 |
+| uptime | 0 | 0 | 0 | 0 | 2026-11-24T17:42:49Z | 12 |
 
 ## Top problems
 
@@ -54,18 +54,18 @@ Updated 2026-11-24T14:22:42Z for https://tantrafiles.xyz. State branch: `keeper-
 
 | probe | up % | avg ms | last |
 |---|---:|---:|---|
-| api-health | 100.0 | 166 | up 2026-11-24T06:01:39Z |
-| home | 100.0 | 27 | up 2026-11-24T06:01:39Z |
-| hub:/person/ajahn-chah | 100.0 | 24 | up 2026-11-24T06:01:39Z |
-| hub:/topic/rebirth | 100.0 | 24 | up 2026-11-24T06:01:39Z |
-| hub:/tradition/buddhism | 100.0 | 24 | up 2026-11-24T06:01:39Z |
-| llms.txt | 100.0 | 53 | up 2026-11-24T06:01:40Z |
-| mcp-initialize | 100.0 | 549 | up 2026-11-24T06:01:40Z |
-| mcp-tool-call | 100.0 | 62 | up 2026-11-24T06:01:40Z |
-| mcp-tools-list | 100.0 | 45 | up 2026-11-24T06:01:40Z |
-| openapi.json | 100.0 | 42 | up 2026-11-24T06:01:40Z |
-| sitemap | 100.0 | 34 | up 2026-11-24T06:01:40Z |
-| well-known-mcp | 100.0 | 26 | up 2026-11-24T06:01:40Z |
+| api-health | 100.0 | 168 | up 2026-11-24T17:42:48Z |
+| home | 100.0 | 29 | up 2026-11-24T17:42:47Z |
+| hub:/person/ajahn-chah | 100.0 | 24 | up 2026-11-24T17:42:47Z |
+| hub:/topic/rebirth | 100.0 | 25 | up 2026-11-24T17:42:47Z |
+| hub:/tradition/buddhism | 100.0 | 25 | up 2026-11-24T17:42:47Z |
+| llms.txt | 100.0 | 53 | up 2026-11-24T17:42:49Z |
+| mcp-initialize | 100.0 | 551 | up 2026-11-24T17:42:49Z |
+| mcp-tool-call | 100.0 | 63 | up 2026-11-24T17:42:49Z |
+| mcp-tools-list | 100.0 | 45 | up 2026-11-24T17:42:49Z |
+| openapi.json | 100.0 | 42 | up 2026-11-24T17:42:49Z |
+| sitemap | 100.0 | 34 | up 2026-11-24T17:42:49Z |
+| well-known-mcp | 100.0 | 27 | up 2026-11-24T17:42:49Z |
 
 ## Performance (key pages)
 
